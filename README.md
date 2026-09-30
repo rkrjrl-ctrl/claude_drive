@@ -39,9 +39,19 @@ BOK_ECOS_API_KEY=발급받은키 python scripts/fetch_indicators.py
 
 ## 결과 파일
 
-- `data/history.csv` — 날짜별 전체 이력 (누적, 같은 날짜 재실행 시 덮어씀)
+- `data/history.csv` — 2026-08-21부터의 날짜별 일간 이력 (누적, 같은 날짜 재실행 시 덮어씀)
+- `data/long_term/<지표>.csv` — 지표별 장기 이력(최대 1948년~2026-09-22, 기존 대시보드에서 이전).
+  `date,값` 2열 구조이며 이후 매일 `data/history.csv`가 이어서 갱신됩니다.
 - `data/latest.json` — 가장 최근 값 하나
 - `data/STATUS.md` — 최근 실행에서 어떤 필드가 정상 갱신됐는지/실패해서 이전 값을 유지했는지 기록
+
+## 대시보드 (GitHub Pages)
+
+`scripts/build_dashboard.py`가 `data/long_term/*.csv` + `data/history.csv`를 합쳐 `site/index.html`을
+정적으로 생성하고, 매 실행마다 GitHub Pages로 자동 배포합니다. 별도 서버나 클라이언트 JS 데이터 로딩 없이
+빌드 시점에 SVG로 굽는 방식이라 그대로 열립니다.
+
+Pages URL: **Settings → Pages**에서 확인하거나, 저장소의 About 섹션에 표시됩니다.
 
 ## 동작 방식
 
