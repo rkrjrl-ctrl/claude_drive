@@ -27,6 +27,7 @@ jobs:
       - name: Fetch indicators
         env:
           BOK_ECOS_API_KEY: ${{ secrets.BOK_ECOS_API_KEY }}
+          REB_API_KEY: ${{ secrets.REB_API_KEY }}
         run: python scripts/fetch_indicators.py
 
       - name: Commit and push if changed
