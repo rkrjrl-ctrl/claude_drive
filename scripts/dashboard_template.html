@@ -1070,14 +1070,7 @@
     if(location.hash.indexOf("#chart=") === 0) history.replaceState(null, "", location.pathname + location.search);
   }
   function openChartTab(chartId){
-    var base = location.href.split("#")[0];
-    var a = document.createElement("a");
-    a.href = base + "#chart=" + chartId;
-    a.target = "_blank";
-    a.rel = "noopener";
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
+    location.hash = "chart=" + chartId;
   }
   function openModalFromHash(){
     var m = location.hash.match(/^#chart=([a-zA-Z0-9_]+)$/);
