@@ -406,25 +406,23 @@
       monthlyOnly: true,
       history: beforeDaily(LT.us_unemployment, DAILY_START_MACRO),
       series:[ {key:"us_unemployment", name:"실업률", color:"var(--unemployment)", unit:"%", dec:1} ] },
-    { id:"apt-national", group:"grp-realestate", title:"전국 아파트 매매가격지수 (주별 2012.05~)", target:"grp-realestate",
-      history: beforeDaily(LT.kr_apt_price_national, DAILY_START_REALESTATE),
-      series:[ {key:"kr_apt_price_national", name:"전국", color:"var(--apt-national)", unit:"", dec:2} ] },
-    { id:"apt-seoul", group:"grp-realestate", title:"서울 아파트 매매가격지수 (주별 2012.05~)", target:"grp-realestate",
-      history: beforeDaily(LT.kr_apt_price_seoul, DAILY_START_REALESTATE),
-      series:[ {key:"kr_apt_price_seoul", name:"서울", color:"var(--apt-seoul)", unit:"", dec:2} ] },
-    { id:"apt-price-national", group:"grp-realestate", title:"전국 아파트 평균·중위 매매가격 (월별 2006.01~)", target:"grp-realestate",
-      monthlyOnly: true,
-      history: mergeArrays(beforeDaily(LT.kr_apt_avgprice_national, DAILY_START_REALESTATE), beforeDaily(LT.kr_apt_medprice_national, DAILY_START_REALESTATE)),
+    { id:"apt-index", group:"grp-realestate", title:"전국·서울 아파트 매매가격지수 (주별 2012.05~)", target:"grp-realestate",
+      history: mergeArrays(beforeDaily(LT.kr_apt_price_national, DAILY_START_REALESTATE), beforeDaily(LT.kr_apt_price_seoul, DAILY_START_REALESTATE)),
       series:[
-        {key:"kr_apt_avgprice_national", name:"평균", color:"var(--apt-national)", unit:"만원/㎡", dec:0},
-        {key:"kr_apt_medprice_national", name:"중위", color:"var(--apt-national)", dash:"5,3", unit:"만원/㎡", dec:0}
+        {key:"kr_apt_price_national", name:"전국", color:"var(--apt-national)", unit:"", dec:2},
+        {key:"kr_apt_price_seoul", name:"서울", color:"var(--apt-seoul)", unit:"", dec:2}
       ] },
-    { id:"apt-price-seoul", group:"grp-realestate", title:"서울 아파트 평균·중위 매매가격 (월별 2006.01~)", target:"grp-realestate",
+    { id:"apt-price", group:"grp-realestate", title:"전국·서울 아파트 평균·중위 매매가격 (월별 2006.01~)", target:"grp-realestate",
       monthlyOnly: true,
-      history: mergeArrays(beforeDaily(LT.kr_apt_avgprice_seoul, DAILY_START_REALESTATE), beforeDaily(LT.kr_apt_medprice_seoul, DAILY_START_REALESTATE)),
+      history: mergeArrays(
+        beforeDaily(LT.kr_apt_avgprice_national, DAILY_START_REALESTATE), beforeDaily(LT.kr_apt_medprice_national, DAILY_START_REALESTATE),
+        beforeDaily(LT.kr_apt_avgprice_seoul, DAILY_START_REALESTATE), beforeDaily(LT.kr_apt_medprice_seoul, DAILY_START_REALESTATE)
+      ),
       series:[
-        {key:"kr_apt_avgprice_seoul", name:"평균", color:"var(--apt-seoul)", unit:"만원/㎡", dec:0},
-        {key:"kr_apt_medprice_seoul", name:"중위", color:"var(--apt-seoul)", dash:"5,3", unit:"만원/㎡", dec:0}
+        {key:"kr_apt_avgprice_national", name:"전국 평균", color:"var(--apt-national)", unit:"만원/㎡", dec:0},
+        {key:"kr_apt_medprice_national", name:"전국 중위", color:"var(--apt-national)", dash:"5,3", unit:"만원/㎡", dec:0},
+        {key:"kr_apt_avgprice_seoul", name:"서울 평균", color:"var(--apt-seoul)", unit:"만원/㎡", dec:0},
+        {key:"kr_apt_medprice_seoul", name:"서울 중위", color:"var(--apt-seoul)", dash:"5,3", unit:"만원/㎡", dec:0}
       ] },
     { id:"kospi",  group:"grp-stocks", title:"코스피 (일별 1981.05~)",         target:"grp-stocks",
       history: beforeDaily(LT.kospi_lt),
