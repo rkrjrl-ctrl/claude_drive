@@ -1,9 +1,9 @@
 # 경제 지표 자동 수집
 
-한국/미국 경제 지표 26종을 매일 자동으로 수집해 `data/history.csv`에 누적합니다.
+한국/미국 경제 지표 30종을 매일 자동으로 수집해 `data/history.csv`에 누적합니다.
 GitHub Actions 스케줄러(cron)로 실행되므로 **컴퓨터가 꺼져 있어도** 매일 갱신됩니다.
 
-## 수집 지표 (26종)
+## 수집 지표 (30종)
 
 | 필드 | 설명 | 출처 |
 |---|---|---|
@@ -27,6 +27,8 @@ GitHub Actions 스케줄러(cron)로 실행되므로 **컴퓨터가 꺼져 있�
 | us_yield_spread | 미국 10Y-2Y 금리 스프레드 | 로컬 계산(us_10y - us_2y), 별도 수집 없음. 경기침체 선행지표로 유명 |
 | kr_apt_price_national | 전국 아파트 매매가격지수 | 한국부동산원 R-ONE Open API (통계표 T244183132827305, CLS_ID 50001) — 주간. 특정 시점=100 기준 지수 |
 | kr_apt_price_seoul | 서울 아파트 매매가격지수 | 한국부동산원 R-ONE Open API (통계표 T244183132827305, CLS_ID 50008) — 주간 |
+| kr_apt_avgprice_national / _seoul | 전국/서울 아파트 평균 매매가격 (만원/㎡) | 한국부동산원 R-ONE Open API (통계표 A_2024_00188, CLS_ID 500001/500004) — 월간, 지수가 아닌 실제 가격 |
+| kr_apt_medprice_national / _seoul | 전국/서울 아파트 중위 매매가격 (만원/㎡) | 한국부동산원 R-ONE Open API (통계표 A_2024_00189, CLS_ID 500001/500004) — 월간, 지수가 아닌 실제 가격 |
 
 ## 설정 (최초 1회)
 
