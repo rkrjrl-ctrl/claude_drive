@@ -224,7 +224,7 @@ def main():
     fetched["dow"] = fred_latest("DJIA")
     fetched["sp500"] = fred_latest("SP500")
     fetched["nasdaq"] = fred_latest("NASDAQCOM")
-    fetched["wti"] = fred_latest("DCOILWTICO", lookback_days=45)
+    fetched["wti"] = yahoo_price("CL=F")
     fetched["us_cpi"] = fred_yoy("CPIAUCSL")
     fetched["us_m2"] = fred_latest("M2SL", lookback_days=120)
 

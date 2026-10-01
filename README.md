@@ -15,7 +15,7 @@ GitHub Actions 스케줄러(cron)로 실행되므로 **컴퓨터가 꺼져 있�
 | kospi / kosdaq | 코스피/코스닥 지수 | Yahoo Finance |
 | sp500 / dow / nasdaq | S&P500/다우/나스닥 | FRED (SP500/DJIA/NASDAQCOM) |
 | kr_cpi / us_cpi | 소비자물가 상승률(전년동월비) | 한국은행 ECOS(901Y009) / FRED(CPIAUCSL)에서 계산 |
-| wti | WTI 원유 | FRED (DCOILWTICO) |
+| wti | WTI 원유 | Yahoo Finance 선물(CL=F) — 실시간. FRED(DCOILWTICO)는 공식 EIA 벤치마크지만 1~2일 지연 |
 | gold | 국제 금값 | Yahoo Finance (GC=F) |
 | kr_m2 / us_m2 | 통화량 M2 | 한국은행 ECOS(161Y006) / FRED(M2SL) |
 
