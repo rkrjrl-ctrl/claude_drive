@@ -1,6 +1,6 @@
 # 자동 수집 상태 (매 실행마다 덮어씀)
 
-최근 실행: 2026-10-02T05:25:12+09:00 (KST)
+최근 실행: 2026-10-02T05:43:33+09:00 (KST)
 
 | 필드 | 상태 |
 |---|---|
@@ -30,3 +30,7 @@
 | us_yield_spread | 정상 갱신 |
 | kr_apt_price_national | 정상 갱신 |
 | kr_apt_price_seoul | 정상 갱신 |
+| kr_apt_avgprice_national | 정상 갱신 |
+| kr_apt_avgprice_seoul | 정상 갱신 |
+| kr_apt_medprice_national | 정상 갱신 |
+| kr_apt_medprice_seoul | 정상 갱신 |
