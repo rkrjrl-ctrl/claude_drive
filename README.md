@@ -11,9 +11,10 @@ GitHub Actions 스케줄러(cron)로 실행되므로 **컴퓨터가 꺼져 있�
 | kr_rate | 한국 기준금리 | 한국은행 ECOS (722Y001) |
 | us_rate | 미국 기준금리(상단/하단 중간값) | FRED (DFEDTARU/DFEDTARL) |
 | kr_2y / kr_10y | 한국 국고채 2년/10년 금리 | 한국은행 ECOS (817Y002) |
-| us_2y / us_10y | 미국 국채 2년/10년 금리 | FRED (DGS2/DGS10) |
+| us_2y | 미국 국채 2년 금리 | FRED (DGS2) — Yahoo에 2년물 전용 실시간 티커가 없어 유지 |
+| us_10y | 미국 국채 10년 금리 | Yahoo Finance (^TNX) — 실시간 |
 | kospi / kosdaq | 코스피/코스닥 지수 | Yahoo Finance |
-| sp500 / dow / nasdaq | S&P500/다우/나스닥 | FRED (SP500/DJIA/NASDAQCOM) |
+| sp500 / dow / nasdaq | S&P500/다우/나스닥 | Yahoo Finance (^GSPC/^DJI/^IXIC) — 실시간 |
 | kr_cpi / us_cpi | 소비자물가 상승률(전년동월비) | 한국은행 ECOS(901Y009) / FRED(CPIAUCSL)에서 계산 |
 | wti | WTI 원유 | Yahoo Finance 선물(CL=F) — 실시간. FRED(DCOILWTICO)는 공식 EIA 벤치마크지만 1~2일 지연 |
 | gold | 국제 금값 | Yahoo Finance (GC=F) |
