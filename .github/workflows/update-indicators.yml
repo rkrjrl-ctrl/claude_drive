@@ -42,7 +42,7 @@ jobs:
           fi
 
       - name: Build dashboard
-        run: python scripts/build_dashboard.py
+        run: node scripts/build_dashboard.js
 
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -47,9 +47,11 @@ BOK_ECOS_API_KEY=발급받은키 python scripts/fetch_indicators.py
 
 ## 대시보드 (GitHub Pages)
 
-`scripts/build_dashboard.py`가 `data/long_term/*.csv` + `data/history.csv`를 합쳐 `site/index.html`을
-정적으로 생성하고, 매 실행마다 GitHub Pages로 자동 배포합니다. 별도 서버나 클라이언트 JS 데이터 로딩 없이
-빌드 시점에 SVG로 굽는 방식이라 그대로 열립니다.
+`scripts/dashboard_template.html`은 기존 Claude Artifact/구글드라이브 대시보드와 **완전히 동일한 UI/기능**
+(일·월 토글, 1·3·5·10년/전체 기간, 마우스 휠 확대·축소, 드래그 패닝, 카드 클릭 시 크게 보기, M2 듀얼축 등)을
+그대로 가진 앱 셸입니다. `scripts/build_dashboard.js`가 여기에 `data/long_term/*.csv` + `data/history.csv`를
+구워 넣어 `site/index.html`을 완전한 정적 파일로 만들고, 매 실행마다 GitHub Pages로 자동 배포합니다.
+라이브 DB 연동 코드는 빌드 시 제거되고, 그 자리에 생성 시각이 적힌 안내 문구로 대체됩니다.
 
 Pages URL: **Settings → Pages**에서 확인하거나, 저장소의 About 섹션에 표시됩니다.
 
