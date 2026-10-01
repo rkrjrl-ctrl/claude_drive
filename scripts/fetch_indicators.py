@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
-"""Daily fetch of 18 KR/US economic indicators into data/history.csv.
+"""Daily fetch of 24 KR/US economic indicators into data/history.csv.
 
 Sources (no scraping, all official/stable APIs):
-  - FRED (fredgraph.csv, no key): US rates, US CPI, US M2, US/KR treasury yields via DGS series,
-    USD/KRW, Dow, S&P 500, Nasdaq, WTI.
-  - Yahoo Finance chart API (no key): KOSPI, KOSDAQ, gold.
+  - FRED (fredgraph.csv, no key): US rate target, US CPI, US M2, US 2y yield, US unemployment,
+    US high-yield credit spread.
+  - Yahoo Finance chart API (no key): USD/KRW, US 10y yield, Dow, S&P 500, Nasdaq, WTI, KOSPI,
+    KOSDAQ, gold, VIX, US dollar index (DXY), copper.
   - Bank of Korea ECOS (needs BOK_ECOS_API_KEY): KR base rate, KR 2y/10y bond yield, KR CPI, KR M2.
+  - us_yield_spread is computed locally (us_10y - us_2y), not fetched.
 
 If a field can't be fetched, the previous value is carried forward and a warning is recorded
 in data/STATUS.md so staleness is visible instead of silently frozen.
@@ -27,7 +29,8 @@ STATUS_MD = os.path.join(ROOT, "data", "STATUS.md")
 FIELDS = [
     "date", "usdkrw", "kr_rate", "us_rate", "kr_2y", "kr_10y", "us_2y", "us_10y",
     "kospi", "kosdaq", "sp500", "dow", "nasdaq", "kr_cpi", "us_cpi", "wti", "gold",
-    "kr_m2", "us_m2", "updated_at",
+    "kr_m2", "us_m2", "vix", "dxy", "copper", "us_unemployment", "us_hy_spread",
+    "us_yield_spread", "updated_at",
 ]
 
 ECOS_KEY = os.environ.get("BOK_ECOS_API_KEY", "").strip()
@@ -235,6 +238,14 @@ def main():
     fetched["kospi"] = yahoo_price("%5EKS11")
     fetched["kosdaq"] = yahoo_price("%5EKQ11")
     fetched["gold"] = yahoo_price("GC=F")
+
+    fetched["vix"] = yahoo_price("%5EVIX")
+    fetched["dxy"] = yahoo_price("DX-Y.NYB")
+    fetched["copper"] = yahoo_price("HG=F")
+    fetched["us_unemployment"] = fred_latest("UNRATE", lookback_days=120)
+    fetched["us_hy_spread"] = fred_latest("BAMLH0A0HYM2", lookback_days=30)
+    if fetched.get("us_10y") is not None and fetched.get("us_2y") is not None:
+        fetched["us_yield_spread"] = round(fetched["us_10y"] - fetched["us_2y"], 3)
 
     kr_rate = ecos_latest("722Y001", "0101000", "D", lookback_periods=14)
     fetched["kr_rate"] = kr_rate[1] if kr_rate else None

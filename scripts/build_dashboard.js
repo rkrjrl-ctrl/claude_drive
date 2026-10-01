@@ -19,6 +19,8 @@ const LT_KEY = {
   us_10y: "us_10y_lt", kosdaq: "kosdaq_lt", kr_2y: "kr_2y_lt", us_m2: "us_m2_lt",
   kr_m2: "kr_m2_lt", us_2y: "us_2y_lt", kr_rate: "kr_rate_hist", us_rate: "us_rate_hist",
   dow: "dow", sp500: "sp500", us_cpi: "us_cpi", nasdaq: "nasdaq", gold: "gold", wti: "wti",
+  vix: "vix", dxy: "dxy", copper: "copper", us_unemployment: "us_unemployment",
+  us_hy_spread: "us_hy_spread", us_yield_spread: "us_yield_spread",
 };
 
 function parseCsv(text) {
@@ -49,7 +51,7 @@ function loadRows() {
   const numeric = [
     "usdkrw", "kr_rate", "us_rate", "kr_2y", "kr_10y", "us_2y", "us_10y",
     "kospi", "kosdaq", "sp500", "dow", "nasdaq", "kr_cpi", "us_cpi", "wti", "gold",
-    "kr_m2", "us_m2",
+    "kr_m2", "us_m2", "vix", "dxy", "copper", "us_unemployment", "us_hy_spread", "us_yield_spread",
   ];
   return rows.map((r) => {
     const out = { date: r.date, updated_at: r.updated_at };

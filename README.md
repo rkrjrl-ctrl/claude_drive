@@ -1,9 +1,9 @@
 # 경제 지표 자동 수집
 
-한국/미국 경제 지표 18종을 매일 자동으로 수집해 `data/history.csv`에 누적합니다.
+한국/미국 경제 지표 24종을 매일 자동으로 수집해 `data/history.csv`에 누적합니다.
 GitHub Actions 스케줄러(cron)로 실행되므로 **컴퓨터가 꺼져 있어도** 매일 갱신됩니다.
 
-## 수집 지표 (18종)
+## 수집 지표 (24종)
 
 | 필드 | 설명 | 출처 |
 |---|---|---|
@@ -19,6 +19,12 @@ GitHub Actions 스케줄러(cron)로 실행되므로 **컴퓨터가 꺼져 있�
 | wti | WTI 원유 | Yahoo Finance 선물(CL=F) — 실시간. FRED(DCOILWTICO)는 공식 EIA 벤치마크지만 1~2일 지연 |
 | gold | 국제 금값 | Yahoo Finance (GC=F) |
 | kr_m2 / us_m2 | 통화량 M2 | 한국은행 ECOS(161Y006) / FRED(M2SL) |
+| vix | VIX 변동성지수 | Yahoo Finance (^VIX) — 실시간. 시장 위험회피 심리 지표 |
+| dxy | 달러인덱스 | Yahoo Finance (DX-Y.NYB) — 실시간. 달러 전반의 강약 지표 |
+| copper | 구리 선물 | Yahoo Finance (HG=F) — 실시간. 글로벌 경기 선행지표("닥터 코퍼") |
+| us_unemployment | 미국 실업률 | FRED (UNRATE) — 월간. Fed 정책 판단 핵심 지표 |
+| us_hy_spread | 미국 하이일드 신용스프레드 | FRED (BAMLH0A0HYM2) — 일별. 신용시장 위험선호도 지표 |
+| us_yield_spread | 미국 10Y-2Y 금리 스프레드 | 로컬 계산(us_10y - us_2y), 별도 수집 없음. 경기침체 선행지표로 유명 |
 
 ## 설정 (최초 1회)
 
