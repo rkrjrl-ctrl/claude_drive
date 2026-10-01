@@ -1144,24 +1144,39 @@
   renderAll();
 
   // ---- live db wiring ----
-  function boot(){
-    if(!window.claude || !window.claude.use){ return; }
-    window.claude.use("db").then(function(db){
-      if(!db){
-        document.getElementById("footNote").textContent = "실시간 저장소에 연결할 수 없어 최신 값만 표시 중입니다.";
-        return;
-      }
-      db.collection("snapshots").orderBy("date","asc").limit(1000).onSnapshot(function(snap){
-        var docs = snap.docs.map(function(d){ return d.data(); }).filter(function(d){ return d && d.date; });
-        if(docs.length > 0){
-          docs.sort(function(a,b){ return a.date < b.date ? -1 : a.date > b.date ? 1 : 0; });
-          rows = docs;
-          renderAll();
-        }
-      }, function(err){
-        document.getElementById("footNote").textContent = "실시간 데이터를 불러오지 못했습니다 (" + err.code + ").";
-      });
+  var GITHUB_CSV_URL = "https://raw.githubusercontent.com/rkrjrl-ctrl/claude_drive/main/data/history.csv";
+  var NUMERIC_FIELDS = ["usdkrw","kr_rate","us_rate","kr_2y","kr_10y","us_2y","us_10y",
+    "kospi","kosdaq","sp500","dow","nasdaq","kr_cpi","us_cpi","wti","gold","kr_m2","us_m2"];
+  function parseCsv(text){
+    var lines = text.trim().split(/\r?\n/);
+    var header = lines[0].split(",");
+    return lines.slice(1).map(function(line){
+      var cols = line.split(",");
+      var row = {};
+      header.forEach(function(h, i){ row[h] = cols[i]; });
+      return row;
     });
+  }
+  function toRow(r){
+    var out = { date: r.date, updated_at: r.updated_at };
+    NUMERIC_FIELDS.forEach(function(k){ if(r[k] !== undefined && r[k] !== "") out[k] = Number(r[k]); });
+    return out;
+  }
+  function boot(){
+    fetch(GITHUB_CSV_URL, { cache: "no-store" })
+      .then(function(res){ if(!res.ok) throw new Error("HTTP " + res.status); return res.text(); })
+      .then(function(text){
+        var parsed = parseCsv(text).map(toRow).filter(function(r){ return r.date; });
+        if(parsed.length === 0) throw new Error("empty csv");
+        parsed.sort(function(a,b){ return a.date < b.date ? -1 : a.date > b.date ? 1 : 0; });
+        rows = parsed;
+        renderAll();
+        document.getElementById("footNote").textContent =
+          "GitHub에서 실시간으로 받아온 데이터입니다(" + rows.length + "일치). 매일 자동 갱신됩니다.";
+      })
+      .catch(function(err){
+        document.getElementById("footNote").textContent = "실시간 데이터를 불러오지 못해 최신 값만 표시 중입니다.";
+      });
   }
   boot();
 })();
