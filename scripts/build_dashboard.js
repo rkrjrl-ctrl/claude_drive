@@ -59,7 +59,7 @@ function loadRows() {
 }
 
 function build() {
-  let html = fs.readFileSync(TEMPLATE, "utf8");
+  let html = fs.readFileSync(TEMPLATE, "utf8").replace(/\r\n/g, "\n");
   const buildAt = new Date().toISOString();
 
   const LT = loadLongTerm();

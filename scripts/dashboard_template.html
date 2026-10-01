@@ -474,9 +474,9 @@
     chartWrap.id = "chartwrap-" + cfg.id;
     card.appendChild(chartWrap);
 
-    card.addEventListener("click", function(){ openModal(cfg.id); });
+    card.addEventListener("click", function(){ openChartTab(cfg.id); });
     card.addEventListener("keydown", function(e){
-      if(e.key === "Enter" || e.key === " "){ e.preventDefault(); openModal(cfg.id); }
+      if(e.key === "Enter" || e.key === " "){ e.preventDefault(); openChartTab(cfg.id); }
     });
 
     return card;
@@ -1059,7 +1059,19 @@
     modalState.openId = null;
     document.getElementById("modalBackdrop").classList.remove("open");
     document.body.style.overflow = "";
+    if(location.hash.indexOf("#chart=") === 0) history.replaceState(null, "", location.pathname + location.search);
   }
+  function openChartTab(chartId){
+    var base = location.href.split("#")[0];
+    window.open(base + "#chart=" + chartId, "_blank");
+  }
+  function openModalFromHash(){
+    var m = location.hash.match(/^#chart=([a-zA-Z0-9_]+)$/);
+    if(m && CHARTS_BY_ID[m[1]]) openModal(m[1]);
+    else if(!m && modalState.openId) closeModal();
+  }
+  openModalFromHash();
+  window.addEventListener("hashchange", openModalFromHash);
   document.getElementById("modalClose").addEventListener("click", closeModal);
   document.getElementById("modalBackdrop").addEventListener("click", function(e){
     if(e.target === this) closeModal();
