@@ -40,7 +40,9 @@ function loadLongTerm() {
     const file = path.join(LONG_TERM_DIR, `${field}.csv`);
     if (!fs.existsSync(file)) continue;
     const rows = parseCsv(fs.readFileSync(file, "utf8"));
-    LT[ltKey] = rows.map((r) => ({ date: r.date, [field]: Number(r[field]) }));
+    LT[ltKey] = rows
+      .filter((r) => r[field] !== undefined && r[field] !== "")
+      .map((r) => ({ date: r.date, [field]: Number(r[field]) }));
   }
   return LT;
 }

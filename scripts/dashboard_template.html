@@ -376,6 +376,7 @@
       history: beforeDaily(LT.dxy),
       series:[ {key:"dxy", name:"DXY", color:"var(--dxy)", unit:"", dec:2} ] },
     { id:"yieldspread", group:"grp-macro", title:"미국 10Y-2Y 금리 스프레드 (일별 1988.02~)", target:"grp-macro",
+      zeroLine: true,
       history: beforeDaily(LT.us_yield_spread),
       series:[ {key:"us_yield_spread", name:"10Y-2Y", color:"var(--yieldspread)", unit:"%p", dec:2} ] },
     { id:"hyspread", group:"grp-macro", title:"미국 하이일드 신용스프레드 (일별 2023.10~)", target:"grp-macro",
@@ -823,6 +824,18 @@
       tLabel.textContent = fmtDateShort(pts[tIdx].date);
       svg.appendChild(tLabel);
     });
+
+    if(cfg.zeroLine){
+      var zd = domains[visibleSeries[0].key];
+      if(zd && zd.min <= 0 && zd.max >= 0){
+        var zy = yAt(visibleSeries[0].key, 0);
+        var zline = document.createElementNS(svg.namespaceURI,"line");
+        zline.setAttribute("x1", PAD_L); zline.setAttribute("x2", W-PAD_R);
+        zline.setAttribute("y1", zy); zline.setAttribute("y2", zy);
+        zline.setAttribute("class","baseline");
+        svg.appendChild(zline);
+      }
+    }
 
     visibleSeries.forEach(function(s){
       var d = "";
