@@ -7,7 +7,7 @@ GitHub Actions 스케줄러(cron)로 실행되므로 **컴퓨터가 꺼져 있�
 
 | 필드 | 설명 | 출처 |
 |---|---|---|
-| usdkrw | 원/달러 환율 | FRED (DEXKOUS) |
+| usdkrw | 원/달러 환율 | Yahoo Finance (KRW=X) — FRED(DEXKOUS)는 공개 지연이 수일씩 발생해 제외 |
 | kr_rate | 한국 기준금리 | 한국은행 ECOS (722Y001) |
 | us_rate | 미국 기준금리(상단/하단 중간값) | FRED (DFEDTARU/DFEDTARL) |
 | kr_2y / kr_10y | 한국 국고채 2년/10년 금리 | 한국은행 ECOS (817Y002) |

@@ -218,7 +218,7 @@ def main():
     last_row = load_last_row()
 
     fetched = {}
-    fetched["usdkrw"] = fred_latest("DEXKOUS")
+    fetched["usdkrw"] = yahoo_price("KRW=X")
     fetched["us_2y"] = fred_latest("DGS2")
     fetched["us_10y"] = fred_latest("DGS10")
     fetched["dow"] = fred_latest("DJIA")
