@@ -1063,7 +1063,13 @@
   }
   function openChartTab(chartId){
     var base = location.href.split("#")[0];
-    window.open(base + "#chart=" + chartId, "_blank");
+    var a = document.createElement("a");
+    a.href = base + "#chart=" + chartId;
+    a.target = "_blank";
+    a.rel = "noopener";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
   }
   function openModalFromHash(){
     var m = location.hash.match(/^#chart=([a-zA-Z0-9_]+)$/);
