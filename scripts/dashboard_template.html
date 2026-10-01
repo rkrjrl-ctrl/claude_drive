@@ -207,6 +207,12 @@
     font-size:15px; cursor:pointer; display:flex; align-items:center; justify-content:center;
   }
   .modal-close:hover{ color:var(--ink-primary); }
+  body.chart-page .wrap{ display:none; }
+  body.chart-page .modal-backdrop{
+    position:static; background:none; opacity:1; pointer-events:auto;
+    padding:24px 16px 48px; display:flex;
+  }
+  body.chart-page .modal-panel{ box-shadow:none; max-width:960px; max-height:none; margin:0 auto; }
   .modal-title{ font-family:'Zilla Slab', Georgia, serif; font-weight:600; font-size:19px; margin:0 40px 14px 0; }
   #modalValues.card-values{ margin-bottom:10px; }
   #modalValues.multi-values{ margin-bottom:10px; }
@@ -1053,11 +1059,13 @@
     mc.appendChild(buildControlsEl(cfg));
     renderModalChart(cfg);
     document.getElementById("modalBackdrop").classList.add("open");
+    document.body.classList.add("chart-page");
     document.body.style.overflow = "hidden";
   }
   function closeModal(){
     modalState.openId = null;
     document.getElementById("modalBackdrop").classList.remove("open");
+    document.body.classList.remove("chart-page");
     document.body.style.overflow = "";
     if(location.hash.indexOf("#chart=") === 0) history.replaceState(null, "", location.pathname + location.search);
   }
