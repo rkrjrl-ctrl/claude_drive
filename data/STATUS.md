@@ -1,6 +1,6 @@
 # 자동 수집 상태 (매 실행마다 덮어씀)
 
-최근 실행: 2026-10-02T05:23:03+09:00 (KST)
+최근 실행: 2026-10-02T05:25:12+09:00 (KST)
 
 | 필드 | 상태 |
 |---|---|
@@ -28,10 +28,5 @@
 | us_unemployment | 정상 갱신 |
 | us_hy_spread | 정상 갱신 |
 | us_yield_spread | 정상 갱신 |
-| kr_apt_price_national | - |
-| kr_apt_price_seoul | - |
-
-## 경고
-
-- REB 50001: REB_API_KEY not set
-- REB 50008: REB_API_KEY not set
+| kr_apt_price_national | 정상 갱신 |
+| kr_apt_price_seoul | 정상 갱신 |

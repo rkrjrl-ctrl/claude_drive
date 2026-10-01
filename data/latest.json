@@ -1,7 +1,7 @@
 {
   "date": "2026-10-02",
-  "updated_at": "2026-10-02T05:23:03+09:00",
-  "usdkrw": 1358.26,
+  "updated_at": "2026-10-02T05:25:12+09:00",
+  "usdkrw": 1358.4,
   "kr_rate": 3.0,
   "us_rate": 3.875,
   "kr_2y": 3.967,
@@ -15,16 +15,16 @@
   "nasdaq": 26871.596,
   "kr_cpi": 3.09,
   "us_cpi": 3.35,
-  "wti": 93.07,
-  "gold": 4207.6,
+  "wti": 92.97,
+  "gold": 4208.5,
   "kr_m2": 4223.41,
   "us_m2": 23342.8,
-  "vix": 16.43,
-  "dxy": 102.045,
-  "copper": 6.582,
+  "vix": 16.44,
+  "dxy": 102.022,
+  "copper": 6.5845,
   "us_unemployment": 4.1,
   "us_hy_spread": 3.12,
   "us_yield_spread": 0.357,
-  "kr_apt_price_national": "",
-  "kr_apt_price_seoul": ""
+  "kr_apt_price_national": 101.036596269514,
+  "kr_apt_price_seoul": 102.62171143251
 }
