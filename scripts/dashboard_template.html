@@ -406,7 +406,7 @@
       monthlyOnly: true,
       history: beforeDaily(LT.us_unemployment, DAILY_START_MACRO),
       series:[ {key:"us_unemployment", name:"실업률", color:"var(--unemployment)", unit:"%", dec:1} ] },
-    { id:"apt-index", group:"grp-realestate", title:"전국·서울 아파트 매매가격지수 (주별 2012.05~)", target:"grp-realestate",
+    { id:"apt-index", group:"grp-realestate", title:"전국·서울 아파트 매매가격지수 (월별 2003.11~2012.04, 주별 2012.05~)", target:"grp-realestate",
       history: mergeArrays(beforeDaily(LT.kr_apt_price_national, DAILY_START_REALESTATE), beforeDaily(LT.kr_apt_price_seoul, DAILY_START_REALESTATE)),
       series:[
         {key:"kr_apt_price_national", name:"전국", color:"var(--apt-national)", unit:"", dec:2},
