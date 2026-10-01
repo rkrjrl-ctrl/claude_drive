@@ -350,8 +350,17 @@
   // daily snapshots begin 2026-08-21; historical points on/after this date are dropped from
   // each card's history so the higher-resolution daily series always takes over from here.
   var DAILY_START = "2026-08-21";
-  function beforeDaily(arr){
-    return arr.filter(function(p){ return p.date < DAILY_START; });
+  // Fields added to the daily collector later than DAILY_START must use their OWN actual
+  // first-collected date here, not the shared DAILY_START -- otherwise beforeDaily() below
+  // discards long-term backfill points that fall in [DAILY_START, their real start date)
+  // even though daily `rows` has nothing there yet either, leaving a real data hole that
+  // renders as one long straight line segment (looked like "frozen" data, not a bug in the
+  // values themselves -- the gap was manufactured by this filter).
+  var DAILY_START_MACRO = "2026-10-01";  // vix/dxy/copper/us_unemployment/us_hy_spread/us_yield_spread
+  var DAILY_START_REALESTATE = "2026-10-02";  // kr_apt_price_*/kr_apt_avgprice_*/kr_apt_medprice_*
+  function beforeDaily(arr, cutoff){
+    var c = cutoff || DAILY_START;
+    return arr.filter(function(p){ return p.date < c; });
   }
   function mergeArrays(){
     var all = [];
@@ -381,38 +390,38 @@
         {key:"us_10y", name:"미국 10Y", color:"var(--us-10y)", dash:"5,3", unit:"%", dec:2}
       ] },
     { id:"vix",    group:"grp-macro",  title:"VIX 변동성지수 (일별 1990.02~)",  target:"grp-macro",
-      history: beforeDaily(LT.vix),
+      history: beforeDaily(LT.vix, DAILY_START_MACRO),
       series:[ {key:"vix", name:"VIX", color:"var(--vix)", unit:"", dec:2} ] },
     { id:"dxy",    group:"grp-macro",  title:"달러인덱스 (일별 1985.01~)",      target:"grp-macro",
-      history: beforeDaily(LT.dxy),
+      history: beforeDaily(LT.dxy, DAILY_START_MACRO),
       series:[ {key:"dxy", name:"DXY", color:"var(--dxy)", unit:"", dec:2} ] },
     { id:"yieldspread", group:"grp-macro", title:"미국 10Y-2Y 금리 스프레드 (일별 1988.02~)", target:"grp-macro",
       zeroLine: true,
-      history: beforeDaily(LT.us_yield_spread),
+      history: beforeDaily(LT.us_yield_spread, DAILY_START_MACRO),
       series:[ {key:"us_yield_spread", name:"10Y-2Y", color:"var(--yieldspread)", unit:"%p", dec:2} ] },
     { id:"hyspread", group:"grp-macro", title:"미국 하이일드 신용스프레드 (일별 2023.10~)", target:"grp-macro",
-      history: beforeDaily(LT.us_hy_spread),
+      history: beforeDaily(LT.us_hy_spread, DAILY_START_MACRO),
       series:[ {key:"us_hy_spread", name:"HY 스프레드", color:"var(--hyspread)", unit:"%p", dec:2} ] },
     { id:"unemployment", group:"grp-macro", title:"미국 실업률 (월별 1948.01~)", target:"grp-macro",
       monthlyOnly: true,
-      history: beforeDaily(LT.us_unemployment),
+      history: beforeDaily(LT.us_unemployment, DAILY_START_MACRO),
       series:[ {key:"us_unemployment", name:"실업률", color:"var(--unemployment)", unit:"%", dec:1} ] },
     { id:"apt-national", group:"grp-realestate", title:"전국 아파트 매매가격지수 (주별 2012.05~)", target:"grp-realestate",
-      history: beforeDaily(LT.kr_apt_price_national),
+      history: beforeDaily(LT.kr_apt_price_national, DAILY_START_REALESTATE),
       series:[ {key:"kr_apt_price_national", name:"전국", color:"var(--apt-national)", unit:"", dec:2} ] },
     { id:"apt-seoul", group:"grp-realestate", title:"서울 아파트 매매가격지수 (주별 2012.05~)", target:"grp-realestate",
-      history: beforeDaily(LT.kr_apt_price_seoul),
+      history: beforeDaily(LT.kr_apt_price_seoul, DAILY_START_REALESTATE),
       series:[ {key:"kr_apt_price_seoul", name:"서울", color:"var(--apt-seoul)", unit:"", dec:2} ] },
     { id:"apt-price-national", group:"grp-realestate", title:"전국 아파트 평균·중위 매매가격 (월별 2006.01~)", target:"grp-realestate",
       monthlyOnly: true,
-      history: mergeArrays(beforeDaily(LT.kr_apt_avgprice_national), beforeDaily(LT.kr_apt_medprice_national)),
+      history: mergeArrays(beforeDaily(LT.kr_apt_avgprice_national, DAILY_START_REALESTATE), beforeDaily(LT.kr_apt_medprice_national, DAILY_START_REALESTATE)),
       series:[
         {key:"kr_apt_avgprice_national", name:"평균", color:"var(--apt-national)", unit:"만원/㎡", dec:0},
         {key:"kr_apt_medprice_national", name:"중위", color:"var(--apt-national)", dash:"5,3", unit:"만원/㎡", dec:0}
       ] },
     { id:"apt-price-seoul", group:"grp-realestate", title:"서울 아파트 평균·중위 매매가격 (월별 2006.01~)", target:"grp-realestate",
       monthlyOnly: true,
-      history: mergeArrays(beforeDaily(LT.kr_apt_avgprice_seoul), beforeDaily(LT.kr_apt_medprice_seoul)),
+      history: mergeArrays(beforeDaily(LT.kr_apt_avgprice_seoul, DAILY_START_REALESTATE), beforeDaily(LT.kr_apt_medprice_seoul, DAILY_START_REALESTATE)),
       series:[
         {key:"kr_apt_avgprice_seoul", name:"평균", color:"var(--apt-seoul)", unit:"만원/㎡", dec:0},
         {key:"kr_apt_medprice_seoul", name:"중위", color:"var(--apt-seoul)", dash:"5,3", unit:"만원/㎡", dec:0}
@@ -439,7 +448,7 @@
       history: beforeDaily(LT.gold),
       series:[ {key:"gold", name:"Gold", color:"var(--gold)", unit:"$/oz", dec:2} ] },
     { id:"copper", group:"grp-commod", title:"구리 선물 (일별 2000.09~)",       target:"grp-commod",
-      history: beforeDaily(LT.copper),
+      history: beforeDaily(LT.copper, DAILY_START_MACRO),
       series:[ {key:"copper", name:"Copper", color:"var(--copper)", unit:"$/lb", dec:3} ] },
     { id:"m2",     group:"grp-m2",     title:"M2 통화량 (한국 월별 1970.01~, 미국 월별 1959.01~)", target:"grp-m2",
       independentScale: true, deltaLabel:"전월대비", monthlyOnly: true,
