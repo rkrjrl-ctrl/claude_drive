@@ -16,9 +16,11 @@ If a field can't be fetched, the previous value is carried forward and a warning
 in data/STATUS.md so staleness is visible instead of silently frozen.
 """
 import csv
+import http.client
 import json
 import os
 import sys
+import time
 import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -45,14 +47,19 @@ UA = "Mozilla/5.0 (compatible; econ-indicator-bot/1.0)"
 warnings = []
 
 
-def http_get(url, headers=None):
+def http_get(url, headers=None, retries=1):
     req = urllib.request.Request(url, headers={"User-Agent": UA, **(headers or {})})
-    try:
-        with urllib.request.urlopen(req, timeout=20) as resp:
-            return resp.read().decode("utf-8")
-    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError) as e:
-        warnings.append(f"HTTP fetch failed: {url} ({e})")
-        return None
+    for attempt in range(retries + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                return resp.read().decode("utf-8")
+        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError,
+                http.client.HTTPException, OSError) as e:
+            if attempt < retries:
+                time.sleep(2)
+                continue
+            warnings.append(f"HTTP fetch failed: {url} ({e})")
+            return None
 
 
 def fred_series(series_id, cosd):
