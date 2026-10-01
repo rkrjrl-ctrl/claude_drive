@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Daily fetch of 24 KR/US economic indicators into data/history.csv.
+"""Daily fetch of 26 KR/US economic indicators into data/history.csv.
 
 Sources (no scraping, all official/stable APIs):
   - FRED (fredgraph.csv, no key): US rate target, US CPI, US M2, US 2y yield, US unemployment,
@@ -7,6 +7,8 @@ Sources (no scraping, all official/stable APIs):
   - Yahoo Finance chart API (no key): USD/KRW, US 10y yield, Dow, S&P 500, Nasdaq, WTI, KOSPI,
     KOSDAQ, gold, VIX, US dollar index (DXY), copper.
   - Bank of Korea ECOS (needs BOK_ECOS_API_KEY): KR base rate, KR 2y/10y bond yield, KR CPI, KR M2.
+  - Korea Real Estate Board R-ONE Open API (needs REB_API_KEY): nationwide/Seoul weekly
+    apartment sale price index.
   - us_yield_spread is computed locally (us_10y - us_2y), not fetched.
 
 If a field can't be fetched, the previous value is carried forward and a warning is recorded
@@ -30,10 +32,11 @@ FIELDS = [
     "date", "usdkrw", "kr_rate", "us_rate", "kr_2y", "kr_10y", "us_2y", "us_10y",
     "kospi", "kosdaq", "sp500", "dow", "nasdaq", "kr_cpi", "us_cpi", "wti", "gold",
     "kr_m2", "us_m2", "vix", "dxy", "copper", "us_unemployment", "us_hy_spread",
-    "us_yield_spread", "updated_at",
+    "us_yield_spread", "kr_apt_price_national", "kr_apt_price_seoul", "updated_at",
 ]
 
 ECOS_KEY = os.environ.get("BOK_ECOS_API_KEY", "").strip()
+REB_KEY = os.environ.get("REB_API_KEY", "").strip()
 UA = "Mozilla/5.0 (compatible; econ-indicator-bot/1.0)"
 
 warnings = []
@@ -166,6 +169,38 @@ def ecos_cpi_yoy(stat_code="901Y009", item_code="0"):
     return round((latest_val / prior - 1) * 100, 2)
 
 
+def reb_weekly_latest(cls_id, statbl_id="T244183132827305"):
+    """Korea Real Estate Board R-ONE: weekly apartment sale price index, nationwide (50001)
+    or Seoul (50008). Fetches the full small series each run and takes the last point --
+    simpler and more robust than guessing a page offset for "latest"."""
+    if not REB_KEY:
+        warnings.append(f"REB {cls_id}: REB_API_KEY not set")
+        return None
+    url = (
+        f"https://www.reb.or.kr/r-one/openapi/SttsApiTblData.do?KEY={REB_KEY}&Type=json"
+        f"&pIndex=1&pSize=1000&STATBL_ID={statbl_id}&DTACYCLE_CD=WK&CLS_ID={cls_id}"
+    )
+    text = http_get(url)
+    if not text:
+        return None
+    try:
+        data = json.loads(text)
+        rows = data["SttsApiTblData"][1]["row"]
+    except (ValueError, KeyError, IndexError):
+        msg = text[:200]
+        try:
+            msg = json.loads(text).get("RESULT", {}).get("MESSAGE", msg)
+        except ValueError:
+            pass
+        warnings.append(f"REB {cls_id}: {msg}")
+        return None
+    if not rows:
+        warnings.append(f"REB {cls_id}: empty result")
+        return None
+    rows.sort(key=lambda r: r["WRTTIME_DESC"])
+    return rows[-1]["DTA_VAL"]
+
+
 def load_last_row():
     if not os.path.exists(HISTORY_CSV):
         return None
@@ -256,6 +291,9 @@ def main():
     fetched["kr_cpi"] = ecos_cpi_yoy()
     kr_m2_raw = ecos_latest("161Y006", "BBHA00", "M", lookback_periods=6)
     fetched["kr_m2"] = round(kr_m2_raw[1] / 1000, 2) if kr_m2_raw else None  # 십억원 -> 조원
+
+    fetched["kr_apt_price_national"] = reb_weekly_latest("50001")
+    fetched["kr_apt_price_seoul"] = reb_weekly_latest("50008")
 
     row = {"date": today, "updated_at": now.isoformat(timespec="seconds")}
     fetched_ok, carried_forward = [], []

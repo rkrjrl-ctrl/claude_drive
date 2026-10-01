@@ -25,6 +25,8 @@
     --unemployment: #64748b;
     --hyspread:     #dc2626;
     --yieldspread:  #059669;
+    --apt-national: #92400e;
+    --apt-seoul:    #be185d;
     --chip-bg:      #f0efec;
     --shadow: 0 1px 2px rgba(11,11,11,0.04), 0 8px 24px -12px rgba(11,11,11,0.10);
   }
@@ -53,6 +55,8 @@
       --unemployment: #94a3b8;
       --hyspread:     #ef4444;
       --yieldspread:  #10b981;
+      --apt-national: #f59e0b;
+      --apt-seoul:    #f472b6;
       --chip-bg:      #232320;
       --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
     }
@@ -81,6 +85,8 @@
     --unemployment: #94a3b8;
     --hyspread:     #ef4444;
     --yieldspread:  #10b981;
+    --apt-national: #f59e0b;
+    --apt-seoul:    #f472b6;
     --chip-bg:      #232320;
     --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
   }
@@ -272,6 +278,9 @@
   <div class="section-title">시장 심리 &amp; 신용</div>
   <div class="grid wide" id="grp-macro"></div>
 
+  <div class="section-title">부동산</div>
+  <div class="grid wide" id="grp-realestate"></div>
+
   <div class="section-title">주가지수</div>
   <div class="grid" id="grp-stocks"></div>
 
@@ -286,6 +295,8 @@
     코스피·코스닥·다우·S&amp;P500·나스닥·금·한국/미국 국채 2Y·10Y와 원/달러(1981.04~)·WTI(1986.01~)는 <b>실제 일별 시세</b>입니다. M2는 발표 주기 자체가 월간이라 <b>월별</b>로만 제공합니다(미국 M2는 FRED 전체 월별, 한국 M2는 FRED 월별(1970~2017.05) 이후 2017.06~2024는 World Bank 연간값을 그대로 이어붙인 근사치이며 한국/미국 M2는 단위가 달라 한 차트에서 각각 독립 축척으로 표시됩니다). 한국 M2는 2003.10~은 KOSIS(한국은행 통화금융통계, "M2(평잔, 원계열)")의 실제 월별 원자료, 그 이전(1970.01~2003.09)은 FRED(MYAGM2KRM189S) 월별값을 이어붙였습니다 — 두 출처의 정의가 약간 달라 2003년 9~10월 경계에서 약 7% 단차가 있습니다. 기준금리는 정책 변경 시점에만 값이 바뀌는 지표라 원래 일별 개념이 없습니다. CPI(전년동월비)도 발표 주기가 월간이라 월별로 제공합니다 — 한국은 KOSIS(통계청, "월별 소비자물가 등락률"의 전년동월비 열, 1966.01~), 미국은 FRED CPIAUCSL(계절조정 지수)에서 12개월 전 대비 변화율을 직접 계산(1948.01~)했습니다.
     <br><br>
     <b>시장 심리 &amp; 신용 지표</b> — VIX(변동성지수)는 S&amp;P500 옵션의 내재변동성을 지수화한 것으로, 통상 20을 넘으면 시장의 위험회피 심리가 커진 것으로 해석합니다. 달러인덱스(DXY)는 유로·엔 등 주요 6개 통화 대비 달러의 전반적 강약을 나타내며, 원/달러 환율과 달리 달러 자체의 힘만 따로 봅니다. 구리 선물은 산업 수요(특히 건설·전력)와 연동돼 있어 글로벌 경기 선행지표로 흔히 "닥터 코퍼"라고 불립니다. 미국 실업률은 월간 발표되는 대표 고용지표로 Fed 금리 결정의 핵심 변수 중 하나입니다. 하이일드 신용스프레드는 투기등급 회사채와 국채의 금리 차이로, 벌어질수록 신용시장이 경기나 기업 부실 위험을 더 크게 보고 있다는 신호입니다. 10Y-2Y 금리 스프레드(미국 국채 10년물-2년물 금리 차이)는 마이너스로 역전되면 과거 여러 차례 경기침체의 선행 신호로 인용된 지표입니다(단, 역전 후 실제 침체까지 보통 수개월~2년 정도 시차가 있었습니다).
+    <br><br>
+    <b>부동산</b> — 한국부동산원이 매주 발표하는 <b>아파트 매매가격지수</b>(전국·서울, 2012.05~)입니다. 특정 시점을 100으로 놓은 지수라 절대 가격이 아니라 그 시점 대비 상대적인 등락을 보는 지표이며, 서울은 강남3구·마용성 등 특정 지역 쏠림에 따라 전국 평균과 방향이 다르게 움직일 때가 많습니다. 실거래 체감가와는 표본·가중방식 차이로 다소 괴리가 있을 수 있어, 추세(방향·속도) 확인용으로 보는 게 적절합니다.
   </div>
 
   <div class="footer-bar">
@@ -386,6 +397,12 @@
       monthlyOnly: true,
       history: beforeDaily(LT.us_unemployment),
       series:[ {key:"us_unemployment", name:"실업률", color:"var(--unemployment)", unit:"%", dec:1} ] },
+    { id:"apt-national", group:"grp-realestate", title:"전국 아파트 매매가격지수 (주별 2012.05~)", target:"grp-realestate",
+      history: beforeDaily(LT.kr_apt_price_national),
+      series:[ {key:"kr_apt_price_national", name:"전국", color:"var(--apt-national)", unit:"", dec:2} ] },
+    { id:"apt-seoul", group:"grp-realestate", title:"서울 아파트 매매가격지수 (주별 2012.05~)", target:"grp-realestate",
+      history: beforeDaily(LT.kr_apt_price_seoul),
+      series:[ {key:"kr_apt_price_seoul", name:"서울", color:"var(--apt-seoul)", unit:"", dec:2} ] },
     { id:"kospi",  group:"grp-stocks", title:"코스피 (일별 1981.05~)",         target:"grp-stocks",
       history: beforeDaily(LT.kospi_lt),
       series:[ {key:"kospi", name:"KOSPI", color:"var(--kr)", unit:"pt", dec:2} ] },
@@ -1143,7 +1160,7 @@
   });
 
   function renderAll(){
-    ["grp-rates","grp-cpi","grp-bonds","grp-macro","grp-stocks","grp-commod","grp-m2"].forEach(function(id){
+    ["grp-rates","grp-cpi","grp-bonds","grp-macro","grp-realestate","grp-stocks","grp-commod","grp-m2"].forEach(function(id){
       document.getElementById(id).innerHTML = "";
     });
     CHARTS.forEach(function(cfg){

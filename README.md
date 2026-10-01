@@ -1,9 +1,9 @@
 # 경제 지표 자동 수집
 
-한국/미국 경제 지표 24종을 매일 자동으로 수집해 `data/history.csv`에 누적합니다.
+한국/미국 경제 지표 26종을 매일 자동으로 수집해 `data/history.csv`에 누적합니다.
 GitHub Actions 스케줄러(cron)로 실행되므로 **컴퓨터가 꺼져 있어도** 매일 갱신됩니다.
 
-## 수집 지표 (24종)
+## 수집 지표 (26종)
 
 | 필드 | 설명 | 출처 |
 |---|---|---|
@@ -25,13 +25,17 @@ GitHub Actions 스케줄러(cron)로 실행되므로 **컴퓨터가 꺼져 있�
 | us_unemployment | 미국 실업률 | FRED (UNRATE) — 월간. Fed 정책 판단 핵심 지표 |
 | us_hy_spread | 미국 하이일드 신용스프레드 | FRED (BAMLH0A0HYM2) — 일별. 신용시장 위험선호도 지표 |
 | us_yield_spread | 미국 10Y-2Y 금리 스프레드 | 로컬 계산(us_10y - us_2y), 별도 수집 없음. 경기침체 선행지표로 유명 |
+| kr_apt_price_national | 전국 아파트 매매가격지수 | 한국부동산원 R-ONE Open API (통계표 T244183132827305, CLS_ID 50001) — 주간. 특정 시점=100 기준 지수 |
+| kr_apt_price_seoul | 서울 아파트 매매가격지수 | 한국부동산원 R-ONE Open API (통계표 T244183132827305, CLS_ID 50008) — 주간 |
 
 ## 설정 (최초 1회)
 
 1. https://ecos.bok.or.kr/api/#/ 에서 무료 회원가입 후 OpenAPI 인증키를 발급받습니다.
-2. 이 저장소의 **Settings → Secrets and variables → Actions → New repository secret**에서
-   이름 `BOK_ECOS_API_KEY`, 값에 발급받은 키를 등록합니다.
-3. 키를 등록하기 전에도 워크플로는 정상 실행되며, 한국 지표(kr_rate/kr_2y/kr_10y/kr_cpi/kr_m2) 5개만
+2. https://www.reb.or.kr/r-one/portal/openapi/openApiActKeyPage.do 에서 네이버/구글/카카오 로그인 후
+   "인증키발급" 메뉴에서 한국부동산원 R-ONE Open API 인증키를 발급받습니다.
+3. 이 저장소의 **Settings → Secrets and variables → Actions → New repository secret**에서
+   이름 `BOK_ECOS_API_KEY` / `REB_API_KEY`, 값에 각각 발급받은 키를 등록합니다.
+4. 키를 등록하기 전에도 워크플로는 정상 실행되며, 해당 키가 필요한 지표만
    비어있거나 이전 값이 유지됩니다(`data/STATUS.md`에서 상태 확인 가능).
 
 ## 수동 실행
