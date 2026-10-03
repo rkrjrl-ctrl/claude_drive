@@ -23,6 +23,7 @@
     --dxy:          #0ea5e9;
     --copper:       #b45309;
     --soy:       #15803d;
+    --silver:       #64748b;
     --corn:       #ca8a04;
     --wheat:       #c2410c;
     --unemployment: #64748b;
@@ -56,6 +57,7 @@
       --dxy:          #38bdf8;
       --copper:       #d97706;
       --soy:       #4ade80;
+      --silver:       #cbd5e1;
       --corn:       #facc15;
       --wheat:       #fb923c;
       --unemployment: #94a3b8;
@@ -89,6 +91,7 @@
     --dxy:          #38bdf8;
     --copper:       #d97706;
     --soy:       #4ade80;
+    --silver:       #cbd5e1;
     --corn:       #facc15;
     --wheat:       #fb923c;
     --unemployment: #94a3b8;
@@ -366,7 +369,7 @@
   // renders as one long straight line segment (looked like "frozen" data, not a bug in the
   // values themselves -- the gap was manufactured by this filter).
   var DAILY_START_MACRO = "2026-10-01";  // vix/dxy/copper/us_unemployment/us_hy_spread/us_yield_spread
-  var DAILY_START_AG = "2026-10-03";  // soybean/corn/wheat
+  var DAILY_START_AG = "2026-10-03";  // soybean/corn/wheat/silver
   var DAILY_START_REALESTATE = "2026-10-02";  // kr_apt_price_*/kr_apt_avgprice_*/kr_apt_medprice_*
   function beforeDaily(arr, cutoff){
     var c = cutoff || DAILY_START;
@@ -458,6 +461,9 @@
     { id:"copper", group:"grp-commod", title:"구리 선물 (일별 2000.09~)",       target:"grp-commod",
       history: beforeDaily(LT.copper, DAILY_START_MACRO),
       series:[ {key:"copper", name:"Copper", color:"var(--copper)", unit:"$/lb", dec:3} ] },
+    { id:"silver", group:"grp-commod", title:"은 선물 (일별 2000.08~)",       target:"grp-commod",
+      history: beforeDaily(LT.silver, DAILY_START_AG),
+      series:[ {key:"silver", name:"Silver", color:"var(--silver)", unit:"$/oz", dec:3} ] },
     { id:"grains", group:"grp-commod", title:"대표 농산물 선물 (일별 2000.07~)", target:"grp-commod",
       history: mergeArrays(beforeDaily(LT.soybean, DAILY_START_AG), beforeDaily(LT.corn, DAILY_START_AG), beforeDaily(LT.wheat, DAILY_START_AG)),
       series:[

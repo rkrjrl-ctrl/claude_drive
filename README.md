@@ -23,6 +23,7 @@ GitHub Actions 스케줄러(cron)로 실행되므로 **컴퓨터가 꺼져 있�
 | dxy | 달러인덱스 | Yahoo Finance (DX-Y.NYB) — 실시간. 달러 전반의 강약 지표 |
 | copper | 구리 선물 | Yahoo Finance (HG=F) — 실시간. 글로벌 경기 선행지표("닥터 코퍼") |
 | soybean / corn / wheat | 대두·옥수수·밀 선물 (¢/부셸) | Yahoo Finance (ZS=F / ZC=F / ZW=F) — 일별, 근월물 연속 시세(만기 교체 시 가격 단차 있을 수 있음). 장기: 2000~ |
+| silver | 은 선물 ($/oz) | Yahoo Finance (SI=F) — 일별, 근월물 연속 시세. 장기: 2000~ |
 | us_unemployment | 미국 실업률 | FRED (UNRATE) — 월간. Fed 정책 판단 핵심 지표 |
 | us_hy_spread | 미국 하이일드 신용스프레드 | FRED (BAMLH0A0HYM2) — 일별. 신용시장 위험선호도 지표 |
 | us_yield_spread | 미국 10Y-2Y 금리 스프레드 | 로컬 계산(us_10y - us_2y), 별도 수집 없음. 경기침체 선행지표로 유명 |

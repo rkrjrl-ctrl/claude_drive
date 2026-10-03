@@ -24,7 +24,7 @@ const LT_KEY = {
   kr_apt_price_national: "kr_apt_price_national", kr_apt_price_seoul: "kr_apt_price_seoul",
   kr_apt_avgprice_national: "kr_apt_avgprice_national", kr_apt_avgprice_seoul: "kr_apt_avgprice_seoul",
   kr_apt_medprice_national: "kr_apt_medprice_national", kr_apt_medprice_seoul: "kr_apt_medprice_seoul",
-  soybean: "soybean", corn: "corn", wheat: "wheat",
+  soybean: "soybean", corn: "corn", wheat: "wheat", silver: "silver",
 };
 
 function parseCsv(text) {
@@ -60,7 +60,7 @@ function loadRows() {
     "kr_m2", "us_m2", "vix", "dxy", "copper", "us_unemployment", "us_hy_spread", "us_yield_spread",
     "kr_apt_price_national", "kr_apt_price_seoul",
     "kr_apt_avgprice_national", "kr_apt_avgprice_seoul",
-    "kr_apt_medprice_national", "kr_apt_medprice_seoul", "soybean", "corn", "wheat",
+    "kr_apt_medprice_national", "kr_apt_medprice_seoul", "soybean", "corn", "wheat", "silver",
   ];
   return rows.map((r) => {
     const out = { date: r.date, updated_at: r.updated_at };
