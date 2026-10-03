@@ -76,7 +76,7 @@ function build() {
   const LT = loadLongTerm();
   const ltMarker = "var LT = {};";
   if (!html.includes(ltMarker)) throw new Error("LT marker not found in template");
-  html = html.replace(ltMarker, "var LT = " + JSON.stringify(LT) + ";");
+  html = html.replace(ltMarker, () => "var LT = decodeLT(" + JSON.stringify(require("./lt-codec.js").encode(LT)) + ");");
 
   const rows = loadRows();
   const rowsMarker = "var rows = [SEED_ROW]; // sorted ascending by date, replaced once db loads";

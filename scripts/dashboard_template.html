@@ -372,6 +372,19 @@
   };
 
   // ---- long-term annual/event history (static; merged into each card's own chart below) ----
+  function decodeLT(c){
+    var o = {}, base = Date.UTC(1900,0,1), cache = {};
+    Object.keys(c).forEach(function(k){
+      var e = c[k], day = 0, out = new Array(e.d.length);
+      for(var i = 0; i < out.length; i++){
+        day += e.d[i];
+        var s = cache[day] || (cache[day] = new Date(base + day*864e5).toISOString().slice(0,10));
+        var p = {date: s}; p[e.f] = e.v[i]; out[i] = p;
+      }
+      o[k] = out;
+    });
+    return o;
+  }
   var LT = {};
 
   // daily snapshots begin 2026-08-21; historical points on/after this date are dropped from
