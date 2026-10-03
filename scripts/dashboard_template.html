@@ -24,6 +24,9 @@
     --copper:       #b45309;
     --soy:       #15803d;
     --silver:       #64748b;
+    --cn:       #dc2626;
+    --jp:       #7c3aed;
+    --eu:       #0d9488;
     --corn:       #ca8a04;
     --wheat:       #c2410c;
     --unemployment: #64748b;
@@ -58,6 +61,9 @@
       --copper:       #d97706;
       --soy:       #4ade80;
       --silver:       #cbd5e1;
+      --cn:       #f87171;
+      --jp:       #a78bfa;
+      --eu:       #2dd4bf;
       --corn:       #facc15;
       --wheat:       #fb923c;
       --unemployment: #94a3b8;
@@ -92,6 +98,9 @@
     --copper:       #d97706;
     --soy:       #4ade80;
     --silver:       #cbd5e1;
+    --cn:       #f87171;
+    --jp:       #a78bfa;
+    --eu:       #2dd4bf;
     --corn:       #facc15;
     --wheat:       #fb923c;
     --unemployment: #94a3b8;
@@ -296,6 +305,9 @@
   <div class="section-title">주가지수</div>
   <div class="grid" id="grp-stocks"></div>
 
+  <div class="section-title">해외 주가지수 (중국·일본·유럽)</div>
+  <div class="grid" id="grp-world"></div>
+
   <div class="section-title">원자재</div>
   <div class="grid" id="grp-commod"></div>
 
@@ -369,7 +381,7 @@
   // renders as one long straight line segment (looked like "frozen" data, not a bug in the
   // values themselves -- the gap was manufactured by this filter).
   var DAILY_START_MACRO = "2026-10-01";  // vix/dxy/copper/us_unemployment/us_hy_spread/us_yield_spread
-  var DAILY_START_AG = "2026-10-03";  // soybean/corn/wheat/silver
+  var DAILY_START_AG = "2026-10-03";  // soybean/corn/wheat/silver/world indices (shanghai,hsi,nikkei,dax,ftse,cac,stoxx50)
   var DAILY_START_REALESTATE = "2026-10-02";  // kr_apt_price_*/kr_apt_avgprice_*/kr_apt_medprice_*
   function beforeDaily(arr, cutoff){
     var c = cutoff || DAILY_START;
@@ -452,6 +464,27 @@
     { id:"nasdaq", group:"grp-stocks", title:"나스닥 종합 (일별 1980.03~)",     target:"grp-stocks",
       history: beforeDaily(LT.nasdaq),
       series:[ {key:"nasdaq", name:"NASDAQ", color:"var(--us)", unit:"pt", dec:2} ] },
+    { id:"shanghai", group:"grp-world", title:"상해종합 (일별 1997.07~)", target:"grp-world",
+      history: beforeDaily(LT.shanghai, DAILY_START_AG),
+      series:[ {key:"shanghai", name:"Shanghai", color:"var(--cn)", unit:"pt", dec:2} ] },
+    { id:"hsi", group:"grp-world", title:"홍콩 항셍 (일별 1986.12~)", target:"grp-world",
+      history: beforeDaily(LT.hsi, DAILY_START_AG),
+      series:[ {key:"hsi", name:"Hang Seng", color:"var(--cn)", unit:"pt", dec:2} ] },
+    { id:"nikkei", group:"grp-world", title:"일본 닛케이 225 (일별 1965.01~)", target:"grp-world",
+      history: beforeDaily(LT.nikkei, DAILY_START_AG),
+      series:[ {key:"nikkei", name:"Nikkei", color:"var(--jp)", unit:"pt", dec:2} ] },
+    { id:"dax", group:"grp-world", title:"독일 DAX (일별 1987.12~)", target:"grp-world",
+      history: beforeDaily(LT.dax, DAILY_START_AG),
+      series:[ {key:"dax", name:"DAX", color:"var(--eu)", unit:"pt", dec:2} ] },
+    { id:"ftse", group:"grp-world", title:"영국 FTSE 100 (일별 1984.01~)", target:"grp-world",
+      history: beforeDaily(LT.ftse, DAILY_START_AG),
+      series:[ {key:"ftse", name:"FTSE", color:"var(--eu)", unit:"pt", dec:2} ] },
+    { id:"cac", group:"grp-world", title:"프랑스 CAC 40 (일별 1990.03~)", target:"grp-world",
+      history: beforeDaily(LT.cac, DAILY_START_AG),
+      series:[ {key:"cac", name:"CAC", color:"var(--eu)", unit:"pt", dec:2} ] },
+    { id:"stoxx50", group:"grp-world", title:"유로스톡스 50 (일별 2007.03~)", target:"grp-world",
+      history: beforeDaily(LT.stoxx50, DAILY_START_AG),
+      series:[ {key:"stoxx50", name:"Euro Stoxx", color:"var(--eu)", unit:"pt", dec:2} ] },
     { id:"wti",    group:"grp-commod", title:"WTI 원유 (일별 1986.01~)",       target:"grp-commod",
       history: beforeDaily(LT.wti),
       series:[ {key:"wti", name:"WTI", color:"var(--oil)", unit:"$/bbl", dec:2} ] },
@@ -1204,7 +1237,7 @@
   });
 
   function renderAll(){
-    ["grp-rates","grp-cpi","grp-bonds","grp-macro","grp-realestate","grp-stocks","grp-commod","grp-m2"].forEach(function(id){
+    ["grp-rates","grp-cpi","grp-bonds","grp-macro","grp-realestate","grp-stocks","grp-world","grp-commod","grp-m2"].forEach(function(id){
       document.getElementById(id).innerHTML = "";
     });
     CHARTS.forEach(function(cfg){

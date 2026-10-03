@@ -37,7 +37,7 @@ FIELDS = [
     "kr_m2", "us_m2", "vix", "dxy", "copper", "us_unemployment", "us_hy_spread",
     "us_yield_spread", "kr_apt_price_national", "kr_apt_price_seoul",
     "kr_apt_avgprice_national", "kr_apt_avgprice_seoul",
-    "kr_apt_medprice_national", "kr_apt_medprice_seoul", "soybean", "corn", "wheat", "silver", "updated_at",
+    "kr_apt_medprice_national", "kr_apt_medprice_seoul", "soybean", "corn", "wheat", "silver", "shanghai", "hsi", "nikkei", "dax", "ftse", "cac", "stoxx50", "updated_at",
 ]
 
 ECOS_KEY = os.environ.get("BOK_ECOS_API_KEY", "").strip()
@@ -303,6 +303,13 @@ def main():
     fetched["corn"] = yahoo_price("ZC=F")
     fetched["wheat"] = yahoo_price("ZW=F")
     fetched["silver"] = yahoo_price("SI=F")
+    fetched["shanghai"] = yahoo_price("000001.SS")
+    fetched["hsi"] = yahoo_price("%5EHSI")
+    fetched["nikkei"] = yahoo_price("%5EN225")
+    fetched["dax"] = yahoo_price("%5EGDAXI")
+    fetched["ftse"] = yahoo_price("%5EFTSE")
+    fetched["cac"] = yahoo_price("%5EFCHI")
+    fetched["stoxx50"] = yahoo_price("%5ESTOXX50E")
     fetched["us_unemployment"] = fred_latest("UNRATE", lookback_days=120)
     fetched["us_hy_spread"] = fred_latest("BAMLH0A0HYM2", lookback_days=30)
     if fetched.get("us_10y") is not None and fetched.get("us_2y") is not None:

@@ -24,6 +24,7 @@ GitHub Actions 스케줄러(cron)로 실행되므로 **컴퓨터가 꺼져 있�
 | copper | 구리 선물 | Yahoo Finance (HG=F) — 실시간. 글로벌 경기 선행지표("닥터 코퍼") |
 | soybean / corn / wheat | 대두·옥수수·밀 선물 (¢/부셸) | Yahoo Finance (ZS=F / ZC=F / ZW=F) — 일별, 근월물 연속 시세(만기 교체 시 가격 단차 있을 수 있음). 장기: 2000~ |
 | silver | 은 선물 ($/oz) | Yahoo Finance (SI=F) — 일별, 근월물 연속 시세. 장기: 2000~ |
+| shanghai / hsi / nikkei / dax / ftse / cac / stoxx50 | 상해종합·홍콩 항셍·닛케이 225·DAX·FTSE 100·CAC 40·유로스톡스 50 | Yahoo Finance (000001.SS / ^HSI / ^N225 / ^GDAXI / ^FTSE / ^FCHI / ^STOXX50E) — 일별. 장기: 닛케이 1965~, FTSE 1984~, 항셍 1986~, DAX 1987~ 등 |
 | us_unemployment | 미국 실업률 | FRED (UNRATE) — 월간. Fed 정책 판단 핵심 지표 |
 | us_hy_spread | 미국 하이일드 신용스프레드 | FRED (BAMLH0A0HYM2) — 일별. 신용시장 위험선호도 지표 |
 | us_yield_spread | 미국 10Y-2Y 금리 스프레드 | 로컬 계산(us_10y - us_2y), 별도 수집 없음. 경기침체 선행지표로 유명 |
