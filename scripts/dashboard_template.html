@@ -27,6 +27,7 @@
     --cn:       #dc2626;
     --jp:       #7c3aed;
     --eu:       #0d9488;
+    --in:       #d97706;
     --corn:       #ca8a04;
     --wheat:       #c2410c;
     --unemployment: #64748b;
@@ -64,6 +65,7 @@
       --cn:       #f87171;
       --jp:       #a78bfa;
       --eu:       #2dd4bf;
+      --in:       #fbbf24;
       --corn:       #facc15;
       --wheat:       #fb923c;
       --unemployment: #94a3b8;
@@ -101,6 +103,7 @@
     --cn:       #f87171;
     --jp:       #a78bfa;
     --eu:       #2dd4bf;
+    --in:       #fbbf24;
     --corn:       #facc15;
     --wheat:       #fb923c;
     --unemployment: #94a3b8;
@@ -305,7 +308,7 @@
   <div class="section-title">주가지수</div>
   <div class="grid" id="grp-stocks"></div>
 
-  <div class="section-title">해외 주가지수 (중국·일본·유럽)</div>
+  <div class="section-title">해외 주가지수 (중국·일본·인도·유럽)</div>
   <div class="grid" id="grp-world"></div>
 
   <div class="section-title">원자재</div>
@@ -381,7 +384,7 @@
   // renders as one long straight line segment (looked like "frozen" data, not a bug in the
   // values themselves -- the gap was manufactured by this filter).
   var DAILY_START_MACRO = "2026-10-01";  // vix/dxy/copper/us_unemployment/us_hy_spread/us_yield_spread
-  var DAILY_START_AG = "2026-10-03";  // soybean/corn/wheat/silver/world indices (shanghai,hsi,nikkei,dax,ftse,cac,stoxx50)
+  var DAILY_START_AG = "2026-10-03";  // soybean/corn/wheat/silver/world indices (shanghai,hsi,nikkei,dax,ftse,cac,stoxx50,sensex,nifty)
   var DAILY_START_REALESTATE = "2026-10-02";  // kr_apt_price_*/kr_apt_avgprice_*/kr_apt_medprice_*
   function beforeDaily(arr, cutoff){
     var c = cutoff || DAILY_START;
@@ -473,6 +476,12 @@
     { id:"nikkei", group:"grp-world", title:"일본 닛케이 225 (일별 1965.01~)", target:"grp-world",
       history: beforeDaily(LT.nikkei, DAILY_START_AG),
       series:[ {key:"nikkei", name:"Nikkei", color:"var(--jp)", unit:"pt", dec:2} ] },
+    { id:"sensex", group:"grp-world", title:"인도 센섹스 (일별 1997.07~)", target:"grp-world",
+      history: beforeDaily(LT.sensex, DAILY_START_AG),
+      series:[ {key:"sensex", name:"Sensex", color:"var(--in)", unit:"pt", dec:2} ] },
+    { id:"nifty", group:"grp-world", title:"인도 니프티 50 (일별 2007.09~)", target:"grp-world",
+      history: beforeDaily(LT.nifty, DAILY_START_AG),
+      series:[ {key:"nifty", name:"Nifty 50", color:"var(--in)", unit:"pt", dec:2} ] },
     { id:"dax", group:"grp-world", title:"독일 DAX (일별 1987.12~)", target:"grp-world",
       history: beforeDaily(LT.dax, DAILY_START_AG),
       series:[ {key:"dax", name:"DAX", color:"var(--eu)", unit:"pt", dec:2} ] },
