@@ -1,6 +1,6 @@
 # 자동 수집 상태 (매 실행마다 덮어씀)
 
-최근 실행: 2026-10-04T01:03:57+09:00 (KST)
+최근 실행: 2026-10-04T01:11:48+09:00 (KST)
 
 | 필드 | 상태 |
 |---|---|
@@ -31,16 +31,17 @@
 | kr_apt_price_national | 정상 갱신 |
 | kr_apt_price_seoul | 정상 갱신 |
 | kr_apt_avgprice_national | 정상 갱신 |
-| kr_apt_avgprice_seoul | 이전 값 유지 (갱신 실패) |
-| kr_apt_medprice_national | 이전 값 유지 (갱신 실패) |
-| kr_apt_medprice_seoul | 이전 값 유지 (갱신 실패) |
+| kr_apt_avgprice_seoul | 정상 갱신 |
+| kr_apt_medprice_national | 정상 갱신 |
+| kr_apt_medprice_seoul | 정상 갱신 |
 | soybean | 정상 갱신 |
 | corn | 정상 갱신 |
 | wheat | 정상 갱신 |
 | silver | 정상 갱신 |
-
-## 경고
-
-- HTTP fetch failed: https://www.reb.or.kr/r-one/openapi/SttsApiTblData.do?KEY=f38850589a44493db06fb0b38a9f1276&Type=json&pIndex=1&pSize=1000&STATBL_ID=A_2024_00188&DTACYCLE_CD=MM&CLS_ID=500004 (<urlopen error timed out>)
-- HTTP fetch failed: https://www.reb.or.kr/r-one/openapi/SttsApiTblData.do?KEY=f38850589a44493db06fb0b38a9f1276&Type=json&pIndex=1&pSize=1000&STATBL_ID=A_2024_00189&DTACYCLE_CD=MM&CLS_ID=500001 (<urlopen error timed out>)
-- HTTP fetch failed: https://www.reb.or.kr/r-one/openapi/SttsApiTblData.do?KEY=f38850589a44493db06fb0b38a9f1276&Type=json&pIndex=1&pSize=1000&STATBL_ID=A_2024_00189&DTACYCLE_CD=MM&CLS_ID=500004 (<urlopen error timed out>)
+| shanghai | 정상 갱신 |
+| hsi | 정상 갱신 |
+| nikkei | 정상 갱신 |
+| dax | 정상 갱신 |
+| ftse | 정상 갱신 |
+| cac | 정상 갱신 |
+| stoxx50 | 정상 갱신 |
