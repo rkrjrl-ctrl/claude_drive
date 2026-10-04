@@ -112,6 +112,127 @@ def yahoo_price(symbol):
         return None
 
 
+LONG_TERM_DIR = os.path.join(ROOT, "data", "long_term")
+
+# Daily market series fetched as dated bars (true trade dates), not just "latest price".
+# history.csv used to stamp whatever the latest price was with the *collection* date, so a
+# row could hold the previous session's close under today's date (and which one depended on
+# the time of day the job ran). Dated bars fix that: every daily value is stored under the
+# date the market actually closed at that level.
+YAHOO_DAILY = {
+    "usdkrw": "KRW=X", "us_10y": "%5ETNX", "dow": "%5EDJI", "sp500": "%5EGSPC",
+    "nasdaq": "%5EIXIC", "wti": "CL=F", "kospi": "%5EKS11", "kosdaq": "%5EKQ11",
+    "gold": "GC=F", "vix": "%5EVIX", "dxy": "DX-Y.NYB", "copper": "HG=F",
+    "soybean": "ZS=F", "corn": "ZC=F", "wheat": "ZW=F", "silver": "SI=F",
+    "shanghai": "000001.SS", "hsi": "%5EHSI", "nikkei": "%5EN225", "dax": "%5EGDAXI",
+    "ftse": "%5EFTSE", "cac": "%5EFCHI", "stoxx50": "%5ESTOXX50E",
+    "sensex": "%5EBSESN", "nifty": "%5ENSEI",
+}
+THREE_DECIMALS = {"us_10y", "us_2y", "kr_2y", "kr_10y", "us_yield_spread", "copper", "dxy", "us_hy_spread"}
+
+
+def fmt_value(field, value):
+    return round(value, 3 if field in THREE_DECIMALS else 2)
+
+
+def yahoo_daily(symbol, rng="3mo"):
+    """Daily closes as [(YYYY-MM-DD in the exchange's local time, close)], oldest first."""
+    text = http_get(f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&range={rng}")
+    if not text:
+        return []
+    try:
+        res = json.loads(text)["chart"]["result"][0]
+        stamps = res["timestamp"]
+        closes = res["indicators"]["quote"][0]["close"]
+        offset = res["meta"].get("gmtoffset", 0)
+    except (KeyError, IndexError, TypeError, ValueError):
+        warnings.append(f"Yahoo {symbol}: unexpected daily response shape")
+        return []
+    rows = {}
+    for ts, close in zip(stamps, closes):
+        if close is None:
+            continue
+        day = datetime.fromtimestamp(ts + offset, timezone.utc).strftime("%Y-%m-%d")
+        rows[day] = close
+    return sorted(rows.items())
+
+
+def ecos_daily(stat_code, item_code, lookback_days=120):
+    """Daily ECOS series as [(YYYY-MM-DD, value)], oldest first."""
+    if not ECOS_KEY:
+        return []
+    now = datetime.now(KST)
+    start = (now - timedelta(days=lookback_days)).strftime("%Y%m%d")
+    url = (
+        f"https://ecos.bok.or.kr/api/StatisticSearch/{ECOS_KEY}/json/kr/1/1000/"
+        f"{stat_code}/D/{start}/{now.strftime('%Y%m%d')}/{item_code}"
+    )
+    text = http_get(url)
+    if not text:
+        return []
+    try:
+        rows = json.loads(text)["StatisticSearch"]["row"]
+    except (ValueError, KeyError):
+        warnings.append(f"ECOS {stat_code}/{item_code}: no daily rows")
+        return []
+    out = []
+    for r in rows:
+        t = r.get("TIME", "")
+        try:
+            out.append((f"{t[:4]}-{t[4:6]}-{t[6:8]}", float(r["DATA_VALUE"])))
+        except (ValueError, KeyError):
+            continue
+    return sorted(out)
+
+
+def last_on_or_before(series, day):
+    """Latest value in a dated series with date <= day (None if the series starts later)."""
+    value = None
+    for d, v in series:
+        if d > day:
+            break
+        value = v
+    return value
+
+
+def update_long_term(field, series):
+    """Keep data/long_term/<field>.csv current with true-dated values: rows from the first
+    fetched date onward are replaced by the fetched ones, older history is left untouched."""
+    path = os.path.join(LONG_TERM_DIR, f"{field}.csv")
+    if not series or not os.path.exists(path):
+        return
+    with open(path, encoding="utf-8") as f:
+        lines = f.read().splitlines()
+    if not lines:
+        return
+    first = series[0][0]
+    kept = [ln for ln in lines[1:] if ln and ln.split(",")[0] < first]
+    new = [f"{d},{fmt_value(field, v)}" for d, v in series]
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join([lines[0]] + kept + new) + "\n")
+
+
+def redate_history(daily):
+    """Rewrite the daily-market columns of recent history.csv rows so each row holds the
+    close of its own date (or the last close before it, on that market's holidays). Today's
+    row is provisional until the next run, when today's bar is final."""
+    if not daily or not os.path.exists(HISTORY_CSV):
+        return
+    with open(HISTORY_CSV, newline="", encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+    for r in rows:
+        for field, series in daily.items():
+            if not series or r["date"] < series[0][0]:
+                continue
+            v = last_on_or_before(series, r["date"])
+            if v is not None:
+                r[field] = fmt_value(field, v)
+    with open(HISTORY_CSV, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=FIELDS)
+        writer.writeheader()
+        writer.writerows(rows)
+
+
 def ecos_latest(stat_code, item_code, cycle, lookback_periods):
     if not ECOS_KEY:
         warnings.append(f"ECOS {stat_code}/{item_code}: BOK_ECOS_API_KEY not set")
@@ -278,13 +399,20 @@ def main():
     last_row = load_last_row()
 
     fetched = {}
-    fetched["usdkrw"] = yahoo_price("KRW=X")
-    fetched["us_2y"] = fred_latest("DGS2")
-    fetched["us_10y"] = yahoo_price("%5ETNX")
-    fetched["dow"] = yahoo_price("%5EDJI")
-    fetched["sp500"] = yahoo_price("%5EGSPC")
-    fetched["nasdaq"] = yahoo_price("%5EIXIC")
-    fetched["wti"] = yahoo_price("CL=F")
+    daily = {}  # field -> [(true trade date, value)], used to date history/long_term correctly
+    for field, symbol in YAHOO_DAILY.items():
+        series = yahoo_daily(symbol)
+        if series:
+            daily[field] = series
+            fetched[field] = fmt_value(field, series[-1][1])
+        else:
+            fetched[field] = yahoo_price(symbol)  # fallback: undated latest price
+    us_2y_rows = fred_series("DGS2", (now - timedelta(days=120)).strftime("%Y-%m-%d"))
+    if us_2y_rows:
+        daily["us_2y"] = us_2y_rows
+        fetched["us_2y"] = us_2y_rows[-1][1]
+    else:
+        fetched["us_2y"] = fred_latest("DGS2")
     fetched["us_cpi"] = fred_yoy("CPIAUCSL")
     fetched["us_m2"] = fred_latest("M2SL", lookback_days=120)
 
@@ -292,37 +420,31 @@ def main():
     lower = fred_latest("DFEDTARL", lookback_days=120)
     fetched["us_rate"] = round((upper + lower) / 2, 4) if upper is not None and lower is not None else None
 
-    fetched["kospi"] = yahoo_price("%5EKS11")
-    fetched["kosdaq"] = yahoo_price("%5EKQ11")
-    fetched["gold"] = yahoo_price("GC=F")
-
-    fetched["vix"] = yahoo_price("%5EVIX")
-    fetched["dxy"] = yahoo_price("DX-Y.NYB")
-    fetched["copper"] = yahoo_price("HG=F")
-    fetched["soybean"] = yahoo_price("ZS=F")
-    fetched["corn"] = yahoo_price("ZC=F")
-    fetched["wheat"] = yahoo_price("ZW=F")
-    fetched["silver"] = yahoo_price("SI=F")
-    fetched["shanghai"] = yahoo_price("000001.SS")
-    fetched["hsi"] = yahoo_price("%5EHSI")
-    fetched["nikkei"] = yahoo_price("%5EN225")
-    fetched["dax"] = yahoo_price("%5EGDAXI")
-    fetched["ftse"] = yahoo_price("%5EFTSE")
-    fetched["cac"] = yahoo_price("%5EFCHI")
-    fetched["stoxx50"] = yahoo_price("%5ESTOXX50E")
-    fetched["sensex"] = yahoo_price("%5EBSESN")
-    fetched["nifty"] = yahoo_price("%5ENSEI")
     fetched["us_unemployment"] = fred_latest("UNRATE", lookback_days=120)
-    fetched["us_hy_spread"] = fred_latest("BAMLH0A0HYM2", lookback_days=30)
+    hy_rows = fred_series("BAMLH0A0HYM2", (now - timedelta(days=120)).strftime("%Y-%m-%d"))
+    if hy_rows:
+        daily["us_hy_spread"] = hy_rows
+        fetched["us_hy_spread"] = hy_rows[-1][1]
+    else:
+        fetched["us_hy_spread"] = fred_latest("BAMLH0A0HYM2", lookback_days=30)
     if fetched.get("us_10y") is not None and fetched.get("us_2y") is not None:
         fetched["us_yield_spread"] = round(fetched["us_10y"] - fetched["us_2y"], 3)
+    if "us_10y" in daily and "us_2y" in daily:
+        two = dict(daily["us_2y"])
+        spread = [(d, round(v - two[d], 3)) for d, v in daily["us_10y"] if d in two]
+        if spread:
+            daily["us_yield_spread"] = spread
 
     kr_rate = ecos_latest("722Y001", "0101000", "D", lookback_periods=14)
     fetched["kr_rate"] = kr_rate[1] if kr_rate else None
-    kr_2y = ecos_latest("817Y002", "010195000", "D", lookback_periods=14)
-    fetched["kr_2y"] = kr_2y[1] if kr_2y else None
-    kr_10y = ecos_latest("817Y002", "010210000", "D", lookback_periods=14)
-    fetched["kr_10y"] = kr_10y[1] if kr_10y else None
+    for field, item in (("kr_2y", "010195000"), ("kr_10y", "010210000")):
+        series = ecos_daily("817Y002", item)
+        if series:
+            daily[field] = series
+            fetched[field] = series[-1][1]
+        else:
+            latest = ecos_latest("817Y002", item, "D", lookback_periods=14)
+            fetched[field] = latest[1] if latest else None
     fetched["kr_cpi"] = ecos_cpi_yoy()
     kr_m2_raw = ecos_latest("161Y006", "BBHA00", "M", lookback_periods=6)
     fetched["kr_m2"] = round(kr_m2_raw[1] / 1000, 2) if kr_m2_raw else None  # 십억원 -> 조원
@@ -350,6 +472,10 @@ def main():
             row[field] = ""
 
     upsert_row(row)
+    # Put every daily value under its true trade date: recent history rows and long_term files.
+    redate_history(daily)
+    for field, series in daily.items():
+        update_long_term(field, series)
     with open(LATEST_JSON, "w", encoding="utf-8") as f:
         json.dump(row, f, ensure_ascii=False, indent=2)
     write_status(row, fetched_ok, carried_forward)
