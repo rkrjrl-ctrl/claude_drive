@@ -17,6 +17,8 @@
     --us-fill:      rgba(235,104,52,0.12);
     --kr-10y:       #14b8a6;
     --us-10y:       #dc2626;
+    --kr-base:       #1e3a8a;
+    --us-base:       #92400e;
     --oil:          #1baf7a;
     --gold:         #eda100;
     --vix:          #9333ea;
@@ -55,6 +57,8 @@
       --us-fill:      rgba(217,89,38,0.16);
       --kr-10y:       #2dd4bf;
       --us-10y:       #ef4444;
+      --kr-base:       #93c5fd;
+      --us-base:       #fbbf24;
       --oil:          #199e70;
       --gold:         #c98500;
       --vix:          #a855f7;
@@ -93,6 +97,8 @@
     --us-fill:      rgba(217,89,38,0.16);
     --kr-10y:       #2dd4bf;
     --us-10y:       #ef4444;
+    --kr-base:       #93c5fd;
+    --us-base:       #fbbf24;
     --oil:          #199e70;
     --gold:         #c98500;
     --vix:          #a855f7;
@@ -410,25 +416,52 @@
     return all;
   }
 
+  // Step-function fill: carry the last known event value (e.g. a policy-rate change) onto every date in `dates`,
+  // so a rate that only changes a few times a year draws as steps instead of sloped lines between events.
+  function stepFill(ev, key, dates){
+    var out = [], j = -1;
+    for(var i=0; i<dates.length; i++){
+      while(j+1 < ev.length && ev[j+1].date <= dates[i]) j++;
+      if(j >= 0){ var p = {date: dates[i]}; p[key] = ev[j][key]; out.push(p); }
+    }
+    return out;
+  }
+  function monthStarts(fromYm, untilDate){
+    var out = [], y = +fromYm.slice(0,4), m = +fromYm.slice(5,7);
+    for(;;){ var d = y + "-" + (m < 10 ? "0" : "") + m + "-01"; if(d >= untilDate) break; out.push(d); if(++m > 12){ m = 1; y++; } }
+    return out;
+  }
+
   var CHARTS = [
     { id:"fx",     group:"grp-rates",  title:"원/달러 환율 (일별 1981.04~)",  target:"grp-rates",
       history: beforeDaily(LT.usdkrw_lt),
       series:[ {key:"usdkrw", name:"USD/KRW", color:"var(--kr)", unit:"원", dec:1} ] },
-    { id:"rates",  group:"grp-rates",  title:"기준금리 (한국 2018.11~, 미국 2016.12~)", target:"grp-rates",
+    { id:"rates",  group:"grp-rates",  title:"기준금리 (한국 1999.05~, 미국 1982.09~)", target:"grp-rates",
       monthlyOnly: true,
-      history: mergeArrays(beforeDaily(LT.kr_rate_hist), beforeDaily(LT.us_rate_hist)),
+      history: (function(){
+        var kr = beforeDaily(LT.kr_rate_hist), us = beforeDaily(LT.us_rate_hist);
+        var dates = monthStarts("1982-09", DAILY_START).concat(kr.map(function(p){return p.date;}), us.map(function(p){return p.date;}));
+        dates.sort();
+        return mergeArrays(stepFill(kr, "kr_rate", dates), stepFill(us, "us_rate", dates));
+      })(),
       series:[ {key:"kr_rate", name:"한국", color:"var(--kr)", unit:"%", dec:2}, {key:"us_rate", name:"미국(Fed)", color:"var(--us)", unit:"%", dec:2} ] },
     { id:"cpi",    group:"grp-cpi",    title:"소비자물가상승률 (전년동월비, 한국 월별 1966.01~, 미국 월별 1948.01~)", target:"grp-cpi",
       monthlyOnly: true,
       history: mergeArrays(beforeDaily(LT.kr_cpi_lt), beforeDaily(LT.us_cpi)),
       series:[ {key:"kr_cpi", name:"한국", color:"var(--kr)", unit:"%", dec:2}, {key:"us_cpi", name:"미국", color:"var(--us)", unit:"%", dec:2} ] },
-    { id:"bonds", group:"grp-bonds",  title:"국채 2년물 · 10년물 (한국 2Y 일별 1998.06~ · 10Y 일별 2000.10~, 미국 2Y 일별 1988.02~ · 10Y 일별 1980.01~)", target:"grp-bonds",
-      history: mergeArrays(beforeDaily(LT.kr_2y_lt), beforeDaily(LT.kr_10y_lt), beforeDaily(LT.us_10y_lt), beforeDaily(LT.us_2y_lt)),
+    { id:"bonds", group:"grp-bonds",  title:"국채 2년물 · 10년물 + 기준금리 (한국 2Y 일별 1998.06~ · 10Y 일별 2000.10~, 미국 2Y 일별 1988.02~ · 10Y 일별 1980.01~, 기준금리 한국 1999.05~ · 미국 1982.09~)", target:"grp-bonds",
+      history: (function(){
+        var bonds = mergeArrays(beforeDaily(LT.kr_2y_lt), beforeDaily(LT.kr_10y_lt), beforeDaily(LT.us_10y_lt), beforeDaily(LT.us_2y_lt));
+        var dates = bonds.map(function(p){ return p.date; });
+        return mergeArrays(bonds, stepFill(beforeDaily(LT.kr_rate_hist), "kr_rate", dates), stepFill(beforeDaily(LT.us_rate_hist), "us_rate", dates));
+      })(),
       series:[
         {key:"kr_2y",  name:"한국 2Y",  color:"var(--kr)", unit:"%", dec:2},
         {key:"kr_10y", name:"한국 10Y", color:"var(--kr-10y)", dash:"5,3", unit:"%", dec:2},
         {key:"us_2y",  name:"미국 2Y",  color:"var(--us)", unit:"%", dec:2},
-        {key:"us_10y", name:"미국 10Y", color:"var(--us-10y)", dash:"5,3", unit:"%", dec:2}
+        {key:"us_10y", name:"미국 10Y", color:"var(--us-10y)", dash:"5,3", unit:"%", dec:2},
+        {key:"kr_rate", name:"한국 기준금리", color:"var(--kr-base)", dash:"2,2", unit:"%", dec:2},
+        {key:"us_rate", name:"미국 기준금리", color:"var(--us-base)", dash:"2,2", unit:"%", dec:2}
       ] },
     { id:"vix",    group:"grp-macro",  title:"VIX 변동성지수 (일별 1990.02~)",  target:"grp-macro",
       history: beforeDaily(LT.vix, DAILY_START_MACRO),
