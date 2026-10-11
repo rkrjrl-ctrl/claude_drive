@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Firecrawl__firecrawl_scrape",
+      "mcp__Firecrawl__firecrawl_search",
+      "mcp__Firecrawl__firecrawl_developer_search",
+      "mcp__Firecrawl__firecrawl_gov_search",
+      "mcp__Google_Drive__search_files",
+      "mcp__Google_Drive__read_file_content",
+      "mcp__Google_Drive__download_file_content",
+      "mcp__Google_Drive__get_file_metadata",
+      "mcp__Google_Drive__list_recent_files",
+      "Edit(medical/**)",
+      "Edit(.github/workflows/**)",
+      "Bash(python3 *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(git status *)",
+      "Bash(git diff *)",
+      "Bash(git log *)"
+    ]
+  }
+}
