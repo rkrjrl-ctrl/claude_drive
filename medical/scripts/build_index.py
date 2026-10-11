@@ -127,6 +127,7 @@ def main():
         w.writerows(rows)
 
     write_status(rows, errors, warns, today)
+    write_by_disease(rows)
     print(f"자료 {len(rows)}건 / 오류 {len(errors)} / 경고 {len(warns)}")
     for e in errors:
         print("오류:", e)
@@ -134,6 +135,22 @@ def main():
         print("경고:", w_)
     if strict and errors:
         sys.exit(1)
+
+
+def write_by_disease(rows):
+    from collections import defaultdict
+    g = defaultdict(list)
+    for r in rows:
+        g[r.get("disease", "")].append(r)
+    L = ["# 질병별 자료 목록 (자동 생성 — 직접 수정 금지)", "",
+         "질병·주제별로 자료를 묶은 목록. 상태 `verified`만 영상 근거로 바로 쓸 수 있고 `partial`/`needs_recheck`는 각 파일의 미검증 항목을 먼저 확인한다.", ""]
+    for d in sorted(g, key=lambda k: (-len(g[k]), k)):
+        L += [f"## {d} ({len(g[d])}건)", "", "| ID | 자료명 | 기관 | 등급 | 상태 | 재확인 |", "|---|---|---|---|---|---|"]
+        for r in sorted(g[d], key=lambda r: r.get("id", "")):
+            L.append(f"| {r['id']} | {r['title']} | {r['org']} | {r['tier']} | {r['status']} | {r['recheck_by']} |")
+        L.append("")
+    with open(os.path.join(ROOT, "BY_DISEASE.md"), "w", encoding="utf-8") as f:
+        f.write("\n".join(L))
 
 
 def write_status(rows, errors, warns, today):
