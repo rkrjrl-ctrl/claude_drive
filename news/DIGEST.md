@@ -1,8 +1,8 @@
 # 경제·보험·의료정책 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-10-13 17:16 KST  /  최근 7일 2172건  /  이번 신규 263건  /  소스 44곳 + 구글뉴스 키워드 85개  /  네이버 검색 미사용
+- 갱신: 2026-10-13 17:17 KST  /  최근 7일 2197건  /  이번 신규 281건  /  소스 41곳 + 구글뉴스 키워드 85개  /  네이버 검색 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다.
-- 수집 실패 소스: 중앙 경제, 헤럴드경제, MBC 경제, 금융위원회, 생명보험협회
+- 수집 실패 소스: 금융위원회, 생명보험협회
 
 ## 최근 7일 — 기관 보도자료
 
@@ -74,6 +74,7 @@
 - (5) 10-13 천지일보 — [유승민 “코스피 폭락… 국민연금 182조 감소”](https://news.google.com/rss/articles/CBMiakFVX3lxTE4yVzF2OUVPUzZiRVEzN3hubHlyY0hlSE42eE9ELTZoa3ZmT0dsV1pLSy1RYVp4Q0hDcE1EMW00UTU3cTdyQlhFYTF6QTlmd1Nhb2xUNFN3c0RGa2RZSDF5bENjbld0b2hUT1E?oc=5)
 - (5) 10-13 비즈니스포스트 — [삼성생명 종신보험 다시 키운다, 홍원학 건강보험 쏠림 줄여 수익 다변화](https://news.google.com/rss/articles/CBMic0FVX3lxTFBMT0ppbThMQ2F2YmNhVHhEMTZjZnBOemVZY0h6dEkwcFB4MmRzYmN6RlVqZGFibW9mS1pKeWtUai1BU3N6ZUVvSUpVNXU5MmxUbTdsOVhTbWhHRGFibHRmMnEzMmsxaEZjUE92VFVlZE5hOEE?oc=5)
 - (5) 10-13 연합인포맥스 — [국민연금 국감 하루 앞두고…이사장에 부동산실 의혹 소명 촉구](https://news.google.com/rss/articles/CBMicEFVX3lxTE1RWmtieXdzS2F6OUxFUDE1Ni1pUDFQZHRRTC1nRjRTcDhNR2xKbXczcVFLS0xCTlg4R2psejNhWUthaUNucmE3ZmVKVlFvN3FlSWxfYUNuaVZEeEVhRmxxZmdzUFI1NnY4UDlzb2RnYjc?oc=5)
+- (5) 10-13 S저널 — [삼성생명, 골든종신보험 개정 출시…보험료 인출 시점 최대 2년 앞당겨](https://news.google.com/rss/articles/CBMibkFVX3lxTE9vd1pBbTVGZlc0Q3NRSFRFbFpQNHdWTHhoaGRQSlZSdDQzaFQzODZvYVNkUXg0eTVwcWdKYmQzcm1zT2diQng3bzdMVGtld3FHMk1WWkJyVTFCVUIxbVl0eGhCLWNDX2YtSmVvdHlR?oc=5)
 - (5) 10-13 시사저널 — [유승민, 코스피 6000선 붕괴에 “국민 노후자금 날렸다”…국민연금 정조준](https://news.google.com/rss/articles/CBMic0FVX3lxTE1mSE1vbzU4Wjd1dlIzSk1hRDd0VE1fSVp6Sm5vOFlmODZGWmt6R29XQlZjcUFxMlJIcXVJRXpVY2otWGZNa2tCZ0hVSnF3d05KTGhyVU54RVFjRlc1ZVNDS0VpV2lPWjczQ3hHaENlVU9yQmfSAXNBVV95cUxNZkhNb281OFo3dXZSM0pNYUQ3dFRNX0laekpubzhZZjg2RlprekdvV0JWY3FBcTJSSHF1SUV6VWNqLVhmTWtrQmdIVUpxd3dOSkxoclVOeEVRY0ZXNWVTQ0tFaVdpT1o3M0N4R2hDZVVPckJn?oc=5)
 - (5) 10-13 매일신문 — [경북 저소득층 건강보험료 지원 대상 3배 확대 추진](https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tV1NlajJCZl94bnJMWlRob18yUkdMVlFCNkZFak5zQVJWZ3V4aXdCV2NCeFM5al84Skt5S1BnZ2JxOHpTRDR1RWNYVWtmVnBpTEFsTHNuaXc3Mm5oTEh3LXNR?oc=5)
 - (5) 10-13 중앙일보 — [유승민, 코스피 추락에 “국민 노후자산, 국민연금이 걱정”](https://news.google.com/rss/articles/CBMiVkFVX3lxTE42Q0hiRTh2QUFVQ1FkbUU2QlpnUFRiUmFicnpYbDJ4WXRDRThXN0dmalBFV1hpemRNMjM5SXh0QU9tVVBqQkJJMWpLQjNBeVJMZEp4VXFn?oc=5)
@@ -116,8 +117,7 @@
 - (4) 10-13 농민신문 — [‘개인투자용 국채’ 주목…퇴직연금 10년후 쓸 계획이라면 고려해볼만](https://news.google.com/rss/articles/CBMiWkFVX3lxTE5jd3Job3EtbmpPLTcwNk9sU2Y2M01raHJwaDE1NUNLcGM4QUV6N18xUE5qaFBzUU9jRGQ1Rm5WYkpmTmpXc01adW5TY1A0Z0Z4Q3ppdFlJZ2J3dw?oc=5)
 - (4) 10-13 뉴시스 — [최근 5년간 외국인 345명 국민연금 '119개월 추납'](https://news.google.com/rss/articles/CBMieEFVX3lxTE96QXBFLWo0emNzbXZLZVNXM29lekF1TmpqWTJUUURlbmZVN3lXci1idVJ5ZFE4VU9uUUcyZW96djltVDhTUnl6b1VyVGl2UGZIUmYwUU00LU0tNV95aFRzdzZSeFZaMURSbFk0TC1vRkZQRHVCVHFmWdIBeEFVX3lxTE96QXBFLWo0emNzbXZLZVNXM29lekF1TmpqWTJUUURlbmZVN3lXci1idVJ5ZFE4VU9uUUcyZW96djltVDhTUnl6b1VyVGl2UGZIUmYwUU00LU0tNV95aFRzdzZSeFZaMURSbFk0TC1vRkZQRHVCVHFmWQ?oc=5)
 - (4) 10-13 현대경제신문 — [[김광웅의 가정법률]'이혼소송' 배우자 국민연금도 재산분할 가능할까?](https://news.google.com/rss/articles/CBMia0FVX3lxTE5kcUdLbFdNenVvVTRma1NieDd0YzJ3M3UxWU5QZ2ZVLWFOdFR4NktNZzQ4cEdnZkNjNFZBUVhoUS1GYWhuMi1ZS1RxRHhpc19HN1lnT2oxS1NLS3NzbWlsQnZVRzdZa1FZZUZn0gFrQVVfeXFMTmRxR0tsV016dW9VNGZrU2J4N3RjMnczdTFZTlBnZlUtYU50VHg2S01nNDhwR2dmQ2M0VkFRWGhRLUZhaG4yLVlLVHFEeGlzX0c3WWdPajFLU0tLc3NtaWxCdlVHN1lrUVllRmc?oc=5)
-- (4) 10-13 한국경제 경제 — ["전환하고 싶어요" 한 마디면…보험사가 보험료 낮춰줍니다](https://www.hankyung.com/article/2026101379061)
 
 ## 최근 7일 — 언론사별 건수 상위 15
 
-보험신보 58, 보험저널 50, 보험매일 45, 한국보험신문 44, 머니투데이 43, 연합뉴스 43, 뉴스1 39, 연합인포맥스 39, 파이낸셜뉴스 전체 36, 뉴시스 36, Vietnam.vn 33, 뉴스핌 27, 노컷뉴스 경제 23, 뉴시스 금융 23, 한국경제 20
+보험신보 58, 보험저널 50, 보험매일 45, 머니투데이 44, 연합뉴스 44, 한국보험신문 44, 뉴스1 40, 연합인포맥스 40, 파이낸셜뉴스 전체 37, 뉴시스 36, Vietnam.vn 33, 뉴스핌 27, 노컷뉴스 경제 23, 뉴시스 금융 23, 아시아경제 20
