@@ -26,11 +26,17 @@ jobs:
       - name: 자료 원문·기한·신규 논문 감시
         run: python medical/scripts/watch.py
 
+      - name: 법령·고시·보험 판례 감시 (법제처 API)
+        continue-on-error: true
+        env:
+          LAW_OC: ${{ secrets.LAW_OC }}  # 없으면 공용 'test' 사용
+        run: python medical/scripts/watch_law.py
+
       - name: 결과 커밋
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add medical/WATCH.md medical/watch_state.json
+          git add medical/WATCH.md medical/watch_state.json medical/LAWWATCH.md medical/law_state.json medical/cases
           if git diff --cached --quiet; then
             echo "No changes."
           else
@@ -44,12 +50,13 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           # 변경 확정·접속 실패·기한 지남·신규 논문 중 하나라도 있으면 이슈 1개를 갱신(없으면 생성)
-          if grep -qE '^## 원문 변경 확정 \([1-9]|^## 접속 .* \([1-9]|기한 지남|^\*\*' medical/WATCH.md; then
+          cat medical/WATCH.md medical/LAWWATCH.md > /tmp/body.md
+          if grep -qE '^## 원문 변경 확정 \([1-9]|^## 접속 .* \([1-9]|기한 지남|^\*\*|alerts: [1-9]' /tmp/body.md; then
             n=$(gh issue list --label medical-watch --state open --json number --jq '.[0].number')
             if [ -n "$n" ]; then
-              gh issue edit "$n" --body-file medical/WATCH.md
+              gh issue edit "$n" --body-file /tmp/body.md
             else
               gh label create medical-watch --color 0E8A16 2>/dev/null || true
-              gh issue create --title "의료 자료 점검 필요" --label medical-watch --body-file medical/WATCH.md
+              gh issue create --title "의료 자료 점검 필요" --label medical-watch --body-file /tmp/body.md
             fi
           fi
