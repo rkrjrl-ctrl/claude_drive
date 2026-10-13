@@ -1,20 +1,20 @@
-﻿date,source,title,link,score,tags,via
-2026-06-30T16:00+09:00,한국은행 통화정책,금융통화위원회 의사록(2026년 제11차)(2026.6.11),https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=10098556&menuNo=200690,2,금융통화위원회,gov
-2026-06-30T12:00+09:00,한국은행 보도자료,[보도참고자료] 2010-2015-2020년 접속산업연관표 작성결과,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11062399&menuNo=200691,0,,gov
-2026-06-26T12:00+09:00,한국은행 보도자료,2026년 5월 금융기관 가중평균금리,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11062275&menuNo=200691,1,금리,gov
-2026-06-25T12:00+09:00,한국은행 보도자료,2025년 지역별·통화별 국제투자대조표(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11062234&menuNo=200691,0,,gov
-2026-06-25T06:00+09:00,한국은행 보도자료,2026년 6월 기업경기조사 결과 및 경제심리지수(ESI),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11062198&menuNo=200691,0,,gov
-2026-06-23T12:00+09:00,한국은행 보도자료,2026년 1/4분기 기업경영분석,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098583&menuNo=200691,0,,gov
-2026-06-23T06:00+09:00,한국은행 보도자료,2026년 6월 소비자동향조사 결과,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098580&menuNo=200691,0,,gov
-2026-06-19T12:00+09:00,한국은행 보도자료,2025년 지역별 국제수지(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098547&menuNo=200691,0,,gov
-2026-06-19T06:00+09:00,한국은행 보도자료,2026년 5월 생산자물가지수(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098549&menuNo=200691,2,물가,gov
-2026-06-17T17:07+09:00,한국은행 통계,물가안정목표 운영상황 점검 기자설명회,https://www.bok.or.kr/portal/bbs/B0000169/view.do?nttId=10098533&menuNo=200692,2,물가,gov
-2026-06-16T16:00+09:00,한국은행 통화정책,금융통화위원회 의사록(2026년 제10차)(2026.5.28),https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=10098514&menuNo=200690,2,금융통화위원회,gov
-2026-06-16T12:00+09:00,한국은행 보도자료,2026년 4월 통화 및 유동성,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098497&menuNo=200691,0,,gov
-2026-06-16T06:00+09:00,한국은행 보도자료,2026년 5월 수출입물가지수 및 무역지수(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098493&menuNo=200691,2,물가,gov
-2026-06-11T10:04+09:00,한국은행 통화정책,[보도참고자료] 외화예금 초과지급준비금에 대한 이자지급 연장,https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=10098431&menuNo=200690,1,예금,gov
-2026-06-10T12:00+09:00,한국은행 보도자료,2025년 기업경영분석 결과(속보),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098408&menuNo=200691,0,,gov
-2026-06-09T08:00+09:00,한국은행 보도자료,2026년 1/4분기 국민소득(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098384&menuNo=200691,0,,gov
-2026-06-09T08:00+09:00,한국은행 보도자료,2024년 국민계정(확정) 및 2025년 국민계정(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098382&menuNo=200691,0,,gov
-2026-06-08T12:00+09:00,한국은행 보도자료,2026년 1/4분기 예금취급기관 산업별 대출금,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098352&menuNo=200691,2,대출|예금,gov
-2026-06-05T08:00+09:00,한국은행 보도자료,2026년 4월 국제수지(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098323&menuNo=200691,0,,gov
+﻿date,source,title,link,score,tags,via,track
+2026-06-30T16:00+09:00,한국은행 통화정책,금융통화위원회 의사록(2026년 제11차)(2026.6.11),https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=10098556&menuNo=200690,3,금융통화위원회,gov,INV
+2026-06-30T12:00+09:00,한국은행 보도자료,[보도참고자료] 2010-2015-2020년 접속산업연관표 작성결과,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11062399&menuNo=200691,0,,gov,INV
+2026-06-26T12:00+09:00,한국은행 보도자료,2026년 5월 금융기관 가중평균금리,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11062275&menuNo=200691,2,금리,gov,INV
+2026-06-25T12:00+09:00,한국은행 보도자료,2025년 지역별·통화별 국제투자대조표(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11062234&menuNo=200691,0,,gov,INV
+2026-06-25T06:00+09:00,한국은행 보도자료,2026년 6월 기업경기조사 결과 및 경제심리지수(ESI),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11062198&menuNo=200691,0,,gov,INV
+2026-06-23T12:00+09:00,한국은행 보도자료,2026년 1/4분기 기업경영분석,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098583&menuNo=200691,0,,gov,INV
+2026-06-23T06:00+09:00,한국은행 보도자료,2026년 6월 소비자동향조사 결과,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098580&menuNo=200691,0,,gov,INV
+2026-06-19T12:00+09:00,한국은행 보도자료,2025년 지역별 국제수지(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098547&menuNo=200691,0,,gov,INV
+2026-06-19T06:00+09:00,한국은행 보도자료,2026년 5월 생산자물가지수(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098549&menuNo=200691,2,물가,gov,INV
+2026-06-17T17:07+09:00,한국은행 통계,물가안정목표 운영상황 점검 기자설명회,https://www.bok.or.kr/portal/bbs/B0000169/view.do?nttId=10098533&menuNo=200692,2,물가,gov,INV
+2026-06-16T16:00+09:00,한국은행 통화정책,금융통화위원회 의사록(2026년 제10차)(2026.5.28),https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=10098514&menuNo=200690,3,금융통화위원회,gov,INV
+2026-06-16T12:00+09:00,한국은행 보도자료,2026년 4월 통화 및 유동성,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098497&menuNo=200691,0,,gov,INV
+2026-06-16T06:00+09:00,한국은행 보도자료,2026년 5월 수출입물가지수 및 무역지수(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098493&menuNo=200691,3,물가|수출,gov,INV
+2026-06-11T10:04+09:00,한국은행 통화정책,[보도참고자료] 외화예금 초과지급준비금에 대한 이자지급 연장,https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=10098431&menuNo=200690,0,,gov,INV
+2026-06-10T12:00+09:00,한국은행 보도자료,2025년 기업경영분석 결과(속보),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098408&menuNo=200691,0,,gov,INV
+2026-06-09T08:00+09:00,한국은행 보도자료,2026년 1/4분기 국민소득(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098384&menuNo=200691,0,,gov,INV
+2026-06-09T08:00+09:00,한국은행 보도자료,2024년 국민계정(확정) 및 2025년 국민계정(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098382&menuNo=200691,0,,gov,INV
+2026-06-08T12:00+09:00,한국은행 보도자료,2026년 1/4분기 예금취급기관 산업별 대출금,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098352&menuNo=200691,0,,gov,INV
+2026-06-05T08:00+09:00,한국은행 보도자료,2026년 4월 국제수지(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=10098323&menuNo=200691,0,,gov,INV

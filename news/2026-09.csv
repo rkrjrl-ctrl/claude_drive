@@ -1,20 +1,35 @@
-﻿date,source,title,link,score,tags,via
-2026-09-30T12:00+09:00,한국은행,2026년 8월 금융기관 가중평균금리,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11065098&menuNo=200691,1,금리,gov
-2026-09-29T16:00+09:00,한국은행 통화정책,금융통화위원회 의사록(2026년 제17차)(2026.9.10),https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11064984&menuNo=200690,2,금융통화위원회,gov
-2026-09-29T06:00+09:00,한국은행,2026년 9월 기업경기조사 결과 및 경제심리지수(ESI),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11065072&menuNo=200691,0,,gov
-2026-09-28T11:30+09:00,한국은행 통화정책,[보도자료] 이형일 경제부총리-신현송 한국은행 총재 회동 결과,https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11065053&menuNo=200690,0,,gov
-2026-09-23T06:00+09:00,한국은행,2026년 9월 소비자동향조사 결과,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064975&menuNo=200691,0,,gov
-2026-09-22T11:00+09:00,한국은행 통화정책,「금융안정 상황」(2026년 9월),https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11064952&menuNo=200690,0,,gov
-2026-09-21T12:00+09:00,한국은행,2024년 산업연관표(연장표) 작성 결과,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064895&menuNo=200691,0,,gov
-2026-09-18T12:00+09:00,한국은행,2025년 공공부문계정(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064862&menuNo=200691,0,,gov
-2026-09-18T06:00+09:00,한국은행,2026년 8월 생산자물가지수(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064859&menuNo=200691,1,물가,gov
-2026-09-17T12:00+09:00,한국은행,2026년 상반기 지식서비스 무역통계(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064821&menuNo=200691,0,,gov
-2026-09-15T16:00+09:00,한국은행 통화정책,금융통화위원회 의사록(2026년 제16차)(2026.8.27),https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11064779&menuNo=200690,2,금융통화위원회,gov
-2026-09-15T12:00+09:00,한국은행,2026년 7월 통화 및 유동성,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064733&menuNo=200691,0,,gov
-2026-09-15T06:00+09:00,한국은행,2026년 8월 수출입물가지수 및 무역지수(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064729&menuNo=200691,1,물가,gov
-2026-09-11T13:04+09:00,한국은행,「2026 한국은행-한국통계학회 공동포럼」 개최,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064675&menuNo=200691,0,,gov
-2026-09-10T12:00+09:00,한국은행 통화정책,「통화신용정책보고서」(2026년 9월),https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11064612&menuNo=200690,0,,gov
-2026-09-09T12:00+09:00,한국은행,2026년 2/4분기 기업경영분석,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064577&menuNo=200691,0,,gov
-2026-09-08T08:00+09:00,한국은행,2026년 2/4분기 국민소득(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064532&menuNo=200691,0,,gov
-2026-09-07T12:00+09:00,한국은행,2026년 2/4분기 예금취급기관 산업별 대출금,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064496&menuNo=200691,0,,gov
-2026-09-04T08:00+09:00,한국은행,2026년 7월 국제수지(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064444&menuNo=200691,0,,gov
+﻿date,source,title,link,score,tags,via,track
+2026-09-30T22:00+09:00,FRB 보도자료,Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements,https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm,0,,intl,INV
+2026-09-30T12:00+09:00,한국은행,2026년 8월 금융기관 가중평균금리,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11065098&menuNo=200691,1,금리,gov,INS
+2026-09-30T11:20+09:00,ECB 보도자료,"Frank Elderson: Supervisory risk appetite, efficiency and effectiveness",https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260930~d495288355.en.html,0,,intl,INV
+2026-09-30T05:00+09:00,FRB 보도자료,Agencies publish resolution plan feedback letters for 15 banking organizations,https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260929a.htm,0,,intl,INV
+2026-09-29T17:00+09:00,ECB 보도자료,ECB amends monetary policy implementation guidelines as part of regular review,https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260929~050089e922.en.html,0,,intl,INV
+2026-09-29T16:00+09:00,한국은행 통화정책,금융통화위원회 의사록(2026년 제17차)(2026.9.10),https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11064984&menuNo=200690,2,금융통화위원회,gov,INS
+2026-09-29T06:00+09:00,한국은행,2026년 9월 기업경기조사 결과 및 경제심리지수(ESI),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11065072&menuNo=200691,0,,gov,INS
+2026-09-28T11:30+09:00,한국은행 통화정책,[보도자료] 이형일 경제부총리-신현송 한국은행 총재 회동 결과,https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11065053&menuNo=200690,0,,gov,INS
+2026-09-26T05:30+09:00,FRB 보도자료,Federal Reserve Board announces approval of application by Peoples Bancorp Inc.,https://www.federalreserve.gov/newsevents/pressreleases/orders20260925a.htm,0,,intl,INV
+2026-09-25T03:30+09:00,FRB 보도자료,Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act,https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm,0,,intl,INV
+2026-09-25T00:00+09:00,FRB 보도자료,Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank,https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260924a.htm,0,,intl,INV
+2026-09-23T06:00+09:00,한국은행,2026년 9월 소비자동향조사 결과,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064975&menuNo=200691,0,,gov,INS
+2026-09-23T05:30+09:00,FRB 보도자료,Federal Reserve Board announces approval of application by BancFirst Corporation,https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm,0,,intl,INV
+2026-09-22T11:00+09:00,한국은행 통화정책,「금융안정 상황」(2026년 9월),https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11064952&menuNo=200690,0,,gov,INS
+2026-09-21T12:00+09:00,한국은행,2024년 산업연관표(연장표) 작성 결과,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064895&menuNo=200691,0,,gov,INS
+2026-09-19T00:00+09:00,FRB 보도자료,Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula,https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm,0,,intl,INV
+2026-09-19T00:00+09:00,FRB 보도자료,"Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm,0,,intl,INV
+2026-09-18T12:00+09:00,한국은행,2025년 공공부문계정(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064862&menuNo=200691,0,,gov,INS
+2026-09-18T06:00+09:00,한국은행,2026년 8월 생산자물가지수(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064859&menuNo=200691,1,물가,gov,INS
+2026-09-17T12:00+09:00,한국은행,2026년 상반기 지식서비스 무역통계(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064821&menuNo=200691,0,,gov,INS
+2026-09-17T03:00+09:00,FRB 보도자료,Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting,https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm,3,FOMC,intl,INV
+2026-09-17T03:00+09:00,FRB 보도자료,Federal Reserve issues FOMC statement,https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm,3,FOMC,intl,INV
+2026-09-15T16:00+09:00,한국은행 통화정책,금융통화위원회 의사록(2026년 제16차)(2026.8.27),https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11064779&menuNo=200690,2,금융통화위원회,gov,INS
+2026-09-15T12:00+09:00,한국은행,2026년 7월 통화 및 유동성,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064733&menuNo=200691,0,,gov,INS
+2026-09-15T06:00+09:00,한국은행,2026년 8월 수출입물가지수 및 무역지수(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064729&menuNo=200691,1,물가,gov,INS
+2026-09-11T23:00+09:00,FRB 보도자료,Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers,https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm,0,,intl,INV
+2026-09-11T13:04+09:00,한국은행,「2026 한국은행-한국통계학회 공동포럼」 개최,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064675&menuNo=200691,0,,gov,INS
+2026-09-11T05:00+09:00,FRB 보도자료,"Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm,0,,intl,INV
+2026-09-10T12:00+09:00,한국은행 통화정책,「통화신용정책보고서」(2026년 9월),https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11064612&menuNo=200690,0,,gov,INS
+2026-09-09T12:00+09:00,한국은행,2026년 2/4분기 기업경영분석,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064577&menuNo=200691,0,,gov,INS
+2026-09-08T08:00+09:00,한국은행,2026년 2/4분기 국민소득(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064532&menuNo=200691,0,,gov,INS
+2026-09-07T12:00+09:00,한국은행,2026년 2/4분기 예금취급기관 산업별 대출금,https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064496&menuNo=200691,0,,gov,INS
+2026-09-05T00:00+09:00,FRB 보도자료,"Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm,0,,intl,INV
+2026-09-04T08:00+09:00,한국은행,2026년 7월 국제수지(잠정),https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11064444&menuNo=200691,0,,gov,INS
