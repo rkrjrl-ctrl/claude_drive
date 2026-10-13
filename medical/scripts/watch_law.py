@@ -20,7 +20,7 @@ OC = os.environ.get("LAW_OC") or "test"
 TODAY = datetime.date.today()
 BASE = "https://www.law.go.kr/DRF/"
 CASE_FROM = "20210101"  # 판례 수집 시작일
-DETAIL_CAP = 300         # 1회 실행에서 판시사항을 받아 올 최대 건수
+DETAIL_CAP = 100         # 1회 실행에서 판시사항을 받아 올 최대 건수
 
 LAWS = [
     "국민건강보험법", "국민건강보험법 시행령", "국민건강보험법 시행규칙",
@@ -37,10 +37,14 @@ CASE_QUERIES = [("보험", 1), ("실손의료보험", 2), ("암보험", 2), ("�
                 ("약관 설명의무", 2), ("요양급여", 2)]
 
 
+T0 = time.time()
+BUDGET = 540  # 초. 넘으면 남은 수집을 다음 실행으로 미루고 지금까지 것을 저장
 FAILS = [0]  # 연속 실패 횟수. 3회 넘으면 API가 막힌 것으로 보고 전체를 즉시 중단
 
 
 def api(path, **p):
+    if time.time() - T0 > BUDGET:
+        raise RuntimeError("시간 예산 초과 — 나머지는 다음 실행에서 이어서 수집")
     if FAILS[0] >= 3:
         raise RuntimeError("법제처 API 연속 실패 — 중단")
     url = BASE + path + "?" + urllib.parse.urlencode({"OC": OC, "type": "JSON", **p})
