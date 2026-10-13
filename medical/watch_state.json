@@ -17,11 +17,11 @@
    "err": null,
    "fails": 0,
    "hash": "7a4f6cf1ed6987da",
-   "pending": null
+   "pending": "3bd770f013fb38a4"
   },
   "https://diabetes.or.kr/bbs/download.php?code=guide&number=1522": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: 총 45초 초과",
+   "fails": 1,
    "hash": "091a336a03e8521d",
    "pending": null
   },
@@ -31,6 +31,12 @@
    "hash": "9e5a56d32ae7ccb1",
    "pending": null
   },
+  "https://kcdcode.kr/mobile/index/33?type=list&code=C78&firstLevel=0&flag=0": {
+   "err": null,
+   "fails": 0,
+   "hash": "e665d304bbccaece",
+   "pending": null
+  },
   "https://koreascience.kr/article/JAKO202324554058006.pdf": {
    "err": null,
    "fails": 0,
@@ -38,14 +44,14 @@
    "pending": null
   },
   "https://ksn.or.kr/bbs/skin/publication/download.php?code=g_guideline&number=1781": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: 총 45초 초과",
+   "fails": 1,
    "hash": "341bdaaf53bf7e33",
    "pending": null
   },
   "https://ksn.or.kr/bbs/skin/publication/download.php?code=guideline_k&number=2303": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: 총 45초 초과",
+   "fails": 1,
    "hash": "dfb2741285dbd8bb",
    "pending": null
   },
@@ -56,15 +62,27 @@
    "pending": null
   },
   "https://m.circulation.or.kr/bbs/download.php?code=guide&number=2685": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: 총 45초 초과",
+   "fails": 1,
    "hash": "e963c4f621bc1142",
    "pending": null
   },
-  "https://www.cancer.go.kr/lay1/S1T261C262/contents.do": {
+  "https://m.dailypharm.com/user/news/107603": {
    "err": null,
    "fails": 0,
+   "hash": "7138837ea4a0bcec",
+   "pending": null
+  },
+  "https://www.cancer.go.kr/lay1/S1T261C262/contents.do": {
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "aa0575f71d6852c1",
+   "pending": null
+  },
+  "https://www.cancer.go.kr/lay1/S1T289C848/contents.do": {
+   "err": null,
+   "fails": 0,
+   "hash": "fb97231e7431e04a",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/S1T549C683/contents.do": {
@@ -75,7 +93,7 @@
   },
   "https://www.cancer.go.kr/lay1/S1T648C650/contents.do": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
@@ -86,50 +104,50 @@
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
-   "hash": null,
+   "err": null,
+   "fails": 0,
+   "hash": "f42bf39552791f24",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3346": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3352": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "992f541538ad63f2",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3353": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3354": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "d24e354b8dbbe768",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3357": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "fe2678e71a2f0b1f",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3358": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
-   "hash": null,
+   "err": null,
+   "fails": 0,
+   "hash": "08f78f2357bcd340",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3359": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
@@ -141,7 +159,7 @@
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4666": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
@@ -152,8 +170,8 @@
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4672": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "err": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
+   "fails": 2,
    "hash": null,
    "pending": null
   },
@@ -194,14 +212,14 @@
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3802": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "053633de0b3753e2",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3808": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
@@ -242,8 +260,8 @@
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5242": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "84827c14cef78394",
    "pending": null
   },
@@ -284,21 +302,21 @@
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
-   "hash": null,
+   "err": null,
+   "fails": 0,
+   "hash": "a7d76c05f036546a",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3322": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "684fc417c67e7feb",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3328": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
-   "hash": null,
+   "err": null,
+   "fails": 0,
+   "hash": "72be48cacbb10f8b",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3329": {
@@ -309,14 +327,14 @@
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3330": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3333": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
-   "hash": null,
+   "err": null,
+   "fails": 0,
+   "hash": "84620c87b6e920fa",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3334": {
@@ -326,57 +344,57 @@
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3335": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
-   "hash": null,
+   "err": null,
+   "fails": 0,
+   "hash": "8fdff27016665ecf",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4762": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "08985d75341fc9ca",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4768": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "0826e10f77309d56",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4769": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4770": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
-   "hash": null,
+   "err": null,
+   "fails": 0,
+   "hash": "acb63bc63a078b6b",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4773": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
-   "hash": null,
+   "err": null,
+   "fails": 0,
+   "hash": "ef373fef4ac1b948",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4774": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
-   "hash": null,
+   "err": null,
+   "fails": 0,
+   "hash": "749886af1ca50180",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4775": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
-   "hash": null,
+   "err": null,
+   "fails": 0,
+   "hash": "a07b8bb48ef89a80",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949": {
@@ -387,169 +405,169 @@
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4954": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4960": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4961": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "e9cf77f742370670",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4962": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "99b3f1e4d82e8c6a",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4965": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4966": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=7181": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3753": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3754": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "9a30a063ad554130",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3760": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3761": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "7edc048707c1efaa",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3762": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3765": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "5900f420bd9662e0",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3766": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3767": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
-   "hash": null,
+   "err": null,
+   "fails": 0,
+   "hash": "b4e0bf57e11b1e5d",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3784": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3785": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "err": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
+   "fails": 2,
    "hash": null,
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3786": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3789": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
-   "hash": null,
+   "err": null,
+   "fails": 0,
+   "hash": "86e537f0e88740c6",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3790": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "b3020b85c2319c34",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3791": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5122": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "d9b126a744cd552e",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5128": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
-   "hash": null,
+   "err": null,
+   "fails": 0,
+   "hash": "51081761f8e3b271",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5129": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5130": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "6b5647384b7dc957",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5134": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5135": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "d09a84b7a5521a08",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=8723310": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
@@ -656,32 +674,32 @@
    "pending": null
   },
   "https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=2442": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: 총 45초 초과",
+   "fails": 1,
    "hash": "5cbb1983f988ac63",
    "pending": null
   },
   "https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=2636": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: 총 45초 초과",
+   "fails": 1,
    "hash": "94176408f3e9258e",
    "pending": null
   },
   "https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=2961": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: 총 45초 초과",
+   "fails": 1,
    "hash": "ccf8b28bbad5d8f4",
    "pending": null
   },
   "https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=2962": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: 총 45초 초과",
+   "fails": 1,
    "hash": "0dd001be8430b9e9",
    "pending": null
   },
   "https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=3067": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: 총 45초 초과",
+   "fails": 1,
    "hash": "0b7e4f1de57badd3",
    "pending": null
   },
@@ -707,7 +725,7 @@
    "err": null,
    "fails": 0,
    "hash": "00ec00dd721e9dca",
-   "pending": null
+   "pending": "4b8c4bd91862682e"
   },
   "https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2018&mode=view": {
    "err": null,
@@ -719,17 +737,17 @@
    "err": null,
    "fails": 0,
    "hash": "870b171a38abbe89",
-   "pending": null
+   "pending": "658e63ab77330de2"
   },
   "https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2297&mode=view": {
    "err": null,
    "fails": 0,
    "hash": "1a091f01785587ac",
-   "pending": null
+   "pending": "03e51c02a45a2058"
   },
   "https://www.guideline.or.kr/func/download_chronic.php?number=701": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: 총 45초 초과",
+   "fails": 1,
    "hash": "97c669e25b665b7e",
    "pending": null
   },
@@ -1115,19 +1133,19 @@
    "err": null,
    "fails": 0,
    "hash": "eca5cbdc8bd0e860",
-   "pending": null
+   "pending": "f2b7b83697079552"
   },
   "https://www.hira.or.kr/bbsDummy.do?brdBltNo=45661&brdScnBltNo=4&pgmid=HIRAA030023010000": {
    "err": null,
    "fails": 0,
    "hash": "3cae505ad77d4bbf",
-   "pending": null
+   "pending": "82dad279c55ae152"
   },
   "https://www.hira.or.kr/bbsDummy.do?brdBltNo=45666&brdScnBltNo=4&pgmid=HIRAA030023080000": {
    "err": null,
    "fails": 0,
    "hash": "589267f3e635e3bb",
-   "pending": null
+   "pending": "543d404e03d2bb05"
   },
   "https://www.kgca-i.or.kr/modules/setting/subPageManager/user/core/view/254/guide_2024/inc/data/guideline_2024_kor.pdf": {
    "err": null,
@@ -1139,13 +1157,13 @@
    "err": null,
    "fails": 0,
    "hash": "4f5004f1ff828f4c",
-   "pending": null
+   "pending": "a1f03901f54dd778"
   },
   "https://www.khidi.or.kr/fileDownload?titleId=464243&fileDownType=C&paramMenuId=MENU01522&fileId=3": {
    "err": null,
    "fails": 0,
    "hash": "83e762263e48d6c0",
-   "pending": null
+   "pending": "13bf80283b02bf9b"
   },
   "https://www.khidi.or.kr/fileDownload?titleId=464243&fileId=4&fileDownType=C&paramMenuId=MENU01522": {
    "err": null,
@@ -1241,13 +1259,13 @@
    "err": null,
    "fails": 0,
    "hash": "e1a617a108dd926c",
-   "pending": null
+   "pending": "063221139dce71af"
   },
   "https://www.kuos.or.kr/file/home/data/2026/02/Chapter04.pdf": {
    "err": null,
    "fails": 0,
    "hash": "39adf06c01403021",
-   "pending": null
+   "pending": "620a5ad6eb0d62b9"
   },
   "https://www.kuos.or.kr/file/home/data/2026/02/Chapter05.pdf": {
    "err": null,
@@ -1259,13 +1277,13 @@
    "err": null,
    "fails": 0,
    "hash": "022afb8d3a586777",
-   "pending": null
+   "pending": "d3511f6c38de0eab"
   },
   "https://www.kuos.or.kr/file/home/data/2026/02/Chapter_all.pdf": {
    "err": null,
    "fails": 0,
    "hash": "ce3093c2318791a1",
-   "pending": null
+   "pending": "b8e5440c37c5ca5d"
   },
   "https://www.kuos.or.kr/file/home/data/2026/Chapter01.pdf": {
    "err": null,
@@ -1295,7 +1313,7 @@
    "err": null,
    "fails": 0,
    "hash": "ca6bff2144575479",
-   "pending": null
+   "pending": "269c1f16ba23bab3"
   },
   "https://www.kuos.or.kr/file/home/data/2026/Chapter07.pdf": {
    "err": null,
@@ -1328,141 +1346,147 @@
    "pending": null
   },
   "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulId=63412&efYd=0": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
-   "hash": null,
+   "err": null,
+   "fails": 0,
+   "hash": "25677c08f9befc2e",
    "pending": null
   },
   "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000283320": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
-   "hash": null,
+   "err": null,
+   "fails": 0,
+   "hash": "9f82d9c0df4dbb52",
    "pending": null
   },
   "https://www.law.go.kr/LSW/lsInfoP.do?lsId=012492": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
-   "hash": null,
+   "err": null,
+   "fails": 0,
+   "hash": "ebe16306fd8536c4",
    "pending": null
   },
   "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=249317&efYd=20230929&ancYnChk=0": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
-   "hash": null,
+   "err": null,
+   "fails": 0,
+   "hash": "506c7af3e0bd3a30",
    "pending": null
   },
   "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=271009&efYd=20250719&ancYnChk=0": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
-   "hash": null,
+   "err": null,
+   "fails": 0,
+   "hash": "3ca93886a7ec2767",
    "pending": null
   },
   "https://www.lipid.or.kr/module/board/download.php?boardid=guideline&b_idx=1456&idx=10817": {
    "err": null,
    "fails": 0,
    "hash": "08530a273204d9dc",
-   "pending": null
+   "pending": "89f39330fb4db8bd"
   },
   "https://www.lipid.or.kr/uploaded/board/guideline/_50e8f3527d0798a82a29b8ef6c363cce2.pdf": {
    "err": null,
    "fails": 0,
    "hash": "a07296ed5c2908ba",
-   "pending": null
+   "pending": "b0d88de5b736c600"
   },
   "https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=10288": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: 총 45초 초과",
+   "fails": 1,
    "hash": "b0a1a3868d871f5c",
    "pending": null
   },
   "https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=10597": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: 총 45초 초과",
+   "fails": 1,
    "hash": "e22243cc603d9cfb",
    "pending": null
   },
   "https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=14697": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: 총 45초 초과",
+   "fails": 1,
    "hash": "7832b0d163151d13",
    "pending": null
   },
   "https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=14791": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: 총 45초 초과",
+   "fails": 1,
    "hash": "04cfbe75ba06f25b",
    "pending": null
   },
   "https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=17106": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: 총 45초 초과",
+   "fails": 1,
    "hash": "cf949d6462183615",
    "pending": null
   },
   "https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18575": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: 총 45초 초과",
+   "fails": 1,
    "hash": "14aa65faad5b00a5",
    "pending": null
   },
   "https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18579": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: 총 45초 초과",
+   "fails": 1,
    "hash": "a8e6286966c4127e",
    "pending": null
   },
   "https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=1": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: 총 45초 초과",
+   "fails": 1,
    "hash": "c332acd2cb09c14c",
    "pending": null
   },
   "https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=2": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: 총 45초 초과",
+   "fails": 1,
    "hash": "c332acd2cb09c14c",
    "pending": null
   },
   "https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=3": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: 총 45초 초과",
+   "fails": 1,
    "hash": "c332acd2cb09c14c",
    "pending": null
   },
   "https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=4-6": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: 총 45초 초과",
+   "fails": 1,
    "hash": "c332acd2cb09c14c",
    "pending": null
   },
   "https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=7": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: 총 45초 초과",
+   "fails": 1,
    "hash": "c332acd2cb09c14c",
    "pending": null
   },
   "https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=8-9": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: 총 45초 초과",
+   "fails": 1,
    "hash": "c332acd2cb09c14c",
    "pending": null
   },
   "https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=19618": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: 총 45초 초과",
+   "fails": 1,
    "hash": "c2fb975a3c87e2be",
    "pending": null
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1488742&tag=&nPage=1": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
-   "hash": null,
+   "err": null,
+   "fails": 0,
+   "hash": "7e55fde896229a77",
    "pending": null
   },
   "https://www.mohw.go.kr/menu.es?mid=a10706050100": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
-   "hash": null,
+   "err": null,
+   "fails": 0,
+   "hash": "a83bf28879510f56",
+   "pending": null
+  },
+  "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8268158/": {
+   "err": null,
+   "fails": 0,
+   "hash": "8f1c76db05ef45f9",
    "pending": null
   },
   "https://www.ncc.re.kr/downloadByFileUrl.ncc?path=files%2Finfo%2F%ED%95%9C%EA%B5%AD+%EC%B7%8C%EC%9E%A5%EC%95%94+%EC%A7%84%EB%A3%8C+%EA%B0%80%EC%9D%B4%EB%93%9C%EB%9D%BC%EC%9D%B8.pdf": {
@@ -1473,19 +1497,19 @@
   },
   "https://www.nhis.or.kr/lm/lmxsrv/law/lawFullContent.do?SEQ=477&SEQ_HISTORY=": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/minwon/wbhapa01000m01.do?mode=view&articleNo=10946900": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/renewal_popup/poster/20260608_poster_longdesc_1.html": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
@@ -1503,7 +1527,7 @@
   },
   "https://www.seoulhp.com/seoul/cmmn/file/fileDown.do?atchFileId=79e740a49bff47a1aa20365c7d80153f&fileSn=4&menuNo=100136": {
    "err": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl",
-   "fails": 1,
+   "fails": 2,
    "hash": null,
    "pending": null
   },
@@ -1511,7 +1535,7 @@
    "err": null,
    "fails": 0,
    "hash": "72714861cbea4573",
-   "pending": null
+   "pending": "5b53459925674bb8"
   },
   "https://www.stroke.or.kr/guidelines/view.php?sid=110": {
    "err": null,
@@ -1535,7 +1559,7 @@
    "err": null,
    "fails": 0,
    "hash": "a722ee54380b44c9",
-   "pending": null
+   "pending": "0d05846b7b39b52b"
   },
   "https://www.stroke.or.kr/guidelines/view.php?sid=60": {
    "err": null,
