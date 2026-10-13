@@ -1,6 +1,6 @@
 # 경제·보험 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-10-13 17:30 KST  /  최근 7일 3954건 (보험·의료 1113 · 투자·경제 2736)  /  이번 신규 294건
+- 갱신: 2026-10-13 17:30 KST  /  최근 7일 3981건 (보험·의료 1115 · 투자·경제 2761)  /  이번 신규 283건
 - 소스 64곳 + 구글뉴스 키워드 90개(보험·의료 45 · 투자·경제 45)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
 - 수집 실패 소스: 생명보험협회, 금융위원회
@@ -35,7 +35,7 @@
 **보험업계·상품 출시** (사건 15개)
 - (4) 10-12 매경헬스 — [손보협회, 자동차보험 '8주룰'...경상환자 피해 잡는다](https://news.google.com/rss/articles/CBMibEFVX3lxTE5aR2xGTDByMXhwMjN6NW1TRFA0aWhWQzZwYkVYX01oTnp0WEJSS0VGMTBVcmR1b2hUVU1EZmtCUUI4NWp1Yno0ZF9VV2UxT2htb0oxTmNzVS1NZmhRRHpHazVMV21Ham5KclhhUw?oc=5) — **외 3건**(4개 매체)
 - (3) 10-13 주간한국 — [신한금융, 롯데손해보험 인수…신한EZ손보와 통합 절차 수순](https://news.google.com/rss/articles/CBMicEFVX3lxTFB6VEpLcWxfa3hMMWp0VTNvbEZadEd2QzZDUjVDZXV2Zms1bE1ZejBqbXJ1clo1WnFXVW5femI5UGRZVTE1TUtGSjFocGs4WDZiMTFWMGpWUzFzYTJYZUx6dThfenNqMkIwY0ZzNDhubnLSAXRBVV95cUxNNC1JeG93c1FaY0dHZjRiMmRucWZwaWJmM29jTjRVT1ZJa1JrY1U1V2hFdEVDbmRQUEJDT1lsVGZ3SXEzQm1rUHZNZmxRWmpOallUZnVzQ2trRFFMelFPUmxMTDJHa3hIXy1rSVI2ZjY5endlcQ?oc=5) — **외 4건**(5개 매체)
-- (2) 10-12 팝콘뉴스 — [현대해상, 10월 손해보험 평판 1위 ‘독주’…메리츠화재 113% 폭증 ‘톱3 안착’](https://news.google.com/rss/articles/CBMickFVX3lxTE1EMHQ2dnlDTUg1M0c5ejhEMUtRM0JuQW5tOEU5c3B6Z3FJbDVjOWF4bVpNc29lOVZidGIzMm1nekxtZjF1V1ZnUC02N2RaanQzaFgyQ3VtdUItLVp3V05WN0RTZ1pLenZMdjZTeThSSjNNQdIBckFVX3lxTE1EMHQ2dnlDTUg1M0c5ejhEMUtRM0JuQW5tOEU5c3B6Z3FJbDVjOWF4bVpNc29lOVZidGIzMm1nekxtZjF1V1ZnUC02N2RaanQzaFgyQ3VtdUItLVp3V05WN0RTZ1pLenZMdjZTeThSSjNNQQ?oc=5) — **외 3건**(4개 매체)
+- (2) 10-12 팝콘뉴스 — [현대해상, 10월 손해보험 평판 1위 ‘독주’…메리츠화재 113% 폭증 ‘톱3 안착’](https://news.google.com/rss/articles/CBMickFVX3lxTE1EMHQ2dnlDTUg1M0c5ejhEMUtRM0JuQW5tOEU5c3B6Z3FJbDVjOWF4bVpNc29lOVZidGIzMm1nekxtZjF1V1ZnUC02N2RaanQzaFgyQ3VtdUItLVp3V05WN0RTZ1pLenZMdjZTeThSSjNNQdIBckFVX3lxTE1EMHQ2dnlDTUg1M0c5ejhEMUtRM0JuQW5tOEU5c3B6Z3FJbDVjOWF4bVpNc29lOVZidGIzMm1nekxtZjF1V1ZnUC02N2RaanQzaFgyQ3VtdUItLVp3V05WN0RTZ1pLenZMdjZTeThSSjNNQQ?oc=5) — **외 2건**(3개 매체)
 
 **기타** (사건 1개)
 - (3) 10-13 팜뉴스 — [[2026년 국감] 2조 원대 낭비 막는다…항암 보조제 남용·허가외 사용 재평가 촉구](https://news.google.com/rss/articles/CBMibEFVX3lxTFBoc1R3TFJ1TlZldUFyaUoxS1V6dm5RalI0bzFsYm1vdlpWOHgwcDJ3VndCdTJJVUNJMVVVTi1nM05vVEU3X1VVSG56TldleG9LaldRUmYtcFlSc3JSWWRNSFpiR3VhSHJuTm5kZg?oc=5)
@@ -71,13 +71,13 @@
 - (8) 10-13 코인리더스 — [비트코인(BTC)·이더리움(ETH), ETF 3주 연속 유입 종료...주간 12억 달러 '증발'](https://news.google.com/rss/articles/CBMiSkFVX3lxTE5LbERVTVF2YURXa2xkQmFMVGNKelBjUGJySWJiS3BQSTg5a1pLakdpSDVIWUxpSEZILU1jQWpudllHR1ByUDVKbTln?oc=5) — **외 2건**(3개 매체)
 - (6) 10-13 파이낸셜뉴스 전체 — [비트코인, 美 CPI 발표 앞두고 경계…8만1000달러선 하락 [크립토브리핑]](https://www.fnnews.com/news/202610131039009660) — **외 3건**(4개 매체)
 
-**미국·해외 증시** (사건 37개)
+**미국·해외 증시** (사건 36개)
 - (16) 10-13 시티타임스 CityTimes — [유가 급등·반도체주 한파에 나스닥 0.44%↓… 다우 홀로 상승 ‘혼조’ [뉴욕증시]](https://news.google.com/rss/articles/CBMickFVX3lxTE5USlh4T2I5elgyUHBrTVpYN1RBb1FoOWFrQUlhYXByWEp0a3ItaG50bmFHb3R6UVVWVWlVZWE0ZGJTMFlfeVhQOTFySDdKQXFSY2JheFlGWEhQVkJhbmdPSGpnVWx5TGxxZlJyQ25mYkFKd9IBckFVX3lxTE5USlh4T2I5elgyUHBrTVpYN1RBb1FoOWFrQUlhYXByWEp0a3ItaG50bmFHb3R6UVVWVWlVZWE0ZGJTMFlfeVhQOTFySDdKQXFSY2JheFlGWEhQVkJhbmdPSGpnVWx5TGxxZlJyQ25mYkFKdw?oc=5) — **외 35건**(32개 매체)
 - (14) 10-13 이코노뉴스 — [뉴욕증시, 국제유가 급등과 반도체주 약세 속 혼조세 마감⋯엔비디아 1%대, 마이크론 3%대 하락-MS·애플 1%대, 메타 3%대 상승](https://news.google.com/rss/articles/CBMib0FVX3lxTE5IS1JWeDBuRFVLYmxaeVVZRTF1b3dKRXBsbnI1Y1hfZTRsM1hzU2otcEJQSmZ5RE4xNjdsdThRUGhKaEtLVDdWOGgzVm5zY1RKRmdsWXY1VW8tWWxSaW5xYTNic2Y4dldfc2xLdHFvTQ?oc=5) — **외 3건**(4개 매체)
 - (11) 10-13 Chosunbiz — [국제유가 급등·반도체株 약세에 뉴욕증시 혼조 마감 - 조선비즈](https://news.google.com/rss/articles/CBMingFBVV95cUxQQTk0eHNfdmllLXJhejVOMGp4UmxSZXNnOGV0TWtMNllsWHd5TzI2d2c2TnRJVl85QU1hVExTSXJjam9RZlYxQnpiaEp0T2dhSDVmVDJRNHZuOHQtMUkxeU1NanFmTW5SeUJKREdreDBnZmlDQksyamdWaS10NmZvUmJ2U04tYzdnNDRNSDd2TWV6TzNmaFFxTTc0TkVoQdIBsgFBVV95cUxOMVN3THFXVHVQdGNBd2pwbWE3aFlna2xzdHpEVWpXMUp3Rzk5M3VJUElETll2THBSMEV3VUF6cmJIN2g2djM0QnVNeE85a0NJdFpCRHh0b2xiYVJfM3VVOGZid3RsLWlFY2N6VlR3WGtjM0xwd21qS21tbml5c2poa25nc0NuaWw1MFZsSl80ODNPSXFPZDUyelpUenJSQTJHZkxlQk8zajc2RjI1M1hqWXFB?oc=5) — **외 7건**(7개 매체)
 
 **국내 증시** (사건 83개)
-- (13) 10-13 현대경제 — [중국 반도체 공습에 코스피 4.6% 폭락…삼성전자·SK하이닉스 동반 급락](https://news.google.com/rss/articles/CBMia0FVX3lxTFBWaG5Tb1pmNzZoaFU5RmNjX0ZaWjMtOWl2UHZkWG1TTUJfZEh0WTQ5OUFPcU1iWlRjVzlFcjJPZ2J4N2dMV0pWa1Jub0dfWnBGSVl1Mm5CeG1sazhLSXlTYnc0X0syV0tVdkJV?oc=5) — **외 26건**(23개 매체)
+- (13) 10-13 현대경제 — [중국 반도체 공습에 코스피 4.6% 폭락…삼성전자·SK하이닉스 동반 급락](https://news.google.com/rss/articles/CBMia0FVX3lxTFBWaG5Tb1pmNzZoaFU5RmNjX0ZaWjMtOWl2UHZkWG1TTUJfZEh0WTQ5OUFPcU1iWlRjVzlFcjJPZ2J4N2dMV0pWa1Jub0dfWnBGSVl1Mm5CeG1sazhLSXlTYnc0X0syV0tVdkJV?oc=5) — **외 27건**(23개 매체)
 - (11) 10-13 재경일보 — [코스피 주가 장중 6%대 급락…매도 사이드카 발동 : 한국증시](https://news.google.com/rss/articles/CBMiS0FVX3lxTE1NSEpVSDBvSWtWSFNheFFDN2M3Rkk4YVRXdUlUT2NSc1RRLXRkMlZCZE51d3JsbkhxbTV1anA5VHdlNjdMakxqYmptVQ?oc=5) — **외 31건**(23개 매체)
 - (12) 10-13 한겨레 — [코스피 5.46% 급락한 6035 마감…반도체주 폭락에 매도 사이드카](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1aMkFhM0k0QTlVdUU1Um5UNWlLeHMweHRVYmtCdGZ2OGV0T2FqUXpVSi02S3JKMnNHNjEtcElKT29WTWk3Vk1ENUlCRUF4V2xuVnBpUDBvRVg2c0hZUldCZlkyNTR0LVE?oc=5) — **외 6건**(7개 매체)
 
@@ -86,7 +86,7 @@
 - (14) 10-12 https://www.diarypoint.com/ — [원달러 환율 1337.6원…미 국채금리 급등에도 1340원대 반등 전망](https://news.google.com/rss/articles/CBMia0FVX3lxTFBpS1V5aVhSRG9wVkNid093LS1WOERqZ1I3QkRmbHBiZnZmb01xQkJYYUt4eWEtZlNvaFQwOTdEY19EaTk2M052Q1pYSE5rY0dwQWRheFVlNFRxU3BlWmxyUWVnRFBabG5uY1hV?oc=5)
 - (11) 10-11 강릉뉴스 — [미국 중간선거 뒤 환율도 안정될까…달러 강세 가르는 금리·유가·관세](https://news.google.com/rss/articles/CBMibkFVX3lxTE9XT1dTeE15Mkh4UUk1c0tQQ1MzeE9MSUViRnRERGY2cW9vUUkwT00yaXNSU0JxVF96MFo1NlJNbjFoSmM0MlJrQUdjYm1sZ3Z1eGNTMlBYR2RJRG9rUDBucndDc19TZVNhUFJselV30gFyQVVfeXFMT0N6ZVpna0RnbDlfUUgzQXdfRi1Pd1RURk1HX3Rka2RkUU1tc2dwWXhleVVuS0l4NDJ6VVVhTlZUR0VQeFd2TndPU1ZrVm5ual90UnJhdGFqa09xQk8yUXBmaElkU21aaVBPZGtPamU5eFN3?oc=5) — **외 1건**(2개 매체)
 
-**환율·달러** (사건 20개)
+**환율·달러** (사건 21개)
 - (8) 10-12 중앙일보 — [원·달러 환율 1333원까지 ‘뚝’…반도체 수출 호조에 2년 만에 최저](https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmNlI3UXpYenJXOFl2X3RlMHd4WVFlbUJzSllkTmx1bnJDcUxvX3JFeUxGQVFYbTZpbXUtQVJuWmQ4YnRSY1NJQ01ZODctcHEtZkFGclhn?oc=5) — **외 5건**(6개 매체)
 - (9) 10-13 잡포스트 — [원·달러 환율 1338원…엔화·유로·위안화 등 주요 통화 일제히 상승](https://news.google.com/rss/articles/CBMickFVX3lxTE5VX2pleWhmMnF4TlhBOGJubElpZWxQM2g4b3hwcGg1LWQ3cHM3SWJzRjJYYmtRLU50bk0tNk54T0dqR1doa1VCOFRCSDgtRV9XRERnN3BwTUFhOGtMa3M3YzgyS2owZXZlN1ZabmUzX1k0d9IBckFVX3lxTE5VX2pleWhmMnF4TlhBOGJubElpZWxQM2g4b3hwcGg1LWQ3cHM3SWJzRjJYYmtRLU50bk0tNk54T0dqR1doa1VCOFRCSDgtRV9XRERnN3BwTUFhOGtMa3M3YzgyS2owZXZlN1ZabmUzX1k0dw?oc=5) — **외 1건**(1개 매체)
 - (8) 10-13 뉴스핌 — [[채권/외환] 중동 확전 공포에 달러 18개월 만에 최고…유가 급등·유로화 약세](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9VaDU0NjFqNGc0S21rUG1BYi0xZjFKQnJVZ3VCMlEzbVNMekFKbUlBUUdMS2hKZXl6MXI1YVlPN00xRXVidUdQdVZnQW83NW94cjhvYlNzM0c0Y2J2?oc=5) — **외 1건**(2개 매체)
@@ -141,4 +141,4 @@
 
 ## 언론사별 건수 상위 15
 
-머니투데이 70, 뉴스1 63, 연합인포맥스 61, 뉴시스 60, 파이낸셜뉴스 전체 59, 연합뉴스 59, 보험신보 58, 뉴스핌 58, 보험저널 50, 이데일리 45, 보험매일 45, 한국보험신문 44, 연합뉴스 마켓 43, 이투데이 42, 아주경제 38
+머니투데이 72, 뉴스1 63, 뉴시스 62, 연합인포맥스 61, 파이낸셜뉴스 전체 59, 연합뉴스 59, 보험신보 58, 뉴스핌 58, 보험저널 50, 이데일리 46, 보험매일 45, 한국보험신문 44, 연합뉴스 마켓 43, 이투데이 42, 코인리더스 38
