@@ -1,6 +1,6 @@
 # 경제·보험 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-10-13 17:07 KST  /  누적 724건 (`news/news.csv`)  /  이번 신규 724건  /  네이버 검색 미사용(키 없음)
+- 갱신: 2026-10-13 17:08 KST  /  누적 730건 (`news/news.csv`)  /  이번 신규 6건  /  네이버 검색 미사용(키 없음)
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다.
 - 수집 실패 소스: 금융위원회
 
@@ -43,6 +43,7 @@
 - (5) 10-12 라포르시안 — [근로자 13만명, 회사가 국민연금 보험료 체납으로 노령연금 수급 위기](https://news.google.com/rss/articles/CBMibkFVX3lxTE9leTNsNGZxRFdUNjc5X0VKcFhHT3cybFJPcjBFN05KQ0J2M0NjQWFURjhRcWliX0VKMGJpcEU3blFSME5jV2ZSLXByTW1XZ0ZIRkktZzgtOXZPR2JCRVktb2ozWFlaRFlyNWtkSGR3?oc=5)
 - (5) 10-12 핀포인트뉴스 — [소병훈 의원 "회사 안 낸 연금보험료, 근로자가 왜 떠안나"](https://news.google.com/rss/articles/CBMic0FVX3lxTFBscnkyM081TngtWHE1X01kNGRrT2hpTk9nbG51RnhYZ01RSVp6bkZ2RlJER3B5QURmTGtyQ20yNDBTc05wMFNjYmZnenZLSE10RkxOZkNnQzFTMl9hZDhuOV9faDd0NHUtWlNJa0Y4eloyam8?oc=5)
 - (5) 10-12 보험매일 — [디폴트옵션에 국채까지…보험사 퇴직연금 경쟁력 시험대](http://www.fins.co.kr/news/articleView.html?idxno=110194)
+- (4) 10-13 비즈트리뷴 — [미래에셋생명, 은퇴 앞둔 50세 이상 고객 대상 '퇴직연금 세미나' 개최](https://news.google.com/rss/articles/CBMicEFVX3lxTE1nSDNxVTg4TF92dlBQN1YwNTJ6NzdyRExCX0hOWWJCbXBsZ0xETVZ5ejdBQnFBVFFENEwxNDlhWk5qM29TRmFFdWxObld2Q0tlZkwwcnUxdUxnQ3NjcWlkekp0Y0ExTk1PYnZJNWxhVXo?oc=5)
 - (4) 10-13 뉴스인사이드 — [미래에셋생명, 23일 50세 이상 퇴직연금 세미나 개최](https://news.google.com/rss/articles/CBMibkFVX3lxTE5pRUxIb0htYjMxaHFHX21wNDRjV0FKLW9MMUxXX3pBVnQxRUdqTlIySEh4NjJVYkV0T1JhdFZTcm5Ec3h0cEFuS3BCRGVmWlhoUThaZFhHRmw1eDA4MHhRdV9lVUlqbGZiZkxHNTdR?oc=5)
 - (4) 10-13 뉴스포스트 — [미래에셋생명, 50세 이상 고객 대상 '퇴직연금 세미나' 개최](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5na3ZNV0w0Ymp2dXBsREZQZkxvUElJTzBPSHlPay1BREYxZnNLS012OGhUX2JKVC1uSDhhLTBoSzBwSXdUOWNtX3lVRDVZREZ6S2ZSTy16OHN4LTlUZi1HS1NzSnJucTY3?oc=5)
 - (4) 10-13 농민신문 — [‘개인투자용 국채’ 주목…퇴직연금 10년후 쓸 계획이라면 고려해볼만](https://news.google.com/rss/articles/CBMiWkFVX3lxTE5jd3Job3EtbmpPLTcwNk9sU2Y2M01raHJwaDE1NUNLcGM4QUV6N18xUE5qaFBzUU9jRGQ1Rm5WYkpmTmpXc01adW5TY1A0Z0Z4Q3ppdFlJZ2J3dw?oc=5)
@@ -67,4 +68,3 @@
 - (4) 10-13 인더뉴스 — [미래에셋생명 퇴직연금 세미나… 세금·노후리스크·연금운용 소개](https://news.google.com/rss/articles/CBMiZEFVX3lxTE9JbzVXTXNiNkluZEpVc2ozV1JkRHh1N3lRdWYzT2Y0a1MwYXpscUxKejZrdFowak1rT2FCZkpKMlViSFNMcTBHWVpDZ0ppbXlCRVZTZVJFYXgyc3BXR2xSSDRmTXI?oc=5)
 - (4) 10-13 이지경제 — [미래에셋생명, 은퇴 후 30년 대비법 알려준다…퇴직연금 세미나 개최](https://news.google.com/rss/articles/CBMibkFVX3lxTE5kem9XNUFCRnhNRzJWN3NKZXRUME5mTFFuQ1JPR0NoQ2RYSjNOYTZIWFlJMDhkTlpXb3ZZN0RaRUg4N2RUZ2EyYjhMUDRwalNjVjlYNU8wWENMX0FTXzdYc3VYc0lTTjNxQklmX0h3?oc=5)
 - (4) 10-13 NSP통신 — [삼성생명, ‘골든종신보험’ 개정 14일 첫 선…암 진단 땐 보험료 면제·인출 확대](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ha1lnOWNBNXhfN1ZzSk4xTzVXeGVhaUhncU0xTzZEcFlYMjlaa0JUaTQwRDhleWFhQXdySF80Y3lKSWVZQU9qNHZLRzFqSWxiZ3VRaWpMNkdINm12aGN0bw?oc=5)
-- (4) 10-13 파이낸셜포스트 — [미래에셋생명, 퇴직연금 세미나…50대 노후 설계 지원](https://news.google.com/rss/articles/CBMidEFVX3lxTE5xdGUyY0Z6YXhOSUg0cDdvdzJtRmdLN2FMYllxbngxb0VXS0dCejAyLXUwRXhDT1JrQ1ZGU2pFamxZNXlRM25GdE53NkR1TjNWTXFXNW1QX1pmZ1NvWkZCemJFc2ZfLVNKa2lJbllvVTNyRjNv?oc=5)
