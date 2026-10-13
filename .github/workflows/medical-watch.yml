@@ -28,6 +28,7 @@ jobs:
 
       - name: 법령·고시·보험 판례 감시 (법제처 API)
         continue-on-error: true
+        timeout-minutes: 15
         env:
           LAW_OC: ${{ secrets.LAW_OC }}  # 없으면 공용 'test' 사용
         run: python medical/scripts/watch_law.py

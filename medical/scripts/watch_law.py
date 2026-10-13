@@ -37,16 +37,24 @@ CASE_QUERIES = [("보험", 1), ("실손의료보험", 2), ("암보험", 2), ("�
                 ("약관 설명의무", 2), ("요양급여", 2)]
 
 
+FAILS = [0]  # 연속 실패 횟수. 3회 넘으면 API가 막힌 것으로 보고 전체를 즉시 중단
+
+
 def api(path, **p):
+    if FAILS[0] >= 3:
+        raise RuntimeError("법제처 API 연속 실패 — 중단")
     url = BASE + path + "?" + urllib.parse.urlencode({"OC": OC, "type": "JSON", **p})
     last = None
     for i in range(3):
         try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "medical-watch"}), timeout=40) as r:
-                return json.loads(r.read().decode("utf-8"))
+            with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "medical-watch"}), timeout=20) as r:
+                out = json.loads(r.read().decode("utf-8"))
+            FAILS[0] = 0
+            return out
         except Exception as e:
             last = e
             time.sleep(2 * (i + 1))
+    FAILS[0] += 1
     raise RuntimeError(f"{path} {p.get('query', '')}: {type(last).__name__}")
 
 
