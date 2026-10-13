@@ -2,7 +2,7 @@ name: news-collect
 
 on:
   schedule:
-    - cron: "0 0,6,12 * * *" # 09:00·15:00·21:00 KST
+    - cron: "0 0,12 * * *" # 09:00·21:00 KST
   workflow_dispatch: {}
 
 permissions:
