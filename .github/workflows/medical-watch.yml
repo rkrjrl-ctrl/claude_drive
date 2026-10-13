@@ -50,7 +50,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           # 변경 확정·접속 실패·기한 지남·신규 논문 중 하나라도 있으면 이슈 1개를 갱신(없으면 생성)
-          cat medical/WATCH.md medical/LAWWATCH.md > /tmp/body.md
+          cat medical/WATCH.md > /tmp/body.md; cat medical/LAWWATCH.md >> /tmp/body.md 2>/dev/null || true
           if grep -qE '^## 원문 변경 확정 \([1-9]|^## 접속 .* \([1-9]|기한 지남|^\*\*|alerts: [1-9]' /tmp/body.md; then
             n=$(gh issue list --label medical-watch --state open --json number --jq '.[0].number')
             if [ -n "$n" ]; then
