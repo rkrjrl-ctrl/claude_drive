@@ -1,0 +1,58 @@
+name: news-collect
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # 09:00 KST daily
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: news-collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 뉴스 헤드라인 수집
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}      # 없으면 네이버 검색은 건너뜀
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: python scripts/fetch_news.py
+
+      - name: 결과 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add news/
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "news: $(date -u +%Y-%m-%d) 헤드라인 갱신"
+            git pull --rebase -q
+            git push
+          fi
+
+      - name: 월요일마다 주간 요약 이슈 갱신
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$(TZ=Asia/Seoul date +%u)" = "1" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            n=$(gh issue list --label news-digest --state open --json number --jq '.[0].number')
+            if [ -n "$n" ]; then
+              gh issue edit "$n" --body-file news/DIGEST.md
+            else
+              gh label create news-digest --color 1D76DB 2>/dev/null || true
+              gh issue create --title "주간 보험·경제 뉴스 후보" --label news-digest --body-file news/DIGEST.md
+            fi
+          fi
