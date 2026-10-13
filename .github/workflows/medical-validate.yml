@@ -1,0 +1,17 @@
+name: medical-validate
+
+on:
+  push:
+    paths: ["medical/**"]
+  pull_request:
+    paths: ["medical/**"]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 자료 검증 (오류 시 실패)
+        run: python3 medical/scripts/build_index.py --strict
+      - name: index.csv 가 최신인지 확인 (STATUS.md 는 기준일이 들어가 제외)
+        run: git diff --exit-code -- medical/index.csv
