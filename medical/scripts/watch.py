@@ -5,7 +5,7 @@
 변경 판정: 해시가 달라지면 'pending'으로 두고, 같은 새 해시가 다음 실행에서도 나오면 '변경 확정'.
 (조회수·시각이 들어간 페이지가 매일 바뀌는 오탐을 거르기 위함)
 """
-import csv, datetime, hashlib, json, os, re, sys, urllib.request, urllib.parse
+import csv, datetime, hashlib, json, os, re, sys, time, urllib.request, urllib.parse
 from concurrent.futures import ThreadPoolExecutor
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -111,6 +111,10 @@ def main():
     for ko, en in PUBMED.items():
         if any(ko in d for d in diseases):
             hits = pubmed(en, since)
+            if hits and hits[0][0] == "ERR":  # NCBI는 초당 3회 제한 → 잠시 쉬고 1회 재시도
+                time.sleep(2)
+                hits = pubmed(en, since)
+            time.sleep(0.5)
             if hits and hits[0][0] == "ERR":
                 pub_err = hits[0][1]
             elif hits:
