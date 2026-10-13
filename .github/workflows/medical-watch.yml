@@ -24,6 +24,7 @@ jobs:
           python-version: "3.12"
 
       - name: 자료 원문·기한·신규 논문 감시
+        timeout-minutes: 20
         run: python medical/scripts/watch.py
 
       - name: 법령·고시·보험 판례 감시 (법제처 API)

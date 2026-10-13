@@ -29,9 +29,16 @@ PUB_TYPES = '("practice guideline"[pt] OR guideline[pt] OR "randomized controlle
 def fetch(url):
     try:
         req = urllib.request.Request(url, headers=UA)
+        t0, body = time.time(), b""
         with urllib.request.urlopen(req, timeout=25) as r:
-            body = r.read(MAX_BYTES)
             ctype = r.headers.get("Content-Type", "")
+            while len(body) < MAX_BYTES:  # 조금씩 오는 느린 서버가 전체를 붙잡지 않도록 총 시간 제한
+                chunk = r.read(65536)
+                if not chunk:
+                    break
+                body += chunk
+                if time.time() - t0 > 45:
+                    raise TimeoutError("총 45초 초과")
         if "html" in ctype or body[:100].lstrip().lower().startswith((b"<!doctype", b"<html")):
             t = body.decode("utf-8", "ignore")
             t = re.sub(r"(?is)<(script|style|noscript).*?</\1>|<!--.*?-->", " ", t)
