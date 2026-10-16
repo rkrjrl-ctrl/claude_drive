@@ -10,15 +10,16 @@ topic: 질병공통(제도·비용)
 url: https://www.cancer.gov/about-cancer/advanced-cancer/care-choices/palliative-care-fact-sheet
 published: unknown
 revised: 2021-11-01
-checked: 2026-10-11
+checked: 2026-10-17
 location: 정의·제공시기·호스피스와 차이
 source_type: web_summary
 tier: C
 status: needs_recheck
-recheck_by: 2026-12-11
+recheck_by: 2027-04-17
 reviewer: 자료정리(AI). 의료인 검토 미실시
 drive_file: https://drive.google.com/file/d/1udCBBZ1zSZ4MAMsxD6GylSRbsPPIaBKN/view
 video_use: 완화의료가 곧 치료 포기라는 오해 설명
+related: MED-1061
 migrated_from: Drive 시트 '휴휴휴 의료정보_자료목록과 운영흐름' (2026-10-11 기준 이전)
 ---
 
@@ -28,6 +29,7 @@ migrated_from: Drive 시트 '휴휴휴 의료정보_자료목록과 운영흐름
 - 원문은 완화의료와, 치료목표가 달라진 시기의 호스피스를 구분하며 가족·돌봄제공자 지원도 포함한다.
 
 ## 적용 조건·한계
+- 2026-10-17 국내 대체 근거 확보: 국가건강정보포털 '호스피스 완화의료'(MED-1061)가 같은 개념 구분(진단 시점부터의 완화적 치료 vs 말기·임종기 호스피스)과 국내 대상·유형·비용을 다룬다. 영상에는 MED-1061을 우선 쓰고 이 해외 자료는 보조로만 둔다.
 미국의 개념 설명이며 한국 호스피스의 법정 대상·이용절차·급여 기준을 설명하는 자료가 아니다. 미국 보험제도 설명은 국내에 적용하지 않는다.
 
 ## 미검증·사용 금지
