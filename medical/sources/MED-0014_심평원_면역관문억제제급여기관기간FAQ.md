@@ -12,6 +12,7 @@ published: 2026-02-24
 revised: unknown
 effective: 2026-04-02
 related: MED-0016; MED-0029
+note: 이용조건: 심평원 저작권정책 — 공공누리 미부착 자료는 사전 협의, 공고 원문은 저작권법 제7조 대상(LICENSES.md)
 checked: 2026-10-11
 location: FAQ 급여기준 질문/답변 + 제2026-88호 공고 요약(+제2026-210호 게시문 확인)
 source_type: web_summary
