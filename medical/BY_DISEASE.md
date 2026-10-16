@@ -237,7 +237,7 @@
 | MED-0485 | 일차 의료용 근거기반 당뇨병 권고 요약본(대한의학회·질병관리청 연구비 지원, 2022-02 발간·2021 개정위원회) — 진단기준·혈당조절 목표·관리·합병증·특수상황 권고 요약(구판) | 대한의학회·질병관리청 | A | superseded | 2027-01-14 |
 | MED-0490 | 2023 당뇨병 진료지침(대한당뇨병학회, 영문 전문 PMC 오픈액세스) — 진단·선별·예방·혈당목표·약물·합병증·특수상황 21개 장 권고 요약(구판) | 대한당뇨병학회(Korean Diabetes Association, KDA) | A | superseded | 2027-01-14 |
 
-## 고혈압 (4건)
+## 고혈압 (5건)
 
 | ID | 자료명 | 기관 | 등급 | 상태 | 재확인 |
 |---|---|---|---|---|---|
@@ -245,6 +245,7 @@
 | MED-0242 | 일차 의료용 근거기반 고혈압 권고 요약본(대한의학회, 2019-12 개정판·2022 부분개정 표기) — 혈압 분류·진단·목표혈압·생활요법·약물요법·특수상황 권고 요약(구판) | 대한의학회 | A | superseded | 2026-12-11 |
 | MED-0273 | 2026 대한고혈압학회 고혈압 진료지침 하이라이트 — 신규 도입 내용과 변경 사항별 권고 요약 | 대한고혈압학회 (2026 진료지침 개정위원회 구성원의 하이라이트 논문, Clin Hypertens 게재) | A | partial | 2027-01-14 |
 | MED-0394 | 2018 대한고혈압학회 고혈압 진료지침 2022 부분개정(영문 논문) — 혈압 측정·진단, 선별, 목표혈압, 병용 질환별 권고 요약 | 대한고혈압학회 진료지침 위원회 (Korean Society of Hypertension, Committee of Clinical Practice Guidelines) | A | partial | 2027-01-14 |
+| MED-0554 | 2018 대한고혈압학회 고혈압 진료지침 Part I 역학 — 혈압 분류, 심혈관 위험, 국내 유병률·인지·치료·조절률, 대사증후군, 백의고혈압·가면고혈압(구판) | 대한고혈압학회(Korean Society of Hypertension) 진료지침 위원회 | A | superseded | 2026-12-16 |
 
 ## 이상지질혈증 (4건)
 
@@ -401,6 +402,13 @@
 |---|---|---|---|---|---|
 | MED-0284 | 약제관련 턱뼈괴사(MRONJ) 근거기반 2025 입장문(한국 다학제 TF) — 정의·병기, 위험요인, 예방, 치료·재발 관리 요약 | 한국 다학제 TF(대한구강악안면외과학회·대한악안면성형재건외과학회·대한골다공증학회·대한골대사학회·대한내분비학회 전문가 20명) | A | partial | 2027-01-14 |
 | MED-0385 | 약제관련 턱뼈괴사(MRONJ) 2021 입장문 — 정의, 위험요인, 예방, 약물 휴지, 병기별 치료 요약 | 대한골대사학회(KSBMR), 대한구강악안면외과학회(KAOMS) 공동 TF | A | superseded | 2027-01-14 |
+
+## 우울증(약물치료 알고리즘) (2건)
+
+| ID | 자료명 | 기관 | 등급 | 상태 | 재확인 |
+|---|---|---|---|---|---|
+| MED-0297 | 우울장애 약물치료 알고리즘 KMAP-DD 2025 — 국제 지침(CANMAT·NICE·RANZCP·BAP)과의 비교 리뷰 요약 | KMAP-DD 연구진(Korean Medication Algorithm Project for Depressive Disorder; 연구비 Korean Society for Affective Disorders·Korean College of Neuropsychopharmacology 지원) | A | partial | 2027-01-14 |
+| MED-0551 | 우울장애 약물치료 알고리즘 KMAP-DD 2021 — 해외 치료지침(WFSBP·BAP·CANMAT·RANZCP)과의 비교 리뷰(2022) 요약 | KMAP-DD 연구진(Korean Medication Algorithm Project for Depressive Disorder; 연구비 Korean Society for Affective Disorders·Korean College of Neuro-psychopharmacology 지원), Clin Psychopharmacol Neurosci 게재 | B | partial | 2026-12-16 |
 
 ## 원발성알도스테론증 (2건)
 
@@ -1165,6 +1173,12 @@
 |---|---|---|---|---|---|
 | MED-0484 | 부인암 진료권고안 version 2.0(2010) — 자궁경부암·자궁체부암(자궁내막암·자궁육종)·난소암 진단·치료·추적 권고 요약 | 대한부인종양·콜포스코피학회 부인암 진료권고안 개발 소위원회(자궁경부암 부분은 대한의학회 임상진료지침위원회 암정복추진연구개발사업 지원) | A | superseded | 2027-01-14 |
 
+## 불면증(성인) (1건)
+
+| ID | 자료명 | 기관 | 등급 | 상태 | 재확인 |
+|---|---|---|---|---|---|
+| MED-0550 | 성인 불면증 진단·치료 한국 임상진료지침(Korean Clinical Practice Guideline for the Diagnosis and Treatment of Insomnia in Adults, 2020) — 진단 절차, CBT-I 우선, 약물 선택·권고 15개 요약 | Korean Neuropsychiatric Association (지침 개발 사업 지원 및 임상진료지침위원회 인증; 개발 실무는 신경정신과 전문의 15명 실무위원회) | A | partial | 2026-12-16 |
+
 ## 비만 진단 (1건)
 
 | ID | 자료명 | 기관 | 등급 | 상태 | 재확인 |
@@ -1680,12 +1694,6 @@
 | ID | 자료명 | 기관 | 등급 | 상태 | 재확인 |
 |---|---|---|---|---|---|
 | MED-0158 | 일차 의료용 근거기반 우울증 임상진료지침(2022) — 원인·위험인자, 선별·진단, 운동 등 생활습관 권고 | 대한의학회·질병관리청(개발 대한신경정신의학회 등, KHIDI 게시본) | A | partial | 2026-12-11 |
-
-## 우울증(약물치료 알고리즘) (1건)
-
-| ID | 자료명 | 기관 | 등급 | 상태 | 재확인 |
-|---|---|---|---|---|---|
-| MED-0297 | 우울장애 약물치료 알고리즘 KMAP-DD 2025 — 국제 지침(CANMAT·NICE·RANZCP·BAP)과의 비교 리뷰 요약 | KMAP-DD 연구진(Korean Medication Algorithm Project for Depressive Disorder; 연구비 Korean Society for Affective Disorders·Korean College of Neuropsychopharmacology 지원) | A | partial | 2027-01-14 |
 
 ## 우측 결장 게실염 (1건)
 
