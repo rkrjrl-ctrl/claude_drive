@@ -1,45 +1,45 @@
 # 경제·보험 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-10-16 09:10 KST  /  최근 7일 10528건 (보험·의료 2468 · 투자·경제 7955)  /  이번 신규 1160건
+- 갱신: 2026-10-16 21:19 KST  /  최근 7일 12180건 (보험·의료 2988 · 투자·경제 9087)  /  이번 신규 1931건
 - 소스 64곳 + 구글뉴스 키워드 90개(보험·의료 45 · 투자·경제 45)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 생명보험협회, 금융위원회
+- 수집 실패 소스: 생명보험협회, 금융위원회, 머니투데이
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
-**실손·비급여** (사건 20개)
+**실손·비급여** (사건 35개)
+- (9) 10-16 병원신문 — [[국감] 건보공단, 본인부담상한제·실손보험 개편 추진하나](https://news.google.com/rss/articles/CBMiakFVX3lxTFBpeC1GQW9nMFpmUlF4dllwQ0ZlUkl3TEpueDYyZEpuck5ESWxBNWwzWlRIbUJNSVdZTzJxUDZoNkRuQWhSTlJ5SXB4RzlGWHlNVElIMDhIcWtpX1I4UFJoUjV5NGNnYW5lbnc?oc=5) — **외 1건**(2개 매체)
 - (6) 10-15 아주경제 — [[실손 갈아타기, 할인 승부수] 1·2세대 실손, 5세대로 전환 0.2% 수준…11월부터 보험료 반값](https://news.google.com/rss/articles/CBMiWEFVX3lxTFBKYWJJTFgySjc5c1kySHNnUWR2MDFTdndYVHQ0TzVqNnhtYWdLMng3YkdhQTFKdmtCc0U2SEhBVklkUmJ3VFB1S0FuQ3A0YlFBbzlaUTAyRXrSAVhBVV95cUxQSmFiSUxYMko3OXNZMkhzZ1FkdjAxU3Z3WFR0NE81ajZ4bWFnSzJ4N2JHYUExSnZrQnNFNkhIQVZJZFJid1RQdUtBbkNwNGJRQW85WlEwMkV6?oc=5) — **외 3건**(3개 매체)
-- (9) 10-15 이투데이 — [[알기 쉬운 생활금융⑧]보험료는 꼬박꼬박, 보험금은 깜빡…실손청구 쉬워졌다](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9lajZfRVBDbU1wb0ZXRWpPYkNSQ01WVHNZdDVienh3QWhlYXpueVg3TDRIX3NVMWRUcjAyT3h3WFl1S2hOcWx1NlNBRFA0Ul9idTkxMEJBZk5Edw?oc=5)
-- (9) 10-13 매일신문 — [도수치료 실손보험, 10회 넘기면 소견서가 보험금 가른다…연 15회 관리급여까지](https://news.google.com/rss/articles/CBMiYkFVX3lxTE1mUTRIeGJRNU01OV9KTHFUSnJEZWgwWlJsNGxmQnJoMHZqUjQyNTE3SloxdWEwZ1JTMnJ3N3RYNVlKcHJQOEhjZVdsZ2htMGZlTG1FRzY4cERPcVFmZ0ROSjhR?oc=5)
+- (7) 10-16 대전시티저널 — [박용갑 의원 “본인부담상한제-실손보험 사후정산 도입해야”](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5GRENDS0dDanMyc01LN0dra05Fcm4ybVJITGdOeTJRTWFaMXNmUGpZX0RlYUl0N1NiZGNocWNnamZCSTV2eC14dmdtbjJIM19QTjdlT2dfWmZvZXVzOVVEcFFKSXE?oc=5) — **외 1건**(2개 매체)
 
 **암·질병 보장 상품** (사건 31개)
-- (6) 10-14 우먼스토리뉴스 — [삼성생명 ‘골든종신보험’ 개정 출시, 암 진단 시 보험료 면제, 최대 200% 인출](https://news.google.com/rss/articles/CBMib0FVX3lxTE82UUxfX1BLZ19wNHJ5cVFOdndjeHFzeTRpUVNiVkZmeDBGUFZ4aE1tRHBJekhjTW5YWGdmbnZLaEVYZS1nZ29hQWVjQ3N0c3pPczh2RnFhMUdjZkJON2NENjVValpRT3hwQ1hhSDh6TQ?oc=5) — **외 18건**(19개 매체)
+- (6) 10-14 우먼스토리뉴스 — [삼성생명 ‘골든종신보험’ 개정 출시, 암 진단 시 보험료 면제, 최대 200% 인출](https://news.google.com/rss/articles/CBMib0FVX3lxTE82UUxfX1BLZ19wNHJ5cVFOdndjeHFzeTRpUVNiVkZmeDBGUFZ4aE1tRHBJekhjTW5YWGdmbnZLaEVYZS1nZ29hQWVjQ3N0c3pPczh2RnFhMUdjZkJON2NENjVValpRT3hwQ1hhSDh6TQ?oc=5) — **외 11건**(12개 매체)
 - (6) 10-14 주간한국 — [한화생명, ‘필요할 때 쓰는 종신보험’ 선봬…“사망보험금 최대 210% 체증”](https://news.google.com/rss/articles/CBMidEFVX3lxTE90SFlDLVh6UVlTYnRoeFVJX1dnRklWeWlpWE0tazdwVG5YOGpEa1J2V2M4dUV6OUtCUnZNVjlKaVFfTjZlZzhzSUtBZ2thUXdnZG5OUktVUWE5V3c4bEwyVXpQM2U2NHJBRmZRUVlPV2ZrdlNu0gF0QVVfeXFMT3RIWUMtWHpRWVNidGh4VUlfV2dGSVZ5aWlYTS1rN3BUblg4akRrUnZXYzh1RXo5S0JSdk1WOUppUV9ONmVnOHNJS0Fna2FRd2dkbk5SS1VRYTlXdzhsTDJVelAzZTY0ckFGZlFRWU9XZmt2U24?oc=5) — **외 9건**(10개 매체)
 - (7) 10-15 뉴스1 — [흥국생명, 납입보험료 연금처럼 돌려받는 '플렉스리턴100종신보험' 출시](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBMMkRSaGl1OUY4Z1BvRTUwQmUxb1lVOEJrR3prTjJHOUxQMVcyQ2ZFRkttX1V0TGFWMXNRX1BWRXhVbzNnNUFRaDVEZTNJSzBzdGViWDhWREdnb0lyN1dycg?oc=5) — **외 6건**(7개 매체)
 
-**건강보험·의료제도** (사건 25개)
+**건강보험·의료제도** (사건 31개)
 - (5) 10-13 더메디컬 — [건보 부채비율 2030년 107.4%···내년 보험료율은 동결](https://news.google.com/rss/articles/CBMibkFVX3lxTE5ESG91NVNmVHd1UUZwN0U2Y19xVFhOeDlVRzhGNkZWV3U5bzdTVC04RkZqLUVWaUVUQWVBVXdJU3EzMTNmeVNRdlhMdENjMl9JTWZLVjhiZ0MwOTYzLVdXXy1lMTdvbjlzUi1PUi1n0gFuQVVfeXFMTkRIb3U1U2ZUd3VRRnA3RTZjX3FUWE54OVVHOEY2RlZXdTlvN1NULThGRmotRVZpRVRBZUFVd0lTcTMxM2Z5U1F2WEx0Q2MyX0lNZktWOGJnQzA5NjMtV1dfLWUxN29uOXNSLU9SLWc?oc=5) — **외 7건**(8개 매체)
-- (6) 10-13 LG헬로비전 — [[국감, 지역을 묻다] 부천 국회의원들, 건보 환수·감사 지연·퇴직연금 문제 지적](https://news.google.com/rss/articles/CBMic0FVX3lxTFBlMXJMN3FWd01BX1JYdG5fbnpYeVg2aC0wSGdlSTdEbHV5SDdueHBzcUROT2liR1YtZzlQdElHV2UtZjhlMF92bkJmcnRqVmg3dDM2T2ctamVlMHhvcmhLaFgySmFwUUdDZXZqUFV6MWd2ZFXSAXZBVV95cUxNSGZhSjdaajV5T3N5dkhBSWx5Nl9LeEJpR2pVNi1lbkdyN3V5NzV2STZUeS14SDRuVFVXUTA5NEdURjFPekFnUHNBcE5IUTNsUmFRbC1PNHlBTEw3Vy0xeVFXTWh6N2pSZzhQNHA3eTZRWHpOeTFB?oc=5) — **외 1건**(1개 매체)
-- (5) 10-13 서울신문 — [보험료 매년 올려도 수조원 적자…건보, 추가 인상 압박 커진다](https://news.google.com/rss/articles/CBMib0FVX3lxTE56RElaQ04wLTdhdW5IcFI3UVFMSkozellXMXZXSmNfbUp2REdUc0thek0tUXZSSlhvWHpDNG5fY2VTazFMYW16Q3BkYks5N005RUY0NW1BV1I1YUxVTmdNNnpvY09ZWmhlQTRIWW5tcw?oc=5) — **외 1건**(2개 매체)
+- (7) 10-16 시사일보 — [박용갑 의원, `본인부담상한제` 못 받은 건강보험료 2년 만에 1.8배 늘어..신청주의 개선 필요](https://news.google.com/rss/articles/CBMiTEFVX3lxTE1CanhYNWlXbFhWY1BacnRGMUxyYW9xOTFGdXotcGVGS19xYnkwOWZfR0hLd1NRS0hWZG56UWFuamdmQVZfeW4xeTg1ZEY?oc=5) — **외 1건**(2개 매체)
+- (9) 10-16 코메디닷컴 — [중년 남편의 명퇴 “건보료, 국민연금 납부는?”…알바 뛰는데 보험료 어쩌나?](https://news.google.com/rss/articles/CBMiQkFVX3lxTE4wUG9XQndIMWV6MEZzZ2tnb0xiWDVna2FWMW1fVGZJZjV6TlM2UjdUcXRUVFpjaGJYWW5KZTZXZG5xdw?oc=5)
 
-**국민연금·퇴직연금** (사건 94개)
+**국민연금·퇴직연금** (사건 83개)
+- (7) 10-16 코리아이글뉴스 — [국민연금 보험료 지원 확대 추진…월소득 100만원 미만 지역가입자까지](https://news.google.com/rss/articles/CBMic0FVX3lxTE1tNjZIelpDdm1uYVFOWGNWaU1wQ29mRFNCT3NGcHh1VjJFUXdWRVRWZjZUVkFLS3Z6RUZUUE80MmIxcVRSeWtMei1IMnpyU2NsNmdkOGtFOFNpR0xnNDNEUXNtQjN3ZUJJeUU3UTZPODFVUWM?oc=5) — **외 25건**(24개 매체)
 - (7) 10-14 sisakoreanews.kr — [박지원 의원 “특수형태·플랫폼 노동자 83만 명, 국민연금 사각지대 방치…사업장가입자 전환 및 보험료 부담 완화 시급”](https://news.google.com/rss/articles/CBMiRkFVX3lxTE5lQlRLc280Ti0wM3dnSXdEbHdTTExOVWpRb21KcDk3Q2dzTGFNaG1RVkh6Ri1aUFgzaHU3aUF1eVM3b1R0QXc?oc=5) — **외 12건**(12개 매체)
-- (4) 10-14 FETV — [절세부터 연금까지…미래에셋생명, ‘퇴직연금 세미나’ 개최](https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zem16VXRFMktZeFc2WHROckkxdVk2QTJ3b3dIVlB1SUFEYVhWX2owNXQ4ZFl0RVRxNGNpenpQVGg1MHRfOGFUQ2tXWklocmd1SURxLUJkSFRNdEZTY1JDZ2lFUUwtRWZQ?oc=5) — **외 15건**(16개 매체)
-- (4) 10-13 이데일리 — [국민연금 10년 냈지만…받기 전 숨진 장애인 6100명](https://news.google.com/rss/articles/CBMigAFBVV95cUxNZXB1M21lSm5mdzUyQlNMS3FQS2pYUE5WMU41NElvUzlENUtQa3h3MnRZdnE3WmtlbkhyRVVGdWdiYnFHVzV0UVhjYWJ3STVIRWhJY0NKRGczbExYamxrY2U5R0lCQ1FhWEJNaDNERk42eG5kWURYSFRwSm5RZnVnbA?oc=5) — **외 14건**(14개 매체)
+- (7) 10-16 투어코리아 — [허종식, 인천 국민연금 보험료 체납 증가세 심각... "초장기 체납 비중 전국 평균 초과”](https://news.google.com/rss/articles/CBMibkFVX3lxTFB0Q0ZYSEpHUExsQ2hjM3MyRVZYeDBvREpYazRCZ280S3NZYU1mRnVWbnJSODNuNDVsQ1ptN0VhUUdJRDREQ3hDMjROTDkwR1RXV0tJQVJKa1BJQ0ctSEo4eGxvNXJXMnFORVYxQlZn?oc=5) — **외 6건**(7개 매체)
 
-**보험금 분쟁·판결** (사건 26개)
-- (4) 10-14 문화일보 — [‘입원 안하고 한것처럼’…진단서 고쳐 보험금 1억2천만원 타낸 60대](https://news.google.com/rss/articles/CBMiUEFVX3lxTE92Wlk3b05zM05tc2xmOHpYdFBqUHFtcExvaWVZTGZzaXZVeEhwR25BZXVodkdqdXhueFJ4dndnMDdJVTBIQlJLbHAyODNUT0tY?oc=5) — **외 3건**(4개 매체)
+**보험금 분쟁·판결** (사건 19개)
 - (6) 10-14 이코노미사이언스 — [사망보험금 노후 생활비로 활용…한화생명, 보험료 100% 인출 기능 도입](https://news.google.com/rss/articles/CBMib0FVX3lxTFBXRWpZWWJVZ20yNkhLS0p3dUtiQjN1YW5aRW95SFhVM1EwTkRuMlBTck45N29sejBGeXB6UFBJRUdvNFVDc2pfMW0wTUozeVBrdlNMTjBOeG1MRkZQU0V5SzZLUzdQVGowUmIyd21TMA?oc=5) — **외 1건**(2개 매체)
 - (4) 10-16 보험매일 — [고의사고로 보험금 6천700여만원 챙긴 일당 집유](http://www.fins.co.kr/news/articleView.html?idxno=110248) — **외 2건**(3개 매체)
+- (5) 10-15 화이트페이퍼 — [KB손해보험, 앱 메인 전면개편···보험금 청구·대출 현황을 한눈에](https://news.google.com/rss/articles/CBMicEFVX3lxTE5rY0FmZnlCSjFac0JMeU1ydE40bFBLTUZ4dzFhNnNuU1hXMUJhZnRGM21WOXRaUXNHU3lxNG5uWm9fYWxaa0JNUkJ3eVdoZXFQZzI0a1p6ZkRzZE5UNXU3Wmd1QV9SWnVHeTVCdDQtRnjSAXNBVV95cUxPLWtYNWN2OENfN2VaSFkyN1pfN1JkVDFvZDVKWWhHRy1zRTlVa01nTTdYZU9jOU5jN2YzREliVkNGWUcwRk0wYzhNekhVczRqb3J5TjcxT2daajREOW5XZGR3anVhR0xUZmRHd0QwanJUNXFZ?oc=5) — **외 1건**(2개 매체)
 
-**보험업계·상품 출시** (사건 4개)
-- (4) 10-16 비욘드포스트 — [KB손해보험, 자동차보험 브랜드평판 2026년 10월...1위](https://news.google.com/rss/articles/CBMifEFVX3lxTFBfNXJSaGhLekI3aUdlazU5NEJKcDJ1ckFDaGgxQnJGTWF1WEd5bjh1cV9WSGgyVnMxd3VCYVgyeVZsR0xwVEctWGlXNVZtVzZaOEVXcnVmU0tpVktNcFAtNlpQX2F0MWRfWndvakNiNVVJMEtWbUgweGNZX18?oc=5) — **외 1건**(2개 매체)
-- (4) 10-16 핀포인트뉴스 — [삼성화재 자동차보험 평판지수 40.74% 상승…KB손보 1위](https://news.google.com/rss/articles/CBMid0FVX3lxTE1BUVpGdW5QYVhUbmhSX0hkSWlnMm9HUlAyN3l0YnF4ODQwZldTMHdsVXNhbzJ5TGZWTmpWNkFzaUxDX0JReFlQanVkUkdrTHMwLVk0aFJ3aWhqWm9yNTRraWc0aGVQTV8xcnluVnozbTQtZDJRTld30gF3QVVfeXFMTUFRWkZ1blBhWFRuaFJfSGRJaWcyb0dSUDI3eXRicXg4NDBmV1Mwd2xVc2FvMnlMZlZOalY2QXNpTENfQlF4WVBqdWRSR2tMczAtWTRoUndpaGpab3I1NGtpZzRoZVBNXzFyeW5WejNtNC1kMlFOV3c?oc=5)
-- (4) 10-15 이코노미사이언스 — [흥국화재, 안 쓴 암 치료 보장횟수 다음 해로…보험료 최대 47% 낮춰](https://news.google.com/rss/articles/CBMib0FVX3lxTE52MnhiRDgwVGhXb2Z5bjExZkc5UHBoSzI4Um1VRGVGUGlwMS02eXViYUxfVDl4N0FsNlpXX2s2dDBLYnE2REpRMkRFWERVMnhRcDk4dHVyUDZOZWRIZmVlT1FlTkdNRk5hVlVYa19RQQ?oc=5)
+**보험업계·상품 출시** (사건 1개)
+- (5) 10-16 빅데이터뉴스 — [KB손해보험, 자동차보험 브랜드평판 10월 빅데이터 톱...DB손보·현대해상 순](https://news.google.com/rss/articles/CBMifEFVX3lxTFBqSHZGSFVJMzVGd3N0VDR6S3F0V0M4aHBwZEVLTXZEaHR3UVVMQ1QzejdWNWg5X3JKanlNVHVSX0J4OG1tMUpRak5MSHhpVHBCQ05tRjM0X0pvaTFYbGlNMHMyaDBjSERCRktVU3VFUlF2LXA0a2VSZllYbW8?oc=5) — **외 4건**(5개 매체)
 
 
 ### [보험·의료] 기관 보도자료
 
+- 10-16 [보건복지부] [생애 말 의료현장 어려움 덜고 환자 권리 높인다 연명의료결정제도 개선 방향 논의](https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492250&act=view)
+- 10-16 [보건복지부] [내 마음의 소리에 귀 기울이는 시간... 국립나주병원, 정신건강의 날 기념 공감 콘서트 개최](https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492246&act=view)
 - 10-15 [보건복지부] [배아 또는 태아 대상유전자검사 가능 유전질환 7개 추가 선정](https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492240&act=view)
 - 10-15 [보건복지부] [전자바우처 부정수급 뿌리 뽑는다 예방-적발-제재 단계별 전주기 관리 강화](https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492236&act=view)
 - 10-15 [보건복지부] [건강검진 수검자 아니라도 국민 누구나 ‘국가통합바이오빅데이터’ 참여 가능해진다](https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492233&act=view)
@@ -60,33 +60,35 @@
 
 ## [투자·경제] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
-**가상자산** (사건 25개)
+**가상자산** (사건 24개)
 - (14) 10-15 CoinDesk — [비트코인(BTC)은 연준 금리 불확실성의 영향으로 다시 81,000달러 아래로 하락했습니다. 코스피도 급락](https://news.google.com/rss/articles/CBMirgFBVV95cUxPcDNJTzI0d1kyR3VaM0ZmZ2h1cTVjVzB2QWl6cHowUzVuTUJYSWRjcXQzZDg5a3ZVdU1ZcnRBeE9kYUZwd1VLUXc4NTBwSkpvUXh2cDZKSHFQWS1CdC1rWFBwQXBGWWdQa0F0OEhzR1pFcnVFRzlBeWxreWtUU3A3YW5XU2hHaWZOZHVKVTJqbE5NXzNJSkxWTWRJQXpYZk5FSkI4d0tBUjhnekMtN1E?oc=5) — **외 3건**(2개 매체)
 - (11) 10-14 코인리더스 — [비트코인, 코스피 5.46% 폭락에도 반등…美 CPI 발표 후 9만 달러 돌파할까](https://news.google.com/rss/articles/CBMiSkFVX3lxTE5UanZHQUxjZDNid2NBcDNVVUl0RTN0ZEZmNzRncEMyWGJPeEo3Uk0tdWNablFqTTZEWF9YTXN2ejQ0NVJEcld4c2x3?oc=5) — **외 1건**(2개 매체)
 - (13) 10-13 코인리더스 — [코스피 폭락에도 비트코인은 버텼다! SK하이닉스 10% 급락 속 8만4,000달러 도전](https://news.google.com/rss/articles/CBMiSkFVX3lxTFBBaGVsSjZqQWlWRE8wZzhpNkpIOTBQRjJOTjY4S0ozakNicXBHNzExVDNOUEpUUWE3QlhsX3FpOTNSa0MtdE0wTmV3?oc=5)
 
-**미국·해외 증시** (사건 51개)
-- (16) 10-13 시티타임스 CityTimes — [유가 급등·반도체주 한파에 나스닥 0.44%↓… 다우 홀로 상승 ‘혼조’ [뉴욕증시]](https://news.google.com/rss/articles/CBMickFVX3lxTE5USlh4T2I5elgyUHBrTVpYN1RBb1FoOWFrQUlhYXByWEp0a3ItaG50bmFHb3R6UVVWVWlVZWE0ZGJTMFlfeVhQOTFySDdKQXFSY2JheFlGWEhQVkJhbmdPSGpnVWx5TGxxZlJyQ25mYkFKd9IBckFVX3lxTE5USlh4T2I5elgyUHBrTVpYN1RBb1FoOWFrQUlhYXByWEp0a3ItaG50bmFHb3R6UVVWVWlVZWE0ZGJTMFlfeVhQOTFySDdKQXFSY2JheFlGWEhQVkJhbmdPSGpnVWx5TGxxZlJyQ25mYkFKdw?oc=5) — **외 32건**(30개 매체)
+**미국·해외 증시** (사건 45개)
+- (16) 10-13 시티타임스 CityTimes — [유가 급등·반도체주 한파에 나스닥 0.44%↓… 다우 홀로 상승 ‘혼조’ [뉴욕증시]](https://news.google.com/rss/articles/CBMickFVX3lxTE5USlh4T2I5elgyUHBrTVpYN1RBb1FoOWFrQUlhYXByWEp0a3ItaG50bmFHb3R6UVVWVWlVZWE0ZGJTMFlfeVhQOTFySDdKQXFSY2JheFlGWEhQVkJhbmdPSGpnVWx5TGxxZlJyQ25mYkFKd9IBckFVX3lxTE5USlh4T2I5elgyUHBrTVpYN1RBb1FoOWFrQUlhYXByWEp0a3ItaG50bmFHb3R6UVVWVWlVZWE0ZGJTMFlfeVhQOTFySDdKQXFSY2JheFlGWEhQVkJhbmdPSGpnVWx5TGxxZlJyQ25mYkFKdw?oc=5) — **외 33건**(30개 매체)
 - (17) 10-15 비즈중앙 — [美 물가 충격에 뉴욕증시 동반 하락…AI주 급락·원달러 환율 상승 압력](https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZTE5mQm84ZFFaZjVEdkdvQTBZM09NYVhVeW9KcFRLSTlaZWpiM3JHU0pFbGJ0VDJqQ0trVnBEM3R0UjBZb1pPLXE3cHdldWJPQ05iYklXUFpJSi1iLXM4dVpwRVFQT3hGekJNR0FaZHE?oc=5) — **외 15건**(16개 매체)
 - (16) 10-15 직썰 — [CPI 쇼크·유가 급등에 짓눌린 뉴욕증시…나스닥 1.88% 급락](https://news.google.com/rss/articles/CBMiaEFVX3lxTE14eXlMeHpvb3l4UEtudTltX2d1bGJ3YTBjbjBTWWFZT25KQ1lfcDcyaHJIbGtEcm03WVR2QmMyYzhlT3NPUVlWOV9jQnlIOW4tVF9ESjZMbS1nWF9PTXRWT2lCUXpCRUgw0gFsQVVfeXFMT1VUTmZhNVJVY01nb3pMXzJoZ2NGY2wzRWdOSy1WeTVQUnFpWHNwaDBXMDJzNVQ4TGFMR3JvLURuQUJ4NWFvT2ZmOF9PRnM4VXU0WkxrOXRiVzVvMExIbXZfOFVia1paYkV1WEFk?oc=5) — **외 11건**(12개 매체)
 
-**국내 증시** (사건 79개)
-- (16) 10-15 창업일보 — [코스피·코스닥 8%대 동반 폭락…서킷브레이커 발동, 삼성전자·SK하이닉스 급락](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBvMGFVdEcwUjdDU3hYbDlWSmZkMWwtTmRBc2lieFZCUVRmOEgzRzlCRE5PbEt0VDR4SHdBeWJzLW14ZTZCR2xaZ2lvb01aODhZV0Q1dGM5TFJOaDVyLV9pNTNDLW9pd0NB?oc=5) — **외 120건**(87개 매체)
-- (12) 10-15 데일리안 — [증시 폭락에 코스피·코스닥 ‘매도 사이드카’ 발동](https://news.google.com/rss/articles/CBMiowJBVV95cUxPMTgyZzdLeEtrYWlaRVFRM0lnV3VvSnpRZ2Z1UFNMMjY2WWdncmhubFJra1VUZ28tTjlFNUQyVmtaOGRDbmVVOFpmQWRabmg4bGRFQ0l4V1ZsdHlQTXdWaTZKaHctbzFLb1lhR3ozZ1QySy1CUUJ5NGtSNEtTb3R1cEU3NTM1a2tLZnd5aGRBWkM4anBlVlZTaXBVbUxWSTBHTjc0NWdUQm1YVzVNWkN1WGJSbHdfNEtFSk5IaVRHRkhnTGxKV2t1SlVwdGRiWnZUY2hGYXVNQU5KTVE4dTRnYUFjUXV1T1lGeHJzRkNmNkstM1NRVDFzczFMejE4LVRER1VweXF1VVBnSjN6NHhmTTBLMXQwMHR2QWg4S2VaZ25EZVU?oc=5) — **외 23건**(20개 매체)
-- (11) 10-15 https://www.theconnectmoney.com/ — [사이드카 이어 서킷브레이커까지…코스피·코스닥, 검은 목요일](https://news.google.com/rss/articles/CBMiYEFVX3lxTFA0SHNscktWMGtKRHc0cHFSaFNMTXU4YmhMcnQzSDJPSzFfQXVxTDU5WkszX2xwc29vOXQwbmRaS25FTVR6eEY1T0JoQ0gzSWJTZG4xOFF2UnJ6QVVtbElWTg?oc=5) — **외 7건**(8개 매체)
+**국내 증시** (사건 82개)
+- (16) 10-15 창업일보 — [코스피·코스닥 8%대 동반 폭락…서킷브레이커 발동, 삼성전자·SK하이닉스 급락](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBvMGFVdEcwUjdDU3hYbDlWSmZkMWwtTmRBc2lieFZCUVRmOEgzRzlCRE5PbEt0VDR4SHdBeWJzLW14ZTZCR2xaZ2lvb01aODhZV0Q1dGM5TFJOaDVyLV9pNTNDLW9pd0NB?oc=5) — **외 110건**(84개 매체)
+- (13) 10-16 디지털데일리 — [“어제는 서킷브레이커, 오늘은 매수 사이드카”…코스닥 5% 급등·코스피 5700선 회복](https://news.google.com/rss/articles/CBMiZEFVX3lxTFA2ZGRlSmZnM1NhVnBGajY3MHd3dEZ4ZHhsdDlsaGk4ZnBZbDh4ZWFOYmNjRFp1QW5oazNJVjNBTHQ5ZllPN3l3WHd5QWVkczh0YnJQS0RFM2NVZmVfbXRhN0JXaXQ?oc=5) — **외 8건**(8개 매체)
+- (12) 10-15 기독일보 — [인플레·반도체 급락에 코스피·코스닥 매도 사이드카](https://news.google.com/rss/articles/CBMiV0FVX3lxTFA4bmdwLUd6eDFkU3hXXzI0ZERSWG0ya1VYcTBkTHhPSGUzeGxuSnY5eE01dEQwUjloQUdlNl9iekw3ZXhCaEFIazY2bWRhYXJ2TEZTRkdzMNIBXEFVX3lxTE5qRVZGYTlkMjNsd1FRdFp3OWZYVGdyRE9xaFR1ejBRczhJdU1sbXhjY0FzVVVGc3NSbE5ySWFjaEE0RWtod1gtWGlHYktDZmpld29FSUVWVk1ySnVl?oc=5) — **외 8건**(9개 매체)
 
-**금리·중앙은행** (사건 33개)
+**금리·중앙은행** (사건 32개)
+- (11) 10-16 https://www.2news.co.kr/ — [달러·원 환율, 미 국채금리 급락에 하락세](https://news.google.com/rss/articles/CBMiaEFVX3lxTE04ejFydG5VRFY2OFE0ZUwzRGlBYm9sdzcyRXNGeDRkMTV4SHFFYkJTVGhFa2VxbGFSMTFNU0QtbzlYaGVCYlV4Q0ZsTng5Zmp1UjVkS0VsUFkta2REN0ZBbHNzSVM1NkdE?oc=5) — **외 6건**(6개 매체)
+- (11) 10-15 Investing.com 한국어 — [금값 반등…예상 웃돈 미국 물가 지표에도 국채 금리·달러 하락](https://news.google.com/rss/articles/CBMib0FVX3lxTE1lYlZDTkdhWFdPOEd5bnpiSHZEeUl6dmVGVUV6VC1mUWdfN3p5eDZkeDFuZHdqbE5DN3pQNk1uc2xqYTdJSFJpaEFIc0dySGlKZmJKQmIyZVpiVkVJZlhZdGNLMDFjcndmV2k2b2cxUQ?oc=5) — **외 3건**(4개 매체)
 - (11) 10-15 이코노믹포스트 — [미국 유가·관세발 물가 압력 확산···연준 금리 인상 고심](https://news.google.com/rss/articles/CBMiTEFVX3lxTE9oMl9KcTQzTFpDbmpsdnAtRkpMY1BqRVNCQzRqNEpuUEpyX0U2TklxWjJoRWJxYnBoZzFBaTg1dVJzeHdYRzBmaXdzaHI?oc=5) — **외 3건**(4개 매체)
-- (11) 10-15 Investing.com 한국어 — [금값 반등…예상 웃돈 미국 물가 지표에도 국채 금리·달러 하락](https://news.google.com/rss/articles/CBMib0FVX3lxTE1lYlZDTkdhWFdPOEd5bnpiSHZEeUl6dmVGVUV6VC1mUWdfN3p5eDZkeDFuZHdqbE5DN3pQNk1uc2xqYTdJSFJpaEFIc0dySGlKZmJKQmIyZVpiVkVJZlhZdGNLMDFjcndmV2k2b2cxUQ?oc=5) — **외 3건**(3개 매체)
-- (13) 10-16 초이스경제 — [미국에선..美국채금리·달러 '뚝' vs 금값·은값·WTI '급등'](https://news.google.com/rss/articles/CBMicEFVX3lxTE5QbS1ibV84M0daQjdrbUhNVDJwNGhiczUtZHVWRXI3TmVVdFh4SDdRNGtpTjJQUllYVTd6eXI4dEZrU05Ca0VTb3hCcXN4SXladTFqWVdJU0hLRlF5b3dVbjZzbVRISE5yRU96TkRDcm_SAXNBVV95cUxQUGNiaTQxcVptTGlGZ1ZrbDdYSnRnVFpSc2ZTZ1hCTmdkSHFQTGdYSG1pOTVKdGVsNTdPdUtjaDNTMFNsTzExQ1Fac3pPdWVKRjhyYTlQVnN1aFVoQXdwVU95VHE2MXd5YTBYOVZBdnQ4NTNZ?oc=5) — **외 1건**(1개 매체)
 
-**환율·달러** (사건 11개)
+**환율·달러** (사건 10개)
+- (10) 10-16 글로벌경제신문 — [환율 내려도 유가 급등에 수입물가 4개월 만에 반등…수출물가는 2개월째↓](https://news.google.com/rss/articles/CBMicEFVX3lxTE5YVVMwQkRkdzktNjViOC02Tm9Td3c4MXY5NklkeHFFV0dhV1U5S3hEUzFURTFUOW9yN1ZfUjE3TkhRRklMeFF2U1FLSFdTOWIxdFI2enRmVjd1NG8tVDNYakRvU0RKY2s2ekZWRFd4ZDfSAXBBVV95cUxOWFVTMEJEZHc5LTY1YjgtNk5vU3d3ODF2OTZJZHhxRVdHYVdVOUt4RFMxVEUxVDlvcjdWX1IxN05IUUZJTHhRdlNRS0hXUzliMXRSNnp0ZlY3dTRvLVQzWGpEb1NESmNrNnpGVkRXeGQ3?oc=5) — **외 4건**(5개 매체)
+- (9) 10-16 산업일보 — [원-엔화 환율, 이틀 연속 상승세 기록하면서 851원 대 기록…달러-엔화 환율은 국제 유가 상승 영향으로 158엔 초반대로 하락](https://news.google.com/rss/articles/CBMiREFVX3lxTFAyTWlUbVpSVFRWbnlIR2dvRFI5NDFPcU5JSnJBRUxuOUlfWVAwbkh1SmJ5cm5JdGptSWlwTW9oTXF0ZzU1?oc=5) — **외 3건**(2개 매체)
 - (10) 10-16 데일리안 — [환율 하락에 수출물가 두 달째↓…유가 급등에 수입물가는 상승](https://news.google.com/rss/articles/CBMijAJBVV95cUxPaC1tdkY2OFdWUkdvQTdVMDNodkIwaUFtVWsyN1ZkVmZSV0dnT0lzamxVekhTRGtKdnBKZUhpNEIweDRXVUFycDF2TjE4Y2lNV1djY1pkSEpNekNLUXJ6Vkp1RlQ5amktdW14M3pWQUhFY2x3LXhULTYxUkdZV2NzMTk5czVQcmhHaC13dXE3N04wcXZ2X1YwTlBwT0RnZHR2XzVCaGFVRE1aT250OTVDQ1FCU2NyYmRtRk1fUHVGc1dXMFBLRzZxX21aOEduT28xVWh5dmt3d0llZFd4V0Q5X0R5bzVGUjZpOEx2dl9IcEMxNkRwcGZUSjFhVTB1SmZ4eFVrdmh4NVRYWlBs?oc=5)
-- (10) 10-15 DFT 대한금융신문 — [원달러 환율 3분기 급락…은행 '희비'](https://news.google.com/rss/articles/CBMibEFVX3lxTE1MbkpSTlZNS1BrMjVhWWxkOHBhYk5mR2FrSU0xUndCdnR4M1htdGF0Tm5US1d2bWF6YUh1dk4zajhBWTNRbUJMdjhTVlZjUG5YanMwd3NtcDR2d1IxV05tVE8teVl2YVA1d1VrLdIBcEFVX3lxTFBrMmRMT1JROVdFV3RqTVUtNFZKcVdXZ2ZGN2hVR2J5X081eDVQRS1oZ1dvOWlRYWg1V3dNVDFwZ2EwejlRbEN2QmtsbjN1ZkpFTU1jM3k2Yk9wYXBaelcyaDE4SDVzSjZ4SXJEb1JadDE?oc=5)
-- (10) 10-13 이투데이 — [[환율마감] 주가폭락에⋯원ㆍ달러 10원 급등 ‘한달만 최대폭 상승’](https://news.google.com/rss/articles/CBMidEFVX3lxTE1pejFUQmZPcllLd2VoWFcxZURReWE2b09sM25ya0ttLUJWX3Y3bGUxT2M4UlE2S0h1TXg3aHMtOE5uUGZ3VmxzYmVjMHNQZWU4MXUxajlvMlVKbnR3a1VwRUtxV1JzZ0h0X3ZPYTRRR0lPMFpz?oc=5)
 
-**원자재·금·유가** (사건 1개)
+**원자재·금·유가** (사건 3개)
+- (9) 10-16 뉴스로드 — [반도체 수출 급증에 9월 수출 89.2%↑…국제유가 급등에 수입물가 반등](https://news.google.com/rss/articles/CBMibEFVX3lxTFB2aDRlOWR5cnJWcERsdDBjbnoxS19jYl9yUlNpQlktbV9ld1JBbDFib0E4NDJpVFp1aDlxc0dFbkFXNWI2d3lmYy1oTnhUOV95QW83eFJzRkFVc2FHa1BPOTZPODZwOFJGUzhITNIBb0FVX3lxTE5hcWFpSVRwRkpqdW9yOVVJcElBTk1nb0wwcUExQWxidDQ5MExOU082cFYxQndHSENTb1lkSklOUTMyUFVPSWQzOWZaMV82aVNQVHA5cXYxSGZET3NJcEFoV2hLN0dRRmlqR1JObVhYWQ?oc=5) — **외 1건**(2개 매체)
 - (9) 10-16 글로벌이코노믹 — [美 물가 급등에도 금값 1%대 반등…AI 주식 급락에 안전자산 선호](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMU5qMlQ4MjkwR2N1Nll4dWRtLU9fZnpuMHRabDJKLWx0U2J0SDNObmladmJyRTFuRjJfSGNTT3BrS0RzYjlXdFFhdG5GenU2clVDMElWSUc2Z1ZrdkJOVDN2djBLaFVFcFc1bzcxRXFicDRoWE5iUDlqSXNXbUN5RVBqOE1SbVBo?oc=5) — **외 1건**(2개 매체)
+- (9) 10-16 재경일보 — [반도체·AI·배당주 담은 ETF 7종, 20일 유가증권시장 상장 : 금융](https://news.google.com/rss/articles/CBMiS0FVX3lxTFBiMUhaamJISDVtUjRpUFdiRGwzT1NySXZCMS1tdUQ4NTdpS2F1OVB0Z01aRm5OMTJNQ2syd1BkZVRZaGVwX2NYMEFmNA?oc=5)
 
 
 ### [투자·경제] 기관 보도자료
@@ -97,37 +99,37 @@
 
 ## 보험 전문지 최신
 
-- 10-16 보험저널 — [10년 무사고면 유병자도 OK… ABL생명 '우리WON 3.10.5 간편건강보험' 출시](https://www.insjournal.co.kr/news/articleView.html?idxno=33513)
-- 10-16 보험저널 — [AXA손보, 임직원 워킹 챌린지 통해 소아암 어린이 치료비 기부](https://www.insjournal.co.kr/news/articleView.html?idxno=33512)
-- 10-16 보험저널 — [“심의 할당량 없다더니", 광고심의 ‘건수 제한’ 논란 계속...현장만 속앓이](https://www.insjournal.co.kr/news/articleView.html?idxno=33508)
-- 10-16 보험저널 — [보험업권 가계대출 9월 8000억원 감소…전 금융권 올해 첫 감소 전환](https://www.insjournal.co.kr/news/articleView.html?idxno=33511)
-- 10-16 보험저널 — [‘700종신’ 빈자리 노린 ‘생애자금 100%’… 출시 첫날 2억원, 대박일까 선방일까?](https://www.insjournal.co.kr/news/articleView.html?idxno=33510)
-- 10-16 보험매일 — [고의사고로 보험금 6천700여만원 챙긴 일당 집유](http://www.fins.co.kr/news/articleView.html?idxno=110248)
-- 10-16 보험매일 — [대형GA 상반기 수입수수료 10조원 돌파…설계사·신계약금액 동반 성장](http://www.fins.co.kr/news/articleView.html?idxno=110247)
-- 10-16 보험매일 — [GA 5개사 상반기 매출 2.6조…생·손보 실적 선두 갈려](http://www.fins.co.kr/news/articleView.html?idxno=110236)
-- 10-16 보험저널 — [[9월 생보사 GA M/S] ABL생명...에이비에이금융 14% '선두', 굿리치 10.5%, 글로벌금융판매 8.9% 순](https://www.insjournal.co.kr/news/articleView.html?idxno=33471)
-- 10-16 보험저널 — [[9월 생보사 GA M/S] iM라이프, 뉴니케 20% '독주'...굿리치 17% '2위' 안착, 아이에프에이·에이플러스에셋 12% '상위권'](https://www.insjournal.co.kr/news/articleView.html?idxno=33470)
-- 10-16 보험저널 — [[9월 생보사 GA M/S] KDB생명, 사랑모아 17.7% 선두...굿리치 10% '3위' 점프·뉴니케 '급등'](https://www.insjournal.co.kr/news/articleView.html?idxno=33469)
-- 10-16 보험저널 — [[9월 생보사 GA M/S] 푸본현대생명, 인카 17% '선두'...삼성금융파트너스 8.8% 급등, '상위 5개사' 53%](https://www.insjournal.co.kr/news/articleView.html?idxno=33468)
-- 10-16 보험저널 — [[9월 생보사 GA M/S] 하나생명...지에이코리아 17%ㆍ에이플러스에셋 16% '선두권', KGA 6.5% '2단계' ↑](https://www.insjournal.co.kr/news/articleView.html?idxno=33467)
-- 10-16 보험저널 — [[9월 생보사 GA M/S] 라이나생명, 지에이코리아 11% '1위' 탈환...글로벌금융판매 7.3%, 인카 6.3% 순](https://www.insjournal.co.kr/news/articleView.html?idxno=33465)
-- 10-16 보험저널 — [[9월 생보사 GA M/S] 메트라이프생명… 사랑모아·인카. 나란히 '10.7%' 1위ㆍ어센틱·뉴니케 '7.8%' 2위](https://www.insjournal.co.kr/news/articleView.html?idxno=33464)
+- 10-16 보험신보 — [금융보안원 홈페이지 개편… 정보 접근성·이용 편의 강화](https://www.insnews.co.kr/news/articleView.html?idxno=93369)
+- 10-16 보험신보 — [KB국민은행, 경찰청과 ‘시니어 금융사기 예방 캠페인’ 실시](https://www.insnews.co.kr/news/articleView.html?idxno=93370)
+- 10-16 보험신보 — [푸본현대생명, 발달장애인 볼링대회 ‘자원봉사 활동’ 펼쳐](https://www.insnews.co.kr/news/articleView.html?idxno=93368)
+- 10-16 보험신보 — [삼성화재 다이렉트, 주택화재보험 ‘신규 담보’ 선보여](https://www.insnews.co.kr/news/articleView.html?idxno=93366)
+- 10-16 보험저널 — [[16일 마감시황] 폭락장 딛고 보험주 '반등'… 생보사 강세 속 한화손보는 5%대 '껑충'](https://www.insjournal.co.kr/news/articleView.html?idxno=33540)
+- 10-16 보험신보 — [李대통령, 산업차관에 박동일·금융위 부위원장에 신진창 임명](https://www.insnews.co.kr/news/articleView.html?idxno=93365)
+- 10-16 보험저널 — [프라임에셋, 내년 하반기 코스피 상장 추진…‘49회차 유지율’ 연계 주식보상 검토](https://www.insjournal.co.kr/news/articleView.html?idxno=33539)
+- 10-16 보험저널 — [푸본현대생명, 발달장애인들과 함께 ‘스트라이크배 볼링대회’ 자원봉사활동 펼쳐](https://www.insjournal.co.kr/news/articleView.html?idxno=33538)
+- 10-16 보험매일 — [삼성화재, 다이렉트 주택화재보험 보장 넓힌다](http://www.fins.co.kr/news/articleView.html?idxno=110253)
+- 10-16 보험매일 — [프라임에셋, 내년 하반기 코스피 상장 추진](http://www.fins.co.kr/news/articleView.html?idxno=110252)
+- 10-16 한국보험신문 — [NH농협생명, LG CNS와 실무중심 AI 적용방안 모색위한 워크숍 실시](https://www.insweek.co.kr/news/articleView.html?idxno=72723)
+- 10-16 한국보험신문 — [삼성화재, 주택화재보험 임시거주비 보장 확대](https://www.insweek.co.kr/news/articleView.html?idxno=72712)
+- 10-16 보험저널 — [가족 음주운전 사고에 차주까지 2억원 청구…'사고부담금' 책임 가른 건 ‘약관’](https://www.insjournal.co.kr/news/articleView.html?idxno=33537)
+- 10-16 보험저널 — [불나서 집 비울 때 하루 25만 원… 삼성화재 '다이렉트 주택화재보험' 보장 확대](https://www.insjournal.co.kr/news/articleView.html?idxno=33536)
+- 10-16 보험저널 — [[단독] “규모로 골랐나, 위험도로 추렸나”… 금감원 GA 상시감시 ‘16곳 아닌 28곳 확대?’](https://www.insjournal.co.kr/news/articleView.html?idxno=33534)
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
+- 10-16 MarketWatch — [Is Apple’s foldable iPhone Duo worth $2,000? See how it stacks up against other foldable phones.](https://www.marketwatch.com/story/is-apples-foldable-iphone-duo-worth-2-000-see-how-it-stacks-up-against-other-foldable-phones-c9066b13?mod=mw_rss_topstories)
+- 10-16 MarketWatch — [‘It’s a wait-and-see situation’: I’m 63 and diagnosed with lymphoma. Should I take my Social Security next year?](https://www.marketwatch.com/story/its-a-wait-and-see-situation-im-63-and-diagnosed-with-lymphoma-should-i-take-my-social-security-next-year-ea88b419?mod=mw_rss_topstories)
+- 10-16 MarketWatch — [My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?](https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories)
+- 10-16 CNBC — [Nike's India campus is a long-term growth bet amid turnaround](https://www.cnbc.com/2026/10/16/nike-india-campus-china-sales.html)
+- 10-16 MarketWatch — [Can a $55,000-plus robot load the dishwasher? Inside my afternoon with two humanoid housekeepers.](https://www.marketwatch.com/story/can-a-55-000-plus-robot-load-the-dishwasher-inside-my-afternoon-with-two-humanoid-housekeepers-0a9569ab?mod=mw_rss_topstories)
+- 10-16 MarketWatch — [Nearly 40% of the S&P 500 is in a bear market. Here are 10 of those stocks that analysts say can gain up to 81%.](https://www.marketwatch.com/story/nearly-40-of-the-s-p-500-is-in-a-bear-market-here-are-10-of-those-stocks-that-analysts-say-can-gain-up-to-81-93a51af6?mod=mw_rss_topstories)
+- 10-16 MarketWatch — [Jefferies technical analyst finds an encouraging development in Thursday rebound, setting stage for rally into year-end](https://www.marketwatch.com/story/jefferies-technical-analyst-finds-an-encouraging-development-in-thursday-rebound-setting-stage-for-rally-into-year-end-34ad6e31?mod=mw_rss_topstories)
+- 10-16 MarketWatch — [The best of the AI trade could be behind us. Here’s how to prepare, according to Barclays.](https://www.marketwatch.com/story/the-best-of-the-ai-trade-could-be-behind-us-heres-how-to-prepare-according-to-barclays-725ab4dd?mod=mw_rss_topstories)
+- 10-16 MarketWatch — [I’m 64 with two sons, but only one works in the family firm. Should I leave him 70% of the business?](https://www.marketwatch.com/story/im-64-years-old-with-two-sons-but-only-one-works-in-the-family-firm-should-i-leave-him-70-of-the-business-2fe6c382?mod=mw_rss_topstories)
+- 10-16 MarketWatch — [Here are the key things Fed Chairman Kevin Warsh said — and didn’t say — while Americans were sleeping Thursday night](https://www.marketwatch.com/story/here-are-the-key-things-fed-chairman-kevin-warsh-said-and-didnt-say-while-americans-were-sleeping-thursday-night-b82238a1?mod=mw_rss_topstories)
 - 10-16 MarketWatch — [Pepsi loses more ground in the soda wars, as KFC switches to Coke](https://www.marketwatch.com/story/pepsi-loses-more-ground-in-the-soda-wars-as-kfc-switches-to-coke-49b1ef53?mod=mw_rss_topstories)
 - 10-16 MarketWatch — [How a midterm sweep by Democrats could turn this tech selloff into a tech crash](https://www.marketwatch.com/story/how-a-midterm-sweep-by-democrats-could-turn-this-tech-selloff-into-a-tech-crash-a1d1a82f?mod=mw_rss_topstories)
-- 10-16 MarketWatch — [Nvidia and other chip stocks face renewed pressure as AI fears swell](https://www.marketwatch.com/story/micron-nvidia-and-other-chip-stocks-face-renewed-pressure-as-ai-fears-swell-4e0dc989?mod=mw_rss_topstories)
-- 10-16 MarketWatch — [Don’t ditch tech stocks just yet. Make these moves to take advantage of the latest AI reset.](https://www.marketwatch.com/story/dont-ditch-tech-stocks-just-yet-make-these-moves-to-take-advantage-of-the-latest-ai-reset-cb70c7b2?mod=mw_rss_topstories)
-- 10-16 CNBC — [KFC to switch to Coca-Cola beverages in U.S. restaurants for the first time in decades](https://www.cnbc.com/2026/10/15/kfc-coca-cola-pepsi-switch.html)
-- 10-16 MarketWatch — [CoreWeave’s polarizing stock rebounds as Wall Street squares off about AI spending](https://www.marketwatch.com/story/coreweave-investors-are-feeling-spooked-as-the-companys-stock-and-bonds-see-fresh-pressure-ba39a931?mod=mw_rss_topstories)
-- 10-16 MarketWatch — [Investors are dumping AI stocks as ‘tech wreck’ worsens. Here’s where they’re turning now.](https://www.marketwatch.com/story/traders-pile-into-bonds-and-defensive-stocks-as-the-tech-wreck-picks-up-steam-48c04374?mod=mw_rss_topstories)
-- 10-16 CNBC — [Porsche reveals Mission S concept car that previews new design identity](https://www.cnbc.com/2026/10/15/porsche-mission-s-concept-car.html)
-- 10-16 MarketWatch — [Big pharma stocks close near all-time highs as tech selloff pushes investors toward safer bets](https://www.marketwatch.com/story/big-pharma-stocks-near-all-time-highs-as-tech-selloff-pushes-investors-toward-safer-bets-0a5d5d07?mod=mw_rss_topstories)
-- 10-16 MarketWatch — [This one governor’s race could derail the AI trade that’s powered the stock market](https://www.marketwatch.com/story/this-one-governors-race-could-derail-the-ai-trade-thats-powered-the-stock-market-6bbf06f8?mod=mw_rss_topstories)
-- 10-16 CNBC — [JetBlue’s new domestic first class, BlueFirst, is now on sale](https://www.cnbc.com/2026/10/15/jetblue-bluefirst-first-class.html)
-- 10-15 CNBC — [Southwest is overhauling its frequent flyer program. Here's what's changing](https://www.cnbc.com/2026/10/15/southwest-rapid-rewards-tiers-a-list.html)
 
 ## 언론사별 건수 상위 15
 
-토큰포스트 211, 머니투데이 203, 파이낸셜뉴스 전체 192, 연합뉴스 마켓 190, 인포맥스 168, 이데일리 증권 167, 뉴시스 금융 166, 코인리더스 161, 뉴스핌 148, 뉴스1 142, 한국경제 금융 141, 조선 경제 115, 연합인포맥스 115, 이투데이 111, Investing.com 한국어 105
+토큰포스트 243, 연합뉴스 마켓 235, 머니투데이 221, 파이낸셜뉴스 전체 218, 뉴시스 금융 199, 인포맥스 193, 코인리더스 185, 이데일리 증권 179, 뉴스1 170, 뉴스핌 168, 한국경제 금융 161, 조선 경제 134, 연합인포맥스 128, 뉴시스 국제 123, 이투데이 122
