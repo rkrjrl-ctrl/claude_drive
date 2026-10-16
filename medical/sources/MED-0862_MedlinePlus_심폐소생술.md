@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 심정지(심폐소생술)
+group: 심장·혈관질환
+topic: 심정지·심폐소생술
 url: https://medlineplus.gov/cpr.html
 published: 2003-11-05
 revised: unknown

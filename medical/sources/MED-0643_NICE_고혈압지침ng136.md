@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 고혈압
+group: 심장·혈관질환
+topic: 고혈압
 url: https://www.nice.org.uk/guidance/ng136
 published: 2019-08-28
 revised: 2026-02-26

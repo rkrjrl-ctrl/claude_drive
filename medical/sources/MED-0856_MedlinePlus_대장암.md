@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 대장암
+group: 암
+topic: 대장암
 url: https://medlineplus.gov/colorectalcancer.html
 published: 1999-02-26
 revised: unknown

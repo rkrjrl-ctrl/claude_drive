@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 검진
 disease: 자궁경부암
+group: 암
+topic: 자궁경부암
 url: https://medlineplus.gov/cervicalcancerscreening.html
 published: 2014-11-04
 revised: unknown

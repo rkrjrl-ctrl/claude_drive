@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 검진
 disease: 임신성 당뇨병
+group: 당뇨·대사·내분비
+topic: 당뇨병
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/gestational-diabetes-screening
 published: unknown
 revised: unknown

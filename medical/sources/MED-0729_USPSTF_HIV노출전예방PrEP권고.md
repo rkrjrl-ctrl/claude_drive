@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 진료지침
 disease: HIV 감염 예방(노출 전 예방요법, PrEP)
+group: 감염·예방접종
+topic: 감염질환
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/prevention-of-human-immunodeficiency-virus-hiv-infection-pre-exposure-prophylaxis
 published: unknown
 revised: unknown

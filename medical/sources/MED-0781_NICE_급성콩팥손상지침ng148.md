@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 급성 콩팥손상
+group: 콩팥·비뇨기
+topic: 콩팥·비뇨기질환
 url: https://www.nice.org.uk/guidance/ng148
 published: 2019-12-18
 revised: 2024-10-16

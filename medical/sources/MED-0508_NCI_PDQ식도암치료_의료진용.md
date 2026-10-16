@@ -5,6 +5,8 @@ org: NCI / PDQ Adult Treatment Editorial Board
 jurisdiction: US
 category: 치료
 disease: 식도암
+group: 암
+topic: 두경부·식도암
 url: https://www.cancer.gov/types/esophageal/hp/esophageal-treatment-pdq
 published: unknown
 revised: 2025-03-21

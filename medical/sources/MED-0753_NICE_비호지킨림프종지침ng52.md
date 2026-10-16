@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 비호지킨림프종
+group: 암
+topic: 혈액암(백혈병·림프종·골수종)
 url: https://www.nice.org.uk/guidance/ng52
 published: 2016-07-20
 revised: unknown

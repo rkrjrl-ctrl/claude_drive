@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 대상포진
+group: 감염·예방접종
+topic: 감염질환
 url: https://medlineplus.gov/shingles.html
 published: 1998-10-22
 revised: unknown

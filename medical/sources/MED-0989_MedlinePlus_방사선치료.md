@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 방사선치료(암 치료)
+group: 암
+topic: 암 공통(치료·지지요법)
 url: https://medlineplus.gov/radiationtherapy.html
 published: 2002-11-13
 revised: unknown

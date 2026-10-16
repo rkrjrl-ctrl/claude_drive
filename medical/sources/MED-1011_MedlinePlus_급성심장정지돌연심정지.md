@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 급성심장정지(돌연 심정지)
+group: 심장·혈관질환
+topic: 심정지·심폐소생술
 url: https://medlineplus.gov/suddencardiacarrest.html
 published: 2005-12-08
 revised: unknown

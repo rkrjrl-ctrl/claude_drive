@@ -5,6 +5,8 @@ org: KMAP-DD 연구진(Korean Medication Algorithm Project for Depressive Disord
 jurisdiction: KR
 category: 진료지침
 disease: 우울증(약물치료 알고리즘)
+group: 정신건강·신경계
+topic: 정신건강
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8813311/
 published: 2022
 revised: unknown

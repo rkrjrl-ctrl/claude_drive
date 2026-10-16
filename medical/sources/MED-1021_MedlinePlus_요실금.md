@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 요실금
+group: 콩팥·비뇨기
+topic: 콩팥·비뇨기질환
 url: https://medlineplus.gov/urinaryincontinence.html
 published: 1998-12-18
 revised: unknown

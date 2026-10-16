@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 갑상선기능항진증
+group: 당뇨·대사·내분비
+topic: 갑상선질환
 url: https://medlineplus.gov/hyperthyroidism.html
 published: 2013-12-23
 revised: unknown

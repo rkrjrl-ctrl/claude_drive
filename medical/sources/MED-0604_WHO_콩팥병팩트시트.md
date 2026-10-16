@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 콩팥병(만성콩팥병·급성신손상)
+group: 콩팥·비뇨기
+topic: 콩팥·비뇨기질환
 url: https://www.who.int/news-room/fact-sheets/detail/kidney-disease
 published: unknown
 revised: 2026-04

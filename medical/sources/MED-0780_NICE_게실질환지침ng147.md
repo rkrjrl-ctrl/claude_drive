@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 게실 질환·급성 게실염
+group: 소화기·간질환
+topic: 장질환
 url: https://www.nice.org.uk/guidance/ng147
 published: 2019-11-27
 revised: unknown

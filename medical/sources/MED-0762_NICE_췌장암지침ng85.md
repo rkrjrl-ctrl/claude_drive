@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 췌장암
+group: 암
+topic: 췌장암
 url: https://www.nice.org.uk/guidance/ng85
 published: 2018-02-07
 revised: unknown

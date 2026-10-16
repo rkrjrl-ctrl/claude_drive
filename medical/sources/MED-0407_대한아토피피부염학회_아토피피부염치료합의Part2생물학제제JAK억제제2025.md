@@ -5,6 +5,8 @@ org: 대한아토피피부염학회(Korean Atopic Dermatitis Association, KADA) 
 jurisdiction: KR
 category: 진료지침
 disease: 아토피피부염 치료 Part II
+group: 눈·귀·코·피부·구강
+topic: 피부질환
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12318779/
 published: 2025
 revised: unknown

@@ -12,7 +12,7 @@ from urllib.parse import urlparse, parse_qs
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "sources")
 
-FIELDS = ["id", "title", "org", "jurisdiction", "category", "disease", "url", "published", "revised",
+FIELDS = ["id", "title", "org", "jurisdiction", "category", "disease", "group", "topic", "url", "published", "revised",
           "checked", "location", "source_type", "tier", "status", "recheck_by", "reviewer",
           "drive_file", "video_use"]
 OPTIONAL = {"migrated_from", "supersedes", "superseded_by", "related", "note", "effective"}
@@ -21,6 +21,9 @@ ENUM = {
     "source_type": {"web_summary", "pdf_original", "law", "notice", "guideline_summary"},
     "tier": {"A", "B", "C"},
     "status": {"verified", "partial", "needs_recheck", "superseded", "rejected"},
+    "group": {"암", "뇌혈관질환", "심장·혈관질환", "당뇨·대사·내분비", "호흡기질환", "소화기·간질환",
+              "콩팥·비뇨기", "정신건강·신경계", "근골격·통증·재활", "감염·예방접종", "여성·임신·출산",
+              "눈·귀·코·피부·구강", "혈액·면역질환", "제도·급여·공통", "검사·생활·공통"},
 }
 SECTIONS = ["## 핵심 근거", "## 적용 조건·한계", "## 미검증·사용 금지", "## 영상 활용 메모"]
 DATE_RE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
@@ -139,16 +142,31 @@ def main():
 
 def write_by_disease(rows):
     from collections import defaultdict
-    g = defaultdict(list)
+    g = defaultdict(lambda: defaultdict(list))
     for r in rows:
-        g[r.get("disease", "")].append(r)
+        g[r.get("group", "")][r.get("topic", "")].append(r)
+    order = sorted(ENUM["group"], key=lambda k: -sum(len(v) for v in g[k].values()))
     L = ["# 질병별 자료 목록 (자동 생성 — 직접 수정 금지)", "",
-         "질병·주제별로 자료를 묶은 목록. 상태 `verified`만 영상 근거로 바로 쓸 수 있고 `partial`/`needs_recheck`는 각 파일의 미검증 항목을 먼저 확인한다.", ""]
-    for d in sorted(g, key=lambda k: (-len(g[k]), k)):
-        L += [f"## {d} ({len(g[d])}건)", "", "| ID | 자료명 | 기관 | 등급 | 상태 | 재확인 |", "|---|---|---|---|---|---|"]
-        for r in sorted(g[d], key=lambda r: r.get("id", "")):
-            L.append(f"| {r['id']} | {r['title']} | {r['org']} | {r['tier']} | {r['status']} | {r['recheck_by']} |")
-        L.append("")
+         "대분류(`group`) → 질병(`topic`)으로 묶은 목록. 원문 표기 질병명은 `disease` 칸에 그대로 있다. 상태 `verified`만 영상 근거로 바로 쓸 수 있고 `partial`/`needs_recheck`는 각 파일의 미검증 항목을 먼저 확인한다. 관할 KR이 아닌 자료(US·INT)는 국내 제도·급여 근거로 쓰지 않는다.", "",
+         "## 목차", ""]
+    for grp in order:
+        n = sum(len(v) for v in g[grp].values())
+        if n:
+            L.append(f"- **{grp}** ({n}건): " + ", ".join(f"{t} {len(g[grp][t])}" for t in sorted(g[grp], key=lambda k: (-len(g[grp][k]), k))))
+    L.append("")
+    for grp in order:
+        if not g[grp]:
+            continue
+        L += [f"# {grp}", ""]
+        for t in sorted(g[grp], key=lambda k: (-len(g[grp][k]), k)):
+            rs = g[grp][t]
+            ver = sum(r.get("status") == "verified" for r in rs)
+            kr = sum(r.get("jurisdiction") == "KR" for r in rs)
+            L += [f"## {t} ({len(rs)}건 · verified {ver} · 국내 {kr})", "",
+                  "| ID | 자료명 | 기관 | 관할 | 등급 | 상태 | 재확인 |", "|---|---|---|---|---|---|---|"]
+            for r in sorted(rs, key=lambda r: (r.get("status") != "verified", r.get("jurisdiction") != "KR", r.get("tier", ""), r.get("id", ""))):
+                L.append(f"| {r['id']} | {r['title']} | {r['org']} | {r['jurisdiction']} | {r['tier']} | {r['status']} | {r['recheck_by']} |")
+            L.append("")
     with open(os.path.join(ROOT, "BY_DISEASE.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(L))
 

@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 셀리악병
+group: 소화기·간질환
+topic: 장질환
 url: https://www.nice.org.uk/guidance/ng20
 published: 2015-09-02
 revised: unknown

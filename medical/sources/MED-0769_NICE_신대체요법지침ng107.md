@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 말기 신부전(신대체요법·보존적 관리)
+group: 콩팥·비뇨기
+topic: 콩팥·비뇨기질환
 url: https://www.nice.org.uk/guidance/ng107
 published: 2018-10-03
 revised: unknown

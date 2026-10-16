@@ -5,6 +5,8 @@ org: Society of Emergency and Critical Care Imaging(SECCI) 주도 연구진 (BMC
 jurisdiction: KR
 category: 합의문
 disease: 응급의학 수련(POCUS)
+group: 검사·생활·공통
+topic: 검사·시술·수술 전후
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12910989/
 published: 2026
 revised: unknown

@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 고환암
+group: 암
+topic: 방광·고환암
 url: https://medlineplus.gov/testicularcancer.html
 published: 1999-08-04
 revised: unknown

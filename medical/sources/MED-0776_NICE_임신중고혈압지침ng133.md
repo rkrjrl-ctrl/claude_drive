@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 임신 중 고혈압(임신성 고혈압·전자간증)
+group: 심장·혈관질환
+topic: 고혈압
 url: https://www.nice.org.uk/guidance/ng133
 published: 2019-06-25
 revised: 2023-04-17

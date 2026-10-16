@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 메스꺼움·구토
+group: 검사·생활·공통
+topic: 공통·기타
 url: https://medlineplus.gov/nauseaandvomiting.html
 published: 1999-10-20
 revised: unknown

@@ -5,6 +5,8 @@ org: NCI / PDQ Supportive and Palliative Care Editorial Board
 jurisdiction: US
 category: 암 지지요법
 disease: 암 환자 영양
+group: 검사·생활·공통
+topic: 생활습관(금연·영양·운동)
 url: https://www.cancer.gov/about-cancer/treatment/side-effects/appetite-loss/nutrition-hp-pdq
 published: unknown
 revised: 2024-09-20

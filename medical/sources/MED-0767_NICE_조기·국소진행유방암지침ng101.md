@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 유방암(조기·국소 진행)
+group: 암
+topic: 유방암
 url: https://www.nice.org.uk/guidance/ng101
 published: 2018-07-18
 revised: 2025-04-14

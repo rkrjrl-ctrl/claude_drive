@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 천식
+group: 호흡기질환
+topic: 천식
 url: https://www.nice.org.uk/guidance/ng245
 published: 2024-11-27
 revised: unknown

@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 치료·생활관리
 disease: 성매개감염 예방
+group: 감염·예방접종
+topic: 감염질환
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/sexually-transmitted-infections-behavioral-counseling
 published: unknown
 revised: unknown

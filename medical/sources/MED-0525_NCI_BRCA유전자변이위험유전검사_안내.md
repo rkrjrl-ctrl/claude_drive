@@ -5,6 +5,8 @@ org: NCI (National Cancer Institute)
 jurisdiction: US
 category: 유전
 disease: 유전성 유방·난소암(BRCA)
+group: 암
+topic: 유방암
 url: https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet
 published: unknown
 revised: unknown

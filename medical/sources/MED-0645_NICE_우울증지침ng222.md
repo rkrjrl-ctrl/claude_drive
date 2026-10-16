@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 우울증
+group: 정신건강·신경계
+topic: 정신건강
 url: https://www.nice.org.uk/guidance/ng222
 published: 2022-06-29
 revised: unknown

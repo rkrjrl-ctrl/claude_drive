@@ -5,6 +5,8 @@ org: NCI / PDQ Supportive and Palliative Care Editorial Board
 jurisdiction: US
 category: 암 지지요법
 disease: 항암치료 관련 오심·구토
+group: 암
+topic: 암 공통(치료·지지요법)
 url: https://www.cancer.gov/about-cancer/treatment/side-effects/nausea/nausea-hp-pdq
 published: unknown
 revised: 2025-03-10

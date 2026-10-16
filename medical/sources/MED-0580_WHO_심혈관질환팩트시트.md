@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 심혈관질환
+group: 심장·혈관질환
+topic: 혈관질환(대동맥·정맥·혈전)
 url: https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)
 published: unknown
 revised: unknown

@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 대장암
+group: 암
+topic: 대장암
 url: https://www.nice.org.uk/guidance/ng151
 published: 2020-01-29
 revised: 2021-12-15

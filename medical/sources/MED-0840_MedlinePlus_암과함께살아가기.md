@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 암 지지요법
 disease: 암 환자 일상·정서 대처(일반)
+group: 암
+topic: 암 공통(치료·지지요법)
 url: https://medlineplus.gov/cancerlivingwithcancer.html
 published: 2001-08-28
 revised: unknown

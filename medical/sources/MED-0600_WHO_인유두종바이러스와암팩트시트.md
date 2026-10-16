@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 사람유두종바이러스(HPV)·자궁경부암
+group: 암
+topic: 자궁경부암
 url: https://www.who.int/news-room/fact-sheets/detail/human-papilloma-virus-and-cancer
 published: unknown
 revised: unknown

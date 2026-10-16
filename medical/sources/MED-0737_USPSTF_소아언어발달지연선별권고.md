@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 검진
 disease: 소아 말·언어 지연 및 장애
+group: 검사·생활·공통
+topic: 소아청소년 기타
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/speech-and-language-delay-and-disorders-in-children-age-5-and-younger-screening
 published: unknown
 revised: unknown

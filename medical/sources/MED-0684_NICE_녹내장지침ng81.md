@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 녹내장·고안압증
+group: 눈·귀·코·피부·구강
+topic: 눈질환
 url: https://www.nice.org.uk/guidance/ng81
 published: 2017-11-01
 revised: 2022-01-26

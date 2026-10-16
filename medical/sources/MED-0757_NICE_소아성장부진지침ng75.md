@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 영유아·소아 성장부진(faltering growth)
+group: 검사·생활·공통
+topic: 소아청소년 기타
 url: https://www.nice.org.uk/guidance/ng75
 published: 2017-09-27
 revised: unknown

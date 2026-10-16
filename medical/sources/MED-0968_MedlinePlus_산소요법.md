@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 산소 요법
+group: 호흡기질환
+topic: 만성폐쇄성폐질환(COPD)
 url: https://medlineplus.gov/oxygentherapy.html
 published: 2009-12-22
 revised: unknown

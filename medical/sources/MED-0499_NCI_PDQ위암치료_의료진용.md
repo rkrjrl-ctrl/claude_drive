@@ -5,6 +5,8 @@ org: NCI / PDQ Adult Treatment Editorial Board
 jurisdiction: US
 category: 치료
 disease: 위암
+group: 암
+topic: 위암
 url: https://www.cancer.gov/types/stomach/hp/stomach-treatment-pdq
 published: unknown
 revised: 2025-02-21

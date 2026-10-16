@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 예정(선택) 수술 전 평가(수술 전 검사)
+group: 검사·생활·공통
+topic: 검사·시술·수술 전후
 url: https://www.nice.org.uk/guidance/ng45
 published: 2016-04-05
 revised: unknown

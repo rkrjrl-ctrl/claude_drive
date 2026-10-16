@@ -5,6 +5,8 @@ org: 건강보험심사평가원 약제기준부
 jurisdiction: KR
 category: 치료비·국가제도
 disease: 신장암
+group: 암
+topic: 신장암
 url: https://www.hira.or.kr/bbsDummy.do?brdBltNo=45666&brdScnBltNo=4&pgmid=HIRAA030023080000
 published: 2026-02-24
 revised: unknown

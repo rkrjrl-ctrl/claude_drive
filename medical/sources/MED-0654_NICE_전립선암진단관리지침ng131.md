@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 전립선암
+group: 암
+topic: 전립선암
 url: https://www.nice.org.uk/guidance/ng131
 published: 2019-05-09
 revised: 2021-12-15

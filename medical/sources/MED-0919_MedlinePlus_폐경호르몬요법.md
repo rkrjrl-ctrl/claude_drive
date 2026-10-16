@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 폐경(호르몬요법)
+group: 여성·임신·출산
+topic: 여성·임신·출산
 url: https://medlineplus.gov/hormonetherapyformenopause.html
 published: 2002-04-29
 revised: unknown

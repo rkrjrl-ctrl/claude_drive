@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 유전
 disease: BRCA 유전성 유방·난소암
+group: 암
+topic: 유방암
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/brca-related-cancer-risk-assessment-genetic-counseling-and-genetic-testing
 published: unknown
 revised: unknown

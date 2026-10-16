@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 통풍
+group: 근골격·통증·재활
+topic: 통풍
 url: https://www.nice.org.uk/guidance/ng219
 published: 2022-06-09
 revised: unknown

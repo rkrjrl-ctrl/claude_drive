@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 소아청소년 당뇨병(1형·2형)
+group: 당뇨·대사·내분비
+topic: 당뇨병
 url: https://www.nice.org.uk/guidance/ng18
 published: 2015-08-01
 revised: 2023-05-11

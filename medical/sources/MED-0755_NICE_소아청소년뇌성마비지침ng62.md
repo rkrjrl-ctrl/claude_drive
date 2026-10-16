@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 뇌성마비(소아청소년·청년)
+group: 정신건강·신경계
+topic: 신경계질환
 url: https://www.nice.org.uk/guidance/ng62
 published: 2017-01-25
 revised: unknown

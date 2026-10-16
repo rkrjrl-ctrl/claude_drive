@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 심혈관질환·이상지질혈증
+group: 심장·혈관질환
+topic: 이상지질혈증
 url: https://www.nice.org.uk/guidance/ng238
 published: 2023-12-14
 revised: unknown

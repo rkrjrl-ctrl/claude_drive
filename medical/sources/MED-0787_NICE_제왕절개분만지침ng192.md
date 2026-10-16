@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 제왕절개 분만
+group: 여성·임신·출산
+topic: 여성·임신·출산
 url: https://www.nice.org.uk/guidance/ng192
 published: 2021-03-31
 revised: 2025-06-10

@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 갑상선 질환(기능저하증·항진증·갑상선 비대)
+group: 당뇨·대사·내분비
+topic: 갑상선질환
 url: https://www.nice.org.uk/guidance/ng145
 published: 2019-11-20
 revised: 2023-10-12

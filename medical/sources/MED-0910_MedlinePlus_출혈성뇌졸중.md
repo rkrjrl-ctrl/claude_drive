@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 출혈성 뇌졸중(뇌출혈)
+group: 뇌혈관질환
+topic: 뇌졸중
 url: https://medlineplus.gov/hemorrhagicstroke.html
 published: 2015-08-19
 revised: unknown

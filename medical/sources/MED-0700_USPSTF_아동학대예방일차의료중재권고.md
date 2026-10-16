@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 진료지침
 disease: 아동학대 예방
+group: 검사·생활·공통
+topic: 소아청소년 기타
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/child-maltreatment-primary-care-interventions
 published: unknown
 revised: unknown

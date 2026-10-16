@@ -5,6 +5,8 @@ org: 한국보건의료연구원, 대한의학회 및 회원학회
 jurisdiction: KR
 category: 진료지침
 disease: 코로나19
+group: 감염·예방접종
+topic: 감염질환
 url: https://www.guideline.or.kr/guide/view.php?number=1149&cate=A
 published: 2023
 revised: unknown

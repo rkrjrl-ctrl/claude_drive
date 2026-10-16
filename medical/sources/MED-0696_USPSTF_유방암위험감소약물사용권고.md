@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 진료지침
 disease: 유방암 예방(위험감소 약물)
+group: 암
+topic: 유방암
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-medications-for-risk-reduction
 published: unknown
 revised: unknown

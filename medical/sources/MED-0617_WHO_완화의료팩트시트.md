@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 완화의료
+group: 검사·생활·공통
+topic: 완화의료·임종기 돌봄
 url: https://www.who.int/news-room/fact-sheets/detail/palliative-care
 published: unknown
 revised: unknown

@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 치료
 disease: 항암화학요법(암 치료)
+group: 암
+topic: 암 공통(치료·지지요법)
 url: https://medlineplus.gov/cancerchemotherapy.html
 published: 1999-12-02
 revised: unknown

@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 검진
 disease: 소아청소년 비만
+group: 당뇨·대사·내분비
+topic: 비만·대사증후군
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-children-and-adolescents-screening
 published: unknown
 revised: unknown

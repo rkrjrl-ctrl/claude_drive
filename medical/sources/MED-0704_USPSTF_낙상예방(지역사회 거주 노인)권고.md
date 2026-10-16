@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 검진
 disease: 낙상 예방
+group: 근골격·통증·재활
+topic: 근골격·통증·재활
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/falls-prevention-community-dwelling-older-adults-interventions
 published: unknown
 revised: unknown

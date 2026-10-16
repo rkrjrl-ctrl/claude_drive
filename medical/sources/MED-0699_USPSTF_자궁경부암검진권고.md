@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 검진
 disease: 자궁경부암 검진
+group: 암
+topic: 자궁경부암
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cervical-cancer-screening
 published: unknown
 revised: unknown

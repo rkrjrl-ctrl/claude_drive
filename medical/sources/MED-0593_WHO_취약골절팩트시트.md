@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 골다공증성 골절(취약골절)
+group: 당뇨·대사·내분비
+topic: 골다공증·뼈건강
 url: https://www.who.int/news-room/fact-sheets/detail/fragility-fractures
 published: unknown
 revised: unknown

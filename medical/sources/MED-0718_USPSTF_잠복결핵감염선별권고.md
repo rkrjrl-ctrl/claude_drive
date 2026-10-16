@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 검진
 disease: 잠복결핵감염
+group: 호흡기질환
+topic: 결핵
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/latent-tuberculosis-infection-screening
 published: unknown
 revised: unknown

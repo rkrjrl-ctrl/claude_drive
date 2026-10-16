@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 대상포진
+group: 감염·예방접종
+topic: 감염질환
 url: https://www.who.int/news-room/fact-sheets/detail/shingles-(herpes-zoster)
 published: unknown
 revised: unknown

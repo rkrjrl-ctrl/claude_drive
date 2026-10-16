@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 검진
 disease: 클라미디아·임질
+group: 감염·예방접종
+topic: 감염질환
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/chlamydia-and-gonorrhea-screening
 published: unknown
 revised: unknown

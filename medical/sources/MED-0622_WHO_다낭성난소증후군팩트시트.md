@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 다낭성 난소 증후군
+group: 여성·임신·출산
+topic: 여성·임신·출산
 url: https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome
 published: unknown
 revised: unknown

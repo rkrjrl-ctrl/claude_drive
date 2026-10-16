@@ -5,6 +5,8 @@ org: NIH NIDDK
 jurisdiction: US
 category: 치료·생활관리
 disease: 질병공통(신장암 포함)
+group: 제도·급여·공통
+topic: 질병공통(제도·비용)
 url: https://www.niddk.nih.gov/health-information/kidney-disease/keeping-kidneys-safe
 published: unknown
 revised: 2018-06

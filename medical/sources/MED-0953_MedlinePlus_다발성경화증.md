@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 다발성경화증
+group: 정신건강·신경계
+topic: 신경계질환
 url: https://medlineplus.gov/multiplesclerosis.html
 published: 1999-01-15
 revised: unknown

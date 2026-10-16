@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 검진
 disease: 신경관결손 예방
+group: 여성·임신·출산
+topic: 여성·임신·출산
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/folic-acid-for-the-prevention-of-neural-tube-defects-preventive-medication
 published: unknown
 revised: unknown

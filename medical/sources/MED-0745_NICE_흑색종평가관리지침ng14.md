@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 흑색종
+group: 암
+topic: 피부암
 url: https://www.nice.org.uk/guidance/ng14
 published: 2015-07-29
 revised: 2022-07-27

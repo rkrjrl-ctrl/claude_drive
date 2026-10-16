@@ -5,6 +5,8 @@ org: NIH National Cancer Institute
 jurisdiction: US
 category: 치료·생활관리
 disease: 질병공통(신장암 포함)
+group: 제도·급여·공통
+topic: 질병공통(제도·비용)
 url: https://www.cancer.gov/about-cancer/advanced-cancer/care-choices/palliative-care-fact-sheet
 published: unknown
 revised: 2021-11-01

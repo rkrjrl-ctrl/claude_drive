@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 클로스트리디오이데스 디피실레 감염
+group: 소화기·간질환
+topic: 장질환
 url: https://www.nice.org.uk/guidance/ng199
 published: 2021-07-23
 revised: unknown

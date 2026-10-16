@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 항응고제·항혈소판제(혈액희석제)
+group: 혈액·면역질환
+topic: 혈액질환(비암)
 url: https://medlineplus.gov/bloodthinners.html
 published: 2008-10-15
 revised: unknown

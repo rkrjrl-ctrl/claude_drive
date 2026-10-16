@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 식도 질환
+group: 소화기·간질환
+topic: 위·식도질환
 url: https://medlineplus.gov/esophagusdisorders.html
 published: 1999-12-20
 revised: unknown

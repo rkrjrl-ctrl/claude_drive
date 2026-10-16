@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 칼슘(영양소)
+group: 검사·생활·공통
+topic: 생활습관(금연·영양·운동)
 url: https://medlineplus.gov/calcium.html
 published: 2002-10-23
 revised: unknown

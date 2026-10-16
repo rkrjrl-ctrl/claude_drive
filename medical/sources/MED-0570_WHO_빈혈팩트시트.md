@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 빈혈
+group: 혈액·면역질환
+topic: 혈액질환(비암)
 url: https://www.who.int/news-room/fact-sheets/detail/anaemia
 published: unknown
 revised: unknown

@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 급성 인후통(인두염·편도염, 항생제 처방)
+group: 감염·예방접종
+topic: 감염질환
 url: https://www.nice.org.uk/guidance/ng84
 published: 2018-01-26
 revised: unknown

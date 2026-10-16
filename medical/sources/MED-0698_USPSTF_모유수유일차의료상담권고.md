@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 진료지침
 disease: 모유수유 지원
+group: 여성·임신·출산
+topic: 여성·임신·출산
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breastfeeding-primary-care-interventions
 published: unknown
 revised: unknown

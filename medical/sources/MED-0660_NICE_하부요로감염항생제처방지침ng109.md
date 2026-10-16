@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 하부 요로감염(방광염)
+group: 콩팥·비뇨기
+topic: 콩팥·비뇨기질환
 url: https://www.nice.org.uk/guidance/ng109
 published: 2018-10-31
 revised: unknown

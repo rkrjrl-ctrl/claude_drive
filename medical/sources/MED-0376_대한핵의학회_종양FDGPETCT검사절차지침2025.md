@@ -5,6 +5,8 @@ org: 대한핵의학회(Korean Society of Nuclear Medicine, KSNM) 학술위원�
 jurisdiction: KR
 category: 진료지침
 disease: 종양 FDG PET/CT 검사 절차
+group: 검사·생활·공통
+topic: 검사·시술·수술 전후
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12669421/
 published: 2025
 revised: unknown

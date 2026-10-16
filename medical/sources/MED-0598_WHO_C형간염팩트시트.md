@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: C형간염
+group: 소화기·간질환
+topic: 간질환(간염·지방간·간경변)
 url: https://www.who.int/news-room/fact-sheets/detail/hepatitis-c
 published: unknown
 revised: unknown

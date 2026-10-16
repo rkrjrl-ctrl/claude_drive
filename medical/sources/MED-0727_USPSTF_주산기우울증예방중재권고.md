@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 검진
 disease: 주산기 우울증
+group: 정신건강·신경계
+topic: 정신건강
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/perinatal-depression-preventive-interventions
 published: unknown
 revised: unknown

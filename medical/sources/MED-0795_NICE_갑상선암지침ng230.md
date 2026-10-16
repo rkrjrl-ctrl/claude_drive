@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 갑상선암
+group: 암
+topic: 갑상선암
 url: https://www.nice.org.uk/guidance/ng230
 published: 2022-12-19
 revised: unknown

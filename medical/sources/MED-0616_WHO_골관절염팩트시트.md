@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 골관절염
+group: 근골격·통증·재활
+topic: 근골격·통증·재활
 url: https://www.who.int/news-room/fact-sheets/detail/osteoarthritis
 published: unknown
 revised: unknown

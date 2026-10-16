@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 연령관련 황반변성
+group: 눈·귀·코·피부·구강
+topic: 눈질환
 url: https://www.nice.org.uk/guidance/ng82
 published: 2018-01-23
 revised: unknown

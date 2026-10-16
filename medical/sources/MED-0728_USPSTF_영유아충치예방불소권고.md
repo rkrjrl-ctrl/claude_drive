@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 진료지침
 disease: 영유아 치아우식(충치) 예방
+group: 눈·귀·코·피부·구강
+topic: 구강질환
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/prevention-of-dental-caries-in-children-younger-than-age-5-years-screening-and-interventions1
 published: unknown
 revised: unknown

@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 검진
 disease: Rh(D) 부적합(임신)
+group: 여성·임신·출산
+topic: 여성·임신·출산
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/rh-d-incompatibility-screening
 published: unknown
 revised: unknown

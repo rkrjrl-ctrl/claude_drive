@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 손목터널증후군
+group: 근골격·통증·재활
+topic: 근골격·통증·재활
 url: https://medlineplus.gov/carpaltunnelsyndrome.html
 published: 1999-07-26
 revised: unknown

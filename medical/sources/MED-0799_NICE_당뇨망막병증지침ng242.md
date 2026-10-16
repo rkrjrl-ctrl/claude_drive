@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 당뇨망막병증, 당뇨황반부종
+group: 당뇨·대사·내분비
+topic: 당뇨병
 url: https://www.nice.org.uk/guidance/ng242
 published: 2024-08-13
 revised: unknown

@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 파킨슨병
+group: 정신건강·신경계
+topic: 파킨슨병·운동장애
 url: https://www.nice.org.uk/guidance/ng71
 published: 2017-07-19
 revised: unknown

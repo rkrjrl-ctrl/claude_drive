@@ -5,6 +5,8 @@ org: 한국뇌종양학회 KSNO 가이드라인 작업반 (The Korean Society fo
 jurisdiction: KR
 category: 진료지침
 disease: 뇌종양
+group: 암
+topic: 뇌종양·소아고형암
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10172012/
 published: 2023
 revised: unknown

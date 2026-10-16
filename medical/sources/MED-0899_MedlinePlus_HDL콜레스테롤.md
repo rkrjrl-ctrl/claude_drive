@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: HDL 콜레스테롤
+group: 심장·혈관질환
+topic: 이상지질혈증
 url: https://medlineplus.gov/hdlthegoodcholesterol.html
 published: 2017-12-04
 revised: unknown

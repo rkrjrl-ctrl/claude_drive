@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 만성림프구성백혈병(CLL)
+group: 암
+topic: 혈액암(백혈병·림프종·골수종)
 url: https://medlineplus.gov/chroniclymphocyticleukemia.html
 published: 1998-12-18
 revised: unknown

@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 급성골수성백혈병(AML)
+group: 암
+topic: 혈액암(백혈병·림프종·골수종)
 url: https://medlineplus.gov/acutemyeloidleukemia.html
 published: 2010-10-12
 revised: unknown

@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 흉부 손상·질환(일반)
+group: 호흡기질환
+topic: 호흡기질환 기타
 url: https://medlineplus.gov/chestinjuriesanddisorders.html
 published: 2011-08-24
 revised: unknown

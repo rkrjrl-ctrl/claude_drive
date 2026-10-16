@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 암(일반 개요)
+group: 암
+topic: 암 공통(치료·지지요법)
 url: https://medlineplus.gov/cancer.html
 published: 1998-10-22
 revised: unknown

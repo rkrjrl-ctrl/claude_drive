@@ -5,6 +5,8 @@ org: NCI / PDQ Supportive and Palliative Care Editorial Board
 jurisdiction: US
 category: 암 지지요법
 disease: 암 환자 우울
+group: 암
+topic: 암 공통(치료·지지요법)
 url: https://www.cancer.gov/about-cancer/coping/feelings/depression-hp-pdq
 published: unknown
 revised: 2024-07-25

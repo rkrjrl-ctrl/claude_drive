@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 심방세동
+group: 심장·혈관질환
+topic: 부정맥(심방세동 등)
 url: https://www.nice.org.uk/guidance/ng196
 published: 2021-04-27
 revised: 2021-06-30

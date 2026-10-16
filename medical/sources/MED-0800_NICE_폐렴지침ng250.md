@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 폐렴(지역사회획득·병원획득)
+group: 호흡기질환
+topic: 호흡기질환 기타
 url: https://www.nice.org.uk/guidance/ng250
 published: 2025-09-02
 revised: unknown

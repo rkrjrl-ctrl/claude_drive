@@ -5,6 +5,8 @@ org: NCI / PDQ Adult Treatment Editorial Board
 jurisdiction: US
 category: 치료
 disease: 난소암
+group: 암
+topic: 부인암(난소·자궁)
 url: https://www.cancer.gov/types/ovarian/hp/ovarian-epithelial-treatment-pdq
 published: unknown
 revised: 2025-05-14

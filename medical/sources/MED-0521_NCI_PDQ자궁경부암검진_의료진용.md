@@ -5,6 +5,8 @@ org: NCI / PDQ Screening and Prevention Editorial Board
 jurisdiction: US
 category: 검진
 disease: 자궁경부암 검진
+group: 암
+topic: 자궁경부암
 url: https://www.cancer.gov/types/cervical/hp/cervical-screening-pdq
 published: unknown
 revised: 2025-04-18

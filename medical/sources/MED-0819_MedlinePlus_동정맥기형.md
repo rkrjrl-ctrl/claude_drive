@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 동정맥 기형(AVM)
+group: 뇌혈관질환
+topic: 뇌졸중
 url: https://medlineplus.gov/arteriovenousmalformations.html
 published: 2007-11-26
 revised: unknown

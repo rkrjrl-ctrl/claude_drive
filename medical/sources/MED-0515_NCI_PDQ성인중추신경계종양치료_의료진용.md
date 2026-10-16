@@ -5,6 +5,8 @@ org: NCI / PDQ Adult Treatment Editorial Board
 jurisdiction: US
 category: 치료
 disease: 중추신경계 종양
+group: 암
+topic: 뇌종양·소아고형암
 url: https://www.cancer.gov/types/brain/hp/adult-brain-treatment-pdq
 published: unknown
 revised: 2025-03-28

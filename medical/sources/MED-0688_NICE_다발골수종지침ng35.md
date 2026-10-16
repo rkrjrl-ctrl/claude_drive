@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 다발골수종
+group: 암
+topic: 혈액암(백혈병·림프종·골수종)
 url: https://www.nice.org.uk/guidance/ng35
 published: 2016-02-10
 revised: 2018-10-25

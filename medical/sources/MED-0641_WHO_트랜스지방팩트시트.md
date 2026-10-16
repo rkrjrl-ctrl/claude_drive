@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 트랜스지방
+group: 심장·혈관질환
+topic: 이상지질혈증
 url: https://www.who.int/news-room/fact-sheets/detail/trans-fat
 published: unknown
 revised: unknown

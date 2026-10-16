@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 외상후 스트레스 장애(PTSD)
+group: 검사·생활·공통
+topic: 응급·외상
 url: https://www.nice.org.uk/guidance/ng116
 published: 2018-12-05
 revised: unknown

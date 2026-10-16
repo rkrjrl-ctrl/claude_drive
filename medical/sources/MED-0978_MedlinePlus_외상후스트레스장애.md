@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 외상후 스트레스 장애(PTSD)
+group: 검사·생활·공통
+topic: 응급·외상
 url: https://medlineplus.gov/posttraumaticstressdisorder.html
 published: 1999-06-10
 revised: unknown

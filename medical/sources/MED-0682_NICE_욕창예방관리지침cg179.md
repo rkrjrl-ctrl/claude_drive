@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 욕창
+group: 눈·귀·코·피부·구강
+topic: 피부질환
 url: https://www.nice.org.uk/guidance/cg179
 published: 2014-04-23
 revised: unknown

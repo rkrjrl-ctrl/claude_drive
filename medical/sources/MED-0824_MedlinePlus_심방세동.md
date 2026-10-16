@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 심방세동
+group: 심장·혈관질환
+topic: 부정맥(심방세동 등)
 url: https://medlineplus.gov/atrialfibrillation.html
 published: 2009-04-13
 revised: unknown

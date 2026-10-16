@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 척추 손상(척수 손상 포함)
+group: 정신건강·신경계
+topic: 신경계질환
 url: https://www.nice.org.uk/guidance/ng41
 published: 2016-02-17
 revised: unknown

@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 검진
 disease: 친밀 파트너 폭력·보호자 학대
+group: 검사·생활·공통
+topic: 공통·기타
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/intimate-partner-violence-and-abuse-of-elderly-and-vulnerable-adults-screening
 published: unknown
 revised: unknown

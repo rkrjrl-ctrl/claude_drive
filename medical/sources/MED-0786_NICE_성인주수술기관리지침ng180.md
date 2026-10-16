@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 성인 주수술기 관리(수술 전후 관리)
+group: 검사·생활·공통
+topic: 검사·시술·수술 전후
 url: https://www.nice.org.uk/guidance/ng180
 published: 2020-08-19
 revised: unknown

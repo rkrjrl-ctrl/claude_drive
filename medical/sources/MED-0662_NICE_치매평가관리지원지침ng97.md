@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 치매
+group: 정신건강·신경계
+topic: 치매
 url: https://www.nice.org.uk/guidance/ng97
 published: 2018-06-20
 revised: unknown

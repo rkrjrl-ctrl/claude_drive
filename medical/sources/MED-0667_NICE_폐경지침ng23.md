@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 폐경(갱년기)
+group: 여성·임신·출산
+topic: 여성·임신·출산
 url: https://www.nice.org.uk/guidance/ng23
 published: 2015-11-12
 revised: 2026-04-15

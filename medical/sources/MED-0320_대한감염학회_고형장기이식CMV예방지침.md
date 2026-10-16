@@ -5,6 +5,8 @@ org: 대한감염학회·대한이식학회 이식감염 소위원회(대한소�
 jurisdiction: KR
 category: 진료지침
 disease: 고형장기이식 CMV 예방
+group: 감염·예방접종
+topic: 감염질환
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10990892/
 published: 2024
 revised: unknown

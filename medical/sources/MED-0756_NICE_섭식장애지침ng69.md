@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 섭식장애(신경성 식욕부진증·폭식장애·신경성 폭식증)
+group: 정신건강·신경계
+topic: 정신건강
 url: https://www.nice.org.uk/guidance/ng69
 published: 2017-05-23
 revised: 2020-12-16

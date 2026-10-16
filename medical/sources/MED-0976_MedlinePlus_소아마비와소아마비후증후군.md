@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 소아마비(폴리오)와 소아마비후증후군
+group: 감염·예방접종
+topic: 감염질환
 url: https://medlineplus.gov/polioandpostpoliosyndrome.html
 published: 1999-06-10
 revised: unknown

@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 심근경색(급성관동맥증후군)
+group: 심장·혈관질환
+topic: 허혈성 심장질환(심근경색 등)
 url: https://www.who.int/news-room/fact-sheets/detail/heart-attack
 published: unknown
 revised: unknown

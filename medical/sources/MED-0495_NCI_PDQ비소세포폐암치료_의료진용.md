@@ -5,6 +5,8 @@ org: NCI / PDQ Adult Treatment Editorial Board
 jurisdiction: US
 category: 치료
 disease: 비소세포폐암
+group: 암
+topic: 폐암
 url: https://www.cancer.gov/types/lung/hp/non-small-cell-lung-treatment-pdq
 published: unknown
 revised: 2025-05-15

@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 췌장염(급성·만성)
+group: 소화기·간질환
+topic: 췌장·담도질환
 url: https://www.nice.org.uk/guidance/ng104
 published: 2018-09-05
 revised: 2020-12-16

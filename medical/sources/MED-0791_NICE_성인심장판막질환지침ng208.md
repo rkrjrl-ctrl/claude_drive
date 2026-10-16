@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 심장판막질환
+group: 심장·혈관질환
+topic: 심장질환 기타
 url: https://www.nice.org.uk/guidance/ng208
 published: 2021-11-17
 revised: unknown

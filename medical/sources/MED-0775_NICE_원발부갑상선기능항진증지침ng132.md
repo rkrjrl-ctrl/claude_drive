@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 원발 부갑상선기능항진증
+group: 당뇨·대사·내분비
+topic: 갑상선질환
 url: https://www.nice.org.uk/guidance/ng132
 published: 2019-05-23
 revised: unknown

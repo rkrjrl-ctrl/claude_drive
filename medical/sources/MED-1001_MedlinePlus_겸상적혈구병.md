@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 겸상적혈구병
+group: 혈액·면역질환
+topic: 혈액질환(비암)
 url: https://medlineplus.gov/sicklecelldisease.html
 published: 1999-09-23
 revised: unknown

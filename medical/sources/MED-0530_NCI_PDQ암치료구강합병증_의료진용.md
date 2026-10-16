@@ -5,6 +5,8 @@ org: NCI / PDQ Supportive and Palliative Care Editorial Board
 jurisdiction: US
 category: 암 지지요법
 disease: 암치료 관련 구강합병증
+group: 암
+topic: 암 공통(치료·지지요법)
 url: https://www.cancer.gov/about-cancer/treatment/side-effects/mouth-throat/oral-complications-hp-pdq
 published: unknown
 revised: 2024-02-16

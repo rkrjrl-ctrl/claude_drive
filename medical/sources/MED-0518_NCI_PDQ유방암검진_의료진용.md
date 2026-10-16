@@ -5,6 +5,8 @@ org: NCI / PDQ Screening and Prevention Editorial Board
 jurisdiction: US
 category: 검진
 disease: 유방암 검진
+group: 암
+topic: 유방암
 url: https://www.cancer.gov/types/breast/hp/breast-screening-pdq
 published: unknown
 revised: 2025-04-10

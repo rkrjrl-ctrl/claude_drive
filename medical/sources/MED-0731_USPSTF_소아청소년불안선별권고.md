@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 검진
 disease: 소아청소년 불안장애
+group: 정신건강·신경계
+topic: 정신건강
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-anxiety-children-adolescents
 published: unknown
 revised: unknown

@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 급성 심부전
+group: 심장·혈관질환
+topic: 심부전
 url: https://www.nice.org.uk/guidance/cg187
 published: 2014-10-08
 revised: 2021-11-17

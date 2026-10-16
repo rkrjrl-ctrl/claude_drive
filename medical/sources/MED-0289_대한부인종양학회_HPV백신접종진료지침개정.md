@@ -5,6 +5,8 @@ org: 대한부인종양학회
 jurisdiction: KR
 category: 진료지침
 disease: HPV 백신
+group: 감염·예방접종
+topic: 예방접종
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13009690/
 published: 2026
 revised: unknown

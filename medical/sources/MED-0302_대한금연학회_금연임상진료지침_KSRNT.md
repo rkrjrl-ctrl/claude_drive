@@ -5,6 +5,8 @@ org: 대한금연학회(Korean Society for Research on Nicotine and Tobacco, KSR
 jurisdiction: KR
 category: 진료지침
 disease: 금연/니코틴
+group: 검사·생활·공통
+topic: 생활습관(금연·영양·운동)
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12518755/
 published: 2025
 revised: unknown

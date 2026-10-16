@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 검진
 disease: 성인 구강건강(충치·치주질환)
+group: 눈·귀·코·피부·구강
+topic: 구강질환
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/oral-health-adults-screening-preventive-interventions
 published: unknown
 revised: unknown

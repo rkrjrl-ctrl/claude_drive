@@ -5,6 +5,8 @@ org: NCI / PDQ Adult Treatment Editorial Board
 jurisdiction: US
 category: 치료
 disease: 자궁경부암
+group: 암
+topic: 자궁경부암
 url: https://www.cancer.gov/types/cervical/hp/cervical-treatment-pdq
 published: unknown
 revised: 2025-05-13

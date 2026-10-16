@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 골밀도 저하·골다공증
+group: 당뇨·대사·내분비
+topic: 골다공증·뼈건강
 url: https://medlineplus.gov/bonedensity.html
 published: 2011-12-05
 revised: unknown

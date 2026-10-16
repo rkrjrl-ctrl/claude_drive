@@ -5,6 +5,8 @@ org: 대한췌장담도학회(KPBA) ERCP 질 지표 개발위원회
 jurisdiction: KR
 category: 진료지침
 disease: 담췌 내시경(ERCP)
+group: 소화기·간질환
+topic: 췌장·담도질환
 url: https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2297&mode=view
 published: 2024
 revised: unknown

@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 검진
 disease: 무증상 세균뇨
+group: 콩팥·비뇨기
+topic: 콩팥·비뇨기질환
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/asymptomatic-bacteriuria-in-adults-screening
 published: unknown
 revised: unknown

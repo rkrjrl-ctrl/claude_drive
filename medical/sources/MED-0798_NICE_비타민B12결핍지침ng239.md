@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 비타민 B12 결핍
+group: 혈액·면역질환
+topic: 혈액질환(비암)
 url: https://www.nice.org.uk/guidance/ng239
 published: 2024-03-06
 revised: unknown

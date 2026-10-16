@@ -5,6 +5,8 @@ org: 결장암 다학제 진료지침 개발위원회(유관 13개 학회 대표
 jurisdiction: KR
 category: 진료지침
 disease: 대장암(결장암)
+group: 암
+topic: 대장암
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11082542/
 published: 2024
 revised: unknown

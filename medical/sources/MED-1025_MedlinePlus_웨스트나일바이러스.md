@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 웨스트나일 바이러스 감염
+group: 감염·예방접종
+topic: 감염질환
 url: https://medlineplus.gov/westnilevirus.html
 published: 2000-09-25
 revised: unknown

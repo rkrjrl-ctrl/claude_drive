@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 근육통성 뇌척수염/만성피로증후군(ME/CFS)
+group: 정신건강·신경계
+topic: 신경계질환
 url: https://www.nice.org.uk/guidance/ng206
 published: 2021-10-29
 revised: unknown

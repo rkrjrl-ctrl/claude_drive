@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 대동맥류
+group: 심장·혈관질환
+topic: 혈관질환(대동맥·정맥·혈전)
 url: https://medlineplus.gov/aorticaneurysm.html
 published: 2009-03-02
 revised: unknown

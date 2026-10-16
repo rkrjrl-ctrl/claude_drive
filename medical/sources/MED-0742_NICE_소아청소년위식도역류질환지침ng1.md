@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 소아청소년 위식도역류질환
+group: 소화기·간질환
+topic: 위·식도질환
 url: https://www.nice.org.uk/guidance/ng1
 published: 2015-01-14
 revised: 2019-10-09

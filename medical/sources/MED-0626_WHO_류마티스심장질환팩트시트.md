@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 류마티스 심장질환
+group: 심장·혈관질환
+topic: 심장질환 기타
 url: https://www.who.int/news-room/fact-sheets/detail/rheumatic-heart-disease
 published: unknown
 revised: unknown

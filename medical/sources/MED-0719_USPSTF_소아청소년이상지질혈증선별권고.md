@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 검진
 disease: 소아청소년 이상지질혈증
+group: 심장·혈관질환
+topic: 이상지질혈증
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lipid-disorders-in-children-screening
 published: unknown
 revised: unknown

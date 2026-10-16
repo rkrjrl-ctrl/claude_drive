@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 산전검사(임신 중 검사)
+group: 여성·임신·출산
+topic: 여성·임신·출산
 url: https://medlineplus.gov/prenataltesting.html
 published: 2003-01-07
 revised: unknown

@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 당뇨발(당뇨병성 족부 문제)
+group: 당뇨·대사·내분비
+topic: 당뇨병
 url: https://www.nice.org.uk/guidance/ng19
 published: 2015-08-26
 revised: 2019-10-11

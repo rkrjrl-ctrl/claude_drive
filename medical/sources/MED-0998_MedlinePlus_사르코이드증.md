@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 사르코이드증
+group: 호흡기질환
+topic: 간질성폐질환
 url: https://medlineplus.gov/sarcoidosis.html
 published: 1999-02-10
 revised: unknown

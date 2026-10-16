@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 가와사키병
+group: 심장·혈관질환
+topic: 심장질환 기타
 url: https://medlineplus.gov/kawasakidisease.html
 published: 2009-02-11
 revised: unknown

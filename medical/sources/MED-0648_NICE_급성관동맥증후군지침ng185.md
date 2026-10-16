@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 급성관동맥증후군(심근경색)
+group: 심장·혈관질환
+topic: 허혈성 심장질환(심근경색 등)
 url: https://www.nice.org.uk/guidance/ng185
 published: 2020-11-18
 revised: unknown

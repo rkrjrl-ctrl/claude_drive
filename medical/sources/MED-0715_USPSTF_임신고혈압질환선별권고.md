@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 검진
 disease: 임신 중 고혈압 질환
+group: 심장·혈관질환
+topic: 고혈압
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hypertensive-disorders-pregnancy-screening
 published: unknown
 revised: unknown

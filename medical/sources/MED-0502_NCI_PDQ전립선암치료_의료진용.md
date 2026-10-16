@@ -5,6 +5,8 @@ org: NCI / PDQ Adult Treatment Editorial Board
 jurisdiction: US
 category: 치료
 disease: 전립선암
+group: 암
+topic: 전립선암
 url: https://www.cancer.gov/types/prostate/hp/prostate-treatment-pdq
 published: unknown
 revised: 2025-05-14

@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 치매
+group: 정신건강·신경계
+topic: 치매
 url: https://www.who.int/news-room/fact-sheets/detail/dementia
 published: unknown
 revised: unknown

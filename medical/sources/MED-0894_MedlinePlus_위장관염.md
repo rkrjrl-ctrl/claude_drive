@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 급성 위장관염
+group: 소화기·간질환
+topic: 장질환
 url: https://medlineplus.gov/gastroenteritis.html
 published: 2003-01-07
 revised: unknown

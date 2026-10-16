@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 치료
 disease: 암 면역치료(면역항암요법)
+group: 암
+topic: 암 공통(치료·지지요법)
 url: https://medlineplus.gov/cancerimmunotherapy.html
 published: 2016-12-27
 revised: unknown

@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 만성 기관지염
+group: 호흡기질환
+topic: 만성폐쇄성폐질환(COPD)
 url: https://medlineplus.gov/chronicbronchitis.html
 published: 2002-04-17
 revised: unknown

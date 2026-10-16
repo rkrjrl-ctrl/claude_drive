@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 검진
 disease: 신생아 임균성 안염
+group: 눈·귀·코·피부·구강
+topic: 눈질환
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/ocular-prophylaxis-for-gonococcal-ophthalmia-neonatorum-preventive-medication
 published: unknown
 revised: unknown

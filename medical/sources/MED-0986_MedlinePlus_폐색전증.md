@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 폐색전증
+group: 심장·혈관질환
+topic: 혈관질환(대동맥·정맥·혈전)
 url: https://medlineplus.gov/pulmonaryembolism.html
 published: 2000-01-18
 revised: unknown

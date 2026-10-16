@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 검진
 disease: 심혈관질환 예방
+group: 심장·혈관질환
+topic: 혈관질환(대동맥·정맥·혈전)
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/healthy-diet-and-physical-activity-counseling-adults-with-high-risk-of-cvd
 published: unknown
 revised: unknown

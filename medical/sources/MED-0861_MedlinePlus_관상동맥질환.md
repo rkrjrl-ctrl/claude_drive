@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 관상동맥질환(CAD)
+group: 심장·혈관질환
+topic: 허혈성 심장질환(심근경색 등)
 url: https://medlineplus.gov/coronaryarterydisease.html
 published: 2000-04-04
 revised: unknown

@@ -5,6 +5,8 @@ org: NCI / PDQ Adult Treatment Editorial Board
 jurisdiction: US
 category: 치료
 disease: 방광암
+group: 암
+topic: 방광·고환암
 url: https://www.cancer.gov/types/bladder/hp/bladder-treatment-pdq
 published: unknown
 revised: 2025-05-02

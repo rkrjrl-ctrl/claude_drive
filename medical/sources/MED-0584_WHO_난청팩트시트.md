@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 난청
+group: 눈·귀·코·피부·구강
+topic: 귀·코·목·알레르기
 url: https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss
 published: unknown
 revised: unknown

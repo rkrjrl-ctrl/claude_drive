@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 골다공증
+group: 당뇨·대사·내분비
+topic: 골다공증·뼈건강
 url: https://medlineplus.gov/osteoporosis.html
 published: 1998-10-22
 revised: unknown

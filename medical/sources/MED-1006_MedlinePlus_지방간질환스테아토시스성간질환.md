@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 지방간질환(MASLD·ALD)
+group: 소화기·간질환
+topic: 간질환(간염·지방간·간경변)
 url: https://medlineplus.gov/steatoticliverdisease.html
 published: 2017-04-26
 revised: unknown

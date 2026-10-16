@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 의존·금단 증상 유발 약물(아편유사제·벤조디아제핀·가바펜티노이드·Z-약물·항우울제)
+group: 정신건강·신경계
+topic: 정신건강
 url: https://www.nice.org.uk/guidance/ng215
 published: 2022-04-20
 revised: unknown

@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 검진
 disease: 대장내시경 검사
+group: 소화기·간질환
+topic: 장질환
 url: https://medlineplus.gov/colonoscopy.html
 published: 2009-01-21
 revised: unknown

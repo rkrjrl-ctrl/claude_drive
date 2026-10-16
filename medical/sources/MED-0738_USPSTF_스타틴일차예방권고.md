@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 진료지침
 disease: 심혈관질환 일차예방(스타틴)
+group: 심장·혈관질환
+topic: 이상지질혈증
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/statin-use-in-adults-preventive-medication
 published: unknown
 revised: unknown

@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 폐고혈압
+group: 호흡기질환
+topic: 호흡기질환 기타
 url: https://medlineplus.gov/pulmonaryhypertension.html
 published: 2003-11-18
 revised: unknown

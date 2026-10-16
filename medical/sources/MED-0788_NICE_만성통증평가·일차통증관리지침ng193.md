@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 만성통증(만성 일차통증 포함)
+group: 근골격·통증·재활
+topic: 근골격·통증·재활
 url: https://www.nice.org.uk/guidance/ng193
 published: 2021-04-07
 revised: unknown

@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 소아 세기관지염
+group: 호흡기질환
+topic: 호흡기질환 기타
 url: https://www.nice.org.uk/guidance/ng9
 published: 2015-06-01
 revised: 2021-08-09

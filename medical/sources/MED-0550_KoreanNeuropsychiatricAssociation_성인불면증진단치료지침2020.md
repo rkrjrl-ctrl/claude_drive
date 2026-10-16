@@ -5,6 +5,8 @@ org: Korean Neuropsychiatric Association (지침 개발 사업 지원 및 임상
 jurisdiction: KR
 category: 진료지침
 disease: 불면증(성인)
+group: 정신건강·신경계
+topic: 정신건강
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7711116/
 published: 2020
 revised: unknown

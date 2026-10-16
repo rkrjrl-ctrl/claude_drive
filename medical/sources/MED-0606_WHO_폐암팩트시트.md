@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 폐암
+group: 암
+topic: 폐암
 url: https://www.who.int/news-room/fact-sheets/detail/lung-cancer
 published: unknown
 revised: unknown

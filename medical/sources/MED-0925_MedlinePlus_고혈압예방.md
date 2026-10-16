@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 고혈압
+group: 심장·혈관질환
+topic: 고혈압
 url: https://medlineplus.gov/howtopreventhighbloodpressure.html
 published: 2017-02-28
 revised: unknown

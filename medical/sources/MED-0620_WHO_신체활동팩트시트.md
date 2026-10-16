@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 신체활동
+group: 검사·생활·공통
+topic: 생활습관(금연·영양·운동)
 url: https://www.who.int/news-room/fact-sheets/detail/physical-activity
 published: unknown
 revised: unknown

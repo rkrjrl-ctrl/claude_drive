@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: Rh 부적합(임신)
+group: 여성·임신·출산
+topic: 여성·임신·출산
 url: https://medlineplus.gov/rhincompatibility.html
 published: 2011-11-01
 revised: unknown

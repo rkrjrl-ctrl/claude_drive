@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 천식
+group: 호흡기질환
+topic: 천식
 url: https://www.who.int/news-room/fact-sheets/detail/asthma
 published: unknown
 revised: 2026-04-28

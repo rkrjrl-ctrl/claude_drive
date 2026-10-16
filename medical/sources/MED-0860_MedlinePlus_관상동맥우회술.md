@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 관상동맥우회술(CABG)
+group: 심장·혈관질환
+topic: 허혈성 심장질환(심근경색 등)
 url: https://medlineplus.gov/coronaryarterybypasssurgery.html
 published: 1999-06-28
 revised: unknown

@@ -5,6 +5,8 @@ org: 대한마취통증의학회(Korean Society of Anesthesiologists, KSA) 임�
 jurisdiction: KR
 category: 합의문
 disease: 마취 전 위초음파·GLP-1 작용제
+group: 검사·생활·공통
+topic: 검사·시술·수술 전후
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13624820/
 published: 2026
 revised: unknown

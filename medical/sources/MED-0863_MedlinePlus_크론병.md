@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 크론병
+group: 소화기·간질환
+topic: 염증성장질환
 url: https://medlineplus.gov/crohnsdisease.html
 published: 1998-11-27
 revised: unknown

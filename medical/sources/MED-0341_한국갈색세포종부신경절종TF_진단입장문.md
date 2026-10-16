@@ -5,6 +5,8 @@ org: 한국 갈색세포종·부신경절종 TF (Korean Pheochromocytoma and Par
 jurisdiction: KR
 category: 입장문
 disease: 갈색세포종·부신경절종
+group: 당뇨·대사·내분비
+topic: 내분비질환 기타
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8090459/
 published: 2021
 revised: unknown

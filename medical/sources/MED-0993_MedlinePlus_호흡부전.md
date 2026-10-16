@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 호흡부전
+group: 호흡기질환
+topic: 만성폐쇄성폐질환(COPD)
 url: https://medlineplus.gov/respiratoryfailure.html
 published: 2012-06-04
 revised: unknown

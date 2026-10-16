@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 이상지질혈증(콜레스테롤)
+group: 심장·혈관질환
+topic: 이상지질혈증
 url: https://medlineplus.gov/cholesterol.html
 published: 1998-10-22
 revised: unknown

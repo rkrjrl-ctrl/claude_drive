@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 결핵
+group: 호흡기질환
+topic: 결핵
 url: https://www.nice.org.uk/guidance/ng33
 published: 2016-01-13
 revised: 2024-02-16

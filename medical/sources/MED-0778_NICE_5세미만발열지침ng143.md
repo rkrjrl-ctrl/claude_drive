@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 5세 미만 소아 발열
+group: 검사·생활·공통
+topic: 소아청소년 기타
 url: https://www.nice.org.uk/guidance/ng143
 published: 2019-11-07
 revised: 2021-11-26

@@ -5,6 +5,8 @@ org: Korean Myopia Society for the Korean Association for Pediatric Ophthalmolog
 jurisdiction: KR
 category: 합의문
 disease: 소아 근시
+group: 눈·귀·코·피부·구강
+topic: 눈질환
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13078937/
 published: 2026
 revised: unknown

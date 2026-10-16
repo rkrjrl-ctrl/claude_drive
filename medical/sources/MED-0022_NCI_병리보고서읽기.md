@@ -3,8 +3,10 @@ id: MED-0022
 title: 병리보고서의 구성·절제연·추가검사 읽기
 org: NIH National Cancer Institute
 jurisdiction: US
-category: 해부학·진단
+category: 해부학·진단/개요
 disease: 질병공통(신장암 포함)
+group: 제도·급여·공통
+topic: 질병공통(제도·비용)
 url: https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet
 published: unknown
 revised: 2022-08-08

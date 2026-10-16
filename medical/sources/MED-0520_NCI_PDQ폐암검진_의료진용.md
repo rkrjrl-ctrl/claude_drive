@@ -5,6 +5,8 @@ org: NCI / PDQ Screening and Prevention Editorial Board
 jurisdiction: US
 category: 검진
 disease: 폐암 검진
+group: 암
+topic: 폐암
 url: https://www.cancer.gov/types/lung/hp/lung-screening-pdq
 published: unknown
 revised: 2025-04-17

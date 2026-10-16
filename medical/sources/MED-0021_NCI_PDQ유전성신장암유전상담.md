@@ -3,8 +3,10 @@ id: MED-0021
 title: 유전성 신장암·유전상담을 고려하는 단서
 org: NCI / PDQ Cancer Genetics Editorial Board
 jurisdiction: US
-category: 해부학·진단
+category: 해부학·진단/개요
 disease: 질병공통(신장암 포함)
+group: 제도·급여·공통
+topic: 질병공통(제도·비용)
 url: https://www.cancer.gov/types/kidney/patient/kidney-genetics-pdq
 published: unknown
 revised: 2024-12-02

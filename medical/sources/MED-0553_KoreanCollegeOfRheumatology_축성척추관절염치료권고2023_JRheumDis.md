@@ -5,6 +5,8 @@ org: Korean College of Rheumatology(KCR) 산하 Korean Society of Spondyloarthri
 jurisdiction: KR
 category: 진료지침
 disease: 축성 척추관절염
+group: 근골격·통증·재활
+topic: 근골격·통증·재활
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10351367/
 published: 2023
 revised: unknown

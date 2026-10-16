@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 자궁내막증
+group: 여성·임신·출산
+topic: 여성·임신·출산
 url: https://www.nice.org.uk/guidance/ng73
 published: 2017-09-06
 revised: 2024-11-11

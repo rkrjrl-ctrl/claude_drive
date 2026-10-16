@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 암 일반(의심 증상 인지·의뢰)
+group: 암
+topic: 암 공통(치료·지지요법)
 url: https://www.nice.org.uk/guidance/ng12
 published: 2015-06-23
 revised: 2026-04-15

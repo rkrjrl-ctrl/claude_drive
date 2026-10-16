@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 오피오이드 과다복용
+group: 검사·생활·공통
+topic: 응급·외상
 url: https://www.who.int/news-room/fact-sheets/detail/opioid-overdose
 published: unknown
 revised: unknown

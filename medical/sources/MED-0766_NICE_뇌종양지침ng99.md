@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 뇌종양(신경교종·수막종)·뇌전이
+group: 암
+topic: 뇌종양·소아고형암
 url: https://www.nice.org.uk/guidance/ng99
 published: 2018-07-11
 revised: 2021-01-29

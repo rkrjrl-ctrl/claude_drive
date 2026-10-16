@@ -5,6 +5,8 @@ org: 질병관리본부(대한에이즈학회 임상진료지침 위원회 개�
 jurisdiction: KR
 category: 진료지침
 disease: HIV/AIDS
+group: 감염·예방접종
+topic: 감염질환
 url: https://www.guideline.or.kr/guide/view.php?number=50&cate=A
 published: 2014
 revised: unknown

@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 위식도역류질환·소화불량
+group: 소화기·간질환
+topic: 위·식도질환
 url: https://www.nice.org.uk/guidance/cg184
 published: 2014-09-03
 revised: 2019-10-18

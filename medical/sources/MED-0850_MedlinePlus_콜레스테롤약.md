@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 치료
 disease: 이상지질혈증(콜레스테롤 약물치료)
+group: 심장·혈관질환
+topic: 이상지질혈증
 url: https://medlineplus.gov/cholesterolmedicines.html
 published: 2018-01-16
 revised: unknown

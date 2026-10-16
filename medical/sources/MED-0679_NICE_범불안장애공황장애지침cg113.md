@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 범불안장애·공황장애
+group: 정신건강·신경계
+topic: 정신건강
 url: https://www.nice.org.uk/guidance/cg113
 published: 2011-01-26
 revised: 2020-06-15

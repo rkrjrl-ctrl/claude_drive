@@ -5,6 +5,8 @@ org: 대한에이즈학회 진단·치료 임상진료지침 위원회
 jurisdiction: KR
 category: 진료지침
 disease: HIV/AIDS
+group: 감염·예방접종
+topic: 감염질환
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8511382/
 published: 2021
 revised: unknown

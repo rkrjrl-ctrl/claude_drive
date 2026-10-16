@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 핵의학 검사
+group: 검사·생활·공통
+topic: 검사·시술·수술 전후
 url: https://medlineplus.gov/nuclearscans.html
 published: 2004-11-04
 revised: unknown

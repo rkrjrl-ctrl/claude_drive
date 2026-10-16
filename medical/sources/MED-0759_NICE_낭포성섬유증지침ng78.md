@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 낭포성섬유증(cystic fibrosis)
+group: 호흡기질환
+topic: 호흡기질환 기타
 url: https://www.nice.org.uk/guidance/ng78
 published: 2017-10-25
 revised: unknown

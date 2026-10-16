@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 식도암·식도위접합부암·위암
+group: 암
+topic: 위암
 url: https://www.nice.org.uk/guidance/ng83
 published: 2018-01-24
 revised: 2023-07-04

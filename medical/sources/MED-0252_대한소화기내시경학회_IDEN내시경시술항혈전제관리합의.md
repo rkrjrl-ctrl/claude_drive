@@ -5,6 +5,8 @@ org: 대한소화기내시경학회 진료지침 TF (IDEN 국제 전문가 합�
 jurisdiction: KR
 category: 진료지침
 disease: 위장관 내시경 시술 시 항혈전제
+group: 소화기·간질환
+topic: 내시경·소화기 시술
 url: https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2205&mode=view
 published: 2024
 revised: unknown

@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 검진
 disease: 전당뇨병·제2형 당뇨병
+group: 당뇨·대사·내분비
+topic: 당뇨병
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-for-prediabetes-and-type-2-diabetes
 published: unknown
 revised: unknown

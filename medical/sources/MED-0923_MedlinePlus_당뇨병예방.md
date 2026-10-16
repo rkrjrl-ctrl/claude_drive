@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 제2형 당뇨병
+group: 당뇨·대사·내분비
+topic: 당뇨병
 url: https://medlineplus.gov/howtopreventdiabetes.html
 published: 2017-10-25
 revised: unknown

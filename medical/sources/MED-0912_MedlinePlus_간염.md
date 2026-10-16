@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 간염
+group: 소화기·간질환
+topic: 간질환(간염·지방간·간경변)
 url: https://medlineplus.gov/hepatitis.html
 published: 1998-11-20
 revised: unknown

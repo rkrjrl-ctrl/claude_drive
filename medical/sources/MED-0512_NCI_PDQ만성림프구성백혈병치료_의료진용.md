@@ -5,6 +5,8 @@ org: NCI / PDQ Adult Treatment Editorial Board
 jurisdiction: US
 category: 치료
 disease: 만성림프구성백혈병
+group: 암
+topic: 혈액암(백혈병·림프종·골수종)
 url: https://www.cancer.gov/types/leukemia/hp/cll-treatment-pdq
 published: unknown
 revised: 2025-04-25

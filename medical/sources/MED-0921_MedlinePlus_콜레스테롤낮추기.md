@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 이상지질혈증
+group: 심장·혈관질환
+topic: 이상지질혈증
 url: https://medlineplus.gov/howtolowercholesterol.html
 published: 2018-01-16
 revised: unknown

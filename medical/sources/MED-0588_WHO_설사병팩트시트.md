@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 설사질환
+group: 소화기·간질환
+topic: 장질환
 url: https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease
 published: unknown
 revised: unknown

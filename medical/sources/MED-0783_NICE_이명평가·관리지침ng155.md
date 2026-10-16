@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 이명
+group: 눈·귀·코·피부·구강
+topic: 귀·코·목·알레르기
 url: https://www.nice.org.uk/guidance/ng155
 published: 2020-03-11
 revised: unknown

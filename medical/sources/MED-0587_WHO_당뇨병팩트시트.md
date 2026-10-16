@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 당뇨병
+group: 당뇨·대사·내분비
+topic: 당뇨병
 url: https://www.who.int/news-room/fact-sheets/detail/diabetes
 published: unknown
 revised: unknown

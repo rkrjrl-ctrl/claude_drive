@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 검진
 disease: C형간염
+group: 소화기·간질환
+topic: 간질환(간염·지방간·간경변)
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hepatitis-c-screening
 published: unknown
 revised: unknown

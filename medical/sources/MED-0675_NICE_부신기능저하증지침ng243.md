@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 부신기능저하증
+group: 당뇨·대사·내분비
+topic: 내분비질환 기타
 url: https://www.nice.org.uk/guidance/ng243
 published: 2024-08-28
 revised: unknown

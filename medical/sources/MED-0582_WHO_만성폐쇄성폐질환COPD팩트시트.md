@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 만성폐쇄성폐질환(COPD)
+group: 호흡기질환
+topic: 만성폐쇄성폐질환(COPD)
 url: https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)
 published: unknown
 revised: unknown

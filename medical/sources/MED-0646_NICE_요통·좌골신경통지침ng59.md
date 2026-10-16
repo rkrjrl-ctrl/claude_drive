@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 요통·좌골신경통
+group: 근골격·통증·재활
+topic: 근골격·통증·재활
 url: https://www.nice.org.uk/guidance/ng59
 published: 2016-11-30
 revised: 2026-07-29

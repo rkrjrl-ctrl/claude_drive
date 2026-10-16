@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 지주막하출혈(파열 뇌동맥류)
+group: 뇌혈관질환
+topic: 뇌졸중
 url: https://www.nice.org.uk/guidance/ng228
 published: 2022-11-23
 revised: unknown

@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 봉와직염(연조직염)·단독
+group: 감염·예방접종
+topic: 감염질환
 url: https://www.nice.org.uk/guidance/ng141
 published: 2019-09-27
 revised: unknown

@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 부신 질환
+group: 당뇨·대사·내분비
+topic: 내분비질환 기타
 url: https://medlineplus.gov/adrenalglanddisorders.html
 published: 1999-12-13
 revised: unknown

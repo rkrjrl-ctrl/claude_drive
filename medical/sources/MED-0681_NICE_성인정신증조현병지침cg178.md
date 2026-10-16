@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 정신증·조현병
+group: 정신건강·신경계
+topic: 정신건강
 url: https://www.nice.org.uk/guidance/cg178
 published: 2014-02-12
 revised: 2026-09-04

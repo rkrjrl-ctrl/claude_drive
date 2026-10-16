@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 결핵
+group: 호흡기질환
+topic: 결핵
 url: https://medlineplus.gov/tuberculosis.html
 published: 1998-10-22
 revised: unknown

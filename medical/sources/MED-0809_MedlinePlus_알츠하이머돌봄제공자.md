@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 알츠하이머병(돌봄제공자)
+group: 정신건강·신경계
+topic: 치매
 url: https://medlineplus.gov/alzheimerscaregivers.html
 published: 2001-10-25
 revised: unknown

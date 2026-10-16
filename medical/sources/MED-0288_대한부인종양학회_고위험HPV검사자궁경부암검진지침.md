@@ -5,6 +5,8 @@ org: 대한부인종양학회 (병리학회·진단검사의학회 자문)
 jurisdiction: KR
 category: 진료지침
 disease: 자궁경부암 검진(HPV검사)
+group: 암
+topic: 자궁경부암
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13009686/
 published: 2026
 revised: unknown

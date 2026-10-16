@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 상기도소화관암(두경부암)
+group: 암
+topic: 두경부·식도암
 url: https://www.nice.org.uk/guidance/ng36
 published: 2016-02-10
 revised: 2018-06-06

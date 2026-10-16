@@ -5,6 +5,8 @@ org: 대한갑상선학회(Korean Thyroid Association) 갑상선결절·암 진�
 jurisdiction: KR
 category: 진료지침
 disease: 갑상선분화암(추적관찰)
+group: 암
+topic: 갑상선암
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13555224/
 published: 2026
 revised: unknown

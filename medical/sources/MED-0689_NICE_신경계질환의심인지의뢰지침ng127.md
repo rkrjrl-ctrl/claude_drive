@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 신경계 질환 의심 증상(성인 의뢰 판단)
+group: 정신건강·신경계
+topic: 신경계질환
 url: https://www.nice.org.uk/guidance/ng127
 published: 2019-05-01
 revised: 2023-10-02

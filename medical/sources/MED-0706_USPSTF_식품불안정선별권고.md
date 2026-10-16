@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 검진
 disease: 식품불안정
+group: 검사·생활·공통
+topic: 생활습관(금연·영양·운동)
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/food-insecurity-screening
 published: unknown
 revised: unknown

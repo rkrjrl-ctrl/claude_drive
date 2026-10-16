@@ -5,6 +5,8 @@ org: NCI / PDQ Adult Treatment Editorial Board
 jurisdiction: US
 category: 치료
 disease: 신장암
+group: 암
+topic: 신장암
 url: https://www.cancer.gov/types/kidney/hp/kidney-treatment-pdq
 published: unknown
 revised: 2025-05-13

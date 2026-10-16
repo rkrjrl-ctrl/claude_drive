@@ -5,6 +5,8 @@ org: 대한혈액학회 혈전지혈 연구회(Korean Society of Hematology Thro
 jurisdiction: KR
 category: 합의문
 disease: 혈전성 혈소판감소성 자반증
+group: 혈액·면역질환
+topic: 혈액질환(비암)
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13358782/
 published: 2026
 revised: unknown

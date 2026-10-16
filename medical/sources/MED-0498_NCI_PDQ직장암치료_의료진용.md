@@ -5,6 +5,8 @@ org: NCI / PDQ Adult Treatment Editorial Board
 jurisdiction: US
 category: 치료
 disease: 직장암
+group: 암
+topic: 대장암
 url: https://www.cancer.gov/types/colorectal/hp/rectal-treatment-pdq
 published: unknown
 revised: 2025-02-12

@@ -5,6 +5,8 @@ org: NCI / PDQ Adult Treatment Editorial Board
 jurisdiction: US
 category: 치료
 disease: 유방암
+group: 암
+topic: 유방암
 url: https://www.cancer.gov/types/breast/hp/breast-treatment-pdq
 published: unknown
 revised: 2025-04-25

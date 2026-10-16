@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 갑상선암
+group: 암
+topic: 갑상선암
 url: https://medlineplus.gov/thyroidcancer.html
 published: 1999-09-23
 revised: unknown

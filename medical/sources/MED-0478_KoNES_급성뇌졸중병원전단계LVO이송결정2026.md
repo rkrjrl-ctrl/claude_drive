@@ -5,6 +5,8 @@ org: Korean NeuroEndovascular Society(KoNES) 임상진료지침 개발위원회
 jurisdiction: KR
 category: 진료지침
 disease: 급성 뇌졸중 병원 전 단계(이송 결정)
+group: 뇌혈관질환
+topic: 뇌졸중
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12790912/
 published: 2026
 revised: unknown

@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 외상성 뇌손상(TBI)
+group: 검사·생활·공통
+topic: 응급·외상
 url: https://medlineplus.gov/traumaticbraininjury.html
 published: 1999-08-26
 revised: unknown

@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 호흡기세포융합바이러스(RSV) 감염
+group: 감염·예방접종
+topic: 감염질환
 url: https://medlineplus.gov/respiratorysyncytialvirusinfections.html
 published: 2003-01-21
 revised: unknown

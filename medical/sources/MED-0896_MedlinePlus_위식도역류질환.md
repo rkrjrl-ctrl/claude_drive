@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 위식도역류질환(GERD)
+group: 소화기·간질환
+topic: 위·식도질환
 url: https://medlineplus.gov/gerd.html
 published: 1999-09-23
 revised: unknown

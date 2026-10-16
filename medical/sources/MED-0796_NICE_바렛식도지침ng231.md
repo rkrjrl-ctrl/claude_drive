@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 바렛식도, 1기 식도선암
+group: 소화기·간질환
+topic: 위·식도질환
 url: https://www.nice.org.uk/guidance/ng231
 published: 2023-02-08
 revised: unknown

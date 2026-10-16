@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 임종기 돌봄(말기 환자)
+group: 검사·생활·공통
+topic: 완화의료·임종기 돌봄
 url: https://www.nice.org.uk/guidance/ng31
 published: 2015-12-16
 revised: unknown

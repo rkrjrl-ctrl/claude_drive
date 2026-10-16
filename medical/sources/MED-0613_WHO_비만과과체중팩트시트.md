@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 비만
+group: 당뇨·대사·내분비
+topic: 비만·대사증후군
 url: https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight
 published: unknown
 revised: unknown

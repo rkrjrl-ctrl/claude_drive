@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 척수손상
+group: 정신건강·신경계
+topic: 신경계질환
 url: https://www.who.int/news-room/fact-sheets/detail/spinal-cord-injury
 published: unknown
 revised: unknown

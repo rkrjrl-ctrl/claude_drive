@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 당뇨병 합병증
+group: 당뇨·대사·내분비
+topic: 당뇨병
 url: https://medlineplus.gov/diabetescomplications.html
 published: 2008-01-10
 revised: unknown

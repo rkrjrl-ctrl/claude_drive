@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 류마티스 관절염
+group: 근골격·통증·재활
+topic: 근골격·통증·재활
 url: https://medlineplus.gov/rheumatoidarthritis.html
 published: 2000-03-27
 revised: unknown

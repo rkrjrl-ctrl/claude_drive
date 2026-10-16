@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 소아 백혈병
+group: 암
+topic: 혈액암(백혈병·림프종·골수종)
 url: https://medlineplus.gov/childhoodleukemia.html
 published: 2001-03-15
 revised: unknown

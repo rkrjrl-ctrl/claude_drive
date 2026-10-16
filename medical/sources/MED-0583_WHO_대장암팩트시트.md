@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 대장암
+group: 암
+topic: 대장암
 url: https://www.who.int/news-room/fact-sheets/detail/colorectal-cancer
 published: unknown
 revised: unknown

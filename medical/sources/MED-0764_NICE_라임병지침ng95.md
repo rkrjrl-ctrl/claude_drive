@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 라임병
+group: 감염·예방접종
+topic: 감염질환
 url: https://www.nice.org.uk/guidance/ng95
 published: 2018-04-11
 revised: 2018-10-17

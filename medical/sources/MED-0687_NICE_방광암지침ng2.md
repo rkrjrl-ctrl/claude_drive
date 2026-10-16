@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 방광암
+group: 암
+topic: 방광·고환암
 url: https://www.nice.org.uk/guidance/ng2
 published: 2015-02-25
 revised: unknown

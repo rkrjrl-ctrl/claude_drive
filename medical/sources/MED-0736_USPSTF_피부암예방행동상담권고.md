@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 치료·생활관리
 disease: 피부암 예방
+group: 암
+topic: 피부암
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/skin-cancer-counseling
 published: unknown
 revised: unknown

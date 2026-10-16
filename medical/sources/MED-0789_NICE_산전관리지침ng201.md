@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 산전 관리(임신 중 관리)
+group: 여성·임신·출산
+topic: 여성·임신·출산
 url: https://www.nice.org.uk/guidance/ng201
 published: 2021-08-19
 revised: unknown

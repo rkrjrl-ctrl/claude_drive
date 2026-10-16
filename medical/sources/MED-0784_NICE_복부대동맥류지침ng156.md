@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 복부대동맥류
+group: 심장·혈관질환
+topic: 혈관질환(대동맥·정맥·혈전)
 url: https://www.nice.org.uk/guidance/ng156
 published: 2020-03-19
 revised: unknown

@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 비만
+group: 당뇨·대사·내분비
+topic: 비만·대사증후군
 url: https://medlineplus.gov/obesity.html
 published: 1998-12-11
 revised: unknown

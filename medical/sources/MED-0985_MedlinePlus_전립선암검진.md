@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 전립선암
+group: 암
+topic: 전립선암
 url: https://medlineplus.gov/prostatecancerscreening.html
 published: 2014-11-04
 revised: unknown

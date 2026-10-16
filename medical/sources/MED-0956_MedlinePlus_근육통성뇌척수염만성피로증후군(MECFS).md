@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 근육통성 뇌척수염/만성피로증후군(ME/CFS)
+group: 정신건강·신경계
+topic: 신경계질환
 url: https://medlineplus.gov/myalgicencephalomyelitischronicfatiguesyndrome.html
 published: 1999-02-19
 revised: unknown

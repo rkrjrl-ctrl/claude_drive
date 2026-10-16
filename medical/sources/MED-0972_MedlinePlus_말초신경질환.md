@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 말초신경질환
+group: 정신건강·신경계
+topic: 신경계질환
 url: https://medlineplus.gov/peripheralnervedisorders.html
 published: 2000-01-05
 revised: unknown

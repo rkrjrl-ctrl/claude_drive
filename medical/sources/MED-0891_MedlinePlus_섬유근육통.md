@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 섬유근육통
+group: 근골격·통증·재활
+topic: 근골격·통증·재활
 url: https://medlineplus.gov/fibromyalgia.html
 published: 1998-10-22
 revised: unknown

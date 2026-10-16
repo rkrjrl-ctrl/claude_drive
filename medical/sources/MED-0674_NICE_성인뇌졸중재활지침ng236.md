@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 뇌졸중(재활)
+group: 뇌혈관질환
+topic: 뇌졸중
 url: https://www.nice.org.uk/guidance/ng236
 published: 2023-10-18
 revised: unknown

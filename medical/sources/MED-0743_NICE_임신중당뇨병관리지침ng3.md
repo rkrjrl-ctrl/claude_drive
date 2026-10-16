@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 임신 중 당뇨병(기존 당뇨병 합병임신·임신성 당뇨병)
+group: 당뇨·대사·내분비
+topic: 당뇨병
 url: https://www.nice.org.uk/guidance/ng3
 published: 2015-02-25
 revised: 2020-12-16

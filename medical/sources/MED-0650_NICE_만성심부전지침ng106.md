@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 만성 심부전
+group: 심장·혈관질환
+topic: 심부전
 url: https://www.nice.org.uk/guidance/ng106
 published: 2018-09-12
 revised: 2025-09-03

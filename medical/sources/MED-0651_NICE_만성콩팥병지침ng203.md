@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 만성콩팥병
+group: 콩팥·비뇨기
+topic: 콩팥·비뇨기질환
 url: https://www.nice.org.uk/guidance/ng203
 published: 2021-08-25
 revised: 2021-11-24

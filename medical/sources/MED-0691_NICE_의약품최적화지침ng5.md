@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 의약품의 안전하고 효과적인 사용(의약품 최적화)
+group: 검사·생활·공통
+topic: 공통·기타
 url: https://www.nice.org.uk/guidance/ng5
 published: 2015-03-04
 revised: unknown

@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 자궁경부암
+group: 암
+topic: 자궁경부암
 url: https://medlineplus.gov/cervicalcancer.html
 published: 1999-03-05
 revised: unknown

@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 치아우식
+group: 눈·귀·코·피부·구강
+topic: 구강질환
 url: https://www.who.int/news-room/fact-sheets/detail/sugars-and-dental-caries
 published: unknown
 revised: unknown

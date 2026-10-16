@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 소아 폐렴
+group: 호흡기질환
+topic: 호흡기질환 기타
 url: https://www.who.int/news-room/fact-sheets/detail/pneumonia
 published: unknown
 revised: unknown

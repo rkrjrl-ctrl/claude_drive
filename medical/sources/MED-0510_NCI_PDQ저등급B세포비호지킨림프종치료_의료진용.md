@@ -5,6 +5,8 @@ org: NCI / PDQ Adult Treatment Editorial Board
 jurisdiction: US
 category: 치료
 disease: 저등급 비호지킨림프종
+group: 암
+topic: 혈액암(백혈병·림프종·골수종)
 url: https://www.cancer.gov/types/lymphoma/hp/adult-nhl-treatment-pdq
 published: unknown
 revised: 2025-05-14

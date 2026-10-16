@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 월경과다(과다월경출혈)
+group: 여성·임신·출산
+topic: 여성·임신·출산
 url: https://www.nice.org.uk/guidance/ng88
 published: 2018-03-14
 revised: 2026-07-07

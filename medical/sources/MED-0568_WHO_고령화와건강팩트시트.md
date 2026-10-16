@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 노화·고령자 건강
+group: 검사·생활·공통
+topic: 공통·기타
 url: https://www.who.int/news-room/fact-sheets/detail/ageing-and-health
 published: unknown
 revised: unknown

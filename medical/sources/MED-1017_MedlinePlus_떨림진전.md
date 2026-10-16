@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 떨림(진전)
+group: 정신건강·신경계
+topic: 파킨슨병·운동장애
 url: https://medlineplus.gov/tremor.html
 published: 2000-06-28
 revised: unknown

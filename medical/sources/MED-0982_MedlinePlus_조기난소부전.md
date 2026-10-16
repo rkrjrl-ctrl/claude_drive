@@ -5,6 +5,8 @@ org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
 disease: 조기 난소 기능 부전(원발성 난소 기능 부전)
+group: 여성·임신·출산
+topic: 여성·임신·출산
 url: https://medlineplus.gov/primaryovarianinsufficiency.html
 published: 2003-12-11
 revised: unknown

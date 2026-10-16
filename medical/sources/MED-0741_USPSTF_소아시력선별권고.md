@@ -5,6 +5,8 @@ org: 미국예방서비스작업반(USPSTF)
 jurisdiction: US
 category: 검진
 disease: 소아 약시 및 시력 이상
+group: 눈·귀·코·피부·구강
+topic: 눈질환
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/vision-in-children-ages-6-months-to-5-years-screening
 published: unknown
 revised: unknown

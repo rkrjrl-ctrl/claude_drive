@@ -5,6 +5,8 @@ org: 영국 국립보건임상연구원(NICE)
 jurisdiction: INT
 category: 진료지침
 disease: 소아 요로감염
+group: 콩팥·비뇨기
+topic: 콩팥·비뇨기질환
 url: https://www.nice.org.uk/guidance/ng224
 published: 2022-07-27
 revised: unknown

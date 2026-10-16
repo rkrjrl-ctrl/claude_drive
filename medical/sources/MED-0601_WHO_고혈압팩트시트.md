@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 고혈압
+group: 심장·혈관질환
+topic: 고혈압
 url: https://www.who.int/news-room/fact-sheets/detail/hypertension
 published: unknown
 revised: unknown

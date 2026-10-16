@@ -5,6 +5,8 @@ org: 세계보건기구(WHO)
 jurisdiction: INT
 category: 해부학·진단/개요
 disease: 우울증
+group: 정신건강·신경계
+topic: 정신건강
 url: https://www.who.int/news-room/fact-sheets/detail/depression
 published: unknown
 revised: unknown
