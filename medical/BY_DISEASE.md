@@ -1004,6 +1004,12 @@
 |---|---|---|---|---|---|
 | MED-0227 | 두통 진료지침 — 일차 두통(긴장형·편두통·군발두통)과 약물과용두통 평가·진단·치료 권고 요약 | 한국정신신체의학회 | A | needs_recheck | 2026-12-11 |
 
+## 림프부종 (1건)
+
+| ID | 자료명 | 기관 | 등급 | 상태 | 재확인 |
+|---|---|---|---|---|---|
+| MED-0526 | 림프부종(PDQ 의료진용) — 정의·위험요인·진단·예방과 치료 옵션 개요 근거 안내 | NCI / PDQ Supportive and Palliative Care Editorial Board | C | partial | 2027-01-14 |
+
 ## 림프종(광범위큰B세포림프종) (1건)
 
 | ID | 자료명 | 기관 | 등급 | 상태 | 재확인 |
@@ -1508,6 +1514,24 @@
 |---|---|---|---|---|---|
 | MED-0305 | 알포트증후군 관리를 위한 임상진료 권고(2026) — RAS 차단 시작 시기와 시클로스포린·MRA·SGLT2 억제제 권고 요약 | 대한신장학회 유전성신질환연구회(Genetic Kidney Disease Study Group); 대한소아신장학회 공식 승인(본문 기준) | A | partial | 2027-01-14 |
 
+## 암 관련 피로 (1건)
+
+| ID | 자료명 | 기관 | 등급 | 상태 | 재확인 |
+|---|---|---|---|---|---|
+| MED-0527 | 암 관련 피로(PDQ 의료진용) — 정의·평가·중재 옵션 개요 근거 안내 | NCI / PDQ Supportive and Palliative Care Editorial Board | C | partial | 2027-01-14 |
+
+## 암 환자 영양 (1건)
+
+| ID | 자료명 | 기관 | 등급 | 상태 | 재확인 |
+|---|---|---|---|---|---|
+| MED-0529 | 암 치료 중 영양(PDQ 의료진용) — 영양불량·선별·영양치료·진행암 영양 개요 근거 안내 | NCI / PDQ Supportive and Palliative Care Editorial Board | C | partial | 2027-01-14 |
+
+## 암 환자 우울 (1건)
+
+| ID | 자료명 | 기관 | 등급 | 상태 | 재확인 |
+|---|---|---|---|---|---|
+| MED-0528 | 우울(PDQ 의료진용) — 암 환자 우울의 평가·중재·자살 위험 개요 근거 안내 | NCI / PDQ Supportive and Palliative Care Editorial Board | C | partial | 2027-01-14 |
+
 ## 암(노인) (1건)
 
 | ID | 자료명 | 기관 | 등급 | 상태 | 재확인 |
@@ -1519,6 +1543,18 @@
 | ID | 자료명 | 기관 | 등급 | 상태 | 재확인 |
 |---|---|---|---|---|---|
 | MED-0516 | 암성 통증(PDQ 의료진용) — 평가·분류·치료 접근 개요 근거 안내 | NCI / PDQ Supportive and Palliative Care Editorial Board | C | partial | 2027-01-14 |
+
+## 암치료 관련 구강합병증 (1건)
+
+| ID | 자료명 | 기관 | 등급 | 상태 | 재확인 |
+|---|---|---|---|---|---|
+| MED-0530 | 암 치료의 구강 합병증(PDQ 의료진용) — 치료별 구강 관리와 구내염 관리 개요 근거 안내 | NCI / PDQ Supportive and Palliative Care Editorial Board | C | partial | 2027-01-14 |
+
+## 암치료 관련 위장관 합병증 (1건)
+
+| ID | 자료명 | 기관 | 등급 | 상태 | 재확인 |
+|---|---|---|---|---|---|
+| MED-0531 | 위장관 합병증(PDQ 의료진용) — 변비·분변 매복·장폐색·설사·방사선 장염 개요 근거 안내 | NCI / PDQ Supportive and Palliative Care Editorial Board | C | partial | 2027-01-14 |
 
 ## 약물유전체검사 (1건)
 
