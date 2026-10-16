@@ -1,6 +1,6 @@
 ---
 id: MED-1012
-title: 자살(MedlinePlus 건강 주제) — 정의·위험요인·증상·진단·치료·예방 개요
+title: 자살(MedlinePlus 건강 주제) — 정의·위험요인·경고 신호·도움 방법 개요
 org: 미국 국립의학도서관 MedlinePlus(NLM)
 jurisdiction: US
 category: 해부학·진단/개요
