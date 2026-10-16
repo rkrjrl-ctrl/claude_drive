@@ -39,10 +39,15 @@ def fetch(url):
                 body += chunk
                 if time.time() - t0 > 45:
                     raise TimeoutError("총 45초 초과")
+            clen = r.headers.get("Content-Length", "")
+        # 큰 파일은 읽은 길이가 청크 경계에 따라 달라져 해시가 흔들리므로 정확히 잘라서 비교
+        body = body[:MAX_BYTES] + clen.encode()
         if "html" in ctype or body[:100].lstrip().lower().startswith((b"<!doctype", b"<html")):
             t = body.decode("utf-8", "ignore")
             t = re.sub(r"(?is)<(script|style|noscript).*?</\1>|<!--.*?-->", " ", t)
             t = re.sub(r"(?s)<[^>]+>", " ", t)
+            # 조회수·다운로드 횟수처럼 매일 바뀌는 숫자는 비교에서 뺀다
+            t = re.sub(r"(조회수?|다운로드|추천|hits?|views?)\s*[:：(]?\s*[\d,]+\s*\)?", r"\1", t, flags=re.I)
             body = re.sub(r"\s+", " ", t).strip().encode()
         return url, hashlib.sha256(body).hexdigest()[:16], None
     except Exception as e:  # 네트워크·HTTP 오류 전부 '접속 실패'로 기록
