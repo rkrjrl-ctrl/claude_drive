@@ -12,8 +12,8 @@
 - **검사·생활·공통** (70건): 검사·시술·수술 전후 23, 생활습관(금연·영양·운동) 21, 응급·외상 12, 공통·기타 6, 소아청소년 기타 5, 완화의료·임종기 돌봄 3
 - **호흡기질환** (62건): 호흡기질환 기타 23, 간질성폐질환 11, 결핵 10, 만성폐쇄성폐질환(COPD) 10, 천식 8
 - **감염·예방접종** (51건): 감염질환 41, 예방접종 10
-- **눈·귀·코·피부·구강** (48건): 귀·코·목·알레르기 18, 피부질환 15, 눈질환 9, 구강질환 6
 - **근골격·통증·재활** (48건): 근골격·통증·재활 45, 통풍 3
+- **눈·귀·코·피부·구강** (48건): 귀·코·목·알레르기 18, 피부질환 15, 눈질환 9, 구강질환 6
 - **뇌혈관질환** (28건): 뇌졸중 28
 - **콩팥·비뇨기** (27건): 콩팥·비뇨기질환 27
 - **여성·임신·출산** (26건): 여성·임신·출산 26
@@ -1148,6 +1148,66 @@
 | MED-0474 | HPV 백신 진료지침 개정(2021, 대한부인종양학회) — 3회 접종 연령, 기감염자, 원추절제술 후 재발 예방 3개 핵심질문 권고 요약 | 대한부인종양학회 | KR | A | superseded | 2027-01-14 |
 | MED-0475 | 9가 HPV 백신 진료지침(2019, 대한부인종양학회) — 효과·접종 연령·중년 여성·2회 접종·안전성·타 백신 후 접종 7개 핵심질문 권고 요약 | 대한부인종양학회 | KR | A | superseded | 2027-01-14 |
 
+# 근골격·통증·재활
+
+## 근골격·통증·재활 (45건 · verified 0 · 국내 15)
+
+| ID | 자료명 | 기관 | 관할 | 등급 | 상태 | 재확인 |
+|---|---|---|---|---|---|---|
+| MED-0192 | 난치성 대상포진후신경통의 통증관리 진료지침 — 핵심질문 7개 권고 요약(약물 추가, 신경차단술, 박동성고주파, 척수자극기) | 대한통증학회 | KR | A | partial | 2026-12-11 |
+| MED-0199 | 일차성 동결견의 진단 및 비수술적 치료 임상 진료 지침 — 진단 영상, 스테로이드 주입, 운동치료, 수압팽창술 | 대한재활의학회·대한임상통증학회 | KR | A | partial | 2026-12-11 |
+| MED-0210 | 한국 중환자 재활치료 및 중환자 치료 후 증후군 임상진료지침 — 핵심질문 15개 권고·근거수준 요약 | PACEN(환자중심 의료기술 최적화 연구사업단) 지원, 삼성서울병원 주관, 대한중환자재활학회 등 유관 학회 참여 | KR | A | partial | 2026-12-11 |
+| MED-0225 | 고관절 골절 재활 임상 진료 지침 — 수술 후 다학제·운동·가정기반 재활 및 동반문제 권고 요약 | 대한재활의학회/대한노인재활의학회 | KR | A | partial | 2026-12-11 |
+| MED-0231 | 근거기반 만성요통의 고주파전극도자절제술 임상진료지침 — 후관절질환 요통의 고식적 고주파 신경절제술 적응·효과·반복 권고 | 서울대학교병원 신경외과 연구진(연구책임자 정천기), 발행기관 확인하지 못함 | KR | A | needs_recheck | 2026-12-11 |
+| MED-0234 | 신경근성 통증을 동반한 요천추추간판탈출증 환자의 비수술적 치료 임상진료지침 — 물리·약물·시술치료 권고 요약 | 대한재활의학회 | KR | A | partial | 2026-12-11 |
+| MED-0295 | 대한통증학회 난치성 대상포진후신경통 임상진료지침(Korean J Pain 게재판) — 핵심질문 7개 권고 요약 | 대한통증학회(신경과·피부과·신경외과·가정의학과 등 관련 학회 대표 참여) | KR | A | partial | 2027-01-14 |
+| MED-0325 | 한국 지역사회 거주 노인의 일차의료 노쇠 관리 임상진료지침(2021) — 선별·진단·중재·모니터링 권고 16개 요약 | 대한가정의학회(Korean Academy of Family Medicine, 노인의학 특별위원회 협의·자문) | KR | A | partial | 2027-01-14 |
+| MED-0354 | 노인 근감소증 근거기반 운동 지침 입장문(대한근감소증학회, 한국근감소증 워킹그룹 KWGS 알고리즘 기반) — 근육량·근력·신체기능별 FITT 운동 권고 요약 | 대한근감소증학회(원문 표기 Korea Society of Sarcopenia) 특별운동위원회 | KR | A | partial | 2027-01-14 |
+| MED-0395 | 한국 근감소증 워킹그룹(KWGS) 전문가 합의(2023) — 근감소증 선별·진단 흐름, 근육량·근력·신체기능 평가 도구와 절단값 | 한국근감소증워킹그룹 (Korean Working Group on Sarcopenia, KWGS; 대한근감소증학회·대한골대사학회·대한노인의학회 연계) | KR | A | partial | 2027-01-14 |
+| MED-0423 | 축성 척추관절염 환자의 한국 치료 권고안(대한류마티스학회, 2023) — 기본원칙 3개·권고 21개 요약 | 대한류마티스학회 척추관절염연구회 (Korean College of Rheumatology, KCR; Korean Society of Spondyloarthritis Research, KSSR) | KR | A | superseded | 2027-01-14 |
+| MED-0424 | 한국 만성 비암성 통증 환자의 오피오이드 처방 지침 개정판(대한통증학회, 2024) — 처방 전 고려, 시작, 유지·중단, 사용장애 권고 요약 | 대한통증학회 (Korean Pain Society, KPS) 호스피스·완화의료 위원회 | KR | A | partial | 2027-01-14 |
+| MED-0434 | 지역사회 거주 노인의 노쇠 1차 예방 지침(2021) — 신체활동·회복탄력성·구강·만성질환·사회참여·금연·식사 7개 영역(PROMISE) 권고 요약 | 한국 노쇠 및 노화 코호트(Korean Frailty and Aging Cohort Study, KFACS) 지침개발팀 | KR | A | needs_recheck | 2027-01-14 |
+| MED-0487 | 축성 척추관절염 환자의 한국 치료 권고안 2026년 개정(대한류마티스학회) — 권고 20개(T2T·ASDAS·표적치료·감량·수술·안전성 모니터링) 요약 | 대한류마티스학회(Korean College of Rheumatology, KCR) KCR-AXIS(Alliance of eXperts In Spondyloarthritis) | KR | A | partial | 2027-01-14 |
+| MED-0553 | 축성 척추관절염 환자의 한국 치료 권고안(Korean treatment recommendations for patients with axial spondyloarthritis, 2023, J Rheum Dis 게재본) — 기본원칙 3개·권고 21개 요약 | Korean College of Rheumatology(KCR) 산하 Korean Society of Spondyloarthritis Research(KSSR) 개발위원회 | KR | A | partial | 2026-12-16 |
+| MED-0592 | 낙상 팩트시트(WHO) — 위험요인과 생애주기별 예방 개요 | 세계보건기구(WHO) | INT | B | partial | 2026-12-16 |
+| MED-0605 | 요통(허리통증)(WHO 팩트시트) — 정의·위험요인·예방·진단/치료 원칙·WHO 대응 개요 | 세계보건기구(WHO) | INT | B | partial | 2026-12-16 |
+| MED-0612 | 근골격계질환(WHO 팩트시트) — 정의·위험요인·예방·진단/치료 원칙·WHO 대응 개요 | 세계보건기구(WHO) | INT | B | partial | 2026-12-16 |
+| MED-0616 | 골관절염(WHO 팩트시트) — 증상·위험요인·예방·치료 및 관리·WHO 대응 개요 근거 안내 | 세계보건기구(WHO) | INT | B | partial | 2026-12-16 |
+| MED-0627 | 류마티스 관절염(WHO 팩트시트) — 증상·위험요인·치료와 관리·WHO 대응 개요 근거 안내 | 세계보건기구(WHO) | INT | B | partial | 2026-12-16 |
+| MED-0646 | 요통과 좌골신경통 평가·관리(NICE NG59, 16세 이상) — 평가, 비침습·침습 치료 | 영국 국립보건임상연구원(NICE) | INT | B | partial | 2026-12-16 |
+| MED-0647 | 16세 이상 골관절염 진단과 관리(NICE NG226) — 임상 진단, 정보·지원, 운동·체중, 약물, 추적, 관절 치환술 의뢰 | 영국 국립보건임상연구원(NICE) | INT | B | partial | 2026-12-16 |
+| MED-0661 | 성인 류마티스 관절염 관리(NICE NG100) — 의뢰·진단·목표 달성 치료·약물 단계·다학제 관리·모니터링 권고 요약 | 영국 국립보건임상연구원(NICE) | INT | B | partial | 2026-12-16 |
+| MED-0664 | 16세 초과 척추관절염 진단과 관리(NICE NG65) — 인지·의뢰, 전문 진료 진단·영상, 약물·비약물·수술, 악화 관리 권고 요약 | 영국 국립보건임상연구원(NICE) | INT | B | partial | 2026-12-16 |
+| MED-0676 | 낙상 평가와 예방(NICE NG249, 고령자 및 고위험 50세 이상) — 위험 확인, 종합 낙상 평가, 중재 권고 요약 | 영국 국립보건임상연구원(NICE) | INT | B | partial | 2026-12-16 |
+| MED-0704 | 지역사회 거주 노인 낙상 예방 중재(USPSTF) — 운동 중재 B, 다요인 중재 개별화(C) | 미국예방서비스작업반(USPSTF) | US | B | partial | 2026-12-16 |
+| MED-0788 | 16세 이상 만성통증(NICE NG193) — 만성통증 전반의 평가와 만성 일차통증 관리 | 영국 국립보건임상연구원(NICE) | INT | B | partial | 2026-12-16 |
+| MED-0813 | 강직성 척추염(MedlinePlus) — 정의·위험요인·증상·진단·치료 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
+| MED-0820 | 관절염(MedlinePlus) — 정의·종류·증상·위험요인·진단·치료 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
+| MED-0841 | 손목터널증후군(MedlinePlus 건강 주제 요약) — 환자용 일반 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
+| MED-0854 | 만성 통증(MedlinePlus 건강 주제 요약) — 환자용 일반 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
+| MED-0882 | 어깨 탈구(MedlinePlus 건강 주제 요약) — 정의·원인·증상·진단·치료·예방 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
+| MED-0891 | 섬유근육통(MedlinePlus 환자용 요약) — 원인·증상·진단·치료 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
+| MED-0893 | 골절(MedlinePlus 환자용 요약) — 종류·원인·증상·진단·치료·예방 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
+| MED-0898 | 올바른 자세 안내(MedlinePlus 환자용 요약) — 자세의 의미·건강 영향·개선 방법 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
+| MED-0933 | 관절질환(MedlinePlus 건강 주제) — 관절의 구조, 질환·손상 종류와 관리 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
+| MED-0934 | 소아관절염(MedlinePlus 건강 주제) — 정의·증상·진단·치료 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
+| MED-0937 | 무릎 인공관절 치환술(골관절염)(MedlinePlus 건강 주제) — 수술 대상·방법·회복·위험 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
+| MED-0954 | 근육 경련(쥐)(MedlinePlus 환자용 요약) — 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
+| MED-0965 | 골관절염(MedlinePlus 환자용 요약) — 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
+| MED-0970 | 통증(MedlinePlus 환자용 요약) — 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
+| MED-0996 | 류마티스 관절염(MedlinePlus) — 정의·위험요인·원인·증상·진단·치료 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
+| MED-0997 | 회전근개 손상(MedlinePlus) — 유형·위험요인·증상·진단·치료 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
+| MED-1002 | 쇼그렌증후군(MedlinePlus 건강 주제) — 정의·위험요인·증상·진단·치료·예방 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
+| MED-1027 | 손목 손상 및 질환(MedlinePlus 건강 주제) — 정의·위험요인·증상·진단·치료·예방 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
+
+## 통풍 (3건 · verified 0 · 국내 1)
+
+| ID | 자료명 | 기관 | 관할 | 등급 | 상태 | 재확인 |
+|---|---|---|---|---|---|---|
+| MED-0318 | 통풍 진료지침(대한류마티스학회) — 급성 통풍 발작 치료·요산강하요법 시작·목표·지속 7개 권고 요약 | 대한류마티스학회(Korean College of Rheumatology, KCR) 통풍연구회 | KR | A | partial | 2027-01-14 |
+| MED-0671 | 통풍 진단과 관리(NICE NG219) — 진단·정보 제공·급성 발작 치료·식이/생활·요산강하요법·전문 의뢰 권고 요약 | 영국 국립보건임상연구원(NICE) | INT | B | partial | 2026-12-16 |
+| MED-0897 | 통풍(MedlinePlus 환자용 요약) — 원인·위험요인·증상·진단·치료 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
+
 # 눈·귀·코·피부·구강
 
 ## 귀·코·목·알레르기 (18건 · verified 0 · 국내 14)
@@ -1217,66 +1277,6 @@
 | MED-0725 | 성인 구강건강 선별과 예방중재(USPSTF) — 선별 I, 예방중재 I | 미국예방서비스작업반(USPSTF) | US | B | partial | 2026-12-16 |
 | MED-0726 | 소아·청소년 구강건강 선별과 예방중재(USPSTF) — 선별 I, 예방중재 I | 미국예방서비스작업반(USPSTF) | US | B | partial | 2026-12-16 |
 | MED-0728 | 영유아(5세 미만) 치아우식 예방 — 불소 보충제·불소바니시 권고와 1차의료 구강검진(선별) 근거 불충분(USPSTF) | 미국예방서비스작업반(USPSTF) | US | B | partial | 2026-12-16 |
-
-# 근골격·통증·재활
-
-## 근골격·통증·재활 (45건 · verified 0 · 국내 15)
-
-| ID | 자료명 | 기관 | 관할 | 등급 | 상태 | 재확인 |
-|---|---|---|---|---|---|---|
-| MED-0192 | 난치성 대상포진후신경통의 통증관리 진료지침 — 핵심질문 7개 권고 요약(약물 추가, 신경차단술, 박동성고주파, 척수자극기) | 대한통증학회 | KR | A | partial | 2026-12-11 |
-| MED-0199 | 일차성 동결견의 진단 및 비수술적 치료 임상 진료 지침 — 진단 영상, 스테로이드 주입, 운동치료, 수압팽창술 | 대한재활의학회·대한임상통증학회 | KR | A | partial | 2026-12-11 |
-| MED-0210 | 한국 중환자 재활치료 및 중환자 치료 후 증후군 임상진료지침 — 핵심질문 15개 권고·근거수준 요약 | PACEN(환자중심 의료기술 최적화 연구사업단) 지원, 삼성서울병원 주관, 대한중환자재활학회 등 유관 학회 참여 | KR | A | partial | 2026-12-11 |
-| MED-0225 | 고관절 골절 재활 임상 진료 지침 — 수술 후 다학제·운동·가정기반 재활 및 동반문제 권고 요약 | 대한재활의학회/대한노인재활의학회 | KR | A | partial | 2026-12-11 |
-| MED-0231 | 근거기반 만성요통의 고주파전극도자절제술 임상진료지침 — 후관절질환 요통의 고식적 고주파 신경절제술 적응·효과·반복 권고 | 서울대학교병원 신경외과 연구진(연구책임자 정천기), 발행기관 확인하지 못함 | KR | A | needs_recheck | 2026-12-11 |
-| MED-0234 | 신경근성 통증을 동반한 요천추추간판탈출증 환자의 비수술적 치료 임상진료지침 — 물리·약물·시술치료 권고 요약 | 대한재활의학회 | KR | A | partial | 2026-12-11 |
-| MED-0295 | 대한통증학회 난치성 대상포진후신경통 임상진료지침(Korean J Pain 게재판) — 핵심질문 7개 권고 요약 | 대한통증학회(신경과·피부과·신경외과·가정의학과 등 관련 학회 대표 참여) | KR | A | partial | 2027-01-14 |
-| MED-0325 | 한국 지역사회 거주 노인의 일차의료 노쇠 관리 임상진료지침(2021) — 선별·진단·중재·모니터링 권고 16개 요약 | 대한가정의학회(Korean Academy of Family Medicine, 노인의학 특별위원회 협의·자문) | KR | A | partial | 2027-01-14 |
-| MED-0354 | 노인 근감소증 근거기반 운동 지침 입장문(대한근감소증학회, 한국근감소증 워킹그룹 KWGS 알고리즘 기반) — 근육량·근력·신체기능별 FITT 운동 권고 요약 | 대한근감소증학회(원문 표기 Korea Society of Sarcopenia) 특별운동위원회 | KR | A | partial | 2027-01-14 |
-| MED-0395 | 한국 근감소증 워킹그룹(KWGS) 전문가 합의(2023) — 근감소증 선별·진단 흐름, 근육량·근력·신체기능 평가 도구와 절단값 | 한국근감소증워킹그룹 (Korean Working Group on Sarcopenia, KWGS; 대한근감소증학회·대한골대사학회·대한노인의학회 연계) | KR | A | partial | 2027-01-14 |
-| MED-0423 | 축성 척추관절염 환자의 한국 치료 권고안(대한류마티스학회, 2023) — 기본원칙 3개·권고 21개 요약 | 대한류마티스학회 척추관절염연구회 (Korean College of Rheumatology, KCR; Korean Society of Spondyloarthritis Research, KSSR) | KR | A | superseded | 2027-01-14 |
-| MED-0424 | 한국 만성 비암성 통증 환자의 오피오이드 처방 지침 개정판(대한통증학회, 2024) — 처방 전 고려, 시작, 유지·중단, 사용장애 권고 요약 | 대한통증학회 (Korean Pain Society, KPS) 호스피스·완화의료 위원회 | KR | A | partial | 2027-01-14 |
-| MED-0434 | 지역사회 거주 노인의 노쇠 1차 예방 지침(2021) — 신체활동·회복탄력성·구강·만성질환·사회참여·금연·식사 7개 영역(PROMISE) 권고 요약 | 한국 노쇠 및 노화 코호트(Korean Frailty and Aging Cohort Study, KFACS) 지침개발팀 | KR | A | needs_recheck | 2027-01-14 |
-| MED-0487 | 축성 척추관절염 환자의 한국 치료 권고안 2026년 개정(대한류마티스학회) — 권고 20개(T2T·ASDAS·표적치료·감량·수술·안전성 모니터링) 요약 | 대한류마티스학회(Korean College of Rheumatology, KCR) KCR-AXIS(Alliance of eXperts In Spondyloarthritis) | KR | A | partial | 2027-01-14 |
-| MED-0553 | 축성 척추관절염 환자의 한국 치료 권고안(Korean treatment recommendations for patients with axial spondyloarthritis, 2023, J Rheum Dis 게재본) — 기본원칙 3개·권고 21개 요약 | Korean College of Rheumatology(KCR) 산하 Korean Society of Spondyloarthritis Research(KSSR) 개발위원회 | KR | A | partial | 2026-12-16 |
-| MED-0592 | 낙상 팩트시트(WHO) — 위험요인과 생애주기별 예방 개요 | 세계보건기구(WHO) | INT | B | partial | 2026-12-16 |
-| MED-0605 | 요통(허리통증)(WHO 팩트시트) — 정의·위험요인·예방·진단/치료 원칙·WHO 대응 개요 | 세계보건기구(WHO) | INT | B | partial | 2026-12-16 |
-| MED-0612 | 근골격계질환(WHO 팩트시트) — 정의·위험요인·예방·진단/치료 원칙·WHO 대응 개요 | 세계보건기구(WHO) | INT | B | partial | 2026-12-16 |
-| MED-0616 | 골관절염(WHO 팩트시트) — 증상·위험요인·예방·치료 및 관리·WHO 대응 개요 근거 안내 | 세계보건기구(WHO) | INT | B | partial | 2026-12-16 |
-| MED-0627 | 류마티스 관절염(WHO 팩트시트) — 증상·위험요인·치료와 관리·WHO 대응 개요 근거 안내 | 세계보건기구(WHO) | INT | B | partial | 2026-12-16 |
-| MED-0646 | 요통과 좌골신경통 평가·관리(NICE NG59, 16세 이상) — 평가, 비침습·침습 치료 | 영국 국립보건임상연구원(NICE) | INT | B | partial | 2026-12-16 |
-| MED-0647 | 16세 이상 골관절염 진단과 관리(NICE NG226) — 임상 진단, 정보·지원, 운동·체중, 약물, 추적, 관절 치환술 의뢰 | 영국 국립보건임상연구원(NICE) | INT | B | partial | 2026-12-16 |
-| MED-0661 | 성인 류마티스 관절염 관리(NICE NG100) — 의뢰·진단·목표 달성 치료·약물 단계·다학제 관리·모니터링 권고 요약 | 영국 국립보건임상연구원(NICE) | INT | B | partial | 2026-12-16 |
-| MED-0664 | 16세 초과 척추관절염 진단과 관리(NICE NG65) — 인지·의뢰, 전문 진료 진단·영상, 약물·비약물·수술, 악화 관리 권고 요약 | 영국 국립보건임상연구원(NICE) | INT | B | partial | 2026-12-16 |
-| MED-0676 | 낙상 평가와 예방(NICE NG249, 고령자 및 고위험 50세 이상) — 위험 확인, 종합 낙상 평가, 중재 권고 요약 | 영국 국립보건임상연구원(NICE) | INT | B | partial | 2026-12-16 |
-| MED-0704 | 지역사회 거주 노인 낙상 예방 중재(USPSTF) — 운동 중재 B, 다요인 중재 개별화(C) | 미국예방서비스작업반(USPSTF) | US | B | partial | 2026-12-16 |
-| MED-0788 | 16세 이상 만성통증(NICE NG193) — 만성통증 전반의 평가와 만성 일차통증 관리 | 영국 국립보건임상연구원(NICE) | INT | B | partial | 2026-12-16 |
-| MED-0813 | 강직성 척추염(MedlinePlus) — 정의·위험요인·증상·진단·치료 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
-| MED-0820 | 관절염(MedlinePlus) — 정의·종류·증상·위험요인·진단·치료 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
-| MED-0841 | 손목터널증후군(MedlinePlus 건강 주제 요약) — 환자용 일반 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
-| MED-0854 | 만성 통증(MedlinePlus 건강 주제 요약) — 환자용 일반 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
-| MED-0882 | 어깨 탈구(MedlinePlus 건강 주제 요약) — 정의·원인·증상·진단·치료·예방 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
-| MED-0891 | 섬유근육통(MedlinePlus 환자용 요약) — 원인·증상·진단·치료 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
-| MED-0893 | 골절(MedlinePlus 환자용 요약) — 종류·원인·증상·진단·치료·예방 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
-| MED-0898 | 올바른 자세 안내(MedlinePlus 환자용 요약) — 자세의 의미·건강 영향·개선 방법 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
-| MED-0933 | 관절질환(MedlinePlus 건강 주제) — 관절의 구조, 질환·손상 종류와 관리 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
-| MED-0934 | 소아관절염(MedlinePlus 건강 주제) — 정의·증상·진단·치료 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
-| MED-0937 | 무릎 인공관절 치환술(골관절염)(MedlinePlus 건강 주제) — 수술 대상·방법·회복·위험 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
-| MED-0954 | 근육 경련(쥐)(MedlinePlus 환자용 요약) — 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
-| MED-0965 | 골관절염(MedlinePlus 환자용 요약) — 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
-| MED-0970 | 통증(MedlinePlus 환자용 요약) — 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
-| MED-0996 | 류마티스 관절염(MedlinePlus) — 정의·위험요인·원인·증상·진단·치료 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
-| MED-0997 | 회전근개 손상(MedlinePlus) — 유형·위험요인·증상·진단·치료 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
-| MED-1002 | 쇼그렌증후군(MedlinePlus 건강 주제) — 정의·위험요인·증상·진단·치료·예방 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
-| MED-1027 | 손목 손상 및 질환(MedlinePlus 건강 주제) — 정의·위험요인·증상·진단·치료·예방 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
-
-## 통풍 (3건 · verified 0 · 국내 1)
-
-| ID | 자료명 | 기관 | 관할 | 등급 | 상태 | 재확인 |
-|---|---|---|---|---|---|---|
-| MED-0318 | 통풍 진료지침(대한류마티스학회) — 급성 통풍 발작 치료·요산강하요법 시작·목표·지속 7개 권고 요약 | 대한류마티스학회(Korean College of Rheumatology, KCR) 통풍연구회 | KR | A | partial | 2027-01-14 |
-| MED-0671 | 통풍 진단과 관리(NICE NG219) — 진단·정보 제공·급성 발작 치료·식이/생활·요산강하요법·전문 의뢰 권고 요약 | 영국 국립보건임상연구원(NICE) | INT | B | partial | 2026-12-16 |
-| MED-0897 | 통풍(MedlinePlus 환자용 요약) — 원인·위험요인·증상·진단·치료 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
 
 # 뇌혈관질환
 

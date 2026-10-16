@@ -145,7 +145,7 @@ def write_by_disease(rows):
     g = defaultdict(lambda: defaultdict(list))
     for r in rows:
         g[r.get("group", "")][r.get("topic", "")].append(r)
-    order = sorted(ENUM["group"], key=lambda k: -sum(len(v) for v in g[k].values()))
+    order = sorted(ENUM["group"], key=lambda k: (-sum(len(v) for v in g[k].values()), k))
     L = ["# 질병별 자료 목록 (자동 생성 — 직접 수정 금지)", "",
          "대분류(`group`) → 질병(`topic`)으로 묶은 목록. 원문 표기 질병명은 `disease` 칸에 그대로 있다. 상태 `verified`만 영상 근거로 바로 쓸 수 있고 `partial`/`needs_recheck`는 각 파일의 미검증 항목을 먼저 확인한다. 관할 KR이 아닌 자료(US·INT)는 국내 제도·급여 근거로 쓰지 않는다.", "",
          "## 목차", ""]
