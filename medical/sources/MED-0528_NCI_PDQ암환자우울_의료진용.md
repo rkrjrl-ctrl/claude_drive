@@ -17,7 +17,7 @@ recheck_by: 2027-01-14
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-related: MED-0158; MED-0024; MED-0201; MED-0025
+related: MED-0158; MED-0024; MED-0201; MED-0025; MED-0516; MED-0517
 ---
 
 ## 핵심 근거

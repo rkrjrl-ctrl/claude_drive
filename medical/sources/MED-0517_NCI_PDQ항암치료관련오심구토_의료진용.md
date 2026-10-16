@@ -17,7 +17,7 @@ recheck_by: 2027-01-14
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-related: MED-0516
+related: MED-0516; MED-0529; MED-0530; MED-0531
 note: 이 PDQ 요약은 편집위원회가 PDQ Adult Treatment가 아닌 Supportive and Palliative Care Editorial Board다. 원문에 항구토제 용량표(성인·소아)가 있으나 이 파일에는 옮기지 않았다. 국내 항구토제 지침 파일은 BY_DISEASE.md에서 확인되지 않아 related는 MED-0516(원문이 오피오이드 유발 오심은 암성 통증 요약을 참조하라고 안내)만 연결했다.
 ---
 

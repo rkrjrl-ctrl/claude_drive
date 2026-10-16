@@ -17,7 +17,7 @@ recheck_by: 2027-01-14
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-related: MED-0027; MED-0025; MED-0031
+related: MED-0027; MED-0025; MED-0031; MED-0526; MED-0527; MED-0529; MED-0531
 note: 이 PDQ 요약은 편집위원회가 PDQ Adult Treatment가 아닌 Supportive and Palliative Care Editorial Board다. 원문에 약제 용량표·오피오이드 환산(등가진통) 정보가 있으나 이 파일에는 옮기지 않았다. MED-0424(국내 만성 비암성 통증 오피오이드 처방)는 대상이 암성 통증이 아니므로 related에 넣지 않았다.
 ---
 
