@@ -496,6 +496,12 @@
 |---|---|---|---|---|---|
 | MED-0282 | 2025 대한갑상선학회 저위험 갑상선 미세유두암 능동감시 임상진료지침 — 대상 선정·평가·추적·수술 전환 권고 요약 | 대한갑상선학회 (갑상선결절 및 암 진료지침 개발위원회) | A | partial | 2027-01-14 |
 
+## 갑상선 초음파 표준 영상·보고 (1건)
+
+| ID | 자료명 | 기관 | 등급 | 상태 | 재확인 |
+|---|---|---|---|---|---|
+| MED-0467 | 갑상선 초음파 표준 영상 촬영·보고 — 대한갑상선영상의학회 합의문 및 권고(Standardized Imaging and Reporting for Thyroid Ultrasound) 요약 | 대한갑상선영상의학회(Korean Society of Thyroid Radiology, KSThR) 진료지침위원회 | A | partial | 2027-01-14 |
+
 ## 갑상선결절 (1건)
 
 | ID | 자료명 | 기관 | 등급 | 상태 | 재확인 |
@@ -1095,6 +1101,12 @@
 | ID | 자료명 | 기관 | 등급 | 상태 | 재확인 |
 |---|---|---|---|---|---|
 | MED-0362 | 한국 소아 근시 관리 합의문 2025(Korean Myopia Society) — 생활습관·환자 선택·광학/약물 치료·효과 평가·치료 중단 핵심 권고 요약 | Korean Myopia Society for the Korean Association for Pediatric Ophthalmology and Strabismus (KAPOS) 소아근시관리 합의 태스크포스 | A | partial | 2027-01-14 |
+
+## 소아 기본소생술 (1건)
+
+| ID | 자료명 | 기관 | 등급 | 상태 | 재확인 |
+|---|---|---|---|---|---|
+| MED-0452 | 2025 한국 심폐소생술 지침 Part 7 소아 기본소생술 — 일반인·의료인 순서, 영아 두 엄지 압박, AED, 기도폐쇄, 익수·외상, 소아 조기경보 권고 요약 | 대한심폐소생협회(Korean Association of Cardiopulmonary Resuscitation) 심폐소생술 지침 개정 위원회 | A | partial | 2027-01-14 |
 
 ## 소아 마크로라이드 불응성 중증 마이코플라즈마 폐렴 (1건)
 
