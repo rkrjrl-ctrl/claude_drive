@@ -53,7 +53,7 @@ def norm_url(u):
     p = urlparse(u)
     host = p.netloc.lower().removeprefix("www.")
     q = parse_qs(p.query)
-    keep = {k: v for k, v in q.items() if k in ("cancer_seq", "menu_seq", "brdBltNo", "SEQ", "mid", "lsiSeq", "admRulSeq", "admRulId", "flSeq", "lsId", "id", "sid", "number", "fileId", "titleId", "chapter", "doi", "cntnts_sn", "articleNo", "attachNo")}
+    keep = {k: v for k, v in q.items() if k in ("cancer_seq", "menu_seq", "brdBltNo", "SEQ", "mid", "lsiSeq", "admRulSeq", "admRulId", "flSeq", "lsId", "id", "sid", "number", "fileId", "titleId", "chapter", "doi", "cntnts_sn", "articleNo", "attachNo", "apndNo", "apndBrdBltNo", "apndBltNo")}
     qs = "&".join(f"{k}={','.join(v)}" for k, v in sorted(keep.items()))
     return f"{host}{p.path}?{qs}" if qs else f"{host}{p.path}"
 
