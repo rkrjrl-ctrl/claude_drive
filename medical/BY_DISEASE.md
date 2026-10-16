@@ -50,7 +50,7 @@
 | MED-0240 | 전립선암 방사선치료 시 직장보호를 위한 생분해성 물질 삽입술 진료지침 — 적응증·금기·시술·항생제·교육 권고 요약 | 대한비뇨기종양학회(발행기관 표지 미표기, 개발그룹 소속 학회 표기 기준) | KR | A | partial | 2026-12-11 |
 | MED-0343 | 2020 전이성 전립선암 한국 관리지침(제2판) — 전이성 거세민감성·거세저항성 치료 및 임상 고려사항 권고 요약 | 대한종양내과학회(KSMO)·대한항암요법연구회(KCSG) 비뇨생식기·부인암 위원회 | KR | A | needs_recheck | 2027-01-14 |
 | MED-0430 | 한국 전이성 호르몬감수성 전립선암(mHSPC) 전문가 합의 권고(2025, 수정 델파이) — 병용요법·삼중요법·유전체검사·모니터링·소수전이 권고 요약 | 대한비뇨기종양학회(Korean Urological Oncology Society) 소속 비뇨의학과 전문가 패널 | KR | A | partial | 2027-01-14 |
-| MED-0064 | 전립선암 진단방법(PSA·mpMRI·조직생검·PSMA PET/CT·유전자검사) | 국가암정보센터 | KR | B | needs_recheck | 2026-12-11 |
+| MED-0064 | 전립선암 진단방법(PSA·mpMRI·조직생검·PSMA PET/CT·유전자검사) | 국가암정보센터 | KR | B | partial | 2027-04-17 |
 | MED-0654 | 전립선암 진단과 관리(NICE NG131) — 정보·의사결정 지원, MRI 우선 진단, 병기·위험군별 치료, 호르몬치료 부작용, 전이성 관리 권고 요약 | 영국 국립보건임상연구원(NICE) | INT | B | partial | 2026-12-16 |
 | MED-0502 | 전립선암 치료(PDQ 의료진용) 병기별 치료 옵션 근거 요약 | NCI / PDQ Adult Treatment Editorial Board | US | C | partial | 2027-01-14 |
 | MED-0522 | 전립선암 검진(PDQ 의료진용) — PSA·직장수지검사 검진의 이득·위해 근거 안내 | NCI / PDQ Screening and Prevention Editorial Board | US | C | partial | 2027-01-14 |
@@ -231,7 +231,7 @@
 | MED-0243 | 위암표준진료권고안 — 진단·수술·내시경치료·항암화학요법·방사선치료·병리 22개 권고 요약(구판) | 대한의학회 | KR | A | superseded | 2026-12-11 |
 | MED-0309 | Korean Practice Guidelines for Gastric Cancer 2024 (영문 전문, PMC 오픈액세스) — 34개 진술문(evidence-to-statement) 권고 요약 | 대한위암학회(KGCA), 국립암센터 연구비 지원, 관련 학회 협력 | KR | A | partial | 2027-01-14 |
 | MED-0493 | Korean Practice Guidelines for Gastric Cancer 2022 (영문 전문, PMC 오픈액세스) — 핵심질문 33개 진술문(statement) 권고 요약(구판) | 대한위암학회(Korean Gastric Cancer Association, KGCA), 한국 암관리 가이드라인 네트워크(KCGN) 지원, 관련 학회 협력 | KR | A | superseded | 2027-01-14 |
-| MED-0033 | 위암 조기검진 권고 | 국가암정보센터 | KR | B | needs_recheck | 2026-12-11 |
+| MED-0033 | 위암 조기검진 권고 | 국가암정보센터 | KR | B | partial | 2027-04-17 |
 | MED-0036 | 위암 치료방법(내시경·수술·항암·방사선) | 국가암정보센터 | KR | B | needs_recheck | 2026-12-11 |
 | MED-0761 | 식도위암 평가와 관리(NICE NG83) — 병기 평가, 근치적 치료 흐름, 고식적 치료, 영양 지원, 추적 원칙 | 영국 국립보건임상연구원(NICE) | INT | B | partial | 2026-12-16 |
 | MED-0499 | 위암 치료(PDQ 의료진용) — 병기별 치료 옵션 개요 근거 안내 | NCI / PDQ Adult Treatment Editorial Board | US | C | partial | 2027-01-14 |
@@ -1360,7 +1360,7 @@
 | MED-0027 | 암 통증의 기록·상담·약물조정 원칙 | NIH National Cancer Institute | US | C | verified | 2027-04-11 |
 | MED-0028 | 암 임상시험 동의서에서 확인할 항목 | NIH National Cancer Institute | US | C | verified | 2027-04-11 |
 | MED-0103 | 재난적의료비 지원에 관한 법률 시행령: 의료비 범위·지원대상·지원기준(시행 2025-07-19) | 법제처 국가법령정보센터(보건복지부 소관) | KR | A | partial | 2026-12-11 |
-| MED-0018 | 재난적의료비 지원대상·지원범위 | 국가암정보센터 | KR | B | needs_recheck | 2027-01-17 |
+| MED-0018 | 재난적의료비 지원대상·지원범위 | 국가암정보센터 | KR | B | partial | 2027-04-17 |
 | MED-0024 | 성인 암생존자 통합지지서비스 이용 | 국가암정보센터 | KR | B | needs_recheck | 2026-12-11 |
 | MED-0019 | 한쪽 신장으로 생활할 때의 기능·혈압 관리 | NIH NIDDK | US | C | needs_recheck | 2027-04-17 |
 | MED-0020 | 면역관문억제제 관련 장기 염증·연락 준비 | NIH National Cancer Institute | US | C | needs_recheck | 2027-04-17 |
