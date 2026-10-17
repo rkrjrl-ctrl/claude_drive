@@ -8,8 +8,8 @@ disease: 전자간증
 group: 여성·임신·출산
 topic: 여성·임신·출산
 url: https://www.who.int/news-room/fact-sheets/detail/pre-eclampsia
-published: unknown
-revised: 2026-10
+published: 2026-10-06
+revised: unknown
 checked: 2026-10-16
 location: Key Facts · Overview · Diagnosis · Risk factors · Symptoms · Complications · Treatment and management · Prevention · WHO response
 source_type: web_summary
@@ -20,7 +20,7 @@ reviewer: "Claude Code 직접 확인(WHO 웹 원문). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0556
-note: 본문 제목 아래에 '6 October 2026' 날짜 표기가 있어 revised에 2026-10으로 기재했다(발행일인지 수정일인지는 본문에 구분이 없어 published는 unknown). MED-0556은 고혈압 지침의 임신 고혈압 포함 특수 상황 부분이며 전자간증 전용 지침은 저장소에 아직 없다.
+note: published는 2026-10-17 WHO 팩트시트 페이지를 다시 열어 제목 바로 아래 표시된 날짜(2026-10-06, 페이지 메타데이터 datePublished와 일치)로 채웠다. 이 날짜가 최초 발행일인지 최신 갱신일인지 구분 표시가 없어 revised는 unknown으로 둔다. MED-0556은 고혈압 지침의 임신 고혈압 포함 특수 상황 부분이며 전자간증 전용 지침은 저장소에 아직 없다. 이용조건: WHO 웹사이트 이용약관의 저작권 고지(2026-10-17 확인)에 따르면 웹사이트 정보는 '© WHO, All Rights Reserved'이며, 연구·개인 학습 목적의 발췌 검토·복제·번역은 허용되나 판매·상업 목적 사용은 안 되고, 사용 시 WHO를 출처로 URL과 함께 밝혀야 하며, 상당 부분의 복제·번역이나 교육·비상업 외 목적의 사용은 사전 서면 허가가 필요하다. WHO 출판물(IRIS 등)에 적용되는 CC BY-NC-SA 3.0 IGO와 달리 팩트시트 웹페이지에는 이 웹사이트 약관이 적용된다고 보고, 영상에서는 사실 확인용 참고와 출처 언급만 하고 원문 문장·표를 번역해 옮기지 않는다.
 ---
 
 ## 핵심 근거
@@ -40,7 +40,7 @@ note: 본문 제목 아래에 '6 October 2026' 날짜 표기가 있어 revised�
 ## 미검증·사용 금지
 - 이 파일에는 통계 수치(유병률·사망 수, 비율, 비용)와 약 용량·기준 수치를 옮기지 않았다. 팩트시트 통계는 기준 연도가 항목마다 달라 연도가 불명확하므로 영상에 숫자를 쓰지 않는다.
 - 유병률·모성 사망 기여 비율 등 통계 수치, 진단 기준 수치, 약물 용량과 투여 시기는 옮기지 않았다. WHO 임신 중 지침 본문은 읽지 못했다(미확보).
-- 한국 건강보험 급여·국내 허가·국내 진료지침과의 일치 여부는 확인하지 못했다(미확보). 발행일은 본문에 표기가 없어 unknown이다.
+- 한국 건강보험 급여·국내 허가·국내 진료지침과의 일치 여부는 확인하지 못했다(미확보).
 - 의료인 검토는 하지 않았다. 개인에게 치료를 권하는 표현, 원문에 없는 수치·효과 단정은 금지.
 
 ## 영상 활용 메모

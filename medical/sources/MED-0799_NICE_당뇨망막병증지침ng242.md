@@ -19,7 +19,7 @@ recheck_by: 2026-12-16
 reviewer: Claude Code 직접 확인(NICE 웹 원문). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-related: MED-0272; MED-0485
+related: MED-0272; MED-0485; MED-1414
 note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). 본문 상단에 Published 날짜만 있고 Last updated 표기가 없어 revised는 unknown이다. 저장소 색인에서 당뇨망막병증 전용 한국 지침을 찾지 못해 related에는 당뇨병 일반 한국 지침(MED-0272, MED-0485)을 두었다.
 ---
 

@@ -19,7 +19,7 @@ recheck_by: 2026-12-16
 reviewer: "Claude Code 직접 확인(MedlinePlus XML 원문). 의료인 검토 미실시"
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-related: MED-0588
+related: MED-0588; MED-1399
 note: 환자용 일반 요약(2차 출처)이며 한국 진료지침과 다를 수 있다. published는 원문 텍스트의 CREATED(최초 작성일) 값이고 수정일은 본문에 없어 unknown이다.
 ---
 

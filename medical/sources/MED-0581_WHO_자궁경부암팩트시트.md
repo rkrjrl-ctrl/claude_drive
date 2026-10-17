@@ -8,7 +8,7 @@ disease: 자궁경부암
 group: 암
 topic: 자궁경부암
 url: https://www.who.int/news-room/fact-sheets/detail/cervical-cancer
-published: unknown
+published: 2026-07-03
 revised: unknown
 checked: 2026-10-16
 location: Key facts · Overview · Causes · Prevention · HPV vaccination and other prevention steps · Cervical screening and treatment of precancers · Early detection, diagnosis and treatment of cervical cancer · WHO Response
@@ -20,7 +20,7 @@ reviewer: Claude Code 직접 확인(WHO 웹 원문). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0287; MED-0288; MED-0160
-note: 원문은 WHO 팩트시트 HTML을 텍스트로 변환한 파일이다. 국제기구 요약(국제 일반 개요)으로 한국 진료 기준과 다를 수 있어 tier B로 두었다.
+note: 원문은 WHO 팩트시트 HTML을 텍스트로 변환한 파일이다. published는 2026-10-17 WHO 팩트시트 페이지를 다시 열어 제목 바로 아래 표시된 날짜(2026-07-03, 페이지 메타데이터 datePublished와 일치)로 채웠다. 이 날짜가 최초 발행일인지 최신 갱신일인지 구분 표시가 없어 revised는 unknown으로 둔다. 국제기구 요약(국제 일반 개요)으로 한국 진료 기준과 다를 수 있어 tier B로 두었다. 이용조건: WHO 웹사이트 이용약관의 저작권 고지(2026-10-17 확인)에 따르면 웹사이트 정보는 '© WHO, All Rights Reserved'이며, 연구·개인 학습 목적의 발췌 검토·복제·번역은 허용되나 판매·상업 목적 사용은 안 되고, 사용 시 WHO를 출처로 URL과 함께 밝혀야 하며, 상당 부분의 복제·번역이나 교육·비상업 외 목적의 사용은 사전 서면 허가가 필요하다. WHO 출판물(IRIS 등)에 적용되는 CC BY-NC-SA 3.0 IGO와 달리 팩트시트 웹페이지에는 이 웹사이트 약관이 적용된다고 보고, 영상에서는 사실 확인용 참고와 출처 언급만 하고 원문 문장·표를 번역해 옮기지 않는다.
 ---
 
 ## 핵심 근거
@@ -35,7 +35,7 @@ note: 원문은 WHO 팩트시트 HTML을 텍스트로 변환한 파일이다. �
 세계 단위 개요(특히 저·중소득 국가 맥락)로, 한국의 HPV 접종 대상과 국가암검진(세포검사 중심) 및 진료지침과 다를 수 있다. 선별 시작 연령·간격은 한국 기준(MED-0288 등)을 따라야 하며 이 자료의 서술을 한국 기준으로 쓰지 않는다. WHO 팩트시트는 세계 단위 요약이며 한국의 승인·급여·진료지침과 다를 수 있다. 개요용이며 한국 제도·진료의 근거로 단독 사용하지 않는다. 이 파일은 팩트시트 본문만 요약했고 연계 문서는 읽지 않았다(미확보).
 
 ## 미검증·사용 금지
-- 본문 읽은 범위: WHO 팩트시트 웹페이지를 텍스트로 변환한 파일 전체(첫 줄 URL, 날짜 표기는 본문에 발행일·수정일 없음). 관련 링크 문서(WHO 지침·보고서 등)는 읽지 못했다(미확보).
+- 본문 읽은 범위: WHO 팩트시트 웹페이지를 텍스트로 변환한 파일 전체(첫 줄 URL). 관련 링크 문서(WHO 지침·보고서 등)는 읽지 못했다(미확보).
 - 발생·사망 추정, 백신이 막는 유형의 비율, 진행에 걸리는 기간, 선별 간격과 시작 연령의 구체 숫자, 90-70-90 형태의 목표치, 모델링 추정은 옮기지 않았다. 한국의 접종·검진 실제 현황은 이 자료에 없다(미확보). 병기별 치료는 본문에 상세하지 않다.
 - 통계 수치는 연도가 불명확하거나 해가 바뀌면 달라지므로 이 파일에 옮기지 않았으며, 영상에서 수치를 쓰려면 WHO 원문과 한국 자료로 따로 확인해야 한다.
 - 약 용량은 기록하지 않았다. 일부 약제명은 본문 예시로만 있으며 처방 권고가 아니다.

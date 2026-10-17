@@ -8,7 +8,7 @@ disease: 비만
 group: 당뇨·대사·내분비
 topic: 비만·대사증후군
 url: https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight
-published: unknown
+published: 2026-10-07
 revised: unknown
 checked: 2026-10-16
 location: Key facts · Overview · Definition of overweight and obesity · Causes of overweight and obesity · Health and economic consequences · Prevention and management · WHO response
@@ -20,7 +20,7 @@ reviewer: "Claude Code 직접 확인(WHO 웹 원문). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0276; MED-0386
-note: 본문에 팩트시트 자체의 발행일·수정일 표기는 없다. 본문 서술 중 WHO의 GLP-1 치료 지침 발간(2025년 12월)이 언급되나 이는 팩트시트 갱신일이 아니다.
+note: published는 2026-10-17 WHO 팩트시트 페이지를 다시 열어 제목 바로 아래 표시된 날짜(2026-10-07, 페이지 메타데이터 datePublished와 일치)로 채웠다. 이 날짜가 최초 발행일인지 최신 갱신일인지 구분 표시가 없어 revised는 unknown으로 둔다. 본문 서술 중 WHO의 GLP-1 치료 지침 발간(2025년 12월)이 언급되나 이는 팩트시트 갱신일이 아니다. 이용조건: WHO 웹사이트 이용약관의 저작권 고지(2026-10-17 확인)에 따르면 웹사이트 정보는 '© WHO, All Rights Reserved'이며, 연구·개인 학습 목적의 발췌 검토·복제·번역은 허용되나 판매·상업 목적 사용은 안 되고, 사용 시 WHO를 출처로 URL과 함께 밝혀야 하며, 상당 부분의 복제·번역이나 교육·비상업 외 목적의 사용은 사전 서면 허가가 필요하다. WHO 출판물(IRIS 등)에 적용되는 CC BY-NC-SA 3.0 IGO와 달리 팩트시트 웹페이지에는 이 웹사이트 약관이 적용된다고 보고, 영상에서는 사실 확인용 참고와 출처 언급만 하고 원문 문장·표를 번역해 옮기지 않는다.
 ---
 
 ## 핵심 근거
@@ -40,7 +40,7 @@ note: 본문에 팩트시트 자체의 발행일·수정일 표기는 없다. �
 ## 미검증·사용 금지
 - 이 파일에는 통계 수치(유병률·사망 수, 비율, 비용)와 약 용량·기준 수치를 옮기지 않았다. 팩트시트 통계는 기준 연도가 항목마다 달라 연도가 불명확하므로 영상에 숫자를 쓰지 않는다.
 - 소아·청소년 비만 지침 등 팩트시트 하단 관련 소식·링크의 내용, 각 지표의 연도별 세부 추이는 읽지 못했다(미확보).
-- 한국 건강보험 급여·국내 허가·국내 진료지침과의 일치 여부는 확인하지 못했다(미확보). 발행일은 본문에 표기가 없어 unknown이다.
+- 한국 건강보험 급여·국내 허가·국내 진료지침과의 일치 여부는 확인하지 못했다(미확보).
 - 의료인 검토는 하지 않았다. 개인에게 치료를 권하는 표현, 원문에 없는 수치·효과 단정은 금지.
 
 ## 영상 활용 메모

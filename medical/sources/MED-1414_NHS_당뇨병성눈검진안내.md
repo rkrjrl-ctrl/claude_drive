@@ -1,0 +1,39 @@
+---
+id: MED-1414
+title: 영국 NHS 당뇨병 눈 검진 안내 — 12세 이상 당뇨인 1~2년마다 망막 사진, 결과 3단계
+org: 영국 국민보건서비스(NHS) 웹사이트(nhs.uk)
+jurisdiction: INT
+category: 검진
+disease: 당뇨망막병증 검진
+group: 눈·귀·코·피부·구강
+topic: 눈질환
+url: https://www.nhs.uk/tests-and-treatments/diabetic-eye-screening/
+published: unknown
+revised: 2024-10-25
+checked: 2026-10-17
+location: 페이지 전체(Why · Who · How to get · Preparing · What happens · Results)
+source_type: web_summary
+tier: C
+status: partial
+recheck_by: 2026-12-17
+reviewer: "Claude Code 직접 확인(NHS 웹 원문). 의료인 검토 미실시"
+drive_file: 없음(저장소 보관)
+video_use: 미배정
+related: MED-0799
+note: 원문은 NHS 웹사이트 환자용 페이지(하위 페이지 포함)를 텍스트로 변환해 읽었다. revised는 페이지 하단의 'Page last reviewed'(마지막 검토일, 2024-10-25) 날짜이며 수정일과 같은 뜻인지는 표시가 없다. 최초 발행일은 표시되지 않아 published는 unknown이다. 영국 환자용 안내이며 한국 제도와 다르다. 이용조건: NHS 웹사이트 이용약관(Terms and conditions 3절, 2026-10-17 확인)에 따르면 NHS 웹사이트 콘텐츠는 별도 표시가 없는 한 Open Government Licence v3.0으로 공개되어 상업적 이용을 포함해 복제·각색할 수 있다. 변경 없이 쓰면 'Information from the NHS website'와 원 페이지 링크(갱신하지 않으면 복사 날짜)를 표기하고, 번역·문맥 변경 등 각색하면 'Contains public sector information licensed under the Open Government Licence v3.0.'로 표기하되 NHS를 출처로 내세우지 않아야 한다. 로고·이미지·제3자 소유 자료·의료기기 소프트웨어에는 OGL이 적용되지 않는다. 한국어 요약은 '각색'에 해당하므로 영상에는 OGL 표기 문구를 쓰고 NHS 로고·사진은 쓰지 않는다.
+---
+
+## 핵심 근거
+- 당뇨가 있는 12세 이상은 1~2년마다 당뇨망막병증 검진에 초대된다(진단 시, 이후 매년, 최근 2회 이상이 없으면 2년마다). 임신성 당뇨는 대상이 아니다. 안경원의 일반 시력검사와는 다른 검사다.
+- 목적: 시력 변화를 느끼기 전에 당뇨망막병증 징후를 찾아 치료로 시력 손상을 막거나 줄이는 것이다.
+- 진행: 약 30분 동안 시력표를 읽고, 동공을 키우는 안약을 넣은 뒤 망막 사진을 찍는다. 안약 때문에 몇 시간 흐리게 보여 운전하면 안 된다.
+- 결과(3주 이내 편지): 변화 없음(1~2년 후 재검), 일부 변화(배경 망막병증, 1년 이내 재검), 시력에 영향을 줄 수 있는 손상(전문의 의뢰) 세 가지로 안내한다.
+
+## 적용 조건·한계
+영국(주로 잉글랜드) NHS의 환자용 안내이며 대상 연령·주기·검사 방법·예약 절차가 한국 국가검진·건강보험과 다르다. 한국 제도 설명의 근거로 쓰지 않고 해외 비교용으로만 쓴다. 의학적 판단 자료가 아니다. 한국의 당뇨 환자 안저검사 권고와 제도는 국내 자료로 확인한다. 영국 NICE 당뇨망막병증 지침(MED-0799) 참조.
+
+## 미검증·사용 금지
+시력 문제 시 연락처 안내 이후 부분은 요약하지 않았다. 상담전화·예약 절차·지역별 서비스 목록은 옮기지 않았다. 페이지에 연결된 GOV.UK·자선단체 자료는 읽지 않았다(미확보).
+
+## 영상 활용 메모
+'영국 NHS 안내'임을 밝히고 한국 국가검진 기준과 나란히 비교하는 용도로만 쓴다. 출처 표기는 OGL v3.0 문구로 하고 NHS 로고·사진은 쓰지 않는다. '당뇨가 있으면 증상이 없어도 정기적으로 망막 검사를 받아야 한다'는 메시지의 해외 사례로 쓴다.

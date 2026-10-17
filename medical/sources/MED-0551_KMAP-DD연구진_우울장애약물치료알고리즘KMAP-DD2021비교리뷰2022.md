@@ -14,13 +14,14 @@ checked: 2026-10-16
 location: PMC 오픈액세스 전문 텍스트 전체(서론, 비교 대상 지침 소개, 초기·2단계·3단계 치료, 지속성우울장애와 아형, 소아청소년, 노인, 여성, 상황별 항우울제 선택, ECT·rTMS, 결론, 표 1~3)를 읽음. KMAP-DD 2021 알고리즘 원문(합의 설문 결과표)과 참고문헌은 이 파일에 없어 읽지 못함(미확보)
 source_type: guideline_summary
 tier: B
-status: partial
+status: superseded
 recheck_by: 2026-12-16
 reviewer: Claude Code 직접 확인(PMC 전문). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0158, MED-0297
-note: 요청 설명은 "한국 우울장애 약물치료 알고리즘 KMAP-DD 2021"이었으나 텍스트는 KMAP-DD 2021 원문 자체가 아니라 이를 WFSBP 2013, BAP 2015, CANMAT 2016, RANZCP 2020과 비교한 리뷰 논문(텍스트 제목 "The Korean Medication Algorithm Project for Depressive Disorder 2021: Comparisons with Other Treatment Guidelines")이다. 따라서 알고리즘 원문이 아닌 2차 비교 서술이며 tier는 B로 두었다. published 2022는 변환 파일 머리말(YEAR)로 확인했고 권(호)·DOI는 확인하지 못했다. 같은 주제의 후속 비교 리뷰인 KMAP-DD 2025판은 MED-0297(별도 문서, 다른 PMCID)이며 같은 문서가 아니다. KMAP-DD는 전문가 합의 설문 기반이고 비교 대상 지침은 근거 기반이라는 점이 본문의 핵심 구분이다.
+superseded_by: MED-0297
+note: 요청 설명은 "한국 우울장애 약물치료 알고리즘 KMAP-DD 2021"이었으나 텍스트는 KMAP-DD 2021 원문 자체가 아니라 이를 WFSBP 2013, BAP 2015, CANMAT 2016, RANZCP 2020과 비교한 리뷰 논문(텍스트 제목 "The Korean Medication Algorithm Project for Depressive Disorder 2021: Comparisons with Other Treatment Guidelines")이다. 따라서 알고리즘 원문이 아닌 2차 비교 서술이며 tier는 B로 두었다. published 2022는 변환 파일 머리말(YEAR)로 확인했고 권(호)·DOI는 확인하지 못했다. 같은 주제의 후속 비교 리뷰인 KMAP-DD 2025판은 MED-0297(별도 문서, 다른 PMCID)이며 같은 문서가 아니다. KMAP-DD는 전문가 합의 설문 기반이고 비교 대상 지침은 근거 기반이라는 점이 본문의 핵심 구분이다. 2026-10-17 통합: 신판(KMAP-DD 2025 비교 리뷰)이 MED-0297로 있어 superseded. 이력 보존용.
 ---
 
 ## 핵심 근거

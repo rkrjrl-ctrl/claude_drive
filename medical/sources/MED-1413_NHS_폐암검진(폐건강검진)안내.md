@@ -1,0 +1,39 @@
+---
+id: MED-1413
+title: 영국 NHS 폐암 검진(폐 건강검진) 안내 — 55~74세 현재·과거 흡연자, 위험 평가 후 고위험이면 CT
+org: 영국 국민보건서비스(NHS) 웹사이트(nhs.uk)
+jurisdiction: INT
+category: 검진
+disease: 폐암 검진
+group: 암
+topic: 폐암
+url: https://www.nhs.uk/tests-and-treatments/lung-cancer-screening/
+published: unknown
+revised: 2023-03-27
+checked: 2026-10-17
+location: 페이지 전체(Why · Who · What happens · CT scan · Not invited)
+source_type: web_summary
+tier: C
+status: partial
+recheck_by: 2026-12-17
+reviewer: "Claude Code 직접 확인(NHS 웹 원문). 의료인 검토 미실시"
+drive_file: 없음(저장소 보관)
+video_use: 미배정
+related: MED-0102; MED-0721; MED-1234
+note: 원문은 NHS 웹사이트 환자용 페이지(하위 페이지 포함)를 텍스트로 변환해 읽었다. revised는 페이지 하단의 'Page last reviewed'(마지막 검토일, 2023-03-27) 날짜이며 수정일과 같은 뜻인지는 표시가 없다. 최초 발행일은 표시되지 않아 published는 unknown이다. 영국 환자용 안내이며 한국 제도와 다르다. 이용조건: NHS 웹사이트 이용약관(Terms and conditions 3절, 2026-10-17 확인)에 따르면 NHS 웹사이트 콘텐츠는 별도 표시가 없는 한 Open Government Licence v3.0으로 공개되어 상업적 이용을 포함해 복제·각색할 수 있다. 변경 없이 쓰면 'Information from the NHS website'와 원 페이지 링크(갱신하지 않으면 복사 날짜)를 표기하고, 번역·문맥 변경 등 각색하면 'Contains public sector information licensed under the Open Government Licence v3.0.'로 표기하되 NHS를 출처로 내세우지 않아야 한다. 로고·이미지·제3자 소유 자료·의료기기 소프트웨어에는 OGL이 적용되지 않는다. 한국어 요약은 '각색'에 해당하므로 영상에는 OGL 표기 문구를 쓰고 NHS 로고·사진은 쓰지 않는다.
+---
+
+## 핵심 근거
+- 영국은 표적 폐암 검진을 잉글랜드 전역으로 확대하는 중이며, 현재 일부 지역에서만 폐 건강검진(lung health check)을 한다. 해당 지역에 살고, 55~74세이며, GP에 등록되어 있고, 현재 또는 과거 흡연자면 대상이다.
+- 검진은 호흡·생활습관·가족력·병력을 묻고 키·체중을 재는 위험 평가로 시작하며, 결과에 따라 추가 조치 없음, GP 추적, 고위험이면 흉부 CT 초대 중 하나로 이어진다. 현재 흡연자에게는 금연 조언을 한다.
+- CT는 이동형 차량이나 병원에서 몇 분 걸리며, 결과는 4주 이내 편지로 온다.
+- 3주 이상 지속되는 기침, 기침 변화, 반복 흉부 감염, 객혈, 잦은 호흡곤란, 설명되지 않는 피로·체중 감소 같은 증상이 있으면 검진을 기다리지 말고 GP를 보라고 한다.
+
+## 적용 조건·한계
+영국(주로 잉글랜드) NHS의 환자용 안내이며 대상 연령·주기·검사 방법·예약 절차가 한국 국가검진·건강보험과 다르다. 한국 제도 설명의 근거로 쓰지 않고 해외 비교용으로만 쓴다. 의학적 판단 자료가 아니다. 한국 국가암검진의 폐암 검진(MED-0102·MED-1234 참조)과 대상 기준·절차가 다르다. 페이지 마지막 검토일이 2023-03-27로 확대 진행 상황이 반영되지 않았을 수 있다.
+
+## 미검증·사용 금지
+지역별 서비스 목록과 위험 평가 기준(갑년 등)은 옮기지 않았다. 상담전화·예약 절차·지역별 서비스 목록은 옮기지 않았다. 페이지에 연결된 GOV.UK·자선단체 자료는 읽지 않았다(미확보).
+
+## 영상 활용 메모
+'영국 NHS 안내'임을 밝히고 한국 국가검진 기준과 나란히 비교하는 용도로만 쓴다. 출처 표기는 OGL v3.0 문구로 하고 NHS 로고·사진은 쓰지 않는다. '영국은 위험 평가를 먼저 하고 고위험자만 CT를 찍는다'는 해외 비교에 쓴다.
