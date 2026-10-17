@@ -19,7 +19,7 @@ recheck_by: 2026-12-16
 reviewer: Claude Code 직접 확인(NICE 웹 원문). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-related: MED-0572
+related: MED-0572; MED-1424; MED-1426; MED-1429
 note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). 발행일과 최종 갱신일은 본문 상단의 Published와 Last updated에서 옮겼다. 권고 끝의 연도 표기(2004, 2011, 2018, 2020)는 권고 단위의 생성·개정 시점이다. 저장소에 불안장애 전용 한국 진료지침이 없어 related는 WHO 불안장애 팩트시트(MED-0572)이며 한국 지침이 아니다.
 ---
 

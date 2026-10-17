@@ -19,6 +19,7 @@ recheck_by: 2026-12-11
 reviewer: Claude Code 직접 확인(PDF 텍스트 추출, 권고요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
+related: MED-1427; MED-1428
 note: Korean J Gastroenterol 2024;84(3):111-122 (doi 10.4166/kjg.2024.067), 접수 2024-06-24, 승인 2024-08-05. 발행연도 2024는 서지로 확인. 파일명은 요청에 따라 '대한소화기내시경학회'로 두었으나 원문 저자 단체는 대한췌장담도학회(KPBA)이며 대한소화기내시경학회가 작성했다는 서술은 확인하지 못했다. 초록 한 곳에는 'Korean Society of Pancreatobiliary Endoscopy'로 적혀 있으나 서론·결론은 KPBA(대한췌장담도학회)로 서술한다. 한국보건의료연구원 방법론 전문가가 참여했다.
 ---
 

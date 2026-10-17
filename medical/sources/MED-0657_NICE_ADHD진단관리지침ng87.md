@@ -19,6 +19,7 @@ recheck_by: 2026-12-16
 reviewer: Claude Code 직접 확인(NICE 웹 원문). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
+related: MED-1421
 note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published·revised는 본문 상단 Published·Last updated 표기이다. 저장소에서 ADHD를 다루는 한국 지침 자료를 찾지 못해 related를 두지 않았다. 한국 자료가 확보되면 연결한다.
 ---
 
