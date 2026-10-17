@@ -26,7 +26,9 @@ BL-19. 각 사이트의 저작권 안내나 페이지 표시를 직접 열어 �
 | PMC 논문 (pmc.ncbi.nlm.nih.gov) | 논문마다 라이선스가 다르다(CC BY, CC BY-NC 등). 그림을 쓰려면 해당 논문의 라이선스를 확인한다 | 논문별 |
 | NICE (nice.org.uk) | 이용약관 18.2: 영국 밖에서는 개인 이용·학습·개인 연구 외에 NICE 사전 서면 동의 없이 사용·복제·번역·배포 금지. 한국 영상에서 NICE 원문 번역·표를 화면에 쓰지 않고 사실 확인용으로만 쓴다 | 이용약관(2026-10-17 확인). 해당 기록 note에 `이용조건:` 표기 |
 | USPSTF (uspreventiveservicestaskforce.org) | Copyright Notice: 내용을 바꾸지 않는 조건으로 복제·재배포 허용, 유료·영리 편입은 AHRQ 서면 허가 필요, 인용 시 USPSTF 페이지 출처 표기, 각색물엔 비보증 고지 | Copyright Notice(2026-10-17 확인). MED-0692~0741·MED-1293~1316·1323~1327 note에 표기 |
-| 해외 공공기관 (WHO, MedlinePlus) | 각 기관 정책을 따른다(미점검) | — |
+| WHO 팩트시트·웹페이지 (who.int) | 웹사이트 이용약관: © WHO All Rights Reserved, 연구·개인 학습용 발췌·번역만 허용, 상업 목적·상당 부분 복제·번역은 사전 서면 허가 필요, URL과 함께 WHO 출처 표기. 사실 확인용 참고와 출처 언급만 하고 원문 문장·표 번역 게시는 하지 않는다 | `who.int/about/policies/terms-of-use`(2026-10-17 확인). 팩트시트는 출판물이 아닌 웹페이지로 보고 이 약관을 적용(판단 포함). MED-1366~1381 note에 표기, 기존 MED-0568~0642는 미표기 |
+| WHO 출판물 (IRIS PDF 등) | CC BY-NC-SA 3.0 IGO: 비상업 목적 복제·번역·각색 허용, 출처 표기, 홍보·로고 사용 금지. 수익 채널이 '비상업'에 해당하는지는 수익 시작 시 판단 | `who.int/about/policies/publishing/copyright`(2026-10-17 확인) |
+| MedlinePlus | 각 기관 정책을 따른다(미점검) | — |
 
 ## 남은 일
 

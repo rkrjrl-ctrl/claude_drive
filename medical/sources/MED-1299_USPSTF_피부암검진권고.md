@@ -19,7 +19,7 @@ recheck_by: 2026-12-17
 reviewer: "Claude Code 직접 확인(USPSTF 웹 원문). 의료인 검토 미실시"
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-related: MED-0736; MED-0745
+related: MED-0736; MED-0745; MED-1371
 note: 원문은 USPSTF 권고 웹페이지를 텍스트로 변환해 읽었다. published는 페이지의 'Final Recommendation Statement' 제목 아래 표시된 날짜다. 본문에 별도 수정일 표기가 없어 revised는 unknown이다. 읽은 범위는 권고 요약(Recommendation Summary)과 임상가 요약(Clinician Summary)이다. 미국 예방 권고이며 한국 국가검진·급여·진료지침과 다르다. 한국 자료가 있으면 한국 자료가 우선한다. 이용조건: USPSTF 저작권 안내(Copyright Notice, 2026-10-17 확인)는 내용을 바꾸지 않는 조건(미국 저작권법상 공정이용 범위는 예외)으로 일반인의 복제·재배포·게시·다른 자료 편입을 허용하되, 유료 재배포·판매·영리 사업 편입은 AHRQ 서면 허가가 필요하고, 일부를 인용하면 USPSTF 웹페이지를 출처로 밝히며, 각색물에는 AHRQ·HHS가 보증하지 않는다는 고지를 넣도록 한다. 영상에는 한국어 요약·재서술과 출처 표기만 쓰고 원문 표·문장을 그대로 옮기지 않는다.
 ---
 

@@ -19,7 +19,7 @@ recheck_by: 2026-12-16
 reviewer: Claude Code 직접 확인(WHO 웹 원문). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-related: MED-0387
+related: MED-0387; MED-1354
 note: 원문은 WHO 팩트시트 웹페이지를 텍스트로 변환한 파일(첫 줄 URL). 본문에 발행·수정 연월이 없어 unknown으로 두었다. 하단 목록에 보이는 날짜는 다른 팩트시트의 날짜이며 이 문서의 날짜가 아니다.
 ---
 
