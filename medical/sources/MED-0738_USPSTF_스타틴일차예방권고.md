@@ -8,7 +8,7 @@ disease: 심혈관질환 일차예방(스타틴)
 group: 심장·혈관질환
 topic: 이상지질혈증
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/statin-use-in-adults-preventive-medication
-published: unknown
+published: 2022-08-23
 revised: unknown
 checked: 2026-10-16
 location: 권고 요약(Recommendation Summary)·임상가 요약
@@ -19,8 +19,8 @@ recheck_by: 2026-12-16
 reviewer: "Claude Code 직접 확인(USPSTF 웹 원문). 의료인 검토 미실시"
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-related: MED-0152; MED-0180; MED-0157
-note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). 본문에 권고 발행일이 표기되어 있지 않아 published·revised는 unknown으로 두었다. 페이지에 기재된 근거 검토(Final Evidence Review) 일자 2022-08-23는 권고 발행일이 아니다. 미국 예방 권고이며 한국 국가검진·급여·진료지침과 다르다. 한국 자료가 있으면 한국 자료가 우선한다.
+related: MED-0152; MED-0180; MED-0157; MED-1296; MED-1316
+note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는 2026-10-17 USPSTF 페이지를 다시 열어 'Final Recommendation Statement' 제목 아래 표시된 최종 권고 발표일(2022-08-23)로 채웠다. 별도 수정일 표기가 없어 revised는 unknown이다. 페이지에 기재된 근거 검토(Final Evidence Review) 일자는 2022-08-23이다(권고문과 별개 문서의 날짜). 미국 예방 권고이며 한국 국가검진·급여·진료지침과 다르다. 한국 자료가 있으면 한국 자료가 우선한다. 이용조건: USPSTF 저작권 안내(Copyright Notice, 2026-10-17 확인)는 내용을 바꾸지 않는 조건(미국 저작권법상 공정이용 범위는 예외)으로 일반인의 복제·재배포·게시·다른 자료 편입을 허용하되, 유료 재배포·판매·영리 사업 편입은 AHRQ 서면 허가가 필요하고, 일부를 인용하면 USPSTF 웹페이지를 출처로 밝히며, 각색물에는 AHRQ·HHS가 보증하지 않는다는 고지를 넣도록 한다. 영상에는 한국어 요약·재서술과 출처 표기만 쓰고 원문 표·문장을 그대로 옮기지 않는다.
 ---
 ## 핵심 근거
 - 대상은 심혈관질환(CVD)이 없고 CVD 증상도 없는 성인이다. 매우 높은 LDL 콜레스테롤 수준이거나 가족성 고콜레스테롤혈증인 사람은 이 권고의 대상이 아니다(기준값은 원문 참조).

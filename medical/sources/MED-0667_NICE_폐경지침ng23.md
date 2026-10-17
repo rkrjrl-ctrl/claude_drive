@@ -19,7 +19,7 @@ recheck_by: 2026-12-16
 reviewer: Claude Code 직접 확인(NICE 웹 원문). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-related: MED-0275; MED-0313
+related: MED-0275; MED-0313; MED-1313
 note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published·revised는 본문 상단 Published·Last updated 표기이다. 1.6절(호르몬요법이 특정 건강 결과에 미치는 영향)은 상세히 읽지 않았다. 영국 국가 지침이므로 한국 지침(대한폐경학회)이 우선한다.
 ---
 

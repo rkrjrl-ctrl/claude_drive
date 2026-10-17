@@ -8,7 +8,7 @@ disease: BRCA 유전성 유방·난소암
 group: 암
 topic: 유방암
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/brca-related-cancer-risk-assessment-genetic-counseling-and-genetic-testing
-published: unknown
+published: 2019-08-20
 revised: unknown
 checked: 2026-10-16
 location: 권고 요약(Recommendation Summary)·임상가 요약
@@ -19,8 +19,8 @@ recheck_by: 2026-12-16
 reviewer: "Claude Code 직접 확인(USPSTF 웹 원문). 의료인 검토 미실시"
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-related: MED-1031
-note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). 본문에 최종 권고문 발행일이 표기되지 않아 published·revised는 unknown으로 둔다(Evidence Review 날짜는 권고 발행일이 아니므로 옮기지 않음). 미국 예방 권고이며 한국 국가검진·급여·진료지침과 다르고 한국 자료가 있으면 한국 자료가 우선한다.
+related: MED-1031; MED-1300; MED-1322
+note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는 2026-10-17 USPSTF 페이지를 다시 열어 'Final Recommendation Statement' 제목 아래 표시된 최종 권고 발표일(2019-08-20)로 채웠다. 별도 수정일 표기가 없어 revised는 unknown이다. 같은 날 페이지에 '이 주제는 갱신 중(This topic is being updated)'이라는 안내가 있었다. 미국 예방 권고이며 한국 국가검진·급여·진료지침과 다르고 한국 자료가 있으면 한국 자료가 우선한다. 이용조건: USPSTF 저작권 안내(Copyright Notice, 2026-10-17 확인)는 내용을 바꾸지 않는 조건(미국 저작권법상 공정이용 범위는 예외)으로 일반인의 복제·재배포·게시·다른 자료 편입을 허용하되, 유료 재배포·판매·영리 사업 편입은 AHRQ 서면 허가가 필요하고, 일부를 인용하면 USPSTF 웹페이지를 출처로 밝히며, 각색물에는 AHRQ·HHS가 보증하지 않는다는 고지를 넣도록 한다. 영상에는 한국어 요약·재서술과 출처 표기만 쓰고 원문 표·문장을 그대로 옮기지 않는다.
 ---
 
 ## 핵심 근거

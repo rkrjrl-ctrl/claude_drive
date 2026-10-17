@@ -19,7 +19,7 @@ recheck_by: 2027-01-14
 reviewer: Claude Code 직접 확인(PMC 오픈액세스 전문 텍스트 추출, 권고요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-related: MED-0181
+related: MED-0181; MED-1334; MED-1294; MED-1324
 note: 추출본의 제목이 'Korean Clinical Practice Guideline of Korean Society for Research on Nicotine and Tobacco (KSRNT) and National Evidence-' 에서 끊겨 있어 원문 제목 전체는 확인하지 못했다(미확보). 발표지는 J Korean Med Sci(PMC 표기 연도 2025), 권·호·DOI·게재월은 추출본에 없다(미확보). 이 논문은 MED-0181(NECA·대한금연학회 2025 지침 PDF 본책)과 같은 지침의 학술지 요약판으로 보이며, 권고 내용이 거의 같으나 MED-0181은 배경 수치(2023년 흡연율 등)가 다르다. 두 문서를 섞어 인용하지 말고 같은 권고를 말할 때는 어느 판인지 밝힌다. 논문 본문은 전체 지침 승인을 대한의학회 진료지침위원회에서 심사 중이라고 서술한다. 본문은 기존 지침으로 '한국 금연 진료지침(2023)'을 언급한다(MED-0174의 2017 요약본과 다른 판). 개발은 GRADE ADOLOPMENT, 권고 강도 A(강함)/B(조건부), 근거 확실성 높음·중등도·낮음. 이해상충은 일부 저자가 과거 비재정·재정 이해상충을 신고했으나 개발에 영향 없다고 판단했다고 서술.
 ---
 

@@ -19,7 +19,7 @@ recheck_by: 2026-12-16
 reviewer: Claude Code 직접 확인(NICE 웹 원문). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-related: MED-0576
+related: MED-0576; MED-1325
 note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published와 revised는 본문 상단의 Published/Last updated 날짜이다. 본문에는 Last updated 이후의 기술평가(TA) 참조가 있어 페이지가 그 뒤에도 변경되었을 수 있으나 날짜는 본문 표기만 썼다. 저장소 색인에서 같은 질환의 한국 지침을 찾지 못해 related에는 WHO 시각장애 자료만 두었다.
 ---
 

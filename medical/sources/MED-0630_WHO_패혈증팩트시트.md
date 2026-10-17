@@ -19,7 +19,7 @@ recheck_by: 2026-12-16
 reviewer: "Claude Code 직접 확인(WHO 웹 원문). 의료인 검토 미실시"
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-related: MED-0310
+related: MED-0310; MED-1329
 note: 원문은 WHO 팩트시트 웹페이지를 텍스트로 변환한 파일(첫 줄 URL). 본문에 이 팩트시트 자체의 발행일·수정일 표시가 없어 unknown으로 두었다(페이지 하단 관련 목록의 날짜는 다른 문서 것일 수 있어 쓰지 않음). 국제기구 요약으로 한국 진료 기준과 다를 수 있다.
 ---
 

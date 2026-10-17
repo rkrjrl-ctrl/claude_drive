@@ -19,7 +19,7 @@ recheck_by: 2026-12-16
 reviewer: "Claude Code 직접 확인(NICE 웹 원문). 의료인 검토 미실시"
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-related: MED-0616; MED-0612
+related: MED-0616; MED-0612; MED-1337
 note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는 본문 상단의 Published, revised는 본문 상단의 Last updated를 옮겼다. 본문에 Last updated 표기가 없어 revised는 unknown이다. 영국 국가 지침이며 한국 지침이 우선한다.
 ---
 

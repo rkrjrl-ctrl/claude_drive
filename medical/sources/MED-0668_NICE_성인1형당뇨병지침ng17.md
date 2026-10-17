@@ -19,7 +19,7 @@ recheck_by: 2026-12-16
 reviewer: Claude Code 직접 확인(NICE 웹 원문). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-related: MED-0272; MED-0143
+related: MED-0272; MED-0143; MED-1317
 note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published·revised는 본문 상단 Published·Last updated 표기이다. 한국에는 제1형 당뇨병 단독 지침이 이 저장소에 없어 대한당뇨병학회 진료지침(MED-0272 등)을 참조로 둔다. 일부 절은 항목 제목 수준으로만 훑었다.
 ---
 
