@@ -10,16 +10,16 @@ topic: 눈질환
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13078937/
 published: 2026
 revised: unknown
-checked: 2026-10-16
+checked: 2026-10-17
 location: 서론, 생활습관 조정(야외활동·근거리 작업·디지털 기기), 환자 선택, 간헐외사시 동반, 근시 진행 억제(안경렌즈·콘택트렌즈·각막굴절교정렌즈·아트로핀·병용), 치료 효과 평가, 치료 중단, 결론, 핵심 요점(Key points), 표 1(환자 선택 위험인자) 본문을 읽음. 참고문헌 목록은 변환본에서 제거되어 확인하지 못함
 source_type: guideline_summary
 tier: A
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(PMC 오픈액세스 전문 텍스트 추출, 권고요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-note: 성격은 전문가 합의문(Consensus Statement, 입장문)이다. 학술지 Korean J Ophthalmol(PMC 변환본 헤더의 발행연도 2026, 제목에 2025 표기). 변환본 제목이 'for the Korean Associat'에서 잘려 있어 본문 서문·감사의 글로 KAPOS 산하 Korean Myopia Society가 구성한 태스크포스(23명 명단)임을 확인했다. 지시문의 파일명은 '대한근시학회'였으나 본문은 KAPOS(대한소아안과 관련 학회의 영문 약어) 산하 Korean Myopia Society로 적혀 있고 한글 정식 명칭은 본문에서 확인하지 못해 파일명에 영문 학회명+KAPOS를 썼다. 권/호/쪽/DOI와 정확한 게재일은 변환본에서 확인하지 못했다(미확보). 근거수준·권고등급 체계는 사용하지 않았고, 결론부에서 많은 권고가 장기 추적이 제한적이고 근거수준이 중등도~낮음인 연구에 기반한다고 서술한다. 이해상충 없음, 재정지원 없음으로 서술. 한국 식약처 허가 렌즈 상품명이 본문에 나오나 이 기록에는 제품 비교를 옮기지 않았다.
+note: 성격은 전문가 합의문(Consensus Statement, 입장문)이다. 학술지 Korean J Ophthalmol(PMC 변환본 헤더의 발행연도 2026, 제목에 2025 표기). 변환본 제목이 'for the Korean Associat'에서 잘려 있어 본문 서문·감사의 글로 KAPOS 산하 Korean Myopia Society가 구성한 태스크포스(23명 명단)임을 확인했다. 지시문의 파일명은 '대한근시학회'였으나 본문은 KAPOS(대한소아안과 관련 학회의 영문 약어) 산하 Korean Myopia Society로 적혀 있고 한글 정식 명칭은 본문에서 확인하지 못해 파일명에 영문 학회명+KAPOS를 썼다. 권/호/쪽/DOI와 정확한 게재일은 변환본에서 확인하지 못했다(미확보). 근거수준·권고등급 체계는 사용하지 않았고, 결론부에서 많은 권고가 장기 추적이 제한적이고 근거수준이 중등도~낮음인 연구에 기반한다고 서술한다. 이해상충 없음, 재정지원 없음으로 서술. 한국 식약처 허가 렌즈 상품명이 본문에 나오나 이 기록에는 제품 비교를 옮기지 않았다. 2026-10-17 재대조(PMC 전문 XML): 핵심 근거 수치 14/14개와 서술을 원문과 대조해 일치 확인, 권·호·쪽·doi·게재일은 아래 서지로 확인(KAPOS·Korean Myopia Society의 한글 정식 명칭은 원문에 없어 그대로 둠). 서지: 'Myopia Management Consensus Statement in South Korean Children 2025 by the Korean Myopia Society for the Korean Association for Pediatric Ophthalmology and Strabismus', Korean Journal of Ophthalmology : KJO 40(2):185-205, doi 10.3341/kjo.2025.0179, 게재일 epub 2026-02-04; ppub 2026-04.
 ---
 
 ## 핵심 근거
@@ -45,6 +45,7 @@ note: 성격은 전문가 합의문(Consensus Statement, 입장문)이다. 학�
 - 한국 건강보험 급여, 약제·렌즈의 국내 허가사항 세부, 비용은 확인하지 못했다(미확보).
 - 권/호/쪽, DOI, 정확한 게재일, KAPOS와 Korean Myopia Society의 한글 정식 명칭은 확인하지 못했다(미확보).
 - 아트로핀 농도·점안 횟수·감량 일정을 시청자에게 지시하듯 말하지 않는다. 개별 렌즈·약제 상품명을 추천하듯 말하지 않는다.
+- (2026-10-17 해결) PMC 전문 XML(efetch)을 다시 받아 핵심 근거를 본문·표와 대조했다(핵심 근거 속 수치 14/14개가 원문에 있음), 권·호·쪽·doi·게재일은 아래 서지로 확인(KAPOS·Korean Myopia Society의 한글 정식 명칭은 원문에 없어 그대로 둠). 위 미확보 항목(보충자료·그림 도식·용량·급여 등)은 PMC 본문 밖이거나 이 요약에 옮기지 않은 범위라, 요약한 범위에 한정해 verified로 올린다.
 
 ## 영상 활용 메모
 - 쓸 수 있는 메시지(일반 시청자 설명): '한국 소아안과 전문가 합의문은 아이의 근시 진행을 늦추기 위해 야외활동을 늘리고 가까이 보는 시간을 줄이는 생활습관 조정을 모든 근시 아이에게 권하고, 근시가 빨리 진행하거나 부모가 근시인 경우처럼 위험이 높으면 더 일찍 안과 전문의와 치료를 상의하라고 설명한다. 안경렌즈, 특수 콘택트렌즈, 각막굴절교정렌즈, 저농도 아트로핀 점안 등 선택지가 있고 아이마다 맞는 방법이 다르며 정기적인 안축장 검사로 효과를 확인한다.'

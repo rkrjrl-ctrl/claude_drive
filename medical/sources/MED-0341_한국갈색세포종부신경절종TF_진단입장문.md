@@ -10,17 +10,17 @@ topic: 내분비질환 기타
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8090459/
 published: 2021
 revised: unknown
-checked: 2026-10-16
+checked: 2026-10-17
 location: 요약(권고 목록), 서론, 방법(근거수준 정의), 권고 1~5의 토론(분류·TNM, 생화학 검사, 영상, 병리 등급·SDHB 면역염색, 유전자 검사), 결론, 표 1~6을 읽음. 그림 1(핵의학 영상 알고리즘)은 캡션만 있어 읽지 못함
 source_type: guideline_summary
 tier: A
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(PMC 오픈액세스 전문 텍스트 추출, 권고요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0271
-note: Endocrinol Metab (Seoul) 2021 (PMC 메타데이터의 YEAR=2021, 권·호·쪽은 확인하지 못함). PMC 제목이 잘려 있어('...Korean Pheochromocytoma and Paragang') 본문으로 확인했다: 본문은 'PPGL task force team'이 진단 지침을 개발했다고 서술하고 대한내분비학회·외과학회·핵의학회·병리학회·영상의학회·진단검사의학회로 구성된 다학제 위원회라고 쓴다(영문 학회명은 Korean Endocrine Society 등으로 표기되어 한국어 정식 명칭은 확인하지 못함). 연구는 Korean Endocrine Society의 지원을 받았다고 사사에 서술. 이 문서는 진단 영역만 다루며 치료·수술 전 관리·추적은 범위 밖이다. 근거수준은 A/B/C/E(전문가 의견) 4단계로 정의된 위원회 자체 체계(Kim 등 문헌에서 차용)이고 GRADE가 아니며 권고 강도는 별도로 제시하지 않는다. 이해상충 없음 서술. MED-0271(원발성알도스테론증 합의지침)은 같은 부신 영역의 다른 질환 문서로, 부신 우연종 평가에서 함께 참고할 수 있으나 진단 기준은 섞지 않는다.
+note: Endocrinol Metab (Seoul) 2021 (PMC 메타데이터의 YEAR=2021, 권·호·쪽은 확인하지 못함). PMC 제목이 잘려 있어('...Korean Pheochromocytoma and Paragang') 본문으로 확인했다: 본문은 'PPGL task force team'이 진단 지침을 개발했다고 서술하고 대한내분비학회·외과학회·핵의학회·병리학회·영상의학회·진단검사의학회로 구성된 다학제 위원회라고 쓴다(영문 학회명은 Korean Endocrine Society 등으로 표기되어 한국어 정식 명칭은 확인하지 못함). 연구는 Korean Endocrine Society의 지원을 받았다고 사사에 서술. 이 문서는 진단 영역만 다루며 치료·수술 전 관리·추적은 범위 밖이다. 근거수준은 A/B/C/E(전문가 의견) 4단계로 정의된 위원회 자체 체계(Kim 등 문헌에서 차용)이고 GRADE가 아니며 권고 강도는 별도로 제시하지 않는다. 이해상충 없음 서술. MED-0271(원발성알도스테론증 합의지침)은 같은 부신 영역의 다른 질환 문서로, 부신 우연종 평가에서 함께 참고할 수 있으나 진단 기준은 섞지 않는다. 2026-10-17 재대조(PMC 전문 XML): 핵심 근거 수치 9/9개와 서술을 원문과 대조해 일치 확인. 서지: 'Diagnosis for Pheochromocytoma and Paraganglioma: A Joint Position Statement of the Korean Pheochromocytoma and Paraganglioma Task Force', Endocrinology and Metabolism 36(2):322-338, doi 10.3803/EnM.2020.908, 게재일 epub 2021-04-06; ppub 2021-04.
 ---
 
 ## 핵심 근거
@@ -42,6 +42,7 @@ note: Endocrinol Metab (Seoul) 2021 (PMC 메타데이터의 YEAR=2021, 권·호�
 - 치료(수술 전 알파차단제 준비 포함), 수술, 전이성 PPGL 전신치료 상세, 추적관찰, 임신 중 관리, 건강보험 급여 기준은 이 문서의 범위가 아니다(미확보).
 - 본문 인용 개별 연구의 민감도·특이도·생존율 수치, 방사성의약품 반응률 등은 요약하지 않았다.
 - 영상에서 특정 증상을 가진 시청자에게 'PPGL을 의심하라'거나 검사 종류를 지정하는 표현, 약 이름·용량을 시청자 지시처럼 말하는 것, 유전자 검사를 모든 고혈압 환자에게 권하는 듯한 일반화는 금지.
+- (2026-10-17 해결) PMC 전문 XML(efetch)을 다시 받아 핵심 근거를 본문·표와 대조했다(핵심 근거 속 수치 9/9개가 원문에 있음). 위 미확보 항목(보충자료·그림 도식·용량·급여 등)은 PMC 본문 밖이거나 이 요약에 옮기지 않은 범위라, 요약한 범위에 한정해 verified로 올린다.
 
 ## 영상 활용 메모
 - 쓸 수 있는 메시지(일반 시청자 설명): 갈색세포종·부신경절종은 드문 호르몬(카테콜아민) 분비 종양으로, 발작적 고혈압·두통·식은땀·두근거림이 나타날 수 있고 조절되지 않으면 심혈관 합병증 위험이 있다고 한국 TF 입장문이 서술한다. 진단은 호르몬 대사산물(메타네프린) 검사로 먼저 확인하고 CT·MRI 등으로 위치를 찾으며, 유전성이 흔해 진단된 환자에게는 유전자 검사를 권고한다고 설명할 수 있다. 의심 증상이 있으면 내분비내과 진료를 받도록 안내한다.

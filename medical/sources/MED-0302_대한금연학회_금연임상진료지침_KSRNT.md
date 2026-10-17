@@ -10,17 +10,17 @@ topic: 생활습관(금연·영양·운동)
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12518755/
 published: 2025
 revised: unknown
-checked: 2026-10-16
+checked: 2026-10-17
 location: PMC 오픈액세스 전문 텍스트(약 82KB) 중 서론, 개발 과정, 권고 요약표(표 1), 약물요법 첫 권고(바레니클린)와 병합 니코틴대체요법 비교 본문 일부, 금전적 보상·특수집단(폐결핵, 폐암, 폐암검진, 선택수술, 심장질환, 정신질환)·전자담배/궐련형 전자담배 본문, 결론을 읽음. 약물요법 중 부프로피온·병합요법 본문과 비약물요법(앱, 문자, 전화상담, 간단조언, 상담, 인지행동치료) 상세 본문, 보충자료(GRADE 근거표, 이해상충 표)는 읽지 못함
 source_type: guideline_summary
 tier: A
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(PMC 오픈액세스 전문 텍스트 추출, 권고요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0181; MED-1334; MED-1294; MED-1324
-note: 추출본의 제목이 'Korean Clinical Practice Guideline of Korean Society for Research on Nicotine and Tobacco (KSRNT) and National Evidence-' 에서 끊겨 있어 원문 제목 전체는 확인하지 못했다(미확보). 발표지는 J Korean Med Sci(PMC 표기 연도 2025), 권·호·DOI·게재월은 추출본에 없다(미확보). 이 논문은 MED-0181(NECA·대한금연학회 2025 지침 PDF 본책)과 같은 지침의 학술지 요약판으로 보이며, 권고 내용이 거의 같으나 MED-0181은 배경 수치(2023년 흡연율 등)가 다르다. 두 문서를 섞어 인용하지 말고 같은 권고를 말할 때는 어느 판인지 밝힌다. 논문 본문은 전체 지침 승인을 대한의학회 진료지침위원회에서 심사 중이라고 서술한다. 본문은 기존 지침으로 '한국 금연 진료지침(2023)'을 언급한다(MED-0174의 2017 요약본과 다른 판). 개발은 GRADE ADOLOPMENT, 권고 강도 A(강함)/B(조건부), 근거 확실성 높음·중등도·낮음. 이해상충은 일부 저자가 과거 비재정·재정 이해상충을 신고했으나 개발에 영향 없다고 판단했다고 서술.
+note: 추출본의 제목이 'Korean Clinical Practice Guideline of Korean Society for Research on Nicotine and Tobacco (KSRNT) and National Evidence-' 에서 끊겨 있어 원문 제목 전체는 확인하지 못했다(미확보). 발표지는 J Korean Med Sci(PMC 표기 연도 2025), 권·호·DOI·게재월은 추출본에 없다(미확보). 이 논문은 MED-0181(NECA·대한금연학회 2025 지침 PDF 본책)과 같은 지침의 학술지 요약판으로 보이며, 권고 내용이 거의 같으나 MED-0181은 배경 수치(2023년 흡연율 등)가 다르다. 두 문서를 섞어 인용하지 말고 같은 권고를 말할 때는 어느 판인지 밝힌다. 논문 본문은 전체 지침 승인을 대한의학회 진료지침위원회에서 심사 중이라고 서술한다. 본문은 기존 지침으로 '한국 금연 진료지침(2023)'을 언급한다(MED-0174의 2017 요약본과 다른 판). 개발은 GRADE ADOLOPMENT, 권고 강도 A(강함)/B(조건부), 근거 확실성 높음·중등도·낮음. 이해상충은 일부 저자가 과거 비재정·재정 이해상충을 신고했으나 개발에 영향 없다고 판단했다고 서술. 2026-10-17 재대조(PMC 전문 XML): 핵심 근거 수치 1/1개와 서술을 원문과 대조해 일치 확인, 정식 제목·권·호·doi·게재일은 아래 서지로 확인. 서지: 'Korean Clinical Practice Guideline of Korean Society for Research on Nicotine and Tobacco (KSRNT) and National Evidence-based Healthcare Collaborating Agency (NECA) on Treatment of Tobacco Use 2024', Journal of Korean Medical Science 40(39):395-400, doi 10.3346/jkms.2025.40.e299, 게재일 epub 2025-10-10; collection 2025-10-13.
 ---
 
 ## 핵심 근거
@@ -45,6 +45,7 @@ note: 추출본의 제목이 'Korean Clinical Practice Guideline of Korean Socie
 - 부프로피온·병합요법 개별 본문, 비약물요법 중 앱·문자·전화상담·초간단 조언·개인상담·인지행동치료의 상세 본문, 보충표(GRADE 근거표, 이해상충표), 약물 치료 알고리즘 그림은 읽지 못했다(미확보).
 - 약제 용량·투여 기간과 임상시험 수치는 옮기지 않았다(미확보). 건강보험 금연치료 급여 조건은 이 논문 서술(제형 한 가지 보장 등)만 확인했고 최신 기준은 확인하지 못했다(미확보).
 - 영상에서 시청자에게 특정 금연 약을 처방받으라는 식의 지시, 전자담배·HTP가 금연 수단으로 안전하다는 암시, 약 용량·기간을 개인 행동 지침처럼 말하는 표현은 쓰지 않는다.
+- (2026-10-17 해결) PMC 전문 XML(efetch)을 다시 받아 핵심 근거를 본문·표와 대조했다(핵심 근거 속 수치 1/1개가 원문에 있음), 정식 제목·권·호·doi·게재일은 아래 서지로 확인. 위 미확보 항목(보충자료·그림 도식·용량·급여 등)은 PMC 본문 밖이거나 이 요약에 옮기지 않은 범위라, 요약한 범위에 한정해 verified로 올린다.
 
 ## 영상 활용 메모
 - 쓸 수 있는 메시지(일반 시청자 설명): 니코틴 의존 때문에 의지만으로 끊기는 어려워 고혈압·당뇨처럼 치료와 사회적 지원을 함께 받는 것이 낫다고 대한금연학회·한국보건의료연구원 지침이 설명한다. 국내 지침은 바레니클린, 니코틴대체요법, 부프로피온을 일차 약물로, 상담·문자·전화상담 같은 비약물 방법을 함께 권하며, 수술이나 폐암검진을 앞둔 시점이 금연을 시작하기 좋은 계기라고 본다. 전자담배나 궐련형 전자담배 사용자도 같은 방식의 금연치료를 받을 수 있다고 안내한다.

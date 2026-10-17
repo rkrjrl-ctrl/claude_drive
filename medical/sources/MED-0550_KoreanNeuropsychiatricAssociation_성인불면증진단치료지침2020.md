@@ -10,16 +10,16 @@ topic: 정신건강
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7711116/
 published: 2020
 revised: unknown
-checked: 2026-10-16
+checked: 2026-10-17
 location: PMC 오픈액세스 전문 텍스트 전체(서론, 개발 방법, 진단, 비약물치료, 약물치료, 임상 양상별 약물 선택, 복용 시점, 고찰, 표 1~4, 그림 1·2 설명문)를 읽음. 그림 1·2의 도식, 온라인 보충자료(보충표 1~6), 참고문헌은 확인하지 못함(미확보)
 source_type: guideline_summary
 tier: A
-status: partial
-recheck_by: 2026-12-16
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(PMC 전문). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-note: Psychiatry Investig 게재. published 2020은 변환 파일 머리말(YEAR)로 확인했으며 권(호)·쪽·DOI(본문에는 보충자료 DOI만 있음)는 확인하지 못했다. 본문은 한국어 원판이 2019년에 발간되었다고 적고 있어 이 영문 게재본과 발행 시점이 다르다. 한글 학회명이 본문에 없어 기관명은 본문의 영문 표기(Korean Neuropsychiatric Association)를 그대로 썼다. 이 지침은 새로 근거를 종합한 것이 아니라 미국의사협회(ACP 2016), 유럽수면학회(ESRS 2017), 미국수면의학회(AASM 2017) 지침 3종을 수용 개발한 것이다. 표 4에서 권고 14는 디펜히드라민과 발레리안 두 항목이 한 줄로 합쳐져 추출되어 있고 에스조피클론 표기 오타(eszolpiclon)가 있다. 본문이 서술한 약제 허가 상태는 본문 작성 시점(Korean Food and Drug Administration, KFDA 표기) 기준이다.
+note: Psychiatry Investig 게재. published 2020은 변환 파일 머리말(YEAR)로 확인했으며 권(호)·쪽·DOI(본문에는 보충자료 DOI만 있음)는 확인하지 못했다. 본문은 한국어 원판이 2019년에 발간되었다고 적고 있어 이 영문 게재본과 발행 시점이 다르다. 한글 학회명이 본문에 없어 기관명은 본문의 영문 표기(Korean Neuropsychiatric Association)를 그대로 썼다. 이 지침은 새로 근거를 종합한 것이 아니라 미국의사협회(ACP 2016), 유럽수면학회(ESRS 2017), 미국수면의학회(AASM 2017) 지침 3종을 수용 개발한 것이다. 표 4에서 권고 14는 디펜히드라민과 발레리안 두 항목이 한 줄로 합쳐져 추출되어 있고 에스조피클론 표기 오타(eszolpiclon)가 있다. 본문이 서술한 약제 허가 상태는 본문 작성 시점(Korean Food and Drug Administration, KFDA 표기) 기준이다. 2026-10-17 재대조(PMC 전문 XML): 핵심 근거 수치 5/5개와 서술을 원문과 대조해 일치 확인. 서지: 'Korean Clinical Practice Guideline for the Diagnosis and Treatment of Insomnia in Adults', Psychiatry Investigation 17(11):1048-1059, doi 10.30773/pi.2020.0146, 게재일 epub 2020-11-18; ppub 2020-11.
 ---
 
 ## 핵심 근거
@@ -43,6 +43,7 @@ note: Psychiatry Investig 게재. published 2020은 변환 파일 머리말(YEAR
 - 약 용량·복용 시간 수치와 연구 수치는 이 요약에 옮기지 않았다. 표 3의 국내 약제 목록과 용량은 영상에 쓰지 않는다.
 - 영상에서 특정 수면제 이름을 권하거나 복용 시점·용량을 안내하는 표현, 수면제를 '끊어라/먹어라'는 지시, 서방형 멜라토닌을 일반 건강기능식품 멜라토닌과 같다고 말하는 표현은 금지(본문은 두 제형을 구분한다).
 - 라멜테온·수보렉산트를 국내에서 처방 가능한 것처럼 안내하는 표현 금지(본문 시점 기준 미도입).
+- (2026-10-17 해결) PMC 전문 XML(efetch)을 다시 받아 핵심 근거를 본문·표와 대조했다(핵심 근거 속 수치 5/5개가 원문에 있음). 위 미확보 항목(보충자료·그림 도식·용량·급여 등)은 PMC 본문 밖이거나 이 요약에 옮기지 않은 범위라, 요약한 범위에 한정해 verified로 올린다.
 
 ## 영상 활용 메모
 - 쓸 수 있는 메시지(일반 시청자 설명): 한국 불면증 임상진료지침은 만성 불면증의 첫 치료로 약보다 인지행동치료를 우선하라고 권고한다. 수면제는 인지행동치료가 어렵거나 효과가 부족할 때 짧은 기간만 신중히 쓰도록 하며, 장기 사용의 효과와 안전성 근거는 부족하다고 설명한다. 진단은 증상 중심이고 수면일기가 도움이 되며, 수면무호흡 등 다른 수면질환과의 감별이 필요하다.

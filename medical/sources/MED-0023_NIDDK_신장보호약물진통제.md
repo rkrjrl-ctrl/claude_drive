@@ -14,13 +14,14 @@ checked: 2026-10-17
 location: Manage medicines / OTC medicines / Plan ahead
 source_type: web_summary
 tier: C
-status: needs_recheck
-recheck_by: 2027-04-17
+status: partial
+recheck_by: 2026-12-17
 reviewer: 자료정리(AI). 의료인 검토 미실시
 drive_file: https://drive.google.com/file/d/1F1r1G98OVfAXjDBaOgaWUs13Bs2t-r7A/view
 video_use: 수술 후 감기약·진통제를 임의 복용하기 전 체크
 related: MED-1041, MED-1241
 migrated_from: Drive 시트 '휴휴휴 의료정보_자료목록과 운영흐름' (2026-10-11 기준 이전)
+note: 2026-10-17 재확인: 현행 페이지를 다시 열어 같은 판(검토·수정일 2018-06)이 유지되고 있음을 확인했다. 원문 확인으로 partial로 바꾸되, 해외·환자용 자료로 국내 제도 근거 사용 금지(tier C)와 오래된 자료라는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -34,6 +35,7 @@ CKD·당뇨·고혈압 또는 특정 혈압약 복용자 중심의 2018년 교�
 
 ## 미검증·사용 금지
 신장암 치료약과의 개별 상호작용·용량·국내 허가정보.
+- 2026-10-17 재확인 기준으로 기관의 이후 개정판 여부와 같은 주제의 국내 1차 자료 대응은 미확보다(partial 사유).
 
 ## 영상 활용 메모
 '복용 전 의료진·약사와 상담'이라는 행동 안내까지만.

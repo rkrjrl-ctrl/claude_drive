@@ -10,17 +10,17 @@ topic: 뇌졸중
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12790912/
 published: 2026
 revised: unknown
-checked: 2026-10-16
+checked: 2026-10-17
 location: PMC 오픈액세스 전문 텍스트(J Korean Neurosurg Soc)의 서론, 개발방법, 결과(권고문 4개와 근거 서술), 토론, 결론, Table 1 권고 요약을 읽음. 참고문헌 목록은 원문 텍스트에서 제거되어 있고 보충자료(Supplementary Material 1·표·그림)와 그림 1~4(포레스트 플롯)는 읽지 않음
 source_type: guideline_summary
 tier: A
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(PMC 오픈액세스 전문 텍스트 추출, 권고요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0477
-note: 임상진료지침정보센터에도 등록됨(https://www.guideline.or.kr/guide/view.php?number=1167&cate=A, 첨부 ZIP의 한글판 docx). PMC 표기 J Korean Neurosurg Soc, PMCID PMC12790912, 연도 2026. 발행연도 2026은 PMC 서지 기준이며 권·호·월은 텍스트에 없다(보충자료 DOI 표기는 jkns.2025.0103). 제목이 잘려 있어 본문으로 주제를 확인했다(대혈관폐색을 동반한 급성 허혈뇌졸중 환자의 이송 결정). 발행주체는 본문에 KoNES가 연구비를 지원하고 개발위원회가 KoNES와 독립적으로 운영되었다고 서술된 점으로 판단했으며 저자 단체명은 명시되지 않아 불확실하다. 시리즈 II. 정맥 혈전용해 후 이송(drip-and-ship)과 직접 이송(mothership)을 비교한 권고이다. 건강보험 급여는 확인하지 못했다.
+note: 임상진료지침정보센터에도 등록됨(https://www.guideline.or.kr/guide/view.php?number=1167&cate=A, 첨부 ZIP의 한글판 docx). PMC 표기 J Korean Neurosurg Soc, PMCID PMC12790912, 연도 2026. 발행연도 2026은 PMC 서지 기준이며 권·호·월은 텍스트에 없다(보충자료 DOI 표기는 jkns.2025.0103). 제목이 잘려 있어 본문으로 주제를 확인했다(대혈관폐색을 동반한 급성 허혈뇌졸중 환자의 이송 결정). 발행주체는 본문에 KoNES가 연구비를 지원하고 개발위원회가 KoNES와 독립적으로 운영되었다고 서술된 점으로 판단했으며 저자 단체명은 명시되지 않아 불확실하다. 시리즈 II. 정맥 혈전용해 후 이송(drip-and-ship)과 직접 이송(mothership)을 비교한 권고이다. 건강보험 급여는 확인하지 못했다. 2026-10-17 재대조(PMC 전문 XML): 핵심 근거 수치 20/20개와 서술을 원문과 대조해 일치 확인. 서지: 'Clinical Practice Guidelines for the Prehospital Stage of Acute Stroke in Korea II : Transport Decisions for Patients with Acute Ischemic Stroke', Journal of Korean Neurosurgical Society 69(1):23-34, doi 10.3340/jkns.2025.0103, 게재일 epub 2025-07-23; ppub 2026-01.
 ---
 
 ## 핵심 근거
@@ -47,6 +47,7 @@ note: 임상진료지침정보센터에도 등록됨(https://www.guideline.or.kr
 - 이송 시간·거리 기준값(예: 몇 분 이내)은 연구별로 상이하게 인용될 뿐 확정 기준이 아니다. 지침 본문도 단일 기준을 제시하지 않는다.
 - 발행 월·권·호, 저자 단체의 공식 명칭, 건강보험 급여와 지역별 이송 프로토콜 세부는 확인하지 못했다(미확보).
 - 영상에서 시청자에게 특정 병원으로 가라고 지시하거나 이송 방식 선택을 안내하는 표현은 금지.
+- (2026-10-17 해결) PMC 전문 XML(efetch)을 다시 받아 핵심 근거를 본문·표와 대조했다(핵심 근거 속 수치 20/20개가 원문에 있음). 위 미확보 항목(보충자료·그림 도식·용량·급여 등)은 PMC 본문 밖이거나 이 요약에 옮기지 않은 범위라, 요약한 범위에 한정해 verified로 올린다.
 
 ## 영상 활용 메모
 - 쓸 수 있는 메시지(일반 시청자 설명): 뇌의 큰 혈관이 막힌 뇌경색은 혈전용해와 혈전제거술이 모두 중요해서, 국내 학회 지침은 가능하면 두 치료를 모두 하는 병원으로 곧바로 가는 것이 기능 회복에 유리하다고 본다. 다만 그런 병원이 멀면 가까운 병원에서 혈전용해를 먼저 하고 옮기는 방법도 고려하며, 어떤 방식이 적합한지는 현장의 구급·의료진이 정한다. 뇌졸중이 의심되면 직접 운전하지 말고 119를 부르는 것이 핵심이다.

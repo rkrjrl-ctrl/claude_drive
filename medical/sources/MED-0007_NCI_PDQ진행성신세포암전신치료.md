@@ -10,17 +10,18 @@ topic: 신장암
 url: https://www.cancer.gov/types/kidney/hp/kidney-treatment-pdq
 published: unknown
 revised: 2025-05-13
-checked: 2026-10-10
+checked: 2026-10-17
 location: Treatment of Stage IV and Recurrent RCC · 1차/2차 치료 · Immunotherapy 절
 source_type: web_summary
 tier: C
-status: needs_recheck
-recheck_by: 2026-12-11
+status: partial
+recheck_by: 2026-12-17
 reviewer: 자료정리(AI). 의료인 검토 미실시
 drive_file: https://drive.google.com/file/d/1A7PJJAEY8V4t7tdflNPeh1einWAznjlf/view
 video_use: 미배정
 related: MED-1059
 migrated_from: Drive 시트 '휴휴휴 의료정보_자료목록과 운영흐름' (2026-10-11 기준 이전)
+note: 2026-10-17 재확인: 현행 페이지를 다시 열어 같은 판(검토·수정일 2025-05-13)이 유지되고 있음을 확인했다. 원문 확인으로 partial로 바꾸되, 해외·환자용 자료로 국내 제도 근거 사용 금지(tier C)와 오래된 자료라는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -33,6 +34,7 @@ migrated_from: Drive 시트 '휴휴휴 의료정보_자료목록과 운영흐름
 
 ## 미검증·사용 금지
 국내 허가사항(2026-10-17 식약처 효능효과 확인 → MED-1059), 급여 조건, 실제 본인부담·민간보험 지급. 2026년 학회 지침은 MED-0013 참조. EAU 원문은 재사용 제한 때문에 저장하지 않았다.
+- 2026-10-17 재확인 기준으로 기관의 이후 개정판 여부와 같은 주제의 국내 1차 자료 대응은 미확보다(partial 사유).
 
 ## 영상 활용 메모
 조직형·위험군·선행치료·금기를 확인해야 한다는 조건을 반드시 병기한다.

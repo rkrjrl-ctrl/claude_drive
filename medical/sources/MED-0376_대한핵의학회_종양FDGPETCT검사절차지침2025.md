@@ -10,16 +10,16 @@ topic: 검사·시술·수술 전후
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12669421/
 published: 2025
 revised: unknown
-checked: 2026-10-16
+checked: 2026-10-17
 location: 서론·목적, 정의, 임상 적응증(성인·소아), 인력 요건, 검사 절차(방사성의약품 일반 사항, 환자 준비·주의, 필요한 임상정보, 투여·촬영, 영상 처리), 판독·보고, 장비 사양, 정도관리·안전·감염관리·환자교육, 승인·정정 정보를 읽음. 참고문헌은 읽지 못함(원문 변환본에 없음)
 source_type: guideline_summary
 tier: A
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(PMC 오픈액세스 전문 텍스트 추출, 권고요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-note: Nucl Med Mol Imaging 2025 게재(PMC12669421). 제목은 본문상 '(18)F-FDG PET/CT for Oncological Patients: Procedural Guideline by the Korean Society of Nuclear Medicine Version 2.0'이다. 본문 사사에 대한핵의학회 이사회가 2025-02-05 승인했다고 적혀 있고 2025-07-31 정정(Correction) 발행 기록이 있으나 정정 내용은 확인하지 못했다. 학술지 권·호·쪽, DOI는 확인하지 못했다. SNMMI·EANMMI 지침을 국내 상황에 맞게 수정한 절차지침이며 근거수준·권고등급 체계가 없고 2024-06 국내 61개 기관 79대 PET/CT 설문 결과를 병기한다. 이전 버전(v1)은 본문에 소아 종양 내용이 없었다고 하므로 구판과 섞어 인용하지 않는다. 본문은 보험 급여 기준을 별도 확인하라고만 하며 급여 세부는 확인하지 못했다. 이 저장소에 직접 관련된 기존 문서는 찾지 못했다.
+note: Nucl Med Mol Imaging 2025 게재(PMC12669421). 제목은 본문상 '(18)F-FDG PET/CT for Oncological Patients: Procedural Guideline by the Korean Society of Nuclear Medicine Version 2.0'이다. 본문 사사에 대한핵의학회 이사회가 2025-02-05 승인했다고 적혀 있고 2025-07-31 정정(Correction) 발행 기록이 있으나 정정 내용은 확인하지 못했다. 학술지 권·호·쪽, DOI는 확인하지 못했다. SNMMI·EANMMI 지침을 국내 상황에 맞게 수정한 절차지침이며 근거수준·권고등급 체계가 없고 2024-06 국내 61개 기관 79대 PET/CT 설문 결과를 병기한다. 이전 버전(v1)은 본문에 소아 종양 내용이 없었다고 하므로 구판과 섞어 인용하지 않는다. 본문은 보험 급여 기준을 별도 확인하라고만 하며 급여 세부는 확인하지 못했다. 이 저장소에 직접 관련된 기존 문서는 찾지 못했다. 2026-10-17 재대조(PMC 전문 XML): 핵심 근거 수치 9/9개와 서술을 원문과 대조해 일치 확인. 서지: '18F-FDG PET/CT for Oncological Patients: Procedural Guideline by the Korean Society of Nuclear Medicine Version 2.0', Nuclear Medicine and Molecular Imaging 59(6):377-388, doi 10.1007/s13139-025-00928-y, 게재일 epub 2025-07-17; ppub 2025-12.
 ---
 
 ## 핵심 근거
@@ -44,6 +44,7 @@ note: Nucl Med Mol Imaging 2025 게재(PMC12669421). 제목은 본문상 '(18)F-
 - 참고문헌 개별 연구와 정정(Correction) 내용, 이전 버전(v1)과의 차이는 확인하지 못했다(미확보). 국내 설문의 세부 표는 본문 서술 외 확인하지 못했다(미확보).
 - 건강보험 급여 기준은 이 문서에서 확인하지 못했다(미확보).
 - 영상에서 환자에게 금식·인슐린·약 복용 시간을 구체 수치로 지시하는 표현, PET/CT를 암 진단의 확정 검사처럼 말하는 것은 금지.
+- (2026-10-17 해결) PMC 전문 XML(efetch)을 다시 받아 핵심 근거를 본문·표와 대조했다(핵심 근거 속 수치 9/9개가 원문에 있음). 위 미확보 항목(보충자료·그림 도식·용량·급여 등)은 PMC 본문 밖이거나 이 요약에 옮기지 않은 범위라, 요약한 범위에 한정해 verified로 올린다.
 
 ## 영상 활용 메모
 - 쓸 수 있는 메시지(일반 시청자 설명): PET/CT는 암세포가 포도당을 많이 쓰는 특성을 이용해 병변의 대사 활동과 위치를 함께 보는 검사로, 병기 설정·치료 반응 평가·재발 확인 등에 쓰인다. 대한핵의학회 절차지침은 정확한 결과를 위해 검사 전 금식, 혈당 확인(특히 당뇨병 환자), 검사 전 운동 자제 등 준비가 필요하고, 최근 치료나 백신·약물이 영상 해석에 영향을 줄 수 있어 의료진에게 알려야 한다고 설명한다. 구체적 준비는 검사받는 기관의 안내를 따른다.
