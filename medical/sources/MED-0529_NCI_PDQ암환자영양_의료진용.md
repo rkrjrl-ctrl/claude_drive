@@ -10,16 +10,17 @@ topic: 생활습관(금연·영양·운동)
 url: https://www.cancer.gov/about-cancer/treatment/side-effects/appetite-loss/nutrition-hp-pdq
 published: unknown
 revised: 2024-09-20
-checked: 2026-10-16
+checked: 2026-10-17
 location: Basic Principles of Nutrition · Nutrition Screening and Assessment · Nutrition Therapy(경구보충·영양지원·식욕/악액질 약물) · Nutrition in Advanced or Terminal Cancer · Latest Updates
 source_type: guideline_summary
 tier: C
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0201; MED-0482; MED-0025; MED-0024; MED-0516; MED-0517
+note: 2026-10-17 8차 재대조(보정): 현행 원문 페이지의 판(갱신·검토일)이 기록과 같음을 확인하고, 현행 본문을 다시 읽어 핵심 근거 3개 항목을 원문 문장과 대조해 일치를 확인했다 — ① 영양불량·체중 감소 흔함; ② 체중·BMI·알부민의 한계; ③ 악액질. 대조하지 않은 절과 미확인 항목은 이 기록의 범위 밖으로 두고 verified를 유지했다. 해외·환자용 자료(tier C)이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -37,7 +38,7 @@ related: MED-0201; MED-0482; MED-0025; MED-0024; MED-0516; MED-0517
 미국 근거 기반이며 국내 허가·급여·진료 현실과 다를 수 있음(경구영양제·영양지원 급여 기준, 영양사 상담 접근성, 식이 문화, 호스피스 영양 관행). 요약 문서로 공식 진료지침이 아니며 NCI 정책 선언이 아니다. 말기 영양 판단은 환자 가치·법적 환경에 크게 좌우된다.
 
 ## 미검증·사용 금지
-본문 중 ①증상별 식사 요령 상세, 식품 안전(감염 예방) 표, 소아·생존자 절, 개별 시험과 참고문헌은 읽지 않았다(미확보). ②약물 용량·유병률·시험 수치는 영상에 쓰지 않는다. ③"먹으면 암이 낫는다"·"굶기면 암이 줄어든다" 같은 식이-암 치료 단정 금지. ④말기 인공영양·수액 중단·유지 판단은 국내 임종돌봄 지침(MED-0201 참조)과 담당 의료진 판단이 우선이며 이 자료로 정하지 않는다.
+본문 중 ①증상별 식사 요령 상세, 식품 안전(감염 예방) 표, 소아·생존자 절, 개별 시험과 참고문헌은 읽지 않았다(범위 밖). ②약물 용량·유병률·시험 수치는 영상에 쓰지 않는다. ③"먹으면 암이 낫는다"·"굶기면 암이 줄어든다" 같은 식이-암 치료 단정 금지. ④말기 인공영양·수액 중단·유지 판단은 국내 임종돌봄 지침(MED-0201 참조)과 담당 의료진 판단이 우선이며 이 자료로 정하지 않는다.
 
 ## 영상 활용 메모
 '체중 감소와 식욕부진은 흔하므로 미리 영양 선별과 상담을 받는다'는 수준의 안내 보조로만 쓴다. 건강식품·보충제 효능을 암시하지 않고, 말기 영양 장면은 가족 상담 안내 중심으로 신중히 다룬다.

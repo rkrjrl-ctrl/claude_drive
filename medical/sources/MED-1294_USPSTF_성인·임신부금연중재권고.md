@@ -14,13 +14,13 @@ checked: 2026-10-17
 location: 권고 요약(Recommendation Summary)·임상가 요약(Clinician Summary)
 source_type: guideline_summary
 tier: B
-status: partial
-recheck_by: 2026-12-17
+status: verified
+recheck_by: 2027-04-17
 reviewer: "Claude Code 직접 확인(USPSTF 웹 원문). 의료인 검토 미실시"
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0181; MED-0302; MED-0174
-note: 원문은 USPSTF 권고 웹페이지를 텍스트로 변환해 읽었다. published는 페이지의 'Final Recommendation Statement' 제목 아래 표시된 날짜다. 본문에 별도 수정일 표기가 없어 revised는 unknown이다. 읽은 범위는 권고 요약(Recommendation Summary)과 임상가 요약(Clinician Summary)이다. 페이지에 '이 주제는 갱신 중(This topic is being updated)'이라는 안내가 있어 개정 권고가 나올 수 있다. 미국 예방 권고이며 한국 국가검진·급여·진료지침과 다르다. 한국 자료가 있으면 한국 자료가 우선한다. 2026-10-17 갱신 진행 페이지(Update in Progress)를 확인한 결과 새 최종 권고는 아직 없고, 최종 연구계획 단계, 갱신 페이지 최종 수정 2025-07-17이다. 현행 최종 권고(이 기록)가 유효하며 초안 내용은 이 기록에 반영하지 않았다. 이용조건: USPSTF 저작권 안내(Copyright Notice, 2026-10-17 확인)는 내용을 바꾸지 않는 조건(미국 저작권법상 공정이용 범위는 예외)으로 일반인의 복제·재배포·게시·다른 자료 편입을 허용하되, 유료 재배포·판매·영리 사업 편입은 AHRQ 서면 허가가 필요하고, 일부를 인용하면 USPSTF 웹페이지를 출처로 밝히며, 각색물에는 AHRQ·HHS가 보증하지 않는다는 고지를 넣도록 한다. 영상에는 한국어 요약·재서술과 출처 표기만 쓰고 원문 표·문장을 그대로 옮기지 않는다.
+note: 원문은 USPSTF 권고 웹페이지를 텍스트로 변환해 읽었다. published는 페이지의 'Final Recommendation Statement' 제목 아래 표시된 날짜다. 본문에 별도 수정일 표기가 없어 revised는 unknown이다. 읽은 범위는 권고 요약(Recommendation Summary)과 임상가 요약(Clinician Summary)이다. 페이지에 '이 주제는 갱신 중(This topic is being updated)'이라는 안내가 있어 개정 권고가 나올 수 있다. 미국 예방 권고이며 한국 국가검진·급여·진료지침과 다르다. 한국 자료가 있으면 한국 자료가 우선한다. 2026-10-17 갱신 진행 페이지(Update in Progress)를 확인한 결과 새 최종 권고는 아직 없고, 최종 연구계획 단계, 갱신 페이지 최종 수정 2025-07-17이다. 현행 최종 권고(이 기록)가 유효하며 초안 내용은 이 기록에 반영하지 않았다. 2026-10-17 본문 재대조: 현행 USPSTF 페이지의 Final Recommendation Statement(권고 요약·임상가 요약·Practice 또는 Clinical Considerations)를 읽고 핵심 근거 5개 항목(비임신 성인 행동+FDA 승인 약물 A; 임신부 행동 중재 A; 임신부 약물 I; 전자담배 I; 대상 18세 이상)이 원문과 일치함을 확인해 verified로 올렸다. 이용조건: USPSTF 저작권 안내(Copyright Notice, 2026-10-17 확인)는 내용을 바꾸지 않는 조건(미국 저작권법상 공정이용 범위는 예외)으로 일반인의 복제·재배포·게시·다른 자료 편입을 허용하되, 유료 재배포·판매·영리 사업 편입은 AHRQ 서면 허가가 필요하고, 일부를 인용하면 USPSTF 웹페이지를 출처로 밝히며, 각색물에는 AHRQ·HHS가 보증하지 않는다는 고지를 넣도록 한다. 영상에는 한국어 요약·재서술과 출처 표기만 쓰고 원문 표·문장을 그대로 옮기지 않는다.
 ---
 
 ## 핵심 근거
@@ -35,6 +35,7 @@ note: 원문은 USPSTF 권고 웹페이지를 텍스트로 변환해 읽었다. 
 
 ## 미검증·사용 금지
 상담 횟수·총 접촉 시간 같은 수치, 약물 용량, 갱신 중인 새 권고 초안 내용은 옮기지 않았거나 확인하지 않았다. 근거 보고서(Final Evidence Review)·모델링 연구·Supporting Evidence·Recommendations of Others·참고문헌은 읽지 않았다(미확보). 유병률·사망률 등 통계 수치는 옮기지 않았다.
+- (2026-10-17 해결) 현행 USPSTF 페이지의 Final Recommendation Statement(권고 요약·임상가 요약·Practice 또는 Clinical Considerations)를 읽고 핵심 근거를 대조해 일치함을 확인했다. 위 미확인 항목 가운데 근거 보고서·모델링·Evidence Summary·참고문헌과 수치는 이번 대조 범위 밖이다.
 
 ## 영상 활용 메모
 '미국 권고(USPSTF)'임을 밝히고 한국 제도·지침과 구분해 말한다. 금연 관련 영상에서 '미국 예방서비스작업반도 상담과 약물을 함께 쓰는 금연 지원을 최고 등급(A)으로 권한다' 수준의 보조 근거로 쓴다. 전자담배를 금연 수단으로 권하는 것처럼 말하지 않는다. 갱신 중이라는 점을 확인 후 사용.

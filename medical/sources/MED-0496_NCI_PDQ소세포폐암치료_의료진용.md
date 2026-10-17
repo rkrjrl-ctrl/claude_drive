@@ -10,17 +10,17 @@ topic: 폐암
 url: https://www.cancer.gov/types/lung/hp/small-cell-lung-treatment-pdq
 published: unknown
 revised: 2025-05-14
-checked: 2026-10-16
+checked: 2026-10-17
 location: General Information · Cellular Classification · Treatment Option Overview(Table 1) · Limited-/Extensive-Stage/Recurrent 옵션 목록 · Latest Updates
 source_type: guideline_summary
 tier: C
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0047; MED-0048; MED-0121
-note: revised는 본문 하단 'Latest Updates to This Summary' 표기일. 원문 상단 UPDATED는 unknown.
+note: revised는 본문 하단 'Latest Updates to This Summary' 표기일. 원문 상단 UPDATED는 unknown. 2026-10-17 8차 재대조(보정): 현행 원문 페이지의 판(갱신·검토일)이 기록과 같음을 확인하고, 현행 본문을 다시 읽어 핵심 근거 4개 항목을 원문 문장과 대조해 일치를 확인했다 — ① SCLC 약 15%·제한병기 약 30%; ② 백금+에토포시드 표준; ③ 확장병기 아테졸리주맙·더발루맙 추가; ④ 재발 시 토포테칸·루르비넥테딘·탈라타맙. 대조하지 않은 절과 미확인 항목은 이 기록의 범위 밖으로 두고 verified를 유지했다. 해외·환자용 자료(tier C)이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -35,7 +35,7 @@ note: revised는 본문 하단 'Latest Updates to This Summary' 표기일. 원�
 미국 근거 기반이며 국내 허가·급여·진료 현실과 다를 수 있음. PDQ는 의료진 참고용 요약으로 공식 진료지침이 아니다. 옵션 나열은 우열 순위가 아니고 병기, 활동도, 연령, 동반질환, 이전 치료에 따라 달라진다.
 
 ## 미검증·사용 금지
-미확보: 병기 상세, 고령 환자·수술 적응·방사선 분할 등 세부 본문, 약제별 임상시험 세부, 재발 치료 세부, 참고문헌. 약제 용량과 임상시험 수치(HR, 중앙생존기간, 생존율)는 기록하지 않았고 영상에 쓰지 않는다. 국내 허가·급여 범위는 확인하지 않았다.
+범위 밖(읽지 않음): 병기 상세, 고령 환자·수술 적응·방사선 분할 등 세부 본문, 약제별 임상시험 세부, 재발 치료 세부, 참고문헌. 약제 용량과 임상시험 수치(HR, 중앙생존기간, 생존율)는 기록하지 않았고 영상에 쓰지 않는다. 국내 허가·급여 범위는 확인하지 않았다.
 
 ## 영상 활용 메모
 국내 설명은 국가암정보센터(MED-0047, MED-0048)와 대한폐암학회 지침(MED-0121)을 우선한다. 이 자료는 소세포폐암이 "항암·방사선에 반응하지만 재발이 흔하다"는 특성 설명의 보조로만 쓰고, 완치 가능성이나 생존 기대를 단정하지 않는다. 제한/확장병기 구분 조건을 병기한다.

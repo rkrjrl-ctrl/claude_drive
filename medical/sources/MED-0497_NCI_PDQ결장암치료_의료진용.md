@@ -10,17 +10,17 @@ topic: 대장암
 url: https://www.cancer.gov/types/colorectal/hp/colon-treatment-pdq
 published: unknown
 revised: 2025-02-12
-checked: 2026-10-16
+checked: 2026-10-17
 location: General Information · Treatment Option Overview(Table 6) · Stage 0–IV 치료 옵션 절 · Latest Updates
 source_type: guideline_summary
 tier: C
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0039; MED-0041; MED-0120; MED-0196
-note: revised는 본문 하단 'Latest Updates to This Summary' 표기일. 원문 상단 UPDATED는 unknown.
+note: revised는 본문 하단 'Latest Updates to This Summary' 표기일. 원문 상단 UPDATED는 unknown. 2026-10-17 8차 재대조(보정): 현행 원문 페이지의 판(갱신·검토일)이 기록과 같음을 확인하고, 현행 본문을 다시 읽어 핵심 근거 3개 항목을 원문 문장과 대조해 일치를 확인했다 — ① 국한 시 완치 가능·수술 주치료·재발 흔함; ② 복강경 절제 3년 재발·생존 동등; ③ 추적관찰의 생존 이득 미입증. 대조하지 않은 절과 미확인 항목은 이 기록의 범위 밖으로 두고 verified를 유지했다. 해외·환자용 자료(tier C)이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -35,7 +35,7 @@ note: revised는 본문 하단 'Latest Updates to This Summary' 표기일. 원�
 미국 근거 기반이며 국내 허가·급여·진료 현실과 다를 수 있음. PDQ는 의료진 참고용 요약으로 공식 진료지침이 아니고 약제 나열은 우열 순위가 아니다. 결장암만 다루며 직장암은 별도 요약이다. 변이·MSI 상태와 병기에 따라 옵션이 달라진다. 본문은 2025-02-12 갱신분이다.
 
 ## 미검증·사용 금지
-미확보: 병기(TNM) 표, 3기 보조항암 레지멘 세부와 임상시험 근거, 전이성 약제별 근거 본문, 간전이 국소치료 세부, 추적관찰 권고 세부, 참고문헌. 약제 용량과 임상시험 수치(HR, 5년 생존율, 절제 후 생존율)는 기록하지 않았고 영상에 쓰지 않는다. 국내 허가·급여 범위는 확인하지 않았다.
+범위 밖(읽지 않음): 병기(TNM) 표, 3기 보조항암 레지멘 세부와 임상시험 근거, 전이성 약제별 근거 본문, 간전이 국소치료 세부, 추적관찰 권고 세부, 참고문헌. 약제 용량과 임상시험 수치(HR, 5년 생존율, 절제 후 생존율)는 기록하지 않았고 영상에 쓰지 않는다. 국내 허가·급여 범위는 확인하지 않았다.
 
 ## 영상 활용 메모
 국내 설명은 국가암정보센터(MED-0041)와 대한대장항문학회 결장암 권고안(MED-0120, MED-0196)을 우선한다. 이 자료는 "병기에 따라 수술·보조항암·전신치료가 달라진다"는 개념 보조로만 쓰고, 2기 보조항암 여부나 특정 약제를 단정하지 않는다.

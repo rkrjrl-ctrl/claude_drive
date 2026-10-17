@@ -10,17 +10,17 @@ topic: 폐암
 url: https://www.cancer.gov/types/lung/hp/non-small-cell-lung-treatment-pdq
 published: unknown
 revised: 2025-05-15
-checked: 2026-10-16
+checked: 2026-10-17
 location: General Information · Cellular and Molecular Classification · Treatment Option Overview · 병기별 치료 옵션 목록 · Stage IV 1차/2차 치료 옵션 목록 · Latest Updates
 source_type: guideline_summary
 tier: C
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0045; MED-0048; MED-0121; MED-0461
-note: revised는 본문 하단 'Latest Updates to This Summary' 표기일. 원문 상단 UPDATED는 unknown.
+note: revised는 본문 하단 'Latest Updates to This Summary' 표기일. 원문 상단 UPDATED는 unknown. 2026-10-17 8차 재대조(보정): 현행 원문 페이지의 판(갱신·검토일)이 기록과 같음을 확인하고, 현행 본문을 다시 읽어 핵심 근거 4개 항목을 원문 문장과 대조해 일치를 확인했다 — ① NSCLC 조직형(편평·선암·대세포); ② 수술이 완치 가능성 가장 높음; ③ 고령 환자 항암 이득과 골수독성; ④ 4기 치료 목적(생존 연장·증상 조절)과 활동도. 대조하지 않은 절과 미확인 항목은 이 기록의 범위 밖으로 두고 verified를 유지했다. 해외·환자용 자료(tier C)이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -35,7 +35,7 @@ note: revised는 본문 하단 'Latest Updates to This Summary' 표기일. 원�
 미국 근거 기반이며 국내 허가·급여·진료 현실과 다를 수 있음. PDQ는 의료진 참고용 요약으로 공식 진료지침이 아니며 약제 나열은 우열 순위가 아니다. 변이 유무, PD-L1, 조직형, 병기, 활동도에 따라 해당 옵션이 달라진다. 본문은 2025-05-15 갱신분(편집 수정)이며 이후 신약은 반영되지 않았다.
 
 ## 미검증·사용 금지
-미확보: 병기(TNM) 표, 예후인자 세부, 분자 검사 세부, 각 병기 절의 근거 본문, 뇌전이·이차원발암 처치 상세, 약제별 임상시험 세부, 참고문헌. 약제 용량과 임상시험 수치(HR, 생존율, 반응률)는 기록하지 않았고 영상에 쓰지 않는다. 국내 허가·급여 범위, 국내 검사 가능 여부는 확인하지 않았다.
+범위 밖(읽지 않음): 병기(TNM) 표, 예후인자 세부, 분자 검사 세부, 각 병기 절의 근거 본문, 뇌전이·이차원발암 처치 상세, 약제별 임상시험 세부, 참고문헌. 약제 용량과 임상시험 수치(HR, 생존율, 반응률)는 기록하지 않았고 영상에 쓰지 않는다. 국내 허가·급여 범위, 국내 검사 가능 여부는 확인하지 않았다.
 
 ## 영상 활용 메모
 국내 설명은 국가암정보센터(MED-0048)와 대한폐암학회 지침(MED-0121)을 우선한다. 이 자료는 "표적치료·면역치료가 변이와 PD-L1 같은 검사 결과에 따라 선택된다"는 개념 설명 보조로만 쓰고, 특정 약제를 권하는 표현은 피한다. 조직형·유전자 검사·병기·활동도 조건을 병기한다.

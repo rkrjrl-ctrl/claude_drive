@@ -10,17 +10,17 @@ topic: 만성폐쇄성폐질환(COPD)
 url: https://www.nice.org.uk/guidance/ng115
 published: 2018-12-05
 revised: 2019-07-26
-checked: 2026-10-16
+checked: 2026-10-17
 location: Recommendations 페이지(1.1 COPD 진단 · 1.2 안정기 COPD 관리 · 1.3 COPD 악화 관리)
 source_type: guideline_summary
 tier: B
-status: partial
-recheck_by: 2026-12-16
+status: verified
+recheck_by: 2027-04-17
 reviewer: "Claude Code 직접 확인(NICE 웹 원문). 의료인 검토 미실시"
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0153; MED-0174
-note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는 본문 상단의 Published, revised는 본문 상단의 Last updated를 옮겼다. 영국 국가 지침이며 한국 지침이 우선한다.
+note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는 본문 상단의 Published, revised는 본문 상단의 Last updated를 옮겼다. 영국 국가 지침이며 한국 지침이 우선한다. 재대조(2026-10-17): 현행 NICE 개요의 Published 2018-12-05·Last updated 2019-07-26 표기가 기록과 같고 철회·대체 표시가 없으며, location의 권고 절 번호가 현행 권고 페이지에 모두 있어 partial→verified. 이용조건: NICE 이용약관(Terms and conditions, 2026-10-17 확인)의 Notice of Rights에 따르면 NICE 저작 콘텐츠는 영국 안에서만 NICE UK Open Content Licence로 재사용할 수 있고, 영국 밖에서는 개인적 이용·학습·개인 연구를 제외하면 NICE의 사전 서면 동의 없이 전부 또는 일부를 사용·복제·번역·배포할 수 없다(동의에 라이선스·비용이 붙을 수 있음). 한국 채널 영상에서 원문 문장·표를 옮기거나 번역해 보여주지 않고, 사실 확인용 참고와 출처 언급 수준으로만 쓴다.
 ---
 
 ## 핵심 근거
@@ -35,6 +35,7 @@ note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는
 
 ## 미검증·사용 금지
 연령·흡연량(갑년) 기준, 폐활량 비율·중증도 구분 수치, 산소 분압·BMI 범위, 체중 변화 기준, 약 용량·사용 기간은 옮기지 않았다. 안정기 흡입제 단계별 세부, 산소요법·비침습 환기·폐용적 감소 시술의 세부, 급성 악화 약물·산소·환기 절, 표(호흡곤란 척도, 중증도, 의뢰, 악화 평가), 권고 뒤 근거 설명은 전체를 읽지 않았다(미확보).
+- (2026-10-17 해결) 현행 NICE 페이지(Published·Last updated 동일)와 권고 절 번호를 대조했고 핵심 근거 내용이 현행 권고와 맞다. 위에 남은 미확인(수치, 요약하지 않은 절, 근거 설명·근거 검토)은 이 요약이 다루지 않는 범위이며 영상 근거로 쓰지 않는다.
 
 ## 영상 활용 메모
 한국 지침(MED-0153)을 주 근거로 두고, "흡연자의 만성 기침·호흡곤란은 COPD를 의심하고 폐활량 검사로 확인한다", "금연·호흡재활·예방접종이 관리의 일부다" 같은 개념 설명 보조로만 쓴다. 영국 사례임을 밝히고 단독 인용하지 않으며, 흡입제 선택 순서와 수치는 영상에서 권하지 않는다.

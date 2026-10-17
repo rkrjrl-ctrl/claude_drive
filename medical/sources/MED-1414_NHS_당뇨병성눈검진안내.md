@@ -14,13 +14,13 @@ checked: 2026-10-17
 location: 페이지 전체(Why · Who · How to get · Preparing · What happens · Results)
 source_type: web_summary
 tier: C
-status: partial
-recheck_by: 2026-12-17
+status: verified
+recheck_by: 2027-04-17
 reviewer: "Claude Code 직접 확인(NHS 웹 원문). 의료인 검토 미실시"
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0799
-note: 원문은 NHS 웹사이트 환자용 페이지(하위 페이지 포함)를 텍스트로 변환해 읽었다. revised는 페이지 하단의 'Page last reviewed'(마지막 검토일, 2024-10-25) 날짜이며 수정일과 같은 뜻인지는 표시가 없다. 최초 발행일은 표시되지 않아 published는 unknown이다. 영국 환자용 안내이며 한국 제도와 다르다. 이용조건: NHS 웹사이트 이용약관(Terms and conditions 3절, 2026-10-17 확인)에 따르면 NHS 웹사이트 콘텐츠는 별도 표시가 없는 한 Open Government Licence v3.0으로 공개되어 상업적 이용을 포함해 복제·각색할 수 있다. 변경 없이 쓰면 'Information from the NHS website'와 원 페이지 링크(갱신하지 않으면 복사 날짜)를 표기하고, 번역·문맥 변경 등 각색하면 'Contains public sector information licensed under the Open Government Licence v3.0.'로 표기하되 NHS를 출처로 내세우지 않아야 한다. 로고·이미지·제3자 소유 자료·의료기기 소프트웨어에는 OGL이 적용되지 않는다. 한국어 요약은 '각색'에 해당하므로 영상에는 OGL 표기 문구를 쓰고 NHS 로고·사진은 쓰지 않는다.
+note: 원문은 NHS 웹사이트 환자용 페이지(하위 페이지 포함)를 텍스트로 변환해 읽었다. revised는 페이지 하단의 'Page last reviewed'(마지막 검토일, 2024-10-25) 날짜이며 수정일과 같은 뜻인지는 표시가 없다. 최초 발행일은 표시되지 않아 published는 unknown이다. 영국 환자용 안내이며 한국 제도와 다르다. 이용조건: NHS 웹사이트 이용약관(Terms and conditions 3절, 2026-10-17 확인)에 따르면 NHS 웹사이트 콘텐츠는 별도 표시가 없는 한 Open Government Licence v3.0으로 공개되어 상업적 이용을 포함해 복제·각색할 수 있다. 변경 없이 쓰면 'Information from the NHS website'와 원 페이지 링크(갱신하지 않으면 복사 날짜)를 표기하고, 번역·문맥 변경 등 각색하면 'Contains public sector information licensed under the Open Government Licence v3.0.'로 표기하되 NHS를 출처로 내세우지 않아야 한다. 로고·이미지·제3자 소유 자료·의료기기 소프트웨어에는 OGL이 적용되지 않는다. 한국어 요약은 '각색'에 해당하므로 영상에는 OGL 표기 문구를 쓰고 NHS 로고·사진은 쓰지 않는다. 2026-10-17 8차 재대조(보정): 현행 원문 페이지의 판(갱신·검토일)이 기록과 같음을 확인하고, 현행 본문을 다시 읽어 핵심 근거 3개 항목을 원문 문장과 대조해 일치를 확인했다 — ① 12세 이상 1~2년마다; ② 동공 확장 안약·검사 후 운전 불가; ③ 결과 3가지. 대조하지 않은 절과 미확인 항목은 이 기록의 범위 밖으로 두고 verified를 유지했다. 해외·환자용 자료(tier C)이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -33,7 +33,7 @@ note: 원문은 NHS 웹사이트 환자용 페이지(하위 페이지 포함)를
 영국(주로 잉글랜드) NHS의 환자용 안내이며 대상 연령·주기·검사 방법·예약 절차가 한국 국가검진·건강보험과 다르다. 한국 제도 설명의 근거로 쓰지 않고 해외 비교용으로만 쓴다. 의학적 판단 자료가 아니다. 한국의 당뇨 환자 안저검사 권고와 제도는 국내 자료로 확인한다. 영국 NICE 당뇨망막병증 지침(MED-0799) 참조.
 
 ## 미검증·사용 금지
-시력 문제 시 연락처 안내 이후 부분은 요약하지 않았다. 상담전화·예약 절차·지역별 서비스 목록은 옮기지 않았다. 페이지에 연결된 GOV.UK·자선단체 자료는 읽지 않았다(미확보).
+시력 문제 시 연락처 안내 이후 부분은 요약하지 않았다. 상담전화·예약 절차·지역별 서비스 목록은 옮기지 않았다. 페이지에 연결된 GOV.UK·자선단체 자료는 읽지 않았다(범위 밖).
 
 ## 영상 활용 메모
 '영국 NHS 안내'임을 밝히고 한국 국가검진 기준과 나란히 비교하는 용도로만 쓴다. 출처 표기는 OGL v3.0 문구로 하고 NHS 로고·사진은 쓰지 않는다. '당뇨가 있으면 증상이 없어도 정기적으로 망막 검사를 받아야 한다'는 메시지의 해외 사례로 쓴다.

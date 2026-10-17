@@ -10,16 +10,17 @@ topic: 자궁경부암
 url: https://www.cancer.gov/types/cervical/hp/cervical-screening-pdq
 published: unknown
 revised: 2025-04-18
-checked: 2026-10-16
+checked: 2026-10-17
 location: Overview · Pap Test · HPV DNA Test · Cotesting · Screening Women Without a Cervix · Latest Updates
 source_type: guideline_summary
 tier: C
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0102; MED-0288; MED-0287
+note: 2026-10-17 8차 재대조(보정): 현행 원문 페이지의 판(갱신·검토일)이 기록과 같음을 확인하고, 현행 본문을 다시 읽어 핵심 근거 3개 항목을 원문 문장과 대조해 일치를 확인했다 — ① Pap 사망 감소; ② FDA 25세 이상 HPV 단독 1차 검진 승인; ③ 자궁적출 후 검진 무익. 대조하지 않은 절과 미확인 항목은 이 기록의 범위 밖으로 두고 verified를 유지했다. 해외·환자용 자료(tier C)이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -34,7 +35,7 @@ related: MED-0102; MED-0288; MED-0287
 미국 근거 기반이며 국내 국가암검진 권고(MED-0102, MED-0188, MED-0189, MED-0291 등)·급여와 다를 수 있음. 미국 연령·간격 체계(21세 시작, 30세 이상 동시검사 5년 등)가 요약의 배경이다. 국내 국가암검진은 20세 이상 여성 대상 자궁경부세포검사를 쓰고 HPV 1차 검진 도입 여부·간격도 다를 수 있다.
 
 ## 미검증·사용 금지
-국내 국가암검진의 자궁경부암 대상·주기, HPV 검사 급여·본인부담. 개요 절만 읽고 상세 절(세포진 방법, 결과 분류, 참고문헌 원문)은 읽지 않았다(미확보). 감소율·위양성률 등 시험 수치는 기록하지 않았다.
+국내 국가암검진의 자궁경부암 대상·주기, HPV 검사 급여·본인부담. 개요 절만 읽고 상세 절(세포진 방법, 결과 분류, 참고문헌 원문)은 읽지 않았다(범위 밖). 감소율·위양성률 등 시험 수치는 기록하지 않았다.
 
 ## 영상 활용 메모
 HPV 검사가 Pap보다 민감하지만 위양성(일시적 감염)이 있어 연령에 따라 쓰임이 다르다는 점을 함께 말한다. 국내 HPV 검진 권고는 MED-0288, 국내 주기는 MED-0102를 확인한다.

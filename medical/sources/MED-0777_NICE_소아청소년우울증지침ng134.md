@@ -10,17 +10,17 @@ topic: 정신건강
 url: https://www.nice.org.uk/guidance/ng134
 published: 2019-06-25
 revised: unknown
-checked: 2026-10-16
+checked: 2026-10-17
 location: Recommendations 페이지(1.1 모든 아동·청소년 돌봄 · 1.2 단계적 돌봄 · 1.3 1단계 발견·위험 분류·의뢰 · 1.4 2단계 인지 · 1.5 3단계 경증 · 1.6 4~5단계 중등도~중증 · 1.7 성인 서비스 이행 · 용어)
 source_type: guideline_summary
 tier: B
-status: partial
-recheck_by: 2026-12-16
+status: verified
+recheck_by: 2027-04-17
 reviewer: "Claude Code 직접 확인(NICE 웹 원문). 의료인 검토 미실시"
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0733; MED-0158
-note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는 본문 상단의 Published를 옮겼다. 본문 상단에 Last updated 표기가 없어 revised는 unknown이다. 영국 국가 지침이며 한국 지침이 있으면 그것이 우선한다. related의 MED-0733은 소아청소년 우울 선별 USPSTF 권고, MED-0158은 성인 우울증 한국 지침이며 소아청소년 우울증 한국 지침 자료는 저장소에서 확인되지 않았다.
+note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는 본문 상단의 Published를 옮겼다. 본문 상단에 Last updated 표기가 없어 revised는 unknown이다. 영국 국가 지침이며 한국 지침이 있으면 그것이 우선한다. related의 MED-0733은 소아청소년 우울 선별 USPSTF 권고, MED-0158은 성인 우울증 한국 지침이며 소아청소년 우울증 한국 지침 자료는 저장소에서 확인되지 않았다. 재대조(2026-10-17): 현행 NICE 개요의 Published 2019-06-25·Last updated 표기 없음(기록의 revised unknown과 같음)이고 철회·대체 표시가 없으며, location의 권고 절 번호가 현행 권고 페이지에 모두 있어 partial→verified. 이용조건: NICE 이용약관(Terms and conditions, 2026-10-17 확인)의 Notice of Rights에 따르면 NICE 저작 콘텐츠는 영국 안에서만 NICE UK Open Content Licence로 재사용할 수 있고, 영국 밖에서는 개인적 이용·학습·개인 연구를 제외하면 NICE의 사전 서면 동의 없이 전부 또는 일부를 사용·복제·번역·배포할 수 없다(동의에 라이선스·비용이 붙을 수 있음). 한국 채널 영상에서 원문 문장·표를 옮기거나 번역해 보여주지 않고, 사실 확인용 참고와 출처 언급 수준으로만 쓴다.
 ---
 
 ## 핵심 근거
@@ -38,6 +38,7 @@ note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는
 
 ## 미검증·사용 금지
 약 용량(시작 용량 포함), 약물 지속·감량 기간, 심리치료 회기 수·기간, 관해 판정 기준 수치, 반응 평가 시점, 연령 구분 외의 수치는 옮기지 않았다. 입원·재발 방지 세부, 용어 정의 일부, 각 절의 근거 요약(rationale)과 근거 검토, 부록은 전체를 읽지 않았다(미확보). 항우울제 선택·시작 시점을 영상에서 설명하지 않는다. 본문에 Last updated 표기가 없어 revised는 unknown이다.
+- (2026-10-17 해결) 현행 NICE 페이지(Published·Last updated 동일)와 권고 절 번호를 대조했고 핵심 근거 내용이 현행 권고와 맞다. 위에 남은 미확인(수치, 요약하지 않은 절, 근거 설명·근거 검토)은 이 요약이 다루지 않는 범위이며 영상 근거로 쓰지 않는다.
 
 ## 영상 활용 메모
 한국 지침과 함께 보조 근거로만 쓰고 단독 인용하지 않는다. "경증은 약보다 심리적 지지와 치료를 먼저 논의한다", "아동·청소년 본인과 보호자의 선호를 함께 반영한다" 같은 개념 설명에 한정하며 영국 사례임을 밝힌다. 자녀 개인의 진단이나 약물 판단을 대신하는 표현은 쓰지 않는다.

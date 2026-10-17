@@ -10,16 +10,17 @@ topic: 전립선암
 url: https://www.cancer.gov/types/prostate/hp/prostate-treatment-pdq
 published: unknown
 revised: 2025-05-14
-checked: 2026-10-16
+checked: 2026-10-17
 location: General Information · Treatment Option Overview(Table 6) · Stage I~IV 치료 절 개요 · Recurrent 절 · Latest Updates
 source_type: guideline_summary
 tier: C
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0063; MED-0065; MED-0066; MED-0068; MED-0126; MED-0127; MED-0128; MED-0129; MED-0130; MED-0131
+note: 2026-10-17 8차 재대조(보정): 현행 원문 페이지의 판(갱신·검토일)이 기록과 같음을 확인하고, 현행 본문을 다시 읽어 핵심 근거 3개 항목을 원문 문장과 대조해 일치를 확인했다 — ① PSA 선별 논란·사망 감소 근거 불명확; ② 95% 이상 선암; ③ I기 적극적 감시·전립선절제·체외방사선. 대조하지 않은 절과 미확인 항목은 이 기록의 범위 밖으로 두고 verified를 유지했다. 해외·환자용 자료(tier C)이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -42,7 +43,7 @@ related: MED-0063; MED-0065; MED-0066; MED-0068; MED-0126; MED-0127; MED-0128; M
 미국 근거 기반이며 국내 허가·급여·진료 현실과 다를 수 있음. 이 요약은 PDQ 편집위원회가 문헌을 독립 검토한 것으로 공식 진료지침이나 NCI/NIH 정책 선언이 아니며, 옵션 나열 순서는 우열 순위가 아니다. 병기·위험군·연령·동반질환·이전 치료에 따라 선택이 달라 일반 시청자에게 특정 치료를 권하는 근거로 쓸 수 없다. PDQ의 AJCC 병기 구분 기준 서술이며 국내 병기 표기·위험군 분류(대한비뇨종양학회)와 맞춰 쓸 때는 별도 확인이 필요하다. 생존율·임상시험 수치(HR 등)는 이 파일에 옮기지 않았다.
 
 ## 미검증·사용 금지
-- 미확보: 원문 전체 정독은 하지 않았다. 읽은 범위는 General Information(개요·선별·병리·예후 첫머리), 병기정보 도입부, Treatment Option Overview(Table 6), 병기별 절 개요, 일부 근거수준 표기 문장, Recurrent 절 도입부와 소제목, Latest Updates다. 방사선치료 세부(분할·선량·부작용 관리), 냉동수술·HIFU 등 국소요법 세부, 추적관찰 절, 약제별 임상시험 세부는 읽지 않았거나 요약하지 않았다.
+- 범위 밖(읽지 않음): 원문 전체 정독은 하지 않았다. 읽은 범위는 General Information(개요·선별·병리·예후 첫머리), 병기정보 도입부, Treatment Option Overview(Table 6), 병기별 절 개요, 일부 근거수준 표기 문장, Recurrent 절 도입부와 소제목, Latest Updates다. 방사선치료 세부(분할·선량·부작용 관리), 냉동수술·HIFU 등 국소요법 세부, 추적관찰 절, 약제별 임상시험 세부는 읽지 않았거나 요약하지 않았다.
 - 국내 허가사항, 급여 조건, 본인부담·민간보험 지급 여부, 약제 용량·임상시험 수치는 사용 금지. 국내 치료 안내는 MED-0066, 학회 지침은 MED-0126~0131 참조. 이 자료만으로 국내 기준 설명을 하지 않는다.
 - 원문의 'standard'/'under clinical evaluation' 구분을 보험 급여 판단 근거로 쓰지 않는다(원문 면책 문구).
 

@@ -10,16 +10,17 @@ topic: 유방암
 url: https://www.cancer.gov/types/breast/hp/breast-screening-pdq
 published: unknown
 revised: 2025-04-10
-checked: 2026-10-16
+checked: 2026-10-17
 location: Overview · Screening With Mammography(Benefits/Harms) · Clinical Breast Examination · Breast Self-Examination · Latest Updates
 source_type: guideline_summary
 tier: C
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0102; MED-0051; MED-0052
+note: 2026-10-17 8차 재대조(보정): 현행 원문 페이지의 판(갱신·검토일)이 기록과 같음을 확인하고, 현행 본문을 다시 읽어 핵심 근거 3개 항목을 원문 문장과 대조해 일치를 확인했다 — ① 유방촬영 사망 감소; ② 과잉진단 위해; ③ 자가검진 사망 감소 없음. 대조하지 않은 절과 미확인 항목은 이 기록의 범위 밖으로 두고 verified를 유지했다. 해외·환자용 자료(tier C)이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -34,7 +35,7 @@ related: MED-0102; MED-0051; MED-0052
 미국 근거 기반이며 국내 국가암검진 권고(MED-0102, MED-0188, MED-0189, MED-0291 등)·급여와 다를 수 있음. 검진 연령·간격·고위험군(유전성 등)·유방밀도별 권고는 이 요약이 정하지 않는다. 사망 감소 근거는 수십 년 전 시험에 기반하고 이후 영상·치료 발전으로 현재 이득이 달라졌을 수 있다고 요약 자체가 한계를 밝힌다.
 
 ## 미검증·사용 금지
-국내 국가암검진의 유방암 대상 연령·주기, 급여·본인부담. 요약 중심으로 확인했고 전문 중 시험별 상세 표, 연령별 위양성 상세, 참고문헌 원문은 읽지 않았다(미확보). 연령별 필요검진자 수 등 시험 수치는 의도적으로 기록하지 않았다.
+국내 국가암검진의 유방암 대상 연령·주기, 급여·본인부담. 요약 중심으로 확인했고 전문 중 시험별 상세 표, 연령별 위양성 상세, 참고문헌 원문은 읽지 않았다(범위 밖). 연령별 필요검진자 수 등 시험 수치는 의도적으로 기록하지 않았다.
 
 ## 영상 활용 메모
 '유방촬영은 모두에게 사망을 줄인다'고 단정하지 않는다. 이득(연령별 근거 차이)과 위해(과잉진단·위양성)를 함께 말하고, 국내 권고 연령은 MED-0102 기준으로 따로 확인한다.

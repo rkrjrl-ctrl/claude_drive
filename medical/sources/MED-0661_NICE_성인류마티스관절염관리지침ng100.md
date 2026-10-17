@@ -10,17 +10,17 @@ topic: 근골격·통증·재활
 url: https://www.nice.org.uk/guidance/ng100
 published: 2018-07-11
 revised: 2020-10-12
-checked: 2026-10-16
+checked: 2026-10-17
 location: Recommendations 페이지(1.1 의뢰·진단·검사 · 1.2 목표 달성 치료 · 1.3 의사소통과 교육 · 1.4 초기 약물 · 1.5 추가 약물 · 1.6 증상 조절 · 1.7 다학제팀 · 1.8 비약물 관리 · 1.9 모니터링 · 1.10 수술 시기와 의뢰)
 source_type: guideline_summary
 tier: B
-status: partial
-recheck_by: 2026-12-16
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NICE 웹 원문). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0627
-note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published·revised는 본문 상단 Published·Last updated 표기이다. 저장소에서 류마티스 관절염 한국 진료지침은 찾지 못했고 related는 WHO 팩트시트(MED-0627)뿐이다. 한국 지침이 확보되면 연결한다.
+note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published·revised는 본문 상단 Published·Last updated 표기이다. 저장소에서 류마티스 관절염 한국 진료지침은 찾지 못했고 related는 WHO 팩트시트(MED-0627)뿐이다. 한국 지침이 확보되면 연결한다. 재대조(2026-10-17): 현행 NICE 개요의 Published 2018-07-11·Last updated 2020-10-12 표기가 기록과 같고 철회·대체 표시가 없으며, location의 권고 절 번호가 현행 권고 페이지에 모두 있어 partial→verified. 이용조건: NICE 이용약관(Terms and conditions, 2026-10-17 확인)의 Notice of Rights에 따르면 NICE 저작 콘텐츠는 영국 안에서만 NICE UK Open Content Licence로 재사용할 수 있고, 영국 밖에서는 개인적 이용·학습·개인 연구를 제외하면 NICE의 사전 서면 동의 없이 전부 또는 일부를 사용·복제·번역·배포할 수 없다(동의에 라이선스·비용이 붙을 수 있음). 한국 채널 영상에서 원문 문장·표를 옮기거나 번역해 보여주지 않고, 사실 확인용 참고와 출처 언급 수준으로만 쓴다.
 ---
 
 ## 핵심 근거
@@ -38,6 +38,7 @@ note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published·r
 
 ## 미검증·사용 금지
 약 용량, 질병활성 점수 구간(DAS28 기준), 의뢰·재진·모니터링 기간 및 간격 수치, 약제별 기술평가 번호·시점은 옮기지 않았으며 영상에 쓰지 않는다. 1.9 모니터링 후반과 1.10 수술 시기·의뢰는 일부만 확인했다(미확보). 권고 근거 요약(Rationale and impact), 근거 검토 보고서, 기술평가(TA) 본문, 부록은 읽지 않았다(미확보). 한국 지침과의 비교는 하지 않았다.
+- (2026-10-17 해결) 현행 NICE 페이지(Published·Last updated 동일)와 권고 절 번호를 대조했고 핵심 근거 내용이 현행 권고와 맞다. 위에 남은 미확인(수치, 요약하지 않은 절, 근거 설명·근거 검토)은 이 요약이 다루지 않는 범위이며 영상 근거로 쓰지 않는다.
 
 ## 영상 활용 메모
 영국 NHS 지침임을 밝히고 한국 지침 자료가 확보되기 전에는 단독 인용하지 않는다(MED-0627 WHO 자료와 함께도 국내 제도의 근거로 쓰지 않음). '증상이 지속되는 관절 부종은 빨리 전문 진료가 필요하다', '목표(관해 또는 낮은 활동성)를 정하고 정기적으로 확인하며 치료한다', '약물 외 운동·작업치료·심리 지원도 함께한다' 같은 개념 설명에 한정하고, 약제 순서·용량·점수 기준은 쓰지 않는다.

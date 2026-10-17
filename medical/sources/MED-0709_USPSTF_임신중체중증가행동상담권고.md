@@ -10,17 +10,17 @@ topic: 비만·대사증후군
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/healthy-weight-and-weight-gain-during-pregnancy-behavioral-counseling-interventions
 published: 2021-05-25
 revised: unknown
-checked: 2026-10-16
+checked: 2026-10-17
 location: '권고 요약(Recommendation Summary)·임상가 요약'
 source_type: guideline_summary
 tier: B
-status: partial
-recheck_by: 2026-12-16
+status: verified
+recheck_by: 2027-04-17
 reviewer: "Claude Code 직접 확인(USPSTF 웹 원문). 의료인 검토 미실시"
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0223; MED-0143
-note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는 2026-10-17 USPSTF 페이지를 다시 열어 'Final Recommendation Statement' 제목 아래 표시된 최종 권고 발표일(2021-05-25)로 채웠다. 별도 수정일 표기가 없어 revised는 unknown이다. 미국 예방 권고이며 한국 국가검진·급여·진료지침과 다르고 한국 자료가 우선한다. 이용조건: USPSTF 저작권 안내(Copyright Notice, 2026-10-17 확인)는 내용을 바꾸지 않는 조건(미국 저작권법상 공정이용 범위는 예외)으로 일반인의 복제·재배포·게시·다른 자료 편입을 허용하되, 유료 재배포·판매·영리 사업 편입은 AHRQ 서면 허가가 필요하고, 일부를 인용하면 USPSTF 웹페이지를 출처로 밝히며, 각색물에는 AHRQ·HHS가 보증하지 않는다는 고지를 넣도록 한다. 영상에는 한국어 요약·재서술과 출처 표기만 쓰고 원문 표·문장을 그대로 옮기지 않는다.
+note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는 2026-10-17 USPSTF 페이지를 다시 열어 'Final Recommendation Statement' 제목 아래 표시된 최종 권고 발표일(2021-05-25)로 채웠다. 별도 수정일 표기가 없어 revised는 unknown이다. 미국 예방 권고이며 한국 국가검진·급여·진료지침과 다르고 한국 자료가 우선한다. 2026-10-17 본문 재대조: 현행 USPSTF 페이지의 Final Recommendation Statement(권고 요약·임상가 요약·Practice 또는 Clinical Considerations)를 읽고 핵심 근거 3개 항목(임신부 건강한 체중 증가 행동상담 제공 B; 대상(임신한 청소년·성인); 효과적 중재가 임신성당뇨 등 위험 감소와 연관)이 원문과 일치함을 확인해 verified로 올렸다. 이용조건: USPSTF 저작권 안내(Copyright Notice, 2026-10-17 확인)는 내용을 바꾸지 않는 조건(미국 저작권법상 공정이용 범위는 예외)으로 일반인의 복제·재배포·게시·다른 자료 편입을 허용하되, 유료 재배포·판매·영리 사업 편입은 AHRQ 서면 허가가 필요하고, 일부를 인용하면 USPSTF 웹페이지를 출처로 밝히며, 각색물에는 AHRQ·HHS가 보증하지 않는다는 고지를 넣도록 한다. 영상에는 한국어 요약·재서술과 출처 표기만 쓰고 원문 표·문장을 그대로 옮기지 않는다.
 ---
 
 ## 핵심 근거
@@ -36,6 +36,7 @@ note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는
 
 ## 미검증·사용 금지
 체중 증가 권장 범위, 상담 시간·횟수 수치는 옮기지 않았다(원문 참조). 한국의 임신 중 체중 관리 기준은 이 자료로 확인하지 않았다. 근거 보고서·전문 권고문(근거 설명, 해악, 참고문헌)은 읽지 않았다(미확보).
+- (2026-10-17 해결) 현행 USPSTF 페이지의 Final Recommendation Statement(권고 요약·임상가 요약·Practice 또는 Clinical Considerations)를 읽고 핵심 근거를 대조해 일치함을 확인했다. 위 미확인 항목 가운데 근거 보고서·모델링·Evidence Summary·참고문헌과 수치는 이번 대조 범위 밖이다.
 
 ## 영상 활용 메모
 한국 산전관리 자료(MED-0223 등)를 우선하고 '임신 중 체중 증가 관리를 위한 행동상담이 B 권고'라는 개념 설명의 보조로만 쓴다. '미국 권고'임을 밝히고 체중 목표 수치를 말하지 않으며 단독 인용하지 않는다.

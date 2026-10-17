@@ -10,16 +10,17 @@ topic: 대장암
 url: https://www.cancer.gov/types/colorectal/hp/colorectal-screening-pdq
 published: unknown
 revised: 2025-04-10
-checked: 2026-10-16
+checked: 2026-10-17
 location: Summary of Evidence(Table 1) · Evidence of Harms · Significance · Latest Updates
 source_type: guideline_summary
 tier: C
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0189; MED-0291; MED-0102
+note: 2026-10-17 8차 재대조(보정): 현행 원문 페이지의 판(갱신·검토일)이 기록과 같음을 확인하고, 현행 본문을 다시 읽어 핵심 근거 3개 항목을 원문 문장과 대조해 일치를 확인했다 — ① S자결장경 사망 감소; ② CT 대장조영 사망 자료 없음; ③ 대장내시경 천공·출혈. 대조하지 않은 절과 미확인 항목은 이 기록의 범위 밖으로 두고 verified를 유지했다. 해외·환자용 자료(tier C)이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -33,7 +34,7 @@ related: MED-0189; MED-0291; MED-0102
 미국 근거 기반이며 국내 국가암검진 권고(MED-0102, MED-0188, MED-0189, MED-0291 등)·급여와 다를 수 있음. 대장내시경·FIT 비교 무작위 시험 결과가 확정되지 않았다는 점이 요약의 전제다. 검진 시작 연령·간격은 이 요약이 정하지 않는다. 국내에서는 FIT 후 양성 시 대장내시경 체계 등 운영 방식이 다르다.
 
 ## 미검증·사용 금지
-국내 국가암검진의 대장암 대상 연령·주기(FIT 연 1회 등), 급여·본인부담. 요약표와 개요, 위해 절 일부만 읽었고 방법별 상세 절, 분변 DNA·CT 대장조영술 상세 성능, 참고문헌 원문은 읽지 않았다(미확보). 발생·사망 감소율 수치는 기록하지 않았다.
+국내 국가암검진의 대장암 대상 연령·주기(FIT 연 1회 등), 급여·본인부담. 요약표와 개요, 위해 절 일부만 읽었고 방법별 상세 절, 분변 DNA·CT 대장조영술 상세 성능, 참고문헌 원문은 읽지 않았다(범위 밖). 발생·사망 감소율 수치는 기록하지 않았다.
 
 ## 영상 활용 메모
 검사별 근거 강도가 다르다는 점(대장내시경은 무작위 시험 대기 중, FIT는 사망 종료점 시험 없음)을 단정 표현 없이 전달한다. 국내 검진 방법은 MED-0189, MED-0291, MED-0102를 우선한다.

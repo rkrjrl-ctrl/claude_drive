@@ -10,17 +10,17 @@ topic: 암 공통(치료·지지요법)
 url: https://www.cancer.gov/about-cancer/treatment/side-effects/nausea/nausea-hp-pdq
 published: unknown
 revised: 2025-03-10
-checked: 2026-10-16
+checked: 2026-10-17
 location: Overview · Pathophysiology · Classifications(급성·지연·예기·돌발·불응·만성) · Anticipatory N&V · Prevention and Management of Acute or Delayed N&V 첫머리 · Nonpharmacological Management · Radiation-Induced N&V 첫머리 · 소아 절 첫머리 · Latest Updates
 source_type: guideline_summary
 tier: C
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0516; MED-0529; MED-0530; MED-0531
-note: 이 PDQ 요약은 편집위원회가 PDQ Adult Treatment가 아닌 Supportive and Palliative Care Editorial Board다. 원문에 항구토제 용량표(성인·소아)가 있으나 이 파일에는 옮기지 않았다. 국내 항구토제 지침 파일은 BY_DISEASE.md에서 확인되지 않아 related는 MED-0516(원문이 오피오이드 유발 오심은 암성 통증 요약을 참조하라고 안내)만 연결했다.
+note: 이 PDQ 요약은 편집위원회가 PDQ Adult Treatment가 아닌 Supportive and Palliative Care Editorial Board다. 원문에 항구토제 용량표(성인·소아)가 있으나 이 파일에는 옮기지 않았다. 국내 항구토제 지침 파일은 BY_DISEASE.md에서 확인되지 않아 related는 MED-0516(원문이 오피오이드 유발 오심은 암성 통증 요약을 참조하라고 안내)만 연결했다. 2026-10-17 8차 재대조(보정): 현행 원문 페이지의 판(갱신·검토일)이 기록과 같음을 확인하고, 현행 본문을 다시 읽어 핵심 근거 4개 항목을 원문 문장과 대조해 일치를 확인했다 — ① 급성(24시간 이내)·지연·예기 분류; ② 병태생리(CTZ 등 구심 자극); ③ 예기 구토 유병률 파악·조절 어려움; ④ 5-HT3·NK-1 수용체 길항제. 대조하지 않은 절과 미확인 항목은 이 기록의 범위 밖으로 두고 verified를 유지했다. 해외·환자용 자료(tier C)이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -40,7 +40,7 @@ note: 이 PDQ 요약은 편집위원회가 PDQ Adult Treatment가 아닌 Support
 미국 근거 기반이며 국내 허가·급여·진료 현실과 다를 수 있음. 항구토제의 국내 허가·급여 조건과 가용 약제는 미국과 다를 수 있다. PDQ는 전문인용 요약이며 공식 진료지침·권고나 NCI 정책 선언이 아니다. 이 파일은 개요와 절 첫머리, 근거수준 표기 일부만 읽은 요약이며 위험도 분류는 항암제·병용·투여 일정에 따라 달라진다.
 
 ## 미검증·사용 금지
-미확보: 읽지 않은 절(항암제별 구토 유발 위험도 표, 약제별 소절, 올란자핀·카나비노이드·벤조디아제핀 등 보조요법, 고용량 항암·조혈모세포이식 구토, 방사선 위험 층화 세부, 소아 약제·지연 구토 세부)과 임상시험 세부 결과. 항구토제 용량·투여 일정·마약성 진통제 용량 및 환산 정보는 의도적으로 기재하지 않았다. 환자 개인의 약 처방 안내로 쓰지 않는다. 국내 허가·급여 및 국내 항구토제 지침은 확인하지 않았다.
+범위 밖(읽지 않음): 읽지 않은 절(항암제별 구토 유발 위험도 표, 약제별 소절, 올란자핀·카나비노이드·벤조디아제핀 등 보조요법, 고용량 항암·조혈모세포이식 구토, 방사선 위험 층화 세부, 소아 약제·지연 구토 세부)과 임상시험 세부 결과. 항구토제 용량·투여 일정·마약성 진통제 용량 및 환산 정보는 의도적으로 기재하지 않았다. 환자 개인의 약 처방 안내로 쓰지 않는다. 국내 허가·급여 및 국내 항구토제 지침은 확인하지 않았다.
 
 ## 영상 활용 메모
 '오심·구토는 참기보다 의료진에게 알려 예방·조절할 수 있는 부작용'이라는 일반 메시지의 보조 근거로만 쓴다. 약 이름·병용 조합·용량은 영상에서 다루지 않는다. 식이·이완 등 비약물 방법은 의료진 상담과 병행하는 보조 수단이라고 병기한다.

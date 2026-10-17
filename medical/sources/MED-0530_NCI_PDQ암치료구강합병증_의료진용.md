@@ -10,16 +10,17 @@ topic: 암 공통(치료·지지요법)
 url: https://www.cancer.gov/about-cancer/treatment/side-effects/mouth-throat/oral-complications-hp-pdq
 published: unknown
 revised: 2024-02-16
-checked: 2026-10-16
+checked: 2026-10-17
 location: Overview · Table 1(치료별 필수 구강 중재) · Oral Management of Patients Receiving Chemotherapy(구내염 관리) · Targeted Therapy/Immunotherapy · Latest Updates
 source_type: guideline_summary
 tier: C
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0284; MED-0207; MED-0025; MED-0024; MED-0517
+note: 2026-10-17 8차 재대조(보정): 현행 원문 페이지의 판(갱신·검토일)이 기록과 같음을 확인하고, 현행 본문을 다시 읽어 핵심 근거 3개 항목을 원문 문장과 대조해 일치를 확인했다 — ① 구강점막염은 흔한 부작용; ② 치료 전 치과 평가; ③ 근거수준 IV 개입. 대조하지 않은 절과 미확인 항목은 이 기록의 범위 밖으로 두고 verified를 유지했다. 해외·환자용 자료(tier C)이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -37,7 +38,7 @@ related: MED-0284; MED-0207; MED-0025; MED-0024; MED-0517
 미국 근거 기반이며 국내 허가·급여·진료 현실과 다를 수 있음(국내 암환자 치과 협진 체계, 구강 관리 제품의 허가·급여 여부, 제품명이 다름). 요약 문서로 공식 진료지침이 아니며 NCI 정책 선언이 아니다. 근거수준 IV(전문가 의견·지침 인용) 표기가 많아 효과 크기를 단정하지 않는다.
 
 ## 미검증·사용 금지
-본문 중 ①이식편대숙주병·구강 감염·소아 구강 문제·말기 구강 관리 절과 표 상세, 참고문헌은 읽지 않았다(미확보). ②약제명·가글 처방·시험 수치는 영상에 쓰지 않는다. ③"가글/레이저가 구내염을 막는다" 같은 단정 금지(조건부·근거수준 IV). ④턱뼈괴사는 국내 입장문(MED-0284)을 먼저 참고하고 이 자료로 국내 기준을 말하지 않는다.
+본문 중 ①이식편대숙주병·구강 감염·소아 구강 문제·말기 구강 관리 절과 표 상세, 참고문헌은 읽지 않았다(범위 밖). ②약제명·가글 처방·시험 수치는 영상에 쓰지 않는다. ③"가글/레이저가 구내염을 막는다" 같은 단정 금지(조건부·근거수준 IV). ④턱뼈괴사는 국내 입장문(MED-0284)을 먼저 참고하고 이 자료로 국내 기준을 말하지 않는다.
 
 ## 영상 활용 메모
 '항암·방사선 전에 치과 점검과 구강 위생이 중요하다'는 일반 안내의 보조로만 쓴다. 특정 제품·시술 효과를 암시하지 않고, 증상이 있으면 담당 의료진과 치과에 알리라고 병기한다.

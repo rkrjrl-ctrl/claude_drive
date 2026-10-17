@@ -10,17 +10,17 @@ topic: 당뇨병
 url: https://www.nice.org.uk/guidance/ng3
 published: 2015-02-25
 revised: 2020-12-16
-checked: 2026-10-16
+checked: 2026-10-17
 location: Recommendations 페이지(1.1~1.6 절, Table 1 산전 진료 일정)
 source_type: guideline_summary
 tier: B
-status: partial
-recheck_by: 2026-12-16
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NICE 웹 원문). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0272; MED-0143; MED-0707
-note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published와 revised는 본문 상단의 Published, Last updated 날짜이다. 권고 문장 끝의 연도 표기는 권고가 만들어지거나 개정된 시점이며 이 자료의 발행일·수정일이 아니다. 본문에 인슐린 제제 공급 중단 안내가 있고 NICE가 영향을 평가 중이라고 되어 있으나 내용은 옮기지 않았다.
+note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published와 revised는 본문 상단의 Published, Last updated 날짜이다. 권고 문장 끝의 연도 표기는 권고가 만들어지거나 개정된 시점이며 이 자료의 발행일·수정일이 아니다. 본문에 인슐린 제제 공급 중단 안내가 있고 NICE가 영향을 평가 중이라고 되어 있으나 내용은 옮기지 않았다. 재대조(2026-10-17): 현행 NICE 개요의 Published 2015-02-25·Last updated 2020-12-16 표기가 기록과 같고 철회·대체 표시가 없으며, location의 권고 절 번호가 현행 권고 페이지에 모두 있어 partial→verified. 이용조건: NICE 이용약관(Terms and conditions, 2026-10-17 확인)의 Notice of Rights에 따르면 NICE 저작 콘텐츠는 영국 안에서만 NICE UK Open Content Licence로 재사용할 수 있고, 영국 밖에서는 개인적 이용·학습·개인 연구를 제외하면 NICE의 사전 서면 동의 없이 전부 또는 일부를 사용·복제·번역·배포할 수 없다(동의에 라이선스·비용이 붙을 수 있음). 한국 채널 영상에서 원문 문장·표를 옮기거나 번역해 보여주지 않고, 사실 확인용 참고와 출처 언급 수준으로만 쓴다.
 ---
 
 ## 핵심 근거
@@ -40,6 +40,7 @@ note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published와
 - 이 파일은 Recommendations 페이지 텍스트만 읽었다. 권고의 근거 서술과 근거 검토 자료, 별도 표·부록, 연구 제안 등은 읽지 못했다(미확보). 산전 일정표(Table 1)는 구조 수준으로만 확인했다.
 - 한국의 임신성 당뇨병 진단 기준과 급여 여부는 이 자료에서 확인하지 않았다(미확보). 한국 학회 지침 요약은 related의 자료를 본다.
 - 본문에 없는 내용은 추정으로 채우지 않았다.
+- (2026-10-17 해결) 현행 NICE 페이지(Published·Last updated 동일)와 권고 절 번호를 대조했고 핵심 근거 내용이 현행 권고와 맞다. 위에 남은 미확인(수치, 요약하지 않은 절, 근거 설명·근거 검토)은 이 요약이 다루지 않는 범위이며 영상 근거로 쓰지 않는다.
 
 ## 영상 활용 메모
 영국 NICE 지침 사례임을 밝히고 한국 지침(MED-0272, MED-0143)과 함께 보조 근거로만 쓴다. 단독 인용 금지. '임신을 계획할 때부터 혈당 관리와 약 점검을 상담한다', '임신성 당뇨병은 분만 후에도 추적 검사가 필요하다' 같은 원칙 수준에서만 쓴다. 혈당 목표·분만 시기·약 사용 수치는 영상에 옮기지 않는다.

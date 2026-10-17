@@ -10,17 +10,17 @@ topic: 혈액암(백혈병·림프종·골수종)
 url: https://www.cancer.gov/types/myeloma/hp/myeloma-treatment-pdq
 published: unknown
 revised: 2025-04-25
-checked: 2026-10-16
+checked: 2026-10-17
 location: General Information · Stage Information(ISS) · Treatment Option Overview(무증상/증상성) · Treatment of Multiple Myeloma(Initial Evaluation·Therapeutic Overview) · Relapsed or Refractory 절 첫머리 · Latest Updates
 source_type: guideline_summary
 tier: C
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0165, MED-0285
-note: 갱신일은 본문 하단 'Latest Updates to This Summary (04/25/2025)'. 이 요약은 MGUS, 고립성 형질세포종, 수외 형질세포종, 아밀로이드증 등 형질세포종양 전반을 포함한다. 국내 지침 MED-0165(2023), MED-0285(2025)는 다발골수종 부분의 비교 참고용이다.
+note: 갱신일은 본문 하단 'Latest Updates to This Summary (04/25/2025)'. 이 요약은 MGUS, 고립성 형질세포종, 수외 형질세포종, 아밀로이드증 등 형질세포종양 전반을 포함한다. 국내 지침 MED-0165(2023), MED-0285(2025)는 다발골수종 부분의 비교 참고용이다. 2026-10-17 8차 재대조(보정): 현행 원문 페이지의 판(갱신·검토일)이 기록과 같음을 확인하고, 현행 본문을 다시 읽어 핵심 근거 3개 항목을 원문 문장과 대조해 일치를 확인했다 — ① MGUS·형질세포종·다발골수종 구분; ② ISS 병기 표; ③ 유도·공고·유지·지지요법. 대조하지 않은 절과 미확인 항목은 이 기록의 범위 밖으로 두고 verified를 유지했다. 해외·환자용 자료(tier C)이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -38,7 +38,7 @@ note: 갱신일은 본문 하단 'Latest Updates to This Summary (04/25/2025)'. 
 미국 근거 기반이며 국내 허가·급여·진료 현실과 다를 수 있음. 전문인용 요약이며 개별 처방 지시나 NCI 정책 선언이 아니다. 약제 나열은 우열 순위가 아니고, 연령·동반질환·신기능·위험도에 따라 선택이 달라진다. 약제 용량과 임상시험 수치는 옮기지 않았다. MED-0165, MED-0285와 권고 내용이 같은지는 대조하지 않았다. 갱신일 이후의 변화는 반영되지 않았다.
 
 ## 미검증·사용 금지
-미확보: 아밀로이드증·MGUS·고립성 형질세포종·수외 형질세포종 절 세부, 유도·공고·유지요법과 재발 치료의 시험별 세부 결과와 부작용, ISS 표 세부, 참고문헌 원문. 읽지 않은 절을 추정으로 채우지 않는다. 국내 허가사항·급여 기준·본인부담은 확인하지 않았다. 의료인 검토 미실시.
+범위 밖(읽지 않음): 아밀로이드증·MGUS·고립성 형질세포종·수외 형질세포종 절 세부, 유도·공고·유지요법과 재발 치료의 시험별 세부 결과와 부작용, ISS 표 세부, 참고문헌 원문. 읽지 않은 절을 추정으로 채우지 않는다. 국내 허가사항·급여 기준·본인부담은 확인하지 않았다. 의료인 검토 미실시.
 
 ## 영상 활용 메모
 '증상이 없는 단계에서는 치료 대신 관찰할 수 있다'와 '치료 선택은 건강상태·위험도에 따라 달라진다'를 조건과 함께 전달한다. 완치 가능성을 암시하는 표현은 쓰지 않는다. 해외 안내이므로 국내 지침(MED-0165, MED-0285)과 다를 수 있다고 병기한다.

@@ -10,17 +10,17 @@ topic: 부인암(난소·자궁)
 url: https://www.cancer.gov/types/uterine/hp/endometrial-treatment-pdq
 published: unknown
 revised: 2025-05-14
-checked: 2026-10-16
+checked: 2026-10-17
 location: General Information(위험요인·진단·예후인자) · Cellular Classification·Molecular Subgroups · Treatment Option Overview(Table 11) · Stage I/II 및 Stage III/IV/재발 절 첫머리·근거수준 표기 문장 · Latest Updates
 source_type: guideline_summary
 tier: C
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0163; MED-0286
-note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL, UPDATED unknown). 갱신일은 본문 하단 Latest Updates (05/14/2025)이며 그 내용은 편집상 수정뿐이다. 요약 범위는 자궁내막암이며 자궁육종은 별도 요약이다.
+note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL, UPDATED unknown). 갱신일은 본문 하단 Latest Updates (05/14/2025)이며 그 내용은 편집상 수정뿐이다. 요약 범위는 자궁내막암이며 자궁육종은 별도 요약이다. 2026-10-17 8차 재대조(보정): 현행 원문 페이지의 판(갱신·검토일)이 기록과 같음을 확인하고, 현행 본문을 다시 읽어 핵심 근거 3개 항목을 원문 문장과 대조해 일치를 확인했다 — ① 가장 흔한 부인과 악성종양; ② 조기 표준 수술은 자궁전절제+양측 난관난소절제; ③ I기 보조 프로게스토겐 임상 이득 없음(A1). 대조하지 않은 절과 미확인 항목은 이 기록의 범위 밖으로 두고 verified를 유지했다. 해외·환자용 자료(tier C)이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -35,7 +35,7 @@ note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL, UPDATED unkno
 미국 근거 기반이며 국내 허가·급여·진료 현실과 다를 수 있음. 전문인용 정보이며 개별 처방 지시나 NCI 정책 선언이 아니다. 약제 나열 순서는 우열 순위가 아니고, 임상시험 간 수치를 단순 비교하지 않는다. II기 환자는 무작위 시험에서 대부분 제외되어 근거가 적다고 원문이 밝힌다. 약제 용량·임상시험 수치는 기록하지 않았다.
 
 ## 미검증·사용 금지
-읽지 않은 절(병기별 세부 서술 일부, 호르몬·생물학적 치료, 재발 치료, 임상시험 세부 및 참고문헌)은 미확보. 국내 허가사항, 급여 조건, 실제 본인부담. 국내 지침은 MED-0163, MED-0286 참조. 임상시험 수치와 용량을 영상에 인용하지 않는다.
+읽지 않은 절(병기별 세부 서술 일부, 호르몬·생물학적 치료, 재발 치료, 임상시험 세부 및 참고문헌)은 범위 밖. 국내 허가사항, 급여 조건, 실제 본인부담. 국내 지침은 MED-0163, MED-0286 참조. 임상시험 수치와 용량을 영상에 인용하지 않는다.
 
 ## 영상 활용 메모
 '미국 의료진용 요약'임을 밝히고, 조직형·병기·분자아형·MMR 상태에 따라 치료가 달라진다는 조건을 병기한다. 이상 질 출혈 시 진료가 필요하다는 일반 안내 수준으로만 쓴다. 팹스미어는 자궁내막암 선별검사로 부적합하다는 서술을 인용할 때 자궁경부암 검진을 대체·폄하하는 표현으로 쓰지 않는다.

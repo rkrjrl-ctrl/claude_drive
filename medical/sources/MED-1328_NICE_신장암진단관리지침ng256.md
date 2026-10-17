@@ -14,13 +14,13 @@ checked: 2026-10-17
 location: 권고 장(Information and support 1.1 · Diagnosis 1.2~1.3 · Oncocytomas and Bosniak 2F 1.4 · Localised and locally advanced RCC 1.5~1.11 · Advanced RCC 1.12~1.16 · Heritable RCC 1.17~1.19)
 source_type: guideline_summary
 tier: B
-status: partial
-recheck_by: 2026-12-17
+status: verified
+recheck_by: 2027-04-17
 reviewer: "Claude Code 직접 확인(NICE 웹 원문). 의료인 검토 미실시"
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0133; MED-0124; MED-0125; MED-0135; MED-0016; MED-1416
-note: 원문은 NICE 지침 웹페이지(개요와 권고 장별 페이지)를 텍스트로 변환해 읽었다. published·revised는 지침 개요 상단의 Published·Last updated 표기다. 영국 국가 지침이며 한국 지침이 우선한다. 이용조건: NICE 이용약관(Terms and conditions, 2026-10-17 확인)의 Notice of Rights에 따르면 NICE 저작 콘텐츠는 영국 안에서만 NICE UK Open Content Licence로 재사용할 수 있고, 영국 밖에서는 개인적 이용·학습·개인 연구를 제외하면 NICE의 사전 서면 동의 없이 전부 또는 일부를 사용·복제·번역·배포할 수 없다(동의에 라이선스·비용이 붙을 수 있음). 한국 채널 영상에서 원문 문장·표를 옮기거나 번역해 보여주지 않고, 사실 확인용 참고와 출처 언급 수준으로만 쓴다.
+note: 원문은 NICE 지침 웹페이지(개요와 권고 장별 페이지)를 텍스트로 변환해 읽었다. published·revised는 지침 개요 상단의 Published·Last updated 표기다. 영국 국가 지침이며 한국 지침이 우선한다. 이용조건: NICE 이용약관(Terms and conditions, 2026-10-17 확인)의 Notice of Rights에 따르면 NICE 저작 콘텐츠는 영국 안에서만 NICE UK Open Content Licence로 재사용할 수 있고, 영국 밖에서는 개인적 이용·학습·개인 연구를 제외하면 NICE의 사전 서면 동의 없이 전부 또는 일부를 사용·복제·번역·배포할 수 없다(동의에 라이선스·비용이 붙을 수 있음). 한국 채널 영상에서 원문 문장·표를 옮기거나 번역해 보여주지 않고, 사실 확인용 참고와 출처 언급 수준으로만 쓴다. 재대조(2026-10-17): 현행 NICE 개요의 Published 2026-03-19·Last updated 표기 없음(기록의 revised unknown과 같음)이고 철회·대체 표시가 없으며, location의 권고 절 번호가 현행 권고 페이지에 모두 있어 partial→verified.
 ---
 
 ## 핵심 근거
@@ -38,6 +38,7 @@ note: 원문은 NICE 지침 웹페이지(개요와 권고 장별 페이지)를 �
 
 ## 미검증·사용 금지
 종괴 크기 기준, 능동감시·추적 영상 간격(표), 재발 위험 도구 목록, IMDC 세부, 약제별 기술평가 내용, 생검 조건 세부는 옮기지 않았다. 국내 급여·허가 여부와 무관하다. 근거 검토(evidence review), 근거·영향 설명(Rationale and impact), 연구 권고, 부록과 인용된 다른 NICE 지침·기술평가(TA)의 내용은 읽지 않았다(미확보).
+- (2026-10-17 해결) 현행 NICE 페이지(Published·Last updated 동일)와 권고 절 번호를 대조했고 핵심 근거 내용이 현행 권고와 맞다. 위에 남은 미확인(수치, 요약하지 않은 절, 근거 설명·근거 검토)은 이 요약이 다루지 않는 범위이며 영상 근거로 쓰지 않는다.
 
 ## 영상 활용 메모
 '영국 NICE 지침'임을 밝히고 한국 지침·급여와 구분한다. 원문 문장·표를 번역해 화면에 옮기지 않는다(이용조건). 신장암 편에서 '작은 신장 종괴는 크기와 상태에 따라 수술·소작·감시 중에서 함께 정한다', '수술 후 재발 위험에 따라 추적 강도를 달리한다' 같은 개념 설명 보조로 쓴다. 한국 지침과 함께 쓰고 단독 인용 금지.

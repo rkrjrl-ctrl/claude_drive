@@ -10,17 +10,17 @@ topic: 응급·외상
 url: https://www.nice.org.uk/guidance/ng232
 published: 2023-05-18
 revised: unknown
-checked: 2026-10-16
+checked: 2026-10-17
 location: Recommendations 페이지(1.1~1.10 절)
 source_type: guideline_summary
 tier: B
-status: partial
-recheck_by: 2026-12-16
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NICE 웹 원문). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0372; MED-0238
-note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). 본문 상단에 Published 날짜만 있고 Last updated 표기가 없어 revised는 unknown이다. 권고 문장 끝의 연도 표기(예 2003, 2023)는 권고가 처음 만들어진 시점 또는 개정된 시점이며 이 자료의 발행일이나 수정일이 아니다.
+note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). 본문 상단에 Published 날짜만 있고 Last updated 표기가 없어 revised는 unknown이다. 권고 문장 끝의 연도 표기(예 2003, 2023)는 권고가 처음 만들어진 시점 또는 개정된 시점이며 이 자료의 발행일이나 수정일이 아니다. 재대조(2026-10-17): 현행 NICE 개요의 Published 2023-05-18·Last updated 표기 없음(기록의 revised unknown과 같음)이고 철회·대체 표시가 없으며, location의 권고 절 번호가 현행 권고 페이지에 모두 있어 partial→verified. 이용조건: NICE 이용약관(Terms and conditions, 2026-10-17 확인)의 Notice of Rights에 따르면 NICE 저작 콘텐츠는 영국 안에서만 NICE UK Open Content Licence로 재사용할 수 있고, 영국 밖에서는 개인적 이용·학습·개인 연구를 제외하면 NICE의 사전 서면 동의 없이 전부 또는 일부를 사용·복제·번역·배포할 수 없다(동의에 라이선스·비용이 붙을 수 있음). 한국 채널 영상에서 원문 문장·표를 옮기거나 번역해 보여주지 않고, 사실 확인용 참고와 출처 언급 수준으로만 쓴다.
 ---
 
 ## 핵심 근거
@@ -39,6 +39,7 @@ note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). 본문 상�
 
 ## 미검증·사용 금지
 약 용량, GCS 기준 점수, 연령 기준, 시간 기준(영상검사 시행 시간, 관찰 간격 및 기간, 경과 시간), 거리·산소·혈압 목표, 혈액검사 기준 같은 수치는 옮기지 않았으며 영상에 쓰지 않는다. 각 권고의 근거 설명(rationale), 근거 검토 보고서(evidence review), 권고 연구 항목, 용어 정의 이후의 부록·표 세부는 읽지 않았다(미확보). 본문 일부(근거·표·부록)는 읽지 않았으므로 이 파일에 없는 내용을 지침의 입장으로 단정하지 않는다. 한국 응급·외상 기준과 동일하다고 말하지 않는다.
+- (2026-10-17 해결) 현행 NICE 페이지(Published·Last updated 동일)와 권고 절 번호를 대조했고 핵심 근거 내용이 현행 권고와 맞다. 위에 남은 미확인(수치, 요약하지 않은 절, 근거 설명·근거 검토)은 이 요약이 다루지 않는 범위이며 영상 근거로 쓰지 않는다.
 
 ## 영상 활용 메모
 한국 자료(MED-0372, MED-0238 등)와 함께 보조 근거로만 쓰며 단독 인용 금지. 영국 NHS 지침임을 밝힌다. 사용할 수 있는 범위는 '머리를 다친 뒤 의식 변화·반복 구토·경련·심한 두통이 있으면 병원 평가가 필요하다', '퇴원 후에도 지연 증상 가능성과 곁에서 지켜볼 사람의 중요성을 안내한다' 같은 개념 수준이다. 검사 시행 기준·시간·점수는 영상에 옮기지 않는다.

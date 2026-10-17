@@ -10,17 +10,17 @@ topic: 여성·임신·출산
 url: https://medlineplus.gov/menstruation.html
 published: 1999-06-28
 revised: unknown
-checked: 2026-10-16
+checked: 2026-10-17
 location: MedlinePlus 건강 주제 요약 페이지
 source_type: web_summary
 tier: C
-status: partial
-recheck_by: 2026-12-16
+status: verified
+recheck_by: 2027-04-17
 reviewer: "Claude Code 직접 확인(MedlinePlus XML 원문). 의료인 검토 미실시"
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0763
-note: 원문은 MedlinePlus 주제 요약을 텍스트로 변환한 파일(첫 줄 URL). published는 원문 메타데이터의 CREATED(최초 작성일) 값이며, 본문에 수정일 표기가 없어 revised는 unknown이다.
+note: 원문은 MedlinePlus 주제 요약을 텍스트로 변환한 파일(첫 줄 URL). published는 원문 메타데이터의 CREATED(최초 작성일) 값이며, 본문에 수정일 표기가 없어 revised는 unknown이다. 2026-10-17 본문 재대조: 현행 MedlinePlus 건강 주제 페이지(하단 'Last updated' 표시 2026-05-28, 페이지 전체의 갱신 표시라 revised에는 넣지 않음)의 Summary 본문을 읽고 핵심 근거 3개 항목(정의(매달 주기의 일부로 생기는 정상적인 질 출혈); 월경 주기(임신 준비 과정, 한 월경 첫날부터 다음 첫날까지); 시작 시기(사람마다 다름))이 원문과 일치함을 확인해 verified로 올렸다. tier C 해외 환자용 자료이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다. 이용조건: MedlinePlus 'Linking to and Using Content from MedlinePlus' 안내(2026-10-17 확인)에 따르면 건강 주제 페이지의 요약(Summaries on health topic pages)은 미국 연방정부 저작물로 저작권이 없는 공공 영역이라 자유롭게 복제·재배포할 수 있고, 'Source: MedlinePlus, National Library of Medicine' 같은 출처 표기를 요청한다. 같은 사이트의 A.D.A.M. 의학백과, ASHP 약물 정보, 출처 표시 없는 이미지는 저작권 자료라 옮기지 않는다.
 ---
 
 ## 핵심 근거
@@ -35,6 +35,7 @@ note: 원문은 MedlinePlus 주제 요약을 텍스트로 변환한 파일(첫 �
 
 ## 미검증·사용 금지
 약 용량, 진단 임계 수치, 통계 수치는 옮기지 않았다. 월경 시작 연령, 주기·기간·폐경 연령 등 수치는 옮기지 않았다. 월경 이상의 원인 질환과 치료는 미확보. 요약 외에 링크된 하위 페이지·약물정보·검사정보는 읽지 못했다(미확보). 본문에 없는 내용은 추정으로 채우지 않았다. 통계·약 용량·진단 기준 수치는 영상에 인용하지 않는다.
+- (2026-10-17 해결) 현행 MedlinePlus 페이지의 Summary 본문을 읽고 핵심 근거를 대조해 일치함을 확인했다. 위 미확인 항목 가운데 링크된 하위 페이지·약물정보·통계 수치는 이번 대조 범위 밖이다(미확보 유지).
 
 ## 영상 활용 메모
 한국 월경 이상 자료는 확인하지 못해 NICE 월경과다 지침(MED-0763)을 참고하되 이 자료는 '월경은 정상적 과정이며 큰 변화나 심한 증상은 상담 대상'이라는 일반 설명 보조로만 쓴다. 본 자료 단독 인용 금지.

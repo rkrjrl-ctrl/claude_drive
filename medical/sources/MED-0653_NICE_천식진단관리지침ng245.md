@@ -10,17 +10,17 @@ topic: 천식
 url: https://www.nice.org.uk/guidance/ng245
 published: 2024-11-27
 revised: unknown
-checked: 2026-10-16
+checked: 2026-10-17
 location: Recommendations 페이지(1.1 초기 평가 · 1.2 성인·학령기 객관적 검사 · 1.3 5세 미만 진단 · 1.4 직업성 천식 · 1.5 조절 모니터링 · 1.6 약물치료 원칙 · 1.7 12세 이상 약물 · 1.8 5~11세 약물 · 1.9 5세 미만 약물 · 1.10 유지치료 감량 · 1.11 순응도 · 1.12 임신·수유 · 1.13 청소년 · 1.14 자가관리 · 1.15 위험 층화 · 1.16 진료 조직)
 source_type: guideline_summary
 tier: B
-status: partial
-recheck_by: 2026-12-16
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NICE 웹 원문). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0154; MED-0178; MED-0179
-note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). 본문에 Published만 있고 Last updated 표기가 없어 revised는 unknown이다. 본문 중 2025년 11월 표기 문단은 개별 권고에 붙은 부기이며 페이지 갱신일로 옮기지 않았다. 영국 국가 지침이므로 한국 지침(MED-0154 등)이 우선한다.
+note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). 본문에 Published만 있고 Last updated 표기가 없어 revised는 unknown이다. 본문 중 2025년 11월 표기 문단은 개별 권고에 붙은 부기이며 페이지 갱신일로 옮기지 않았다. 영국 국가 지침이므로 한국 지침(MED-0154 등)이 우선한다. 재대조(2026-10-17): 현행 NICE 개요의 Published 2024-11-27·Last updated 표기 없음(기록의 revised unknown과 같음)이고 철회·대체 표시가 없으며, location의 권고 절 번호가 현행 권고 페이지에 모두 있어 partial→verified. 이용조건: NICE 이용약관(Terms and conditions, 2026-10-17 확인)의 Notice of Rights에 따르면 NICE 저작 콘텐츠는 영국 안에서만 NICE UK Open Content Licence로 재사용할 수 있고, 영국 밖에서는 개인적 이용·학습·개인 연구를 제외하면 NICE의 사전 서면 동의 없이 전부 또는 일부를 사용·복제·번역·배포할 수 없다(동의에 라이선스·비용이 붙을 수 있음). 한국 채널 영상에서 원문 문장·표를 옮기거나 번역해 보여주지 않고, 사실 확인용 참고와 출처 언급 수준으로만 쓴다.
 ---
 
 ## 핵심 근거
@@ -42,6 +42,7 @@ note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). 본문에 Pu
 
 ## 미검증·사용 금지
 약 용량(흡입스테로이드 용량 구분 포함), 진단 기준 수치(FeNO·호산구·폐활량·최대호기유량 변동), 재평가·시험 기간, 위험도 수치는 옮기지 않았으며 영상에 쓰지 않는다. 권고 근거 요약(Rationale and impact), 근거 검토 보고서(evidence review A~R), 알고리즘 도표, 흡입스테로이드 용량표, 부록은 읽지 않았다(미확보). 한국의 급여·허가 여부는 확인하지 않았다.
+- (2026-10-17 해결) 현행 NICE 페이지(Published·Last updated 동일)와 권고 절 번호를 대조했고 핵심 근거 내용이 현행 권고와 맞다. 위에 남은 미확인(수치, 요약하지 않은 절, 근거 설명·근거 검토)은 이 요약이 다루지 않는 범위이며 영상 근거로 쓰지 않는다.
 
 ## 영상 활용 메모
 영국 지침임을 밝히고 한국 지침(MED-0154, MED-0178, MED-0179)을 주 근거로 둔 뒤 보조 설명에만 쓴다. 단독 인용 금지. '병력과 객관적 검사가 함께 있어야 확진한다', '흡입기 사용법을 진료 때마다 확인한다', '개인 행동계획과 정기 검진이 중요하다' 같은 개념 설명 수준으로 제한하고, 수치·용량·약제 순서는 쓰지 않는다.

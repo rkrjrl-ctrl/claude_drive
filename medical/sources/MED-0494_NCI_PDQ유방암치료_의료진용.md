@@ -10,17 +10,17 @@ topic: 유방암
 url: https://www.cancer.gov/types/breast/hp/breast-treatment-pdq
 published: unknown
 revised: 2025-04-25
-checked: 2026-10-16
+checked: 2026-10-17
 location: General Information · Surgical/Radiation/Systemic Therapy for Stages I–III · Treatment of Metastatic Breast Cancer 개요 · DCIS · Latest Updates
 source_type: guideline_summary
 tier: C
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0051; MED-0054; MED-1029; MED-1030
-note: revised는 본문 하단 'Latest Updates to This Summary' 표기일. 원문 상단 UPDATED는 unknown.
+note: revised는 본문 하단 'Latest Updates to This Summary' 표기일. 원문 상단 UPDATED는 unknown. 2026-10-17 8차 재대조(보정): 현행 원문 페이지의 판(갱신·검토일)이 기록과 같음을 확인하고, 현행 본문을 다시 읽어 핵심 근거 3개 항목을 원문 문장과 대조해 일치를 확인했다 — ① 여성 비피부암 중 가장 흔함·DCIS 증가; ② 유방보존술 후 방사선 표준; ③ DCIS 치료 옵션 타목시펜. 대조하지 않은 절과 미확인 항목은 이 기록의 범위 밖으로 두고 verified를 유지했다. 해외·환자용 자료(tier C)이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -36,7 +36,7 @@ note: revised는 본문 하단 'Latest Updates to This Summary' 표기일. 원�
 미국 근거 기반이며 국내 허가·급여·진료 현실과 다를 수 있음. PDQ는 의료진 참고용 근거 요약으로 공식 진료지침·정책 선언이 아니고, 개별 환자 처방 지시도 아니다. 치료 옵션 나열은 우열 순서가 아니며 병기·수용체·폐경 상태·동반질환에 따라 달라진다. 본문은 2025-04-25 갱신분이며 이후 변화는 반영되지 않았다.
 
 ## 미검증·사용 금지
-미확보: 위험요인 외 General Information 세부, 병기(AJCC) 표 전체, 예후·예측인자 상세, 유전자검사(재발점수 등) 세부, 약제별 전이성 치료 임상시험 세부, 국소재발 치료·남성 유방암 등 특수 상황, 참고문헌. 약제 용량과 임상시험 수치(HR, 생존율, 재발률)는 기록하지 않았고 영상에 쓰지 않는다. 국내 허가사항·급여 조건·본인부담은 확인하지 않았다.
+범위 밖(읽지 않음): 위험요인 외 General Information 세부, 병기(AJCC) 표 전체, 예후·예측인자 상세, 유전자검사(재발점수 등) 세부, 약제별 전이성 치료 임상시험 세부, 국소재발 치료·남성 유방암 등 특수 상황, 참고문헌. 약제 용량과 임상시험 수치(HR, 생존율, 재발률)는 기록하지 않았고 영상에 쓰지 않는다. 국내 허가사항·급여 조건·본인부담은 확인하지 않았다.
 
 ## 영상 활용 메모
 국내 치료 설명은 국가암정보센터(MED-0054)와 한국유방암학회 권고안(MED-1029, MED-1030)을 우선한다. 이 자료는 "해외 의료진용 요약에서는 이렇게 정리한다" 수준의 보조 설명에 한정하고, 약 이름이나 치료 순서를 단정적으로 제시하지 않는다. 수용체 상태·병기에 따라 치료가 달라진다는 조건을 병기한다.

@@ -10,17 +10,17 @@ topic: 근골격·통증·재활
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/falls-prevention-community-dwelling-older-adults-interventions
 published: 2024-06-04
 revised: unknown
-checked: 2026-10-16
+checked: 2026-10-17
 location: '권고 요약(Recommendation Summary)·임상가 요약'
 source_type: guideline_summary
 tier: B
-status: partial
-recheck_by: 2026-12-16
+status: verified
+recheck_by: 2027-04-17
 reviewer: "Claude Code 직접 확인(USPSTF 웹 원문). 의료인 검토 미실시"
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0420; MED-0676; MED-1293; MED-1315
-note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는 2026-10-17 USPSTF 페이지를 다시 열어 'Final Recommendation Statement' 제목 아래 표시된 최종 권고 발표일(2024-06-04)로 채웠다. 별도 수정일 표기가 없어 revised는 unknown이다. 미국 예방 권고이며 한국 국가검진·급여·진료지침과 다르고 한국 자료가 우선한다. 이용조건: USPSTF 저작권 안내(Copyright Notice, 2026-10-17 확인)는 내용을 바꾸지 않는 조건(미국 저작권법상 공정이용 범위는 예외)으로 일반인의 복제·재배포·게시·다른 자료 편입을 허용하되, 유료 재배포·판매·영리 사업 편입은 AHRQ 서면 허가가 필요하고, 일부를 인용하면 USPSTF 웹페이지를 출처로 밝히며, 각색물에는 AHRQ·HHS가 보증하지 않는다는 고지를 넣도록 한다. 영상에는 한국어 요약·재서술과 출처 표기만 쓰고 원문 표·문장을 그대로 옮기지 않는다.
+note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는 2026-10-17 USPSTF 페이지를 다시 열어 'Final Recommendation Statement' 제목 아래 표시된 최종 권고 발표일(2024-06-04)로 채웠다. 별도 수정일 표기가 없어 revised는 unknown이다. 미국 예방 권고이며 한국 국가검진·급여·진료지침과 다르고 한국 자료가 우선한다. 2026-10-17 본문 재대조: 현행 USPSTF 페이지의 Final Recommendation Statement(권고 요약·임상가 요약·Practice 또는 Clinical Considerations)를 읽고 핵심 근거 4개 항목(65세 이상 고위험 운동 중재 B; 다요인 중재 개별화 C; 이득 경로(이용 가능·접근·형평); 위험평가 요인)이 원문과 일치함을 확인해 verified로 올렸다. 이용조건: USPSTF 저작권 안내(Copyright Notice, 2026-10-17 확인)는 내용을 바꾸지 않는 조건(미국 저작권법상 공정이용 범위는 예외)으로 일반인의 복제·재배포·게시·다른 자료 편입을 허용하되, 유료 재배포·판매·영리 사업 편입은 AHRQ 서면 허가가 필요하고, 일부를 인용하면 USPSTF 웹페이지를 출처로 밝히며, 각색물에는 AHRQ·HHS가 보증하지 않는다는 고지를 넣도록 한다. 영상에는 한국어 요약·재서술과 출처 표기만 쓰고 원문 표·문장을 그대로 옮기지 않는다.
 ---
 
 ## 핵심 근거
@@ -37,6 +37,7 @@ note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는
 
 ## 미검증·사용 금지
 연령 기준, 위험 판정 기준, 운동 종류별 효과, 낙상 빈도·사망 통계 수치는 옮기지 않았다(원문 참조). 비타민 D와 낙상은 이 권고의 판단 대상이 아니므로 이 자료로 말하지 않는다. 근거 보고서·전문 권고문(근거 설명, 해악, 타 기관 권고)·참고문헌은 읽지 않았다(미확보).
+- (2026-10-17 해결) 현행 USPSTF 페이지의 Final Recommendation Statement(권고 요약·임상가 요약·Practice 또는 Clinical Considerations)를 읽고 핵심 근거를 대조해 일치함을 확인했다. 위 미확인 항목 가운데 근거 보고서·모델링·Evidence Summary·참고문헌과 수치는 이번 대조 범위 밖이다.
 
 ## 영상 활용 메모
 한국 노인 운동·낙상 자료(MED-0420 등)를 주 근거로 두고, '운동 중재는 B 권고, 다요인 중재는 개별 판단'이라는 구도를 설명하는 보조로만 쓴다. 자막에 '미국 권고'임을 밝히고 단독 인용하지 않는다.

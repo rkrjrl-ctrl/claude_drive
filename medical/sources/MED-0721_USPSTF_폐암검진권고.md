@@ -10,17 +10,17 @@ topic: 폐암
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening
 published: 2021-03-09
 revised: unknown
-checked: 2026-10-16
+checked: 2026-10-17
 location: '권고 요약(Recommendation Summary)·임상가 요약'
 source_type: guideline_summary
 tier: B
-status: partial
-recheck_by: 2026-12-16
+status: verified
+recheck_by: 2027-04-17
 reviewer: "Claude Code 직접 확인(USPSTF 웹 원문). 의료인 검토 미실시"
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0102; MED-0520; MED-0046; MED-1318; MED-1413
-note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는 2026-10-17 USPSTF 페이지를 다시 열어 'Final Recommendation Statement' 제목 아래 표시된 최종 권고 발표일(2021-03-09)로 채웠다. 별도 수정일 표기가 없어 revised는 unknown이다. 미국 예방 권고이며 한국 국가검진·급여·진료지침과 다르다. 한국 자료가 있으면 한국 자료가 우선한다. 이용조건: USPSTF 저작권 안내(Copyright Notice, 2026-10-17 확인)는 내용을 바꾸지 않는 조건(미국 저작권법상 공정이용 범위는 예외)으로 일반인의 복제·재배포·게시·다른 자료 편입을 허용하되, 유료 재배포·판매·영리 사업 편입은 AHRQ 서면 허가가 필요하고, 일부를 인용하면 USPSTF 웹페이지를 출처로 밝히며, 각색물에는 AHRQ·HHS가 보증하지 않는다는 고지를 넣도록 한다. 영상에는 한국어 요약·재서술과 출처 표기만 쓰고 원문 표·문장을 그대로 옮기지 않는다.
+note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는 2026-10-17 USPSTF 페이지를 다시 열어 'Final Recommendation Statement' 제목 아래 표시된 최종 권고 발표일(2021-03-09)로 채웠다. 별도 수정일 표기가 없어 revised는 unknown이다. 미국 예방 권고이며 한국 국가검진·급여·진료지침과 다르다. 한국 자료가 있으면 한국 자료가 우선한다. 2026-10-17 본문 재대조: 현행 USPSTF 페이지의 Final Recommendation Statement(권고 요약·임상가 요약·Practice 또는 Clinical Considerations)를 읽고 핵심 근거 3개 항목(50~80세 20갑년 현재·15년 내 금연자 연 1회 LDCT B; 금연 15년 경과·기대수명 제한 시 중단; 흡연과 고령이 가장 중요한 위험요인)이 원문과 일치함을 확인해 verified로 올렸다. 이용조건: USPSTF 저작권 안내(Copyright Notice, 2026-10-17 확인)는 내용을 바꾸지 않는 조건(미국 저작권법상 공정이용 범위는 예외)으로 일반인의 복제·재배포·게시·다른 자료 편입을 허용하되, 유료 재배포·판매·영리 사업 편입은 AHRQ 서면 허가가 필요하고, 일부를 인용하면 USPSTF 웹페이지를 출처로 밝히며, 각색물에는 AHRQ·HHS가 보증하지 않는다는 고지를 넣도록 한다. 영상에는 한국어 요약·재서술과 출처 표기만 쓰고 원문 표·문장을 그대로 옮기지 않는다.
 ---
 
 ## 핵심 근거
@@ -35,6 +35,7 @@ note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는
 
 ## 미검증·사용 금지
 연령 범위, 갑년(pack-year), 금연 후 기간, 발생·사망·생존율 통계 수치는 옮기지 않았다. 근거 보고서·모델링 연구·Supporting Evidence·Recommendations of Others·참고문헌은 상세를 읽지 않았다(미확보). 위해(위양성, 과잉진단, 방사선 노출 등) 세부는 원문 참조.
+- (2026-10-17 해결) 현행 USPSTF 페이지의 Final Recommendation Statement(권고 요약·임상가 요약·Practice 또는 Clinical Considerations)를 읽고 핵심 근거를 대조해 일치함을 확인했다. 위 미확인 항목 가운데 근거 보고서·모델링·Evidence Summary·참고문헌과 수치는 이번 대조 범위 밖이다.
 
 ## 영상 활용 메모
 '미국 권고' 임을 밝히고, 한국 국가암검진 폐암 대상·주기(MED-0102)와 구분해 말한다. 미국 기준 연령·흡연력을 한국 시청자에게 적용하듯 말하지 않는다. 단독 인용 금지.

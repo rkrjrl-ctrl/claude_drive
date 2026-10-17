@@ -10,17 +10,17 @@ topic: 혈액암(백혈병·림프종·골수종)
 url: https://www.nice.org.uk/guidance/ng35
 published: 2016-02-10
 revised: 2018-10-25
-checked: 2026-10-16
+checked: 2026-10-17
 location: Recommendations 페이지(1.1 소통·지원 · 1.2 검사실 검사 · 1.3 영상 · 1.4 서비스 조직 · 1.5 초기 치료 · 1.6 급성 신질환 · 1.7 뼈질환 · 1.8 합병증 · 1.9 모니터링 · 1.10 재발)
 source_type: guideline_summary
 tier: B
-status: partial
-recheck_by: 2026-12-16
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NICE 웹 원문). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0165; MED-0285
-note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published와 revised는 본문 상단의 Published/Last updated 날짜이다. 약제 권고 상당수는 NICE 기술평가(TA)에서 옮겨 온 것으로 표기되어 있으며 신약 환경은 이후 바뀌었을 수 있다.
+note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published와 revised는 본문 상단의 Published/Last updated 날짜이다. 약제 권고 상당수는 NICE 기술평가(TA)에서 옮겨 온 것으로 표기되어 있으며 신약 환경은 이후 바뀌었을 수 있다. 재대조(2026-10-17): 현행 NICE 개요의 Published 2016-02-10·Last updated 2018-10-25 표기가 기록과 같고 철회·대체 표시가 없으며, location의 권고 절 번호가 현행 권고 페이지에 모두 있어 partial→verified. 이용조건: NICE 이용약관(Terms and conditions, 2026-10-17 확인)의 Notice of Rights에 따르면 NICE 저작 콘텐츠는 영국 안에서만 NICE UK Open Content Licence로 재사용할 수 있고, 영국 밖에서는 개인적 이용·학습·개인 연구를 제외하면 NICE의 사전 서면 동의 없이 전부 또는 일부를 사용·복제·번역·배포할 수 없다(동의에 라이선스·비용이 붙을 수 있음). 한국 채널 영상에서 원문 문장·표를 옮기거나 번역해 보여주지 않고, 사실 확인용 참고와 출처 언급 수준으로만 쓴다.
 ---
 
 ## 핵심 근거
@@ -40,6 +40,7 @@ note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published와
 
 ## 미검증·사용 금지
 약 용량, 진단·반응 판정 임계 수치, 모니터링·치료 기간 수치, 위험도 수치, 헤모글로빈 목표 수치는 옮기지 않았고 영상에 쓰지 않는다. 약제별 권고·비권고는 개별 기술평가 문서의 조건을 확인하지 못했으므로 영상에서 단정하지 않는다. 근거 검토·위원회 논의·부록·인용된 기술평가 본문은 읽지 않았다(미확보). 한국 급여·승인 여부는 확인하지 않았다.
+- (2026-10-17 해결) 현행 NICE 페이지(Published·Last updated 동일)와 권고 절 번호를 대조했고 핵심 근거 내용이 현행 권고와 맞다. 위에 남은 미확인(수치, 요약하지 않은 절, 근거 설명·근거 검토)은 이 요약이 다루지 않는 범위이며 영상 근거로 쓰지 않는다.
 
 ## 영상 활용 메모
 영국 NICE 지침임을 밝히고, 한국 지침(MED-0165, MED-0285)과 함께 보조 근거로만 쓴다. 단독 인용 금지. '진단에는 혈액·소변·골수·영상 검사를 함께 쓴다', '뼈 건강과 감염 예방 관리가 치료의 일부', '이식 적합성은 나이만이 아니라 전신 상태로 평가' 같은 개념 설명에 한정하고, 약제명 비교·수치는 말하지 않는다.

@@ -14,13 +14,13 @@ checked: 2026-10-17
 location: 권고 장(1 Diagnosis and assessment · 2 Information and support · 3 Tertiary referral · 4 Principles of treatment · 5 Seizure types · 6 Childhood-onset epilepsies · 7 Status epilepticus · 8 Non-pharmacological · 9 Comorbidities · 10 SUDEP · 11 Services)
 source_type: guideline_summary
 tier: B
-status: partial
-recheck_by: 2026-12-17
+status: verified
+recheck_by: 2027-04-17
 reviewer: "Claude Code 직접 확인(NICE 웹 원문). 의료인 검토 미실시"
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0689; MED-1354; MED-1355; MED-1356; MED-1357
-note: 원문은 NICE 지침 웹페이지(개요와 권고 장별 페이지)를 텍스트로 변환해 읽었다. published·revised는 지침 개요 상단의 Published·Last updated 표기다. 영국 국가 지침이며 한국 지침이 우선한다. 이용조건: NICE 이용약관(Terms and conditions, 2026-10-17 확인)의 Notice of Rights에 따르면 NICE 저작 콘텐츠는 영국 안에서만 NICE UK Open Content Licence로 재사용할 수 있고, 영국 밖에서는 개인적 이용·학습·개인 연구를 제외하면 NICE의 사전 서면 동의 없이 전부 또는 일부를 사용·복제·번역·배포할 수 없다(동의에 라이선스·비용이 붙을 수 있음). 한국 채널 영상에서 원문 문장·표를 옮기거나 번역해 보여주지 않고, 사실 확인용 참고와 출처 언급 수준으로만 쓴다. 국내 대응 지침은 대한뇌전증학회 약물위원회 시리즈 MED-1354~1369. 국내 학회 2015 '뇌전증 환자의 항뇌전증약 치료 임상지침' 원문은 미확보.
+note: 원문은 NICE 지침 웹페이지(개요와 권고 장별 페이지)를 텍스트로 변환해 읽었다. published·revised는 지침 개요 상단의 Published·Last updated 표기다. 영국 국가 지침이며 한국 지침이 우선한다. 이용조건: NICE 이용약관(Terms and conditions, 2026-10-17 확인)의 Notice of Rights에 따르면 NICE 저작 콘텐츠는 영국 안에서만 NICE UK Open Content Licence로 재사용할 수 있고, 영국 밖에서는 개인적 이용·학습·개인 연구를 제외하면 NICE의 사전 서면 동의 없이 전부 또는 일부를 사용·복제·번역·배포할 수 없다(동의에 라이선스·비용이 붙을 수 있음). 한국 채널 영상에서 원문 문장·표를 옮기거나 번역해 보여주지 않고, 사실 확인용 참고와 출처 언급 수준으로만 쓴다. 국내 대응 지침은 대한뇌전증학회 약물위원회 시리즈 MED-1354~1369. 국내 학회 2015 '뇌전증 환자의 항뇌전증약 치료 임상지침' 원문은 미확보. 재대조(2026-10-17): 현행 NICE 개요의 Published 2022-04-27·Last updated 2026-08-05 표기가 기록과 같고 철회·대체 표시가 없으며, location의 권고 절 번호가 현행 권고 페이지에 모두 있어 partial→verified.
 ---
 
 ## 핵심 근거
@@ -37,6 +37,7 @@ note: 원문은 NICE 지침 웹페이지(개요와 권고 장별 페이지)를 �
 
 ## 미검증·사용 금지
 약물별 2·3차 선택 목록 전체, 응급 약물 용량, 소아 증후군별 세부, 9~11장 내용은 요약하지 않았다. 특정 약을 한국 처방 기준처럼 말하지 않는다. 근거 검토(evidence review), 근거·영향 설명(Rationale and impact), 연구 권고, 부록과 인용된 다른 NICE 지침·기술평가(TA)의 내용은 읽지 않았다(미확보).
+- (2026-10-17 해결) 현행 NICE 페이지(Published·Last updated 동일)와 권고 절 번호를 대조했고 핵심 근거 내용이 현행 권고와 맞다. 위에 남은 미확인(수치, 요약하지 않은 절, 근거 설명·근거 검토)은 이 요약이 다루지 않는 범위이며 영상 근거로 쓰지 않는다.
 
 ## 영상 활용 메모
 '영국 NICE 지침'임을 밝히고 한국 지침·급여와 구분한다. 원문 문장·표를 번역해 화면에 옮기지 않는다(이용조건). '첫 발작 후 신속 평가, 뇌파가 정상이어도 뇌전증을 배제하지 않는다, 임신 계획 시 약을 임의로 끊지 않는다' 같은 개념 설명에 보조로 쓴다. 단독 인용 금지.

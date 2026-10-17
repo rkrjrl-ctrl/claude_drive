@@ -10,15 +10,16 @@ topic: 방광·고환암
 url: https://www.cancer.gov/types/bladder/hp/bladder-treatment-pdq
 published: unknown
 revised: 2025-05-02
-checked: 2026-10-16
+checked: 2026-10-17
 location: General Information · Treatment Option Overview(Table 7) · Stage 0~IV·Recurrent 절 개요 · Latest Updates
 source_type: guideline_summary
 tier: C
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
+note: 2026-10-17 8차 재대조(보정): 현행 원문 페이지의 판(갱신·검토일)이 기록과 같음을 확인하고, 현행 본문을 다시 읽어 핵심 근거 4개 항목을 원문 문장과 대조해 일치를 확인했다 — ① 대부분 요로상피암; ② 흡연이 가장 흔한 위험요인; ③ TUR 후 방광내 항암제 1회 즉시 주입; ④ 시스플라틴 선행항암 후 방광절제. 대조하지 않은 절과 미확인 항목은 이 기록의 범위 밖으로 두고 verified를 유지했다. 해외·환자용 자료(tier C)이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -37,7 +38,7 @@ video_use: 미배정
 미국 근거 기반이며 국내 허가·급여·진료 현실과 다를 수 있음. 약제의 승인 상태(예: 일부 면역치료제의 1차 치료 철회)는 미국 FDA 맥락이며 국내와 다를 수 있다. 공식 진료지침이 아닌 PDQ 편집위원회의 독립 문헌 검토이며 옵션 순서는 우열이 아니다. 시스플라틴 적합성, 면역치료 적격성, 방광 보존 가능성 등 개인 조건에 따라 선택이 크게 달라진다.
 
 ## 미검증·사용 금지
-- 미확보: 원문 전체 정독은 하지 않았다. 읽은 범위는 General Information(위험요인·임상양상·진단·병리), Treatment Option Overview(비근침윤성·근침윤성 개요, Table 7), II·III기·IV기 절 도입부와 소제목, 일부 근거수준 표기 문장, Latest Updates다. 병기 표(TNM) 세부, 0·I기 방광 내 주입요법 세부, 방광 보존 삼중요법, 재발 절의 약제별 시험 세부, 추적관찰은 읽지 않았거나 요약하지 않았다.
+- 범위 밖(읽지 않음): 원문 전체 정독은 하지 않았다. 읽은 범위는 General Information(위험요인·임상양상·진단·병리), Treatment Option Overview(비근침윤성·근침윤성 개요, Table 7), II·III기·IV기 절 도입부와 소제목, 일부 근거수준 표기 문장, Latest Updates다. 병기 표(TNM) 세부, 0·I기 방광 내 주입요법 세부, 방광 보존 삼중요법, 재발 절의 약제별 시험 세부, 추적관찰은 읽지 않았거나 요약하지 않았다.
 - 국내 허가사항, 급여 조건, 본인부담, 약제 용량·임상시험 수치(HR, 생존기간)는 사용 금지.
 - 국내 방광암 파일은 BY_DISEASE.md 기준 아직 없어 related에 연결하지 않았다(국가암정보센터 방광암 항목·학회 지침 확보 필요). 국내 기준 설명 근거로 쓰지 않는다.
 

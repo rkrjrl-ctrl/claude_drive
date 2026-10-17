@@ -10,16 +10,16 @@ topic: 콩팥·비뇨기질환
 url: https://www.nice.org.uk/guidance/ng109
 published: 2018-10-31
 revised: unknown
-checked: 2026-10-16
+checked: 2026-10-17
 location: Recommendations 페이지(1.1 하부 요로감염 관리 · 1.2 무증상 세균뇨 관리 · 1.3 자가관리 · 1.4 항생제 선택)
 source_type: guideline_summary
 tier: B
-status: partial
-recheck_by: 2026-12-16
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NICE 웹 원문). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). 본문에 Published만 있고 Last updated 표기가 없어 revised는 unknown이다. 저장소에서 같은 질환의 한국 지침 자료를 찾지 못해 related를 두지 않았다. 한국 자료가 확보되면 연결한다.
+note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). 본문에 Published만 있고 Last updated 표기가 없어 revised는 unknown이다. 저장소에서 같은 질환의 한국 지침 자료를 찾지 못해 related를 두지 않았다. 한국 자료가 확보되면 연결한다. 재대조(2026-10-17): 현행 NICE 개요의 Published 2018-10-31·Last updated 표기 없음(기록의 revised unknown과 같음)이고 철회·대체 표시가 없으며, location의 권고 절 번호가 현행 권고 페이지에 모두 있어 partial→verified. 이용조건: NICE 이용약관(Terms and conditions, 2026-10-17 확인)의 Notice of Rights에 따르면 NICE 저작 콘텐츠는 영국 안에서만 NICE UK Open Content Licence로 재사용할 수 있고, 영국 밖에서는 개인적 이용·학습·개인 연구를 제외하면 NICE의 사전 서면 동의 없이 전부 또는 일부를 사용·복제·번역·배포할 수 없다(동의에 라이선스·비용이 붙을 수 있음). 한국 채널 영상에서 원문 문장·표를 옮기거나 번역해 보여주지 않고, 사실 확인용 참고와 출처 언급 수준으로만 쓴다.
 ---
 
 ## 핵심 근거
@@ -38,6 +38,7 @@ note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). 본문에 Pu
 
 ## 미검증·사용 금지
 항생제 용량·투여 기간, 신기능 기준, 지연 처방 사용 시점 수치, 세균뇨 기준 수치는 옮기지 않았으며 영상에 쓰지 않는다. 1.4 항생제 선택의 표 1~4(비임신 여성, 임신부, 남성, 소아)는 구조만 확인했고 약제 선택 세부는 읽은 범위가 얕다(미확보). 권고 근거 요약, 근거 검토 보고서, 관련 신우신염·소아 요로감염 지침 본문은 읽지 않았다(미확보). 한국 내성 자료와 급여는 확인하지 않았다.
+- (2026-10-17 해결) 현행 NICE 페이지(Published·Last updated 동일)와 권고 절 번호를 대조했고 핵심 근거 내용이 현행 권고와 맞다. 위에 남은 미확인(수치, 요약하지 않은 절, 근거 설명·근거 검토)은 이 요약이 다루지 않는 범위이며 영상 근거로 쓰지 않는다.
 
 ## 영상 활용 메모
 영국 NHS 지침임을 밝히고, 한국 지침 자료가 확보되기 전에는 영상에 단독으로 쓰지 않는다(단독 인용 금지). 쓰더라도 '증상이 있어도 중증도와 위험에 따라 항생제 시점을 정한다', '무증상이면 대개 치료하지 않지만 임신부는 예외로 다룬다', '수분 섭취와 진통제 같은 자가관리가 병행된다' 같은 개념 설명에 한정하고, 약제·용량·기간은 쓰지 않는다.

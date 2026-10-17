@@ -10,17 +10,17 @@ topic: 간질환(간염·지방간·간경변)
 url: https://medlineplus.gov/hepatitis.html
 published: 1998-11-20
 revised: unknown
-checked: 2026-10-16
+checked: 2026-10-17
 location: MedlinePlus 건강 주제 요약 페이지
 source_type: web_summary
 tier: C
-status: partial
-recheck_by: 2026-12-16
+status: verified
+recheck_by: 2027-04-17
 reviewer: "Claude Code 직접 확인(MedlinePlus XML 원문). 의료인 검토 미실시"
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0263; MED-0264; MED-0265
-note: 환자용 일반 요약(2차 출처)이며 한국 진료지침과 다를 수 있다. published는 원문 텍스트의 CREATED(최초 작성일) 값이고 수정일은 본문에 없어 unknown이다.
+note: 환자용 일반 요약(2차 출처)이며 한국 진료지침과 다를 수 있다. published는 원문 텍스트의 CREATED(최초 작성일) 값이고 수정일은 본문에 없어 unknown이다. 2026-10-17 본문 재대조: 현행 MedlinePlus 건강 주제 페이지(하단 'Last updated' 표시 2023-10-20, 페이지 전체의 갱신 표시라 revised에는 넣지 않음)의 Summary 본문을 읽고 핵심 근거 2개 항목(정의(간의 염증, 급성 또는 만성); 종류·원인(바이러스성이 가장 흔함, 알코올성·독성·자가면역))이 원문과 일치함을 확인해 verified로 올렸다. tier C 해외 환자용 자료이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다. 이용조건: MedlinePlus 'Linking to and Using Content from MedlinePlus' 안내(2026-10-17 확인)에 따르면 건강 주제 페이지의 요약(Summaries on health topic pages)은 미국 연방정부 저작물로 저작권이 없는 공공 영역이라 자유롭게 복제·재배포할 수 있고, 'Source: MedlinePlus, National Library of Medicine' 같은 출처 표기를 요청한다. 같은 사이트의 A.D.A.M. 의학백과, ASHP 약물 정보, 출처 표시 없는 이미지는 저작권 자료라 옮기지 않는다.
 ---
 
 ## 핵심 근거
@@ -38,6 +38,7 @@ note: 환자용 일반 요약(2차 출처)이며 한국 진료지침과 다를 �
 
 ## 미검증·사용 금지
 약 용량, 진단 임계 수치, 통계 수치는 옮기지 않았다. 증상 시작 기간의 구체 수치, 약제명·용량, 유형별 만성화 비율·통계는 옮기지 않았다. D·E형, 알코올성·독성 간염의 세부 진단·치료는 요약에 없다(미확보). 요약 외에 링크된 하위 페이지·약물정보 등은 읽지 못했다(미확보). 본문에 없는 내용은 추정으로 채우지 않았다. 통계·용량·기준 수치는 영상에 인용하지 않는다.
+- (2026-10-17 해결) 현행 MedlinePlus 페이지의 Summary 본문을 읽고 핵심 근거를 대조해 일치함을 확인했다. 위 미확인 항목 가운데 링크된 하위 페이지·약물정보·통계 수치는 이번 대조 범위 밖이다(미확보 유지).
 
 ## 영상 활용 메모
 간염이 여러 유형이며 원인·전파·예방이 다르다는 도입 설명으로만 쓴다. 유형별 설명은 한국 지침을 주 근거로 한다. 한국 진료지침이 있으면 그것을 주 근거로 두고 본 자료는 일반 설명 보조로만 쓰며, 단독 인용 금지.

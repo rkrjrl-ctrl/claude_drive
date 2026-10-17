@@ -14,13 +14,13 @@ checked: 2026-10-17
 location: 권고 요약(Recommendation Summary)·임상가 요약(Clinician Summary)
 source_type: guideline_summary
 tier: B
-status: partial
-recheck_by: 2026-12-17
+status: verified
+recheck_by: 2027-04-17
 reviewer: "Claude Code 직접 확인(USPSTF 웹 원문). 의료인 검토 미실시"
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0232; MED-0313; MED-1141; MED-0704; MED-1315
-note: 원문은 USPSTF 권고 웹페이지를 텍스트로 변환해 읽었다. published는 페이지의 'Final Recommendation Statement' 제목 아래 표시된 날짜다. 본문에 별도 수정일 표기가 없어 revised는 unknown이다. 읽은 범위는 권고 요약(Recommendation Summary)과 임상가 요약(Clinician Summary)이다. 미국 예방 권고이며 한국 국가검진·급여·진료지침과 다르다. 한국 자료가 있으면 한국 자료가 우선한다. 이용조건: USPSTF 저작권 안내(Copyright Notice, 2026-10-17 확인)는 내용을 바꾸지 않는 조건(미국 저작권법상 공정이용 범위는 예외)으로 일반인의 복제·재배포·게시·다른 자료 편입을 허용하되, 유료 재배포·판매·영리 사업 편입은 AHRQ 서면 허가가 필요하고, 일부를 인용하면 USPSTF 웹페이지를 출처로 밝히며, 각색물에는 AHRQ·HHS가 보증하지 않는다는 고지를 넣도록 한다. 영상에는 한국어 요약·재서술과 출처 표기만 쓰고 원문 표·문장을 그대로 옮기지 않는다.
+note: 원문은 USPSTF 권고 웹페이지를 텍스트로 변환해 읽었다. published는 페이지의 'Final Recommendation Statement' 제목 아래 표시된 날짜다. 본문에 별도 수정일 표기가 없어 revised는 unknown이다. 읽은 범위는 권고 요약(Recommendation Summary)과 임상가 요약(Clinician Summary)이다. 미국 예방 권고이며 한국 국가검진·급여·진료지침과 다르다. 한국 자료가 있으면 한국 자료가 우선한다. 2026-10-17 본문 재대조: 현행 USPSTF 페이지의 Final Recommendation Statement(권고 요약·임상가 요약·Practice 또는 Clinical Considerations)를 읽고 핵심 근거 5개 항목(65세 이상 여성 B; 위험요인 있는 65세 미만 폐경 여성 B; 남성 I; 이득 경로(추가 평가·근거 기반 관리); 적용 범위(40세 이상, 이차성 골다공증 제외))이 원문과 일치함을 확인해 verified로 올렸다. 이용조건: USPSTF 저작권 안내(Copyright Notice, 2026-10-17 확인)는 내용을 바꾸지 않는 조건(미국 저작권법상 공정이용 범위는 예외)으로 일반인의 복제·재배포·게시·다른 자료 편입을 허용하되, 유료 재배포·판매·영리 사업 편입은 AHRQ 서면 허가가 필요하고, 일부를 인용하면 USPSTF 웹페이지를 출처로 밝히며, 각색물에는 AHRQ·HHS가 보증하지 않는다는 고지를 넣도록 한다. 영상에는 한국어 요약·재서술과 출처 표기만 쓰고 원문 표·문장을 그대로 옮기지 않는다.
 ---
 
 ## 핵심 근거
@@ -36,6 +36,7 @@ note: 원문은 USPSTF 권고 웹페이지를 텍스트로 변환해 읽었다. 
 
 ## 미검증·사용 금지
 위험평가 도구의 종류와 기준값, 재검 간격, 치료 약제는 옮기지 않았다(원문 Practice Considerations 미요약). 근거 보고서(Final Evidence Review)·모델링 연구·Supporting Evidence·Recommendations of Others·참고문헌은 읽지 않았다(미확보). 유병률·사망률 등 통계 수치는 옮기지 않았다.
+- (2026-10-17 해결) 현행 USPSTF 페이지의 Final Recommendation Statement(권고 요약·임상가 요약·Practice 또는 Clinical Considerations)를 읽고 핵심 근거를 대조해 일치함을 확인했다. 위 미확인 항목 가운데 근거 보고서·모델링·Evidence Summary·참고문헌과 수치는 이번 대조 범위 밖이다.
 
 ## 영상 활용 메모
 '미국 권고(USPSTF)'임을 밝히고 한국 제도·지침과 구분해 말한다. '미국은 65세 이상 여성과 위험요인 있는 젊은 폐경 여성에게 골밀도 검사를 권한다' 정도의 해외 비교로만 쓰고, 한국 국가검진 대상은 국내 자료로 말한다. 남성 I 등급을 '남성은 검사할 필요 없다'로 옮기지 않는다.

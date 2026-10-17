@@ -10,17 +10,17 @@ topic: 구강질환
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/prevention-of-dental-caries-in-children-younger-than-age-5-years-screening-and-interventions1
 published: 2021-12-07
 revised: unknown
-checked: 2026-10-16
+checked: 2026-10-17
 location: 권고 요약(Recommendation Summary)·임상가 요약
 source_type: guideline_summary
 tier: B
-status: partial
-recheck_by: 2026-12-16
+status: verified
+recheck_by: 2027-04-17
 reviewer: "Claude Code 직접 확인(USPSTF 웹 원문). 의료인 검토 미실시"
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0615; MED-0637
-note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는 2026-10-17 USPSTF 페이지를 다시 열어 'Final Recommendation Statement' 제목 아래 표시된 최종 권고 발표일(2021-12-07)로 채웠다. 별도 수정일 표기가 없어 revised는 unknown이다. 페이지에 기재된 근거 검토(Final Evidence Review) 일자는 2021-12-07이다(권고문과 별개 문서의 날짜). 미국 예방 권고이며 한국 국가검진·급여·진료지침과 다르다. 한국 자료가 있으면 한국 자료가 우선한다. 이용조건: USPSTF 저작권 안내(Copyright Notice, 2026-10-17 확인)는 내용을 바꾸지 않는 조건(미국 저작권법상 공정이용 범위는 예외)으로 일반인의 복제·재배포·게시·다른 자료 편입을 허용하되, 유료 재배포·판매·영리 사업 편입은 AHRQ 서면 허가가 필요하고, 일부를 인용하면 USPSTF 웹페이지를 출처로 밝히며, 각색물에는 AHRQ·HHS가 보증하지 않는다는 고지를 넣도록 한다. 영상에는 한국어 요약·재서술과 출처 표기만 쓰고 원문 표·문장을 그대로 옮기지 않는다.
+note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는 2026-10-17 USPSTF 페이지를 다시 열어 'Final Recommendation Statement' 제목 아래 표시된 최종 권고 발표일(2021-12-07)로 채웠다. 별도 수정일 표기가 없어 revised는 unknown이다. 페이지에 기재된 근거 검토(Final Evidence Review) 일자는 2021-12-07이다(권고문과 별개 문서의 날짜). 미국 예방 권고이며 한국 국가검진·급여·진료지침과 다르다. 한국 자료가 있으면 한국 자료가 우선한다. 2026-10-17 본문 재대조: 현행 USPSTF 페이지의 Final Recommendation Statement(권고 요약·임상가 요약·Practice 또는 Clinical Considerations)를 읽고 핵심 근거 4개 항목(불소 부족 지역 6개월부터 경구 불소 B; 맹출 시점부터 불소바니시 B; 1차의료 우식 선별 I; 검증된 위험 선별도구 없음)이 원문과 일치함을 확인해 verified로 올렸다. 이용조건: USPSTF 저작권 안내(Copyright Notice, 2026-10-17 확인)는 내용을 바꾸지 않는 조건(미국 저작권법상 공정이용 범위는 예외)으로 일반인의 복제·재배포·게시·다른 자료 편입을 허용하되, 유료 재배포·판매·영리 사업 편입은 AHRQ 서면 허가가 필요하고, 일부를 인용하면 USPSTF 웹페이지를 출처로 밝히며, 각색물에는 AHRQ·HHS가 보증하지 않는다는 고지를 넣도록 한다. 영상에는 한국어 요약·재서술과 출처 표기만 쓰고 원문 표·문장을 그대로 옮기지 않는다.
 ---
 ## 핵심 근거
 - 대상은 증상이 없는 5세 미만 아동이다. 권고는 예방 중재 두 가지와 선별 한 가지로 나뉜다.
@@ -35,6 +35,7 @@ note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는
 
 ## 미검증·사용 금지
 불소 보충제 농도·용량, 불소 농도 기준, 불소바니시 제형·도포 간격, 유병률·인종별 수치는 옮기지 않았다. 근거 보고서, 불소 독성 등 위해 절의 상세, 표, 참고문헌은 읽지 않았거나 요약하지 않았다(미확보). 한국의 불소 사용 기준·영유아 구강검진 내용은 이 자료로 확인하지 못했다.
+- (2026-10-17 해결) 현행 USPSTF 페이지의 Final Recommendation Statement(권고 요약·임상가 요약·Practice 또는 Clinical Considerations)를 읽고 핵심 근거를 대조해 일치함을 확인했다. 위 미확인 항목 가운데 근거 보고서·모델링·Evidence Summary·참고문헌과 수치는 이번 대조 범위 밖이다.
 
 ## 영상 활용 메모
 미국 권고임을 밝히고 한국 영유아 구강검진·불소 안내와 구분해 말한다. 단독 인용 금지. "충치 예방에 불소바니시 도포를 권고(미국, 등급 B)" 정도의 개념 설명 보조로만 쓰고, 용량·시기 수치는 영상에 쓰지 않는다.

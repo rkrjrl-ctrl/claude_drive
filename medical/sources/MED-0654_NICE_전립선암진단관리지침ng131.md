@@ -10,17 +10,17 @@ topic: 전립선암
 url: https://www.nice.org.uk/guidance/ng131
 published: 2019-05-09
 revised: 2021-12-15
-checked: 2026-10-16
+checked: 2026-10-17
 location: Recommendations 페이지(1.1 정보와 의사결정 지원 · 1.2 평가와 진단 · 1.3 국소·국소진행 · 1.4 호르몬치료 · 1.5 전이성 · 용어 정의)
 source_type: guideline_summary
 tier: B
-status: partial
-recheck_by: 2026-12-16
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NICE 웹 원문). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0132; MED-0128; MED-0126; MED-1295
-note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published·revised는 본문 상단 Published·Last updated 표기이다. 영국 국가 지침이므로 한국 지침(대한비뇨종양학회 MED-0126~0139)이 우선한다.
+note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published·revised는 본문 상단 Published·Last updated 표기이다. 영국 국가 지침이므로 한국 지침(대한비뇨종양학회 MED-0126~0139)이 우선한다. 재대조(2026-10-17): 현행 NICE 개요의 Published 2019-05-09·Last updated 2021-12-15 표기가 기록과 같고 철회·대체 표시가 없으며, location의 권고 절 번호가 현행 권고 페이지에 모두 있어 partial→verified. 이용조건: NICE 이용약관(Terms and conditions, 2026-10-17 확인)의 Notice of Rights에 따르면 NICE 저작 콘텐츠는 영국 안에서만 NICE UK Open Content Licence로 재사용할 수 있고, 영국 밖에서는 개인적 이용·학습·개인 연구를 제외하면 NICE의 사전 서면 동의 없이 전부 또는 일부를 사용·복제·번역·배포할 수 없다(동의에 라이선스·비용이 붙을 수 있음). 한국 채널 영상에서 원문 문장·표를 옮기거나 번역해 보여주지 않고, 사실 확인용 참고와 출처 언급 수준으로만 쓴다.
 ---
 
 ## 핵심 근거
@@ -38,6 +38,7 @@ note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published·r
 
 ## 미검증·사용 금지
 약 용량, 방사선 선량·분할, PSA·위험군 기준, 추적 간격과 기간, 생검·치료 부작용 빈도, 생존·진행 비율 등 모든 수치는 옮기지 않았으며 영상에 쓰지 않는다(원문의 안내 상자와 표에 있음). 권고 근거 요약(Rationale and impact), 근거 검토 보고서, 기술평가(TA) 본문, 부록, 의사결정 보조도구 본문은 읽지 않았다(미확보). 능동감시 프로토콜 표, 위험군 표, 일부 치료 세부 조건은 요약 수준으로만 확인했다. 한국의 급여·허가 범위는 확인하지 않았다.
+- (2026-10-17 해결) 현행 NICE 페이지(Published·Last updated 동일)와 권고 절 번호를 대조했고 핵심 근거 내용이 현행 권고와 맞다. 위에 남은 미확인(수치, 요약하지 않은 절, 근거 설명·근거 검토)은 이 요약이 다루지 않는 범위이며 영상 근거로 쓰지 않는다.
 
 ## 영상 활용 메모
 영국 NHS 지침임을 밝히고 한국 지침(MED-0132, MED-0128, MED-0126)을 주 근거로 둔 뒤 보조 설명에만 쓴다. 단독 인용 금지. '치료를 정할 때 위험군과 환자 선호를 함께 본다', '진단에서 MRI를 먼저 활용하는 접근이 있다', '치료 부작용(성기능·요실금)을 미리 상담한다' 같은 개념 설명 수준으로 제한하고, 생검 부작용 빈도나 치료 비교 수치는 쓰지 않는다.

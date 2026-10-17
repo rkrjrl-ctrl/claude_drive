@@ -10,16 +10,17 @@ topic: 대장암
 url: https://www.cancer.gov/types/colorectal/hp/rectal-treatment-pdq
 published: unknown
 revised: 2025-02-12
-checked: 2026-10-16
+checked: 2026-10-17
 location: General Information · Treatment Option Overview for Rectal Cancer(Table 6) · Primary Surgical Therapy · Chemoradiation Therapy · Latest Updates
 source_type: guideline_summary
 tier: C
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0217; MED-0290; MED-0041; MED-0039
+note: 2026-10-17 8차 재대조(보정): 현행 원문 페이지의 판(갱신·검토일)이 기록과 같음을 확인하고, 현행 본문을 다시 읽어 핵심 근거 3개 항목을 원문 문장과 대조해 일치를 확인했다 — ① 직장암 국소재발 위험(골반); ② II/III기 수술 전 방사선화학요법 선호; ③ 직장간막 전절제(TME). 대조하지 않은 절과 미확인 항목은 이 기록의 범위 밖으로 두고 verified를 유지했다. 해외·환자용 자료(tier C)이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -35,7 +36,7 @@ related: MED-0217; MED-0290; MED-0041; MED-0039
 미국 근거 기반이며 국내 허가·급여·진료 현실과 다를 수 있음. PDQ는 전문인용 요약이며 공식 진료지침·권고나 NCI 정책 선언이 아니다. 옵션 나열은 우열 순위가 아니다. 이 파일은 개요 표와 절 첫머리, 근거수준 표기 일부만 읽은 요약이다.
 
 ## 미검증·사용 금지
-미확보: 읽지 않은 절(수술 세부, 방사선 기법, 보조항암 세부, IV기 각 약제·간전이 세부)과 임상시험 세부 결과. 약제 용량·임상시험 수치(생존율, HR 등)는 기재하지 않았다. 국내 허가·급여 조건은 확인하지 않았다. 국내 기준은 MED-0217, MED-0290(직장암 지침)과 MED-0041 참조.
+범위 밖(읽지 않음): 읽지 않은 절(수술 세부, 방사선 기법, 보조항암 세부, IV기 각 약제·간전이 세부)과 임상시험 세부 결과. 약제 용량·임상시험 수치(생존율, HR 등)는 기재하지 않았다. 국내 허가·급여 조건은 확인하지 않았다. 국내 기준은 MED-0217, MED-0290(직장암 지침)과 MED-0041 참조.
 
 ## 영상 활용 메모
 병기·종양 위치·MMR/MSI 상태에 따라 치료가 달라진다는 조건을 병기하고, 특정 치료의 우열이나 완치 가능성을 단정하지 않는다. 면역치료 완전반응 사례는 소규모 연구(근거수준 C3)임을 밝힌다.

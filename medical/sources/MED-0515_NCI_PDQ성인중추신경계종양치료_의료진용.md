@@ -10,17 +10,17 @@ topic: 뇌종양·소아고형암
 url: https://www.cancer.gov/types/brain/hp/adult-brain-treatment-pdq
 published: unknown
 revised: 2025-03-28
-checked: 2026-10-16
+checked: 2026-10-17
 location: General Information · Clinical Features · Diagnostic Evaluation · Treatment Option Overview for Primary CNS Tumors · Treatment of Primary CNS Tumors by Tumor Type(Table 2 첫머리) · 전이성 뇌종양 · 재발 CNS 종양 절 첫머리 · Latest Updates
 source_type: guideline_summary
 tier: C
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0334; MED-0335; MED-0387; MED-0388
-note: 최신 갱신(2025-03-28) 항목은 '이전 제목 Adult Central Nervous System Tumors Treatment에서 이름을 바꿨다'는 내용뿐이며 치료 내용 변경은 아니다. MED-0334(위기 시기 관리 합의 권고), MED-0335(신경교종 실무 권고), MED-0387(항경련제), MED-0388(미만성 정중선 신경교종)은 국내 학회 자료다.
+note: 최신 갱신(2025-03-28) 항목은 '이전 제목 Adult Central Nervous System Tumors Treatment에서 이름을 바꿨다'는 내용뿐이며 치료 내용 변경은 아니다. MED-0334(위기 시기 관리 합의 권고), MED-0335(신경교종 실무 권고), MED-0387(항경련제), MED-0388(미만성 정중선 신경교종)은 국내 학회 자료다. 2026-10-17 8차 재대조(보정): 현행 원문 페이지의 판(갱신·검토일)이 기록과 같음을 확인하고, 현행 본문을 다시 읽어 핵심 근거 3개 항목을 원문 문장과 대조해 일치를 확인했다 — ① 증상 두통·발작; ② CT·MRI 상호보완; ③ 가능하면 완전 절제·관찰 연구. 대조하지 않은 절과 미확인 항목은 이 기록의 범위 밖으로 두고 verified를 유지했다. 해외·환자용 자료(tier C)이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -38,7 +38,7 @@ note: 최신 갱신(2025-03-28) 항목은 '이전 제목 Adult Central Nervous S
 미국 근거 기반이며 국내 허가·급여·진료 현실과 다를 수 있음. PDQ는 전문인용 요약이며 공식 진료지침·권고나 NCI 정책 선언이 아니다. 종양 조직형(WHO 분류·분자 소견)에 따라 치료가 크게 달라 일반화할 수 없다. 이 파일은 개요와 절 첫머리, 근거수준 표기 일부만 읽은 요약이다.
 
 ## 미검증·사용 금지
-미확보: 읽지 않은 절(조직형별 치료 Table 2 세부, 교모세포종·저등급 신경교종·수막종·뇌하수체/안장부·척수 종양 소절, 방사선 선량·분할, 항암제 각론, 임상시험 세부)과 임상시험 세부 결과. 약제 용량·임상시험 수치(생존율, HR 등)는 기재하지 않았다. 국내 급여 조건·국내 WHO 분류 적용 현실은 확인하지 않았다. 국내 근거는 MED-0334, MED-0335 등 참조.
+범위 밖(읽지 않음): 읽지 않은 절(조직형별 치료 Table 2 세부, 교모세포종·저등급 신경교종·수막종·뇌하수체/안장부·척수 종양 소절, 방사선 선량·분할, 항암제 각론, 임상시험 세부)과 임상시험 세부 결과. 약제 용량·임상시험 수치(생존율, HR 등)는 기재하지 않았다. 국내 급여 조건·국내 WHO 분류 적용 현실은 확인하지 않았다. 국내 근거는 MED-0334, MED-0335 등 참조.
 
 ## 영상 활용 메모
 '뇌종양'이 여러 질환의 묶음이며 조직형·분자 소견·위치에 따라 치료가 다르다는 점을 먼저 밝힌다. 두통·오심·발작 등 증상은 진단 기준이 아니라 진료 필요 신호로만 표현한다. 수술 효과나 생존 전망을 단정하지 않는다.

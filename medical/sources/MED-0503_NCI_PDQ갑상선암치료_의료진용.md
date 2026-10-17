@@ -10,16 +10,17 @@ topic: 갑상선암
 url: https://www.cancer.gov/types/thyroid/hp/thyroid-treatment-pdq
 published: unknown
 revised: 2025-05-09
-checked: 2026-10-16
+checked: 2026-10-17
 location: General Information · Treatment Option Overview(Table 1) · 유두/여포·수질·미분화 절 개요 · Latest Updates
 source_type: guideline_summary
 tier: C
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0069; MED-0071; MED-0072; MED-0074; MED-0123; MED-0277; MED-0338
+note: 2026-10-17 8차 재대조(보정): 현행 원문 페이지의 판(갱신·검토일)이 기록과 같음을 확인하고, 현행 본문을 다시 읽어 핵심 근거 3개 항목을 원문 문장과 대조해 일치를 확인했다 — ① 4가지 유형(유두·여포·수질·미분화); ② 미분화암 공격적·예후 불량; ③ 위험요인 방사선 노출·RET. 대조하지 않은 절과 미확인 항목은 이 기록의 범위 밖으로 두고 verified를 유지했다. 해외·환자용 자료(tier C)이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -44,7 +45,7 @@ related: MED-0069; MED-0071; MED-0072; MED-0074; MED-0123; MED-0277; MED-0338
 미국 근거 기반이며 국내 허가·급여·진료 현실과 다를 수 있음. 공식 진료지침이 아닌 PDQ 편집위원회의 독립 문헌 검토다. 갑상선암은 유형·위험도에 따라 치료 강도가 매우 달라 일반화할 수 없다. 특히 저위험 미세유두암의 능동감시나 엽절제 vs 전절제, RAI 적응증에 대한 국내 권고는 대한갑상선학회 지침과 다를 수 있다. 근거수준이 낮은(C 등급) 후향 자료·소규모 시험이 섞여 있다.
 
 ## 미검증·사용 금지
-- 미확보: 원문 전체 정독은 하지 않았다. 읽은 범위는 General Information(유형·위험요인·진단·예후인자 첫머리), Treatment Option Overview(Table 1), 유두/여포·수질·미분화 각 절의 임상 특징·치료 옵션 도입부, 일부 근거수준 표기 문장, Latest Updates다. 병기 표(AJCC), 추적관찰·TSH 목표 세부, 표적치료제별 임상시험 세부, 재발 절 세부는 읽지 않았거나 요약하지 않았다.
+- 범위 밖(읽지 않음): 원문 전체 정독은 하지 않았다. 읽은 범위는 General Information(유형·위험요인·진단·예후인자 첫머리), Treatment Option Overview(Table 1), 유두/여포·수질·미분화 각 절의 임상 특징·치료 옵션 도입부, 일부 근거수준 표기 문장, Latest Updates다. 병기 표(AJCC), 추적관찰·TSH 목표 세부, 표적치료제별 임상시험 세부, 재발 절 세부는 읽지 않았거나 요약하지 않았다.
 - 국내 허가사항, 급여 조건, 본인부담, 약제 용량·임상시험 수치(HR, 생존율, 반응률)는 사용 금지. 국내 안내는 MED-0072 및 학회 지침 MED-0123·MED-0277·MED-0338 참조.
 - 암 진단 후 치료를 줄이거나 늘리는 판단을 이 자료만으로 제시하지 않는다.
 

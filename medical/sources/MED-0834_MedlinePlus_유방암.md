@@ -10,17 +10,17 @@ topic: 유방암
 url: https://medlineplus.gov/breastcancer.html
 published: 1998-10-22
 revised: unknown
-checked: 2026-10-16
+checked: 2026-10-17
 location: MedlinePlus 건강 주제 요약 페이지
 source_type: web_summary
 tier: C
-status: partial
-recheck_by: 2026-12-16
+status: verified
+recheck_by: 2027-04-17
 reviewer: "Claude Code 직접 확인(MedlinePlus XML 원문). 의료인 검토 미실시"
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0051; MED-0054; MED-0052
-note: 입력 파일은 MedlinePlus XML을 변환한 텍스트(URL, TITLE, CREATED, GROUPS 포함). published는 요약 페이지의 최초 작성일(CREATED)이며 개정일은 원문에 없어 unknown이다.
+note: 입력 파일은 MedlinePlus XML을 변환한 텍스트(URL, TITLE, CREATED, GROUPS 포함). published는 요약 페이지의 최초 작성일(CREATED)이며 개정일은 원문에 없어 unknown이다. 2026-10-17 본문 재대조: 현행 MedlinePlus 건강 주제 페이지(하단 'Last updated' 표시 2026-08-03, 페이지 전체의 갱신 표시라 revised에는 넣지 않음)의 Summary 본문을 읽고 핵심 근거 3개 항목(정의(유방 조직에서 시작, 세포가 통제 없이 자람); 유형(관상피암 가장 흔함·소엽암·염증성 유방암·파제트병); 원인(DNA 변화, 정확한 원인 불명 많음))이 원문과 일치함을 확인해 verified로 올렸다. tier C 해외 환자용 자료이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다. 이용조건: MedlinePlus 'Linking to and Using Content from MedlinePlus' 안내(2026-10-17 확인)에 따르면 건강 주제 페이지의 요약(Summaries on health topic pages)은 미국 연방정부 저작물로 저작권이 없는 공공 영역이라 자유롭게 복제·재배포할 수 있고, 'Source: MedlinePlus, National Library of Medicine' 같은 출처 표기를 요청한다. 같은 사이트의 A.D.A.M. 의학백과, ASHP 약물 정보, 출처 표시 없는 이미지는 저작권 자료라 옮기지 않는다.
 ---
 
 ## 핵심 근거
@@ -37,6 +37,7 @@ note: 입력 파일은 MedlinePlus XML을 변환한 텍스트(URL, TITLE, CREATE
 
 ## 미검증·사용 금지
 "미국 여성에서 두 번째로 흔한 암" 같은 통계 문장은 옮기지 않았다. 검진 시작 시기·간격, 약물명·용량은 기록하지 않았다. 약 용량, 진단 임계 수치, 통계 수치는 옮기지 않았다. 요약 외 링크된 하위 페이지와 약물정보는 읽지 못했다(미확보). 이 파일은 요약 중심의 partial 자료이며 본문에 없는 내용은 추정으로 채우지 않았다.
+- (2026-10-17 해결) 현행 MedlinePlus 페이지의 Summary 본문을 읽고 핵심 근거를 대조해 일치함을 확인했다. 위 미확인 항목 가운데 링크된 하위 페이지·약물정보·통계 수치는 이번 대조 범위 밖이다(미확보 유지).
 
 ## 영상 활용 메모
 한국 자료(MED-0051, MED-0054, MED-0052)를 주 근거로 두고 본 자료는 유형·위험요인 개념 설명 보조로만 쓴다. 단독 인용 금지.

@@ -10,16 +10,16 @@ topic: 콩팥·비뇨기질환
 url: https://www.nice.org.uk/guidance/ng224
 published: 2022-07-27
 revised: unknown
-checked: 2026-10-16
+checked: 2026-10-17
 location: Recommendations 페이지(1.1 진단 · 1.2 급성 관리 · 1.3 영상검사 · 1.4 수술 · 1.5 추적 · 1.6 정보와 조언)
 source_type: guideline_summary
 tier: B
-status: partial
-recheck_by: 2026-12-16
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NICE 웹 원문). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). 본문 상단에 Published만 있고 Last updated 표기가 없어 revised는 unknown이다. 저장소에서 소아 요로감염에 해당하는 한국 지침을 확인하지 못해 related는 두지 않았다.
+note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). 본문 상단에 Published만 있고 Last updated 표기가 없어 revised는 unknown이다. 저장소에서 소아 요로감염에 해당하는 한국 지침을 확인하지 못해 related는 두지 않았다. 재대조(2026-10-17): 현행 NICE 개요의 Published 2022-07-27·Last updated 표기 없음(기록의 revised unknown과 같음)이고 철회·대체 표시가 없으며, location의 권고 절 번호가 현행 권고 페이지에 모두 있어 partial→verified. 이용조건: NICE 이용약관(Terms and conditions, 2026-10-17 확인)의 Notice of Rights에 따르면 NICE 저작 콘텐츠는 영국 안에서만 NICE UK Open Content Licence로 재사용할 수 있고, 영국 밖에서는 개인적 이용·학습·개인 연구를 제외하면 NICE의 사전 서면 동의 없이 전부 또는 일부를 사용·복제·번역·배포할 수 없다(동의에 라이선스·비용이 붙을 수 있음). 한국 채널 영상에서 원문 문장·표를 옮기거나 번역해 보여주지 않고, 사실 확인용 참고와 출처 언급 수준으로만 쓴다.
 ---
 
 ## 핵심 근거
@@ -39,6 +39,7 @@ note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). 본문 상�
 
 ## 미검증·사용 금지
 연령 기준, 소변 보존 시간, 영상 검사 시기와 간격, 열 기준 온도, 모세혈관 재충만 기준 등 수치는 옮기지 않았다(원문에 있으나 사용 금지). 항생제 약제명·용량·기간은 본 페이지에 없으며(별도 지침 참조) 기록하지 않았다. 근거 요약(Rationale), 근거 검토 보고서, 인용된 관련 NICE 지침(소아 발열, 패혈증, 항균제 처방 등)의 본문은 읽지 않았다(미확보). 한국 소아 요로감염 지침과 급여 기준은 확인하지 못했다. 영상에서 진단·영상검사 기준을 안내하지 않는다.
+- (2026-10-17 해결) 현행 NICE 페이지(Published·Last updated 동일)와 권고 절 번호를 대조했고 핵심 근거 내용이 현행 권고와 맞다. 위에 남은 미확인(수치, 요약하지 않은 절, 근거 설명·근거 검토)은 이 요약이 다루지 않는 범위이며 영상 근거로 쓰지 않는다.
 
 ## 영상 활용 메모
 영국 NHS 지침임을 밝히고 한국 소아 진료 안내가 있으면 그것을 주 근거로 두며, 이 자료는 보조 설명으로만 쓴다. 단독 인용 금지. '아이는 증상이 뚜렷하지 않을 수 있어 소변검사가 진단의 핵심이다', '항생제 전에 소변을 채취한다', '무증상 세균뇨는 항생제로 치료하지 않는다' 같은 개념 수준으로 제한하고 연령·영상검사 일정·약제 정보는 쓰지 않는다.

@@ -10,17 +10,17 @@ topic: 정신건강
 url: https://www.nice.org.uk/guidance/ng87
 published: 2018-03-14
 revised: 2019-09-13
-checked: 2026-10-16
+checked: 2026-10-17
 location: Recommendations 페이지(1.1 서비스 조직·교육 · 1.2 인지·확인·의뢰 · 1.3 진단 · 1.4 정보와 지원 · 1.5 ADHD 관리 · 1.6 식이 조언 · 1.7 약물 · 1.8 유지와 모니터링 · 1.9 치료 순응 · 1.10 약물 검토와 중단)
 source_type: guideline_summary
 tier: B
-status: partial
-recheck_by: 2026-12-16
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NICE 웹 원문). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-1421
-note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published·revised는 본문 상단 Published·Last updated 표기이다. 저장소에서 ADHD를 다루는 한국 지침 자료를 찾지 못해 related를 두지 않았다. 한국 자료가 확보되면 연결한다.
+note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published·revised는 본문 상단 Published·Last updated 표기이다. 저장소에서 ADHD를 다루는 한국 지침 자료를 찾지 못해 related를 두지 않았다. 한국 자료가 확보되면 연결한다. 재대조(2026-10-17): 현행 NICE 개요의 Published 2018-03-14·Last updated 2019-09-13 표기가 기록과 같고 철회·대체 표시가 없으며, location의 권고 절 번호가 현행 권고 페이지에 모두 있어 partial→verified. 이용조건: NICE 이용약관(Terms and conditions, 2026-10-17 확인)의 Notice of Rights에 따르면 NICE 저작 콘텐츠는 영국 안에서만 NICE UK Open Content Licence로 재사용할 수 있고, 영국 밖에서는 개인적 이용·학습·개인 연구를 제외하면 NICE의 사전 서면 동의 없이 전부 또는 일부를 사용·복제·번역·배포할 수 없다(동의에 라이선스·비용이 붙을 수 있음). 한국 채널 영상에서 원문 문장·표를 옮기거나 번역해 보여주지 않고, 사실 확인용 참고와 출처 언급 수준으로만 쓴다.
 ---
 
 ## 핵심 근거
@@ -39,6 +39,7 @@ note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published·r
 
 ## 미검증·사용 금지
 약 용량, 약제별 시험 기간, 전환 기준 기간, 키·체중·혈압 측정 간격과 기준 수치, 연령 기준 수치는 옮기지 않았으며 영상에 쓰지 않는다. 1.8 모니터링 후반, 1.9 순응도, 1.10 약물 검토·중단은 구조만 확인했다(미확보). 권고 근거 요약(Rationale and impact), 근거 검토 보고서, 기술평가 본문, 용어 정의 이외 부록은 읽지 않았다(미확보). 한국 지침은 저장소에서 찾지 못했다.
+- (2026-10-17 해결) 현행 NICE 페이지(Published·Last updated 동일)와 권고 절 번호를 대조했고 핵심 근거 내용이 현행 권고와 맞다. 위에 남은 미확인(수치, 요약하지 않은 절, 근거 설명·근거 검토)은 이 요약이 다루지 않는 범위이며 영상 근거로 쓰지 않는다.
 
 ## 영상 활용 메모
 영국 NHS 지침임을 밝히고, 한국 지침이 확보되면 그것을 주 근거로 두고 보조 설명에만 쓴다. 단독 인용 금지. '진단은 여러 환경에서의 기능 저하를 전문가가 종합 평가해 내린다', '평정척도만으로 진단하지 않는다', '약물 전에 환경 조정과 부모 지원이 먼저다' 같은 개념 설명에 한정하고, 약제 선택·용량·기간은 쓰지 않는다.

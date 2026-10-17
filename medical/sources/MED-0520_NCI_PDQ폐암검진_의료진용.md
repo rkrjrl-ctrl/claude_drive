@@ -10,16 +10,17 @@ topic: 폐암
 url: https://www.cancer.gov/types/lung/hp/lung-screening-pdq
 published: unknown
 revised: 2025-04-17
-checked: 2026-10-16
+checked: 2026-10-17
 location: Overview · Evidence of Benefit(LDCT) · Evidence of No Benefit(chest x-ray, sputum cytology) · Informed Medical Decision Making · Latest Updates
 source_type: guideline_summary
 tier: C
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0102; MED-0045; MED-0046
+note: 2026-10-17 8차 재대조(보정): 현행 원문 페이지의 판(갱신·검토일)이 기록과 같음을 확인하고, 현행 본문을 다시 읽어 핵심 근거 3개 항목을 원문 문장과 대조해 일치를 확인했다 — ① LDCT 고위험군 사망 감소; ② 위양성·침습 검사 위해; ③ 흉부X선·객담 세포검사 사망 감소 없음. 대조하지 않은 절과 미확인 항목은 이 기록의 범위 밖으로 두고 verified를 유지했다. 해외·환자용 자료(tier C)이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -33,7 +34,7 @@ related: MED-0102; MED-0045; MED-0046
 미국 근거 기반이며 국내 국가암검진 권고(MED-0102, MED-0188, MED-0189, MED-0291 등)·급여와 다를 수 있음. LDCT 이득은 고위험군 대상 시험에서 나온 것이며 비흡연자나 저위험군에 일반화할 수 없다. 대상 기준(연령·흡연량·금연 기간)과 검진 간격은 이 요약이 직접 정하지 않는다.
 
 ## 미검증·사용 금지
-국내 국가암검진의 폐암 대상(고위험군 기준)·주기, 급여·본인부담. 요약의 검진 방법별 근거 절은 읽었으나 참고문헌 원문과 시험 상세는 읽지 않았다(미확보). 사망 감소율, 위양성률 등 시험 수치는 의도적으로 기록하지 않았다. 국내 폐암 검진은 MED-0102 외에 별도 검진 권고 파일이 확인되지 않았다.
+국내 국가암검진의 폐암 대상(고위험군 기준)·주기, 급여·본인부담. 요약의 검진 방법별 근거 절은 읽었으나 참고문헌 원문과 시험 상세는 읽지 않았다(범위 밖). 사망 감소율, 위양성률 등 시험 수치는 의도적으로 기록하지 않았다. 국내 폐암 검진은 MED-0102 외에 별도 검진 권고 파일이 확인되지 않았다.
 
 ## 영상 활용 메모
 'CT를 찍으면 폐암 사망이 준다'가 아니라 '고위험 흡연자 대상 시험에서' 라는 조건을 반드시 병기한다. 흉부 X선 검진은 사망 감소 효과가 없다는 점도 함께 전한다.

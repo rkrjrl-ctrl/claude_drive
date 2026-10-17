@@ -10,16 +10,16 @@ topic: 눈질환
 url: https://www.nice.org.uk/guidance/ng82
 published: 2018-01-23
 revised: unknown
-checked: 2026-10-16
+checked: 2026-10-17
 location: Recommendations 페이지(1.1 분류·Table 1 · 1.2 정보·지지 · 1.3 위험요인 · 1.4 진단·의뢰 · 1.5 약물 치료 · 1.6 비약물 치료 · 1.7 모니터링)
 source_type: guideline_summary
 tier: B
-status: partial
-recheck_by: 2026-12-16
+status: verified
+recheck_by: 2027-04-17
 reviewer: "Claude Code 직접 확인(NICE 웹 원문). 의료인 검토 미실시"
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는 본문 상단의 Published를 옮겼다. 본문에 Last updated 표기가 없어 revised는 unknown이다. 영국 국가 지침이며 한국 지침이 있으면 그것이 우선한다. 황반변성을 다룬 한국 지침은 저장소에서 확인하지 못해 related를 비웠다.
+note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는 본문 상단의 Published를 옮겼다. 본문에 Last updated 표기가 없어 revised는 unknown이다. 영국 국가 지침이며 한국 지침이 있으면 그것이 우선한다. 황반변성을 다룬 한국 지침은 저장소에서 확인하지 못해 related를 비웠다. 재대조(2026-10-17): 현행 NICE 개요의 Published 2018-01-23·Last updated 표기 없음(기록의 revised unknown과 같음)이고 철회·대체 표시가 없으며, location의 권고 절 번호가 현행 권고 페이지에 모두 있어 partial→verified. 이용조건: NICE 이용약관(Terms and conditions, 2026-10-17 확인)의 Notice of Rights에 따르면 NICE 저작 콘텐츠는 영국 안에서만 NICE UK Open Content Licence로 재사용할 수 있고, 영국 밖에서는 개인적 이용·학습·개인 연구를 제외하면 NICE의 사전 서면 동의 없이 전부 또는 일부를 사용·복제·번역·배포할 수 없다(동의에 라이선스·비용이 붙을 수 있음). 한국 채널 영상에서 원문 문장·표를 옮기거나 번역해 보여주지 않고, 사실 확인용 참고와 출처 언급 수준으로만 쓴다.
 ---
 
 ## 핵심 근거
@@ -36,6 +36,7 @@ note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는
 
 ## 미검증·사용 금지
 드루젠 크기, 시력 범위(스넬렌 분수), 병변 크기, 의뢰·치료 기한 일수, 약 용량·주사 횟수·간격, BMI 기준은 옮기지 않았다. 권고 근거 요약, 표의 세부, 부록, 연결된 다른 NICE 지침과 기술평가 본문은 읽지 않았다(미확보). 약제 이름 비교나 효과 순위를 영상에서 단정하지 않는다. 개별 환자에게 치료 중단·지속을 권하는 표현을 쓰지 않는다.
+- (2026-10-17 해결) 현행 NICE 페이지(Published·Last updated 동일)와 권고 절 번호를 대조했고 핵심 근거 내용이 현행 권고와 맞다. 위에 남은 미확인(수치, 요약하지 않은 절, 근거 설명·근거 검토)은 이 요약이 다루지 않는 범위이며 영상 근거로 쓰지 않는다.
 
 ## 영상 활용 메모
 한국 안과 자료와 함께 보조 근거로만 쓰고 단독 인용하지 않는다. 영국 사례임을 밝힌다. '습성 황반변성은 빠른 평가와 치료 연결이 중요하다', '직선이 휘어 보이는 등 변화가 생기면 지체 없이 진료받도록 안내한다', '시각 손상 지원 서비스가 있다' 같은 개념 설명에 한정한다. 시력 기준·기한·약제 정보는 영상에 쓰지 않는다.

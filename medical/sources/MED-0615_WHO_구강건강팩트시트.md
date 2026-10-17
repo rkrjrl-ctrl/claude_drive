@@ -10,17 +10,17 @@ topic: 구강질환
 url: https://www.who.int/news-room/fact-sheets/detail/oral-health
 published: 2025-03-17
 revised: unknown
-checked: 2026-10-16
+checked: 2026-10-17
 location: Key facts · Overview · Dental caries · Periodontal disease · Edentulism · Oral cancer · Oro-dental trauma · Noma · Cleft lip and palate · Risk factors · Oral health inequalities · Prevention · Access to oral health services · WHO response
 source_type: web_summary
 tier: B
-status: partial
-recheck_by: 2026-12-16
+status: verified
+recheck_by: 2027-04-17
 reviewer: "Claude Code 직접 확인(WHO 웹 원문). 의료인 검토 미실시"
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0356; MED-0434
-note: published는 2026-10-17 WHO 팩트시트 페이지를 다시 열어 제목 바로 아래 표시된 날짜(2025-03-17, 페이지 메타데이터 datePublished와 일치)로 채웠다. 이 날짜가 최초 발행일인지 최신 갱신일인지 구분 표시가 없어 revised는 unknown으로 둔다. 본문에 2024년 방콕 선언 등 연도가 언급되나 팩트시트 갱신일이 아니다. 이용조건: WHO 웹사이트 이용약관의 저작권 고지(2026-10-17 확인)에 따르면 웹사이트 정보는 '© WHO, All Rights Reserved'이며, 연구·개인 학습 목적의 발췌 검토·복제·번역은 허용되나 판매·상업 목적 사용은 안 되고, 사용 시 WHO를 출처로 URL과 함께 밝혀야 하며, 상당 부분의 복제·번역이나 교육·비상업 외 목적의 사용은 사전 서면 허가가 필요하다. WHO 출판물(IRIS 등)에 적용되는 CC BY-NC-SA 3.0 IGO와 달리 팩트시트 웹페이지에는 이 웹사이트 약관이 적용된다고 보고, 영상에서는 사실 확인용 참고와 출처 언급만 하고 원문 문장·표를 번역해 옮기지 않는다.
+note: published는 2026-10-17 WHO 팩트시트 페이지를 다시 열어 제목 바로 아래 표시된 날짜(2025-03-17, 페이지 메타데이터 datePublished와 일치)로 채웠다. 이 날짜가 최초 발행일인지 최신 갱신일인지 구분 표시가 없어 revised는 unknown으로 둔다. 본문에 2024년 방콕 선언 등 연도가 언급되나 팩트시트 갱신일이 아니다. 2026-10-17 본문 재대조: 현행 WHO 팩트시트 본문 전체를 읽고 핵심 근거 4개 항목(구강질환 대부분 예방·초기 치료 가능; 비감염성질환과 공유하는 교정 가능 위험요인(당·흡연·음주·위생); 치아우식(치태가 유리당을 산으로 변환); 치주질환(잇몸 출혈·부종·구취))이 원문과 일치함을 확인해 verified로 올렸다. 이용조건: WHO 웹사이트 이용약관의 저작권 고지(2026-10-17 확인)에 따르면 웹사이트 정보는 '© WHO, All Rights Reserved'이며, 연구·개인 학습 목적의 발췌 검토·복제·번역은 허용되나 판매·상업 목적 사용은 안 되고, 사용 시 WHO를 출처로 URL과 함께 밝혀야 하며, 상당 부분의 복제·번역이나 교육·비상업 외 목적의 사용은 사전 서면 허가가 필요하다. WHO 출판물(IRIS 등)에 적용되는 CC BY-NC-SA 3.0 IGO와 달리 팩트시트 웹페이지에는 이 웹사이트 약관이 적용된다고 보고, 영상에서는 사실 확인용 참고와 출처 언급만 하고 원문 문장·표를 번역해 옮기지 않는다.
 ---
 
 ## 핵심 근거
@@ -43,6 +43,7 @@ note: published는 2026-10-17 WHO 팩트시트 페이지를 다시 열어 제목
 - 치주질환·구강암·노마·구순구개열 등 개별 항목의 상세 통계와 국가별 현황은 옮기지 않았으며 일부 문단 끝부분은 읽지 못했다(미확보).
 - 한국 건강보험 급여·국내 허가·국내 진료지침과의 일치 여부는 확인하지 못했다(미확보).
 - 의료인 검토는 하지 않았다. 개인에게 치료를 권하는 표현, 원문에 없는 수치·효과 단정은 금지.
+- (2026-10-17 해결) 현행 WHO 팩트시트 본문 전체를 읽고 핵심 근거를 대조해 일치함을 확인했다. 위 미확인 항목 가운데 참고문헌·연결된 WHO 지침·보고서 원문과 통계 수치는 이번 대조 범위 밖이다.
 
 ## 영상 활용 메모
 - 'WHO가 정리한 세계 단위 개요'임을 밝히고, 한국 지침(related 자료 등)과 함께 보조 근거로만 쓴다. 이 자료 단독으로 인용하지 않는다.

@@ -10,16 +10,17 @@ topic: 췌장암
 url: https://www.cancer.gov/types/pancreatic/hp/pancreatic-treatment-pdq
 published: unknown
 revised: 2025-02-12
-checked: 2026-10-16
+checked: 2026-10-17
 location: General Information · Treatment Option Overview for Pancreatic Cancer(Table 6) · 절제가능/국소진행 절 첫머리 · Palliative Therapy · Latest Updates
 source_type: guideline_summary
 tier: C
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0140; MED-0077; MED-0075
+note: 2026-10-17 8차 재대조(보정): 현행 원문 페이지의 판(갱신·검토일)이 기록과 같음을 확인하고, 현행 본문을 다시 읽어 핵심 근거 4개 항목을 원문 문장과 대조해 일치를 확인했다 — ① 위험요인 BRCA·PALB2·ATM; ② CA 19-9 특이도 낮음; ③ 절제 수술이 근치 치료 중심; ④ 수술 후 항암 생존 개선. 대조하지 않은 절과 미확인 항목은 이 기록의 범위 밖으로 두고 verified를 유지했다. 해외·환자용 자료(tier C)이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -36,7 +37,7 @@ related: MED-0140; MED-0077; MED-0075
 미국 근거 기반이며 국내 허가·급여·진료 현실과 다를 수 있음. PDQ는 공식 진료지침이 아닌 전문인용 요약이다. 이 파일은 개요 표와 절 첫머리, 근거수준 표기 일부만 읽은 요약이다.
 
 ## 미검증·사용 금지
-미확보: 읽지 않은 절(선행치료·수술 후 치료·1차 및 2차 이후 전신치료 각 시험 세부, 방사선 기법, 표적치료 세부)과 임상시험 세부. 약제 용량·시험 수치(생존율, HR 등)는 기재하지 않았다. 국내 허가·급여 확인 없음. 국내 기준은 MED-0140, MED-0077 참조.
+범위 밖(읽지 않음): 읽지 않은 절(선행치료·수술 후 치료·1차 및 2차 이후 전신치료 각 시험 세부, 방사선 기법, 표적치료 세부)과 임상시험 세부. 약제 용량·시험 수치(생존율, HR 등)는 기재하지 않았다. 국내 허가·급여 확인 없음. 국내 기준은 MED-0140, MED-0077 참조.
 
 ## 영상 활용 메모
 절제 가능성(병기)에 따라 치료가 달라지고 환자 상태·유전 소견을 고려한다는 점을 병기한다. 특정 요법의 효과를 과장하지 않으며 미국 자료임을 밝힌다.

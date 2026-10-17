@@ -10,17 +10,17 @@ topic: 암 공통(치료·지지요법)
 url: https://www.cancer.gov/about-cancer/treatment/side-effects/pain/pain-hp-pdq
 published: unknown
 revised: 2025-04-24
-checked: 2026-10-16
+checked: 2026-10-17
 location: General Information · Background and Definitions · Pain Classification · Pain Assessment 첫머리 · Pharmacological Therapies(오피오이드 부작용·교체·장벽·중독 위험 소절 첫머리) · Modalities for Pain Control: Other Approaches(Pain Procedures) · Treatment of Pain in Specific Patient Populations 첫머리 · Latest Updates
 source_type: guideline_summary
 tier: C
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0027; MED-0025; MED-0031; MED-0526; MED-0527; MED-0529; MED-0531
-note: 이 PDQ 요약은 편집위원회가 PDQ Adult Treatment가 아닌 Supportive and Palliative Care Editorial Board다. 원문에 약제 용량표·오피오이드 환산(등가진통) 정보가 있으나 이 파일에는 옮기지 않았다. MED-0424(국내 만성 비암성 통증 오피오이드 처방)는 대상이 암성 통증이 아니므로 related에 넣지 않았다.
+note: 이 PDQ 요약은 편집위원회가 PDQ Adult Treatment가 아닌 Supportive and Palliative Care Editorial Board다. 원문에 약제 용량표·오피오이드 환산(등가진통) 정보가 있으나 이 파일에는 옮기지 않았다. MED-0424(국내 만성 비암성 통증 오피오이드 처방)는 대상이 암성 통증이 아니므로 related에 넣지 않았다. 2026-10-17 8차 재대조(보정): 현행 원문 페이지의 판(갱신·검토일)이 기록과 같음을 확인하고, 현행 본문을 다시 읽어 핵심 근거 3개 항목을 원문 문장과 대조해 일치를 확인했다 — ① 통증이 가장 흔한 증상; ② 0~10 숫자 척도; ③ 오피오이드 교체 이유. 대조하지 않은 절과 미확인 항목은 이 기록의 범위 밖으로 두고 verified를 유지했다. 해외·환자용 자료(tier C)이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -39,7 +39,7 @@ note: 이 PDQ 요약은 편집위원회가 PDQ Adult Treatment가 아닌 Support
 미국 근거 기반이며 국내 허가·급여·진료 현실과 다를 수 있음. 마약성 진통제 처방·관리·급여 기준과 한국의 규제는 미국과 다르다. PDQ는 전문인용 요약이며 공식 진료지침·권고나 NCI 정책 선언이 아니다. 이 파일은 개요와 절 첫머리, 근거수준 표기 일부만 읽은 요약이다.
 
 ## 미검증·사용 금지
-미확보: 읽지 않은 절(약제별 소절, 보조진통제, 신경병성 통증 약물, 돌발통, 중재시술 세부, 통증 유형별·특수 집단 세부)과 임상시험 세부 결과. 약제 용량표, 마약성 진통제 용량·환산(등가진통)표, 항구토제 용량은 의도적으로 기재하지 않았다. 환자 개인의 용량 조절이나 약제 변경 안내로 쓰지 않는다. 국내 허가·급여·마약류 관리 규정은 확인하지 않았다. 국내 안내는 MED-0027(암 통증 기록·상담), MED-0025, MED-0031 참조.
+범위 밖(읽지 않음): 읽지 않은 절(약제별 소절, 보조진통제, 신경병성 통증 약물, 돌발통, 중재시술 세부, 통증 유형별·특수 집단 세부)과 임상시험 세부 결과. 약제 용량표, 마약성 진통제 용량·환산(등가진통)표, 항구토제 용량은 의도적으로 기재하지 않았다. 환자 개인의 용량 조절이나 약제 변경 안내로 쓰지 않는다. 국내 허가·급여·마약류 관리 규정은 확인하지 않았다. 국내 안내는 MED-0027(암 통증 기록·상담), MED-0025, MED-0031 참조.
 
 ## 영상 활용 메모
 '참지 말고 통증을 기록하고 의료진과 상담'이라는 메시지의 보조 근거로만 쓴다. 약 이름·용량·교체 방법, 중독 여부 판단은 영상에서 다루지 않는다. 마약성 진통제의 안전한 보관·폐기와 변비 등 부작용 상담이 필요하다는 점은 일반 원칙으로만 언급한다.

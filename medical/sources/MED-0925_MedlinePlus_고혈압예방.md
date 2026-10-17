@@ -10,17 +10,17 @@ topic: 고혈압
 url: https://medlineplus.gov/howtopreventhighbloodpressure.html
 published: 2017-02-28
 revised: unknown
-checked: 2026-10-16
+checked: 2026-10-17
 location: MedlinePlus 건강 주제 요약 페이지
 source_type: web_summary
 tier: C
-status: partial
-recheck_by: 2026-12-16
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(MedlinePlus XML 원문). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0273; MED-0142; MED-0242
-note: 원문은 MedlinePlus 주제 요약을 텍스트로 변환한 파일(첫 줄 URL). published는 파일 머리의 CREATED(MedlinePlus 최초 작성일, 메타데이터)에서 가져왔고 본문에는 표시되지 않으며, 수정일은 확인되지 않아 unknown이다.
+note: 원문은 MedlinePlus 주제 요약을 텍스트로 변환한 파일(첫 줄 URL). published는 파일 머리의 CREATED(MedlinePlus 최초 작성일, 메타데이터)에서 가져왔고 본문에는 표시되지 않으며, 수정일은 확인되지 않아 unknown이다. 2026-10-17 본문 재대조: 현행 MedlinePlus 건강 주제 페이지(하단 'Last updated' 표시 2025-02-03, 페이지 전체의 갱신 표시라 revised에는 넣지 않음)의 Summary 본문을 읽고 핵심 근거 3개 항목(개요(대개 증상이 없어 모르는 사람이 많음); 혈압 이해(수축기·이완기 두 수치); 진단(정기 측정이 유일한 확인 방법))이 원문과 일치함을 확인해 verified로 올렸다. tier C 해외 환자용 자료이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다. 이용조건: MedlinePlus 'Linking to and Using Content from MedlinePlus' 안내(2026-10-17 확인)에 따르면 건강 주제 페이지의 요약(Summaries on health topic pages)은 미국 연방정부 저작물로 저작권이 없는 공공 영역이라 자유롭게 복제·재배포할 수 있고, 'Source: MedlinePlus, National Library of Medicine' 같은 출처 표기를 요청한다. 같은 사이트의 A.D.A.M. 의학백과, ASHP 약물 정보, 출처 표시 없는 이미지는 저작권 자료라 옮기지 않는다.
 ---
 
 ## 핵심 근거
@@ -35,6 +35,7 @@ note: 원문은 MedlinePlus 주제 요약을 텍스트로 변환한 파일(첫 �
 
 ## 미검증·사용 금지
 혈압 분류 구분표 수치, 미국 성인 고혈압 비율 통계은(는) 옮기지 않았다. 통계 수치(유병률·사망률·성공률 등)와 약 용량·진단 임계 수치는 기록하지 않으며 영상에 인용하지 않는다. 요약 페이지 외에 링크된 하위 페이지(관련 주제·검사·질환 페이지)와 약물정보 페이지는 읽지 못했다(미확보). 본문에 없는 내용은 추정으로 채우지 않았다. 의료인 검토는 이루어지지 않았다.
+- (2026-10-17 해결) 현행 MedlinePlus 페이지의 Summary 본문을 읽고 핵심 근거를 대조해 일치함을 확인했다. 위 미확인 항목 가운데 링크된 하위 페이지·약물정보·통계 수치는 이번 대조 범위 밖이다(미확보 유지).
 
 ## 영상 활용 메모
 한국 진료지침·국내 자료(MED-0273, MED-0142, MED-0242)가 있으면 그것을 주 근거로 두고, 본 자료는 일반 개념 설명을 돕는 보조로만 쓴다. 단독 인용 금지. 수치·용량·기준은 영상에 옮기지 않으며, 미국 환자용 안내임을 밝히고 개인 판단은 담당 의료진 상담이 필요하다고 안내한다.

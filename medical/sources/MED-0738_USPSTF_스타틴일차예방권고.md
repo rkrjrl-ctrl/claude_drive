@@ -10,17 +10,17 @@ topic: 이상지질혈증
 url: https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/statin-use-in-adults-preventive-medication
 published: 2022-08-23
 revised: unknown
-checked: 2026-10-16
+checked: 2026-10-17
 location: 권고 요약(Recommendation Summary)·임상가 요약
 source_type: guideline_summary
 tier: B
-status: partial
-recheck_by: 2026-12-16
+status: verified
+recheck_by: 2027-04-17
 reviewer: "Claude Code 직접 확인(USPSTF 웹 원문). 의료인 검토 미실시"
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0152; MED-0180; MED-0157; MED-1296; MED-1316
-note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는 2026-10-17 USPSTF 페이지를 다시 열어 'Final Recommendation Statement' 제목 아래 표시된 최종 권고 발표일(2022-08-23)로 채웠다. 별도 수정일 표기가 없어 revised는 unknown이다. 페이지에 기재된 근거 검토(Final Evidence Review) 일자는 2022-08-23이다(권고문과 별개 문서의 날짜). 미국 예방 권고이며 한국 국가검진·급여·진료지침과 다르다. 한국 자료가 있으면 한국 자료가 우선한다. 이용조건: USPSTF 저작권 안내(Copyright Notice, 2026-10-17 확인)는 내용을 바꾸지 않는 조건(미국 저작권법상 공정이용 범위는 예외)으로 일반인의 복제·재배포·게시·다른 자료 편입을 허용하되, 유료 재배포·판매·영리 사업 편입은 AHRQ 서면 허가가 필요하고, 일부를 인용하면 USPSTF 웹페이지를 출처로 밝히며, 각색물에는 AHRQ·HHS가 보증하지 않는다는 고지를 넣도록 한다. 영상에는 한국어 요약·재서술과 출처 표기만 쓰고 원문 표·문장을 그대로 옮기지 않는다.
+note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는 2026-10-17 USPSTF 페이지를 다시 열어 'Final Recommendation Statement' 제목 아래 표시된 최종 권고 발표일(2022-08-23)로 채웠다. 별도 수정일 표기가 없어 revised는 unknown이다. 페이지에 기재된 근거 검토(Final Evidence Review) 일자는 2022-08-23이다(권고문과 별개 문서의 날짜). 미국 예방 권고이며 한국 국가검진·급여·진료지침과 다르다. 한국 자료가 있으면 한국 자료가 우선한다. 2026-10-17 본문 재대조: 현행 USPSTF 페이지의 Final Recommendation Statement(권고 요약·임상가 요약·Practice 또는 Clinical Considerations)를 읽고 핵심 근거 4개 항목(40~75세 위험요인+10년 위험 10% 이상 스타틴 B; 7.5~10% 선택적 C; 76세 이상 시작 I; LDL 190 초과·FH 제외)이 원문과 일치함을 확인해 verified로 올렸다. 이용조건: USPSTF 저작권 안내(Copyright Notice, 2026-10-17 확인)는 내용을 바꾸지 않는 조건(미국 저작권법상 공정이용 범위는 예외)으로 일반인의 복제·재배포·게시·다른 자료 편입을 허용하되, 유료 재배포·판매·영리 사업 편입은 AHRQ 서면 허가가 필요하고, 일부를 인용하면 USPSTF 웹페이지를 출처로 밝히며, 각색물에는 AHRQ·HHS가 보증하지 않는다는 고지를 넣도록 한다. 영상에는 한국어 요약·재서술과 출처 표기만 쓰고 원문 표·문장을 그대로 옮기지 않는다.
 ---
 ## 핵심 근거
 - 대상은 심혈관질환(CVD)이 없고 CVD 증상도 없는 성인이다. 매우 높은 LDL 콜레스테롤 수준이거나 가족성 고콜레스테롤혈증인 사람은 이 권고의 대상이 아니다(기준값은 원문 참조).
@@ -34,6 +34,7 @@ note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published는
 
 ## 미검증·사용 금지
 10년 위험 문턱값, 연령 기준, LDL 기준값, 스타틴 강도별 용량, 사망자 수 수치는 옮기지 않았다. 근거 보고서, 위해(근육 증상·당뇨병 위험 등) 절 상세, 표, 참고문헌은 읽지 않았거나 요약하지 않았다(미확보). 한국의 위험 평가·치료 기준은 한국 지침으로 확인해야 한다.
+- (2026-10-17 해결) 현행 USPSTF 페이지의 Final Recommendation Statement(권고 요약·임상가 요약·Practice 또는 Clinical Considerations)를 읽고 핵심 근거를 대조해 일치함을 확인했다. 위 미확인 항목 가운데 근거 보고서·모델링·Evidence Summary·참고문헌과 수치는 이번 대조 범위 밖이다.
 
 ## 영상 활용 메모
 미국 권고임을 밝히고 한국 이상지질혈증 진료지침(MED-0152, MED-0180)과 구분해 말한다. 단독 인용 금지. 위험 수치·약 용량·강도를 영상에서 한국 시청자에게 권하는 것처럼 말하지 않는다.

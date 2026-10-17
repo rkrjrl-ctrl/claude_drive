@@ -10,17 +10,17 @@ topic: 혈액암(백혈병·림프종·골수종)
 url: https://www.cancer.gov/types/lymphoma/hp/adult-nhl-treatment-pdq
 published: unknown
 revised: 2025-05-14
-checked: 2026-10-16
+checked: 2026-10-17
 location: General Information · Stage Information · Indolent B-Cell NHL(여포·림프형질세포·변연부) · Treatment Option Overview(Table 4) · Stage I/II, Stage II/III/IV, Recurrent 치료 절 · Latest Updates
 source_type: guideline_summary
 tier: C
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0164
-note: 갱신일은 본문 하단 'Latest Updates to This Summary (05/14/2025)'. 원문 변환 파일의 URL 경로(adult-nhl-treatment-pdq)와 제목(Indolent B-Cell NHL)이 다르나 파일 1행 URL을 그대로 기록. MED-0164는 대한혈액학회 DLBCL(공격성) 권고안이라 저등급 림프종의 국내 대응 지침이 아니다. 국내 저등급 림프종 지침은 저장소에서 확인되지 않음.
+note: 갱신일은 본문 하단 'Latest Updates to This Summary (05/14/2025)'. 원문 변환 파일의 URL 경로(adult-nhl-treatment-pdq)와 제목(Indolent B-Cell NHL)이 다르나 파일 1행 URL을 그대로 기록. MED-0164는 대한혈액학회 DLBCL(공격성) 권고안이라 저등급 림프종의 국내 대응 지침이 아니다. 국내 저등급 림프종 지침은 저장소에서 확인되지 않음. 2026-10-17 8차 재대조(보정): 현행 원문 페이지의 판(갱신·검토일)이 기록과 같음을 확인하고, 현행 본문을 다시 읽어 핵심 근거 3개 항목을 원문 문장과 대조해 일치를 확인했다 — ① 경과관찰과 즉시 항암 생존 차이 없음; ② 리툭시맙 전 B형간염 확인; ③ 위 MALT 헬리코박터 제균. 대조하지 않은 절과 미확인 항목은 이 기록의 범위 밖으로 두고 verified를 유지했다. 해외·환자용 자료(tier C)이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -36,7 +36,7 @@ note: 갱신일은 본문 하단 'Latest Updates to This Summary (05/14/2025)'. 
 미국 근거 기반이며 국내 허가·급여·진료 현실과 다를 수 있음. 전문인용 요약이며 개별 처방 지시나 NCI 정책 선언이 아니다(원문도 공식 지침이 아니라고 밝힘). 약제 나열은 우열 순위가 아니고, 아형(여포·림프형질세포·변연부 등)·병기·증상 유무에 따라 선택이 달라진다. 3b등급 여포림프종은 공격성 림프종 요약을 따른다고 되어 있다. 약제 용량과 임상시험 수치는 이 파일에 옮기지 않았다. 갱신일 이후의 변화는 반영되지 않았다.
 
 ## 미검증·사용 금지
-미확보: 병리 분류 상세 절, 림프형질세포·변연부 아형별 치료 세부, 각 시험의 방법·수치·부작용 세부, 참고문헌 원문. 읽지 않은 절의 내용을 추정해 쓰지 않는다. 국내 허가사항·급여 기준·본인부담은 확인하지 않았다. MED-0164는 DLBCL 지침이므로 저등급 림프종 치료의 국내 근거로 인용하지 않는다. 의료인 검토 미실시.
+범위 밖(읽지 않음): 병리 분류 상세 절, 림프형질세포·변연부 아형별 치료 세부, 각 시험의 방법·수치·부작용 세부, 참고문헌 원문. 읽지 않은 절의 내용을 추정해 쓰지 않는다. 국내 허가사항·급여 기준·본인부담은 확인하지 않았다. MED-0164는 DLBCL 지침이므로 저등급 림프종 치료의 국내 근거로 인용하지 않는다. 의료인 검토 미실시.
 
 ## 영상 활용 메모
 '증상이 없으면 바로 치료하지 않고 지켜보는 선택이 있다'는 점은 아형·병기 조건과 함께 설명한다. 특정 약제를 권하는 표현은 쓰지 않는다. 해외 안내이므로 국내 사정과 다를 수 있다고 병기한다.

@@ -10,16 +10,17 @@ topic: 부인암(난소·자궁)
 url: https://www.cancer.gov/types/ovarian/hp/ovarian-epithelial-treatment-pdq
 published: unknown
 revised: 2025-05-14
-checked: 2026-10-16
+checked: 2026-10-17
 location: General Information · Treatment Option Overview(Table 6) · 조기/진행/재발 절 개요 · Latest Updates
 source_type: guideline_summary
 tier: C
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0162; MED-0312; MED-0484
+note: 2026-10-17 8차 재대조(보정): 현행 원문 페이지의 판(갱신·검토일)이 기록과 같음을 확인하고, 현행 본문을 다시 읽어 핵심 근거 3개 항목을 원문 문장과 대조해 일치를 확인했다 — ① 난관암·원발 복막암 함께 다룸; ② 약 20% 가족성(BRCA); ③ 수술 후 백금 기반 항암. 대조하지 않은 절과 미확인 항목은 이 기록의 범위 밖으로 두고 verified를 유지했다. 해외·환자용 자료(tier C)이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -39,7 +40,7 @@ related: MED-0162; MED-0312; MED-0484
 미국 근거 기반이며 국내 허가·급여·진료 현실과 다를 수 있음. 공식 진료지침이 아닌 PDQ 편집위원회의 독립 문헌 검토이며 옵션 나열은 우열 순위가 아니다. 유지요법(PARP 억제제·베바시주맙)과 HIPEC는 BRCA/HRD 상태, 백금 감수성, 수술 시점 등 조건에 따라 달라지고 원문도 근거 해석에 단서를 단다. 진행기 치료 근거는 PFS 위주 시험이 많아 전체 생존 개선과 동일시할 수 없다.
 
 ## 미검증·사용 금지
-- 미확보: 원문 전체 정독은 하지 않았다. 읽은 범위는 General Information(개요·위험요인·증상·진단 도입부), Treatment Option Overview(Table 6), 저등급 장액성·조기·진행기·재발 각 절의 도입부와 옵션 목록, 일부 근거수준 표기 문장, Latest Updates다. 병기표(FIGO), 진행기 임상시험 표(Table 7)와 항암 요법별 세부, HIPEC·PARP 억제제·베바시주맙 시험 세부, 재발 절 약제별 세부, 저등급 장액성암 약제 시험 세부는 읽지 않았거나 요약하지 않았다.
+- 범위 밖(읽지 않음): 원문 전체 정독은 하지 않았다. 읽은 범위는 General Information(개요·위험요인·증상·진단 도입부), Treatment Option Overview(Table 6), 저등급 장액성·조기·진행기·재발 각 절의 도입부와 옵션 목록, 일부 근거수준 표기 문장, Latest Updates다. 병기표(FIGO), 진행기 임상시험 표(Table 7)와 항암 요법별 세부, HIPEC·PARP 억제제·베바시주맙 시험 세부, 재발 절 약제별 세부, 저등급 장액성암 약제 시험 세부는 읽지 않았거나 요약하지 않았다.
 - 국내 허가사항, 급여 조건(PARP 억제제 등 BRCA 검사 기준 포함), 본인부담, 약제 용량·임상시험 수치(HR, 생존기간)는 사용 금지. 국내 기준은 MED-0162·MED-0312 참조.
 - CA-125 단독으로 선별·조기 치료를 권하는 근거로 쓰지 않는다.
 

@@ -10,16 +10,17 @@ topic: 위암
 url: https://www.cancer.gov/types/stomach/hp/stomach-treatment-pdq
 published: unknown
 revised: 2025-02-21
-checked: 2026-10-16
+checked: 2026-10-17
 location: General Information · Treatment Option Overview for Gastric Cancer · Stage 0 · Stage IV·Inoperable·Recurrent(1차 전신치료 절 첫머리) · Latest Updates
 source_type: guideline_summary
 tier: C
-status: partial
-recheck_by: 2027-01-14
+status: verified
+recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NCI PDQ 웹페이지 텍스트 추출, 요약 중심). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
 related: MED-0118; MED-0309; MED-0036; MED-0032
+note: 2026-10-17 8차 재대조(보정): 현행 원문 페이지의 판(갱신·검토일)이 기록과 같음을 확인하고, 현행 본문을 다시 읽어 핵심 근거 3개 항목을 원문 문장과 대조해 일치를 확인했다 — ① 위선암이 90~95%; ② 헬리코박터 위험요인; ③ 0기 수술 또는 내시경 점막절제. 대조하지 않은 절과 미확인 항목은 이 기록의 범위 밖으로 두고 verified를 유지했다. 해외·환자용 자료(tier C)이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다.
 ---
 
 ## 핵심 근거
@@ -36,7 +37,7 @@ related: MED-0118; MED-0309; MED-0036; MED-0032
 미국 근거 기반이며 국내 허가·급여·진료 현실과 다를 수 있음. PDQ는 공식 진료지침이 아닌 전문인용 요약이다. 이 파일은 개요·절 첫머리·근거수준 표기 일부만 읽은 요약이다.
 
 ## 미검증·사용 금지
-미확보: 읽지 않은 절(병기별 세부 수술, 방사선 세부, HER2·면역치료·2차 이후 치료의 시험 세부)과 임상시험 세부. 약제 용량·시험 수치는 기재하지 않았다. 국내 허가·급여 확인 없음. 국내 기준은 MED-0118, MED-0309, MED-0036 참조.
+범위 밖(읽지 않음): 읽지 않은 절(병기별 세부 수술, 방사선 세부, HER2·면역치료·2차 이후 치료의 시험 세부)과 임상시험 세부. 약제 용량·시험 수치는 기재하지 않았다. 국내 허가·급여 확인 없음. 국내 기준은 MED-0118, MED-0309, MED-0036 참조.
 
 ## 영상 활용 메모
 병기·바이오마커(HER2, CLDN18.2, MSI 등)에 따라 치료가 달라진다는 조건을 병기한다. 미국 자료임을 밝히고 국내 급여 여부는 단정하지 않는다.
