@@ -4,7 +4,7 @@
 
 ## 목차
 
-- **암** (353건): 전립선암 33, 신장암 31, 대장암 28, 유방암 28, 갑상선암 26, 위암 23, 폐암 23, 간암 22, 혈액암(백혈병·림프종·골수종) 19, 암 공통(치료·지지요법) 17, 암 15, 췌장암 15, 자궁경부암 12, 담도암 11, 부인암(난소·자궁) 11, 뇌종양·소아고형암 10, 담낭암 10, 두경부·식도암 7, 피부암 4, 방광·고환암 3, 질병공통(제도·비용) 3, 기타 소화기암 2
+- **암** (354건): 전립선암 33, 신장암 31, 대장암 28, 유방암 28, 갑상선암 26, 폐암 24, 위암 23, 간암 22, 혈액암(백혈병·림프종·골수종) 19, 암 공통(치료·지지요법) 17, 암 15, 췌장암 15, 자궁경부암 12, 담도암 11, 부인암(난소·자궁) 11, 뇌종양·소아고형암 10, 담낭암 10, 두경부·식도암 7, 피부암 4, 방광·고환암 3, 질병공통(제도·비용) 3, 기타 소화기암 2
 - **심장·혈관질환** (134건): 이상지질혈증 24, 고혈압 22, 혈관질환(대동맥·정맥·혈전) 19, 심장질환 기타 18, 허혈성 심장질환(심근경색 등) 18, 심부전 12, 심정지·심폐소생술 12, 부정맥(심방세동 등) 8, 심장·혈관질환 1
 - **정신건강·신경계** (101건): 정신건강 59, 신경계질환 24, 치매 11, 파킨슨병·운동장애 5, 정신건강·신경계 2
 - **당뇨·대사·내분비** (99건): 당뇨병 34, 골다공증·뼈건강 21, 비만·대사증후군 18, 갑상선질환 14, 내분비질환 기타 11, 당뇨·대사·내분비 1
@@ -193,6 +193,35 @@
 | MED-0503 | 갑상선암 치료(PDQ 의료진용) 유형별 치료 옵션 근거 요약 | NCI / PDQ Adult Treatment Editorial Board | US | C | partial | 2027-01-14 |
 | MED-1015 | 갑상선암(MedlinePlus 건강 주제) — 정의·위험요인·증상·진단·치료·예방 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
 
+## 폐암 (24건 · verified 12 · 국내 17)
+
+| ID | 자료명 | 기관 | 관할 | 등급 | 상태 | 재확인 |
+|---|---|---|---|---|---|---|
+| MED-1072 | 심평원 항암요법 공고책자(2026-10-01 통합본) 소세포·비소세포폐암 급여 요법 — EGFR·ALK·ROS1·BRAF·MET·RET 표적치료제와 면역항암제의 PD-L1 기준 | 건강보험심사평가원 | KR | A | verified | 2027-01-17 |
+| MED-0045 | 폐암 요약설명 | 국가암정보센터 | KR | B | verified | 2027-04-11 |
+| MED-0046 | 폐암 진단방법(저선량 CT·기관지내시경·조직검사 등) | 국가암정보센터 | KR | B | verified | 2027-04-11 |
+| MED-0047 | 폐암 진행단계(비소세포폐암 TNM·소세포폐암 제한/확장) | 국가암정보센터 | KR | B | verified | 2027-04-11 |
+| MED-0049 | 폐암 치료의 부작용(수술·항암·방사선) | 국가암정보센터 | KR | B | verified | 2027-04-11 |
+| MED-0050 | 폐암 재발 및 전이 | 국가암정보센터 | KR | B | verified | 2027-04-11 |
+| MED-0095 | 폐암 일반적 증상 | 국가암정보센터 | KR | B | verified | 2027-04-11 |
+| MED-0110 | 폐암 관련통계(2023년 발생) | 국가암정보센터 | KR | B | verified | 2027-04-11 |
+| MED-1105 | 폐암 발생부위: 폐의 위치·구조와 기능 | 국가암정보센터 | KR | B | verified | 2027-04-17 |
+| MED-1106 | 폐암 정의와 종류(비소세포폐암: 편평상피·선암·대세포암, 소세포폐암) | 국가암정보센터 | KR | B | verified | 2027-04-17 |
+| MED-1107 | 폐암 치료현황: 5년 상대생존율 42.5%, 소세포폐암 병기별 생존 | 국가암정보센터 | KR | B | verified | 2027-04-17 |
+| MED-1235 | 폐암 TNM 분류 9판(2025-01-01 시행) 개정 요약 — T 변경 없음, N2를 N2a(단일 종격동 림프절 구역)·N2b(여러 구역)로, M1c를 M1c1(한 장기계)·M1c2(여러 장기계)로 나눔, T1N2a는 IIIA→IIB | Kifjak 외(오스트리아 빈 의대 등), British Journal of Radiology 98(1174):1543, 2025 — IASLC·AJCC·UICC 9판 내용 종설 | INT | B | verified | 2027-04-17 |
+| MED-0121 | 폐암의 진단과 치료 2023(대한폐암학회 진료지침 3판, 국가암진료지침) — 핵심질문 6개 권고 요약 | 대한폐암학회·국가암진료가이드라인 사업단(국립암센터) | KR | A | partial | 2026-12-11 |
+| MED-0461 | 비소세포폐암 분자 바이오마커 검사 합의문(한국심폐병리연구회, 2021) — 검사 유전자·방법·검체·환자 선택·보고·정도관리 7개 합의 요약 | Korean Cardiopulmonary Pathology Study Group(KCPSG, 한국심폐병리연구회) 분자검사 실무그룹 | KR | A | partial | 2027-01-14 |
+| MED-0462 | 저분할 방사선치료 근거 기반 임상 권고 Part 2 폐암(대한방사선종양학회, 2024) — 국소진행 비소세포폐암 근치적 방사선치료 검토 요약 | Korean Society for Radiation Oncology(KOSRO, 대한방사선종양학회) Practice Guidelines Committee | KR | A | partial | 2027-01-14 |
+| MED-0048 | 폐암 치료방법(수술·항암·표적·면역·방사선) | 국가암정보센터 | KR | B | needs_recheck | 2026-12-11 |
+| MED-0542 | 대한폐암학회 진료지침 개발 — 방사형 기관지내초음파(RP-EBUS) 경기관지 생검의 말초 폐병변 진단 성적과 합병증 메타분석(Cancer Res Treat 2024) | 대한폐암학회(Korean Association for Lung Cancer) 진료지침 개발 관련 연구진 | KR | B | partial | 2026-12-16 |
+| MED-0567 | 폐암 환자 액상 검체(혈액) EGFR 유전자 변이 검사 잠정 권고안(2019) — 대상, 검체 채취, ctDNA 분리, 검출법, 보고, 정도관리, 결과 해석 | 한국심폐병리연구회(Korean Cardiopulmonary Pathology Study Group, 본문 표기 Korean cardiopulmonary study group) | KR | B | partial | 2026-12-16 |
+| MED-0606 | 폐암(WHO 팩트시트) — 정의·위험요인·예방·진단/치료 원칙·WHO 대응 개요 | 세계보건기구(WHO) | INT | B | partial | 2026-12-16 |
+| MED-0721 | 폐암 검진(USPSTF) — 고위험 흡연력 성인 저선량 CT B | 미국예방서비스작업반(USPSTF) | US | B | partial | 2026-12-16 |
+| MED-0495 | 비소세포폐암 치료 PDQ 의료진용 요약(영문) — 병기별·전이성 치료 옵션 개요 | NCI / PDQ Adult Treatment Editorial Board | US | C | partial | 2027-01-14 |
+| MED-0496 | 소세포폐암 치료 PDQ 의료진용 요약(영문) — 제한병기·확장병기·재발 치료 옵션 개요 | NCI / PDQ Adult Treatment Editorial Board | US | C | partial | 2027-01-14 |
+| MED-0520 | 폐암 검진(PDQ 의료진용) — 저선량 CT 등 검진 방법별 이득·위해 근거 안내 | NCI / PDQ Screening and Prevention Editorial Board | US | C | partial | 2027-01-14 |
+| MED-0944 | 폐암(MedlinePlus 환자용 요약) — 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
+
 ## 위암 (23건 · verified 13 · 국내 20)
 
 | ID | 자료명 | 기관 | 관할 | 등급 | 상태 | 재확인 |
@@ -220,34 +249,6 @@
 | MED-0761 | 식도위암 평가와 관리(NICE NG83) — 병기 평가, 근치적 치료 흐름, 고식적 치료, 영양 지원, 추적 원칙 | 영국 국립보건임상연구원(NICE) | INT | B | partial | 2026-12-16 |
 | MED-0499 | 위암 치료(PDQ 의료진용) — 병기별 치료 옵션 개요 근거 안내 | NCI / PDQ Adult Treatment Editorial Board | US | C | partial | 2027-01-14 |
 | MED-0524 | 위암 검진(PDQ 의료진용) — 상부위장관 조영·펩시노겐·내시경 검진 근거 안내 | NCI / PDQ Screening and Prevention Editorial Board | US | C | partial | 2027-01-14 |
-
-## 폐암 (23건 · verified 11 · 국내 17)
-
-| ID | 자료명 | 기관 | 관할 | 등급 | 상태 | 재확인 |
-|---|---|---|---|---|---|---|
-| MED-1072 | 심평원 항암요법 공고책자(2026-10-01 통합본) 소세포·비소세포폐암 급여 요법 — EGFR·ALK·ROS1·BRAF·MET·RET 표적치료제와 면역항암제의 PD-L1 기준 | 건강보험심사평가원 | KR | A | verified | 2027-01-17 |
-| MED-0045 | 폐암 요약설명 | 국가암정보센터 | KR | B | verified | 2027-04-11 |
-| MED-0046 | 폐암 진단방법(저선량 CT·기관지내시경·조직검사 등) | 국가암정보센터 | KR | B | verified | 2027-04-11 |
-| MED-0047 | 폐암 진행단계(비소세포폐암 TNM·소세포폐암 제한/확장) | 국가암정보센터 | KR | B | verified | 2027-04-11 |
-| MED-0049 | 폐암 치료의 부작용(수술·항암·방사선) | 국가암정보센터 | KR | B | verified | 2027-04-11 |
-| MED-0050 | 폐암 재발 및 전이 | 국가암정보센터 | KR | B | verified | 2027-04-11 |
-| MED-0095 | 폐암 일반적 증상 | 국가암정보센터 | KR | B | verified | 2027-04-11 |
-| MED-0110 | 폐암 관련통계(2023년 발생) | 국가암정보센터 | KR | B | verified | 2027-04-11 |
-| MED-1105 | 폐암 발생부위: 폐의 위치·구조와 기능 | 국가암정보센터 | KR | B | verified | 2027-04-17 |
-| MED-1106 | 폐암 정의와 종류(비소세포폐암: 편평상피·선암·대세포암, 소세포폐암) | 국가암정보센터 | KR | B | verified | 2027-04-17 |
-| MED-1107 | 폐암 치료현황: 5년 상대생존율 42.5%, 소세포폐암 병기별 생존 | 국가암정보센터 | KR | B | verified | 2027-04-17 |
-| MED-0121 | 폐암의 진단과 치료 2023(대한폐암학회 진료지침 3판, 국가암진료지침) — 핵심질문 6개 권고 요약 | 대한폐암학회·국가암진료가이드라인 사업단(국립암센터) | KR | A | partial | 2026-12-11 |
-| MED-0461 | 비소세포폐암 분자 바이오마커 검사 합의문(한국심폐병리연구회, 2021) — 검사 유전자·방법·검체·환자 선택·보고·정도관리 7개 합의 요약 | Korean Cardiopulmonary Pathology Study Group(KCPSG, 한국심폐병리연구회) 분자검사 실무그룹 | KR | A | partial | 2027-01-14 |
-| MED-0462 | 저분할 방사선치료 근거 기반 임상 권고 Part 2 폐암(대한방사선종양학회, 2024) — 국소진행 비소세포폐암 근치적 방사선치료 검토 요약 | Korean Society for Radiation Oncology(KOSRO, 대한방사선종양학회) Practice Guidelines Committee | KR | A | partial | 2027-01-14 |
-| MED-0048 | 폐암 치료방법(수술·항암·표적·면역·방사선) | 국가암정보센터 | KR | B | needs_recheck | 2026-12-11 |
-| MED-0542 | 대한폐암학회 진료지침 개발 — 방사형 기관지내초음파(RP-EBUS) 경기관지 생검의 말초 폐병변 진단 성적과 합병증 메타분석(Cancer Res Treat 2024) | 대한폐암학회(Korean Association for Lung Cancer) 진료지침 개발 관련 연구진 | KR | B | partial | 2026-12-16 |
-| MED-0567 | 폐암 환자 액상 검체(혈액) EGFR 유전자 변이 검사 잠정 권고안(2019) — 대상, 검체 채취, ctDNA 분리, 검출법, 보고, 정도관리, 결과 해석 | 한국심폐병리연구회(Korean Cardiopulmonary Pathology Study Group, 본문 표기 Korean cardiopulmonary study group) | KR | B | partial | 2026-12-16 |
-| MED-0606 | 폐암(WHO 팩트시트) — 정의·위험요인·예방·진단/치료 원칙·WHO 대응 개요 | 세계보건기구(WHO) | INT | B | partial | 2026-12-16 |
-| MED-0721 | 폐암 검진(USPSTF) — 고위험 흡연력 성인 저선량 CT B | 미국예방서비스작업반(USPSTF) | US | B | partial | 2026-12-16 |
-| MED-0495 | 비소세포폐암 치료 PDQ 의료진용 요약(영문) — 병기별·전이성 치료 옵션 개요 | NCI / PDQ Adult Treatment Editorial Board | US | C | partial | 2027-01-14 |
-| MED-0496 | 소세포폐암 치료 PDQ 의료진용 요약(영문) — 제한병기·확장병기·재발 치료 옵션 개요 | NCI / PDQ Adult Treatment Editorial Board | US | C | partial | 2027-01-14 |
-| MED-0520 | 폐암 검진(PDQ 의료진용) — 저선량 CT 등 검진 방법별 이득·위해 근거 안내 | NCI / PDQ Screening and Prevention Editorial Board | US | C | partial | 2027-01-14 |
-| MED-0944 | 폐암(MedlinePlus 환자용 요약) — 개요 | 미국 국립의학도서관 MedlinePlus(NLM) | US | C | partial | 2026-12-16 |
 
 ## 간암 (22건 · verified 13 · 국내 20)
 
