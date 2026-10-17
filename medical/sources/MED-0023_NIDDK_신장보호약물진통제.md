@@ -19,7 +19,7 @@ recheck_by: 2027-04-17
 reviewer: 자료정리(AI). 의료인 검토 미실시
 drive_file: https://drive.google.com/file/d/1F1r1G98OVfAXjDBaOgaWUs13Bs2t-r7A/view
 video_use: 수술 후 감기약·진통제를 임의 복용하기 전 체크
-related: MED-1041
+related: MED-1041, MED-1241
 migrated_from: Drive 시트 '휴휴휴 의료정보_자료목록과 운영흐름' (2026-10-11 기준 이전)
 ---
 

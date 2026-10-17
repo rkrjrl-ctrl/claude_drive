@@ -19,7 +19,7 @@ recheck_by: 2027-04-17
 reviewer: 자료정리(AI). 의료인 검토 미실시
 drive_file: https://drive.google.com/file/d/10bTpt2vIVZi2E3e7aYjWDL_N9DANlWXQ/view
 video_use: 신장절제 후 남은 신장 관리 질문
-related: MED-1041, MED-0008
+related: MED-1041, MED-0008, MED-1241
 migrated_from: Drive 시트 '휴휴휴 의료정보_자료목록과 운영흐름' (2026-10-11 기준 이전)
 ---
 

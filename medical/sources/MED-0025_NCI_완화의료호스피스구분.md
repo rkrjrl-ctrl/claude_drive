@@ -19,7 +19,7 @@ recheck_by: 2027-04-17
 reviewer: 자료정리(AI). 의료인 검토 미실시
 drive_file: https://drive.google.com/file/d/1udCBBZ1zSZ4MAMsxD6GylSRbsPPIaBKN/view
 video_use: 완화의료가 곧 치료 포기라는 오해 설명
-related: MED-1061
+related: MED-1061, MED-0107, MED-1242
 migrated_from: Drive 시트 '휴휴휴 의료정보_자료목록과 운영흐름' (2026-10-11 기준 이전)
 ---
 
