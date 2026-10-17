@@ -19,8 +19,8 @@ recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(PMC 전문 텍스트, NCBI E-utilities). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-related: MED-0047, MED-0121, MED-1072
-note: IASLC 병기·예후인자위원회(SPFC)가 AJCC·UICC와 함께 만든 9판을 정리한 영상의학 종설이다. 원 제안 논문은 J Thorac Oncol 2024(N 기술자 PMC12323887, T 기술자 PMC11081813 등). 국내 적용: 심평원 항암요법 공고책자(2026-10-01)는 비소세포폐암 병기를 AJCC 8판 원칙으로 둔다(MED-1072) — 국내 급여 기준은 아직 8판이다. 국가암정보센터 폐암 병기 페이지(MED-0047)는 판본 표기가 없다. 이용조건: CC BY-NC 4.0(비상업적 이용 — 수익 시작 시 점검 대상, LICENSES.md)
+related: MED-0047; MED-0121; MED-1072; MED-1606
+note: IASLC 병기·예후인자위원회(SPFC)가 AJCC·UICC와 함께 만든 9판을 정리한 영상의학 종설이다. 원 제안 논문은 J Thorac Oncol 2024(N 기술자 PMC12323887, T 기술자 PMC11081813 등). 국내 적용: 심평원 항암요법 공고책자(2026-10-01)는 비소세포폐암 병기를 AJCC 8판 원칙으로 둔다(MED-1072) — 국내 급여 기준은 아직 8판이다. 국가암정보센터 폐암 병기 페이지(MED-0047)는 판본 표기가 없다. 이용조건: CC BY-NC 4.0(비상업적 이용 — 수익 시작 시 점검 대상, LICENSES.md) '9판'은 폐암 TNM 병기 9판(AJCC/UICC)을 뜻하며, 질병분류 KCD 9차(2026-01-01 시행, MED-1606)와는 다른 체계다.
 ---
 
 ## 핵심 근거
