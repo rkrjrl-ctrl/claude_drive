@@ -1,7 +1,7 @@
 # 수집 현황 (자동 생성 — 직접 수정 금지)
 
 - 기준일: 2026-10-17  /  검증 후 보관된 자료: **1459건**
-- 상태: needs_recheck 5, partial 7, rejected 1, superseded 43, verified 1403
+- 상태: needs_recheck 5, partial 6, rejected 1, superseded 43, verified 1404
 - 근거 등급: A 648, B 525, C 286  (A 법령·고시·학회지침 / B 국내 공공기관 안내 / C 해외·보조·오래된 일반 안내)
 - 관할: INT 244, KR 864, US 351
 - 검증 스크립트 결과: 오류 0건, 경고 0건
@@ -10,7 +10,6 @@
 
 | ID | 자료명 | 상태 | 등급 | 재확인 기한 |
 |---|---|---|---|---|
-| MED-0013 | 2026 신장암 진료지침 | partial | A | 2027-04-11 |
 | MED-0144 | 뇌졸중 진료지침 — 급성기 응급 뇌영상검사 (Emergent neuroimaging) | needs_recheck | A | 2026-12-17 |
 | MED-0145 | 뇌졸중 진료지침 — 이차예방 위험인자 조절: 고혈압 | superseded | A | 2026-12-11 |
 | MED-0146 | 뇌졸중 진료지침 — 이차예방 항혈소판제: 아스피린 | superseded | A | 2026-12-11 |
