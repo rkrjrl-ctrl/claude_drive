@@ -15,7 +15,7 @@ sources/ 기록의 '핵심 근거' 절에서 찾아 판정 표(마크다운)를 
 파이썬 표준 라이브러리만 쓴다. 숫자 일치와 단어 겹침만 보며, 문장의 뜻이 근거와 같은지는
 사람이 확인해야 한다(tools/README.md '한계').
 """
-import argparse, csv, datetime, glob, os, re, sys
+import argparse, bisect, csv, datetime, functools, glob, hashlib, os, pickle, re, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 MED = os.path.dirname(HERE)                       # medical/
@@ -154,7 +154,9 @@ STOP = set('약 이상 이하 미만 초과 기준 전체 대비 중 등 및 또
            '사람 우리 내 나 이번 영상 숫자 통계'.split())
 
 
+@functools.lru_cache(maxsize=None)
 def keywords(text):
+    """글의 단어 묶음. 같은 글은 한 번만 계산한다(돌려준 묶음을 고치지 않는다)."""
     words = set(re.findall(r'\d+대(?=[^가-힣]|$)', text))   # '60대'처럼 나이대는 단어로 친다
     for w in re.findall(r'[가-힣A-Za-z][가-힣A-Za-z0-9·]*', text):
         for j in JOSA:
@@ -267,7 +269,101 @@ def section(t, name):
 BLANKET = re.compile(r'(원 발표[^.\n]{0,12}대조 전|화면 수치 사용 금지|수치를? (화면에 |영상에 )?쓰지 않는다|수치 사용 금지)')
 
 
+CACHE_DIR = os.path.join(HERE, '.cache')                # git에 넣지 않는다(tools/.gitignore)
+CACHE = os.path.join(CACHE_DIR, 'factcheck_load.pkl')
+
+
+def _signature():
+    """캐시가 아직 맞는지 판단할 지문: 기록 파일·index.csv·numbers.csv·이 스크립트의 이름·크기·수정 시각."""
+    h = hashlib.sha1()
+    files = [INDEX, CARDS, os.path.abspath(__file__)]
+    with os.scandir(SOURCES) as it:
+        files += sorted(e.path for e in it if e.name.startswith('MED-') and e.name.endswith('.md'))
+    for f in files:
+        st = os.stat(f)
+        h.update(f'{os.path.basename(f)}|{st.st_size}|{st.st_mtime_ns}\n'.encode('utf-8'))
+    return h.hexdigest()
+
+
+class ValueIndex:
+    """숫자 값(첫 값) → 항목 목록. 값 차이가 허용 오차 안인 후보만 빠르게 고른다.
+    후보를 고른 뒤에는 원래 조건(same_number 등)으로 다시 확인하므로 판정은 전체를 훑을 때와 같다."""
+
+    def __init__(self, entries):
+        entries.sort(key=lambda e: e[0])
+        self.keys = [e[0] for e in entries]
+        self.items = [e[1] for e in entries]
+
+    def window(self, lo, hi):
+        i = bisect.bisect_left(self.keys, lo)
+        j = bisect.bisect_right(self.keys, hi)
+        return self.items[i:j]
+
+    def near(self, x, rel=2e-6):
+        tol = rel * max(1.0, abs(x)) + 1e-6
+        return self.window(x - tol, x + tol)
+
+
+INDEXES = {}
+
+
+def build_indexes(recs, cards):
+    """기록 '핵심 근거' 줄의 숫자와 카드 값의 색인. 항목은 (기록 순번, 줄 순번) / 카드 순번."""
+    order = list(recs)
+    lines = []
+    for oi, rid in enumerate(order):
+        for li, (sent, nums, direct, whole) in enumerate(recs[rid]['lines']):
+            for b in nums:
+                lines.append((b['values'][0], (oi, li)))
+    card_entries = [(x['values'][0], ci) for ci, c in enumerate(cards) for x in c['alts']]
+    INDEXES.clear()
+    INDEXES.update(order=order, lines=ValueIndex(lines), cards=ValueIndex(card_entries), recs_id=id(recs))
+
+
+def line_candidates(recs, xs):
+    """값 목록 xs 각각의 허용 오차 안에 숫자가 있는 (기록, 줄) 후보를 원래 순서(기록 순서·줄 순서)로 돌려준다.
+    반환: [(rid, [줄 순번…])…]. 색인이 없으면 None(전체를 훑는다)."""
+    if INDEXES.get('recs_id') != id(recs):
+        return None
+    cand = set()
+    for x in xs:
+        if isinstance(x, tuple):
+            cand.update(INDEXES['lines'].window(*x))
+        else:
+            cand.update(INDEXES['lines'].near(x))
+    out = {}
+    for oi, li in sorted(cand):
+        out.setdefault(oi, []).append(li)
+    order = INDEXES['order']
+    return [(order[oi], lis) for oi, lis in sorted(out.items())]
+
+
 def load(today):
+    """기록·카드를 읽는다. 기록이나 카드, 이 스크립트가 바뀌지 않았으면 캐시(.cache/)를 쓰고, 바뀌었으면 다시 만든다."""
+    sig = _signature()
+    try:
+        with open(CACHE, 'rb') as f:
+            saved = pickle.load(f)
+        if saved.get('sig') == sig:
+            idx, recs, cards = saved['data']
+            build_indexes(recs, cards)
+            return idx, recs, cards
+    except (OSError, EOFError, pickle.UnpicklingError, AttributeError, KeyError, TypeError, ValueError):
+        pass
+    idx, recs, cards = _load(today)
+    try:
+        os.makedirs(CACHE_DIR, exist_ok=True)
+        tmp = CACHE + '.tmp'
+        with open(tmp, 'wb') as f:
+            pickle.dump(dict(sig=sig, data=(idx, recs, cards)), f, protocol=pickle.HIGHEST_PROTOCOL)
+        os.replace(tmp, CACHE)
+    except OSError:
+        pass                                            # 캐시를 못 써도 판정에는 영향 없음
+    build_indexes(recs, cards)
+    return idx, recs, cards
+
+
+def _load(today):
     idx = {x['id']: x for x in csv.DictReader(open(INDEX, encoding='utf-8'))}
     recs = {}
     for path in glob.glob(os.path.join(SOURCES, 'MED-*.md')):
@@ -276,6 +372,12 @@ def load(today):
             continue
         t = open(path, encoding='utf-8').read()
         core, ban = section(t, '핵심 근거'), section(t, '미검증·사용 금지')
+        lim_lines = []                                   # '적용 조건·한계' 절의 숫자 줄(마지막 대체 탐색용)
+        for line in section(t, '적용 조건·한계').split('\n'):
+            if line.strip():
+                nums, _ = extract(line)
+                if nums:
+                    lim_lines.append((line, nums))
         ban_lines = [(s, extract(s)[0]) for s in re.split(r'(?<=\.)\s+|\n', ban) if s.strip()]
         lines = []
         for line in core.split('\n'):
@@ -289,7 +391,7 @@ def load(today):
         body = t.split('---', 2)[2] if t.startswith('---') else t
         all_nums = extract(body, keep_small=True)[0]      # 인용 대조용: 핵심 근거 밖(미검증 절 등)의 숫자까지
         title_nums = extract(x['title'], keep_small=True)[0]   # 기록 제목(index.csv title)의 숫자
-        recs[rid] = dict(meta=x, core=core, lines=lines, ban_lines=ban_lines, blanket=bool(BLANKET.search(ban)), all_nums=all_nums,
+        recs[rid] = dict(meta=x, core=core, lines=lines, lim_lines=lim_lines, ban_lines=ban_lines, blanket=bool(BLANKET.search(ban)), all_nums=all_nums,
                          title_nums=title_nums,
                          title=x['title'])
     cards = []
@@ -362,13 +464,17 @@ def accept(kw, hkw, ents, ctx, ev_kw, ev_text):
     return 0
 
 
-def check_number(num, kw, recs, cards, today, ents=(), ctx=(), hkw=frozenset()):
+def check_number(num, kw, recs, cards, today, ents=(), ctx=(), hkw=frozenset(), limits=True):
     """숫자 하나 판정. 반환: (판정, 근거 목록)
     kw: 원고 문장 단어, hkw: 제목 단어, ents: 원고 문장의 질병·제도 이름 묶음, ctx: 제목의 이름 묶음.
     카드는 값·단위가 같은 카드(한 줄 문장에 풀어 쓴 값 포함)를, 기록은 '핵심 근거'에서 값·단위가 같은 숫자가 있는
     목록 한 줄을 찾고, accept()로 받을지 정한다."""
     hits = []
-    for c in cards:
+    if INDEXES.get('recs_id') == id(recs):
+        card_pool = [cards[ci] for ci in sorted(set(INDEXES['cards'].near(num['values'][0])))]
+    else:
+        card_pool = cards
+    for c in card_pool:
         if any(same_number(num, x) for x in c['alts']):
             r = c['row']
             text = r['주제'] + ' ' + r['한 줄 문장'] + ' ' + r['기준시점'] + ' ' + r['주의']
@@ -378,11 +484,20 @@ def check_number(num, kw, recs, cards, today, ents=(), ctx=(), hkw=frozenset()):
                 fl = flags_for(rid, num, recs, today, direct=bool(re.search(r'직접 (계산|합산)', r['주의'])), kw=kw)
                 hits.append(('카드', score, r['카드번호'], rid, fl, r['한 줄 문장']))
     if not hits:
-        for rid, rec in recs.items():
+        xs = [num['values'][0]]
+        lm = re.match(r'(?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?', num['raw'])
+        if lm:
+            xs.append(round(float(lm.group(0).replace(',', '')), 6))    # loose_number 후보('27천 명' ↔ '27')
+        cands = line_candidates(recs, xs)
+        if cands is None:
+            cands = [(rid, range(len(rec['lines']))) for rid, rec in recs.items()]
+        for rid, lis in cands:
+            rec = recs[rid]
             m = rec['meta']
             if m['status'] in ('superseded', 'rejected'):
                 continue
-            for sent, nums, direct, whole in rec['lines']:
+            for li in lis:
+                sent, nums, direct, whole = rec['lines'][li]
                 same = [b for b in nums if same_number(num, b)]
                 exact = bool(same)
                 if not exact:
@@ -400,7 +515,7 @@ def check_number(num, kw, recs, cards, today, ents=(), ctx=(), hkw=frozenset()):
                     hits.append(('기록', score, '', rid, fl, sent[:80]))
                     break
     if not hits:
-        hits = fallback_hits(num, kw, hkw, ents, ctx, recs, today)
+        hits = fallback_hits(num, kw, hkw, ents, ctx, recs, today, limits)
     if not hits:
         return '근거 없음', []
     # 카드를 먼저, 그다음 단어가 많이 겹치는 근거를 앞에 둔다(표시 유무는 마지막 기준)
@@ -424,7 +539,8 @@ def _sig(v):
 
 def approx_match(num, b):
     """원고가 원문 값을 어림해 쓴 경우인지. 예: 360만 명 ↔ 3,606,521명, 18만 명 ↔ 182,312명.
-    조건: 같은 금액·인원 단위, 원고 값의 유효 숫자가 3개 이하이고 원문보다 적다(자릿수가 줄었다).
+    조건: 같은 금액·인원 단위, 원고 값의 유효 숫자가 원문보다 적다(자릿수가 줄었다). 원고 유효 숫자가 4개 이상이면
+    원문이 세 자리 이상 더 자세할 때만 본다(예: '1,042만 회' ↔ 10,424,188회, '약 1조 1,685억 원' ↔ 1,168,485,720천 원).
     '넘는·이상·넘게'면 원문 ≥ 원고 값이고 차이가 원고의 마지막 자리 단위보다 작아야 하고,
     '가까이·미만'이면 반대, 그 밖('약' 포함)은 차이가 마지막 자리 단위보다 작아야 한다."""
     if len(num['values']) != 1 or len(b['values']) != 1 or b.get('small'):
@@ -435,7 +551,7 @@ def approx_match(num, b):
     if v < 1000 or not float(v).is_integer() or not float(e).is_integer():
         return False
     sv, se = _sig(v), _sig(e)
-    if sv > 3 or se <= sv:
+    if se <= sv or (sv > 3 and se - sv < 3):
         return False
     step = 10 ** (len(str(int(v))) - sv)
     after = re.sub(r'^[이가을를은는의도]?\s?', '', num.get('after', ''))
@@ -490,16 +606,36 @@ def cited_variant(num, rec):
 RANKLIST = re.compile(r'(\d+)~(\d+)위\s*:\s*([^\n]+)')
 
 
-def fallback_hits(num, kw, hkw, ents, ctx, recs, today):
+def fallback_hits(num, kw, hkw, ents, ctx, recs, today, limits=True):
     """기록 대조로 못 찾았을 때 표기 차이를 허용해 다시 찾는다.
-    (1) 어림 값·단위 환산 (2) 목록 순서로 정해지는 순위 (3) 범위의 두 끝값 (4) '심한 40%' ↔ '심한 40'처럼 줄여 쓴 표기.
+    (1) 어림 값·단위 환산 (2) 목록 순서로 정해지는 순위 (3) 범위의 두 끝값 (4) '심한 40%' ↔ '심한 40'처럼 줄여 쓴 표기
+    (5) '적용 조건·한계' 절에만 있는 숫자(주의). 인용 번호가 없는 문장에만 쓴다(limits) — 인용 번호가 있으면
+    인용 기록 대조가 이미 기록 본문 전체를 본다.
     찾으면 근거 글 앞에 어떤 표기 차이인지 적는다(주의 표시는 붙이지 않는다)."""
     hits = []
     live = [(rid, rec) for rid, rec in recs.items() if rec['meta']['status'] not in ('superseded', 'rejected')]
     # (1) 어림 값·단위 환산: 받아들일 수 있는 후보 중 원고 값에 가장 가까운 원문 값을 고른다
     best = None
-    for rid, rec in live:
-        for sent, nums, direct, whole in rec['lines']:
+    v0 = num['values'][0]
+    wins = []
+    if len(num['values']) == 1 and v0 >= 1000 and float(v0).is_integer():
+        sv = _sig(v0)
+        step = 10 ** max(len(str(int(v0))) - sv, 0)
+        wins.append((v0 - step - 1, v0 + step + 1))                      # approx_match가 참일 수 있는 범위
+    if len(num['values']) == 1:
+        for k in SCALE_WORD:
+            c = v0 / k
+            wins.append((c - 2e-6 * abs(c) - 1e-9, c + 2e-6 * abs(c) + 1e-9))   # scaled_match가 참일 수 있는 값
+    cands = line_candidates(recs, wins) if wins else []
+    if cands is None:
+        cands = [(rid, range(len(rec['lines']))) for rid, rec in live]
+    status_ok = {rid for rid, _ in live}
+    for rid, lis in cands:
+        if rid not in status_ok:
+            continue
+        rec = recs[rid]
+        for li in lis:
+            sent, nums, direct, whole = rec['lines'][li]
             for b in nums:
                 kind = '어림 일치' if approx_match(num, b) else '단위 환산 일치' if scaled_match(num, b, rec['core']) else ''
                 if not kind or conflict(ents, b.get('before', '')):
@@ -531,10 +667,18 @@ def fallback_hits(num, kw, hkw, ents, ctx, recs, today):
     # (3) 범위: 두 끝값이 같은 기록에 따로 적힌 경우
     if len(num['values']) > 1:
         parts = [dict(num, values=(v,)) for v in num['values']]
+        per_part = []
+        for x in parts:
+            c = line_candidates(recs, [x['values'][0]])
+            per_part.append(None if c is None else dict(c))
         for rid, rec in live:
+            if any(pp is not None and rid not in pp for pp in per_part):
+                continue                                  # 끝값 하나라도 이 기록 줄에 없다
             found = []
-            for x in parts:
-                for sent, nums, direct, whole in rec['lines']:
+            for x, pp in zip(parts, per_part):
+                lis = pp[rid] if pp is not None else range(len(rec['lines']))
+                for li in lis:
+                    sent, nums, direct, whole = rec['lines'][li]
                     if any(same_number(x, b) for b in nums):
                         found.append(whole)
                         break
@@ -562,6 +706,23 @@ def fallback_hits(num, kw, hkw, ents, ctx, recs, today):
                     fl = flags_for(rid, num, recs, today, kw=kw)
                     hits.append(('기록', score, '', rid, fl, f"줄여 쓴 표기 일치('{m.group(0)}')"))
                     return hits
+    # (5) '적용 조건·한계' 절에만 있는 숫자: 기록의 해석·한계 서술이라 '주의'로 낸다(예: '1~2%p 변화는 오차 범위')
+    #     같은 문구가 여러 기록에 있으면 원고의 질병·제도 이름이 들어 있는 기록, 그다음 단어가 많이 겹치는 기록을 고른다
+    best = None
+    for rid, rec in (live if limits else []):
+        for line, nums in rec['lim_lines']:
+            same = [b for b in nums if same_number(num, b)]
+            if not same or all(conflict(ents, b.get('before', '')) for b in same):
+                continue
+            score = accept(kw, hkw, ents, ctx, keywords(line), line + ' ' + rec['title'])
+            if score:
+                key = (bool(ents) and entity_ok(ents, rec['title']), score)
+                if best is None or key > best[0]:
+                    best = (key, score, rid, line)
+    if best:
+        _, score, rid, line = best
+        fl = flags_for(rid, num, recs, today, kw=kw) + ['핵심 근거 밖(적용 조건·한계 절)의 숫자']
+        return [('기록', score, '', rid, fl, line.strip()[:80])]
     return hits
 
 # ---------------------------------------------------------------- 원고 → 문장
@@ -692,7 +853,7 @@ def judge(n, s, heading, refs, recs, cards, today, detail):
     인용 번호(refs)가 있으면, 그 숫자가 인용한 기록이나 그 기록에서 나온 카드에 있는지도 본다."""
     kw = keywords(s)
     hkw = keywords(re.sub(r'[\d.]+', ' ', heading))   # 제목 단어(주어 없는 문장용)
-    v, hits = check_number(n, kw, recs, cards, today, entities_in(s), entities_in(heading), hkw)
+    v, hits = check_number(n, kw, recs, cards, today, entities_in(s), entities_in(heading), hkw, limits=not refs)
     cite = ''
     if refs:
         title_only = []
