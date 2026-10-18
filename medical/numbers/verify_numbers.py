@@ -1,0 +1,61 @@
+"""numbers.csv 각 줄의 숫자가 출처 기록(sources/MED-NNNN_*.md) '핵심 근거' 절에 그대로 있는지 대조한다.
+실행: python medical/numbers/verify_numbers.py
+"""
+import csv, glob, os, re, sys
+sys.stdout.reconfigure(encoding="utf-8")
+MED = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+idx = {x['id']: x for x in csv.DictReader(open(os.path.join(MED, 'index.csv'), encoding='utf-8'))}
+
+
+def src_file(i):
+    f = glob.glob(os.path.join(MED, 'sources', i + '_*.md'))
+    return f[0] if f else None
+
+
+def sec(t, name):
+    m = re.search(r'## ' + name + r'\n(.*?)(?=\n## |\Z)', t, re.S)
+    return m.group(1) if m else ''
+
+
+rows = list(csv.DictReader(open(os.path.join(MED, 'numbers', 'numbers.csv'), encoding='utf-8')))
+res = dict(total=len(rows), ok=0, notfound=[], badstatus=[], calc_unflagged=[],
+           caution_num_missing=[], in_ban=[], long=[], dup=[])
+seen = {}
+for r in rows:
+    src, num = r['출처기록'], r['숫자']
+    x = idx.get(src)
+    # 1) 출처 기록이 verified이고 tier C가 아닌지
+    if not x or x['status'] != 'verified' or x['tier'] == 'C':
+        res['badstatus'].append(r['카드번호'])
+    t = open(src_file(src), encoding='utf-8').read()
+    core, ban = sec(t, '핵심 근거'), sec(t, '미검증·사용 금지')
+    # 2) 숫자가 '핵심 근거' 절에 앞뒤 숫자에 붙지 않은 채 그대로 있는지(예: '5'가 '15'에 걸리지 않게)
+    pat = r'(?<![\d.,])' + re.escape(num) + r'(?![\d]|[.,]\d)'
+    if not re.search(pat, core):
+        res['notfound'].append((r['카드번호'], src, num))
+        continue
+    res['ok'] += 1
+    # 3) 그 숫자가 나오는 문장이 모두 '직접 계산/합산'인데 주의 열에 표시가 없으면 경고
+    sents = [s for s in re.split(r'(?<=[.)])\s+|\n', core) if re.search(pat, s)]
+    if sents and all(re.search(r'직접 (계산|합산)', s) for s in sents) and '직접' not in r['주의']:
+        res['calc_unflagged'].append((r['카드번호'], src, num))
+    # 4) 주의 열의 숫자도 출처 기록 본문(또는 주의에 적은 다른 MED 기록)에 있는지
+    body = t.split('---', 2)[2]
+    pool = body + ''.join(open(src_file(o), encoding='utf-8').read()
+                          for o in re.findall(r'MED-\d{4}', r['주의']) if src_file(o))
+    for tok in re.findall(r'\d[\d,.]*', re.sub(r'MED-\d{4}(~\d{4})?', '', r['주의'])):
+        tok = tok.rstrip('.,')
+        if tok and tok not in pool:
+            res['caution_num_missing'].append((r['카드번호'], src, tok))
+    # 5) 같은 숫자가 '미검증·사용 금지' 절에도 나오면 사람이 한 번 더 본다(알림용)
+    if len(num) >= 3 and num in ban:
+        res['in_ban'].append((r['카드번호'], src, num))
+    if len(r['한 줄 문장']) > 40:
+        res['long'].append((r['카드번호'], len(r['한 줄 문장'])))
+    k = (src, num, r['단위'])
+    if k in seen:
+        res['dup'].append((seen[k], r['카드번호'], src, num))
+    seen[k] = r['카드번호']
+
+for k, v in res.items():
+    print(k, v if not isinstance(v, list) else (len(v), v))
