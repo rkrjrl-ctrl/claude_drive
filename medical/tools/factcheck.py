@@ -21,7 +21,7 @@ SOURCES = os.path.join(MED, 'sources')
 # ---------------------------------------------------------------- 숫자 뽑기
 MAG = {'조': 1e12, '천억': 1e11, '억': 1e8, '천만': 1e7, '백만': 1e6, '만': 1e4, '천': 1e3, '백': 1e2}
 GROUP = re.compile(r'(?<![A-Za-z\d.,])((?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?)(조|천억|억|천만|백만|만|천|백)?')
-UNIT = re.compile(r'\s?(%p|%포인트|퍼센트|%|원(?!인|칙|문|외|급|래|내|장)|명|건|개월|개사|개(?!정|선|별|월)|회(?!사|원|의|계)|일(?!당|반|부|시|상)|년(?!생|도)|세(?!대|부)|곳|배(?!우|아)|위(?!암|원|험)|점(?!수)|cm|kg|타|갑년|시간|mmHg)')
+UNIT = re.compile(r'\s?(%p|%포인트|퍼센트|%|원(?!인|칙|문|외|급|래|내|장)|명|건(?!강|물|축|의|설|전)|개월|개사|개(?!정|선|별|월)|회(?!사|원|의|계)|일(?!당|반|부|시|상)|년(?!생|도)|세(?!대|부)|곳|배(?!우|아)|위(?!암|원|험)|점(?!수)|cm|kg|타|갑년|시간|mmHg)')
 FRACTION = re.compile(r'(\d+)분의\s?(\d+)')
 # 숫자로 보지 않을 것: 날짜, 고시·공고 번호, 판례 번호, 기록·카드 번호, 상병코드
 SKIP = [re.compile(p) for p in [
@@ -29,6 +29,14 @@ SKIP = [re.compile(p) for p in [
     r'제?\d{4}-\d+\s?호', r'제\d+(?:-\d+)?호', r'\d{2,4}[가-힣]{1,2}\d{3,}', r'MED-\d{4}', r'N-\d{4}',
     r'[A-Z]{1,3}\d{2,}[\d.]*(?:-[A-Z]{1,3}\d{2,}[\d.]*)?', r'제\d+조(?:의\d+)?(?:제\d+항)?(?:제\d+호)?', r'\d+차', r'\d+(?:\.\d+)?:\d+(?:\.\d+)?']]
 DATE = [SKIP[0], SKIP[1], SKIP[2]]
+
+
+def clause_before(text, start):
+    """숫자 앞 글 중 같은 마디(쉼표·쌍점·마침표 뒤부터, 최대 40자)를 돌려준다.
+    예: '폐암 16.6%(2001~2005)→42.5%'의 42.5% → '폐암 16.6%(2001~2005)→'"""
+    seg = text[max(0, start - 40):start]
+    cut = max(seg.rfind(', '), seg.rfind('; '), seg.rfind(': '), seg.rfind('. '))
+    return seg[cut + 2:] if cut >= 0 else seg
 
 
 def _group_value(digits, mag):
@@ -77,7 +85,8 @@ def extract(text):
         elif re.match(r'[가-힣]', masked[end:end + 1]) and not has_mag and not g.group(2):
             i = j                                    # '1인실', '2형', '3세대'처럼 이름에 붙은 숫자는 건너뛴다
             continue
-        out.append(dict(raw=text[start:end].strip(), values=(round(val, 6),), unit=unit, start=start, end=end))
+        out.append(dict(raw=text[start:end].strip(), values=(round(val, 6),), unit=unit, start=start, end=end,
+                        before=clause_before(text, start)))   # 숫자 앞 같은 마디의 글(주어 확인용)
         i = j
     # 범위('30~40%', '90만~843만 원')를 하나로 묶는다
     merged = []
@@ -122,7 +131,7 @@ def same_number(a, b):
 def loose_number(a, b):
     """'7,435천 명'처럼 원고는 단위를 붙였고 기록은 표 머리에만 단위를 적은 경우: 앞자리 숫자 글자가 같으면 후보로 본다."""
     m = re.match(r'(?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?', a['raw'])
-    return bool(m) and len(a['values']) == 1 and b['raw'] == m.group(0) and m.group(0) != a['raw'].strip()         and re.search(r'[조억만천]', a['raw'][len(m.group(0)):len(m.group(0)) + 2] or '')
+    return bool(m) and len(a['values']) == 1 and b['raw'] == m.group(0) and m.group(0) != a['raw'].strip()         and bool(re.search(r'[조억만천]', a['raw'][len(m.group(0)):len(m.group(0)) + 2] or ''))         and not re.search(r'[가-힣A-Za-z]$', b.get('before', ''))     # '누306' 같은 코드 숫자는 제외
 
 # ---------------------------------------------------------------- 단어 겹침
 JOSA = ('에서는', '으로는', '에서', '으로', '까지', '부터', '보다', '이다', '였다', '이었다', '했다', '된다', '한다',
@@ -133,15 +142,21 @@ STOP = set('약 이상 이하 미만 초과 기준 전체 대비 중 등 및 또
 
 
 def keywords(text):
-    words = set()
+    words = set(re.findall(r'\d+대(?=[^가-힣]|$)', text))   # '60대'처럼 나이대는 단어로 친다
     for w in re.findall(r'[가-힣A-Za-z][가-힣A-Za-z0-9·]*', text):
         for j in JOSA:
             if w.endswith(j) and len(w) - len(j) >= 2:
                 w = w[:-len(j)]
                 break
+        w = SYNONYM.get(w, w)
         if len(w) >= 2 and w not in STOP:
             words.add(w)
     return words
+
+
+# 같은 뜻으로 쓰는 말(원고 쪽 표현으로 맞춘다)
+SYNONYM = {'진료실인원': '진료인원', '실인원': '진료인원', '환자수': '환자', '사망률': '사망', '연령대': '나이',
+           '유병률': '유병', '발생률': '발생', '생존율': '생존', '치명률': '치명'}
 
 
 def overlap(a, b):
@@ -216,7 +231,7 @@ MRI|자기공명
 영양주사|피로 또는 권태
 하이푸|고강도초음파
 로봇
-암검진|국가검진
+암검진|국가검진|검진
 생명보험|생보
 손해보험|손보'''.split('\n')]
 
@@ -256,7 +271,7 @@ def load(today):
             for sent in re.split(r'(?<=\.)\s+(?=[가-힣A-Z(*\-\d])', line):
                 nums, _ = extract(sent)
                 if nums:
-                    lines.append((sent, nums, bool(re.search(r'직접 (계산|합산)', sent))))
+                    lines.append((sent, nums, bool(re.search(r'직접 (계산|합산)', sent)), line))
         x = idx[rid]
         recs[rid] = dict(meta=x, lines=lines, ban_lines=ban_lines, blanket=bool(BLANKET.search(ban)),
                          title=x['title'])
@@ -300,39 +315,72 @@ def flags_for(rid, num, recs, today, direct=False, kw=()):
     return out
 
 
-def check_number(num, kw, recs, cards, today, ents=(), ctx=()):
+def conflict(ents, near):
+    """근거에서 숫자 앞 같은 마디에 다른 질병·제도 이름만 있으면 True(예: 원고 '간암 … 72.8%', 근거 '위암 … 72.8%')."""
+    if not ents:
+        return False
+    found = entities_in(near) + [g for g in ENTITIES if any(re.search(s, near) for s in SHORT.get(g[0], []))]
+    return bool(found) and not any(g in ents for g in found)
+
+
+# 표에서 '폐 42.5%', '위 78.6%'처럼 '암'을 빼고 쓴 짧은 이름(숫자 앞 주어 확인에만 쓴다)
+SHORT = {'위암': [r'(^|[\s,(])위 '], '폐암': [r'(^|[\s,(])폐 '], '간암': [r'(^|[\s,(])간 '], '신장암': [r'(^|[\s,(])신장 '],
+         '대장암': [r'(^|[\s,(])대장 '], '췌장암': [r'(^|[\s,(])췌장 '], '유방암': [r'(^|[\s,(])유방 '],
+         '전립선암': [r'(^|[\s,(])전립선 '], '갑상선암': [r'(^|[\s,(])갑상선 ']}
+
+
+def accept(kw, hkw, ents, ctx, ev_kw, ev_text):
+    """근거 후보를 받아들일지 정한다. 반환: 겹친 단어 수(0이면 받지 않음).
+    1) 원고 문장 단어가 근거와 1개 이상 겹치고, 원고 문장의 질병·제도 이름이 근거에 있으면 받는다.
+       이름이 근거에 없어도 문장 단어가 2개 이상 겹치면 받는다.
+    2) 원고 문장에 질병·제도 이름이 없을 때만: 제목의 이름이 근거에 있고 제목 단어가 겹치면 받는다
+       (예: 제목 '뇌졸중 3. 생존율·환자 수' 아래의 주어 없는 문장)."""
+    ov = overlap(kw, ev_kw)
+    if ov and (len(ov) >= 2 or entity_ok(ents, ev_text)):
+        return len(ov) + (1 if ctx and entity_ok(ctx, ev_text) else 0)
+    if not ents and ctx and entity_ok(ctx, ev_text):
+        ovh = overlap(hkw, ev_kw)
+        if ovh:
+            return len(ovh)
+    return 0
+
+
+def check_number(num, kw, recs, cards, today, ents=(), ctx=(), hkw=frozenset()):
     """숫자 하나 판정. 반환: (판정, 근거 목록)
-    ents: 원고 문장에 나온 질병·제도 이름 묶음(근거에도 있어야 한다). ctx: 문장이 속한 제목의 이름 묶음(순위만 올린다).
-    카드: 값·단위가 같고(한 줄 문장에 풀어 쓴 값 포함), 카드 글과 단어가 1개 이상 겹치고, 이름 조건을 만족해야 한다.
-    기록: 값·단위가 같고, 그 숫자가 있는 문장과 단어가 1개 이상 겹치고, 이름 조건을 만족해야 한다."""
+    kw: 원고 문장 단어, hkw: 제목 단어, ents: 원고 문장의 질병·제도 이름 묶음, ctx: 제목의 이름 묶음.
+    카드는 값·단위가 같은 카드(한 줄 문장에 풀어 쓴 값 포함)를, 기록은 '핵심 근거'에서 값·단위가 같은 숫자가 있는
+    목록 한 줄을 찾고, accept()로 받을지 정한다."""
     hits = []
     for c in cards:
         if any(same_number(num, x) for x in c['alts']):
             r = c['row']
-            ov = overlap(kw, c['kw'])
-            if ov and entity_ok(ents, r['주제'] + r['한 줄 문장'] + r['기준시점'] + r['주의']):
+            text = r['주제'] + ' ' + r['한 줄 문장'] + ' ' + r['기준시점'] + ' ' + r['주의']
+            score = accept(kw, hkw, ents, ctx, c['kw'], text)
+            if score and not conflict(ents, r['주제'] + ' ' + r['한 줄 문장']):
                 rid = r['출처기록']
                 fl = flags_for(rid, num, recs, today, direct=bool(re.search(r'직접 (계산|합산)', r['주의'])), kw=kw)
-                bonus = 1 if ctx and entity_ok(ctx, r['주제'] + r['한 줄 문장'] + r['주의']) else 0
-                hits.append(('카드', len(ov) + bonus, r['카드번호'], rid, fl, r['한 줄 문장']))
+                hits.append(('카드', score, r['카드번호'], rid, fl, r['한 줄 문장']))
     if not hits:
         for rid, rec in recs.items():
             m = rec['meta']
             if m['status'] in ('superseded', 'rejected'):
                 continue
-            for sent, nums, direct in rec['lines']:
-                exact = any(same_number(num, b) for b in nums)
-                loose = not exact and any(b['unit'] is None and loose_number(num, b) for b in nums)
-                if not (exact or loose):
+            for sent, nums, direct, whole in rec['lines']:
+                same = [b for b in nums if same_number(num, b)]
+                exact = bool(same)
+                if not exact:
+                    same = [b for b in nums if b['unit'] is None and loose_number(num, b)]
+                loose = not exact and bool(same)
+                if not same or all(conflict(ents, b.get('before', '')) for b in same):
                     continue
-                ov_line = overlap(kw, keywords(sent))
-                ov = overlap(kw, keywords(sent + ' ' + rec['title']))
-                if ov_line and entity_ok(ents, sent + ' ' + rec['title']):
+                # 단어 겹침은 숫자가 있는 문장이 아니라 그 문장이 속한 목록 한 줄 전체로 본다
+                # (예: '유병 환자 나이: 평균 … 65세 이상 27.3% → 45.1%'에서 45.1%의 주어는 같은 줄 앞부분에 있다)
+                score = accept(kw, hkw, ents, ctx, keywords(whole), whole + ' ' + rec['title'])
+                if score:
                     fl = flags_for(rid, num, recs, today, direct, kw)
                     if loose:
                         fl = fl + ['단위 표기 없는 값과 일치(단위 확인)']
-                    bonus = 1 if ctx and entity_ok(ctx, sent + ' ' + rec['title']) else 0
-                    hits.append(('기록', len(ov) + bonus, '', rid, fl, sent[:80]))
+                    hits.append(('기록', score, '', rid, fl, sent[:80]))
                     break
     if not hits:
         return '근거 없음', []
@@ -394,10 +442,12 @@ def main():
             counts[v] = counts.get(v, 0) + 1
             rows.append((k, s, ', '.join(years) or '-', v, '사람이 확인'))
             continue
+        # 문장 단어에 제목 단어를 더한다(예: 제목 '뇌졸중 3. 생존율·환자 수·진료비' 아래 주어 없는 문장)
         kw = keywords(s)
+        hkw = keywords(re.sub(r'[\d.]+', ' ', heading))   # 제목 단어(주어 없는 문장용)
         parts, worst = [], '근거 있음(카드)'
         for n in nums:
-            v, hits = check_number(n, kw, recs, cards, a.today, entities_in(s), entities_in(heading))
+            v, hits = check_number(n, kw, recs, cards, a.today, entities_in(s), entities_in(heading), hkw)
             if RANK[v] > RANK[worst]:
                 worst = v
             if not hits:
