@@ -18,7 +18,7 @@ def sec(t, name):
 
 
 rows = list(csv.DictReader(open(os.path.join(MED, 'numbers', 'numbers.csv'), encoding='utf-8')))
-res = dict(total=len(rows), ok=0, notfound=[], badstatus=[], calc_unflagged=[],
+res = dict(total=len(rows), ok=0, notfound=[], badstatus=[], stale_meta=[], calc_unflagged=[],
            caution_num_missing=[], in_ban=[], long=[], dup=[])
 seen = {}
 for r in rows:
@@ -27,6 +27,9 @@ for r in rows:
     # 1) 출처 기록이 verified이고 tier C가 아닌지
     if not x or x['status'] != 'verified' or x['tier'] == 'C':
         res['badstatus'].append(r['카드번호'])
+    # 1-2) 재확인기한·출처기관이 지금 index.csv 값과 같은지(출처 기록 수정 뒤 낡은 값 확인)
+    elif x['recheck_by'] != r['재확인기한'] or x['org'] != r['출처기관']:
+        res['stale_meta'].append((r['카드번호'], src, r['재확인기한'], x['recheck_by']))
     t = open(src_file(src), encoding='utf-8').read()
     core, ban = sec(t, '핵심 근거'), sec(t, '미검증·사용 금지')
     # 2) 숫자가 '핵심 근거' 절에 앞뒤 숫자에 붙지 않은 채 그대로 있는지(예: '5'가 '15'에 걸리지 않게)
