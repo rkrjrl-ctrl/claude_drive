@@ -25,8 +25,17 @@ SOURCES = os.path.join(MED, 'sources')
 
 # ---------------------------------------------------------------- 숫자 뽑기
 MAG = {'조': 1e12, '천억': 1e11, '억': 1e8, '천만': 1e7, '백만': 1e6, '만': 1e4, '천': 1e3, '백': 1e2}
-GROUP = re.compile(r'(?<![A-Za-z\d.,])((?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?)(조|천억|억|천만|백만|만|천|백)?')
-UNIT = re.compile(r'\s?(%p|%포인트|퍼센트|%|원(?!인|칙|문|외|급|래|내|장)|명|건(?!강|물|축|의|설|전)|개월|개사|개(?!정|선|별|월)|회(?!사|원|의|계)|일(?!당|반|부|시|상)|년(?!생|도)|세(?!대|부)|곳|배(?!우|아)|위(?!암|원|험)|점(?!수)|cm|kg|타|갑년|시간|mmHg)')
+# 큰 단위는 숫자에 붙여 쓰거나('4만'), 띄어 썼더라도 뒤에 숫자·금액 단위가 이어질 때만('4 만 3,850원') 같은 묶음으로 읽는다
+GROUP = re.compile(r'(?<![A-Za-z\d.,])((?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?)'
+                   r'(?:(조|천억|억|천만|백만|만|천|백)|\s(조|천억|억|천만|백만|만|천)(?=\s?(?:\d|원|명|건|회)))?')
+
+
+def _mag(g):
+    """GROUP 일치의 큰 단위(붙여 쓴 것 또는 띄어 쓴 것)."""
+    return g.group(2) or g.group(3)
+
+
+UNIT = re.compile(r'\s?(%p|%포인트|퍼센트|%|원(?!인|칙|문|외|급|래|내|장)|명|건(?!강|물|축|의|설|전)|개월|개사|개(?!정|선|별|월)|회(?!사|원|의|계)|일(?!당|반|부|시|상)|년(?!생|도)|세(?!대(?!상)|부(?!터))|곳|배(?!우|아)|위(?!암|원|험)|점(?!수)|cm|kg|타|갑년|시간|mmHg)')
 FRACTION = re.compile(r'(\d+)분의\s?(\d+)')
 # 숫자로 보지 않을 것: 날짜, 고시·공고 번호, 판례 번호, 기록·카드 번호, 상병코드
 SKIP = [re.compile(p) for p in [
@@ -72,25 +81,25 @@ def extract(text, keep_small=False):
     while i < len(groups):
         g = groups[i]
         start, end = g.start(), g.end()
-        val = _group_value(g.group(1), g.group(2))
-        has_mag = bool(g.group(2))
+        val = _group_value(g.group(1), _mag(g))
+        has_mag = bool(_mag(g))
         j = i + 1
         # '1조 1,571억', '7만 8,979' 처럼 큰 단위 뒤에 이어지는 묶음을 합친다
         while has_mag and j < len(groups) and masked[end:groups[j].start()] in ('', ' '):
             gj = groups[j]
-            prev_mag = MAG.get(groups[j - 1].group(2) or '', 1)
-            cur = _group_value(gj.group(1), gj.group(2))
+            prev_mag = MAG.get(_mag(groups[j - 1]) or '', 1)
+            cur = _group_value(gj.group(1), _mag(gj))
             if cur >= prev_mag:
                 break
             val += cur
             end = gj.end()
-            has_mag = bool(gj.group(2))
+            has_mag = bool(_mag(gj))
             j += 1
         um = UNIT.match(masked, end)
         unit = um.group(1) if um else None
         if um:
             end = um.end()
-        elif re.match(r'[가-힣]', masked[end:end + 1]) and not has_mag and not g.group(2):
+        elif re.match(r'[가-힣]', masked[end:end + 1]) and not has_mag and not _mag(g):
             i = j                                    # '1인실', '2형', '3세대'처럼 이름에 붙은 숫자는 건너뛴다
             continue
         out.append(dict(raw=text[start:end].strip(), values=(round(val, 6),), unit=unit, start=start, end=end,
