@@ -51,7 +51,9 @@ for r in rows:
         if tok and tok not in pool:
             res['caution_num_missing'].append((r['카드번호'], src, tok))
     # 5) 같은 숫자가 '미검증·사용 금지' 절에도 나오면 사람이 한 번 더 본다(알림용)
-    if len(num) >= 3 and num in ban:
+    #    '(2026-10-17 해결)'처럼 해결된 확인 메모 줄은 금지 문구가 아니므로 보지 않는다(14라운드)
+    ban_open = '\n'.join(l for l in ban.split('\n') if not re.search(r'\(\d{4}-\d{2}-\d{2} 해결\)', l))
+    if len(num) >= 3 and num in ban_open:
         res['in_ban'].append((r['카드번호'], src, num))
     if len(r['한 줄 문장']) > 40:
         res['long'].append((r['카드번호'], len(r['한 줄 문장'])))

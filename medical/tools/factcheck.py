@@ -849,8 +849,10 @@ def substantive(n):
     return not (n['unit'] in ('명', '건', '곳', '개사') and max(n['values']) < 100)
 
 
-RANK = {'근거 없음': 5, '인용 번호 불일치': 4, '주의': 3, '근거 있음(기록)': 2, '근거 있음(인용 기록)': 2,
+RANK = {'근거 없음': 5, '인용 번호 불일치': 4, '주의': 3, '저장소 자체 집계': 2, '근거 있음(기록)': 2, '근거 있음(인용 기록)': 2,
         '근거 있음(카드)': 1}
+# 문장이 스스로 '이 저장소에 모은 기록 …건', '직접 집계하면 …건'이라고 밝힌 건수는 근거 기록이 있을 수 없다(14라운드)
+SELF_COUNT = re.compile(r'이 저장소에 모은|저장소에서 센|저장소 안에서 센|직접 집계')
 
 
 def cell(s):
@@ -933,6 +935,9 @@ def check_file(path, recs, cards, today, detail):
         parts, worst = [], '근거 있음(카드)'
         for n in nums:
             v, d = judge(n, s, heading, refs, recs, cards, today, detail)
+            if v == '근거 없음' and n['unit'] in ('건', '개') and SELF_COUNT.search(s):
+                v = '저장소 자체 집계'
+                d = f"**{n['raw']}**: 저장소 자체 집계 · 문장이 이 저장소 기록을 센 숫자라고 밝혔다(근거 기록 없음, 사람이 개수 확인)"
             if RANK[v] > RANK[worst]:
                 worst = v
             parts.append(d)
