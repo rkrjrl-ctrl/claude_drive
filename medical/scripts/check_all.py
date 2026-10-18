@@ -17,6 +17,7 @@
   - 쇼츠 원고 중 packages/drafts/README.md 표의 '시의성 날짜'·'사용 기한' 칸에 적힌 날짜가 지난 것
     (README '작성 YYYY-MM-DD'보다 앞선 날짜는 설명용 날짜로 보고 뺀다)
   - CALENDAR.md 달별 절에서 날짜가 지났는데 구분이 '시행됨'이 아닌 항목(이미 시행됨 절로 옮기지 않은 것)
+  - numbers/BY_TOPIC.md가 낡았으면(다시 만들면 내용이 바뀌면) 경고(15라운드)
 파이썬 표준 라이브러리만 쓴다.
 """
 import argparse, calendar, collections, csv, datetime, glob, os, re, shutil, subprocess, sys, tempfile, time
@@ -290,6 +291,14 @@ def check_deadlines(med, today):
     return dict(name='기한 경고', bad=False, warn=bool(detail), head=head, detail=detail, sec=time.time() - t0)
 
 
+# ---------------------------------------------------------------- 숫자 카드 찾아보기(BY_TOPIC.md) 최신 여부(경고만)
+def check_by_topic(med, today):
+    code, out, sec = run([os.path.join('numbers', 'build_by_topic.py'), '--check', '--month', today[:7]], med)
+    head = out.strip().splitlines()[0] if out.strip() else '결과를 읽지 못함'
+    return dict(name='숫자 카드 찾아보기', bad=False, warn=code != 0, head=head + ('' if code == 0 else '(경고만, 종료코드에 영향 없음)'),
+                detail=[] if code == 0 else [head], sec=sec)
+
+
 def main():
     ap = argparse.ArgumentParser(description='커밋 전 검사 한 번에 돌리기')
     ap.add_argument('--dry', action='store_true', help='임시 사본에서 돌린다(index.csv 등을 고치지 않는다)')
@@ -307,7 +316,7 @@ def main():
     try:
         known = load_known(med)
         results = [check_build(med, a.today), check_verify(med, known), check_factcheck(med, known, a.today),
-                   check_deadlines(med, a.today)]
+                   check_deadlines(med, a.today), check_by_topic(med, a.today)]
     finally:
         if tmp:
             shutil.rmtree(tmp, ignore_errors=True)
