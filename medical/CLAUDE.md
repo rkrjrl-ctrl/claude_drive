@@ -4,6 +4,7 @@
 
 - 자료 1건 = `sources/MED-NNNN_*.md` 1파일. 다음 번호는 `index.csv`의 최대 번호 + 1.
 - `index.csv`, `STATUS.md`는 자동 생성물이다. 직접 고치지 말고 `python3 medical/scripts/build_index.py --strict` 로 만든다. 오류 0이어야 커밋한다.
+- 커밋 전에는 `python -X utf8 medical/scripts/check_all.py` 하나만 돌린다(build_index --strict·verify_numbers·factcheck 일괄 점검, 종료코드 0이어야 커밋, 원문과 맞다고 확인한 지적은 `reviews/factcheck_known.csv`에 예외로 적는다).
 - 원문을 실제로 열어 읽은 것만 기록한다. 확인하지 못한 것은 `미검증` 섹션에 적고 추정으로 채우지 않는다. 첨부 다운로드가 1회 실패하면 멈추고 `partial` + BACKLOG로 넘긴다.
 - 발행일·수정일·시행일·확인일을 섞지 않는다. 모르면 `unknown`.
 - 개인정보(고객 증권·진단서·영수증)는 넣지 않는다.
