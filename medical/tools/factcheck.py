@@ -94,7 +94,8 @@ def extract(text, keep_small=False):
             i = j                                    # '1인실', '2형', '3세대'처럼 이름에 붙은 숫자는 건너뛴다
             continue
         out.append(dict(raw=text[start:end].strip(), values=(round(val, 6),), unit=unit, start=start, end=end,
-                        before=clause_before(text, start)))   # 숫자 앞 같은 마디의 글(주어 확인용)
+                        before=clause_before(text, start),    # 숫자 앞 같은 마디의 글(주어 확인용)
+                        after=text[end:end + 8]))              # 숫자 뒤 글('넘는'·'이상' 같은 어림 표현 확인용)
         i = j
     # 범위('30~40%', '90만~843만 원')를 하나로 묶는다
     merged = []
@@ -288,7 +289,7 @@ def load(today):
         body = t.split('---', 2)[2] if t.startswith('---') else t
         all_nums = extract(body, keep_small=True)[0]      # 인용 대조용: 핵심 근거 밖(미검증 절 등)의 숫자까지
         title_nums = extract(x['title'], keep_small=True)[0]   # 기록 제목(index.csv title)의 숫자
-        recs[rid] = dict(meta=x, lines=lines, ban_lines=ban_lines, blanket=bool(BLANKET.search(ban)), all_nums=all_nums,
+        recs[rid] = dict(meta=x, core=core, lines=lines, ban_lines=ban_lines, blanket=bool(BLANKET.search(ban)), all_nums=all_nums,
                          title_nums=title_nums,
                          title=x['title'])
     cards = []
@@ -399,6 +400,8 @@ def check_number(num, kw, recs, cards, today, ents=(), ctx=(), hkw=frozenset()):
                     hits.append(('기록', score, '', rid, fl, sent[:80]))
                     break
     if not hits:
+        hits = fallback_hits(num, kw, hkw, ents, ctx, recs, today)
+    if not hits:
         return '근거 없음', []
     # 카드를 먼저, 그다음 단어가 많이 겹치는 근거를 앞에 둔다(표시 유무는 마지막 기준)
     hits.sort(key=lambda h: (h[0] != '카드', -h[1], bool(h[4])))
@@ -408,6 +411,158 @@ def check_number(num, kw, recs, cards, today, ents=(), ctx=(), hkw=frozenset()):
     else:
         verdict = '근거 있음(카드)' if best[0] == '카드' else '근거 있음(기록)'
     return verdict, hits
+
+# ---------------------------------------------------------------- 표기 차이 허용(7라운드)
+AMOUNT_UNITS = ('명', '건', '원', '회', '곳', '개', '개사')
+
+
+def _sig(v):
+    """정수 v의 유효 숫자 개수(끝 0 제외)."""
+    s = str(int(round(v))).rstrip('0')
+    return max(len(s), 1)
+
+
+def approx_match(num, b):
+    """원고가 원문 값을 어림해 쓴 경우인지. 예: 360만 명 ↔ 3,606,521명, 18만 명 ↔ 182,312명.
+    조건: 같은 금액·인원 단위, 원고 값의 유효 숫자가 3개 이하이고 원문보다 적다(자릿수가 줄었다).
+    '넘는·이상·넘게'면 원문 ≥ 원고 값이고 차이가 원고의 마지막 자리 단위보다 작아야 하고,
+    '가까이·미만'이면 반대, 그 밖('약' 포함)은 차이가 마지막 자리 단위보다 작아야 한다."""
+    if len(num['values']) != 1 or len(b['values']) != 1 or b.get('small'):
+        return False
+    if num['unit'] not in AMOUNT_UNITS or unit_of(num['unit']) != unit_of(b['unit']):
+        return False
+    v, e = num['values'][0], b['values'][0]
+    if v < 1000 or not float(v).is_integer() or not float(e).is_integer():
+        return False
+    sv, se = _sig(v), _sig(e)
+    if sv > 3 or se <= sv:
+        return False
+    step = 10 ** (len(str(int(v))) - sv)
+    after = re.sub(r'^[이가을를은는의도]?\s?', '', num.get('after', ''))
+    if re.match(r'(이상|넘는|넘게|넘어|넘|초과|남짓|여)', after):
+        return v <= e < v + step
+    if re.match(r'(가까이|미만|못)', after):
+        return v - step < e <= v
+    if re.search(r'(약|대략|어림잡아|거의)\s*$', num.get('before', '')) or re.match(r'(가량|쯤|정도|안팎|내외)', after):
+        return abs(e - v) < step
+    # 어림 표현 없이 자릿수만 줄인 경우: 원문이 두 자리 이상 더 자세하고, 반올림 또는 버림('12만 명 시대' ↔ 126,944명)
+    return se - sv >= 2 and (abs(e - v) <= step / 2 or v <= e < v + step)
+
+
+SCALE_WORD = {1e3: '천', 1e4: '만', 1e8: '억', 1e12: '조'}
+
+
+def scaled_match(num, b, text):
+    """원고 '7.79만 원' ↔ 기록 표 값 '77.9'(표 머리 천 원)처럼 단위를 바꿔 쓴 경우.
+    text(기록의 해당 줄 또는 핵심 근거)에 '천 원'·'(천 명)' 같은 단위 머리가 있어야 한다."""
+    if len(num['values']) != 1 or b['unit'] is not None or not re.search(r'[.,]', b['raw']):
+        return False
+    if num['unit'] not in ('원', '명', '건') or b['values'][0] < 1:
+        return False
+    r = num['values'][0] / b['values'][0]
+    for k, w in SCALE_WORD.items():
+        if abs(r - k) < 1e-6 * k and re.search(w + r'\s?' + num['unit'], text):
+            return True
+    return False
+
+
+def cited_variant(num, rec):
+    """인용한 기록 안에서 표기 차이로 같은 숫자를 찾는다(인용이 맥락을 주므로 단어 대조는 하지 않는다).
+    반환: 어떤 표기 차이인지 설명 글, 없으면 ''."""
+    pool = [b for b in rec['all_nums'] if not b.get('small')]
+    near = [b for b in pool if approx_match(num, b)]
+    if near:
+        b = min(near, key=lambda b: abs(b['values'][0] - num['values'][0]))
+        return f"어림 일치(원문 {b['raw']})"
+    for b in rec['all_nums']:
+        if scaled_match(num, b, rec['core']):
+            return f"단위 환산 일치(원문 {b['raw']})"
+    if len(num['values']) > 1 and all(any(same_number(dict(num, values=(v,)), b) for b in pool) for v in num['values']):
+        return '범위 끝값을 따로 찾음'
+    if num['unit'] == '%' and len(num['values']) == 1:
+        words = re.findall(r'[가-힣]{2,}', num.get('before', ''))
+        digits = re.match(r'[\d,.]+', num['raw']).group(0)
+        if words and re.search(re.escape(words[-1]) + r'\s?' + re.escape(digits) + r'(?![\d.%])', rec['core']):
+            return f"줄여 쓴 표기 일치('{words[-1]} {digits}')"
+    return ''
+
+
+RANKLIST = re.compile(r'(\d+)~(\d+)위\s*:\s*([^\n]+)')
+
+
+def fallback_hits(num, kw, hkw, ents, ctx, recs, today):
+    """기록 대조로 못 찾았을 때 표기 차이를 허용해 다시 찾는다.
+    (1) 어림 값·단위 환산 (2) 목록 순서로 정해지는 순위 (3) 범위의 두 끝값 (4) '심한 40%' ↔ '심한 40'처럼 줄여 쓴 표기.
+    찾으면 근거 글 앞에 어떤 표기 차이인지 적는다(주의 표시는 붙이지 않는다)."""
+    hits = []
+    live = [(rid, rec) for rid, rec in recs.items() if rec['meta']['status'] not in ('superseded', 'rejected')]
+    # (1) 어림 값·단위 환산: 받아들일 수 있는 후보 중 원고 값에 가장 가까운 원문 값을 고른다
+    best = None
+    for rid, rec in live:
+        for sent, nums, direct, whole in rec['lines']:
+            for b in nums:
+                kind = '어림 일치' if approx_match(num, b) else '단위 환산 일치' if scaled_match(num, b, rec['core']) else ''
+                if not kind or conflict(ents, b.get('before', '')):
+                    continue
+                score = accept(kw, hkw, ents, ctx, keywords(whole), whole + ' ' + rec['title'])
+                if not score:
+                    continue
+                gap = 0 if kind == '단위 환산 일치' else abs(b['values'][0] - num['values'][0])
+                if best is None or (-score, gap) < (-best[0], best[1]):
+                    best = (score, gap, rid, direct, kind, b, sent)
+    if best:
+        score, gap, rid, direct, kind, b, sent = best
+        fl = flags_for(rid, num, recs, today, direct, kw)
+        return [('기록', score, '', rid, fl, f"{kind}(원문 {b['raw']}) — {sent[:60]}")]
+    # (2) 목록 순서로 정해지는 순위: '11~20위: A 70.3, B 75.3, …'
+    if num['unit'] == '위' and len(num['values']) == 1:
+        n = int(num['values'][0])
+        for rid, rec in live:
+            for m in RANKLIST.finditer(rec['core']):
+                a, z = int(m.group(1)), int(m.group(2))
+                items = [x.strip() for x in re.split(r',\s*', m.group(3)) if x.strip()]
+                if not (a <= n <= z) or n - a >= len(items):
+                    continue
+                item = items[n - a]
+                if overlap(kw, keywords(item)) or (ents and entity_ok(ents, item)):
+                    fl = flags_for(rid, num, recs, today, kw=kw)
+                    hits.append(('기록', 1, '', rid, fl, f"목록 순서로 센 순위({a}~{z}위 중 {n - a + 1}번째: {item[:40]})"))
+                    return hits
+    # (3) 범위: 두 끝값이 같은 기록에 따로 적힌 경우
+    if len(num['values']) > 1:
+        parts = [dict(num, values=(v,)) for v in num['values']]
+        for rid, rec in live:
+            found = []
+            for x in parts:
+                for sent, nums, direct, whole in rec['lines']:
+                    if any(same_number(x, b) for b in nums):
+                        found.append(whole)
+                        break
+            if len(found) == len(parts):
+                score = accept(kw, hkw, ents, ctx, keywords(' '.join(found)), ' '.join(found) + ' ' + rec['title'])
+                if score:
+                    fl = flags_for(rid, num, recs, today, kw=kw)
+                    hits.append(('기록', score, '', rid, fl, f"범위 끝값을 따로 찾음 — {found[0][:60]}"))
+                    return hits
+    # (4) 줄여 쓴 표기: 원고 '심한 40%' ↔ 기록 '심한 40'
+    if num['unit'] == '%' and len(num['values']) == 1:
+        words = re.findall(r'[가-힣]{2,}', num.get('before', ''))
+        if words:
+            label = words[-1]
+            digits = re.match(r'[\d,.]+', num['raw']).group(0)
+            pat = re.compile(re.escape(label) + r'\s?' + re.escape(digits) + r'(?![\d.%])')
+            for rid, rec in live:
+                m = pat.search(rec['core'])
+                if not m:
+                    continue
+                line = rec['core'][rec['core'].rfind('\n', 0, m.start()) + 1:]
+                line = line.split('\n', 1)[0]
+                score = accept(kw, hkw, ents, ctx, keywords(line), line + ' ' + rec['title'])
+                if score:
+                    fl = flags_for(rid, num, recs, today, kw=kw)
+                    hits.append(('기록', score, '', rid, fl, f"줄여 쓴 표기 일치('{m.group(0)}')"))
+                    return hits
+    return hits
 
 # ---------------------------------------------------------------- 원고 → 문장
 
@@ -441,19 +596,32 @@ def sentences(text):
     """원고를 문장으로 나눈다. 반환: (문장, 제목, 인용 번호 묶음) 목록.
     제목(#으로 시작하는 줄)은 판정하지 않고, 아래 문장의 질병·제도 이름 맥락으로만 쓴다.
     인용 번호는 문장 안에 MED 번호가 있으면 그것을, 없으면 그 문장이 속한 줄(목록 한 항목)의 MED 번호를 쓴다
-    (패키지처럼 줄 끝에 한 번만 '(MED-…)'를 붙인 경우)."""
+    (패키지처럼 줄 끝에 한 번만 '(MED-…)'를 붙인 경우). 번호가 없는 하위 목록 항목은 바로 위 단계 항목의 번호를 이어받는다
+    ('재가 수가 예(MED-1402)' 아래 '- 주야간보호: 1일 …원')."""
     out = []
     heading = ''
-    for line in text.split('\n'):
-        line = line.strip()
+    stack = []                                            # (들여쓰기, 인용 번호) — 목록 단계별
+    for raw in text.split('\n'):
+        line = raw.strip()
         if line.startswith('#'):
             heading = line.lstrip('#').strip()
+            stack = []
             continue
         if not line:
             continue
+        is_item = bool(re.match(r'^([-*]|\d+[.)])\s', line))
         line = re.sub(r'^[-*>\d]+[.)]?\s+', '', line) if re.match(r'^([-*>]|\d+[.)])\s', line) else line
         line = re.sub(r'\*\*|`', '', line)
         line_refs = med_refs(line)
+        if is_item:
+            indent = len(raw) - len(raw.lstrip())
+            while stack and stack[-1][0] >= indent:
+                stack.pop()
+            if not line_refs and stack:
+                line_refs = stack[-1][1]
+            stack.append((indent, line_refs))
+        else:
+            stack = []
         # 표 한 줄은 칸마다 따로 읽는다(칸마다 다른 사건·다른 MED 번호가 붙는 경우). 번호가 없는 칸은 그 줄의 번호를 쓴다
         cells = [line]
         if line.startswith('|'):
@@ -529,6 +697,18 @@ def judge(n, s, heading, refs, recs, cards, today, detail):
     if refs:
         title_only = []
         found = cited_hits(n, refs, recs, cards, title_only)
+        if not found and hits and hits[0][3] in refs:
+            found = [hits[0][3]]                          # 표기 차이(어림·순위·범위 등)로 찾은 근거가 인용한 기록
+        if not found and not hits:
+            for rid in sorted(refs):
+                if rid in recs:
+                    note = cited_variant(n, recs[rid])
+                    if note:
+                        fl = flags_for(rid, n, recs, today, kw=kw)
+                        v = '주의' if fl else '근거 있음(인용 기록)'
+                        hits = [('기록', 0, '', rid, fl, note + ' — 인용한 기록에서 찾음')]
+                        found = [rid]
+                        break
         if not found and title_only:
             # 인용한 기록의 제목에는 있지만 본문(핵심 근거 등)에는 없다: 기록 쪽도 함께 확인할 일
             rid = title_only[0]
