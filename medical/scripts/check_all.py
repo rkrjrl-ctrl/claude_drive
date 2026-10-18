@@ -1,19 +1,25 @@
 #!/usr/bin/env python3
 """커밋 전 검사를 한 번에 돌린다: build_index --strict, verify_numbers, factcheck 일괄 점검.
 
-사용법:  python -X utf8 medical/scripts/check_all.py [--dry] [--out 결과.md]
-  --dry  : medical/ 를 임시 폴더에 복사해 그 안에서 돌린다(index.csv·STATUS.md·BY_DISEASE.md 를 고치지 않는다)
-  --out  : 요약과 factcheck 지적 전체를 마크다운 파일로도 저장한다
+사용법:  python -X utf8 medical/scripts/check_all.py [--dry] [--out 결과.md] [--today YYYY-MM-DD]
+  --dry   : medical/ 를 임시 폴더에 복사해 그 안에서 돌린다(index.csv·STATUS.md·BY_DISEASE.md 를 고치지 않는다)
+  --out   : 요약과 factcheck 지적 전체를 마크다운 파일로도 저장한다
+  --today : 기한 판단 기준일(기본: 오늘). build_index·factcheck에도 같은 날을 넘긴다
 
 종료코드: 새 문제가 있으면 1, 없으면 0.
-  - build_index: 오류나 경고가 하나라도 있으면 문제
+  - build_index: 오류나 경고가 하나라도 있으면 문제('재확인 기한 경과' 경고는 아래 기한 경고로 옮기고 문제로 세지 않는다)
   - verify_numbers: notfound·badstatus·stale_meta·calc_unflagged·caution_num_missing·long 이 하나라도 있으면 문제.
     in_ban·dup 은 알려진 예외(reviews/factcheck_known.csv)에 없는 것만 문제
   - factcheck: '근거 없음'·'인용 번호 불일치' 숫자 중 알려진 예외에 없는 것만 문제
 알려진 예외는 메인이 원문과 맞다고 확인한 것만 reviews/factcheck_known.csv 에 한 줄씩 적는다.
+기한 경고(종료코드에 영향 없음, 13라운드 추가):
+  - 재확인 기한이 지난 verified 기록 중 활용물(packages·packages/drafts·guides·CALENDAR)이나 숫자 카드가 인용하는 것
+  - 쇼츠 원고 중 packages/drafts/README.md 표의 '시의성 날짜'·'사용 기한' 칸에 적힌 날짜가 지난 것
+    (README '작성 YYYY-MM-DD'보다 앞선 날짜는 설명용 날짜로 보고 뺀다)
+  - CALENDAR.md 달별 절에서 날짜가 지났는데 구분이 '시행됨'이 아닌 항목(이미 시행됨 절로 옮기지 않은 것)
 파이썬 표준 라이브러리만 쓴다.
 """
-import argparse, csv, os, re, shutil, subprocess, sys, tempfile, time
+import argparse, calendar, collections, csv, datetime, glob, os, re, shutil, subprocess, sys, tempfile, time
 
 MED = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))     # medical/
 KNOWN = os.path.join('reviews', 'factcheck_known.csv')
@@ -40,14 +46,18 @@ def load_known(med):
 
 
 # ---------------------------------------------------------------- build_index
-def check_build(med):
-    code, out, sec = run([os.path.join('scripts', 'build_index.py'), '--strict'], med)
+def check_build(med, today):
+    code, out, sec = run([os.path.join('scripts', 'build_index.py'), '--strict', '--today', today], med)
     m = re.search(r'자료 (\d+)건 / 오류 (\d+) / 경고 (\d+)', out)
     n, err, warn = (int(x) for x in m.groups()) if m else (0, -1, -1)
     lines = [l for l in out.splitlines() if l.startswith(('오류:', '경고:'))]
-    bad = (m is None) or err > 0 or warn > 0 or code != 0
-    head = f"자료 {n}건 / 오류 {err} / 경고 {warn}" if m else '결과를 읽지 못함(출력 확인)'
-    return dict(name='build_index --strict', bad=bad, head=head, detail=lines if m else out.splitlines()[-20:], sec=sec)
+    due = [l for l in lines if l.startswith('경고:') and '재확인 기한 경과' in l]
+    other_warn = warn - len(due) if m else warn
+    bad = (m is None) or err > 0 or other_warn > 0 or code != 0
+    head = (f"자료 {n}건 / 오류 {err} / 경고 {warn}" + (f"(그중 재확인 기한 경과 {len(due)}건은 기한 경고로 셈)" if due else '')
+            if m else '결과를 읽지 못함(출력 확인)')
+    detail = [l for l in lines if l not in due] if m else out.splitlines()[-20:]
+    return dict(name='build_index --strict', bad=bad, head=head, detail=detail, sec=sec)
 
 
 # ---------------------------------------------------------------- verify_numbers
@@ -126,8 +136,8 @@ def is_known(it, known):
     return None
 
 
-def check_factcheck(med, known):
-    code, out, sec = run([os.path.join('tools', 'factcheck.py')] + FC_INPUTS + ['--only-problems'], med)
+def check_factcheck(med, known, today):
+    code, out, sec = run([os.path.join('tools', 'factcheck.py')] + FC_INPUTS + ['--only-problems', '--today', today], med)
     m = re.search(r'파일 (\d+)개, 판정별 문장 수 합계: (.*)', out)
     items = parse_factcheck(out)
     new, old = [], []
@@ -153,10 +163,138 @@ def check_factcheck(med, known):
     return dict(name='factcheck 일괄', bad=bad, head=head, detail=detail, sec=sec, total=total, raw=out)
 
 
+# ---------------------------------------------------------------- 기한 경고(종료코드에 영향 없음)
+ACT = [('패키지', 'packages/*.md'), ('쇼츠 원고', 'packages/drafts/*.md'), ('가이드', 'guides/*.md'), ('CALENDAR', 'CALENDAR.md')]
+
+
+def month_end(y, m):
+    return datetime.date(y, m, calendar.monthrange(y, m)[1])
+
+
+def loose_date(s, default_year=None):
+    """'2026-11-27' → 그날, '2026-11'·'2026-11 하순'·'2026-11 말' → 그달 말일, '2026-11 초' → 10일, '2026-11 중순' → 20일,
+    '2026년 4분기' → 분기 말, '2026년 하반기'·'상반기' → 반기 말. 읽지 못하면 None."""
+    s = s.strip()
+    m = re.match(r'(\d{4})-(\d{2})-(\d{2})', s)
+    if m:
+        return datetime.date(*map(int, m.groups()))
+    m = re.match(r'(\d{4})-(\d{2})(?!\d)\s*(초|중순|중|하순|말)?', s)
+    if m:
+        y, mo = int(m.group(1)), int(m.group(2))
+        part = m.group(3)
+        if part == '초':
+            return datetime.date(y, mo, 10)
+        if part in ('중순', '중'):
+            return datetime.date(y, mo, 20)
+        return month_end(y, mo)
+    m = re.match(r'(\d{4})년\s*([1-4])분기', s)
+    if m:
+        return month_end(int(m.group(1)), int(m.group(2)) * 3)
+    m = re.match(r'(\d{4})년\s*(상|하)반기', s)
+    if m:
+        return month_end(int(m.group(1)), 6 if m.group(2) == '상' else 12)
+    return None
+
+
+def check_deadlines(med, today):
+    t0 = time.time()
+    sys.path.insert(0, os.path.join(med, 'tools'))
+    from factcheck import med_refs
+    day = datetime.date.fromisoformat(today)
+    detail = []
+    # (1) 재확인 기한이 지난 verified 기록 중 활용물·카드가 인용하는 것
+    with open(os.path.join(med, 'index.csv'), encoding='utf-8') as f:
+        idx = {r['id']: r for r in csv.DictReader(f)}
+    where = collections.defaultdict(collections.Counter)
+    for kind, pat in ACT:
+        for path in sorted(glob.glob(os.path.join(med, pat))):
+            if os.path.basename(path) == 'README.md':
+                continue
+            name = os.path.splitext(os.path.basename(path))[0]
+            with open(path, encoding='utf-8') as f:
+                for line in f:
+                    for rid in med_refs(line):
+                        where[rid][f'{kind}:{name}'] += 1
+    with open(os.path.join(med, 'numbers', 'numbers.csv'), encoding='utf-8') as f:
+        for r in csv.DictReader(f):
+            where[r['출처기록']]['카드:' + r['카드번호']] += 1
+    overdue = []
+    for rid, r in idx.items():
+        rb = r.get('recheck_by', '')
+        if r.get('status') == 'verified' and re.fullmatch(r'\d{4}-\d{2}-\d{2}', rb) and rb < today and where[rid]:
+            overdue.append((rid, rb, where[rid]))
+    overdue.sort(key=lambda x: (-sum(x[2].values()), x[1], x[0]))
+    for rid, rb, w in overdue:
+        top = ', '.join(f'{k}({c})' for k, c in sorted(w.items(), key=lambda kv: -kv[1])[:4])
+        detail.append(f"재확인 기한 지남 · {rid}(기한 {rb}) · 인용 {sum(w.values())}곳: {top}")
+    # (2) 쇼츠 원고의 시의성 날짜·사용 기한
+    drafts = []
+    rd = os.path.join(med, 'packages', 'drafts', 'README.md')
+    if os.path.exists(rd):
+        header = None
+        rd_text = open(rd, encoding='utf-8').read()
+        wm = re.search(r'작성 (\d{4}-\d{2}-\d{2})', rd_text)
+        written = datetime.date.fromisoformat(wm.group(1)) if wm else datetime.date(1900, 1, 1)
+        for line in rd_text.split('\n'):
+            if not line.startswith('|') or re.fullmatch(r'[\s|:\-]+', line):
+                continue
+            cells = [c.strip() for c in line.strip().strip('|').split('|')]
+            if header is None or '시의성 날짜' in cells:
+                header = cells
+                continue
+            if '시의성 날짜' not in header:
+                continue
+            row = dict(zip(header, cells))
+            fn = re.search(r'`([^`]+\.md)`', row.get(header[0], ''))
+            name = fn.group(1) if fn else row.get(header[0], '')[:30]
+            texts = [row.get('시의성 날짜', ''), row.get('사용 기한(고칠 문장)', row.get('사용 기한', ''))]
+            dates = []
+            for txt in texts:
+                for mm in re.finditer(r'\d{4}-\d{2}(?:-\d{2})?(?:\s*(?:초|중순|하순|말))?', txt):
+                    d = loose_date(mm.group(0))
+                    if d and d >= written:                     # 작성일 전 날짜('2017-03-01 이후 계약')는 기한이 아니다
+                        dates.append((d, mm.group(0)))
+            dates = list(dict.fromkeys(dates))                # 두 칸에 같은 날짜가 있으면 한 번만
+            passed = [s for d, s in dates if d < day]
+            if passed:
+                allp = len(passed) == len(dates)
+                drafts.append(name)
+                detail.append(f"쇼츠 원고 날짜 지남 · {name} · 지난 날짜 {', '.join(passed)}"
+                              + (' (적힌 날짜가 모두 지남)' if allp else f' (남은 날짜 {len(dates) - len(passed)}개)')
+                              + f" · 고칠 곳: {row.get('사용 기한(고칠 문장)', '')[:80]}")
+    # (3) CALENDAR.md 달별 절에서 날짜가 지났는데 '시행됨'이 아닌 항목
+    cal_n = 0
+    cp = os.path.join(med, 'CALENDAR.md')
+    if os.path.exists(cp):
+        sec, header = '', None
+        for line in open(cp, encoding='utf-8').read().split('\n'):
+            if line.startswith('## '):
+                sec, header = line[3:].strip(), None
+                continue
+            if not re.match(r'\d{4}년 \d{1,2}(~\d{1,2})?월', sec) or not line.startswith('|'):
+                continue
+            if re.fullmatch(r'[\s|:\-]+', line):
+                continue
+            cells = [c.strip() for c in line.strip().strip('|').split('|')]
+            if header is None:
+                header = cells
+                continue
+            d = loose_date(cells[0])
+            kind = cells[1] if len(cells) > 1 else ''
+            if d and d < day and '시행됨' not in kind:
+                cal_n += 1
+                what = re.sub(r'\*\*', '', cells[2] if len(cells) > 2 else '')[:70]
+                detail.append(f"CALENDAR 날짜 지남 · {sec} · {cells[0]}({kind}) · {what}")
+    head = (f"기준일 {today}. 재확인 기한 지난 인용 기록 {len(overdue)}건, 날짜 지난 쇼츠 원고 {len(drafts)}편, "
+            f"'시행됨'으로 안 옮긴 지난 CALENDAR 항목 {cal_n}개(경고만, 종료코드에 영향 없음)")
+    return dict(name='기한 경고', bad=False, warn=bool(detail), head=head, detail=detail, sec=time.time() - t0)
+
+
 def main():
     ap = argparse.ArgumentParser(description='커밋 전 검사 한 번에 돌리기')
     ap.add_argument('--dry', action='store_true', help='임시 사본에서 돌린다(index.csv 등을 고치지 않는다)')
     ap.add_argument('--out', help='요약과 factcheck 지적 전체를 저장할 마크다운 파일')
+    ap.add_argument('--today', default=datetime.date.today().isoformat(), help='기한 판단 기준일 YYYY-MM-DD(기본: 오늘)')
     a = ap.parse_args()
     if hasattr(sys.stdout, 'reconfigure'):
         sys.stdout.reconfigure(encoding='utf-8')
@@ -168,14 +306,16 @@ def main():
         shutil.copytree(MED, med, ignore=shutil.ignore_patterns('__pycache__'))
     try:
         known = load_known(med)
-        results = [check_build(med), check_verify(med, known), check_factcheck(med, known)]
+        results = [check_build(med, a.today), check_verify(med, known), check_factcheck(med, known, a.today),
+                   check_deadlines(med, a.today)]
     finally:
         if tmp:
             shutil.rmtree(tmp, ignore_errors=True)
     total = time.time() - t0
     L = [f"# 커밋 전 검사 결과{' (임시 사본, --dry)' if a.dry else ''}", '']
     for r in results:
-        L.append(f"- {'❌' if r['bad'] else '✅'} **{r['name']}** ({r['sec']:.0f}초): {r['head']}")
+        mark = '❌' if r['bad'] else '⚠️' if r.get('warn') else '✅'
+        L.append(f"- {mark} **{r['name']}** ({r['sec']:.0f}초): {r['head']}")
     fc = results[2]
     L.append(f"- 전체 {total:.0f}초. factcheck 판정별 문장 수: {fc['total']}")
     L.append('')
