@@ -11,6 +11,9 @@
   - verify_numbers: notfound·badstatus·stale_meta·calc_unflagged·caution_num_missing·long 이 하나라도 있으면 문제.
     in_ban·dup 은 알려진 예외(reviews/factcheck_known.csv)에 없는 것만 문제
   - factcheck: '근거 없음'·'인용 번호 불일치' 숫자 중 알려진 예외에 없는 것만 문제
+  - 링크·MED 번호(16라운드): packages·packages/drafts·guides·CALENDAR.md·README류의 마크다운 링크 [..](파일)가 없는 파일을
+    가리키거나, 본문의 MED 번호가 index.csv에 없으면 문제. superseded·rejected 기록 인용은 경고만
+    (그 줄에 'superseded'·'rejected'라고 스스로 밝혔으면 경고하지 않는다)
 알려진 예외는 메인이 원문과 맞다고 확인한 것만 reviews/factcheck_known.csv 에 한 줄씩 적는다.
 기한 경고(종료코드에 영향 없음, 13라운드 추가):
   - 재확인 기한이 지난 verified 기록 중 활용물(packages·packages/drafts·guides·CALENDAR)이나 숫자 카드가 인용하는 것
@@ -291,6 +294,51 @@ def check_deadlines(med, today):
     return dict(name='기한 경고', bad=False, warn=bool(detail), head=head, detail=detail, sec=time.time() - t0)
 
 
+# ---------------------------------------------------------------- 링크·MED 번호
+LINK_FILES = ['packages/*.md', 'packages/drafts/*.md', 'guides/*.md', 'CALENDAR.md', 'README.md', 'CLAUDE.md',
+              'numbers/README.md', 'numbers/BY_TOPIC.md', 'tools/README.md', 'reviews/*.md']
+MED_FILES = ['packages/*.md', 'packages/drafts/*.md', 'guides/*.md', 'CALENDAR.md']
+LINK = re.compile(r'(?<!!)\[[^\]\n]*\]\(([^)\s]+)(?:\s+"[^"]*")?\)')
+
+
+def check_links(med):
+    t0 = time.time()
+    sys.path.insert(0, os.path.join(med, 'tools'))
+    from factcheck import med_refs
+    with open(os.path.join(med, 'index.csv'), encoding='utf-8') as f:
+        status = {r['id']: r['status'] for r in csv.DictReader(f)}
+    broken, missing, old = [], [], []
+    files = sorted({p for pat in LINK_FILES for p in glob.glob(os.path.join(med, pat))})
+    for path in files:
+        rel = os.path.relpath(path, med).replace('\\', '/')
+        text = open(path, encoding='utf-8').read()
+        text_nocode = re.sub(r'`[^`\n]*`', '', text)                  # 코드 표기 안의 [..](..)는 링크가 아니다
+        for k, line in enumerate(text_nocode.split('\n'), 1):
+            for m in LINK.finditer(line):
+                target = m.group(1)
+                if re.match(r'(https?|mailto|ftp):', target) or target.startswith('#'):
+                    continue
+                file_part = target.split('#', 1)[0]
+                if not file_part:
+                    continue
+                full = os.path.normpath(os.path.join(os.path.dirname(path), file_part.replace('%20', ' ')))
+                if not os.path.exists(full):
+                    broken.append(f"깨진 링크 · {rel}:{k} → {target}")
+    for path in sorted({p for pat in MED_FILES for p in glob.glob(os.path.join(med, pat))}):
+        rel = os.path.relpath(path, med).replace('\\', '/')
+        for k, line in enumerate(open(path, encoding='utf-8').read().split('\n'), 1):
+            for rid in sorted(med_refs(line)):
+                st = status.get(rid)
+                if st is None:
+                    missing.append(f"없는 MED 번호 · {rel}:{k} → {rid}")
+                elif st in ('superseded', 'rejected') and st not in line:   # 'superseded인 MED-… 대신'처럼 밝힌 줄은 뺀다
+                    old.append(f"{st} 기록 인용(경고) · {rel}:{k} → {rid}")
+    head = (f"링크 검사 파일 {len(files)}개: 깨진 링크 {len(broken)}, 없는 MED 번호 {len(missing)} / "
+            f"superseded·rejected 인용 {len(old)}(경고)")
+    return dict(name='링크·MED 번호', bad=bool(broken or missing), warn=bool(old), head=head,
+                detail=broken + missing + old, sec=time.time() - t0)
+
+
 # ---------------------------------------------------------------- 숫자 카드 찾아보기(BY_TOPIC.md) 최신 여부(경고만)
 def check_by_topic(med, today):
     code, out, sec = run([os.path.join('numbers', 'build_by_topic.py'), '--check', '--month', today[:7]], med)
@@ -316,7 +364,7 @@ def main():
     try:
         known = load_known(med)
         results = [check_build(med, a.today), check_verify(med, known), check_factcheck(med, known, a.today),
-                   check_deadlines(med, a.today), check_by_topic(med, a.today)]
+                   check_links(med), check_deadlines(med, a.today), check_by_topic(med, a.today)]
     finally:
         if tmp:
             shutil.rmtree(tmp, ignore_errors=True)
