@@ -19,7 +19,7 @@ recheck_by: 2027-04-17
 reviewer: "Claude Code 직접 확인(MedlinePlus XML 원문). 의료인 검토 미실시"
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-related: MED-0192; MED-0402; MED-0632
+related: MED-0192; MED-0402; MED-0632; MED-1993; MED-1995
 note: 원문은 MedlinePlus 건강 주제 XML을 텍스트로 변환한 파일(첫 줄 URL). published는 원문 메타의 최초 작성일(CREATED)이며 개정일 표기는 없어 revised는 unknown이다. 환자용 일반 요약(2차 출처)이라 tier C이며 한국 진료지침과 다를 수 있다. 2026-10-17 본문 재대조: 현행 MedlinePlus 건강 주제 페이지(하단 'Last updated' 표시 2024-04-20, 페이지 전체의 갱신 표시라 revised에는 넣지 않음)의 Summary 본문을 읽고 핵심 근거 3개 항목(정의·원인(수두-대상포진 바이러스로 생기는 통증성 발진 감염); 전염(대상포진은 옮지 않으나 수두 미경험자는 수두에 걸릴 수 있음, 발진을 가리면 위험 낮음); 위험요인(수두 경험자 누구나, 나이 들수록 증가, 면역저하))이 원문과 일치함을 확인해 verified로 올렸다. tier C 해외 환자용 자료이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다. 이용조건: MedlinePlus 'Linking to and Using Content from MedlinePlus' 안내(2026-10-17 확인)에 따르면 건강 주제 페이지의 요약(Summaries on health topic pages)은 미국 연방정부 저작물로 저작권이 없는 공공 영역이라 자유롭게 복제·재배포할 수 있고, 'Source: MedlinePlus, National Library of Medicine' 같은 출처 표기를 요청한다. 같은 사이트의 A.D.A.M. 의학백과, ASHP 약물 정보, 출처 표시 없는 이미지는 저작권 자료라 옮기지 않는다.
 ---
 

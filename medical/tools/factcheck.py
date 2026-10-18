@@ -3,9 +3,14 @@
 원고(.txt/.md)를 문장으로 나누고, 문장 속 숫자를 numbers/numbers.csv 카드와
 sources/ 기록의 '핵심 근거' 절에서 찾아 판정 표(마크다운)를 낸다.
 
+원고 문장에 MED 번호가 함께 적혀 있으면, 그 숫자가 인용한 기록(또는 그 기록에서 나온 카드)에
+실제로 있는지도 대조해 '인용 번호 불일치'를 따로 표시한다.
+
 실행:  python -X utf8 medical/tools/factcheck.py 원고.txt > 결과.md
+일괄:  python -X utf8 medical/tools/factcheck.py --dir medical/packages --dir medical/guides --only-problems > 점검.md
 옵션:  --today YYYY-MM-DD  재확인 기한 비교 기준일(기본: 오늘)
        --detail            근거 후보를 숫자마다 최대 3개까지 모두 보인다(기본 1개)
+       --only-problems     '근거 없음'·'인용 번호 불일치' 문장만 보인다
 
 파이썬 표준 라이브러리만 쓴다. 숫자 일치와 단어 겹침만 보며, 문장의 뜻이 근거와 같은지는
 사람이 확인해야 한다(tools/README.md '한계').
@@ -26,7 +31,10 @@ FRACTION = re.compile(r'(\d+)분의\s?(\d+)')
 # 숫자로 보지 않을 것: 날짜, 고시·공고 번호, 판례 번호, 기록·카드 번호, 상병코드
 SKIP = [re.compile(p) for p in [
     r'\d{4}-\d{2}-\d{2}', r'\d{4}\.\s?\d{1,2}\.\s?\d{1,2}\.?', r'\d{1,2}월\s?\d{1,2}일',
-    r'제?\d{4}-\d+\s?호', r'제\d+(?:-\d+)?호', r'\d{2,4}[가-힣]{1,2}\d{3,}', r'MED-\d{4}', r'N-\d{4}',
+    r'제?\d{4}-\d+\s?호', r'제\d+(?:-\d+)?호', r'\d{2,4}[가-힣]{1,2}\d{3,}',
+    r'MED-\d{4}(?:\s?[~·,]\s?(?:MED-)?\d{4}(?!\d))*', r'N-\d{4}',
+    r'(?<![\d,.])\d{6,}(?![\d,])',                          # 공공데이터 번호·법령 일련번호·20261224 같은 날짜
+    r'\d{4}-\d{2}(?:\s?~\s?\d{4}-\d{2})?', r'(?<![\d.])(?:19|20)\d{2}\.\d{1,2}(?![\d.])',   # 2024-04~2026-12, 2025.12
     r'[A-Z]{1,3}\d{2,}[\d.]*(?:-[A-Z]{1,3}\d{2,}[\d.]*)?', r'제\d+조(?:의\d+)?(?:제\d+항)?(?:제\d+호)?', r'\d+차', r'\d+(?:\.\d+)?:\d+(?:\.\d+)?']]
 DATE = [SKIP[0], SKIP[1], SKIP[2]]
 
@@ -44,7 +52,7 @@ def _group_value(digits, mag):
     return v * MAG.get(mag or '', 1)
 
 
-def extract(text):
+def extract(text, keep_small=False):
     """문장에서 숫자 표현을 뽑는다. 반환: 숫자 목록, 연도·날짜 목록.
     숫자 항목 = dict(raw, values(튜플: 범위면 두 값), unit, start)"""
     masked = text
@@ -91,7 +99,8 @@ def extract(text):
     # 범위('30~40%', '90만~843만 원')를 하나로 묶는다
     merged = []
     for it in sorted(out, key=lambda x: x['start']):
-        if merged and 'end' in merged[-1] and re.fullmatch(r'\s?~\s?', masked[merged[-1]['end']:it['start']] or 'x'):
+        # 범위는 단위가 같거나 앞쪽 단위가 없을 때만 묶는다('1년 6.5%~10년 45.9%'의 6.5%와 10년은 따로)
+        if merged and 'end' in merged[-1] and re.fullmatch(r'\s?~\s?', masked[merged[-1]['end']:it['start']] or 'x')                 and merged[-1]['unit'] in (None, it['unit']):
             a = merged.pop()
             unit = it['unit'] or a['unit']
             merged.append(dict(raw=text[a['start']:it.get('end', it['start'])].strip(),
@@ -101,7 +110,10 @@ def extract(text):
     nums, years = [], []
     for it in merged:
         if it['unit'] is None and all(x < 100 for x in it['values']) and not re.search(r'[.,조억만천백]', it['raw']):
-            years.append(it['raw'])                       # 단위 없는 작은 수(예: '2.0:1'의 1)는 맥락으로만
+            if keep_small:
+                nums.append(dict(it, small=True))         # 기록의 표 값(예: '호흡기결핵 27 / 1,108')
+            else:
+                years.append(it['raw'])                   # 단위 없는 작은 수(예: '2.0:1'의 1)는 맥락으로만
             continue
         v = it['values']
         if all(float(x).is_integer() and 1990 <= x <= 2099 for x in v) and ',' not in it['raw'] \
@@ -273,7 +285,11 @@ def load(today):
                 if nums:
                     lines.append((sent, nums, bool(re.search(r'직접 (계산|합산)', sent)), line))
         x = idx[rid]
-        recs[rid] = dict(meta=x, lines=lines, ban_lines=ban_lines, blanket=bool(BLANKET.search(ban)),
+        body = t.split('---', 2)[2] if t.startswith('---') else t
+        all_nums = extract(body, keep_small=True)[0]      # 인용 대조용: 핵심 근거 밖(미검증 절 등)의 숫자까지
+        title_nums = extract(x['title'], keep_small=True)[0]   # 기록 제목(index.csv title)의 숫자
+        recs[rid] = dict(meta=x, lines=lines, ban_lines=ban_lines, blanket=bool(BLANKET.search(ban)), all_nums=all_nums,
+                         title_nums=title_nums,
                          title=x['title'])
     cards = []
     for r in csv.DictReader(open(CARDS, encoding='utf-8')):
@@ -396,9 +412,36 @@ def check_number(num, kw, recs, cards, today, ents=(), ctx=(), hkw=frozenset()):
 # ---------------------------------------------------------------- 원고 → 문장
 
 
+
+
+MEDREF = re.compile(r'MED-\d{4}(?:\s?[~·,]\s?(?:MED-)?\d{4}(?!\d))*')
+
+
+def med_refs(text):
+    """글에서 인용한 MED 번호를 모두 읽는다. 'MED-1543·1544', 'MED-1558~1573'(범위, 최대 60개)도 푼다."""
+    refs = set()
+    for m in MEDREF.finditer(text):
+        toks = re.findall(r'[~·,]|\d{4}', m.group(0))
+        prev, rng = None, False
+        for tk in toks:
+            if tk == '~':
+                rng = True
+                continue
+            if tk in '·,':
+                continue
+            n = int(tk)
+            if rng and prev is not None and 0 < n - prev <= 60:
+                refs.update(f'MED-{k:04d}' for k in range(prev + 1, n + 1))
+            refs.add(f'MED-{n:04d}')
+            prev, rng = n, False
+    return refs
+
+
 def sentences(text):
-    """원고를 문장으로 나눈다. 반환: (문장, 그 문장이 속한 제목) 목록.
-    제목(#으로 시작하는 줄)은 판정하지 않고, 아래 문장의 질병·제도 이름 맥락으로만 쓴다."""
+    """원고를 문장으로 나눈다. 반환: (문장, 제목, 인용 번호 묶음) 목록.
+    제목(#으로 시작하는 줄)은 판정하지 않고, 아래 문장의 질병·제도 이름 맥락으로만 쓴다.
+    인용 번호는 문장 안에 MED 번호가 있으면 그것을, 없으면 그 문장이 속한 줄(목록 한 항목)의 MED 번호를 쓴다
+    (패키지처럼 줄 끝에 한 번만 '(MED-…)'를 붙인 경우)."""
     out = []
     heading = ''
     for line in text.split('\n'):
@@ -410,68 +453,199 @@ def sentences(text):
             continue
         line = re.sub(r'^[-*>\d]+[.)]?\s+', '', line) if re.match(r'^([-*>]|\d+[.)])\s', line) else line
         line = re.sub(r'\*\*|`', '', line)
-        for s in re.split(r'(?<=[.!?])\s+(?=\S)|(?<=다\.)(?=\S)', line):
-            s = s.strip()
-            if s:
-                out.append((s, heading))
+        line_refs = med_refs(line)
+        # 표 한 줄은 칸마다 따로 읽는다(칸마다 다른 사건·다른 MED 번호가 붙는 경우). 번호가 없는 칸은 그 줄의 번호를 쓴다
+        cells = [line]
+        if line.startswith('|'):
+            if re.fullmatch(r'[|:\-\s]+', line):
+                continue
+            cells = [c.strip() for c in re.split(r'(?<!\\)\|', line) if c.strip()]
+        for cell_text in cells:
+            cell_refs = med_refs(cell_text) or line_refs
+            for s in re.split(r'(?<=[.!?])\s+(?=\S)|(?<=다\.)(?=\S)', cell_text):
+                s = s.strip()
+                if s:
+                    out.append((s, heading, med_refs(s) or cell_refs))
     return out
 
 
-RANK = {'근거 없음': 4, '주의': 3, '근거 있음(기록)': 2, '근거 있음(카드)': 1}
+def _has(x, pool):
+    """x가 pool(기록에서 뽑은 숫자들)에 있는가. 기록의 단위 없는 작은 수(표 값)는 값만 같으면 같은 것으로 본다."""
+    for b in pool:
+        if b.get('small'):
+            if len(x['values']) == len(b['values']) and all(abs(u - v) < 1e-9 for u, v in zip(x['values'], b['values'])):
+                return True
+            if loose_number(x, b):                       # '27천 명' ↔ 표 값 '27'(표 머리에 천 명)
+                return True
+        elif same_number(x, b) or (b['unit'] is None and loose_number(x, b)):
+            return True
+    return False
+
+
+def cited_hits(num, refs, recs, cards, title_only=None):
+    """인용한 MED 기록(본문 전체, 또는 그 기록에서 나온 카드)에 같은 숫자가 있는지.
+    반환: 숫자가 있는 인용 기록 번호 목록. 본문·카드에는 없고 기록 제목에만 있으면 title_only 목록에 넣는다."""
+    found = []
+    parts = [num] if len(num['values']) == 1 else [dict(num, values=(v,)) for v in num['values']]
+    for rid in sorted(refs):
+        rec = recs.get(rid)
+        if not rec:
+            continue
+        pool = rec['all_nums']
+        if _has(num, pool) or (len(parts) > 1 and all(_has(x, pool) for x in parts)):
+            found.append(rid)
+            continue
+        if any(c['row']['출처기록'] == rid and any(same_number(num, x) for x in c['alts']) for c in cards):
+            found.append(rid)
+            continue
+        if title_only is not None and (_has(num, rec['title_nums'])
+                                       or (len(parts) > 1 and all(_has(x, rec['title_nums']) for x in parts))):
+            title_only.append(rid)
+    return found
+
+
+def substantive(n):
+    """인용 번호 불일치를 따질 '내용 숫자'인가. 기간·나이·횟수·단위 없는 수는 인용 기록이 다르게 적는 일이 많아 뺀다."""
+    if n['unit'] not in ('%', '%p', '%포인트', '퍼센트', '원', '명', '건', '곳', '배', 'mmHg', '개사'):
+        return False
+    return not (n['unit'] in ('명', '건', '곳', '개사') and max(n['values']) < 100)
+
+
+RANK = {'근거 없음': 5, '인용 번호 불일치': 4, '주의': 3, '근거 있음(기록)': 2, '근거 있음(인용 기록)': 2,
+        '근거 있음(카드)': 1}
 
 
 def cell(s):
     return s.replace('|', '\\|').replace('\n', ' ')
 
 
-def main():
-    ap = argparse.ArgumentParser(description='영상 원고 숫자 팩트체크')
-    ap.add_argument('script')
-    ap.add_argument('--today', default=datetime.date.today().isoformat())
-    ap.add_argument('--detail', action='store_true')
-    a = ap.parse_args()
-    if hasattr(sys.stdout, 'reconfigure'):
-        sys.stdout.reconfigure(encoding='utf-8')
-    idx, recs, cards = load(a.today)
-    text = open(a.script, encoding='utf-8').read()
+def judge(n, s, heading, refs, recs, cards, today, detail):
+    """숫자 하나를 판정한다. 반환: (판정, 설명 글).
+    인용 번호(refs)가 있으면, 그 숫자가 인용한 기록이나 그 기록에서 나온 카드에 있는지도 본다."""
+    kw = keywords(s)
+    hkw = keywords(re.sub(r'[\d.]+', ' ', heading))   # 제목 단어(주어 없는 문장용)
+    v, hits = check_number(n, kw, recs, cards, today, entities_in(s), entities_in(heading), hkw)
+    cite = ''
+    if refs:
+        title_only = []
+        found = cited_hits(n, refs, recs, cards, title_only)
+        if not found and title_only:
+            # 인용한 기록의 제목에는 있지만 본문(핵심 근거 등)에는 없다: 기록 쪽도 함께 확인할 일
+            rid = title_only[0]
+            fl = flags_for(rid, n, recs, today, kw=kw) + ['인용 기록 제목에만 있는 숫자(본문에서 확인 필요)']
+            cite = '인용 일치(제목에만, ' + ', '.join(title_only) + ')'
+            v = '주의'
+            hits = [('기록', 0, '', rid, fl, '기록 제목: ' + recs[rid]['title'][:60])]
+        elif found:
+            cite = '인용 일치(' + ', '.join(found) + ')'
+            if not hits:
+                # 일반 검색은 단어가 안 맞아 못 찾았지만, 인용한 기록에는 그 숫자가 있다
+                rid = found[0]
+                fl = flags_for(rid, n, recs, today, kw=kw)
+                v = '주의' if fl else '근거 있음(인용 기록)'
+                hits = [('기록', 0, '', rid, fl, '인용한 기록에 같은 숫자가 있음(단어 대조는 안 맞음)')]
+        else:
+            missing = ', '.join(sorted(r for r in refs if r not in recs))
+            if hits and not substantive(n):
+                cite = f"참고: 인용한 {', '.join(sorted(refs))}에는 이 숫자가 없음(기간·나이·횟수 등이라 판정에 반영하지 않음)"
+            elif hits:
+                v = '인용 번호 불일치'
+                cite = (f"인용 번호 불일치: 인용한 {', '.join(sorted(refs))}에는 이 숫자가 없고, "
+                        f"근거는 {hits[0][3]}에 있음")
+            else:
+                cite = f"인용한 {', '.join(sorted(refs))}에도 없음"
+            if missing:
+                cite += f" (저장소에 없는 번호: {missing})"
+    if not hits:
+        return v, f"**{n['raw']}**: 근거 없음" + (f" · {cite}" if cite else '')
+    shown = hits[:3] if detail else hits[:1]
+    desc = []
+    for kind, ov, cid, rid, fl, txt in shown:
+        m = recs[rid]['meta']
+        head = f"{cid} {rid}" if cid else rid
+        desc.append(f"{head}({m['status']}·tier {m['tier']}·재확인 {m['recheck_by']})"
+                    + (f" ⚠ {', '.join(fl)}" if fl else '') + f" — {txt}")
+    more = f" 외 {len(hits) - len(shown)}건" if len(hits) > len(shown) else ''
+    return v, f"**{n['raw']}**: {v} · " + ' / '.join(desc) + more + (f" · {cite}" if cite else '')
+
+
+def check_file(path, recs, cards, today, detail):
+    """파일 하나를 판정한다. 반환: (행 목록, 판정별 문장 수)."""
+    text = open(path, encoding='utf-8').read()
     rows, counts = [], {}
-    for k, (s, heading) in enumerate(sentences(text), 1):
+    for k, (s, heading, refs) in enumerate(sentences(text), 1):
         nums, years = extract(re.sub(r'\(MED-[\d, MED-]+\)', '', s))
         if not nums:
             v = '숫자 없음' if not years else '숫자 없음(연도·날짜만)'
             counts[v] = counts.get(v, 0) + 1
             rows.append((k, s, ', '.join(years) or '-', v, '사람이 확인'))
             continue
-        # 문장 단어에 제목 단어를 더한다(예: 제목 '뇌졸중 3. 생존율·환자 수·진료비' 아래 주어 없는 문장)
-        kw = keywords(s)
-        hkw = keywords(re.sub(r'[\d.]+', ' ', heading))   # 제목 단어(주어 없는 문장용)
         parts, worst = [], '근거 있음(카드)'
         for n in nums:
-            v, hits = check_number(n, kw, recs, cards, a.today, entities_in(s), entities_in(heading), hkw)
+            v, d = judge(n, s, heading, refs, recs, cards, today, detail)
             if RANK[v] > RANK[worst]:
                 worst = v
-            if not hits:
-                parts.append(f"**{n['raw']}**: 근거 없음")
-                continue
-            shown = hits[:3] if a.detail else hits[:1]
-            desc = []
-            for kind, ov, cid, rid, fl, txt in shown:
-                m = recs[rid]['meta']
-                head = f"{cid} {rid}" if cid else rid
-                desc.append(f"{head}({m['status']}·tier {m['tier']}·재확인 {m['recheck_by']})"
-                            + (f" ⚠ {', '.join(fl)}" if fl else '') + f" — {txt}")
-            more = f" 외 {len(hits) - len(shown)}건" if len(hits) > len(shown) else ''
-            parts.append(f"**{n['raw']}**: {v} · " + ' / '.join(desc) + more)
+            parts.append(d)
         counts[worst] = counts.get(worst, 0) + 1
         rows.append((k, s, ', '.join([n['raw'] for n in nums] + years), worst, '<br>'.join(parts)))
-    print(f"# 팩트체크 결과: {os.path.basename(a.script)}\n")
+    return rows, counts
+
+
+def fmt_counts(counts):
+    return ', '.join(f'{k} {v}' for k, v in sorted(counts.items(), key=lambda x: -RANK.get(x[0], 0)))
+
+
+def main():
+    ap = argparse.ArgumentParser(description='영상 원고 숫자 팩트체크')
+    ap.add_argument('scripts', nargs='*', help='원고 파일(.txt/.md). 여러 개를 줄 수 있다')
+    ap.add_argument('--dir', action='append', default=[],
+                    help='이 폴더의 .md·.txt를 모두 점검한다(여러 번 줄 수 있다, README.md 제외)')
+    ap.add_argument('--today', default=datetime.date.today().isoformat())
+    ap.add_argument('--detail', action='store_true', help='근거 후보를 숫자마다 3개까지 보인다')
+    ap.add_argument('--only-problems', action='store_true',
+                    help="'근거 없음'·'인용 번호 불일치' 문장만 보인다(일괄 점검용)")
+    a = ap.parse_args()
+    if hasattr(sys.stdout, 'reconfigure'):
+        sys.stdout.reconfigure(encoding='utf-8')
+    paths = list(a.scripts)
+    for d in a.dir:
+        paths += sorted(p for p in glob.glob(os.path.join(d, '*'))
+                        if p.endswith(('.md', '.txt')) and os.path.basename(p) != 'README.md')
+    if not paths:
+        ap.error('원고 파일이나 --dir를 주세요')
+    idx, recs, cards = load(a.today)
+    results = [(p,) + check_file(p, recs, cards, a.today, a.detail) for p in paths]
+    batch = len(paths) > 1
+    title = '일괄 팩트체크 결과' if batch else f'팩트체크 결과: {os.path.basename(paths[0])}'
+    print(f"# {title}\n")
     print(f"- 기준일 {a.today}, 카드 {len(cards)}줄, 기록 {len(recs)}건을 대조했다.")
-    print('- 판정별 문장 수: ' + ', '.join(f'{k} {v}' for k, v in sorted(counts.items(), key=lambda x: -RANK.get(x[0], 0))))
-    print("- 숫자와 단어 겹침만 본 결과다. 문장 뜻이 근거와 같은지는 사람이 확인한다.\n")
-    print('| # | 문장 | 뽑은 숫자 | 판정 | 근거(숫자별) |')
-    print('|---|---|---|---|---|')
-    for k, s, n, v, d in rows:
-        print(f"| {k} | {cell(s)} | {cell(n)} | {v} | {cell(d)} |")
+    print("- 숫자와 단어 겹침, 인용한 MED 번호에 그 숫자가 있는지만 본 결과다. "
+          "문장 뜻이 근거와 같은지는 사람이 확인한다.")
+    if batch:
+        total = {}
+        for _, _, c in results:
+            for k, v in c.items():
+                total[k] = total.get(k, 0) + v
+        print(f"- 파일 {len(paths)}개, 판정별 문장 수 합계: {fmt_counts(total)}\n")
+        print('| 파일 | 근거 없음 | 인용 번호 불일치 | 주의 | 판정별 문장 수 |')
+        print('|---|---|---|---|---|')
+        for p, _, c in results:
+            print(f"| {os.path.relpath(p)} | {c.get('근거 없음', 0)} | {c.get('인용 번호 불일치', 0)} | "
+                  f"{c.get('주의', 0)} | {fmt_counts(c)} |")
+        print()
+    else:
+        print('- 판정별 문장 수: ' + fmt_counts(results[0][2]) + '\n')
+    for p, rows, c in results:
+        shown = [r for r in rows if r[3] in ('근거 없음', '인용 번호 불일치')] if a.only_problems else rows
+        if batch:
+            if a.only_problems and not shown:
+                continue
+            print(f"## {os.path.relpath(p)}\n")
+        print('| # | 문장 | 뽑은 숫자 | 판정 | 근거(숫자별) |')
+        print('|---|---|---|---|---|')
+        for k, s, n, v, d in shown:
+            print(f"| {k} | {cell(s)} | {cell(n)} | {v} | {cell(d)} |")
+        print()
 
 
 if __name__ == '__main__':

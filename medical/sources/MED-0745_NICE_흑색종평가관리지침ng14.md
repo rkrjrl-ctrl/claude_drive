@@ -19,7 +19,7 @@ recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(NICE 웹 원문). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-related: MED-0514; MED-0655
+related: MED-0514; MED-0655; MED-1997
 note: 원문은 HTML을 텍스트로 변환한 파일(첫 줄 URL). published와 revised는 본문 상단의 Published, Last updated 날짜이다. 이 자료실에는 한국 흑색종 진료지침이 없어 related에는 미국 NCI PDQ 흑색종 자료(MED-0514)와 NICE 암 의심 인지·의뢰 지침(MED-0655)을 넣었다. 한국 지침이 생기면 그것을 우선 연결한다. 재대조(2026-10-17): 현행 NICE 개요의 Published 2015-07-29·Last updated 2022-07-27 표기가 기록과 같고 철회·대체 표시가 없으며, location의 권고 절 번호가 현행 권고 페이지에 모두 있어 partial→verified. 이용조건: NICE 이용약관(Terms and conditions, 2026-10-17 확인)의 Notice of Rights에 따르면 NICE 저작 콘텐츠는 영국 안에서만 NICE UK Open Content Licence로 재사용할 수 있고, 영국 밖에서는 개인적 이용·학습·개인 연구를 제외하면 NICE의 사전 서면 동의 없이 전부 또는 일부를 사용·복제·번역·배포할 수 없다(동의에 라이선스·비용이 붙을 수 있음). 한국 채널 영상에서 원문 문장·표를 옮기거나 번역해 보여주지 않고, 사실 확인용 참고와 출처 언급 수준으로만 쓴다.
 ---
 
