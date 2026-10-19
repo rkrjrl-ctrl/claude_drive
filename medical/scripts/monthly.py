@@ -5,6 +5,8 @@
 
 내는 것
   1. 그달 recheck_by가 오는 verified 기록(index.csv 기준). 활용물·카드 인용이 많은 순서, 확인할 url 포함
+     1-1. 기록별 확인할 것: 기록의 location(어디를 읽었나)과 '미검증·사용 금지' 절에서 확인하지 못했다고 적은 줄을 그대로 옮긴다
+          (19라운드 추가, 추정 문구는 넣지 않는다)
   2. CALENDAR.md의 그달 항목: 'YYYY년 M월' 절의 표, 'M월에 확인할 것' 표, '이번 달·다음 달 할 일'의 그달 줄
   3. 함께 고칠 곳: 1·2의 기록을 인용하는 패키지·가이드·쇼츠 원고(packages/drafts)·CALENDAR·숫자 카드
 인용 횟수는 활용물에서 그 MED 번호가 나온 줄 수(번호 나열·범위 포함)와 그 기록을 출처로 쓴 카드 수다.
@@ -44,6 +46,21 @@ def cards_by_record():
         for r in csv.DictReader(f):
             out[r['출처기록']].append(r['카드번호'])
     return out
+
+
+OPEN = re.compile(r'미확인|확인하지|확인 못|확인되지|읽지 않|읽지 못|찾지 못|대조하지|못했다|확인 전')
+
+
+def open_items(rid):
+    """기록의 '미검증·사용 금지' 절에서 확인하지 못했다고 적은 줄(기록 문장 그대로)."""
+    paths = glob.glob(os.path.join(MED, 'sources', f'{rid}_*.md'))
+    if not paths:
+        return []
+    text = open(paths[0], encoding='utf-8').read()
+    mt = re.search(r'## 미검증·사용 금지\n(.*?)(?=\n## |\Z)', text, re.S)
+    if not mt:
+        return []
+    return [l.strip().lstrip('- ').strip() for l in mt.group(1).split('\n') if l.strip() and OPEN.search(l)]
 
 
 def month_in(title, y, m):
@@ -126,6 +143,18 @@ def main():
     else:
         L.append('해당 기록 없음.')
     L.append('')
+
+    if due:
+        L += ['### 1-1. 기록별 확인할 것', '',
+              "기록의 `location`(무엇을 읽었는지)과 '미검증·사용 금지' 절에서 확인하지 못했다고 적은 줄을 그대로 옮겼다. "
+              '같은 곳을 다시 열어 기준일·개정 여부를 보고, 미확인 줄이 풀렸으면 기록을 고친다.', '']
+        for i, r in enumerate(due, 1):
+            L.append(f"{i}. **{r['id']}** (기한 {r['recheck_by']}) — {cell(r['title'])[:70]}")
+            L.append(f"   - 열 곳: {r['url']}")
+            L.append(f"   - 읽은 곳(location): {cell(r['location'])[:220]}")
+            for line in open_items(r['id']):
+                L.append(f"   - 기록에 남은 미확인: {cell(line)[:200]}")
+        L.append('')
 
     L += [f'## 2. CALENDAR.md의 {m}월 항목 ({len(cal)}개)', '']
     if not cal:
