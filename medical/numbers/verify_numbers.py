@@ -19,11 +19,15 @@ def sec(t, name):
 
 rows = list(csv.DictReader(open(os.path.join(MED, 'numbers', 'numbers.csv'), encoding='utf-8')))
 res = dict(total=len(rows), ok=0, notfound=[], badstatus=[], stale_meta=[], calc_unflagged=[],
-           caution_num_missing=[], in_ban=[], long=[], dup=[])
+           caution_num_missing=[], tax_no_gwisok=[], in_ban=[], long=[], dup=[])
 seen = {}
 for r in rows:
     src, num = r['출처기록'], r['숫자']
     x = idx.get(src)
+    # 0) 세법 기록(소득세법·시행령 조문, 국세청 자료)을 출처로 한 카드는 기준시점에 귀속 연도('2026년 귀속')를 적는다(20라운드)
+    #    같은 공제율·한도라도 귀속 연도마다 법이 다를 수 있어서다
+    if x and ('국세청' in x['org'] or '소득세법' in x['title']) and '귀속' not in r['기준시점']:
+        res['tax_no_gwisok'].append((r['카드번호'], src, r['기준시점']))
     # 1) 출처 기록이 verified이고 tier C가 아닌지
     if not x or x['status'] != 'verified' or x['tier'] == 'C':
         res['badstatus'].append(r['카드번호'])
