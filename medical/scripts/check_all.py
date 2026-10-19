@@ -8,7 +8,7 @@
 
 종료코드: 새 문제가 있으면 1, 없으면 0.
   - build_index: 오류나 경고가 하나라도 있으면 문제('재확인 기한 경과' 경고는 아래 기한 경고로 옮기고 문제로 세지 않는다)
-  - verify_numbers: notfound·badstatus·stale_meta·calc_unflagged·caution_num_missing·tax_no_gwisok(세법 카드 귀속 연도 없음)·long 이 하나라도 있으면 문제.
+  - verify_numbers: notfound·badstatus·stale_meta·calc_unflagged·caution_num_missing·tax_no_gwisok(세법 카드 귀속 연도 없음)·annual_no_year(해마다 바뀌는 숫자 카드 적용 연도 없음)·long 이 하나라도 있으면 문제.
     in_ban·dup 은 알려진 예외(reviews/factcheck_known.csv)에 없는 것만 문제
   - factcheck: '근거 없음'·'인용 번호 불일치' 숫자 중 알려진 예외에 없는 것만 문제
   - 링크·MED 번호(16라운드): packages·packages/drafts·guides·CALENDAR.md·README류의 마크다운 링크 [..](파일)가 없는 파일을
@@ -30,7 +30,7 @@ import argparse, calendar, collections, csv, datetime, glob, os, re, shutil, sub
 MED = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))     # medical/
 KNOWN = os.path.join('reviews', 'factcheck_known.csv')
 FC_INPUTS = ['--dir', 'packages', '--dir', os.path.join('packages', 'drafts'), '--dir', 'guides', 'CALENDAR.md']
-VERIFY_HARD = ['notfound', 'badstatus', 'stale_meta', 'calc_unflagged', 'caution_num_missing', 'tax_no_gwisok', 'long']
+VERIFY_HARD = ['notfound', 'badstatus', 'stale_meta', 'calc_unflagged', 'caution_num_missing', 'tax_no_gwisok', 'annual_no_year', 'long']
 VERIFY_SOFT = ['in_ban', 'dup']
 PROBLEM = ('근거 없음', '인용 번호 불일치')
 

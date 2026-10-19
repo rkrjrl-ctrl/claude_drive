@@ -19,7 +19,21 @@ def sec(t, name):
 
 rows = list(csv.DictReader(open(os.path.join(MED, 'numbers', 'numbers.csv'), encoding='utf-8')))
 res = dict(total=len(rows), ok=0, notfound=[], badstatus=[], stale_meta=[], calc_unflagged=[],
-           caution_num_missing=[], tax_no_gwisok=[], in_ban=[], long=[], dup=[])
+           caution_num_missing=[], tax_no_gwisok=[], annual_no_year=[], in_ban=[], long=[], dup=[])
+
+# 해마다 다시 정하는 숫자를 가려내는 기준(22라운드). 카드 한 줄 문장이나 출처 기록 제목의 낱말로 본다.
+ANNUAL_SENT = re.compile(r'보험료율|점수당|최저보험료|상한액|월 한도액|중위소득|긴급복지|생계급여|월평균.{0,8}보험료|수가')
+ANNUAL_TITLE = re.compile(r'보험료율|상한액|월 한도액|중위소득|긴급복지')        # 단위와 관계없이
+ANNUAL_TITLE_WON = re.compile(r'요양급여비용』|수가')                            # 단위가 '원'일 때만(수가 책·수가 고시의 금액)
+ANNUAL_TOPIC = re.compile(r'^(건강보험료|본인부담상한제)$')                # 카드 주제 자체가 해마다 바뀌는 금액인 것
+NOT_ANNUAL = re.compile(r'^(금융분쟁조정위원회|대법원)|판결')                   # 분쟁조정·판례는 그 사건 시점 숫자라 뺀다
+
+
+def annual(r, x):
+    if NOT_ANNUAL.search(x['title']):
+        return False
+    return bool(ANNUAL_TOPIC.search(r['주제']) or ANNUAL_SENT.search(r['한 줄 문장']) or ANNUAL_TITLE.search(x['title'])
+                or (r['단위'] == '원' and ANNUAL_TITLE_WON.search(x['title'])))
 seen = {}
 for r in rows:
     src, num = r['출처기록'], r['숫자']
@@ -28,6 +42,10 @@ for r in rows:
     #    같은 공제율·한도라도 귀속 연도마다 법이 다를 수 있어서다
     if x and ('국세청' in x['org'] or '소득세법' in x['title']) and '귀속' not in r['기준시점']:
         res['tax_no_gwisok'].append((r['카드번호'], src, r['기준시점']))
+    # 0-2) 해마다 다시 정하는 숫자(보험료율·점수당 금액·본인부담상한액·장기요양 월 한도액·기준 중위소득·긴급복지·수가 등)는
+    #      기준시점에 적용 연도('2026년 적용', '2026년 진료분', '2026년 1월분'처럼 'YYYY년')를 적는다(22라운드)
+    if x and annual(r, x) and not re.search(r'(19|20)\d\d년', r['기준시점']):
+        res['annual_no_year'].append((r['카드번호'], src, r['기준시점']))
     # 1) 출처 기록이 verified이고 tier C가 아닌지
     if not x or x['status'] != 'verified' or x['tier'] == 'C':
         res['badstatus'].append(r['카드번호'])
