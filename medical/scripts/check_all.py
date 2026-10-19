@@ -342,10 +342,13 @@ def check_links(med):
 
 
 # ---------------------------------------------------------------- 쇼츠 원고 길이·두 판 일치(경고만)
-# 낭독 속도: 기존 쇼츠 두 편의 낭독 원고(narr.txt)를 소리 나는 한글 글자 수로 세고 렌더 길이로 나눈 값.
-#   C:\Users\rkrjr\hf\kcs2 309자 / 51.0초 = 6.06자/초, kcs3 278자 / 45.8초 = 6.07자/초 → 합계 587자 / 96.8초 = 6.06자/초
-# 원고의 숫자·영문·%는 소리 나는 대로 바꿔 센다(2009 → 이천구, KCD → 케이씨디, % → 퍼센트, ~ → 에서). 문장부호·공백은 세지 않는다.
-CHARS_PER_SEC = 587 / 96.8
+# 낭독 속도(18라운드 재계산): 기존 쇼츠 6편의 낭독 원고(narr.txt)를 소리 글자로 세고, 최종 렌더 길이(ffprobe)로 나눈 값.
+#   렌더 길이는 문장별 음성 조각(assets/n*.wav) 길이 합과 거의 같아(앞뒤 여백 1초 안팎) 렌더 전체를 내레이션 구간으로 썼다.
+#   kcs2 309자/50.97초=6.06, kcs3 278/45.80=6.07, kc1s 320/49.13=6.51, kc2s 275/42.60=6.46, car8 375/58.23=6.44, cxmt 356/55.33=6.43
+#   합계 1,913자/302.07초 = 6.33자/초(편별 6.06~6.51, 표준편차 0.21, 합계 대비 -4.3%~+2.8%). 17라운드 값 6.06은 kcs2·kcs3 두 편만 쓴 값.
+#   뺀 것: byeonaek 3편·shorts-test(18~27초·10초 시험 영상), mid(최종 렌더가 다른 영상).
+# 원고의 숫자·영문·기호는 소리 나는 대로 바꿔 센다(spoken_text, 시험: scripts/test_spoken.py). 문장부호·공백은 세지 않는다.
+CHARS_PER_SEC = 1913 / 302.07
 TARGET_SEC = (45, 55)
 _DIG = '영일이삼사오육칠팔구'
 _LETTER = {'A': '에이', 'B': '비', 'C': '씨', 'D': '디', 'E': '이', 'F': '에프', 'G': '지', 'H': '에이치', 'I': '아이', 'J': '제이',
@@ -373,16 +376,26 @@ def _read_int(n):
     return out
 
 
-def spoken_chars(text):
-    """낭독할 글을 소리 나는 한글로 바꿔 한글 글자 수를 센다."""
-    t = text.replace('%p', '퍼센트포인트').replace('%', '퍼센트').replace('~', '에서')
+def spoken_text(text):
+    """낭독할 글을 소리 나는 한글로 바꾼다(18라운드: 날짜·분수 추가).
+    2026-07-01 → 이천이십육년칠월일일, 1/2 → 이분의일, 1,500만 → 천오백만, 72.8% → 칠십이점팔퍼센트,
+    10~30% → 십에서삼십퍼센트, KCD → 케이씨디, 2005다63221 → 이천오다육만삼천이백이십일(숫자로 읽음)."""
+    t = re.sub(r'(\d{4})-(\d{1,2})-(\d{1,2})', lambda m: f"{m.group(1)}년 {int(m.group(2))}월 {int(m.group(3))}일", text)
+    t = re.sub(r'(\d{4})-(\d{1,2})(?!\d)', lambda m: f"{m.group(1)}년 {int(m.group(2))}월", t)
+    t = re.sub(r'(\d+)/(\d+)', lambda m: f"{m.group(2)}분의 {m.group(1)}", t)
+    t = t.replace('%p', '퍼센트포인트').replace('%', '퍼센트').replace('~', '에서')
 
     def num(m):
         ip, _, dp = m.group(0).replace(',', '').partition('.')
         return _read_int(int(ip)) + ('점' + ''.join(_DIG[int(c)] for c in dp) if dp else '')
     t = re.sub(r'\d[\d,]*(?:\.\d+)?', num, t)
     t = re.sub(r'[A-Za-z]', lambda m: _LETTER[m.group(0).upper()], t)
-    return len(re.findall(r'[가-힣]', t))
+    return t
+
+
+def spoken_chars(text):
+    """낭독할 글의 소리 글자 수(소리 나는 한글로 바꾼 뒤 한글만 센다. 문장부호·공백은 세지 않는다)."""
+    return len(re.findall(r'[가-힣]', spoken_text(text)))
 
 
 def _section(text, name):
