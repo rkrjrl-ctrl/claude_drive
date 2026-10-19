@@ -14,6 +14,8 @@
   - 링크·MED 번호(16라운드): packages·packages/drafts·guides·CALENDAR.md·README류의 마크다운 링크 [..](파일)가 없는 파일을
     가리키거나, 본문의 MED 번호가 index.csv에 없으면 문제. superseded·rejected 기록 인용은 경고만
     (그 줄에 'superseded'·'rejected'라고 스스로 밝혔으면 경고하지 않는다)
+  - 쇼츠 원고 길이(17라운드, 경고만): packages/drafts 원고 '낭독판'의 예상 낭독 시간이 45~55초를 벗어나거나,
+    '근거 표시판'과 '낭독판' 문장이 (번호와 (MED-…)를 빼고) 서로 다르면 경고
 알려진 예외는 메인이 원문과 맞다고 확인한 것만 reviews/factcheck_known.csv 에 한 줄씩 적는다.
 기한 경고(종료코드에 영향 없음, 13라운드 추가):
   - 재확인 기한이 지난 verified 기록 중 활용물(packages·packages/drafts·guides·CALENDAR)이나 숫자 카드가 인용하는 것
@@ -339,6 +341,95 @@ def check_links(med):
                 detail=broken + missing + old, sec=time.time() - t0)
 
 
+# ---------------------------------------------------------------- 쇼츠 원고 길이·두 판 일치(경고만)
+# 낭독 속도: 기존 쇼츠 두 편의 낭독 원고(narr.txt)를 소리 나는 한글 글자 수로 세고 렌더 길이로 나눈 값.
+#   C:\Users\rkrjr\hf\kcs2 309자 / 51.0초 = 6.06자/초, kcs3 278자 / 45.8초 = 6.07자/초 → 합계 587자 / 96.8초 = 6.06자/초
+# 원고의 숫자·영문·%는 소리 나는 대로 바꿔 센다(2009 → 이천구, KCD → 케이씨디, % → 퍼센트, ~ → 에서). 문장부호·공백은 세지 않는다.
+CHARS_PER_SEC = 587 / 96.8
+TARGET_SEC = (45, 55)
+_DIG = '영일이삼사오육칠팔구'
+_LETTER = {'A': '에이', 'B': '비', 'C': '씨', 'D': '디', 'E': '이', 'F': '에프', 'G': '지', 'H': '에이치', 'I': '아이', 'J': '제이',
+           'K': '케이', 'L': '엘', 'M': '엠', 'N': '엔', 'O': '오', 'P': '피', 'Q': '큐', 'R': '알', 'S': '에스', 'T': '티',
+           'U': '유', 'V': '브이', 'W': '더블유', 'X': '엑스', 'Y': '와이', 'Z': '지'}
+
+
+def _read_int(n):
+    """정수를 한자어 수 읽기로(15000000 → 천오백만, 10000 → 만)."""
+    if n == 0:
+        return '영'
+    out, big, k = '', ['', '만', '억', '조', '경'], 0
+    while n:
+        n, part = divmod(n, 10000)
+        if part:
+            s = ''
+            for i, u in enumerate(['천', '백', '십', '']):
+                d = part // 10 ** (3 - i) % 10
+                if d:
+                    s += ('' if d == 1 and u else _DIG[d]) + u
+            if k == 1 and s == '일':
+                s = ''
+            out = s + big[k] + out
+        k += 1
+    return out
+
+
+def spoken_chars(text):
+    """낭독할 글을 소리 나는 한글로 바꿔 한글 글자 수를 센다."""
+    t = text.replace('%p', '퍼센트포인트').replace('%', '퍼센트').replace('~', '에서')
+
+    def num(m):
+        ip, _, dp = m.group(0).replace(',', '').partition('.')
+        return _read_int(int(ip)) + ('점' + ''.join(_DIG[int(c)] for c in dp) if dp else '')
+    t = re.sub(r'\d[\d,]*(?:\.\d+)?', num, t)
+    t = re.sub(r'[A-Za-z]', lambda m: _LETTER[m.group(0).upper()], t)
+    return len(re.findall(r'[가-힣]', t))
+
+
+def _section(text, name):
+    m = re.search(r'^## ' + name + r'\s*\n(.*?)(?=^## |\Z)', text, re.S | re.M)
+    return m.group(1) if m else ''
+
+
+def _norm(s):
+    s = re.sub(r'^\s*\d+\.\s*', '', s)                                 # 번호
+    s = re.sub(r'\s*\((?:MED-[^()]*)\)', '', s)                         # (MED-…), (MED-…, MED-…)
+    return re.sub(r'\s+', ' ', s).strip()
+
+
+def check_drafts(med):
+    t0 = time.time()
+    rows, detail = [], []
+    for path in sorted(glob.glob(os.path.join(med, 'packages', 'drafts', '*.md'))):
+        name = os.path.basename(path)
+        if name == 'README.md':
+            continue
+        text = open(path, encoding='utf-8').read()
+        read = [l.strip() for l in _section(text, '낭독판').split('\n') if l.strip()]
+        cite = [l.strip() for l in _section(text, '근거 표시판').split('\n') if re.match(r'\s*\d+\.', l)]
+        if not read:
+            detail.append(f"낭독판 없음 · {name}")
+            continue
+        n = sum(spoken_chars(l) for l in read)
+        sec = n / CHARS_PER_SEC
+        ok = TARGET_SEC[0] <= sec <= TARGET_SEC[1]
+        rows.append((name, n, sec, ok))
+        if not ok:
+            detail.append(f"길이 벗어남 · {name} · 소리 글자 {n}자 · 예상 {sec:.1f}초(기준 {TARGET_SEC[0]}~{TARGET_SEC[1]}초)")
+        a, b = [_norm(x) for x in cite], [_norm(x) for x in read]
+        if a != b:
+            diff = [f'{i + 1}번' for i in range(max(len(a), len(b)))
+                    if (a[i] if i < len(a) else None) != (b[i] if i < len(b) else None)]
+            detail.append(f"두 판 문장 다름 · {name} · 근거 표시판 {len(a)}문장·낭독판 {len(b)}문장, 다른 문장: {', '.join(diff[:8])}")
+    table = ['| 원고 | 소리 글자 수 | 예상 길이 | 45~55초 |', '|---|---|---|---|']
+    table += [f"| {n} | {c} | {s:.1f}초 | {'예' if ok else '벗어남'} |" for n, c, s, ok in rows]
+    out = sum(1 for r in rows if not r[3])
+    mism = sum(1 for d in detail if d.startswith('두 판'))
+    head = (f"원고 {len(rows)}편: 45~55초 벗어남 {out}편, 두 판 문장 다름 {mism}편"
+            f"(속도 {CHARS_PER_SEC:.2f}자/초, 경고만)")
+    return dict(name='쇼츠 원고 길이', bad=False, warn=bool(detail), head=head, detail=detail, table=table,
+                sec=time.time() - t0)
+
+
 # ---------------------------------------------------------------- 숫자 카드 찾아보기(BY_TOPIC.md) 최신 여부(경고만)
 def check_by_topic(med, today):
     code, out, sec = run([os.path.join('numbers', 'build_by_topic.py'), '--check', '--month', today[:7]], med)
@@ -364,7 +455,7 @@ def main():
     try:
         known = load_known(med)
         results = [check_build(med, a.today), check_verify(med, known), check_factcheck(med, known, a.today),
-                   check_links(med), check_deadlines(med, a.today), check_by_topic(med, a.today)]
+                   check_links(med), check_drafts(med), check_deadlines(med, a.today), check_by_topic(med, a.today)]
     finally:
         if tmp:
             shutil.rmtree(tmp, ignore_errors=True)
@@ -377,6 +468,10 @@ def main():
     L.append(f"- 전체 {total:.0f}초. factcheck 판정별 문장 수: {fc['total']}")
     L.append('')
     for r in results:
+        if r.get('table'):
+            L.append(f"## {r['name']} 표")
+            L += r['table']
+            L.append('')
         if r['detail']:
             L.append(f"## {r['name']}")
             L += [f"- {d}" for d in r['detail'][:60]]
