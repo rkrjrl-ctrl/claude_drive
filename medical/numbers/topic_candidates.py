@@ -37,9 +37,13 @@ def cell(s):
 def when_date(s):
     """'2026-11 하순', '2027-01-15 전후', '2026년 하반기' 같은 글에서 가장 이른 날짜."""
     best = FAR
-    for y, m, d, tail in re.findall(r'(\d{4})-(\d{2})(?:-(\d{2}))?\s*(초|중순|중|하순|말)?', s):
+    # 27라운드: 앞뒤가 숫자로 이어지면 날짜로 보지 않고('2026-2027절기'), 없는 달·날은 건너뛴다
+    for y, m, d, tail in re.findall(r'(?<![\d-])(\d{4})-(\d{2})(?:-(\d{2}))?(?!\d)\s*(초|중순|중|하순|말)?', s):
         day = int(d) if d else {'초': 1, '중': 15, '중순': 15, '하순': 25, '말': 25}.get(tail, 1)
-        best = min(best, datetime.date(int(y), int(m), day))
+        try:
+            best = min(best, datetime.date(int(y), int(m), day))
+        except ValueError:
+            continue
     for y, h in re.findall(r'(\d{4})년 (상반기|하반기|중)', s):
         best = min(best, datetime.date(int(y), {'상반기': 1, '하반기': 7, '중': 1}[h], 1))
     return best

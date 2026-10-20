@@ -22,6 +22,8 @@
   - 쇼츠 원고 중 packages/drafts/README.md 표의 '시의성 날짜'·'사용 기한' 칸에 적힌 날짜가 지난 것
     (README '작성 YYYY-MM-DD'보다 앞선 날짜는 설명용 날짜로 보고 뺀다)
   - CALENDAR.md 달별 절에서 날짜가 지났는데 구분이 '시행됨'이 아닌 항목(이미 시행됨 절로 옮기지 않은 것)
+  - 위 두 곳에서 날짜 모양인데 없는 달·날('2026-13', '2026-02-30')은 멈추지 않고 '날짜 읽기 실패'로 경고한다.
+    '2026-2027절기' 같은 연도 범위는 날짜가 아니라 건너뛴다(27라운드, 시험: scripts/test_dates.py)
   - numbers/BY_TOPIC.md가 낡았으면(다시 만들면 내용이 바뀌면) 경고(15라운드)
 파이썬 표준 라이브러리만 쓴다.
 """
@@ -179,20 +181,26 @@ def month_end(y, m):
 
 def loose_date(s, default_year=None):
     """'2026-11-27' → 그날, '2026-11'·'2026-11 하순'·'2026-11 말' → 그달 말일, '2026-11 초' → 10일, '2026-11 중순' → 20일,
-    '2026년 4분기' → 분기 말, '2026년 하반기'·'상반기' → 반기 말. 읽지 못하면 None."""
+    '2026년 4분기' → 분기 말, '2026년 하반기'·'상반기' → 반기 말. 읽지 못하면 None.
+    27라운드: 없는 달·날('2026-13', '2026-02-30')과 연도 범위('2026-2027절기')는 예외를 내지 않고 None을 돌려준다."""
     s = s.strip()
-    m = re.match(r'(\d{4})-(\d{2})-(\d{2})', s)
-    if m:
-        return datetime.date(*map(int, m.groups()))
-    m = re.match(r'(\d{4})-(\d{2})(?!\d)\s*(초|중순|중|하순|말)?', s)
-    if m:
-        y, mo = int(m.group(1)), int(m.group(2))
-        part = m.group(3)
-        if part == '초':
-            return datetime.date(y, mo, 10)
-        if part in ('중순', '중'):
-            return datetime.date(y, mo, 20)
-        return month_end(y, mo)
+    if YEAR_RANGE.match(s):
+        return None
+    try:
+        m = re.match(r'(\d{4})-(\d{2})-(\d{2})(?!\d)', s)
+        if m:
+            return datetime.date(*map(int, m.groups()))
+        m = re.match(r'(\d{4})-(\d{2})(?![\d])\s*(초|중순|중|하순|말)?', s)
+        if m:
+            y, mo = int(m.group(1)), int(m.group(2))
+            part = m.group(3)
+            if part == '초':
+                return datetime.date(y, mo, 10)
+            if part in ('중순', '중'):
+                return datetime.date(y, mo, 20)
+            return month_end(y, mo)
+    except ValueError:                                   # 없는 달·날
+        return None
     m = re.match(r'(\d{4})년\s*([1-4])분기', s)
     if m:
         return month_end(int(m.group(1)), int(m.group(2)) * 3)
@@ -200,6 +208,21 @@ def loose_date(s, default_year=None):
     if m:
         return month_end(int(m.group(1)), 6 if m.group(2) == '상' else 12)
     return None
+
+
+# 글 속 날짜 찾기(27라운드). 앞뒤가 숫자로 이어지면 날짜로 보지 않는다('2026-2027절기'에서 '2026-20'을 떼어 내지 않게)
+DATE_TOKEN = re.compile(r'(?<![\d-])\d{4}-\d{2}(?:-\d{2})?(?!\d)(?:\s*(?:초|중순|중|하순|말))?')
+YEAR_RANGE = re.compile(r'(?<!\d)(\d{4})-(\d{4})(?!\d)')                    # '2026-2027절기' 같은 연도 범위
+
+
+def find_dates(txt):
+    """글에서 날짜를 찾는다. 반환: ([(날짜, 원문)], [읽지 못한 원문]).
+    연도 범위('2026-2027절기')는 날짜가 아니라 건너뛴다. 날짜 모양인데 없는 달·날('2026-13', '2026-02-30')은 읽지 못한 것으로 돌려준다."""
+    found, bad = [], []
+    for mm in DATE_TOKEN.finditer(txt):
+        d = loose_date(mm.group(0))
+        (found.append((d, mm.group(0))) if d else bad.append(mm.group(0)))
+    return found, bad
 
 
 def check_deadlines(med, today):
@@ -234,7 +257,7 @@ def check_deadlines(med, today):
         top = ', '.join(f'{k}({c})' for k, c in sorted(w.items(), key=lambda kv: -kv[1])[:4])
         detail.append(f"재확인 기한 지남 · {rid}(기한 {rb}) · 인용 {sum(w.values())}곳: {top}")
     # (2) 쇼츠 원고의 시의성 날짜·사용 기한
-    drafts = []
+    drafts, bad_dates = [], []
     rd = os.path.join(med, 'packages', 'drafts', 'README.md')
     if os.path.exists(rd):
         header = None
@@ -254,12 +277,17 @@ def check_deadlines(med, today):
             fn = re.search(r'`([^`]+\.md)`', row.get(header[0], ''))
             name = fn.group(1) if fn else row.get(header[0], '')[:30]
             texts = [row.get('시의성 날짜', ''), row.get('사용 기한(고칠 문장)', row.get('사용 기한', ''))]
-            dates = []
+            dates, unread = [], []
             for txt in texts:
-                for mm in re.finditer(r'\d{4}-\d{2}(?:-\d{2})?(?:\s*(?:초|중순|하순|말))?', txt):
-                    d = loose_date(mm.group(0))
-                    if d and d >= written:                     # 작성일 전 날짜('2017-03-01 이후 계약')는 기한이 아니다
-                        dates.append((d, mm.group(0)))
+                found, bad = find_dates(txt)
+                unread += bad
+                for d, raw in found:
+                    if d >= written:                           # 작성일 전 날짜('2017-03-01 이후 계약')는 기한이 아니다
+                        dates.append((d, raw))
+            if unread:
+                bad_dates.append(name)
+                detail.append(f"쇼츠 원고 날짜 읽기 실패 · {name} · {', '.join(dict.fromkeys(unread))} "
+                              "(없는 달·날이라 기한 검사에서 뺐다. drafts/README.md 표기를 확인한다)")
             dates = list(dict.fromkeys(dates))                # 두 칸에 같은 날짜가 있으면 한 번만
             passed = [s for d, s in dates if d < day]
             if passed:
@@ -287,12 +315,16 @@ def check_deadlines(med, today):
                 continue
             d = loose_date(cells[0])
             kind = cells[1] if len(cells) > 1 else ''
+            if d is None and DATE_TOKEN.match(cells[0]):      # 날짜 모양인데 없는 달·날
+                bad_dates.append(cells[0])
+                detail.append(f"CALENDAR 날짜 읽기 실패 · {sec} · {cells[0]} (없는 달·날이라 '시행됨' 검사에서 뺐다)")
             if d and d < day and '시행됨' not in kind:
                 cal_n += 1
                 what = re.sub(r'\*\*', '', cells[2] if len(cells) > 2 else '')[:70]
                 detail.append(f"CALENDAR 날짜 지남 · {sec} · {cells[0]}({kind}) · {what}")
     head = (f"기준일 {today}. 재확인 기한 지난 인용 기록 {len(overdue)}건, 날짜 지난 쇼츠 원고 {len(drafts)}편, "
-            f"'시행됨'으로 안 옮긴 지난 CALENDAR 항목 {cal_n}개(경고만, 종료코드에 영향 없음)")
+            f"'시행됨'으로 안 옮긴 지난 CALENDAR 항목 {cal_n}개"
+            + (f", 읽지 못한 날짜 {len(bad_dates)}곳" if bad_dates else '') + "(경고만, 종료코드에 영향 없음)")
     return dict(name='기한 경고', bad=False, warn=bool(detail), head=head, detail=detail, sec=time.time() - t0)
 
 
