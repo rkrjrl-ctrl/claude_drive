@@ -1,133 +1,156 @@
 # 자동 감시 결과 (자동 생성 — 직접 수정 금지)
 
-- 실행일: 2026-10-19  /  감시 url 2193개  /  자료 2193건
+- 실행일: 2026-10-20  /  감시 url 2234개  /  자료 2234건
 - 이 파일은 **감지만** 한다. 원문 내용 확인·자료 갱신은 Claude Code가 한다.
 
-## 원문 변경 확정 (24건)
+## 원문 변경 확정 (21건)
 
-- MED-0040 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3810
-- MED-0076 — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5130
-- MED-0087 — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3767
-- MED-0255 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2018&mode=view
-- MED-0283 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12146613/
-- MED-0284 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12766015/
-- MED-0285 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11794900/
-- MED-0286 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11790997/
-- MED-0287 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11790984/
-- MED-0288 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13009686/
-- MED-0289 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13009690/
-- MED-1272 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11739646/
-- MED-1283 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12425673/
-- MED-1284 — https://pmc.ncbi.nlm.nih.gov/articles/PMC10995472/
-- MED-1285 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11467485/
-- MED-1286 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11701464/
-- MED-1350 — https://pmc.ncbi.nlm.nih.gov/articles/PMC8811204/
-- MED-1351 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11513862/
-- MED-1352 — https://pmc.ncbi.nlm.nih.gov/articles/PMC8650817/
-- MED-1353 — https://pmc.ncbi.nlm.nih.gov/articles/PMC10982054/
-- MED-1354 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7354982/
-- MED-1355 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7541973/
-- MED-1356 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7840311/
-- MED-1357 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7542002/
+- MED-0041 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3813
+- MED-0053 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4770
+- MED-0065 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4962
+- MED-0089 — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3786
+- MED-0097 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3328
+- MED-0110 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5242
+- MED-0111 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4762
+- MED-0114 — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3346
+- MED-0588 — https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease
+- MED-0600 — https://www.who.int/news-room/fact-sheets/detail/human-papilloma-virus-and-cancer
+- MED-0628 — https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries
+- MED-0653 — https://www.nice.org.uk/guidance/ng245
+- MED-0763 — https://www.nice.org.uk/guidance/ng88
+- MED-0784 — https://www.nice.org.uk/guidance/ng156
+- MED-0785 — https://www.nice.org.uk/guidance/ng158
+- MED-1117 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6424832/
+- MED-1118 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13427683/
+- MED-1119 — https://pmc.ncbi.nlm.nih.gov/articles/PMC4691590/
+- MED-1120 — https://pmc.ncbi.nlm.nih.gov/articles/PMC4572036/
+- MED-1339 — https://www.nice.org.uk/guidance/ng257
+- MED-1689 — https://www.data.go.kr/data/15067467/fileData.do
 
-## 접속 3회 이상 연속 실패 (96건)
+## 접속 3회 이상 연속 실패 (122건)
 
-- MED-0010 — 9회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/renewal_popup/poster/20260608_poster_longdesc_1.html
-- MED-0017 — 9회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/lm/lmxsrv/law/lawFullContent.do?SEQ=477&SEQ_HISTORY=
-- MED-0030 — 9회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/minwon/wbhapa01000m01.do?mode=view&articleNo=10946900
-- MED-0043 — 4회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3815
-- MED-0051 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757
-- MED-0054 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4773
-- MED-0057 — 5회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317
-- MED-0058 — 4회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3329
-- MED-0059 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3330
-- MED-0061 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3334
-- MED-0062 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3335
-- MED-0063 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949
-- MED-0066 — 9회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4965
-- MED-0067 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4966
-- MED-0068 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=7181
-- MED-0072 — 8회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3357
-- MED-0077 — 5회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=8723310
-- MED-0079 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5135
-- MED-0080 — 9회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3753
-- MED-0081 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3754
-- MED-0082 — 9회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3760
-- MED-0088 — 5회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3785
-- MED-0090 — 5회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3789
-- MED-0093 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4672
-- MED-0094 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3808
-- MED-0095 — 4회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5248
-- MED-0096 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4768
-- MED-0109 — 5회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3802
-- MED-0110 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5242
-- MED-0112 — 5회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3322
-- MED-0114 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3346
-- MED-0115 — 5회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5122
-- MED-0157 — 9회 — URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl — https://www.seoulhp.com/seoul/cmmn/file/fileDown.do?atchFileId=79e740a49bff47a1aa20365c7d80153f&fileSn=4&menuNo=100136
-- MED-1028 — 4회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12 — https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=1
-- MED-1029 — 4회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12 — https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=2
-- MED-1030 — 4회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12 — https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=3
-- MED-1031 — 4회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12 — https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=4
-- MED-1052 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/minwon/wbhapa01000m01.do?mode=view&articleNo=10946880
-- MED-1053 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=view&articleNo=10849366
-- MED-1054 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/minwon/wbhapa01000m01.do?mode=view&articleNo=10946938
-- MED-1058 — 4회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 37-40: ordinal not in range(12 — https://common.health.kr/shared/docs/healthkr/boh_result/평가결과_여보이주((유)한국비엠에스제약).pdf
-- MED-1063 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=download&articleNo=10849366&attachNo=369449
-- MED-1214 — 3회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=2239620&board_no=69
-- MED-1215 — 3회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=995905&board_no=69
-- MED-1216 — 3회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1117539&board_no=69
-- MED-1217 — 3회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1191878&board_no=69
-- MED-1218 — 3회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=861793&board_no=69
-- MED-1219 — 3회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=848445&board_no=69
-- MED-1220 — 3회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1074128&board_no=69
-- MED-1221 — 3회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1008018&board_no=69
-- MED-1222 — 3회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=2245893&board_no=69
-- MED-1223 — 3회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1074159&board_no=69
-- MED-1224 — 3회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/data/stat/stat.jsp?mode=view&article_no=2239962&board_no=219
-- MED-1226 — 3회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=794538&board_no=69
-- MED-1245 — 3회 — HTTPError: HTTP Error 400: Bad Request — https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA030014050000&brdScnBltNo=4&brdBltNo=1710
-- MED-1291 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=download&articleNo=10849366&attachNo=369449&part=rare-neuro
-- MED-1292 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=download&articleNo=10849366&attachNo=369449&part=rare-immune
-- MED-1365 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/announce/wbhaec11503m01.do
-- MED-1401 — 3회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 25-30: ordinal not in range(12 — https://cdn.medsoft.co.kr/309/data/recom/11/11차진료권고안.pdf
-- MED-1461 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec07200m01.do?mode=view&articleNo=11012134
-- MED-1538 — 3회 — HTTPError: HTTP Error 400: Bad Request — https://incos.kidi.or.kr:5443/insLife/selStattbleDetail.do?part=stattbl10150
-- MED-1539 — 3회 — HTTPError: HTTP Error 400: Bad Request — https://incos.kidi.or.kr:5443/insLife/selStattbleDetail.do?part=stattbl10160
-- MED-1540 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11008085
-- MED-1541 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=10848703
-- MED-1542 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082
-- MED-1543 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426
-- MED-1544 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=chronic13
-- MED-1545 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=severe-cancer-reg
-- MED-1546 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=pancreas
-- MED-1547 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=lung
-- MED-1548 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=liver
-- MED-1549 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=stomach
-- MED-1550 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=colorectal
-- MED-1551 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=breast
-- MED-1552 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=prostate
-- MED-1553 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=hematologic
-- MED-1554 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=cerebrovascular
-- MED-1555 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=heart
-- MED-1556 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=dementia
-- MED-1557 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=cancer-all
-- MED-1558 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=stomach
-- MED-1559 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=colorectal
-- MED-1560 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=liver
-- MED-1561 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=pancreas
-- MED-1562 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=lung
-- MED-1563 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=breast
-- MED-1564 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=thyroid
-- MED-1565 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=prostate
-- MED-1566 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=infarction
-- MED-1567 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=ami
-- MED-1568 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=dementia
-- MED-1569 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=diabetes
-- MED-1570 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=hypertension
-- MED-1571 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=cataract
-- MED-1572 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=kneeOA
-- MED-1573 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=disc
+- MED-0010 — 10회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/renewal_popup/poster/20260608_poster_longdesc_1.html
+- MED-0017 — 10회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/lm/lmxsrv/law/lawFullContent.do?SEQ=477&SEQ_HISTORY=
+- MED-0030 — 10회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/minwon/wbhapa01000m01.do?mode=view&articleNo=10946900
+- MED-0051 — 4회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757
+- MED-0052 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4769
+- MED-0054 — 4회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4773
+- MED-0057 — 6회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317
+- MED-0058 — 5회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3329
+- MED-0059 — 4회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3330
+- MED-0061 — 4회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3334
+- MED-0062 — 4회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3335
+- MED-0063 — 4회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949
+- MED-0066 — 10회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4965
+- MED-0067 — 4회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4966
+- MED-0068 — 4회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=7181
+- MED-0072 — 9회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3357
+- MED-0077 — 6회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=8723310
+- MED-0079 — 4회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5135
+- MED-0080 — 10회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3753
+- MED-0081 — 4회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3754
+- MED-0082 — 10회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3760
+- MED-0086 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3766
+- MED-0088 — 6회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3785
+- MED-0090 — 6회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3789
+- MED-0093 — 4회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4672
+- MED-0096 — 4회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4768
+- MED-0103 — 3회 — URLError: <urlopen error [Errno -3] Temporary failure in name resolution> — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=271009&efYd=20250719&ancYnChk=0
+- MED-0104 — 3회 — URLError: <urlopen error [Errno -3] Temporary failure in name resolution> — https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000283320
+- MED-0105 — 3회 — URLError: <urlopen error [Errno -5] No address associated with hostname> — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=249317&efYd=20230929&ancYnChk=0
+- MED-0109 — 6회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3802
+- MED-0112 — 6회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3322
+- MED-0115 — 6회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5122
+- MED-0153 — 3회 — TimeoutError: 총 45초 초과 — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=19618
+- MED-0157 — 10회 — URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl — https://www.seoulhp.com/seoul/cmmn/file/fileDown.do?atchFileId=79e740a49bff47a1aa20365c7d80153f&fileSn=4&menuNo=100136
+- MED-1028 — 5회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12 — https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=1
+- MED-1029 — 5회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12 — https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=2
+- MED-1030 — 5회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12 — https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=3
+- MED-1031 — 5회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12 — https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=4
+- MED-1052 — 5회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/minwon/wbhapa01000m01.do?mode=view&articleNo=10946880
+- MED-1053 — 5회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=view&articleNo=10849366
+- MED-1054 — 5회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/minwon/wbhapa01000m01.do?mode=view&articleNo=10946938
+- MED-1058 — 5회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 37-40: ordinal not in range(12 — https://common.health.kr/shared/docs/healthkr/boh_result/평가결과_여보이주((유)한국비엠에스제약).pdf
+- MED-1063 — 5회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=download&articleNo=10849366&attachNo=369449
+- MED-1214 — 4회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=2239620&board_no=69
+- MED-1215 — 4회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=995905&board_no=69
+- MED-1216 — 4회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1117539&board_no=69
+- MED-1217 — 4회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1191878&board_no=69
+- MED-1218 — 4회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=861793&board_no=69
+- MED-1219 — 4회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=848445&board_no=69
+- MED-1220 — 4회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1074128&board_no=69
+- MED-1221 — 4회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1008018&board_no=69
+- MED-1222 — 4회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=2245893&board_no=69
+- MED-1223 — 4회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1074159&board_no=69
+- MED-1224 — 4회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/data/stat/stat.jsp?mode=view&article_no=2239962&board_no=219
+- MED-1226 — 4회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=794538&board_no=69
+- MED-1245 — 4회 — HTTPError: HTTP Error 400: Bad Request — https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA030014050000&brdScnBltNo=4&brdBltNo=1710
+- MED-1291 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=download&articleNo=10849366&attachNo=369449&part=rare-neuro
+- MED-1292 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=download&articleNo=10849366&attachNo=369449&part=rare-immune
+- MED-1365 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/announce/wbhaec11503m01.do
+- MED-1401 — 4회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 25-30: ordinal not in range(12 — https://cdn.medsoft.co.kr/309/data/recom/11/11차진료권고안.pdf
+- MED-1461 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec07200m01.do?mode=view&articleNo=11012134
+- MED-1538 — 4회 — HTTPError: HTTP Error 400: Bad Request — https://incos.kidi.or.kr:5443/insLife/selStattbleDetail.do?part=stattbl10150
+- MED-1539 — 4회 — HTTPError: HTTP Error 400: Bad Request — https://incos.kidi.or.kr:5443/insLife/selStattbleDetail.do?part=stattbl10160
+- MED-1540 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11008085
+- MED-1541 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=10848703
+- MED-1542 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082
+- MED-1543 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426
+- MED-1544 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=chronic13
+- MED-1545 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=severe-cancer-reg
+- MED-1546 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=pancreas
+- MED-1547 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=lung
+- MED-1548 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=liver
+- MED-1549 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=stomach
+- MED-1550 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=colorectal
+- MED-1551 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=breast
+- MED-1552 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=prostate
+- MED-1553 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=hematologic
+- MED-1554 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=cerebrovascular
+- MED-1555 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=heart
+- MED-1556 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=dementia
+- MED-1557 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=cancer-all
+- MED-1558 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=stomach
+- MED-1559 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=colorectal
+- MED-1560 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=liver
+- MED-1561 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=pancreas
+- MED-1562 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=lung
+- MED-1563 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=breast
+- MED-1564 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=thyroid
+- MED-1565 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=prostate
+- MED-1566 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=infarction
+- MED-1567 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=ami
+- MED-1568 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=dementia
+- MED-1569 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=diabetes
+- MED-1570 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=hypertension
+- MED-1571 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=cataract
+- MED-1572 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=kneeOA
+- MED-1573 — 4회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=disc
+- MED-1653 — 3회 — HTTPError: HTTP Error 400: Bad Request — https://incos.kidi.or.kr:5443/insLife/selStattbleDetail.do?part=stattbl10170
+- MED-1654 — 3회 — HTTPError: HTTP Error 400: Bad Request — https://incos.kidi.or.kr:5443/insLife/selStattbleDetail.do?part=stattbl10080
+- MED-1655 — 3회 — HTTPError: HTTP Error 400: Bad Request — https://incos.kidi.or.kr:5443/insLife/selStattbleDetail.do?part=stattbl10140
+- MED-1661 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=hemorrhage
+- MED-1662 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=angina
+- MED-1663 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=heartfailure
+- MED-1664 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=parkinson
+- MED-1665 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=depression
+- MED-1666 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=osteoporosis
+- MED-1667 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=spinalstenosis
+- MED-1668 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=shoulder
+- MED-1669 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=bladder
+- MED-1670 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=kidney
+- MED-1671 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=cervix
+- MED-1672 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=ovary
+- MED-1673 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=hematologic
+- MED-1674 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=ckd
+- MED-1681 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=top50-list
+- MED-1732 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013234
+- MED-1734 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=severe-copay
+- MED-1735 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=age-sex
+- MED-1786 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=age-cost
+- MED-1991 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=varicose-I83
+- MED-1993 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=zoster-B02
+- MED-1999 — 3회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=skin-cancer-registration
 
 ## 재확인 기한 도래·30일 이내 (12건)
 
@@ -144,11 +167,15 @@
 - 2026-11-17 MED-1448 [verified] 비대면진료 시범사업 지침(보건복지부 공고 제2025-736호, 2025-10-27 시행, 의료기관용) — 의원급 중심(의사가 안전하다고 판단한 환자, 초·재진 구분 없음), 병원급은 1년 안 대면진료한 희귀질환 산정특례자·30일 안 대면진료한 수술·치료 후 관리 환자·제1형 당뇨병 환자만, 의료기관별 비대면진료 비율 월 30% 이하, 외래진찰료 + 비대면진료 시범사업 관리료(의과 40.34점, 의원 3,800원·병원 3,320원, 동일 환자 월 2회까지, 종별·야간 등 가산 없음), 본인부담은 시행령 제19조 일반 원칙, 마약류·오남용·사후피임·비만치료제 처방 금지
 - 2026-11-17 MED-1449 [verified] 첩약 건강보험 적용 2단계 시범사업 지침(보건복지부 공고 제2025-150호, 2025-02-27 시행, 사업기간 2024-04~2026-12) — 시범기관(한의원·한방병원·한방 진료과목 병원·종합병원, 상급종합 제외) 외래에서 6개 질환(안면신경마비·뇌혈관질환 후유증·월경통·알레르기비염·기능성 소화불량·요추 추간판탈출증)에 치료용 첩약, 본인부담 종합병원 50%·병원·한방병원 40%·한의원·(한)약국 30%, 질환별 연간 20일 초과분 전액 본인부담, 연간 2개 질환, 1회 최대 10일분, 한의사 1인당 1일 8건·월 60건·연 600건
 
-## PubMed 신규 가이드라인·RCT·메타분석 (2026-10-18 이후)
+## PubMed 신규 가이드라인·RCT·메타분석 (2026-10-19 이후)
 
+**위암**
+- Neoadjuvant Therapy for Gastric Adenocarcinoma with Signet Ring Cells: A Systematic Review and Meta-Analysis. (2026 Oct 20) https://pubmed.ncbi.nlm.nih.gov/42900306/
 **폐암**
-- Effectiveness of local ablative therapy combined with first-line tyrosine kinase inhibitors in epidermal growth factor receptor-mutated oligometastatic non-small cell lung cancer: a systematic review and meta-analysis. (2026 Oct 17) https://pubmed.ncbi.nlm.nih.gov/42891869/
-- PD-1/ PD-l1 Inhibitors and Stereotactic Radiosurgery for Brain Metastases: a systematic review and meta-analysis. (2026 Oct 17) https://pubmed.ncbi.nlm.nih.gov/42891757/
+- Effects of enhanced recovery after surgery and prehabilitation interventions on postoperative outcomes after lung resection in patients with lung cancer: a systematic review and meta-analysis. (2026) https://pubmed.ncbi.nlm.nih.gov/42898494/
+- Dexmedetomidine-based opioid-sparing anesthesia in video-assisted thoracoscopic surgery: a randomized controlled trial. (2026 Jul 24) https://pubmed.ncbi.nlm.nih.gov/42897486/
+**유방암**
+- Entinostat plus exemestane for hormone receptor-positive advanced breast cancer: long-term overall survival results from the EOC103A3101 randomized controlled trial. (2026 Oct 20) https://pubmed.ncbi.nlm.nih.gov/42897132/
 
 ## 아직 감시하지 않는 것
 
