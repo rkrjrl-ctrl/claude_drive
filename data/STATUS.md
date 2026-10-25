@@ -1,6 +1,6 @@
 # 자동 수집 상태 (매 실행마다 덮어씀)
 
-최근 실행: 2026-10-24T08:25:05+09:00 (KST)
+최근 실행: 2026-10-25T09:58:40+09:00 (KST)
 
 | 필드 | 상태 |
 |---|---|
@@ -50,10 +50,10 @@
 
 ## 경고
 
-- HTTP fetch failed: https://ecos.bok.or.kr/api/StatisticSearch/CVRCXNWW8AFRR94XJ56L/json/kr/1/100/722Y001/D/20261010/20261024/0101000 (<urlopen error timed out>)
-- HTTP fetch failed: https://ecos.bok.or.kr/api/StatisticSearch/CVRCXNWW8AFRR94XJ56L/json/kr/1/1000/817Y002/D/20260626/20261024/010195000 (<urlopen error timed out>)
-- HTTP fetch failed: https://ecos.bok.or.kr/api/StatisticSearch/CVRCXNWW8AFRR94XJ56L/json/kr/1/100/817Y002/D/20261010/20261024/010195000 (<urlopen error timed out>)
-- HTTP fetch failed: https://ecos.bok.or.kr/api/StatisticSearch/CVRCXNWW8AFRR94XJ56L/json/kr/1/1000/817Y002/D/20260626/20261024/010210000 (<urlopen error timed out>)
-- HTTP fetch failed: https://ecos.bok.or.kr/api/StatisticSearch/CVRCXNWW8AFRR94XJ56L/json/kr/1/100/817Y002/D/20261010/20261024/010210000 (<urlopen error timed out>)
+- HTTP fetch failed: https://ecos.bok.or.kr/api/StatisticSearch/CVRCXNWW8AFRR94XJ56L/json/kr/1/100/722Y001/D/20261011/20261025/0101000 (<urlopen error timed out>)
+- HTTP fetch failed: https://ecos.bok.or.kr/api/StatisticSearch/CVRCXNWW8AFRR94XJ56L/json/kr/1/1000/817Y002/D/20260627/20261025/010195000 (<urlopen error timed out>)
+- HTTP fetch failed: https://ecos.bok.or.kr/api/StatisticSearch/CVRCXNWW8AFRR94XJ56L/json/kr/1/100/817Y002/D/20261011/20261025/010195000 (<urlopen error timed out>)
+- HTTP fetch failed: https://ecos.bok.or.kr/api/StatisticSearch/CVRCXNWW8AFRR94XJ56L/json/kr/1/1000/817Y002/D/20260627/20261025/010210000 (<urlopen error timed out>)
+- HTTP fetch failed: https://ecos.bok.or.kr/api/StatisticSearch/CVRCXNWW8AFRR94XJ56L/json/kr/1/100/817Y002/D/20261011/20261025/010210000 (<urlopen error timed out>)
 - HTTP fetch failed: https://ecos.bok.or.kr/api/StatisticSearch/CVRCXNWW8AFRR94XJ56L/json/kr/1/100/901Y009/M/202507/202610/0 (<urlopen error timed out>)
 - HTTP fetch failed: https://ecos.bok.or.kr/api/StatisticSearch/CVRCXNWW8AFRR94XJ56L/json/kr/1/100/161Y006/M/202604/202610/BBHA00 (<urlopen error timed out>)
