@@ -19,7 +19,7 @@ recheck_by: 2027-04-17
 reviewer: Claude Code 직접 확인(MedlinePlus XML 원문). 의료인 검토 미실시
 drive_file: 없음(저장소 보관)
 video_use: 미배정
-related: MED-0616; MED-0647
+related: MED-0616; MED-0647; MED-2288
 note: 원문은 MedlinePlus 주제 요약을 텍스트로 변환한 파일(첫 줄 URL). published는 파일 머리의 CREATED(MedlinePlus 최초 작성일, 메타데이터)에서 가져왔고 본문에는 표시되지 않으며, 수정일은 확인되지 않아 unknown이다. 2026-10-17 본문 재대조: 현행 MedlinePlus 건강 주제 페이지(하단 'Last updated' 표시 2023-12-26, 페이지 전체의 갱신 표시라 revised에는 넣지 않음)의 Summary 본문을 읽고 핵심 근거 2개 항목(정의(무릎 관절 일부를 인공 부품으로 교체, 고령에서 흔함); 대상 질환(연골이 닳는 질환, 무릎 골관절염이 가장 흔한 이유·다른 관절염·형성 이상))이 원문과 일치함을 확인해 verified로 올렸다. tier C 해외 환자용 자료이므로 국내 제도·급여 근거로 쓰지 않는다는 주의는 그대로다. 이용조건: MedlinePlus 'Linking to and Using Content from MedlinePlus' 안내(2026-10-17 확인)에 따르면 건강 주제 페이지의 요약(Summaries on health topic pages)은 미국 연방정부 저작물로 저작권이 없는 공공 영역이라 자유롭게 복제·재배포할 수 있고, 'Source: MedlinePlus, National Library of Medicine' 같은 출처 표기를 요청한다. 같은 사이트의 A.D.A.M. 의학백과, ASHP 약물 정보, 출처 표시 없는 이미지는 저작권 자료라 옮기지 않는다.
 ---
 
