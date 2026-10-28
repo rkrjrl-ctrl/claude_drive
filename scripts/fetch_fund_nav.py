@@ -73,6 +73,20 @@ def main():
     print(f"fund_nav.csv: 펀드 {len(codes)}개 중 {got}개 받음, {len(rows)}줄, 마지막 {max(d for d, _ in rows) if rows else '-'}")
     if failed:
         print("실패:", "; ".join(failed))
+    # 기준가가 오래 안 들어온 펀드(청산·이관 또는 수집 실패). 전체 최신일보다 7일 넘게 뒤처진 것
+    last = {}
+    for d, c in rows:
+        if d > last.get(c, ""):
+            last[c] = d
+    newest = max(last.values()) if last else ""
+    old = lambda d: (datetime.strptime(newest, "%Y-%m-%d") - datetime.strptime(d, "%Y-%m-%d")).days > 7
+    stale = sorted(f"{c} {codes.get(c, '')[:30]} (마지막 {last.get(c, '없음')})" for c in codes if c not in last or old(last[c]))
+    import status_note
+    status_note.append("펀드 기준가 (fund_nav.csv, 금융투자협회)", [
+        f"- 마지막 날짜: {newest or '-'} / 펀드 {len(codes)}개, {len(rows)}줄",
+        f"- 이번에 받기 실패: {len(failed)}개" + (" — " + "; ".join(f[:80] for f in failed[:10]) if failed else ""),
+        f"- 7일 넘게 기준가가 없는 펀드: {len(stale)}개" + ("".join(f"\n  - {x}" for x in stale[:20]) if stale else ""),
+    ])
 
 
 if __name__ == "__main__":

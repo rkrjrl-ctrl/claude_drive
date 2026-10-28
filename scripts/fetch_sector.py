@@ -75,6 +75,11 @@ def main():
     print(f"sector_daily.csv: {len(rows)}일, 마지막 {max(rows) if rows else '-'}")
     if failed:
         print("실패:", "; ".join(failed))
+    import status_note
+    status_note.append("섹터·지역 ETF (sector_daily.csv)", [
+        f"- 마지막 날짜: {max(rows) if rows else '-'}",
+        f"- 종목 {len(SYMBOLS)}개 중 실패 {len(failed)}개" + (": " + "; ".join(f[:80] for f in failed) if failed else ""),
+    ])
 
 
 if __name__ == "__main__":
