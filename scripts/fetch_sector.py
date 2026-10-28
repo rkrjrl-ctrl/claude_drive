@@ -68,7 +68,7 @@ def main():
         time.sleep(0.5)
     cols = list(SYMBOLS)
     with open(OUT, "w", newline="", encoding="utf-8") as f:
-        w = csv.writer(f)
+        w = csv.writer(f, lineterminator="\n")
         w.writerow(["date"] + cols)
         for d in sorted(rows):
             w.writerow([d] + [rows[d].get(c, "") for c in cols])
