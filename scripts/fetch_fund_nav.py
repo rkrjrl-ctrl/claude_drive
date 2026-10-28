@@ -2,7 +2,8 @@
 
 휴휴 펀드 대시보드가 엑셀을 못 받은 날의 펀드 평가액을 실제 기준가로 채울 때 쓴다.
 대상 펀드는 data/fund_codes.json(협회 표준코드 → 펀드 이름). 대시보드 폴더의 kofia_map.py가 새 펀드를 넣는다.
-파일 형식은 date,code,nav 세 칸(펀드가 늘어도 열이 바뀌지 않게).
+파일 형식은 date,code,nav,chg(펀드가 늘어도 열이 바뀌지 않게). chg는 협회의 전일대비 금액으로, 결산일에 기준가가
+1,000원으로 되돌아가도 그날의 실제 등락을 담고 있다. 기간 수익률은 nav/(nav-chg)를 날마다 곱해 구한다.
 
 python scripts/fetch_fund_nav.py            매일: 펀드마다 마지막 날짜 다음부터 오늘까지
 python scripts/fetch_fund_nav.py 20240101   처음 한 번: 그 날짜부터 전부(새 펀드도 이 날짜부터)
@@ -31,7 +32,7 @@ def navs(std, frm, to):
             if i == 4:
                 raise
             time.sleep(2 + i * 3)
-    return {f"{d[:4]}-{d[4:6]}-{d[6:]}": v for d, v in re.findall(r"<tmpV1>(\d{8})</tmpV1>\s*<tmpV2>([\d.]+)</tmpV2>", body)}
+    return {f"{d[:4]}-{d[4:6]}-{d[6:]}": (v, c) for d, v, c in re.findall(r"<tmpV1>(\d{8})</tmpV1>\s*<tmpV2>([\d.]+)</tmpV2>\s*(?:<tmpV3>([-\d.]*)</tmpV3>|<tmpV3\s*/>)", body)}
 
 
 def main():
@@ -41,7 +42,7 @@ def main():
     if os.path.exists(OUT):
         with open(OUT, newline="", encoding="utf-8") as f:
             for r in csv.DictReader(f):
-                rows[(r["date"], r["code"])] = r["nav"]
+                rows[(r["date"], r["code"])] = (r["nav"], r.get("chg") or "")
     last = {}
     for d, c in rows:
         if d > last.get(c, ""):
@@ -66,9 +67,9 @@ def main():
         time.sleep(0.3)  # 공시 서버에 부담 주지 않게
     with open(OUT, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f, lineterminator="\n")
-        w.writerow(["date", "code", "nav"])
+        w.writerow(["date", "code", "nav", "chg"])
         for d, c in sorted(rows, key=lambda k: (k[1], k[0])):
-            w.writerow([d, c, rows[(d, c)]])
+            w.writerow([d, c, *rows[(d, c)]])
     print(f"fund_nav.csv: 펀드 {len(codes)}개 중 {got}개 받음, {len(rows)}줄, 마지막 {max(d for d, _ in rows) if rows else '-'}")
     if failed:
         print("실패:", "; ".join(failed))
