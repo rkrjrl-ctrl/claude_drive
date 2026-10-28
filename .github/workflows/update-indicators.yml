@@ -30,6 +30,11 @@ jobs:
           REB_API_KEY: ${{ secrets.REB_API_KEY }}
         run: python scripts/fetch_indicators.py
 
+      # 휴휴 펀드 대시보드의 빈 날 추정용 섹터·지역 ETF(별도 파일). 실패해도 위 지표 수집은 그대로 진행한다.
+      - name: Fetch sector ETFs
+        continue-on-error: true
+        run: python scripts/fetch_sector.py
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
