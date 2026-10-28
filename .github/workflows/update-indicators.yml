@@ -35,6 +35,11 @@ jobs:
         continue-on-error: true
         run: python scripts/fetch_sector.py
 
+      # 휴휴 펀드 대시보드용 펀드 일별 기준가(금융투자협회 전자공시, data/fund_codes.json의 펀드만). 실패해도 진행.
+      - name: Fetch fund NAV
+        continue-on-error: true
+        run: python scripts/fetch_fund_nav.py
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
