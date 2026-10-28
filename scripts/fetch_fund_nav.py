@@ -35,7 +35,42 @@ def navs(std, frm, to):
     return {f"{d[:4]}-{d[4:6]}-{d[6:]}": (v, c) for d, v, c in re.findall(r"<tmpV1>(\d{8})</tmpV1>\s*<tmpV2>([\d.]+)</tmpV2>\s*(?:<tmpV3>([-\d.]*)</tmpV3>|<tmpV3\s*/>)", body)}
 
 
+def backfill(rows, path):
+    """data/fund_backfill.json({표준코드: YYYYMMDD})의 펀드만, 그 날짜부터 지금 기록의 첫날 전까지 과거 기준가를 더 받는다.
+    휴휴 대시보드가 고객의 첫 매수일부터 수익률을 보려고 쓴다(2026-10-29). 이미 받았으면 건너뜀."""
+    want = json.load(open(path, encoding="utf-8"))
+    first = {}
+    for d, c in rows:
+        if c not in first or d < first[c]:
+            first[c] = d
+    for std, frm in want.items():
+        end = (datetime.strptime(first[std], "%Y-%m-%d") - timedelta(days=1)).strftime("%Y%m%d") if std in first else datetime.now().strftime("%Y%m%d")
+        if frm > end:
+            continue
+        a = datetime.strptime(frm, "%Y%m%d")
+        while a.strftime("%Y%m%d") <= end:
+            b = min(a + timedelta(days=30), datetime.strptime(end, "%Y%m%d"))
+            for d, v in navs(std, a.strftime("%Y%m%d"), b.strftime("%Y%m%d")).items():
+                rows[(d, std)] = v
+            a = b + timedelta(days=1)
+            time.sleep(0.3)
+        print("과거 기준가:", std, frm, "~", end)
+
+
 def main():
+    if len(sys.argv) > 2 and sys.argv[1] == "--backfill":
+        rows = {}
+        with open(OUT, newline="", encoding="utf-8") as f:
+            for r in csv.DictReader(f):
+                rows[(r["date"], r["code"])] = (r["nav"], r.get("chg") or "")
+        backfill(rows, sys.argv[2])
+        with open(OUT, "w", newline="", encoding="utf-8") as f:
+            w = csv.writer(f, lineterminator="\n")
+            w.writerow(["date", "code", "nav", "chg"])
+            for d, c in sorted(rows, key=lambda k: (k[1], k[0])):
+                w.writerow([d, c, *rows[(d, c)]])
+        print(f"fund_nav.csv: {len(rows)}줄")
+        return
     start = sys.argv[1] if len(sys.argv) > 1 else None
     codes = json.load(open(CODES, encoding="utf-8"))
     rows = {}  # (date, code) -> nav
