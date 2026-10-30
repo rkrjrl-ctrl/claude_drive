@@ -1,0 +1,56 @@
+name: Collect housing notices
+
+# 청약홈 분양정보·경쟁률·가점, LH 공고, 공공서비스(지원 제도) 수집
+on:
+  schedule:
+    - cron: "20 0 * * *" # 매일 09:20 KST
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "일부만 받기 (applyhome,lh,gov24 중 쉼표로). 비우면 전부"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-housing
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch housing data
+        env:
+          DATA_GO_KR_API_KEY: ${{ secrets.DATA_GO_KR_API_KEY }}
+          HOUSING_ONLY: ${{ github.event.inputs.only }}
+        run: |
+          if [ -z "$DATA_GO_KR_API_KEY" ]; then
+            echo "DATA_GO_KR_API_KEY 가 아직 없어 건너뜁니다."
+            exit 0
+          fi
+          python scripts/fetch_housing.py
+
+      # 일부가 실패해도 받은 것은 저장한다
+      - name: Commit and push if changed
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/housing 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No housing changes, skipping commit."
+          else
+            git commit -m "housing: 청약·LH·지원 제도 $(TZ=Asia/Seoul date +%F)"
+            git pull --rebase
+            git push
+          fi
