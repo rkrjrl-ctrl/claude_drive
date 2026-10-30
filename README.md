@@ -119,11 +119,22 @@ Pages URL: **Settings → Pages**에서 확인하거나, 저장소의 About 섹�
 | `applyhome_apt_score.csv` | APT 당첨 가점 (최저·최고·평균) | 〃 |
 | `lh_notices.csv` | LH 분양·임대 공고 (행복·국민·매입·전세임대 등) | 한국토지주택공사 분양임대공고문 |
 | `gov24_services.csv` | 정부·지자체 지원 제도 전체 (청년·주거 포함) | 행정안전부 공공서비스(혜택) 정보 |
+| `myhome_rent.csv` / `myhome_sale.csv` | 공공임대·공공분양 모집공고 (보증금·월세·모집 기간) | 국토부 마이홈포털 (LH·지방공사, **SH는 없음**) |
+| `seoul_youth_housing.csv` | 서울 청년안심주택 모집공고 (공공·민간, 최초·추가) | soco.seoul.go.kr 목록 데이터 (키 없음) |
 
 - 공고는 공고 번호별로 한 줄. `first_seen`은 처음 받은 날, `last_changed`는 내용이 마지막으로 바뀐 날이다. 정정 공고나 경쟁률·가점 발표를 따라잡으려고 최근 60일치는 매일 다시 받는다.
 - 처음 만들 때 2026-01-01부터 거슬러 받았다 (`HOUSING_BACKFILL_FROM`으로 바꿀 수 있음).
 - Actions에서 손으로 돌릴 때 `only`에 `applyhome,lh,gov24` 중 일부만 적으면 그것만 받는다.
-- SH 공고는 이 API들에 없다 (SH 사이트에만 있음).
+- SH 임대 공고(행복주택·장기전세·국민임대)는 어느 API에도 없고, SH 사이트(i-sh.co.kr)는 프로그램 접속을 막아 두어 자동 수집하지 않는다. SH 분양 공고는 청약홈 수집에 들어온다.
+
+## 아파트 실거래가 (2026-10 추가)
+
+국토부 실거래가 API로 전국 시군구 아파트 매매·전월세를 매일 09:40 KST에 받는다 (`scripts/fetch_trades.py`, 워크플로 `Collect apartment trades`, 키는 `DATA_GO_KR_API_KEY`).
+
+- `data/trades/apt_trade/YYYY-MM.csv`, `data/trades/apt_rent/YYYY-MM.csv`: 거래(계약) 월별 전국 파일. 금액 단위는 만원. `지역` 열은 시군구 이름.
+- 신고 기한이 계약 후 30일이라 최근 3개월은 매일 통째로 다시 받는다. 처음엔 2026-01부터 거슬러 받았다 (`TRADES_BACKFILL_FROM`).
+- 시군구 코드는 행정안전부 법정동코드 API에서 받아 `data/ref/lawd_sgg.csv`에 두고 30일마다 새로 받는다. 구가 있는 시는 구 단위로 받는다.
+- 한 달치에서 실패한 시군구가 있으면 그 달 파일은 덮어쓰지 않고 그대로 둔다.
 
 ## 의료 근거자료
 
