@@ -8,7 +8,8 @@
 - 행정안전부 대한민국 공공서비스(혜택) 목록 (청년·주거 지원 제도 포함)
 
 공고는 공고 번호별로 한 줄씩 남기고, 내용이 바뀌면 그 줄을 고친다.
-처음 본 날(first_seen)과 마지막으로 본 날(last_seen)을 함께 적는다.
+처음 본 날(first_seen)과 내용이 마지막으로 바뀐 날(last_changed)을 함께 적는다.
+그대로인 줄은 손대지 않아 매일 기록이 불필요하게 커지지 않는다.
 한 API가 실패해도 나머지는 계속 받고, 실패한 것은 마지막에 모아 알린다.
 """
 
@@ -48,6 +49,10 @@ NOTICE_KINDS = [
 
 failures = []
 
+META = ("first_seen", "last_changed", "last_seen")
+# 매일 바뀌어 기록만 키우는 열
+VOLATILE = {"조회수"}
+
 
 def log(msg):
     print(msg, flush=True)
@@ -80,7 +85,15 @@ def load(path):
     if not path.exists():
         return []
     with open(path, encoding="utf-8-sig", newline="") as f:
-        return list(csv.DictReader(f))
+        rows = list(csv.DictReader(f))
+    for r in rows:
+        # 예전 형식(last_seen) 정리
+        old_seen = r.pop("last_seen", None)
+        if "last_changed" not in r or not r["last_changed"]:
+            r["last_changed"] = r.get("first_seen") or old_seen or ""
+        for c in VOLATILE:
+            r.pop(c, None)
+    return rows
 
 
 def save(path, rows, sort_keys):
@@ -91,7 +104,7 @@ def save(path, rows, sort_keys):
             if k not in cols:
                 cols.append(k)
     # 보기 좋게: 날짜 열은 맨 뒤
-    for c in ("first_seen", "last_seen"):
+    for c in ("first_seen", "last_changed"):
         if c in cols:
             cols.remove(c)
             cols.append(c)
@@ -101,11 +114,18 @@ def save(path, rows, sort_keys):
     w.writeheader()
     for r in rows:
         w.writerow({c: ("" if r.get(c) is None else r.get(c)) for c in cols})
-    path.write_text(buf.getvalue(), encoding="utf-8-sig")
+    # newline="" : 윈도우에서도 줄바꿈을 바꾸지 않게
+    with open(path, "w", encoding="utf-8-sig", newline="") as f:
+        f.write(buf.getvalue())
 
 
 def clean(row):
-    return {k: ("" if v is None else str(v).strip()) for k, v in row.items()}
+    return {k: ("" if v is None else str(v).replace("\r\n", "\n").strip())
+            for k, v in row.items() if k not in VOLATILE}
+
+
+def body(row):
+    return {k: v for k, v in row.items() if k not in META and v}
 
 
 def upsert(path, new_rows, keys, sort_keys):
@@ -119,15 +139,14 @@ def upsert(path, new_rows, keys, sort_keys):
             continue
         prev = old.get(key)
         if prev is None:
-            r["first_seen"] = today
+            r["first_seen"] = r["last_changed"] = today
             added += 1
-        else:
+        elif body(prev) != body(r):
             r["first_seen"] = prev.get("first_seen") or today
-            body_old = {k: v for k, v in prev.items() if k not in ("first_seen", "last_seen")}
-            body_new = {k: v for k, v in r.items() if k not in ("first_seen", "last_seen")}
-            if {k: v for k, v in body_old.items() if v} != {k: v for k, v in body_new.items() if v}:
-                changed += 1
-        r["last_seen"] = today
+            r["last_changed"] = today
+            changed += 1
+        else:
+            continue  # 그대로면 예전 줄을 그대로 둔다
         old[key] = r
     save(path, list(old.values()), sort_keys)
     return added, changed
@@ -138,17 +157,31 @@ def replace_children(path, parent_key, parent_ids, new_rows, sort_keys):
     today = TODAY.isoformat()
     parent_ids = set(parent_ids)
     old = load(path)
-    first = {}
+    by_parent = {}
     for r in old:
-        first.setdefault(r.get(parent_key, ""), r.get("first_seen") or today)
-    kept = [r for r in old if r.get(parent_key, "") not in parent_ids]
-    fresh = []
+        by_parent.setdefault(r.get(parent_key, ""), []).append(r)
+    new_by_parent = {}
     for r in map(clean, new_rows):
-        r["first_seen"] = first.get(r.get(parent_key, ""), today)
-        r["last_seen"] = today
-        fresh.append(r)
-    save(path, kept + fresh, sort_keys)
-    return len(fresh)
+        new_by_parent.setdefault(r.get(parent_key, ""), []).append(r)
+
+    def sig(rows):
+        return sorted(json.dumps(body(r), sort_keys=True, ensure_ascii=False) for r in rows)
+
+    out = [r for r in old if r.get(parent_key, "") not in parent_ids]
+    n = 0
+    for pid in parent_ids:
+        prev, cur = by_parent.get(pid, []), new_by_parent.get(pid, [])
+        if sig(prev) == sig(cur):
+            out += prev  # 그대로면 손대지 않는다
+            continue
+        first = prev[0].get("first_seen") if prev else today
+        for r in cur:
+            r["first_seen"] = first or today
+            r["last_changed"] = today
+        out += cur
+        n += 1
+    save(path, out, sort_keys)
+    return n
 
 
 # ---------- 청약홈 (odcloud) ----------
@@ -211,7 +244,7 @@ def collect_children(key, apt_ids):
         for r in rows:
             r["HOUSE_MANAGE_NO"] = str(r.get("HOUSE_MANAGE_NO", ""))
         n = replace_children(DATA / fname, "HOUSE_MANAGE_NO", ok_ids, rows, ["HOUSE_MANAGE_NO"])
-        log(f"[청약홈 {label}] 공고 {len(ok_ids)}개, {n}줄")
+        log(f"[청약홈 {label}] 공고 {len(ok_ids)}개 확인, 바뀐 공고 {n}개 ({len(rows)}줄)")
 
 
 # ---------- LH ----------

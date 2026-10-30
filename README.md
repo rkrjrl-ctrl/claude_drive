@@ -103,6 +103,28 @@ Pages URL: **Settings → Pages**에서 확인하거나, 저장소의 About 섹�
 - 키: https://finlife.fss.or.kr 오픈 API에서 발급받아 저장소 Secret `FSS_API_KEY`로 등록한다. 키가 없으면 워크플로는 건너뛰고 성공으로 끝난다.
 - 로컬 실행: `FSS_API_KEY=발급받은키 python scripts/fetch_rates.py`
 
+## 청약·LH 공고·지원 제도 (2026-10 추가)
+
+공공데이터포털 키 하나(Secret `DATA_GO_KR_API_KEY`)로 매일 09:20 KST에 받는다 (`scripts/fetch_housing.py`, 워크플로 `Collect housing notices`).
+
+| 파일 (`data/housing/`) | 내용 | 출처 |
+|---|---|---|
+| `applyhome_apt.csv` | APT 분양 공고 (접수일·발표일·주소) | 한국부동산원 청약홈 분양정보 |
+| `applyhome_remndr.csv` | APT 무순위·잔여세대 | 〃 |
+| `applyhome_urbty.csv` | 오피스텔·도시형·민간임대 | 〃 |
+| `applyhome_pblpvt.csv` | 공공지원 민간임대 | 〃 |
+| `applyhome_opt.csv` | 임의공급 | 〃 |
+| `applyhome_apt_models.csv` | APT 주택형별 공급 세대·분양가 | 〃 |
+| `applyhome_apt_competition.csv` | APT 순위·지역별 경쟁률 | 청약홈 경쟁률 |
+| `applyhome_apt_score.csv` | APT 당첨 가점 (최저·최고·평균) | 〃 |
+| `lh_notices.csv` | LH 분양·임대 공고 (행복·국민·매입·전세임대 등) | 한국토지주택공사 분양임대공고문 |
+| `gov24_services.csv` | 정부·지자체 지원 제도 전체 (청년·주거 포함) | 행정안전부 공공서비스(혜택) 정보 |
+
+- 공고는 공고 번호별로 한 줄. `first_seen`은 처음 받은 날, `last_changed`는 내용이 마지막으로 바뀐 날이다. 정정 공고나 경쟁률·가점 발표를 따라잡으려고 최근 60일치는 매일 다시 받는다.
+- 처음 만들 때 2026-01-01부터 거슬러 받았다 (`HOUSING_BACKFILL_FROM`으로 바꿀 수 있음).
+- Actions에서 손으로 돌릴 때 `only`에 `applyhome,lh,gov24` 중 일부만 적으면 그것만 받는다.
+- SH 공고는 이 API들에 없다 (SH 사이트에만 있음).
+
 ## 의료 근거자료
 
 영상 제작용 의료·치료비 근거자료는 [`medical/`](medical/README.md)에서 관리한다. (경제 지표 수집과는 별개)
