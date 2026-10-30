@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       only:
-        description: "일부만 받기 (applyhome,lh,gov24 중 쉼표로). 비우면 전부"
+        description: "일부만 받기 (applyhome,lh,gov24,myhome,youth 중 쉼표로). 비우면 전부"
         required: false
         default: ""
 

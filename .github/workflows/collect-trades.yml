@@ -1,0 +1,56 @@
+name: Collect apartment trades
+
+# 국토부 아파트 매매·전월세 실거래가 (전국 시군구, 최근 3개월 매일 갱신)
+on:
+  schedule:
+    - cron: "40 0 * * *" # 매일 09:40 KST
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "일부만 받기 (apt_trade,apt_rent 중 쉼표로). 비우면 전부"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-trades
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch trades
+        env:
+          DATA_GO_KR_API_KEY: ${{ secrets.DATA_GO_KR_API_KEY }}
+          TRADES_ONLY: ${{ github.event.inputs.only }}
+        run: |
+          if [ -z "$DATA_GO_KR_API_KEY" ]; then
+            echo "DATA_GO_KR_API_KEY 가 아직 없어 건너뜁니다."
+            exit 0
+          fi
+          python scripts/fetch_trades.py
+
+      # 일부 달이 실패해도 받은 달은 저장한다
+      - name: Commit and push if changed
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/trades data/ref 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No trade changes, skipping commit."
+          else
+            git commit -m "trades: 아파트 실거래가 $(TZ=Asia/Seoul date +%F)"
+            git pull --rebase
+            git push
+          fi

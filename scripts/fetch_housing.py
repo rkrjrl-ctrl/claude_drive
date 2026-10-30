@@ -6,6 +6,8 @@
 - 청약홈 주택형별 분양가 (APT), 청약 경쟁률·당첨 가점 (APT)
 - LH 분양·임대 공고
 - 행정안전부 대한민국 공공서비스(혜택) 목록 (청년·주거 지원 제도 포함)
+- 국토부 마이홈포털 공공임대·공공분양 모집공고 (SH·GH·지방공사 공고 포함)
+- 서울시 청년안심주택 모집공고 (키 없이, 사이트가 쓰는 목록 데이터)
 
 공고는 공고 번호별로 한 줄씩 남기고, 내용이 바뀌면 그 줄을 고친다.
 처음 본 날(first_seen)과 내용이 마지막으로 바뀐 날(last_changed)을 함께 적는다.
@@ -51,7 +53,7 @@ failures = []
 
 META = ("first_seen", "last_changed", "last_seen")
 # 매일 바뀌어 기록만 키우는 열
-VOLATILE = {"조회수"}
+VOLATILE = {"조회수", "inqireCo"}
 
 
 def log(msg):
@@ -297,6 +299,141 @@ def collect_gov24(key):
     log(f"[공공서비스] {len(rows)}건 받음 (새 제도 {a}, 바뀜 {c})")
 
 
+# ---------- 마이홈포털 (SH·GH·LH 등 공공임대·분양 공고) ----------
+
+def xml_to_obj(text):
+    import xml.etree.ElementTree as ET
+
+    def conv(el):
+        kids = list(el)
+        if not kids:
+            return (el.text or "").strip()
+        out = {}
+        for k in kids:
+            v = conv(k)
+            if k.tag in out:
+                if not isinstance(out[k.tag], list):
+                    out[k.tag] = [out[k.tag]]
+                out[k.tag].append(v)
+            elif k.tag == "item":
+                out[k.tag] = [v]
+            else:
+                out[k.tag] = v
+        return out
+
+    return conv(ET.fromstring(text))
+
+
+def get_any(url, params):
+    """JSON 이든 XML 이든 dict 로 돌려준다. 오류 응답이면 결과 코드를 담아 예외."""
+    body = get(url, params, as_json=False)
+    s = body.lstrip()
+    obj = json.loads(s) if s[:1] in "{[" else xml_to_obj(s)
+    code = None
+    def walk(o):
+        nonlocal code
+        if isinstance(o, dict):
+            for k, v in o.items():
+                if k in ("resultCode", "returnReasonCode") and isinstance(v, str):
+                    code = code or (k, v, o.get("resultMsg") or o.get("returnAuthMsg") or "")
+                walk(v)
+    walk(obj)
+    # 00/000 정상, 03 데이터 없음, INFO-0 정상·INFO-3 데이터 없음(행정표준코드)
+    if code and code[1] not in ("00", "000", "0", "03", "INFO-0", "INFO-000", "INFO-3", "INFO-200"):
+        raise RuntimeError(f"API 오류 {code[1]}: {code[2]}")
+    return obj
+
+
+def find_items(obj):
+    """응답 어디에 있든 item 목록을 찾아 꺼낸다."""
+    if isinstance(obj, dict):
+        for k in ("item", "items"):
+            v = obj.get(k)
+            if isinstance(v, list):
+                return v
+            if isinstance(v, dict):
+                inner = find_items(v)
+                return inner if inner is not None else [v]
+        for v in obj.values():
+            r = find_items(v)
+            if r is not None:
+                return r
+    return None
+
+
+def total_count(obj):
+    if isinstance(obj, dict):
+        for k, v in obj.items():
+            if k.lower() == "totalcount":
+                return int(v or 0)
+            r = total_count(v)
+            if r is not None:
+                return r
+    return None
+
+
+def collect_myhome(key):
+    base = "https://apis.data.go.kr/1613000/HWSPR02/"
+    for name, ep, label in (("myhome_rent", "rsdtRcritNtcList", "마이홈 공공임대 공고"),
+                            ("myhome_sale", "ltRsdtRcritNtcList", "마이홈 공공분양 공고")):
+        path = DATA / f"{name}.csv"
+        start = (TODAY - timedelta(days=WINDOW_DAYS)) if path.exists() else datetime.strptime(BACKFILL_FROM, "%Y-%m-%d").date()
+        rows, page = [], 1
+        try:
+            while True:
+                res = get_any(base + ep, {"serviceKey": key, "numOfRows": 500, "pageNo": page,
+                                      "yearMtBegin": start.strftime("%Y%m"), "yearMtEnd": TODAY.strftime("%Y%m")})
+                items = find_items(res) or []
+                rows += items
+                total = total_count(res) or 0
+                if not items or page * 500 >= total:
+                    break
+                page += 1
+        except Exception as e:
+            failures.append(f"{label}: {e}")
+            log(f"[실패] {label}: {e}")
+            continue
+        a, c = upsert(path, rows, ["pblancId", "houseSn"], ["rcritPblancDe", "pblancId"])
+        sh = sum(1 for r in rows if "서울주택" in str(r.get("suplyInsttNm", "")))
+        log(f"[{label}] {start:%Y-%m}부터 {len(rows)}건 받음, SH {sh}건 (새 공고 {a}, 바뀜 {c})")
+
+
+# ---------- 서울 청년안심주택 ----------
+
+def collect_youth():
+    path = DATA / "seoul_youth_housing.csv"
+    url = "https://soco.seoul.go.kr/youth/pgm/home/yohome/bbsListJson.json"
+    max_pages = 3 if path.exists() else 200
+    rows = []
+    try:
+        for page in range(1, max_pages + 1):
+            data = urllib.parse.urlencode({"bbsId": "BMSR00015", "pageIndex": page}).encode()
+            req = urllib.request.Request(url, data=data, headers={"User-Agent": "claude_drive housing (python urllib)"})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                res = json.loads(r.read().decode("utf-8"))
+            lst = res.get("resultList") or []
+            for x in lst:
+                rows.append({
+                    "boardId": x.get("boardId"),
+                    "공고명": x.get("nttSj"),
+                    "공고일": x.get("optn1"),
+                    "구분": {"1": "공공", "2": "민간"}.get(str(x.get("optn2")), x.get("optn2")),
+                    "모집": {"1": "최초", "2": "추가"}.get(str(x.get("optn5")), x.get("optn5")),
+                    "사업자": x.get("optn3"),
+                    "청약일": x.get("optn4"),
+                    "링크": f"https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId={x.get('boardId')}&menuNo=400008",
+                })
+            if page >= int(res.get("pagingInfo", {}).get("totPage") or 0) or not lst:
+                break
+            time.sleep(0.5)
+    except Exception as e:
+        failures.append(f"청년안심주택: {e}")
+        log(f"[실패] 청년안심주택: {e}")
+        return
+    a, c = upsert(path, rows, ["boardId"], ["공고일", "boardId"])
+    log(f"[청년안심주택] {len(rows)}건 받음 (새 공고 {a}, 바뀜 {c})")
+
+
 def main():
     key = os.environ.get("DATA_GO_KR_API_KEY", "").strip()
     if not key:
@@ -309,6 +446,10 @@ def main():
         collect_lh(key)
     if not only or "gov24" in only:
         collect_gov24(key)
+    if not only or "myhome" in only:
+        collect_myhome(key)
+    if not only or "youth" in only:
+        collect_youth()
 
     if failures:
         log("\n실패한 항목:\n- " + "\n- ".join(failures))
