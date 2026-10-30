@@ -1,0 +1,49 @@
+name: Collect FSS rates
+
+# 금감원 「금융상품 한눈에」 예적금·대출 공시 금리 수집
+on:
+  schedule:
+    - cron: "0 0 * * *" # 매일 09:00 KST
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-rates
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch rates
+        env:
+          FSS_API_KEY: ${{ secrets.FSS_API_KEY }}
+        run: |
+          if [ -z "$FSS_API_KEY" ]; then
+            echo "FSS_API_KEY 가 아직 없어 건너뜁니다."
+            exit 0
+          fi
+          python scripts/fetch_rates.py
+
+      # 일부 상품이 실패해도 받은 것은 저장한다
+      - name: Commit and push if changed
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/rates 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No rate changes, skipping commit."
+          else
+            git commit -m "rates: 공시 금리 $(TZ=Asia/Seoul date +%F)"
+            git pull --rebase
+            git push
+          fi
