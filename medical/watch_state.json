@@ -1,5 +1,5 @@
 {
- "pubmed_since": "2026-10-30",
+ "pubmed_since": "2026-10-31",
  "urls": {
   "https://cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=4373&menu_seq=4394": {
    "err": null,
@@ -17,7 +17,7 @@
   },
   "https://cdn.medsoft.co.kr/309/data/recom/11/11차진료권고안.pdf": {
    "err": "UnicodeEncodeError: 'ascii' codec can't encode characters in position 25-30: ordinal not in range(12",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
@@ -30,7 +30,7 @@
   },
   "https://common.health.kr/shared/docs/healthkr/boh_result/평가결과_여보이주((유)한국비엠에스제약).pdf": {
    "err": "UnicodeEncodeError: 'ascii' codec can't encode characters in position 37-40: ordinal not in range(12",
-   "fails": 14,
+   "fails": 15,
    "hash": null,
    "pending": null
   },
@@ -55,14 +55,16 @@
   "https://consumer.knia.or.kr/disclosure/item/01.do": {
    "err": null,
    "fails": 0,
-   "hash": "38c72f3c3d99bbe5",
-   "pending": "52df5c4ca924dc9a"
+   "hash": "52df5c4ca924dc9a",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://consumer.knia.or.kr/disclosure/item/09.do": {
    "err": null,
    "fails": 0,
-   "hash": "f7477768b543f2b1",
-   "pending": "668cfdbdf263517b"
+   "hash": "668cfdbdf263517b",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://diabetes.or.kr/bbs/download.php?code=guide&number=1522": {
    "err": null,
@@ -99,154 +101,154 @@
    "err": null,
    "fails": 0,
    "hash": "18547094271c88b9",
-   "pending": "40f3a024d8f43aff",
+   "pending": "0bb36bfa2846ceca",
    "since": "2026-10-29"
   },
   "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=1746": {
    "err": null,
    "fails": 0,
    "hash": "67a7b18b0dc9bc90",
-   "pending": "b2ee5f2b59ad58e6",
+   "pending": "52e1ab4b75982b4f",
    "since": "2026-10-29"
   },
   "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=2607": {
    "err": null,
    "fails": 0,
    "hash": "ac7179793b7387c1",
-   "pending": "18421357bb4d6020",
+   "pending": "12845d76befeff26",
    "since": "2026-10-29"
   },
   "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=3828": {
    "err": null,
    "fails": 0,
    "hash": "74ec4c4b30f3ce03",
-   "pending": "f70c3a6379ad5587",
+   "pending": "c11a789b6df899d6",
    "since": "2026-10-29"
   },
   "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5305": {
    "err": null,
    "fails": 0,
    "hash": "a03686a155ac6d79",
-   "pending": "b989d954ef53d821",
+   "pending": "19bfe0081c394911",
    "since": "2026-10-29"
   },
   "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5457": {
    "err": null,
    "fails": 0,
    "hash": "b6ccadcd96181c52",
-   "pending": "716f6f5e2a9c8c89",
+   "pending": "8f6f3f32a95214b7",
    "since": "2026-10-29"
   },
   "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5495": {
    "err": null,
    "fails": 0,
    "hash": "2a36dac97f3d38c0",
-   "pending": "ef5fb9901cdd24aa",
+   "pending": "b1fc82b5a6d8f4d4",
    "since": "2026-10-29"
   },
   "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5809": {
    "err": null,
    "fails": 0,
    "hash": "8ce245d61459784e",
-   "pending": "5d2f39170a448704",
+   "pending": "27324bb8260098d3",
    "since": "2026-10-29"
   },
   "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5856": {
    "err": null,
    "fails": 0,
    "hash": "d0d819c90cb97d97",
-   "pending": "e8ee9890b9b12fa1",
+   "pending": "b914509480ac2c24",
    "since": "2026-10-29"
   },
   "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6474": {
    "err": null,
    "fails": 0,
    "hash": "46d0100de8d4cdd7",
-   "pending": "d3f320c9391c2796",
+   "pending": "424333917af1895c",
    "since": "2026-10-29"
   },
   "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6536": {
    "err": null,
    "fails": 0,
    "hash": "a3f3f39094128b0c",
-   "pending": "3953e779ce4786ac",
+   "pending": "103a091c93098043",
    "since": "2026-10-29"
   },
   "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6560": {
    "err": null,
    "fails": 0,
    "hash": "84205d941b8972bc",
-   "pending": "f0fe63f1ca853c9a",
+   "pending": "a0acc6300c90af4e",
    "since": "2026-10-29"
   },
   "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6561": {
    "err": null,
    "fails": 0,
    "hash": "d48c47df2d333e29",
-   "pending": "2e45e81d813acf54",
+   "pending": "f45021b5d75fd676",
    "since": "2026-10-29"
   },
   "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6566": {
    "err": null,
    "fails": 0,
    "hash": "178fb3f73324da33",
-   "pending": "ad60dcfca4d36251",
+   "pending": "a469a31a8c28eb45",
    "since": "2026-10-29"
   },
   "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6567": {
    "err": null,
    "fails": 0,
    "hash": "926934a600f3f79e",
-   "pending": "105aba48cf16e01d",
+   "pending": "1b8ff3569defc47f",
    "since": "2026-10-29"
   },
   "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6713": {
    "err": null,
    "fails": 0,
    "hash": "444ea80a8d8ca7e5",
-   "pending": "b9de71df6855081b",
+   "pending": "50ce2a02f38a552f",
    "since": "2026-10-29"
   },
   "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6715": {
    "err": null,
    "fails": 0,
    "hash": "cb179054f37054ad",
-   "pending": "ae4e89733578121c",
+   "pending": "57c46c3c964b4756",
    "since": "2026-10-29"
   },
   "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6765": {
    "err": null,
    "fails": 0,
    "hash": "21a785fca30f76e5",
-   "pending": "10c57ed5f6f9b08c",
+   "pending": "1c76e98d7086bce5",
    "since": "2026-10-29"
   },
   "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6770": {
    "err": null,
    "fails": 0,
    "hash": "1238be861f800916",
-   "pending": "2b85716ae36f870d",
+   "pending": "613ba3f529182802",
    "since": "2026-10-29"
   },
   "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6771": {
    "err": null,
    "fails": 0,
    "hash": "4108abae41b2211b",
-   "pending": "e177994500fc8a95",
+   "pending": "6d1712ddc0ea9554",
    "since": "2026-10-29"
   },
   "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6784": {
    "err": null,
    "fails": 0,
    "hash": "4243bdc3d5c12bbb",
-   "pending": "cabda7a022005f5d",
+   "pending": "46cae427ba293df5",
    "since": "2026-10-29"
   },
   "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6858": {
    "err": null,
    "fails": 0,
    "hash": "4465f724898fb893",
-   "pending": "b9fd61b0083af2ed",
+   "pending": "8ed2db3224faffb4",
    "since": "2026-10-29"
   },
   "https://hospice.go.kr:8444/?menuno=10": {
@@ -257,55 +259,55 @@
   },
   "https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=1": {
    "err": "UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12",
-   "fails": 14,
+   "fails": 15,
    "hash": null,
    "pending": null
   },
   "https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=2": {
    "err": "UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12",
-   "fails": 14,
+   "fails": 15,
    "hash": null,
    "pending": null
   },
   "https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=3": {
    "err": "UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12",
-   "fails": 14,
+   "fails": 15,
    "hash": null,
    "pending": null
   },
   "https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=4": {
    "err": "UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12",
-   "fails": 14,
+   "fails": 15,
    "hash": null,
    "pending": null
   },
   "https://incos.kidi.or.kr:5443/insLife/selStattbleDetail.do?part=stattbl10080": {
    "err": "HTTPError: HTTP Error 400: Bad Request",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
   "https://incos.kidi.or.kr:5443/insLife/selStattbleDetail.do?part=stattbl10140": {
    "err": "HTTPError: HTTP Error 400: Bad Request",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
   "https://incos.kidi.or.kr:5443/insLife/selStattbleDetail.do?part=stattbl10150": {
    "err": "HTTPError: HTTP Error 400: Bad Request",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://incos.kidi.or.kr:5443/insLife/selStattbleDetail.do?part=stattbl10160": {
    "err": "HTTPError: HTTP Error 400: Bad Request",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://incos.kidi.or.kr:5443/insLife/selStattbleDetail.do?part=stattbl10170": {
    "err": "HTTPError: HTTP Error 400: Bad Request",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
@@ -319,43 +321,43 @@
    "err": null,
    "fails": 0,
    "hash": "2377c2d6aa0e7332",
-   "pending": "96066a6f85ce413f"
+   "pending": "b517b31966ebe908"
   },
   "https://jkma.org/journal/view.php?number=3484": {
    "err": null,
    "fails": 0,
    "hash": "7a526e9d71562dd0",
-   "pending": "f238d0c72ed84826"
+   "pending": "c17081d1a76a73a1"
   },
   "https://jkma.org/journal/view.php?number=3519": {
    "err": null,
    "fails": 0,
    "hash": "6f92b0aefe4258ea",
-   "pending": "26c72bf63aedb53e"
+   "pending": "00658ab7d2884b01"
   },
   "https://jkma.org/journal/view.php?number=3520": {
    "err": null,
    "fails": 0,
    "hash": "26522583ac596d12",
-   "pending": "adad5638661645ac"
+   "pending": "c31f0e070665524d"
   },
   "https://jkma.org/journal/view.php?number=3521": {
    "err": null,
    "fails": 0,
    "hash": "927552687c57095c",
-   "pending": "fbc71b41aa424cf6"
+   "pending": "f3cd6df48b5b93f2"
   },
   "https://jkma.org/journal/view.php?number=3522": {
    "err": null,
    "fails": 0,
    "hash": "92bf8b1060072339",
-   "pending": "cd537f7d4bce7cae"
+   "pending": "f8566515361494b1"
   },
   "https://jkma.org/journal/view.php?number=3523": {
    "err": null,
    "fails": 0,
    "hash": "b17f05b6d62d3b83",
-   "pending": "ba98cc93ce2c9d8c"
+   "pending": "ad0ca8ca3f537fca"
   },
   "https://kcdcode.kr/mobile/index/33?type=list&code=C78&firstLevel=0&flag=0": {
    "err": null,
@@ -601,7 +603,7 @@
    "err": null,
    "fails": 0,
    "hash": "7138837ea4a0bcec",
-   "pending": "d6ebc131736dfacd"
+   "pending": "2825b2478bebe3ed"
   },
   "https://medlineplus.gov/acuteflaccidmyelitis.html": {
    "err": null,
@@ -613,7 +615,7 @@
    "err": null,
    "fails": 0,
    "hash": "f6f58bcaa0ebb2bd",
-   "pending": null,
+   "pending": "3bb19ec12c36ad38",
    "since": "2026-10-30"
   },
   "https://medlineplus.gov/acutemyeloidleukemia.html": {
@@ -625,15 +627,15 @@
   "https://medlineplus.gov/adrenalglanddisorders.html": {
    "err": null,
    "fails": 0,
-   "hash": "6f1214bc2809674f",
-   "pending": "148c439ad93b1fe9",
-   "since": "2026-10-25"
+   "hash": "148c439ad93b1fe9",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/alpha1antitrypsindeficiency.html": {
    "err": null,
    "fails": 0,
    "hash": "8a66d7e347b87f3c",
-   "pending": null,
+   "pending": "15cf7129df1f3e3e",
    "since": "2026-10-21"
   },
   "https://medlineplus.gov/alzheimerscaregivers.html": {
@@ -682,7 +684,7 @@
    "err": null,
    "fails": 0,
    "hash": "72c82fdf458cd8ab",
-   "pending": null,
+   "pending": "9fa8149899c76188",
    "since": "2026-10-30"
   },
   "https://medlineplus.gov/aorticaneurysm.html": {
@@ -703,7 +705,7 @@
    "err": null,
    "fails": 0,
    "hash": "2760e5e5ef3e4487",
-   "pending": null,
+   "pending": "f3634879b4006d64",
    "since": "2026-10-29"
   },
   "https://medlineplus.gov/arteriovenousmalformations.html": {
@@ -716,21 +718,21 @@
    "err": null,
    "fails": 0,
    "hash": "b8e868e952010594",
-   "pending": null,
+   "pending": "3c2d54f0c00265e1",
    "since": "2026-10-29"
   },
   "https://medlineplus.gov/asthma.html": {
    "err": null,
    "fails": 0,
    "hash": "82b1a61c5dbef0c8",
-   "pending": "ca3dac85c7eeed4d",
+   "pending": "5b96b884b78c657b",
    "since": "2026-10-29"
   },
   "https://medlineplus.gov/asthmainchildren.html": {
    "err": null,
    "fails": 0,
    "hash": "539c6803aaa62d18",
-   "pending": null
+   "pending": "16ce146f1258edac"
   },
   "https://medlineplus.gov/atherosclerosis.html": {
    "err": null,
@@ -756,8 +758,9 @@
   "https://medlineplus.gov/bipolardisorder.html": {
    "err": null,
    "fails": 0,
-   "hash": "4ba596232925f5bf",
-   "pending": "275e22d22a5ba557"
+   "hash": "275e22d22a5ba557",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/birdflu.html": {
    "err": null,
@@ -769,9 +772,9 @@
   "https://medlineplus.gov/bloodclots.html": {
    "err": null,
    "fails": 0,
-   "hash": "189d1c6df6231528",
-   "pending": "c45de399472583f9",
-   "since": "2026-10-25"
+   "hash": "c45de399472583f9",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/bloodglucose.html": {
    "err": null,
@@ -783,9 +786,9 @@
   "https://medlineplus.gov/bloodpressuremedicines.html": {
    "err": null,
    "fails": 0,
-   "hash": "b7ca0eff761a05b3",
-   "pending": "d3ee48253cf61779",
-   "since": "2026-10-27"
+   "hash": "d3ee48253cf61779",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/bloodthinners.html": {
    "err": null,
@@ -805,14 +808,14 @@
    "err": null,
    "fails": 0,
    "hash": "d8f393a8e80fa86b",
-   "pending": null
+   "pending": "54501284c97d5750"
   },
   "https://medlineplus.gov/breastcancer.html": {
    "err": null,
    "fails": 0,
-   "hash": "c48ac12e56d466cf",
-   "pending": "1be6c3fe889810c4",
-   "since": "2026-10-23"
+   "hash": "1be6c3fe889810c4",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/calcium.html": {
    "err": null,
@@ -832,22 +835,22 @@
    "err": null,
    "fails": 0,
    "hash": "fbcf23559c439bbf",
-   "pending": "df19ebefbb9af04e",
+   "pending": "8a295b451228b100",
    "since": "2026-10-21"
   },
   "https://medlineplus.gov/cancerimmunotherapy.html": {
    "err": null,
    "fails": 0,
    "hash": "d072e1a22d7cc290",
-   "pending": "2c0e565fdf486b46",
+   "pending": "90e55ca533a7ca7d",
    "since": "2026-10-29"
   },
   "https://medlineplus.gov/cancerlivingwithcancer.html": {
    "err": null,
    "fails": 0,
-   "hash": "edc7567bf11d30ec",
-   "pending": "4fbeecfa5b0b4115",
-   "since": "2026-10-21"
+   "hash": "4fbeecfa5b0b4115",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/carpaltunnelsyndrome.html": {
    "err": null,
@@ -865,9 +868,9 @@
   "https://medlineplus.gov/celiacdisease.html": {
    "err": null,
    "fails": 0,
-   "hash": "8749a1250abfd896",
-   "pending": "475f86f7910bebc5",
-   "since": "2026-10-27"
+   "hash": "475f86f7910bebc5",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/cerebralpalsy.html": {
    "err": null,
@@ -880,7 +883,7 @@
    "err": null,
    "fails": 0,
    "hash": "bdd3676657e49de3",
-   "pending": null,
+   "pending": "8908490723fd1e92",
    "since": "2026-10-29"
   },
   "https://medlineplus.gov/cervicalcancerscreening.html": {
@@ -899,21 +902,23 @@
   "https://medlineplus.gov/childhoodleukemia.html": {
    "err": null,
    "fails": 0,
-   "hash": "441627d85c2c0d76",
-   "pending": "55228a973973d5e0"
+   "hash": "55228a973973d5e0",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/cholesterol.html": {
    "err": null,
    "fails": 0,
-   "hash": "badaaca23e396e1d",
-   "pending": "3a3b4ccfc2ef2c9c",
-   "since": "2026-10-21"
+   "hash": "3a3b4ccfc2ef2c9c",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/cholesterollevelswhatyouneedtoknow.html": {
    "err": null,
    "fails": 0,
-   "hash": "fd358ef06d99aee2",
-   "pending": "7ff6db8a58584c40"
+   "hash": "7ff6db8a58584c40",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/cholesterolmedicines.html": {
    "err": null,
@@ -932,14 +937,14 @@
    "err": null,
    "fails": 0,
    "hash": "a79a9d830bb39df4",
-   "pending": "f73674b8aad8850a",
+   "pending": "252b3e6fc1ba0c1a",
    "since": "2026-10-29"
   },
   "https://medlineplus.gov/chronicmyeloidleukemia.html": {
    "err": null,
    "fails": 0,
    "hash": "9a909f25397188c8",
-   "pending": "1846bab0e681091b",
+   "pending": "6e82e85d57df80e1",
    "since": "2026-10-29"
   },
   "https://medlineplus.gov/chronicpain.html": {
@@ -953,20 +958,20 @@
    "err": null,
    "fails": 0,
    "hash": "91cbd44504751767",
-   "pending": null
+   "pending": "535b60f985a451b0"
   },
   "https://medlineplus.gov/colorectalcancer.html": {
    "err": null,
    "fails": 0,
-   "hash": "c12b7b5d3741f80f",
-   "pending": "6f235dd526072136",
-   "since": "2026-10-29"
+   "hash": "6f235dd526072136",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/concussion.html": {
    "err": null,
    "fails": 0,
    "hash": "8976b66b6fd8a60a",
-   "pending": null,
+   "pending": "7a419102ae3430a8",
    "since": "2026-10-25"
   },
   "https://medlineplus.gov/congenitalheartdefects.html": {
@@ -986,9 +991,9 @@
   "https://medlineplus.gov/coronaryarterybypasssurgery.html": {
    "err": null,
    "fails": 0,
-   "hash": "0191b921d5b65d12",
-   "pending": "244459e10d1353a7",
-   "since": "2026-10-29"
+   "hash": "244459e10d1353a7",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/coronaryarterydisease.html": {
    "err": null,
@@ -1021,7 +1026,7 @@
    "err": null,
    "fails": 0,
    "hash": "beb3a009e795a902",
-   "pending": "6b40fb5903e7afa6",
+   "pending": "19b76a074c447958",
    "since": "2026-10-21"
   },
   "https://medlineplus.gov/delirium.html": {
@@ -1034,23 +1039,23 @@
   "https://medlineplus.gov/dementia.html": {
    "err": null,
    "fails": 0,
-   "hash": "11b2c6f02be07d0d",
-   "pending": "c8baffc1863aa44d",
-   "since": "2026-10-29"
+   "hash": "c8baffc1863aa44d",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/depression.html": {
    "err": null,
    "fails": 0,
    "hash": "5ef302c18a54c38f",
-   "pending": "2f384ba38295263d",
+   "pending": "1700500e2ddd063e",
    "since": "2026-10-22"
   },
   "https://medlineplus.gov/developmentaldisabilities.html": {
    "err": null,
    "fails": 0,
-   "hash": "182f038ad408f961",
-   "pending": "ff134446962fa3bb",
-   "since": "2026-10-29"
+   "hash": "ff134446962fa3bb",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/diabetes.html": {
    "err": null,
@@ -1063,13 +1068,13 @@
    "err": null,
    "fails": 0,
    "hash": "27da1779824ba894",
-   "pending": null
+   "pending": "0f9a14815194767d"
   },
   "https://medlineplus.gov/diabetescomplications.html": {
    "err": null,
    "fails": 0,
    "hash": "8f91757779df9e15",
-   "pending": "f1dc3b031c4f38dd",
+   "pending": "a6e9139501fcf76b",
    "since": "2026-10-27"
   },
   "https://medlineplus.gov/diabetesmedicines.html": {
@@ -1108,16 +1113,16 @@
   "https://medlineplus.gov/diabeticfoot.html": {
    "err": null,
    "fails": 0,
-   "hash": "fd3d8b78c8e5663a",
-   "pending": "bca33f3850000809",
-   "since": "2026-10-29"
+   "hash": "bca33f3850000809",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/diabeticheartdisease.html": {
    "err": null,
    "fails": 0,
-   "hash": "d3b4b0edca4b2ab6",
-   "pending": "b964809d02eb4595",
-   "since": "2026-10-29"
+   "hash": "b964809d02eb4595",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/diagnosticimaging.html": {
    "err": null,
@@ -1155,21 +1160,22 @@
   "https://medlineplus.gov/eatingdisorders.html": {
    "err": null,
    "fails": 0,
-   "hash": "c72d9f97862f4601",
-   "pending": "323d48b11c636dcf"
+   "hash": "323d48b11c636dcf",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/emphysema.html": {
    "err": null,
    "fails": 0,
    "hash": "f401d230f0124a1d",
-   "pending": null,
+   "pending": "e13927168a34672c",
    "since": "2026-10-27"
   },
   "https://medlineplus.gov/encephalitis.html": {
    "err": null,
    "fails": 0,
    "hash": "ffa3e93d3140c52b",
-   "pending": null,
+   "pending": "36d44f56277f4859",
    "since": "2026-10-29"
   },
   "https://medlineplus.gov/endocarditis.html": {
@@ -1203,7 +1209,7 @@
    "err": null,
    "fails": 0,
    "hash": "3ca79029d0f1e5db",
-   "pending": null,
+   "pending": "47769a6808036572",
    "since": "2026-10-30"
   },
   "https://medlineplus.gov/fractures.html": {
@@ -1217,7 +1223,7 @@
    "err": null,
    "fails": 0,
    "hash": "3e0060beef799da7",
-   "pending": null,
+   "pending": "9580a13e485c770b",
    "since": "2026-10-22"
   },
   "https://medlineplus.gov/genetictesting.html": {
@@ -1236,9 +1242,9 @@
   "https://medlineplus.gov/gout.html": {
    "err": null,
    "fails": 0,
-   "hash": "472379d6bb3b1041",
-   "pending": "bc83141656bb563b",
-   "since": "2026-10-29"
+   "hash": "bc83141656bb563b",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/guidetogoodposture.html": {
    "err": null,
@@ -1251,14 +1257,14 @@
    "err": null,
    "fails": 0,
    "hash": "cbd7fc7ab444ab50",
-   "pending": "cf9af894ff720d04",
+   "pending": "bce3bcb4ca87ae87",
    "since": "2026-10-23"
   },
   "https://medlineplus.gov/headandneckcancer.html": {
    "err": null,
    "fails": 0,
    "hash": "cebab47dec448427",
-   "pending": null,
+   "pending": "c50893f99324f1d6",
    "since": "2026-10-25"
   },
   "https://medlineplus.gov/healthysleep.html": {
@@ -1279,14 +1285,14 @@
    "err": null,
    "fails": 0,
    "hash": "b3ded8863977fc14",
-   "pending": "6c2e16a2357e7e7e",
+   "pending": "f6bae3f485d1cddc",
    "since": "2026-10-29"
   },
   "https://medlineplus.gov/heartdiseases.html": {
    "err": null,
    "fails": 0,
    "hash": "0901a1b7636e46ce",
-   "pending": "4bb084fe57dadd77",
+   "pending": "0e6410c1206ffaf3",
    "since": "2026-10-29"
   },
   "https://medlineplus.gov/heartfailure.html": {
@@ -1312,9 +1318,9 @@
   "https://medlineplus.gov/heartvalvediseases.html": {
    "err": null,
    "fails": 0,
-   "hash": "3c102c90f99ed6f2",
-   "pending": "67f5ef0aa04f77ae",
-   "since": "2026-10-25"
+   "hash": "67f5ef0aa04f77ae",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/hemophilia.html": {
    "err": null,
@@ -1346,30 +1352,30 @@
   "https://medlineplus.gov/hepatitisa.html": {
    "err": null,
    "fails": 0,
-   "hash": "ea75db09b83085d4",
-   "pending": "3706f7b8d65026fc",
-   "since": "2026-10-25"
+   "hash": "3706f7b8d65026fc",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/hepatitisb.html": {
    "err": null,
    "fails": 0,
    "hash": "868d1ea225b357b8",
-   "pending": "58df45aa83285eea",
+   "pending": "f6a1cb1b81ca73cc",
    "since": "2026-10-25"
   },
   "https://medlineplus.gov/hepatitisc.html": {
    "err": null,
    "fails": 0,
    "hash": "68b51c245bf0c817",
-   "pending": "2f55c7dda15c08bc",
+   "pending": "b9e462834985f1a1",
    "since": "2026-10-27"
   },
   "https://medlineplus.gov/highbloodpressure.html": {
    "err": null,
    "fails": 0,
-   "hash": "90db4edd0bea02bd",
-   "pending": "b06fa5d78111ebaa",
-   "since": "2026-10-27"
+   "hash": "b06fa5d78111ebaa",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/highcholesterolinchildrenandteens.html": {
    "err": null,
@@ -1389,7 +1395,7 @@
    "err": null,
    "fails": 0,
    "hash": "828e1756ed8421c4",
-   "pending": null
+   "pending": "d6a41a24d49ca8b0"
   },
   "https://medlineplus.gov/howtoimprovementalhealth.html": {
    "err": null,
@@ -1400,16 +1406,16 @@
   "https://medlineplus.gov/howtolowercholesterol.html": {
    "err": null,
    "fails": 0,
-   "hash": "fd4049898096c7c9",
-   "pending": "e81fde4111a20eca",
-   "since": "2026-10-29"
+   "hash": "e81fde4111a20eca",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/howtolowercholesterolwithdiet.html": {
    "err": null,
    "fails": 0,
-   "hash": "5aaf973e0e94c267",
-   "pending": "403b2a90791d1431",
-   "since": "2026-10-22"
+   "hash": "403b2a90791d1431",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/howtopreventdiabetes.html": {
    "err": null,
@@ -1448,23 +1454,23 @@
   "https://medlineplus.gov/hypoglycemia.html": {
    "err": null,
    "fails": 0,
-   "hash": "c018d1a5c0862daf",
-   "pending": "29c4addd96042a2f",
-   "since": "2026-10-21"
+   "hash": "29c4addd96042a2f",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/hypothyroidism.html": {
    "err": null,
    "fails": 0,
    "hash": "9f808e704a03ce6e",
-   "pending": "3b0610eafec9e6eb",
+   "pending": "bbc6c43b88a1cd37",
    "since": "2026-10-25"
   },
   "https://medlineplus.gov/insomnia.html": {
    "err": null,
    "fails": 0,
-   "hash": "5ffb3a2b6ad1a2b1",
-   "pending": "e98d0cd35fecdc53",
-   "since": "2026-10-25"
+   "hash": "e98d0cd35fecdc53",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/ischemicstroke.html": {
    "err": null,
@@ -1484,21 +1490,22 @@
    "err": null,
    "fails": 0,
    "hash": "d02a1edef10ff860",
-   "pending": null,
+   "pending": "627ac79f7a9ead4d",
    "since": "2026-10-27"
   },
   "https://medlineplus.gov/juvenilearthritis.html": {
    "err": null,
    "fails": 0,
    "hash": "2240d707f9e3169e",
-   "pending": null,
+   "pending": "083d73503b79916d",
    "since": "2026-10-27"
   },
   "https://medlineplus.gov/kaposisarcoma.html": {
    "err": null,
    "fails": 0,
-   "hash": "a53a042784a2784a",
-   "pending": "95e07aa5ab7a29f5"
+   "hash": "95e07aa5ab7a29f5",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/kawasakidisease.html": {
    "err": null,
@@ -1510,15 +1517,16 @@
   "https://medlineplus.gov/kneereplacement.html": {
    "err": null,
    "fails": 0,
-   "hash": "04c863d36a8fc30f",
-   "pending": "990c85d024f3ae4f",
-   "since": "2026-10-25"
+   "hash": "990c85d024f3ae4f",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/ldlthebadcholesterol.html": {
    "err": null,
    "fails": 0,
-   "hash": "1040be2d73c611bf",
-   "pending": "d4d851be7cfbf647"
+   "hash": "d4d851be7cfbf647",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/learningdisabilities.html": {
    "err": null,
@@ -1537,9 +1545,9 @@
   "https://medlineplus.gov/leukemia.html": {
    "err": null,
    "fails": 0,
-   "hash": "4194d19098af25af",
-   "pending": "4375e58dceb6cc4b",
-   "since": "2026-10-25"
+   "hash": "4375e58dceb6cc4b",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/leukodystrophies.html": {
    "err": null,
@@ -1550,9 +1558,9 @@
   "https://medlineplus.gov/lewybodydementia.html": {
    "err": null,
    "fails": 0,
-   "hash": "4276edc83dff8d47",
-   "pending": "0892315575802cec",
-   "since": "2026-10-21"
+   "hash": "0892315575802cec",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/lungcancer.html": {
    "err": null,
@@ -1572,7 +1580,7 @@
    "err": null,
    "fails": 0,
    "hash": "428e08ecd0b46c2c",
-   "pending": null,
+   "pending": "df890c1473f1e3ee",
    "since": "2026-10-30"
   },
   "https://medlineplus.gov/mentaldisorders.html": {
@@ -1637,28 +1645,29 @@
   "https://medlineplus.gov/myalgicencephalomyelitischronicfatiguesyndrome.html": {
    "err": null,
    "fails": 0,
-   "hash": "5487111285fb05dd",
-   "pending": "dd570a5c2b1a1b98"
+   "hash": "dd570a5c2b1a1b98",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/myastheniagravis.html": {
    "err": null,
    "fails": 0,
    "hash": "2f2c201cfbff39a9",
-   "pending": null,
+   "pending": "788686b76901b351",
    "since": "2026-10-29"
   },
   "https://medlineplus.gov/nauseaandvomiting.html": {
    "err": null,
    "fails": 0,
-   "hash": "bb1e6058a870a2e5",
-   "pending": "73def86d96b7d2be",
-   "since": "2026-10-29"
+   "hash": "73def86d96b7d2be",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/neuroblastoma.html": {
    "err": null,
    "fails": 0,
    "hash": "b8bf60a0ee1b24a5",
-   "pending": "bf0fcb80ef558f76",
+   "pending": "da13fe447830ac86",
    "since": "2026-10-25"
   },
   "https://medlineplus.gov/nuclearscans.html": {
@@ -1671,9 +1680,9 @@
   "https://medlineplus.gov/obesity.html": {
    "err": null,
    "fails": 0,
-   "hash": "d18a7e324d62b750",
-   "pending": "1f7d07605b29899a",
-   "since": "2026-10-29"
+   "hash": "1f7d07605b29899a",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/obsessivecompulsivedisorder.html": {
    "err": null,
@@ -1706,7 +1715,7 @@
    "err": null,
    "fails": 0,
    "hash": "022b3b3128b1e906",
-   "pending": null
+   "pending": "8b8b7387f94e751a"
   },
   "https://medlineplus.gov/ovariancancer.html": {
    "err": null,
@@ -1718,9 +1727,9 @@
   "https://medlineplus.gov/oxygentherapy.html": {
    "err": null,
    "fails": 0,
-   "hash": "05d60a1000b853c1",
-   "pending": "460717cf17d8ed65",
-   "since": "2026-10-27"
+   "hash": "460717cf17d8ed65",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/pagetsdiseaseofbone.html": {
    "err": null,
@@ -1739,7 +1748,7 @@
    "err": null,
    "fails": 0,
    "hash": "f866f8fc4a3c32e4",
-   "pending": null,
+   "pending": "39faf0137252b4f4",
    "since": "2026-10-22"
   },
   "https://medlineplus.gov/peripheralnervedisorders.html": {
@@ -1805,16 +1814,16 @@
   "https://medlineplus.gov/prenataltesting.html": {
    "err": null,
    "fails": 0,
-   "hash": "33985560a9e70790",
-   "pending": "ad2cd75388d420da",
-   "since": "2026-10-29"
+   "hash": "ad2cd75388d420da",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/primaryovarianinsufficiency.html": {
    "err": null,
    "fails": 0,
-   "hash": "56aebab7e2f77da2",
-   "pending": "ad69380c7ee660fb",
-   "since": "2026-10-27"
+   "hash": "ad69380c7ee660fb",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/progressivesupranuclearpalsy.html": {
    "err": null,
@@ -1833,9 +1842,9 @@
   "https://medlineplus.gov/prostatecancerscreening.html": {
    "err": null,
    "fails": 0,
-   "hash": "7cc3599a5da4dadb",
-   "pending": "7f5f386dca21a300",
-   "since": "2026-10-29"
+   "hash": "7f5f386dca21a300",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/pulmonaryembolism.html": {
    "err": null,
@@ -1860,7 +1869,7 @@
    "err": null,
    "fails": 0,
    "hash": "21c47c384d9d40b4",
-   "pending": null,
+   "pending": "8afdcc4b39ec8f7e",
    "since": "2026-10-25"
   },
   "https://medlineplus.gov/raynaudphenomenon.html": {
@@ -1885,7 +1894,7 @@
    "err": null,
    "fails": 0,
    "hash": "4bee62c85b5ae153",
-   "pending": "2389ca0a24cfa8f1",
+   "pending": "8056a3add3cb5a30",
    "since": "2026-10-27"
   },
   "https://medlineplus.gov/respiratorysyncytialvirusinfections.html": {
@@ -1912,9 +1921,9 @@
   "https://medlineplus.gov/rotatorcuffinjuries.html": {
    "err": null,
    "fails": 0,
-   "hash": "9e7888eb2fe839eb",
-   "pending": "c671070ecd188f58",
-   "since": "2026-10-25"
+   "hash": "c671070ecd188f58",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/sarcoidosis.html": {
    "err": null,
@@ -1925,14 +1934,15 @@
   "https://medlineplus.gov/selfharm.html": {
    "err": null,
    "fails": 0,
-   "hash": "6cd2a9580e20180b",
-   "pending": "f65b7904cf4d4c04"
+   "hash": "f65b7904cf4d4c04",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/shingles.html": {
    "err": null,
    "fails": 0,
    "hash": "814f58df34b297a1",
-   "pending": "4bba6866622a4c1a",
+   "pending": "1fe942bf9953ffdc",
    "since": "2026-10-23"
   },
   "https://medlineplus.gov/sicklecelldisease.html": {
@@ -1945,9 +1955,9 @@
   "https://medlineplus.gov/sjogrenssyndrome.html": {
    "err": null,
    "fails": 0,
-   "hash": "265e21a1cc9927b5",
-   "pending": "ba5cbbd84524f246",
-   "since": "2026-10-27"
+   "hash": "ba5cbbd84524f246",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/sleepdisorders.html": {
    "err": null,
@@ -1973,9 +1983,9 @@
   "https://medlineplus.gov/steatoticliverdisease.html": {
    "err": null,
    "fails": 0,
-   "hash": "0a7b2a17e8f312a4",
-   "pending": "5b7e8deb30c2ca58",
-   "since": "2026-10-29"
+   "hash": "5b7e8deb30c2ca58",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/stress.html": {
    "err": null,
@@ -1988,14 +1998,14 @@
    "err": null,
    "fails": 0,
    "hash": "d7d3f24a9b48bd3a",
-   "pending": "8ca9c2a5aff266bf",
+   "pending": "7b052391ec011dbf",
    "since": "2026-10-27"
   },
   "https://medlineplus.gov/strokerehabilitation.html": {
    "err": null,
    "fails": 0,
    "hash": "0ad90cae27b3ad15",
-   "pending": "a5884d0b010c3662",
+   "pending": "ddc5e6588f31ca50",
    "since": "2026-10-23"
   },
   "https://medlineplus.gov/stuttering.html": {
@@ -2021,7 +2031,7 @@
    "err": null,
    "fails": 0,
    "hash": "f7783d5730c1a1f2",
-   "pending": null,
+   "pending": "66112b88c5412260",
    "since": "2026-10-30"
   },
   "https://medlineplus.gov/testicularcancer.html": {
@@ -2061,8 +2071,9 @@
   "https://medlineplus.gov/tuberculosis.html": {
    "err": null,
    "fails": 0,
-   "hash": "764f55ba0602ca9d",
-   "pending": "ab0583513f9041b6"
+   "hash": "ab0583513f9041b6",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/turnersyndrome.html": {
    "err": null,
@@ -2074,9 +2085,9 @@
   "https://medlineplus.gov/urinaryincontinence.html": {
    "err": null,
    "fails": 0,
-   "hash": "50c0d22d81241e52",
-   "pending": "2b63d2ca637731ea",
-   "since": "2026-10-29"
+   "hash": "2b63d2ca637731ea",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/uterinecancer.html": {
    "err": null,
@@ -2088,7 +2099,7 @@
    "err": null,
    "fails": 0,
    "hash": "e523f7931cec6417",
-   "pending": null,
+   "pending": "a9cfb7e296522ab3",
    "since": "2026-10-30"
   },
   "https://medlineplus.gov/vldlcholesterol.html": {
@@ -2100,16 +2111,16 @@
   "https://medlineplus.gov/westnilevirus.html": {
    "err": null,
    "fails": 0,
-   "hash": "615983e013aff58b",
-   "pending": "f0c612a37019473b",
-   "since": "2026-10-29"
+   "hash": "f0c612a37019473b",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/whoopingcough.html": {
    "err": null,
    "fails": 0,
-   "hash": "e4e32fc81a830ef9",
-   "pending": "ef5f054cf14e1d0c",
-   "since": "2026-10-27"
+   "hash": "ef5f054cf14e1d0c",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://medlineplus.gov/wristinjuriesanddisorders.html": {
    "err": null,
@@ -2122,14 +2133,14 @@
    "err": null,
    "fails": 0,
    "hash": "bf2300426b718aae",
-   "pending": "3c8bea634688ae74",
+   "pending": "cb4bcff7dae4fa03",
    "since": "2026-10-27"
   },
   "https://mods.go.kr/board.es?act=view&bid=246&list_no=437418&mid=a10301010000&part=kcd9-overview": {
    "err": null,
    "fails": 0,
    "hash": "bf2300426b718aae",
-   "pending": "ee9f8575652996dd",
+   "pending": "cb4bcff7dae4fa03",
    "since": "2026-10-27"
   },
   "https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=201501485": {
@@ -2141,181 +2152,181 @@
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C16": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "fdc1ac83d96c8a1d",
    "pending": null
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C18-C19-C20": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "fdc1ac83d96c8a1d",
    "pending": null
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C22": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "fdc1ac83d96c8a1d",
    "pending": null
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C25": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "fdc1ac83d96c8a1d",
    "pending": null
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C34": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "fdc1ac83d96c8a1d",
    "pending": null
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C50": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "fdc1ac83d96c8a1d",
    "pending": null
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C53": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "dcea7b923e55998f",
    "pending": null
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C56": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: The read operation timed out",
+   "fails": 1,
    "hash": "fdc1ac83d96c8a1d",
    "pending": null
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C61": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "fdc1ac83d96c8a1d",
    "pending": null
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C64": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "fdc1ac83d96c8a1d",
    "pending": null,
    "since": "2026-10-27"
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C67": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "dcea7b923e55998f",
    "pending": null,
    "since": "2026-10-25"
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C73": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 2,
+   "fails": 3,
    "hash": "fdc1ac83d96c8a1d",
    "pending": null
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=E11-E14": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "fdc1ac83d96c8a1d",
    "pending": null
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=F00-F01-F03-G30": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: The read operation timed out",
+   "fails": 1,
    "hash": "fdc1ac83d96c8a1d",
    "pending": null
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=F32-F33": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "fdc1ac83d96c8a1d",
    "pending": null
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=G20": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: The read operation timed out",
+   "fails": 1,
    "hash": "fdc1ac83d96c8a1d",
    "pending": null
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=H25-H26": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: The read operation timed out",
+   "fails": 1,
    "hash": "fdc1ac83d96c8a1d",
    "pending": null
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=I10": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "fdc1ac83d96c8a1d",
    "pending": null
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=I20": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "dcea7b923e55998f",
    "pending": null,
    "since": "2026-10-27"
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=I21": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "fdc1ac83d96c8a1d",
    "pending": null
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=I50": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: The read operation timed out",
+   "fails": 1,
    "hash": "fdc1ac83d96c8a1d",
    "pending": null,
    "since": "2026-10-21"
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=I61-I60-I62": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "fdc1ac83d96c8a1d",
    "pending": "dcea7b923e55998f",
    "since": "2026-10-27"
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=I63": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "fdc1ac83d96c8a1d",
    "pending": null
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=M17": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "fdc1ac83d96c8a1d",
    "pending": null
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=M51-M50": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "fdc1ac83d96c8a1d",
    "pending": null
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=M81": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "dcea7b923e55998f",
    "pending": "fdc1ac83d96c8a1d",
    "since": "2026-10-27"
   },
   "https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=N18": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "dcea7b923e55998f",
    "pending": null
   },
   "https://opendata.hira.or.kr/op/opc/olapDiagBhvInfoTab1.do?part=O7020": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "dcea7b923e55998f",
    "pending": null
   },
   "https://opendata.hira.or.kr/op/opc/olapDiagBhvInfoTab1.do?part=SZ084-R3505": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 1,
+   "fails": 2,
    "hash": "dcea7b923e55998f",
    "pending": "36ec7fe3333acfe2"
   },
@@ -2335,7 +2346,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null,
+   "pending": "b293a25018aa660f",
    "since": "2026-10-28"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC10088549/": {
@@ -2447,7 +2458,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": "02f4670648209959"
+   "pending": null
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC10404807/": {
    "err": null,
@@ -2459,7 +2470,7 @@
    "err": null,
    "fails": 0,
    "hash": "9f059caeb5d0e386",
-   "pending": null,
+   "pending": "03c517d95de47711",
    "since": "2026-10-22"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC10406556/": {
@@ -2496,7 +2507,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": "d955dafb77906df2"
+   "pending": null
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC10493447/": {
    "err": null,
@@ -2564,7 +2575,7 @@
    "err": null,
    "fails": 0,
    "hash": "a1d3be7808f825ad",
-   "pending": null,
+   "pending": "03c517d95de47711",
    "since": "2026-10-22"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC10774551/": {
@@ -2603,14 +2614,14 @@
    "err": null,
    "fails": 0,
    "hash": "cf48e48847239506",
-   "pending": "03c517d95de47711",
+   "pending": null,
    "since": "2026-10-29"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC10861305/": {
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null
+   "pending": "d8667f8433c8f699"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC10973710/": {
    "err": null,
@@ -2622,7 +2633,7 @@
    "err": null,
    "fails": 0,
    "hash": "465a5ad55cfd03ef",
-   "pending": null,
+   "pending": "03c517d95de47711",
    "since": "2026-10-19"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC10985489/": {
@@ -2654,7 +2665,7 @@
    "err": null,
    "fails": 0,
    "hash": "19174896d2a0abfd",
-   "pending": null,
+   "pending": "03c517d95de47711",
    "since": "2026-10-22"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC11016685/": {
@@ -2667,7 +2678,7 @@
    "err": null,
    "fails": 0,
    "hash": "a05011757ce2bd69",
-   "pending": null,
+   "pending": "03c517d95de47711",
    "since": "2026-10-22"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC11103071/": {
@@ -2680,7 +2691,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null,
+   "pending": "f64cf901522365ca",
    "since": "2026-10-25"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC11128785/": {
@@ -2705,14 +2716,14 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null,
+   "pending": "0ee3fb9a733f2de3",
    "since": "2026-10-28"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC11291096/": {
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null
+   "pending": "28a2e216e422fbf1"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC11307112/": {
    "err": null,
@@ -2762,15 +2773,15 @@
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC11511309/": {
    "err": null,
    "fails": 0,
-   "hash": "8464358aa8d7de03",
-   "pending": "03c517d95de47711",
-   "since": "2026-10-29"
+   "hash": "03c517d95de47711",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC11513862/": {
    "err": null,
    "fails": 0,
    "hash": "1c32bd621184e4e6",
-   "pending": null,
+   "pending": "03c517d95de47711",
    "since": "2026-10-19"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC11524690/": {
@@ -2783,7 +2794,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": "a366c3bcd14bf494"
+   "pending": null
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC11538855/": {
    "err": null,
@@ -2806,9 +2817,9 @@
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC11621661/": {
    "err": null,
    "fails": 0,
-   "hash": "8af555aa2563d76f",
-   "pending": "03c517d95de47711",
-   "since": "2026-10-29"
+   "hash": "03c517d95de47711",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC11685345/": {
    "err": null,
@@ -2827,7 +2838,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null
+   "pending": "536014f13707311c"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC11704733/": {
    "err": null,
@@ -2845,15 +2856,15 @@
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC11739644/": {
    "err": null,
    "fails": 0,
-   "hash": "256e7c1f88e4f1e8",
-   "pending": "03c517d95de47711",
-   "since": "2026-10-29"
+   "hash": "03c517d95de47711",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC11739646/": {
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null,
+   "pending": "fad815563e62783a",
    "since": "2026-10-28"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC11739648/": {
@@ -2898,13 +2909,13 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null
+   "pending": "2fa3c3e290155927"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC11794292/": {
    "err": null,
    "fails": 0,
    "hash": "13f5cd0b75404828",
-   "pending": null,
+   "pending": "03c517d95de47711",
    "since": "2026-10-29"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC11794900/": {
@@ -2930,7 +2941,7 @@
    "err": null,
    "fails": 0,
    "hash": "267311e44bb0196a",
-   "pending": null,
+   "pending": "03c517d95de47711",
    "since": "2026-10-30"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC11864819/": {
@@ -2950,7 +2961,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null
+   "pending": "72bdb8afca8ac499"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC11972913/": {
    "err": null,
@@ -3000,7 +3011,7 @@
    "err": null,
    "fails": 0,
    "hash": "5c4e54a57cf4b80f",
-   "pending": null,
+   "pending": "03c517d95de47711",
    "since": "2026-10-30"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12146613/": {
@@ -3014,7 +3025,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null
+   "pending": "f74bf563d097957e"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12187494/": {
    "err": null,
@@ -3031,9 +3042,9 @@
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12230267/": {
    "err": null,
    "fails": 0,
-   "hash": "f12538a03c96d316",
-   "pending": "03c517d95de47711",
-   "since": "2026-10-29"
+   "hash": "03c517d95de47711",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12230268/": {
    "err": null,
@@ -3086,13 +3097,13 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null
+   "pending": "0ac7c3a1af647619"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12270580/": {
    "err": null,
    "fails": 0,
    "hash": "60029b99996fa8e9",
-   "pending": null
+   "pending": "03c517d95de47711"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12285778/": {
    "err": null,
@@ -3105,7 +3116,7 @@
    "err": null,
    "fails": 0,
    "hash": "f797f237f50cf0f7",
-   "pending": null,
+   "pending": "03c517d95de47711",
    "since": "2026-10-30"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12303679/": {
@@ -3130,7 +3141,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": "f4b1bf932dc99457"
+   "pending": null
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12377998/": {
    "err": null,
@@ -3142,7 +3153,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null
+   "pending": "d2431cbe40181ad8"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12411293/": {
    "err": null,
@@ -3161,7 +3172,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null
+   "pending": "5d7d53d8ccffe205"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12437568/": {
    "err": null,
@@ -3173,7 +3184,7 @@
    "err": null,
    "fails": 0,
    "hash": "527f247b186ba296",
-   "pending": null
+   "pending": "03c517d95de47711"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12457795/": {
    "err": null,
@@ -3199,13 +3210,13 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null
+   "pending": "4fd68c9c2a718084"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12505475/": {
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null
+   "pending": "54892de17992c839"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12511744/": {
    "err": null,
@@ -3217,14 +3228,14 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": "b3bc218487004932",
+   "pending": null,
    "since": "2026-10-27"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12517694/": {
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": "63052ec2e77de18d"
+   "pending": null
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12518755/": {
    "err": null,
@@ -3248,7 +3259,7 @@
    "err": null,
    "fails": 0,
    "hash": "9fea8b29fe1fe8c0",
-   "pending": null
+   "pending": "03c517d95de47711"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12611611/": {
    "err": null,
@@ -3267,7 +3278,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null,
+   "pending": "6c37854cff1a0a36",
    "since": "2026-10-28"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12660044/": {
@@ -3347,7 +3358,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": "645244680c1c6788"
+   "pending": null
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC12854112/": {
    "err": null,
@@ -3422,7 +3433,7 @@
    "err": null,
    "fails": 0,
    "hash": "25b1b99dfbb24e40",
-   "pending": null
+   "pending": "03c517d95de47711"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC13149953/": {
    "err": null,
@@ -3440,7 +3451,7 @@
    "err": null,
    "fails": 0,
    "hash": "2c3095d846e1e214",
-   "pending": null,
+   "pending": "03c517d95de47711",
    "since": "2026-10-18"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC13256478/": {
@@ -3480,7 +3491,7 @@
    "err": null,
    "fails": 0,
    "hash": "0d515added152cb9",
-   "pending": null
+   "pending": "03c517d95de47711"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC13277414/": {
    "err": null,
@@ -3493,7 +3504,7 @@
    "err": null,
    "fails": 0,
    "hash": "3433b0eea583c907",
-   "pending": null
+   "pending": "03c517d95de47711"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC13277416/": {
    "err": null,
@@ -3519,8 +3530,9 @@
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC13285305/": {
    "err": null,
    "fails": 0,
-   "hash": "550b33d58c7d1e72",
-   "pending": "03c517d95de47711"
+   "hash": "03c517d95de47711",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC13341177/": {
    "err": null,
@@ -3581,7 +3593,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null,
+   "pending": "db0fbb4dd913c320",
    "since": "2026-10-28"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC13439306/": {
@@ -3624,7 +3636,7 @@
    "err": null,
    "fails": 0,
    "hash": "956e198550be61cb",
-   "pending": null
+   "pending": "03c517d95de47711"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC13587171/": {
    "err": null,
@@ -3660,26 +3672,26 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null
+   "pending": "4271ce66e4a73b21"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC13646841/": {
    "err": null,
    "fails": 0,
    "hash": "c8b22d746ece2183",
-   "pending": null
+   "pending": "03c517d95de47711"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC13655289/": {
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null,
+   "pending": "6305365a3f7e8064",
    "since": "2026-10-23"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC13655467/": {
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null
+   "pending": "fd1b9837c68c7e82"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC13655469/": {
    "err": null,
@@ -3745,20 +3757,20 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null,
+   "pending": "15571922523b8a5a",
    "since": "2026-10-27"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC4635709/": {
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": "325a3533971f5ed3"
+   "pending": null
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC4691590/": {
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null,
+   "pending": "4c7e02d4535d8366",
    "since": "2026-10-27"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC4691591/": {
@@ -3777,7 +3789,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": "08d2e576d01c50cf"
+   "pending": null
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC4999392/": {
    "err": null,
@@ -3813,7 +3825,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null,
+   "pending": "3afb3d9ec960b1e8",
    "since": "2026-10-27"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC5783912/": {
@@ -3892,7 +3904,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null,
+   "pending": "5642979865750f57",
    "since": "2026-10-25"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC5895837/": {
@@ -3905,7 +3917,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": "3940b3a85c5a73ab"
+   "pending": null
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC5946455/": {
    "err": null,
@@ -3947,13 +3959,13 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": "d757bee55eeb1519"
+   "pending": null
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC6192922/": {
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": "8cb7f5d0da50764d"
+   "pending": null
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC6211432/": {
    "err": null,
@@ -3971,7 +3983,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null,
+   "pending": "42899bf6cfd6b89a",
    "since": "2026-10-28"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC6333581/": {
@@ -4003,7 +4015,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null,
+   "pending": "41bbc93b67299c69",
    "since": "2026-10-28"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC6504754/": {
@@ -4028,13 +4040,13 @@
    "err": null,
    "fails": 0,
    "hash": "6d108db6e491346b",
-   "pending": "03c517d95de47711"
+   "pending": null
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC6669389/": {
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": "6e7e518a73ffc271"
+   "pending": null
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC6670135/": {
    "err": null,
@@ -4078,7 +4090,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null,
+   "pending": "74314f716f1d89fb",
    "since": "2026-10-28"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC6901695/": {
@@ -4110,7 +4122,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null,
+   "pending": "7929e0f7ea4d4766",
    "since": "2026-10-28"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC6960050/": {
@@ -4148,7 +4160,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null,
+   "pending": "3e7b4d3100782173",
    "since": "2026-10-28"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC7176504/": {
@@ -4167,7 +4179,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": "49a5c30eea158b11",
+   "pending": null,
    "since": "2026-10-29"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC7332334/": {
@@ -4192,21 +4204,21 @@
    "err": null,
    "fails": 0,
    "hash": "3526c1e49a72621f",
-   "pending": null,
+   "pending": "03c517d95de47711",
    "since": "2026-10-19"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC7383009/": {
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": "71d0854229d15db9",
+   "pending": null,
    "since": "2026-10-27"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC7386113/": {
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null
+   "pending": "f37d920e42f4015f"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC7387587/": {
    "err": null,
@@ -4218,7 +4230,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": "47d6a6734f042c76"
+   "pending": null
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC7515666/": {
    "err": null,
@@ -4242,27 +4254,27 @@
    "err": null,
    "fails": 0,
    "hash": "e4bd2a10354782fd",
-   "pending": null,
+   "pending": "03c517d95de47711",
    "since": "2026-10-19"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC7542002/": {
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": "fbe30b5ea38ded84",
+   "pending": null,
    "since": "2026-10-28"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC7669309/": {
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null
+   "pending": "6468712b9a1f82fa"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC7669319/": {
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null
+   "pending": "d1908e2a7669f786"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC7674756/": {
    "err": null,
@@ -4293,7 +4305,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null,
+   "pending": "b0d2e954f9550a0d",
    "since": "2026-10-28"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC7834900/": {
@@ -4306,7 +4318,7 @@
    "err": null,
    "fails": 0,
    "hash": "263d1655f58a1447",
-   "pending": null,
+   "pending": "03c517d95de47711",
    "since": "2026-10-19"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC7943281/": {
@@ -4369,13 +4381,13 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null
+   "pending": "da7f471bbb07a87d"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC8137395/": {
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null
+   "pending": "38e13e09e6c60f39"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC8141968/": {
    "err": null,
@@ -4418,9 +4430,9 @@
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC8419613/": {
    "err": null,
    "fails": 0,
-   "hash": "0d235d89675f35a2",
-   "pending": "03c517d95de47711",
-   "since": "2026-10-29"
+   "hash": "03c517d95de47711",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC8419616/": {
    "err": null,
@@ -4469,7 +4481,7 @@
    "err": null,
    "fails": 0,
    "hash": "1a921ff5b2e153fd",
-   "pending": null,
+   "pending": "03c517d95de47711",
    "since": "2026-10-19"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC8671025/": {
@@ -4495,7 +4507,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null,
+   "pending": "52fdd042e5997367",
    "since": "2026-10-25"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC8749035/": {
@@ -4509,7 +4521,7 @@
    "err": null,
    "fails": 0,
    "hash": "4ef972b34f414a9b",
-   "pending": null,
+   "pending": "03c517d95de47711",
    "since": "2026-10-19"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC8813311/": {
@@ -4565,7 +4577,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null
+   "pending": "4291253d57d49511"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC9064755/": {
    "err": null,
@@ -4608,7 +4620,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": null
+   "pending": "5650a4def2c33648"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC9514440/": {
    "err": null,
@@ -4620,9 +4632,9 @@
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC9515735/": {
    "err": null,
    "fails": 0,
-   "hash": "ac47dec8934ee345",
-   "pending": "03c517d95de47711",
-   "since": "2026-10-29"
+   "hash": "03c517d95de47711",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC9526300/": {
    "err": null,
@@ -4640,7 +4652,7 @@
    "err": null,
    "fails": 0,
    "hash": "03c517d95de47711",
-   "pending": "fa94e5185339f17e",
+   "pending": null,
    "since": "2026-10-27"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC9666265/": {
@@ -4731,9 +4743,9 @@
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC9925153/": {
    "err": null,
    "fails": 0,
-   "hash": "0a6b367f89498b46",
-   "pending": "03c517d95de47711",
-   "since": "2026-10-29"
+   "hash": "03c517d95de47711",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://pmc.ncbi.nlm.nih.gov/articles/PMC9930285/": {
    "err": null,
@@ -4791,14 +4803,14 @@
    "since": "2026-10-28"
   },
   "https://synapse.koreamed.org/upload/SynapseXML/1186ijt/pdf/ijt-17-1-208.pdf": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "err": null,
+   "fails": 0,
    "hash": "86df369d22e26b20",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/S1T261C262/contents.do": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 2,
+   "err": null,
+   "fails": 0,
    "hash": "bee98792809d5b34",
    "pending": null,
    "since": "2026-10-28"
@@ -4819,7 +4831,7 @@
   },
   "https://www.cancer.go.kr/lay1/S1T648C650/contents.do": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 6,
+   "fails": 7,
    "hash": "7eaaf04c0761f3a0",
    "pending": null
   },
@@ -4832,7 +4844,7 @@
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": "37b7bfd0220f60df",
    "pending": null,
    "since": "2026-10-29"
@@ -4853,49 +4865,51 @@
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3346": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 9,
+   "fails": 10,
    "hash": "34c29665ada3103a",
    "pending": null,
    "since": "2026-10-20"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3352": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 5,
+   "fails": 6,
    "hash": "444d4ac42decd3c8",
    "pending": null,
    "since": "2026-10-25"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3353": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 5,
+   "fails": 6,
    "hash": "6768fecf88bddbd6",
    "pending": null,
    "since": "2026-10-18"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3354": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 3,
+   "fails": 4,
    "hash": "d24e354b8dbbe768",
    "pending": "2f984f40d78ed53e"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3357": {
    "err": null,
    "fails": 0,
-   "hash": "fe2678e71a2f0b1f",
-   "pending": "3d0e487ad46ee6f0"
+   "hash": "3d0e487ad46ee6f0",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3358": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 8,
+   "fails": 9,
    "hash": "3cf3196920b1568c",
    "pending": null,
    "since": "2026-10-17"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3359": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 2,
-   "hash": "3a43abd23a66af0f",
-   "pending": "2e2ffc12d2075d53"
+   "err": null,
+   "fails": 0,
+   "hash": "2e2ffc12d2075d53",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3360": {
    "err": null,
@@ -4919,15 +4933,15 @@
    "since": "2026-10-27"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4665": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "8a20425156da27de",
    "pending": null,
    "since": "2026-10-27"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4666": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 5,
+   "fails": 6,
    "hash": "527668567eb92b13",
    "pending": null,
    "since": "2026-10-25"
@@ -4942,9 +4956,9 @@
   "https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4672": {
    "err": null,
    "fails": 0,
-   "hash": "7f951e2553b8847b",
-   "pending": "928194f1fa092eb3",
-   "since": "2026-10-22"
+   "hash": "928194f1fa092eb3",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4673": {
    "err": null,
@@ -5011,19 +5025,19 @@
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3802": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 15,
+   "fails": 16,
    "hash": "053633de0b3753e2",
    "pending": "e27f659052a6f16f"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3808": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 9,
+   "err": null,
+   "fails": 0,
    "hash": "1637c568569714f1",
-   "pending": null
+   "pending": "c9d5036c223f5af7"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3809": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 2,
+   "err": null,
+   "fails": 0,
    "hash": "3f76e0b85c063bfd",
    "pending": null,
    "since": "2026-10-28"
@@ -5036,22 +5050,22 @@
    "since": "2026-10-27"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3813": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "err": null,
+   "fails": 0,
    "hash": "f3a8746667b17c5c",
    "pending": null,
    "since": "2026-10-27"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3814": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "err": null,
+   "fails": 0,
    "hash": "6b54844810297182",
    "pending": null,
    "since": "2026-10-27"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3815": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 2,
+   "err": null,
+   "fails": 0,
    "hash": "237de9e7fc20a5b2",
    "pending": null,
    "since": "2026-10-27"
@@ -5064,11 +5078,11 @@
    "since": "2026-10-27"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 4,
-   "hash": "941e65dc58aa0e1d",
-   "pending": "a268b661fde4a6de",
-   "since": "2026-10-17"
+   "err": null,
+   "fails": 0,
+   "hash": "a268b661fde4a6de",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5240": {
    "err": null,
@@ -5086,28 +5100,28 @@
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5242": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 8,
+   "fails": 9,
    "hash": "97f75d10d9dccb38",
    "pending": null,
    "since": "2026-10-20"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5248": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 5,
+   "fails": 6,
    "hash": "86af028fb93ceee3",
    "pending": null,
    "since": "2026-10-25"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5249": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 4,
+   "fails": 5,
    "hash": "0e32327a3977c1b5",
    "pending": "ef19d31959c5b8b1",
    "since": "2026-10-17"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5250": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 5,
+   "fails": 6,
    "hash": "633a9065b432ade5",
    "pending": null,
    "since": "2026-10-17"
@@ -5120,15 +5134,15 @@
    "since": "2026-10-30"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5254": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 5,
+   "err": null,
+   "fails": 0,
    "hash": "442cf01552ad924a",
-   "pending": null,
+   "pending": "0a90ca1e8a9ea93c",
    "since": "2026-10-18"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5255": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "200e8675ce9ce45e",
    "pending": null,
    "since": "2026-10-29"
@@ -5142,7 +5156,7 @@
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 4,
+   "fails": 5,
    "hash": "a7d76c05f036546a",
    "pending": "4b5dd366d362d3b6"
   },
@@ -5162,48 +5176,48 @@
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3322": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 7,
+   "fails": 8,
    "hash": "684fc417c67e7feb",
    "pending": "9fe48e34b15c2efd"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3328": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 7,
+   "fails": 8,
    "hash": "1c27b5793621c212",
    "pending": null,
    "since": "2026-10-20"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3329": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 5,
+   "err": null,
+   "fails": 0,
    "hash": "868db8e79d672e21",
-   "pending": null,
+   "pending": "f9a706748f7066a7",
    "since": "2026-10-25"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3330": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 5,
+   "err": null,
+   "fails": 0,
    "hash": "e87166cfeaa6d085",
-   "pending": null,
+   "pending": "1e23555502d9073e",
    "since": "2026-10-22"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3333": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": "ede43923c2dda0fd",
    "pending": "9b7b29a0433a5069",
    "since": "2026-10-22"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3334": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 5,
+   "err": null,
+   "fails": 0,
    "hash": "71e816e25501d9f7",
-   "pending": null,
+   "pending": "1e3b29809760f184",
    "since": "2026-10-25"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3335": {
-   "err": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
-   "fails": 3,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 4,
    "hash": "19cf10a53b1bfd25",
    "pending": "e335b47f99dd89d3",
    "since": "2026-10-21"
@@ -5216,8 +5230,8 @@
    "since": "2026-10-27"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757": {
-   "err": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
-   "fails": 5,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 6,
    "hash": "e73affd06ed0ee28",
    "pending": null,
    "since": "2026-10-22"
@@ -5230,133 +5244,134 @@
    "since": "2026-10-27"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4761": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "7de3af488cfaa02d",
    "pending": null,
    "since": "2026-10-27"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4762": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 7,
+   "fails": 8,
    "hash": "8fb53ce82902045c",
    "pending": null,
    "since": "2026-10-20"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4768": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 4,
+   "fails": 5,
    "hash": "b9bbc68023fa57a1",
    "pending": "f3ba341946c69f26",
    "since": "2026-10-25"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4769": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 3,
+   "fails": 4,
    "hash": "e581f96ff4025d7d",
    "pending": "0e0c934957a6b74b",
    "since": "2026-10-17"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4770": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 4,
+   "fails": 5,
    "hash": "2cc0e301cbcdada7",
    "pending": "cdfac9c7dca634ec",
    "since": "2026-10-20"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4773": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 4,
-   "hash": "9e158cb46e760fe5",
-   "pending": "92ced205b93b1661",
-   "since": "2026-10-21"
-  },
-  "https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4774": {
    "err": null,
    "fails": 0,
+   "hash": "92ced205b93b1661",
+   "pending": null,
+   "since": "2026-10-31"
+  },
+  "https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4774": {
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "5c38a0327da3e836",
    "pending": null,
    "since": "2026-10-29"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4775": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 4,
-   "hash": "9941cf658c3bdce0",
-   "pending": "7510655ed8e019d8",
-   "since": "2026-10-25"
-  },
-  "https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4776": {
    "err": null,
    "fails": 0,
+   "hash": "7510655ed8e019d8",
+   "pending": null,
+   "since": "2026-10-31"
+  },
+  "https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4776": {
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "e436fd1474f897cf",
    "pending": null,
    "since": "2026-10-27"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 5,
+   "err": null,
+   "fails": 0,
    "hash": "681952dfbe6a51ea",
-   "pending": null,
+   "pending": "d4034ba0ad49d5e0",
    "since": "2026-10-22"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4952": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "e983b00a9e9e02f7",
    "pending": null,
    "since": "2026-10-27"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4953": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "48b9133297c2743c",
    "pending": null,
    "since": "2026-10-27"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4954": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 2,
-   "hash": "65b9e96afd685614",
-   "pending": "426f98c1f55b9fd2",
-   "since": "2026-10-17"
+   "err": null,
+   "fails": 0,
+   "hash": "426f98c1f55b9fd2",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4960": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 3,
+   "fails": 4,
    "hash": "9b01e3981eb60780",
    "pending": "7a095aa8e5158de1",
    "since": "2026-10-23"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4961": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 4,
+   "fails": 5,
    "hash": "88e4b53fada87784",
    "pending": "0c0fe460de54eba2",
    "since": "2026-10-17"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4962": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "err": null,
+   "fails": 0,
    "hash": "eb1fd218189546b4",
    "pending": null,
    "since": "2026-10-29"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4965": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
-   "hash": "4636957d38852f69",
-   "pending": "d84b3152013e7e8b"
+   "err": null,
+   "fails": 0,
+   "hash": "d84b3152013e7e8b",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4966": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": "97e5d12b7a0a2705",
    "pending": "fef0d36381d9340d",
    "since": "2026-10-22"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=7181": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": "d59ade71db53bdaf",
    "pending": "108cdc03e2bee309",
    "since": "2026-10-22"
@@ -5376,54 +5391,54 @@
    "since": "2026-10-27"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3753": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 19,
-   "hash": null,
+   "err": null,
+   "fails": 0,
+   "hash": "42773e98380f2407",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3754": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 2,
+   "fails": 3,
    "hash": "85f0eae8cb6e0e77",
    "pending": "6f7597cb5df7210c",
    "since": "2026-10-25"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3760": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 5,
+   "fails": 6,
    "hash": "a555fac6d390c5a0",
    "pending": null
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3761": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 5,
+   "fails": 6,
    "hash": "ccd79699646e016b",
    "pending": null,
    "since": "2026-10-18"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3762": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 1,
+   "fails": 2,
    "hash": "396ccfc8da7b523b",
    "pending": null,
    "since": "2026-10-29"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3765": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 4,
+   "fails": 5,
    "hash": "0080fbfac87e57d1",
    "pending": "8ee63ed2851fc964",
    "since": "2026-10-22"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3766": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 5,
-   "hash": "1082369b5afcb0d1",
-   "pending": null
-  },
-  "https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3767": {
    "err": null,
    "fails": 0,
+   "hash": "1082369b5afcb0d1",
+   "pending": "9d9894f7ee90a98c"
+  },
+  "https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3767": {
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "fe4d9f0e8cfc6645",
    "pending": "3eb770b5f193325f",
    "since": "2026-10-19"
@@ -5450,42 +5465,42 @@
    "since": "2026-10-27"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3784": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "a82e22a97c734922",
    "pending": null,
    "since": "2026-10-30"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3785": {
-   "err": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
-   "fails": 1,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 2,
    "hash": "20f0339b910946c2",
    "pending": "0a235141988d0e4c",
    "since": "2026-10-22"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3786": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 5,
+   "fails": 6,
    "hash": "d3c459fcf2c12873",
    "pending": null,
    "since": "2026-10-20"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3789": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 7,
+   "fails": 8,
    "hash": "86e537f0e88740c6",
    "pending": "4418d5230f9661f5"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3790": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 7,
+   "err": null,
+   "fails": 0,
    "hash": "66e22595fd8b41b6",
-   "pending": null,
+   "pending": "52dc374732fac112",
    "since": "2026-10-18"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3791": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 2,
+   "err": null,
+   "fails": 0,
    "hash": "6e31d9970d90a372",
    "pending": null,
    "since": "2026-10-27"
@@ -5513,36 +5528,38 @@
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5122": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 3,
+   "fails": 4,
    "hash": "2a05dda227d2a99a",
    "pending": "a045cbb0b225f8f1",
    "since": "2026-10-22"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5128": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 5,
+   "fails": 6,
    "hash": "d551a05d2258319d",
    "pending": null,
    "since": "2026-10-22"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5129": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 2,
-   "hash": "c031a83b83247725",
-   "pending": "c016892f5bf33aa2"
+   "err": null,
+   "fails": 0,
+   "hash": "c016892f5bf33aa2",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5130": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 10,
+   "err": null,
+   "fails": 0,
    "hash": "d0b378bbcf78aa2c",
-   "pending": null,
+   "pending": "d7c8dd5bbf3b20aa",
    "since": "2026-10-19"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5134": {
-   "err": "URLError: <urlopen error timed out>",
-   "fails": 3,
-   "hash": "7d2098edfc82f83c",
-   "pending": "275835884328d6b5"
+   "err": null,
+   "fails": 0,
+   "hash": "275835884328d6b5",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5135": {
    "err": null,
@@ -5560,7 +5577,7 @@
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=8723310": {
    "err": "URLError: <urlopen error timed out>",
-   "fails": 3,
+   "fails": 4,
    "hash": "a7a7706320320681",
    "pending": null,
    "since": "2026-10-27"
@@ -5580,8 +5597,8 @@
    "since": "2026-10-27"
   },
   "https://www.cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=4373&menu_seq=4392": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 1,
    "hash": "12fe8fce33c5a09d",
    "pending": null,
    "since": "2026-10-27"
@@ -6027,73 +6044,73 @@
   },
   "https://www.comwel.or.kr/comwel/info/data/stat/stat.jsp?mode=view&article_no=2239962&board_no=219": {
    "err": "HTTPError: HTTP Error 400: Bad Request",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1008018&board_no=69": {
    "err": "HTTPError: HTTP Error 400: Bad Request",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1074128&board_no=69": {
    "err": "HTTPError: HTTP Error 400: Bad Request",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1074159&board_no=69": {
    "err": "HTTPError: HTTP Error 400: Bad Request",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1117539&board_no=69": {
    "err": "HTTPError: HTTP Error 400: Bad Request",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1191878&board_no=69": {
    "err": "HTTPError: HTTP Error 400: Bad Request",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=2239620&board_no=69": {
    "err": "HTTPError: HTTP Error 400: Bad Request",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=2245893&board_no=69": {
    "err": "HTTPError: HTTP Error 400: Bad Request",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=794538&board_no=69": {
    "err": "HTTPError: HTTP Error 400: Bad Request",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=848445&board_no=69": {
    "err": "HTTPError: HTTP Error 400: Bad Request",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=861793&board_no=69": {
    "err": "HTTPError: HTTP Error 400: Bad Request",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=995905&board_no=69": {
    "err": "HTTPError: HTTP Error 400: Bad Request",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
@@ -6168,37 +6185,37 @@
    "err": null,
    "fails": 0,
    "hash": "29a39a7dd7af0606",
-   "pending": "27dc5ce8dfddd466"
+   "pending": "409642db0992f0c9"
   },
   "https://www.e-cmh.org/journal/view.php?doi=10.3350%2Fcmh.2025.0045": {
    "err": null,
    "fails": 0,
    "hash": "6a3a57dddc7ff874",
-   "pending": "5fa20c4b6d588212"
+   "pending": "2547f036acf260bb"
   },
   "https://www.e-cmh.org/journal/view.php?doi=10.3350%2Fcmh.2025.0777": {
    "err": null,
    "fails": 0,
    "hash": "722763b7d0207ab3",
-   "pending": "fc85785dcd7b4548"
+   "pending": "1c96f6896c6bde77"
   },
   "https://www.e-cmh.org/journal/view.php?doi=10.3350%2Fcmh.2026.0281": {
    "err": null,
    "fails": 0,
    "hash": "26328119124d63df",
-   "pending": "483132a9e5842e0b"
+   "pending": "c6b58c7ae8be4aa8"
   },
   "https://www.e-cmh.org/journal/view.php?number=1670": {
    "err": null,
    "fails": 0,
    "hash": "e165046c11daafd7",
-   "pending": "0d3077f305c283b6"
+   "pending": "f8011e644c04e6d9"
   },
   "https://www.e-cmh.org/journal/view.php?number=1817": {
    "err": null,
    "fails": 0,
    "hash": "378a2dedc6f65ef5",
-   "pending": "5b619799e8da9011"
+   "pending": "0665c7db51a76af2"
   },
   "https://www.e-enm.org/upload/pdf/enm-2023-1789.pdf": {
    "err": null,
@@ -7965,8 +7982,8 @@
    "pending": null
   },
   "https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64732&menuNo=201193&part=nttId64732": {
-   "err": "URLError: <urlopen error [Errno 111] Connection refused>",
-   "fails": 1,
+   "err": null,
+   "fails": 0,
    "hash": "6048e6e0d51a6044",
    "pending": null
   },
@@ -8549,71 +8566,72 @@
   "https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2005&mode=view": {
    "err": null,
    "fails": 0,
-   "hash": "9bec436a3a79ad61",
-   "pending": "c17924c26717f059",
-   "since": "2026-10-27"
+   "hash": "c17924c26717f059",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2006&mode=view": {
    "err": null,
    "fails": 0,
-   "hash": "649eb6585ca04dff",
-   "pending": "fb05f426ad709807",
-   "since": "2026-10-27"
+   "hash": "fb05f426ad709807",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2012&mode=view": {
    "err": null,
    "fails": 0,
    "hash": "870af12375262676",
-   "pending": "c695e70041505fa9",
+   "pending": "b16e652b47c86d02",
    "since": "2026-10-27"
   },
   "https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2016&mode=view": {
    "err": null,
    "fails": 0,
    "hash": "a0f71d5c91491ef9",
-   "pending": "d19b662b5347941e",
+   "pending": "14d10dee477b727e",
    "since": "2026-10-27"
   },
   "https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2018&mode=view": {
    "err": null,
    "fails": 0,
-   "hash": "b81c6bea973e530d",
-   "pending": "b9e144c3a32c859b",
-   "since": "2026-10-29"
+   "hash": "b9e144c3a32c859b",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2019&mode=view": {
    "err": null,
    "fails": 0,
    "hash": "9b7938f58c074409",
-   "pending": "4b37815e72b6c25f",
+   "pending": "40fe0e0d261187af",
    "since": "2026-10-27"
   },
   "https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2205&mode=view": {
    "err": null,
    "fails": 0,
    "hash": "bd2344adab92e4cd",
-   "pending": "9cfa1bc331eefe46",
+   "pending": "7fdb70699a71240d",
    "since": "2026-10-27"
   },
   "https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2297&mode=view": {
    "err": null,
    "fails": 0,
    "hash": "799ba0bc75294fa3",
-   "pending": "8c3bab698d6d40fa",
+   "pending": "264d794bcff35359",
    "since": "2026-10-27"
   },
   "https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2395&mode=view": {
    "err": null,
    "fails": 0,
    "hash": "d0603a7b24afa836",
-   "pending": "ab5f268701d8647e",
+   "pending": "a2443399b1ad6d0f",
    "since": "2026-10-27"
   },
   "https://www.geumcheon.go.kr/health/contents.do?key=4523": {
    "err": null,
    "fails": 0,
-   "hash": "ee34420c7a7ccd6e",
-   "pending": "222c3d836a5150cc"
+   "hash": "222c3d836a5150cc",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.guideline.or.kr/func/download_chronic.php?number=701": {
    "err": null,
@@ -9052,473 +9070,473 @@
   },
   "https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "b57468a701e4b6ed",
    "pending": null
   },
   "https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=breast": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "b57468a701e4b6ed",
    "pending": null
   },
   "https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=colorectal": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "b57468a701e4b6ed",
    "pending": null
   },
   "https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=gastric-thyroid": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "b57468a701e4b6ed",
    "pending": null
   },
   "https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=liver-biliary-prostate": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "b57468a701e4b6ed",
    "pending": null
   },
   "https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=lung": {
-   "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "err": null,
+   "fails": 0,
    "hash": "b57468a701e4b6ed",
-   "pending": null
+   "pending": "d5eb31b22ab80a6a"
   },
   "https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=melanoma": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "b57468a701e4b6ed",
    "pending": null
   },
   "https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=2&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=breast": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 9,
+   "fails": 10,
    "hash": "d22a217585dbd22d",
    "pending": null
   },
   "https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=2&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=colorectal": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 9,
+   "fails": 10,
    "hash": "d22a217585dbd22d",
    "pending": null
   },
   "https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=2&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=gastric": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 9,
+   "fails": 10,
    "hash": "d22a217585dbd22d",
    "pending": null
   },
   "https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=2&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=liver": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 9,
+   "fails": 10,
    "hash": "d22a217585dbd22d",
    "pending": null
   },
   "https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=2&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=lung": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 9,
+   "fails": 10,
    "hash": "d22a217585dbd22d",
    "pending": null
   },
   "https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=2&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=prostate": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 9,
+   "fails": 10,
    "hash": "d22a217585dbd22d",
    "pending": null
   },
   "https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=2&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=thyroid": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 9,
+   "fails": 10,
    "hash": "d22a217585dbd22d",
    "pending": null
   },
   "https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=6&apndBrdBltNo=45661&apndBrdTyNo=6&apndBltNo=49": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "dfdf37d8a7d1b6e3",
    "pending": null
   },
   "https://www.hira.or.kr/bbsDummy.do?brdBltNo=45655&brdScnBltNo=4&pgmid=HIRAA030023010000": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "eca5cbdc8bd0e860",
    "pending": "6be0706f40d3f587"
   },
   "https://www.hira.or.kr/bbsDummy.do?brdBltNo=45661&brdScnBltNo=4&pgmid=HIRAA030023010000": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "3cae505ad77d4bbf",
    "pending": "4580cd2b76ccf161"
   },
   "https://www.hira.or.kr/bbsDummy.do?brdBltNo=45666&brdScnBltNo=4&pgmid=HIRAA030023080000": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "589267f3e635e3bb",
    "pending": "fa1cd9853bbcda91"
   },
   "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=10567": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "31c1733d5f4bab0b",
    "pending": "9008073e1ddd835a"
   },
   "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=10925": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "b5353213de731215",
    "pending": "fcc83eae501d87d8"
   },
   "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11129": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "68119336035c17a3",
    "pending": "54be12c0d8663a7d"
   },
   "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11421": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "b8e5b710d91e83b5",
    "pending": "9e0a992b2b82698a"
   },
   "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11711": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "7bb2b3819fa355f5",
    "pending": "4db4cc6915dc90ae"
   },
   "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA030014050000&brdScnBltNo=4&brdBltNo=1710": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA030023010000&brdScnBltNo=4&brdBltNo=45654": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "5e6f0696052d5a23",
    "pending": "9fc89d515675d2c8"
   },
   "https://www.hira.or.kr/dummy.do?pgmid=HIRAA020020000005": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "260480183de27f01",
    "pending": null
   },
   "https://www.hira.or.kr/ebooksc/2026/02/BZ202602273023260.pdf?part=cataract-drg": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "92c6818792260afc",
    "pending": null
   },
   "https://www.hira.or.kr/ebooksc/2026/02/BZ202602273023260.pdf?part=highcost-nonpay": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "92c6818792260afc",
    "pending": null
   },
   "https://www.hira.or.kr/ebooksc/2026/02/BZ202602273023260.pdf?part=ltc-hospital": {
-   "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "err": "URLError: <urlopen error timed out>",
+   "fails": 4,
    "hash": "92c6818792260afc",
    "pending": null
   },
   "https://www.hira.or.kr/ebooksc/2026/02/BZ202602273023260.pdf?part=nonpay-procedures": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "92c6818792260afc",
    "pending": null
   },
   "https://www.hira.or.kr/ebooksc/2026/02/BZ202602273023260.pdf?part=ward-fee": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "92c6818792260afc",
    "pending": null
   },
   "https://www.hira.or.kr/ebooksc/2026/08/BZ202608113877543.pdf": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "164574c296be59c6",
    "pending": null
   },
   "https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=dental-crown-UW607-613-UZ001": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "b3b130b344c28e52",
    "pending": null
   },
   "https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=dental-implant-scaling-UB001-UW3021": {
-   "err": null,
-   "fails": 0,
+   "err": "TimeoutError: The read operation timed out",
+   "fails": 1,
    "hash": "b3b130b344c28e52",
    "pending": null,
    "since": "2026-10-30"
   },
   "https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=dental-resin-inlay-U0239-0241-UZ004-005": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 2,
+   "fails": 3,
    "hash": "b3b130b344c28e52",
    "pending": null
   },
   "https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=iol-BI0208EB-0209EB-0207LN-0208LN": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "b3b130b344c28e52",
    "pending": null
   },
   "https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=kmed-chuna-acupharm-4071-4073-4901-4902": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "b3b130b344c28e52",
    "pending": null
   },
   "https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=mri-HE1010-1090-1110-1150-1200-1260": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "b3b130b344c28e52",
    "pending": "24f0a8fb44e42779",
    "since": "2026-10-25"
   },
   "https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=msk-MX122-SZ084-MY142-143": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "b3b130b344c28e52",
    "pending": null
   },
   "https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=robot-QZ966": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "24f0a8fb44e42779",
    "pending": null,
    "since": "2026-10-27"
   },
   "https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=us-EB414-421-423-441-442-455-EZ987": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "b3b130b344c28e52",
    "pending": null
   },
   "https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=varicose-OY201-204-OZ303-305-308-EB489-EZ867": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "b3b130b344c28e52",
    "pending": null
   },
   "https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=ward-ABZ01-02": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "b3b130b344c28e52",
    "pending": null
   },
   "https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=zoster-vaccine-3Z52003": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "b3b130b344c28e52",
    "pending": "24f0a8fb44e42779",
    "since": "2026-10-21"
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20110124&sno=2&mtgMtrRegSno=0008&part=varicose": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 4,
+   "fails": 5,
    "hash": "cd1f6b9b5ffbf6b7",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20130901&sno=1&mtgMtrRegSno=0433&part=zoster-antiviral": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "cd916e86004a2b47",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20151029&sno=2&mtgMtrRegSno=0001&part=eswl": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "58b8c7450abb26e9",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20171227&sno=1&mtgMtrRegSno=0001&part=scaling": {
-   "err": "TimeoutError: The read operation timed out",
-   "fails": 4,
+   "err": null,
+   "fails": 0,
    "hash": "3f144bd49231652a",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20180628&sno=1&mtgMtrRegSno=0001&part=ward-history": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "10eed975937bdd56",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20190901&sno=6&mtgMtrRegSno=0013&part=phn-pregabalin-gabapentin": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "b4716b81d8e78484",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20200501&sno=3&mtgMtrRegSno=0007&part=hyaluronate": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "d0e075d843352dd7",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20210101&sno=15&mtgMtrRegSno=0001&part=zoledronic": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "757c5a9861808099",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20210114&sno=3&mtgMtrRegSno=0001&part=chuna": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "b7b669898953fab3",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20210216&sno=1&mtgMtrRegSno=0005&part=ltc-select": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 4,
+   "fails": 5,
    "hash": "6c3440d64e60440a",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20210701&sno=9&mtgMtrRegSno=0001&part=fdgpet": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "4a4f128c6e605ecd",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20220801&sno=4&mtgMtrRegSno=0008&part=noac": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 4,
+   "fails": 5,
    "hash": "bb328c4f3b54512b",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20230701&sno=1&mtgMtrRegSno=0001&part=ultrasound": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "3b9bc8c93bd004a9",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20230701&sno=5&mtgMtrRegSno=0004&part=sacubitril": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 2,
+   "fails": 3,
    "hash": "dccdbcefc83d0bb7",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20231201&sno=7&mtgMtrRegSno=0001&part=ngs": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "efca87b81ef7cb8b",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20240201&sno=4&mtgMtrRegSno=0002&part=finerenone": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "d71d9fe12f4635ad",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20240301&sno=1&mtgMtrRegSno=0004&part=pcsk9": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "02adab1abefda945",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20240701&sno=4&mtgMtrRegSno=0005&part=cgrp": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "6406b4134026c2fa",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20240730&sno=4&mtgMtrRegSno=0006&part=mri": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "e1cdfe38121be682",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20240912&sno=1&mtgMtrRegSno=0009&part=er-qa": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "2b9b2dadafa42fe5",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20241201&sno=3&mtgMtrRegSno=0011&part=antivegf": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "3bff10e68d3a96ba",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20250201&sno=5&mtgMtrRegSno=0003&part=implant-denture-65": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "da5e4dca4b9017a2",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20250201&sno=6&mtgMtrRegSno=0005&part=xgeva": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "6a38603146767dbd",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20250501&sno=2&mtgMtrRegSno=0003&part=dementia": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "4d30016e268cab9a",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20251101&sno=1&mtgMtrRegSno=0001&part=hbv": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "a65691f7cc091468",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260301&sno=1&mtgMtrRegSno=0001&part=osteoporosis": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "92e69369833c0b80",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260601&sno=1&mtgMtrRegSno=0013&part=diabetes": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 1,
+   "fails": 2,
    "hash": "789316b799fc35b3",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260701&sno=1&mtgMtrRegSno=0004&part=asthma": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "26b9aec5a3d8b556",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260701&sno=4&mtgMtrRegSno=0001&part=manualtherapy": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "c40e4d2f4ab396fe",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260801&sno=1&mtgMtrRegSno=0001": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "89510afc56db8974",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260801&sno=1&mtgMtrRegSno=0007&part=sglt2": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "35373c052e1858c0",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260901&sno=2&mtgMtrRegSno=0010&part=biologics": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "e0454ddf78e6224e",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20261001&sno=2&mtgMtrRegSno=0001&part=ruxolitinib-gvhd": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "d99a6fa0919cd10a",
    "pending": null
   },
   "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20261001&sno=2&mtgMtrRegSno=0002&part=cinnamon-gastritis": {
    "err": "TimeoutError: The read operation timed out",
-   "fails": 3,
+   "fails": 4,
    "hash": "0df743bea59e3e74",
    "pending": null
   },
@@ -9673,13 +9691,13 @@
    "err": null,
    "fails": 0,
    "hash": "a0523c25992bd4ad",
-   "pending": "2811f51ad519d3cf"
+   "pending": "5393bbe413b2d07a"
   },
   "https://www.kjpbt.org/journal/view.php?doi=10.15279/kpba.2024.29.4.128": {
    "err": null,
    "fails": 0,
    "hash": "0a6830f016a492e9",
-   "pending": "4a3b1c4e64e89648"
+   "pending": "e0be28359c0bb93c"
   },
   "https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=10&idx=0": {
    "err": null,
@@ -9936,90 +9954,100 @@
   "https://www.law.go.kr/DRF/lawService.do?OC=test&target=admrul&ID=2100000229326&type=HTML": {
    "err": null,
    "fails": 0,
-   "hash": "2747827914badb58",
-   "pending": "bee297388506fa30"
+   "hash": "bee297388506fa30",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=207800&type=HTML&part=hist118-5": {
    "err": null,
    "fails": 0,
-   "hash": "1133436d600cb3ec",
-   "pending": "bee297388506fa30"
+   "hash": "bee297388506fa30",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=268077&type=HTML&part=art3-4": {
    "err": null,
    "fails": 0,
-   "hash": "1133436d600cb3ec",
-   "pending": "bee297388506fa30"
+   "hash": "bee297388506fa30",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=273629&type=HTML&part=art657-662": {
    "err": null,
    "fails": 0,
-   "hash": "1133436d600cb3ec",
-   "pending": "bee297388506fa30"
+   "hash": "bee297388506fa30",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=273629&type=HTML&part=art733-734": {
    "err": null,
    "fails": 0,
-   "hash": "1133436d600cb3ec",
-   "pending": "bee297388506fa30"
+   "hash": "bee297388506fa30",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=280405&type=HTML&part=art59-4": {
    "err": null,
    "fails": 0,
-   "hash": "1133436d600cb3ec",
-   "pending": "bee297388506fa30"
+   "hash": "bee297388506fa30",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283025&type=HTML&part=art6": {
    "err": null,
    "fails": 0,
-   "hash": "1133436d600cb3ec",
-   "pending": "bee297388506fa30"
+   "hash": "bee297388506fa30",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290667&type=HTML&part=art47-3": {
    "err": null,
    "fails": 0,
-   "hash": "1133436d600cb3ec",
-   "pending": "bee297388506fa30"
+   "hash": "bee297388506fa30",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290841&type=HTML&part=art118-5": {
    "err": null,
    "fails": 0,
-   "hash": "1133436d600cb3ec",
-   "pending": "bee297388506fa30"
+   "hash": "bee297388506fa30",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=290841&type=HTML&part=art118-5-216-3": {
    "err": null,
    "fails": 0,
-   "hash": "1133436d600cb3ec",
-   "pending": "bee297388506fa30"
+   "hash": "bee297388506fa30",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.law.go.kr/LSW//flDownload.do?gubun=&flSeq=150839779&bylClsCd=110201": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "ad0d9b1ccc68044f",
    "pending": null
   },
   "https://www.law.go.kr/LSW//flDownload.do?gubun=&flSeq=159606609&bylClsCd=110201": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -5] No address associated with hostname>",
+   "fails": 1,
    "hash": "8080f8c7241dd02a",
    "pending": null
   },
   "https://www.law.go.kr/LSW//flDownload.do?gubun=&flSeq=160831059&bylClsCd=110201": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -5] No address associated with hostname>",
+   "fails": 1,
    "hash": "9a98c6218afa4a70",
    "pending": null
   },
   "https://www.law.go.kr/LSW//flDownload.do?gubun=&flSeq=166142737&bylClsCd=110201": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "0dcfbbf3352c5a66",
    "pending": null
   },
   "https://www.law.go.kr/LSW//flDownload.do?gubun=&flSeq=166142845&bylClsCd=110201": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "c80674007f580320",
    "pending": null
   },
@@ -10030,8 +10058,8 @@
    "pending": null
   },
   "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000143049": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "8ffac538b664f801",
    "pending": null
   },
@@ -10042,8 +10070,8 @@
    "pending": null
   },
   "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000206468": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "39db15c3a4157321",
    "pending": null
   },
@@ -10054,8 +10082,8 @@
    "pending": null
   },
   "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000243466": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "4579056ceabdbe26",
    "pending": null
   },
@@ -10090,14 +10118,14 @@
    "pending": null
   },
   "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000270432&chrClsCd=010201": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "321fb730129b1288",
    "pending": null
   },
   "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000271088": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "71a83f1d61ad57d7",
    "pending": null
   },
@@ -10132,14 +10160,14 @@
    "pending": null
   },
   "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000274952": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "7a2b1199f7857bf4",
    "pending": null
   },
   "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000275360&chrClsCd=010201": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "fe1122a6c214f87b",
    "pending": null
   },
@@ -10168,8 +10196,8 @@
    "pending": null
   },
   "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000283320&part=byul6-pharmacy": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -5] No address associated with hostname>",
+   "fails": 1,
    "hash": "9f82d9c0df4dbb52",
    "pending": null
   },
@@ -10186,14 +10214,14 @@
    "pending": null
   },
   "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000285598": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "a54637cee76553b3",
    "pending": null
   },
   "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000285724": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "37a6439902779bc4",
    "pending": null
   },
@@ -10216,8 +10244,8 @@
    "pending": null
   },
   "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulId=63412&efYd=0": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "25677c08f9befc2e",
    "pending": null
   },
@@ -10228,8 +10256,8 @@
    "pending": null
   },
   "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000283320": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "9f82d9c0df4dbb52",
    "pending": null
   },
@@ -10252,50 +10280,50 @@
    "pending": null
   },
   "https://www.law.go.kr/LSW/flDownload.do?flSeq=126947229": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -5] No address associated with hostname>",
+   "fails": 1,
    "hash": "691f0beaaf2f2cc4",
    "pending": null
   },
   "https://www.law.go.kr/LSW/flDownload.do?flSeq=155723601": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "0cb178aec81fdd2d",
    "pending": null
   },
   "https://www.law.go.kr/LSW/flDownload.do?flSeq=158265603": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "a5dd926df7625bbb",
    "pending": null
   },
   "https://www.law.go.kr/LSW/flDownload.do?flSeq=158957061": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "659ed8865dac6555",
    "pending": null
   },
   "https://www.law.go.kr/LSW/flDownload.do?flSeq=159255731": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -5] No address associated with hostname>",
+   "fails": 1,
    "hash": "51d96fd2d6c6e1c2",
    "pending": null
   },
   "https://www.law.go.kr/LSW/flDownload.do?flSeq=160143991": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "cced5c2c33fb345d",
    "pending": null
   },
   "https://www.law.go.kr/LSW/flDownload.do?flSeq=160753133": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "5c89aa461d3e8eb0",
    "pending": null
   },
   "https://www.law.go.kr/LSW/flDownload.do?flSeq=160753137": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "41f2683f697dd0b0",
    "pending": null
   },
@@ -10318,26 +10346,26 @@
    "pending": null
   },
   "https://www.law.go.kr/LSW/flDownload.do?flSeq=164018753": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "4385d7a94d3bd1b3",
    "pending": null
   },
   "https://www.law.go.kr/LSW/flDownload.do?flSeq=166142775": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "76a3cb2ae4b00a04",
    "pending": null
   },
   "https://www.law.go.kr/LSW/flDownload.do?flSeq=167660563": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "b816760a61ef3f11",
    "pending": null
   },
   "https://www.law.go.kr/LSW/flDownload.do?flSeq=167660569": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "2bdd1c944eb6cae5",
    "pending": null
   },
@@ -10348,14 +10376,14 @@
    "pending": null
   },
   "https://www.law.go.kr/LSW/flDownload.do?flSeq=168884315&part=disability-table": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -5] No address associated with hostname>",
+   "fails": 1,
    "hash": "39b948f433dceeb1",
    "pending": null
   },
   "https://www.law.go.kr/LSW/flDownload.do?flSeq=168884315&part=silson-basic": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "39b948f433dceeb1",
    "pending": null
   },
@@ -10372,14 +10400,14 @@
    "pending": null
   },
   "https://www.law.go.kr/LSW/flDownload.do?flSeq=168884315&part=silson-rider1": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "39b948f433dceeb1",
    "pending": null
   },
   "https://www.law.go.kr/LSW/flDownload.do?flSeq=168884315&part=silson-rider2": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "39b948f433dceeb1",
    "pending": null
   },
@@ -10390,32 +10418,32 @@
    "pending": null
   },
   "https://www.law.go.kr/LSW/flDownload.do?flSeq=169128695": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "281ed23a8c552a25",
    "pending": null
   },
   "https://www.law.go.kr/LSW/flDownload.do?flSeq=169130893": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -5] No address associated with hostname>",
+   "fails": 1,
    "hash": "ecff1ca49cbc1962",
    "pending": null
   },
   "https://www.law.go.kr/LSW/flDownload.do?flSeq=169768497": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "afe151e7142ba2c8",
    "pending": null
   },
   "https://www.law.go.kr/LSW/flDownload.do?flSeq=169768501": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "ee5832c5b9c6a67a",
    "pending": null
   },
   "https://www.law.go.kr/LSW/lsInfoP.do?lsId=012492": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "ebe16306fd8536c4",
    "pending": null
   },
@@ -10426,14 +10454,14 @@
    "pending": null
   },
   "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=249317&efYd=20230929&ancYnChk=0": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "506c7af3e0bd3a30",
    "pending": null
   },
   "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=253647": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "32214bea888fc79f",
    "pending": null
   },
@@ -10480,8 +10508,8 @@
    "pending": null
   },
   "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=271009&efYd=20250719&ancYnChk=0": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "3ca93886a7ec2767",
    "pending": null
   },
@@ -10498,8 +10526,8 @@
    "pending": null
   },
   "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=280315": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -5] No address associated with hostname>",
+   "fails": 1,
    "hash": "f3d93e9f8966c3e7",
    "pending": null
   },
@@ -10570,8 +10598,8 @@
    "pending": null
   },
   "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=285273": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "8d386c9096757a9d",
    "pending": null
   },
@@ -10630,8 +10658,8 @@
    "pending": null
   },
   "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=286011": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "d1c1accaa07e00cb",
    "pending": null
   },
@@ -10738,8 +10766,8 @@
    "pending": null
   },
   "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290599": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -5] No address associated with hostname>",
+   "fails": 1,
    "hash": "e3b45dbd4d11669a",
    "pending": null
   },
@@ -10762,8 +10790,8 @@
    "pending": null
   },
   "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290599&part=byul6-emergency": {
-   "err": null,
-   "fails": 0,
+   "err": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+   "fails": 1,
    "hash": "e3b45dbd4d11669a",
    "pending": null
   },
@@ -11411,409 +11439,409 @@
    "err": null,
    "fails": 0,
    "hash": "bab68bcd08cb9efa",
-   "pending": "278ab450d12c8d24",
+   "pending": "bd7f32753add4927",
    "since": "2026-10-27"
   },
   "https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1487708&part=remote-care": {
    "err": null,
    "fails": 0,
    "hash": "eebd4826cb01390c",
-   "pending": "286af4f4d7b3ad27",
+   "pending": "fb80999d8980a5bf",
    "since": "2026-10-27"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1478747": {
    "err": null,
    "fails": 0,
    "hash": "af4f465b3661a3f2",
-   "pending": "719c0a306084351f"
+   "pending": "b8cbb166824c277b"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1478997": {
    "err": null,
    "fails": 0,
    "hash": "e28b0755ea5370ef",
-   "pending": "ee7e05a0d3caba7b"
+   "pending": "fe0f158a57db3fb5"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1479428": {
    "err": null,
    "fails": 0,
    "hash": "f7a75445e316acea",
-   "pending": "3602e11e829c0244"
+   "pending": "63820ea16fa8a17a"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1479432": {
    "err": null,
    "fails": 0,
    "hash": "31c3d4ebdc4be76e",
-   "pending": "48e658a4586f9589"
+   "pending": "dc56b29c3ef2544a"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1479676": {
    "err": null,
    "fails": 0,
    "hash": "cea5fed202b8ab5a",
-   "pending": "13cbbf39748eed10"
+   "pending": "7fda40f021cd803f"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1479678": {
    "err": null,
    "fails": 0,
    "hash": "f785a4d681f3ba37",
-   "pending": "297cf03ed0bcc21b"
+   "pending": "b2afd8cfc4131b9f"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1480092": {
    "err": null,
    "fails": 0,
    "hash": "ef881fc8696df3c6",
-   "pending": "54b353b9be4f3659"
+   "pending": "c62a9fa99b48e893"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1480180": {
    "err": null,
    "fails": 0,
    "hash": "cc4e5663e4faf741",
-   "pending": "da1cd4eee2b0bae2"
+   "pending": "45c60ba332dadfab"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1480370": {
    "err": null,
    "fails": 0,
    "hash": "800fab5a917d0fdb",
-   "pending": "f92547666df3b486"
+   "pending": "80d0ed2743c18162"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1480898": {
    "err": null,
    "fails": 0,
    "hash": "081bfcfc7ea917c6",
-   "pending": "83675a56bc9ed235"
+   "pending": "043e31eaf1da6040"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1481056": {
    "err": null,
    "fails": 0,
    "hash": "cc17af1e94ec07f9",
-   "pending": "0128345d5fab2f3e"
+   "pending": "de925db331cbd86c"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1482132": {
    "err": null,
    "fails": 0,
    "hash": "61afbefb1d01615d",
-   "pending": "8d10f5977f7acd81"
+   "pending": "4fdcff6ea455fe2d"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1482170": {
    "err": null,
    "fails": 0,
    "hash": "43098d7cc8dfba4b",
-   "pending": "af1a6233964287d2"
+   "pending": "fac0385a03f16545"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1483034": {
    "err": null,
    "fails": 0,
    "hash": "8f88b5533b4fb55a",
-   "pending": "e4eeb16601717161"
+   "pending": "8453c832c38ecfae"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1483375": {
    "err": null,
    "fails": 0,
    "hash": "3a3d39f3f180a00d",
-   "pending": "74f6a8471648c855"
+   "pending": "eb4dba0a6935af2d"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1483484": {
    "err": null,
    "fails": 0,
    "hash": "cc74ac43bff671c0",
-   "pending": "fbbb5eccc6f1f887"
+   "pending": "3f85a2fe69bd91a1"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1484268&part=listNo1484268": {
    "err": null,
    "fails": 0,
    "hash": "b70ffd45712055dd",
-   "pending": "4f849026f8605541"
+   "pending": "90febf029514d976"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1484751": {
    "err": null,
    "fails": 0,
    "hash": "55922920b91eaa51",
-   "pending": "f6ade7d50e1653f7"
+   "pending": "a4cef7a2b257931b"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1485027&part=listNo1485027": {
    "err": null,
    "fails": 0,
    "hash": "958b2d2b0783291e",
-   "pending": "eb36c66489c19667"
+   "pending": "5eae22b3a44781b4"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1485898": {
    "err": null,
    "fails": 0,
    "hash": "0577b23863938f55",
-   "pending": "ccee741dcfafa1aa"
+   "pending": "d60185d3b61e2ec0"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1486056&part=listNo1486056": {
    "err": null,
    "fails": 0,
    "hash": "fbea2c5de548546d",
-   "pending": "44c1ad88910f778a"
+   "pending": "eedb6823981873e3"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1487098": {
    "err": null,
    "fails": 0,
    "hash": "77ede8778291cee8",
-   "pending": "5fd0abce88025eb1"
+   "pending": "62a9fda7481df881"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1487279": {
    "err": null,
    "fails": 0,
    "hash": "43b2f5ee763d224d",
-   "pending": "5a2466a93841b159"
+   "pending": "d2d8b78a5cd5c27c"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1487329&part=listNo1487329": {
    "err": null,
    "fails": 0,
    "hash": "d23daba151197294",
-   "pending": "600d8010ab599e7e"
+   "pending": "3cab4506cef7fe49"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1487329&part=listNo1487329-eye": {
    "err": null,
    "fails": 0,
    "hash": "d685fc77b38b3bd3",
-   "pending": "f31f71732ac017bc"
+   "pending": "038f855fb0a5a335"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1487465": {
    "err": null,
    "fails": 0,
    "hash": "35c4c35234790a8b",
-   "pending": "9dc11e46171c73e2"
+   "pending": "de731fb23f51a523"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1487678": {
    "err": null,
    "fails": 0,
    "hash": "e1e841aef60a369c",
-   "pending": "04eea5562c481f7f"
+   "pending": "3058072b7410df57"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1487817": {
    "err": null,
    "fails": 0,
    "hash": "850bd73072a30f84",
-   "pending": "16e8f5ce6dabd0d0"
+   "pending": "6c2f601c53905c2d"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1487882": {
    "err": null,
    "fails": 0,
    "hash": "377a6a50f82491ef",
-   "pending": "0cf3079c6aaf379a"
+   "pending": "a3ccdc3a1f979bf2"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1488167&part=listNo1488167": {
    "err": null,
    "fails": 0,
    "hash": "95d02781365ca10c",
-   "pending": "c0ac8c64fe8e9ad9"
+   "pending": "0bd8aa429f9da288"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1488173": {
    "err": null,
    "fails": 0,
    "hash": "99375909a12d178a",
-   "pending": "975a4e43c395d2f3"
+   "pending": "34fd2e788ab3b9a9"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1488455": {
    "err": null,
    "fails": 0,
    "hash": "b160a8a92d711526",
-   "pending": "6971af944d820c28"
+   "pending": "2ef06d73fc07c5ef"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1488495": {
    "err": null,
    "fails": 0,
    "hash": "30a394a9d0bb72d5",
-   "pending": "3d05dfb65f2b2976"
+   "pending": "846ae8164c112dcf"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1488505": {
    "err": null,
    "fails": 0,
    "hash": "542b6c56ae7fbdcb",
-   "pending": "a162285cca35d573"
+   "pending": "3b43873028c46897"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1488742&tag=&nPage=1": {
    "err": null,
    "fails": 0,
    "hash": "7e55fde896229a77",
-   "pending": "fe89cde20c6556f0"
+   "pending": "7f93b7b48aec2288"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1488880&part=listNo1488880": {
    "err": null,
    "fails": 0,
    "hash": "56c0ec325bbbdb1b",
-   "pending": "be1d6b651c6ea68e"
+   "pending": "5da1d2ee39ab35dd"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1489116": {
    "err": null,
    "fails": 0,
    "hash": "a488591cc9a49380",
-   "pending": "55a6be362c2b195a"
+   "pending": "a35f67129fcfcb1b"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1489136&part=listNo1489136": {
    "err": null,
    "fails": 0,
    "hash": "be269a85fd7b1554",
-   "pending": "5164f7fef684a14c"
+   "pending": "5366930a490a9cc7"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1489307&part=listNo1489307": {
    "err": null,
    "fails": 0,
    "hash": "e5e58eab3a13e380",
-   "pending": "d31040fbc49ef7a1"
+   "pending": "9b8e1dc0cec6c39d"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1489775": {
    "err": null,
    "fails": 0,
    "hash": "8a0f955c6559677e",
-   "pending": "53c5cb870a353f82"
+   "pending": "b98154e7a7555f23"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490266": {
    "err": null,
    "fails": 0,
    "hash": "697e232eac15eb42",
-   "pending": "64d7de80c544a306"
+   "pending": "9dd5e408229ed7bf"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490272": {
-   "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 1,
+   "err": null,
+   "fails": 0,
    "hash": "12c4f4e8cb26e866",
-   "pending": "6714bf97794eb62d"
+   "pending": "ab5ebabc2c9f60ae"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490515": {
    "err": null,
    "fails": 0,
    "hash": "8ea96f790acb6515",
-   "pending": "de6de79ef2b94835"
+   "pending": "1824b822086610fb"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490613": {
    "err": null,
    "fails": 0,
    "hash": "2a3307b0562c25e8",
-   "pending": "e9a3ff48f83d89bb"
+   "pending": "69f65f3925d5336b"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490867": {
    "err": null,
    "fails": 0,
    "hash": "e533660c5676584f",
-   "pending": "38291774b2b84eee"
+   "pending": "daf236645ba8f291"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490869": {
    "err": null,
    "fails": 0,
    "hash": "a1313f5482d24f19",
-   "pending": "329b5f88d6af3ef5"
+   "pending": "396a1422c31d7def"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490900&part=listNo1490900": {
    "err": null,
    "fails": 0,
    "hash": "58cae8ffb40aa9ad",
-   "pending": "01a5c8dc3a0a8fac"
+   "pending": "c24624cb09b4bed4"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490981": {
    "err": null,
    "fails": 0,
    "hash": "70693a9c4b52a1cd",
-   "pending": "a6fafdd59a29b8d4"
+   "pending": "565c9b5c6f4a4afb"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491083": {
    "err": null,
    "fails": 0,
    "hash": "449de30976f69684",
-   "pending": "4e0d88a0a732a532"
+   "pending": "e399ae3b055eb3ae"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491109&part=listNo1491109": {
    "err": null,
    "fails": 0,
    "hash": "154242eeaf5243a9",
-   "pending": "b5a845b17dc0b5f2"
+   "pending": "f178adbfd60625f1"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491444": {
    "err": null,
    "fails": 0,
    "hash": "200755c32771e52f",
-   "pending": "5b6050cc9344cd56"
+   "pending": "fcc3b624a130e9af"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491453": {
    "err": null,
    "fails": 0,
    "hash": "c3f0127de907e668",
-   "pending": "f0255ad77d1f5cfc"
+   "pending": "56e874e460b11759"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491490": {
    "err": null,
    "fails": 0,
    "hash": "b78dd7e6020b7347",
-   "pending": "dbf63d972e60968e"
+   "pending": "de2072a33a06b34e"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491572": {
    "err": null,
    "fails": 0,
    "hash": "8d9a079422e7541a",
-   "pending": "49d8a4209059bff6"
+   "pending": "27fbfdb9a4609622"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491593": {
    "err": null,
    "fails": 0,
    "hash": "c98105da92bc90e4",
-   "pending": "109dccb9021f8572"
+   "pending": "73060a6927b038d1"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491789&part=listNo1491789": {
    "err": null,
    "fails": 0,
    "hash": "a8c17f98c1779527",
-   "pending": "f6cce953c6e6d290"
+   "pending": "83d35848b1b1807a"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491789&part=listNo1491789-implant": {
    "err": null,
    "fails": 0,
    "hash": "dcb73db7772da105",
-   "pending": "e5b93b4db6de8fda"
+   "pending": "c25671093970bd4b"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491789&part=listNo1491789-msk": {
    "err": null,
    "fails": 0,
    "hash": "d61f7f97b3ac375f",
-   "pending": "f6cce953c6e6d290"
+   "pending": "c25671093970bd4b"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491827": {
    "err": null,
    "fails": 0,
    "hash": "8d8c20def9b92989",
-   "pending": "572c267720fc265e"
+   "pending": "402dd05377239b5a"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1491934&part=listNo1491934": {
    "err": null,
    "fails": 0,
    "hash": "5d349610e3d68b7c",
-   "pending": "7e912422630b0203"
+   "pending": "13a1de6d29c0a25a"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492006": {
    "err": null,
    "fails": 0,
    "hash": "b4bed0387165c9b4",
-   "pending": "55ff4588b785794b"
+   "pending": "a7ab44901cdd5fb5"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1492094": {
    "err": null,
    "fails": 0,
    "hash": "ba93882910abcb79",
-   "pending": "a837cacba0f5b4ee"
+   "pending": "89f38861b7ef5495"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=237175": {
    "err": null,
    "fails": 0,
    "hash": "627d98ff44bce689",
-   "pending": "0c37da72f86da448"
+   "pending": "9bd0df01aeb269f3"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=257923": {
    "err": null,
    "fails": 0,
    "hash": "30f16e2cdac8e373",
-   "pending": "625c28b9aa48948a"
+   "pending": "673279f2327a2c9f"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=282648": {
    "err": null,
    "fails": 0,
    "hash": "dc101952f734b1c8",
-   "pending": "e66df2fd0703ab84"
+   "pending": "4011c1fe2f153cae"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=334286": {
-   "err": null,
-   "fails": 0,
+   "err": "RemoteDisconnected: Remote end closed connection without response",
+   "fails": 1,
    "hash": "5de66459ae31189c",
    "pending": "31832da480e0283c"
   },
@@ -11821,73 +11849,73 @@
    "err": null,
    "fails": 0,
    "hash": "6a20bee1b93ee428",
-   "pending": "019d700245984085"
+   "pending": "c87f580ded5c1027"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=343378": {
    "err": null,
    "fails": 0,
    "hash": "f6af4787381d431f",
-   "pending": "7c7e22558d1098e7"
+   "pending": "274e1471541684d0"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=345260": {
    "err": null,
    "fails": 0,
    "hash": "b7c86b925f3541e7",
-   "pending": "39cbba7878acc89e"
+   "pending": "dc52311f4733c1e7"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=350164": {
    "err": null,
    "fails": 0,
    "hash": "7603af340afe6b19",
-   "pending": "d6bbc27194a379df"
+   "pending": "482cf15057d20e38"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=366283": {
    "err": null,
    "fails": 0,
    "hash": "4219b407f697421d",
-   "pending": "e22960e52798d843"
+   "pending": "aba97f8b4d77e954"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=371780": {
    "err": null,
    "fails": 0,
    "hash": "86aaa97cebc51ffc",
-   "pending": "6b6793b350ed33fd"
+   "pending": "a83bdb6c8ad378ff"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=372015": {
-   "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 1,
+   "err": null,
+   "fails": 0,
    "hash": "a95b83109019c0b8",
-   "pending": "258ce73f89b7785d"
+   "pending": "39610ac5305bcbaa"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=372723": {
    "err": null,
    "fails": 0,
    "hash": "5a3c3165528a8970",
-   "pending": "5cc2f48c70e038a2"
+   "pending": "915ccc1fa7669704"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=372730": {
    "err": null,
    "fails": 0,
    "hash": "aaea14e05cd66823",
-   "pending": "7dfdf0cf4afa47f5"
+   "pending": "07823dd42233ad4f"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=374772": {
    "err": null,
    "fails": 0,
    "hash": "a55697050f9f681d",
-   "pending": "49751248979381b8"
+   "pending": "67baeeafccafeebe"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=377012": {
    "err": null,
    "fails": 0,
    "hash": "2e6f961b5ce0619c",
-   "pending": "048bf59e82069fea"
+   "pending": "49a658a8297d6ff2"
   },
   "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=378386": {
    "err": null,
    "fails": 0,
    "hash": "98fed4d025c1e23b",
-   "pending": "e764f339e4755fef"
+   "pending": "c41792774d4d41e6"
   },
   "https://www.mohw.go.kr/menu.es?mid=a10706050100": {
    "err": null,
@@ -11900,7 +11928,7 @@
    "err": null,
    "fails": 0,
    "hash": "1310cc9482acf903",
-   "pending": "03c517d95de47711",
+   "pending": null,
    "since": "2026-10-17"
   },
   "https://www.ncc.re.kr/downloadByFileUrl.ncc?path=files%2Finfo%2F%ED%95%9C%EA%B5%AD+%EC%B7%8C%EC%9E%A5%EC%95%94+%EC%A7%84%EB%A3%8C+%EA%B0%80%EC%9D%B4%EB%93%9C%EB%9D%BC%EC%9D%B8.pdf": {
@@ -11912,415 +11940,415 @@
   },
   "https://www.nhis.or.kr/announce/wbhaec11503m01.do": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/lm/lmxsrv/law/lawFullContent.do?SEQ=477&SEQ_HISTORY=": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 19,
+   "fails": 20,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=download&articleNo=10849366&attachNo=369449": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 14,
+   "fails": 15,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=download&articleNo=10849366&attachNo=369449&part=rare-immune": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=download&articleNo=10849366&attachNo=369449&part=rare-neuro": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=view&articleNo=10849366": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 14,
+   "fails": 15,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/minwon/wbhapa01000m01.do?mode=view&articleNo=10946880": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 14,
+   "fails": 15,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/minwon/wbhapa01000m01.do?mode=view&articleNo=10946900": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 19,
+   "fails": 20,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/minwon/wbhapa01000m01.do?mode=view&articleNo=10946938": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 14,
+   "fails": 15,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=10848703": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11005254": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 10,
+   "fails": 11,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11008085": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013234": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11014123": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 10,
+   "fails": 11,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=age-cost": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=ami": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=angina": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=bladder": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=breast": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=cataract": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=cervix": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=chronic13": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=ckd": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=colorectal": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=dementia": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=depression": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=diabetes": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=disc": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=heartfailure": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=hematologic": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=hemorrhage": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=hypertension": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=infarction": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=kidney": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=kneeOA": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=liver": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=lung": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=osteoporosis": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=ovary": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=pancreas": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=parkinson": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=prostate": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=severe-cancer-reg": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=severe-copay": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=shoulder": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=skin-cancer-registration": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=spinalstenosis": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=stomach": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=thyroid": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=varicose-I83": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=zoster-B02": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec07200m01.do?mode=view&articleNo=11012134": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=age-sex": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=breast": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=cancer-all": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=cerebrovascular": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=colorectal": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=dementia": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=heart": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=hematologic": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=liver": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=lung": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=pancreas": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=prostate": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=stomach": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 13,
+   "fails": 14,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=top50-list": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 12,
+   "fails": 13,
    "hash": null,
    "pending": null
   },
   "https://www.nhis.or.kr/renewal_popup/poster/20260608_poster_longdesc_1.html": {
    "err": "RemoteDisconnected: Remote end closed connection without response",
-   "fails": 19,
+   "fails": 20,
    "hash": null,
    "pending": null
   },
@@ -12328,70 +12356,70 @@
    "err": null,
    "fails": 0,
    "hash": "53eada977c6ed496",
-   "pending": "d46b9a8b24f5541d",
+   "pending": "43c809b4a705aa8a",
    "since": "2026-10-27"
   },
   "https://www.nhs.uk/tests-and-treatments/abdominal-aortic-aneurysm-screening/": {
    "err": null,
    "fails": 0,
    "hash": "1d98e445bca48160",
-   "pending": "1278a5b6481a8c6b",
+   "pending": "7881337341ee7637",
    "since": "2026-10-27"
   },
   "https://www.nhs.uk/tests-and-treatments/bowel-cancer-screening/": {
    "err": null,
    "fails": 0,
    "hash": "e29199f27195f3fb",
-   "pending": "67a2c99dbcba5042",
+   "pending": "256c5306135913ed",
    "since": "2026-10-27"
   },
   "https://www.nhs.uk/tests-and-treatments/breast-screening-mammogram/": {
    "err": null,
    "fails": 0,
    "hash": "938a58e1af265d69",
-   "pending": "228bb62b5bcb7350",
+   "pending": "e95439faed32601f",
    "since": "2026-10-27"
   },
   "https://www.nhs.uk/tests-and-treatments/cervical-screening/": {
    "err": null,
    "fails": 0,
    "hash": "7562a0d9acbd598b",
-   "pending": "389c28c04d428a29",
+   "pending": "6ab6bd492e753bc1",
    "since": "2026-10-27"
   },
   "https://www.nhs.uk/tests-and-treatments/diabetic-eye-screening/": {
    "err": null,
    "fails": 0,
    "hash": "61a420f201a2748f",
-   "pending": "b8510f4f812fc4a7",
+   "pending": "a91fb00ca29db721",
    "since": "2026-10-27"
   },
   "https://www.nhs.uk/tests-and-treatments/lung-cancer-screening/": {
    "err": null,
    "fails": 0,
    "hash": "3b68b3b93d84104f",
-   "pending": "905264d5c72ecf42",
+   "pending": "7891f25b065e54c7",
    "since": "2026-10-27"
   },
   "https://www.nhs.uk/tests-and-treatments/nhs-health-check/": {
    "err": null,
    "fails": 0,
    "hash": "668c6077becd8f15",
-   "pending": "eb89394dd96c7d04",
+   "pending": "c882ab1cbb046d93",
    "since": "2026-10-27"
   },
   "https://www.nhs.uk/tests-and-treatments/psa-test/": {
    "err": null,
    "fails": 0,
    "hash": "dab7648b4ebc1313",
-   "pending": "9aa97f61047fa870",
+   "pending": "3e1c2cf9cb687a03",
    "since": "2026-10-27"
   },
   "https://www.nice.org.uk/guidance/cg113": {
    "err": null,
    "fails": 0,
    "hash": "dc33a32a94259a8c",
-   "pending": null
+   "pending": "a149633f231d8896"
   },
   "https://www.nice.org.uk/guidance/cg150": {
    "err": null,
@@ -12427,7 +12455,7 @@
    "err": null,
    "fails": 0,
    "hash": "fec1ca516348d379",
-   "pending": null
+   "pending": "782b4efe2fecbb0a"
   },
   "https://www.nice.org.uk/guidance/ng1": {
    "err": null,
@@ -12439,7 +12467,7 @@
    "err": null,
    "fails": 0,
    "hash": "eb87a9f3635cdbe7",
-   "pending": "c9e98c78e753c02c"
+   "pending": null
   },
   "https://www.nice.org.uk/guidance/ng101": {
    "err": null,
@@ -12525,14 +12553,14 @@
    "err": null,
    "fails": 0,
    "hash": "af88da336b5b4205",
-   "pending": "1c12bce97cde82b3",
+   "pending": null,
    "since": "2026-10-25"
   },
   "https://www.nice.org.uk/guidance/ng129": {
    "err": null,
    "fails": 0,
    "hash": "db4653870773c2d5",
-   "pending": null,
+   "pending": "1ee7e9de1fa310e2",
    "since": "2026-10-27"
   },
   "https://www.nice.org.uk/guidance/ng130": {
@@ -12553,7 +12581,7 @@
    "err": null,
    "fails": 0,
    "hash": "361ca311a5813f46",
-   "pending": null
+   "pending": "77843f15d8480582"
   },
   "https://www.nice.org.uk/guidance/ng133": {
    "err": null,
@@ -12565,7 +12593,7 @@
    "err": null,
    "fails": 0,
    "hash": "5792686cdea666cf",
-   "pending": "9c6a29e92fab57de"
+   "pending": null
   },
   "https://www.nice.org.uk/guidance/ng136": {
    "err": null,
@@ -12577,7 +12605,7 @@
    "err": null,
    "fails": 0,
    "hash": "e671f6f4c4aff62b",
-   "pending": null
+   "pending": "bd2a48fb56e902cb"
   },
   "https://www.nice.org.uk/guidance/ng141": {
    "err": null,
@@ -12658,7 +12686,7 @@
    "err": null,
    "fails": 0,
    "hash": "1b607bb637c9393a",
-   "pending": null,
+   "pending": "6a8886eb881f0576",
    "since": "2026-10-27"
   },
   "https://www.nice.org.uk/guidance/ng180": {
@@ -12734,13 +12762,14 @@
    "err": null,
    "fails": 0,
    "hash": "5c561bcb0b9a32e1",
-   "pending": null
+   "pending": "138c5e0efe1faba0"
   },
   "https://www.nice.org.uk/guidance/ng203": {
    "err": null,
    "fails": 0,
-   "hash": "6d1b4845e16201cc",
-   "pending": "0182c9d2b0c3214f"
+   "hash": "0182c9d2b0c3214f",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.nice.org.uk/guidance/ng206": {
    "err": null,
@@ -12769,8 +12798,9 @@
   "https://www.nice.org.uk/guidance/ng211": {
    "err": null,
    "fails": 0,
-   "hash": "e9108cb82d931bcb",
-   "pending": "758eb719086601dd"
+   "hash": "758eb719086601dd",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.nice.org.uk/guidance/ng215": {
    "err": null,
@@ -12807,7 +12837,7 @@
    "err": null,
    "fails": 0,
    "hash": "d2df91646fc734ac",
-   "pending": "333ac7bb91700123"
+   "pending": null
   },
   "https://www.nice.org.uk/guidance/ng225": {
    "err": null,
@@ -12825,7 +12855,7 @@
    "err": null,
    "fails": 0,
    "hash": "11df5d77bbab07cb",
-   "pending": "11a91df81f9d865b"
+   "pending": null
   },
   "https://www.nice.org.uk/guidance/ng23": {
    "err": null,
@@ -12868,7 +12898,7 @@
    "err": null,
    "fails": 0,
    "hash": "1fe7838b8a3ef4e3",
-   "pending": "6f9fa016e35cb98a"
+   "pending": null
   },
   "https://www.nice.org.uk/guidance/ng237": {
    "err": null,
@@ -12886,7 +12916,7 @@
    "err": null,
    "fails": 0,
    "hash": "7c9cae703ec99920",
-   "pending": null
+   "pending": "2db65b2e0e78ec44"
   },
   "https://www.nice.org.uk/guidance/ng240": {
    "err": null,
@@ -12929,7 +12959,7 @@
    "err": null,
    "fails": 0,
    "hash": "7e6a0755d26eadb2",
-   "pending": "bebed3c0465c787c"
+   "pending": null
   },
   "https://www.nice.org.uk/guidance/ng250": {
    "err": null,
@@ -12971,7 +13001,7 @@
    "err": null,
    "fails": 0,
    "hash": "e7f437c2c2f936b7",
-   "pending": null,
+   "pending": "923c524d19932009",
    "since": "2026-10-28"
   },
   "https://www.nice.org.uk/guidance/ng258": {
@@ -13195,7 +13225,7 @@
    "err": null,
    "fails": 0,
    "hash": "ad3bc7e42c9e7ecc",
-   "pending": null
+   "pending": "2850af4ec04d8c79"
   },
   "https://www.nice.org.uk/guidance/ng9": {
    "err": null,
@@ -13214,7 +13244,7 @@
    "err": null,
    "fails": 0,
    "hash": "48b4c0f439a788ff",
-   "pending": "9c2a2afcbe32a2bf"
+   "pending": null
   },
   "https://www.nice.org.uk/guidance/ng97": {
    "err": null,
@@ -13293,7 +13323,7 @@
   },
   "https://www.seoulhp.com/seoul/cmmn/file/fileDown.do?atchFileId=79e740a49bff47a1aa20365c7d80153f&fileSn=4&menuNo=100136": {
    "err": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl",
-   "fails": 19,
+   "fails": 20,
    "hash": null,
    "pending": null
   },
@@ -13876,9 +13906,9 @@
   "https://www.who.int/news-room/fact-sheets/detail/asthma": {
    "err": null,
    "fails": 0,
-   "hash": "7e8b521faa1e5f7d",
-   "pending": "c87cd77dc3d615ef",
-   "since": "2026-10-27"
+   "hash": "c87cd77dc3d615ef",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders": {
    "err": null,
@@ -13954,9 +13984,9 @@
   "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss": {
    "err": null,
    "fails": 0,
-   "hash": "4f11744dea03ecfc",
-   "pending": "3a95da8d0e504917",
-   "since": "2026-10-27"
+   "hash": "3a95da8d0e504917",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.who.int/news-room/fact-sheets/detail/dementia": {
    "err": null,
@@ -14066,23 +14096,23 @@
   "https://www.who.int/news-room/fact-sheets/detail/hiv-aids": {
    "err": null,
    "fails": 0,
-   "hash": "69b6cb896ecd55b3",
-   "pending": "b22f15493e75b061",
-   "since": "2026-10-27"
+   "hash": "b22f15493e75b061",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.who.int/news-room/fact-sheets/detail/household-air-pollution-and-health": {
    "err": null,
    "fails": 0,
-   "hash": "e32f53dda2be9807",
-   "pending": "c2a31c4924b56821",
-   "since": "2026-10-27"
+   "hash": "c2a31c4924b56821",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.who.int/news-room/fact-sheets/detail/human-papilloma-virus-and-cancer": {
    "err": null,
    "fails": 0,
-   "hash": "9e9b0b634b50d29c",
-   "pending": "44d87dba466d8bc4",
-   "since": "2026-10-20"
+   "hash": "44d87dba466d8bc4",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.who.int/news-room/fact-sheets/detail/hypertension": {
    "err": null,
@@ -14176,8 +14206,9 @@
   "https://www.who.int/news-room/fact-sheets/detail/mpox": {
    "err": null,
    "fails": 0,
-   "hash": "508d08848c1d0ba1",
-   "pending": "ff479eac2815a0cf"
+   "hash": "ff479eac2815a0cf",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.who.int/news-room/fact-sheets/detail/multiple-sclerosis": {
    "err": null,
@@ -14390,13 +14421,14 @@
    "err": null,
    "fails": 0,
    "hash": "b12378100b71fe4f",
-   "pending": null
+   "pending": "787d70dd8a65a576"
   },
   "https://www.who.int/news-room/fact-sheets/detail/tobacco": {
    "err": null,
    "fails": 0,
-   "hash": "57f9bc9f9473f4b6",
-   "pending": "a79dc709bec472e7"
+   "hash": "a79dc709bec472e7",
+   "pending": null,
+   "since": "2026-10-31"
   },
   "https://www.who.int/news-room/fact-sheets/detail/trans-fat": {
    "err": null,
