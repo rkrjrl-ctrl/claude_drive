@@ -11,7 +11,7 @@ url: https://mods.go.kr/board.es?act=view&bid=246&list_no=437418&mid=a1030101000
 published: 2025-07-01
 revised: unknown
 effective: 2026-01-01
-checked: 2026-10-18
+checked: 2026-11-01
 location: MED-1607와 같은 보도자료 PDF — 붙임2 '1. 총괄' 신생물의 형태분류 변경(5쪽)과 '신생물 형태분류 정비 관련 주요 변경 내역' 표(11쪽), 붙임1 분류구조(신생물 C00-D48, 형태분류 M8000/0~M9582/0, 3쪽·D00-D09 제자리신생물 예시 4쪽), 개정 연혁(12쪽: 5차 ICD-O-3 통일, 8차 ICD-O 2019년판 반영)
 source_type: notice
 tier: A
