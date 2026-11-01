@@ -47,7 +47,7 @@ def fetch(url):
             t = re.sub(r"(?is)<(script|style|noscript).*?</\1>|<!--.*?-->", " ", t)
             t = re.sub(r"(?s)<[^>]+>", " ", t)
             # 조회수·다운로드 횟수처럼 매일 바뀌는 숫자는 비교에서 뺀다
-            t = re.sub(r"(조회수?|다운로드|추천|hits?|views?)\s*[:：(]?\s*[\d,]+\s*\)?", r"\1", t, flags=re.I)
+            t = re.sub(r"(조회수?|정보신청|다운로드|추천|hits?|views?)\s*[:：(]?\s*[\d,]+\s*\)?", r"\1", t, flags=re.I)
             body = re.sub(r"\s+", " ", t).strip().encode()
         return url, hashlib.sha256(body).hexdigest()[:16], None
     except Exception as e:  # 네트워크·HTTP 오류 전부 '접속 실패'로 기록
