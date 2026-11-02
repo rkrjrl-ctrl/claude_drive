@@ -15,6 +15,17 @@ TODAY = datetime.date.today()
 UA = {"User-Agent": "Mozilla/5.0 (medical-watch; +https://github.com/rkrjrl-ctrl/claude_drive)"}
 MAX_BYTES = 8_000_000
 FAIL_LIMIT = 3  # 연속 실패가 이 횟수 이상이면 보고
+# 2026-11-02: 2,296개 중 266개(심평원·건보공단·국가암정보센터)가 깃허브 서버에서 매번 시간 초과로 실패해
+# 한 번에 25초씩 기다리다 단계 제한(20분)을 넘겼다. 그래서
+#  - 연속 실패한 주소는 RETRY_DAYS일에 한 번만 다시 시도하고(보고 목록에는 계속 남긴다)
+#  - 실패가 잦은 사이트는 짧게 기다리고
+#  - SOFT_LIMIT이 지나면 남은 주소는 다음 실행으로 넘기고 결과를 저장한다.
+RETRY_DAYS = 7
+WORKERS = 16
+TIMEOUT, TOTAL = 25, 45            # 보통 사이트: 응답 대기·전체 읽기 제한(초)
+SLOW_TIMEOUT, SLOW_TOTAL = 10, 20  # 연속 실패가 있는 사이트
+SOFT_LIMIT = 25 * 60               # 접속 확인에 쓸 최대 시간(초). 워크플로 제한은 35분
+T_START = time.time()
 
 # PubMed 신규 논문 검색어 (index.csv의 disease 값에 맞춤). 없는 질병은 건너뜀.
 PUBMED = {
@@ -26,19 +37,21 @@ PUBMED = {
 PUB_TYPES = '("practice guideline"[pt] OR guideline[pt] OR "randomized controlled trial"[pt] OR meta-analysis[pt])'
 
 
-def fetch(url):
+def fetch(url, timeout=TIMEOUT, total=TOTAL):
+    if time.time() - T_START > SOFT_LIMIT:  # 시간이 다 됐으면 이번엔 건너뛴다(상태는 그대로)
+        return url, None, "SKIP"
     try:
         req = urllib.request.Request(url, headers=UA)
         t0, body = time.time(), b""
-        with urllib.request.urlopen(req, timeout=25) as r:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
             ctype = r.headers.get("Content-Type", "")
             while len(body) < MAX_BYTES:  # 조금씩 오는 느린 서버가 전체를 붙잡지 않도록 총 시간 제한
                 chunk = r.read(65536)
                 if not chunk:
                     break
                 body += chunk
-                if time.time() - t0 > 45:
-                    raise TimeoutError("총 45초 초과")
+                if time.time() - t0 > total:
+                    raise TimeoutError(f"총 {total}초 초과")
             clen = r.headers.get("Content-Length", "")
         # 큰 파일은 읽은 길이가 청크 경계에 따라 달라져 해시가 흔들리므로 정확히 잘라서 비교
         body = body[:MAX_BYTES] + clen.encode()
@@ -82,12 +95,40 @@ def main():
         if u.startswith("http"):
             by_url.setdefault(u, []).append(r["id"])
 
-    with ThreadPoolExecutor(8) as ex:
-        results = list(ex.map(fetch, by_url))
+    # 연속 실패한 주소는 RETRY_DAYS일에 한 번만 시도. 연속 실패가 있는 사이트는 짧게 기다린다.
+    slow_hosts = {urllib.parse.urlparse(u).netloc for u, s in urls.items() if s.get("fails", 0) >= FAIL_LIMIT}
+    todo, rested = [], []
+    for u in by_url:
+        s = urls.get(u, {})
+        last = s.get("last_try", "")
+        if s.get("fails", 0) >= FAIL_LIMIT and last and (TODAY - datetime.date.fromisoformat(last)).days < RETRY_DAYS:
+            rested.append(u)
+        else:
+            todo.append(u)
+    print(f"접속 확인 {len(todo)}개 (연속 실패로 쉬는 주소 {len(rested)}개, 짧게 기다릴 사이트 {len(slow_hosts)}곳)", flush=True)
+
+    def job(u):
+        slow = urllib.parse.urlparse(u).netloc in slow_hosts
+        return fetch(u, SLOW_TIMEOUT, SLOW_TOTAL) if slow else fetch(u)
+
+    results, done = [], 0
+    with ThreadPoolExecutor(WORKERS) as ex:
+        for res in ex.map(job, todo):
+            results.append(res); done += 1
+            if done % 250 == 0:
+                print(f"  {done}/{len(todo)} ({int(time.time() - T_START)}초)", flush=True)
+    skipped = sum(1 for _, _, e in results if e == "SKIP")
+    print(f"접속 확인 끝: {int(time.time() - T_START)}초, 시간이 다 돼 넘긴 주소 {skipped}개", flush=True)
 
     changed, failing = [], []
+    for u in rested:  # 쉬는 주소는 보고 목록에만 남긴다
+        s = urls[u]
+        failing.append((u, s["fails"], f"{s.get('err')} (마지막 시도 {s.get('last_try')}, {RETRY_DAYS}일마다 재시도)"))
     for u, h, err in results:
+        if err == "SKIP":
+            continue
         s = urls.setdefault(u, {"hash": None, "pending": None, "fails": 0})
+        s["last_try"] = TODAY.isoformat()
         if err:
             s["fails"] += 1
             s["err"] = err
@@ -133,7 +174,8 @@ def main():
                 papers[ko] = hits
     state["pubmed_since"] = TODAY.isoformat()
 
-    L = [f"# 자동 감시 결과 (자동 생성 — 직접 수정 금지)\n", f"- 실행일: {TODAY}  /  감시 url {len(by_url)}개  /  자료 {len(rows)}건",
+    L = [f"# 자동 감시 결과 (자동 생성 — 직접 수정 금지)\n", f"- 실행일: {TODAY}  /  감시 url {len(by_url)}개  /  자료 {len(rows)}건"
+         + f"  /  이번에 확인 {len(todo) - skipped}개(연속 실패로 쉼 {len(rested)}개, 시간 초과로 넘김 {skipped}개)",
          "- 이 파일은 **감지만** 한다. 원문 내용 확인·자료 갱신은 Claude Code가 한다.\n"]
     if first_run:
         L.append("> 첫 실행: 기준 해시만 저장했다. 변경 감지는 다음 실행부터.\n")

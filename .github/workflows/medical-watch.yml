@@ -24,7 +24,7 @@ jobs:
           python-version: "3.12"
 
       - name: 자료 원문·기한·신규 논문 감시
-        timeout-minutes: 20
+        timeout-minutes: 35  # 2026-11-02 20분 제한에 걸려 실패. 스크립트가 25분이 지나면 남은 주소를 넘기고 저장한다
         run: python medical/scripts/watch.py
 
       - name: 법령·고시·보험 판례 감시 (법제처 API)
