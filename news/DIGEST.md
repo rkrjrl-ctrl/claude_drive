@@ -1,13 +1,13 @@
 # 경제·보험 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-02 23:24 KST  /  최근 7일 14525건 (보험·의료 3573 · 투자·경제 10952)  /  이번 신규 303건
+- 갱신: 2026-11-03 06:05 KST  /  최근 7일 14546건 (보험·의료 3607 · 투자·경제 10939)  /  이번 신규 586건
 - 소스 64곳 + 구글뉴스 키워드 90개(보험·의료 45 · 투자·경제 45)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 생명보험협회, 한국경제 국제, 금융위원회, 동아 경제, 한국경제 금융, 한국경제 경제, 한국경제 부동산
+- 수집 실패 소스: 생명보험협회, 금융위원회, 서울경제 금융, 서울경제 경제, 서울경제 부동산
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
-**실손·비급여** (사건 40개)
+**실손·비급여** (사건 39개)
 - (11) 10-29 전자신문 — [의료혁신위, 건보·비급여·실손보험 통합 관리 권고…필수의료 보상 강화](https://news.google.com/rss/articles/CBMiTkFVX3lxTE9tWGRsenRTb1FGaW9rTlZWZWxIUlktb3BXMUZDV1RjMWYxUzNNNFJpclFCNTRTZnhRTFRXVFJsMWc1cVlFcjlzYkcyN001UQ?oc=5) — **외 4건**(5개 매체)
 - (8) 11-01 잡포스트 — [서류 발급 없이 실손보험금 청구…BNK경남은행, ‘실손24’ 도입](https://news.google.com/rss/articles/CBMickFVX3lxTFBwWDlPYi05MzVGM1p6YUhhZUJVVkx2OFUyTjlPY0dLcTNHcENsQ3kzX1BlQnN6MGhaM2FCMkJiS0wtSm1NTER0ZFlUUklJZEthRF83dDhjRm45cm5tSEZINGtZSFNnbE41MGxtN09DcnZkUdIBckFVX3lxTFBwWDlPYi05MzVGM1p6YUhhZUJVVkx2OFUyTjlPY0dLcTNHcENsQ3kzX1BlQnN6MGhaM2FCMkJiS0wtSm1NTER0ZFlUUklJZEthRF83dDhjRm45cm5tSEZINGtZSFNnbE41MGxtN09DcnZkUQ?oc=5) — **외 6건**(7개 매체)
 - (10) 11-02 한양경제 — [본인부담상한제 환급금 실손보험 보상 대상 제외...대법원 판결 찾아보니](https://news.google.com/rss/articles/CBMickFVX3lxTE85U2pjcm9sVHJUNjliRlZLc0h0dFk2VHQ5Q3hkcF84NHlSM3ZGUWpuUUJFd2Y5N1lwdWdILTkwNGJCbkJrbElDd1ZUa014UWQ0THpTa1hfTXlaN0dlNEc0cmhfN2lKN1JTLTJIZlZtNFpVUQ?oc=5)
@@ -18,21 +18,21 @@
 - (5) 11-02 헤럴드경제 — [ABL생명, 납입보험료 전액 인출해도 사망보장 유지되는 종신보험 출시](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RQ2RCSV9NSEJZMHF1WGZ6U2dUaGhJeE9pQUxUczY1ellYdW9SU090R1p4bWNOTzRBQ0ExQWx3MmJQRlhUZDNiUERhQlN5WmczNHB4NU93?oc=5) — **외 2건**(3개 매체)
 
 **건강보험·의료제도** (사건 30개)
-- (5) 11-01 재경일보 — [국민연금 수급자 800만명 시대…급여액은 월 60만원 아래에 집중 : 경제](https://news.google.com/rss/articles/CBMiS0FVX3lxTFBqdk0zUGRMNDZhdm0zQWhkb1dmd0xBLVVjMGl3OFVDRjRlNGk3R2JGX3J0YXZybjFNRkx6b1lSaTlFdENLbkJubzZhQQ?oc=5) — **외 21건**(21개 매체)
+- (5) 11-01 재경일보 — [국민연금 수급자 800만명 시대…급여액은 월 60만원 아래에 집중 : 경제](https://news.google.com/rss/articles/CBMiS0FVX3lxTFBqdk0zUGRMNDZhdm0zQWhkb1dmd0xBLVVjMGl3OFVDRjRlNGk3R2JGX3J0YXZybjFNRkx6b1lSaTlFdENLbkJubzZhQQ?oc=5) — **외 16건**(16개 매체)
 - (5) 10-29 일요경제 — [당정, 퇴직급여 사외적립 2028년부터 단계적 의무화… 기금형 퇴직연금 도입](https://news.google.com/rss/articles/CBMibkFVX3lxTFA0VlNuTlVlTmFKMnRXVHFjMGIzejNnVjhEbll4U3ZSTEJmYTdDemhZU3FmZ0gzYUZramZ0S0RXMlczZXlMWWVxZlZGbFpISnhUcnQ4SXVDdVZncjE5Z2lQQVlqcGlpYWRkYzhMd0RB?oc=5) — **외 13건**(13개 매체)
-- (5) 11-02 투데이e코노믹 — [동아에스티, 뇌전증 신약 ‘엑스코프리’ 국내 출시…건강보험 급여 적용](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zMGdzNXFQSWdFaU9URERIaGZzdnV4RUdqaXkxd1NVUW1QSUNlblJmNU0zRi1uLWdnVmlIRmxRajdQa2JXN2xvU0taX1FRUlBxQjZfdEQ1eVlIWlJESC1TTy1OM3NfeDQ?oc=5) — **외 8건**(9개 매체)
+- (5) 11-02 투데이e코노믹 — [동아에스티, 뇌전증 신약 ‘엑스코프리’ 국내 출시…건강보험 급여 적용](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zMGdzNXFQSWdFaU9URERIaGZzdnV4RUdqaXkxd1NVUW1QSUNlblJmNU0zRi1uLWdnVmlIRmxRajdQa2JXN2xvU0taX1FRUlBxQjZfdEQ1eVlIWlJESC1TTy1OM3NfeDQ?oc=5) — **외 9건**(10개 매체)
 
-**국민연금·퇴직연금** (사건 71개)
-- (6) 11-02 더팩트 — [한화금융 4개사, 기금형 퇴직연금 공동 대응…DC·IRP 시장 공략](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9NYzU1ZmJKWEpPYlhPbVhSU0pNTnB0TEE2VG1ZY2E4VlRFeVExRFBpVVlQSVdQVG9CNXpsaGZEd1B4UmZFSzBqTFJPRWZaT0NGRDRTQnpFQVoyd9IBVEFVX3lxTFBfbFVHNDJkcnZhbUZwVE13bzFuR2JNT3ZlUzlMR3A0VHNCUWEwNWFXRGdyTGtIaTFFYW83R0VwcVZhWTlleW5aWkZVX0JtbUJzcEJlQw?oc=5) — **외 22건**(23개 매체)
+**국민연금·퇴직연금** (사건 69개)
+- (6) 11-02 더팩트 — [한화금융 4개사, 기금형 퇴직연금 공동 대응…DC·IRP 시장 공략](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9NYzU1ZmJKWEpPYlhPbVhSU0pNTnB0TEE2VG1ZY2E4VlRFeVExRFBpVVlQSVdQVG9CNXpsaGZEd1B4UmZFSzBqTFJPRWZaT0NGRDRTQnpFQVoyd9IBVEFVX3lxTFBfbFVHNDJkcnZhbUZwVE13bzFuR2JNT3ZlUzlMR3A0VHNCUWEwNWFXRGdyTGtIaTFFYW83R0VwcVZhWTlleW5aWkZVX0JtbUJzcEJlQw?oc=5) — **외 31건**(32개 매체)
+- (4) 11-02 마일드경제 — [미래에셋증권, 퇴직연금 의무화 앞두고 법인 담당자 250명 대상 ‘퇴직연금스쿨’ 개최](https://news.google.com/rss/articles/CBMia0FVX3lxTE0xT09kRm44NkVqVVF1aVRKQVhRcUVDbFpDSnZGYlVyQ3J2ZHZkdVJsbWMyanJQWlFFT01iTmluY0RqcW5jZlRndFZsblhEbTA5SV82U2wwZDFqRXRWbWhRN3VWUnRHNWNpM2Y0?oc=5) — **외 22건**(23개 매체)
 - (7) 10-29 컨슈머타임스 — ["수도권 넘어 전국 확산" 국민연금공단, '청년 생애 첫 보험료' 사전신청 1만 명 돌파](https://news.google.com/rss/articles/CBMiakFVX3lxTFAxdWRGeWxUTWtDcGtlMUEyRTNYV0h0LUVXMm9iejYtZmdCOU52dzl0SWRKWlU3QzdUODhQM3piTlhfSC01X2xmS2o0Ymp6c0ZOWkhIZktWcGRMLVNtOUdyYXlONkZwVmNvX0E?oc=5) — **외 7건**(8개 매체)
-- (4) 11-02 마일드경제 — [미래에셋증권, 퇴직연금 의무화 앞두고 법인 담당자 250명 대상 ‘퇴직연금스쿨’ 개최](https://news.google.com/rss/articles/CBMia0FVX3lxTE0xT09kRm44NkVqVVF1aVRKQVhRcUVDbFpDSnZGYlVyQ3J2ZHZkdVJsbWMyanJQWlFFT01iTmluY0RqcW5jZlRndFZsblhEbTA5SV82U2wwZDFqRXRWbWhRN3VWUnRHNWNpM2Y0?oc=5) — **외 21건**(22개 매체)
 
 **보험금 분쟁·판결** (사건 26개)
 - (5) 11-01 이투데이 — ["자동 가입돼도 보험금은 직접 청구"⋯금감원, 시민안전보험 유의사항 안내](https://news.google.com/rss/articles/CBMidEFVX3lxTE1tNkozWnEyNVktdjcxS3ZWX2lUdDU3NE5SdkRXMHRyWVhDaWc0V2VZOGtydnpmSXotMTZ6UmFDNTYwRUswY2FZWWN5TlRSWS0tMDJLZTVVNHBGLUNINUx3Q2Q1QW1zNUI3cTVTYnRWcDhCNGY3?oc=5) — **외 6건**(7개 매체)
 - (6) 10-27 이코노믹리뷰 — ["또 잊기전에, 더 늦기전에"…서금원·생보협회·보험사, '숨은 보험금 찾기' 캠페인](https://www.econovill.com/news/articleView.html?idxno=754961) — **외 4건**(5개 매체)
 - (5) 10-27 비즈월드 — [생명보험협회, '숨은보험금 찾아주기' 대국민 캠페인 시작](https://news.google.com/rss/articles/CBMia0FVX3lxTE1HYTV1RWxhU2NFTUdhc2tlVU5Vbkx2V0RNOWduWXVSekVld3RmcWlQdXcyVHBRdGdRV05PWjY4WDVjazA3M3RZQ1MwZmxoNXJPb3Q0ZURGTHVCclpkNmgtbFRKaWFVeXpoMlI0?oc=5) — **외 4건**(5개 매체)
 
-**보험업계·상품 출시** (사건 9개)
+**보험업계·상품 출시** (사건 12개)
 - (5) 11-02 THE NEWS — [부모 차 몰던 청년, 자동차보험 경력 인정받으면 보험료 절감…11월 가입 절차 개선](https://news.google.com/rss/articles/CBMia0FVX3lxTFAzZ2tIdnVOeW9lZ18yeWoySFpkbFpmOUp5Q0x1dXhkVXVFWU1xZmZXTW0zNzNwN2RLOFhKajRaVC1qZmJiNXBaNHFpaVlKMmVMX3BNRHdLcXJpaHZ6aWJEeDBYNDZWVEZsRkYw0gFvQVVfeXFMTTJTVERHdGN1bDliRVg2STZNblhKcFNxcmFvYm52SXlNU0lFYWtIdVR3Wi0yeVBYRGc4WURsQ0thZ1dSV29HcE5wd19fRVMzUEhyUlg0WEZYWF9EU2hwWlVwZkFLMDhNa3FXbGJHcGFj?oc=5) — **외 6건**(7개 매체)
 - (5) 11-02 뉴닉 — [청년 자동차보험료 아끼는 법: 군 운전병·장기렌터카·부모 차 경력도 인정된다고? 🚗💸](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YVG01WU8zZl9mdGFoQXJDSXQ0UElmdEtIUnc3V3Ata0JpLXZ6djhqeUtJRTVUWVpOckxRandPRmluMGtYNFJvTEZTRnB5aGRwWmhZ?oc=5) — **외 3건**(4개 매체)
 - (5) 11-02 데일리안 — [청년 운전자 자동차보험료 부담 낮춘다…할인혜택 안내 강화](https://news.google.com/rss/articles/CBMiowJBVV95cUxQZ29vZVNReWZ5WFNiU21jVGlCMmdhdTRtYl9mcW5xMklfeXZWaW9yVmxscnctMTAwZjBqQ0dKT2hNN25zeGpSVzAxNGRpTkdvRHdNT0JSZU0zVHdkU19hRFdQS1FnRG5rTGt5Q3JkQ0dTeUpSWmhzNjItSlpJVUVkUk8tSjRsZlNQdGF6aWxHbHpPVzlyTXc0bEQtNG1zdVBYaUZzRk1zS1p6MkZmV184eUpSRDJNTDZISVNtSUR3azBvNnJxdlZqOE5lOEs5WDBYbkdMaXhLTnM4UnZMYVJfaFYwX3lYVm9jWjNzY1BkN1V4azdGOG9aQWpMcm8tV3lOT3hfY3lXdjh4ZUV2RDNEb1BYOWhkRTNaUnJqV1ZmSE9xeWs?oc=5) — **외 2건**(3개 매체)
@@ -63,25 +63,25 @@
 
 ## [투자·경제] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
-**가상자산** (사건 20개)
+**가상자산** (사건 22개)
 - (12) 10-29 민심뉴스 — [미 연준 금리 동결, 비트코인 8만 달러 돌파 잠시 가능했을까 (+BTC, 금리, FOMC, 비트코인)](https://news.google.com/rss/articles/CBMibEFVX3lxTE1kNjFqVElaQVpkc1NVVjRLTHp0aTlHR25ESUxUN05FeTg3UUJMYnR3YnBkUDlqY0JtU1hibUNNN3FKa3p4eEpjZ0YxUXhyUnR6QlpIZnJsckdCRGJuaElYOUNneXdMVVJDNzNFRw?oc=5) — **외 10건**(8개 매체)
-- (14) 10-27 초이스경제 — [유가 '급락' 속...미국증시 & 금값 '상승' vs 비트코인 ETF '뚝'](https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZU29KemE4bm9UVlFWb1VMc2M0Nk9PMldZWU9mbHBIY3Vjd0RnVFJMVDlQMldPTXZYM2tOU0dwcTVFU09BLW9JTnY3ZVhEdk5SRGNpang0dzUyOWJOTnV0N2VTbWQ3cDNybU05SjhQN2zSAXNBVV95cUxQamFoM3BFYnN4OU5ZVFZFQTBzeGFTR3hHU2kxWVpnaHpNMmlGR2lkWTdBaGtMVWZiN1g2cjlUSTJuMU9ZdnkyeWNqdERwSWhDZkpPbUVmd2N3SFN2Y2pIRXZsZzNTRkRpaGxqYU1xaXpwZ29z?oc=5)
+- (14) 10-27 초이스경제 — [유가 '급락' 속...미국증시 & 금값 '상승' vs 비트코인 ETF '뚝'](https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZU29KemE4bm9UVlFWb1VMc2M0Nk9PMldZWU9mbHBIY3Vjd0RnVFJMVDlQMldPTXZYM2tOU0dwcTVFU09BLW9JTnY3ZVhEdk5SRGNpang0dzUyOWJOTnV0N2VTbWQ3cDNybU05SjhQN2zSAXNBVV95cUxQamFoM3BFYnN4OU5ZVFZFQTBzeGFTR3hHU2kxWVpnaHpNMmlGR2lkWTdBaGtMVWZiN1g2cjlUSTJuMU9ZdnkyeWNqdERwSWhDZkpPbUVmd2N3SFN2Y2pIRXZsZzNTRkRpaGxqYU1xaXpwZ29z?oc=5) — **외 1건**(2개 매체)
 - (10) 10-28 www.ppss.kr — [[코인 시황] 비트코인 8만달러선 재확보…ETF 순유입 돌아왔지만 오늘 밤 FOMC가 분수령](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5iSU9ybVZNMHRrd21YY25nNDMyV3FVd1FVa1J5dVRzZHFxX0trTzN4ai1lXzRpSWVkNWlQNnNIdkU0QXM1LWw2NGJuOFZDMmh5WkQtT0E2dU0yQWZWamxuTTQ3R0I?oc=5) — **외 2건**(3개 매체)
 
-**미국·해외 증시** (사건 68개)
-- (15) 10-29 퍼블릭타임스 — [뉴욕증시,연준 금리 동결 3대 지수 상승 나스닥 0.27%↑…국제유가 WTI 2.88%↑](https://news.google.com/rss/articles/CBMiakFVX3lxTE5nWXV4TFo0aG9GWFNvRE91dUgya3hqZ3lvbE9uQkJva2VjLTFvLUM2YWRmdEJfa2V3Qm9KWHBhYjcwUVdXRzFTSk04UVk5MzU5ejJvUWVuS21kTWkza3gyVmV3RTFWQW9oc0HSAW5BVV95cUxQZ2NGQUYxQTdXeVd5eFBrQVJVY0hQQmRxZ0NmTG1zTmgyZHRCMDBoT1NyVGhRT1F0eXNtTEEwNDd3cDZBMmdERU5jLTVtRVphd3dteHJmTXRwcjBfZjAxZF9lTXotbmo2OWdPaTdqQQ?oc=5) — **외 31건**(26개 매체)
+**미국·해외 증시** (사건 66개)
+- (15) 10-29 퍼블릭타임스 — [뉴욕증시,연준 금리 동결 3대 지수 상승 나스닥 0.27%↑…국제유가 WTI 2.88%↑](https://news.google.com/rss/articles/CBMiakFVX3lxTE5nWXV4TFo0aG9GWFNvRE91dUgya3hqZ3lvbE9uQkJva2VjLTFvLUM2YWRmdEJfa2V3Qm9KWHBhYjcwUVdXRzFTSk04UVk5MzU5ejJvUWVuS21kTWkza3gyVmV3RTFWQW9oc0HSAW5BVV95cUxQZ2NGQUYxQTdXeVd5eFBrQVJVY0hQQmRxZ0NmTG1zTmgyZHRCMDBoT1NyVGhRT1F0eXNtTEEwNDd3cDZBMmdERU5jLTVtRVphd3dteHJmTXRwcjBfZjAxZF9lTXotbmo2OWdPaTdqQQ?oc=5) — **외 32건**(26개 매체)
 - (15) 10-29 뉴스로드 — [연준, 기준금리 동결에 뉴욕증시 3거래일 연속 상승…AI·반도체 랠리 재점화](https://news.google.com/rss/articles/CBMib0FVX3lxTE0xMWRLWkhiY2hvVXBndDQyREVQUWxldVNHZUFNamFtdGRpZWpaS2o1eTBLei1lMDFpZFJ6eFN1TFA5enFRNlRuekkxeFAwUWttQmNNNFpDNUdXTWdYdUoybUxESGRQQ05KTnk4R1FGUdIBb0FVX3lxTE0xMWRLWkhiY2hvVXBndDQyREVQUWxldVNHZUFNamFtdGRpZWpaS2o1eTBLei1lMDFpZFJ6eFN1TFA5enFRNlRuekkxeFAwUWttQmNNNFpDNUdXTWdYdUoybUxESGRQQ05KTnk4R1FGUQ?oc=5) — **외 20건**(18개 매체)
-- (14) 10-30 CBC뉴스 — [[속보] 뉴욕증시 나스닥 2.20% 급락…다우·S&P500·러셀2000 동반 하락](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9HZm1jZmhiN2NUMW1DZVM0ZF9uazVPSkFmZzlEMEpBQ1RWb2FTUjBiXzhiYjg1R3VmTThtLWI2aEtpMmhYUm5fcFB3Rnlmb0lMNGRVMzVpckFZZGJoYlVrRWZJZzdyM0sz?oc=5) — **외 11건**(9개 매체)
+- (14) 10-30 CBC뉴스 — [[속보] 뉴욕증시 나스닥 2.20% 급락…다우·S&P500·러셀2000 동반 하락](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9HZm1jZmhiN2NUMW1DZVM0ZF9uazVPSkFmZzlEMEpBQ1RWb2FTUjBiXzhiYjg1R3VmTThtLWI2aEtpMmhYUm5fcFB3Rnlmb0lMNGRVMzVpckFZZGJoYlVrRWZJZzdyM0sz?oc=5) — **외 12건**(9개 매체)
 
-**국내 증시** (사건 71개)
+**국내 증시** (사건 68개)
 - (16) 10-30 톱스타뉴스 — [[증시 시황] 코스피 5.21% 급락…구글 AI 투자 우려에 삼성전자·SK하이닉스 폭락, 매도 사이드카 발동](https://news.google.com/rss/articles/CBMickFVX3lxTE1WZmJUcUpITHU4ZDZKekl4TS1WVnpnaGpld09TZHpzZHdGb20zb3VLUWxmRlB0bU1ic3cxTi1PbGFVcVlxZW0yd25VbUFOZDlPTG5NME80Nm9SU0M2eG0tLV9sMHNHTTdQelQ3V09aalhCdw?oc=5) — **외 73건**(52개 매체)
 - (15) 10-27 Queen 이코노미퀸 — [[오늘증시] 앤트로픽 IPO 기대감에 반도체주 급등…삼성전자·SK하이닉스 강세, 코스피 5600선 회복](https://news.google.com/rss/articles/CBMiakFVX3lxTE8xRS1pUmhHOE1fUFJNSlpyVkI5TFg3cDlhVklQWmEwNlFodjVkUUQtN1h0ZVlCdjdPcDA4VHUwc3JiMkxYaHlhVjdGQ1NuRy1KeUZ0WkV4bmFRZUwtdkFtUmtvRWpiRk0xMXc?oc=5) — **외 25건**(23개 매체)
 - (12) 10-27 뉴스1 — [반도체 강세에 코스피·코스닥 4% 급등…코스피 '매수 사이드카'[장중시황]](https://news.google.com/rss/articles/CBMiW0FVX3lxTE85b2lrcDQ4R2pJNGk0dlpYeXd1NkRtbVJ0bmJUVS1HZm9qcFp4VXN2YW1Qa21EcnRMaXBNM0hBZDF6NE0tYk1ILTc1cVNNeEptbnM4SlVmcmJtdTA?oc=5) — **외 5건**(6개 매체)
 
-**금리·중앙은행** (사건 35개)
+**금리·중앙은행** (사건 38개)
 - (10) 10-29 베타뉴스 — [美 연준, 고물가에도 기준금리 3.75~4.00% 동결...추가 인상 가능성 열어둬](https://news.google.com/rss/articles/CBMiZEFVX3lxTE50bzIwTW5PSEZFdWdDSUlYVlEzOHczMDdfNTlkVkNqUFhqczhrRUJ0dC1ld0pJTU50RGVMN2U4SkJYTkhTV2tWeWQwUWFxbzkxU0ppR3dPYmMyQ2RWTDdYdmhraTc?oc=5) — **외 35건**(36개 매체)
 - (11) 10-30 시사캐스트 — [[경제 이슈] 국제금융센터, 미국 연준 10월 FOMC 기준금리 동결](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XZXI1UXE5WThTMVgtZHlfc2psbklKS1B5em55cEdRM25lQmNXRWRiRzdWdnJyNzFra1JybU1aWk5ta3dWVUpVN1FlX1dkZ2Z2WllFYzkzd0VhRXRwOG85SVc4cGs0LWNP?oc=5) — **외 9건**(10개 매체)
-- (12) 10-30 www.tmgm.com — [금값, 국채 수익률 하락과 달러 약세에도 연준 금리 인상 기대에 4,000달러 하회](https://news.google.com/rss/articles/CBMi5gFBVV95cUxNaG9rODg4djA5WHJlQW5mVEk1S21hUzhSR0VoSXVRS0QzTF81REhUWWdrOVZCMG9QS0xpUEJUNUVjVVVFYlZQRHV2a3oycHFXeG1qdS1pOWt2TEtMZWhkTGZzN3hhZ01BNjNrQUxiamhBMWdJZ2FibXhxazBGbnV6VElnTFpXRzdUdDJMaHJVblJWd2pyWFU0WjcwM3RZZDlNaHA1SThuRDZLc05WWmJLUktwc1djRW5mVk5PS3haeXBza2pXMVptYmhQcFBITHhhOGw5ajJDcEpNVE1LckFSdUVtTnBtQQ?oc=5) — **외 8건**(5개 매체)
+- (12) 10-30 www.tmgm.com — [금값, 국채 수익률 하락과 달러 약세에도 연준 금리 인상 기대에 4,000달러 하회](https://news.google.com/rss/articles/CBMi5gFBVV95cUxNaG9rODg4djA5WHJlQW5mVEk1S21hUzhSR0VoSXVRS0QzTF81REhUWWdrOVZCMG9QS0xpUEJUNUVjVVVFYlZQRHV2a3oycHFXeG1qdS1pOWt2TEtMZWhkTGZzN3hhZ01BNjNrQUxiamhBMWdJZ2FibXhxazBGbnV6VElnTFpXRzdUdDJMaHJVblJWd2pyWFU0WjcwM3RZZDlNaHA1SThuRDZLc05WWmJLUktwc1djRW5mVk5PS3haeXBza2pXMVptYmhQcFBITHhhOGw5ajJDcEpNVE1LckFSdUVtTnBtQQ?oc=5) — **외 7건**(4개 매체)
 
 **환율·달러** (사건 6개)
 - (13) 10-30 중기이코노미 — [원달러 환율 하락 전환…국제유가와 금값 동반 약세](https://news.google.com/rss/articles/CBMiakFVX3lxTE84eGdUQU5oWVJkSlAyelBaM21xYWRqQUhLcGVnUUNzemI4NjZCVDBMS3JKOWxaY3lITTBJRnJhbl9nelY5a1hLeE4tRWVvWUpwd3dDbzJvelptbjRWRW8yUVU1NVdsZmlWZ3c?oc=5)
@@ -96,7 +96,6 @@
 - 10-29 [한국은행 보도자료] [2026년 9월 금융기관 가중평균금리](https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11066053&menuNo=200691)
 - 10-29 [한국은행 보도자료] [2026년 10월 기업경기조사 결과 및 경제심리지수(ESI)](https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11066009&menuNo=200691)
 - 10-27 [한국은행 보도자료] [2026년 3/4분기 실질 국내총생산(속보)](https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11065944&menuNo=200691)
-- 10-27 [한국은행 보도자료] [2026년 10월 소비자동향조사 결과](https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11065921&menuNo=200691)
 
 ## 보험 전문지 최신
 
@@ -118,19 +117,19 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
+- 11-03 MarketWatch — [‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?](https://www.marketwatch.com/story/it-seems-bizarre-were-in-our-80s-with-950-000-in-traditional-iras-why-is-our-adviser-pushing-us-to-do-roth-conversions-a665f990?mod=mw_rss_topstories)
+- 11-03 MarketWatch — [Chip stocks are suffering from a ‘crisis of confidence’ — but things aren’t as gloomy as they seem](https://www.marketwatch.com/story/chip-stocks-are-suffering-from-a-crisis-of-confidence-but-things-arent-as-gloomy-as-they-seem-6ed14ea9?mod=mw_rss_topstories)
+- 11-03 MarketWatch — [How soon gas prices could go down now that oil is tumbling](https://www.marketwatch.com/story/how-soon-gas-prices-could-go-down-now-that-oil-is-tumbling-a1140dc2?mod=mw_rss_topstories)
+- 11-03 MarketWatch — [It may take weeks to tally the midterm election results. Here’s why Wall Street isn’t worried.](https://www.marketwatch.com/story/it-may-take-weeks-to-tally-the-midterm-election-results-heres-why-wall-street-isnt-worried-ed9313fd?mod=mw_rss_topstories)
+- 11-03 MarketWatch — [The bond-market rally is defying the typical investing playbook. Here’s why.](https://www.marketwatch.com/story/the-bond-market-rally-is-defying-the-typical-investing-playbook-heres-why-17a14342?mod=mw_rss_topstories)
+- 11-03 MarketWatch — [Marvell’s deal for Lumentum is giving flashbacks to the dot-com bubble](https://www.marketwatch.com/story/marvell-and-lumentum-officially-plan-to-combine-heres-what-to-know-5599b98a?mod=mw_rss_topstories)
+- 11-03 MarketWatch — [Oracle wants $20 billion to fund its AI future — and its stock is paying the price](https://www.marketwatch.com/story/oracles-stock-falls-as-the-company-details-plan-to-raise-20-billion-f03f5e16?mod=mw_rss_topstories)
+- 11-03 MarketWatch — [6 dividend stocks for investors who want to cut their exposure to the S&P 500](https://www.marketwatch.com/story/6-dividend-stocks-for-investors-who-want-to-cut-their-exposure-to-the-s-p-500-52519928?mod=mw_rss_topstories)
+- 11-03 MarketWatch — [These tech stocks got unfairly swept up in last week’s selloff, analysts say](https://www.marketwatch.com/story/these-tech-stocks-got-unfairly-swept-up-in-last-weeks-selloff-analysts-say-e296c1b3?mod=mw_rss_topstories)
 - 11-02 MarketWatch — [‘She’s a Type A personality’: My stepmother wants me to repay my late father’s $40,000 wedding gift. Should I oblige?](https://www.marketwatch.com/story/shes-a-type-a-personality-my-stepmother-wants-me-to-repay-my-late-fathers-40-000-wedding-gift-should-i-oblige-51fc64f7?mod=mw_rss_topstories)
 - 11-02 MarketWatch — [Oracle’s stock falls as the company details plan to raise $20 billion](https://www.marketwatch.com/story/oracles-stock-falls-as-the-company-details-plan-to-raise-20-billion-f03f5e16?mod=mw_rss_topstories)
 - 11-02 MarketWatch — [‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing us to do Roth conversions?](https://www.marketwatch.com/story/it-seems-bizarre-were-in-our-80s-with-950-000-in-traditional-iras-why-is-our-adviser-pushing-us-to-do-roth-conversions-a665f990?mod=mw_rss_topstories)
-- 11-02 MarketWatch — [Oil prices could average $130 a barrel next year, according to Goldman Sachs](https://www.marketwatch.com/story/how-oil-prices-could-average-130-per-barrel-next-year-according-to-goldman-sachs-235ce32b?mod=mw_rss_topstories)
-- 11-02 MarketWatch — [These 10 megadonors have spent a total of $1 billion on the midterm elections](https://www.marketwatch.com/story/these-10-megadonors-have-spent-a-total-of-1-billion-on-the-midterm-elections-0dc279cf?mod=mw_rss_topstories)
-- 11-02 MarketWatch — [Marvell and Lumentum officially plan to combine. Here’s what to know.](https://www.marketwatch.com/story/marvell-and-lumentum-officially-plan-to-combine-heres-what-to-know-5599b98a?mod=mw_rss_topstories)
-- 11-02 MarketWatch — [America is doing better than you think — just ask those in the bottom half of household wealth](https://www.marketwatch.com/story/america-is-doing-better-than-you-think-your-algorithm-is-just-hiding-it-7dbdecff?mod=mw_rss_topstories)
-- 11-02 MarketWatch — [In the hunt for $1 trillion of revenue, SpaceX reportedly targets Boost Mobile for a deal](https://www.marketwatch.com/story/in-the-hunt-for-1-trillion-of-revenue-spacex-reportedly-targets-boost-mobile-for-a-deal-7eb4ea49?mod=mw_rss_topstories)
-- 11-02 ECB 보도자료 — [Boris Vujčić: Integrated, open and resilient: Europe’s strengths in a fragmenting world](https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html)
-- 11-02 MarketWatch — [If you really want to help your adult kids and grandkids, give them money while you’re still alive](https://www.marketwatch.com/story/if-you-really-want-to-help-your-adult-kids-and-grandkids-give-them-money-while-youre-still-alive-bef6b056?mod=mw_rss_topstories)
-- 11-02 MarketWatch — [Grand Theft Callout: ‘GTA 6’ fans are missing work on the game’s release day because they ‘don’t want to wait’ anymore](https://www.marketwatch.com/story/grand-theft-callout-gta-6-fans-are-missing-work-on-the-games-release-day-because-they-dont-want-to-wait-anymore-5f2fa2e3?mod=mw_rss_topstories)
-- 11-02 MarketWatch — [Apple’s new earnings era begins at a critical time for Big Tech](https://www.marketwatch.com/story/apples-new-earnings-era-begins-at-a-critical-time-for-big-tech-2236a44e?mod=mw_rss_topstories)
 
 ## 언론사별 건수 상위 15
 
-토큰포스트 508, 파이낸셜뉴스 전체 362, 연합뉴스 마켓 347, 인포맥스 257, 뉴시스 금융 254, 머니투데이 253, 코인리더스 242, 한국경제 금융 241, 조선 경제 216, 아시아경제 196, 뉴스1 184, 뉴스핌 180, 뉴시스 국제 171, 이데일리 162, 이투데이 160
+토큰포스트 505, 파이낸셜뉴스 전체 360, 연합뉴스 마켓 344, 머니투데이 263, 인포맥스 259, 뉴시스 금융 246, 코인리더스 245, 한국경제 금융 240, 조선 경제 208, 아시아경제 193, 뉴스1 183, 뉴스핌 179, 뉴시스 국제 168, 이데일리 167, 이투데이 162
