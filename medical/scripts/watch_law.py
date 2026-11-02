@@ -40,6 +40,7 @@ CASE_QUERIES = [("보험", 1), ("실손의료보험", 2), ("암보험", 2), ("�
 T0 = time.time()
 BUDGET = 540  # 초. 넘으면 남은 수집을 다음 실행으로 미루고 지금까지 것을 저장
 FAILS = [0]  # 연속 실패 횟수. 3회 넘으면 API가 막힌 것으로 보고 전체를 즉시 중단
+AUTH_FAIL = [""]  # 인증 실패 문구. 있으면 결과 파일 맨 위에 '감시 안 됨' 경고를 찍는다
 
 
 def api(path, **p):
@@ -53,11 +54,17 @@ def api(path, **p):
         try:
             with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "medical-watch"}), timeout=20) as r:
                 out = json.loads(r.read().decode("utf-8"))
-            FAILS[0] = 0
-            return out
         except Exception as e:
             last = e
             time.sleep(2 * (i + 1))
+            continue
+        # 인증이 막히면 오류 대신 {"result": "사용자 정보 검증에 실패...", "msg": ...}가 온다
+        if isinstance(out, dict) and isinstance(out.get("result"), str) and "실패" in out["result"]:
+            FAILS[0] = 3  # 다시 불러도 같으니 나머지 호출을 바로 멈춘다
+            AUTH_FAIL[0] = f"{out['result']} {out.get('msg', '')}".strip()
+            raise RuntimeError(f"법제처 API 인증 실패(OC={'등록 키' if OC != 'test' else '공용 test'})")
+        FAILS[0] = 0
+        return out
     FAILS[0] += 1
     raise RuntimeError(f"{path} {p.get('query', '')}: {type(last).__name__}")
 
@@ -198,6 +205,9 @@ def main():
     L = ["# 법령·고시·판례 감시 결과 (자동 생성 — 직접 수정 금지)\n",
          f"- 실행일: {TODAY}  /  법령 {len(LAWS)}개·고시 키워드 {len(ADM_KEYWORDS)}개 감시  /  보험 대법원 판례 누적 {ncases}건 (`medical/cases/insurance_cases.csv`)",
          "- 이 파일은 **감지만** 한다. 해석·자료 등록은 Claude Code가 한다. 판례는 요약 일부(판시사항)만 보여 주며 원문 확인이 필요하다.\n"]
+    if AUTH_FAIL[0]:
+        L.append(f"> **경고: 이번 실행은 법제처 API 인증에 실패해 법령·고시·판례를 확인하지 못했다.** 아래 '없음'은 변경이 없다는 뜻이 아니다. "
+                 f"저장소 비밀값 LAW_OC(법제처 오픈 API 인증값)를 등록해야 감시가 다시 돈다. 응답: {AUTH_FAIL[0]}\n")
     if first_run:
         L.append("> 첫 실행: 법령·고시는 기준값만 저장(고시는 최근 60일 발령분만 표시), 판례는 2021년 이후를 모두 수집하고 최신 10건만 표시.\n")
     L.append(f"## 법령 개정 감지 ({len(changed)}건)\n")
