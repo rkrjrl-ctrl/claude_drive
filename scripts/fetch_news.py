@@ -195,6 +195,24 @@ def parse_rss(raw, via_kind, default_source):
     return out
 
 
+# 금감원은 RSS가 없어 게시판 첫 쪽 목록(제목·날짜·링크)만 읽는다. 기사보다 먼저, 1차 출처로 잡기 위해(2026-11-02:
+# 청년 자동차보험 할인 발표를 기사 묶음으로만 잡고 원문은 못 잡았다). 금융위 보도자료도 금감원 게시판에 같이 올라온다.
+FSS_PAGES = [
+    ("금융감독원 보도자료", "https://www.fss.or.kr/fss/bbs/B0000188/list.do?menuNo=200218", "gov", "INS"),
+]   # 소비자유의사항(B0000174)은 2020년 글이 마지막이라 뺐다(11/2 확인)
+
+
+def parse_fss(raw, source):
+    text = raw.decode("utf-8", "ignore")
+    out = []
+    for m in re.finditer(r'href="(/fss/bbs/B\d+/view\.do\?nttId=\d+[^"]*)"[^>]*>(.*?)</a>(.*?)(\d{4}-\d{2}-\d{2})', text, re.S):
+        title = clean(m.group(2))
+        if title:
+            out.append({"title": title, "link": "https://www.fss.or.kr" + html.unescape(m.group(1)),
+                        "date": parse_date(m.group(4) + "T09:00:00+09:00"), "source": source})
+    return out
+
+
 def naver(query):
     cid, sec = os.environ.get("NAVER_CLIENT_ID"), os.environ.get("NAVER_CLIENT_SECRET")
     if not (cid and sec):
@@ -322,11 +340,14 @@ def main():
     seen_before = set(rows)
 
     jobs = [(n, u, k, "rss", h) for n, u, k, h in FEEDS]
+    jobs += [(n, u, k, "fss", h) for n, u, k, h in FSS_PAGES]
     jobs += [(f"구글뉴스:{q}", "https://news.google.com/rss/search?" + urllib.parse.urlencode(
         {"q": f"{q} when:2d", "hl": "ko", "gl": "KR", "ceid": "KR:ko"}), "scored", "google", h) for q, h in QUERIES]
 
     def run(j):
         raw = get(j[1])
+        if j[3] == "fss":
+            return j, (parse_fss(raw, j[0]) if raw else None)
         return j, (parse_rss(raw, j[3], j[0]) if raw else None)
 
     with ThreadPoolExecutor(8) as ex:
@@ -336,7 +357,7 @@ def main():
 
     failed = []
     for (n, _u, kind, via, hint), items in res:
-        if items is None or (not items and via == "rss"):
+        if items is None or (not items and via in ("rss", "fss")):
             failed.append(n)
             continue
         for x in items:
