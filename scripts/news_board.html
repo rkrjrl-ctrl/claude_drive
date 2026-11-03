@@ -111,6 +111,17 @@
   }
   .empty{ color:var(--ink-muted); font-size:14px; padding:6px 0; }
   .err{ color:var(--hot); font-size:14px; }
+  .subtabs{ display:flex; gap:4px; border-bottom:1px solid var(--border); margin:18px 0 4px; }
+  .subtabs button{
+    font:inherit; font-size:16px; font-weight:700; color:var(--ink-muted); background:none; border:0; cursor:pointer;
+    padding:10px 14px 9px; border-bottom:3px solid transparent; margin-bottom:-1px; display:inline-flex; align-items:center; gap:6px;
+  }
+  .subtabs button.on{ color:var(--ink-primary); border-bottom-color:var(--ink-primary); }
+  .badge:empty{ display:none; }
+  .badge{ font-size:12px; font-weight:600; padding:1px 8px; border-radius:999px; background:var(--chip-bg); color:var(--ink-secondary); }
+  .badge.new{ background:var(--new-fill); color:var(--new); }
+  section > h2:first-child{ margin-top:22px; }
+  #picksPanel > .sub:first-child{ margin-top:14px; }
   footer{ margin-top:36px; font-size:12px; color:var(--ink-muted); line-height:1.7; }
   @media (max-width:560px){
     body{ padding:16px 16px 48px; }
@@ -127,11 +138,19 @@
     <div class="meta" id="meta">불러오는 중…</div>
   </header>
 
-  <h2>추천</h2>
+  <!-- 하위 탭(11/3 사용자: 평소엔 일반을 보고 제작할 때만 추천을 본다 → 일반이 늘 먼저 열림) -->
+  <div class="subtabs" id="subtabs" role="tablist">
+    <button role="tab" data-p="general" class="on">일반 <span class="badge" id="badgeGeneral"></span></button>
+    <button role="tab" data-p="picksPanel">추천 <span class="badge" id="badgePicks"></span></button>
+  </div>
+
+  <section id="picksPanel" hidden>
   <p class="sub">Claude가 원문을 확인하고 고른 소재예요. 같은 날 1차 추천 뒤에 2차 보충이 쌓여요.</p>
   <div id="picks"><div class="empty">불러오는 중…</div></div>
+  </section>
 
-  <h2>후보</h2>
+  <section id="general">
+  <h2>기사</h2>
   <p class="sub">2시간마다 자동으로 모은 최근 3일 기사예요. 비슷한 기사는 한 건으로 묶었고, 「주목」은 8곳 넘는 매체가 다룬 사건이에요. 점수표로 고른 것이라 판단은 아니에요.</p>
   <div class="tools">
     <div class="seg" id="trackSeg">
@@ -145,6 +164,7 @@
   <h2>기관 보도자료</h2>
   <p class="sub">금감원·보건복지부 등 기관이 직접 낸 자료(최근 7일)예요.</p>
   <div class="card"><ul class="list" id="gov"><li class="empty">불러오는 중…</li></ul><div class="more" id="govMore"></div></div>
+  </section>
 
   <footer id="foot">
     제목과 링크만 모아요. 영상에 쓰기 전에는 꼭 1차 출처(기관 원문)로 확인해요.<br>
@@ -211,6 +231,9 @@
       rows.forEach(function(r){ (byDate[r.date] = byDate[r.date] || []).push(r); });
       var dates = Object.keys(byDate).sort().reverse().slice(0, 10);
       if(!dates.length){ box.innerHTML = '<div class="empty">아직 추천이 없어요.</div>'; return; }
+      var today = new Date(Date.now() + 9*3600000).toISOString().slice(0, 10), bp = document.getElementById("badgePicks");
+      bp.textContent = dates[0] === today ? "오늘 " + byDate[dates[0]].length : dates[0].slice(5).replace("-", "/");
+      bp.className = "badge" + (dates[0] === today ? " new" : "");
       box.innerHTML = dates.map(function(d, i){
         var w = "일월화수목금토"[new Date(d + "T12:00:00+09:00").getDay()];
         return '<details class="card day"' + (i === 0 ? " open" : "") + ' data-date="' + d + '">' +
@@ -281,6 +304,10 @@
         (b.failed && b.failed.length ? '<span class="warn">수집 실패: ' + esc(b.failed.join(", ")) + "</span>" : "") +
         (lastVisit ? "<span>지난번 본 시각 " + kst(new Date(new Date(lastVisit).getTime() + 9*3600000).toISOString()) + "</span>" : "");
       renderCands(); renderGov();
+      var nNew = ["INS", "INV"].reduce(function(s, t){ return s + (b.tracks[t] || []).filter(function(g){ return isNew(g.last); }).length; }, 0)
+        + b.gov.filter(function(r){ return isNew(r.date); }).length;
+      var bg = document.getElementById("badgeGeneral");
+      bg.textContent = nNew ? "새 " + nNew : ""; bg.className = "badge new";
     }).catch(function(e){
       document.getElementById("meta").innerHTML = '<span class="warn">후보 파일을 못 읽었어요(' + esc(e.message) + ")</span>";
       document.getElementById("cands").innerHTML = '<li class="empty">후보 파일이 아직 없어요.</li>';
@@ -288,6 +315,11 @@
     });
   }
 
+  document.getElementById("subtabs").addEventListener("click", function(e){
+    var t = e.target.closest("button"); if(!t) return;
+    this.querySelectorAll("button").forEach(function(b){ b.classList.toggle("on", b === t); b.setAttribute("aria-selected", b === t); });
+    ["general", "picksPanel"].forEach(function(id){ document.getElementById(id).hidden = id !== t.dataset.p; });
+  });
   document.getElementById("trackSeg").addEventListener("click", function(e){
     var t = e.target.closest("button"); if(!t) return;
     state.track = t.dataset.t; state.candN = 20;
