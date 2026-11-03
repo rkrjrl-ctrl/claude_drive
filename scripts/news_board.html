@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>뉴스 보드</title>
 <!-- 뉴스 보드(2026-11-03): 깃허브 저장소의 최신 파일을 열 때마다 읽어 온다(빌드 때 굽지 않음).
-     후보 = news/board.json(뉴스 수집 액션이 2시간마다 갱신, 점수표 자동 표시)
+     후보 = news/board.json(뉴스 수집 액션이 2시간마다 갱신, 최근 7일, 점수표 자동 표시)
      추천 = briefs/news/picks.csv + briefs/news/YYYY-MM-DD.md(Claude 예약 작업이 고름, 1차·2차가 같은 날 파일에 쌓임)
      로컬 확인: 저장소 루트에서 python -m http.server 후 /scripts/news_board.html?base=/ -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;700&display=swap">
@@ -141,6 +141,7 @@
   <!-- 하위 탭(11/3 사용자: 평소엔 일반을 보고 제작할 때만 추천을 본다 → 일반이 늘 먼저 열림) -->
   <div class="subtabs" id="subtabs" role="tablist">
     <button role="tab" data-p="general" class="on">일반 <span class="badge" id="badgeGeneral"></span></button>
+    <button role="tab" data-p="govPanel">보도자료 <span class="badge" id="badgeGov"></span></button>
     <button role="tab" data-p="picksPanel">추천 <span class="badge" id="badgePicks"></span></button>
   </div>
 
@@ -151,7 +152,7 @@
 
   <section id="general">
   <h2>기사</h2>
-  <p class="sub">2시간마다 자동으로 모은 최근 3일 기사예요. 비슷한 기사는 한 건으로 묶었고, 「주목」은 8곳 넘는 매체가 다룬 사건이에요. 점수표로 고른 것이라 판단은 아니에요.</p>
+  <p class="sub">2시간마다 자동으로 모은 최근 7일 기사예요. 비슷한 기사는 한 건으로 묶었고, 「주목」은 8곳 넘는 매체가 다룬 사건이에요. 점수표로 고른 것이라 판단은 아니에요.</p>
   <div class="tools">
     <div class="seg" id="trackSeg">
       <button data-t="INS" class="on">보험·의료</button><button data-t="INV">투자·경제</button>
@@ -160,9 +161,13 @@
     <label><input type="checkbox" id="newOnly"> 새 기사만</label>
   </div>
   <div class="card"><ul class="list" id="cands"><li class="empty">불러오는 중…</li></ul><div class="more" id="candMore"></div></div>
+  </section>
 
+  <!-- 보도자료 탭(11/3 사용자: 맨 아래라 보기 힘듦 → 따로, 보험·경제 합쳐서 최신순) -->
+  <section id="govPanel" hidden>
   <h2>기관 보도자료</h2>
-  <p class="sub">금감원·보건복지부 등 기관이 직접 낸 자료(최근 7일)예요.</p>
+  <p class="sub">금감원·보건복지부·한국은행 등 기관이 직접 낸 자료(최근 7일)예요. 보험·의료와 투자·경제를 합쳐 최신순으로 보여요.</p>
+  <div class="tools"><label><input type="checkbox" id="govNewOnly"> 새 보도자료만</label></div>
   <div class="card"><ul class="list" id="gov"><li class="empty">불러오는 중…</li></ul><div class="more" id="govMore"></div></div>
   </section>
 
@@ -179,7 +184,7 @@
   var RAW = "https://raw.githubusercontent.com/rkrjrl-ctrl/claude_drive/main/";
   var BASE = new URLSearchParams(location.search).get("base") || RAW;
   var LV_KEY = "newsboard.lastVisit";
-  var state = { track:"INS", hotOnly:false, newOnly:false, board:null, candN:20, govN:12 };
+  var state = { track:"INS", hotOnly:false, newOnly:false, govNewOnly:false, board:null, candN:20, govN:20 };
 
   function store(get, val){
     try{ if(get) return localStorage.getItem(LV_KEY); localStorage.setItem(LV_KEY, val); }catch(e){ return null; }
@@ -282,17 +287,18 @@
   function renderGov(){
     var b = state.board, ul = document.getElementById("gov"), more = document.getElementById("govMore");
     if(!b) return;
-    var list = b.gov.filter(function(r){ return !state.newOnly || isNew(r.date); });
+    var list = b.gov.filter(function(r){ return !state.govNewOnly || isNew(r.date); });
     var shown = list.slice(0, state.govN);
     ul.innerHTML = shown.length ? shown.map(function(r){
       return "<li><div class=\"when\">" + ago(r.date) + '</div><div class="body">' +
         '<a class="title" target="_blank" rel="noopener" href="' + esc(r.link) + '">' + esc(r.title) + "</a>" +
         '<div class="row-meta">' + (isNew(r.date) ? '<span class="pill new">새</span>' : "") +
-        '<span class="pill' + (r.source.indexOf("금융감독원") > -1 ? " cand" : "") + '">' + esc(r.source) + "</span></div></div></li>";
+        '<span class="pill' + (r.source.indexOf("금융감독원") > -1 ? " cand" : "") + '">' + esc(r.source.replace(/ 보도자료$/, "")) + "</span>" +
+        "<span>" + (r.track === "INV" ? "투자·경제" : "보험·의료") + "</span></div></div></li>";
     }).join("") : '<li class="empty">조건에 맞는 보도자료가 없어요.</li>';
     more.innerHTML = list.length > shown.length ? '<button type="button">' + (list.length - shown.length) + "건 더 보기</button>" : "";
     var btn = more.querySelector("button");
-    if(btn) btn.onclick = function(){ state.govN += 12; renderGov(); };
+    if(btn) btn.onclick = function(){ state.govN += 20; renderGov(); };
   }
   function loadBoard(){
     return get("news/board.json", true).then(function(b){
@@ -304,10 +310,11 @@
         (b.failed && b.failed.length ? '<span class="warn">수집 실패: ' + esc(b.failed.join(", ")) + "</span>" : "") +
         (lastVisit ? "<span>지난번 본 시각 " + kst(new Date(new Date(lastVisit).getTime() + 9*3600000).toISOString()) + "</span>" : "");
       renderCands(); renderGov();
-      var nNew = ["INS", "INV"].reduce(function(s, t){ return s + (b.tracks[t] || []).filter(function(g){ return isNew(g.last); }).length; }, 0)
-        + b.gov.filter(function(r){ return isNew(r.date); }).length;
-      var bg = document.getElementById("badgeGeneral");
+      var nNew = ["INS", "INV"].reduce(function(s, t){ return s + (b.tracks[t] || []).filter(function(g){ return isNew(g.last); }).length; }, 0);
+      var gNew = b.gov.filter(function(r){ return isNew(r.date); }).length;
+      var bg = document.getElementById("badgeGeneral"), bv = document.getElementById("badgeGov");
       bg.textContent = nNew ? "새 " + nNew : ""; bg.className = "badge new";
+      bv.textContent = gNew ? "새 " + gNew : ""; bv.className = "badge new";
     }).catch(function(e){
       document.getElementById("meta").innerHTML = '<span class="warn">후보 파일을 못 읽었어요(' + esc(e.message) + ")</span>";
       document.getElementById("cands").innerHTML = '<li class="empty">후보 파일이 아직 없어요.</li>';
@@ -318,7 +325,7 @@
   document.getElementById("subtabs").addEventListener("click", function(e){
     var t = e.target.closest("button"); if(!t) return;
     this.querySelectorAll("button").forEach(function(b){ b.classList.toggle("on", b === t); b.setAttribute("aria-selected", b === t); });
-    ["general", "picksPanel"].forEach(function(id){ document.getElementById(id).hidden = id !== t.dataset.p; });
+    ["general", "govPanel", "picksPanel"].forEach(function(id){ document.getElementById(id).hidden = id !== t.dataset.p; });
   });
   document.getElementById("trackSeg").addEventListener("click", function(e){
     var t = e.target.closest("button"); if(!t) return;
@@ -327,6 +334,7 @@
     renderCands();
   });
   document.getElementById("hotOnly").onchange = function(){ state.hotOnly = this.checked; renderCands(); };
+  document.getElementById("govNewOnly").onchange = function(){ state.govNewOnly = this.checked; renderGov(); };
   document.getElementById("newOnly").onchange = function(){ state.newOnly = this.checked; renderCands(); renderGov(); };
 
   Promise.all([loadBoard(), loadPicks()]).then(function(){ store(false, openedAt); });
