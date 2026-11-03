@@ -14,7 +14,7 @@ TODAY0 = NOW.replace(hour=0, minute=0, second=0, microsecond=0)
 
 # (작업 파일, 이 시각(KST)부터 실행). 그 시각 신호가 빠져도 다음 신호에서 따라잡는다.
 DAILY = [
-    ("update-indicators.yml", 8),   # 경제 지표 + 사이트 배포
+    ("update-indicators.yml", 6),   # 경제 지표 + 사이트 배포. 11/4: 8시 → 6시(미국 장 마감 05~06시 뒤, 아침 카드가 06:40에 읽음)
     ("medical-watch.yml", 8),       # 의료 자료 감시
     ("collect-rates.yml", 9),       # 금감원 공시 금리
     ("collect-housing.yml", 9),     # 청약·LH·지원 제도

@@ -1,7 +1,7 @@
 name: Update economic indicators
 
 on:
-  # 예약은 tick.yml이 대신 깨운다(08:00 KST, 11/3 깃허브 예약 지연 때문)
+  # 예약은 tick.yml이 대신 깨운다(06:00 KST, 11/4 아침 카드 때문에 8시에서 앞당김. 11/3 깃허브 예약 지연 때문에 tick 사용)
   workflow_dispatch: {}
 
 permissions:
