@@ -148,14 +148,26 @@ def yahoo_daily(symbol, rng="3mo"):
         stamps = res["timestamp"]
         closes = res["indicators"]["quote"][0]["close"]
         offset = res["meta"].get("gmtoffset", 0)
+        tzname = res["meta"].get("exchangeTimezoneName")
     except (KeyError, IndexError, TypeError, ValueError):
         warnings.append(f"Yahoo {symbol}: unexpected daily response shape")
         return []
+    # gmtoffset은 '지금' 시차라 서머타임이 바뀐 뒤에는 과거 봉에 한 시간 틀린 시차가 붙는다.
+    # 선물(금·원유 등)은 봉이 자정(현지)에 찍혀서, 그 한 시간 때문에 전날 날짜로 저장됐다(2026-11-04 발견).
+    # 거래소 시간대를 서머타임까지 반영해 날짜를 정한다. 시간대 자료가 없으면 예전 방식으로.
+    try:
+        from zoneinfo import ZoneInfo
+        tz = ZoneInfo(tzname) if tzname else None
+    except Exception:
+        tz = None
     rows = {}
     for ts, close in zip(stamps, closes):
         if close is None:
             continue
-        day = datetime.fromtimestamp(ts + offset, timezone.utc).strftime("%Y-%m-%d")
+        if tz:
+            day = datetime.fromtimestamp(ts, tz).strftime("%Y-%m-%d")
+        else:
+            day = datetime.fromtimestamp(ts + offset, timezone.utc).strftime("%Y-%m-%d")
         rows[day] = close
     return sorted(rows.items())
 
