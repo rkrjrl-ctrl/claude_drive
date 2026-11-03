@@ -30,6 +30,12 @@ jobs:
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
         run: python scripts/fetch_news.py
 
+      - name: 휴대폰 알림(ntfy)
+        continue-on-error: true   # 알림이 실패해도 수집 결과는 커밋한다
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}   # 주제 이름은 비밀값에만(공개 저장소)
+        run: python scripts/notify.py news
+
       - name: 결과 커밋
         run: |
           git config user.name "github-actions[bot]"

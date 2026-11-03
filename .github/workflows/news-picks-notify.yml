@@ -1,0 +1,33 @@
+name: news-picks-notify
+
+# 영상 소재 추천 글(briefs/news/날짜.md)에 새 묶음(1차 추천·2차 보충)이 올라오면 휴대폰 알림(11/3)
+on:
+  push:
+    branches: [main]
+    paths:
+      - "briefs/news/2*.md"
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 추천 알림
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          for f in $(git diff --name-only HEAD~1 HEAD -- 'briefs/news/2*.md'); do
+            git show "HEAD~1:$f" > "$RUNNER_TEMP/old.md" 2>/dev/null || : > "$RUNNER_TEMP/old.md"
+            python scripts/notify.py picks "$f" "$RUNNER_TEMP/old.md"
+          done

@@ -372,6 +372,12 @@ def fmt(g):
 
 BOARD = os.path.join(ROOT, "board.json")
 HOT = 8   # 이만큼 많은 매체가 다룬 사건이면 보드에 「주목」 표시(두 분야 점수 크기가 달라 매체 수로 잰다). 판단은 아니다
+TAG = re.compile(r"^\s*[\[【(<]\s*(단독|속보)")   # 제목 앞 [단독]·[속보] 표시(11/3 사용자: 보드·알림에서 따로 구분)
+
+
+def tag(title):
+    m = TAG.match(title)
+    return m.group(1) if m else ""
 
 
 def write_board(ordered, failed):
@@ -380,19 +386,21 @@ def write_board(ordered, failed):
     recent = [r for r in ordered if r["date"] >= since]
     out = {"updated": NOW.isoformat(timespec="minutes"), "failed": failed, "hot": HOT, "tracks": {}, "gov": []}
     for t in ("INS", "INV"):
-        news = sorted((r for r in recent if r["track"] == t and r["via"] not in ("gov", "intl")),
-                      key=lambda r: (int(r["score"]), r["date"]), reverse=True)[:800]
-        gs = cluster(news, 140)
+        pool = sorted((r for r in recent if r["track"] == t and r["via"] not in ("gov", "intl")),
+                      key=lambda r: (int(r["score"]), r["date"]), reverse=True)
+        news = pool[:800] + [r for r in pool[800:] if tag(r["title"]) == "단독"]   # 단독은 한 매체뿐이라 점수가 낮아도 남긴다
+        gs = cluster(news, 100000)
         for g in gs:   # 홍보성 사건은 매체 수가 부풀려져 순위를 크게 내린다(목록에는 남기고 「홍보성」 표시)
             g["pr"] = is_pr(g["rep"]["title"])
             if g["pr"]:
                 g["rank"] -= 8
-        gs = sorted(gs, key=lambda g: g["rank"], reverse=True)[:100]
+        gs = sorted(gs, key=lambda g: g["rank"], reverse=True)
+        gs = gs[:100] + [g for g in gs[100:] if tag(g["rep"]["title"]) == "단독"][:60]
         out["tracks"][t] = [{
             "title": g["rep"]["title"], "link": g["rep"]["link"], "source": g["rep"]["source"],
             "first": g["rep"]["date"], "last": g["last"], "score": int(g["rep"]["score"]),
             "n": g["n"], "media": len(g["src"]), "rank": round(g["rank"], 1), "topic": subtopic(t, g["rep"]["title"]),
-            "pr": g["pr"],
+            "pr": g["pr"], "tag": tag(g["rep"]["title"]),
         } for g in gs]
     out["govRel"] = GOV_REL
     out["gov"] = [{"date": r["date"], "source": r["source"], "title": r["title"], "link": r["link"], "track": r["track"],

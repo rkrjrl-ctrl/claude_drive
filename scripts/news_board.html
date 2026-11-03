@@ -79,6 +79,7 @@
   .pill.new{ background:var(--new-fill); color:var(--new); }
   .pill.made{ background:var(--made-fill); color:var(--made); }
   .pill.cand{ background:var(--accent-fill); color:var(--accent); }
+  .pill.excl{ background:var(--ink-primary); color:var(--bg-page); font-weight:700; }
   .picks{ display:flex; flex-direction:column; gap:6px; margin:12px 0 4px; }
   .pick{ display:flex; gap:8px; align-items:baseline; font-size:14px; }
   .md{ margin-top:12px; padding-top:12px; border-top:1px solid var(--grid-line); font-size:14px; overflow-wrap:anywhere; }
@@ -153,7 +154,7 @@
 
   <section id="general">
   <h2>기사</h2>
-  <p class="sub">2시간마다 자동으로 모은 최근 7일 기사예요. 비슷한 기사는 한 건으로 묶었고, 「주목」은 8곳 넘는 매체가 다룬 사건이에요. 행사·협약 같은 회사 홍보 기사는 「홍보성」으로 표시하고 순위를 내렸어요. 점수표로 고른 것이라 판단은 아니에요.</p>
+  <p class="sub">2시간마다 자동으로 모은 최근 7일 기사예요. 비슷한 기사는 한 건으로 묶었고, 「주목」은 8곳 넘는 매체가 다룬 사건이에요. 「단독」은 한 매체만 쓴 기사라 순위가 낮아도 목록 끝에 남겨 둬요. 행사·협약 같은 회사 홍보 기사는 「홍보성」으로 표시하고 순위를 내렸어요. 점수표로 고른 것이라 판단은 아니에요.</p>
   <div class="tools">
     <div class="seg" id="trackSeg">
       <button data-t="INS" class="on">보험·의료</button><button data-t="INV">투자·경제</button>
@@ -162,6 +163,7 @@
       <button data-s="rank" class="on">중요순</button><button data-s="new">최신순</button>
     </div>
     <label><input type="checkbox" id="hotOnly"> 주목만</label>
+    <label><input type="checkbox" id="exclOnly"> 단독만</label>
     <label><input type="checkbox" id="newOnly"> 새 기사만</label>
   </div>
   <div class="card"><ul class="list" id="cands"><li class="empty">불러오는 중…</li></ul><div class="more" id="candMore"></div></div>
@@ -191,7 +193,7 @@
   var RAW = "https://raw.githubusercontent.com/rkrjrl-ctrl/claude_drive/main/";
   var BASE = new URLSearchParams(location.search).get("base") || RAW;
   var LV_KEY = "newsboard.lastVisit";
-  var state = { track:"INS", sort:"rank", hotOnly:false, newOnly:false, govRelOnly:true, govNewOnly:false, board:null, candN:20, govN:20 };
+  var state = { track:"INS", sort:"rank", hotOnly:false, exclOnly:false, newOnly:false, govRelOnly:true, govNewOnly:false, board:null, candN:20, govN:20 };
 
   function store(get, val){
     try{ if(get) return localStorage.getItem(LV_KEY); localStorage.setItem(LV_KEY, val); }catch(e){ return null; }
@@ -276,12 +278,13 @@
     var b = state.board, ul = document.getElementById("cands"), more = document.getElementById("candMore");
     if(!b){ return; }
     var list = (b.tracks[state.track] || []).filter(function(g){
-      return (!state.hotOnly || g.media >= b.hot) && (!state.newOnly || isNew(g.last));
+      return (!state.hotOnly || g.media >= b.hot) && (!state.exclOnly || g.tag === "단독") && (!state.newOnly || isNew(g.last));
     });
     if(state.sort === "new") list = list.slice().sort(function(x, y){ return x.last < y.last ? 1 : -1; });
     var shown = list.slice(0, state.candN);
     ul.innerHTML = shown.length ? shown.map(function(g){
-      var tags = (g.media >= b.hot && !g.pr ? '<span class="pill hot">주목</span>' : "") + (isNew(g.last) ? '<span class="pill new">새</span>' : "") +
+      var tags = (g.tag === "단독" ? '<span class="pill excl">단독</span>' : (g.tag === "속보" ? '<span class="pill hot">속보</span>' : "")) +
+        (g.media >= b.hot && !g.pr ? '<span class="pill hot">주목</span>' : "") + (isNew(g.last) ? '<span class="pill new">새</span>' : "") +
         (g.pr ? '<span class="pill">홍보성</span>' : "");
       return "<li><div class=\"when\">" + ago(g.last) + '</div><div class="body">' +
         '<a class="title" target="_blank" rel="noopener" href="' + esc(g.link) + '">' + esc(g.title) + "</a>" +
@@ -346,6 +349,7 @@
     renderCands();
   });
   document.getElementById("hotOnly").onchange = function(){ state.hotOnly = this.checked; renderCands(); };
+  document.getElementById("exclOnly").onchange = function(){ state.exclOnly = this.checked; state.candN = 20; renderCands(); };
   document.getElementById("govNewOnly").onchange = function(){ state.govNewOnly = this.checked; renderGov(); };
   document.getElementById("govRelOnly").onchange = function(){ state.govRelOnly = this.checked; state.govN = 20; renderGov(); };
   document.getElementById("sortSeg").addEventListener("click", function(e){
@@ -355,6 +359,9 @@
     renderCands();
   });
   document.getElementById("newOnly").onchange = function(){ state.newOnly = this.checked; renderCands(); renderGov(); };
+
+  var openTab = { "#picks":"picksPanel", "#gov":"govPanel" }[location.hash];
+  if(openTab) document.querySelector('#subtabs button[data-p="' + openTab + '"]').click();
 
   Promise.all([loadBoard(), loadPicks()]).then(function(){ store(false, openedAt); });
   setInterval(function(){ if(!document.hidden) loadBoard(); }, 10 * 60 * 1000);

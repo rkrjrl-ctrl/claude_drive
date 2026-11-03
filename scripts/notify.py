@@ -1,0 +1,240 @@
+"""휴대폰 알림(ntfy). 11/3 사용자: 헤드라인으로 이슈를 계속 훑으려는 알림이라 좀 많아도 괜찮다.
+
+  python scripts/notify.py news            # 수집 직후(news-collect 액션): 새 단독·속보·주목·관련 보도자료
+  python scripts/notify.py picks <md 파일>  # 추천 글이 올라오면(news-picks-notify 액션): 1차 추천·2차 보충
+
+받는 주제 이름은 깃허브 비밀값 NTFY_TOPIC에만 둔다(공개 저장소라 코드에 적으면 누구나 구독한다).
+알림 하나에 헤드라인 하나, 누르면 기사가 열린다. 같은 사건은 한 번만 보낸다(news/notified.json).
+"""
+import csv
+import datetime
+import json
+import os
+import re
+import sys
+import urllib.request
+
+ROOT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+NEWS = os.path.join(ROOT, "news")
+STATE = os.path.join(NEWS, "notified.json")
+BOARD_URL = "https://rkrjrl-ctrl.github.io/claude_drive/news.html"
+KST = datetime.timezone(datetime.timedelta(hours=9))
+NOW = datetime.datetime.now(KST)
+TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
+SERVER = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
+
+WINDOW_H = int(os.environ.get("NTFY_WINDOW_H", 8))     # 이 시간 안에 들어온 것만 본다(액션이 2시간마다지만 예약이 몇 시간 늦기도 해서 넉넉히)
+HOT_MEDIA = 5     # 이만큼 많은 매체가 다룬 사건이면 「주목」 알림(보드 표시는 8곳, 알림은 많아도 된다고 해서 낮춤)
+MAX_PER_RUN = int(os.environ.get("NTFY_MAX", 30)) # 한 번에 이보다 많으면 나머지는 「외 N건」 한 통으로
+TAG = re.compile(r"^\s*[\[【(<]\s*(단독|속보)[^\]】)>]*[\]】)>]?\s*")
+# 투자·경제 속보는 95%가 시황이라 시장 전체가 흔들린 것만 받는다
+BIG = re.compile(r"사이드카|서킷\s*브레이커|기준\s*금리|금통위|금리\s*(인하|인상|동결)|"
+                 r"(코스피|코스닥|나스닥|다우|S&P).{0,25}?([3-9]|\d{2})(\.\d+)?\s*%\s*대?\s*(급락|폭락|급등|폭등)")
+MARKET = re.compile(r"증시|코스피|코스닥|나스닥|다우|S&P|국제유가|유가|환율|금값|국채|채권|외환|비트코인|프리뷰|시황|마감|출발")
+TRACK = {"INS": "보험·의료", "INV": "투자·경제"}
+STOP = {"속보", "단독", "종합", "영상", "포토", "사진", "오늘", "내일", "올해", "이번", "관련", "대한", "위해", "통해"}
+
+
+def tokens(title):
+    return {t for t in re.findall(r"[가-힣A-Za-z0-9]{2,}", title) if t not in STOP}
+
+
+def same(a, b):
+    """fetch_news.cluster와 같은 기준: 단어 겹침 0.3 이상이거나 4단어 이상 공유."""
+    u, i = a | b, len(a & b)
+    return bool(u) and (i / len(u) >= 0.3 or i >= 4)
+
+
+def ts(s):
+    s = s.strip()
+    if len(s) == 10:
+        s += "T00:00+09:00"
+    try:
+        d = datetime.datetime.fromisoformat(s)
+    except ValueError:
+        return None
+    return d if d.tzinfo else d.replace(tzinfo=KST)
+
+
+def send(title, message, click, tags=(), priority=3):
+    if os.environ.get("NTFY_DRY"):   # 시험: 보내지 않고 화면에만
+        print(f"[{title}] {message} → {click[:60]}")
+        return
+    body = {"topic": TOPIC, "title": title[:250], "message": message[:1000], "click": click,
+            "tags": list(tags), "priority": priority}
+    req = urllib.request.Request(SERVER, data=json.dumps(body, ensure_ascii=False).encode("utf-8"),
+                                 headers={"Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        r.read()
+
+
+# ---------------- 뉴스 ----------------
+def recent_rows(since):
+    names = {NOW.strftime("%Y-%m"), (NOW - datetime.timedelta(hours=WINDOW_H)).strftime("%Y-%m")}
+    out = []
+    for n in sorted(names):
+        p = os.path.join(NEWS, n + ".csv")
+        if not os.path.exists(p):
+            continue
+        with open(p, encoding="utf-8-sig", newline="") as f:
+            for r in csv.DictReader(f):
+                d = ts(r.get("date", ""))
+                if d and d >= since:
+                    out.append(r)
+    return out
+
+
+def candidates():
+    since = NOW - datetime.timedelta(hours=WINDOW_H)
+    out = []
+    try:
+        with open(os.path.join(NEWS, "board.json"), encoding="utf-8") as f:
+            board = json.load(f)
+    except (OSError, ValueError):
+        board = {"tracks": {}, "gov": []}
+    rel = board.get("govRel", 3)
+    # 1) 기관 보도자료(생활 관련만)
+    for r in board.get("gov", []):
+        d = ts(r.get("date", ""))
+        if d and d >= since and (r.get("rel") is None or r["rel"] >= rel):
+            out.append({"kind": "gov", "title": f"보도자료 · {r['source'].replace(' 보도자료', '')}",
+                        "msg": r["title"], "link": r["link"], "tags": ["page_facing_up"], "key": r["title"]})
+    # 2) 단독·속보(묶기 전 기사 그대로)
+    for r in sorted(recent_rows(since), key=lambda r: r["date"]):
+        if r.get("via") in ("gov", "intl"):
+            continue
+        m = TAG.match(r["title"])
+        if not m:
+            continue
+        kind = m.group(1)
+        head = r["title"][m.end():].strip() or r["title"]
+        head = re.sub(r"\s+-\s+[^-]{1,20}$", "", head)   # 끝의 「 - 매체명」
+        if kind == "속보" and r.get("track") == "INV" and not BIG.search(head):
+            continue
+        out.append({"kind": kind, "title": f"[{kind}] {TRACK.get(r.get('track'), '')} · {r['source']}",
+                    "msg": head, "link": r["link"], "tags": ["pushpin" if kind == "단독" else "zap"],
+                    "key": head})
+    # 3) 주목: 여러 매체가 다룬 사건(홍보성 제외)
+    for t in ("INS", "INV"):
+        for g in board.get("tracks", {}).get(t, []):
+            d, d0 = ts(g.get("last", "")), ts(g.get("first", ""))
+            if not (d and d >= since and d0 and d0 >= NOW - datetime.timedelta(hours=48)):
+                continue   # 며칠 지난 사건은 기사가 하나 더 붙어도 다시 알리지 않는다
+            if t == "INV" and MARKET.search(g["title"]) and not BIG.search(g["title"]):
+                continue   # 매일 나오는 시황(뉴욕증시 마감 등)은 시장이 크게 흔들린 것만
+            if g.get("media", 0) >= HOT_MEDIA and not g.get("pr"):
+                out.append({"kind": "주목", "title": f"주목 · {TRACK[t]} · {g['media']}개 매체",
+                            "msg": TAG.sub("", g["title"]).strip(), "link": g["link"], "tags": ["fire"],
+                            "key": g["title"]})
+    return out
+
+
+def load_state():
+    try:
+        with open(STATE, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return None
+
+
+def save_state(items):
+    keep = NOW - datetime.timedelta(days=8)
+    items = [x for x in items if (ts(x["t"]) or NOW) >= keep]
+    with open(STATE, "w", encoding="utf-8") as f:
+        json.dump({"updated": NOW.isoformat(timespec="minutes"), "items": items}, f, ensure_ascii=False, indent=0)
+
+
+def seen(c, items):
+    """이미 보낸 것인가. 링크가 같거나, 비슷한 제목을 최근에 보냈으면 같은 사건으로 본다."""
+    tok = tokens(c["key"])
+    for x in items:
+        if x["link"] == c["link"]:
+            return True
+        age = (NOW - (ts(x["t"]) or NOW)).total_seconds() / 3600
+        # 주목은 주목끼리 3일, 단독·속보·보도자료는 종류 상관없이 하루(단독이 뒤에 주목이 되면 한 번 더 알린다)
+        limit = 72 if c["kind"] == "주목" and x["kind"] == "주목" else (24 if c["kind"] != "주목" and x["kind"] != "주목" else -1)
+        if age <= limit and same(tok, set(x["tok"])):
+            return True
+    return False
+
+
+def run_news():
+    state = load_state()
+    first = state is None
+    items = [] if first else state.get("items", [])
+    todo = []
+    for c in candidates():
+        if seen(c, items):
+            continue
+        items.append({"kind": c["kind"], "link": c["link"], "t": NOW.isoformat(timespec="minutes"),
+                      "tok": sorted(tokens(c["key"]))})
+        todo.append(c)
+    if first:   # 처음 한 번은 지금 있는 것을 「보낸 것」으로만 적어 둔다(지난 기사가 한꺼번에 쏟아지지 않게)
+        save_state(items)
+        print(f"처음 실행: 알림 없이 {len(todo)}건을 보낸 것으로 기록")
+        return
+    if not TOPIC:
+        print(f"NTFY_TOPIC이 없어 알림을 건너뜀(보낼 것 {len(todo)}건)")
+        save_state(items)
+        return
+    order = {"gov": 0, "단독": 1, "속보": 2, "주목": 3}
+    todo.sort(key=lambda c: order[c["kind"]])
+    sent = 0
+    for c in todo[:MAX_PER_RUN]:
+        try:
+            send(c["title"], c["msg"], c["link"], c["tags"])
+            sent += 1
+        except Exception as e:  # 한 건이 실패해도 나머지는 보낸다
+            print("보내기 실패:", c["title"], e)
+    rest = len(todo) - MAX_PER_RUN
+    if rest > 0:
+        try:
+            send(f"외 {rest}건", "나머지는 뉴스 보드에서 보세요.", BOARD_URL, ["newspaper"])
+        except Exception as e:
+            print("보내기 실패:", e)
+    save_state(items)
+    print(f"알림 {sent}건 보냄" + (f", {rest}건은 한 통으로 묶음" if rest > 0 else ""))
+
+
+# ---------------- 추천 ----------------
+def run_picks(path, old_path=None):
+    if not TOPIC:
+        print("NTFY_TOPIC이 없어 건너뜀")
+        return
+    with open(path, encoding="utf-8") as f:
+        md = f.read()
+    secs = re.split(r"(?m)^## ", md)
+    if len(secs) < 2:
+        return
+    old = ""
+    if old_path and os.path.exists(old_path):
+        with open(old_path, encoding="utf-8") as f:
+            old = f.read()
+    if secs[-1].splitlines()[0].strip() in re.findall(r"(?m)^## (.*)$", old):
+        print("새 추천 묶음이 없어(글 손질) 알림 생략")
+        return
+    last = secs[-1]
+    head = last.splitlines()[0].strip()              # 예: 「1차 추천 (07:12)」
+    if "그 밖에" in head:                             # 혹시 맨 끝이 덧붙인 목록이면 그 앞 묶음
+        last = secs[-2]
+        head = last.splitlines()[0].strip()
+    picks = [re.sub(r"\s+—\s+.*$", "", h).strip() for h in re.findall(r"(?m)^### ([①-⑩].*)$", last)]
+    if picks:
+        msg = "\n".join(picks)
+        title = f"영상 소재 {head.split('(')[0].strip()} {len(picks)}개"
+    else:
+        none = re.search(r"(?m)^- (보충 없음|오늘은 없음).*$", last)
+        msg = none.group(0)[2:] if none else "고른 소재가 없어요."
+        title = f"영상 소재 {head.split('(')[0].strip()}"
+    send(title, msg, BOARD_URL + "#picks", ["clapper"], priority=4)
+    print("추천 알림 보냄:", title)
+
+
+if __name__ == "__main__":
+    if len(sys.argv) >= 3 and sys.argv[1] == "picks":
+        run_picks(sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else None)
+    elif len(sys.argv) >= 2 and sys.argv[1] == "test":
+        send("알림 연결됨", "뉴스 알림이 이 휴대폰으로 와요. 누르면 뉴스 보드가 열려요.", BOARD_URL, ["white_check_mark"])
+        print("시험 알림 보냄")
+    else:
+        run_news()
