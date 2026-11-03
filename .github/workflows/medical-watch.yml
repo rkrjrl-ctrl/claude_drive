@@ -1,8 +1,7 @@
 name: medical-watch
 
 on:
-  schedule:
-    - cron: "30 23 * * *" # 08:30 KST daily (경제 지표 수집 뒤)
+  # 예약은 tick.yml이 대신 깨운다(08:00 KST, 11/3 깃허브 예약 지연 때문)
   workflow_dispatch: {}
 
 permissions:

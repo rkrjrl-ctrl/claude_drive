@@ -2,8 +2,7 @@ name: Collect apartment trades
 
 # 국토부 아파트 매매·전월세 실거래가 (전국 시군구, 최근 3개월 매일 갱신)
 on:
-  schedule:
-    - cron: "40 0 * * *" # 매일 09:40 KST
+  # 예약은 tick.yml이 대신 깨운다(09:00 KST, 11/3 깃허브 예약 지연 때문)
   workflow_dispatch:
     inputs:
       only:

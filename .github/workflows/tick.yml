@@ -1,0 +1,31 @@
+name: tick
+
+# 매시간 깨어나 그 시각의 수집 작업을 실행한다(scripts/tick.py). 11/3: 깃허브 예약이 3~6시간 늦어 바깥 시계로 깨운다.
+# 깨우는 쪽: cron-job.org 매시 5분 → 이 작업 「지금 실행」(바로 시작됨)
+# 안전망: 아래 깃허브 예약(늦게라도 돈다). 이미 돈 작업은 tick.py가 건너뛴다.
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "23 * * * *"
+
+permissions:
+  actions: write   # 다른 작업 「지금 실행」
+  contents: read
+
+concurrency:
+  group: tick
+  cancel-in-progress: false
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: scripts
+      - name: 이 시각 작업 실행
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: python3 scripts/tick.py

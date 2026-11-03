@@ -2,8 +2,7 @@ name: Collect FSS rates
 
 # 금감원 「금융상품 한눈에」 예적금·대출 공시 금리 수집
 on:
-  schedule:
-    - cron: "0 0 * * *" # 매일 09:00 KST
+  # 예약은 tick.yml이 대신 깨운다(09:00 KST, 11/3 깃허브 예약 지연 때문)
   workflow_dispatch: {}
 
 permissions:

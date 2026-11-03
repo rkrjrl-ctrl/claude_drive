@@ -1,8 +1,7 @@
 name: Update economic indicators
 
 on:
-  schedule:
-    - cron: "0 23 * * *" # 08:00 KST daily
+  # 예약은 tick.yml이 대신 깨운다(08:00 KST, 11/3 깃허브 예약 지연 때문)
   workflow_dispatch: {}
 
 permissions:
@@ -49,6 +48,7 @@ jobs:
             echo "No data changes, skipping commit."
           else
             git commit -m "data: update indicators for $(date -u +%Y-%m-%d)"
+            git pull --rebase -q   # 뉴스 수집 등과 동시에 올리면 거절돼서(11/3)
             git push
           fi
 

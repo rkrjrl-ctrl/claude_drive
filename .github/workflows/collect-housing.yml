@@ -2,8 +2,7 @@ name: Collect housing notices
 
 # 청약홈 분양정보·경쟁률·가점, LH 공고, 공공서비스(지원 제도) 수집
 on:
-  schedule:
-    - cron: "20 0 * * *" # 매일 09:20 KST
+  # 예약은 tick.yml이 대신 깨운다(09:00 KST, 11/3 깃허브 예약 지연 때문)
   workflow_dispatch:
     inputs:
       only:
