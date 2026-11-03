@@ -1,9 +1,9 @@
 # 경제·보험 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-04 00:05 KST  /  최근 7일 15228건 (보험·의료 3813 · 투자·경제 11415)  /  이번 신규 330건
+- 갱신: 2026-11-04 01:05 KST  /  최근 7일 15244건 (보험·의료 3815 · 투자·경제 11429)  /  이번 신규 337건
 - 소스 62곳 + 구글뉴스 키워드 90개(보험·의료 45 · 투자·경제 45)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 경향 경제
+- 수집 실패 소스: 없음
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
@@ -50,8 +50,8 @@
 - 11-03 [금융감독원 보도자료] [금감원장, 임원회의(11.3.) 당부사항](https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249709&menuNo=200218&pageIndex=1)
 - 11-03 [금융감독원 보도자료] [코너스톤투자자 제도 등 도입 관련 자본시장법 시행령 개정안 국무회의 의결](https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249707&menuNo=200218&pageIndex=1)
 - 11-03 [금융위원회] [2027년 금융위원회 예산안에 대해 자세히 설명드립니다.. 금일 등록된 게시글](https://www.fsc.go.kr/no010101/88074)
-- 11-03 [금융위원회] [코너스톤투자자 제도 등 도입 관련 자본시장법 시행령 개정안 국무회의 의결. 금일 등록된 게시글](https://www.fsc.go.kr/no010101/88071)
 - 11-03 [금융위원회] [2027년 금융위원회 예산안에 대해 자세히 설명드립니다.](https://www.fsc.go.kr/no010101/88074)
+- 11-03 [금융위원회] [코너스톤투자자 제도 등 도입 관련 자본시장법 시행령 개정안 국무회의 의결. 금일 등록된 게시글](https://www.fsc.go.kr/no010101/88071)
 - 11-02 [보건복지부] [기업이 만드는 지속가능한 노인일자리, 기업 상생 협력 성과 확산](https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492405&act=view)
 - 11-02 [보건복지부] [거동불편 어르신의 일상생활 자립을 돕는 ‘장기요양 재택자립훈련 시범사업’ 공모](https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492399&act=view)
 - 11-02 [금융감독원 보도자료] [생산적 금융의 온기를 지방과 중소기업까지 이어갑니다.](https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249682&menuNo=200218&pageIndex=1)
@@ -63,7 +63,7 @@
 
 ## [투자·경제] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
-**가상자산** (사건 26개)
+**가상자산** (사건 25개)
 - (12) 10-29 민심뉴스 — [미 연준 금리 동결, 비트코인 8만 달러 돌파 잠시 가능했을까 (+BTC, 금리, FOMC, 비트코인)](https://news.google.com/rss/articles/CBMibEFVX3lxTE1kNjFqVElaQVpkc1NVVjRLTHp0aTlHR25ESUxUN05FeTg3UUJMYnR3YnBkUDlqY0JtU1hibUNNN3FKa3p4eEpjZ0YxUXhyUnR6QlpIZnJsckdCRGJuaElYOUNneXdMVVJDNzNFRw?oc=5) — **외 8건**(7개 매체)
 - (10) 10-29 신아일보 — [[07:49 가상자산] 비트코인, FOMC 동결·현물 ETF 자금 유입에 반등](https://news.google.com/rss/articles/CBMicEFVX3lxTFBLSVRpMzdhN0lzNUVXQXlmX0loTjBodFlSVG9QTlczdm83QkZ1anY4TThpUTVfaDJaZ0o3YnYwWEVsdEVhWkY1d0l5VmtRWDV2ZzJLdklhbUVpMURKcG5YOXpNb3VKcTQxLW93NHhJYkQ?oc=5) — **외 1건**(2개 매체)
 - (10) 10-28 www.ppss.kr — [[코인 시황] 비트코인 8만달러선 재확보…ETF 순유입 돌아왔지만 오늘 밤 FOMC가 분수령](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5iSU9ybVZNMHRrd21YY25nNDMyV3FVd1FVa1J5dVRzZHFxX0trTzN4ai1lXzRpSWVkNWlQNnNIdkU0QXM1LWw2NGJuOFZDMmh5WkQtT0E2dU0yQWZWamxuTTQ3R0I?oc=5) — **외 1건**(2개 매체)
@@ -78,7 +78,7 @@
 - (11) 10-28 핀포인트뉴스 — [[코스피 지수선물 옵션] 삼성전자·SK하이닉스 급등… 개별주식선물 반도체주 '불기둥'](https://news.google.com/rss/articles/CBMic0FVX3lxTFBzT1hONno5eTRCRGxvMFNhb2ZjSk5VUFplNzVoX0k1MHhubjV3REg2Q1hnMW5iN2VOR2lTM2VNS1VLT0cydjhvQUtTcXlBaktTMWVBUkI1UjRKb2JsWWpweVAxbTIyYTRDV1RqSFRHVmNNMUHSAXdBVV95cUxQSzhSdURoWVZmcFdnekdHQmxlcmJwaGV3QXV4cEYwdGZXT3FvMVR3SkVjanR5OW4xa2FQOV80bWQ0NndDT3o1NVM3dWUxaXB2SjRaSVZkWUVPMWpCOGtDb21kejZIM1FvWUFwdG1KZWNBRmR0OUZ4UQ?oc=5) — **외 8건**(9개 매체)
 - (13) 10-29 중기이코노미 — [코스피 급등세에도 원달러 환율 1330원대 상승 마감](https://news.google.com/rss/articles/CBMiakFVX3lxTE83MDhCNnJKaVB5eGtaM25DdG5ob2E2c290dUpNVFUxX0hqVVJZNWYyOGZLSTB3a3FHQWZxQXpBQUFFRTJOeDlJVEdobEt3MmtMSjF0SHZGU2xENFRsRXJqUUNZTUYtc1M5d3c?oc=5) — **외 3건**(3개 매체)
 
-**금리·중앙은행** (사건 29개)
+**금리·중앙은행** (사건 30개)
 - (12) 11-03 뉴스핌 — [[채권/외환] 이란 종전 협상 기대에 유가 급락…美 국채 금리·달러 동반 하락](https://news.google.com/rss/articles/CBMiXEFVX3lxTE82dENRRmtaRXBvYm1XRFA0SlFtX2FFeXBqNTBPZ1hLZVc3QVEtblVUWWpiMV9YOUI1eXRKUlRvY3ZWNVJwSTFtOEN0VEZKZ0dyR2ViRDN4X0M5eEk0?oc=5) — **외 9건**(5개 매체)
 - (12) 10-30 www.tmgm.com — [금값, 미국 GDP 호조에 연준 금리 인상 전망 강화되며 4,000달러 부근으로 하락](https://news.google.com/rss/articles/CBMixgFBVV95cUxPaXhwLTh5a2k0Uk9yV3FxOVBiWkR2TlVtS0w1c0dxaFNGOVVTY3plMThjdkg3Y3lxZGcyVmx4ZHZpYUxkN1JPY3pENWRhLUNLcjF4bXF1ZG5fejVVNDRYUmpGb1hFaURvaGVkN2IwMHBZZUFwdlZNYWRvQVRrNFh4YjJhdUI3SlB0cWJIaTduell4bk5HTmRodEY0OEgyYlRyU2lOUmVLdkxUbGNObm9kUjhTTnJWZUxqdnlFdkc0YU54cjMta3c?oc=5) — **외 6건**(3개 매체)
 - (13) 10-31 블록미디어 — [[뉴욕 금·채권·달러] 국채금리·달러 혼조 속 금값 3.66% 급락…기술주 투매 영향](https://news.google.com/rss/articles/CBMiWEFVX3lxTE40UzBWaE1aYzdjdVRBcUpEUnB5Ukk5d01paWRYbEFsVlo5V3RBQTNCaUJJMUh2aHVCNUhBMjdLUkxPMjVuX2hJWmNXekVEYllucEpxdlhfMTA?oc=5) — **외 3건**(1개 매체)
@@ -121,6 +121,8 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
+- 11-04 MarketWatch — [The Texas governor’s race might be a make-or-break contest for a wobbling AI trade](https://www.marketwatch.com/story/the-texas-governors-race-might-be-a-make-or-break-contest-for-a-wobbling-ai-trade-7764aa29?mod=mw_rss_topstories)
+- 11-04 MarketWatch — [5 questions to ask if your boss offers you a buyout, as Microsoft did with 60,000 employees](https://www.marketwatch.com/story/5-questions-to-ask-if-your-boss-offers-you-a-buyout-as-microsoft-did-with-60-000-employees-03d037a5?mod=mw_rss_topstories)
 - 11-03 MarketWatch — [Learning from ‘Love Is Blind’ money drama](https://www.marketwatch.com/story/learning-from-love-is-blind-money-drama-810175f9?mod=mw_rss_topstories)
 - 11-03 MarketWatch — [This indicator has triggered just 5 times since 2000 — and it warns of a trap for stocks](https://www.marketwatch.com/story/this-indicator-has-triggered-just-5-times-since-2000-and-it-warns-of-a-trap-for-stocks-a1cbd579?mod=mw_rss_topstories)
 - 11-03 MarketWatch — [‘It’s good to be old’: I’ve been invited to a dozen free meals that turn into annuity sales pitches. Should I stop going?](https://www.marketwatch.com/story/its-good-to-be-old-ive-been-invited-to-a-dozen-free-meals-that-turn-into-annuity-sales-pitches-should-i-stop-going-63df67ca?mod=mw_rss_topstories)
@@ -131,9 +133,7 @@
 - 11-03 MarketWatch — [Shopify’s stock slides after earnings. This is what’s worrying Wall Street.](https://www.marketwatch.com/story/shopifys-stock-slides-after-earnings-this-is-whats-worrying-wall-street-e2e8d52b?mod=mw_rss_topstories)
 - 11-03 MarketWatch — [11 bargain-priced stocks of companies that have huge growth potential over the next two years](https://www.marketwatch.com/story/11-bargain-priced-stocks-of-companies-that-have-huge-growth-potential-over-the-next-two-years-d62618e6?mod=mw_rss_topstories)
 - 11-03 MarketWatch — [What analysts are telling us while Apple’s stock falls after earnings report](https://www.marketwatch.com/story/what-analysts-are-saying-as-apples-stock-falls-after-earnings-report-f0afa357?mod=mw_rss_topstories)
-- 11-03 MarketWatch — [My stepmother wants me to repay my late father’s $40,000 wedding gift. Should I oblige?](https://www.marketwatch.com/story/shes-a-type-a-personality-my-stepmother-wants-me-to-repay-my-late-fathers-40-000-wedding-gift-should-i-oblige-51fc64f7?mod=mw_rss_topstories)
-- 11-03 MarketWatch — [The stock market loves gridlock. But midterm elections won’t resolve two big money fights.](https://www.marketwatch.com/story/the-stock-market-loves-gridlock-but-midterm-elections-wont-resolve-two-big-money-fights-97ed4f64?mod=mw_rss_topstories)
 
 ## 언론사별 건수 상위 15
 
-토큰포스트 589, 파이낸셜뉴스 전체 361, 연합뉴스 마켓 345, 머니투데이 333, 인포맥스 287, 뉴시스 금융 255, 코인리더스 248, 한국경제 금융 239, 아시아경제 232, 조선 경제 209, 뉴스1 191, 조선비즈 180, 이데일리 179, 뉴스핌 178, 뉴시스 국제 172
+토큰포스트 593, 파이낸셜뉴스 전체 360, 연합뉴스 마켓 345, 머니투데이 333, 인포맥스 287, 뉴시스 금융 252, 코인리더스 247, 한국경제 금융 239, 아시아경제 232, 조선 경제 204, 뉴스1 191, 조선비즈 179, 뉴스핌 179, 이데일리 178, 뉴시스 국제 172
