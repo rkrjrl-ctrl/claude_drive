@@ -1,9 +1,9 @@
 # 경제·보험 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-04 04:06 KST  /  최근 7일 15284건 (보험·의료 3817 · 투자·경제 11467)  /  이번 신규 300건
+- 갱신: 2026-11-04 05:06 KST  /  최근 7일 15303건 (보험·의료 3822 · 투자·경제 11481)  /  이번 신규 51건
 - 소스 62곳 + 구글뉴스 키워드 90개(보험·의료 45 · 투자·경제 45)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 없음
+- 수집 실패 소스: 한국은행 보도자료, 한국은행 통화정책, 한국은행 통계, 머니투데이
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
@@ -24,7 +24,7 @@
 
 **국민연금·퇴직연금** (사건 84개)
 - (6) 11-03 비욘드포스트 — [하나증권, 퇴직연금 'ETF 모으기' 출시…DC·IRP서 자동 적립식 투자](https://news.google.com/rss/articles/CBMifEFVX3lxTE5CeVZXTnF5NEoyS2lCaDhzbmItVnZ6Ym0wSFg2cldRa3Q1OW5kVk9WNlBnVGRFcTdNTEFaYzVoZGVjeVpSMkI2RG5zNE1ab28wTEZJUDFCSTNuZXN3V05HRnNZWTI3TVNHU1BXTzFaZHByQ0xISlFUcWUwOW4?oc=5) — **외 20건**(21개 매체)
-- (6) 11-02 더팩트 — [한화금융 4개사, 기금형 퇴직연금 공동 대응…DC·IRP 시장 공략](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9NYzU1ZmJKWEpPYlhPbVhSU0pNTnB0TEE2VG1ZY2E4VlRFeVExRFBpVVlQSVdQVG9CNXpsaGZEd1B4UmZFSzBqTFJPRWZaT0NGRDRTQnpFQVoyd9IBVEFVX3lxTFBfbFVHNDJkcnZhbUZwVE13bzFuR2JNT3ZlUzlMR3A0VHNCUWEwNWFXRGdyTGtIaTFFYW83R0VwcVZhWTlleW5aWkZVX0JtbUJzcEJlQw?oc=5) — **외 16건**(17개 매체)
+- (6) 11-02 더팩트 — [한화금융 4개사, 기금형 퇴직연금 공동 대응…DC·IRP 시장 공략](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9NYzU1ZmJKWEpPYlhPbVhSU0pNTnB0TEE2VG1ZY2E4VlRFeVExRFBpVVlQSVdQVG9CNXpsaGZEd1B4UmZFSzBqTFJPRWZaT0NGRDRTQnpFQVoyd9IBVEFVX3lxTFBfbFVHNDJkcnZhbUZwVE13bzFuR2JNT3ZlUzlMR3A0VHNCUWEwNWFXRGdyTGtIaTFFYW83R0VwcVZhWTlleW5aWkZVX0JtbUJzcEJlQw?oc=5) — **외 15건**(16개 매체)
 - (7) 10-29 컨슈머타임스 — ["수도권 넘어 전국 확산" 국민연금공단, '청년 생애 첫 보험료' 사전신청 1만 명 돌파](https://news.google.com/rss/articles/CBMiakFVX3lxTFAxdWRGeWxUTWtDcGtlMUEyRTNYV0h0LUVXMm9iejYtZmdCOU52dzl0SWRKWlU3QzdUODhQM3piTlhfSC01X2xmS2o0Ymp6c0ZOWkhIZktWcGRMLVNtOUdyYXlONkZwVmNvX0E?oc=5) — **외 7건**(8개 매체)
 
 **보험금 분쟁·판결** (사건 24개)
@@ -121,6 +121,9 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
+- 11-04 MarketWatch — [An overlooked energy source could solve AI’s power crunch — and these 2 stocks are prime plays](https://www.marketwatch.com/story/an-overlooked-energy-source-could-solve-ais-power-crunch-and-these-2-stocks-are-prime-plays-bc5d988a?mod=mw_rss_topstories)
+- 11-04 CNBC — [Pfizer hikes full-year outlook on new product growth, taps company veteran as new CFO](https://www.cnbc.com/2026/11/03/pfizer-pfe-earnings-q3-2026.html)
+- 11-04 MarketWatch — [Medicare prescription drug costs will jump 50% in 2027. Doing nothing could cost you.](https://www.marketwatch.com/story/medicare-prescription-drug-costs-will-jump-50-in-2027-doing-nothing-could-cost-you-b701dfb7?mod=mw_rss_topstories)
 - 11-04 MarketWatch — [My wife and I have no kids and a 99% chance of outliving our life savings. Why not spend it all?](https://www.marketwatch.com/story/fancy-cars-hold-no-appeal-my-wife-and-i-have-a-99-chance-of-outliving-our-savings-why-dont-we-spend-it-all-932a2166?mod=mw_rss_topstories)
 - 11-04 MarketWatch — [Once election results are in, here’s what investors should focus on next](https://www.marketwatch.com/story/once-election-results-are-in-heres-what-investors-should-focus-on-next-75c5ac5d?mod=mw_rss_topstories)
 - 11-04 MarketWatch — [My father has Alzheimer’s and his caregiver is using his debit card for DoorDash. Should I intervene?](https://www.marketwatch.com/story/theres-a-lot-of-hurt-between-us-my-fathers-caregiver-is-using-his-debit-card-for-doordash-orders-what-can-i-do-714de7a5?mod=mw_rss_topstories)
@@ -130,10 +133,7 @@
 - 11-04 MarketWatch — [The Texas governor’s race might be a make-or-break contest for a wobbling AI trade](https://www.marketwatch.com/story/the-texas-governors-race-might-be-a-make-or-break-contest-for-a-wobbling-ai-trade-7764aa29?mod=mw_rss_topstories)
 - 11-04 MarketWatch — [5 questions to ask if your boss offers you a buyout, as Microsoft did with 60,000 employees](https://www.marketwatch.com/story/5-questions-to-ask-if-your-boss-offers-you-a-buyout-as-microsoft-did-with-60-000-employees-03d037a5?mod=mw_rss_topstories)
 - 11-03 MarketWatch — [Learning from ‘Love Is Blind’ money drama](https://www.marketwatch.com/story/learning-from-love-is-blind-money-drama-810175f9?mod=mw_rss_topstories)
-- 11-03 MarketWatch — [This indicator has triggered just 5 times since 2000 — and it warns of a trap for stocks](https://www.marketwatch.com/story/this-indicator-has-triggered-just-5-times-since-2000-and-it-warns-of-a-trap-for-stocks-a1cbd579?mod=mw_rss_topstories)
-- 11-03 MarketWatch — [‘It’s good to be old’: I’ve been invited to a dozen free meals that turn into annuity sales pitches. Should I stop going?](https://www.marketwatch.com/story/its-good-to-be-old-ive-been-invited-to-a-dozen-free-meals-that-turn-into-annuity-sales-pitches-should-i-stop-going-63df67ca?mod=mw_rss_topstories)
-- 11-03 MarketWatch — [It’s finally Election Day — and prediction markets may show ‘too much confidence in a good night for Democrats’](https://www.marketwatch.com/story/its-finally-election-day-and-prediction-markets-may-show-too-much-confidence-in-a-good-night-for-democrats-3c6742df?mod=mw_rss_topstories)
 
 ## 언론사별 건수 상위 15
 
-토큰포스트 607, 파이낸셜뉴스 전체 360, 연합뉴스 마켓 345, 머니투데이 336, 인포맥스 288, 뉴시스 금융 252, 코인리더스 246, 한국경제 금융 239, 아시아경제 232, 조선 경제 205, 뉴스1 192, 조선비즈 179, 뉴스핌 179, 이데일리 178, 뉴시스 국제 173
+토큰포스트 612, 파이낸셜뉴스 전체 361, 연합뉴스 마켓 344, 머니투데이 337, 인포맥스 289, 뉴시스 금융 252, 코인리더스 248, 한국경제 금융 241, 아시아경제 232, 조선 경제 205, 뉴스1 192, 조선비즈 179, 뉴스핌 179, 이데일리 178, 뉴시스 국제 173
