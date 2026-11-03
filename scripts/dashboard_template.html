@@ -437,9 +437,19 @@
   }
 
   var CHARTS = [
-    { id:"fx",     group:"grp-rates",  title:"원/달러 환율 (일별 1981.04~)",  target:"grp-rates",
+    { id:"fx",     group:"grp-rates",  title:"원/달러 환율 (매매기준율, 일별 1964.05~)",  target:"grp-rates",
       history: beforeDaily(LT.usdkrw_lt),
       series:[ {key:"usdkrw", name:"USD/KRW", color:"var(--kr)", unit:"원", dec:1} ] },
+    // 2026-11-04 추가: 한국은행 ECOS 매매기준율. 장기 파일이 아직 없으면(과거 값 채우기 전) 일별 값만 그린다.
+    { id:"fx_eur", group:"grp-rates",  title:"원/유로 환율 (매매기준율, 일별 1994.04~)", target:"grp-rates",
+      history: beforeDaily(LT.eurkrw || []),
+      series:[ {key:"eurkrw", name:"EUR/KRW", color:"var(--eu)", unit:"원", dec:2} ] },
+    { id:"fx_jpy", group:"grp-rates",  title:"원/엔 환율 (100엔, 매매기준율, 일별 1977.04~)", target:"grp-rates",
+      history: beforeDaily(LT.jpykrw || []),
+      series:[ {key:"jpykrw", name:"JPY(100)/KRW", color:"var(--jp)", unit:"원", dec:2} ] },
+    { id:"fx_cny", group:"grp-rates",  title:"원/위안 환율 (매매기준율, 일별 2016.01~)", target:"grp-rates",
+      history: beforeDaily(LT.cnykrw || []),
+      series:[ {key:"cnykrw", name:"CNY/KRW", color:"var(--cn)", unit:"원", dec:2} ] },
     { id:"rates",  group:"grp-rates",  title:"기준금리 (한국 1999.05~, 미국 1982.09~)", target:"grp-rates",
       monthlyOnly: true,
       history: (function(){
@@ -1322,7 +1332,7 @@
   function renderTable(){
     var panel = document.getElementById("tablePanel");
     var cols = [
-      {k:"date", n:"날짜"}, {k:"usdkrw", n:"환율(원)"}, {k:"kr_rate", n:"KR금리(%)"}, {k:"us_rate", n:"US금리(%)"},
+      {k:"date", n:"날짜"}, {k:"usdkrw", n:"원/달러"}, {k:"eurkrw", n:"원/유로"}, {k:"jpykrw", n:"원/100엔"}, {k:"cnykrw", n:"원/위안"}, {k:"kr_rate", n:"KR금리(%)"}, {k:"us_rate", n:"US금리(%)"},
       {k:"kospi", n:"코스피"}, {k:"kosdaq", n:"코스닥"}, {k:"sp500", n:"S&P500"}, {k:"dow", n:"다우"}, {k:"nasdaq", n:"나스닥"},
       {k:"kr_cpi", n:"KR CPI(%)"}, {k:"us_cpi", n:"US CPI(%)"}, {k:"wti", n:"WTI($)"}, {k:"gold", n:"금($)"},
       {k:"kr_m2", n:"KR M2(조원)"}, {k:"us_m2", n:"US M2(B$)"},

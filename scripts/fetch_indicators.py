@@ -4,9 +4,11 @@
 Sources (no scraping, all official/stable APIs):
   - FRED (fredgraph.csv, no key): US rate target, US CPI, US M2, US 2y yield, US unemployment,
     US high-yield credit spread.
-  - Yahoo Finance chart API (no key): USD/KRW, US 10y yield, Dow, S&P 500, Nasdaq, WTI, KOSPI,
+  - Yahoo Finance chart API (no key): US 10y yield, Dow, S&P 500, Nasdaq, WTI, KOSPI,
     KOSDAQ, gold, VIX, US dollar index (DXY), copper.
-  - Bank of Korea ECOS (needs BOK_ECOS_API_KEY): KR base rate, KR 2y/10y bond yield, KR CPI, KR M2.
+  - Bank of Korea ECOS (needs BOK_ECOS_API_KEY): USD/KRW, EUR/KRW, JPY(100)/KRW, CNY/KRW
+    (Seoul market base rates, 731Y001; full history backfilled once per field),
+    KR base rate, KR 2y/10y bond yield, KR CPI, KR M2.
   - Korea Real Estate Board R-ONE Open API (needs REB_API_KEY): nationwide/Seoul weekly
     apartment sale price index, plus nationwide/Seoul monthly average/median apartment
     sale price per square meter (actual won amounts, not an index).
@@ -37,7 +39,8 @@ FIELDS = [
     "kr_m2", "us_m2", "vix", "dxy", "copper", "us_unemployment", "us_hy_spread",
     "us_yield_spread", "kr_apt_price_national", "kr_apt_price_seoul",
     "kr_apt_avgprice_national", "kr_apt_avgprice_seoul",
-    "kr_apt_medprice_national", "kr_apt_medprice_seoul", "soybean", "corn", "wheat", "silver", "shanghai", "hsi", "nikkei", "dax", "ftse", "cac", "stoxx50", "sensex", "nifty", "updated_at",
+    "kr_apt_medprice_national", "kr_apt_medprice_seoul", "soybean", "corn", "wheat", "silver", "shanghai", "hsi", "nikkei", "dax", "ftse", "cac", "stoxx50", "sensex", "nifty",
+    "eurkrw", "jpykrw", "cnykrw", "updated_at",
 ]
 
 ECOS_KEY = os.environ.get("BOK_ECOS_API_KEY", "").strip()
@@ -120,7 +123,7 @@ LONG_TERM_DIR = os.path.join(ROOT, "data", "long_term")
 # the time of day the job ran). Dated bars fix that: every daily value is stored under the
 # date the market actually closed at that level.
 YAHOO_DAILY = {
-    "usdkrw": "KRW=X", "us_10y": "%5ETNX", "dow": "%5EDJI", "sp500": "%5EGSPC",
+    "us_10y": "%5ETNX", "dow": "%5EDJI", "sp500": "%5EGSPC",
     "nasdaq": "%5EIXIC", "wti": "CL=F", "kospi": "%5EKS11", "kosdaq": "%5EKQ11",
     "gold": "GC=F", "vix": "%5EVIX", "dxy": "DX-Y.NYB", "copper": "HG=F",
     "soybean": "ZS=F", "corn": "ZC=F", "wheat": "ZW=F", "silver": "SI=F",
@@ -157,31 +160,42 @@ def yahoo_daily(symbol, rng="3mo"):
     return sorted(rows.items())
 
 
-def ecos_daily(stat_code, item_code, lookback_days=120):
-    """Daily ECOS series as [(YYYY-MM-DD, value)], oldest first."""
+ECOS_PAGE = 1000
+
+
+def ecos_daily(stat_code, item_code, lookback_days=120, start=None):
+    """Daily ECOS series as [(YYYY-MM-DD, value)], oldest first. `start` (YYYYMMDD) fetches
+    from that date instead of the lookback window, paging ECOS_PAGE rows per request."""
     if not ECOS_KEY:
         return []
     now = datetime.now(KST)
-    start = (now - timedelta(days=lookback_days)).strftime("%Y%m%d")
-    url = (
-        f"https://ecos.bok.or.kr/api/StatisticSearch/{ECOS_KEY}/json/kr/1/1000/"
-        f"{stat_code}/D/{start}/{now.strftime('%Y%m%d')}/{item_code}"
-    )
-    text = http_get(url)
-    if not text:
-        return []
-    try:
-        rows = json.loads(text)["StatisticSearch"]["row"]
-    except (ValueError, KeyError):
-        warnings.append(f"ECOS {stat_code}/{item_code}: no daily rows")
-        return []
-    out = []
-    for r in rows:
-        t = r.get("TIME", "")
+    start = start or (now - timedelta(days=lookback_days)).strftime("%Y%m%d")
+    out, first = [], 1
+    while True:
+        url = (
+            f"https://ecos.bok.or.kr/api/StatisticSearch/{ECOS_KEY}/json/kr/{first}/{first + ECOS_PAGE - 1}/"
+            f"{stat_code}/D/{start}/{now.strftime('%Y%m%d')}/{item_code}"
+        )
+        text = http_get(url)
+        if not text:
+            return [] if first == 1 else None  # a failed later page must not leave a half history
         try:
-            out.append((f"{t[:4]}-{t[4:6]}-{t[6:8]}", float(r["DATA_VALUE"])))
-        except (ValueError, KeyError):
-            continue
+            block = json.loads(text)["StatisticSearch"]
+            rows, total = block["row"], int(block.get("list_total_count", 0))
+        except (ValueError, KeyError, TypeError):
+            if first == 1:
+                warnings.append(f"ECOS {stat_code}/{item_code}: no daily rows")
+                return []
+            return None
+        for r in rows:
+            t = r.get("TIME", "")
+            try:
+                out.append((f"{t[:4]}-{t[4:6]}-{t[6:8]}", float(r["DATA_VALUE"])))
+            except (ValueError, KeyError):
+                continue
+        first += ECOS_PAGE
+        if first > total or not rows:
+            break
     return sorted(out)
 
 
@@ -193,6 +207,62 @@ def last_on_or_before(series, day):
             break
         value = v
     return value
+
+
+ECOS_FX = {  # field -> (ECOS 731Y001 item, first date ECOS has)
+    "usdkrw": ("0000001", "19640504"),
+    "jpykrw": ("0000002", "19770401"),  # 원/100엔
+    "eurkrw": ("0000003", "19940411"),
+    "cnykrw": ("0000053", "20160104"),
+}
+FX_MARK = os.path.join(LONG_TERM_DIR, "_ecos_fx.json")
+
+
+def fx_backfilled():
+    try:
+        with open(FX_MARK, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return {}
+
+
+def fx_backfill_problem(field, full):
+    """Why a fetched full history must not replace the long-term file (None if it is fine)."""
+    if not full:
+        return "받은 값 없음(중간 페이지 실패 포함)"
+    if len(full) < 1000:
+        return f"값이 {len(full)}건뿐"
+    if any(v <= 0 for _, v in full):
+        return "0 이하 값 포함"
+    path = os.path.join(LONG_TERM_DIR, f"{field}.csv")
+    if not os.path.exists(path):
+        return None  # 새 통화는 비교할 기존 값이 없다
+    with open(path, encoding="utf-8") as f:
+        old = {}
+        for ln in f.read().splitlines()[1:]:
+            d, _, v = ln.partition(",")
+            try:
+                old[d] = float(v)
+            except ValueError:
+                continue
+    cutoff = (datetime.now(KST) - timedelta(days=365)).strftime("%Y-%m-%d")
+    diffs = sorted(abs(v / old[d] - 1) for d, v in full if d >= cutoff and old.get(d))
+    if len(diffs) < 100:
+        return f"기존 값과 겹치는 날이 {len(diffs)}일뿐"
+    median = diffs[len(diffs) // 2]
+    if median > 0.03:
+        return f"기존 값과 중간값 {median:.1%} 차이"
+    if diffs[-1] > 0.10:
+        return f"기존 값과 가장 큰 차이 {diffs[-1]:.1%}"
+    return None
+
+
+def write_long_term_full(field, series):
+    """Replace data/long_term/<field>.csv with a whole series (one-time source switch)."""
+    path = os.path.join(LONG_TERM_DIR, f"{field}.csv")
+    lines = [f"date,{field}"] + [f"{d},{fmt_value(field, v)}" for d, v in series]
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines) + "\n")
 
 
 def update_long_term(field, series):
@@ -434,6 +504,42 @@ def main():
         spread = [(d, round(v - two[d], 3)) for d, v in daily["us_10y"] if d in two]
         if spread:
             daily["us_yield_spread"] = spread
+
+    # 환율은 한국은행 ECOS 매매기준율(서울외환시장 기준, 2026-11-04 변경). Yahoo KRW=X는 해외 시세라
+    # 국내 고시와 몇 원씩 달랐다. 통화마다 처음 한 번은 ECOS 전체 기간을 받아 장기 파일을 통째로 바꾸고
+    # (_ecos_fx.json에 기록), 그 뒤로는 최근 120일만 받는다. 원/달러는 ECOS가 비면 Yahoo로 대신 받는다.
+    # 안전장치(11/4 사용자 「한번에 받으면 위험하지 않아?」): 한 번 돌 때 통화 하나만 채우고, 받은 값이
+    # 적거나 기존 장기 파일의 최근 1년 값과 3% 넘게 다르면 덮어쓰지 않고 경고만 남긴다.
+    done = fx_backfilled()
+    backfill_used = False
+    for field, (item, first_day) in ECOS_FX.items():
+        full = None
+        if ECOS_KEY and field not in done and not backfill_used:
+            backfill_used = True
+            full = ecos_daily("731Y001", item, start=first_day)
+            problem = fx_backfill_problem(field, full)
+            if problem:
+                warnings.append(f"ECOS 731Y001/{item}: {field} 과거 값 채우기 보류({problem}), 다음에 다시 시도")
+                full = None
+            else:
+                write_long_term_full(field, full)
+                done[field] = now.strftime("%Y-%m-%d")
+                print(f"{field}: ECOS full history {full[0][0]}~{full[-1][0]} ({len(full)} rows)")
+        series = full or ecos_daily("731Y001", item)
+        if series:
+            daily[field] = series
+            fetched[field] = series[-1][1]
+        elif field == "usdkrw":
+            warnings.append("ECOS 731Y001/0000001: usdkrw fell back to Yahoo KRW=X")
+            ys = yahoo_daily("KRW=X")
+            if ys:
+                daily[field] = ys
+                fetched[field] = fmt_value(field, ys[-1][1])
+            else:
+                fetched[field] = yahoo_price("KRW=X")
+    if done != fx_backfilled():
+        with open(FX_MARK, "w", encoding="utf-8") as f:
+            json.dump(done, f, ensure_ascii=False, indent=1)
 
     kr_rate = ecos_latest("722Y001", "0101000", "D", lookback_periods=14)
     fetched["kr_rate"] = kr_rate[1] if kr_rate else None

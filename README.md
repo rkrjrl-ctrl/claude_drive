@@ -7,7 +7,8 @@ GitHub Actions 스케줄러(cron)로 실행되므로 **컴퓨터가 꺼져 있�
 
 | 필드 | 설명 | 출처 |
 |---|---|---|
-| usdkrw | 원/달러 환율 | Yahoo Finance (KRW=X) — FRED(DEXKOUS)는 공개 지연이 수일씩 발생해 제외 |
+| usdkrw | 원/달러 환율 | 한국은행 ECOS 731Y001 원/미국달러 매매기준율(서울외환시장). 실패하면 Yahoo Finance(KRW=X)로 대신 받음. FRED(DEXKOUS)는 공개 지연이 수일씩 발생해 제외 |
+| eurkrw / jpykrw / cnykrw | 원/유로, 원/100엔, 원/위안 환율 | 한국은행 ECOS 731Y001 매매기준율 (2026-11-04 추가) |
 | kr_rate | 한국 기준금리 | 한국은행 ECOS (722Y001) |
 | us_rate | 미국 기준금리(상단/하단 중간값) | FRED (DFEDTARU/DFEDTARL) |
 | kr_2y / kr_10y | 한국 국고채 2년/10년 금리 | 한국은행 ECOS (817Y002) |
@@ -139,3 +140,7 @@ Pages URL: **Settings → Pages**에서 확인하거나, 저장소의 About 섹�
 ## 의료 근거자료
 
 영상 제작용 의료·치료비 근거자료는 [`medical/`](medical/README.md)에서 관리한다. (경제 지표 수집과는 별개)
+
+## 환율 과거 값 채우기 (2026-11-04)
+
+환율 4종은 처음 한 번 ECOS 전체 기간을 받아 `data/long_term/<필드>.csv`를 통째로 바꾸고 `data/long_term/_ecos_fx.json`에 기록한다. 한 번 돌 때 통화 하나만 채운다. 받은 값이 1,000건 미만이거나, 중간 요청이 실패했거나, 기존 파일의 최근 1년 값과 중간값 3%·최대 10% 넘게 다르면 덮어쓰지 않고 `data/STATUS.md`에 경고만 남긴 뒤 다음 실행에서 다시 시도한다. 다시 채우려면 `_ecos_fx.json`에서 그 필드를 지운다.
