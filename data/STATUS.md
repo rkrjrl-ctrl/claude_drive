@@ -1,6 +1,6 @@
 # 자동 수집 상태 (매 실행마다 덮어씀)
 
-최근 실행: 2026-11-03T14:53:35+09:00 (KST)
+최근 실행: 2026-11-03T16:28:55+09:00 (KST)
 
 | 필드 | 상태 |
 |---|---|
@@ -28,12 +28,12 @@
 | us_unemployment | 정상 갱신 |
 | us_hy_spread | 정상 갱신 |
 | us_yield_spread | 정상 갱신 |
-| kr_apt_price_national | 이전 값 유지 (갱신 실패) |
-| kr_apt_price_seoul | 이전 값 유지 (갱신 실패) |
-| kr_apt_avgprice_national | 이전 값 유지 (갱신 실패) |
-| kr_apt_avgprice_seoul | 이전 값 유지 (갱신 실패) |
-| kr_apt_medprice_national | 이전 값 유지 (갱신 실패) |
-| kr_apt_medprice_seoul | 이전 값 유지 (갱신 실패) |
+| kr_apt_price_national | 정상 갱신 |
+| kr_apt_price_seoul | 정상 갱신 |
+| kr_apt_avgprice_national | 정상 갱신 |
+| kr_apt_avgprice_seoul | 정상 갱신 |
+| kr_apt_medprice_national | 정상 갱신 |
+| kr_apt_medprice_seoul | 정상 갱신 |
 | soybean | 정상 갱신 |
 | corn | 정상 갱신 |
 | wheat | 정상 갱신 |
@@ -50,12 +50,7 @@
 
 ## 경고
 
-- HTTP fetch failed: https://www.reb.or.kr/r-one/openapi/SttsApiTblData.do?KEY=f38850589a44493db06fb0b38a9f1276&Type=json&pIndex=1&pSize=1000&STATBL_ID=T244183132827305&DTACYCLE_CD=WK&CLS_ID=50001 (<urlopen error timed out>)
-- HTTP fetch failed: https://www.reb.or.kr/r-one/openapi/SttsApiTblData.do?KEY=f38850589a44493db06fb0b38a9f1276&Type=json&pIndex=1&pSize=1000&STATBL_ID=T244183132827305&DTACYCLE_CD=WK&CLS_ID=50008 (<urlopen error timed out>)
-- HTTP fetch failed: https://www.reb.or.kr/r-one/openapi/SttsApiTblData.do?KEY=f38850589a44493db06fb0b38a9f1276&Type=json&pIndex=1&pSize=1000&STATBL_ID=A_2024_00188&DTACYCLE_CD=MM&CLS_ID=500001 (<urlopen error timed out>)
-- HTTP fetch failed: https://www.reb.or.kr/r-one/openapi/SttsApiTblData.do?KEY=f38850589a44493db06fb0b38a9f1276&Type=json&pIndex=1&pSize=1000&STATBL_ID=A_2024_00188&DTACYCLE_CD=MM&CLS_ID=500004 (<urlopen error timed out>)
-- HTTP fetch failed: https://www.reb.or.kr/r-one/openapi/SttsApiTblData.do?KEY=f38850589a44493db06fb0b38a9f1276&Type=json&pIndex=1&pSize=1000&STATBL_ID=A_2024_00189&DTACYCLE_CD=MM&CLS_ID=500001 (<urlopen error timed out>)
-- HTTP fetch failed: https://www.reb.or.kr/r-one/openapi/SttsApiTblData.do?KEY=f38850589a44493db06fb0b38a9f1276&Type=json&pIndex=1&pSize=1000&STATBL_ID=A_2024_00189&DTACYCLE_CD=MM&CLS_ID=500004 (<urlopen error timed out>)
+- ECOS 817Y002/010195000: no daily rows
 
 ## 섹터·지역 ETF (sector_daily.csv)
 
