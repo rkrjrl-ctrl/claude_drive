@@ -2,5 +2,3 @@ __pycache__/
 *.pyc
 /site/
 .claude/settings.local.json
-# 금감원 오픈 API 원자료는 비공개 저장소 money-rates에 둔다(2026-11-04)
-/data/rates/
