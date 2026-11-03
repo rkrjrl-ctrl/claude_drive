@@ -35,7 +35,6 @@ FEEDS = [
     ("코리아바이오메드", "https://www.koreabiomed.com/rss/allArticle.xml", "scored", "INS"),
     ("구글뉴스 건강", "https://news.google.com/rss/headlines/section/topic/HEALTH?hl=ko&gl=KR&ceid=KR:ko", "scored", "INS"),
     ("보건복지부", "https://www.mohw.go.kr/rss/board.es?mid=a10503010100&bid=0027", "gov", "INS"),
-    ("생명보험협회", "https://www.klia.or.kr/rss/board.do", "gov", "INS"),
     # ── 투자·증권·거시경제 ──
     ("인포맥스", "https://news.einfomax.co.kr/rss/allArticle.xml", "scored", "INV"),
     ("인포스탁데일리", "http://www.infostockdaily.co.kr/rss/allArticle.xml", "scored", "INV"),
@@ -55,7 +54,6 @@ FEEDS = [
     ("한국은행 보도자료", "https://www.bok.or.kr/portal/bbs/B0000501/news.rss?menuNo=200691", "gov", "INV"),
     ("한국은행 통화정책", "https://www.bok.or.kr/portal/bbs/P0000559/news.rss?menuNo=200690", "gov", "INV"),
     ("한국은행 통계", "https://www.bok.or.kr/portal/bbs/B0000169/news.rss?menuNo=200692", "gov", "INV"),
-    ("금융위원회", "https://www.fsc.go.kr/about/fsc_bbs_rss/?fid=0111", "gov", "INV"),  # 점검 중이면 건너뜀
     ("FRB 보도자료", "https://www.federalreserve.gov/feeds/press_all.xml", "intl", "INV"),
     ("ECB 보도자료", "https://www.ecb.europa.eu/rss/press.html", "intl", "INV"),
     ("CNBC", "https://www.cnbc.com/id/10001147/device/rss/rss.html", "intl", "INV"),
@@ -199,17 +197,45 @@ def parse_rss(raw, via_kind, default_source):
 # 청년 자동차보험 할인 발표를 기사 묶음으로만 잡고 원문은 못 잡았다). 금융위 보도자료도 금감원 게시판에 같이 올라온다.
 FSS_PAGES = [
     ("금융감독원 보도자료", "https://www.fss.or.kr/fss/bbs/B0000188/list.do?menuNo=200218", "gov", "INS"),
+    # 금융위 RSS는 10/13부터 「점검 중」(503)이라 게시판 목록을 읽는다(11/3). 실손·보험 제도 발표가 여기서 나온다
+    ("금융위원회", "https://www.fsc.go.kr/no010101", "gov", "INS"),
+    # 생보협회 RSS 주소는 없는 주소였다(오류 화면). 보도자료 게시판 목록, 글 주소가 없어 목록 주소로 연결(11/3)
+    ("생명보험협회", "https://www.klia.or.kr/board/2/list.do", "gov", "INS"),
 ]   # 소비자유의사항(B0000174)은 2020년 글이 마지막이라 뺐다(11/2 확인)
 
 
 def parse_fss(raw, source):
     text = raw.decode("utf-8", "ignore")
+    if source == "금융위원회":
+        return parse_fsc(text, source)
+    if source == "생명보험협회":
+        return parse_klia(text, source)
     out = []
     for m in re.finditer(r'href="(/fss/bbs/B\d+/view\.do\?nttId=\d+[^"]*)"[^>]*>(.*?)</a>(.*?)(\d{4}-\d{2}-\d{2})', text, re.S):
         title = clean(m.group(2))
         if title:
             out.append({"title": title, "link": "https://www.fss.or.kr" + html.unescape(m.group(1)),
                         "date": parse_date(m.group(4) + "T09:00:00+09:00"), "source": source})
+    return out
+
+
+def parse_fsc(text, source):
+    out = []
+    for m in re.finditer(r'<div class="subject">\s*<a href="(/no010101/\d+)[^"]*"[^>]*>(.*?)</a>.*?<div class="day">(\d{4}-\d{2}-\d{2})</div>', text, re.S):
+        title = clean(m.group(2))
+        if title:
+            out.append({"title": title, "link": "https://www.fsc.go.kr" + m.group(1),
+                        "date": parse_date(m.group(3) + "T09:00:00+09:00"), "source": source})
+    return out
+
+
+def parse_klia(text, source):
+    out = []
+    for m in re.finditer(r'<td class="title">\s*<a [^>]*title="([^"]+)"[^>]*>.*?</a>.*?<td>(\d{4}-\d{2}-\d{2})</td>', text, re.S):
+        title = clean(html.unescape(m.group(1)))
+        if title:
+            out.append({"title": title, "link": "https://www.klia.or.kr/board/2/list.do",
+                        "date": parse_date(m.group(2) + "T09:00:00+09:00"), "source": source})
     return out
 
 
@@ -225,6 +251,27 @@ def naver(query):
     return [{"title": clean(x["title"]), "link": x.get("originallink") or x["link"], "date": parse_date(x.get("pubDate")),
              "source": urllib.parse.urlparse(x.get("originallink") or x["link"]).netloc.removeprefix("www.")}
             for x in json.loads(raw).get("items", [])]
+
+
+# 회사 홍보성 제목(행사·협약·캠페인). 보도자료를 여러 매체가 그대로 받아 써서 매체 수가 부풀려진다(11/3 보드 1위가 「한화금융 퇴직연금 공동 대응」).
+# 「출시」는 상품 소식이라 사용자 판단으로 그대로 둔다(11/3).
+PR_WORDS = ["개최", "선포식", "공동 대응", "업무협약", "MOU", "스쿨", "캠페인", "시상", "수상", "기부", "봉사", "후원",
+            "브랜드평판", "협약", "세미나", "설명회", "간담회", "비전 선포", "사회공헌", "임직원"]
+# 기관 보도자료의 생활 관련도(11/3): 보도자료 탭에서 「관련」 표시. 행사·인사·협력 소식은 깎는다
+GOV_PLUS = ["인상", "인하", "지원", "확대", "신청", "한도", "환급", "감면", "할인", "적용", "청구", "보장", "의료비", "본인부담",
+            "돌봄", "장기요양", "수당", "연금", "보험", "대출", "금리", "예금", "적금", "공제", "청년", "어르신", "노인", "부모",
+            "출산", "아동", "소비자", "유의", "주의", "피해", "사기", "개선", "시행", "부터", "만 원", "억 원", "%"]
+GOV_MINUS = ["장관", "차관", "위원장", "원장", "간담회", "개최", "방문", "협력", "콘퍼런스", "토론회", "공모", "캠페인", "MOU",
+             "업무협약", "특별전", "공익광고", "수기집", "발간", "교육한다", "기념", "성과 확산", "시상", "동향", "실적", "결과 및"]
+GOV_REL = 3
+
+
+def is_pr(title):
+    return any(w in title for w in PR_WORDS)
+
+
+def gov_rel(title):
+    return classify(title)[0] + sum(w in title for w in GOV_PLUS) - 2 * sum(w in title for w in GOV_MINUS)
 
 
 def classify(title, hint=""):
@@ -335,12 +382,21 @@ def write_board(ordered, failed):
     for t in ("INS", "INV"):
         news = sorted((r for r in recent if r["track"] == t and r["via"] not in ("gov", "intl")),
                       key=lambda r: (int(r["score"]), r["date"]), reverse=True)[:800]
+        gs = cluster(news, 140)
+        for g in gs:   # 홍보성 사건은 매체 수가 부풀려져 순위를 크게 내린다(목록에는 남기고 「홍보성」 표시)
+            g["pr"] = is_pr(g["rep"]["title"])
+            if g["pr"]:
+                g["rank"] -= 8
+        gs = sorted(gs, key=lambda g: g["rank"], reverse=True)[:100]
         out["tracks"][t] = [{
             "title": g["rep"]["title"], "link": g["rep"]["link"], "source": g["rep"]["source"],
             "first": g["rep"]["date"], "last": g["last"], "score": int(g["rep"]["score"]),
             "n": g["n"], "media": len(g["src"]), "rank": round(g["rank"], 1), "topic": subtopic(t, g["rep"]["title"]),
-        } for g in cluster(news, 100)]
-    out["gov"] = [{"date": r["date"], "source": r["source"], "title": r["title"], "link": r["link"], "track": r["track"]}
+            "pr": g["pr"],
+        } for g in gs]
+    out["govRel"] = GOV_REL
+    out["gov"] = [{"date": r["date"], "source": r["source"], "title": r["title"], "link": r["link"], "track": r["track"],
+                   "rel": gov_rel(r["title"])}
                   for r in ordered if r["via"] == "gov" and r["date"] >= since][:120]
     with open(BOARD, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, separators=(",", ":"))

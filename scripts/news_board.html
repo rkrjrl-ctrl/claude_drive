@@ -83,7 +83,8 @@
   .pick{ display:flex; gap:8px; align-items:baseline; font-size:14px; }
   .md{ margin-top:12px; padding-top:12px; border-top:1px solid var(--grid-line); font-size:14px; overflow-wrap:anywhere; }
   .md h1{ display:none; }
-  .md h2{ font-size:16px; margin:18px 0 6px; }
+  .md h2{ font-size:13px; font-weight:700; letter-spacing:.02em; color:var(--ink-muted); margin:22px 0 4px; padding-top:10px; border-top:1px solid var(--grid-line); }
+  .md h2:first-of-type{ border-top:0; padding-top:0; margin-top:4px; }
   .md h3{ font-size:15px; margin:14px 0 4px; }
   .md ul{ padding-left:20px; margin:6px 0; }
   .md li{ margin:2px 0; }
@@ -152,10 +153,13 @@
 
   <section id="general">
   <h2>기사</h2>
-  <p class="sub">2시간마다 자동으로 모은 최근 7일 기사예요. 비슷한 기사는 한 건으로 묶었고, 「주목」은 8곳 넘는 매체가 다룬 사건이에요. 점수표로 고른 것이라 판단은 아니에요.</p>
+  <p class="sub">2시간마다 자동으로 모은 최근 7일 기사예요. 비슷한 기사는 한 건으로 묶었고, 「주목」은 8곳 넘는 매체가 다룬 사건이에요. 행사·협약 같은 회사 홍보 기사는 「홍보성」으로 표시하고 순위를 내렸어요. 점수표로 고른 것이라 판단은 아니에요.</p>
   <div class="tools">
     <div class="seg" id="trackSeg">
       <button data-t="INS" class="on">보험·의료</button><button data-t="INV">투자·경제</button>
+    </div>
+    <div class="seg" id="sortSeg">
+      <button data-s="rank" class="on">중요순</button><button data-s="new">최신순</button>
     </div>
     <label><input type="checkbox" id="hotOnly"> 주목만</label>
     <label><input type="checkbox" id="newOnly"> 새 기사만</label>
@@ -166,8 +170,11 @@
   <!-- 보도자료 탭(11/3 사용자: 맨 아래라 보기 힘듦 → 따로, 보험·경제 합쳐서 최신순) -->
   <section id="govPanel" hidden>
   <h2>기관 보도자료</h2>
-  <p class="sub">금감원·보건복지부·한국은행 등 기관이 직접 낸 자료(최근 7일)예요. 보험·의료와 투자·경제를 합쳐 최신순으로 보여요.</p>
-  <div class="tools"><label><input type="checkbox" id="govNewOnly"> 새 보도자료만</label></div>
+  <p class="sub">금감원·금융위·보건복지부·한국은행·생명보험협회가 직접 낸 자료(최근 7일)예요. 보험·의료와 투자·경제를 합쳐 최신순으로 보여요. 「관련」은 지원·인상·신청·보험처럼 생활에 닿는 자료이고, 행사·인사 소식은 빠져요.</p>
+  <div class="tools">
+    <label><input type="checkbox" id="govRelOnly" checked> 관련만 <span id="govCount" style="color:var(--ink-muted)"></span></label>
+    <label><input type="checkbox" id="govNewOnly"> 새 보도자료만</label>
+  </div>
   <div class="card"><ul class="list" id="gov"><li class="empty">불러오는 중…</li></ul><div class="more" id="govMore"></div></div>
   </section>
 
@@ -184,7 +191,7 @@
   var RAW = "https://raw.githubusercontent.com/rkrjrl-ctrl/claude_drive/main/";
   var BASE = new URLSearchParams(location.search).get("base") || RAW;
   var LV_KEY = "newsboard.lastVisit";
-  var state = { track:"INS", hotOnly:false, newOnly:false, govNewOnly:false, board:null, candN:20, govN:20 };
+  var state = { track:"INS", sort:"rank", hotOnly:false, newOnly:false, govRelOnly:true, govNewOnly:false, board:null, candN:20, govN:20 };
 
   function store(get, val){
     try{ if(get) return localStorage.getItem(LV_KEY); localStorage.setItem(LV_KEY, val); }catch(e){ return null; }
@@ -245,7 +252,7 @@
           '<summary><span class="day-date">' + d.slice(5).replace("-", "/") + " (" + w + ")</span>" +
           '<span class="pill">' + byDate[d].length + "건</span>" +
           (byDate[d].some(function(r){ return r.decision === "제작"; }) ? '<span class="pill made">제작 있음</span>' : "") + "</summary>" +
-          '<div class="picks">' + byDate[d].map(function(r){ return '<div class="pick">' + decisionPill(r.decision) + "<span>" + esc(r.title) + "</span></div>"; }).join("") + "</div>" +
+          '<div class="picks">' + byDate[d].map(function(r){ return '<div class="pick">' + decisionPill(r.decision) + (r.round === "2차" ? '<span class="pill new">2차</span>' : "") + "<span>" + esc(r.title) + "</span></div>"; }).join("") + "</div>" +
           '<div class="md" data-md="' + d + '">' + (i === 0 ? "불러오는 중…" : "") + "</div></details>";
       }).join("");
       box.querySelectorAll("details.day").forEach(function(el){
@@ -271,9 +278,11 @@
     var list = (b.tracks[state.track] || []).filter(function(g){
       return (!state.hotOnly || g.media >= b.hot) && (!state.newOnly || isNew(g.last));
     });
+    if(state.sort === "new") list = list.slice().sort(function(x, y){ return x.last < y.last ? 1 : -1; });
     var shown = list.slice(0, state.candN);
     ul.innerHTML = shown.length ? shown.map(function(g){
-      var tags = (g.media >= b.hot ? '<span class="pill hot">주목</span>' : "") + (isNew(g.last) ? '<span class="pill new">새</span>' : "");
+      var tags = (g.media >= b.hot && !g.pr ? '<span class="pill hot">주목</span>' : "") + (isNew(g.last) ? '<span class="pill new">새</span>' : "") +
+        (g.pr ? '<span class="pill">홍보성</span>' : "");
       return "<li><div class=\"when\">" + ago(g.last) + '</div><div class="body">' +
         '<a class="title" target="_blank" rel="noopener" href="' + esc(g.link) + '">' + esc(g.title) + "</a>" +
         '<div class="row-meta">' + tags + "<span>" + esc(g.source) + "</span>" +
@@ -287,13 +296,16 @@
   function renderGov(){
     var b = state.board, ul = document.getElementById("gov"), more = document.getElementById("govMore");
     if(!b) return;
-    var list = b.gov.filter(function(r){ return !state.govNewOnly || isNew(r.date); });
+    var rel = function(r){ return r.rel == null || r.rel >= (b.govRel || 3); };
+    var list = b.gov.filter(function(r){ return (!state.govRelOnly || rel(r)) && (!state.govNewOnly || isNew(r.date)); });
+    document.getElementById("govCount").textContent = "(" + b.gov.filter(rel).length + " / 전체 " + b.gov.length + ")";
     var shown = list.slice(0, state.govN);
     ul.innerHTML = shown.length ? shown.map(function(r){
       return "<li><div class=\"when\">" + ago(r.date) + '</div><div class="body">' +
         '<a class="title" target="_blank" rel="noopener" href="' + esc(r.link) + '">' + esc(r.title) + "</a>" +
         '<div class="row-meta">' + (isNew(r.date) ? '<span class="pill new">새</span>' : "") +
-        '<span class="pill' + (r.source.indexOf("금융감독원") > -1 ? " cand" : "") + '">' + esc(r.source.replace(/ 보도자료$/, "")) + "</span>" +
+        (!state.govRelOnly && r.rel != null && rel(r) ? '<span class="pill hot">관련</span>' : "") +
+        '<span class="pill' + (/금융감독원|금융위원회/.test(r.source) ? " cand" : "") + '">' + esc(r.source.replace(/ 보도자료$/, "")) + "</span>" +
         "<span>" + (r.track === "INV" ? "투자·경제" : "보험·의료") + "</span></div></div></li>";
     }).join("") : '<li class="empty">조건에 맞는 보도자료가 없어요.</li>';
     more.innerHTML = list.length > shown.length ? '<button type="button">' + (list.length - shown.length) + "건 더 보기</button>" : "";
@@ -311,7 +323,7 @@
         (lastVisit ? "<span>지난번 본 시각 " + kst(new Date(new Date(lastVisit).getTime() + 9*3600000).toISOString()) + "</span>" : "");
       renderCands(); renderGov();
       var nNew = ["INS", "INV"].reduce(function(s, t){ return s + (b.tracks[t] || []).filter(function(g){ return isNew(g.last); }).length; }, 0);
-      var gNew = b.gov.filter(function(r){ return isNew(r.date); }).length;
+      var gNew = b.gov.filter(function(r){ return isNew(r.date) && (r.rel == null || r.rel >= (b.govRel || 3)); }).length;   // 탭 숫자는 「관련」만 센다
       var bg = document.getElementById("badgeGeneral"), bv = document.getElementById("badgeGov");
       bg.textContent = nNew ? "새 " + nNew : ""; bg.className = "badge new";
       bv.textContent = gNew ? "새 " + gNew : ""; bv.className = "badge new";
@@ -335,6 +347,13 @@
   });
   document.getElementById("hotOnly").onchange = function(){ state.hotOnly = this.checked; renderCands(); };
   document.getElementById("govNewOnly").onchange = function(){ state.govNewOnly = this.checked; renderGov(); };
+  document.getElementById("govRelOnly").onchange = function(){ state.govRelOnly = this.checked; state.govN = 20; renderGov(); };
+  document.getElementById("sortSeg").addEventListener("click", function(e){
+    var t = e.target.closest("button"); if(!t) return;
+    state.sort = t.dataset.s; state.candN = 20;
+    this.querySelectorAll("button").forEach(function(b){ b.classList.toggle("on", b === t); });
+    renderCands();
+  });
   document.getElementById("newOnly").onchange = function(){ state.newOnly = this.checked; renderCands(); renderGov(); };
 
   Promise.all([loadBoard(), loadPicks()]).then(function(){ store(false, openedAt); });
