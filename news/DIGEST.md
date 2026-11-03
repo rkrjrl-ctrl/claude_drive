@@ -1,9 +1,9 @@
 # 경제·보험 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-04 02:05 KST  /  최근 7일 15241건 (보험·의료 3812 · 투자·경제 11429)  /  이번 신규 303건
+- 갱신: 2026-11-04 03:06 KST  /  최근 7일 15265건 (보험·의료 3813 · 투자·경제 11452)  /  이번 신규 303건
 - 소스 62곳 + 구글뉴스 키워드 90개(보험·의료 45 · 투자·경제 45)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 머니투데이
+- 수집 실패 소스: 없음
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
@@ -24,7 +24,7 @@
 
 **국민연금·퇴직연금** (사건 83개)
 - (6) 11-03 비욘드포스트 — [하나증권, 퇴직연금 'ETF 모으기' 출시…DC·IRP서 자동 적립식 투자](https://news.google.com/rss/articles/CBMifEFVX3lxTE5CeVZXTnF5NEoyS2lCaDhzbmItVnZ6Ym0wSFg2cldRa3Q1OW5kVk9WNlBnVGRFcTdNTEFaYzVoZGVjeVpSMkI2RG5zNE1ab28wTEZJUDFCSTNuZXN3V05HRnNZWTI3TVNHU1BXTzFaZHByQ0xISlFUcWUwOW4?oc=5) — **외 20건**(21개 매체)
-- (6) 11-02 더팩트 — [한화금융 4개사, 기금형 퇴직연금 공동 대응…DC·IRP 시장 공략](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9NYzU1ZmJKWEpPYlhPbVhSU0pNTnB0TEE2VG1ZY2E4VlRFeVExRFBpVVlQSVdQVG9CNXpsaGZEd1B4UmZFSzBqTFJPRWZaT0NGRDRTQnpFQVoyd9IBVEFVX3lxTFBfbFVHNDJkcnZhbUZwVE13bzFuR2JNT3ZlUzlMR3A0VHNCUWEwNWFXRGdyTGtIaTFFYW83R0VwcVZhWTlleW5aWkZVX0JtbUJzcEJlQw?oc=5) — **외 17건**(18개 매체)
+- (6) 11-02 더팩트 — [한화금융 4개사, 기금형 퇴직연금 공동 대응…DC·IRP 시장 공략](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9NYzU1ZmJKWEpPYlhPbVhSU0pNTnB0TEE2VG1ZY2E4VlRFeVExRFBpVVlQSVdQVG9CNXpsaGZEd1B4UmZFSzBqTFJPRWZaT0NGRDRTQnpFQVoyd9IBVEFVX3lxTFBfbFVHNDJkcnZhbUZwVE13bzFuR2JNT3ZlUzlMR3A0VHNCUWEwNWFXRGdyTGtIaTFFYW83R0VwcVZhWTlleW5aWkZVX0JtbUJzcEJlQw?oc=5) — **외 16건**(17개 매체)
 - (7) 10-29 컨슈머타임스 — ["수도권 넘어 전국 확산" 국민연금공단, '청년 생애 첫 보험료' 사전신청 1만 명 돌파](https://news.google.com/rss/articles/CBMiakFVX3lxTFAxdWRGeWxUTWtDcGtlMUEyRTNYV0h0LUVXMm9iejYtZmdCOU52dzl0SWRKWlU3QzdUODhQM3piTlhfSC01X2xmS2o0Ymp6c0ZOWkhIZktWcGRMLVNtOUdyYXlONkZwVmNvX0E?oc=5) — **외 7건**(8개 매체)
 
 **보험금 분쟁·판결** (사건 24개)
@@ -79,7 +79,7 @@
 - (13) 10-29 중기이코노미 — [코스피 급등세에도 원달러 환율 1330원대 상승 마감](https://news.google.com/rss/articles/CBMiakFVX3lxTE83MDhCNnJKaVB5eGtaM25DdG5ob2E2c290dUpNVFUxX0hqVVJZNWYyOGZLSTB3a3FHQWZxQXpBQUFFRTJOeDlJVEdobEt3MmtMSjF0SHZGU2xENFRsRXJqUUNZTUYtc1M5d3c?oc=5) — **외 3건**(3개 매체)
 
 **금리·중앙은행** (사건 30개)
-- (12) 11-03 뉴스핌 — [[채권/외환] 이란 종전 협상 기대에 유가 급락…美 국채 금리·달러 동반 하락](https://news.google.com/rss/articles/CBMiXEFVX3lxTE82dENRRmtaRXBvYm1XRFA0SlFtX2FFeXBqNTBPZ1hLZVc3QVEtblVUWWpiMV9YOUI1eXRKUlRvY3ZWNVJwSTFtOEN0VEZKZ0dyR2ViRDN4X0M5eEk0?oc=5) — **외 9건**(5개 매체)
+- (12) 11-03 뉴스핌 — [[채권/외환] 이란 종전 협상 기대에 유가 급락…美 국채 금리·달러 동반 하락](https://news.google.com/rss/articles/CBMiXEFVX3lxTE82dENRRmtaRXBvYm1XRFA0SlFtX2FFeXBqNTBPZ1hLZVc3QVEtblVUWWpiMV9YOUI1eXRKUlRvY3ZWNVJwSTFtOEN0VEZKZ0dyR2ViRDN4X0M5eEk0?oc=5) — **외 8건**(5개 매체)
 - (12) 10-30 www.tmgm.com — [금값, 미국 GDP 호조에 연준 금리 인상 전망 강화되며 4,000달러 부근으로 하락](https://news.google.com/rss/articles/CBMixgFBVV95cUxPaXhwLTh5a2k0Uk9yV3FxOVBiWkR2TlVtS0w1c0dxaFNGOVVTY3plMThjdkg3Y3lxZGcyVmx4ZHZpYUxkN1JPY3pENWRhLUNLcjF4bXF1ZG5fejVVNDRYUmpGb1hFaURvaGVkN2IwMHBZZUFwdlZNYWRvQVRrNFh4YjJhdUI3SlB0cWJIaTduell4bk5HTmRodEY0OEgyYlRyU2lOUmVLdkxUbGNObm9kUjhTTnJWZUxqdnlFdkc0YU54cjMta3c?oc=5) — **외 6건**(3개 매체)
 - (13) 10-31 블록미디어 — [[뉴욕 금·채권·달러] 국채금리·달러 혼조 속 금값 3.66% 급락…기술주 투매 영향](https://news.google.com/rss/articles/CBMiWEFVX3lxTE40UzBWaE1aYzdjdVRBcUpEUnB5Ukk5d01paWRYbEFsVlo5V3RBQTNCaUJJMUh2aHVCNUhBMjdLUkxPMjVuX2hJWmNXekVEYllucEpxdlhfMTA?oc=5) — **외 3건**(1개 매체)
 
@@ -121,6 +121,7 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
+- 11-04 MarketWatch — [My father has Alzheimer’s and his caregiver is using his debit card for DoorDash. Should I intervene?](https://www.marketwatch.com/story/theres-a-lot-of-hurt-between-us-my-fathers-caregiver-is-using-his-debit-card-for-doordash-orders-what-can-i-do-714de7a5?mod=mw_rss_topstories)
 - 11-04 CNBC — [Disney plans several thousand layoffs, asks some managers to cut costs by up to 20%](https://www.cnbc.com/2026/11/03/disney-layoffs-cost-cuts.html)
 - 11-04 MarketWatch — [U.S. jobs market perks up, but it’s still not a great time to get hired](https://www.marketwatch.com/story/u-s-jobs-market-perks-up-but-its-still-not-a-great-time-to-get-hired-bc39f44f?mod=mw_rss_topstories)
 - 11-04 MarketWatch — [U.S. clears path for first regulated equity perpetual futures](https://www.marketwatch.com/story/u-s-clears-path-for-first-regulated-equity-perpetual-futures-6bb35905?mod=mw_rss_topstories)
@@ -132,8 +133,7 @@
 - 11-03 MarketWatch — [It’s finally Election Day — and prediction markets may show ‘too much confidence in a good night for Democrats’](https://www.marketwatch.com/story/its-finally-election-day-and-prediction-markets-may-show-too-much-confidence-in-a-good-night-for-democrats-3c6742df?mod=mw_rss_topstories)
 - 11-03 CNBC — [Pfizer hikes full-year outlook as newer products grow, taps company veteran as new CFO](https://www.cnbc.com/2026/11/03/pfizer-pfe-earnings-q3-2026.html)
 - 11-03 CNBC — [Ferrari raises 2026 guidance after Q3 earnings beat](https://www.cnbc.com/2026/11/03/ferrari-race-earnings-q3-2026.html)
-- 11-03 MarketWatch — [3 signs cash-strapped consumers are nearing a ‘spend-pocalypse’ that would hurt the economy](https://www.marketwatch.com/story/3-signs-cash-strapped-consumers-are-nearing-a-spend-pocalypse-that-would-hurt-the-economy-2ab4c3dd?mod=mw_rss_topstories)
 
 ## 언론사별 건수 상위 15
 
-토큰포스트 592, 파이낸셜뉴스 전체 360, 연합뉴스 마켓 345, 머니투데이 331, 인포맥스 288, 뉴시스 금융 252, 코인리더스 245, 한국경제 금융 239, 아시아경제 232, 조선 경제 204, 뉴스1 192, 이데일리 179, 조선비즈 179, 뉴스핌 179, 뉴시스 국제 172
+토큰포스트 602, 파이낸셜뉴스 전체 360, 연합뉴스 마켓 345, 머니투데이 331, 인포맥스 288, 뉴시스 금융 252, 코인리더스 244, 한국경제 금융 239, 아시아경제 232, 조선 경제 205, 뉴스1 192, 이데일리 179, 조선비즈 179, 뉴스핌 179, 뉴시스 국제 172
