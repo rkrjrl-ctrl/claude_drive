@@ -1,9 +1,9 @@
 # 경제·보험 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-03 14:52 KST  /  최근 7일 14756건 (보험·의료 3689 · 투자·경제 11067)  /  이번 신규 519건
+- 갱신: 2026-11-03 15:21 KST  /  최근 7일 14807건 (보험·의료 3694 · 투자·경제 11113)  /  이번 신규 378건
 - 소스 62곳 + 구글뉴스 키워드 90개(보험·의료 45 · 투자·경제 45)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 없음
+- 수집 실패 소스: 머니투데이
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
@@ -12,19 +12,19 @@
 - (8) 11-01 잡포스트 — [서류 발급 없이 실손보험금 청구…BNK경남은행, ‘실손24’ 도입](https://news.google.com/rss/articles/CBMickFVX3lxTFBwWDlPYi05MzVGM1p6YUhhZUJVVkx2OFUyTjlPY0dLcTNHcENsQ3kzX1BlQnN6MGhaM2FCMkJiS0wtSm1NTER0ZFlUUklJZEthRF83dDhjRm45cm5tSEZINGtZSFNnbE41MGxtN09DcnZkUdIBckFVX3lxTFBwWDlPYi05MzVGM1p6YUhhZUJVVkx2OFUyTjlPY0dLcTNHcENsQ3kzX1BlQnN6MGhaM2FCMkJiS0wtSm1NTER0ZFlUUklJZEthRF83dDhjRm45cm5tSEZINGtZSFNnbE41MGxtN09DcnZkUQ?oc=5) — **외 6건**(7개 매체)
 - (10) 11-02 한양경제 — [본인부담상한제 환급금 실손보험 보상 대상 제외...대법원 판결 찾아보니](https://news.google.com/rss/articles/CBMickFVX3lxTE85U2pjcm9sVHJUNjliRlZLc0h0dFk2VHQ5Q3hkcF84NHlSM3ZGUWpuUUJFd2Y5N1lwdWdILTkwNGJCbkJrbElDd1ZUa014UWQ0THpTa1hfTXlaN0dlNEc0cmhfN2lKN1JTLTJIZlZtNFpVUQ?oc=5)
 
-**암·질병 보장 상품** (사건 26개)
+**암·질병 보장 상품** (사건 25개)
 - (5) 11-02 뉴스핌 — [KDB생명, '더!행복플러스UP연금보험' 개정 출시…치매·장기요양 시 연금 1.5배](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pUEZvZlgzS2NpTm83VGQ3ZU1fREtwV05Sb2QxSW5YbDNndFp3MWpzSG84Y2ZsdktxZG5rQVkwRDZVbHBHN25QUkJHRXY1RFJIVDBrWEZxd2dVV2xx?oc=5) — **외 4건**(5개 매체)
 - (6) 11-02 포인트데일리 — [KDB생명, 치매·간병 보장 강화한 연금보험 출시](https://news.google.com/rss/articles/CBMicEFVX3lxTE9QRUpobDdlNEkwOGdhdzNVUGFCSHdyOEc3dmdJdG9iUE5MLWJOMmxwYXlyM1VnS2d2bjBwRHRlQ3ZybnY5OUlMeVRWcERFQlJHelNFYm9KRXRzWEFPZHNyeUlHbGxfZXZUZTNGSUVzSGfSAXRBVV95cUxNZ3YycVVPZExRanFwUTNZR0lPRWd1M05TTGQxVE9pang1clVkblJ6bFdaTmdzcS0wQWVHVFY4SU42MkZwUzdNRVhjMmhxREFQQkdoaDNxRVNoal82NVc3c214cW9xYmxDXy04Y2g4bGRkdmhzcg?oc=5) — **외 2건**(3개 매체)
 - (5) 11-02 헤럴드경제 — [ABL생명, 납입보험료 전액 인출해도 사망보장 유지되는 종신보험 출시](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RQ2RCSV9NSEJZMHF1WGZ6U2dUaGhJeE9pQUxUczY1ellYdW9SU090R1p4bWNOTzRBQ0ExQWx3MmJQRlhUZDNiUERhQlN5WmczNHB4NU93?oc=5) — **외 2건**(3개 매체)
 
 **건강보험·의료제도** (사건 30개)
-- (7) 11-03 뉴스1 — [국민연금 10년 꼬박 부어도 기초연금보다 적다…'급여 역전'](https://news.google.com/rss/articles/CBMiXEFVX3lxTFBrT1ZYZzIycUNVYmhaRlBMdHZOenVYUktIWVZ2dGw3MkQ5VDY0elZxX2NBUU5ZZlEyaC12TUFjS1Jrekc0TDhrQTlvbFdiWWZLTWo2eWJLZHgyaEJT?oc=5) — **외 9건**(9개 매체)
+- (7) 11-03 뉴스1 — [국민연금 10년 꼬박 부어도 기초연금보다 적다…'급여 역전'](https://news.google.com/rss/articles/CBMiXEFVX3lxTFBrT1ZYZzIycUNVYmhaRlBMdHZOenVYUktIWVZ2dGw3MkQ5VDY0elZxX2NBUU5ZZlEyaC12TUFjS1Jrekc0TDhrQTlvbFdiWWZLTWo2eWJLZHgyaEJT?oc=5) — **외 11건**(11개 매체)
 - (5) 11-03 시사캐스트 — [[정책포커스] 금융위, 전 사업장 퇴직급여 사외적립 단계적 의무화...기금형 퇴직연금 활성화 추진](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xQXg4Z3B4cHM4MUVDZnRzZ3dhdzUwTXdZWDJ4c29oZjhHM3JtWVFlTkprSF8wSDVGbFFmX1pza0t6RkJJaEhmUFRkVHlDTUpsamMtX0E4OEhESWh3VWwwd1c4X0tULTla?oc=5) — **외 17건**(16개 매체)
 - (5) 11-02 투데이e코노믹 — [동아에스티, 뇌전증 신약 ‘엑스코프리’ 국내 출시…건강보험 급여 적용](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zMGdzNXFQSWdFaU9URERIaGZzdnV4RUdqaXkxd1NVUW1QSUNlblJmNU0zRi1uLWdnVmlIRmxRajdQa2JXN2xvU0taX1FRUlBxQjZfdEQ1eVlIWlJESC1TTy1OM3NfeDQ?oc=5) — **외 9건**(10개 매체)
 
-**국민연금·퇴직연금** (사건 73개)
+**국민연금·퇴직연금** (사건 74개)
 - (6) 11-02 더팩트 — [한화금융 4개사, 기금형 퇴직연금 공동 대응…DC·IRP 시장 공략](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9NYzU1ZmJKWEpPYlhPbVhSU0pNTnB0TEE2VG1ZY2E4VlRFeVExRFBpVVlQSVdQVG9CNXpsaGZEd1B4UmZFSzBqTFJPRWZaT0NGRDRTQnpFQVoyd9IBVEFVX3lxTFBfbFVHNDJkcnZhbUZwVE13bzFuR2JNT3ZlUzlMR3A0VHNCUWEwNWFXRGdyTGtIaTFFYW83R0VwcVZhWTlleW5aWkZVX0JtbUJzcEJlQw?oc=5) — **외 30건**(31개 매체)
-- (6) 11-03 비욘드포스트 — [하나증권, 퇴직연금 'ETF 모으기' 출시…DC·IRP서 자동 적립식 투자](https://news.google.com/rss/articles/CBMifEFVX3lxTE5CeVZXTnF5NEoyS2lCaDhzbmItVnZ6Ym0wSFg2cldRa3Q1OW5kVk9WNlBnVGRFcTdNTEFaYzVoZGVjeVpSMkI2RG5zNE1ab28wTEZJUDFCSTNuZXN3V05HRnNZWTI3TVNHU1BXTzFaZHByQ0xISlFUcWUwOW4?oc=5) — **외 19건**(20개 매체)
+- (6) 11-03 비욘드포스트 — [하나증권, 퇴직연금 'ETF 모으기' 출시…DC·IRP서 자동 적립식 투자](https://news.google.com/rss/articles/CBMifEFVX3lxTE5CeVZXTnF5NEoyS2lCaDhzbmItVnZ6Ym0wSFg2cldRa3Q1OW5kVk9WNlBnVGRFcTdNTEFaYzVoZGVjeVpSMkI2RG5zNE1ab28wTEZJUDFCSTNuZXN3V05HRnNZWTI3TVNHU1BXTzFaZHByQ0xISlFUcWUwOW4?oc=5) — **외 20건**(21개 매체)
 - (4) 11-02 마일드경제 — [미래에셋증권, 퇴직연금 의무화 앞두고 법인 담당자 250명 대상 ‘퇴직연금스쿨’ 개최](https://news.google.com/rss/articles/CBMia0FVX3lxTE0xT09kRm44NkVqVVF1aVRKQVhRcUVDbFpDSnZGYlVyQ3J2ZHZkdVJsbWMyanJQWlFFT01iTmluY0RqcW5jZlRndFZsblhEbTA5SV82U2wwZDFqRXRWbWhRN3VWUnRHNWNpM2Y0?oc=5) — **외 24건**(25개 매체)
 
 **보험금 분쟁·판결** (사건 22개)
@@ -103,6 +103,8 @@
 
 ## 보험 전문지 최신
 
+- 11-03 보험저널 — [[보험저널TV] 보험저널WM과정①...부자마케팅의 '골든타임'을 잡아라!](https://www.insjournal.co.kr/news/articleView.html?idxno=33764)
+- 11-03 보험신보 — [금감원, 금융권 해킹 대응 강화… “경영진 책임 엄중히 물을 것”](https://www.insnews.co.kr/news/articleView.html?idxno=93648)
 - 11-03 보험매일 — [보험사 해킹사고에 CEO 책임 묻는다…금감원, 제재 강화](http://www.fins.co.kr/news/articleView.html?idxno=110390)
 - 11-03 보험저널 — ['달러연금' 10년 확정이율 6.40%·월납 4.93%… AIA생명, '금리보너스·암 납입면제'로 승부](https://www.insjournal.co.kr/news/articleView.html?idxno=33763)
 - 11-03 보험매일 — ['고의 자해'로 보험금 타낸 보험설계사 낀 일당 검거](http://www.fins.co.kr/news/articleView.html?idxno=110389)
@@ -116,8 +118,6 @@
 - 11-03 보험저널 — ["사고 나면 가족에 자동 알림"…한화손보, '안심위치공유서비스' 배타적사용권 획득](https://www.insjournal.co.kr/news/articleView.html?idxno=33762)
 - 11-03 보험매일 — [한화손보, ‘안심위치공유서비스’ 배타적사용권 획득](http://www.fins.co.kr/news/articleView.html?idxno=110388)
 - 11-03 보험매일 — [동양생명, 납입 완료 후 치료보장…사망보험금 2배](http://www.fins.co.kr/news/articleView.html?idxno=110387)
-- 11-03 보험매일 — [처브라이프, 종신보험에 입원·수술·3대질병 보장 강화](http://www.fins.co.kr/news/articleView.html?idxno=110386)
-- 11-03 한국보험신문 — [NH농협손해보험, ‘고향사랑기부제’ 홍보 캠페인 진행](https://www.insweek.co.kr/news/articleView.html?idxno=72916)
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
@@ -136,4 +136,4 @@
 
 ## 언론사별 건수 상위 15
 
-토큰포스트 534, 파이낸셜뉴스 전체 353, 연합뉴스 마켓 347, 머니투데이 286, 인포맥스 281, 뉴시스 금융 247, 한국경제 금융 243, 코인리더스 243, 아시아경제 224, 조선 경제 213, 뉴스1 183, 뉴스핌 176, 이데일리 175, 뉴시스 국제 170, 이투데이 162
+토큰포스트 537, 파이낸셜뉴스 전체 352, 연합뉴스 마켓 345, 머니투데이 290, 인포맥스 284, 뉴시스 금융 249, 코인리더스 243, 한국경제 금융 243, 아시아경제 226, 조선 경제 213, 뉴스1 185, 이데일리 177, 뉴스핌 177, 뉴시스 국제 171, 조선비즈 163
