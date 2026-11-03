@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>뉴스 보드</title>
+<!-- 뉴스 보드(2026-11-03): 깃허브 저장소의 최신 파일을 열 때마다 읽어 온다(빌드 때 굽지 않음).
+     후보 = news/board.json(뉴스 수집 액션이 2시간마다 갱신, 점수표 자동 표시)
+     추천 = briefs/news/picks.csv + briefs/news/YYYY-MM-DD.md(Claude 예약 작업이 고름, 1차·2차가 같은 날 파일에 쌓임)
+     로컬 확인: 저장소 루트에서 python -m http.server 후 /scripts/news_board.html?base=/ -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;700&display=swap">
+<style>
+  :root{
+    color-scheme: light;
+    --bg-page:#f9f9f7; --bg-surface:#fcfcfb; --ink-primary:#0b0b0b; --ink-secondary:#52514e; --ink-muted:#898781;
+    --grid-line:#e1e0d9; --border:rgba(11,11,11,0.10); --chip-bg:#f0efec;
+    --accent:#2a78d6; --accent-fill:rgba(42,120,214,0.10);
+    --hot:#d9480f; --hot-fill:rgba(217,72,15,0.10);
+    --new:#0f9d58; --new-fill:rgba(15,157,88,0.12);
+    --made:#7c3aed; --made-fill:rgba(124,58,237,0.10);
+    --shadow:0 1px 2px rgba(11,11,11,0.04), 0 8px 24px -12px rgba(11,11,11,0.10);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      color-scheme: dark;
+      --bg-page:#0d0d0d; --bg-surface:#1a1a19; --ink-primary:#ffffff; --ink-secondary:#c3c2b7; --ink-muted:#898781;
+      --grid-line:#2c2c2a; --border:rgba(255,255,255,0.10); --chip-bg:#232320;
+      --accent:#5b9cf0; --accent-fill:rgba(91,156,240,0.16);
+      --hot:#ff7a45; --hot-fill:rgba(255,122,69,0.16);
+      --new:#34d399; --new-fill:rgba(52,211,153,0.16);
+      --made:#a78bfa; --made-fill:rgba(167,139,250,0.16);
+      --shadow:0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+    }
+  }
+  :root[data-theme="dark"]{
+    color-scheme: dark;
+    --bg-page:#0d0d0d; --bg-surface:#1a1a19; --ink-primary:#ffffff; --ink-secondary:#c3c2b7; --ink-muted:#898781;
+    --grid-line:#2c2c2a; --border:rgba(255,255,255,0.10); --chip-bg:#232320;
+    --accent:#5b9cf0; --accent-fill:rgba(91,156,240,0.16);
+    --hot:#ff7a45; --hot-fill:rgba(255,122,69,0.16);
+    --new:#34d399; --new-fill:rgba(52,211,153,0.16);
+    --made:#a78bfa; --made-fill:rgba(167,139,250,0.16);
+    --shadow:0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
+  }
+  *{ box-sizing:border-box; }
+  body{
+    margin:0; background:var(--bg-page); color:var(--ink-primary);
+    font-family:'IBM Plex Sans','Noto Sans KR',system-ui,-apple-system,"Segoe UI",sans-serif;
+    font-size:15px; line-height:1.55; padding:24px 16px 64px;
+  }
+  a{ color:inherit; }
+  .wrap{ max-width:980px; margin:0 auto; }
+  nav.pages{ display:flex; gap:6px; margin-bottom:18px; }
+  nav.pages a{
+    text-decoration:none; padding:6px 14px; border-radius:999px; font-size:13px; font-weight:600;
+    color:var(--ink-secondary); border:1px solid var(--border); background:var(--bg-surface);
+  }
+  nav.pages a.on{ background:var(--ink-primary); color:var(--bg-page); border-color:var(--ink-primary); }
+  header.top{ padding-bottom:18px; margin-bottom:8px; border-bottom:1px solid var(--border); }
+  h1{ font-family:'Zilla Slab','Noto Sans KR',Georgia,serif; font-weight:700; font-size:clamp(26px,4vw,34px); margin:0 0 6px; }
+  .meta{ font-size:13px; color:var(--ink-secondary); display:flex; flex-wrap:wrap; gap:4px 14px; }
+  .meta .warn{ color:var(--hot); }
+  h2{ font-family:'Zilla Slab','Noto Sans KR',Georgia,serif; font-weight:600; font-size:20px; margin:32px 0 4px; }
+  .sub{ font-size:13px; color:var(--ink-muted); margin:0 0 12px; }
+  .card{
+    background:var(--bg-surface); border:1px solid var(--border); border-radius:14px;
+    box-shadow:var(--shadow); padding:16px 18px; margin-bottom:12px; min-width:0;
+  }
+  details.day > summary{ cursor:pointer; list-style:none; display:flex; flex-wrap:wrap; align-items:center; gap:8px; }
+  details.day > summary::-webkit-details-marker{ display:none; }
+  details.day > summary::before{ content:"▸"; color:var(--ink-muted); width:12px; transition:transform .15s; }
+  details.day[open] > summary::before{ transform:rotate(90deg); }
+  .day-date{ font-weight:700; font-size:16px; }
+  .pill{
+    display:inline-flex; align-items:center; gap:4px; padding:2px 9px; border-radius:999px;
+    font-size:12px; font-weight:600; background:var(--chip-bg); color:var(--ink-secondary); white-space:nowrap;
+  }
+  .pill.hot{ background:var(--hot-fill); color:var(--hot); }
+  .pill.new{ background:var(--new-fill); color:var(--new); }
+  .pill.made{ background:var(--made-fill); color:var(--made); }
+  .pill.cand{ background:var(--accent-fill); color:var(--accent); }
+  .picks{ display:flex; flex-direction:column; gap:6px; margin:12px 0 4px; }
+  .pick{ display:flex; gap:8px; align-items:baseline; font-size:14px; }
+  .md{ margin-top:12px; padding-top:12px; border-top:1px solid var(--grid-line); font-size:14px; overflow-wrap:anywhere; }
+  .md h1{ display:none; }
+  .md h2{ font-size:16px; margin:18px 0 6px; }
+  .md h3{ font-size:15px; margin:14px 0 4px; }
+  .md ul{ padding-left:20px; margin:6px 0; }
+  .md li{ margin:2px 0; }
+  .md hr{ border:0; border-top:1px dashed var(--grid-line); margin:16px 0; }
+  .md a{ color:var(--accent); }
+  .seg{ display:inline-flex; background:var(--chip-bg); border-radius:999px; padding:3px; gap:2px; flex-wrap:wrap; }
+  .seg button{
+    border:0; background:transparent; color:var(--ink-secondary); font:inherit; font-size:13px; font-weight:600;
+    padding:5px 14px; border-radius:999px; cursor:pointer;
+  }
+  .seg button.on{ background:var(--bg-surface); color:var(--ink-primary); box-shadow:0 1px 2px rgba(0,0,0,.12); }
+  .tools{ display:flex; flex-wrap:wrap; gap:8px 12px; align-items:center; margin-bottom:12px; }
+  .tools label{ font-size:13px; color:var(--ink-secondary); display:inline-flex; gap:6px; align-items:center; cursor:pointer; }
+  ul.list{ list-style:none; margin:0; padding:0; }
+  ul.list li{ padding:11px 0; border-bottom:1px solid var(--grid-line); display:flex; gap:12px; }
+  ul.list li:last-child{ border-bottom:0; }
+  .when{ flex:none; width:64px; font-size:12px; color:var(--ink-muted); font-variant-numeric:tabular-nums; padding-top:2px; }
+  .body{ min-width:0; flex:1; }
+  .title{ font-weight:600; text-decoration:none; overflow-wrap:anywhere; }
+  .title:hover{ text-decoration:underline; }
+  .row-meta{ display:flex; flex-wrap:wrap; gap:4px 8px; margin-top:4px; font-size:12px; color:var(--ink-muted); align-items:center; }
+  .more{ margin-top:8px; }
+  .more button{
+    font:inherit; font-size:13px; font-weight:600; color:var(--accent); background:none; border:0; cursor:pointer; padding:4px 0;
+  }
+  .empty{ color:var(--ink-muted); font-size:14px; padding:6px 0; }
+  .err{ color:var(--hot); font-size:14px; }
+  footer{ margin-top:36px; font-size:12px; color:var(--ink-muted); line-height:1.7; }
+  @media (max-width:560px){
+    body{ padding:16px 16px 48px; }
+    .card{ padding:14px; }
+    .when{ width:52px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="pages"><a href="./">경제 지표</a><a class="on" href="news.html">뉴스 보드</a></nav>
+  <header class="top">
+    <h1>뉴스 보드</h1>
+    <div class="meta" id="meta">불러오는 중…</div>
+  </header>
+
+  <h2>추천</h2>
+  <p class="sub">Claude가 원문을 확인하고 고른 소재예요. 같은 날 1차 추천 뒤에 2차 보충이 쌓여요.</p>
+  <div id="picks"><div class="empty">불러오는 중…</div></div>
+
+  <h2>후보</h2>
+  <p class="sub">2시간마다 자동으로 모은 최근 3일 기사예요. 비슷한 기사는 한 건으로 묶었고, 「주목」은 8곳 넘는 매체가 다룬 사건이에요. 점수표로 고른 것이라 판단은 아니에요.</p>
+  <div class="tools">
+    <div class="seg" id="trackSeg">
+      <button data-t="INS" class="on">보험·의료</button><button data-t="INV">투자·경제</button>
+    </div>
+    <label><input type="checkbox" id="hotOnly"> 주목만</label>
+    <label><input type="checkbox" id="newOnly"> 새 기사만</label>
+  </div>
+  <div class="card"><ul class="list" id="cands"><li class="empty">불러오는 중…</li></ul><div class="more" id="candMore"></div></div>
+
+  <h2>기관 보도자료</h2>
+  <p class="sub">금감원·보건복지부 등 기관이 직접 낸 자료(최근 7일)예요.</p>
+  <div class="card"><ul class="list" id="gov"><li class="empty">불러오는 중…</li></ul><div class="more" id="govMore"></div></div>
+
+  <footer id="foot">
+    제목과 링크만 모아요. 영상에 쓰기 전에는 꼭 1차 출처(기관 원문)로 확인해요.<br>
+    「새」는 이 기기에서 마지막으로 연 뒤에 들어온 기사예요. 페이지는 열려 있는 동안 10분마다 다시 읽어요.
+  </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+<script>
+(function(){
+  var RAW = "https://raw.githubusercontent.com/rkrjrl-ctrl/claude_drive/main/";
+  var BASE = new URLSearchParams(location.search).get("base") || RAW;
+  var LV_KEY = "newsboard.lastVisit";
+  var state = { track:"INS", hotOnly:false, newOnly:false, board:null, candN:20, govN:12 };
+
+  function store(get, val){
+    try{ if(get) return localStorage.getItem(LV_KEY); localStorage.setItem(LV_KEY, val); }catch(e){ return null; }
+  }
+  var lastVisit = store(true) || "";          // 지난번 연 시각(ISO). 처음이면 빈 값 → 「새」 표시 없음
+  var openedAt = new Date().toISOString();
+
+  function esc(s){ return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+  function get(path, asJson){
+    return fetch(BASE + path + (BASE === RAW ? "?t=" + Date.now() : ""), { cache:"no-store" }).then(function(r){
+      if(!r.ok) throw new Error(path + " " + r.status);
+      return asJson ? r.json() : r.text();
+    });
+  }
+  function toDate(s){ return new Date(s.length === 16 ? s + ":00+09:00" : s); }   // 2026-11-03T10:46 형태도 받는다
+  function isNew(iso){ return lastVisit && toDate(iso) > new Date(lastVisit); }
+  function ago(iso){
+    var m = Math.round((Date.now() - toDate(iso)) / 60000);
+    if(m < 60) return Math.max(m, 0) + "분 전";
+    if(m < 60*24) return Math.round(m/60) + "시간 전";
+    return iso.slice(5,10).replace("-", "/");
+  }
+  function kst(iso){ return iso.slice(5,10).replace("-", "/") + " " + iso.slice(11,16); }
+  function parseCsv(text){
+    var rows = [], row = [], cell = "", q = false;
+    text = text.replace(/^﻿/, "");
+    for(var i = 0; i < text.length; i++){
+      var c = text[i];
+      if(q){ if(c === '"'){ if(text[i+1] === '"'){ cell += '"'; i++; } else q = false; } else cell += c; }
+      else if(c === '"') q = true;
+      else if(c === ","){ row.push(cell); cell = ""; }
+      else if(c === "\n" || c === "\r"){ if(c === "\r" && text[i+1] === "\n") i++; row.push(cell); rows.push(row); row = []; cell = ""; }
+      else cell += c;
+    }
+    if(cell || row.length){ row.push(cell); rows.push(row); }
+    var head = rows.shift() || [];
+    return rows.filter(function(r){ return r.length > 1; }).map(function(r){ var o = {}; head.forEach(function(h, j){ o[h] = r[j] || ""; }); return o; });
+  }
+
+  // ---- 추천 ----
+  function decisionPill(d){
+    var cls = d === "제작" ? "made" : (d === "후보" ? "cand" : "");
+    return '<span class="pill ' + cls + '">' + esc(d || "기록") + "</span>";
+  }
+  function loadPicks(){
+    var box = document.getElementById("picks");
+    return get("briefs/news/picks.csv").then(function(text){
+      var rows = parseCsv(text), byDate = {};
+      rows.forEach(function(r){ (byDate[r.date] = byDate[r.date] || []).push(r); });
+      var dates = Object.keys(byDate).sort().reverse().slice(0, 10);
+      if(!dates.length){ box.innerHTML = '<div class="empty">아직 추천이 없어요.</div>'; return; }
+      box.innerHTML = dates.map(function(d, i){
+        var w = "일월화수목금토"[new Date(d + "T12:00:00+09:00").getDay()];
+        return '<details class="card day"' + (i === 0 ? " open" : "") + ' data-date="' + d + '">' +
+          '<summary><span class="day-date">' + d.slice(5).replace("-", "/") + " (" + w + ")</span>" +
+          '<span class="pill">' + byDate[d].length + "건</span>" +
+          (byDate[d].some(function(r){ return r.decision === "제작"; }) ? '<span class="pill made">제작 있음</span>' : "") + "</summary>" +
+          '<div class="picks">' + byDate[d].map(function(r){ return '<div class="pick">' + decisionPill(r.decision) + "<span>" + esc(r.title) + "</span></div>"; }).join("") + "</div>" +
+          '<div class="md" data-md="' + d + '">' + (i === 0 ? "불러오는 중…" : "") + "</div></details>";
+      }).join("");
+      box.querySelectorAll("details.day").forEach(function(el){
+        var load = function(){ if(el.open) loadMd(el.querySelector(".md")); };
+        el.addEventListener("toggle", load); load();
+      });
+    }).catch(function(e){ box.innerHTML = '<div class="err">추천 목록을 못 읽었어요(' + esc(e.message) + ").</div>"; });
+  }
+  function loadMd(el){
+    if(el.dataset.done) return;
+    el.dataset.done = "1"; el.textContent = "불러오는 중…";
+    get("briefs/news/" + el.dataset.md + ".md").then(function(md){
+      var html = window.marked ? marked.parse(md) : "<pre>" + esc(md) + "</pre>";
+      el.innerHTML = window.DOMPurify ? DOMPurify.sanitize(html) : esc(md);
+      el.querySelectorAll("a").forEach(function(a){ a.target = "_blank"; a.rel = "noopener"; });
+    }).catch(function(){ el.innerHTML = '<div class="empty">이 날 정리 글이 없어요.</div>'; delete el.dataset.done; });
+  }
+
+  // ---- 후보 ----
+  function renderCands(){
+    var b = state.board, ul = document.getElementById("cands"), more = document.getElementById("candMore");
+    if(!b){ return; }
+    var list = (b.tracks[state.track] || []).filter(function(g){
+      return (!state.hotOnly || g.media >= b.hot) && (!state.newOnly || isNew(g.last));
+    });
+    var shown = list.slice(0, state.candN);
+    ul.innerHTML = shown.length ? shown.map(function(g){
+      var tags = (g.media >= b.hot ? '<span class="pill hot">주목</span>' : "") + (isNew(g.last) ? '<span class="pill new">새</span>' : "");
+      return "<li><div class=\"when\">" + ago(g.last) + '</div><div class="body">' +
+        '<a class="title" target="_blank" rel="noopener" href="' + esc(g.link) + '">' + esc(g.title) + "</a>" +
+        '<div class="row-meta">' + tags + "<span>" + esc(g.source) + "</span>" +
+        (g.n > 1 ? "<span>외 " + (g.n - 1) + "건 · " + g.media + "개 매체</span>" : "") +
+        '<span class="pill">' + esc(g.topic) + "</span></div></div></li>";
+    }).join("") : '<li class="empty">조건에 맞는 기사가 없어요.</li>';
+    more.innerHTML = list.length > shown.length ? '<button type="button">' + (list.length - shown.length) + "건 더 보기</button>" : "";
+    var btn = more.querySelector("button");
+    if(btn) btn.onclick = function(){ state.candN += 20; renderCands(); };
+  }
+  function renderGov(){
+    var b = state.board, ul = document.getElementById("gov"), more = document.getElementById("govMore");
+    if(!b) return;
+    var list = b.gov.filter(function(r){ return !state.newOnly || isNew(r.date); });
+    var shown = list.slice(0, state.govN);
+    ul.innerHTML = shown.length ? shown.map(function(r){
+      return "<li><div class=\"when\">" + ago(r.date) + '</div><div class="body">' +
+        '<a class="title" target="_blank" rel="noopener" href="' + esc(r.link) + '">' + esc(r.title) + "</a>" +
+        '<div class="row-meta">' + (isNew(r.date) ? '<span class="pill new">새</span>' : "") +
+        '<span class="pill' + (r.source.indexOf("금융감독원") > -1 ? " cand" : "") + '">' + esc(r.source) + "</span></div></div></li>";
+    }).join("") : '<li class="empty">조건에 맞는 보도자료가 없어요.</li>';
+    more.innerHTML = list.length > shown.length ? '<button type="button">' + (list.length - shown.length) + "건 더 보기</button>" : "";
+    var btn = more.querySelector("button");
+    if(btn) btn.onclick = function(){ state.govN += 12; renderGov(); };
+  }
+  function loadBoard(){
+    return get("news/board.json", true).then(function(b){
+      state.board = b;
+      var age = (Date.now() - toDate(b.updated)) / 3600000;
+      document.getElementById("meta").innerHTML =
+        "<span>후보 갱신 " + kst(b.updated) + " (" + ago(b.updated) + ")</span>" +
+        (age > 6 ? '<span class="warn">6시간 넘게 갱신이 없어요</span>' : "") +
+        (b.failed && b.failed.length ? '<span class="warn">수집 실패: ' + esc(b.failed.join(", ")) + "</span>" : "") +
+        (lastVisit ? "<span>지난번 본 시각 " + kst(new Date(new Date(lastVisit).getTime() + 9*3600000).toISOString()) + "</span>" : "");
+      renderCands(); renderGov();
+    }).catch(function(e){
+      document.getElementById("meta").innerHTML = '<span class="warn">후보 파일을 못 읽었어요(' + esc(e.message) + ")</span>";
+      document.getElementById("cands").innerHTML = '<li class="empty">후보 파일이 아직 없어요.</li>';
+      document.getElementById("gov").innerHTML = '<li class="empty">—</li>';
+    });
+  }
+
+  document.getElementById("trackSeg").addEventListener("click", function(e){
+    var t = e.target.closest("button"); if(!t) return;
+    state.track = t.dataset.t; state.candN = 20;
+    this.querySelectorAll("button").forEach(function(b){ b.classList.toggle("on", b === t); });
+    renderCands();
+  });
+  document.getElementById("hotOnly").onchange = function(){ state.hotOnly = this.checked; renderCands(); };
+  document.getElementById("newOnly").onchange = function(){ state.newOnly = this.checked; renderCands(); renderGov(); };
+
+  Promise.all([loadBoard(), loadPicks()]).then(function(){ store(false, openedAt); });
+  setInterval(function(){ if(!document.hidden) loadBoard(); }, 10 * 60 * 1000);
+})();
+</script>
+</body>
+</html>

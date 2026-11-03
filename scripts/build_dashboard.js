@@ -101,6 +101,8 @@ function build() {
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
   fs.writeFileSync(OUT_FILE, html, "utf8");
+  // 뉴스 보드(2026-11-03): 데이터는 페이지가 열릴 때 저장소에서 바로 읽으므로 그대로 복사만 한다
+  fs.copyFileSync(path.join(__dirname, "news_board.html"), path.join(OUT_DIR, "news.html"));
   console.log(`built ${OUT_FILE}: ${rows.length} daily rows, ${Object.keys(LT).length} long-term series, ${(html.length / 1e6).toFixed(2)}MB`);
 }
 

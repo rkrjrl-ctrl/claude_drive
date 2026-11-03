@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """경제·보험·의료정책 뉴스 헤드라인 수집 (토큰 없음). 제목·언론사·시각·링크만 저장하고 본문은 저장하지 않는다.
-결과: news/YYYY-MM.csv(월별 누적) · news/DIGEST.md(최근 7일 요약 목록)
+결과: news/YYYY-MM.csv(월별 누적) · news/DIGEST.md(최근 7일 요약 목록) · news/board.json(뉴스 보드용 최근 3일 후보, 11/3)
 선택 입력: 환경변수 NAVER_CLIENT_ID / NAVER_CLIENT_SECRET (네이버 개발자센터 검색 API 키. 없으면 건너뜀)
 기사는 '소재 후보'일 뿐 근거 자료가 아니다. 영상에 쓰기 전 1차 출처(보도자료·법령)로 확인한다.
 """
@@ -308,9 +308,10 @@ def cluster(items, limit):
             if u and (inter / len(u) >= 0.3 or inter >= 4):
                 g["n"] += 1
                 g["src"].add(r["source"])
+                g["last"] = max(g["last"], r["date"])
                 break
         else:
-            groups.append({"rep": r, "tok": t, "n": 1, "src": {r["source"]}})
+            groups.append({"rep": r, "tok": t, "n": 1, "src": {r["source"]}, "last": r["date"]})
     for g in groups:
         g["rank"] = int(g["rep"]["score"]) + 2 * math.log2(g["n"]) + min(len(g["src"]), 8) * 0.3
     return sorted(groups, key=lambda g: g["rank"], reverse=True)[:limit]
@@ -320,6 +321,30 @@ def fmt(g):
     r = g["rep"]
     more = f" — **외 {g['n'] - 1}건**({len(g['src'])}개 매체)" if g["n"] > 1 else ""
     return f"- ({r['score']}) {r['date'][5:10]} {r['source']} — [{r['title']}]({r['link']}){more}"
+
+
+BOARD = os.path.join(ROOT, "board.json")
+HOT = 8   # 이만큼 많은 매체가 다룬 사건이면 보드에 「주목」 표시(두 분야 점수 크기가 달라 매체 수로 잰다). 판단은 아니다
+
+
+def write_board(ordered, failed):
+    """뉴스 보드(사이트 news.html)가 읽는 작은 파일. 월별 CSV는 월말에 15MB라 휴대폰에서 바로 못 읽는다."""
+    since = (NOW - datetime.timedelta(hours=72)).isoformat(timespec="minutes")
+    recent = [r for r in ordered if r["date"] >= since]
+    out = {"updated": NOW.isoformat(timespec="minutes"), "failed": failed, "hot": HOT, "tracks": {}, "gov": []}
+    for t in ("INS", "INV"):
+        news = sorted((r for r in recent if r["track"] == t and r["via"] not in ("gov", "intl")),
+                      key=lambda r: (int(r["score"]), r["date"]), reverse=True)[:500]
+        out["tracks"][t] = [{
+            "title": g["rep"]["title"], "link": g["rep"]["link"], "source": g["rep"]["source"],
+            "first": g["rep"]["date"], "last": g["last"], "score": int(g["rep"]["score"]),
+            "n": g["n"], "media": len(g["src"]), "rank": round(g["rank"], 1), "topic": subtopic(t, g["rep"]["title"]),
+        } for g in cluster(news, 60)]
+    week = (NOW - datetime.timedelta(days=7)).isoformat(timespec="minutes")
+    out["gov"] = [{"date": r["date"], "source": r["source"], "title": r["title"], "link": r["link"], "track": r["track"]}
+                  for r in ordered if r["via"] == "gov" and r["date"] >= week][:40]
+    with open(BOARD, "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, separators=(",", ":"))
 
 
 def main():
@@ -423,6 +448,7 @@ def main():
     L.append("\n## 언론사별 건수 상위 15\n")
     L.append(", ".join(f"{s} {c}" for s, c in srcs.most_common(15)))
     open(DIGEST, "w", encoding="utf-8").write("\n".join(L) + "\n")
+    write_board(ordered, failed)
     print(f"신규 {new_n} / 최근7일 보험의료 {cnt['INS']} 투자경제 {cnt['INV']} / 실패 {failed}")
 
 
