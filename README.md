@@ -86,23 +86,9 @@ Pages URL: **Settings → Pages**에서 확인하거나, 저장소의 About 섹�
 - `data/history.csv`의 각 행은 그 날짜의 종가(그 시장이 쉰 날은 직전 종가)를 담습니다. 예전에는 수집한 날짜로 찍혀서, 수집 시각에 따라 전날 값이 들어갔습니다. 오늘 행은 다음 실행 때 확정됩니다.
 - `data/long_term/*.csv`도 매일 실제 거래일 기준으로 이어 붙입니다(최근 약 3개월 구간은 매번 다시 씀).
 
-## 은행별 예적금·대출 금리 (2026-10 추가)
+## 은행별 예적금·대출 금리 (2026-10 추가, 2026-11-04 비공개 저장소로 옮김)
 
-금감원 「금융상품 한눈에」 공시 금리를 매일 09:00 KST에 받는다 (`scripts/fetch_rates.py`, 워크플로 `Collect FSS rates`).
-
-| 폴더 | 내용 |
-|---|---|
-| `data/rates/deposit` | 정기예금 |
-| `data/rates/saving` | 적금 |
-| `data/rates/mortgage` | 주택담보대출 |
-| `data/rates/rent` | 전세자금대출 |
-| `data/rates/credit` | 개인신용대출 (신용점수 구간별) |
-
-- `latest.csv`는 가장 최근 값, `YYYY-MM-DD.csv`는 그날 값이 바뀌었을 때만 남는 기록이다. 권역(은행·저축은행·보험 등)은 `fin_grp` 열.
-- API가 지금 값만 주므로 지난 금리는 다시 받을 수 없다. 이 기록이 유일한 이력이다.
-- 공시 기준 금리라 개인이 실제 받는 금리와 다르고, 금감원은 대략 월 단위로 공시를 바꾼다.
-- 키: https://finlife.fss.or.kr 오픈 API에서 발급받아 저장소 Secret `FSS_API_KEY`로 등록한다. 키가 없으면 워크플로는 건너뛰고 성공으로 끝난다.
-- 로컬 실행: `FSS_API_KEY=발급받은키 python scripts/fetch_rates.py`
+금감원 「금융상품 한눈에」 오픈 API 원자료는 누구나 받을 수 있는 이 공개 저장소에 쌓지 않는다. 수집(`fetch_rates.py`, 워크플로 `Collect FSS rates`)과 지난 기록은 비공개 저장소 `rkrjrl-ctrl/rate-tracker`로 옮겼다. 조회는 `korea-money-data` 스킬의 `query.py rates …`가 그 저장소를 받아 읽는다.
 
 ## 청약·LH 공고·지원 제도 (2026-10 추가)
 
