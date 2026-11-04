@@ -138,7 +138,7 @@ def fmt_value(field, value):
     return round(value, 3 if field in THREE_DECIMALS else 2)
 
 
-def yahoo_daily(symbol, rng="3mo"):
+def yahoo_daily(symbol, rng="3mo", field=None):
     """Daily closes as [(YYYY-MM-DD in the exchange's local time, close)], oldest first."""
     text = http_get(f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&range={rng}")
     if not text:
@@ -160,15 +160,33 @@ def yahoo_daily(symbol, rng="3mo"):
         tz = ZoneInfo(tzname) if tzname else None
     except Exception:
         tz = None
-    rows = {}
+    rows, blank = {}, set()
     for ts, close in zip(stamps, closes):
-        if close is None:
-            continue
         if tz:
             day = datetime.fromtimestamp(ts, tz).strftime("%Y-%m-%d")
         else:
             day = datetime.fromtimestamp(ts + offset, timezone.utc).strftime("%Y-%m-%d")
+        if close is None:
+            blank.add(day)
+            continue
         rows[day] = close
+    # 야후가 이미 준 종가를 나중에 빈칸으로 돌려줄 때가 있다(11/4 아침 코스피·코스닥·상해 11/3 종가가 빈칸 →
+    # 저장된 값이 지워져 카드에 11/2 값이 실림). 날짜는 있는데 종가만 빈 날은 저장된 값을 그대로 쓴다.
+    if field and blank - rows.keys():
+        path = os.path.join(LONG_TERM_DIR, f"{field}.csv")
+        if os.path.exists(path):
+            with open(path, encoding="utf-8") as f:
+                saved = dict(ln.split(",", 1) for ln in f.read().split()[1:] if "," in ln)
+            for day in blank - rows.keys():
+                if day in saved:
+                    rows[day] = float(saved[day])
+    # 저장된 값도 없으면(처음 받는 날) 그 날짜가 「최근 종가」(regularMarketPrice) 날짜일 때 그 값을 쓴다.
+    meta = res["meta"]
+    price, ptime = meta.get("regularMarketPrice"), meta.get("regularMarketTime")
+    if price is not None and ptime:
+        pday = (datetime.fromtimestamp(ptime, tz) if tz else datetime.fromtimestamp(ptime + offset, timezone.utc)).strftime("%Y-%m-%d")
+        if pday in blank and pday not in rows:
+            rows[pday] = price
     return sorted(rows.items())
 
 
@@ -483,7 +501,7 @@ def main():
     fetched = {}
     daily = {}  # field -> [(true trade date, value)], used to date history/long_term correctly
     for field, symbol in YAHOO_DAILY.items():
-        series = yahoo_daily(symbol)
+        series = yahoo_daily(symbol, field=field)
         if series:
             daily[field] = series
             fetched[field] = fmt_value(field, series[-1][1])
