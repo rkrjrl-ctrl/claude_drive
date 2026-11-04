@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-04T16:06+09:00",
+"updated": "2026-11-04T17:06+09:00",
 "items": [
 {
 "kind": "gov",
@@ -1659,6 +1659,48 @@
 "증권사",
 "홍콩ELS",
 "확정"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261104147100009",
+"t": "2026-11-04T17:06+09:00",
+"tok": [
+"미시간주",
+"민주당",
+"상원의원",
+"선거",
+"승리",
+"엘사예드"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOGZ0VTlscnY2a0MwYWE2MUJJc1VSZVFpNGVMR2F5dFFDRjNNVi1ibUdINGZCRm53akVtMkRfUUZaQTR3UkVZQjlhaDJCNmFIcWM3cWJFRjFZbVVHdm85dFBIZC16TmNDNjVsVTNneEstTzgxbUE0djNOVVp0Yms3TmxvbEtob2NPbjRENTZ1TTNXTldaZF9CMlZoallsNGJISlJ0RFdqX1N5UQ?oc=5",
+"t": "2026-11-04T17:06+09:00",
+"tok": [
+"건강보험",
+"건보료",
+"검토",
+"부과",
+"분리과세",
+"소득",
+"체계",
+"한국"
+]
+},
+{
+"kind": "주목",
+"link": "http://www.fins.co.kr/news/articleView.html?idxno=110418",
+"t": "2026-11-04T17:06+09:00",
+"tok": [
+"디폴트옵션",
+"보험사",
+"수익률",
+"업권",
+"장기",
+"최하위",
+"퇴직연금"
 ]
 }
 ]
