@@ -1,9 +1,9 @@
 # 경제·보험 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-04 20:05 KST  /  최근 7일 15726건 (보험·의료 3931 · 투자·경제 11690)  /  이번 신규 468건
+- 갱신: 2026-11-04 21:05 KST  /  최근 7일 15754건 (보험·의료 3940 · 투자·경제 11708)  /  이번 신규 342건
 - 소스 62곳 + 구글뉴스 키워드 90개(보험·의료 45 · 투자·경제 45)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 없음
+- 수집 실패 소스: 동아 경제
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
@@ -46,9 +46,9 @@
 - 11-04 [금융감독원 보도자료] [홍콩 H지수 ELS 관련 은행, 증권사 검사 결과 조치](https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249736&menuNo=200218&pageIndex=1)
 - 11-04 [금융감독원 보도자료] [계리가정보고서 도입 등 보험업감독규정 개정안 금융위원회 의결](https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249734&menuNo=200218&pageIndex=1)
 - 11-04 [금융감독원 보도자료] [베트남, 인도네시아 보험감독당국 초청 세미나 개최](https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249719&menuNo=200218&pageIndex=1)
+- 11-04 [금융위원회] [한국, 아시아지배구조협회(ACGA) 기업지배구조 순위 역대급 ‘5위’ 달성. 금일 등록된 게시글](https://www.fsc.go.kr/no010101/88084)
 - 11-04 [금융위원회] [홍콩 H지수 ELS 관련 은행·증권사 검사 결과 조치 - 제19차 금융위원회(11.4.) 의결. 금일 등록된 게시글](https://www.fsc.go.kr/no010101/88082)
 - 11-04 [금융위원회] [계리가정보고서 도입 등 ｢보험업감독규정｣ 개정안 금융위원회 의결. 금일 등록된 게시글](https://www.fsc.go.kr/no010101/88081)
-- 11-04 [금융위원회] [한국, 아시아지배구조협회(ACGA) 기업지배구조 순위 역대급 ‘5위’ 달성. 금일 등록된 게시글](https://www.fsc.go.kr/no010101/88084)
 - 11-03 [보건복지부] [응급실 등 필수의료분야 수사 가이드라인 마련 추진](https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492425&act=view)
 - 11-03 [보건복지부] [생활공간에서 의료서비스 받는다, 전국 최초 의료집중형 장애인거주시설 대전 ‘로뎀’ 개소](https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492422&act=view)
 - 11-03 [보건복지부] [민관이 함께 자살예방·생명존중 위해 협력](https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492421&act=view)
@@ -68,7 +68,7 @@
 - (9) 10-29 뉴스핌 — [[코인 시황] 비트코인 8만달러 일시 붕괴…기술주 급락·연준 매파 기조에 위험자산 매도 확산](https://news.google.com/rss/articles/CBMiXEFVX3lxTE41X0NEbWJRd3NVR0hTbnFMUVVCakE5TWwzajVNYVFMa2QxZUhUZjlvTjJFdVhWaFFiOThxcFl6QzdxT2JzZlZRUk1lRGxlT003aHZoYmZGSG9TZVFx?oc=5) — **외 3건**(2개 매체)
 - (10) 10-29 신아일보 — [[07:49 가상자산] 비트코인, FOMC 동결·현물 ETF 자금 유입에 반등](https://news.google.com/rss/articles/CBMicEFVX3lxTFBLSVRpMzdhN0lzNUVXQXlmX0loTjBodFlSVG9QTlczdm83QkZ1anY4TThpUTVfaDJaZ0o3YnYwWEVsdEVhWkY1d0l5VmtRWDV2ZzJLdklhbUVpMURKcG5YOXpNb3VKcTQxLW93NHhJYkQ?oc=5) — **외 1건**(2개 매체)
 
-**미국·해외 증시** (사건 80개)
+**미국·해외 증시** (사건 79개)
 - (14) 11-03 뉴스핌 — [뉴욕증시, 혼조 마감…유가 급락에도 반도체 약세에 나스닥 1.07%↓](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jaEVha0VKTnl5V1lmajF6OEpkZXVoWHlZcUZkOU5SM3ZYYjZ2b0xvSklKOXdOV0tzanF4Y2M0SnBna3VsNzN6MjVUc3YtVWlGSThoWkpoTWNaQV9G?oc=5) — **외 54건**(40개 매체)
 - (15) 10-29 퍼블릭타임스 — [뉴욕증시,연준 금리 동결 3대 지수 상승 나스닥 0.27%↑…국제유가 WTI 2.88%↑](https://news.google.com/rss/articles/CBMiakFVX3lxTE5nWXV4TFo0aG9GWFNvRE91dUgya3hqZ3lvbE9uQkJva2VjLTFvLUM2YWRmdEJfa2V3Qm9KWHBhYjcwUVdXRzFTSk04UVk5MzU5ejJvUWVuS21kTWkza3gyVmV3RTFWQW9oc0HSAW5BVV95cUxQZ2NGQUYxQTdXeVd5eFBrQVJVY0hQQmRxZ0NmTG1zTmgyZHRCMDBoT1NyVGhRT1F0eXNtTEEwNDd3cDZBMmdERU5jLTVtRVphd3dteHJmTXRwcjBfZjAxZF9lTXotbmo2OWdPaTdqQQ?oc=5) — **외 22건**(20개 매체)
 - (15) 10-29 뉴스로드 — [연준, 기준금리 동결에 뉴욕증시 3거래일 연속 상승…AI·반도체 랠리 재점화](https://news.google.com/rss/articles/CBMib0FVX3lxTE0xMWRLWkhiY2hvVXBndDQyREVQUWxldVNHZUFNamFtdGRpZWpaS2o1eTBLei1lMDFpZFJ6eFN1TFA5enFRNlRuekkxeFAwUWttQmNNNFpDNUdXTWdYdUoybUxESGRQQ05KTnk4R1FGUdIBb0FVX3lxTE0xMWRLWkhiY2hvVXBndDQyREVQUWxldVNHZUFNamFtdGRpZWpaS2o1eTBLei1lMDFpZFJ6eFN1TFA5enFRNlRuekkxeFAwUWttQmNNNFpDNUdXTWdYdUoybUxESGRQQ05KTnk4R1FGUQ?oc=5) — **외 14건**(14개 매체)
@@ -83,7 +83,7 @@
 - (12) 10-30 www.tmgm.com — [금값, 미국 GDP 호조에 연준 금리 인상 전망 강화되며 4,000달러 부근으로 하락](https://news.google.com/rss/articles/CBMixgFBVV95cUxPaXhwLTh5a2k0Uk9yV3FxOVBiWkR2TlVtS0w1c0dxaFNGOVVTY3plMThjdkg3Y3lxZGcyVmx4ZHZpYUxkN1JPY3pENWRhLUNLcjF4bXF1ZG5fejVVNDRYUmpGb1hFaURvaGVkN2IwMHBZZUFwdlZNYWRvQVRrNFh4YjJhdUI3SlB0cWJIaTduell4bk5HTmRodEY0OEgyYlRyU2lOUmVLdkxUbGNObm9kUjhTTnJWZUxqdnlFdkc0YU54cjMta3c?oc=5) — **외 6건**(3개 매체)
 - (13) 10-31 블록미디어 — [[뉴욕 금·채권·달러] 국채금리·달러 혼조 속 금값 3.66% 급락…기술주 투매 영향](https://news.google.com/rss/articles/CBMiWEFVX3lxTE40UzBWaE1aYzdjdVRBcUpEUnB5Ukk5d01paWRYbEFsVlo5V3RBQTNCaUJJMUh2aHVCNUhBMjdLUkxPMjVuX2hJWmNXekVEYllucEpxdlhfMTA?oc=5) — **외 4건**(1개 매체)
 
-**환율·달러** (사건 10개)
+**환율·달러** (사건 11개)
 - (13) 10-30 중기이코노미 — [원달러 환율 하락 전환…국제유가와 금값 동반 약세](https://news.google.com/rss/articles/CBMiakFVX3lxTE84eGdUQU5oWVJkSlAyelBaM21xYWRqQUhLcGVnUUNzemI4NjZCVDBMS3JKOWxaY3lITTBJRnJhbl9nelY5a1hLeE4tRWVvWUpwd3dDbzJvelptbjRWRW8yUVU1NVdsZmlWZ3c?oc=5)
 - (8) 11-03 https://www.2news.co.kr/ — [외국인 매도 폭주에 달러 환율 급등 시작](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pa3ozOFRjclU2NndKM0tDZ0ZNQ0lLU3piem41Q0FzdUlvSDh0OEg1YVBWNU5iNGhwa0dXNm1EekN4RVB5Yko4UW9IUjJzZ2UtTU9MVXJxQ0hwNXB4cTlXNXU0SGJBa0VZ?oc=5) — **외 3건**(3개 매체)
 - (9) 11-03 이코노뉴스 — [국제유가, 중둥 외교적 협상 가능성 부각 등 영향 7%대 급락-WTI 배럴당 100달러 무너져⋯국제금값, 저가매수세 유입 등에 4거래일만 반등](https://news.google.com/rss/articles/CBMibkFVX3lxTFByY0NtclRySkxTbWl0bEVXWVlwRUpYV2pPN0diWlpYNzRJNmdjcTdkVldFVWxWNXdBZXg2aUNldmxDaThUT1lGcHRoek5lUkJJOE5XX0dzR0h1MV9oeDh1NXVpYV9UcXM2Mzd2UDh3?oc=5) — **외 1건**(1개 매체)
@@ -123,6 +123,9 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
+- 11-04 CNBC — [McDonald's earnings beat, but traffic to chain's U.S. restaurants falls](https://www.cnbc.com/2026/11/04/mcdonalds-is-about-to-report-earnings-heres-what-to-expect.html)
+- 11-04 MarketWatch — [CVS Health plans to split in two. Here’s what is driving the massive healthcare breakup.](https://www.marketwatch.com/story/cvs-health-plans-to-split-in-two-heres-what-is-driving-the-massive-healthcare-breakup-27c0d6be?mod=mw_rss_topstories)
+- 11-04 MarketWatch — [The AI trade has been ‘sold to death’ but Goldman strategist highlights silver lining from Democratic sweep](https://www.marketwatch.com/story/the-ai-trade-has-been-sold-to-death-but-goldman-strategist-highlights-silver-lining-from-democratic-sweep-3d1d6f07?mod=mw_rss_topstories)
 - 11-04 MarketWatch — [‘My life could be cut short’: I’m 55, married with $4.3 million and have a brain tumor. Should I buy a $210,000 custom Porsche?](https://www.marketwatch.com/story/my-life-could-be-cut-short-im-55-married-with-4-3-million-and-have-a-brain-tumor-should-i-buy-a-210-000-custom-porsche-ed825ada?mod=mw_rss_topstories)
 - 11-04 MarketWatch — [L.A. home once owned by Mike Tyson’s former wife, actress Robin Givens, is on the market for $3.5 million](https://www.marketwatch.com/story/l-a-home-once-owned-by-mike-tysons-former-wife-actress-robin-givens-is-on-the-market-for-3-5-million-0b9e11a1?mod=mw_rss_topstories)
 - 11-04 MarketWatch — [Jordyn Woods on her baby plans with Karl-Anthony Towns after buying $14 million home](https://www.marketwatch.com/story/jordyn-woods-on-her-baby-plans-with-karl-anthony-towns-after-buying-14-million-home-e864ce5a?mod=mw_rss_topstories)
@@ -132,10 +135,7 @@
 - 11-04 MarketWatch — [Democrats win the Senate but control of the House is still up in the air. Here’s what it means for your finances.](https://www.marketwatch.com/story/democrats-win-the-senate-but-control-of-the-house-is-still-up-in-the-air-heres-what-it-means-for-your-finances-ed78cd6e?mod=mw_rss_topstories)
 - 11-04 MarketWatch — [Here’s why AMD’s stock is rising — and sending a confident message about the AI trade](https://www.marketwatch.com/story/heres-why-amds-stock-is-rising-and-sending-a-confident-message-about-the-ai-trade-11cb4d8a?mod=mw_rss_topstories)
 - 11-04 ECB 보도자료 — [ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full year of 2026](https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html)
-- 11-04 MarketWatch — [AI’s control over the bond market is growing — even rivaling war and elections](https://www.marketwatch.com/story/ais-control-over-the-bond-market-is-growing-even-rivaling-war-and-elections-5d727b35?mod=mw_rss_topstories)
-- 11-04 MarketWatch — [S&P 500 is looking over the edge of a technical cliff — what happens if it falls off?](https://www.marketwatch.com/story/s-p-500-is-looking-over-the-edge-of-a-technical-cliff-what-happens-if-it-falls-off-be97ebd9?mod=mw_rss_topstories)
-- 11-04 MarketWatch — [Depressing, but true: If you want to get ahead at work, embrace virtue signaling](https://www.marketwatch.com/story/depressing-but-true-if-you-want-to-get-ahead-at-work-embrace-virtue-signaling-b4e72f0a?mod=mw_rss_topstories)
 
 ## 언론사별 건수 상위 15
 
-토큰포스트 662, 머니투데이 399, 파이낸셜뉴스 전체 365, 연합뉴스 마켓 339, 인포맥스 316, 아시아경제 267, 코인리더스 266, 한국경제 금융 239, 조선비즈 232, 뉴시스 금융 231, 조선 경제 210, 뉴스1 190, 뉴시스 국제 188, 이데일리 178, 뉴스핌 174
+토큰포스트 665, 머니투데이 399, 파이낸셜뉴스 전체 366, 연합뉴스 마켓 339, 인포맥스 316, 코인리더스 267, 아시아경제 267, 한국경제 금융 238, 조선비즈 232, 뉴시스 금융 231, 조선 경제 209, 뉴스1 190, 뉴시스 국제 188, 이데일리 181, 뉴스핌 175
