@@ -5,6 +5,7 @@
 
 받는 주제 이름은 깃허브 비밀값 NTFY_TOPIC에만 둔다(공개 저장소라 코드에 적으면 누구나 구독한다).
 알림 하나에 헤드라인 하나, 누르면 기사가 열린다. 같은 사건은 한 번만 보낸다(news/notified.json).
+속보는 한 번에 들어온 것 중 같은 소식끼리 한 통으로 합치고, 본문에 합친 기사 제목을 모두 적는다(11/4).
 """
 import csv
 import datetime
@@ -258,7 +259,7 @@ def candidates():
         # 투자·경제 속보도 모두 보낸다(11/4 사용자 요청, 전에는 시장이 크게 흔들린 것만)
         out.append({"kind": kind, "title": f"[{kind}] {TRACK.get(r.get('track'), '')} · {r['source']}",
                     "msg": head, "link": r["link"], "tags": ["pushpin" if kind == "단독" else "zap"],
-                    "key": head})
+                    "key": head, "source": r["source"], "track": r.get("track")})
     # 3) 주목: 여러 매체가 다룬 사건(홍보성 제외)
     for t in ("INS", "INV"):
         for g in board.get("tracks", {}).get(t, []):
@@ -323,15 +324,27 @@ def run_news():
         save_state(items)
         return
     order = {"gov": 0, "단독": 1, "속보": 2, "주목": 3}
-    todo.sort(key=lambda c: order[c["kind"]])
+    todo.sort(key=lambda c: order[c["kind"]])   # 정렬은 안정적이라 같은 종류 안에서는 시간 순이 유지된다
+    # 속보는 같은 소식끼리 한 통으로 합치고 본문에 기사 제목을 모두 적는다(11/4 사용자 「당분간은 이렇게 가자」)
+    msgs = []   # (제목, 본문, 주소, 태그, 버튼)
+    breaking = [c for c in todo if c["kind"] == "속보"]
+    for c in todo:
+        if c["kind"] == "속보":
+            if breaking:
+                for g in group_events(breaking):
+                    t, m, link, acts = event_message("속보", g)
+                    msgs.append((t, m, link, g[0][0]["tags"], acts))
+                breaking = []
+        else:
+            msgs.append((c["title"], c["msg"], c["link"], c["tags"], None))
     sent = 0
-    for c in todo[:MAX_PER_RUN]:
+    for t, m, link, tags, acts in msgs[:MAX_PER_RUN]:
         try:
-            send(c["title"], c["msg"], c["link"], c["tags"])
+            send(t, m, link, tags, actions=acts)
             sent += 1
         except Exception as e:  # 한 건이 실패해도 나머지는 보낸다
-            print("보내기 실패:", c["title"], e)
-    rest = len(todo) - MAX_PER_RUN
+            print("보내기 실패:", t, e)
+    rest = len(msgs) - MAX_PER_RUN
     if rest > 0:
         try:
             send(f"외 {rest}건", "나머지는 뉴스 보드에서 보세요.", BOARD_URL, ["newspaper"])
