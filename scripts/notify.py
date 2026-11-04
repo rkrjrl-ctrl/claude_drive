@@ -153,6 +153,25 @@ def group_events(cands, df=None):
     return groups
 
 
+def event_message(kind, g):
+    """같은 소식 묶음 하나 → 알림 한 통. 합친 기사 제목을 본문에 모두 적는다(11/4 사용자 「한 알림에서 제목은 확인 가능하게」).
+    반환: (제목, 본문, 누르면 열 주소, 버튼)"""
+    c = g[0][0]
+    track = TRACK.get(c.get("track"), "")
+    if len(g) == 1:
+        return f"[{kind}] {track} · {c['source']}", c["msg"], c["link"], None
+    lines, size = [], 0
+    for x, _ in g:
+        line = f"· {x['msg']} ({x['source']})"
+        if size + len(line.encode("utf-8")) > 3600:   # ntfy 본문은 4KB까지
+            lines.append(f"… 외 {len(g) - len(lines)}건")
+            break
+        lines.append(line)
+        size += len(line.encode("utf-8")) + 1
+    actions = [{"action": "view", "label": x["source"][:20], "url": x["link"]} for x, _ in g[:3]]
+    return f"[{kind}] {track} · 같은 소식 {len(g)}건", "\n".join(lines), c["link"], actions
+
+
 def digest(cands, label):
     """속보 여러 건 → 한 통(제목, 본문, 버튼). cands는 시간 순."""
     groups = group_events(cands)
@@ -186,9 +205,8 @@ def run_digest_test(start, end, mode="each"):
     if mode == "each":
         groups = group_events(cands)
         for g in groups:
-            c = g[0][0]
-            more = f" (외 {len(g) - 1}건)" if len(g) > 1 else ""
-            send(f"[속보·시험] {TRACK.get(c.get('track'), '')} · {c['source']}", c["msg"] + more, c["link"], ["zap"])
+            title, msg, click, actions = event_message("속보·시험", g)
+            send(title, msg, click, ["zap"], actions=actions)
         print(f"시험 알림 보냄: 속보 {len(cands)}건 → {len(groups)}통")
         return
     title, msg, actions = digest(cands, f"{b.hour}시 시험")
