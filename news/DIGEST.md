@@ -1,9 +1,9 @@
 # 경제·보험 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-05 02:05 KST  /  최근 7일 15836건 (보험·의료 3942 · 투자·경제 11784)  /  이번 신규 291건
+- 갱신: 2026-11-05 03:03 KST  /  최근 7일 15820건 (보험·의료 3941 · 투자·경제 11769)  /  이번 신규 291건
 - 소스 62곳 + 구글뉴스 키워드 90개(보험·의료 45 · 투자·경제 45)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 없음
+- 수집 실패 소스: 머니투데이, 아시아경제
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
@@ -30,7 +30,7 @@
 **보험금 분쟁·판결** (사건 26개)
 - (7) 11-03 남도일보 — [자해하고 보험금 청구…9억 챙긴 보험사기 일당 ‘덜미’](https://news.google.com/rss/articles/CBMibEFVX3lxTE1EUXpoTTJGbjBCajJXZEk5ZXlDYWtncnlUMDBqYWZvMDNxTW0zMGtncmhzc01wR3BMMlNuZHR1UGdTTTlGT0JZeEhEMC1sbjFzTjJXem5DdjlfNEdOVnNWMHQ0WnZ3dkZVVUwtR9IBcEFVX3lxTE8teUExVTB0SHhFZnItRDVpYnBJQWV6eFBoYnRCTjl4S1pYWTFlQ1RUTEk0RVpLWkVUUWVybDZ6VDROclp3TkZDd2F4ZzlkQWprN05PRzRBY3RvRGtjUmMxN05sQWtDV05sbmVwUFZpQnU?oc=5) — **외 4건**(5개 매체)
 - (4) 11-04 전국매일신문 — [전남경찰청, 고의 자해 보험사기 일당 5명 검거](https://news.google.com/rss/articles/CBMibkFVX3lxTE9zS1gyVWphcDAzMUloUV9JMjJSOW90ek96Y24zR3k3UGxfZE1QWmVVeDh6R1hvUll2T3pHTkhTYzg1ZmwtSjJ1XzBhWjZQT3E3WGVBOHcwT3l3WjRFT1pnTVppV2lEWlkzcW9IbzdB?oc=5) — **외 9건**(10개 매체)
-- (4) 11-03 남도방송 — [고의로 자해해 보험금 9억 챙겼다… 보험설계사 등 5명 검거](https://news.google.com/rss/articles/CBMib0FVX3lxTE11VlJoRHg5WUJzRUY5NE1hSXJIZlgtaG5weVdtc3NEbEhRYzY2Y1JXbWNaS0tqMTlSdUhtbkFlWVdYUS05Nk5scnFvNXZBMHRwZkVvbjc1YmhBM09fNm5aUEVZM2RhUU5lUHUzbFFVMNIBb0FVX3lxTE11VlJoRHg5WUJzRUY5NE1hSXJIZlgtaG5weVdtc3NEbEhRYzY2Y1JXbWNaS0tqMTlSdUhtbkFlWVdYUS05Nk5scnFvNXZBMHRwZkVvbjc1YmhBM09fNm5aUEVZM2RhUU5lUHUzbFFVMA?oc=5) — **외 7건**(7개 매체)
+- (4) 11-03 남도방송 — [고의로 자해해 보험금 9억 챙겼다… 보험설계사 등 5명 검거](https://news.google.com/rss/articles/CBMib0FVX3lxTE11VlJoRHg5WUJzRUY5NE1hSXJIZlgtaG5weVdtc3NEbEhRYzY2Y1JXbWNaS0tqMTlSdUhtbkFlWVdYUS05Nk5scnFvNXZBMHRwZkVvbjc1YmhBM09fNm5aUEVZM2RhUU5lUHUzbFFVMNIBb0FVX3lxTE11VlJoRHg5WUJzRUY5NE1hSXJIZlgtaG5weVdtc3NEbEhRYzY2Y1JXbWNaS0tqMTlSdUhtbkFlWVdYUS05Nk5scnFvNXZBMHRwZkVvbjc1YmhBM09fNm5aUEVZM2RhUU5lUHUzbFFVMA?oc=5) — **외 6건**(6개 매체)
 
 **보험업계·상품 출시** (사건 12개)
 - (5) 11-03 시사통신 — [청년 자동차보험료 부담 낮춘다…운전경력 인정·할인 안내 확대](https://news.google.com/rss/articles/CBMia0FVX3lxTE1Ca3dldmg4S1czSklyTjFBY0JvZFFlWGhOWTJ2d1VZZG95OTl3bzQwemo3RVB0al9IbFNYbzZhMzBEV1lIcHFCdGJ5NktTSFNac3ZSdTdyTjlCZmQ5ZWUtQmhaVDd3OU83TlEw0gFrQVVfeXFMTUJrd2V2aDhLVzNKSXJOMUFjQm9kUWVYaE5ZMnZ3VVlkb3k5OXdvNDB6ajdFUHRqX0hsU1hvNmEzMERXWUhwcUJ0Ynk2S1NIU1pzdlJ1N3JOOUJmZDllZS1CaFpUN3c5TzdOUTA?oc=5) — **외 5건**(6개 매체)
@@ -63,7 +63,7 @@
 
 ## [투자·경제] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
-**가상자산** (사건 22개)
+**가상자산** (사건 21개)
 - (12) 10-29 민심뉴스 — [미 연준 금리 동결, 비트코인 8만 달러 돌파 잠시 가능했을까 (+BTC, 금리, FOMC, 비트코인)](https://news.google.com/rss/articles/CBMibEFVX3lxTE1kNjFqVElaQVpkc1NVVjRLTHp0aTlHR25ESUxUN05FeTg3UUJMYnR3YnBkUDlqY0JtU1hibUNNN3FKa3p4eEpjZ0YxUXhyUnR6QlpIZnJsckdCRGJuaElYOUNneXdMVVJDNzNFRw?oc=5) — **외 4건**(5개 매체)
 - (9) 10-29 뉴스핌 — [[코인 시황] 비트코인 8만달러 일시 붕괴…기술주 급락·연준 매파 기조에 위험자산 매도 확산](https://news.google.com/rss/articles/CBMiXEFVX3lxTE41X0NEbWJRd3NVR0hTbnFMUVVCakE5TWwzajVNYVFMa2QxZUhUZjlvTjJFdVhWaFFiOThxcFl6QzdxT2JzZlZRUk1lRGxlT003aHZoYmZGSG9TZVFx?oc=5) — **외 3건**(2개 매체)
 - (10) 10-29 신아일보 — [[07:49 가상자산] 비트코인, FOMC 동결·현물 ETF 자금 유입에 반등](https://news.google.com/rss/articles/CBMicEFVX3lxTFBLSVRpMzdhN0lzNUVXQXlmX0loTjBodFlSVG9QTlczdm83QkZ1anY4TThpUTVfaDJaZ0o3YnYwWEVsdEVhWkY1d0l5VmtRWDV2ZzJLdklhbUVpMURKcG5YOXpNb3VKcTQxLW93NHhJYkQ?oc=5) — **외 1건**(2개 매체)
@@ -78,7 +78,7 @@
 - (13) 10-29 중기이코노미 — [코스피 급등세에도 원달러 환율 1330원대 상승 마감](https://news.google.com/rss/articles/CBMiakFVX3lxTE83MDhCNnJKaVB5eGtaM25DdG5ob2E2c290dUpNVFUxX0hqVVJZNWYyOGZLSTB3a3FHQWZxQXpBQUFFRTJOeDlJVEdobEt3MmtMSjF0SHZGU2xENFRsRXJqUUNZTUYtc1M5d3c?oc=5) — **외 3건**(3개 매체)
 - (11) 11-03 지데일리 — [코스피·코스닥 동반 급락…삼성전자·SK하이닉스도 흔들 > 뉴스](https://news.google.com/rss/articles/CBMibEFVX3lxTFA4WEtVclNtbmtHSFFIV1ZNRjhLeV9uMkliUEtyeE9uM1VuZ0hCNFVxMDVsV2VvR1ZSMHEzT0hMcEtBanRib2JfTHVpeXRPX2hXLWdDYzczaHljZDBQN3BUcUhuZ1Y4MFQtczZjcg?oc=5) — **외 5건**(5개 매체)
 
-**금리·중앙은행** (사건 26개)
+**금리·중앙은행** (사건 27개)
 - (12) 11-03 뉴스핌 — [[채권/외환] 이란 종전 협상 기대에 유가 급락…美 국채 금리·달러 동반 하락](https://news.google.com/rss/articles/CBMiXEFVX3lxTE82dENRRmtaRXBvYm1XRFA0SlFtX2FFeXBqNTBPZ1hLZVc3QVEtblVUWWpiMV9YOUI1eXRKUlRvY3ZWNVJwSTFtOEN0VEZKZ0dyR2ViRDN4X0M5eEk0?oc=5) — **외 9건**(6개 매체)
 - (13) 10-31 블록미디어 — [[뉴욕 금·채권·달러] 국채금리·달러 혼조 속 금값 3.66% 급락…기술주 투매 영향](https://news.google.com/rss/articles/CBMiWEFVX3lxTE40UzBWaE1aYzdjdVRBcUpEUnB5Ukk5d01paWRYbEFsVlo5V3RBQTNCaUJJMUh2aHVCNUhBMjdLUkxPMjVuX2hJWmNXekVEYllucEpxdlhfMTA?oc=5) — **외 4건**(1개 매체)
 - (12) 10-30 www.tmgm.com — [금값, 미국 GDP 호조에 연준 금리 인상 전망 강화되며 4,000달러 부근으로 하락](https://news.google.com/rss/articles/CBMixgFBVV95cUxPaXhwLTh5a2k0Uk9yV3FxOVBiWkR2TlVtS0w1c0dxaFNGOVVTY3plMThjdkg3Y3lxZGcyVmx4ZHZpYUxkN1JPY3pENWRhLUNLcjF4bXF1ZG5fejVVNDRYUmpGb1hFaURvaGVkN2IwMHBZZUFwdlZNYWRvQVRrNFh4YjJhdUI3SlB0cWJIaTduell4bk5HTmRodEY0OEgyYlRyU2lOUmVLdkxUbGNObm9kUjhTTnJWZUxqdnlFdkc0YU54cjMta3c?oc=5) — **외 4건**(1개 매체)
@@ -123,6 +123,9 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
+- 11-05 MarketWatch — [Watch out for Big Tech companies like Meta and Alphabet issuing more shares and diluting your stock ownership](https://www.marketwatch.com/story/watch-out-for-big-tech-companies-like-meta-and-alphabet-issuing-more-shares-and-diluting-your-stock-ownership-283e8c96?mod=mw_rss_topstories)
+- 11-05 MarketWatch — [Hospital stocks rally while drugmakers brace for scrutiny. Here’s what the Democratic wave means for healthcare.](https://www.marketwatch.com/story/hospital-stocks-rally-while-drugmakers-brace-for-scrutiny-heres-what-the-democratic-wave-means-for-healthcare-625b79f3?mod=mw_rss_topstories)
+- 11-05 MarketWatch — [What Trump can achieve without approval from a Democratic-led Congress](https://www.marketwatch.com/story/what-trump-can-achieve-without-approval-from-a-democratic-led-congress-3401de75?mod=mw_rss_topstories)
 - 11-05 MarketWatch — [The U.S. economy is barreling ahead — but there’s one big problem](https://www.marketwatch.com/story/the-u-s-economy-is-barreling-ahead-but-theres-one-big-problem-6d62e3b3?mod=mw_rss_topstories)
 - 11-05 CNBC — [Trump hammers Fox News, blaming network for GOP losses as ratings slide](https://www.cnbc.com/2026/11/04/trump-fox-news-gop-midterm-losses.html)
 - 11-05 CNBC — [Kraft Heinz to divest its North American coffee business in $650 million deal](https://www.cnbc.com/2026/11/04/kraft-heinz-coffee-business-one-rock-deal.html)
@@ -132,10 +135,7 @@
 - 11-05 MarketWatch — [Three things that explain what’s changing with Obamacare in 2027](https://www.marketwatch.com/story/three-things-that-explain-whats-changing-with-obamacare-in-2027-7c94585b?mod=mw_rss_topstories)
 - 11-04 CNBC — [CVS to split off drugstore business in major breakup of healthcare giant; shares fall 10%](https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html)
 - 11-04 MarketWatch — [Big Tech’s $500 billion spending spree leaves a lot less for shareholders](https://www.marketwatch.com/story/big-techs-500-billion-spending-spree-leaves-a-lot-less-for-shareholders-4ed57fb5?mod=mw_rss_topstories)
-- 11-04 MarketWatch — [ADP says businesses added 86,000 jobs in October. The labor market shows small signs of improvement.](https://www.marketwatch.com/story/adp-says-businesses-add-86-000-jobs-in-october-labor-market-shows-small-signs-of-improvement-64c89fd3?mod=mw_rss_topstories)
-- 11-04 MarketWatch — [Tesla and SpaceX shares slide as Musk’s political push falls flat](https://www.marketwatch.com/story/tesla-and-spacex-shares-slide-as-musks-political-push-falls-flat-c15d29a3?mod=mw_rss_topstories)
-- 11-04 MarketWatch — [Treasury opens the door to changes in how it finances the growing U.S. debt. Here’s what you need to know.](https://www.marketwatch.com/story/treasury-opens-the-door-to-changes-in-how-it-finances-the-growing-u-s-debt-heres-what-you-need-to-know-6001f7e1?mod=mw_rss_topstories)
 
 ## 언론사별 건수 상위 15
 
-토큰포스트 681, 머니투데이 400, 파이낸셜뉴스 전체 365, 연합뉴스 마켓 340, 인포맥스 317, 코인리더스 275, 아시아경제 270, 한국경제 금융 236, 뉴시스 금융 229, 조선비즈 226, 조선 경제 201, 뉴스1 191, 뉴시스 국제 186, 이데일리 179, 뉴스핌 176
+토큰포스트 679, 머니투데이 401, 파이낸셜뉴스 전체 365, 연합뉴스 마켓 340, 인포맥스 316, 코인리더스 275, 아시아경제 270, 한국경제 금융 235, 뉴시스 금융 229, 조선비즈 226, 조선 경제 200, 뉴스1 191, 뉴시스 국제 185, 이데일리 178, 뉴스핌 177
