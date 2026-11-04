@@ -1,6 +1,6 @@
 # 경제·보험 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-05 01:05 KST  /  최근 7일 15839건 (보험·의료 3942 · 투자·경제 11788)  /  이번 신규 324건
+- 갱신: 2026-11-05 02:05 KST  /  최근 7일 15836건 (보험·의료 3942 · 투자·경제 11784)  /  이번 신규 291건
 - 소스 62곳 + 구글뉴스 키워드 90개(보험·의료 45 · 투자·경제 45)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
 - 수집 실패 소스: 없음
@@ -25,7 +25,7 @@
 **국민연금·퇴직연금** (사건 80개)
 - (6) 11-03 비욘드포스트 — [하나증권, 퇴직연금 'ETF 모으기' 출시…DC·IRP서 자동 적립식 투자](https://news.google.com/rss/articles/CBMifEFVX3lxTE5CeVZXTnF5NEoyS2lCaDhzbmItVnZ6Ym0wSFg2cldRa3Q1OW5kVk9WNlBnVGRFcTdNTEFaYzVoZGVjeVpSMkI2RG5zNE1ab28wTEZJUDFCSTNuZXN3V05HRnNZWTI3TVNHU1BXTzFaZHByQ0xISlFUcWUwOW4?oc=5) — **외 20건**(21개 매체)
 - (5) 11-03 비즈월드 — [금감원, '퇴직연금 장기·분산투자 캠페인' 시작](https://news.google.com/rss/articles/CBMiakFVX3lxTE5GOTFLVHdXZXZpbEJ5V0xEeVBzYUZuX1VRd2J5eFI2OTJKM21Ud2lsRzdrTUJIQWRDUFo2X1dwNmdTNlQxc2ROdTFrNTVjMkpkUUJWWHBOTkRocThhLWtYREM1OXlaYWpjRXc?oc=5) — **외 14건**(14개 매체)
-- (4) 11-04 더퍼블릭 — [한국투자증권, 퇴직연금 디폴트옵션 3년 수익률 100% 돌파…업계 1위](https://news.google.com/rss/articles/CBMib0FVX3lxTE5rMDJFRHpzRjF4UGFlLVJGVi1XQnVTMW1vN3ktR2RydHdZdjZjYTNpRmNVU29lQkdKLTVYQVgySFlhTVF5ZWdhVFRMcWF4WjlXemk0cjJrNi0yM3l3RDZBUmN1b0xBTzNpSkxVdjlWMNIBb0FVX3lxTE5rMDJFRHpzRjF4UGFlLVJGVi1XQnVTMW1vN3ktR2RydHdZdjZjYTNpRmNVU29lQkdKLTVYQVgySFlhTVF5ZWdhVFRMcWF4WjlXemk0cjJrNi0yM3l3RDZBUmN1b0xBTzNpSkxVdjlWMA?oc=5) — **외 17건**(16개 매체)
+- (4) 11-04 더퍼블릭 — [한국투자증권, 퇴직연금 디폴트옵션 3년 수익률 100% 돌파…업계 1위](https://news.google.com/rss/articles/CBMib0FVX3lxTE5rMDJFRHpzRjF4UGFlLVJGVi1XQnVTMW1vN3ktR2RydHdZdjZjYTNpRmNVU29lQkdKLTVYQVgySFlhTVF5ZWdhVFRMcWF4WjlXemk0cjJrNi0yM3l3RDZBUmN1b0xBTzNpSkxVdjlWMNIBb0FVX3lxTE5rMDJFRHpzRjF4UGFlLVJGVi1XQnVTMW1vN3ktR2RydHdZdjZjYTNpRmNVU29lQkdKLTVYQVgySFlhTVF5ZWdhVFRMcWF4WjlXemk0cjJrNi0yM3l3RDZBUmN1b0xBTzNpSkxVdjlWMA?oc=5) — **외 18건**(17개 매체)
 
 **보험금 분쟁·판결** (사건 26개)
 - (7) 11-03 남도일보 — [자해하고 보험금 청구…9억 챙긴 보험사기 일당 ‘덜미’](https://news.google.com/rss/articles/CBMibEFVX3lxTE1EUXpoTTJGbjBCajJXZEk5ZXlDYWtncnlUMDBqYWZvMDNxTW0zMGtncmhzc01wR3BMMlNuZHR1UGdTTTlGT0JZeEhEMC1sbjFzTjJXem5DdjlfNEdOVnNWMHQ0WnZ3dkZVVUwtR9IBcEFVX3lxTE8teUExVTB0SHhFZnItRDVpYnBJQWV6eFBoYnRCTjl4S1pYWTFlQ1RUTEk0RVpLWkVUUWVybDZ6VDROclp3TkZDd2F4ZzlkQWprN05PRzRBY3RvRGtjUmMxN05sQWtDV05sbmVwUFZpQnU?oc=5) — **외 4건**(5개 매체)
@@ -81,7 +81,7 @@
 **금리·중앙은행** (사건 26개)
 - (12) 11-03 뉴스핌 — [[채권/외환] 이란 종전 협상 기대에 유가 급락…美 국채 금리·달러 동반 하락](https://news.google.com/rss/articles/CBMiXEFVX3lxTE82dENRRmtaRXBvYm1XRFA0SlFtX2FFeXBqNTBPZ1hLZVc3QVEtblVUWWpiMV9YOUI1eXRKUlRvY3ZWNVJwSTFtOEN0VEZKZ0dyR2ViRDN4X0M5eEk0?oc=5) — **외 9건**(6개 매체)
 - (13) 10-31 블록미디어 — [[뉴욕 금·채권·달러] 국채금리·달러 혼조 속 금값 3.66% 급락…기술주 투매 영향](https://news.google.com/rss/articles/CBMiWEFVX3lxTE40UzBWaE1aYzdjdVRBcUpEUnB5Ukk5d01paWRYbEFsVlo5V3RBQTNCaUJJMUh2aHVCNUhBMjdLUkxPMjVuX2hJWmNXekVEYllucEpxdlhfMTA?oc=5) — **외 4건**(1개 매체)
-- (12) 10-30 www.tmgm.com — [금값, 미국 GDP 호조에 연준 금리 인상 전망 강화되며 4,000달러 부근으로 하락](https://news.google.com/rss/articles/CBMixgFBVV95cUxPaXhwLTh5a2k0Uk9yV3FxOVBiWkR2TlVtS0w1c0dxaFNGOVVTY3plMThjdkg3Y3lxZGcyVmx4ZHZpYUxkN1JPY3pENWRhLUNLcjF4bXF1ZG5fejVVNDRYUmpGb1hFaURvaGVkN2IwMHBZZUFwdlZNYWRvQVRrNFh4YjJhdUI3SlB0cWJIaTduell4bk5HTmRodEY0OEgyYlRyU2lOUmVLdkxUbGNObm9kUjhTTnJWZUxqdnlFdkc0YU54cjMta3c?oc=5) — **외 5건**(2개 매체)
+- (12) 10-30 www.tmgm.com — [금값, 미국 GDP 호조에 연준 금리 인상 전망 강화되며 4,000달러 부근으로 하락](https://news.google.com/rss/articles/CBMixgFBVV95cUxPaXhwLTh5a2k0Uk9yV3FxOVBiWkR2TlVtS0w1c0dxaFNGOVVTY3plMThjdkg3Y3lxZGcyVmx4ZHZpYUxkN1JPY3pENWRhLUNLcjF4bXF1ZG5fejVVNDRYUmpGb1hFaURvaGVkN2IwMHBZZUFwdlZNYWRvQVRrNFh4YjJhdUI3SlB0cWJIaTduell4bk5HTmRodEY0OEgyYlRyU2lOUmVLdkxUbGNObm9kUjhTTnJWZUxqdnlFdkc0YU54cjMta3c?oc=5) — **외 4건**(1개 매체)
 
 **환율·달러** (사건 11개)
 - (13) 10-30 중기이코노미 — [원달러 환율 하락 전환…국제유가와 금값 동반 약세](https://news.google.com/rss/articles/CBMiakFVX3lxTE84eGdUQU5oWVJkSlAyelBaM21xYWRqQUhLcGVnUUNzemI4NjZCVDBMS3JKOWxaY3lITTBJRnJhbl9nelY5a1hLeE4tRWVvWUpwd3dDbzJvelptbjRWRW8yUVU1NVdsZmlWZ3c?oc=5)
@@ -123,6 +123,7 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
+- 11-05 MarketWatch — [The U.S. economy is barreling ahead — but there’s one big problem](https://www.marketwatch.com/story/the-u-s-economy-is-barreling-ahead-but-theres-one-big-problem-6d62e3b3?mod=mw_rss_topstories)
 - 11-05 CNBC — [Trump hammers Fox News, blaming network for GOP losses as ratings slide](https://www.cnbc.com/2026/11/04/trump-fox-news-gop-midterm-losses.html)
 - 11-05 CNBC — [Kraft Heinz to divest its North American coffee business in $650 million deal](https://www.cnbc.com/2026/11/04/kraft-heinz-coffee-business-one-rock-deal.html)
 - 11-05 MarketWatch — [Micron and other chip stocks slip as election results strike at the core of data-center optimism](https://www.marketwatch.com/story/micron-and-other-chip-stocks-slip-as-election-results-strike-at-the-core-of-data-center-optimism-b55d19b3?mod=mw_rss_topstories)
@@ -134,8 +135,7 @@
 - 11-04 MarketWatch — [ADP says businesses added 86,000 jobs in October. The labor market shows small signs of improvement.](https://www.marketwatch.com/story/adp-says-businesses-add-86-000-jobs-in-october-labor-market-shows-small-signs-of-improvement-64c89fd3?mod=mw_rss_topstories)
 - 11-04 MarketWatch — [Tesla and SpaceX shares slide as Musk’s political push falls flat](https://www.marketwatch.com/story/tesla-and-spacex-shares-slide-as-musks-political-push-falls-flat-c15d29a3?mod=mw_rss_topstories)
 - 11-04 MarketWatch — [Treasury opens the door to changes in how it finances the growing U.S. debt. Here’s what you need to know.](https://www.marketwatch.com/story/treasury-opens-the-door-to-changes-in-how-it-finances-the-growing-u-s-debt-heres-what-you-need-to-know-6001f7e1?mod=mw_rss_topstories)
-- 11-04 MarketWatch — [Datadog’s stock extends steep declines in the wake of earnings](https://www.marketwatch.com/story/datadogs-stock-extends-steep-declines-in-the-wake-of-earnings-af412874?mod=mw_rss_topstories)
 
 ## 언론사별 건수 상위 15
 
-토큰포스트 682, 머니투데이 400, 파이낸셜뉴스 전체 365, 연합뉴스 마켓 340, 인포맥스 317, 코인리더스 275, 아시아경제 270, 한국경제 금융 236, 뉴시스 금융 229, 조선비즈 225, 조선 경제 201, 뉴스1 191, 뉴시스 국제 186, 이데일리 179, 뉴스핌 176
+토큰포스트 681, 머니투데이 400, 파이낸셜뉴스 전체 365, 연합뉴스 마켓 340, 인포맥스 317, 코인리더스 275, 아시아경제 270, 한국경제 금융 236, 뉴시스 금융 229, 조선비즈 226, 조선 경제 201, 뉴스1 191, 뉴시스 국제 186, 이데일리 179, 뉴스핌 176
