@@ -1,9 +1,9 @@
 # 경제·보험 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-05 04:05 KST  /  최근 7일 15800건 (보험·의료 3944 · 투자·경제 11742)  /  이번 신규 311건
+- 갱신: 2026-11-05 05:05 KST  /  최근 7일 15783건 (보험·의료 3940 · 투자·경제 11729)  /  이번 신규 302건
 - 소스 62곳 + 구글뉴스 키워드 90개(보험·의료 45 · 투자·경제 45)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 없음
+- 수집 실패 소스: 머니투데이
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
@@ -71,10 +71,10 @@
 **미국·해외 증시** (사건 77개)
 - (14) 11-03 뉴스핌 — [뉴욕증시, 혼조 마감…유가 급락에도 반도체 약세에 나스닥 1.07%↓](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jaEVha0VKTnl5V1lmajF6OEpkZXVoWHlZcUZkOU5SM3ZYYjZ2b0xvSklKOXdOV0tzanF4Y2M0SnBna3VsNzN6MjVUc3YtVWlGSThoWkpoTWNaQV9G?oc=5) — **외 54건**(40개 매체)
 - (15) 10-29 퍼블릭타임스 — [뉴욕증시,연준 금리 동결 3대 지수 상승 나스닥 0.27%↑…국제유가 WTI 2.88%↑](https://news.google.com/rss/articles/CBMiakFVX3lxTE5nWXV4TFo0aG9GWFNvRE91dUgya3hqZ3lvbE9uQkJva2VjLTFvLUM2YWRmdEJfa2V3Qm9KWHBhYjcwUVdXRzFTSk04UVk5MzU5ejJvUWVuS21kTWkza3gyVmV3RTFWQW9oc0HSAW5BVV95cUxQZ2NGQUYxQTdXeVd5eFBrQVJVY0hQQmRxZ0NmTG1zTmgyZHRCMDBoT1NyVGhRT1F0eXNtTEEwNDd3cDZBMmdERU5jLTVtRVphd3dteHJmTXRwcjBfZjAxZF9lTXotbmo2OWdPaTdqQQ?oc=5) — **외 21건**(19개 매체)
-- (15) 10-29 뉴스로드 — [연준, 기준금리 동결에 뉴욕증시 3거래일 연속 상승…AI·반도체 랠리 재점화](https://news.google.com/rss/articles/CBMib0FVX3lxTE0xMWRLWkhiY2hvVXBndDQyREVQUWxldVNHZUFNamFtdGRpZWpaS2o1eTBLei1lMDFpZFJ6eFN1TFA5enFRNlRuekkxeFAwUWttQmNNNFpDNUdXTWdYdUoybUxESGRQQ05KTnk4R1FGUdIBb0FVX3lxTE0xMWRLWkhiY2hvVXBndDQyREVQUWxldVNHZUFNamFtdGRpZWpaS2o1eTBLei1lMDFpZFJ6eFN1TFA5enFRNlRuekkxeFAwUWttQmNNNFpDNUdXTWdYdUoybUxESGRQQ05KTnk4R1FGUQ?oc=5) — **외 14건**(14개 매체)
+- (15) 10-29 뉴스로드 — [연준, 기준금리 동결에 뉴욕증시 3거래일 연속 상승…AI·반도체 랠리 재점화](https://news.google.com/rss/articles/CBMib0FVX3lxTE0xMWRLWkhiY2hvVXBndDQyREVQUWxldVNHZUFNamFtdGRpZWpaS2o1eTBLei1lMDFpZFJ6eFN1TFA5enFRNlRuekkxeFAwUWttQmNNNFpDNUdXTWdYdUoybUxESGRQQ05KTnk4R1FGUdIBb0FVX3lxTE0xMWRLWkhiY2hvVXBndDQyREVQUWxldVNHZUFNamFtdGRpZWpaS2o1eTBLei1lMDFpZFJ6eFN1TFA5enFRNlRuekkxeFAwUWttQmNNNFpDNUdXTWdYdUoybUxESGRQQ05KTnk4R1FGUQ?oc=5) — **외 13건**(14개 매체)
 
 **국내 증시** (사건 58개)
-- (16) 10-30 톱스타뉴스 — [[증시 시황] 코스피 5.21% 급락…구글 AI 투자 우려에 삼성전자·SK하이닉스 폭락, 매도 사이드카 발동](https://news.google.com/rss/articles/CBMickFVX3lxTE1WZmJUcUpITHU4ZDZKekl4TS1WVnpnaGpld09TZHpzZHdGb20zb3VLUWxmRlB0bU1ic3cxTi1PbGFVcVlxZW0yd25VbUFOZDlPTG5NME80Nm9SU0M2eG0tLV9sMHNHTTdQelQ3V09aalhCdw?oc=5) — **외 71건**(54개 매체)
+- (16) 10-30 톱스타뉴스 — [[증시 시황] 코스피 5.21% 급락…구글 AI 투자 우려에 삼성전자·SK하이닉스 폭락, 매도 사이드카 발동](https://news.google.com/rss/articles/CBMickFVX3lxTE1WZmJUcUpITHU4ZDZKekl4TS1WVnpnaGpld09TZHpzZHdGb20zb3VLUWxmRlB0bU1ic3cxTi1PbGFVcVlxZW0yd25VbUFOZDlPTG5NME80Nm9SU0M2eG0tLV9sMHNHTTdQelQ3V09aalhCdw?oc=5) — **외 72건**(55개 매체)
 - (13) 10-29 중기이코노미 — [코스피 급등세에도 원달러 환율 1330원대 상승 마감](https://news.google.com/rss/articles/CBMiakFVX3lxTE83MDhCNnJKaVB5eGtaM25DdG5ob2E2c290dUpNVFUxX0hqVVJZNWYyOGZLSTB3a3FHQWZxQXpBQUFFRTJOeDlJVEdobEt3MmtMSjF0SHZGU2xENFRsRXJqUUNZTUYtc1M5d3c?oc=5) — **외 3건**(3개 매체)
 - (11) 11-03 지데일리 — [코스피·코스닥 동반 급락…삼성전자·SK하이닉스도 흔들 > 뉴스](https://news.google.com/rss/articles/CBMibEFVX3lxTFA4WEtVclNtbmtHSFFIV1ZNRjhLeV9uMkliUEtyeE9uM1VuZ0hCNFVxMDVsV2VvR1ZSMHEzT0hMcEtBanRib2JfTHVpeXRPX2hXLWdDYzczaHljZDBQN3BUcUhuZ1Y4MFQtczZjcg?oc=5) — **외 5건**(5개 매체)
 
@@ -123,6 +123,9 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
+- 11-05 CNBC — [CVS Health plans to split itself up. Here's why a breakup could make sense now](https://www.cnbc.com/2026/11/04/cvs-health-pharmacy-aetna-split.html)
+- 11-05 CNBC — [New Flutter CEO bets on FanDuel promotions to win customers as profits suffer](https://www.cnbc.com/2026/11/04/flutter-fanduel-promotions-q3-2026.html)
+- 11-05 MarketWatch — [4 market-moving issues investors should watch now that the midterms are over](https://www.marketwatch.com/story/4-market-moving-issues-investors-should-watch-now-that-the-midterms-are-over-9a77b3de?mod=mw_rss_topstories)
 - 11-05 MarketWatch — [SpaceX’s Qualcomm deal could be a precursor to a telecom takeover](https://www.marketwatch.com/story/qualcomm-sat-out-the-semiconductor-rally-can-a-spacex-partnership-change-that-5bb4c0b2?mod=mw_rss_topstories)
 - 11-05 MarketWatch — [‘I have no financial safety net’: I’m 66, rely on Social Security and have $500 in savings. What politician speaks for me?](https://www.marketwatch.com/story/i-have-no-financial-safety-net-im-66-rely-on-social-security-and-have-500-in-savings-what-politician-speaks-for-me-be2126cb?mod=mw_rss_topstories)
 - 11-05 MarketWatch — [These stocks have soared the most today after the Democrats trounced Trump](https://www.marketwatch.com/story/these-stocks-have-soared-the-most-today-after-the-democrats-trounced-trump-9d785314?mod=mw_rss_topstories)
@@ -132,10 +135,7 @@
 - 11-05 MarketWatch — [What Trump can achieve without approval from a Democratic-led Congress](https://www.marketwatch.com/story/what-trump-can-achieve-without-approval-from-a-democratic-led-congress-3401de75?mod=mw_rss_topstories)
 - 11-05 MarketWatch — [The U.S. economy is barreling ahead — but there’s one big problem](https://www.marketwatch.com/story/the-u-s-economy-is-barreling-ahead-but-theres-one-big-problem-6d62e3b3?mod=mw_rss_topstories)
 - 11-05 CNBC — [Trump hammers Fox News, blaming network for GOP losses as ratings slide](https://www.cnbc.com/2026/11/04/trump-fox-news-gop-midterm-losses.html)
-- 11-05 CNBC — [Kraft Heinz to divest its North American coffee business in $650 million deal](https://www.cnbc.com/2026/11/04/kraft-heinz-coffee-business-one-rock-deal.html)
-- 11-05 MarketWatch — [Micron and other chip stocks slip as election results strike at the core of data-center optimism](https://www.marketwatch.com/story/micron-and-other-chip-stocks-slip-as-election-results-strike-at-the-core-of-data-center-optimism-b55d19b3?mod=mw_rss_topstories)
-- 11-05 MarketWatch — [Qualcomm sat out the semiconductor rally. Can a SpaceX partnership change that?](https://www.marketwatch.com/story/qualcomm-sat-out-the-semiconductor-rally-can-a-spacex-partnership-change-that-5bb4c0b2?mod=mw_rss_topstories)
 
 ## 언론사별 건수 상위 15
 
-토큰포스트 681, 머니투데이 404, 파이낸셜뉴스 전체 366, 연합뉴스 마켓 341, 인포맥스 317, 코인리더스 277, 아시아경제 269, 한국경제 금융 235, 뉴시스 금융 229, 조선비즈 226, 조선 경제 200, 뉴스1 188, 뉴시스 국제 183, 이데일리 180, 뉴스핌 174
+토큰포스트 690, 머니투데이 402, 파이낸셜뉴스 전체 368, 연합뉴스 마켓 340, 인포맥스 318, 코인리더스 279, 아시아경제 269, 한국경제 금융 233, 뉴시스 금융 229, 조선비즈 226, 조선 경제 202, 뉴스1 186, 뉴시스 국제 179, 이데일리 177, 뉴스핌 174
