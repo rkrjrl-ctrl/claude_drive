@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T07:05+09:00",
+"updated": "2026-11-05T08:05+09:00",
 "items": [
 {
 "kind": "gov",
@@ -2073,6 +2073,110 @@
 "브리핑",
 "압승에",
 "증시"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.hankyung.com/article/2026110568957",
+"t": "2026-11-05T08:05+09:00",
+"tok": [
+"18개월",
+"급등",
+"다우",
+"만에",
+"민주당",
+"상승",
+"압승에",
+"최대폭"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261105_0003855482",
+"t": "2026-11-05T08:05+09:00",
+"tok": [
+"2명",
+"사망",
+"시티뱅크에서",
+"용의자",
+"총격",
+"템파",
+"플로리다주"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261105_0003855449",
+"t": "2026-11-05T08:05+09:00",
+"tok": [
+"614",
+"6억",
+"9월",
+"경상수지",
+"달러",
+"역대",
+"최대"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.fnnews.com/news/202611050757595379",
+"t": "2026-11-05T08:05+09:00",
+"tok": [
+"600억달러",
+"경상수지",
+"넘었다",
+"랠리에",
+"반도체",
+"역대",
+"최대"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQlFINF81VzIzYXdqV0RqQTlCTVRFN0gxdUZ6Mks0LXJSaV81Tkd2aldWRklvdnczYTdyUldMM2ZUNklxbXlwZ3RyVTQybFhoQ2YyODlicFFqWmphM0lUcjhfOFVaVjdRWFF0bjhQM004NU9ERVZrQXlJRG5uMVhHYg?oc=5",
+"t": "2026-11-05T08:05+09:00",
+"tok": [
+"4배",
+"600억달러",
+"9개월",
+"경상흑자",
+"누적",
+"돌파",
+"동기",
+"작년"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05OWlNcC16dzl5MDFJMU1RLXRjWThhVVlka1Z2ZjlMQUtvaDFRb2tBRmhDaW1ZTTNINFg2MGNEdnFBNEU1N2d1RERGRWVFT29JcUV0a0xxZy1nV2REUXpZN2lENUE2QXBORjdPaFNVclJhWnNM?oc=5",
+"t": "2026-11-05T08:05+09:00",
+"tok": [
+"1위",
+"614억6000만달러",
+"9월",
+"경상수지",
+"경신",
+"역대",
+"흑자"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5yZWVheVl0RjhmTkVMYkdZZXZDTUQ0QTVHaUxtN05DWDRvNG1ITDFnMDBfMVZYdTVNOWpQbU5ZZ24td1dKREFaWlBHZEI2Z1pRVHFYeGdqZXJTMUlSeEFvQlBkOXQtVXhH?oc=5",
+"t": "2026-11-05T08:05+09:00",
+"tok": [
+"03",
+"P500",
+"급등",
+"나스닥",
+"뉴욕증시",
+"다우",
+"동반",
+"민주당",
+"상승",
+"장악에",
+"하원"
 ]
 }
 ]
