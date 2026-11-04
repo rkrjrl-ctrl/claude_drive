@@ -1,9 +1,9 @@
 # 경제·보험 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-04 23:05 KST  /  최근 7일 15825건 (보험·의료 3954 · 투자·경제 11762)  /  이번 신규 347건
+- 갱신: 2026-11-05 00:07 KST  /  최근 7일 15842건 (보험·의료 3951 · 투자·경제 11782)  /  이번 신규 323건
 - 소스 62곳 + 구글뉴스 키워드 90개(보험·의료 45 · 투자·경제 45)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 머니투데이
+- 수집 실패 소스: 한국경제 국제, 한국경제 금융, 한국경제 경제, 한국경제 부동산
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
@@ -49,6 +49,8 @@
 - 11-04 [금융위원회] [한국, 아시아지배구조협회(ACGA) 기업지배구조 순위 역대급 ‘5위’ 달성. 금일 등록된 게시글](https://www.fsc.go.kr/no010101/88084)
 - 11-04 [금융위원회] [홍콩 H지수 ELS 관련 은행·증권사 검사 결과 조치 - 제19차 금융위원회(11.4.) 의결. 금일 등록된 게시글](https://www.fsc.go.kr/no010101/88082)
 - 11-04 [금융위원회] [계리가정보고서 도입 등 ｢보험업감독규정｣ 개정안 금융위원회 의결. 금일 등록된 게시글](https://www.fsc.go.kr/no010101/88081)
+- 11-04 [금융위원회] [한국, 아시아지배구조협회(ACGA) 기업지배구조 순위 역대급 ‘5위’ 달성](https://www.fsc.go.kr/no010101/88084)
+- 11-04 [금융위원회] [홍콩 H지수 ELS 관련 은행·증권사 검사 결과 조치 - 제19차 금융위원회(11.4.) 의결](https://www.fsc.go.kr/no010101/88082)
 - 11-03 [보건복지부] [응급실 등 필수의료분야 수사 가이드라인 마련 추진](https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492425&act=view)
 - 11-03 [보건복지부] [생활공간에서 의료서비스 받는다, 전국 최초 의료집중형 장애인거주시설 대전 ‘로뎀’ 개소](https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492422&act=view)
 - 11-03 [보건복지부] [민관이 함께 자살예방·생명존중 위해 협력](https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492421&act=view)
@@ -58,35 +60,33 @@
 - 11-03 [금융감독원 보도자료] [제1회 퇴직연금 장기투자 캠페인 출범식 개최](https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249713&menuNo=200218&pageIndex=1)
 - 11-03 [금융감독원 보도자료] [금감원장, 임원회의(11.3.) 당부사항](https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249709&menuNo=200218&pageIndex=1)
 - 11-03 [금융감독원 보도자료] [코너스톤투자자 제도 등 도입 관련 자본시장법 시행령 개정안 국무회의 의결](https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249707&menuNo=200218&pageIndex=1)
-- 11-03 [금융위원회] [2027년 금융위원회 예산안에 대해 자세히 설명드립니다.. 금일 등록된 게시글](https://www.fsc.go.kr/no010101/88074)
-- 11-03 [금융위원회] [2027년 금융위원회 예산안에 대해 자세히 설명드립니다.](https://www.fsc.go.kr/no010101/88074)
 
 ## [투자·경제] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
-**가상자산** (사건 23개)
+**가상자산** (사건 24개)
 - (12) 10-29 민심뉴스 — [미 연준 금리 동결, 비트코인 8만 달러 돌파 잠시 가능했을까 (+BTC, 금리, FOMC, 비트코인)](https://news.google.com/rss/articles/CBMibEFVX3lxTE1kNjFqVElaQVpkc1NVVjRLTHp0aTlHR25ESUxUN05FeTg3UUJMYnR3YnBkUDlqY0JtU1hibUNNN3FKa3p4eEpjZ0YxUXhyUnR6QlpIZnJsckdCRGJuaElYOUNneXdMVVJDNzNFRw?oc=5) — **외 5건**(6개 매체)
 - (9) 10-29 뉴스핌 — [[코인 시황] 비트코인 8만달러 일시 붕괴…기술주 급락·연준 매파 기조에 위험자산 매도 확산](https://news.google.com/rss/articles/CBMiXEFVX3lxTE41X0NEbWJRd3NVR0hTbnFMUVVCakE5TWwzajVNYVFMa2QxZUhUZjlvTjJFdVhWaFFiOThxcFl6QzdxT2JzZlZRUk1lRGxlT003aHZoYmZGSG9TZVFx?oc=5) — **외 3건**(2개 매체)
 - (10) 10-29 신아일보 — [[07:49 가상자산] 비트코인, FOMC 동결·현물 ETF 자금 유입에 반등](https://news.google.com/rss/articles/CBMicEFVX3lxTFBLSVRpMzdhN0lzNUVXQXlmX0loTjBodFlSVG9QTlczdm83QkZ1anY4TThpUTVfaDJaZ0o3YnYwWEVsdEVhWkY1d0l5VmtRWDV2ZzJLdklhbUVpMURKcG5YOXpNb3VKcTQxLW93NHhJYkQ?oc=5) — **외 1건**(2개 매체)
 
-**미국·해외 증시** (사건 79개)
+**미국·해외 증시** (사건 78개)
 - (14) 11-03 뉴스핌 — [뉴욕증시, 혼조 마감…유가 급락에도 반도체 약세에 나스닥 1.07%↓](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jaEVha0VKTnl5V1lmajF6OEpkZXVoWHlZcUZkOU5SM3ZYYjZ2b0xvSklKOXdOV0tzanF4Y2M0SnBna3VsNzN6MjVUc3YtVWlGSThoWkpoTWNaQV9G?oc=5) — **외 54건**(40개 매체)
-- (15) 10-29 퍼블릭타임스 — [뉴욕증시,연준 금리 동결 3대 지수 상승 나스닥 0.27%↑…국제유가 WTI 2.88%↑](https://news.google.com/rss/articles/CBMiakFVX3lxTE5nWXV4TFo0aG9GWFNvRE91dUgya3hqZ3lvbE9uQkJva2VjLTFvLUM2YWRmdEJfa2V3Qm9KWHBhYjcwUVdXRzFTSk04UVk5MzU5ejJvUWVuS21kTWkza3gyVmV3RTFWQW9oc0HSAW5BVV95cUxQZ2NGQUYxQTdXeVd5eFBrQVJVY0hQQmRxZ0NmTG1zTmgyZHRCMDBoT1NyVGhRT1F0eXNtTEEwNDd3cDZBMmdERU5jLTVtRVphd3dteHJmTXRwcjBfZjAxZF9lTXotbmo2OWdPaTdqQQ?oc=5) — **외 23건**(21개 매체)
+- (15) 10-29 퍼블릭타임스 — [뉴욕증시,연준 금리 동결 3대 지수 상승 나스닥 0.27%↑…국제유가 WTI 2.88%↑](https://news.google.com/rss/articles/CBMiakFVX3lxTE5nWXV4TFo0aG9GWFNvRE91dUgya3hqZ3lvbE9uQkJva2VjLTFvLUM2YWRmdEJfa2V3Qm9KWHBhYjcwUVdXRzFTSk04UVk5MzU5ejJvUWVuS21kTWkza3gyVmV3RTFWQW9oc0HSAW5BVV95cUxQZ2NGQUYxQTdXeVd5eFBrQVJVY0hQQmRxZ0NmTG1zTmgyZHRCMDBoT1NyVGhRT1F0eXNtTEEwNDd3cDZBMmdERU5jLTVtRVphd3dteHJmTXRwcjBfZjAxZF9lTXotbmo2OWdPaTdqQQ?oc=5) — **외 22건**(20개 매체)
 - (15) 10-29 뉴스로드 — [연준, 기준금리 동결에 뉴욕증시 3거래일 연속 상승…AI·반도체 랠리 재점화](https://news.google.com/rss/articles/CBMib0FVX3lxTE0xMWRLWkhiY2hvVXBndDQyREVQUWxldVNHZUFNamFtdGRpZWpaS2o1eTBLei1lMDFpZFJ6eFN1TFA5enFRNlRuekkxeFAwUWttQmNNNFpDNUdXTWdYdUoybUxESGRQQ05KTnk4R1FGUdIBb0FVX3lxTE0xMWRLWkhiY2hvVXBndDQyREVQUWxldVNHZUFNamFtdGRpZWpaS2o1eTBLei1lMDFpZFJ6eFN1TFA5enFRNlRuekkxeFAwUWttQmNNNFpDNUdXTWdYdUoybUxESGRQQ05KTnk4R1FGUQ?oc=5) — **외 14건**(14개 매체)
 
-**국내 증시** (사건 55개)
-- (16) 10-30 톱스타뉴스 — [[증시 시황] 코스피 5.21% 급락…구글 AI 투자 우려에 삼성전자·SK하이닉스 폭락, 매도 사이드카 발동](https://news.google.com/rss/articles/CBMickFVX3lxTE1WZmJUcUpITHU4ZDZKekl4TS1WVnpnaGpld09TZHpzZHdGb20zb3VLUWxmRlB0bU1ic3cxTi1PbGFVcVlxZW0yd25VbUFOZDlPTG5NME80Nm9SU0M2eG0tLV9sMHNHTTdQelQ3V09aalhCdw?oc=5) — **외 68건**(52개 매체)
+**국내 증시** (사건 56개)
+- (16) 10-30 톱스타뉴스 — [[증시 시황] 코스피 5.21% 급락…구글 AI 투자 우려에 삼성전자·SK하이닉스 폭락, 매도 사이드카 발동](https://news.google.com/rss/articles/CBMickFVX3lxTE1WZmJUcUpITHU4ZDZKekl4TS1WVnpnaGpld09TZHpzZHdGb20zb3VLUWxmRlB0bU1ic3cxTi1PbGFVcVlxZW0yd25VbUFOZDlPTG5NME80Nm9SU0M2eG0tLV9sMHNHTTdQelQ3V09aalhCdw?oc=5) — **외 69건**(52개 매체)
 - (13) 10-29 중기이코노미 — [코스피 급등세에도 원달러 환율 1330원대 상승 마감](https://news.google.com/rss/articles/CBMiakFVX3lxTE83MDhCNnJKaVB5eGtaM25DdG5ob2E2c290dUpNVFUxX0hqVVJZNWYyOGZLSTB3a3FHQWZxQXpBQUFFRTJOeDlJVEdobEt3MmtMSjF0SHZGU2xENFRsRXJqUUNZTUYtc1M5d3c?oc=5) — **외 3건**(3개 매체)
 - (11) 11-03 지데일리 — [코스피·코스닥 동반 급락…삼성전자·SK하이닉스도 흔들 > 뉴스](https://news.google.com/rss/articles/CBMibEFVX3lxTFA4WEtVclNtbmtHSFFIV1ZNRjhLeV9uMkliUEtyeE9uM1VuZ0hCNFVxMDVsV2VvR1ZSMHEzT0hMcEtBanRib2JfTHVpeXRPX2hXLWdDYzczaHljZDBQN3BUcUhuZ1Y4MFQtczZjcg?oc=5) — **외 5건**(5개 매체)
 
-**금리·중앙은행** (사건 27개)
+**금리·중앙은행** (사건 26개)
 - (12) 11-03 뉴스핌 — [[채권/외환] 이란 종전 협상 기대에 유가 급락…美 국채 금리·달러 동반 하락](https://news.google.com/rss/articles/CBMiXEFVX3lxTE82dENRRmtaRXBvYm1XRFA0SlFtX2FFeXBqNTBPZ1hLZVc3QVEtblVUWWpiMV9YOUI1eXRKUlRvY3ZWNVJwSTFtOEN0VEZKZ0dyR2ViRDN4X0M5eEk0?oc=5) — **외 9건**(6개 매체)
-- (12) 10-30 www.tmgm.com — [금값, 미국 GDP 호조에 연준 금리 인상 전망 강화되며 4,000달러 부근으로 하락](https://news.google.com/rss/articles/CBMixgFBVV95cUxPaXhwLTh5a2k0Uk9yV3FxOVBiWkR2TlVtS0w1c0dxaFNGOVVTY3plMThjdkg3Y3lxZGcyVmx4ZHZpYUxkN1JPY3pENWRhLUNLcjF4bXF1ZG5fejVVNDRYUmpGb1hFaURvaGVkN2IwMHBZZUFwdlZNYWRvQVRrNFh4YjJhdUI3SlB0cWJIaTduell4bk5HTmRodEY0OEgyYlRyU2lOUmVLdkxUbGNObm9kUjhTTnJWZUxqdnlFdkc0YU54cjMta3c?oc=5) — **외 6건**(3개 매체)
 - (13) 10-31 블록미디어 — [[뉴욕 금·채권·달러] 국채금리·달러 혼조 속 금값 3.66% 급락…기술주 투매 영향](https://news.google.com/rss/articles/CBMiWEFVX3lxTE40UzBWaE1aYzdjdVRBcUpEUnB5Ukk5d01paWRYbEFsVlo5V3RBQTNCaUJJMUh2aHVCNUhBMjdLUkxPMjVuX2hJWmNXekVEYllucEpxdlhfMTA?oc=5) — **외 4건**(1개 매체)
+- (12) 10-30 www.tmgm.com — [금값, 미국 GDP 호조에 연준 금리 인상 전망 강화되며 4,000달러 부근으로 하락](https://news.google.com/rss/articles/CBMixgFBVV95cUxPaXhwLTh5a2k0Uk9yV3FxOVBiWkR2TlVtS0w1c0dxaFNGOVVTY3plMThjdkg3Y3lxZGcyVmx4ZHZpYUxkN1JPY3pENWRhLUNLcjF4bXF1ZG5fejVVNDRYUmpGb1hFaURvaGVkN2IwMHBZZUFwdlZNYWRvQVRrNFh4YjJhdUI3SlB0cWJIaTduell4bk5HTmRodEY0OEgyYlRyU2lOUmVLdkxUbGNObm9kUjhTTnJWZUxqdnlFdkc0YU54cjMta3c?oc=5) — **외 5건**(2개 매체)
 
 **환율·달러** (사건 11개)
 - (13) 10-30 중기이코노미 — [원달러 환율 하락 전환…국제유가와 금값 동반 약세](https://news.google.com/rss/articles/CBMiakFVX3lxTE84eGdUQU5oWVJkSlAyelBaM21xYWRqQUhLcGVnUUNzemI4NjZCVDBMS3JKOWxaY3lITTBJRnJhbl9nelY5a1hLeE4tRWVvWUpwd3dDbzJvelptbjRWRW8yUVU1NVdsZmlWZ3c?oc=5)
 - (8) 11-03 https://www.2news.co.kr/ — [외국인 매도 폭주에 달러 환율 급등 시작](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pa3ozOFRjclU2NndKM0tDZ0ZNQ0lLU3piem41Q0FzdUlvSDh0OEg1YVBWNU5iNGhwa0dXNm1EekN4RVB5Yko4UW9IUjJzZ2UtTU9MVXJxQ0hwNXB4cTlXNXU0SGJBa0VZ?oc=5) — **외 3건**(3개 매체)
-- (9) 11-03 이코노뉴스 — [국제유가, 중둥 외교적 협상 가능성 부각 등 영향 7%대 급락-WTI 배럴당 100달러 무너져⋯국제금값, 저가매수세 유입 등에 4거래일만 반등](https://news.google.com/rss/articles/CBMibkFVX3lxTFByY0NtclRySkxTbWl0bEVXWVlwRUpYV2pPN0diWlpYNzRJNmdjcTdkVldFVWxWNXdBZXg2aUNldmxDaThUT1lGcHRoek5lUkJJOE5XX0dzR0h1MV9oeDh1NXVpYV9UcXM2Mzd2UDh3?oc=5) — **외 1건**(1개 매체)
+- (9) 11-03 이코노뉴스 — [국제유가, 중둥 외교적 협상 가능성 부각 등 영향 7%대 급락-WTI 배럴당 100달러 무너져⋯국제금값, 저가매수세 유입 등에 4거래일만 반등](https://news.google.com/rss/articles/CBMibkFVX3lxTFByY0NtclRySkxTbWl0bEVXWVlwRUpYV2pPN0diWlpYNzRJNmdjcTdkVldFVWxWNXdBZXg2aUNldmxDaThUT1lGcHRoek5lUkJJOE5XX0dzR0h1MV9oeDh1NXVpYV9UcXM2Mzd2UDh3?oc=5) — **외 2건**(2개 매체)
 
 **원자재·금·유가** (사건 5개)
 - (8) 11-04 미디어스 — [금값 고점 대비 30% 급락…개인 투자자 금 ETF 다시 매수](https://news.google.com/rss/articles/CBMicEFVX3lxTE5UbFdUSzVsQ045ZF91cUs4SE80a2s4THNSaWNra0RmVWhMRWxuSmFLTjM4eXA2VXZLN01Tc3pCRUM1Y0ZndWVFamxxT04tZTA1X3VmXzlVNmR0M3MyQlN2eS1pLUdWVnhhak5qWVhoM07SAXBBVV95cUxOVGxXVEs1bENOOWRfdXFLOEhPNGtrOExzUmlja2tEZlVoTEVsbkphS04zOHlwNlV2SzdNU3N6QkVDNWNGZ3VlRWpscU9OLWUwNV91Zl85VTZkdDNzMkJTdnktaS1HVlZ4YWpOallYaDNO?oc=5) — **외 2건**(3개 매체)
@@ -123,6 +123,10 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
+- 11-05 CNBC — [McDonald's stock rises as earnings beat, U.S. restaurants show improvement](https://www.cnbc.com/2026/11/04/mcdonalds-is-about-to-report-earnings-heres-what-to-expect.html)
+- 11-05 MarketWatch — [Three things that explain what’s changing with Obamacare in 2027](https://www.marketwatch.com/story/three-things-that-explain-whats-changing-with-obamacare-in-2027-7c94585b?mod=mw_rss_topstories)
+- 11-04 CNBC — [CVS to split off drugstore business in major breakup of healthcare giant; shares fall 10%](https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html)
+- 11-04 MarketWatch — [Big Tech’s $500 billion spending spree leaves a lot less for shareholders](https://www.marketwatch.com/story/big-techs-500-billion-spending-spree-leaves-a-lot-less-for-shareholders-4ed57fb5?mod=mw_rss_topstories)
 - 11-04 MarketWatch — [ADP says businesses added 86,000 jobs in October. The labor market shows small signs of improvement.](https://www.marketwatch.com/story/adp-says-businesses-add-86-000-jobs-in-october-labor-market-shows-small-signs-of-improvement-64c89fd3?mod=mw_rss_topstories)
 - 11-04 MarketWatch — [Tesla and SpaceX shares slide as Musk’s political push falls flat](https://www.marketwatch.com/story/tesla-and-spacex-shares-slide-as-musks-political-push-falls-flat-c15d29a3?mod=mw_rss_topstories)
 - 11-04 MarketWatch — [Treasury opens the door to changes in how it finances the growing U.S. debt. Here’s what you need to know.](https://www.marketwatch.com/story/treasury-opens-the-door-to-changes-in-how-it-finances-the-growing-u-s-debt-heres-what-you-need-to-know-6001f7e1?mod=mw_rss_topstories)
@@ -131,11 +135,7 @@
 - 11-04 CNBC — [CVS to split off drugstore business in major breakup of healthcare giant](https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html)
 - 11-04 MarketWatch — [Midterm elections deliver a ‘blue wave.’ The stock market sees green.](https://www.marketwatch.com/story/midterm-elections-deliver-a-blue-wave-the-stock-market-sees-green-5900a779?mod=mw_rss_topstories)
 - 11-04 CNBC — [McDonald's earnings beat, but traffic to its U.S. restaurants falls](https://www.cnbc.com/2026/11/04/mcdonalds-is-about-to-report-earnings-heres-what-to-expect.html)
-- 11-04 CNBC — [Wayfair sales jump 10% as furniture retailer says it's winning share of sluggish market](https://www.cnbc.com/2026/11/04/wayfair-w-q3-2026-earnings.html)
-- 11-04 CNBC — [McDonald's earnings beat, but traffic to chain's U.S. restaurants falls](https://www.cnbc.com/2026/11/04/mcdonalds-is-about-to-report-earnings-heres-what-to-expect.html)
-- 11-04 MarketWatch — [CVS Health plans to split in two. Here’s what is driving the massive healthcare breakup.](https://www.marketwatch.com/story/cvs-health-plans-to-split-in-two-heres-what-is-driving-the-massive-healthcare-breakup-27c0d6be?mod=mw_rss_topstories)
-- 11-04 MarketWatch — [The AI trade has been ‘sold to death’ but Goldman strategist highlights silver lining from Democratic sweep](https://www.marketwatch.com/story/the-ai-trade-has-been-sold-to-death-but-goldman-strategist-highlights-silver-lining-from-democratic-sweep-3d1d6f07?mod=mw_rss_topstories)
 
 ## 언론사별 건수 상위 15
 
-토큰포스트 677, 머니투데이 400, 파이낸셜뉴스 전체 365, 연합뉴스 마켓 339, 인포맥스 316, 코인리더스 273, 아시아경제 268, 한국경제 금융 237, 뉴시스 금융 230, 조선비즈 229, 조선 경제 209, 뉴스1 191, 뉴시스 국제 187, 이데일리 180, 뉴스핌 176
+토큰포스트 681, 머니투데이 400, 파이낸셜뉴스 전체 365, 연합뉴스 마켓 339, 인포맥스 317, 코인리더스 275, 아시아경제 270, 한국경제 금융 237, 뉴시스 금융 231, 조선비즈 230, 조선 경제 209, 뉴스1 191, 뉴시스 국제 186, 이데일리 178, 뉴스핌 176
