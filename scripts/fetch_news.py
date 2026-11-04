@@ -421,7 +421,7 @@ def main():
     for r in pool:
         if r["via"] not in ("gov", "intl"):  # 기존 기사도 새 점수표로 다시 계산한다
             sc, tags, tr = classify(r["title"], hint_by_via.get(r["via"], ""))
-            r["score"], r["tags"], r["track"] = sc, "|".join(tags), tr
+            r["score"], r["tags"], r["track"] = sc, "|".join(tags), ("ETC" if sc == 0 and tag(r["title"]) == "속보" else tr)
         else:
             r["track"] = r.get("track") or "INS"
         rows[key(r["title"])] = r
@@ -450,13 +450,14 @@ def main():
             continue
         for x in items:
             sc, tags, tr = classify(x["title"], hint)
-            if x["source"] in BLOCK_SOURCES or (kind == "scored" and sc == 0):
+            etc = kind == "scored" and sc == 0 and tag(x["title"]) == "속보"   # 11/4 사용자: 속보는 분야 상관없이 알림으로(보드·요약에는 안 넣음)
+            if x["source"] in BLOCK_SOURCES or (kind == "scored" and sc == 0 and not etc):
                 continue
             k = key(x["title"])
             if k not in rows:
                 v = kind if kind in ("gov", "intl") else f"{via}:{n}"
                 rows[k] = {"date": x["date"].isoformat(timespec="minutes"), "source": x["source"], "title": x["title"],
-                           "link": x["link"], "score": sc, "tags": "|".join(tags), "via": v, "track": tr or hint or "INV"}
+                           "link": x["link"], "score": sc, "tags": "|".join(tags), "via": v, "track": "ETC" if etc else (tr or hint or "INV")}
 
     by_month = {}
     for r in rows.values():
