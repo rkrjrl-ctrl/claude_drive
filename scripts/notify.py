@@ -319,5 +319,13 @@ if __name__ == "__main__":
     elif len(sys.argv) >= 2 and sys.argv[1] == "test":
         send("알림 연결됨", "뉴스 알림이 이 휴대폰으로 와요. 누르면 뉴스 보드가 열려요.", BOARD_URL, ["white_check_mark"])
         print("시험 알림 보냄")
+    elif len(sys.argv) >= 2 and sys.argv[1] == "recent":
+        # 서버에 최근 올라간 알림의 시각·제목·버튼 수만 본다(주제 이름은 찍지 않음)
+        with urllib.request.urlopen(f"{SERVER}/{TOPIC}/json?poll=1&since={sys.argv[2] if len(sys.argv) > 2 else '2h'}", timeout=20) as r:
+            for line in r.read().decode("utf-8").splitlines():
+                m = json.loads(line)
+                if m.get("event") == "message":
+                    t = datetime.datetime.fromtimestamp(m["time"], KST).strftime("%H:%M")
+                    print(t, m.get("title", ""), f"| 버튼 {len(m.get('actions', []))}개 | 본문 {len(m.get('message', ''))}자")
     else:
         run_news()

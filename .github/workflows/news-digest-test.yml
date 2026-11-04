@@ -27,4 +27,9 @@ jobs:
       - name: 묶음 알림 시험 보내기
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-        run: python scripts/notify.py digest-test "${{ inputs.start }}" "${{ inputs.end }}"
+        run: |
+          if [ "${{ inputs.start }}" = "recent" ]; then
+            python scripts/notify.py recent "${{ inputs.end }}"
+          else
+            python scripts/notify.py digest-test "${{ inputs.start }}" "${{ inputs.end }}"
+          fi
