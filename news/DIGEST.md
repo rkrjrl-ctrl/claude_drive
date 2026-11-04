@@ -1,13 +1,13 @@
 # 경제·보험 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-04 17:05 KST  /  최근 7일 15635건 (보험·의료 3918 · 투자·경제 11622)  /  이번 신규 482건
+- 갱신: 2026-11-04 18:05 KST  /  최근 7일 15672건 (보험·의료 3922 · 투자·경제 11652)  /  이번 신규 450건
 - 소스 62곳 + 구글뉴스 키워드 90개(보험·의료 45 · 투자·경제 45)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 서울경제 금융, 서울경제 경제, 서울경제 부동산, 머니투데이
+- 수집 실패 소스: 없음
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
-**실손·비급여** (사건 31개)
+**실손·비급여** (사건 30개)
 - (11) 10-29 전자신문 — [의료혁신위, 건보·비급여·실손보험 통합 관리 권고…필수의료 보상 강화](https://news.google.com/rss/articles/CBMiTkFVX3lxTE9tWGRsenRTb1FGaW9rTlZWZWxIUlktb3BXMUZDV1RjMWYxUzNNNFJpclFCNTRTZnhRTFRXVFJsMWc1cVlFcjlzYkcyN001UQ?oc=5) — **외 4건**(5개 매체)
 - (8) 11-01 잡포스트 — [서류 발급 없이 실손보험금 청구…BNK경남은행, ‘실손24’ 도입](https://news.google.com/rss/articles/CBMickFVX3lxTFBwWDlPYi05MzVGM1p6YUhhZUJVVkx2OFUyTjlPY0dLcTNHcENsQ3kzX1BlQnN6MGhaM2FCMkJiS0wtSm1NTER0ZFlUUklJZEthRF83dDhjRm45cm5tSEZINGtZSFNnbE41MGxtN09DcnZkUdIBckFVX3lxTFBwWDlPYi05MzVGM1p6YUhhZUJVVkx2OFUyTjlPY0dLcTNHcENsQ3kzX1BlQnN6MGhaM2FCMkJiS0wtSm1NTER0ZFlUUklJZEthRF83dDhjRm45cm5tSEZINGtZSFNnbE41MGxtN09DcnZkUQ?oc=5) — **외 6건**(7개 매체)
 - (10) 11-02 한양경제 — [본인부담상한제 환급금 실손보험 보상 대상 제외...대법원 판결 찾아보니](https://news.google.com/rss/articles/CBMickFVX3lxTE85U2pjcm9sVHJUNjliRlZLc0h0dFk2VHQ5Q3hkcF84NHlSM3ZGUWpuUUJFd2Y5N1lwdWdILTkwNGJCbkJrbElDd1ZUa014UWQ0THpTa1hfTXlaN0dlNEc0cmhfN2lKN1JTLTJIZlZtNFpVUQ?oc=5) — **외 1건**(1개 매체)
@@ -22,7 +22,7 @@
 - (7) 11-04 재경일보 — [국민연금 10년 가입 월급여…기초연금보다 적어 : 정책.지표](https://news.google.com/rss/articles/CBMiS0FVX3lxTE0wUHZUZ09VZzlEVzBFZUJnekFWSEVyaEF6UTQ0VkhQQlV3LTRVdHNDaFlQYjE4dEFhTzI1bWhnMFRZd01vU3FYbGlVMA?oc=5) — **외 8건**(7개 매체)
 - (5) 11-04 월드장애인사랑뉴스 — [보건복지부, 희귀·중증난치질환자 건강보험 본인부담률 10%→7% 인하 추진…136만 명 대상](https://news.google.com/rss/articles/CBMib0FVX3lxTE9NZ2tuMW04cy1VMEhXQy12eU1GMGlhX1B5RmI4OHNlYTJzY2czX0Vvb09RNjRrVTYyRzRjbG85YUs1S2hMalY4RUxBbjZSbWt0NVowbTNXeC12SlZ1cTVCdE9xSWhkV3VqSElSUENXMA?oc=5) — **외 14건**(14개 매체)
 
-**국민연금·퇴직연금** (사건 77개)
+**국민연금·퇴직연금** (사건 78개)
 - (6) 11-03 비욘드포스트 — [하나증권, 퇴직연금 'ETF 모으기' 출시…DC·IRP서 자동 적립식 투자](https://news.google.com/rss/articles/CBMifEFVX3lxTE5CeVZXTnF5NEoyS2lCaDhzbmItVnZ6Ym0wSFg2cldRa3Q1OW5kVk9WNlBnVGRFcTdNTEFaYzVoZGVjeVpSMkI2RG5zNE1ab28wTEZJUDFCSTNuZXN3V05HRnNZWTI3TVNHU1BXTzFaZHByQ0xISlFUcWUwOW4?oc=5) — **외 20건**(21개 매체)
 - (5) 11-03 비즈월드 — [금감원, '퇴직연금 장기·분산투자 캠페인' 시작](https://news.google.com/rss/articles/CBMiakFVX3lxTE5GOTFLVHdXZXZpbEJ5V0xEeVBzYUZuX1VRd2J5eFI2OTJKM21Ud2lsRzdrTUJIQWRDUFo2X1dwNmdTNlQxc2ROdTFrNTVjMkpkUUJWWHBOTkRocThhLWtYREM1OXlaYWpjRXc?oc=5) — **외 14건**(14개 매체)
 - (9) 11-03 핀포인트뉴스 — ["보험료 10년 낸 국민연금액, 세금 지원 기초연금보다 적다"](https://news.google.com/rss/articles/CBMic0FVX3lxTFBqYU83d3VNVWhZbDQxcmJNWElzcVJOV1Q2c1prTmthV0MtYTB2X3RaSDVILUhBcE1rN3pVcDZaTkJPS0pjcnFjRWpLRzdJd1BYSDhhZWU4VmJhTUlpOF8zMVpWNG1BVGJJTXpQTmRoVE1sS1E?oc=5) — **외 3건**(4개 매체)
@@ -35,7 +35,7 @@
 **보험업계·상품 출시** (사건 12개)
 - (5) 11-03 시사통신 — [청년 자동차보험료 부담 낮춘다…운전경력 인정·할인 안내 확대](https://news.google.com/rss/articles/CBMia0FVX3lxTE1Ca3dldmg4S1czSklyTjFBY0JvZFFlWGhOWTJ2d1VZZG95OTl3bzQwemo3RVB0al9IbFNYbzZhMzBEV1lIcHFCdGJ5NktTSFNac3ZSdTdyTjlCZmQ5ZWUtQmhaVDd3OU83TlEw0gFrQVVfeXFMTUJrd2V2aDhLVzNKSXJOMUFjQm9kUWVYaE5ZMnZ3VVlkb3k5OXdvNDB6ajdFUHRqX0hsU1hvNmEzMERXWUhwcUJ0Ynk2S1NIU1pzdlJ1N3JOOUJmZDllZS1CaFpUN3c5TzdOUTA?oc=5) — **외 6건**(7개 매체)
 - (4) 11-03 에너지신문 — [변액보험 2026년 11월 브랜드평판...미래에셋생명, 삼성생명, 교보생명 順](https://news.google.com/rss/articles/CBMickFVX3lxTE9ycy14X19adGtYcGRleTJNclJZcFBkcDdDUkNveUgyMmtMVkZTaE5fNFY2NkJRY0FueDE0Qk9fVjVLQ1J3Zmx4em5WMzFEbXdWRTZmSWRYX29tLTBrZ3NBaTVtb0FUeE83WTU0YmdqYV9aZw?oc=5) — **외 6건**(7개 매체)
-- (5) 11-02 THE NEWS — [부모 차 몰던 청년, 자동차보험 경력 인정받으면 보험료 절감…11월 가입 절차 개선](https://news.google.com/rss/articles/CBMia0FVX3lxTFAzZ2tIdnVOeW9lZ18yeWoySFpkbFpmOUp5Q0x1dXhkVXVFWU1xZmZXTW0zNzNwN2RLOFhKajRaVC1qZmJiNXBaNHFpaVlKMmVMX3BNRHdLcXJpaHZ6aWJEeDBYNDZWVEZsRkYw0gFvQVVfeXFMTTJTVERHdGN1bDliRVg2STZNblhKcFNxcmFvYm52SXlNU0lFYWtIdVR3Wi0yeVBYRGc4WURsQ0thZ1dSV29HcE5wd19fRVMzUEhyUlg0WEZYWF9EU2hwWlVwZkFLMDhNa3FXbGJHcGFj?oc=5) — **외 2건**(3개 매체)
+- (5) 11-03 엠에스투데이 — [청년 자동차보험료 최대 46% 절감…방법은?](https://news.google.com/rss/articles/CBMibEFVX3lxTE1GWl90bXNUcEItcDlLREYzaHNMU3ZQd2F5M1g1MTJHaE5GODZ4TFNLRjB6ZVRDWFl2MFYyMnZaenYwbVI5aFVyM29zNGNrWXRHOXFjY0JXMTlra2dVWjNXRDNYbi0tczFHZEJVRdIBcEFVX3lxTE9JTGYycUpGWWZ4dm5vQ0FCVVVWT1dXVmpnbVl6bU82WGNHUmN6Q0dla2lUaFhwdHd5STBIR3g3R1RzT1FJb2N5QWEtU1o0MjFjYjlxV0wwTENBTVZsdlpXYldONkxBbWpFeW9Oc3RRUHc?oc=5) — **외 1건**(2개 매체)
 
 
 ### [보험·의료] 기관 보도자료
@@ -74,7 +74,7 @@
 - (15) 10-29 뉴스로드 — [연준, 기준금리 동결에 뉴욕증시 3거래일 연속 상승…AI·반도체 랠리 재점화](https://news.google.com/rss/articles/CBMib0FVX3lxTE0xMWRLWkhiY2hvVXBndDQyREVQUWxldVNHZUFNamFtdGRpZWpaS2o1eTBLei1lMDFpZFJ6eFN1TFA5enFRNlRuekkxeFAwUWttQmNNNFpDNUdXTWdYdUoybUxESGRQQ05KTnk4R1FGUdIBb0FVX3lxTE0xMWRLWkhiY2hvVXBndDQyREVQUWxldVNHZUFNamFtdGRpZWpaS2o1eTBLei1lMDFpZFJ6eFN1TFA5enFRNlRuekkxeFAwUWttQmNNNFpDNUdXTWdYdUoybUxESGRQQ05KTnk4R1FGUQ?oc=5) — **외 14건**(14개 매체)
 
 **국내 증시** (사건 54개)
-- (16) 10-30 톱스타뉴스 — [[증시 시황] 코스피 5.21% 급락…구글 AI 투자 우려에 삼성전자·SK하이닉스 폭락, 매도 사이드카 발동](https://news.google.com/rss/articles/CBMickFVX3lxTE1WZmJUcUpITHU4ZDZKekl4TS1WVnpnaGpld09TZHpzZHdGb20zb3VLUWxmRlB0bU1ic3cxTi1PbGFVcVlxZW0yd25VbUFOZDlPTG5NME80Nm9SU0M2eG0tLV9sMHNHTTdQelQ3V09aalhCdw?oc=5) — **외 65건**(50개 매체)
+- (16) 10-30 톱스타뉴스 — [[증시 시황] 코스피 5.21% 급락…구글 AI 투자 우려에 삼성전자·SK하이닉스 폭락, 매도 사이드카 발동](https://news.google.com/rss/articles/CBMickFVX3lxTE1WZmJUcUpITHU4ZDZKekl4TS1WVnpnaGpld09TZHpzZHdGb20zb3VLUWxmRlB0bU1ic3cxTi1PbGFVcVlxZW0yd25VbUFOZDlPTG5NME80Nm9SU0M2eG0tLV9sMHNHTTdQelQ3V09aalhCdw?oc=5) — **외 66건**(51개 매체)
 - (13) 10-29 중기이코노미 — [코스피 급등세에도 원달러 환율 1330원대 상승 마감](https://news.google.com/rss/articles/CBMiakFVX3lxTE83MDhCNnJKaVB5eGtaM25DdG5ob2E2c290dUpNVFUxX0hqVVJZNWYyOGZLSTB3a3FHQWZxQXpBQUFFRTJOeDlJVEdobEt3MmtMSjF0SHZGU2xENFRsRXJqUUNZTUYtc1M5d3c?oc=5) — **외 3건**(3개 매체)
 - (11) 11-03 지데일리 — [코스피·코스닥 동반 급락…삼성전자·SK하이닉스도 흔들 > 뉴스](https://news.google.com/rss/articles/CBMibEFVX3lxTFA4WEtVclNtbmtHSFFIV1ZNRjhLeV9uMkliUEtyeE9uM1VuZ0hCNFVxMDVsV2VvR1ZSMHEzT0hMcEtBanRib2JfTHVpeXRPX2hXLWdDYzczaHljZDBQN3BUcUhuZ1Y4MFQtczZjcg?oc=5) — **외 5건**(5개 매체)
 
@@ -105,6 +105,7 @@
 
 ## 보험 전문지 최신
 
+- 11-04 보험신보 — [한국금융연구원, 디지털 금융소비자 보호·보안 강화 방안 논의](https://www.insnews.co.kr/news/articleView.html?idxno=93673)
 - 11-04 보험신보 — [자립준비청년 12명, 경제교육으로 재능나눔… KB라이프재단 ‘링크비’ 2기 마무리](https://www.insnews.co.kr/news/articleView.html?idxno=93670)
 - 11-04 보험매일 — [보험사 보험부채 평가 관리 강화…GA 감독 책임도 확대](http://www.fins.co.kr/news/articleView.html?idxno=110423)
 - 11-04 보험신보 — [신한EZ손보, ‘사람 살리는 금융’ 캠페인 동참](https://www.insnews.co.kr/news/articleView.html?idxno=93668)
@@ -119,7 +120,6 @@
 - 11-04 보험매일 — [자사주 소각에 보험사 지분구조 변화…주주환원·출자관리 맞물려](http://www.fins.co.kr/news/articleView.html?idxno=110416)
 - 11-04 보험저널 — [보험 갈아타기 '사인 한 장'으론 부족…상담기록 보존·대형 'GA 책임 강화론' 부상](https://www.insjournal.co.kr/news/articleView.html?idxno=33781)
 - 11-04 보험저널 — [FP '1200%룰' · 4~7년 '분급제' 이은 다음 수순… 슬그머니 '상담기록 보존' 등 GA 판매자 책임 확대 '시동'](https://www.insjournal.co.kr/news/articleView.html?idxno=33781)
-- 11-04 보험신보 — [중은삼성인수, 진위밍 신임 사장 선임… 성장세 속 경영진 개편](https://www.insnews.co.kr/news/articleView.html?idxno=93653)
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
@@ -127,6 +127,7 @@
 - 11-04 CNBC — [McDonald's is about to report earnings. Here's what to expect](https://www.cnbc.com/2026/11/04/mcdonalds-is-about-to-report-earnings-heres-what-to-expect.html)
 - 11-04 MarketWatch — [Democrats win the Senate but control of the House is still up in the air. Here’s what it means for your finances.](https://www.marketwatch.com/story/democrats-win-the-senate-but-control-of-the-house-is-still-up-in-the-air-heres-what-it-means-for-your-finances-ed78cd6e?mod=mw_rss_topstories)
 - 11-04 MarketWatch — [Here’s why AMD’s stock is rising — and sending a confident message about the AI trade](https://www.marketwatch.com/story/heres-why-amds-stock-is-rising-and-sending-a-confident-message-about-the-ai-trade-11cb4d8a?mod=mw_rss_topstories)
+- 11-04 ECB 보도자료 — [ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full year of 2026](https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html)
 - 11-04 MarketWatch — [AI’s control over the bond market is growing — even rivaling war and elections](https://www.marketwatch.com/story/ais-control-over-the-bond-market-is-growing-even-rivaling-war-and-elections-5d727b35?mod=mw_rss_topstories)
 - 11-04 MarketWatch — [S&P 500 is looking over the edge of a technical cliff — what happens if it falls off?](https://www.marketwatch.com/story/s-p-500-is-looking-over-the-edge-of-a-technical-cliff-what-happens-if-it-falls-off-be97ebd9?mod=mw_rss_topstories)
 - 11-04 MarketWatch — [Depressing, but true: If you want to get ahead at work, embrace virtue signaling](https://www.marketwatch.com/story/depressing-but-true-if-you-want-to-get-ahead-at-work-embrace-virtue-signaling-b4e72f0a?mod=mw_rss_topstories)
@@ -134,8 +135,7 @@
 - 11-04 MarketWatch — [Anthropic’s IPO is a high-stakes referendum on Big Tech — and this chart proves it](https://www.marketwatch.com/story/anthropics-ipo-is-a-high-stakes-referendum-on-big-tech-and-this-chart-proves-it-d1c54d33?mod=mw_rss_topstories)
 - 11-04 MarketWatch — [The internet is ‘dying’: AI is eating it and obliterating these business models](https://www.marketwatch.com/story/the-internet-is-dying-ai-is-eating-it-and-obliterating-these-business-models-435ae2b0?mod=mw_rss_topstories)
 - 11-04 CNBC — [JetBlue raises bag fees for third time in a year as fuel costs bite](https://www.cnbc.com/2026/11/03/jetblue-checked-bag-fee.html)
-- 11-04 MarketWatch — [An overlooked energy source could solve AI’s power crunch — and these 2 stocks are prime plays](https://www.marketwatch.com/story/an-overlooked-energy-source-could-solve-ais-power-crunch-and-these-2-stocks-are-prime-plays-bc5d988a?mod=mw_rss_topstories)
 
 ## 언론사별 건수 상위 15
 
-토큰포스트 657, 머니투데이 381, 파이낸셜뉴스 전체 367, 연합뉴스 마켓 339, 인포맥스 317, 코인리더스 260, 아시아경제 258, 한국경제 금융 237, 뉴시스 금융 230, 조선비즈 229, 조선 경제 209, 뉴스1 189, 뉴시스 국제 188, 이데일리 178, 뉴스핌 175
+토큰포스트 658, 머니투데이 398, 파이낸셜뉴스 전체 368, 연합뉴스 마켓 339, 인포맥스 315, 아시아경제 263, 코인리더스 262, 한국경제 금융 236, 조선비즈 232, 뉴시스 금융 231, 조선 경제 207, 뉴시스 국제 189, 뉴스1 189, 이데일리 178, 뉴스핌 175

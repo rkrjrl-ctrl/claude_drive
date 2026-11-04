@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-04T17:06+09:00",
+"updated": "2026-11-04T18:05+09:00",
 "items": [
 {
 "kind": "gov",
@@ -1701,6 +1701,84 @@
 "장기",
 "최하위",
 "퇴직연금"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261104161400004",
+"t": "2026-11-04T18:05+09:00",
+"tok": [
+"1명",
+"난동",
+"부상",
+"세브란스병원서",
+"신촌",
+"의사",
+"환자가",
+"흉기"
+]
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026110417412152237",
+"t": "2026-11-04T18:05+09:00",
+"tok": [
+"병원서",
+"세브란스",
+"신촌",
+"의사",
+"입건",
+"찔러",
+"특수상해",
+"혐의",
+"환자가"
+]
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE92Q0l6MVVpVzhlZUZZTXRyWFQ1TjVqV2VxU0ctc0F0QW16SFpBZjNsZDl4cDJZQnZsYmF4cFlwaDZsQVRXc2hQYW1hbVFVV2NNV2FkVDNkeEJmckJL?oc=5",
+"t": "2026-11-04T18:05+09:00",
+"tok": [
+"4000여건",
+"8주룰",
+"결과",
+"보험",
+"심사",
+"이르면",
+"접수",
+"통보"
+]
+},
+{
+"kind": "속보",
+"link": "https://biz.chosun.com/stock/stock_general/2026/11/04/RYSQUKYR2JGWDCNFOBQJANECGM/",
+"t": "2026-11-04T18:05+09:00",
+"tok": [
+"2615억",
+"28",
+"47",
+"다우기술",
+"사람인",
+"중앙일보에",
+"증자",
+"지분율",
+"투입",
+"확보"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261104164700005",
+"t": "2026-11-04T18:05+09:00",
+"tok": [
+"5일",
+"5천200억",
+"CJ컨소시엄",
+"규모",
+"다우",
+"인수계약",
+"중앙일보",
+"체결"
 ]
 }
 ]
