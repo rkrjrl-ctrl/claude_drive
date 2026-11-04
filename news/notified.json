@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T06:06+09:00",
+"updated": "2026-11-05T07:05+09:00",
 "items": [
 {
 "kind": "gov",
@@ -1982,6 +1982,97 @@
 "압승",
 "중간선거",
 "트럼프"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261105009800072",
+"t": "2026-11-05T07:05+09:00",
+"tok": [
+"18개월만에",
+"급등",
+"끝나자",
+"다우지수",
+"상승",
+"중간선거",
+"최대폭"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRm5JOVF2N25TRjNKUG9qQ3czaDdWR21xR1U5WUZzemRsYkhwNzBTR2lkUGVVTnY0MnBSdEl3VjFEZjExejQ4djc5aHFUcUY2cFAtZUQwZ0p2THNZSnR1elBpbWxHdDZ0RTU0bVp4clFpM1dXckRaaEw5bDRScTcyWA?oc=5",
+"t": "2026-11-05T07:05+09:00",
+"tok": [
+"급등",
+"급락에",
+"다우",
+"민주",
+"반도체는",
+"압승",
+"약세",
+"유가"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.hankyung.com/article/2026110568997",
+"t": "2026-11-05T07:05+09:00",
+"tok": [
+"AI",
+"건설",
+"급락",
+"데이터센터",
+"반도체",
+"우려",
+"중단",
+"텍사스",
+"필라델피아"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261105_0003855409",
+"t": "2026-11-05T07:05+09:00",
+"tok": [
+"3명",
+"무인기공격",
+"민간인",
+"벨고로드에",
+"사망",
+"우크라이나"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1RVkFHb2J3U0gza0EtTl9ZeXJVazVudlNOaElLekpaRVRLRHZfV3BEMThsdV9lZ0R6czBOTVBuZWl0dHZiZnB5QXZCSTVUSjRh?oc=5",
+"t": "2026-11-05T07:05+09:00",
+"tok": [
+"국제유가",
+"급등",
+"끝나겠네",
+"다우",
+"전쟁",
+"폭락"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1KWEpBM3BoZmp4OXkxckFVeWYtR3Ria2dHQUdwX1R2S2ZVY2pQc0RoWDhIY2ZtZlY0TVJSX0ZNNDlBQ0NVYkxRSTBWdG1lU3JRVWxidVBvRGJ1cnNaaVE?oc=5",
+"t": "2026-11-05T07:05+09:00",
+"tok": [
+"11월",
+"5일",
+"N2",
+"경제",
+"급등",
+"급락",
+"다우",
+"모닝",
+"민주당",
+"반도체주는",
+"브리핑",
+"압승에",
+"증시"
 ]
 }
 ]
