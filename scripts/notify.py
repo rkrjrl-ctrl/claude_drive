@@ -98,27 +98,64 @@ def words(title):
     return {t for t in tokens(title) if not any(ch.isdigit() for ch in t)}   # 숫자 조각은 사건과 상관없이 자주 겹친다
 
 
+# 같은 묶음 안에서 값이 다르면 다른 소식이다(11/4 미국 중간선거: 「민주당 승리 예측」만 겹쳐 텍사스·캔자스·아이오와가 한 통이 됐다)
+KINDS = [
+    ("지역", "앨라배마 알래스카 애리조나 아칸소 캘리포니아 콜로라도 코네티컷 델라웨어 플로리다 조지아 하와이 아이다호 일리노이 "
+             "인디애나 아이오와 캔자스 켄터키 루이지애나 메인주 메릴랜드 매사추세츠 미시간 미네소타 미시시피 미주리 몬태나 네브래스카 "
+             "네바다 뉴햄프셔 뉴저지 뉴멕시코 뉴욕주 노스캐롤라이나 노스다코타 오하이오 오클라호마 오리건 펜실베이니아 로드아일랜드 "
+             "사우스캐롤라이나 사우스다코타 테네시 텍사스 유타 버몬트 버지니아 워싱턴주 웨스트버지니아 위스콘신 와이오밍".split()),
+    ("의회", ["상원", "하원", "주지사"]),
+    ("시장", ["코스피", "코스닥", "나스닥", "다우", "환율", "국채", "유가", "금값", "비트코인"]),
+]
+
+
+def marks(ws):
+    out = {}
+    for kind, keys in KINDS:
+        hit = {k for k in keys if any(k in t for t in ws)}
+        if "버지니아" in hit and "웨스트버지니아" in hit:
+            hit.discard("버지니아")
+        if hit:
+            out[kind] = hit
+    return out
+
+
+def conflict(a, b):
+    ma, mb = marks(a), marks(b)
+    return any(k in mb and ma[k] != mb[k] for k in ma)
+
+
 def same_event(a, b, df):
     """같은 사건인가: 4단어 이상 겹치거나, 3단어 이상이면서 겹침 0.3 이상이거나, 드문 단어가 2개 이상 겹치면.
-    (짧은 시황 제목은 「오른·마감」 두 단어만으로 0.3을 넘어 환율과 코스닥이 묶였다)"""
+    (짧은 시황 제목은 「오른·마감」 두 단어만으로 0.3을 넘어 환율과 코스닥이 묶였다)
+    단, 두 제목에 같은 종류(주 이름·상원/하원·지수)의 다른 값이 있으면 다른 소식으로 본다."""
+    if conflict(a, b):
+        return False
     u, i = a | b, len(a & b)
     if i >= 4 or (i >= 3 and i / len(u) >= 0.3):
         return True
     return sum(1 for t in a & b if df.get(t, 0) <= RARE_DF) >= 2
 
 
-def digest(cands, label):
-    """속보 여러 건 → (제목, 본문, 버튼). cands는 시간 순."""
-    df = word_df()
+def group_events(cands, df=None):
+    """같은 소식끼리 묶는다. 반환: [[(후보, 단어집합), ...], ...] (첫 기사가 대표)."""
+    df = df if df is not None else word_df()
     groups = []
     for c in cands:
         w = words(c["msg"])
         for g in groups:
-            if same_event(w, g[0][1], df):   # 묶음의 첫 기사와만 비교(꼬리 물기로 번지지 않게)
+            # 비슷한지는 첫 기사와만 본다(꼬리 물기로 번지지 않게). 주 이름 등이 다른 기사가 이미 있으면 붙이지 않는다.
+            if same_event(w, g[0][1], df) and not any(conflict(w, y) for _, y in g[1:]):
                 g.append((c, w))
                 break
         else:
             groups.append([(c, w)])
+    return groups
+
+
+def digest(cands, label):
+    """속보 여러 건 → 한 통(제목, 본문, 버튼). cands는 시간 순."""
+    groups = group_events(cands)
     lines, size = [], 0
     for i, g in enumerate(groups):
         line = "· " + g[0][0]["msg"] + (f" (외 {len(g) - 1}건)" if len(g) > 1 else "")
@@ -132,8 +169,9 @@ def digest(cands, label):
     return title, "\n".join(lines), actions
 
 
-def run_digest_test(start, end):
-    """지난 기사로 묶음 알림 한 통을 시험으로 보낸다(보낸 기록 notified.json은 건드리지 않음)."""
+def run_digest_test(start, end, mode="each"):
+    """지난 기사로 시험 알림을 보낸다(보낸 기록 notified.json은 건드리지 않음).
+    each: 같은 소식만 합쳐 소식마다 한 통(11/4 사용자 「비슷해 보이는 것들만 묶어서」), one: 전부 한 통."""
     a, b = ts(start), ts(end)
     cands = []
     for r in sorted(recent_rows(a), key=lambda r: r["date"]):
@@ -142,9 +180,17 @@ def run_digest_test(start, end):
         if not (m and m.group(1) == "속보" and d and d < b) or r.get("via") in ("gov", "intl"):
             continue
         head = re.sub(r"\s+-\s+[^-]{1,20}$", "", r["title"][m.end():].strip() or r["title"])
-        cands.append({"msg": head, "link": r["link"]})
+        cands.append({"msg": head, "link": r["link"], "source": r["source"], "track": r.get("track")})
     if not cands:
         print("그 시간에 속보가 없음"); return
+    if mode == "each":
+        groups = group_events(cands)
+        for g in groups:
+            c = g[0][0]
+            more = f" (외 {len(g) - 1}건)" if len(g) > 1 else ""
+            send(f"[속보·시험] {TRACK.get(c.get('track'), '')} · {c['source']}", c["msg"] + more, c["link"], ["zap"])
+        print(f"시험 알림 보냄: 속보 {len(cands)}건 → {len(groups)}통")
+        return
     title, msg, actions = digest(cands, f"{b.hour}시 시험")
     send(title, msg, BOARD_URL, ["zap"], actions=actions)
     print("시험 묶음 알림 보냄:", title)
