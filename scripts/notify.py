@@ -56,16 +56,98 @@ def ts(s):
     return d if d.tzinfo else d.replace(tzinfo=KST)
 
 
-def send(title, message, click, tags=(), priority=3):
+def send(title, message, click, tags=(), priority=3, actions=None):
     if os.environ.get("NTFY_DRY"):   # 시험: 보내지 않고 화면에만
         print(f"[{title}] {message} → {click[:60]}")
+        for a in actions or []:
+            print(f"  버튼 「{a['label']}」 → {a['url'][:60]}")
         return
-    body = {"topic": TOPIC, "title": title[:250], "message": message[:1000], "click": click,
+    body = {"topic": TOPIC, "title": title[:250], "message": message[:1300], "click": click,
             "tags": list(tags), "priority": priority}
+    if actions:
+        body["actions"] = actions[:3]   # ntfy는 버튼 3개까지
     req = urllib.request.Request(SERVER, data=json.dumps(body, ensure_ascii=False).encode("utf-8"),
                                  headers={"Content-Type": "application/json"})
     with urllib.request.urlopen(req, timeout=20) as r:
         r.read()
+
+
+# ---------------- 속보 묶음(11/4 시험) ----------------
+# 한 번에 들어온 속보를 알림 한 통에 줄 목록으로 담는다. 같은 사건은 한 줄로 합치고 「외 N건」을 붙인다.
+# 잘못 합쳐져도 첫 줄과 건수는 남으니, 같은 사건을 빼는 방식보다 잃는 게 적다.
+DIGEST_LINES = 12
+RARE_DF = 0.006   # 최근 기사 제목에서 이 비율보다 드물게 나온 단어만 「사건을 가리키는 단어」로 본다
+
+
+def word_df():
+    """이번 달·지난달 기사 제목의 단어별 출현 비율(흔한 단어를 거를 때 쓴다)."""
+    df, n = {}, 0
+    for m in sorted({NOW.strftime("%Y-%m"), (NOW - datetime.timedelta(days=20)).strftime("%Y-%m")}):
+        p = os.path.join(NEWS, m + ".csv")
+        if not os.path.exists(p):
+            continue
+        with open(p, encoding="utf-8-sig", newline="") as f:
+            for r in csv.DictReader(f):
+                n += 1
+                for t in tokens(TAG.sub("", r.get("title", ""))):
+                    df[t] = df.get(t, 0) + 1
+    return {t: c / max(n, 1) for t, c in df.items()}
+
+
+def words(title):
+    return {t for t in tokens(title) if not any(ch.isdigit() for ch in t)}   # 숫자 조각은 사건과 상관없이 자주 겹친다
+
+
+def same_event(a, b, df):
+    """같은 사건인가: 4단어 이상 겹치거나, 3단어 이상이면서 겹침 0.3 이상이거나, 드문 단어가 2개 이상 겹치면.
+    (짧은 시황 제목은 「오른·마감」 두 단어만으로 0.3을 넘어 환율과 코스닥이 묶였다)"""
+    u, i = a | b, len(a & b)
+    if i >= 4 or (i >= 3 and i / len(u) >= 0.3):
+        return True
+    return sum(1 for t in a & b if df.get(t, 0) <= RARE_DF) >= 2
+
+
+def digest(cands, label):
+    """속보 여러 건 → (제목, 본문, 버튼). cands는 시간 순."""
+    df = word_df()
+    groups = []
+    for c in cands:
+        w = words(c["msg"])
+        for g in groups:
+            if same_event(w, g[0][1], df):   # 묶음의 첫 기사와만 비교(꼬리 물기로 번지지 않게)
+                g.append((c, w))
+                break
+        else:
+            groups.append([(c, w)])
+    lines, size = [], 0
+    for i, g in enumerate(groups):
+        line = "· " + g[0][0]["msg"] + (f" (외 {len(g) - 1}건)" if len(g) > 1 else "")
+        if i >= DIGEST_LINES or size + len(line.encode("utf-8")) > 3600:   # ntfy 본문은 4KB까지
+            lines.append(f"… 외 {len(groups) - i}건은 뉴스 보드에서")
+            break
+        lines.append(line)
+        size += len(line.encode("utf-8")) + 1
+    title = f"속보 {len(cands)}건 · {label}" + (f" (같은 소식 묶어 {len(groups)}줄)" if len(groups) < len(cands) else "")
+    actions = [{"action": "view", "label": g[0][0]["msg"][:18], "url": g[0][0]["link"]} for g in groups[:3]]
+    return title, "\n".join(lines), actions
+
+
+def run_digest_test(start, end):
+    """지난 기사로 묶음 알림 한 통을 시험으로 보낸다(보낸 기록 notified.json은 건드리지 않음)."""
+    a, b = ts(start), ts(end)
+    cands = []
+    for r in sorted(recent_rows(a), key=lambda r: r["date"]):
+        d = ts(r["date"])
+        m = TAG.match(r["title"])
+        if not (m and m.group(1) == "속보" and d and d < b) or r.get("via") in ("gov", "intl"):
+            continue
+        head = re.sub(r"\s+-\s+[^-]{1,20}$", "", r["title"][m.end():].strip() or r["title"])
+        cands.append({"msg": head, "link": r["link"]})
+    if not cands:
+        print("그 시간에 속보가 없음"); return
+    title, msg, actions = digest(cands, f"{b.hour}시 시험")
+    send(title, msg, BOARD_URL, ["zap"], actions=actions)
+    print("시험 묶음 알림 보냄:", title)
 
 
 # ---------------- 뉴스 ----------------
@@ -232,6 +314,8 @@ def run_picks(path, old_path=None):
 if __name__ == "__main__":
     if len(sys.argv) >= 3 and sys.argv[1] == "picks":
         run_picks(sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else None)
+    elif len(sys.argv) >= 4 and sys.argv[1] == "digest-test":
+        run_digest_test(sys.argv[2], sys.argv[3])
     elif len(sys.argv) >= 2 and sys.argv[1] == "test":
         send("알림 연결됨", "뉴스 알림이 이 휴대폰으로 와요. 누르면 뉴스 보드가 열려요.", BOARD_URL, ["white_check_mark"])
         print("시험 알림 보냄")

@@ -1,0 +1,30 @@
+name: news-digest-test
+
+# 속보 묶음 알림 시험(11/4): 지난 시간대의 속보를 알림 한 통으로 모아 휴대폰에 보낸다.
+# 보낸 기록(news/notified.json)과 실제 알림 방식은 건드리지 않는다.
+on:
+  workflow_dispatch:
+    inputs:
+      start:
+        description: "시작 시각(KST), 예 2026-11-04T15:05+09:00"
+        required: true
+      end:
+        description: "끝 시각(KST), 예 2026-11-04T16:06+09:00"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 묶음 알림 시험 보내기
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python scripts/notify.py digest-test "${{ inputs.start }}" "${{ inputs.end }}"
