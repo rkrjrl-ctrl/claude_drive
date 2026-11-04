@@ -24,10 +24,10 @@ TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
 SERVER = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
 
 WINDOW_H = int(os.environ.get("NTFY_WINDOW_H", 8))     # 이 시간 안에 들어온 것만 본다(액션이 2시간마다지만 예약이 몇 시간 늦기도 해서 넉넉히)
-HOT_MEDIA = 5     # 이만큼 많은 매체가 다룬 사건이면 「주목」 알림(보드 표시는 8곳, 알림은 많아도 된다고 해서 낮춤)
+HOT_MEDIA = 3     # 이만큼 많은 매체가 다룬 사건이면 「주목」 알림(보드 표시는 8곳, 11/4 사용자 요청으로 5→3)
 MAX_PER_RUN = int(os.environ.get("NTFY_MAX", 30)) # 한 번에 이보다 많으면 나머지는 「외 N건」 한 통으로
 TAG = re.compile(r"^\s*[\[【(<]\s*(단독|속보)[^\]】)>]*[\]】)>]?\s*")
-# 투자·경제 속보는 95%가 시황이라 시장 전체가 흔들린 것만 받는다
+# 시장이 크게 흔들린 것(주목 알림에서 매일 나오는 시황을 거를 때 쓴다)
 BIG = re.compile(r"사이드카|서킷\s*브레이커|기준\s*금리|금통위|금리\s*(인하|인상|동결)|"
                  r"(코스피|코스닥|나스닥|다우|S&P).{0,25}?([3-9]|\d{2})(\.\d+)?\s*%\s*대?\s*(급락|폭락|급등|폭등)")
 MARKET = re.compile(r"증시|코스피|코스닥|나스닥|다우|S&P|국제유가|유가|환율|금값|국채|채권|외환|비트코인|프리뷰|시황|마감|출발")
@@ -109,8 +109,7 @@ def candidates():
         kind = m.group(1)
         head = r["title"][m.end():].strip() or r["title"]
         head = re.sub(r"\s+-\s+[^-]{1,20}$", "", head)   # 끝의 「 - 매체명」
-        if kind == "속보" and r.get("track") == "INV" and not BIG.search(head):
-            continue
+        # 투자·경제 속보도 모두 보낸다(11/4 사용자 요청, 전에는 시장이 크게 흔들린 것만)
         out.append({"kind": kind, "title": f"[{kind}] {TRACK.get(r.get('track'), '')} · {r['source']}",
                     "msg": head, "link": r["link"], "tags": ["pushpin" if kind == "단독" else "zap"],
                     "key": head})
