@@ -138,13 +138,29 @@ def same_event(a, b, df):
     return sum(1 for t in a & b if df.get(t, 0) <= RARE_DF) >= 2
 
 
+# 시황 속보: 지수·환율의 개장·마감·장중 등락. 한 번에 들어온 것은 내용이 달라도 「시황」 한 통으로 합친다
+# (11/4 사용자 「코스피로 묶인 거면 한 번에 봐도 문제 될 건 없어」 「그래도 괜찮을 거 같아」)
+MARKET_BREAK = re.compile(r"(코스피|코스닥|환율|나스닥|다우|S&P|뉴욕증시|니케이|닛케이|항셍|상하이)"
+                          r".{0,40}?(개장|출발|마감|장중|하락\s*전환|상승\s*전환|붕괴|돌파|회복|하회|상회|혼조|급락|급등|\d+\s*(p|포인트|원|%))")
+
+
 def group_events(cands, df=None):
-    """같은 소식끼리 묶는다. 반환: [[(후보, 단어집합), ...], ...] (첫 기사가 대표)."""
+    """같은 소식끼리 묶는다. 반환: [[(후보, 단어집합), ...], ...] (첫 기사가 대표).
+    시황 속보는 모두 한 묶음(묶음 첫 항목에 market=True 표시)."""
     df = df if df is not None else word_df()
-    groups = []
+    groups, market = [], None
     for c in cands:
         w = words(c["msg"])
+        if MARKET_BREAK.search(c["msg"]) and "상장" not in c["msg"]:   # 개별 종목 상장 소식은 시황이 아님
+            if market is None:
+                market = [(dict(c, market=True), w)]
+                groups.append(market)
+            else:
+                market.append((c, w))
+            continue
         for g in groups:
+            if g is market:
+                continue
             # 비슷한지는 첫 기사와만 본다(꼬리 물기로 번지지 않게). 주 이름 등이 다른 기사가 이미 있으면 붙이지 않는다.
             if same_event(w, g[0][1], df) and not any(conflict(w, y) for _, y in g[1:]):
                 g.append((c, w))
@@ -170,7 +186,8 @@ def event_message(kind, g):
         lines.append(line)
         size += len(line.encode("utf-8")) + 1
     actions = [{"action": "view", "label": x["source"][:20], "url": x["link"]} for x, _ in g[:3]]
-    return f"[{kind}] {track} · 같은 소식 {len(g)}건", "\n".join(lines), c["link"], actions
+    label = f"시황 {len(g)}건" if c.get("market") else f"같은 소식 {len(g)}건"
+    return f"[{kind}] {track} · {label}", "\n".join(lines), c["link"], actions
 
 
 def digest(cands, label):
