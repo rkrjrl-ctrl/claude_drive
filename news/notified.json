@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T08:05+09:00",
+"updated": "2026-11-05T09:06+09:00",
 "items": [
 {
 "kind": "gov",
@@ -2177,6 +2177,119 @@
 "상승",
 "장악에",
 "하원"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5EbFVPUUpiaDhseHFvSENYdHN4RWlqeW10cUdiV0JVMDI5LVhIMkw4bHpoeEZPSmRobUZCNXBSTENRaG11b2ZxbkxsZmpCWVJfaFhHMXF4dlNBSzhRb2dXVTM4YTZHeVpSaWh5cUd2Mzd0RnRiaF9IZ3dtWdIBgAFBVV95cUxPa0kyVC05UkRRVUJ4LVNhMjJGQzVCbU9lQ0pLYmgtcXR4a3lHNVdGNmZZcFhIR0E0amxJYXg2TUhoRmh1dHNYbE96UW1qTXJuLVhUNEdaelo4ZXZBbWpZOGxRV2tRUTRmX2dDYVY0SzVVU2UtYWZhUEVxVlg2ckQtag?oc=5",
+"t": "2026-11-05T09:06+09:00",
+"tok": [
+"급등했지만",
+"불확실성",
+"삼성전자",
+"선거",
+"증시",
+"프리장",
+"하락VI"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jdlFIYTZiRUxzMEJSOF9vTjBMOU42OUZEV3YtXzlWazVZVVRWRGtoUUZPZTRPQVZfMmhGTnl6bXZfdlBsMDBpWnRDel85ZzNYb09FMW1kSEFDWDA?oc=5",
+"t": "2026-11-05T09:06+09:00",
+"tok": [
+"260",
+"600억달러",
+"9월",
+"경상흑자",
+"돌파",
+"반도체",
+"사상",
+"수출"
+]
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026110507580409626",
+"t": "2026-11-05T09:06+09:00",
+"tok": [
+"2403억원",
+"3분기",
+"영업익",
+"전년",
+"카카오"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261105_0003855668",
+"t": "2026-11-05T09:06+09:00",
+"tok": [
+"20",
+"46포인트",
+"49",
+"713",
+"개장",
+"내린",
+"코스닥"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261105_0003855665",
+"t": "2026-11-05T09:06+09:00",
+"tok": [
+"09",
+"103",
+"5580",
+"71포인트",
+"82",
+"개장",
+"내린",
+"코스피"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261105_0003855672",
+"t": "2026-11-05T09:06+09:00",
+"tok": [
+"SK하닉",
+"급락",
+"반도체",
+"부진에",
+"삼전",
+"출발"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE12M0VROVYwVmNjeEVkY25ZZklHampLSVdPc2hqcVl3cEFXa2w1NGxEb3dhNklMVmQ3dldiaGh2bDF4Q1k3enJ1MXk4MEpoejYzNXJ2Q1RsXzJpUFVXTkt3ZmlBNDg?oc=5",
+"t": "2026-11-05T09:06+09:00",
+"tok": [
+"314억",
+"3배",
+"4년",
+"8176명에",
+"기초연금",
+"복수국적",
+"수급자",
+"지난해"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1hekVXcUs4R2FxUGNoMlpXRDR3U3lla3pCTVllako3SmZqM2ZqNFZjZEs1b0ZUQVl0TFUwaFhoVzJRQUJNQWpJNmsyMmZVTnhwYndVYVFGTGc4VV9tVWZ4UFBDSGpRUQ?oc=5",
+"t": "2026-11-05T09:06+09:00",
+"tok": [
+"600억달러",
+"9월",
+"경상수지",
+"돌파",
+"반도체",
+"수출",
+"호조",
+"흑자"
 ]
 }
 ]
