@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T17:06+09:00",
+"updated": "2026-11-05T18:05+09:00",
 "items": [
 {
 "kind": "gov",
@@ -3473,6 +3473,189 @@
 "외국인",
 "코스피",
 "폭락해"
+]
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026110501120579338",
+"t": "2026-11-05T18:05+09:00",
+"tok": [
+"고조리서",
+"기록",
+"등재",
+"세계기록유산",
+"세월호",
+"아태"
+],
+"g": "https://view.asiae.co.kr/article/2026110501120579338"
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuNkVRT2o0ajVaU2xmR3N3OHRiU0VqejczLUUxZVl2a204MHE3MVVHc2N2X1d6V19EaXc3OUd2TC1xNUtpZEJPOHNNZ3RVQXZlYmZlaEhoemxMZw?oc=5",
+"t": "2026-11-05T18:05+09:00",
+"tok": [
+"AI",
+"간담회",
+"리벨리온",
+"스타트업",
+"엔비디아와",
+"열리나",
+"해외진출"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE92UkZ6cmRhN2hBZ0dTV1hCSW9ZaXpsdmhkejhRaWdUeC1iSmRnTnBxUXBMUm5PeVoxWXprNU5DUW1jejhyV2IyVjE3bmRVQW9qYlFJa2NJUk1iTk1UVTRjQjJn?oc=5",
+"t": "2026-11-05T18:05+09:00",
+"tok": [
+"1위",
+"2위",
+"3분기",
+"D램",
+"SK하이닉스",
+"삼성전자",
+"점유율"
+],
+"g": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE92UkZ6cmRhN2hBZ0dTV1hCSW9ZaXpsdmhkejhRaWdUeC1iSmRnTnBxUXBMUm5PeVoxWXprNU5DUW1jejhyV2IyVjE3bmRVQW9qYlFJa2NJUk1iTk1UVTRjQjJn?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5XOE9HdE8tQW5vWThnYUQxSVBvS01RYThRSXB0MWt4X3M1TW4wRzZhdXBJMVZiUFdJNVN6c2pSbGstZXNMVEtiRUlBZl9XTHlDRktkbHEwajI0MjdnMU5pMVZB?oc=5",
+"t": "2026-11-05T18:05+09:00",
+"tok": [
+"2029년부터",
+"2년",
+"가상자산",
+"과세",
+"늦춘다",
+"다시",
+"번째",
+"유예"
+],
+"g": "https://www.newsis.com/view/NISX20261105_0003856572"
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261105165000004",
+"t": "2026-11-05T18:05+09:00",
+"tok": [
+"4천억",
+"개인정보",
+"과징금",
+"법원",
+"부과효력",
+"유지",
+"유출",
+"쿠팡"
+],
+"g": "https://www.yna.co.kr/view/AKR20261105165000004"
+},
+{
+"kind": "단독",
+"link": "https://www.hankyung.com/article/2026110591621",
+"t": "2026-11-05T18:05+09:00",
+"tok": [
+"국채",
+"대량",
+"매입한다",
+"백기사로"
+]
+},
+{
+"kind": "단독",
+"link": "https://www.hankyung.com/article/2026110591421",
+"t": "2026-11-05T18:05+09:00",
+"tok": [
+"국채",
+"늘린다",
+"대열",
+"압박",
+"완화하고",
+"외환보유액",
+"큰손",
+"통상",
+"합류"
+]
+},
+{
+"kind": "속보",
+"link": "https://biz.chosun.com/topics/law_firm/2026/11/05/MYT5AXCJJJE5HAXGWZCHUB6DPI/",
+"t": "2026-11-05T18:05+09:00",
+"tok": [
+"4000만원",
+"개인정보",
+"과징금",
+"법원",
+"부과효력",
+"유지",
+"유출",
+"쿠팡"
+],
+"g": "https://www.yna.co.kr/view/AKR20261105165000004"
+},
+{
+"kind": "속보",
+"link": "https://www.mt.co.kr/society/2026/11/05/2026110517551654760",
+"t": "2026-11-05T18:05+09:00",
+"tok": [
+"4000억원",
+"개인정보",
+"과징금",
+"법원",
+"유지",
+"유출",
+"쿠팡"
+],
+"g": "https://www.yna.co.kr/view/AKR20261105165000004"
+},
+{
+"kind": "속보",
+"link": "https://www.fnnews.com/news/202611051800504845",
+"t": "2026-11-05T18:05+09:00",
+"tok": [
+"4천억",
+"개인정보",
+"결정",
+"과징금",
+"법원",
+"부과효력",
+"유지",
+"유출",
+"쿠팡"
+],
+"g": "https://www.yna.co.kr/view/AKR20261105165000004"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9RYkEyamIwM3paWTZoTXJ3ZUJldE5HQm5nT21nOW5vbmVaTkQ3WFdpa1RVSVdTV1NzYU83RWpyQUZDWjA?oc=5",
+"t": "2026-11-05T18:05+09:00",
+"tok": [
+"2030",
+"4사",
+"500조",
+"VISION",
+"선도",
+"선언",
+"선포",
+"시장",
+"퇴직연금",
+"한화금융"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9CNFBnUHRxUzk5c1ZPV0wyMTl4VktLMkZQQmpCOW9BeU80cmdNbDdLQzBVYXl2a0JoX3R1d0hIQmQyeVd0bm5MYmFZVGFRVk5DRVlFNlFpSkJPSVh2ZGNDdlNsYjY?oc=5",
+"t": "2026-11-05T18:05+09:00",
+"tok": [
+"10",
+"5500선도",
+"급등에도",
+"급락",
+"다우",
+"반도체",
+"쇼크",
+"위태",
+"코스피"
 ]
 }
 ]
