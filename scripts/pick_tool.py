@@ -35,7 +35,7 @@ NOW = datetime.datetime.now(KST)
 TODAY = NOW.strftime("%Y-%m-%d")
 MD = os.path.join(BRIEFS, TODAY + ".md")
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36"}
-TRACK = {"INS": "보험·의료", "INV": "투자·경제"}
+TRACK = {"INS": "보험·의료", "INV": "투자·경제", "LIFE": "생활·사회"}
 
 
 def ts(s):
@@ -165,7 +165,7 @@ def prep():
         d = ts(r["date"])
         if d and d >= since and (r.get("rel") is None or r["rel"] >= board.get("govRel", 3)):
             add("G", r["title"], f"{d.strftime('%m-%d %H:%M')} {r['source'].replace(' 보도자료', '')} | {r['title']}", r["link"])
-    for t, n in (("INS", 15), ("INV", 10)):
+    for t, n in (("INS", 15), ("INV", 10), ("LIFE", 12)):
         print(f"\n## {TRACK[t]} 기사(여러 매체가 다룬 순, 홍보성·일상 시황 뺌)")
         k = 0
         for g in board["tracks"].get(t, []):
@@ -175,7 +175,7 @@ def prep():
             if t == "INV" and MARKET.search(g["title"]) and not BIG.search(g["title"]):
                 continue
             tag = f"[{g['tag']}] " if g.get("tag") else ""
-            add("I" if t == "INS" else "V", g["title"],
+            add({"INS": "I", "INV": "V", "LIFE": "L"}[t], g["title"],
                 f"{g['media']}곳 {d.strftime('%m-%d')} {g['source']} | {tag}{TAG.sub('', g['title']).strip()}", g["link"])
             k += 1
             if k >= n:

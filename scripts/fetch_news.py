@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""경제·보험·의료정책 뉴스 헤드라인 수집 (토큰 없음). 제목·언론사·시각·링크만 저장하고 본문은 저장하지 않는다.
+"""경제·보험·의료정책·생활·사회 뉴스 헤드라인 수집 (토큰 없음). 제목·언론사·시각·링크만 저장하고 본문은 저장하지 않는다.
 결과: news/YYYY-MM.csv(월별 누적) · news/DIGEST.md(최근 7일 요약 목록) · news/board.json(뉴스 보드용 최근 7일 후보·보도자료, 11/3)
 선택 입력: 환경변수 NAVER_CLIENT_ID / NAVER_CLIENT_SECRET (네이버 개발자센터 검색 API 키. 없으면 건너뜀)
 기사는 '소재 후보'일 뿐 근거 자료가 아니다. 영상에 쓰기 전 1차 출처(보도자료·법령)로 확인한다.
@@ -60,7 +60,6 @@ FEEDS = [
     ("MarketWatch", "https://feeds.content.dowjones.io/public/rss/mw_topstories", "intl", "INV"),
     # ── 양쪽에 걸친 종합 경제지 (점수로 트랙 분류) ──
     ("연합뉴스 경제", "https://www.yna.co.kr/rss/economy.xml", "scored", ""),
-    ("연합뉴스 최신", "https://www.yna.co.kr/rss/news.xml", "scored", ""),
     ("연합뉴스TV 경제", "https://www.yonhapnewstv.co.kr/category/news/economy/feed/", "scored", ""),
     ("한겨레 경제", "https://www.hani.co.kr/rss/economy/", "scored", ""),
     ("경향 경제", "https://www.khan.co.kr/rss/rssdata/economy_news.xml", "scored", ""),
@@ -88,6 +87,26 @@ FEEDS = [
     ("서울파이낸스", "https://www.seoulfn.com/rss/allArticle.xml", "scored", ""),
     ("이코노믹리뷰", "https://www.econovill.com/rss/allArticle.xml", "scored", ""),
     ("구글뉴스 비즈니스", "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=ko&gl=KR&ceid=KR:ko", "scored", ""),
+    # ── 생활·사회·정치 종합 (11/5 사용자 「우린 모든 뉴스가 필요하고 이를 통해 돈을 생각해야 해」) ──
+    # life = 점수가 0이어도 전부 보관(보험·투자 낱말이 있으면 그 분야로, 아니면 생활·사회). 아침 카드 헤드라인·영상 소재가 여기서도 나온다.
+    ("연합뉴스 최신", "https://www.yna.co.kr/rss/news.xml", "life", "LIFE"),
+    ("연합뉴스 사회", "https://www.yna.co.kr/rss/society.xml", "life", "LIFE"),
+    ("연합뉴스 정치", "https://www.yna.co.kr/rss/politics.xml", "life", "LIFE"),
+    ("연합뉴스 문화", "https://www.yna.co.kr/rss/culture.xml", "life", "LIFE"),
+    ("연합뉴스 건강", "https://www.yna.co.kr/rss/health.xml", "life", "LIFE"),
+    ("연합뉴스 전국", "https://www.yna.co.kr/rss/local.xml", "life", "LIFE"),
+    ("뉴시스 사회", "https://www.newsis.com/RSS/society.xml", "life", "LIFE"),
+    ("뉴시스 정치", "https://www.newsis.com/RSS/politics.xml", "life", "LIFE"),
+    ("SBS 정치", "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=01&plink=RSSREADER", "life", "LIFE"),
+    ("SBS 사회", "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=03&plink=RSSREADER", "life", "LIFE"),
+    ("SBS 생활문화", "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=08&plink=RSSREADER", "life", "LIFE"),
+    ("한겨레 사회", "https://www.hani.co.kr/rss/society/", "life", "LIFE"),
+    ("한겨레 정치", "https://www.hani.co.kr/rss/politics/", "life", "LIFE"),
+    ("경향 사회", "https://www.khan.co.kr/rss/rssdata/society_news.xml", "life", "LIFE"),
+    ("동아 사회", "https://rss.donga.com/national.xml", "life", "LIFE"),
+    ("JTBC 사회", "https://news-ex.jtbc.co.kr/v1/get/rss/section/society", "life", "LIFE"),
+    ("구글뉴스 주요", "https://news.google.com/rss?hl=ko&gl=KR&ceid=KR:ko", "life", "LIFE"),
+    ("구글뉴스 대한민국", "https://news.google.com/rss/headlines/section/topic/NATION?hl=ko&gl=KR&ceid=KR:ko", "life", "LIFE"),
 ]
 # 구글 뉴스 키워드 — 두 트랙을 같은 규모로 둔다 (각 45개)
 QUERIES_INS = [
@@ -106,7 +125,13 @@ QUERIES_INV = [
     "비트코인", "스테이블코인", "회사채 금리", "미국 고용지표", "미국 CPI", "중국 경제 둔화", "일본 금리 인상",
     "무역 관세", "수출 증가율", "경상수지", "성장률 전망", "스태그플레이션", "가계부채 DSR", "아파트 거래", "종합부동산세 양도세",
 ]
-QUERIES = [(q, "INS") for q in QUERIES_INS] + [(q, "INV") for q in QUERIES_INV]
+# 생활 돈 검색어(11/5): 요금·세금·지원금·일자리·사기처럼 지갑에 바로 닿는 말
+QUERIES_LIFE = [
+    "전기요금", "가스요금 난방비", "통신비 요금제", "대중교통 요금 K-패스", "택배 배송", "연말정산", "근로장려금", "세금 환급",
+    "정부 지원금 신청", "청년 월세 지원", "부모급여 아동수당", "육아휴직 급여", "최저임금", "실업급여", "보이스피싱 피해",
+    "전세사기", "등록금 학자금", "의대 정원", "공휴일 연휴", "물가 장바구니",
+]
+QUERIES = [(q, "INS") for q in QUERIES_INS] + [(q, "INV") for q in QUERIES_INV] + [(q, "LIFE") for q in QUERIES_LIFE]
 # 제목 키워드 가중치 — 트랙별로 따로 센다. 점수는 선별용 거친 지표일 뿐 판단이 아니다.
 # 두 트랙의 최고 가중치·키워드 규모를 비슷하게 맞춰 한쪽으로 쏠리지 않게 한다.
 INS_W = {
@@ -126,7 +151,17 @@ INV_W = {
     "관세": 2, "가계부채": 2, "DSR": 1, "대출금리": 1, "부동산": 1, "아파트": 1, "전세": 1, "종부세": 1, "양도세": 1,
     "비트코인": 2, "가상자산": 2, "스테이블코인": 2, "이더리움": 1,
 }
-TRACK_NAME = {"INS": "보험·의료", "INV": "투자·경제"}
+# 생활·사회: 모든 기사를 보관하고, 이 점수는 「돈으로 이어지는 정도」로 순위만 매긴다(거르지 않음, 11/5)
+LIFE_W = {
+    "요금": 3, "전기료": 3, "가스비": 3, "난방비": 3, "통신비": 3, "교통비": 3, "K-패스": 3, "택배": 2, "배송": 1,
+    "세금": 2, "환급": 3, "연말정산": 3, "근로장려금": 3, "지원금": 3, "보조금": 3, "바우처": 3, "수당": 2,
+    "월세": 3, "전세사기": 3, "집값": 3, "청약": 2, "임대": 2, "최저임금": 3, "임금": 2, "월급": 2, "일자리": 2, "실업": 2,
+    "고용": 1, "정년": 2, "퇴직": 1, "물가": 2, "가격": 2, "인상": 2, "인하": 2, "할인": 2, "무료": 2,
+    "보이스피싱": 3, "스미싱": 3, "사기": 2, "피해": 1, "배상": 2, "보상": 2, "과징금": 2, "과태료": 2, "상속": 2, "증여": 2,
+    "등록금": 3, "학비": 2, "학원비": 3, "출산": 2, "육아": 2, "양육": 2, "돌봄": 2, "의대": 2, "병원": 1, "응급": 1,
+    "공휴일": 2, "연휴": 1, "휴일": 1, "만 원": 1, "억 원": 1, "신청": 1, "부터": 1,
+}
+TRACK_NAME = {"INS": "보험·의료", "INV": "투자·경제", "LIFE": "생활·사회"}
 CHECK_CAP = 6_000_000
 COLS = ["date", "source", "title", "link", "score", "tags", "via", "track"]
 
@@ -201,6 +236,10 @@ FSS_PAGES = [
     ("금융위원회", "https://www.fsc.go.kr/no010101", "gov", "INS"),
     # 생보협회 RSS 주소는 없는 주소였다(오류 화면). 보도자료 게시판 목록, 글 주소가 없어 목록 주소로 연결(11/3)
     ("생명보험협회", "https://www.klia.or.kr/board/2/list.do", "gov", "INS"),
+    # 정책브리핑: 모든 부처 보도자료가 모인다. RSS 주소가 없어(404) 목록 1~3쪽을 읽는다(11/5)
+    ("정책브리핑", "https://www.korea.kr/briefing/pressReleaseList.do?pageIndex=1", "gov", "LIFE"),
+    ("정책브리핑", "https://www.korea.kr/briefing/pressReleaseList.do?pageIndex=2", "gov", "LIFE"),
+    ("정책브리핑", "https://www.korea.kr/briefing/pressReleaseList.do?pageIndex=3", "gov", "LIFE"),
 ]   # 소비자유의사항(B0000174)은 2020년 글이 마지막이라 뺐다(11/2 확인)
 
 
@@ -210,6 +249,8 @@ def parse_fss(raw, source):
         return parse_fsc(text, source)
     if source == "생명보험협회":
         return parse_klia(text, source)
+    if source == "정책브리핑":
+        return parse_korea(text)
     out = []
     for m in re.finditer(r'href="(/fss/bbs/B\d+/view\.do\?nttId=\d+[^"]*)"[^>]*>(.*?)</a>(.*?)(\d{4}-\d{2}-\d{2})', text, re.S):
         title = clean(m.group(2))
@@ -226,6 +267,19 @@ def parse_fsc(text, source):
         if title:
             out.append({"title": title, "link": "https://www.fsc.go.kr" + m.group(1),
                         "date": parse_date(m.group(3) + "T09:00:00+09:00"), "source": source})
+    return out
+
+
+def parse_korea(text):
+    """정책브리핑 보도자료 목록: 제목·날짜·부처. 출처 이름은 부처로 적는다(어느 기관 자료인지가 중요)."""
+    out = []
+    for m in re.finditer(r'<a href="(/briefing/pressReleaseView\.do\?newsId=\d+)[^"]*">.*?<strong>(.*?)</strong>.*?'
+                         r'<span class="source">\s*<span>(\d{4})\.(\d{2})\.(\d{2})</span>\s*<span>(.*?)</span>', text, re.S):
+        title = clean(m.group(2))
+        if title:
+            out.append({"title": title, "link": "https://www.korea.kr" + m.group(1),
+                        "date": parse_date(f"{m.group(3)}-{m.group(4)}-{m.group(5)}T09:00:00+09:00"),
+                        "source": clean(m.group(6)) or "정책브리핑"})
     return out
 
 
@@ -275,15 +329,22 @@ def gov_rel(title):
 
 
 def classify(title, hint=""):
-    """(점수, 키워드, 트랙). 두 트랙 중 점수가 높은 쪽. 같거나 둘 다 0이면 피드의 기본 트랙(hint)."""
+    """(점수, 키워드, 트랙). 보험·투자 중 점수가 높은 쪽. 둘 다 0이면 생활 점수가 있을 때 생활·사회, 없으면 피드의 기본 트랙(hint).
+    생활 점수가 보험·투자보다 크면 생활·사회로 보낸다(경제지 피드는 생활 점수 3 이상일 때만)."""
     hi = [k.strip() for k in INS_W if k in title]
     hv = [k.strip() for k in INV_W if k in title]
+    hl = [k.strip() for k in LIFE_W if k in title]
     si = sum(INS_W[k] for k in INS_W if k in title)
     sv = sum(INV_W[k] for k in INV_W if k in title)
+    sl = sum(LIFE_W[k] for k in LIFE_W if k in title)
+    if sl > max(si, sv) and (hint == "LIFE" or sl >= 3):
+        return sl, hl, "LIFE"
     if si > sv or (si == sv and si and hint != "INV"):
         return si, hi, "INS"
     if sv > si or (si == sv and sv):
         return sv, hv, "INV"
+    if sl >= 3 or (sl and hint == "LIFE"):
+        return sl, hl, "LIFE"
     return 0, [], hint
 
 
@@ -315,6 +376,16 @@ SUBTOPICS = {
         ("국민연금·퇴직연금", ["국민연금", "퇴직연금", "기초연금", "주택연금", "IRP", "연금저축", "연금"]),
         ("보험금 분쟁·판결", ["분쟁", "보험금", "약관", "판결", "대법원", "보험사기", "민원", "금감원", "금융감독원"]),
         ("보험업계·상품 출시", ["보험사", "손보", "생보", "생명", "손해보험", "킥스", "K-ICS", "IFRS17", "GA", "설계사", "인수", "출시", "보험"]),
+    ],
+    "LIFE": [
+        ("요금·물가", ["요금", "전기료", "가스비", "난방비", "통신비", "교통비", "K-패스", "물가", "가격", "택배", "배송"]),
+        ("세금·지원금", ["세금", "환급", "연말정산", "근로장려금", "지원금", "보조금", "바우처", "수당"]),
+        ("일자리·임금", ["최저임금", "임금", "월급", "일자리", "실업", "고용", "정년", "퇴직", "채용"]),
+        ("집·주거", ["월세", "전세", "집값", "청약", "임대", "주택"]),
+        ("사기·피해·배상", ["보이스피싱", "스미싱", "사기", "피해", "배상", "보상", "과징금", "과태료"]),
+        ("교육·육아·의료", ["등록금", "학비", "학원", "출산", "육아", "양육", "돌봄", "의대", "병원", "응급", "의사"]),
+        ("정치·국회", ["대통령", "국회", "여당", "야당", "의원", "특검", "총리", "장관", "선거"]),
+        ("사건·사고", ["화재", "숨져", "사망", "사고", "경찰", "검찰", "재판", "선고", "구속", "체포"]),
     ],
     "INV": [
         ("가상자산", ["비트코인", "이더리움", "가상자산", "스테이블코인", "코인", "BTC"]),
@@ -385,7 +456,7 @@ def write_board(ordered, failed):
     since = (NOW - datetime.timedelta(days=7)).isoformat(timespec="minutes")   # 11/3 사용자: 3일 → 7일
     recent = [r for r in ordered if r["date"] >= since]
     out = {"updated": NOW.isoformat(timespec="minutes"), "failed": failed, "hot": HOT, "tracks": {}, "gov": []}
-    for t in ("INS", "INV"):
+    for t in ("INS", "INV", "LIFE"):
         pool = sorted((r for r in recent if r["track"] == t and r["via"] not in ("gov", "intl")),
                       key=lambda r: (int(r["score"]), r["date"]), reverse=True)
         news = pool[:800] + [r for r in pool[800:] if tag(r["title"]) == "단독"]   # 단독은 한 매체뿐이라 점수가 낮아도 남긴다
@@ -477,18 +548,18 @@ def main():
     recent = [r for r in ordered if r["date"] >= week]
     news = [r for r in recent if r["via"] not in ("gov", "intl")]
     new_n = len(set(rows) - seen_before)
-    cnt = {t: sum(1 for r in news if r["track"] == t) for t in ("INS", "INV")}
+    cnt = {t: sum(1 for r in news if r["track"] == t) for t in ("INS", "INV", "LIFE")}
     by_score = lambda t: sorted((r for r in news if r["track"] == t), key=lambda r: (int(r["score"]), r["date"]), reverse=True)
     govs = lambda t: [r for r in recent if r["via"] == "gov" and r["track"] == t][:20]
     ins_trade = [r for r in recent if r["via"].endswith(("보험신보", "보험매일", "보험저널", "한국보험신문"))][:15]
     intl = [r for r in recent if r["via"] == "intl"][:12]
     srcs = Counter(r["source"] for r in news)
-    L = ["# 경제·보험 뉴스 요약 (자동 생성 — 직접 수정 금지)\n",
-         f"- 갱신: {NOW:%Y-%m-%d %H:%M} KST  /  최근 7일 {len(news)}건 (보험·의료 {cnt['INS']} · 투자·경제 {cnt['INV']})  /  이번 신규 {new_n}건",
-         f"- 소스 {len(FEEDS)}곳 + 구글뉴스 키워드 {len(QUERIES)}개(보험·의료 {len(QUERIES_INS)} · 투자·경제 {len(QUERIES_INV)})  /  네이버 {'사용' if os.environ.get('NAVER_CLIENT_ID') else '미사용'}",
+    L = ["# 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)\n",
+         f"- 갱신: {NOW:%Y-%m-%d %H:%M} KST  /  최근 7일 {len(news)}건 (보험·의료 {cnt['INS']} · 투자·경제 {cnt['INV']} · 생활·사회 {cnt['LIFE']})  /  이번 신규 {new_n}건",
+         f"- 소스 {len(FEEDS)}곳 + 구글뉴스 키워드 {len(QUERIES)}개(보험·의료 {len(QUERIES_INS)} · 투자·경제 {len(QUERIES_INV)} · 생활 {len(QUERIES_LIFE)})  /  네이버 {'사용' if os.environ.get('NAVER_CLIENT_ID') else '미사용'}",
          "- 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.",
          f"- 수집 실패 소스: {', '.join(failed) if failed else '없음'}\n"]
-    for t in ("INS", "INV"):
+    for t in ("INS", "INV", "LIFE"):
         L.append(f"## [{TRACK_NAME[t]}] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)\n")
         buckets = {}
         for g in cluster(by_score(t)[:600], 200):
@@ -513,7 +584,7 @@ def main():
     L.append(", ".join(f"{s} {c}" for s, c in srcs.most_common(15)))
     open(DIGEST, "w", encoding="utf-8").write("\n".join(L) + "\n")
     write_board(ordered, failed)
-    print(f"신규 {new_n} / 최근7일 보험의료 {cnt['INS']} 투자경제 {cnt['INV']} / 실패 {failed}")
+    print(f"신규 {new_n} / 최근7일 보험의료 {cnt['INS']} 투자경제 {cnt['INV']} 생활사회 {cnt['LIFE']} / 실패 {failed}")
 
 
 if __name__ == "__main__":

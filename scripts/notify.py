@@ -34,7 +34,7 @@ TAG = re.compile(r"^\s*[\[【(<]\s*(단독|속보)[^\]】)>]*[\]】)>]?\s*")
 BIG = re.compile(r"사이드카|서킷\s*브레이커|기준\s*금리|금통위|금리\s*(인하|인상|동결)|"
                  r"(코스피|코스닥|나스닥|다우|S&P).{0,25}?([3-9]|\d{2})(\.\d+)?\s*%\s*대?\s*(급락|폭락|급등|폭등)")
 MARKET = re.compile(r"증시|코스피|코스닥|나스닥|다우|S&P|국제유가|유가|환율|금값|국채|채권|외환|비트코인|프리뷰|시황|마감|출발")
-TRACK = {"INS": "보험·의료", "INV": "투자·경제", "ETC": "일반"}
+TRACK = {"INS": "보험·의료", "INV": "투자·경제", "LIFE": "생활·사회", "ETC": "일반"}
 STOP = {"속보", "단독", "종합", "영상", "포토", "사진", "오늘", "내일", "올해", "이번", "관련", "대한", "위해", "통해"}
 
 
@@ -309,8 +309,10 @@ def candidates():
                     "msg": head, "link": r["link"], "tags": ["pushpin" if kind == "단독" else "zap"],
                     "key": head, "source": r["source"], "track": r.get("track")})
     # 3) 주목: 여러 매체가 다룬 사건(홍보성 제외)
-    for t in ("INS", "INV"):
+    for t in ("INS", "INV", "LIFE"):
         for g in board.get("tracks", {}).get(t, []):
+            if t == "LIFE" and not g.get("score"):
+                continue   # 생활·사회 주목은 돈과 이어지는 낱말이 있는 것만(정치·사건 큰 소식은 보드에서, 11/5)
             d, d0 = ts(g.get("last", "")), ts(g.get("first", ""))
             if not (d and d >= since and d0 and d0 >= NOW - datetime.timedelta(hours=48)):
                 continue   # 며칠 지난 사건은 기사가 하나 더 붙어도 다시 알리지 않는다
