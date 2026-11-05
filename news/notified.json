@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T07:07+09:00",
+"updated": "2026-11-06T08:06+09:00",
 "items": [
 {
 "kind": "gov",
@@ -4584,6 +4584,70 @@
 "제외",
 "지급",
 "형평성"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Jb3N4anRzZ2VwVTlnSU1EdHN5V1REREFReGZVeHlNVm0zbFB3VWVtY1JqM3JUODRZdm9QTnV0QlFVdGZTOEZsRzZ4WkQ0Y0JaRlVXOEdwT0ZCNEM0bnYyOHR3Y29GR0xO?oc=5",
+"t": "2026-11-06T08:06+09:00",
+"tok": [
+"10",
+"국면",
+"기술주",
+"뉴욕증시",
+"대형",
+"마감",
+"약세",
+"테슬라도",
+"하락"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Jb3N4anRzZ2VwVTlnSU1EdHN5V1REREFReGZVeHlNVm0zbFB3VWVtY1JqM3JUODRZdm9QTnV0QlFVdGZTOEZsRzZ4WkQ0Y0JaRlVXOEdwT0ZCNEM0bnYyOHR3Y29GR0xO?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5icUlYaFNuWThPWFBrVzl6S0R4M3NIOEw4eVl4Z0dDM1JPaE1sVWtfMkNPMEx2YVJXRmlKR2xheXZYWVpMdS1CUmtkSi1nLWV4d011blo0YzlTaWR2c3pkczJxcjZWTlk5NWc?oc=5",
+"t": "2026-11-06T08:06+09:00",
+"tok": [
+"AI",
+"공포에",
+"국내",
+"규제",
+"뉴욕증시",
+"닉스",
+"반도체",
+"삼전",
+"주목",
+"파장",
+"폭락"
+],
+"g": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5icUlYaFNuWThPWFBrVzl6S0R4M3NIOEw4eVl4Z0dDM1JPaE1sVWtfMkNPMEx2YVJXRmlKR2xheXZYWVpMdS1CUmtkSi1nLWV4d011blo0YzlTaWR2c3pkczJxcjZWTlk5NWc?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261106_0003857214",
+"t": "2026-11-06T08:06+09:00",
+"tok": [
+"급락",
+"닉스도",
+"반도체주",
+"삼전",
+"폭락에",
+"프리마켓서"
+],
+"g": "https://www.newsis.com/view/NISX20261106_0003857214"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1keDRfbVFDVEprT1lfdGdfaGZHZmhxbEd4UHk1QnRQWXY3YkhfV1FvSXhJa1Jtd3pDMjl6LWk1ZWUyb3d1akozTExBSVdER21oaGFCWUI0WDZQUmNTcmtJblY1QVJWUUdPOU5URVFYYzZpcU0w?oc=5",
+"t": "2026-11-06T08:06+09:00",
+"tok": [
+"11",
+"나스닥",
+"뉴욕증시",
+"엔비디아",
+"테슬라",
+"폭락"
 ]
 }
 ]
