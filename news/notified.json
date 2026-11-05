@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T13:05+09:00",
+"updated": "2026-11-05T13:30+09:00",
 "items": [
 {
 "kind": "gov",
@@ -2688,6 +2688,20 @@
 "이용",
 "호스피스"
 ]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4tQ0RlcUxvbXhVTGx1TUtndklvRWZES004d3V1b3RwVE5EVTJOWUFhOHhuZFpxSDdlZzN5UWxQTUo5V0kyT0JmVUhDSExuMnF5SXBOSUM2dDl1a24tYzNaRzJUc0N5MnBhcHY3SmdBXzJtbWNWWGRIWmJhVEMtdw?oc=5",
+"t": "2026-11-05T13:30+09:00",
+"tok": [
+"매도",
+"사이드카",
+"삼성전자",
+"코스피",
+"폭락",
+"하이닉스"
+],
+"g": "https://www.mt.co.kr/stock/2026/11/05/2026110509575174787"
 }
 ]
 }
