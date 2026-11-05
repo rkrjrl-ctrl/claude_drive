@@ -19,6 +19,7 @@ import urllib.request
 ROOT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 NEWS = os.path.join(ROOT, "news")
 STATE = os.path.join(NEWS, "notified.json")
+LIFE_MIN = 3   # 생활·사회 알림은 돈 낱말 점수 3 이상만(병원·신청 같은 약한 말 하나로는 안 보냄, 11/5)
 BOARD_URL = "https://rkrjrl-ctrl.github.io/claude_drive/news.html"
 KST = datetime.timezone(datetime.timedelta(hours=9))
 NOW = datetime.datetime.now(KST)
@@ -302,6 +303,8 @@ def candidates():
         if not m:
             continue
         kind = m.group(1)
+        if r.get("track") in ("LIFE", "ETC") and int(r.get("score") or 0) < LIFE_MIN:
+            continue   # 생활·사회·일반 단독·속보는 돈과 이어지는 낱말이 있을 때만(정치 발언·사건 사고는 보드에서만, 11/5 사용자 「중간안」)
         head = r["title"][m.end():].strip() or r["title"]
         head = re.sub(r"\s+-\s+[^-]{1,20}$", "", head)   # 끝의 「 - 매체명」
         # 투자·경제 속보도 모두 보낸다(11/4 사용자 요청, 전에는 시장이 크게 흔들린 것만)
@@ -311,7 +314,7 @@ def candidates():
     # 3) 주목: 여러 매체가 다룬 사건(홍보성 제외)
     for t in ("INS", "INV", "LIFE"):
         for g in board.get("tracks", {}).get(t, []):
-            if t == "LIFE" and not g.get("score"):
+            if t == "LIFE" and (g.get("score") or 0) < LIFE_MIN:
                 continue   # 생활·사회 주목은 돈과 이어지는 낱말이 있는 것만(정치·사건 큰 소식은 보드에서, 11/5)
             d, d0 = ts(g.get("last", "")), ts(g.get("first", ""))
             if not (d and d >= since and d0 and d0 >= NOW - datetime.timedelta(hours=48)):
