@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T10:05+09:00",
+"updated": "2026-11-05T11:05+09:00",
 "items": [
 {
 "kind": "gov",
@@ -2422,6 +2422,130 @@
 "유가",
 "코스피",
 "호재도"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FdlBJdUVEM0tVNXBtMk1qWUQtS3NVMTBKTU9ES08zMTBrYTE0d0NielJDQ3UyYnVBcG9GMGlQaWVBMnRUaC13VlMyaWZBZUxfRloydG93T2IxZ9IBX0FVX3lxTE5YdFdwMWdLOXpvSDJJTk9VUVk1ekotbnJWa3hLMlNrM3EybE56STJOUHpPZkJuazA4eFBPY2NGUXJSSUdTMXVjQ1NqY0RxdVY5SWI2M2lGMTJvNzdVNWww?oc=5",
+"t": "2026-11-05T11:05+09:00",
+"tok": [
+"1대",
+"기뢰제거",
+"인근",
+"작전범위",
+"전력",
+"정부",
+"청해부대",
+"파견",
+"해상초계기",
+"호르무즈",
+"확대"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.mt.co.kr/stock/2026/11/05/2026110509575174787",
+"t": "2026-11-05T11:05+09:00",
+"tok": [
+"5500",
+"매도",
+"반납",
+"발동",
+"사이드카",
+"지수",
+"코스피"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261105065100075",
+"t": "2026-11-05T11:05+09:00",
+"tok": [
+"데이브",
+"성공",
+"연방하원의원",
+"재선",
+"한국계"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.khan.co.kr/article/202611051025011/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+"t": "2026-11-05T11:05+09:00",
+"tok": [
+"급락에",
+"매도",
+"미국",
+"사이드카",
+"여파",
+"중간선거",
+"코스피"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9XVGo4d1Rncng4SURNLXQtZXViZjBoQUdNVHJzMGFlWHg0ekJVeHpYbzRJOTVBUkVPa0wzdmZFamZTcW5QTUZ0bEpjZUNiNnZyamVkdHR3?oc=5",
+"t": "2026-11-05T11:05+09:00",
+"tok": [
+"SK하이닉스",
+"규제",
+"급등에도",
+"뉴욕증시",
+"다우",
+"데이터센터",
+"삼성전자",
+"약세",
+"우려에",
+"코스피",
+"하락"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBLcF9YSVBFQ2VJRHhwc2RlT0tKUEI2X3p1RzZubFV1YVJ0SEtYbm12REhXTXcwc21wdEd2Tm1IVXUyem5sYnNCODlGNEZ4VGtrZGlOeGItQTFJYWZSOWJIUDFvYU9pdw?oc=5",
+"t": "2026-11-05T11:05+09:00",
+"tok": [
+"SK하이닉스",
+"급락에",
+"동반",
+"매도",
+"발동",
+"사이드카",
+"삼성전자",
+"코스피",
+"폭락"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hQ2NyaDFsUDNKcGNqNG5LaE5ZbDYwRkk0WjdDT1NuR0JJanJwbURXOHVhb2NWcGZJbmdxS0o4aGdMSkNqbG5ITlYzUGNwMVV3emlhdzZB?oc=5",
+"t": "2026-11-05T11:05+09:00",
+"tok": [
+"국채금리",
+"다우",
+"매도",
+"민주당",
+"사이드카",
+"상승",
+"압승에",
+"유가",
+"코스피는",
+"하락"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.hankyung.com/article/2026110576866",
+"t": "2026-11-05T11:05+09:00",
+"tok": [
+"급락",
+"낙폭",
+"매도",
+"사이드카",
+"삼전닉스",
+"장중",
+"코스피",
+"확대"
 ]
 }
 ]
