@@ -6,6 +6,7 @@
 받는 주제 이름은 깃허브 비밀값 NTFY_TOPIC에만 둔다(공개 저장소라 코드에 적으면 누구나 구독한다).
 알림 하나에 헤드라인 하나, 누르면 기사가 열린다. 같은 사건은 한 번만 보낸다(news/notified.json).
 속보는 한 번에 들어온 것 중 같은 소식끼리 한 통으로 합치고, 본문에 합친 기사 제목을 모두 적는다(11/4).
+보낸 뒤 3시간 안에 들어온 같은 소식 기사는 다시 알리지 않는다(11/5, FOLLOW_H).
 """
 import csv
 import datetime
@@ -26,6 +27,7 @@ SERVER = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
 
 WINDOW_H = int(os.environ.get("NTFY_WINDOW_H", 8))     # 이 시간 안에 들어온 것만 본다(액션이 2시간마다지만 예약이 몇 시간 늦기도 해서 넉넉히)
 HOT_MEDIA = 3     # 이만큼 많은 매체가 다룬 사건이면 「주목」 알림(보드 표시는 8곳, 11/4 사용자 요청으로 5→3)
+FOLLOW_H = 3      # 속보를 보낸 뒤 이 시간 안에 들어온 같은 소식 기사는 다시 알리지 않는다(11/5)
 MAX_PER_RUN = int(os.environ.get("NTFY_MAX", 30)) # 한 번에 이보다 많으면 나머지는 「외 N건」 한 통으로
 TAG = re.compile(r"^\s*[\[【(<]\s*(단독|속보)[^\]】)>]*[\]】)>]?\s*")
 # 시장이 크게 흔들린 것(주목 알림에서 매일 나오는 시황을 거를 때 쓴다)
@@ -144,6 +146,27 @@ MARKET_BREAK = re.compile(r"(코스피|코스닥|환율|나스닥|다우|S&P|뉴
                           r".{0,40}?(개장|출발|마감|장중|하락\s*전환|상승\s*전환|붕괴|돌파|회복|하회|상회|혼조|급락|급등|\d+\s*(p|포인트|원|%))")
 
 
+def is_market(msg):
+    return bool(MARKET_BREAK.search(msg)) and "상장" not in msg   # 개별 종목 상장 소식은 시황이 아님
+
+
+def nodigit(ws):
+    return {t for t in ws if not any(ch.isdigit() for ch in t)}
+
+
+def similar(w, t, y, ty, df):
+    """같은 소식인가(묶을 때·이미 보냈는지 볼 때 같이 쓴다). w·y는 숫자 뺀 단어, t·ty는 숫자 포함 단어."""
+    return same_event(w, y, df) or same(t, ty)
+
+
+def fits(w, t, members, df):
+    """묶음(members=[(단어, 단어+숫자), ...])에 붙일 수 있나: 어느 기사와든 비슷하고, 어느 기사와도 주 이름 등이 다르지 않으면.
+    (11/5 사용자 「뉴스 합치기가 안 되고 있다」: 첫 기사와만 견주어 「경상흑자 600억달러 첫 돌파」가 「9월 경상수지 614억달러」와 따로 갔다.
+    하루치를 꼬리 물기로 다 잇는 방식은 미국 선거 속보 48건이 한 묶음이 되어 쓰지 않는다)"""
+    return (any(similar(w, t, y, ty, df) for y, ty in members)
+            and not any(conflict(w, y) for y, _ in members))
+
+
 def group_events(cands, df=None):
     """같은 소식끼리 묶는다. 반환: [[(후보, 단어집합), ...], ...] (첫 기사가 대표).
     시황 속보는 모두 한 묶음(묶음 첫 항목에 market=True 표시)."""
@@ -151,22 +174,30 @@ def group_events(cands, df=None):
     groups, market = [], None
     for c in cands:
         w = words(c["msg"])
-        if MARKET_BREAK.search(c["msg"]) and "상장" not in c["msg"]:   # 개별 종목 상장 소식은 시황이 아님
+        if is_market(c["msg"]):
             if market is None:
                 market = [(dict(c, market=True), w)]
                 groups.append(market)
             else:
                 market.append((c, w))
             continue
+        t = tokens(c["msg"])
         for g in groups:
             if g is market:
                 continue
-            # 비슷한지는 첫 기사와만 본다(꼬리 물기로 번지지 않게). 주 이름 등이 다른 기사가 이미 있으면 붙이지 않는다.
-            if same_event(w, g[0][1], df) and not any(conflict(w, y) for _, y in g[1:]):
+            if fits(w, t, [(y, tokens(x["msg"])) for x, y in g], df):
                 g.append((c, w))
                 break
         else:
             groups.append([(c, w)])
+    # 시황이 하나뿐이면 같은 소식 묶음에 붙인다(11/5: 「코스피 4% 급락에 매도 사이드카」만 시황으로 빠져 사이드카 묶음과 따로 갔다)
+    if market is not None and len(market) == 1:
+        c0, w0 = market[0]
+        for g in groups:
+            if g is not market and fits(w0, tokens(c0["msg"]), [(y, tokens(x["msg"])) for x, y in g], df):
+                g.append((dict(c0, market=False), w0))
+                groups.remove(market)
+                break
     return groups
 
 
@@ -325,12 +356,42 @@ def run_news():
     state = load_state()
     first = state is None
     items = [] if first else state.get("items", [])
-    todo = []
+    prev = list(items)   # 지난 실행까지 보낸 것
+    df = word_df()
+    # 처음 보낸 지 FOLLOW_H시간 안 된 속보 묶음(g = 묶음 대표 링크). 시황은 시간마다 내용이 달라 넣지 않는다.
+    # 오래 열어 두면 「특검법 소위 의결 → 법사위 통과 → 본회의 상정」 같은 새 진행이 막혀서 짧게 둔다
+    past, start = {}, {}
+    for x in prev:
+        if x["kind"] == "속보" and not x.get("m") and ts(x["t"]):
+            gid, tk = x.get("g") or x["link"], set(x["tok"])
+            past.setdefault(gid, []).append((nodigit(tk), tk))
+            start[gid] = min(start.get(gid, ts(x["t"])), ts(x["t"]))
+    past = {g: ms for g, ms in past.items() if (NOW - start[g]).total_seconds() <= FOLLOW_H * 3600}
+    todo, rec = [], {}
     for c in candidates():
-        if seen(c, items):
+        item = {"kind": c["kind"], "link": c["link"], "t": NOW.isoformat(timespec="minutes"), "tok": sorted(tokens(c["key"]))}
+        if c["kind"] == "속보":
+            # 속보는 지난 실행에 보낸 것과만 견준다. 이번에 같이 들어온 같은 소식은 버리지 않고 아래에서 한 통으로 합친다
+            # (11/5: 8시 경상수지 기사 9개 중 4개가 여기서 버려지고 나머지가 3통으로 따로 갔다)
+            if any(x["link"] == c["link"] for x in prev):
+                continue
+            market = is_market(c["msg"])
+            if not market:
+                w, t = words(c["msg"]), tokens(c["msg"])
+                hit = next((gid for gid, ms in past.items() if fits(w, t, ms, df)), None)
+                if hit:   # 지난 실행에 보낸 소식의 후속 기사: 알리지 않고 그 묶음에 적어 둔다
+                    item["g"] = hit
+                    past[hit].append((w, t))
+                    items.append(item)
+                    continue
+            if seen(c, prev):   # 전부터 하던 하루짜리 중복 검사(제목이 아주 비슷하면)
+                continue
+            if market:
+                item["m"] = 1
+            rec[c["link"]] = item
+        elif seen(c, items):
             continue
-        items.append({"kind": c["kind"], "link": c["link"], "t": NOW.isoformat(timespec="minutes"),
-                      "tok": sorted(tokens(c["key"]))})
+        items.append(item)
         todo.append(c)
     if first:   # 처음 한 번은 지금 있는 것을 「보낸 것」으로만 적어 둔다(지난 기사가 한꺼번에 쏟아지지 않게)
         save_state(items)
@@ -348,7 +409,10 @@ def run_news():
     for c in todo:
         if c["kind"] == "속보":
             if breaking:
-                for g in group_events(breaking):
+                for g in group_events(breaking, df):
+                    for x, _ in g:   # 묶음 대표 링크를 적어 두면 다음 실행에서 후속 기사를 알아본다
+                        if x["link"] in rec:
+                            rec[x["link"]]["g"] = g[0][0]["link"]
                     t, m, link, acts = event_message("속보", g)
                     msgs.append((t, m, link, g[0][0]["tags"], acts))
                 breaking = []
