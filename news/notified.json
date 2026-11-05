@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T11:05+09:00",
+"updated": "2026-11-05T12:06+09:00",
 "items": [
 {
 "kind": "gov",
@@ -2545,6 +2545,133 @@
 "삼전닉스",
 "장중",
 "코스피",
+"확대"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ZTlJ1VENzWEVCYzJaakJLMnN6cGpVRmlqOHVhbEpTUV9vcG4xdW5GTHdkendIcmpOaHp1OXRLR2tFN0x4a203cmpDVWpHZi1QMlVPaw?oc=5",
+"t": "2026-11-05T12:06+09:00",
+"tok": [
+"29",
+"WTI",
+"국제유가",
+"급락"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMUk2ZkdLR1dmeXBtd0Y2bmw2YTFkbm1OZjJOQTBCNWF6Vl9mNEdzVGdPQVNBWVQybUJRcVg4R003OXptQkVMNWZYT0g4OVVuTFZpUV9OQ2xUazJJQ3RFR0RKdDAwcDgzOUp5OUZhY0RVZURFREZLVl9WMnE3d19tVg?oc=5",
+"t": "2026-11-05T12:06+09:00",
+"tok": [
+"1조원",
+"5400선",
+"급락에",
+"붕괴",
+"외인",
+"장중",
+"코스피",
+"투매"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xcmVCSnRianRDSGNCeW94LThzYldQOGtCSmV0NlNVUy0wVjhSMVZzbG5Pc2luYzFpZy0tUjFja2hhMjFOazZIWm9jYWFjS2RMVEx1NmxsWkVYWGR4bGNfZVl4M0lwY25TZmU4LQ?oc=5",
+"t": "2026-11-05T12:06+09:00",
+"tok": [
+"기초연금",
+"대수술"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9rbHAwdGd4UUY5X2tjdDdKcUVwbndxaUc2WkV0X0t2aGVmZTFWODdyWXlfVVhOMnhxMW1NdDY4SklVMkFaS1pQdWNDeVlFNkF2UHE4bmFpY1cyVl9wMUFlNF9oc21JYlcwTWpydnZjRdIBc0FVX3lxTE5NVW1CaFZ6Ylg4N2RrSTdkOUt2YUR6U0NFZU04NnJrWUJLZ2JGa0t6ZC1iRTlseWhrMFJNTDE3dzVSNlkwN0dqemlmakk3SURyTTdUemIxN3p4RVZNdXVxQzlwM0MteWc0b0VfcVlpTU1ubUE?oc=5",
+"t": "2026-11-05T12:06+09:00",
+"tok": [
+"4월부터",
+"5년",
+"강화",
+"거주",
+"국내",
+"기준",
+"기초연금",
+"내년",
+"받으려면",
+"필수"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5oVmRTTzhIY0lMMmdEU0ZNWklZc3VYb2NRRFF1dFJXdUFVeXRDZW8yR0VjbVdual9WdEV2RXVMbjg3SGJQb0lEdW1uNXFlYUM0NVNSbHY1ejJORDdHVmZ1eTQ0V21xWWN3UG9R?oc=5",
+"t": "2026-11-05T12:06+09:00",
+"tok": [
+"급락",
+"매도",
+"반도체",
+"사이드카",
+"약세에",
+"장중",
+"코스피"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261105089500001",
+"t": "2026-11-05T12:06+09:00",
+"tok": [
+"3시",
+"본회의에",
+"상정키로",
+"오후",
+"의장",
+"조작기소",
+"특검법안"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE05WkNqblFYRlpZV1Ezc05Rbm92R0JGVFE2cURSY1VQckkxS2I5TDVYQzdWUXN4bHNwc1dCcTF5dkM2b01VYnVKejYyNEQ2ekxaOE9SWFp5dUNza1NEQmNLLWROWQ?oc=5",
+"t": "2026-11-05T12:06+09:00",
+"tok": [
+"4월",
+"8000명",
+"거주",
+"국내",
+"기초연금",
+"내년",
+"넘어",
+"복수국적",
+"수급자",
+"신설",
+"요건"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1tMm5RRXEwYVNnM3h6U2VWd0hudGdVZWxyUWVKanZDd1R2WHJfdUFzdG5jeHdiRnVscWRYZjROaFF3cl9aYVdOblJhajRSUlRiazhkMGpaS1VxdGI2STVRclpSSkU3VDAyR0E?oc=5",
+"t": "2026-11-05T12:06+09:00",
+"tok": [
+"강화",
+"개선",
+"고객",
+"교보생명",
+"보험금",
+"상담",
+"소비자보호",
+"안내"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.yna.co.kr/view/AKR20261105082800008",
+"t": "2026-11-05T12:06+09:00",
+"tok": [
+"기업지원",
+"도입",
+"시스템",
+"자산부채관리",
+"퇴직연금",
+"현대차증권",
 "확대"
 ]
 }
