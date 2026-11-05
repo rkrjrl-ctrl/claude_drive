@@ -1,9 +1,9 @@
 # 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-06 04:05 KST  /  최근 7일 17903건 (보험·의료 3786 · 투자·경제 12132 · 생활·사회 1815)  /  이번 신규 320건
+- 갱신: 2026-11-06 05:05 KST  /  최근 7일 17982건 (보험·의료 3786 · 투자·경제 12138 · 생활·사회 1888)  /  이번 신규 386건
 - 소스 79곳 + 구글뉴스 키워드 110개(보험·의료 45 · 투자·경제 45 · 생활 20)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 없음
+- 수집 실패 소스: 서울경제 금융, 서울경제 경제, 서울경제 부동산
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
@@ -23,9 +23,9 @@
 - (7) 11-04 재경일보 — [국민연금 10년 가입 월급여…기초연금보다 적어 : 정책.지표](https://news.google.com/rss/articles/CBMiS0FVX3lxTE0wUHZUZ09VZzlEVzBFZUJnekFWSEVyaEF6UTQ0VkhQQlV3LTRVdHNDaFlQYjE4dEFhTzI1bWhnMFRZd01vU3FYbGlVMA?oc=5) — **외 8건**(7개 매체)
 
 **국민연금·퇴직연금** (사건 81개)
-- (4) 11-05 세계일보 — [복수국적 기초연금 수급자 4년 새 2.3배…내년부터 ‘국내 5년’ 살아야 받는다](https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SblllYVZDQ2RyZXB5TlE2QlRBYVdQTjRLdDl5NEd6RDMxSWxPSDVqaXJZeHRpdWhzMHhYckpXLXdWTlcwbzZ4YVdzNkhJZlhBZS10T3ZrTU3SAVRBVV95cUxQOXU0ODlxMHJSeW5ZU1hQS3hXbnhCdmk5SWRQS21jU1dWbkNXSlpKdmduaEVld2pqcjIzenB1RTd2ZEhQdnV0QUdTTE05aVpwSmhNQ0I?oc=5) — **외 42건**(35개 매체)
+- (4) 11-06 동아 사회 — [복수국적자, 내년부터 5년 이상 국내 살아야 기초연금 수령](https://www.donga.com/news/Society/article/all/20261106/134975431/2) — **외 30건**(28개 매체)
 - (5) 11-03 비즈월드 — [금감원, '퇴직연금 장기·분산투자 캠페인' 시작](https://news.google.com/rss/articles/CBMiakFVX3lxTE5GOTFLVHdXZXZpbEJ5V0xEeVBzYUZuX1VRd2J5eFI2OTJKM21Ud2lsRzdrTUJIQWRDUFo2X1dwNmdTNlQxc2ROdTFrNTVjMkpkUUJWWHBOTkRocThhLWtYREM1OXlaYWpjRXc?oc=5) — **외 14건**(14개 매체)
-- (4) 11-05 한국경제TV — [알아서 굴린 퇴직연금, 3년 수익률 100% 넘었다…한투證 ‘눈길’](https://news.google.com/rss/articles/CBMic0FVX3lxTE1rYk53dmNCQ1o4elFsMEdTRlFFOEEzRzc3UUxNc010OGRwbU8tOEtUMUZ4UlBybm9wbENlLTAxS1pZSnFndFVlaDFrVHpOeEtyNkViLUhlbmtuTDl2R2xfQnlJRVdjd2VjXzhMTjZxZW5CWWc?oc=5) — **외 14건**(15개 매체)
+- (4) 11-05 알파경제 — [복수국적 기초연금, 4년 새 118억→314억…내년 4월 국내 5년 거주 요건 : 알파경제TV](https://news.google.com/rss/articles/CBMibkFVX3lxTE5LZWwtSW5oZzNXUHo5aDZMMVppdjAtMzUyVTRKb3Z2cjUxRDJDWkZaeGdlMmVfbnBnWVhRb3Utc244RzdXcnh5d040dG1McW1fNXJ1T1ViRUdmMFZRWTE1VVhXUkpSOXdxbThSaDlR?oc=5) — **외 16건**(14개 매체)
 
 **보험금 분쟁·판결** (사건 28개)
 - (7) 11-03 남도일보 — [자해하고 보험금 청구…9억 챙긴 보험사기 일당 ‘덜미’](https://news.google.com/rss/articles/CBMibEFVX3lxTE1EUXpoTTJGbjBCajJXZEk5ZXlDYWtncnlUMDBqYWZvMDNxTW0zMGtncmhzc01wR3BMMlNuZHR1UGdTTTlGT0JZeEhEMC1sbjFzTjJXem5DdjlfNEdOVnNWMHQ0WnZ3dkZVVUwtR9IBcEFVX3lxTE8teUExVTB0SHhFZnItRDVpYnBJQWV6eFBoYnRCTjl4S1pYWTFlQ1RUTEk0RVpLWkVUUWVybDZ6VDROclp3TkZDd2F4ZzlkQWprN05PRzRBY3RvRGtjUmMxN05sQWtDV05sbmVwUFZpQnU?oc=5) — **외 2건**(3개 매체)
@@ -108,12 +108,12 @@
 
 ## [생활·사회] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
-**요금·물가** (사건 47개)
+**요금·물가** (사건 46개)
 - (8) 11-05 조선 경제 — [김동철 한전 사장 “전기요금 현실화 필요…단, 산업용 전기료 인상은 최후 수단”](https://www.chosun.com/economy/industry-company/2026/11/05/HA2DMZLEMZRTIMJXGJTDCODEHA/) — **외 25건**(23개 매체)
 - (5) 11-03 한국일보 — [이 대통령, 어떤 통계 본 걸까... "놀라울 정도로 집값 떨어졌다"는데 서울 아파트 가격 90주 연속 상승](https://news.google.com/rss/articles/CBMic0FVX3lxTE1aNU00R1VReVNlZG5CNUtTQlBWMmZZd3B6eXcwalUwQzdieWdJYlkwTnViU3RVNWNONzNvWkFoRmZqcHJsUlNpQXpEX1Jxc2pVbFRyaExUZzJWUFZRMGt4NGt3SUZoZW5fcnptZGwyM1hHaUHSAXNBVV95cUxNWjVNNEdVUXlTZWRuQjVLU0JQVjJmWXdwenl3MGpVMEM3YnlnSWJZME51YlN0VTVjTjczb1pBaEZmanBybFJTaUF6RF9ScXNqVWxUcmhMVGcyVlBWUTBreDRrd0lGaGVuX3J6bWRsMjNYR2lB?oc=5) — **외 8건**(8개 매체)
 - (8) 11-05 국제뉴스 — [에너지바우처 신청 서두르세요… 난방비 최대 70만 원 준다고?](https://news.google.com/rss/articles/CBMibkFVX3lxTE80cGxNREFiTkd0emNPR0hJQmtYMlFYcTJna25sTmVDUV9HaXZEOEE5MkNoWlBsM0VmZ3gwS3dCbnVOcUE3Z29jU29vRnh6UWY4LVVNdVI5VUx6SjZHeTBHaDFOb0FzQWl1bURBMlhB?oc=5) — **외 1건**(2개 매체)
 
-**세금·지원금** (사건 40개)
+**세금·지원금** (사건 41개)
 - (3) 11-03 www.ebn.co.kr — [농심 美법인, '트럼프 관세' 돌려달라…美 정부 상대 환급 소송](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9yYXR6UDVSZGVOZk05ektjblpqdHdQT3hkNkZ4VFlrZWRhdV94bC1reTkzR2tMTXpDaW9BMlBwbUhYVEF1YTVndUpVRDRpOUVDdHlrV2sySTdQVi1WWkJTRHluWlM1M2lY?oc=5) — **외 13건**(13개 매체)
 - (7) 11-05 포커스경제 — [HUG가 전세금 관리하고 임대인에 월세 지급…전월세 안심신탁 시행](https://news.google.com/rss/articles/CBMibkFVX3lxTE5VZnlJWWR2Si1QZjRKQ3NKekloQjFhRnFvNWNpRWhEcTFWUHhIR1A0cUZHX21DQmN6clpBeFRNdEFEU25wWm1DNW9DMm8wWDFFU3JlOVY4WUZrSXhVcUk4R01MWHR1aS1JZ2pNR2hB?oc=5) — **외 3건**(4개 매체)
 - (3) 11-03 녹색경제신문 — [K라면 인기로 번 돈, 관세로 떼일 뻔했다…농심, 美 정부에 직접 '환급 소송’](https://news.google.com/rss/articles/CBMiaEFVX3lxTE55QjZyTS1pX3h0Z2RrS25sc09PSXVvYXl2c1dYNHBiVW1VTWdNdVhEZjdlSVV0Nk11M0xmMGZxdDJoa3FBRlBQUzExVlczNjdKX3F2ZVMtT0lVbkV4d2wwWC1IOURqbGcz?oc=5) — **외 7건**(8개 매체)
@@ -123,7 +123,7 @@
 - (7) 11-04 씬짜오베트남 — [베트남, 2027년 지역별 최저임금 인상…월 31만~39만 동 올려](https://news.google.com/rss/articles/CBMiSEFVX3lxTE80Tk50aTFGUkU2THRpQU5YRHNWUDhYSWZ6clp3aEpnbUZFWXBLNC1rRzZPYUZzS3JvMDlfQlJXV3hGYk9QbzYzbw?oc=5) — **외 1건**(2개 매체)
 - (7) 11-03 한국경제 금융 — ["노인 돌봄, 이렇게 될 줄은"…최저임금 급등 뒤 벌어진 일 [김익환의 부처 핸즈업]](https://www.hankyung.com/article/202611032781i) — **외 1건**(2개 매체)
 
-**집·주거** (사건 51개)
+**집·주거** (사건 50개)
 - (11) 11-04 연합뉴스 경제 — ['전세사기 걱정 더는' 전월세 안심신탁 임대인 오늘부터 모집](https://www.yna.co.kr/view/AKR20261104070700003) — **외 24건**(24개 매체)
 - (5) 11-05 안전신문 — [시흥시, AI 기반 ‘경기 안심 부동산’ 홍보…전세사기 예방 나서](https://news.google.com/rss/articles/CBMicEFVX3lxTE5IVlNJS0dLSjNJa2ZGUGtaOHlnV0JwTzVmRVhsVXlscjZ4bFBSU2RHWWtUMUJ4emdHWEZpSGlDZDVOZzR2Smo4T2V5Sy1ETHV1RXRGZWVGaTBUSDUtN0JFZFQ4Y1NCUzlIcXpMWFJwVWI?oc=5) — **외 8건**(9개 매체)
 - (6) 11-05 KBS 뉴스 — [서울 성북구 6억 원대 전세사기 50대에 징역 8년 구형](https://news.google.com/rss/articles/CBMiW0FVX3lxTFBUU0REQl9RSnEyOWs0ZlFmTVU0LXZFdXlwV3lNRGVFMUE3R1lqRC12eFJVeVhXVHN5MHZWS1NYUnhtV3d3Tkl0NFlqb3RQcUhCd2VJVWFJVXJDRjA?oc=5) — **외 3건**(4개 매체)
@@ -133,7 +133,7 @@
 - (3) 11-05 SBS 사회 — [법원, 개인정보 유출 쿠팡에 과징금 4천억 원 효력 유지](https://news.sbs.co.kr/news/endPage.do?news_id=N1008832844&plink=RSSLINK&cooper=RSSREADER) — **외 5건**(5개 매체)
 - (4) 11-05 월요신문 — [신한투자증권, 휴대폰 개통 이력 활용해 보이스피싱 피해 예방](https://news.google.com/rss/articles/CBMiakFVX3lxTE9RV1g2V2pfcEdLTllZZ2Y2YlZPMGVYMlAxdzlIUDQwSERJWnlHTDhDekNsbGMza3RDbnB2dXhjdExhUTN0eFE5eFluajEzVHRSMHl0X1p1aktobk1aTXEwcXctTnVyR08xOHc?oc=5) — **외 2건**(3개 매체)
 
-**교육·육아·의료** (사건 10개)
+**교육·육아·의료** (사건 11개)
 - (3) 11-05 뉴스1 — [이만희 "경국대 의대 신설 환영…교육병원 건립·국비 확보 지원"](https://news.google.com/rss/articles/CBMiXEFVX3lxTFByalh4ak12bDRyRnM3YVlCR3dyZW5aTEVMTXR1VENjSnRGZmZ6aUN6X2wzOUFZVXl6aHF2Z2Vra3NfcVE5X0llU1ZPOWZjZTg4M0ZNczRUSjV1WnFW?oc=5) — **외 2건**(3개 매체)
 - (3) 11-05 이투데이 — [순천시 국립순천대의대 정원 60명 확정..."대학병원·필수의료 확충" 절실](https://news.google.com/rss/articles/CBMiVEFVX3lxTE5namlaZUNhZGhKVF9kVUREWW1Nb21Pa2NvTFJxa2FQNnFfcDR1QzdCSjFxakw5MXRfSngwZ1dBSDcybXN5ZmpNamJ3NHFGMTM5SFVBbg?oc=5) — **외 1건**(2개 매체)
 - (3) 10-30 서울경제TV — [건보공단, 2027년 의료수가 개편…의원 초진료 5.2%·병원 식대 4.27% 인상](https://news.google.com/rss/articles/CBMiZEFVX3lxTE8yWUhsQVAwRFdiek92bW9pUkI4cUxmN1Q5V18yaDBjRFNuRzVyc0xWSVFHTHlDYTF4WWZWNmpwd0dUdFVyb3YxZDBwdkgtbzJteWN3b3VSSjFYS01CSUt6NW1EUVU?oc=5) — **외 1건**(2개 매체)
@@ -187,6 +187,9 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
+- 11-06 MarketWatch — [After tech-stock rout, October jobs report could bring relief — or more pain](https://www.marketwatch.com/story/after-tech-stock-rout-october-jobs-report-could-bring-relief-or-more-pain-db93357e?mod=mw_rss_topstories)
+- 11-06 MarketWatch — [Trump’s Iran war has changed the future of Social Security](https://www.marketwatch.com/story/trumps-iran-war-has-changed-the-future-of-social-security-7a500f9f?mod=mw_rss_topstories)
+- 11-06 MarketWatch — [The ‘Musk selloff’ deepens as Tesla and SpaceX combine for $450 billion two-day wipeout](https://www.marketwatch.com/story/the-musk-selloff-deepens-as-tesla-and-spacex-combine-for-450-billion-two-day-wipeout-d300ab4f?mod=mw_rss_topstories)
 - 11-06 MarketWatch — [As Nvidia’s stock heads for a bear market, bargain hunters see a golden buying opportunity](https://www.marketwatch.com/story/as-nvidias-stock-heads-for-a-bear-market-bargain-hunters-see-a-golden-buying-opportunity-1a5917e6?mod=mw_rss_topstories)
 - 11-06 MarketWatch — [Bloom Energy’s stock is one of the S&P 500’s biggest losers amid fears of data-center delays](https://www.marketwatch.com/story/bloom-energys-stock-is-one-of-the-s-p-500s-biggest-losers-amid-fears-of-data-center-delays-a44c96bb?mod=mw_rss_topstories)
 - 11-06 MarketWatch — [I’m 65 and worth more than $5.6 million. Can I buy a $200,000 camper even though the price feels ‘crazy high’?](https://www.marketwatch.com/story/im-65-and-worth-more-than-5-6-million-can-i-buy-a-200-000-camper-even-though-the-price-feels-crazy-high-55f668f8?mod=mw_rss_topstories)
@@ -196,10 +199,7 @@
 - 11-06 MarketWatch — [Micron, Sandisk and other AI stocks are falling hard: ‘Investors don’t like uncertainty.’](https://www.marketwatch.com/story/micron-sandisk-and-other-ai-stocks-are-falling-hard-investors-dont-like-uncertainty-94d2a3b9?mod=mw_rss_topstories)
 - 11-06 CNBC — [Marc Lore's Wonder confidentially files for IPO](https://www.cnbc.com/2026/11/05/wonder-confidential-ipo-filing.html)
 - 11-06 MarketWatch — [The year’s most successful stock-market trades are unraveling — perhaps for good](https://www.marketwatch.com/story/the-years-most-successful-stock-market-trades-are-unraveling-perhaps-for-good-45f7a0dd?mod=mw_rss_topstories)
-- 11-06 MarketWatch — [A record number of first-time home buyers now pay in cash. Here’s where they get the money.](https://www.marketwatch.com/story/a-record-10-of-first-time-home-buyers-now-pay-in-cash-heres-where-they-get-the-money-70f2e656?mod=mw_rss_topstories)
-- 11-06 MarketWatch — [This pancreatic cancer treatment is on track for ‘one of the best drug launches of all time’](https://www.marketwatch.com/story/this-pancreatic-cancer-treatment-is-on-track-for-one-of-the-best-drug-launches-of-all-time-37bf86ce?mod=mw_rss_topstories)
-- 11-06 MarketWatch — [An Anthropic IPO when the AI trade is this turbulent? Goodspeed!](https://www.marketwatch.com/story/an-anthropic-ipo-when-the-ai-trade-is-this-turbulent-godspeed-08ca0496?mod=mw_rss_topstories)
 
 ## 언론사별 건수 상위 15
 
-토큰포스트 815, 머니투데이 493, 인포맥스 366, 파이낸셜뉴스 전체 366, 연합뉴스 마켓 332, 아시아경제 322, 코인리더스 318, 조선비즈 278, 연합뉴스 최신 272, 한국경제 금융 229, 뉴시스 금융 220, 재경일보 198, 뉴스1 198, 조선 경제 190, 이데일리 188
+토큰포스트 829, 머니투데이 495, 인포맥스 367, 파이낸셜뉴스 전체 366, 연합뉴스 마켓 330, 아시아경제 322, 코인리더스 319, 연합뉴스 최신 278, 조선비즈 278, 한국경제 금융 229, 뉴시스 금융 220, 뉴스1 198, 재경일보 198, 조선 경제 190, 이데일리 188
