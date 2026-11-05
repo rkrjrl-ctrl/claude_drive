@@ -1,107 +1,174 @@
 # 자동 감시 결과 (자동 생성 — 직접 수정 금지)
 
-- 실행일: 2026-11-04  /  감시 url 2334개  /  자료 2334건  /  이번에 확인 2109개(연속 실패로 쉼 225개, 시간 초과로 넘김 0개)
+- 실행일: 2026-11-05  /  감시 url 2334개  /  자료 2334건  /  이번에 확인 2103개(연속 실패로 쉼 231개, 시간 초과로 넘김 0개)
 - 이 파일은 **감지만** 한다. 원문 내용 확인·자료 갱신은 Claude Code가 한다.
 
-## 원문 변경 확정 (95건)
+## 원문 변경 확정 (162건)
 
-- MED-0467 — https://pmc.ncbi.nlm.nih.gov/articles/PMC9830140/
-- MED-0468 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6986975/
-- MED-0469 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7994735/
-- MED-0470 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6424836/
-- MED-0471 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7082664/
-- MED-0472 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6901695/
-- MED-0473 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7332334/
-- MED-0474 — https://pmc.ncbi.nlm.nih.gov/articles/PMC8550930/
-- MED-0475 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6393630/
-- MED-0477 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12790914/
-- MED-0478 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12790912/
-- MED-0479 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12790917/
-- MED-0480 — https://pmc.ncbi.nlm.nih.gov/articles/PMC10404807/
-- MED-0481 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12710289/
-- MED-0486 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13368462/
-- MED-0487 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13619551/
-- MED-0488 — https://pmc.ncbi.nlm.nih.gov/articles/PMC10258552/
-- MED-0576 — https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment
-- MED-0747 — https://www.nice.org.uk/guidance/ng19
-- MED-0805 — https://medlineplus.gov/acutelymphocyticleukemia.html
-- MED-0806 — https://medlineplus.gov/acutemyeloidleukemia.html
-- MED-0808 — https://medlineplus.gov/alpha1antitrypsindeficiency.html
-- MED-0809 — https://medlineplus.gov/alzheimerscaregivers.html
-- MED-0813 — https://medlineplus.gov/ankylosingspondylitis.html
-- MED-0815 — https://medlineplus.gov/anxiety.html
-- MED-0818 — https://medlineplus.gov/arrhythmia.html
-- MED-0820 — https://medlineplus.gov/arthritis.html
-- MED-0821 — https://medlineplus.gov/asthma.html
-- MED-0822 — https://medlineplus.gov/asthmainchildren.html
-- MED-0824 — https://medlineplus.gov/atrialfibrillation.html
-- MED-0826 — https://medlineplus.gov/bipolardisorder.html
-- MED-0832 — https://medlineplus.gov/bodyweight.html
-- MED-0837 — https://medlineplus.gov/cancer.html
-- MED-0839 — https://medlineplus.gov/cancerimmunotherapy.html
-- MED-0846 — https://medlineplus.gov/chestinjuriesanddisorders.html
-- MED-0853 — https://medlineplus.gov/chronicmyeloidleukemia.html
-- MED-0854 — https://medlineplus.gov/chronicpain.html
-- MED-0861 — https://medlineplus.gov/coronaryarterydisease.html
-- MED-0866 — https://medlineplus.gov/delirium.html
-- MED-0868 — https://medlineplus.gov/depression.html
-- MED-0869 — https://medlineplus.gov/developmentaldisabilities.html
-- MED-0870 — https://medlineplus.gov/diabetes.html
-- MED-0871 — https://medlineplus.gov/diabetesandpregnancy.html
-- MED-0872 — https://medlineplus.gov/diabetescomplications.html
-- MED-0879 — https://medlineplus.gov/diabeticheartdisease.html
-- MED-0880 — https://medlineplus.gov/diagnosticimaging.html
-- MED-0892 — https://medlineplus.gov/flu.html
-- MED-0897 — https://medlineplus.gov/gout.html
-- MED-0902 — https://medlineplus.gov/heartattack.html
-- MED-0904 — https://medlineplus.gov/heartdiseases.html
-- MED-0907 — https://medlineplus.gov/heartsurgery.html
-- MED-0909 — https://medlineplus.gov/hemophilia.html
-- MED-0914 — https://medlineplus.gov/hepatitisb.html
-- MED-0915 — https://medlineplus.gov/hepatitisc.html
-- MED-0918 — https://medlineplus.gov/hodgkinlymphoma.html
-- MED-0919 — https://medlineplus.gov/hormonetherapyformenopause.html
-- MED-0920 — https://medlineplus.gov/howtoimprovementalhealth.html
-- MED-0923 — https://medlineplus.gov/howtopreventdiabetes.html
-- MED-0928 — https://medlineplus.gov/hypoglycemia.html
-- MED-0930 — https://medlineplus.gov/insomnia.html
-- MED-0933 — https://medlineplus.gov/jointdisorders.html
-- MED-0934 — https://medlineplus.gov/juvenilearthritis.html
-- MED-0935 — https://medlineplus.gov/kaposisarcoma.html
-- MED-0941 — https://medlineplus.gov/leukemia.html
-- MED-0943 — https://medlineplus.gov/lewybodydementia.html
-- MED-0946 — https://medlineplus.gov/menstruation.html
-- MED-0949 — https://medlineplus.gov/metabolicsyndrome.html
-- MED-0953 — https://medlineplus.gov/multiplesclerosis.html
-- MED-0957 — https://medlineplus.gov/myastheniagravis.html
-- MED-0961 — https://medlineplus.gov/obesity.html
-- MED-0966 — https://medlineplus.gov/osteoporosis.html
-- MED-0968 — https://medlineplus.gov/oxygentherapy.html
-- MED-0972 — https://medlineplus.gov/peripheralnervedisorders.html
-- MED-0977 — https://medlineplus.gov/polycysticovarysyndrome.html
-- MED-0978 — https://medlineplus.gov/posttraumaticstressdisorder.html
-- MED-0981 — https://medlineplus.gov/prenataltesting.html
-- MED-0982 — https://medlineplus.gov/primaryovarianinsufficiency.html
-- MED-0984 — https://medlineplus.gov/prostatecancer.html
-- MED-0989 — https://medlineplus.gov/radiationtherapy.html
-- MED-0997 — https://medlineplus.gov/rotatorcuffinjuries.html
-- MED-1008 — https://medlineplus.gov/stroke.html
-- MED-1009 — https://medlineplus.gov/strokerehabilitation.html
-- MED-1010 — https://medlineplus.gov/stuttering.html
-- MED-1013 — https://medlineplus.gov/teendepression.html
-- MED-1016 — https://medlineplus.gov/traumaticbraininjury.html
-- MED-1023 — https://medlineplus.gov/vasculardiseases.html
-- MED-1025 — https://medlineplus.gov/westnilevirus.html
-- MED-1228 — https://www.data.go.kr/data/15104692/fileData.do
-- MED-1229 — https://www.data.go.kr/data/15074889/fileData.do
-- MED-1230 — https://www.data.go.kr/data/15144293/fileData.do
-- MED-1232 — https://www.data.go.kr/data/15117426/fileData.do
-- MED-1233 — https://www.data.go.kr/data/3051778/fileData.do
-- MED-1352 — https://pmc.ncbi.nlm.nih.gov/articles/PMC8650817/
-- MED-1399 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6609748/
-- MED-1689 — https://www.data.go.kr/data/15067467/fileData.do
+- MED-0001 — https://www.cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=4373
+- MED-0002 — https://www.cancer.go.kr/lay1/program/S1T211C708/cancer/view.do?cancer_seq=4373&menu_seq=4385
+- MED-0003 — https://www.cancer.go.kr/lay1/program/S1T211C708/cancer/view.do?cancer_seq=4373&menu_seq=4376
+- MED-0004 — https://cancer.go.kr/lay1/program/S1T211C708/cancer/view.do?cancer_seq=4373&menu_seq=4384
+- MED-0005 — https://www.cancer.go.kr/lay1/program/S1T211C708/cancer/view.do?cancer_seq=4373&menu_seq=4386
+- MED-0006 — https://www.cancer.go.kr/lay1/program/S1T211C708/cancer/view.do?cancer_seq=4373&menu_seq=4389
+- MED-0008 — https://www.cancer.go.kr/lay1/program/S1T211C708/cancer/view.do?cancer_seq=4373&menu_seq=4391
+- MED-0009 — https://www.cancer.go.kr/lay1/program/S1T211C708/cancer/view.do?cancer_seq=4373&menu_seq=4390
+- MED-0011 — https://cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=4373&menu_seq=4394
+- MED-0012 — https://www.cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=4373&menu_seq=4395
+- MED-0018 — https://www.cancer.go.kr/lay1/S1T549C683/contents.do
+- MED-0024 — https://www.cancer.go.kr/lay1/S1T684C840/contents.do
+- MED-0032 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661
+- MED-0033 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4670
+- MED-0034 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4673
+- MED-0035 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4674
+- MED-0036 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4677
+- MED-0037 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4678
+- MED-0038 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4679
+- MED-0039 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797
+- MED-0040 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3810
+- MED-0041 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3813
+- MED-0042 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3814
+- MED-0043 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3815
+- MED-0044 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3809
+- MED-0045 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237
+- MED-0046 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5249
+- MED-0047 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5250
+- MED-0048 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5253
+- MED-0049 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5254
+- MED-0050 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5255
+- MED-0051 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757
+- MED-0052 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4769
+- MED-0053 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4770
+- MED-0054 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4773
+- MED-0055 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4774
+- MED-0056 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4775
+- MED-0057 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317
+- MED-0058 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3329
+- MED-0059 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3330
+- MED-0060 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3333
+- MED-0061 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3334
+- MED-0062 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3335
+- MED-0063 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949
+- MED-0064 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4961
+- MED-0066 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4965
+- MED-0069 — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341
+- MED-0070 — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3353
+- MED-0074 — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3359
+- MED-0077 — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=8723310
+- MED-0080 — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3753
+- MED-0082 — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3760
+- MED-0259 — https://www.cancer.go.kr/lay1/S1T289C848/contents.do
+- MED-0273 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13197191/
+- MED-0274 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13646841/
+- MED-0275 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12438153/
+- MED-0276 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12583794/
+- MED-0277 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13555224/
+- MED-0278 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13277415/
+- MED-0279 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13277413/
+- MED-0586 — https://www.who.int/news-room/fact-sheets/detail/depression
+- MED-0588 — https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease
+- MED-0620 — https://www.who.int/news-room/fact-sheets/detail/physical-activity
+- MED-0624 — https://www.who.int/news-room/fact-sheets/detail/post-traumatic-stress-disorder
+- MED-0638 — https://www.who.int/news-room/fact-sheets/detail/suicide
+- MED-0814 — https://medlineplus.gov/antidepressants.html
+- MED-0838 — https://medlineplus.gov/cancerchemotherapy.html
+- MED-0840 — https://medlineplus.gov/cancerlivingwithcancer.html
+- MED-0852 — https://medlineplus.gov/chroniclymphocyticleukemia.html
+- MED-0875 — https://medlineplus.gov/diabetestype2.html
+- MED-0882 — https://medlineplus.gov/dislocatedshoulder.html
+- MED-0885 — https://medlineplus.gov/eatingdisorders.html
+- MED-0896 — https://medlineplus.gov/gerd.html
+- MED-0900 — https://medlineplus.gov/headandneckcancer.html
+- MED-0916 — https://medlineplus.gov/highbloodpressure.html
+- MED-0932 — https://medlineplus.gov/isletcelltransplantation.html
+- MED-0938 — https://medlineplus.gov/ldlthebadcholesterol.html
+- MED-0940 — https://medlineplus.gov/legionnairesdisease.html
+- MED-0958 — https://medlineplus.gov/nauseaandvomiting.html
+- MED-0960 — https://medlineplus.gov/nuclearscans.html
+- MED-0967 — https://medlineplus.gov/ovariancancer.html
+- MED-0973 — https://medlineplus.gov/personalitydisorders.html
+- MED-1002 — https://medlineplus.gov/sjogrenssyndrome.html
+- MED-1012 — https://medlineplus.gov/suicide.html
+- MED-1032 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5495
+- MED-1033 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=2607
+- MED-1034 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6770
+- MED-1035 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6566
+- MED-1036 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=3828
+- MED-1037 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5856
+- MED-1038 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=1102
+- MED-1039 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6771
+- MED-1040 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6765
+- MED-1041 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5457
+- MED-1042 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6715
+- MED-1043 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6536
+- MED-1045 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5809
+- MED-1048 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=1746
+- MED-1049 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6784
+- MED-1050 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6561
+- MED-1051 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5305
+- MED-1055 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6474
+- MED-1056 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6858
+- MED-1061 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6567
+- MED-1062 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6713
+- MED-1077 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3320
+- MED-1078 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3321
+- MED-1079 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3336
+- MED-1080 — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3344
+- MED-1081 — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3345
+- MED-1082 — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3360
+- MED-1083 — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3752
+- MED-1084 — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3768
+- MED-1085 — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3776
+- MED-1086 — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3777
+- MED-1087 — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3792
+- MED-1088 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3800
+- MED-1089 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3801
+- MED-1090 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3816
+- MED-1091 — https://www.cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=4373&menu_seq=4377
+- MED-1092 — https://www.cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=4373&menu_seq=4392
+- MED-1093 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4664
+- MED-1094 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4665
+- MED-1095 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4680
+- MED-1096 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4760
+- MED-1097 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4761
+- MED-1098 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4776
+- MED-1099 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4952
+- MED-1100 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4953
+- MED-1101 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=7182
+- MED-1102 — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5120
+- MED-1103 — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5121
+- MED-1104 — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5136
+- MED-1105 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5240
+- MED-1106 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5241
+- MED-1107 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5256
+- MED-1108 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11794292/
+- MED-1109 — https://pmc.ncbi.nlm.nih.gov/articles/PMC8419613/
+- MED-1110 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11739644/
+- MED-1111 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12230267/
+- MED-1112 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11511309/
+- MED-1264 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13430407/
+- MED-1353 — https://pmc.ncbi.nlm.nih.gov/articles/PMC10982054/
+- MED-1354 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7354982/
+- MED-1355 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7541973/
+- MED-1356 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7840311/
+- MED-1357 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7542002/
+- MED-1366 — https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases
+- MED-1372 — https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health
+- MED-1373 — https://www.who.int/news-room/fact-sheets/detail/household-air-pollution-and-health
+- MED-1374 — https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response
+- MED-1408 — https://www.nhs.uk/tests-and-treatments/bowel-cancer-screening/
+- MED-1409 — https://www.nhs.uk/tests-and-treatments/breast-screening-mammogram/
+- MED-1410 — https://www.nhs.uk/tests-and-treatments/cervical-screening/
+- MED-1411 — https://www.nhs.uk/tests-and-treatments/abdominal-aortic-aneurysm-screening/
+- MED-1412 — https://www.nhs.uk/tests-and-treatments/nhs-health-check/
+- MED-1413 — https://www.nhs.uk/tests-and-treatments/lung-cancer-screening/
+- MED-1414 — https://www.nhs.uk/tests-and-treatments/diabetic-eye-screening/
+- MED-1415 — https://www.nhs.uk/tests-and-treatments/psa-test/
+- MED-1416 — https://www.nhs.uk/conditions/kidney-cancer/
+- MED-1997 — https://www.cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=4517&menu_seq=4521
+- MED-1998 — https://www.cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=5285&menu_seq=5290
 
-## 접속 3회 이상 연속 실패 (231건)
+## 접속 3회 이상 연속 실패 (232건)
 
 - MED-0010 — 22회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.nhis.or.kr/renewal_popup/poster/20260608_poster_longdesc_1.html
 - MED-0014 — 6회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.hira.or.kr/bbsDummy.do?brdBltNo=45666&brdScnBltNo=4&pgmid=HIRAA030023080000
@@ -112,6 +179,7 @@
 - MED-0073 — 11회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3358
 - MED-0081 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-03, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3754
 - MED-0083 — 8회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3761
+- MED-0084 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-04, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3762
 - MED-0086 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-03, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3766
 - MED-0088 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3785
 - MED-0090 — 10회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3789
@@ -183,6 +251,8 @@
 - MED-1259 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-03, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=breast
 - MED-1260 — 3회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-03, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=liver
 - MED-1261 — 3회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-03, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=thyroid
+- MED-1262 — 3회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-04, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=prostate
+- MED-1263 — 3회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-04, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20250201&sno=6&mtgMtrRegSno=0005&part=xgeva
 - MED-1291 — 16회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=download&articleNo=10849366&attachNo=369449&part=rare-neuro
 - MED-1292 — 16회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=download&articleNo=10849366&attachNo=369449&part=rare-immune
 - MED-1342 — 6회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20250501&sno=2&mtgMtrRegSno=0003&part=dementia
@@ -196,6 +266,7 @@
 - MED-1365 — 16회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.nhis.or.kr/announce/wbhaec11503m01.do
 - MED-1389 — 6회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20240730&sno=4&mtgMtrRegSno=0006&part=mri
 - MED-1390 — 6회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20230701&sno=1&mtgMtrRegSno=0001&part=ultrasound
+- MED-1391 — 3회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-04, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260701&sno=4&mtgMtrRegSno=0001&part=manualtherapy
 - MED-1392 — 6회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20151029&sno=2&mtgMtrRegSno=0001&part=eswl
 - MED-1393 — 7회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20110124&sno=2&mtgMtrRegSno=0008&part=varicose
 - MED-1401 — 16회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 25-30: ordinal not in range(12 (마지막 시도 2026-11-02, 7일마다 재시도) — https://cdn.medsoft.co.kr/309/data/recom/11/11차진료권고안.pdf
@@ -254,6 +325,7 @@
 - MED-1577 — 6회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-02, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C50
 - MED-1578 — 5회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-02, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C73
 - MED-1579 — 6회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-02, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C22
+- MED-1580 — 3회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-04, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C25
 - MED-1581 — 6회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-02, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C61
 - MED-1582 — 6회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-02, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=I63
 - MED-1583 — 6회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-02, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=I21
@@ -313,6 +385,7 @@
 - MED-1995 — 6회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20130901&sno=1&mtgMtrRegSno=0433&part=zoster-antiviral
 - MED-1996 — 6회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20190901&sno=6&mtgMtrRegSno=0013&part=phn-pregabalin-gabapentin
 - MED-1999 — 15회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=skin-cancer-registration
+- MED-2000 — 3회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-04, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=melanoma
 - MED-2001 — 6회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20261001&sno=2&mtgMtrRegSno=0001&part=ruxolitinib-gvhd
 - MED-2002 — 6회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20261001&sno=2&mtgMtrRegSno=0002&part=cinnamon-gastritis
 - MED-2003 — 6회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=dental-crown-UW607-613-UZ001
@@ -328,12 +401,7 @@
 - MED-2217 — 13회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11005254
 - MED-2255 — 6회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.hira.or.kr/dummy.do?pgmid=HIRAA020020000005
 - MED-2301 — 3회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-03, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01000m01.do?mode=view&articleNo=11008009
-- MED-0084 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3762
-- MED-1262 — 3회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=prostate
-- MED-1263 — 3회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20250201&sno=6&mtgMtrRegSno=0005&part=xgeva
-- MED-1391 — 3회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260701&sno=4&mtgMtrRegSno=0001&part=manualtherapy
-- MED-1580 — 3회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C25
-- MED-2000 — 3회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=melanoma
+- MED-0093 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4672
 
 ## 재확인 기한 도래·30일 이내 (12건)
 
@@ -350,29 +418,23 @@
 - 2026-12-01 MED-1448 [verified] 비대면진료 시범사업 지침(보건복지부 공고 제2026-825호, 2026-11-01 시행, 의료기관용) — 의원급 중심(의사가 안전하다고 판단한 환자, 초·재진 구분 없음), 병원급은 1년 안 대면진료한 희귀질환 산정특례자·30일 안 대면진료한 수술·치료 후 관리 환자·제1형 당뇨병 환자만, 의료기관별 비대면진료 비율 월 30% 이하, 외래진찰료 + 비대면진료 시범사업 관리료(의과 40.34점, 2026년 단가로 의원 3,860원·병원 3,380원, 동일 환자 월 2회까지, 종별·야간 등 가산 없음), 본인부담은 시행령 제19조 일반 원칙, 마약류·오남용·사후피임·비만치료제(에페글레나타이드 추가) 처방 금지
 - 2026-12-01 MED-1449 [verified] 첩약 건강보험 적용 2단계 시범사업 지침(보건복지부 공고 제2025-150호, 2025-02-27 시행, 사업기간 2024-04~2026-12) — 시범기관(한의원·한방병원·한방 진료과목 병원·종합병원, 상급종합 제외) 외래에서 6개 질환(안면신경마비·뇌혈관질환 후유증·월경통·알레르기비염·기능성 소화불량·요추 추간판탈출증)에 치료용 첩약, 본인부담 종합병원 50%·병원·한방병원 40%·한의원·(한)약국 30%, 질환별 연간 20일 초과분 전액 본인부담, 연간 2개 질환, 1회 최대 10일분, 한의사 1인당 1일 8건·월 60건·연 600건
 
-## PubMed 신규 가이드라인·RCT·메타분석 (2026-11-03 이후)
+## PubMed 신규 가이드라인·RCT·메타분석 (2026-11-04 이후)
 
+**신장암**
+- Prognostic value of lymphocyte to monocyte ratio for metastatic renal cell carcinoma: a systematic review and meta-analysis. (2026 Aug 7) https://pubmed.ncbi.nlm.nih.gov/42983359/
 **위암**
-- Coronary artery calcification is not associated with survival in advanced gastric and gastroesophageal junction cancer: a secondary analysis of the EXPAND trial. (2026 Nov 3) https://pubmed.ncbi.nlm.nih.gov/42975671/
+- Efficacy of anti-PD-1/PD-L1 plus chemotherapy in treatment-naïve advanced HER2-negative gastric adenocarcinoma among different PD-L1 intervals: an updated meta-analysis and reconstructed individual patient-level data analysis. (2026 Aug 8) https://pubmed.ncbi.nlm.nih.gov/42983403/
 **대장암**
+- Efficacy and safety of regorafenib plus PD-1/PD-L1 inhibitors for metastatic colorectal cancer: a systematic review and meta-analysis. (2026 Aug 10) https://pubmed.ncbi.nlm.nih.gov/42983433/
 - Colonoscopy surveillance after colorectal cancer surgery: meta-analysis. (2026 Nov 3) https://pubmed.ncbi.nlm.nih.gov/42980208/
-- Anorectal function after transanal natural orifice specimen extraction for colorectal cancer: a systematic review and meta-analysis. (2026 Aug 5) https://pubmed.ncbi.nlm.nih.gov/42972089/
 **폐암**
 - Discordance of PD-L1 expression between primary and paired metastatic non-small cell lung cancer: a systematic review and meta-analysis. (2026) https://pubmed.ncbi.nlm.nih.gov/42978956/
-- Sex difference in survival benefits of immune checkpoint inhibitors in advanced non-small cell lung cancer: A meta-analysis. (2026) https://pubmed.ncbi.nlm.nih.gov/42976160/
-- Oncologic efficacy and safety of stereotactic body radiotherapy for oligometastatic non-small cell lung cancer: a systemic meta-analysis. (2026 Nov 3) https://pubmed.ncbi.nlm.nih.gov/42975717/
-- Coronary artery calcification is not associated with survival in advanced gastric and gastroesophageal junction cancer: a secondary analysis of the EXPAND trial. (2026 Nov 3) https://pubmed.ncbi.nlm.nih.gov/42975671/
 **유방암**
 - Effects of digital stress-management interventions in breast cancer patients 18 months after intervention access. (2026 Nov 4) https://pubmed.ncbi.nlm.nih.gov/42980875/
-- Added Value of Preoperative Contrast Enhanced Mammography in Staging of Malignant Breast Lesions (PROCEM): A Randomized Controlled Trial. (2026 Nov) https://pubmed.ncbi.nlm.nih.gov/42975301/
-- Reminder recall is associated with higher mammogram uptake among overdue repeat screeners: an exploratory telephone survey within a randomized trial. (2026 Jul 31) https://pubmed.ncbi.nlm.nih.gov/42972567/
 **간암**
 - Post-transplant oncologic outcomes after locoregional downstaging before living donor liver transplantation for hepatocellular carcinoma beyond Milan criteria: a systematic review and meta-analysis of selected cohorts. (2026) https://pubmed.ncbi.nlm.nih.gov/42978689/
 **전립선암**
-- Neoadjuvant Apalutamide With or Without Abiraterone Acetate Plus Prednisone and Gonadotropin-Releasing Hormone Agonist Prior to Nerve-Sparing Radical Prostatectomy in High-Risk Prostate Cancer: Protocol for a Randomized Phase 2 Trial. (2026 Nov 3) https://pubmed.ncbi.nlm.nih.gov/42976301/
-- Comparison of Traumatic Complications following Prostate Biopsy in Men with Lower Urinary Tract Symptoms Due to Prostate Disease Using Biopty Gun versus Semiautomatic Needle. (2026 Nov 1) https://pubmed.ncbi.nlm.nih.gov/42975224/
-**갑상선암**
-- [Clinical exploration of near-infrared autofluorescence imaging for parathyroid gland preservation in thyroid cancer surgery]. (2026 Oct) https://pubmed.ncbi.nlm.nih.gov/42973015/
+- Association of the triglyceride-glucose index with prostate cancer risk and prognosis: a systematic review and meta-analysis. (2026 Aug 10) https://pubmed.ncbi.nlm.nih.gov/42983457/
 
 ## 아직 감시하지 않는 것
 
