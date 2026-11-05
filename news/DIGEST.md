@@ -1,9 +1,9 @@
 # 경제·보험 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-05 20:05 KST  /  최근 7일 16144건 (보험·의료 3839 · 투자·경제 12156)  /  이번 신규 341건
+- 갱신: 2026-11-05 21:05 KST  /  최근 7일 16162건 (보험·의료 3839 · 투자·경제 12174)  /  이번 신규 324건
 - 소스 62곳 + 구글뉴스 키워드 90개(보험·의료 45 · 투자·경제 45)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 한국경제 국제, 한국경제 금융, 한국경제 경제, 한국경제 부동산
+- 수집 실패 소스: 머니투데이
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
@@ -12,7 +12,7 @@
 - (10) 11-02 한양경제 — [본인부담상한제 환급금 실손보험 보상 대상 제외...대법원 판결 찾아보니](https://news.google.com/rss/articles/CBMickFVX3lxTE85U2pjcm9sVHJUNjliRlZLc0h0dFk2VHQ5Q3hkcF84NHlSM3ZGUWpuUUJFd2Y5N1lwdWdILTkwNGJCbkJrbElDd1ZUa014UWQ0THpTa1hfTXlaN0dlNEc0cmhfN2lKN1JTLTJIZlZtNFpVUQ?oc=5) — **외 1건**(1개 매체)
 - (7) 11-02 이투데이 — [초기 실손보험료 최대 40% 할인…이달부터 시행](https://news.google.com/rss/articles/CBMibkFVX3lxTE81VkJnWG1IcHV2VGZOVnZGNEdyN1ZudjZhcXdMMkpJR084NUhoRmxLMjdsYzU2dnJMUHN6czRqZ3JPbVNIbEdxRnAtTDQ2ajRIbUxXVGtUZTh1UExTWG5PUklHdHhjSzNwU3VWUW13?oc=5) — **외 1건**(2개 매체)
 
-**암·질병 보장 상품** (사건 20개)
+**암·질병 보장 상품** (사건 21개)
 - (5) 11-05 울산시민신문 — [국민건강보험공단은 간호·간병통합서비스 우수기관 38곳 선정](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlV3pLaTNYRGlMLVlleWRsVVNSejZ6aWtaOHA2MFBBNThqQjhXajdCRG82RnN0NFdXdl9zZmFBYU0yVUNmbWNaTnRvV1hnWWhaYTNLbzRoM3dTay1nclc0MWFvSXowVk0?oc=5) — **외 7건**(8개 매체)
 - (6) 11-02 포인트데일리 — [KDB생명, 치매·간병 보장 강화한 연금보험 출시](https://news.google.com/rss/articles/CBMicEFVX3lxTE9QRUpobDdlNEkwOGdhdzNVUGFCSHdyOEc3dmdJdG9iUE5MLWJOMmxwYXlyM1VnS2d2bjBwRHRlQ3ZybnY5OUlMeVRWcERFQlJHelNFYm9KRXRzWEFPZHNyeUlHbGxfZXZUZTNGSUVzSGfSAXRBVV95cUxNZ3YycVVPZExRanFwUTNZR0lPRWd1M05TTGQxVE9pang1clVkblJ6bFdaTmdzcS0wQWVHVFY4SU42MkZwUzdNRVhjMmhxREFQQkdoaDNxRVNoal82NVc3c214cW9xYmxDXy04Y2g4bGRkdmhzcg?oc=5) — **외 3건**(4개 매체)
 - (5) 11-05 핀포인트뉴스 — [ABL생명, 납입보험료 인출 가능한 종신보험 출시](https://news.google.com/rss/articles/CBMid0FVX3lxTE0tWUtOeDlJbTZZMmJMRU1UMmxIM180WlNQUi1hdjc3cjN3aVg0NFk3MVVnMTJlQXFneXZONk5uMV9YSGZFWFVwY2dPUkU4TmE4TmZ2M3NVcEFtVmY0RzdZcTQyQXVPamlnZlV1a0I3MUZMdUVyVVVZ0gF3QVVfeXFMTS1ZS054OUltNlkyYkxFTVQybEgzXzRaU1BSLWF2NzdyM3dpWDQ0WTcxVWcxMmVBcWd5dk42Tm4xX1hIZkVYVXBjZ09SRThOYThOZnYzc1VwQW1WZjRHN1lxNDJBdU9qaWdmVXVrQjcxRkx1RXJVVVk?oc=5) — **외 4건**(5개 매체)
@@ -22,10 +22,10 @@
 - (5) 11-04 월드장애인사랑뉴스 — [보건복지부, 희귀·중증난치질환자 건강보험 본인부담률 10%→7% 인하 추진…136만 명 대상](https://news.google.com/rss/articles/CBMib0FVX3lxTE9NZ2tuMW04cy1VMEhXQy12eU1GMGlhX1B5RmI4OHNlYTJzY2czX0Vvb09RNjRrVTYyRzRjbG85YUs1S2hMalY4RUxBbjZSbWt0NVowbTNXeC12SlZ1cTVCdE9xSWhkV3VqSElSUENXMA?oc=5) — **외 16건**(16개 매체)
 - (7) 11-04 재경일보 — [국민연금 10년 가입 월급여…기초연금보다 적어 : 정책.지표](https://news.google.com/rss/articles/CBMiS0FVX3lxTE0wUHZUZ09VZzlEVzBFZUJnekFWSEVyaEF6UTQ0VkhQQlV3LTRVdHNDaFlQYjE4dEFhTzI1bWhnMFRZd01vU3FYbGlVMA?oc=5) — **외 8건**(7개 매체)
 
-**국민연금·퇴직연금** (사건 82개)
-- (4) 11-05 알파경제 — [복수국적 기초연금, 4년 새 118억→314억…내년 4월 국내 5년 거주 요건 : 알파경제TV](https://news.google.com/rss/articles/CBMibkFVX3lxTE5LZWwtSW5oZzNXUHo5aDZMMVppdjAtMzUyVTRKb3Z2cjUxRDJDWkZaeGdlMmVfbnBnWVhRb3Utc244RzdXcnh5d040dG1McW1fNXJ1T1ViRUdmMFZRWTE1VVhXUkpSOXdxbThSaDlR?oc=5) — **외 25건**(23개 매체)
+**국민연금·퇴직연금** (사건 81개)
+- (4) 11-05 세계일보 — [복수국적 기초연금 수급자 4년 새 2.3배…내년부터 ‘국내 5년’ 살아야 받는다](https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SblllYVZDQ2RyZXB5TlE2QlRBYVdQTjRLdDl5NEd6RDMxSWxPSDVqaXJZeHRpdWhzMHhYckpXLXdWTlcwbzZ4YVdzNkhJZlhBZS10T3ZrTU3SAVRBVV95cUxQOXU0ODlxMHJSeW5ZU1hQS3hXbnhCdmk5SWRQS21jU1dWbkNXSlpKdmduaEVld2pqcjIzenB1RTd2ZEhQdnV0QUdTTE05aVpwSmhNQ0I?oc=5) — **외 41건**(34개 매체)
 - (5) 11-03 비즈월드 — [금감원, '퇴직연금 장기·분산투자 캠페인' 시작](https://news.google.com/rss/articles/CBMiakFVX3lxTE5GOTFLVHdXZXZpbEJ5V0xEeVBzYUZuX1VRd2J5eFI2OTJKM21Ud2lsRzdrTUJIQWRDUFo2X1dwNmdTNlQxc2ROdTFrNTVjMkpkUUJWWHBOTkRocThhLWtYREM1OXlaYWpjRXc?oc=5) — **외 14건**(14개 매체)
-- (4) 11-05 연합뉴스TV 경제 — [내년부터 국내서 '5년 이상' 살아야 기초연금 수령](https://www.yonhapnewstv.co.kr/news/AKR20261105160807Ndd) — **외 16건**(15개 매체)
+- (4) 11-05 한국경제TV — [알아서 굴린 퇴직연금, 3년 수익률 100% 넘었다…한투證 ‘눈길’](https://news.google.com/rss/articles/CBMic0FVX3lxTE1rYk53dmNCQ1o4elFsMEdTRlFFOEEzRzc3UUxNc010OGRwbU8tOEtUMUZ4UlBybm9wbENlLTAxS1pZSnFndFVlaDFrVHpOeEtyNkViLUhlbmtuTDl2R2xfQnlJRVdjd2VjXzhMTjZxZW5CWWc?oc=5) — **외 14건**(15개 매체)
 
 **보험금 분쟁·판결** (사건 28개)
 - (7) 11-03 남도일보 — [자해하고 보험금 청구…9억 챙긴 보험사기 일당 ‘덜미’](https://news.google.com/rss/articles/CBMibEFVX3lxTE1EUXpoTTJGbjBCajJXZEk5ZXlDYWtncnlUMDBqYWZvMDNxTW0zMGtncmhzc01wR3BMMlNuZHR1UGdTTTlGT0JZeEhEMC1sbjFzTjJXem5DdjlfNEdOVnNWMHQ0WnZ3dkZVVUwtR9IBcEFVX3lxTE8teUExVTB0SHhFZnItRDVpYnBJQWV6eFBoYnRCTjl4S1pYWTFlQ1RUTEk0RVpLWkVUUWVybDZ6VDROclp3TkZDd2F4ZzlkQWprN05PRzRBY3RvRGtjUmMxN05sQWtDV05sbmVwUFZpQnU?oc=5) — **외 2건**(3개 매체)
@@ -70,15 +70,15 @@
 
 **미국·해외 증시** (사건 75개)
 - (16) 11-05 대한청년일보 — [뉴욕증시 다우 3% 급등에도 코스피 하락…美 데이터센터 규제 우려에 삼성전자·SK하이닉스 약세](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9XVGo4d1Rncng4SURNLXQtZXViZjBoQUdNVHJzMGFlWHg0ekJVeHpYbzRJOTVBUkVPa0wzdmZFamZTcW5QTUZ0bEpjZUNiNnZyamVkdHR3?oc=5) — **외 32건**(23개 매체)
-- (14) 11-03 뉴스핌 — [뉴욕증시, 혼조 마감…유가 급락에도 반도체 약세에 나스닥 1.07%↓](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jaEVha0VKTnl5V1lmajF6OEpkZXVoWHlZcUZkOU5SM3ZYYjZ2b0xvSklKOXdOV0tzanF4Y2M0SnBna3VsNzN6MjVUc3YtVWlGSThoWkpoTWNaQV9G?oc=5) — **외 36건**(32개 매체)
+- (14) 11-03 뉴스핌 — [뉴욕증시, 혼조 마감…유가 급락에도 반도체 약세에 나스닥 1.07%↓](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jaEVha0VKTnl5V1lmajF6OEpkZXVoWHlZcUZkOU5SM3ZYYjZ2b0xvSklKOXdOV0tzanF4Y2M0SnBna3VsNzN6MjVUc3YtVWlGSThoWkpoTWNaQV9G?oc=5) — **외 35건**(32개 매체)
 - (14) 11-05 CBC뉴스 — [[속보]뉴욕증시 다우 3.03% 급등…민주당 상·하원 장악에 나스닥·S&P500 동반 상승](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5yZWVheVl0RjhmTkVMYkdZZXZDTUQ0QTVHaUxtN05DWDRvNG1ITDFnMDBfMVZYdTVNOWpQbU5ZZ24td1dKREFaWlBHZEI2Z1pRVHFYeGdqZXJTMUlSeEFvQlBkOXQtVXhH?oc=5) — **외 22건**(19개 매체)
 
 **국내 증시** (사건 63개)
-- (14) 11-05 톱스타뉴스 — [[국내 증시 마감] 코스피 5.28% 폭락·5383선 추락…외국인 3.4조 매도, 삼성전자·SK하이닉스 급락](https://news.google.com/rss/articles/CBMickFVX3lxTE9ObWlJV1c5WkhVQXFtMXFseEZtbC1SQVJ6SVZaV2M5NUtkOENiN1l0cDZBVUdza3N3Q0pMdDVPNDdKTWFNaU8tN3hYc3BDWGpHWVYtejJUUEFiamVVZ2gtVEZzNktrRHpMNnZNaWlqU3l0UQ?oc=5) — **외 68건**(48개 매체)
-- (13) 11-05 뉴스저널리즘 — [코스피·코스닥 급락에 매도 사이드카…외국인 3조원 가까이 순매도](https://news.google.com/rss/articles/CBMia0FVX3lxTE9qZnNYVmhkaFZGcnVYT0hrWkFhSk1xUUlLRUdQenlkOElkSVUtTmJWamowTTNFUl9Ca0M0MkNqa00tZV95RjVpVHZhNHdDRXNtQ0NraE9RWHlWb3FQMjlNdVBYYnl5VDQxNkpn?oc=5) — **외 37건**(33개 매체)
+- (14) 11-05 톱스타뉴스 — [[국내 증시 마감] 코스피 5.28% 폭락·5383선 추락…외국인 3.4조 매도, 삼성전자·SK하이닉스 급락](https://news.google.com/rss/articles/CBMickFVX3lxTE9ObWlJV1c5WkhVQXFtMXFseEZtbC1SQVJ6SVZaV2M5NUtkOENiN1l0cDZBVUdza3N3Q0pMdDVPNDdKTWFNaU8tN3hYc3BDWGpHWVYtejJUUEFiamVVZ2gtVEZzNktrRHpMNnZNaWlqU3l0UQ?oc=5) — **외 69건**(48개 매체)
+- (13) 11-05 뉴스저널리즘 — [코스피·코스닥 급락에 매도 사이드카…외국인 3조원 가까이 순매도](https://news.google.com/rss/articles/CBMia0FVX3lxTE9qZnNYVmhkaFZGcnVYT0hrWkFhSk1xUUlLRUdQenlkOElkSVUtTmJWamowTTNFUl9Ca0M0MkNqa00tZV95RjVpVHZhNHdDRXNtQ0NraE9RWHlWb3FQMjlNdVBYYnl5VDQxNkpn?oc=5) — **외 38건**(33개 매체)
 - (12) 11-05 뉴데일리 — [코스피 이어 코스닥도 매도 사이드카 … 美 훈풍에도 반도체 충격에 갇힌 '천수답 증시'](https://news.google.com/rss/articles/CBMie0FVX3lxTFBaUEdLZDVDWVVtZDF3RFdPbkR5UGprNkZTNUoxNHhydkNOTzU5T2QwYWduaUFWRW9UNm5NM0RmWkM3b3UydXMzY3BMVjl0QXI0SktIQUY2ZlFpWUMzdlI2dnAzNnJTekJYQWM2dFVzOUJNQ0tscWh1ZzlhZ9IBgAFBVV95cUxPTmxRcHpJWElRMk9vSk96SVN5MndfZzRuWUFxd3lKaUxsRFFHYlRlZC1qN0VFZ241c3J0TzE2NW9QUEtPNDZDQzBBQTM1aGVlNnp5LWlPbFVrckJ4UWtRdkpnQnlkbWpnRUdrM0F3RVVfLWRYNko4TVJOQXBtYWF1Vg?oc=5) — **외 26건**(23개 매체)
 
-**금리·중앙은행** (사건 19개)
+**금리·중앙은행** (사건 18개)
 - (12) 11-03 뉴스핌 — [[채권/외환] 이란 종전 협상 기대에 유가 급락…美 국채 금리·달러 동반 하락](https://news.google.com/rss/articles/CBMiXEFVX3lxTE82dENRRmtaRXBvYm1XRFA0SlFtX2FFeXBqNTBPZ1hLZVc3QVEtblVUWWpiMV9YOUI1eXRKUlRvY3ZWNVJwSTFtOEN0VEZKZ0dyR2ViRDN4X0M5eEk0?oc=5) — **외 8건**(6개 매체)
 - (13) 10-31 블록미디어 — [[뉴욕 금·채권·달러] 국채금리·달러 혼조 속 금값 3.66% 급락…기술주 투매 영향](https://news.google.com/rss/articles/CBMiWEFVX3lxTE40UzBWaE1aYzdjdVRBcUpEUnB5Ukk5d01paWRYbEFsVlo5V3RBQTNCaUJJMUh2aHVCNUhBMjdLUkxPMjVuX2hJWmNXekVEYllucEpxdlhfMTA?oc=5) — **외 4건**(1개 매체)
 - (12) 10-30 www.tmgm.com — [금값, 미국 GDP 호조에 연준 금리 인상 전망 강화되며 4,000달러 부근으로 하락](https://news.google.com/rss/articles/CBMixgFBVV95cUxPaXhwLTh5a2k0Uk9yV3FxOVBiWkR2TlVtS0w1c0dxaFNGOVVTY3plMThjdkg3Y3lxZGcyVmx4ZHZpYUxkN1JPY3pENWRhLUNLcjF4bXF1ZG5fejVVNDRYUmpGb1hFaURvaGVkN2IwMHBZZUFwdlZNYWRvQVRrNFh4YjJhdUI3SlB0cWJIaTduell4bk5HTmRodEY0OEgyYlRyU2lOUmVLdkxUbGNObm9kUjhTTnJWZUxqdnlFdkc0YU54cjMta3c?oc=5) — **외 3건**(1개 매체)
@@ -125,19 +125,19 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
+- 11-05 MarketWatch — [A strategist draws a 1980s parallel to argue bipartisanship could power a ‘bull stampede’](https://www.marketwatch.com/story/a-strategist-draws-a-1980s-parallel-to-argue-bipartisanship-could-power-a-bull-stampede-609ddc9b?mod=mw_rss_topstories)
+- 11-05 MarketWatch — [‘I have no financial safety net’: I’m 66, rely on Social Security and have just $500 in savings. What hope do I have?](https://www.marketwatch.com/story/i-have-no-financial-safety-net-im-66-rely-on-social-security-and-have-500-in-savings-what-politician-speaks-for-me-be2126cb?mod=mw_rss_topstories)
+- 11-05 MarketWatch — [Research firm declares ‘end of the AI trade as we know it’ — and Asian tech stocks reflect the shift](https://www.marketwatch.com/story/research-firm-declares-end-of-the-ai-trade-as-we-know-it-and-asian-tech-stocks-reflect-the-shift-25ac8e8f?mod=mw_rss_topstories)
 - 11-05 CNBC — [Consumers are spending on physical gifts even as travel tops wish lists, Visa survey finds](https://www.cnbc.com/2026/11/05/visa-holiday-shopping-physical-gifts-travel.html)
 - 11-05 MarketWatch — [A prolonged war in Iran is the market’s real ‘black swan,’ says this strategist](https://www.marketwatch.com/story/a-prolonged-war-in-iran-is-the-markets-real-black-swan-says-this-strategist-65d105c7?mod=mw_rss_topstories)
-- 11-05 MarketWatch — [My 93-year-old father changed his will at the 11th hour, leaving my brother his entire $500,000 estate. Can I challenge it?](https://www.marketwatch.com/story/my-93-year-old-father-changed-his-will-at-the-11th-hour-leaving-my-brother-his-entire-500-000-estate-can-i-challenge-it-ecfc63d2?mod=mw_rss_topstories)
 - 11-05 MarketWatch — [Toyota stock rallies after company lowered sales guidance. Here’s how rare that is.](https://www.marketwatch.com/story/toyota-stock-rallies-after-company-lowered-sales-guidance-heres-how-rare-that-is-c3d6c9bf?mod=mw_rss_topstories)
+- 11-05 MarketWatch — [My 93-year-old father changed his will at the 11th hour, leaving my brother his entire $500,000 estate. Can I challenge it?](https://www.marketwatch.com/story/my-93-year-old-father-changed-his-will-at-the-11th-hour-leaving-my-brother-his-entire-500-000-estate-can-i-challenge-it-ecfc63d2?mod=mw_rss_topstories)
+- 11-05 MarketWatch — [Toyota’s stock rallies after the company lowered sales guidance. Here’s how rare that is.](https://www.marketwatch.com/story/toyota-stock-rallies-after-company-lowered-sales-guidance-heres-how-rare-that-is-c3d6c9bf?mod=mw_rss_topstories)
 - 11-05 MarketWatch — [Richard Simmons’ L.A. estate sells for $3.8 million](https://www.marketwatch.com/story/richard-simmons-l-a-estate-sells-for-3-8-million-abf43450?mod=mw_rss_topstories)
 - 11-05 ECB 보도자료 — [Isabel Schnabel: Navigating stormy waters: reflections on monetary policy](https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html)
 - 11-05 ECB 보도자료 — [Piero Cipollone: Shaping the future of money](https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html)
 - 11-05 MarketWatch — [Most investors are blind to the possibility of a market crash. Here is the five-part strategy to survive one.](https://www.marketwatch.com/story/most-investors-are-blind-to-the-possibility-of-a-market-crash-here-is-the-five-part-strategy-to-survive-one-a1762911?mod=mw_rss_topstories)
-- 11-05 MarketWatch — [Figma’s stock dips as investors worry that AI momentum is coming at a high price](https://www.marketwatch.com/story/figmas-stock-falls-as-investors-worry-that-ai-momentum-is-coming-at-a-high-price-1aa2134d?mod=mw_rss_topstories)
-- 11-05 MarketWatch — [This year’s worst-performing S&P 500 stock is finally seeing some major relief](https://www.marketwatch.com/story/this-years-worst-performing-s-p-500-stock-is-finally-seeing-some-major-relief-fff3fa85?mod=mw_rss_topstories)
-- 11-05 MarketWatch — [How do Americans feel about the midterm results? It depends on how much money they make.](https://www.marketwatch.com/story/how-do-americans-feel-about-the-midterm-results-it-depends-on-how-much-money-they-make-e2a43f08?mod=mw_rss_topstories)
-- 11-05 MarketWatch — [Qualcomm’s stock falls as twin forces pressure sales](https://www.marketwatch.com/story/qualcomms-stock-falls-as-twin-forces-pressure-sales-fa161159?mod=mw_rss_topstories)
 
 ## 언론사별 건수 상위 15
 
-토큰포스트 776, 머니투데이 477, 인포맥스 370, 파이낸셜뉴스 전체 362, 연합뉴스 마켓 331, 아시아경제 323, 코인리더스 299, 조선비즈 279, 한국경제 금융 227, 뉴시스 금융 225, 조선 경제 190, 재경일보 188, 이데일리 187, 뉴스1 187, Investing.com 한국어 181
+토큰포스트 779, 머니투데이 475, 인포맥스 367, 파이낸셜뉴스 전체 362, 연합뉴스 마켓 331, 아시아경제 319, 코인리더스 301, 조선비즈 279, 한국경제 금융 228, 뉴시스 금융 225, 조선 경제 189, 뉴스1 188, 재경일보 188, 이데일리 187, Investing.com 한국어 180

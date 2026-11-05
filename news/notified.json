@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-05T20:06+09:00",
+"updated": "2026-11-05T21:06+09:00",
 "items": [
 {
 "kind": "gov",
@@ -3813,6 +3813,32 @@
 "혐의"
 ],
 "g": "https://www.yna.co.kr/view/AKR20261105172100004"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CeFFJRlZSRktfUFN1cENSUEE2QllvV0tVRWJ4ZkY0cHdJZndYOUplQk9rSUxQY1NGOTdBUEE3OHpoYWdmLTI5d3FCQTNudjhaWjdLVlpVNEg5WXc0?oc=5",
+"t": "2026-11-05T21:06+09:00",
+"tok": [
+"25",
+"기준금리",
+"영란은행",
+"인상",
+"포인트"
+],
+"g": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CeFFJRlZSRktfUFN1cENSUEE2QllvV0tVRWJ4ZkY0cHdJZndYOUplQk9rSUxQY1NGOTdBUEE3OHpoYWdmLTI5d3FCQTNudjhaWjdLVlpVNEg5WXc0?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10bldfZFgtVHBpRlBIcTlReDg3RFFFRllnVlBqTV91UkRXbHkwWVBIZmZuX3J2Yzhob3V1SzBlanJYR2wzVFNhaVcybHBmaEVGbkNGNFZmQU1HUQ?oc=5",
+"t": "2026-11-05T21:06+09:00",
+"tok": [
+"25",
+"3년여만에",
+"기준금리",
+"영국",
+"인상"
+],
+"g": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CeFFJRlZSRktfUFN1cENSUEE2QllvV0tVRWJ4ZkY0cHdJZndYOUplQk9rSUxQY1NGOTdBUEE3OHpoYWdmLTI5d3FCQTNudjhaWjdLVlpVNEg5WXc0?oc=5"
 }
 ]
 }
