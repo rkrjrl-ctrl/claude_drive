@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T09:06+09:00",
+"updated": "2026-11-06T10:06+09:00",
 "items": [
 {
 "kind": "gov",
@@ -4945,6 +4945,313 @@
 "입법박람회서",
 "제안",
 "피해"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.hankyung.com/article/2026110699496",
+"t": "2026-11-06T10:06+09:00",
+"tok": [
+"24",
+"5200선으로",
+"밀려",
+"출발",
+"코스피",
+"하락"
+],
+"m": 1,
+"g": "https://www.hankyung.com/article/2026110699496"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tY3d6c29OZGg3N05VV0JORnBPb2FHbk5JdGFpZEQyYVpjbEhsaEthZFhwdzlxbk84TUxIRkI2Ti1tQWMxMG1aQjlHWDZmNXcxa3RHVDBIcDlKNWxSOWxzVS1VQ1R0MFdH0gFuQVVfeXFMTjFqRGFNTkZERXB6d1ZDeGtfc3RSLXdVVkpsVkJBdHU1YmtxNVRvcG5xcFlWTlBYd1lQcVN5VXJJbExGYy1Xb1RucWJCc2d2dGhPX19sNG9EWmR0YXVaaDBHc0NTM3JQLUdoMHkzZ2c?oc=5",
+"t": "2026-11-06T10:06+09:00",
+"tok": [
+"1단계",
+"4900선도",
+"검은",
+"금요일",
+"브레이커",
+"서킷",
+"위태",
+"코스피"
+],
+"g": "https://www.newsis.com/view/NISX20261106_0003857360"
+},
+{
+"kind": "속보",
+"link": "https://www.hankyung.com/article/2026110699756",
+"t": "2026-11-06T10:06+09:00",
+"tok": [
+"630선도",
+"급락",
+"위태",
+"장중",
+"코스닥"
+],
+"m": 1,
+"g": "https://www.hankyung.com/article/2026110699496"
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261106038700008",
+"t": "2026-11-06T10:06+09:00",
+"tok": [
+"11",
+"SK하이닉스",
+"급락",
+"반도체주",
+"삼성전자",
+"추락"
+],
+"g": "https://www.newsis.com/view/NISX20261106_0003857214"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jSFVURU5NVmczc1FSdm5RQUFrcTUwem0xdlNQOXNVRGRQRnUxcXB2ZVpLaGJzT0hBRWRYa0U0ZkQwekxnWHdTZ0dXMUFEVTJ3ZnhZUVVfUWJGUQ?oc=5",
+"t": "2026-11-06T10:06+09:00",
+"tok": [
+"11",
+"SK하이닉스",
+"급락",
+"삼성전자"
+],
+"g": "https://www.newsis.com/view/NISX20261106_0003857214"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5DV2k1VFdGMUpQMGNLOHYtVFd2bXBDRTZoSTJDUzVCZkdDTm0wUXU3UlFTQXZwQWVfeGZMMlpQa2tMa1k4V0F5Tk1KR2lEQ1ozUlV1LV9ZUlZZaGZZTTVVeXlkQks5LVE?oc=5",
+"t": "2026-11-06T10:06+09:00",
+"tok": [
+"15",
+"P500",
+"나스닥",
+"다우",
+"반등",
+"선물",
+"선물은",
+"하락"
+],
+"m": 1,
+"g": "https://www.hankyung.com/article/2026110699496"
+},
+{
+"kind": "속보",
+"link": "https://www.donga.com/news/Economy/article/all/20261106/134976598/2",
+"t": "2026-11-06T10:06+09:00",
+"tok": [
+"4900대로",
+"5000",
+"9개월만에",
+"급락",
+"깨졌다",
+"장중",
+"코스피"
+],
+"m": 1,
+"g": "https://www.hankyung.com/article/2026110699496"
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261106044400008",
+"t": "2026-11-06T10:06+09:00",
+"tok": [
+"20분간",
+"거래재개",
+"매매중단",
+"서킷브레이커",
+"코스피",
+"해제"
+],
+"g": "https://www.yna.co.kr/view/AKR20261106044400008"
+},
+{
+"kind": "단독",
+"link": "https://www.newsis.com/view/NISX20261106_0003857415",
+"t": "2026-11-06T10:06+09:00",
+"tok": [
+"F4",
+"긴급",
+"발동에",
+"서킷브레이커",
+"시장",
+"연속",
+"이틀",
+"점검",
+"코스피",
+"폭락",
+"회동"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOak5KRjh6QlZnc0RtU3BDc3d2VExyM1ZRLUFCR0RWVUdLSTVDdWZ0Rmxxc0tFaUMzNmxVb2NHWVZpYk1CZGRId0NIUnRwSTRTU1ZIZUZHNkpaNDNpZ0g0SEgtdXFvVE1NSHFsdFkzX0FFb1VNcUJDN3BkTXQ0VG80cUFjUGp0Qk1UN25WYmVPWG1PdVdIZ2pwWjNBZzNreE1hUGFaV1V6ZFl2U29GQUJWTGpFbmtiWnNxRzh0Y3k0dUtsZWZnY3dkREhtWnFfcTlGVmlfTjJMc29UdTFTNENkRXhkY0luTUd6RTRlM0o1Wk1tQ2hQeVRDLWtMSDRlN1RDUE5CTkp0QW1QWmQzRzJsSEVYVUtIaDA?oc=5",
+"t": "2026-11-06T10:06+09:00",
+"tok": [
+"매도",
+"발동",
+"브레이커",
+"사이드카",
+"서킷",
+"이어",
+"코스피"
+],
+"g": "https://www.newsis.com/view/NISX20261106_0003857360"
+},
+{
+"kind": "속보",
+"link": "https://www.khan.co.kr/article/202611060944001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+"t": "2026-11-06T10:06+09:00",
+"tok": [
+"5000선",
+"매도",
+"사이드카",
+"서킷브레이커",
+"이어",
+"코스피",
+"턱걸이"
+],
+"g": "https://www.newsis.com/view/NISX20261106_0003857360"
+},
+{
+"kind": "속보",
+"link": "https://www.edaily.co.kr/News/Read?newsId=03834326645643096",
+"t": "2026-11-06T10:06+09:00",
+"tok": [
+"5000피",
+"매도",
+"붕괴",
+"사이드카",
+"서킷브레이커",
+"이어",
+"코스피"
+],
+"g": "https://www.newsis.com/view/NISX20261106_0003857360"
+},
+{
+"kind": "속보",
+"link": "https://www.edaily.co.kr/News/Read?newsId=03867126645643096",
+"t": "2026-11-06T10:06+09:00",
+"tok": [
+"과감한",
+"김민석",
+"나서야",
+"논란",
+"변동성엔",
+"사과",
+"시장",
+"신천지",
+"안정",
+"재차",
+"조치",
+"증시"
+],
+"g": "https://www.edaily.co.kr/News/Read?newsId=03867126645643096"
+},
+{
+"kind": "속보",
+"link": "https://www.hani.co.kr/arti/economy/finance/1286066.html",
+"t": "2026-11-06T10:06+09:00",
+"tok": [
+"5천선",
+"개장",
+"급락",
+"반도체",
+"붕괴",
+"쇼크",
+"직후",
+"코스피"
+],
+"m": 1,
+"g": "https://www.hankyung.com/article/2026110699496"
+},
+{
+"kind": "주목",
+"link": "https://www.fnnews.com/news/202611060927335690",
+"t": "2026-11-06T10:06+09:00",
+"tok": [
+"5000",
+"국민연금",
+"대통령이",
+"무너지자",
+"밝히라",
+"상황",
+"직접",
+"코스피",
+"한동훈"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBIaUlkNnhMeGdPN0FMMm1tZHVqZnhqT2g5TklKdVhBLWN4Z01iWHk1Yk1wUXp3dFZUSmZodGhhXzMwbFktX20zclUtVXMtQ0dGeVc5TDBpUjg1VDN2WWt4R2JxaVJuNExtNlk00gFvQVVfeXFMTV90V0Y1dE8zWmJfc1VhbEMxSmhzVnFVRUE5dWJKaUtEX2V6ZVUwRWc2WFpaSFF0c0R6akJvc2N2bFIyVVdQOVNKM0UwRzcwYkNaZExzei1uWEdPanpVdEZJalpBNW9Yb3JJRXF2a29r?oc=5",
+"t": "2026-11-06T10:06+09:00",
+"tok": [
+"5000선",
+"매도사이드카",
+"무너져",
+"발동",
+"서킷브레이커",
+"코스닥도",
+"코스피"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB3cm9EUlVxdWRnNkNaWEpkVzBlMFZvUXB1RUJ0WVA5Sk9Ed3Z4T2MyQ1ZuMmVTYUw2NkJNT2hIVnNhT0Nma1Y5QU9PMjduUUN1RnE0MU03YzBZLVE3bmZmRFNuYWlhcktkX2h2WXNoUmhwLUNfNmhJbGx2WdIBgAFBVV95cUxOczFZdEltUE9ubUhJbkJEWGxLSFlrbDFJMGRGTXlqRVRGM1ZPZkZQa2tHTm5vTGFNSlJNdWE4NzJpY3U0bTNuYS1MSTkta1BibUEzYllLcWNhdVQ4VnlqWE44aUJ2aWpLY1gyeTEybmVvaVVSTFZyWmh3Nmh4QVk4Vg?oc=5",
+"t": "2026-11-06T10:06+09:00",
+"tok": [
+"AI주",
+"나스닥",
+"뉴욕증시",
+"반도체주",
+"코스피",
+"투매에",
+"폭락",
+"흔들리나"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBWTFZnRWFRV0JUYTBnSFlIeUxiUlpJQ1F0S2x4U3JOb3BPa0RlTjNsa1IyS2RfRXc2VVpCMlJRTVpyaW93RlU4YVl0MXZYeDZyWnNvSlVEeDVQRGhMXzJnOVRCbnhKVzTSAWpBVV95cUxQNV9tSDhvdWZ2bTJNX2ZxSXRZX3F2dURJcVlCS2huZnhlWm4tVjJrd2FYR2VUNEc3TjFKbFZaTlJfcmF4RndBak9LemZLSDIzWXlwRERkM0NYbHA4MHJDVE1rb2lETjdFTmln?oc=5",
+"t": "2026-11-06T10:06+09:00",
+"tok": [
+"3분",
+"55",
+"개장",
+"만에",
+"서킷브레이커",
+"증시",
+"코스피",
+"패닉",
+"폭락"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51ZUQ2UFRwYy1TY2luekVPUWdoSGJnVUlxenhKVzRub3hfQWdTSkVBaFpMNlZlX1cyemFDem52aUx1YW0wb2lFVGFyOUwxWERtcmc?oc=5",
+"t": "2026-11-06T10:06+09:00",
+"tok": [
+"5000피",
+"급락에",
+"밑으로",
+"발동",
+"서킷브레이커",
+"증시",
+"코스피"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.nocutnews.co.kr/news/6603033",
+"t": "2026-11-06T10:06+09:00",
+"tok": [
+"5천선",
+"발동",
+"붕괴",
+"서킷브레이커",
+"장중",
+"코스피",
+"폭락에"
 ]
 }
 ]
