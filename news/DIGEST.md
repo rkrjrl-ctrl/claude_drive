@@ -1,6 +1,6 @@
 # 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-07 03:05 KST  /  최근 7일 21206건 (보험·의료 3623 · 투자·경제 13118 · 생활·사회 4194)  /  이번 신규 310건
+- 갱신: 2026-11-07 04:05 KST  /  최근 7일 21232건 (보험·의료 3624 · 투자·경제 13127 · 생활·사회 4209)  /  이번 신규 308건
 - 소스 79곳 + 구글뉴스 키워드 110개(보험·의료 45 · 투자·경제 45 · 생활 20)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
 - 수집 실패 소스: 없음
@@ -194,8 +194,10 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
-- 11-07 MarketWatch — [I’m 65 and worth more than $5.6 million. Can I afford a $200,000 camper?](https://www.marketwatch.com/story/im-65-and-worth-more-than-5-6-million-can-i-buy-a-200-000-camper-even-though-the-price-feels-crazy-high-55f668f8?mod=mw_rss_topstories)
+- 11-07 MarketWatch — [My adviser recommended an annuity. Is it the right move in this market environment?](https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories)
+- 11-07 MarketWatch — [You’re fired! But you can keep the laptop and insurance. And here’s $10,000.](https://www.marketwatch.com/story/layoffs-with-dignity-why-these-tech-firms-are-offering-free-laptops-and-linkedin-premium-28750d39?mod=mw_rss_topstories)
 - 11-07 MarketWatch — [Nvidia, AMD and other chip stocks rebound — but is relief from the ‘violent’ selloff only temporary?](https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533?mod=mw_rss_topstories)
+- 11-07 MarketWatch — [I’m 65 and worth more than $5.6 million. Can I afford a $200,000 camper?](https://www.marketwatch.com/story/im-65-and-worth-more-than-5-6-million-can-i-buy-a-200-000-camper-even-though-the-price-feels-crazy-high-55f668f8?mod=mw_rss_topstories)
 - 11-07 MarketWatch — [DraftKings’ expensive bet on prediction markets is crushing its stock](https://www.marketwatch.com/story/draftkings-expensive-bet-on-prediction-markets-is-crushing-its-stock-277bee0d?mod=mw_rss_topstories)
 - 11-07 MarketWatch — [What’s next for your portfolio after the decline in Big Tech stocks?](https://www.marketwatch.com/story/whats-next-for-your-portfolio-after-the-decline-in-big-tech-stocks-2873452f?mod=mw_rss_topstories)
 - 11-07 MarketWatch — [The S&P 500 could be dangerously exposed to AI. Here are some simple alternatives.](https://www.marketwatch.com/story/the-s-p-500-has-become-a-big-ai-bet-here-are-some-simple-alternatives-3c7574a4?mod=mw_rss_topstories)
@@ -204,9 +206,7 @@
 - 11-07 MarketWatch — [Layoffs with dignity? Why these tech companies are offering free laptops and LinkedIn Premium.](https://www.marketwatch.com/story/layoffs-with-dignity-why-these-tech-firms-are-offering-free-laptops-and-linkedin-premium-28750d39?mod=mw_rss_topstories)
 - 11-07 MarketWatch — [Cybertruck’s run comes to an end as Musk kills off pricey pet project](https://www.marketwatch.com/story/is-it-the-end-of-the-cybertruck-elon-musk-announces-factory-will-shift-production-3e33cafd?mod=mw_rss_topstories)
 - 11-07 MarketWatch — [Nvidia, AMD and other chip stocks rebound. Is the ‘violent’ AI selloff over?](https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533?mod=mw_rss_topstories)
-- 11-07 MarketWatch — [These three stars need to align before investors rush back into stocks, Bank of America strategist says](https://www.marketwatch.com/story/these-three-stars-need-to-align-before-investors-rush-back-into-stocks-bank-of-america-strategist-says-52879caa?mod=mw_rss_topstories)
-- 11-07 MarketWatch — [Moderna raises its revenue outlook — but all eyes are on what happens next with its cancer vaccine](https://www.marketwatch.com/story/modernas-stock-jumps-after-biotech-raises-sales-outlook-65363127?mod=mw_rss_topstories)
 
 ## 언론사별 건수 상위 15
 
-연합뉴스 최신 1151, 토큰포스트 946, 머니투데이 600, 인포맥스 428, 아시아경제 364, 코인리더스 362, 파이낸셜뉴스 전체 356, 연합뉴스 마켓 355, 뉴시스 사회 342, 조선비즈 331, 한국경제 금융 241, 뉴시스 금융 240, 재경일보 219, 이데일리 219, 동아 사회 218
+연합뉴스 최신 1154, 토큰포스트 951, 머니투데이 600, 인포맥스 428, 아시아경제 364, 코인리더스 362, 파이낸셜뉴스 전체 356, 연합뉴스 마켓 355, 뉴시스 사회 343, 조선비즈 331, 한국경제 금융 241, 뉴시스 금융 240, 재경일보 219, 이데일리 219, 동아 사회 218
