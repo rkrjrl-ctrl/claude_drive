@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-06T11:05+09:00",
+"updated": "2026-11-06T12:06+09:00",
 "items": [
 {
 "kind": "gov",
@@ -5468,6 +5468,165 @@
 "카자흐스탄",
 "피해",
 "한인"
+]
+},
+{
+"kind": "gov",
+"link": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249758&menuNo=200218&pageIndex=1",
+"t": "2026-11-06T12:06+09:00",
+"tok": [
+"개인정보",
+"금융권은",
+"대응하고",
+"따른",
+"보이스피싱",
+"사고에",
+"예방에",
+"유출",
+"있습니다",
+"총력"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9YZE55WGZEV0hiQ3p6d09maHYwNXpIcFZQNjdHVUVkZW9VekhkeHpOQmRRNEVZcGdVckpEMV90WXp2ZXIxWUdQQnlGcTlhaUlPdVN3a1RZbXY4a1NXSWVIWk0tU0hnWkdDMUdFMWh3?oc=5",
+"t": "2026-11-06T12:06+09:00",
+"tok": [
+"WTI",
+"국제유가",
+"반발"
+],
+"g": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9YZE55WGZEV0hiQ3p6d09maHYwNXpIcFZQNjdHVUVkZW9VekhkeHpOQmRRNEVZcGdVckpEMV90WXp2ZXIxWUdQQnlGcTlhaUlPdVN3a1RZbXY4a1NXSWVIWk0tU0hnWkdDMUdFMWh3?oc=5"
+},
+{
+"kind": "단독",
+"link": "https://www.chosun.com/economy/realty/realestate_news/2026/11/06/GYZDINLDMI4TQY3BGAYTKOJZGM/",
+"t": "2026-11-06T12:06+09:00",
+"tok": [
+"0원",
+"25억",
+"권선",
+"규제",
+"넘으면",
+"대출",
+"만안도",
+"부동산",
+"수원",
+"안양",
+"지라시",
+"퍼진"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261106089800002",
+"t": "2026-11-06T12:06+09:00",
+"tok": [
+"F4",
+"변동성",
+"시장안정",
+"조치",
+"증시",
+"추가",
+"확대하면"
+],
+"g": "https://www.yna.co.kr/view/AKR20261106089800002"
+},
+{
+"kind": "속보",
+"link": "https://www.fnnews.com/news/202611061142022534",
+"t": "2026-11-06T12:06+09:00",
+"tok": [
+"F4",
+"경계해야",
+"과도",
+"국내증시",
+"대외요인에",
+"반응",
+"비관",
+"지나친",
+"측면"
+],
+"g": "https://www.fnnews.com/news/202611061142022534"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261106_0003857805",
+"t": "2026-11-06T12:06+09:00",
+"tok": [
+"3개월",
+"F4",
+"급락에",
+"담보비율",
+"면제",
+"신용융자",
+"의무",
+"증시"
+],
+"g": "https://www.newsis.com/view/NISX20261106_0003857805"
+},
+{
+"kind": "속보",
+"link": "https://www.chosun.com/economy/economy_general/2026/11/06/U6QIREVOH5DTXMISJIAR2766O4/",
+"t": "2026-11-06T12:06+09:00",
+"tok": [
+"급락에",
+"담보비율",
+"면제",
+"신용융자",
+"유지의무",
+"일시",
+"정부",
+"주가",
+"증권사"
+],
+"g": "https://www.newsis.com/view/NISX20261106_0003857805"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBfU2F0b1JkTkV6dVVQSDJ6WHNHazl0cjRNc3RPbmYtNVhweWYydkZNSFQxaHJ4T3M1cGRmN1U0OWotU01wdHFGUl94bGVneGpscGVLUHBzN0dOTWxHdzlOZFZPU3BlYlNFdXc?oc=5",
+"t": "2026-11-06T12:06+09:00",
+"tok": [
+"SK하이닉스",
+"기관",
+"삼성전자",
+"삼성중공업",
+"순매도",
+"순매수",
+"외국인",
+"특징주",
+"한화오션"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9kNmNUeF8wZzVBMWtlMnZrSHA3T01rQWZRRl9PeTlKeV9walAtbGRkRDBWa0QyRnRZTDZ4dmVMVVdLN0dGZWNUTGY5aV9ScW9rWTZnR0V1V1djaUtTQ3dXcVUtUVRLWW5IWDFFV2NlR2NqYlk?oc=5",
+"t": "2026-11-06T12:06+09:00",
+"tok": [
+"SK하이닉스",
+"급락에",
+"내려",
+"미국",
+"반도체주",
+"삼성전자도",
+"장중",
+"주가",
+"하락"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.yna.co.kr/view/AKR20261106090500061",
+"t": "2026-11-06T12:06+09:00",
+"tok": [
+"검찰수사관",
+"도피",
+"부인",
+"수십억",
+"재판서",
+"전세사기",
+"해외",
+"혐의"
 ]
 }
 ]
