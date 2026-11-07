@@ -1,9 +1,9 @@
 # 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-08 03:05 KST  /  최근 7일 22516건 (보험·의료 3633 · 투자·경제 13373 · 생활·사회 5223)  /  이번 신규 297건
+- 갱신: 2026-11-08 04:05 KST  /  최근 7일 22532건 (보험·의료 3635 · 투자·경제 13372 · 생활·사회 5237)  /  이번 신규 286건
 - 소스 79곳 + 구글뉴스 키워드 110개(보험·의료 45 · 투자·경제 45 · 생활 20)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 없음
+- 수집 실패 소스: 보건복지부, 머니투데이, 금융위원회, 정책브리핑, 정책브리핑, 정책브리핑
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
@@ -115,7 +115,7 @@
 
 ## [생활·사회] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
-**요금·물가** (사건 36개)
+**요금·물가** (사건 37개)
 - (8) 11-05 조선 경제 — [김동철 한전 사장 “전기요금 현실화 필요…단, 산업용 전기료 인상은 최후 수단”](https://www.chosun.com/economy/industry-company/2026/11/05/HA2DMZLEMZRTIMJXGJTDCODEHA/) — **외 12건**(10개 매체)
 - (8) 11-05 국제뉴스 — [에너지바우처 신청 서두르세요… 난방비 최대 70만 원 준다고?](https://news.google.com/rss/articles/CBMibkFVX3lxTE80cGxNREFiTkd0emNPR0hJQmtYMlFYcTJna25sTmVDUV9HaXZEOEE5MkNoWlBsM0VmZ3gwS3dCbnVOcUE3Z29jU29vRnh6UWY4LVVNdVI5VUx6SjZHeTBHaDFOb0FzQWl1bURBMlhB?oc=5) — **외 1건**(2개 매체)
 - (3) 11-06 AI 매터스 — [오픈AI, 데이터센터 짓는 지역마다 전기요금 전액 부담 협약](https://news.google.com/rss/articles/CBMiVEFVX3lxTE5pNEVTYWlhNTlrS3lVMXhiTFV4NnFjMjV6OFU0UVVOWEZpYlpoXy10M2xsRTFFNDN0cTdfLWtoVFlrZDBVeldsNktVdEduZ3NmUElncA?oc=5) — **외 3건**(4개 매체)
@@ -135,7 +135,7 @@
 - (5) 11-06 이뉴스투데이 — [AI로 전세사기 막는다···성남시, ‘경기 안심 부동산’ 홍보](https://news.google.com/rss/articles/CBMicEFVX3lxTE91cklySUQwWkEwWFc5Z2g0RUgzMG9ZWUwzamJ4WFllNmQtem41UGJxYXBLcmlqVnR0a2lrcnlHbmVjU2RFTVJyQTR2VDFITXJFdEI3WlVKamRGTlB1Vzl2Y0ZEaDlWOVlrVVFkQmw3bFPSAXRBVV95cUxQci12cGpSNUFQRmFGd3JQanNiSTVxdWRja0ZxR0lTaW90Qk9FSWl2NmNnMVF0MFdObTdzWmg5eFBNd0tmcE5IVHZkUjVVMVpnSHFCNHZWelFFRzBPLVVEVGFRN3lTUk9SbDdZUER1dUd0a0JVQg?oc=5) — **외 7건**(8개 매체)
 - (5) 11-07 동방일보 — [성남시, AI 활용 전세사기 예방 나선다…공인중개사 2240곳 홍보](https://news.google.com/rss/articles/CBMic0FVX3lxTE9SUEdwcExpdW1Bek1QUkpIUjJwdnpyREE1UWc4djVSSlN6cE0yVXpXZ2tHZXBESXNRb1ZQNmxGS2JRRE5JZVFiWV9QX0plYVlobVI3QnhHdVVBVjJ0TnNCUlJ3YlVsc3JGVFZDLTNWQ0Y0ZTg?oc=5) — **외 6건**(7개 매체)
 
-**사기·피해·배상** (사건 20개)
+**사기·피해·배상** (사건 19개)
 - (3) 11-07 아주경제 — [빗썸, 국회 입법박람회 참가…보이스피싱 예방 교육 의무화 제안](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9CaWMyY2hPRm9JUkN6SzZXZzZkazFyVXdaX0JkWXJWNjFCSmd4U0dTN1ZobVROd005bWVYVFJ5RS1GMHpmWGVnYmVSX2RJS3NoS1BFTXEtbDEzQdIBWEFVX3lxTFBPSWZwa1BmYmtSbl9QYW5Lazd4ZzRVTWhwZWR0eTBzOUtnQVUzaU9yQURzS0oyZlM0ZkpvU19SNDJUYkxVOGNHNTFpNVM3ak45QnQ5QXNEMUc?oc=5) — **외 16건**(17개 매체)
 - (4) 11-05 재경일보 — [5000만원 보이스피싱 피해 뒤 숨진 충북 모자…카자흐스탄 한인 조직 소행…19명 구속 송치 : 사회](https://news.google.com/rss/articles/CBMiS0FVX3lxTE1udmI0QTZKNzRCcjVnUzVLWlR6aVN5NGY4NGloRXFYWEM0RVpScHFqeVlUNm9sdThXY3dTTk9OdURRZW14bXhGTzZjbw?oc=5) — **외 6건**(6개 매체)
 - (5) 11-06 아시아경제 — [서울중수청, ‘노쇼 사기’ 조직원 구속송치…보이스피싱 사건 첫 사례](https://view.asiae.co.kr/article/2026110616211390442) — **외 2건**(3개 매체)
@@ -208,4 +208,4 @@
 
 ## 언론사별 건수 상위 15
 
-연합뉴스 최신 1451, 토큰포스트 986, 머니투데이 615, 뉴시스 사회 441, 인포맥스 422, 코인리더스 379, 아시아경제 358, 연합뉴스 마켓 353, 파이낸셜뉴스 전체 349, 조선비즈 339, 동아 사회 255, 뉴시스 금융 250, 한국경제 금융 241, 이데일리 223, Investing.com 한국어 216
+연합뉴스 최신 1456, 토큰포스트 989, 머니투데이 615, 뉴시스 사회 441, 인포맥스 422, 코인리더스 379, 아시아경제 358, 연합뉴스 마켓 353, 파이낸셜뉴스 전체 349, 조선비즈 339, 동아 사회 255, 뉴시스 금융 250, 한국경제 금융 241, 이데일리 223, Investing.com 한국어 216
