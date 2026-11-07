@@ -1,6 +1,6 @@
 # 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-07 23:05 KST  /  최근 7일 22420건 (보험·의료 3634 · 투자·경제 13355 · 생활·사회 5146)  /  이번 신규 332건
+- 갱신: 2026-11-08 00:05 KST  /  최근 7일 22439건 (보험·의료 3635 · 투자·경제 13351 · 생활·사회 5168)  /  이번 신규 310건
 - 소스 79곳 + 구글뉴스 키워드 110개(보험·의료 45 · 투자·경제 45 · 생활 20)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
 - 수집 실패 소스: 없음
@@ -69,7 +69,7 @@
 - (11) 11-06 뉴스1 — [비트코인, 7.5만달러대로 급락…뉴욕증시와 동반 하락[코인브리핑]](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5DVkFzUWtrNzBMVkwtX3pkZFcxQUgyRHdac1dTOUlsX2owWm1XTUlla0JXWnlDc2FUY3d3eUc0a0lIMjY2T3hrTjZ0Umc2TkJKLWxjQ3hfLVVrckRVYjhHQWVYTzd4UQ?oc=5)
 
 **미국·해외 증시** (사건 70개)
-- (19) 11-06 CBC뉴스 — [[속보]뉴욕증시 대폭락, 나스닥 5.52% 급락…'블루쓰나미' 후폭풍에 월가 출렁 다우 3.44%·S&P500 4.36% 하락…AI·반도체 이틀 연속 약세, 미국 중간선거 이후 정책 불확실성 주목](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Gdzc5MHBJMUsxRmF2R1ZpNENfMmVBdW5HU0UxNEFoQjZxX3ZPNXZBTFhtQ2lNb01QUXRhR2FmMlhnWmFkVmNGV3pxRzlIalhMMWJGOUFlNmV3R3JNbk91R3kyb1dPcTdW?oc=5) — **외 88건**(59개 매체)
+- (19) 11-06 CBC뉴스 — [[속보]뉴욕증시 대폭락, 나스닥 5.52% 급락…'블루쓰나미' 후폭풍에 월가 출렁 다우 3.44%·S&P500 4.36% 하락…AI·반도체 이틀 연속 약세, 미국 중간선거 이후 정책 불확실성 주목](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Gdzc5MHBJMUsxRmF2R1ZpNENfMmVBdW5HU0UxNEFoQjZxX3ZPNXZBTFhtQ2lNb01QUXRhR2FmMlhnWmFkVmNGV3pxRzlIalhMMWJGOUFlNmV3R3JNbk91R3kyb1dPcTdW?oc=5) — **외 89건**(60개 매체)
 - (14) 11-03 뉴스핌 — [뉴욕증시, 혼조 마감…유가 급락에도 반도체 약세에 나스닥 1.07%↓](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jaEVha0VKTnl5V1lmajF6OEpkZXVoWHlZcUZkOU5SM3ZYYjZ2b0xvSklKOXdOV0tzanF4Y2M0SnBna3VsNzN6MjVUc3YtVWlGSThoWkpoTWNaQV9G?oc=5) — **외 24건**(21개 매체)
 - (15) 11-06 톱스타뉴스 — [[미국 뉴욕증시 전망] 나스닥 5.5% 폭락 후 반등 시도…엔비디아·마이크론 회복세, 고용지표가 분수령](https://news.google.com/rss/articles/CBMickFVX3lxTE5jdEd3aEozRDRBVXlRbktpVE4wa29MS19sU0pRNUctN1p2MVVxMklpM1diQTJjSWlsRWNmUkNSYjBHR24wTGd3UE1rdWRLNENZYjNEaEM0MGFIMmtCeDFVVVdOM0JNeEZzTEdZWDh6OFdTZw?oc=5) — **외 14건**(12개 매체)
 
@@ -193,8 +193,8 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
-- 11-07 ECB 보도자료 — [Christine Lagarde: Interview with Yomiuri Shimbun](https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html)
 - 11-07 MarketWatch — [This retired professor has reinvented himself — as a Taylor Swift scholar](https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories)
+- 11-07 ECB 보도자료 — [Christine Lagarde: Interview with Yomiuri Shimbun](https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html)
 - 11-07 MarketWatch — [The AI trade is now counting on Anthropic’s IPO — but it couldn’t be happening at a worse time](https://www.marketwatch.com/story/the-ai-trade-is-now-counting-on-anthropics-ipo-but-it-couldnt-be-happening-at-a-worse-time-8bd0f1c4?mod=mw_rss_topstories)
 - 11-07 CNBC — [Cosm rides premium moviegoing wave with more immersive screenings and a wider library](https://www.cnbc.com/2026/11/07/cosm-immersive-movie-screenings.html)
 - 11-07 MarketWatch — [Elon Musk opens the door for a big SpaceX acquisition](https://www.marketwatch.com/story/elon-musk-opens-the-door-for-a-big-spacex-acquisition-4f62bcad?mod=mw_rss_topstories)
@@ -208,4 +208,4 @@
 
 ## 언론사별 건수 상위 15
 
-연합뉴스 최신 1438, 토큰포스트 980, 머니투데이 614, 뉴시스 사회 438, 인포맥스 421, 코인리더스 377, 아시아경제 358, 연합뉴스 마켓 353, 파이낸셜뉴스 전체 350, 조선비즈 338, 동아 사회 252, 뉴시스 금융 251, 한국경제 금융 241, 이데일리 223, 재경일보 216
+연합뉴스 최신 1441, 토큰포스트 982, 머니투데이 614, 뉴시스 사회 440, 인포맥스 421, 코인리더스 378, 아시아경제 358, 연합뉴스 마켓 353, 파이낸셜뉴스 전체 349, 조선비즈 338, 동아 사회 253, 뉴시스 금융 250, 한국경제 금융 241, 이데일리 223, 재경일보 216
