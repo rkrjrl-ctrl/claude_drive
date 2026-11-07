@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-07T11:54+09:00",
+"updated": "2026-11-07T13:05+09:00",
 "items": [
 {
 "kind": "gov",
@@ -6447,6 +6447,34 @@
 "폭락에"
 ],
 "g": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5qbzRBVkphLW5TQnVSUVRQOUxpUnlmNXY1cDlyZ19zMFBpRTliRnhJb2hpeXlrcWVJTTJOZWFlYllBbzRjd0txb3NHOEtfR2pkUllLa1F0aUFROGRqV0lhVw?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1nWmJ5dW5TYXpuX2FTNy1qR0d5TGoyRnRRSXh1WGc2NXRYWXRvLXZ6cG02RFlUNWN5RzN6QmswQzVwMGplM3RuQzFZTlVoNHJqbm5PSg?oc=5",
+"t": "2026-11-07T13:05+09:00",
+"tok": [
+"34",
+"WTI",
+"국제유가",
+"상승",
+"소폭"
+],
+"g": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1nWmJ5dW5TYXpuX2FTNy1qR0d5TGoyRnRRSXh1WGc2NXRYWXRvLXZ6cG02RFlUNWN5RzN6QmswQzVwMGplM3RuQzFZTlVoNHJqbm5PSg?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBobWRwZ3R4Sk5WSkNDTm9Ub1RtRHhldnY4WDRpaVFZeU4xUTNGQWNxSTEyRlpjTUhPS2Juem1yWlRTczVkSVJsMFFqN0N1MVc0ZTAtQjdfUjNWeUE?oc=5",
+"t": "2026-11-07T13:05+09:00",
+"tok": [
+"4살부터",
+"구속시켜야",
+"나라",
+"미친",
+"아동학대로",
+"의대반",
+"정승제"
+],
+"g": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBobWRwZ3R4Sk5WSkNDTm9Ub1RtRHhldnY4WDRpaVFZeU4xUTNGQWNxSTEyRlpjTUhPS2Juem1yWlRTczVkSVJsMFFqN0N1MVc0ZTAtQjdfUjNWeUE?oc=5"
 }
 ]
 }
