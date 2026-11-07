@@ -1,493 +1,83 @@
 # 자동 감시 결과 (자동 생성 — 직접 수정 금지)
 
-- 실행일: 2026-11-06  /  감시 url 2334개  /  자료 2334건  /  이번에 확인 2102개(연속 실패로 쉼 232개, 시간 초과로 넘김 0개)
+- 실행일: 2026-11-07  /  감시 url 2334개  /  자료 2334건  /  이번에 확인 2097개(연속 실패로 쉼 237개, 시간 초과로 넘김 0개)
 - 이 파일은 **감지만** 한다. 원문 내용 확인·자료 갱신은 Claude Code가 한다.
 
-## 원문 변경 확정 (481건)
+## 원문 변경 확정 (71건)
 
-- MED-0065 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4962
-- MED-0067 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4966
-- MED-0068 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=7181
-- MED-0071 — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3354
-- MED-0072 — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3357
-- MED-0075 — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5129
-- MED-0076 — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5130
-- MED-0078 — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5134
-- MED-0079 — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5135
-- MED-0258 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2005&mode=view
-- MED-0261 — https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8268158/
-- MED-0280 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13285305/
-- MED-0281 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13277410/
-- MED-0282 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12230268/
-- MED-0283 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12146613/
-- MED-0284 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12766015/
-- MED-0285 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11794900/
-- MED-0286 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11790997/
-- MED-0287 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11790984/
-- MED-0467 — https://pmc.ncbi.nlm.nih.gov/articles/PMC9830140/
-- MED-0468 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6986975/
-- MED-0469 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7994735/
-- MED-0470 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6424836/
-- MED-0471 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7082664/
-- MED-0472 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6901695/
-- MED-0473 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7332334/
-- MED-0474 — https://pmc.ncbi.nlm.nih.gov/articles/PMC8550930/
-- MED-0475 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6393630/
-- MED-0477 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12790914/
-- MED-0478 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12790912/
-- MED-0479 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12790917/
-- MED-0480 — https://pmc.ncbi.nlm.nih.gov/articles/PMC10404807/
-- MED-0481 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12710289/
-- MED-0486 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13368462/
-- MED-0487 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13619551/
-- MED-0488 — https://pmc.ncbi.nlm.nih.gov/articles/PMC10258552/
-- MED-0587 — https://www.who.int/news-room/fact-sheets/detail/diabetes
-- MED-0608 — https://www.who.int/news-room/fact-sheets/detail/menopause
-- MED-0619 — https://www.who.int/news-room/fact-sheets/detail/patient-safety
-- MED-0625 — https://www.who.int/news-room/fact-sheets/detail/pre-eclampsia
-- MED-0773 — https://www.nice.org.uk/guidance/ng123
-- MED-0805 — https://medlineplus.gov/acutelymphocyticleukemia.html
-- MED-0813 — https://medlineplus.gov/ankylosingspondylitis.html
-- MED-0823 — https://medlineplus.gov/atherosclerosis.html
-- MED-0824 — https://medlineplus.gov/atrialfibrillation.html
-- MED-0829 — https://medlineplus.gov/bloodglucose.html
-- MED-0834 — https://medlineplus.gov/breastcancer.html
-- MED-0857 — https://medlineplus.gov/concussion.html
-- MED-0860 — https://medlineplus.gov/coronaryarterybypasssurgery.html
-- MED-0865 — https://medlineplus.gov/dehydration.html
-- MED-0868 — https://medlineplus.gov/depression.html
-- MED-0887 — https://medlineplus.gov/encephalitis.html
-- MED-0888 — https://medlineplus.gov/endocarditis.html
-- MED-0893 — https://medlineplus.gov/fractures.html
-- MED-0905 — https://medlineplus.gov/heartfailure.html
-- MED-0907 — https://medlineplus.gov/heartsurgery.html
-- MED-0912 — https://medlineplus.gov/hepatitis.html
-- MED-0931 — https://medlineplus.gov/ischemicstroke.html
-- MED-0944 — https://medlineplus.gov/lungcancer.html
-- MED-0945 — https://medlineplus.gov/mammography.html
-- MED-0955 — https://medlineplus.gov/musculardystrophy.html
-- MED-0957 — https://medlineplus.gov/myastheniagravis.html
-- MED-0959 — https://medlineplus.gov/neuroblastoma.html
-- MED-0961 — https://medlineplus.gov/obesity.html
-- MED-0970 — https://medlineplus.gov/pain.html
-- MED-0980 — https://medlineplus.gov/prediabetes.html
-- MED-0982 — https://medlineplus.gov/primaryovarianinsufficiency.html
-- MED-0989 — https://medlineplus.gov/radiationtherapy.html
-- MED-0998 — https://medlineplus.gov/sarcoidosis.html
-- MED-1003 — https://medlineplus.gov/sleepdisorders.html
-- MED-1007 — https://medlineplus.gov/stress.html
-- MED-1016 — https://medlineplus.gov/traumaticbraininjury.html
-- MED-1021 — https://medlineplus.gov/urinaryincontinence.html
-- MED-1044 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6560
-- MED-1075 — https://pmc.ncbi.nlm.nih.gov/articles/PMC8268158/
-- MED-1113 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11621661/
-- MED-1114 — https://pmc.ncbi.nlm.nih.gov/articles/PMC9925153/
-- MED-1115 — https://pmc.ncbi.nlm.nih.gov/articles/PMC9515735/
-- MED-1116 — https://pmc.ncbi.nlm.nih.gov/articles/PMC10323161/
-- MED-1117 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6424832/
-- MED-1118 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13427683/
-- MED-1119 — https://pmc.ncbi.nlm.nih.gov/articles/PMC4691590/
-- MED-1120 — https://pmc.ncbi.nlm.nih.gov/articles/PMC4572036/
-- MED-1121 — https://pmc.ncbi.nlm.nih.gov/articles/PMC5762735/
-- MED-1122 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11106610/
-- MED-1123 — https://pmc.ncbi.nlm.nih.gov/articles/PMC5853198/
-- MED-1124 — https://pmc.ncbi.nlm.nih.gov/articles/PMC8748844/
-- MED-1125 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13655289/
-- MED-1126 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13655467/
-- MED-1127 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11917397/
-- MED-1128 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13341177/
-- MED-1129 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13537874/
-- MED-1130 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11524690/
-- MED-1131 — https://pmc.ncbi.nlm.nih.gov/articles/PMC5620396/
-- MED-1132 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6536791/
-- MED-1254 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000287566
-- MED-1350 — https://pmc.ncbi.nlm.nih.gov/articles/PMC8811204/
-- MED-1351 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11513862/
-- MED-1370 — https://www.who.int/news-room/fact-sheets/detail/radon-and-health
-- MED-1457 — https://www.fss.or.kr/fss/bbs/B0000115/view.do?nttId=21919&menuNo=200504
-- MED-1463 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13093029/
-- MED-1467 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=229094&menuNo=201193&part=nttId229094
-- MED-1468 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=229093&menuNo=201193&part=nttId229093
-- MED-1469 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=131672&menuNo=201193&part=nttId131672
-- MED-1470 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64814&menuNo=201193&part=nttId64814
-- MED-1471 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64813&menuNo=201193&part=nttId64813
-- MED-1472 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64809&menuNo=201193&part=nttId64809
-- MED-1473 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64791&menuNo=201193&part=nttId64791
-- MED-1474 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64786&menuNo=201193&part=nttId64786
-- MED-1475 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64780&menuNo=201193&part=nttId64780
-- MED-1476 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64768&menuNo=201193&part=nttId64768
-- MED-1477 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64745&menuNo=201193&part=nttId64745
-- MED-1478 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64743&menuNo=201193&part=nttId64743
-- MED-1479 — https://www.fss.or.kr/fss/job/fncCnflPrcdnt/view.do?prcdntSlno=19&menuNo=201194&part=prcdntSlno19
-- MED-1480 — https://www.fss.or.kr/fss/job/fncCnflPrcdnt/view.do?prcdntSlno=17&menuNo=201194&part=prcdntSlno17
-- MED-1481 — https://www.fss.or.kr/fss/job/fncCnflPrcdnt/view.do?prcdntSlno=16&menuNo=201194&part=prcdntSlno16
-- MED-1482 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=232216&menuNo=200218&part=nttId232216
-- MED-1483 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=203005&menuNo=200218&part=nttId203005
-- MED-1484 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=217901&menuNo=200218&part=nttId217901
-- MED-1485 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=219361&menuNo=200218&part=nttId219361
-- MED-1486 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=218809&menuNo=200218&part=nttId218809
-- MED-1487 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=128&menuNo=201195&part=caseSlno128
-- MED-1488 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=125&menuNo=201195&part=caseSlno125
-- MED-1489 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=135&menuNo=201195&part=caseSlno135
-- MED-1490 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=101&menuNo=201195&part=caseSlno101
-- MED-1491 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=99&menuNo=201195&part=caseSlno99
-- MED-1492 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=162&menuNo=201195&part=caseSlno162
-- MED-1493 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=161&menuNo=201195&part=caseSlno161
-- MED-1494 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=160&menuNo=201195&part=caseSlno160
-- MED-1495 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=159&menuNo=201195&part=caseSlno159
-- MED-1496 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=158&menuNo=201195&part=caseSlno158
-- MED-1497 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=157&menuNo=201195&part=caseSlno157
-- MED-1498 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=156&menuNo=201195&part=caseSlno156
-- MED-1499 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=155&menuNo=201195&part=caseSlno155
-- MED-1500 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=163&menuNo=201195&part=caseSlno163
-- MED-1501 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=138&menuNo=201195&part=caseSlno138
-- MED-1502 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=75&menuNo=201195&part=caseSlno75
-- MED-1503 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=137&menuNo=201195&part=caseSlno137
-- MED-1504 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=136&menuNo=201195&part=caseSlno136
-- MED-1505 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=141&menuNo=201195&part=caseSlno141
-- MED-1506 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=140&menuNo=201195&part=caseSlno140
-- MED-1507 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=139&menuNo=201195&part=caseSlno139
-- MED-1508 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=149&menuNo=201195&part=caseSlno149
-- MED-1509 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=148&menuNo=201195&part=caseSlno148
-- MED-1510 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=146&menuNo=201195&part=caseSlno146
-- MED-1511 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=9&menuNo=201195&part=caseSlno9
-- MED-1512 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=4&menuNo=201195&part=caseSlno4
-- MED-1513 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=64&menuNo=201195&part=caseSlno64
-- MED-1514 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=54&menuNo=201195&part=caseSlno54
-- MED-1515 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=7&menuNo=201195&part=caseSlno7
-- MED-1516 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=59&menuNo=201195&part=caseSlno59
-- MED-1530 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=218168&menuNo=200218&part=nttId218168
-- MED-1531 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=225268&menuNo=200218&part=nttId225268
-- MED-1532 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=216706&menuNo=200218&part=nttId216706
-- MED-1533 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=217345&menuNo=200218&part=nttId217345
-- MED-1534 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=231823&menuNo=200218&part=nttId231823
-- MED-1535 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=216775&menuNo=200218&part=nttId216775
-- MED-1536 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=210197&menuNo=200218&part=nttId210197
-- MED-1636 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64681&menuNo=201193&part=nttId64681
-- MED-1637 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=113&menuNo=201195&part=caseSlno113
-- MED-1638 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=154&menuNo=201195&part=caseSlno154
-- MED-1639 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=151&menuNo=201195&part=caseSlno151
-- MED-1640 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=133&menuNo=201195&part=caseSlno133
-- MED-1641 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=132&menuNo=201195&part=caseSlno132
-- MED-1642 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=134&menuNo=201195&part=caseSlno134
-- MED-1643 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=18&menuNo=201195&part=caseSlno18
-- MED-1644 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=86&menuNo=201195&part=caseSlno86
-- MED-1645 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=82&menuNo=201195&part=caseSlno82
-- MED-1646 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=79&menuNo=201195&part=caseSlno79
-- MED-1647 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=61&menuNo=201195&part=caseSlno61
-- MED-1648 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=25&menuNo=201195&part=caseSlno25
-- MED-1649 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=15&menuNo=201195&part=caseSlno15
-- MED-1650 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=143&menuNo=201195&part=caseSlno143
-- MED-1656 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=217477&menuNo=200218&part=nttId217477
-- MED-1657 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=217705&menuNo=200218&part=nttId217705
-- MED-1658 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=207611&menuNo=200218&part=nttId207611
-- MED-1690 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64679&menuNo=201193&part=nttId64679
-- MED-1691 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64683&menuNo=201193&part=nttId64683
-- MED-1692 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64688&menuNo=201193&part=nttId64688
-- MED-1693 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64690&menuNo=201193&part=nttId64690
-- MED-1694 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64762&menuNo=201193&part=nttId64762
-- MED-1695 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64759&menuNo=201193&part=nttId64759
-- MED-1696 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64714&menuNo=201193&part=nttId64714
-- MED-1697 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64723&menuNo=201193&part=nttId64723
-- MED-1698 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64725&menuNo=201193&part=nttId64725
-- MED-1699 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64758&menuNo=201193&part=nttId64758
-- MED-1700 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64764&menuNo=201193&part=nttId64764
-- MED-1701 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64765&menuNo=201193&part=nttId64765
-- MED-1702 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64771&menuNo=201193&part=nttId64771
-- MED-1703 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64812&menuNo=201193&part=nttId64812
-- MED-1722 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=232597&menuNo=200218&part=nttId232597
-- MED-1723 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=192535&menuNo=200218&part=nttId192535
-- MED-1724 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=218960&menuNo=200218&part=nttId218960
-- MED-1725 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=217278&menuNo=200218&part=nttId217278
-- MED-1726 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=208935&menuNo=200218&part=nttId208935
-- MED-1728 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=217290&menuNo=200218&part=nttId217290
-- MED-1754 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64739&menuNo=201193&part=nttId64739
-- MED-1755 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64733&menuNo=201193&part=nttId64733
-- MED-1756 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64734&menuNo=201193&part=nttId64734
-- MED-1757 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64727&menuNo=201193&part=nttId64727
-- MED-1758 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64722&menuNo=201193&part=nttId64722
-- MED-1759 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64718&menuNo=201193&part=nttId64718
-- MED-1760 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64716&menuNo=201193&part=nttId64716
-- MED-1761 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64760&menuNo=201193&part=nttId64760
-- MED-1762 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64761&menuNo=201193&part=nttId64761
-- MED-1763 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64781&menuNo=201193&part=nttId64781
-- MED-1764 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64603&menuNo=201193&part=nttId64603
-- MED-1765 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64526&menuNo=201193&part=nttId64526
-- MED-1769 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=37099&menuNo=200218&part=nttId37099
-- MED-1770 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=188247&menuNo=200218&part=nttId188247
-- MED-1771 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64811&menuNo=201193&part=nttId64811
-- MED-1772 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64741&menuNo=201193&part=nttId64741
-- MED-1773 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64605&menuNo=201193&part=nttId64605
-- MED-1774 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64638&menuNo=201193&part=nttId64638
-- MED-1775 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64541&menuNo=201193&part=nttId64541
-- MED-1776 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64661&menuNo=201193&part=nttId64661
-- MED-1777 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64503&menuNo=201193&part=nttId64503
-- MED-1778 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64776&menuNo=201193&part=nttId64776
-- MED-1783 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=228836&menuNo=200218&part=nttId228836
-- MED-1793 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64654&menuNo=201193&part=nttId64654
-- MED-1794 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64641&menuNo=201193&part=nttId64641
-- MED-1795 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64644&menuNo=201193&part=nttId64644
-- MED-1796 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64574&menuNo=201193&part=nttId64574
-- MED-1797 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64611&menuNo=201193&part=nttId64611
-- MED-1798 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64631&menuNo=201193&part=nttId64631
-- MED-1799 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64624&menuNo=201193&part=nttId64624
-- MED-1800 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64487&menuNo=201193&part=nttId64487
-- MED-1801 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64702&menuNo=201193&part=nttId64702
-- MED-1802 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64551&menuNo=201193&part=nttId64551
-- MED-1803 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64532&menuNo=201193&part=nttId64532
-- MED-1804 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64596&menuNo=201193&part=nttId64596
-- MED-1805 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64537&menuNo=201193&part=nttId64537
-- MED-1806 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64677&menuNo=201193&part=nttId64677
-- MED-1807 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64674&menuNo=201193&part=nttId64674
-- MED-1808 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64663&menuNo=201193&part=nttId64663
-- MED-1809 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64639&menuNo=201193&part=nttId64639
-- MED-1810 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64489&menuNo=201193&part=nttId64489
-- MED-1811 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64543&menuNo=201193&part=nttId64543
-- MED-1812 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64632&menuNo=201193&part=nttId64632
-- MED-1813 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64587&menuNo=201193&part=nttId64587
-- MED-1814 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64568&menuNo=201193&part=nttId64568
-- MED-1815 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64556&menuNo=201193&part=nttId64556
-- MED-1816 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64544&menuNo=201193&part=nttId64544
-- MED-1817 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64542&menuNo=201193&part=nttId64542
-- MED-1818 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64579&menuNo=201193&part=nttId64579
-- MED-1819 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64570&menuNo=201193&part=nttId64570
-- MED-1824 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64588&menuNo=201193&part=nttId64588
-- MED-1825 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64517&menuNo=201193&part=nttId64517
-- MED-1826 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64496&menuNo=201193&part=nttId64496
-- MED-1827 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64480&menuNo=201193&part=nttId64480
-- MED-1828 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64666&menuNo=201193&part=nttId64666
-- MED-1829 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64667&menuNo=201193&part=nttId64667
-- MED-1832 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64509&menuNo=201193&part=nttId64509
-- MED-1833 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64481&menuNo=201193&part=nttId64481
-- MED-1834 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64545&menuNo=201193&part=nttId64545
-- MED-1835 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64516&menuNo=201193&part=nttId64516
-- MED-1836 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64518&menuNo=201193&part=nttId64518
-- MED-1837 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64597&menuNo=201193&part=nttId64597
-- MED-1838 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64521&menuNo=201193&part=nttId64521
-- MED-1839 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64477&menuNo=201193&part=nttId64477
-- MED-1840 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64433&menuNo=201193&part=nttId64433
-- MED-1841 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64429&menuNo=201193&part=nttId64429
-- MED-1842 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64454&menuNo=201193&part=nttId64454
-- MED-1843 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64469&menuNo=201193&part=nttId64469
-- MED-1844 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64701&menuNo=201193&part=nttId64701
-- MED-1845 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64441&menuNo=201193&part=nttId64441
-- MED-1846 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64432&menuNo=201193&part=nttId64432
-- MED-1847 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64461&menuNo=201193&part=nttId64461
-- MED-1848 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64438&menuNo=201193&part=nttId64438
-- MED-1849 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64457&menuNo=201193&part=nttId64457
-- MED-1850 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64434&menuNo=201193&part=nttId64434
-- MED-1858 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64470&menuNo=201193&part=nttId64470
-- MED-1859 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64471&menuNo=201193&part=nttId64471
-- MED-1860 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64467&menuNo=201193&part=nttId64467
-- MED-1861 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64498&menuNo=201193&part=nttId64498
-- MED-1862 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64522&menuNo=201193&part=nttId64522
-- MED-1863 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64466&menuNo=201193&part=nttId64466
-- MED-1864 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64439&menuNo=201193&part=nttId64439
-- MED-1865 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64511&menuNo=201193&part=nttId64511
-- MED-1866 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64497&menuNo=201193&part=nttId64497
-- MED-1867 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64472&menuNo=201193&part=nttId64472
-- MED-1868 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64453&menuNo=201193&part=nttId64453
-- MED-1869 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64377&menuNo=201193&part=nttId64377
-- MED-1870 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64376&menuNo=201193&part=nttId64376
-- MED-1871 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64375&menuNo=201193&part=nttId64375
-- MED-1872 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64374&menuNo=201193&part=nttId64374
-- MED-1873 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64426&menuNo=201193&part=nttId64426
-- MED-1874 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64673&menuNo=201193&part=nttId64673
-- MED-1875 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64668&menuNo=201193&part=nttId64668
-- MED-1876 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64424&menuNo=201193&part=nttId64424
-- MED-1877 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64333&menuNo=201193&part=nttId64333
-- MED-1878 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64289&menuNo=201193&part=nttId64289
-- MED-1879 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64353&menuNo=201193&part=nttId64353
-- MED-1880 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64422&menuNo=201193&part=nttId64422
-- MED-1881 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64724&menuNo=201193&part=nttId64724
-- MED-1882 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64332&menuNo=201193&part=nttId64332
-- MED-1883 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64287&menuNo=201193&part=nttId64287
-- MED-1884 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64318&menuNo=201193&part=nttId64318
-- MED-1885 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64804&menuNo=201193&part=nttId64804
-- MED-1886 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64653&menuNo=201193&part=nttId64653
-- MED-1887 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64345&menuNo=201193&part=nttId64345
-- MED-1888 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64290&menuNo=201193&part=nttId64290
-- MED-1889 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64336&menuNo=201193&part=nttId64336
-- MED-1890 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64261&menuNo=201193&part=nttId64261
-- MED-1891 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64249&menuNo=201193&part=nttId64249
-- MED-1892 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64769&menuNo=201193&part=nttId64769
-- MED-1893 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64540&menuNo=201193&part=nttId64540
-- MED-1894 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64340&menuNo=201193&part=nttId64340
-- MED-1895 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64349&menuNo=201193&part=nttId64349
-- MED-1896 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64423&menuNo=201193&part=nttId64423
-- MED-1897 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64785&menuNo=201193&part=nttId64785
-- MED-1898 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64784&menuNo=201193&part=nttId64784
-- MED-1899 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64680&menuNo=201193&part=nttId64680
-- MED-1900 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64750&menuNo=201193&part=nttId64750
-- MED-1901 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64799&menuNo=201193&part=nttId64799
-- MED-1902 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64732&menuNo=201193&part=nttId64732
-- MED-1903 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64726&menuNo=201193&part=nttId64726
-- MED-1904 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64246&menuNo=201193&part=nttId64246
-- MED-1905 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64251&menuNo=201193&part=nttId64251
-- MED-1906 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64268&menuNo=201193&part=nttId64268
-- MED-1907 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64258&menuNo=201193&part=nttId64258
-- MED-1908 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64324&menuNo=201193&part=nttId64324
-- MED-1909 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64286&menuNo=201193&part=nttId64286
-- MED-1910 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64420&menuNo=201193&part=nttId64420
-- MED-1911 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64363&menuNo=201193&part=nttId64363
-- MED-1912 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64266&menuNo=201193&part=nttId64266
-- MED-1913 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64275&menuNo=201193&part=nttId64275
-- MED-1914 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64279&menuNo=201193&part=nttId64279
-- MED-1915 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64327&menuNo=201193&part=nttId64327
-- MED-1916 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64331&menuNo=201193&part=nttId64331
-- MED-1917 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64337&menuNo=201193&part=nttId64337
-- MED-1918 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64352&menuNo=201193&part=nttId64352
-- MED-1919 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64640&menuNo=201193&part=nttId64640
-- MED-1920 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64678&menuNo=201193&part=nttId64678
-- MED-1921 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64687&menuNo=201193&part=nttId64687
-- MED-1922 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64695&menuNo=201193&part=nttId64695
-- MED-1923 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64328&menuNo=201193&part=nttId64328
-- MED-1924 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64326&menuNo=201193&part=nttId64326
-- MED-1925 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64259&menuNo=201193&part=nttId64259
-- MED-1926 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64335&menuNo=201193&part=nttId64335
-- MED-1927 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64338&menuNo=201193&part=nttId64338
-- MED-1928 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64346&menuNo=201193&part=nttId64346
-- MED-1929 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64348&menuNo=201193&part=nttId64348
-- MED-1930 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64370&menuNo=201193&part=nttId64370
-- MED-1931 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64373&menuNo=201193&part=nttId64373
-- MED-1932 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64565&menuNo=201193&part=nttId64565
-- MED-1933 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64606&menuNo=201193&part=nttId64606
-- MED-1934 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64620&menuNo=201193&part=nttId64620
-- MED-1935 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64625&menuNo=201193&part=nttId64625
-- MED-1936 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64664&menuNo=201193&part=nttId64664
-- MED-1937 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64684&menuNo=201193&part=nttId64684
-- MED-1938 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64691&menuNo=201193&part=nttId64691
-- MED-1939 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64817&menuNo=201193&part=nttId64817
-- MED-1940 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64243&menuNo=201193&part=nttId64243
-- MED-1941 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64262&menuNo=201193&part=nttId64262
-- MED-1942 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64244&menuNo=201193&part=nttId64244
-- MED-1943 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64263&menuNo=201193&part=nttId64263
-- MED-1944 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64264&menuNo=201193&part=nttId64264
-- MED-1945 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64265&menuNo=201193&part=nttId64265
-- MED-1946 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64267&menuNo=201193&part=nttId64267
-- MED-1947 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64271&menuNo=201193&part=nttId64271
-- MED-1948 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64274&menuNo=201193&part=nttId64274
-- MED-1949 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64252&menuNo=201193&part=nttId64252
-- MED-1950 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64253&menuNo=201193&part=nttId64253
-- MED-1951 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64278&menuNo=201193&part=nttId64278
-- MED-1952 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64280&menuNo=201193&part=nttId64280
-- MED-1953 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64282&menuNo=201193&part=nttId64282
-- MED-1954 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64283&menuNo=201193&part=nttId64283
-- MED-1955 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64284&menuNo=201193&part=nttId64284
-- MED-1956 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64319&menuNo=201193&part=nttId64319
-- MED-1957 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64297&menuNo=201193&part=nttId64297
-- MED-1958 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64299&menuNo=201193&part=nttId64299
-- MED-1959 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64350&menuNo=201193&part=nttId64350
-- MED-1960 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64354&menuNo=201193&part=nttId64354
-- MED-1961 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64357&menuNo=201193&part=nttId64357
-- MED-1962 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64356&menuNo=201193&part=nttId64356
-- MED-1963 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64371&menuNo=201193&part=nttId64371
-- MED-1964 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64459&menuNo=201193&part=nttId64459
-- MED-1965 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64445&menuNo=201193&part=nttId64445
-- MED-1966 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64436&menuNo=201193&part=nttId64436
-- MED-1967 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64428&menuNo=201193&part=nttId64428
-- MED-1968 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64536&menuNo=201193&part=nttId64536
-- MED-1969 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64567&menuNo=201193&part=nttId64567
-- MED-1970 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64566&menuNo=201193&part=nttId64566
-- MED-1971 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64578&menuNo=201193&part=nttId64578
-- MED-1972 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64602&menuNo=201193&part=nttId64602
-- MED-1973 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64601&menuNo=201193&part=nttId64601
-- MED-1974 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64610&menuNo=201193&part=nttId64610
-- MED-1975 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64615&menuNo=201193&part=nttId64615
-- MED-1976 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64633&menuNo=201193&part=nttId64633
-- MED-1977 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64648&menuNo=201193&part=nttId64648
-- MED-1978 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64686&menuNo=201193&part=nttId64686
-- MED-1979 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64693&menuNo=201193&part=nttId64693
-- MED-1980 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64694&menuNo=201193&part=nttId64694
-- MED-1981 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64699&menuNo=201193&part=nttId64699
-- MED-1982 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64731&menuNo=201193&part=nttId64731
-- MED-1983 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64744&menuNo=201193&part=nttId64744
-- MED-1984 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64751&menuNo=201193&part=nttId64751
-- MED-1985 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64256&menuNo=201193&part=nttId64256
-- MED-1986 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=237413&menuNo=200218&part=nttId237413
-- MED-1987 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=228833&menuNo=200218&part=nttId228833
-- MED-1988 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=228597&menuNo=200218&part=nttId228597
-- MED-1989 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=226318&menuNo=200218&part=nttId226318
-- MED-1990 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=230051&menuNo=200218&part=nttId230051
-- MED-2009 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=195182&menuNo=200218&part=nttId195182
-- MED-2010 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=129994&menuNo=200218&part=nttId129994
-- MED-2011 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=144&menuNo=201195&part=caseSlno144
-- MED-2012 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=78&menuNo=201195&part=caseSlno78
-- MED-2013 — https://www.fss.or.kr/fss/job/fncCnflMainPrcdnt/view.do?prcdntSlno=18&menuNo=201196&part=prcdntSlno18
-- MED-2018 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=216341&menuNo=200218&part=nttId216341
-- MED-2019 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=192849&menuNo=200218&part=nttId192849
-- MED-2020 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=188473&menuNo=200218&part=nttId188473
-- MED-2021 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=28&menuNo=201195&part=caseSlno28
-- MED-2050 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=13730&menuNo=200218&part=nttId13730
-- MED-2051 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=218925&menuNo=200218&part=nttId218925
-- MED-2052 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=152&menuNo=201195&part=caseSlno152
-- MED-2053 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=12634&menuNo=200218&part=nttId12634
-- MED-2054 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=6703&menuNo=200218&part=nttId6703
-- MED-2055 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=9460&menuNo=200218&part=nttId9460
-- MED-2058 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=58169&menuNo=200218&part=nttId58169
-- MED-2059 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=15732&menuNo=200218&part=nttId15732
-- MED-2060 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=13095&menuNo=200218&part=nttId13095
-- MED-2061 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=10968&menuNo=200218&part=nttId10968
-- MED-2062 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=137954&menuNo=200218&part=nttId137954
-- MED-2063 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=185&menuNo=201195&part=caseSlno185
-- MED-2064 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=182&menuNo=201195&part=caseSlno182
-- MED-2068 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=136165&menuNo=200218&part=nttId136165
-- MED-2069 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=110&menuNo=201195&part=caseSlno110
-- MED-2070 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=10277&menuNo=200218&part=nttId10277
-- MED-2071 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64442&menuNo=201193&part=nttId64442
-- MED-2072 — https://www.fss.or.kr/fss/job/fncCnflPrcdnt/view.do?prcdntSlno=6&menuNo=201194&part=prcdntSlno6
-- MED-2073 — https://www.fss.or.kr/fss/job/fncCnflPrcdnt/view.do?prcdntSlno=1&menuNo=201194&part=prcdntSlno1
-- MED-2074 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=13720&menuNo=200218&part=nttId13720
-- MED-2075 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=8293&menuNo=200218&part=nttId8293
-- MED-2078 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=10697&menuNo=200218&part=nttId10697
-- MED-2080 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=7887&menuNo=200218&part=nttId7887
-- MED-2081 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=138353&menuNo=200218&part=nttId138353
-- MED-2082 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=11412&menuNo=200218&part=nttId11412
-- MED-2083 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=11947&menuNo=200218&part=nttId11947
-- MED-2084 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=12942&menuNo=200218&part=nttId12942
-- MED-2085 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=115&menuNo=201195&part=caseSlno115
-- MED-2086 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=153&menuNo=201195&part=caseSlno153
-- MED-2087 — https://www.fss.or.kr/fss/job/fncCnflCase/view.do?caseSlno=66&menuNo=201195&part=caseSlno66
-- MED-2088 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64380&menuNo=201193&part=nttId64380
-- MED-2089 — https://www.fss.or.kr/fss/bbs/B0000390/view.do?nttId=64675&menuNo=201193&part=nttId64675
-- MED-2095 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=9377&menuNo=200218&part=nttId9377
-- MED-2102 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=11075&menuNo=200218&part=nttId11075
-- MED-2103 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=134985&menuNo=200218&part=nttId134985
-- MED-2104 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=134838&menuNo=200218&part=nttId134838
-- MED-2105 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=191817&menuNo=200218&part=nttId191817
-- MED-2106 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=195776&menuNo=200218&part=nttId195776
-- MED-2107 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=132618&menuNo=200218&part=nttId132618
-- MED-2108 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=55336&menuNo=200218&part=nttId55336
-- MED-2109 — https://www.fss.or.kr/fss/job/fncCnflPrcdnt/view.do?prcdntSlno=20&menuNo=201194&part=prcdntSlno20
-- MED-2112 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=15133&menuNo=200218&part=nttId15133
-- MED-2113 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=14924&menuNo=200218&part=nttId14924
-- MED-2114 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=14161&menuNo=200218&part=nttId14161
-- MED-2115 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=12497&menuNo=200218&part=nttId12497
-- MED-2116 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=10151&menuNo=200218&part=nttId10151
-- MED-2117 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=9308&menuNo=200218&part=nttId9308
-- MED-2118 — https://www.fss.or.kr/fss/job/fncCnflPrcdnt/view.do?prcdntSlno=15&menuNo=201194&part=prcdntSlno15
-- MED-2121 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=12180&menuNo=200218&part=nttId12180
-- MED-2132 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=15110&menuNo=200218&part=nttId15110
-- MED-2133 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=15323&menuNo=200218&part=nttId15323
-- MED-2134 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=15326&menuNo=200218&part=nttId15326
-- MED-2135 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=16016&menuNo=200218&part=nttId16016
-- MED-2136 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=16607&menuNo=200218&part=nttId16607
-- MED-2137 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=129212&menuNo=200218&part=nttId129212
-- MED-2138 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=58174&menuNo=200218&part=nttId58174
-- MED-2139 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=134742&menuNo=200218&part=nttId134742
-- MED-2140 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=188099&menuNo=200218&part=nttId188099
-- MED-2141 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=209033&menuNo=200218&part=nttId209033
-- MED-2142 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=16276&menuNo=200218&part=nttId16276
-- MED-2143 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=16491&menuNo=200218&part=nttId16491
-- MED-2144 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=16365&menuNo=200218&part=nttId16365
-- MED-2145 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=131101&menuNo=200218&part=nttId131101
-- MED-2146 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=136709&menuNo=200218&part=nttId136709
-- MED-2147 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=195920&menuNo=200218&part=nttId195920
-- MED-2193 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=57890&menuNo=200218&part=nttId57890
-- MED-2201 — https://www.kihasa.re.kr/news/event/view?seq=76736
-- MED-2310 — https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=193553&menuNo=200218
+- MED-0092 — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3791
+- MED-0288 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13009686/
+- MED-0289 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13009690/
+- MED-0290 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12971177/
+- MED-0291 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13382552/
+- MED-0292 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13439306/
+- MED-0568 — https://www.who.int/news-room/fact-sheets/detail/ageing-and-health
+- MED-0572 — https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders
+- MED-0697 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-screening
+- MED-0698 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breastfeeding-primary-care-interventions
+- MED-0702 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/colorectal-cancer-screening
+- MED-0717 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/iron-deficiency-anemia-in-pregnant-women-screening-and-supplementation
+- MED-0721 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening
+- MED-0723 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-children-and-adolescents-screening
+- MED-0725 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/oral-health-adults-screening-preventive-interventions
+- MED-0737 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/speech-and-language-delay-and-disorders-in-children-age-5-and-younger-screening
+- MED-0811 — https://medlineplus.gov/analcancer.html
+- MED-0828 — https://medlineplus.gov/bloodclots.html
+- MED-0833 — https://medlineplus.gov/bonedensity.html
+- MED-0837 — https://medlineplus.gov/cancer.html
+- MED-0841 — https://medlineplus.gov/carpaltunnelsyndrome.html
+- MED-0856 — https://medlineplus.gov/colorectalcancer.html
+- MED-0869 — https://medlineplus.gov/developmentaldisabilities.html
+- MED-0872 — https://medlineplus.gov/diabetescomplications.html
+- MED-0873 — https://medlineplus.gov/diabetesmedicines.html
+- MED-0882 — https://medlineplus.gov/dislocatedshoulder.html
+- MED-0894 — https://medlineplus.gov/gastroenteritis.html
+- MED-0908 — https://medlineplus.gov/heartvalvediseases.html
+- MED-0910 — https://medlineplus.gov/hemorrhagicstroke.html
+- MED-0934 — https://medlineplus.gov/juvenilearthritis.html
+- MED-0936 — https://medlineplus.gov/kawasakidisease.html
+- MED-0968 — https://medlineplus.gov/oxygentherapy.html
+- MED-0984 — https://medlineplus.gov/prostatecancer.html
+- MED-0993 — https://medlineplus.gov/respiratoryfailure.html
+- MED-1023 — https://medlineplus.gov/vasculardiseases.html
+- MED-1032 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5495
+- MED-1036 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=3828
+- MED-1084 — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3768
+- MED-1293 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/osteoporosis-screening
+- MED-1296 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/aspirin-to-prevent-cardiovascular-disease-preventive-medication
+- MED-1323 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/syphilis-infection-in-pregnancy-screening
+- MED-1331 — https://www.nice.org.uk/guidance/ng258
+- MED-1333 — https://www.nice.org.uk/guidance/ng217
+- MED-1353 — https://pmc.ncbi.nlm.nih.gov/articles/PMC10982054/
+- MED-1354 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7354982/
+- MED-1355 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7541973/
+- MED-1356 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7840311/
+- MED-1357 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7542002/
+- MED-1369 — https://www.who.int/news-room/fact-sheets/detail/asbestos
+- MED-1373 — https://www.who.int/news-room/fact-sheets/detail/household-air-pollution-and-health
+- MED-1375 — https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults
+- MED-1380 — https://www.who.int/news-room/fact-sheets/detail/universal-health-coverage-(uhc)
+- MED-1399 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6609748/
+- MED-1456 — https://www.fsc.go.kr/no010101/76157
+- MED-1688 — https://www.fsc.go.kr/no010101/86831
+- MED-1750 — https://www.fsc.go.kr/no010101/84272
+- MED-1751 — https://www.fsc.go.kr/po020201/84273
+- MED-1752 — https://www.fsc.go.kr/no010101/85456
+- MED-1753 — https://www.fsc.go.kr/no010101/86709
+- MED-1823 — https://www.fsc.go.kr/no010101/79680
+- MED-2039 — https://www.fsc.go.kr/no010101/73088
+- MED-2041 — https://www.fsc.go.kr/no010101/71166
+- MED-2042 — https://www.fsc.go.kr/no010101/83985
+- MED-2259 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000286276
+- MED-2306 — https://www.fsc.go.kr/no010101/73428
+- MED-2307 — https://www.fsc.go.kr/no010101/82452
+- MED-2308 — https://www.fsc.go.kr/no010101/86831?part=consumer-protection
+- MED-2319 — https://www.fsc.go.kr/no010101/73753
+- MED-2320 — https://www.fsc.go.kr/no010101/76503
+- MED-2324 — https://www.fsc.go.kr/po020201/75644
+- MED-2325 — https://www.fsc.go.kr/no010101/87270
 
-## 접속 3회 이상 연속 실패 (237건)
+## 접속 3회 이상 연속 실패 (238건)
 
 - MED-0010 — 22회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.nhis.or.kr/renewal_popup/poster/20260608_poster_longdesc_1.html
 - MED-0014 — 6회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.hira.or.kr/bbsDummy.do?brdBltNo=45666&brdScnBltNo=4&pgmid=HIRAA030023080000
@@ -522,10 +112,15 @@
 - MED-0115 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-03, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5122
 - MED-0117 — 9회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.cancer.go.kr/lay1/S1T648C650/contents.do
 - MED-0153 — 3회 — TimeoutError: 총 45초 초과 (마지막 시도 2026-11-03, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=19618
+- MED-0154 — 3회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-06, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=17106
 - MED-0157 — 22회 — URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.seoulhp.com/seoul/cmmn/file/fileDown.do?atchFileId=79e740a49bff47a1aa20365c7d80153f&fileSn=4&menuNo=100136
+- MED-0166 — 3회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-06, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=1
 - MED-0167 — 3회 — TimeoutError: 총 45초 초과 (마지막 시도 2026-11-03, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=2
 - MED-0168 — 3회 — TimeoutError: 총 45초 초과 (마지막 시도 2026-11-03, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=3
+- MED-0169 — 3회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-06, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=4-6
 - MED-0170 — 3회 — TimeoutError: 총 45초 초과 (마지막 시도 2026-11-03, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=7
+- MED-0171 — 3회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-06, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=8-9
+- MED-0172 — 3회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-06, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18579
 - MED-0174 — 3회 — TimeoutError: 총 45초 초과 (마지막 시도 2026-11-03, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=10288
 - MED-1028 — 17회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12 (마지막 시도 2026-11-02, 7일마다 재시도) — https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=1
 - MED-1029 — 17회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12 (마지막 시도 2026-11-02, 7일마다 재시도) — https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=2
@@ -721,11 +316,7 @@
 - MED-2217 — 13회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11005254
 - MED-2255 — 6회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.hira.or.kr/dummy.do?pgmid=HIRAA020020000005
 - MED-2301 — 3회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-03, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01000m01.do?mode=view&articleNo=11008009
-- MED-0154 — 3회 — TimeoutError: 총 20초 초과 — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=17106
-- MED-0166 — 3회 — TimeoutError: 총 20초 초과 — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=1
-- MED-0169 — 3회 — TimeoutError: 총 20초 초과 — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=4-6
-- MED-0171 — 3회 — TimeoutError: 총 20초 초과 — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=8-9
-- MED-0172 — 3회 — TimeoutError: 총 20초 초과 — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18579
+- MED-0102 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/S1T261C262/contents.do
 
 ## 재확인 기한 도래·30일 이내 (12건)
 
@@ -742,21 +333,12 @@
 - 2026-12-01 MED-1448 [verified] 비대면진료 시범사업 지침(보건복지부 공고 제2026-825호, 2026-11-01 시행, 의료기관용) — 의원급 중심(의사가 안전하다고 판단한 환자, 초·재진 구분 없음), 병원급은 1년 안 대면진료한 희귀질환 산정특례자·30일 안 대면진료한 수술·치료 후 관리 환자·제1형 당뇨병 환자만, 의료기관별 비대면진료 비율 월 30% 이하, 외래진찰료 + 비대면진료 시범사업 관리료(의과 40.34점, 2026년 단가로 의원 3,860원·병원 3,380원, 동일 환자 월 2회까지, 종별·야간 등 가산 없음), 본인부담은 시행령 제19조 일반 원칙, 마약류·오남용·사후피임·비만치료제(에페글레나타이드 추가) 처방 금지
 - 2026-12-01 MED-1449 [verified] 첩약 건강보험 적용 2단계 시범사업 지침(보건복지부 공고 제2025-150호, 2025-02-27 시행, 사업기간 2024-04~2026-12) — 시범기관(한의원·한방병원·한방 진료과목 병원·종합병원, 상급종합 제외) 외래에서 6개 질환(안면신경마비·뇌혈관질환 후유증·월경통·알레르기비염·기능성 소화불량·요추 추간판탈출증)에 치료용 첩약, 본인부담 종합병원 50%·병원·한방병원 40%·한의원·(한)약국 30%, 질환별 연간 20일 초과분 전액 본인부담, 연간 2개 질환, 1회 최대 10일분, 한의사 1인당 1일 8건·월 60건·연 600건
 
-## PubMed 신규 가이드라인·RCT·메타분석 (2026-11-05 이후)
+## PubMed 신규 가이드라인·RCT·메타분석 (2026-11-06 이후)
 
-**신장암**
-- Prognostic value of lymphocyte to monocyte ratio for metastatic renal cell carcinoma: a systematic review and meta-analysis. (2026 Aug 7) https://pubmed.ncbi.nlm.nih.gov/42983359/
-**위암**
-- Efficacy of anti-PD-1/PD-L1 plus chemotherapy in treatment-naïve advanced HER2-negative gastric adenocarcinoma among different PD-L1 intervals: an updated meta-analysis and reconstructed individual patient-level data analysis. (2026 Aug 8) https://pubmed.ncbi.nlm.nih.gov/42983403/
 **대장암**
-- MLH1 AND MSH2 PROTEIN EXPRESSION LOSS AND MICROSATELLITE INSTABILITY IN COLORECTAL ADENOMAS OF PATIENTS WITH LYNCH SYNDROME: A SYSTEMATIC REVIEW AND META-ANALYSIS. (2026) https://pubmed.ncbi.nlm.nih.gov/42987038/
-- Efficacy and safety of regorafenib plus PD-1/PD-L1 inhibitors for metastatic colorectal cancer: a systematic review and meta-analysis. (2026 Aug 10) https://pubmed.ncbi.nlm.nih.gov/42983433/
+- Comparative efficacy and safety of second- and later-line BRAF-targeted regimens in BRAF V600E-mutant metastatic colorectal cancer: A systematic review and network meta-analysis. (2026 Nov 6) https://pubmed.ncbi.nlm.nih.gov/42994867/
 **유방암**
-- [Place of clinical breast examination in breast cancer screening strategies. French College of Gynecologists and Obstetricians (CNGOF) recommendations for clinical practice]. (2026 Nov 5) https://pubmed.ncbi.nlm.nih.gov/42988166/
-**전립선암**
-- Association of the triglyceride-glucose index with prostate cancer risk and prognosis: a systematic review and meta-analysis. (2026 Aug 10) https://pubmed.ncbi.nlm.nih.gov/42983457/
-**담낭암**
-- Prognostic Value of the Preoperative Systemic Immune-Inflammation Index for Overall Survival After Surgical Resection for Gallbladder Cancer: A Systematic Review and Meta-Analysis. (2026 Nov 5) https://pubmed.ncbi.nlm.nih.gov/42986544/
+- Primary Endocrine Therapy vs Upfront Surgery for Older Women With Estrogen Receptor-Positive Breast Cancer: A Systematic Review and Meta-Analysis. (2026 Nov 2) https://pubmed.ncbi.nlm.nih.gov/42993545/
 
 ## 아직 감시하지 않는 것
 
