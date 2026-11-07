@@ -1,9 +1,9 @@
 # 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-07 19:05 KST  /  최근 7일 22247건 (보험·의료 3628 · 투자·경제 13344 · 생활·사회 4990)  /  이번 신규 364건
+- 갱신: 2026-11-07 20:05 KST  /  최근 7일 22297건 (보험·의료 3632 · 투자·경제 13351 · 생활·사회 5029)  /  이번 신규 329건
 - 소스 79곳 + 구글뉴스 키워드 110개(보험·의료 45 · 투자·경제 45 · 생활 20)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 아시아경제 증권, 머니투데이, 아시아경제, 아시아경제 부동산
+- 수집 실패 소스: 없음
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
@@ -120,7 +120,7 @@
 - (8) 11-05 국제뉴스 — [에너지바우처 신청 서두르세요… 난방비 최대 70만 원 준다고?](https://news.google.com/rss/articles/CBMibkFVX3lxTE80cGxNREFiTkd0emNPR0hJQmtYMlFYcTJna25sTmVDUV9HaXZEOEE5MkNoWlBsM0VmZ3gwS3dCbnVOcUE3Z29jU29vRnh6UWY4LVVNdVI5VUx6SjZHeTBHaDFOb0FzQWl1bURBMlhB?oc=5) — **외 1건**(2개 매체)
 - (3) 11-06 AI 매터스 — [오픈AI, 데이터센터 짓는 지역마다 전기요금 전액 부담 협약](https://news.google.com/rss/articles/CBMiVEFVX3lxTE5pNEVTYWlhNTlrS3lVMXhiTFV4NnFjMjV6OFU0UVVOWEZpYlpoXy10M2xsRTFFNDN0cTdfLWtoVFlrZDBVeldsNktVdEduZ3NmUElncA?oc=5) — **외 3건**(4개 매체)
 
-**세금·지원금** (사건 50개)
+**세금·지원금** (사건 51개)
 - (9) 11-06 디지털데일리 — ["보이스피싱 피해금 환급 받으세요"… 금융기관 사칭 사기 `주의보`](https://news.google.com/rss/articles/CBMiZEFVX3lxTFA2QWF3UGl0TFlRYmpHODVaR0JPdENRSGtFWTFaNHk1bXhNRFQyUk5heGYxRGVtVGhZWVVWMHJCWktHdG5nc1FQejZuQjRjVHNIMGxTVWtqVmVTd1ZoTFZUS2JhSDU?oc=5) — **외 8건**(9개 매체)
 - (6) 11-06 포쓰저널 — [보이스피싱 '환급' 넓혔지만 '예방교육'은 공백…빗썸, 법 개정 제안](https://news.google.com/rss/articles/CBMiY0FVX3lxTFBFOFJSLWh3S0duYVpyVXA2WTBDeS1HWTk3aFFpODdaalhnRzF3SGxyVE8xMVVrWGxqbElIRWJsU19STFJtQ3Z3dnBEQVZ5dlctLWpqWFR4MlloZlBOR0VNdmh1bw?oc=5) — **외 9건**(9개 매체)
 - (7) 11-05 포커스경제 — [HUG가 전세금 관리하고 임대인에 월세 지급…전월세 안심신탁 시행](https://news.google.com/rss/articles/CBMibkFVX3lxTE5VZnlJWWR2Si1QZjRKQ3NKekloQjFhRnFvNWNpRWhEcTFWUHhIR1A0cUZHX21DQmN6clpBeFRNdEFEU25wWm1DNW9DMm8wWDFFU3JlOVY4WUZrSXhVcUk4R01MWHR1aS1JZ2pNR2hB?oc=5) — **외 3건**(4개 매체)
@@ -130,7 +130,7 @@
 - (5) 11-06 민심뉴스 — [비트코인, 예상 뛰어넘은 미국 고용 지표에 대한 기대감은… (BTC, 미국 고용, 실업률, 금리 인상)](https://news.google.com/rss/articles/CBMibEFVX3lxTE1oTnc4Y1VXSGZ6VGIyQ2lOdlB4Y1YwTzRhU0lGZVpHWXZRblJMUTcwX0ktRThXWUdCQ3kzZHFhSDdJU3EyOVB5RmdXYjFXUDlsSFpJUGNtbFRDRWxFeFdaSF8wQ1VkTU55ODhZRw?oc=5) — **외 4건**(5개 매체)
 - (8) 11-03 데일리안 — [최저임금 인상 뒤 요양시설 간호사 고용 감소…간호조무사 늘며 전문성 약화](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9odFZyY1Q2ZzJpMGxkb09ubUNLMURwdDZlUTVEYlVEaml2UlgyZjRBU2lqTkVrdG92ZDBKdS1kU1hIWW1vcjZvR3VkTzFNUWphdElJ?oc=5) — **외 1건**(2개 매체)
 
-**집·주거** (사건 54개)
+**집·주거** (사건 53개)
 - (11) 11-04 연합뉴스 경제 — ['전세사기 걱정 더는' 전월세 안심신탁 임대인 오늘부터 모집](https://www.yna.co.kr/view/AKR20261104070700003) — **외 26건**(26개 매체)
 - (5) 11-06 이뉴스투데이 — [AI로 전세사기 막는다···성남시, ‘경기 안심 부동산’ 홍보](https://news.google.com/rss/articles/CBMicEFVX3lxTE91cklySUQwWkEwWFc5Z2g0RUgzMG9ZWUwzamJ4WFllNmQtem41UGJxYXBLcmlqVnR0a2lrcnlHbmVjU2RFTVJyQTR2VDFITXJFdEI3WlVKamRGTlB1Vzl2Y0ZEaDlWOVlrVVFkQmw3bFPSAXRBVV95cUxQci12cGpSNUFQRmFGd3JQanNiSTVxdWRja0ZxR0lTaW90Qk9FSWl2NmNnMVF0MFdObTdzWmg5eFBNd0tmcE5IVHZkUjVVMVpnSHFCNHZWelFFRzBPLVVEVGFRN3lTUk9SbDdZUER1dUd0a0JVQg?oc=5) — **외 7건**(8개 매체)
 - (5) 11-07 동방일보 — [성남시, AI 활용 전세사기 예방 나선다…공인중개사 2240곳 홍보](https://news.google.com/rss/articles/CBMic0FVX3lxTE9SUEdwcExpdW1Bek1QUkpIUjJwdnpyREE1UWc4djVSSlN6cE0yVXpXZ2tHZXBESXNRb1ZQNmxGS2JRRE5JZVFiWV9QX0plYVlobVI3QnhHdVVBVjJ0TnNCUlJ3YlVsc3JGVFZDLTNWQ0Y0ZTg?oc=5) — **외 6건**(7개 매체)
@@ -208,4 +208,4 @@
 
 ## 언론사별 건수 상위 15
 
-연합뉴스 최신 1420, 토큰포스트 978, 머니투데이 611, 뉴시스 사회 428, 인포맥스 422, 코인리더스 377, 아시아경제 357, 연합뉴스 마켓 353, 파이낸셜뉴스 전체 350, 조선비즈 337, 뉴시스 금융 251, 동아 사회 244, 한국경제 금융 240, 이데일리 223, 재경일보 215
+연합뉴스 최신 1422, 토큰포스트 981, 머니투데이 612, 뉴시스 사회 430, 인포맥스 422, 코인리더스 376, 아시아경제 358, 연합뉴스 마켓 353, 파이낸셜뉴스 전체 350, 조선비즈 338, 뉴시스 금융 251, 동아 사회 248, 한국경제 금융 240, 이데일리 223, 재경일보 215
