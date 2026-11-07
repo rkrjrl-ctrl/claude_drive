@@ -1,9 +1,9 @@
 # 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-08 01:05 KST  /  최근 7일 22472건 (보험·의료 3636 · 투자·경제 13362 · 생활·사회 5188)  /  이번 신규 316건
+- 갱신: 2026-11-08 01:54 KST  /  최근 7일 22491건 (보험·의료 3634 · 투자·경제 13366 · 생활·사회 5204)  /  이번 신규 292건
 - 소스 79곳 + 구글뉴스 키워드 110개(보험·의료 45 · 투자·경제 45 · 생활 20)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 서울경제 금융, 서울경제 경제, 서울경제 부동산, 머니투데이
+- 수집 실패 소스: 없음
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
@@ -193,6 +193,7 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
+- 11-08 MarketWatch — [I attend free meals hosted by people promoting annuities. I’ve no intention of buying any. Should I stop going?](https://www.marketwatch.com/story/its-good-to-be-old-ive-been-invited-to-a-dozen-free-meals-that-turn-into-annuity-sales-pitches-should-i-stop-going-63df67ca?mod=mw_rss_topstories)
 - 11-08 MarketWatch — [You follow the rules for smart stock trading. But are they the right rules?](https://www.marketwatch.com/story/you-follow-the-rules-for-smart-stock-trading-but-are-they-the-right-rules-9bfe5846?mod=mw_rss_topstories)
 - 11-07 MarketWatch — [This retired professor has reinvented himself — as a Taylor Swift scholar](https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories)
 - 11-07 ECB 보도자료 — [Christine Lagarde: Interview with Yomiuri Shimbun](https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html)
@@ -204,8 +205,7 @@
 - 11-07 MarketWatch — [My adviser recommended an annuity. Is it the right move in this market environment?](https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories)
 - 11-07 MarketWatch — [You’re fired! But you can keep the laptop and insurance. And here’s $10,000.](https://www.marketwatch.com/story/layoffs-with-dignity-why-these-tech-firms-are-offering-free-laptops-and-linkedin-premium-28750d39?mod=mw_rss_topstories)
 - 11-07 MarketWatch — [Nvidia, AMD and other chip stocks rebound — but is relief from the ‘violent’ selloff only temporary?](https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533?mod=mw_rss_topstories)
-- 11-07 MarketWatch — [I’m 65 and worth more than $5.6 million. Can I afford a $200,000 camper?](https://www.marketwatch.com/story/im-65-and-worth-more-than-5-6-million-can-i-buy-a-200-000-camper-even-though-the-price-feels-crazy-high-55f668f8?mod=mw_rss_topstories)
 
 ## 언론사별 건수 상위 15
 
-연합뉴스 최신 1444, 토큰포스트 987, 머니투데이 614, 뉴시스 사회 440, 인포맥스 421, 코인리더스 378, 아시아경제 358, 연합뉴스 마켓 353, 파이낸셜뉴스 전체 349, 조선비즈 339, 동아 사회 255, 뉴시스 금융 250, 한국경제 금융 241, 이데일리 223, 재경일보 216
+연합뉴스 최신 1446, 토큰포스트 987, 머니투데이 614, 뉴시스 사회 440, 인포맥스 421, 코인리더스 379, 아시아경제 358, 연합뉴스 마켓 353, 파이낸셜뉴스 전체 349, 조선비즈 339, 동아 사회 255, 뉴시스 금융 250, 한국경제 금융 241, 이데일리 223, 재경일보 216
