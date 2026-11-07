@@ -1,16 +1,16 @@
 # 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-08 00:05 KST  /  최근 7일 22439건 (보험·의료 3635 · 투자·경제 13351 · 생활·사회 5168)  /  이번 신규 310건
+- 갱신: 2026-11-08 01:05 KST  /  최근 7일 22472건 (보험·의료 3636 · 투자·경제 13362 · 생활·사회 5188)  /  이번 신규 316건
 - 소스 79곳 + 구글뉴스 키워드 110개(보험·의료 45 · 투자·경제 45 · 생활 20)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 없음
+- 수집 실패 소스: 서울경제 금융, 서울경제 경제, 서울경제 부동산, 머니투데이
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
 **실손·비급여** (사건 26개)
 - (10) 11-02 한양경제 — [본인부담상한제 환급금 실손보험 보상 대상 제외...대법원 판결 찾아보니](https://news.google.com/rss/articles/CBMickFVX3lxTE85U2pjcm9sVHJUNjliRlZLc0h0dFk2VHQ5Q3hkcF84NHlSM3ZGUWpuUUJFd2Y5N1lwdWdILTkwNGJCbkJrbElDd1ZUa014UWQ0THpTa1hfTXlaN0dlNEc0cmhfN2lKN1JTLTJIZlZtNFpVUQ?oc=5) — **외 1건**(1개 매체)
-- (8) 11-01 잡포스트 — [서류 발급 없이 실손보험금 청구…BNK경남은행, ‘실손24’ 도입](https://news.google.com/rss/articles/CBMickFVX3lxTFBwWDlPYi05MzVGM1p6YUhhZUJVVkx2OFUyTjlPY0dLcTNHcENsQ3kzX1BlQnN6MGhaM2FCMkJiS0wtSm1NTER0ZFlUUklJZEthRF83dDhjRm45cm5tSEZINGtZSFNnbE41MGxtN09DcnZkUdIBckFVX3lxTFBwWDlPYi05MzVGM1p6YUhhZUJVVkx2OFUyTjlPY0dLcTNHcENsQ3kzX1BlQnN6MGhaM2FCMkJiS0wtSm1NTER0ZFlUUklJZEthRF83dDhjRm45cm5tSEZINGtZSFNnbE41MGxtN09DcnZkUQ?oc=5) — **외 1건**(2개 매체)
 - (7) 11-02 이투데이 — [초기 실손보험료 최대 40% 할인…이달부터 시행](https://news.google.com/rss/articles/CBMibkFVX3lxTE81VkJnWG1IcHV2VGZOVnZGNEdyN1ZudjZhcXdMMkpJR084NUhoRmxLMjdsYzU2dnJMUHN6czRqZ3JPbVNIbEdxRnAtTDQ2ajRIbUxXVGtUZTh1UExTWG5PUklHdHhjSzNwU3VWUW13?oc=5) — **외 1건**(2개 매체)
+- (5) 11-02 동북일보 — [김재섭 의원, ‘제대군인 실손보험법’ 대표발의](https://news.google.com/rss/articles/CBMib0FVX3lxTFA4aXczN2tnZG8zR2N4dktBa2FvRUdEUlJDdGY4czZyckh0YkJiSnZHTi1FckRBc1lkQlE5NGZyUVhXaGNkeUVKcnBHSjA3U0QzQS1CMk51dU1ST09hcl9zR3dJR283cGRwWWpmSTlVSQ?oc=5) — **외 2건**(3개 매체)
 
 **암·질병 보장 상품** (사건 17개)
 - (5) 11-05 울산시민신문 — [국민건강보험공단은 간호·간병통합서비스 우수기관 38곳 선정](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlV3pLaTNYRGlMLVlleWRsVVNSejZ6aWtaOHA2MFBBNThqQjhXajdCRG82RnN0NFdXdl9zZmFBYU0yVUNmbWNaTnRvV1hnWWhaYTNLbzRoM3dTay1nclc0MWFvSXowVk0?oc=5) — **외 7건**(8개 매체)
@@ -193,6 +193,7 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
+- 11-08 MarketWatch — [You follow the rules for smart stock trading. But are they the right rules?](https://www.marketwatch.com/story/you-follow-the-rules-for-smart-stock-trading-but-are-they-the-right-rules-9bfe5846?mod=mw_rss_topstories)
 - 11-07 MarketWatch — [This retired professor has reinvented himself — as a Taylor Swift scholar](https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories)
 - 11-07 ECB 보도자료 — [Christine Lagarde: Interview with Yomiuri Shimbun](https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html)
 - 11-07 MarketWatch — [The AI trade is now counting on Anthropic’s IPO — but it couldn’t be happening at a worse time](https://www.marketwatch.com/story/the-ai-trade-is-now-counting-on-anthropics-ipo-but-it-couldnt-be-happening-at-a-worse-time-8bd0f1c4?mod=mw_rss_topstories)
@@ -204,8 +205,7 @@
 - 11-07 MarketWatch — [You’re fired! But you can keep the laptop and insurance. And here’s $10,000.](https://www.marketwatch.com/story/layoffs-with-dignity-why-these-tech-firms-are-offering-free-laptops-and-linkedin-premium-28750d39?mod=mw_rss_topstories)
 - 11-07 MarketWatch — [Nvidia, AMD and other chip stocks rebound — but is relief from the ‘violent’ selloff only temporary?](https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533?mod=mw_rss_topstories)
 - 11-07 MarketWatch — [I’m 65 and worth more than $5.6 million. Can I afford a $200,000 camper?](https://www.marketwatch.com/story/im-65-and-worth-more-than-5-6-million-can-i-buy-a-200-000-camper-even-though-the-price-feels-crazy-high-55f668f8?mod=mw_rss_topstories)
-- 11-07 MarketWatch — [DraftKings’ expensive bet on prediction markets is crushing its stock](https://www.marketwatch.com/story/draftkings-expensive-bet-on-prediction-markets-is-crushing-its-stock-277bee0d?mod=mw_rss_topstories)
 
 ## 언론사별 건수 상위 15
 
-연합뉴스 최신 1441, 토큰포스트 982, 머니투데이 614, 뉴시스 사회 440, 인포맥스 421, 코인리더스 378, 아시아경제 358, 연합뉴스 마켓 353, 파이낸셜뉴스 전체 349, 조선비즈 338, 동아 사회 253, 뉴시스 금융 250, 한국경제 금융 241, 이데일리 223, 재경일보 216
+연합뉴스 최신 1444, 토큰포스트 987, 머니투데이 614, 뉴시스 사회 440, 인포맥스 421, 코인리더스 378, 아시아경제 358, 연합뉴스 마켓 353, 파이낸셜뉴스 전체 349, 조선비즈 339, 동아 사회 255, 뉴시스 금융 250, 한국경제 금융 241, 이데일리 223, 재경일보 216
