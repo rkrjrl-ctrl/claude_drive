@@ -1,9 +1,9 @@
 # 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-08 05:05 KST  /  최근 7일 22562건 (보험·의료 3635 · 투자·경제 13380 · 생활·사회 5259)  /  이번 신규 306건
+- 갱신: 2026-11-08 05:57 KST  /  최근 7일 22599건 (보험·의료 3636 · 투자·경제 13388 · 생활·사회 5287)  /  이번 신규 313건
 - 소스 79곳 + 구글뉴스 키워드 110개(보험·의료 45 · 투자·경제 45 · 생활 20)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 머니투데이, 파이낸셜뉴스 금융
+- 수집 실패 소스: 파이낸셜뉴스 금융
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
@@ -69,7 +69,7 @@
 - (11) 11-06 뉴스1 — [비트코인, 7.5만달러대로 급락…뉴욕증시와 동반 하락[코인브리핑]](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5DVkFzUWtrNzBMVkwtX3pkZFcxQUgyRHdac1dTOUlsX2owWm1XTUlla0JXWnlDc2FUY3d3eUc0a0lIMjY2T3hrTjZ0Umc2TkJKLWxjQ3hfLVVrckRVYjhHQWVYTzd4UQ?oc=5)
 
 **미국·해외 증시** (사건 70개)
-- (19) 11-06 CBC뉴스 — [[속보]뉴욕증시 대폭락, 나스닥 5.52% 급락…'블루쓰나미' 후폭풍에 월가 출렁 다우 3.44%·S&P500 4.36% 하락…AI·반도체 이틀 연속 약세, 미국 중간선거 이후 정책 불확실성 주목](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Gdzc5MHBJMUsxRmF2R1ZpNENfMmVBdW5HU0UxNEFoQjZxX3ZPNXZBTFhtQ2lNb01QUXRhR2FmMlhnWmFkVmNGV3pxRzlIalhMMWJGOUFlNmV3R3JNbk91R3kyb1dPcTdW?oc=5) — **외 88건**(59개 매체)
+- (19) 11-06 CBC뉴스 — [[속보]뉴욕증시 대폭락, 나스닥 5.52% 급락…'블루쓰나미' 후폭풍에 월가 출렁 다우 3.44%·S&P500 4.36% 하락…AI·반도체 이틀 연속 약세, 미국 중간선거 이후 정책 불확실성 주목](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Gdzc5MHBJMUsxRmF2R1ZpNENfMmVBdW5HU0UxNEFoQjZxX3ZPNXZBTFhtQ2lNb01QUXRhR2FmMlhnWmFkVmNGV3pxRzlIalhMMWJGOUFlNmV3R3JNbk91R3kyb1dPcTdW?oc=5) — **외 89건**(60개 매체)
 - (14) 11-03 뉴스핌 — [뉴욕증시, 혼조 마감…유가 급락에도 반도체 약세에 나스닥 1.07%↓](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jaEVha0VKTnl5V1lmajF6OEpkZXVoWHlZcUZkOU5SM3ZYYjZ2b0xvSklKOXdOV0tzanF4Y2M0SnBna3VsNzN6MjVUc3YtVWlGSThoWkpoTWNaQV9G?oc=5) — **외 24건**(21개 매체)
 - (15) 11-06 톱스타뉴스 — [[미국 뉴욕증시 전망] 나스닥 5.5% 폭락 후 반등 시도…엔비디아·마이크론 회복세, 고용지표가 분수령](https://news.google.com/rss/articles/CBMickFVX3lxTE5jdEd3aEozRDRBVXlRbktpVE4wa29MS19sU0pRNUctN1p2MVVxMklpM1diQTJjSWlsRWNmUkNSYjBHR24wTGd3UE1rdWRLNENZYjNEaEM0MGFIMmtCeDFVVVdOM0JNeEZzTEdZWDh6OFdTZw?oc=5) — **외 14건**(12개 매체)
 
@@ -120,7 +120,7 @@
 - (8) 11-05 국제뉴스 — [에너지바우처 신청 서두르세요… 난방비 최대 70만 원 준다고?](https://news.google.com/rss/articles/CBMibkFVX3lxTE80cGxNREFiTkd0emNPR0hJQmtYMlFYcTJna25sTmVDUV9HaXZEOEE5MkNoWlBsM0VmZ3gwS3dCbnVOcUE3Z29jU29vRnh6UWY4LVVNdVI5VUx6SjZHeTBHaDFOb0FzQWl1bURBMlhB?oc=5) — **외 1건**(2개 매체)
 - (3) 11-06 AI 매터스 — [오픈AI, 데이터센터 짓는 지역마다 전기요금 전액 부담 협약](https://news.google.com/rss/articles/CBMiVEFVX3lxTE5pNEVTYWlhNTlrS3lVMXhiTFV4NnFjMjV6OFU0UVVOWEZpYlpoXy10M2xsRTFFNDN0cTdfLWtoVFlrZDBVeldsNktVdEduZ3NmUElncA?oc=5) — **외 3건**(4개 매체)
 
-**세금·지원금** (사건 53개)
+**세금·지원금** (사건 52개)
 - (9) 11-06 디지털데일리 — ["보이스피싱 피해금 환급 받으세요"… 금융기관 사칭 사기 `주의보`](https://news.google.com/rss/articles/CBMiZEFVX3lxTFA2QWF3UGl0TFlRYmpHODVaR0JPdENRSGtFWTFaNHk1bXhNRFQyUk5heGYxRGVtVGhZWVVWMHJCWktHdG5nc1FQejZuQjRjVHNIMGxTVWtqVmVTd1ZoTFZUS2JhSDU?oc=5) — **외 8건**(9개 매체)
 - (6) 11-06 포쓰저널 — [보이스피싱 '환급' 넓혔지만 '예방교육'은 공백…빗썸, 법 개정 제안](https://news.google.com/rss/articles/CBMiY0FVX3lxTFBFOFJSLWh3S0duYVpyVXA2WTBDeS1HWTk3aFFpODdaalhnRzF3SGxyVE8xMVVrWGxqbElIRWJsU19STFJtQ3Z3dnBEQVZ5dlctLWpqWFR4MlloZlBOR0VNdmh1bw?oc=5) — **외 9건**(9개 매체)
 - (7) 11-05 포커스경제 — [HUG가 전세금 관리하고 임대인에 월세 지급…전월세 안심신탁 시행](https://news.google.com/rss/articles/CBMibkFVX3lxTE5VZnlJWWR2Si1QZjRKQ3NKekloQjFhRnFvNWNpRWhEcTFWUHhIR1A0cUZHX21DQmN6clpBeFRNdEFEU25wWm1DNW9DMm8wWDFFU3JlOVY4WUZrSXhVcUk4R01MWHR1aS1JZ2pNR2hB?oc=5) — **외 3건**(4개 매체)
@@ -137,10 +137,10 @@
 
 **사기·피해·배상** (사건 19개)
 - (3) 11-07 아주경제 — [빗썸, 국회 입법박람회 참가…보이스피싱 예방 교육 의무화 제안](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9CaWMyY2hPRm9JUkN6SzZXZzZkazFyVXdaX0JkWXJWNjFCSmd4U0dTN1ZobVROd005bWVYVFJ5RS1GMHpmWGVnYmVSX2RJS3NoS1BFTXEtbDEzQdIBWEFVX3lxTFBPSWZwa1BmYmtSbl9QYW5Lazd4ZzRVTWhwZWR0eTBzOUtnQVUzaU9yQURzS0oyZlM0ZkpvU19SNDJUYkxVOGNHNTFpNVM3ak45QnQ5QXNEMUc?oc=5) — **외 16건**(17개 매체)
-- (4) 11-05 재경일보 — [5000만원 보이스피싱 피해 뒤 숨진 충북 모자…카자흐스탄 한인 조직 소행…19명 구속 송치 : 사회](https://news.google.com/rss/articles/CBMiS0FVX3lxTE1udmI0QTZKNzRCcjVnUzVLWlR6aVN5NGY4NGloRXFYWEM0RVpScHFqeVlUNm9sdThXY3dTTk9OdURRZW14bXhGTzZjbw?oc=5) — **외 6건**(6개 매체)
+- (4) 11-05 연합투데이 — [5000만원 보이스피싱 피해에 숨진 모자…카자흐스탄 한인 조직 소행](https://news.google.com/rss/articles/CBMib0FVX3lxTFBfWFFsM2xXaTVLQmFsLVJNZEZsQUlLeXo2a0VWMnR5ZlhYa2t2Z1hoUnlKZWZSTWZZazUzNVdKN2paUlFKeXNQNnNQT2N4Z2U0eUNiTVh1eWVYVmhleVY1S29ucDEwcUkwOFZ4OXVyVdIBb0FVX3lxTFBfWFFsM2xXaTVLQmFsLVJNZEZsQUlLeXo2a0VWMnR5ZlhYa2t2Z1hoUnlKZWZSTWZZazUzNVdKN2paUlFKeXNQNnNQT2N4Z2U0eUNiTVh1eWVYVmhleVY1S29ucDEwcUkwOFZ4OXVyVQ?oc=5) — **외 4건**(5개 매체)
 - (5) 11-06 아시아경제 — [서울중수청, ‘노쇼 사기’ 조직원 구속송치…보이스피싱 사건 첫 사례](https://view.asiae.co.kr/article/2026110616211390442) — **외 2건**(3개 매체)
 
-**교육·육아·의료** (사건 5개)
+**교육·육아·의료** (사건 6개)
 - (3) 11-07 MEDI:GATE NEWS — [김상훈 의원, 필수의료 병원·호텔 가업상속공제 포함 법안 발의](https://news.google.com/rss/articles/CBMiV0FVX3lxTE5DajBUamp0bUxoejUzNlNwZGZmZ2hZSzF3NmRWNk5QQ04xMnR4bDI5SlQydFNJU0hZZmdOSHdFX3I5cWxGazNIaWxxaWdpTEo0RWhGTi11bw?oc=5) — **외 4건**(5개 매체)
 - (3) 11-07 경기일보 — [[속보] “4살부터 의대반? 미친 나라”…정승제 “아동학대로 구속시켜야”](https://news.google.com/rss/articles/CBMiW0FVX3lxTFBobWRwZ3R4Sk5WSkNDTm9Ub1RtRHhldnY4WDRpaVFZeU4xUTNGQWNxSTEyRlpjTUhPS2Juem1yWlRTczVkSVJsMFFqN0N1MVc0ZTAtQjdfUjNWeUE?oc=5) — **외 2건**(2개 매체)
 - (4) 11-06 포인트데일리 — [한국장학재단, 2학기 학자금대출 신청 17일 마감… 등록금·생활비 지원](https://news.google.com/rss/articles/CBMicEFVX3lxTE1vbFIySmQwYlpZNnBhSXZHalFISDdpd1FBaWlkX213eWMyUHEyeHFxNnQwWjNOYkU1WWwwX0NvT3c1S1RNaXJsdGlRaFlVV1FOVW1iZ3JPajJuVml3V09ZSERJT1lZUjVUdmZ3YThmeFXSAXRBVV95cUxPek9Sd0NERENQWTRPWmdYbGJxczBYUWNRa3hWcUUybk9SLXotYy1TaDFsMi03eEpjRW1GMzN0SGwxck54cDN2cVZteGEzLW1ydGtVXzJOUDExODBPTTRqOWdRZ05MTm5HeG5paFpseFRvYkwwbA?oc=5) — **외 1건**(2개 매체)
@@ -193,6 +193,7 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
+- 11-08 MarketWatch — [Second-guessing my adviser: Is an annuity the right move in this market?](https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories)
 - 11-08 MarketWatch — [I attend free meals hosted by people promoting annuities. I’ve no intention of buying any. Should I stop going?](https://www.marketwatch.com/story/its-good-to-be-old-ive-been-invited-to-a-dozen-free-meals-that-turn-into-annuity-sales-pitches-should-i-stop-going-63df67ca?mod=mw_rss_topstories)
 - 11-08 MarketWatch — [You follow the rules for smart stock trading. But are they the right rules?](https://www.marketwatch.com/story/you-follow-the-rules-for-smart-stock-trading-but-are-they-the-right-rules-9bfe5846?mod=mw_rss_topstories)
 - 11-07 MarketWatch — [This retired professor has reinvented himself — as a Taylor Swift scholar](https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories)
@@ -204,8 +205,7 @@
 - 11-07 MarketWatch — [Micron’s stock is dirt cheap — and that’s igniting a fierce online debate](https://www.marketwatch.com/story/microns-stock-is-dirt-cheap-and-thats-igniting-a-fierce-online-debate-0626791d?mod=mw_rss_topstories)
 - 11-07 MarketWatch — [My adviser recommended an annuity. Is it the right move in this market environment?](https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories)
 - 11-07 MarketWatch — [You’re fired! But you can keep the laptop and insurance. And here’s $10,000.](https://www.marketwatch.com/story/layoffs-with-dignity-why-these-tech-firms-are-offering-free-laptops-and-linkedin-premium-28750d39?mod=mw_rss_topstories)
-- 11-07 MarketWatch — [Nvidia, AMD and other chip stocks rebound — but is relief from the ‘violent’ selloff only temporary?](https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533?mod=mw_rss_topstories)
 
 ## 언론사별 건수 상위 15
 
-연합뉴스 최신 1462, 토큰포스트 992, 머니투데이 615, 뉴시스 사회 443, 인포맥스 422, 코인리더스 379, 아시아경제 358, 연합뉴스 마켓 352, 파이낸셜뉴스 전체 350, 조선비즈 339, 동아 사회 255, 뉴시스 금융 250, 한국경제 금융 241, 이데일리 223, Investing.com 한국어 216
+연합뉴스 최신 1472, 토큰포스트 995, 머니투데이 618, 뉴시스 사회 443, 인포맥스 422, 코인리더스 379, 아시아경제 358, 파이낸셜뉴스 전체 350, 연합뉴스 마켓 350, 조선비즈 339, 동아 사회 255, 뉴시스 금융 250, 한국경제 금융 241, 이데일리 223, 재경일보 217
