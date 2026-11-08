@@ -19,6 +19,7 @@ DAILY = [
     ("collect-rates.yml", 9),       # 금감원 공시 금리
     ("collect-housing.yml", 9),     # 청약·LH·지원 제도
     ("collect-trades.yml", 9),      # 아파트 실거래가(오래 걸림)
+    ("collect-festivals.yml", 9),   # 전국 축제(daily-card 월요일 지도, PC에서도 받음)
 ]
 MAX_TRIES = 3          # 오늘 실패가 이만큼 쌓이면 더 돌리지 않는다(같은 오류를 매시간 되풀이하지 않게)
 NEWS = "news-collect.yml"

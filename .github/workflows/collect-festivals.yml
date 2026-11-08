@@ -1,0 +1,42 @@
+name: Collect festivals
+
+# 전국 축제·행사(한국관광공사 searchFestival2) → data/tour/festivals.csv
+# 매일 9시 tick.py가 깨우고, 일요일 밤 daily-card 지도 준비 때 PC가 「지금 실행」으로 한 번 더 깨운다.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-festivals
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch festivals
+        env:
+          DATA_GO_KR_API_KEY: ${{ secrets.DATA_GO_KR_API_KEY }}
+        run: python scripts/fetch_festivals.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/tour
+          if git diff --cached --quiet; then
+            echo "No festival changes, skipping commit."
+          else
+            git commit -m "festivals: 축제 $(TZ=Asia/Seoul date '+%F %H:%M')"
+            git pull --rebase
+            git push
+          fi
