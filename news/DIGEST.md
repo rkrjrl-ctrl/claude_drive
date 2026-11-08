@@ -1,9 +1,9 @@
 # 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-08 23:05 KST  /  최근 7일 24063건 (보험·의료 3584 · 투자·경제 13734 · 생활·사회 6438)  /  이번 신규 321건
+- 갱신: 2026-11-09 00:05 KST  /  최근 7일 24027건 (보험·의료 3526 · 투자·경제 13730 · 생활·사회 6464)  /  이번 신규 324건
 - 소스 79곳 + 구글뉴스 키워드 110개(보험·의료 45 · 투자·경제 45 · 생활 20)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 없음
+- 수집 실패 소스: 경향 경제, 머니투데이, 경향 사회
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
@@ -117,12 +117,12 @@
 
 ## [생활·사회] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
-**요금·물가** (사건 37개)
+**요금·물가** (사건 38개)
 - (8) 11-05 조선 경제 — [김동철 한전 사장 “전기요금 현실화 필요…단, 산업용 전기료 인상은 최후 수단”](https://www.chosun.com/economy/industry-company/2026/11/05/HA2DMZLEMZRTIMJXGJTDCODEHA/) — **외 11건**(10개 매체)
 - (5) 11-08 www.ppss.kr — [[경제진단] 서울 아파트 매물 33% 늘었는데 집값은 상승…부동산 시장에 나타난 '정책과 가격의 괴리'](https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzeTgyU1pCYllaZmZCbWhRellSRkhFbDRpdDJtUVpQTUlmYVpyZ0plVUZobklvejNFMnFqWEFNdnExb1NZN0JWeGdFVGV5aW9ubmxhQkp3TWFwWG1SNkgzYlRzd08?oc=5) — **외 9건**(10개 매체)
 - (6) 11-07 FinanceFeeds — [금 가격 오늘: 16만5천개 일자리 후 12월 금리 인상 확률 80% 근접, 11월 10일 CPI 앞두고 $4,045](https://news.google.com/rss/articles/CBMifkFVX3lxTE1kZEdZVjNzZ0t0djktQVZYVjJ1RUVyUFVGcmpnR1JXVlZsRlBMZE9QcVFIeHJicVpDdXNhVlVwOS1YR2I1X2xucE1tX3BIYXNyVFB5WHBBMW9uWC0wbUg3RmRHV3QyMnIzWHByQmh6Y0dDS20zY0RqMTNSRlZLZw?oc=5) — **외 4건**(5개 매체)
 
-**세금·지원금** (사건 51개)
+**세금·지원금** (사건 50개)
 - (9) 11-06 디지털데일리 — ["보이스피싱 피해금 환급 받으세요"… 금융기관 사칭 사기 `주의보`](https://news.google.com/rss/articles/CBMiZEFVX3lxTFA2QWF3UGl0TFlRYmpHODVaR0JPdENRSGtFWTFaNHk1bXhNRFQyUk5heGYxRGVtVGhZWVVWMHJCWktHdG5nc1FQejZuQjRjVHNIMGxTVWtqVmVTd1ZoTFZUS2JhSDU?oc=5) — **외 8건**(9개 매체)
 - (7) 11-05 포커스경제 — [HUG가 전세금 관리하고 임대인에 월세 지급…전월세 안심신탁 시행](https://news.google.com/rss/articles/CBMibkFVX3lxTE5VZnlJWWR2Si1QZjRKQ3NKekloQjFhRnFvNWNpRWhEcTFWUHhIR1A0cUZHX21DQmN6clpBeFRNdEFEU25wWm1DNW9DMm8wWDFFU3JlOVY4WUZrSXhVcUk4R01MWHR1aS1JZ2pNR2hB?oc=5) — **외 3건**(4개 매체)
 - (8) 11-06 재경일보 — [2026 육아 지원금 총정리 부모급여 아동수당 신청 방법 : 정책.지표](https://news.google.com/rss/articles/CBMiS0FVX3lxTE5rX2RQUVgxMWlUNk1KWGZ1cXRJam05akhCeUt5Zl9mdUZNUG1GWDBNTzlSYVVnek9XOHpNb1N2NEJGUXNWVlFseVBFZw?oc=5) — **외 2건**(1개 매체)
@@ -195,8 +195,9 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
-- 11-08 CNBC — [Poppi founders are going after PepsiCo's Gatorade with new beverage startup Jetty](https://www.cnbc.com/2026/11/08/poppi-founders-jetty-hydration-gatorade.html)
+- 11-09 MarketWatch — [Corporate America’s profit numbers are just barely beating Wall Street’s expectations](https://www.marketwatch.com/story/corporate-americas-profit-numbers-are-just-barely-beating-wall-streets-expectations-eaa67fe2?mod=mw_rss_topstories)
 - 11-08 MarketWatch — [Stocks are moving in sync again for the first time in a while. There’s just one problem.](https://www.marketwatch.com/story/stocks-are-moving-in-sync-again-for-the-first-time-in-a-while-theres-just-one-problem-c953bf72?mod=mw_rss_topstories)
+- 11-08 CNBC — [Poppi founders are going after PepsiCo's Gatorade with new beverage startup Jetty](https://www.cnbc.com/2026/11/08/poppi-founders-jetty-hydration-gatorade.html)
 - 11-08 CNBC — [Using miles to fly for Thanksgiving? These are the most expensive and cheapest routes](https://www.cnbc.com/2026/11/08/frequent-flyer-miles-points-thanksgiving.html)
 - 11-08 MarketWatch — [This market signal called the tech selloff. Now it’s sending another warning.](https://www.marketwatch.com/story/this-market-signal-called-the-tech-selloff-now-its-sending-another-warning-f7f8eb9b?mod=mw_rss_topstories)
 - 11-08 MarketWatch — [Second-guessing my adviser: Is an annuity the right move in this market?](https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories)
@@ -206,8 +207,7 @@
 - 11-07 ECB 보도자료 — [Christine Lagarde: Interview with Yomiuri Shimbun](https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html)
 - 11-07 MarketWatch — [The AI trade is now counting on Anthropic’s IPO — but it couldn’t be happening at a worse time](https://www.marketwatch.com/story/the-ai-trade-is-now-counting-on-anthropics-ipo-but-it-couldnt-be-happening-at-a-worse-time-8bd0f1c4?mod=mw_rss_topstories)
 - 11-07 CNBC — [Cosm rides premium moviegoing wave with more immersive screenings and a wider library](https://www.cnbc.com/2026/11/07/cosm-immersive-movie-screenings.html)
-- 11-07 MarketWatch — [Elon Musk opens the door for a big SpaceX acquisition](https://www.marketwatch.com/story/elon-musk-opens-the-door-for-a-big-spacex-acquisition-4f62bcad?mod=mw_rss_topstories)
 
 ## 언론사별 건수 상위 15
 
-연합뉴스 최신 1843, 토큰포스트 1020, 머니투데이 630, 뉴시스 사회 531, 인포맥스 420, 코인리더스 398, 아시아경제 368, 조선비즈 360, 연합뉴스 마켓 355, 파이낸셜뉴스 전체 353, 동아 사회 300, 뉴시스 금융 255, 뉴시스 정치 250, 한국경제 금융 244, KBS 뉴스 242
+연합뉴스 최신 1848, 토큰포스트 1016, 머니투데이 630, 뉴시스 사회 535, 인포맥스 420, 코인리더스 397, 아시아경제 368, 조선비즈 361, 연합뉴스 마켓 355, 파이낸셜뉴스 전체 353, 동아 사회 300, 뉴시스 금융 254, 뉴시스 정치 251, 한국경제 금융 244, KBS 뉴스 242
