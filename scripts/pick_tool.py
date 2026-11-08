@@ -189,6 +189,9 @@ def prep():
         print("- " + " / ".join(mv))
     json.dump({"round": rnd, "cands": cands}, open(CACHE, "w", encoding="utf-8"), ensure_ascii=False)
     print(f"\n(후보 {len(cands)}건. 본문은 `python scripts/pick_tool.py fetch <번호…>`)")
+    # 11/8 주간 소재판: 보드가 기한순으로 정렬한다. 예약 작업 지시문에 없는 줄이라 여기서 알린다.
+    print("(형식 추가: 신청 마감·시행일처럼 그날이 지나면 소재 가치가 떨어지는 날이 있으면, 각 소재의 「한 줄 요약」 바로 아래에 "
+          "`- **기한:** YYYY-MM-DD` 한 줄을 넣는다. 원문에서 확인한 날짜만 쓰고, 없으면 그 줄을 뺀다.)")
     return 0
 
 
@@ -316,13 +319,24 @@ def save(path, titles=None):
         print(f"오류: 오늘 글에 이미 「{m.group(1)}」이 있음")
         return 2
     open(MD, "w", encoding="utf-8", newline="\n").write(md + sec)
-    heads = [re.sub(r"\s+—\s+.*$", "", h).strip() for h in re.findall(r"(?m)^### [①-⑩]\s*(.*)$", sec)]
-    names = [t.strip() for t in titles.split("|")] if titles else heads
+    # 소재마다 번호·제목·시의성·기한(「- **기한:** YYYY-MM-DD」 줄)을 읽는다. 주간 소재판(뉴스 보드 추천 탭)이 기한순으로 쓴다(11/8).
+    items = []
+    for blk in re.split(r"(?m)^(?=### )", sec):
+        h = re.match(r"### ([①-⑩])\s*(.*)", blk)
+        if not h:
+            continue
+        tm = re.search(r"—\s*「([^」]+)」", h.group(2))
+        tm = tm.group(1) if tm else ""
+        tm = "급함" if tm.startswith("급함") else "시행일" if tm.startswith("시행일") else "상시"
+        dl = re.search(r"\*\*기한:\*\*\s*(\d{4}-\d{2}-\d{2})", blk)
+        items.append([h.group(1), re.sub(r"\s+—\s+.*$", "", h.group(2)).strip(), tm, dl.group(1) if dl else ""])
+    names = [t.strip() for t in titles.split("|")] if titles else [it[1] for it in items]
     if names:
         with open(PICKS, "a", encoding="utf-8", newline="") as f:
             w = csv.writer(f, lineterminator="\n")
-            for n in names:
-                w.writerow([TODAY, n, "후보", rnd])
+            for k, n in enumerate(names):
+                no, _, tm, dl = items[k] if k < len(items) else ["", "", "", ""]
+                w.writerow([TODAY, n, "후보", rnd, no, tm, dl])
     msg = f"briefs: {TODAY} {m.group(1)}" + ("" if names else "(보충 없음)")
     sh("git", "add", MD, PICKS, check=True)
     sh("git", "commit", "-q", "-m", msg + "\n\nCo-Authored-By: Claude <noreply@anthropic.com>", check=True)

@@ -82,6 +82,21 @@
   .pill.excl{ background:var(--ink-primary); color:var(--bg-page); font-weight:700; }
   .picks{ display:flex; flex-direction:column; gap:6px; margin:12px 0 4px; }
   .pick{ display:flex; gap:8px; align-items:baseline; font-size:14px; }
+  /* 주간 소재판(11/8): 안 만든 후보를 기한순으로 */
+  .wk-sum{ display:flex; flex-wrap:wrap; gap:6px; margin:4px 0 12px; }
+  .wk{ padding:4px 16px; }
+  .wk details.item{ border-bottom:1px solid var(--grid-line); }
+  .wk details.item:last-child{ border-bottom:0; }
+  .wk details.item > summary{ list-style:none; cursor:pointer; padding:11px 0; display:flex; gap:10px; align-items:flex-start; }
+  .wk details.item > summary::-webkit-details-marker{ display:none; }
+  .wk .due{ flex:none; width:76px; display:flex; flex-direction:column; gap:3px; align-items:flex-start; }
+  .wk .due small{ font-size:11px; color:var(--ink-muted); font-variant-numeric:tabular-nums; }
+  .wk .it-title{ font-weight:600; font-size:15px; overflow-wrap:anywhere; }
+  .wk .it-meta{ font-size:12px; color:var(--ink-muted); margin-top:3px; }
+  .wk .md{ margin:0 0 12px; }
+  .wk .md h3{ display:none; }
+  .fold{ margin-top:14px; }
+  .fold > summary{ cursor:pointer; font-size:14px; font-weight:600; color:var(--ink-secondary); padding:6px 0; }
   .md{ margin-top:12px; padding-top:12px; border-top:1px solid var(--grid-line); font-size:14px; overflow-wrap:anywhere; }
   .md h1{ display:none; }
   .md h2{ font-size:13px; font-weight:700; letter-spacing:.02em; color:var(--ink-muted); margin:22px 0 4px; padding-top:10px; border-top:1px solid var(--grid-line); }
@@ -148,7 +163,7 @@
   </div>
 
   <section id="picksPanel" hidden>
-  <p class="sub">Claude가 원문을 확인하고 고른 소재예요. 같은 날 1차 추천 뒤에 2차 보충이 쌓여요.</p>
+  <p class="sub">Claude가 원문을 확인하고 고른 소재 중 아직 안 만든 것을 기한이 가까운 순으로 모았어요. 제목을 누르면 요약이 펼쳐져요. 기한이 지나면 「지나감」으로 내려가요.</p>
   <div id="picks"><div class="empty">불러오는 중…</div></div>
   </section>
 
@@ -238,24 +253,101 @@
     var cls = d === "제작" ? "made" : (d === "후보" ? "cand" : "");
     return '<span class="pill ' + cls + '">' + esc(d || "기록") + "</span>";
   }
+  // 주간 소재판(11/8 사용자 「일간 추천은 없을 때도 있고 안 한 게 밀린다, 주간으로 모아 보자」)
+  // 상태: 제작 → 만든 것 / 안 함 → 뺀 것 / 기한 지남(급함은 추천 3일 뒤) → 지나감 / 나머지 → 고를 것
+  var URGENT_DAYS = 3;
+  function dayDiff(a, b){ return Math.round((new Date(a + "T12:00:00+09:00") - new Date(b + "T12:00:00+09:00")) / 86400000); }
+  function md5(d){ return d.slice(5).replace("-", "/"); }
+  function pickStatus(r, today){
+    if(r.decision === "제작") return "made";
+    if(r.decision === "안 함") return "drop";
+    if(r.deadline && r.deadline < today) return "past";
+    if(!r.deadline && r.timing === "급함" && dayDiff(today, r.date) > URGENT_DAYS) return "past";
+    return "open";
+  }
+  function sortKey(r){
+    if(r.deadline) return r.deadline;
+    if(r.timing === "급함") return "0000";          // 기한 없는 급함은 맨 위
+    return "9999-" + (r.timing === "시행일" ? "1" : "2");
+  }
+  function dueChip(r, today){
+    if(r.deadline){
+      var n = dayDiff(r.deadline, today);
+      var label = n === 0 ? "오늘까지" : (n > 99 ? "나중" : "D-" + n);
+      var when = (r.deadline.slice(0, 4) !== today.slice(0, 4) ? r.deadline.slice(2, 4) + "/" : "") + md5(r.deadline);
+      return '<span class="pill ' + (n <= 7 ? "hot" : "cand") + '">' + label + "</span><small>" + when + "까지</small>";
+    }
+    if(r.timing === "급함") return '<span class="pill hot">빨리</span><small>' + md5(r.date) + " 소식</small>";
+    return '<span class="pill">' + (r.timing === "시행일" ? "시행 전" : "상시") + "</span>";
+  }
+  var mdCache = {};
+  function getMd(d){ return mdCache[d] || (mdCache[d] = get("briefs/news/" + d + ".md")); }
+  function mdSection(md, no){
+    var parts = md.split(/\n(?=#{2,3} )/), out = [];
+    for(var i = 0; i < parts.length; i++){
+      if(parts[i].indexOf("### " + no) === 0){ out.push(parts[i]); break; }
+    }
+    return out.join("\n");
+  }
+  function itemHtml(r, today, showDue){
+    return '<details class="item" data-date="' + esc(r.date) + '" data-no="' + esc(r.no) + '"><summary>' +
+      '<div class="due">' + (showDue ? dueChip(r, today) : decisionPill(r.decision)) + "</div>" +
+      '<div class="body"><div class="it-title">' + esc(r.title) + "</div>" +
+      '<div class="it-meta">' + md5(r.date) + " " + esc(r.round || "") + " 추천" + (r.timing ? " · " + esc(r.timing === "시행일" ? "시행일 맞춰" : r.timing) : "") + "</div></div>" +
+      '</summary><div class="md"></div></details>';
+  }
+  function bindItems(root){
+    root.querySelectorAll("details.item").forEach(function(el){
+      el.addEventListener("toggle", function(){
+        var box = el.querySelector(".md");
+        if(!el.open || box.dataset.done) return;
+        box.dataset.done = "1"; box.textContent = "불러오는 중…";
+        getMd(el.dataset.date).then(function(md){
+          var sec = el.dataset.no ? mdSection(md, el.dataset.no) : "";
+          if(!sec){ box.innerHTML = '<div class="empty">이 소재 요약을 못 찾았어요. 아래 「날짜별 기록」에서 그날 글을 보세요.</div>'; return; }
+          var html = window.marked ? marked.parse(sec) : "<pre>" + esc(sec) + "</pre>";
+          box.innerHTML = window.DOMPurify ? DOMPurify.sanitize(html) : esc(sec);
+          box.querySelectorAll("a").forEach(function(a){ a.target = "_blank"; a.rel = "noopener"; });
+        }).catch(function(){ box.innerHTML = '<div class="empty">그날 정리 글을 못 읽었어요.</div>'; delete box.dataset.done; });
+      });
+    });
+  }
   function loadPicks(){
     var box = document.getElementById("picks");
     return get("briefs/news/picks.csv").then(function(text){
       var rows = parseCsv(text), byDate = {};
       rows.forEach(function(r){ (byDate[r.date] = byDate[r.date] || []).push(r); });
-      var dates = Object.keys(byDate).sort().reverse().slice(0, 10);
+      var dates = Object.keys(byDate).sort().reverse().slice(0, 14);
       if(!dates.length){ box.innerHTML = '<div class="empty">아직 추천이 없어요.</div>'; return; }
       var today = new Date(Date.now() + 9*3600000).toISOString().slice(0, 10), bp = document.getElementById("badgePicks");
-      bp.textContent = dates[0] === today ? "오늘 " + byDate[dates[0]].length : dates[0].slice(5).replace("-", "/");
-      bp.className = "badge" + (dates[0] === today ? " new" : "");
-      box.innerHTML = dates.map(function(d, i){
+      var g = { open:[], made:[], past:[], drop:[] };
+      rows.forEach(function(r){ g[pickStatus(r, today)].push(r); });
+      g.open.sort(function(a, b){ var x = sortKey(a), y = sortKey(b); return x < y ? -1 : x > y ? 1 : (a.date < b.date ? 1 : -1); });
+      ["made", "past", "drop"].forEach(function(k){ g[k].sort(function(a, b){ return a.date < b.date ? 1 : -1; }); });
+      var soon = g.open.filter(function(r){ return r.timing === "급함" || (r.deadline && dayDiff(r.deadline, today) <= 7); }).length;
+      var fresh = g.open.filter(function(r){ return dayDiff(today, r.date) <= 1; }).length;
+      bp.textContent = g.open.length ? "고를 것 " + g.open.length : "";
+      bp.className = "badge" + (soon ? " new" : "");
+      var html = '<div class="wk-sum"><span class="pill cand">고를 것 ' + g.open.length + "건</span>" +
+        (soon ? '<span class="pill hot">급하거나 7일 안 기한 ' + soon + "건</span>" : "") +
+        (fresh ? '<span class="pill new">어제·오늘 새로 ' + fresh + "건</span>" : "") +
+        '<span class="pill made">만든 것 ' + g.made.length + "건</span></div>";
+      html += g.open.length ? '<div class="card wk">' + g.open.map(function(r){ return itemHtml(r, today, true); }).join("") + "</div>"
+        : '<div class="empty">지금 고를 소재가 없어요.</div>';
+      if(g.made.length) html += '<details class="fold"><summary>만든 것 ' + g.made.length + '건</summary><div class="card wk">' + g.made.map(function(r){ return itemHtml(r, today, false); }).join("") + "</div></details>";
+      var gone = g.past.concat(g.drop);
+      if(gone.length) html += '<details class="fold"><summary>지나감·뺀 것 ' + gone.length + '건</summary><div class="card wk">' + gone.map(function(r){ return itemHtml(r, today, false).replace(decisionPill(r.decision), '<span class="pill">' + (r.decision === "안 함" ? "뺌" : "지나감") + "</span>"); }).join("") + "</div></details>";
+      html += '<details class="fold" id="byDay"><summary>날짜별 기록(최근 ' + dates.length + '일)</summary><div id="dayCards"></div></details>';
+      box.innerHTML = html;
+      bindItems(box);
+      document.getElementById("dayCards").innerHTML = dates.map(function(d, i){
         var w = "일월화수목금토"[new Date(d + "T12:00:00+09:00").getDay()];
-        return '<details class="card day"' + (i === 0 ? " open" : "") + ' data-date="' + d + '">' +
+        return '<details class="card day" data-date="' + d + '">' +
           '<summary><span class="day-date">' + d.slice(5).replace("-", "/") + " (" + w + ")</span>" +
           '<span class="pill">' + byDate[d].length + "건</span>" +
           (byDate[d].some(function(r){ return r.decision === "제작"; }) ? '<span class="pill made">제작 있음</span>' : "") + "</summary>" +
           '<div class="picks">' + byDate[d].map(function(r){ return '<div class="pick">' + decisionPill(r.decision) + (r.round === "2차" ? '<span class="pill new">2차</span>' : "") + "<span>" + esc(r.title) + "</span></div>"; }).join("") + "</div>" +
-          '<div class="md" data-md="' + d + '">' + (i === 0 ? "불러오는 중…" : "") + "</div></details>";
+          '<div class="md" data-md="' + d + '">' + "" + "</div></details>";
       }).join("");
       box.querySelectorAll("details.day").forEach(function(el){
         var load = function(){ if(el.open) loadMd(el.querySelector(".md")); };
