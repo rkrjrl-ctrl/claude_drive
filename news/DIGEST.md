@@ -1,9 +1,9 @@
 # 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-08 22:05 KST  /  최근 7일 24033건 (보험·의료 3587 · 투자·경제 13724 · 생활·사회 6415)  /  이번 신규 345건
+- 갱신: 2026-11-08 23:05 KST  /  최근 7일 24063건 (보험·의료 3584 · 투자·경제 13734 · 생활·사회 6438)  /  이번 신규 321건
 - 소스 79곳 + 구글뉴스 키워드 110개(보험·의료 45 · 투자·경제 45 · 생활 20)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 머니투데이
+- 수집 실패 소스: 없음
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
@@ -132,12 +132,12 @@
 - (8) 11-03 데일리안 — [최저임금 인상 뒤 요양시설 간호사 고용 감소…간호조무사 늘며 전문성 약화](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9odFZyY1Q2ZzJpMGxkb09ubUNLMURwdDZlUTVEYlVEaml2UlgyZjRBU2lqTkVrdG92ZDBKdS1kU1hIWW1vcjZvR3VkTzFNUWphdElJ?oc=5) — **외 1건**(2개 매체)
 - (4) 11-06 서울파이낸스 — [진에어 노사, 2026년 임금 협약 잠정 합의…전 직군 2% 안팎 인상](https://www.seoulfn.com/news/articleView.html?idxno=642146) — **외 4건**(5개 매체)
 
-**집·주거** (사건 53개)
+**집·주거** (사건 54개)
 - (11) 11-04 연합뉴스 경제 — ['전세사기 걱정 더는' 전월세 안심신탁 임대인 오늘부터 모집](https://www.yna.co.kr/view/AKR20261104070700003) — **외 27건**(27개 매체)
 - (5) 11-07 동방일보 — [성남시, AI 활용 전세사기 예방 나선다…공인중개사 2240곳 홍보](https://news.google.com/rss/articles/CBMic0FVX3lxTE9SUEdwcExpdW1Bek1QUkpIUjJwdnpyREE1UWc4djVSSlN6cE0yVXpXZ2tHZXBESXNRb1ZQNmxGS2JRRE5JZVFiWV9QX0plYVlobVI3QnhHdVVBVjJ0TnNCUlJ3YlVsc3JGVFZDLTNWQ0Y0ZTg?oc=5) — **외 6건**(7개 매체)
 - (6) 11-05 KBS 뉴스 — [서울 성북구 6억 원대 전세사기 50대에 징역 8년 구형](https://news.google.com/rss/articles/CBMiW0FVX3lxTFBUU0REQl9RSnEyOWs0ZlFmTVU0LXZFdXlwV3lNRGVFMUE3R1lqRC12eFJVeVhXVHN5MHZWS1NYUnhtV3d3Tkl0NFlqb3RQcUhCd2VJVWFJVXJDRjA?oc=5) — **외 4건**(5개 매체)
 
-**사기·피해·배상** (사건 15개)
+**사기·피해·배상** (사건 14개)
 - (5) 11-06 아시아경제 — [서울중수청, ‘노쇼 사기’ 조직원 구속송치…보이스피싱 사건 첫 사례](https://view.asiae.co.kr/article/2026110616211390442) — **외 3건**(4개 매체)
 - (4) 11-05 연합투데이 — [5000만원 보이스피싱 피해에 숨진 모자…카자흐스탄 한인 조직 소행](https://news.google.com/rss/articles/CBMib0FVX3lxTFBfWFFsM2xXaTVLQmFsLVJNZEZsQUlLeXo2a0VWMnR5ZlhYa2t2Z1hoUnlKZWZSTWZZazUzNVdKN2paUlFKeXNQNnNQT2N4Z2U0eUNiTVh1eWVYVmhleVY1S29ucDEwcUkwOFZ4OXVyVdIBb0FVX3lxTFBfWFFsM2xXaTVLQmFsLVJNZEZsQUlLeXo2a0VWMnR5ZlhYa2t2Z1hoUnlKZWZSTWZZazUzNVdKN2paUlFKeXNQNnNQT2N4Z2U0eUNiTVh1eWVYVmhleVY1S29ucDEwcUkwOFZ4OXVyVQ?oc=5) — **외 3건**(4개 매체)
 - (6) 11-04 머니투데이 — ["개인정보 털린 뒤 보이스피싱 전화"…2차 피해 입증 어려워 보상 '막막' - 머니투데이](https://news.google.com/rss/articles/CBMicEFVX3lxTE44T2l6MC03aE1TTnl5QmV3NXRKMTk1VzVWYlU5ckN0N1RBTWlQTFdFQmZ4OE5KOU9QeksyQUxWQ3c3b19ETjl3UFBsTmNaM2t5bmJQbGdlbUNGZFI5djhZNkJyb0I2X0dCTm04UjAxTUnSAXBBVV95cUxOOE9pejAtN2hNU055eUJldzV0SjE5NVc1VmJVOXJDdDdUQU1pUExXRUJmeDhOSjlPUHpLMkFMVkN3N29fRE45d1BQbE5jWjNreW5iUGxnZW1DRmRSOXY4WTZCcm9CNl9HQk5tOFIwMU1J?oc=5) — **외 1건**(2개 매체)
@@ -195,6 +195,8 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
+- 11-08 CNBC — [Poppi founders are going after PepsiCo's Gatorade with new beverage startup Jetty](https://www.cnbc.com/2026/11/08/poppi-founders-jetty-hydration-gatorade.html)
+- 11-08 MarketWatch — [Stocks are moving in sync again for the first time in a while. There’s just one problem.](https://www.marketwatch.com/story/stocks-are-moving-in-sync-again-for-the-first-time-in-a-while-theres-just-one-problem-c953bf72?mod=mw_rss_topstories)
 - 11-08 CNBC — [Using miles to fly for Thanksgiving? These are the most expensive and cheapest routes](https://www.cnbc.com/2026/11/08/frequent-flyer-miles-points-thanksgiving.html)
 - 11-08 MarketWatch — [This market signal called the tech selloff. Now it’s sending another warning.](https://www.marketwatch.com/story/this-market-signal-called-the-tech-selloff-now-its-sending-another-warning-f7f8eb9b?mod=mw_rss_topstories)
 - 11-08 MarketWatch — [Second-guessing my adviser: Is an annuity the right move in this market?](https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories)
@@ -205,9 +207,7 @@
 - 11-07 MarketWatch — [The AI trade is now counting on Anthropic’s IPO — but it couldn’t be happening at a worse time](https://www.marketwatch.com/story/the-ai-trade-is-now-counting-on-anthropics-ipo-but-it-couldnt-be-happening-at-a-worse-time-8bd0f1c4?mod=mw_rss_topstories)
 - 11-07 CNBC — [Cosm rides premium moviegoing wave with more immersive screenings and a wider library](https://www.cnbc.com/2026/11/07/cosm-immersive-movie-screenings.html)
 - 11-07 MarketWatch — [Elon Musk opens the door for a big SpaceX acquisition](https://www.marketwatch.com/story/elon-musk-opens-the-door-for-a-big-spacex-acquisition-4f62bcad?mod=mw_rss_topstories)
-- 11-07 MarketWatch — [Data centers run on debt. That was a problem for bonds this year — and it’s only going to get worse.](https://www.marketwatch.com/story/data-centers-run-on-debt-that-was-a-problem-for-bonds-this-year-and-its-only-going-to-get-worse-09c03be6?mod=mw_rss_topstories)
-- 11-07 MarketWatch — [Micron’s stock is dirt cheap — and that’s igniting a fierce online debate](https://www.marketwatch.com/story/microns-stock-is-dirt-cheap-and-thats-igniting-a-fierce-online-debate-0626791d?mod=mw_rss_topstories)
 
 ## 언론사별 건수 상위 15
 
-연합뉴스 최신 1843, 토큰포스트 1022, 머니투데이 629, 뉴시스 사회 530, 인포맥스 420, 코인리더스 394, 아시아경제 368, 조선비즈 360, 연합뉴스 마켓 355, 파이낸셜뉴스 전체 353, 동아 사회 300, 뉴시스 금융 255, 뉴시스 정치 250, 한국경제 금융 243, KBS 뉴스 240
+연합뉴스 최신 1843, 토큰포스트 1020, 머니투데이 630, 뉴시스 사회 531, 인포맥스 420, 코인리더스 398, 아시아경제 368, 조선비즈 360, 연합뉴스 마켓 355, 파이낸셜뉴스 전체 353, 동아 사회 300, 뉴시스 금융 255, 뉴시스 정치 250, 한국경제 금융 244, KBS 뉴스 242
