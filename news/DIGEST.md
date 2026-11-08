@@ -1,13 +1,13 @@
 # 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-08 18:05 KST  /  최근 7일 23697건 (보험·의료 3588 · 투자·경제 13616 · 생활·사회 6198)  /  이번 신규 437건
+- 갱신: 2026-11-08 19:05 KST  /  최근 7일 23799건 (보험·의료 3592 · 투자·경제 13636 · 생활·사회 6270)  /  이번 신규 413건
 - 소스 79곳 + 구글뉴스 키워드 110개(보험·의료 45 · 투자·경제 45 · 생활 20)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
 - 수집 실패 소스: 없음
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
-**실손·비급여** (사건 26개)
+**실손·비급여** (사건 27개)
 - (10) 11-02 한양경제 — [본인부담상한제 환급금 실손보험 보상 대상 제외...대법원 판결 찾아보니](https://news.google.com/rss/articles/CBMickFVX3lxTE85U2pjcm9sVHJUNjliRlZLc0h0dFk2VHQ5Q3hkcF84NHlSM3ZGUWpuUUJFd2Y5N1lwdWdILTkwNGJCbkJrbElDd1ZUa014UWQ0THpTa1hfTXlaN0dlNEc0cmhfN2lKN1JTLTJIZlZtNFpVUQ?oc=5) — **외 1건**(1개 매체)
 - (8) 11-06 보험매일 — [실손보험 비급여 관리 강화에 의료계 반발…“민간보험 손해율 관리 수단 전락”](http://www.fins.co.kr/news/articleView.html?idxno=110447) — **외 1건**(2개 매체)
 - (7) 11-02 이투데이 — [초기 실손보험료 최대 40% 할인…이달부터 시행](https://news.google.com/rss/articles/CBMibkFVX3lxTE81VkJnWG1IcHV2VGZOVnZGNEdyN1ZudjZhcXdMMkpJR084NUhoRmxLMjdsYzU2dnJMUHN6czRqZ3JPbVNIbEdxRnAtTDQ2ajRIbUxXVGtUZTh1UExTWG5PUklHdHhjSzNwU3VWUW13?oc=5) — **외 1건**(2개 매체)
@@ -22,7 +22,7 @@
 - (7) 11-04 재경일보 — [국민연금 10년 가입 월급여…기초연금보다 적어 : 정책.지표](https://news.google.com/rss/articles/CBMiS0FVX3lxTE0wUHZUZ09VZzlEVzBFZUJnekFWSEVyaEF6UTQ0VkhQQlV3LTRVdHNDaFlQYjE4dEFhTzI1bWhnMFRZd01vU3FYbGlVMA?oc=5) — **외 8건**(7개 매체)
 - (7) 11-04 서울경제 경제 — [“국민연금 10년 냈는데 月 급여액 34만 3300원”...기초연금 기준액보다 적어](https://www.sedaily.com/article/20109959) — **외 5건**(6개 매체)
 
-**국민연금·퇴직연금** (사건 84개)
+**국민연금·퇴직연금** (사건 83개)
 - (4) 11-08 SeattleN — [복수국적 기초연금 4년새 2.3배…내년부터 국내 5년 살아야 수령 자격 > 시애틀 뉴스/핫이슈](https://news.google.com/rss/articles/CBMiSkFVX3lxTFBhM1ZyUUpCRXhzTHl2SGwyUVZzV1l1aVVOb2dKcXVhRDRBX1RaQzkwOWhhMWoycEdQU3V4cjRTbGZyLUFoTDNNR3N3?oc=5) — **외 38건**(33개 매체)
 - (5) 11-03 비즈월드 — [금감원, '퇴직연금 장기·분산투자 캠페인' 시작](https://news.google.com/rss/articles/CBMiakFVX3lxTE5GOTFLVHdXZXZpbEJ5V0xEeVBzYUZuX1VRd2J5eFI2OTJKM21Ud2lsRzdrTUJIQWRDUFo2X1dwNmdTNlQxc2ROdTFrNTVjMkpkUUJWWHBOTkRocThhLWtYREM1OXlaYWpjRXc?oc=5) — **외 12건**(13개 매체)
 - (9) 11-03 핀포인트뉴스 — ["보험료 10년 낸 국민연금액, 세금 지원 기초연금보다 적다"](https://news.google.com/rss/articles/CBMic0FVX3lxTFBqYU83d3VNVWhZbDQxcmJNWElzcVJOV1Q2c1prTmthV0MtYTB2X3RaSDVILUhBcE1rN3pVcDZaTkJPS0pjcnFjRWpLRzdJd1BYSDhhZWU4VmJhTUlpOF8zMVpWNG1BVGJJTXpQTmRoVE1sS1E?oc=5) — **외 3건**(4개 매체)
@@ -128,24 +128,24 @@
 - (8) 11-06 재경일보 — [2026 육아 지원금 총정리 부모급여 아동수당 신청 방법 : 정책.지표](https://news.google.com/rss/articles/CBMiS0FVX3lxTE5rX2RQUVgxMWlUNk1KWGZ1cXRJam05akhCeUt5Zl9mdUZNUG1GWDBNTzlSYVVnek9XOHpNb1N2NEJGUXNWVlFseVBFZw?oc=5) — **외 2건**(1개 매체)
 
 **일자리·임금** (사건 37개)
-- (3) 11-07 더페어 — [미국 10월 고용 16만5000명 증가…실업률 4.1%로 하락](https://news.google.com/rss/articles/CBMicEFVX3lxTE5nRjU5ZElBdG1VcENTXzBfZ2pBM1lXYm13Zm9TNE9nblJzNGtpbnhQNzZHM2ZhQ2lPeV9hRi1EX1RodDlpMFpza2hKdXhwY0xzUElsRXlwT1dFQkxEV3h5eXRTRTh1dnJTSlI2Yl81aFHSAXRBVV95cUxOeW1CSG5MRGZBbm9STUxRVllOR3p1djFaOEl3OV9yZlBwNHNvSUZfVGJid25GTUdQWGxsQTltM24zSWJOYk1mOWtnTjY4ckx3ZTBXcFNVaEpfWmNvRnFKSThOR19KM3lsbThMLUVIekFBMGs4RQ?oc=5) — **외 10건**(10개 매체)
+- (3) 11-07 더페어 — [미국 10월 고용 16만5000명 증가…실업률 4.1%로 하락](https://news.google.com/rss/articles/CBMicEFVX3lxTE5nRjU5ZElBdG1VcENTXzBfZ2pBM1lXYm13Zm9TNE9nblJzNGtpbnhQNzZHM2ZhQ2lPeV9hRi1EX1RodDlpMFpza2hKdXhwY0xzUElsRXlwT1dFQkxEV3h5eXRTRTh1dnJTSlI2Yl81aFHSAXRBVV95cUxOeW1CSG5MRGZBbm9STUxRVllOR3p1djFaOEl3OV9yZlBwNHNvSUZfVGJid25GTUdQWGxsQTltM24zSWJOYk1mOWtnTjY4ckx3ZTBXcFNVaEpfWmNvRnFKSThOR19KM3lsbThMLUVIekFBMGs4RQ?oc=5) — **외 9건**(9개 매체)
 - (9) 11-08 재경일보 — [멜랑숑, 최저임금 인상·정년 60세 공약 발표 : 국제](https://news.google.com/rss/articles/CBMiS0FVX3lxTE5qX25rRjU1eFFlcXIwSmJ0VExZWk1jQzFRVFFPblllTUVDVnc2RER3b2NSaG4ydzhzN1Z5QnhrTi1XdU1jZ1VxclVTVQ?oc=5) — **외 1건**(2개 매체)
 - (8) 11-03 데일리안 — [최저임금 인상 뒤 요양시설 간호사 고용 감소…간호조무사 늘며 전문성 약화](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9odFZyY1Q2ZzJpMGxkb09ubUNLMURwdDZlUTVEYlVEaml2UlgyZjRBU2lqTkVrdG92ZDBKdS1kU1hIWW1vcjZvR3VkTzFNUWphdElJ?oc=5) — **외 1건**(2개 매체)
 
-**집·주거** (사건 51개)
+**집·주거** (사건 53개)
 - (11) 11-04 연합뉴스 경제 — ['전세사기 걱정 더는' 전월세 안심신탁 임대인 오늘부터 모집](https://www.yna.co.kr/view/AKR20261104070700003) — **외 27건**(27개 매체)
 - (5) 11-07 동방일보 — [성남시, AI 활용 전세사기 예방 나선다…공인중개사 2240곳 홍보](https://news.google.com/rss/articles/CBMic0FVX3lxTE9SUEdwcExpdW1Bek1QUkpIUjJwdnpyREE1UWc4djVSSlN6cE0yVXpXZ2tHZXBESXNRb1ZQNmxGS2JRRE5JZVFiWV9QX0plYVlobVI3QnhHdVVBVjJ0TnNCUlJ3YlVsc3JGVFZDLTNWQ0Y0ZTg?oc=5) — **외 6건**(7개 매체)
 - (6) 11-05 KBS 뉴스 — [서울 성북구 6억 원대 전세사기 50대에 징역 8년 구형](https://news.google.com/rss/articles/CBMiW0FVX3lxTFBUU0REQl9RSnEyOWs0ZlFmTVU0LXZFdXlwV3lNRGVFMUE3R1lqRC12eFJVeVhXVHN5MHZWS1NYUnhtV3d3Tkl0NFlqb3RQcUhCd2VJVWFJVXJDRjA?oc=5) — **외 4건**(5개 매체)
 
-**사기·피해·배상** (사건 16개)
+**사기·피해·배상** (사건 15개)
 - (5) 11-06 아시아경제 — [서울중수청, ‘노쇼 사기’ 조직원 구속송치…보이스피싱 사건 첫 사례](https://view.asiae.co.kr/article/2026110616211390442) — **외 3건**(4개 매체)
 - (4) 11-05 연합투데이 — [5000만원 보이스피싱 피해에 숨진 모자…카자흐스탄 한인 조직 소행](https://news.google.com/rss/articles/CBMib0FVX3lxTFBfWFFsM2xXaTVLQmFsLVJNZEZsQUlLeXo2a0VWMnR5ZlhYa2t2Z1hoUnlKZWZSTWZZazUzNVdKN2paUlFKeXNQNnNQT2N4Z2U0eUNiTVh1eWVYVmhleVY1S29ucDEwcUkwOFZ4OXVyVdIBb0FVX3lxTFBfWFFsM2xXaTVLQmFsLVJNZEZsQUlLeXo2a0VWMnR5ZlhYa2t2Z1hoUnlKZWZSTWZZazUzNVdKN2paUlFKeXNQNnNQT2N4Z2U0eUNiTVh1eWVYVmhleVY1S29ucDEwcUkwOFZ4OXVyVQ?oc=5) — **외 3건**(4개 매체)
 - (6) 11-04 머니투데이 — ["개인정보 털린 뒤 보이스피싱 전화"…2차 피해 입증 어려워 보상 '막막' - 머니투데이](https://news.google.com/rss/articles/CBMicEFVX3lxTE44T2l6MC03aE1TTnl5QmV3NXRKMTk1VzVWYlU5ckN0N1RBTWlQTFdFQmZ4OE5KOU9QeksyQUxWQ3c3b19ETjl3UFBsTmNaM2t5bmJQbGdlbUNGZFI5djhZNkJyb0I2X0dCTm04UjAxTUnSAXBBVV95cUxOOE9pejAtN2hNU055eUJldzV0SjE5NVc1VmJVOXJDdDdUQU1pUExXRUJmeDhOSjlPUHpLMkFMVkN3N29fRE45d1BQbE5jWjNreW5iUGxnZW1DRmRSOXY4WTZCcm9CNl9HQk5tOFIwMU1J?oc=5) — **외 1건**(2개 매체)
 
-**교육·육아·의료** (사건 6개)
+**교육·육아·의료** (사건 5개)
 - (4) 11-08 연합뉴스TV 경제 — ["한국 양육·돌봄 부담 2048년 OECD 최고"](https://www.yonhapnewstv.co.kr/news/MYH202611081554150nN) — **외 2건**(3개 매체)
-- (3) 11-07 경기일보 — [[속보] “4살부터 의대반? 미친 나라”…정승제 “아동학대로 구속시켜야”](https://news.google.com/rss/articles/CBMiW0FVX3lxTFBobWRwZ3R4Sk5WSkNDTm9Ub1RtRHhldnY4WDRpaVFZeU4xUTNGQWNxSTEyRlpjTUhPS2Juem1yWlRTczVkSVJsMFFqN0N1MVc0ZTAtQjdfUjNWeUE?oc=5) — **외 2건**(2개 매체)
 - (4) 11-06 포인트데일리 — [한국장학재단, 2학기 학자금대출 신청 17일 마감… 등록금·생활비 지원](https://news.google.com/rss/articles/CBMicEFVX3lxTE1vbFIySmQwYlpZNnBhSXZHalFISDdpd1FBaWlkX213eWMyUHEyeHFxNnQwWjNOYkU1WWwwX0NvT3c1S1RNaXJsdGlRaFlVV1FOVW1iZ3JPajJuVml3V09ZSERJT1lZUjVUdmZ3YThmeFXSAXRBVV95cUxPek9Sd0NERENQWTRPWmdYbGJxczBYUWNRa3hWcUUybk9SLXotYy1TaDFsMi03eEpjRW1GMzN0SGwxck54cDN2cVZteGEzLW1ydGtVXzJOUDExODBPTTRqOWdRZ05MTm5HeG5paFpseFRvYkwwbA?oc=5) — **외 1건**(2개 매체)
+- (3) 11-08 유스연합 — [필수의료 병원·지방 호텔 가업상속공제 개정안 발의](https://news.google.com/rss/articles/CBMiU0FVX3lxTE1lcXpKZlVwTFZrLVNBRm1sSkx5a0U3cXhwQnBDYXZBZnZnY3hOUHAtc2F5dTRhSjB4ZUZsODhBbTNYcENGYzFVc3VaWFY0V0pIdFVz?oc=5) — **외 1건**(2개 매체)
 
 **기타** (사건 2개)
 - (6) 11-06 토큰포스트 — [1인당 1,548만달러…미 상속·증여세 공제 48만달러 인상](https://www.tokenpost.kr/news/policy/433624)
@@ -154,6 +154,7 @@
 
 ### [생활·사회] 기관 보도자료
 
+- 11-08 [산업통상부] [한류 열기 타고 K-소비재, 대양주 시장 공략한다](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788333)
 - 11-08 [기후에너지환경부] [파리협정 발효 10주년, 기후목표 이행 가속화 위한 제31차 유엔기후변화협약 총회 개막](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788330)
 - 11-08 [국토교통부] [청년 의견, 정책부서로 바로 전달한다 "2030청년자문단·청년온라인패널 신청하세요"](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788329)
 - 11-08 [국토교통부] [새로운 대한민국의 내일을 잇는 철도 대전환, 국민과 함께 그립니다](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788328)
@@ -167,7 +168,6 @@
 - 11-08 [농림축산식품부] [아시아 지역의 구제역 대응을 위해 국내외 전문가 한자리에](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788319)
 - 11-08 [농림축산식품부] ['2045, 농업·농촌의 미래를 그리다' 전문가 세미나 개최](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788318)
 - 11-08 [교육부] [폐교의 새로운 시작, 지역의 가능성을 열다](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788317)
-- 11-08 [산업통상부] [한류 열기 타고 K-소비재, 대양주 시장 공략한다](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788333)
 - 11-07 [농림축산식품부] [수상의 영광을 시장의 기회로, K-Sool의 도약이 시작된다.](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788310)
 - 11-07 [고용노동부] [노동부 장관, 산업안전 대응 강화를 위한 긴급 기관장 회의 개최](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788306)
 - 11-07 [고용노동부] [(참고) 노동부 장관, 산업안전 대응 강화를 위한 긴급 기관장 회의 개최](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788306)
@@ -210,4 +210,4 @@
 
 ## 언론사별 건수 상위 15
 
-연합뉴스 최신 1793, 토큰포스트 1011, 머니투데이 625, 뉴시스 사회 521, 인포맥스 420, 코인리더스 391, 아시아경제 366, 조선비즈 358, 연합뉴스 마켓 355, 파이낸셜뉴스 전체 349, 동아 사회 281, 뉴시스 금융 254, 뉴시스 정치 241, 한국경제 금융 237, 재경일보 234
+연합뉴스 최신 1817, 토큰포스트 1014, 머니투데이 626, 뉴시스 사회 524, 인포맥스 419, 코인리더스 391, 아시아경제 367, 조선비즈 359, 연합뉴스 마켓 355, 파이낸셜뉴스 전체 351, 동아 사회 285, 뉴시스 금융 254, 뉴시스 정치 244, 한국경제 금융 241, KBS 뉴스 236
