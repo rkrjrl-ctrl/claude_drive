@@ -24,8 +24,11 @@ def get(params):
         try:
             with urllib.request.urlopen(req, timeout=60) as r:
                 body = r.read().decode("utf-8")
-            return json.loads(body)
-        except (urllib.error.URLError, json.JSONDecodeError) as e:
+            try:
+                return json.loads(body)
+            except json.JSONDecodeError:
+                raise SystemExit(f"JSON이 아닌 응답(키 미등록·승인 대기일 수 있음): {body[:300]}")
+        except urllib.error.URLError as e:
             if i == 2:
                 raise SystemExit(f"축제 받기 실패: {e} / 응답 앞부분: {locals().get('body', '')[:200]}")
             time.sleep(5)
@@ -45,7 +48,7 @@ def main():
                    "eventEndDate": hi.strftime("%Y%m%d")})
         head = res.get("response", {}).get("header", {})
         if head.get("resultCode") not in ("0000", "00"):
-            raise SystemExit(f"API 오류: {head}")
+            raise SystemExit(f"API 오류: {json.dumps(res, ensure_ascii=False)[:400]}")
         body = res["response"]["body"]
         items = body.get("items") or {}
         items = items.get("item", []) if isinstance(items, dict) else []
