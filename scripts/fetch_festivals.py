@@ -43,9 +43,8 @@ def main():
     rows, page = {}, 1
     while True:
         res = get({"serviceKey": key, "MobileOS": "ETC", "MobileApp": "claude_drive", "_type": "json",
-                   "numOfRows": 500, "pageNo": page,
-                   "eventStartDate": (today - datetime.timedelta(days=90)).strftime("%Y%m%d"),
-                   "eventEndDate": hi.strftime("%Y%m%d")})
+                   "numOfRows": 100, "pageNo": page, "arrange": "A",
+                   "eventStartDate": (today - datetime.timedelta(days=90)).strftime("%Y%m%d")})
         head = res.get("response", {}).get("header", {})
         if head.get("resultCode") not in ("0000", "00"):
             raise SystemExit(f"API 오류: {json.dumps(res, ensure_ascii=False)[:400]}")
@@ -65,7 +64,7 @@ def main():
                 continue
             rows[it.get("contentid")] = {k: it.get(k, "") for k in FIELDS}
         total = int(body.get("totalCount") or 0)
-        if page * 500 >= total or not items:
+        if page * 100 >= total or not items:
             break
         page += 1
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
