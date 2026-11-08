@@ -54,6 +54,11 @@ def main():
                     print("지역 코드 요청 응답:", r.read().decode("utf-8")[:300])
             except Exception as e2:
                 print("지역 코드 요청도 실패:", e2)
+            try:   # 가짜 키로도 불러 본다: 「등록되지 않은 키」가 나오면 키 검사까지는 닿는 것
+                with urllib.request.urlopen(URL.replace("searchFestival2", "areaCode2") + "?serviceKey=TEST&MobileOS=ETC&MobileApp=t&_type=json", timeout=60) as r:
+                    print("가짜 키 응답:", r.read().decode("utf-8").replace(chr(10), " ")[:200])
+            except Exception as e3:
+                print("가짜 키 요청 실패:", e3)
             raise SystemExit(f"API 오류: {json.dumps(res, ensure_ascii=False)[:400]}")
         body = res["response"]["body"]
         items = body.get("items") or {}
