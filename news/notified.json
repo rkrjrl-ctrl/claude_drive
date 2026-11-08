@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T00:06+09:00",
+"updated": "2026-11-09T01:05+09:00",
 "items": [
 {
 "kind": "gov",
@@ -6963,6 +6963,22 @@
 "종부세"
 ],
 "g": "https://www.newsis.com/view/NISX20261108_0003859520"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE51MWoyNWczbHdQWXkyam9zbXN3Z0Zpc2pEaDVnLXR1Z0hvMEF2R0dJTEhmSUxMVERXQks3Q0ZuNWowYVJJVHdtX1N1T2RnaG1GUmdtWk4waWJzTjV4ZElod3BsbUQ1bmxi?oc=5",
+"t": "2026-11-09T01:05+09:00",
+"tok": [
+"9일",
+"면제",
+"부정수급",
+"시작",
+"실업급여",
+"육아휴직급여",
+"자진신고",
+"집중신고",
+"추가징수"
+]
 }
 ]
 }

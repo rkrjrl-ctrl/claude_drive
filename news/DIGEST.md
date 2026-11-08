@@ -1,9 +1,9 @@
 # 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-09 00:05 KST  /  최근 7일 24027건 (보험·의료 3526 · 투자·경제 13730 · 생활·사회 6464)  /  이번 신규 324건
+- 갱신: 2026-11-09 01:05 KST  /  최근 7일 24076건 (보험·의료 3560 · 투자·경제 13720 · 생활·사회 6488)  /  이번 신규 361건
 - 소스 79곳 + 구글뉴스 키워드 110개(보험·의료 45 · 투자·경제 45 · 생활 20)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 경향 경제, 머니투데이, 경향 사회
+- 수집 실패 소스: 없음
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
@@ -27,12 +27,12 @@
 - (5) 11-03 비즈월드 — [금감원, '퇴직연금 장기·분산투자 캠페인' 시작](https://news.google.com/rss/articles/CBMiakFVX3lxTE5GOTFLVHdXZXZpbEJ5V0xEeVBzYUZuX1VRd2J5eFI2OTJKM21Ud2lsRzdrTUJIQWRDUFo2X1dwNmdTNlQxc2ROdTFrNTVjMkpkUUJWWHBOTkRocThhLWtYREM1OXlaYWpjRXc?oc=5) — **외 12건**(13개 매체)
 - (9) 11-03 핀포인트뉴스 — ["보험료 10년 낸 국민연금액, 세금 지원 기초연금보다 적다"](https://news.google.com/rss/articles/CBMic0FVX3lxTFBqYU83d3VNVWhZbDQxcmJNWElzcVJOV1Q2c1prTmthV0MtYTB2X3RaSDVILUhBcE1rN3pVcDZaTkJPS0pjcnFjRWpLRzdJd1BYSDhhZWU4VmJhTUlpOF8zMVpWNG1BVGJJTXpQTmRoVE1sS1E?oc=5) — **외 3건**(4개 매체)
 
-**보험금 분쟁·판결** (사건 23개)
+**보험금 분쟁·판결** (사건 22개)
 - (6) 11-05 뉴스워커 — [[뉴스워커_신한라이프] 보험금 분쟁 심의에 외부 전문가 참여…의결권까지 부여](https://news.google.com/rss/articles/CBMicEFVX3lxTFBxNGp6UFRwSFpVMFRzMGs3ZmJaNl9mRG9EY0dRMVVXa2xicjVWUnRESFRlZEZfR1VyR0VRUXpyTzZPREsxSlRIU3g2VmNfTFotWjJkbkgyNWtWSjNfbEM3R1NYOWx1c09KaWlyY1NPU0zSAXRBVV95cUxQcV93ZjhjR1hseTk0X00zTFY3c0lSQ0V1RmFacFgxeE1GdHJpVzYyb20zU25VejQ3X1d1TXJzYTFwTUJ0Z2JnQkR0YmhsQWVOQjFYZVVoYTNuWk4xbElsWWNxMmRxM01SNENpY3BYVFJUZlpxTg?oc=5) — **외 2건**(3개 매체)
 - (7) 11-03 남도일보 — [자해하고 보험금 청구…9억 챙긴 보험사기 일당 ‘덜미’](https://news.google.com/rss/articles/CBMibEFVX3lxTE1EUXpoTTJGbjBCajJXZEk5ZXlDYWtncnlUMDBqYWZvMDNxTW0zMGtncmhzc01wR3BMMlNuZHR1UGdTTTlGT0JZeEhEMC1sbjFzTjJXem5DdjlfNEdOVnNWMHQ0WnZ3dkZVVUwtR9IBcEFVX3lxTE8teUExVTB0SHhFZnItRDVpYnBJQWV6eFBoYnRCTjl4S1pYWTFlQ1RUTEk0RVpLWkVUUWVybDZ6VDROclp3TkZDd2F4ZzlkQWprN05PRzRBY3RvRGtjUmMxN05sQWtDV05sbmVwUFZpQnU?oc=5) — **외 1건**(2개 매체)
 - (9) 11-05 인포맥스 — [보험사, 매달 보험금 판결문 금감원 제출…'분쟁 줄이기'](https://news.einfomax.co.kr/news/articleView.html?idxno=4443139)
 
-**보험업계·상품 출시** (사건 5개)
+**보험업계·상품 출시** (사건 6개)
 - (5) 11-03 시사통신 — [청년 자동차보험료 부담 낮춘다…운전경력 인정·할인 안내 확대](https://news.google.com/rss/articles/CBMia0FVX3lxTE1Ca3dldmg4S1czSklyTjFBY0JvZFFlWGhOWTJ2d1VZZG95OTl3bzQwemo3RVB0al9IbFNYbzZhMzBEV1lIcHFCdGJ5NktTSFNac3ZSdTdyTjlCZmQ5ZWUtQmhaVDd3OU83TlEw0gFrQVVfeXFMTUJrd2V2aDhLVzNKSXJOMUFjQm9kUWVYaE5ZMnZ3VVlkb3k5OXdvNDB6ajdFUHRqX0hsU1hvNmEzMERXWUhwcUJ0Ynk2S1NIU1pzdlJ1N3JOOUJmZDllZS1CaFpUN3c5TzdOUTA?oc=5) — **외 5건**(6개 매체)
 - (5) 11-03 엠에스투데이 — [청년 자동차보험료 최대 46% 절감…방법은?](https://news.google.com/rss/articles/CBMibEFVX3lxTE1GWl90bXNUcEItcDlLREYzaHNMU3ZQd2F5M1g1MTJHaE5GODZ4TFNLRjB6ZVRDWFl2MFYyMnZaenYwbVI5aFVyM29zNGNrWXRHOXFjY0JXMTlra2dVWjNXRDNYbi0tczFHZEJVRdIBcEFVX3lxTE9JTGYycUpGWWZ4dm5vQ0FCVVVWT1dXVmpnbVl6bU82WGNHUmN6Q0dla2lUaFhwdHd5STBIR3g3R1RzT1FJb2N5QWEtU1o0MjFjYjlxV0wwTENBTVZsdlpXYldONkxBbWpFeW9Oc3RRUHc?oc=5) — **외 1건**(2개 매체)
 - (5) 11-02 뉴닉 — [청년 자동차보험료 아끼는 법: 군 운전병·장기렌터카·부모 차 경력도 인정된다고? 🚗💸](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YVG01WU8zZl9mdGFoQXJDSXQ0UElmdEtIUnc3V3Ata0JpLXZ6djhqeUtJRTVUWVpOckxRandPRmluMGtYNFJvTEZTRnB5aGRwWmhZ?oc=5) — **외 1건**(2개 매체)
@@ -119,8 +119,8 @@
 
 **요금·물가** (사건 38개)
 - (8) 11-05 조선 경제 — [김동철 한전 사장 “전기요금 현실화 필요…단, 산업용 전기료 인상은 최후 수단”](https://www.chosun.com/economy/industry-company/2026/11/05/HA2DMZLEMZRTIMJXGJTDCODEHA/) — **외 11건**(10개 매체)
-- (5) 11-08 www.ppss.kr — [[경제진단] 서울 아파트 매물 33% 늘었는데 집값은 상승…부동산 시장에 나타난 '정책과 가격의 괴리'](https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzeTgyU1pCYllaZmZCbWhRellSRkhFbDRpdDJtUVpQTUlmYVpyZ0plVUZobklvejNFMnFqWEFNdnExb1NZN0JWeGdFVGV5aW9ubmxhQkp3TWFwWG1SNkgzYlRzd08?oc=5) — **외 9건**(10개 매체)
-- (6) 11-07 FinanceFeeds — [금 가격 오늘: 16만5천개 일자리 후 12월 금리 인상 확률 80% 근접, 11월 10일 CPI 앞두고 $4,045](https://news.google.com/rss/articles/CBMifkFVX3lxTE1kZEdZVjNzZ0t0djktQVZYVjJ1RUVyUFVGcmpnR1JXVlZsRlBMZE9QcVFIeHJicVpDdXNhVlVwOS1YR2I1X2xucE1tX3BIYXNyVFB5WHBBMW9uWC0wbUg3RmRHV3QyMnIzWHByQmh6Y0dDS20zY0RqMTNSRlZLZw?oc=5) — **외 4건**(5개 매체)
+- (5) 11-08 www.ppss.kr — [[경제진단] 서울 아파트 매물 33% 늘었는데 집값은 상승…부동산 시장에 나타난 '정책과 가격의 괴리'](https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzeTgyU1pCYllaZmZCbWhRellSRkhFbDRpdDJtUVpQTUlmYVpyZ0plVUZobklvejNFMnFqWEFNdnExb1NZN0JWeGdFVGV5aW9ubmxhQkp3TWFwWG1SNkgzYlRzd08?oc=5) — **외 10건**(11개 매체)
+- (6) 11-07 FinanceFeeds — [금 가격 오늘: 16만5천개 일자리 후 12월 금리 인상 확률 80% 근접, 11월 10일 CPI 앞두고 $4,045](https://news.google.com/rss/articles/CBMifkFVX3lxTE1kZEdZVjNzZ0t0djktQVZYVjJ1RUVyUFVGcmpnR1JXVlZsRlBMZE9QcVFIeHJicVpDdXNhVlVwOS1YR2I1X2xucE1tX3BIYXNyVFB5WHBBMW9uWC0wbUg3RmRHV3QyMnIzWHByQmh6Y0dDS20zY0RqMTNSRlZLZw?oc=5) — **외 3건**(4개 매체)
 
 **세금·지원금** (사건 50개)
 - (9) 11-06 디지털데일리 — ["보이스피싱 피해금 환급 받으세요"… 금융기관 사칭 사기 `주의보`](https://news.google.com/rss/articles/CBMiZEFVX3lxTFA2QWF3UGl0TFlRYmpHODVaR0JPdENRSGtFWTFaNHk1bXhNRFQyUk5heGYxRGVtVGhZWVVWMHJCWktHdG5nc1FQejZuQjRjVHNIMGxTVWtqVmVTd1ZoTFZUS2JhSDU?oc=5) — **외 8건**(9개 매체)
@@ -177,24 +177,25 @@
 
 ## 보험 전문지 최신
 
-- 11-08 보험저널 — [금리 올랐는데 생보사 '기본자본'은 되레 약해졌다…100bp 더 오르면 62.9%](https://www.insjournal.co.kr/news/articleView.html?idxno=33818)
-- 11-07 보험매일 — [금융사 대주주 심사 '위법 이력' 넘어 평판·전문성까지 확대해야](http://www.fins.co.kr/news/articleView.html?idxno=110452)
-- 11-07 보험매일 — [보험권 정보보호 '사후 대응'까지 확대…보험사·GA 보안체계 시험대](http://www.fins.co.kr/news/articleView.html?idxno=110451)
-- 11-06 보험매일 — [AI로 만든 '가짜 흠집' 보험금 청구…日손보업계 비상](http://www.fins.co.kr/news/articleView.html?idxno=110450)
-- 11-06 보험매일 — [퇴직연금 대수술…금융권 '수익률·책임경영' 시험대](http://www.fins.co.kr/news/articleView.html?idxno=110449)
-- 11-06 보험신보 — [잇따른 개인정보 유출사고에 ‘2차 피해 특별대응’ 연말까지](https://www.insnews.co.kr/news/articleView.html?idxno=93713)
-- 11-06 보험저널 — [[6일 보험주 마감시황] 삼성화재 7.36%↓·현대해상 5.43%↓…인카 1.65%↑](https://www.insjournal.co.kr/news/articleView.html?idxno=33817)
-- 11-06 보험저널 — [인카금융서비스, 취약계층 겨울나기 지원…올해도 지역사회 따뜻한 손길](https://www.insjournal.co.kr/news/articleView.html?idxno=33816)
-- 11-06 보험저널 — [쏟아지는 '반대매매' 막는다… 정부, 신용융자 담보비율 3개월 면제 ‘강수’](https://www.insjournal.co.kr/news/articleView.html?idxno=33815)
-- 11-06 보험저널 — [GA 잡으려다 '중소형 보험사' 먼저 잡나…4년·7년 분급제의 '역설'](https://www.insjournal.co.kr/news/articleView.html?idxno=33813)
-- 11-06 보험저널 — [“아이 근시 억제한다며 검사용 안약 장기 처방”… 정식 치료제 등장에 실손 심사 ‘도마’](https://www.insjournal.co.kr/news/articleView.html?idxno=33814)
-- 11-06 보험저널 — [7차례 처벌에도 2002억원 '깡통 보증'…법원, 무허가 보험법인 해산명령](https://www.insjournal.co.kr/news/articleView.html?idxno=33812)
-- 11-06 보험신보 — [KB국민은행, 아동수당 수령 고객 우대 ‘KB아동수당통장’ 출시](https://www.insnews.co.kr/news/articleView.html?idxno=93710)
-- 11-06 보험신보 — [메트라이프생명, 고객 서비스 활동 성과 공개… ‘MetLife ONE’으로 고객 경험 확장](https://www.insnews.co.kr/news/articleView.html?idxno=93709)
-- 11-06 보험신보 — [신협중앙회, ‘신협발전유공 정부포상 수여식’ 개최… 유공자 11명 수상](https://www.insnews.co.kr/news/articleView.html?idxno=93708)
+- 11-09 보험신보 — [[1156호 장영우의 만평]](https://www.insnews.co.kr/news/articleView.html?idxno=93706)
+- 11-09 보험신보 — [11월 보험사 판매전략, 진단비 넘어 치료·돌봄 비용에 무게](https://www.insnews.co.kr/news/articleView.html?idxno=93697)
+- 11-09 보험신보 — [사망보장에 생애자금도… 종신보험 판매 새 국면](https://www.insnews.co.kr/news/articleView.html?idxno=93696)
+- 11-09 보험신보 — [“대출보다 채무진단 먼저”… 기초금융 진단체계 개편 제안](https://www.insnews.co.kr/news/articleView.html?idxno=93695)
+- 11-09 보험신보 — [보험 판매 비중 커진 GA, 내부통제·소비자보호 책임 강화](https://www.insnews.co.kr/news/articleView.html?idxno=93693)
+- 11-09 보험신보 — [메가, 조직 확대·계약 유지율 개선… ‘양·질 동반 성장’](https://www.insnews.co.kr/news/articleView.html?idxno=93692)
+- 11-09 보험신보 — [452만번 현장 누빈 소방관… 공적 보상 한계, 민간보험 보완](https://www.insnews.co.kr/news/articleView.html?idxno=93691)
+- 11-09 보험신보 — [금융권 해킹 위협… 금융위, 보안체계 전면 쇄신 나서](https://www.insnews.co.kr/news/articleView.html?idxno=93690)
+- 11-09 보험신보 — [[연중기획-새로운 리스크, 새로운 규제 ⑨-2] 퇴직연금 기금형 키우고 계약형 손질… 금융권 채비](https://www.insnews.co.kr/news/articleView.html?idxno=93689)
+- 11-09 보험신보 — [[기자의 눈] 보험업계가 ‘잘파세대’를 주목할 이유](https://www.insnews.co.kr/news/articleView.html?idxno=93687)
+- 11-09 보험신보 — [[연중기획-새로운 리스크, 새로운 규제 ⑨-1] 퇴직연금 558조원… 은퇴 후 안정적인 ‘월급’ 되려면](https://www.insnews.co.kr/news/articleView.html?idxno=93684)
+- 11-09 보험신보 — [AI 금융 확산, 소비자 보호·금융보안 체계 재정비 필요](https://www.insnews.co.kr/news/articleView.html?idxno=93682)
+- 11-09 보험신보 — [금감원, 베트남·인니 보험감독당국과 협력 강화](https://www.insnews.co.kr/news/articleView.html?idxno=93681)
+- 11-09 보험신보 — [우정사업본부, 전국 인프라 활용해 ‘공공서비스’ 확대](https://www.insnews.co.kr/news/articleView.html?idxno=93680)
+- 11-09 보험신보 — [[INSIGHT] 유재훈 보험개발원장 “보험산업의 공정한 중재자 역할 강화”](https://www.insnews.co.kr/news/articleView.html?idxno=93678)
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
+- 11-09 MarketWatch — [Funeral homes are finding new life hosting weddings and golf outings, as the traditional burial business dies out](https://www.marketwatch.com/story/funeral-homes-are-finding-new-life-hosting-weddings-and-golf-outings-as-the-traditional-burial-business-dies-out-15831d13?mod=mw_rss_topstories)
 - 11-09 MarketWatch — [Corporate America’s profit numbers are just barely beating Wall Street’s expectations](https://www.marketwatch.com/story/corporate-americas-profit-numbers-are-just-barely-beating-wall-streets-expectations-eaa67fe2?mod=mw_rss_topstories)
 - 11-08 MarketWatch — [Stocks are moving in sync again for the first time in a while. There’s just one problem.](https://www.marketwatch.com/story/stocks-are-moving-in-sync-again-for-the-first-time-in-a-while-theres-just-one-problem-c953bf72?mod=mw_rss_topstories)
 - 11-08 CNBC — [Poppi founders are going after PepsiCo's Gatorade with new beverage startup Jetty](https://www.cnbc.com/2026/11/08/poppi-founders-jetty-hydration-gatorade.html)
@@ -206,8 +207,7 @@
 - 11-07 MarketWatch — [This retired professor has reinvented himself — as a Taylor Swift scholar](https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories)
 - 11-07 ECB 보도자료 — [Christine Lagarde: Interview with Yomiuri Shimbun](https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html)
 - 11-07 MarketWatch — [The AI trade is now counting on Anthropic’s IPO — but it couldn’t be happening at a worse time](https://www.marketwatch.com/story/the-ai-trade-is-now-counting-on-anthropics-ipo-but-it-couldnt-be-happening-at-a-worse-time-8bd0f1c4?mod=mw_rss_topstories)
-- 11-07 CNBC — [Cosm rides premium moviegoing wave with more immersive screenings and a wider library](https://www.cnbc.com/2026/11/07/cosm-immersive-movie-screenings.html)
 
 ## 언론사별 건수 상위 15
 
-연합뉴스 최신 1848, 토큰포스트 1016, 머니투데이 630, 뉴시스 사회 535, 인포맥스 420, 코인리더스 397, 아시아경제 368, 조선비즈 361, 연합뉴스 마켓 355, 파이낸셜뉴스 전체 353, 동아 사회 300, 뉴시스 금융 254, 뉴시스 정치 251, 한국경제 금융 244, KBS 뉴스 242
+연합뉴스 최신 1851, 토큰포스트 1011, 머니투데이 630, 뉴시스 사회 535, 인포맥스 420, 코인리더스 394, 아시아경제 367, 조선비즈 366, 연합뉴스 마켓 355, 파이낸셜뉴스 전체 353, 동아 사회 300, 뉴시스 금융 255, 뉴시스 정치 251, KBS 뉴스 247, 한국경제 금융 246
