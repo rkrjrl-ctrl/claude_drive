@@ -1,28 +1,28 @@
 # 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-08 15:05 KST  /  최근 7일 23363건 (보험·의료 3590 · 투자·경제 13532 · 생활·사회 5949)  /  이번 신규 408건
+- 갱신: 2026-11-08 16:05 KST  /  최근 7일 23482건 (보험·의료 3586 · 투자·경제 13561 · 생활·사회 6043)  /  이번 신규 465건
 - 소스 79곳 + 구글뉴스 키워드 110개(보험·의료 45 · 투자·경제 45 · 생활 20)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 머니투데이
+- 수집 실패 소스: 없음
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
 **실손·비급여** (사건 26개)
 - (10) 11-02 한양경제 — [본인부담상한제 환급금 실손보험 보상 대상 제외...대법원 판결 찾아보니](https://news.google.com/rss/articles/CBMickFVX3lxTE85U2pjcm9sVHJUNjliRlZLc0h0dFk2VHQ5Q3hkcF84NHlSM3ZGUWpuUUJFd2Y5N1lwdWdILTkwNGJCbkJrbElDd1ZUa014UWQ0THpTa1hfTXlaN0dlNEc0cmhfN2lKN1JTLTJIZlZtNFpVUQ?oc=5) — **외 1건**(1개 매체)
+- (8) 11-06 보험매일 — [실손보험 비급여 관리 강화에 의료계 반발…“민간보험 손해율 관리 수단 전락”](http://www.fins.co.kr/news/articleView.html?idxno=110447) — **외 1건**(2개 매체)
 - (7) 11-02 이투데이 — [초기 실손보험료 최대 40% 할인…이달부터 시행](https://news.google.com/rss/articles/CBMibkFVX3lxTE81VkJnWG1IcHV2VGZOVnZGNEdyN1ZudjZhcXdMMkpJR084NUhoRmxLMjdsYzU2dnJMUHN6czRqZ3JPbVNIbEdxRnAtTDQ2ajRIbUxXVGtUZTh1UExTWG5PUklHdHhjSzNwU3VWUW13?oc=5) — **외 1건**(2개 매체)
-- (5) 11-02 동북일보 — [김재섭 의원, ‘제대군인 실손보험법’ 대표발의](https://news.google.com/rss/articles/CBMib0FVX3lxTFA4aXczN2tnZG8zR2N4dktBa2FvRUdEUlJDdGY4czZyckh0YkJiSnZHTi1FckRBc1lkQlE5NGZyUVhXaGNkeUVKcnBHSjA3U0QzQS1CMk51dU1ST09hcl9zR3dJR283cGRwWWpmSTlVSQ?oc=5) — **외 2건**(3개 매체)
 
 **암·질병 보장 상품** (사건 16개)
 - (5) 11-05 울산시민신문 — [국민건강보험공단은 간호·간병통합서비스 우수기관 38곳 선정](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlV3pLaTNYRGlMLVlleWRsVVNSejZ6aWtaOHA2MFBBNThqQjhXajdCRG82RnN0NFdXdl9zZmFBYU0yVUNmbWNaTnRvV1hnWWhaYTNLbzRoM3dTay1nclc0MWFvSXowVk0?oc=5) — **외 7건**(8개 매체)
 - (6) 11-02 포인트데일리 — [KDB생명, 치매·간병 보장 강화한 연금보험 출시](https://news.google.com/rss/articles/CBMicEFVX3lxTE9QRUpobDdlNEkwOGdhdzNVUGFCSHdyOEc3dmdJdG9iUE5MLWJOMmxwYXlyM1VnS2d2bjBwRHRlQ3ZybnY5OUlMeVRWcERFQlJHelNFYm9KRXRzWEFPZHNyeUlHbGxfZXZUZTNGSUVzSGfSAXRBVV95cUxNZ3YycVVPZExRanFwUTNZR0lPRWd1M05TTGQxVE9pang1clVkblJ6bFdaTmdzcS0wQWVHVFY4SU42MkZwUzdNRVhjMmhxREFQQkdoaDNxRVNoal82NVc3c214cW9xYmxDXy04Y2g4bGRkdmhzcg?oc=5) — **외 3건**(4개 매체)
 - (5) 11-05 핀포인트뉴스 — [ABL생명, 납입보험료 인출 가능한 종신보험 출시](https://news.google.com/rss/articles/CBMid0FVX3lxTE0tWUtOeDlJbTZZMmJMRU1UMmxIM180WlNQUi1hdjc3cjN3aVg0NFk3MVVnMTJlQXFneXZONk5uMV9YSGZFWFVwY2dPUkU4TmE4TmZ2M3NVcEFtVmY0RzdZcTQyQXVPamlnZlV1a0I3MUZMdUVyVVVZ0gF3QVVfeXFMTS1ZS054OUltNlkyYkxFTVQybEgzXzRaU1BSLWF2NzdyM3dpWDQ0WTcxVWcxMmVBcWd5dk42Tm4xX1hIZkVYVXBjZ09SRThOYThOZnYzc1VwQW1WZjRHN1lxNDJBdU9qaWdmVXVrQjcxRkx1RXJVVVk?oc=5) — **외 4건**(5개 매체)
 
-**건강보험·의료제도** (사건 42개)
+**건강보험·의료제도** (사건 43개)
 - (7) 11-04 세계일보 — [국민연금 10년 부은 평균소득자, 기초연금보다 덜 받는다…‘급여 역전’](https://news.google.com/rss/articles/CBMiWEFVX3lxTFA4TDJWU1VnLTI0WE9aVHdkeEduVkc5RUlidlpJS29mYTNlY0xDX1hUcV9ZbXJodFZkcnQ4eV95cDZhbC14d0VSUVBCdTRhV2F0cVNzRENHY3LSAVRBVV95cUxQSFhUNVpYNmpDTGRub0x5aGJzTWxXZ0JUajdLaGxXa3l4dkJvNDRzcUFWajZpaGxVdktnT2gzQ0tQaFZnR21ETDBjaG5qS2VtNVc2OG4?oc=5) — **외 10건**(10개 매체)
 - (7) 11-04 재경일보 — [국민연금 10년 가입 월급여…기초연금보다 적어 : 정책.지표](https://news.google.com/rss/articles/CBMiS0FVX3lxTE0wUHZUZ09VZzlEVzBFZUJnekFWSEVyaEF6UTQ0VkhQQlV3LTRVdHNDaFlQYjE4dEFhTzI1bWhnMFRZd01vU3FYbGlVMA?oc=5) — **외 8건**(7개 매체)
 - (7) 11-04 서울경제 경제 — [“국민연금 10년 냈는데 月 급여액 34만 3300원”...기초연금 기준액보다 적어](https://www.sedaily.com/article/20109959) — **외 5건**(6개 매체)
 
-**국민연금·퇴직연금** (사건 89개)
+**국민연금·퇴직연금** (사건 88개)
 - (4) 11-08 SeattleN — [복수국적 기초연금 4년새 2.3배…내년부터 국내 5년 살아야 수령 자격 > 시애틀 뉴스/핫이슈](https://news.google.com/rss/articles/CBMiSkFVX3lxTFBhM1ZyUUpCRXhzTHl2SGwyUVZzV1l1aVVOb2dKcXVhRDRBX1RaQzkwOWhhMWoycEdQU3V4cjRTbGZyLUFoTDNNR3N3?oc=5) — **외 40건**(34개 매체)
 - (5) 11-03 비즈월드 — [금감원, '퇴직연금 장기·분산투자 캠페인' 시작](https://news.google.com/rss/articles/CBMiakFVX3lxTE5GOTFLVHdXZXZpbEJ5V0xEeVBzYUZuX1VRd2J5eFI2OTJKM21Ud2lsRzdrTUJIQWRDUFo2X1dwNmdTNlQxc2ROdTFrNTVjMkpkUUJWWHBOTkRocThhLWtYREM1OXlaYWpjRXc?oc=5) — **외 12건**(13개 매체)
 - (9) 11-03 핀포인트뉴스 — ["보험료 10년 낸 국민연금액, 세금 지원 기초연금보다 적다"](https://news.google.com/rss/articles/CBMic0FVX3lxTFBqYU83d3VNVWhZbDQxcmJNWElzcVJOV1Q2c1prTmthV0MtYTB2X3RaSDVILUhBcE1rN3pVcDZaTkJPS0pjcnFjRWpLRzdJd1BYSDhhZWU4VmJhTUlpOF8zMVpWNG1BVGJJTXpQTmRoVE1sS1E?oc=5) — **외 3건**(4개 매체)
@@ -63,7 +63,7 @@
 
 ## [투자·경제] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
-**가상자산** (사건 15개)
+**가상자산** (사건 14개)
 - (10) 11-06 민심뉴스 — [비트코인, 77,000달러 하회…증시 급락과 함께 가상자산 시장 동반 하락 (BTC, 미국 증시, VIX, 하락)](https://news.google.com/rss/articles/CBMibEFVX3lxTE5xeW1yR3hUVmxxdG5rLUpvZWlnOW1pWXNKWEV2Y2ZBWlJwZUZNY3RUYXRLeF9rZVJWS1lndnp0TzR1SU9TVjdrV1ZZT1FaWVE4X1JPOHhHNUUxQXBCd3NmWjZzU3VnSGFDTjZoTw?oc=5) — **외 2건**(3개 매체)
 - (10) 11-06 토큰포스트 — [11월 6일 퇴근길 팟캐스트 — 미국 현물 비트코인 ETF 4억3020만달러 순유출…비트코인·이더리움 동반 급락](https://www.tokenpost.kr/news/insights/433935) — **외 1건**(1개 매체)
 - (11) 11-06 뉴스1 — [비트코인, 7.5만달러대로 급락…뉴욕증시와 동반 하락[코인브리핑]](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5DVkFzUWtrNzBMVkwtX3pkZFcxQUgyRHdac1dTOUlsX2owWm1XTUlla0JXWnlDc2FUY3d3eUc0a0lIMjY2T3hrTjZ0Umc2TkJKLWxjQ3hfLVVrckRVYjhHQWVYTzd4UQ?oc=5)
@@ -73,12 +73,12 @@
 - (14) 11-03 뉴스핌 — [뉴욕증시, 혼조 마감…유가 급락에도 반도체 약세에 나스닥 1.07%↓](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jaEVha0VKTnl5V1lmajF6OEpkZXVoWHlZcUZkOU5SM3ZYYjZ2b0xvSklKOXdOV0tzanF4Y2M0SnBna3VsNzN6MjVUc3YtVWlGSThoWkpoTWNaQV9G?oc=5) — **외 24건**(21개 매체)
 - (15) 11-06 톱스타뉴스 — [[미국 뉴욕증시 전망] 나스닥 5.5% 폭락 후 반등 시도…엔비디아·마이크론 회복세, 고용지표가 분수령](https://news.google.com/rss/articles/CBMickFVX3lxTE5jdEd3aEozRDRBVXlRbktpVE4wa29MS19sU0pRNUctN1p2MVVxMklpM1diQTJjSWlsRWNmUkNSYjBHR24wTGd3UE1rdWRLNENZYjNEaEM0MGFIMmtCeDFVVVdOM0JNeEZzTEdZWDh6OFdTZw?oc=5) — **외 13건**(12개 매체)
 
-**국내 증시** (사건 60개)
-- (19) 11-06 포인트데일리 — [증시, '미 반도체 폭락'에 급락…코스피 서킷브레이커·코스닥 매도 사이드카 발동](https://news.google.com/rss/articles/CBMicEFVX3lxTFBBQ0xpS21pWUVYd25PdkFicDgzWEEzcUNaMDNGa0FFZlVMZ3NEeGZZVm1EZVVIMmJVVTFPLWdUVzdVYlNFUW4zQ1Rza3YyblNPc2ZsTTNTWWtqaGp2TExhLUotZThNQmNaSGtlc1lWNW_SAXRBVV95cUxPWU1mZ1ExV091bE5zV01oeWRneEZGQnJ4c0owT3hxZ3g4cU9mOUdqMURjcF9JZU5rZDR3dUFkR1hUa1h6TkhhbFhWUzlJMXctOXM0bzFSZWhPVVNLSE9LVkRranJjYnI2M0p2bnY5eFdsYUFPTA?oc=5) — **외 135건**(92개 매체)
+**국내 증시** (사건 58개)
+- (19) 11-06 포인트데일리 — [증시, '미 반도체 폭락'에 급락…코스피 서킷브레이커·코스닥 매도 사이드카 발동](https://news.google.com/rss/articles/CBMicEFVX3lxTFBBQ0xpS21pWUVYd25PdkFicDgzWEEzcUNaMDNGa0FFZlVMZ3NEeGZZVm1EZVVIMmJVVTFPLWdUVzdVYlNFUW4zQ1Rza3YyblNPc2ZsTTNTWWtqaGp2TExhLUotZThNQmNaSGtlc1lWNW_SAXRBVV95cUxPWU1mZ1ExV091bE5zV01oeWRneEZGQnJ4c0owT3hxZ3g4cU9mOUdqMURjcF9JZU5rZDR3dUFkR1hUa1h6TkhhbFhWUzlJMXctOXM0bzFSZWhPVVNLSE9LVkRranJjYnI2M0p2bnY5eFdsYUFPTA?oc=5) — **외 136건**(92개 매체)
 - (13) 11-06 싱글리스트 — [美 증시 폭락에 코스피 '투매 공포'…삼성전자·SK하이닉스 추가 급락 우려](https://news.google.com/rss/articles/CBMiZkFVX3lxTFAzWGhXNzk2ZGlSdWp2Qno3QlExeEVXanN0cUc0aU8xSkJnRV9SZUtWYldjaHZVUU5WOEFrZHotdkdkakRvdW93NjBNQ0VzMzl4WExlajlMR3dYQlNYVnBRZFhzRDBndw?oc=5) — **외 20건**(16개 매체)
 - (14) 11-06 재경일보 — [코스피 5천선 붕괴에 서킷브레이커…삼성전자·SK하이닉스 급락에 개미들 패닉..폭락장에 망연자실](https://news.google.com/rss/articles/CBMiS0FVX3lxTE9QX3BkWW1zQ0JIRngzcHJFOEh5YTJZZVZ1TzVKUGNVZzFveVNOb3BLdzkwa2o5RTNFTGJRallXYlJ4d0xSaHVHY2hMZw?oc=5) — **외 10건**(7개 매체)
 
-**금리·중앙은행** (사건 9개)
+**금리·중앙은행** (사건 10개)
 - (12) 11-03 뉴스핌 — [[채권/외환] 이란 종전 협상 기대에 유가 급락…美 국채 금리·달러 동반 하락](https://news.google.com/rss/articles/CBMiXEFVX3lxTE82dENRRmtaRXBvYm1XRFA0SlFtX2FFeXBqNTBPZ1hLZVc3QVEtblVUWWpiMV9YOUI1eXRKUlRvY3ZWNVJwSTFtOEN0VEZKZ0dyR2ViRDN4X0M5eEk0?oc=5) — **외 8건**(6개 매체)
 - (12) 11-07 IndexBox — [중간선거 후 금값 4,000달러 상회: CPI와 연준 금리 인상 위험 분석 - 뉴스 및 통계](https://news.google.com/rss/articles/CBMixAFBVV95cUxPcTd5aXlqRFl1SXBablhVdDVRNGZVMm5XN3k2YXVSM2ltTVEtNWZvSTNiSmoyb2E2bkRtSkU1WkZlU1dLWHV0dUM3SGFlYUZRV0M0a3RtSTNlcEZ1Y3ZQaW5vWXV4UUM2azQ2OXhySEh4Y0VrQm1ZU09ScTBnREl5djFYX2hRQ2FMdTRueEduVnU1d0xzdW1ueVhtNHRDaS0tX0dVOXQycWpmRjY2UXZ6SmpHMVY4WGFrQlZTRUdXMW9iWm5J?oc=5) — **외 4건**(2개 매체)
 - (12) 11-06 재경일보 — [달러·국채금리 하락에 금값 2주 만에 최고…미 연준 금리 향방 주목 : 금융](https://news.google.com/rss/articles/CBMiS0FVX3lxTFByUmhtaEREQ1YzU09SczlvMEFlbEhaeUtxMUMtN1pHdldLSjJPb0RuOHZWSTd1UFlmSWN5MVJ6Rnh3Wk8zZkk5LUJhVQ?oc=5) — **외 1건**(2개 매체)
@@ -117,9 +117,9 @@
 
 ## [생활·사회] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
-**요금·물가** (사건 39개)
+**요금·물가** (사건 38개)
 - (8) 11-05 조선 경제 — [김동철 한전 사장 “전기요금 현실화 필요…단, 산업용 전기료 인상은 최후 수단”](https://www.chosun.com/economy/industry-company/2026/11/05/HA2DMZLEMZRTIMJXGJTDCODEHA/) — **외 11건**(10개 매체)
-- (5) 11-08 www.ppss.kr — [[경제진단] 서울 아파트 매물 33% 늘었는데 집값은 상승…부동산 시장에 나타난 '정책과 가격의 괴리'](https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzeTgyU1pCYllaZmZCbWhRellSRkhFbDRpdDJtUVpQTUlmYVpyZ0plVUZobklvejNFMnFqWEFNdnExb1NZN0JWeGdFVGV5aW9ubmxhQkp3TWFwWG1SNkgzYlRzd08?oc=5) — **외 6건**(7개 매체)
+- (5) 11-08 www.ppss.kr — [[경제진단] 서울 아파트 매물 33% 늘었는데 집값은 상승…부동산 시장에 나타난 '정책과 가격의 괴리'](https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzeTgyU1pCYllaZmZCbWhRellSRkhFbDRpdDJtUVpQTUlmYVpyZ0plVUZobklvejNFMnFqWEFNdnExb1NZN0JWeGdFVGV5aW9ubmxhQkp3TWFwWG1SNkgzYlRzd08?oc=5) — **외 7건**(8개 매체)
 - (6) 11-07 FinanceFeeds — [금 가격 오늘: 16만5천개 일자리 후 12월 금리 인상 확률 80% 근접, 11월 10일 CPI 앞두고 $4,045](https://news.google.com/rss/articles/CBMifkFVX3lxTE1kZEdZVjNzZ0t0djktQVZYVjJ1RUVyUFVGcmpnR1JXVlZsRlBMZE9QcVFIeHJicVpDdXNhVlVwOS1YR2I1X2xucE1tX3BIYXNyVFB5WHBBMW9uWC0wbUg3RmRHV3QyMnIzWHByQmh6Y0dDS20zY0RqMTNSRlZLZw?oc=5) — **외 4건**(5개 매체)
 
 **세금·지원금** (사건 49개)
@@ -127,7 +127,7 @@
 - (7) 11-05 포커스경제 — [HUG가 전세금 관리하고 임대인에 월세 지급…전월세 안심신탁 시행](https://news.google.com/rss/articles/CBMibkFVX3lxTE5VZnlJWWR2Si1QZjRKQ3NKekloQjFhRnFvNWNpRWhEcTFWUHhIR1A0cUZHX21DQmN6clpBeFRNdEFEU25wWm1DNW9DMm8wWDFFU3JlOVY4WUZrSXhVcUk4R01MWHR1aS1JZ2pNR2hB?oc=5) — **외 3건**(4개 매체)
 - (8) 11-06 재경일보 — [2026 육아 지원금 총정리 부모급여 아동수당 신청 방법 : 정책.지표](https://news.google.com/rss/articles/CBMiS0FVX3lxTE5rX2RQUVgxMWlUNk1KWGZ1cXRJam05akhCeUt5Zl9mdUZNUG1GWDBNTzlSYVVnek9XOHpNb1N2NEJGUXNWVlFseVBFZw?oc=5) — **외 2건**(1개 매체)
 
-**일자리·임금** (사건 35개)
+**일자리·임금** (사건 36개)
 - (3) 11-07 더페어 — [미국 10월 고용 16만5000명 증가…실업률 4.1%로 하락](https://news.google.com/rss/articles/CBMicEFVX3lxTE5nRjU5ZElBdG1VcENTXzBfZ2pBM1lXYm13Zm9TNE9nblJzNGtpbnhQNzZHM2ZhQ2lPeV9hRi1EX1RodDlpMFpza2hKdXhwY0xzUElsRXlwT1dFQkxEV3h5eXRTRTh1dnJTSlI2Yl81aFHSAXRBVV95cUxOeW1CSG5MRGZBbm9STUxRVllOR3p1djFaOEl3OV9yZlBwNHNvSUZfVGJid25GTUdQWGxsQTltM24zSWJOYk1mOWtnTjY4ckx3ZTBXcFNVaEpfWmNvRnFKSThOR19KM3lsbThMLUVIekFBMGs4RQ?oc=5) — **외 10건**(10개 매체)
 - (9) 11-08 재경일보 — [멜랑숑, 최저임금 인상·정년 60세 공약 발표 : 국제](https://news.google.com/rss/articles/CBMiS0FVX3lxTE5qX25rRjU1eFFlcXIwSmJ0VExZWk1jQzFRVFFPblllTUVDVnc2RER3b2NSaG4ydzhzN1Z5QnhrTi1XdU1jZ1VxclVTVQ?oc=5) — **외 1건**(2개 매체)
 - (8) 11-03 데일리안 — [최저임금 인상 뒤 요양시설 간호사 고용 감소…간호조무사 늘며 전문성 약화](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9odFZyY1Q2ZzJpMGxkb09ubUNLMURwdDZlUTVEYlVEaml2UlgyZjRBU2lqTkVrdG92ZDBKdS1kU1hIWW1vcjZvR3VkTzFNUWphdElJ?oc=5) — **외 1건**(2개 매체)
@@ -143,9 +143,9 @@
 - (6) 11-04 머니투데이 — ["개인정보 털린 뒤 보이스피싱 전화"…2차 피해 입증 어려워 보상 '막막' - 머니투데이](https://news.google.com/rss/articles/CBMicEFVX3lxTE44T2l6MC03aE1TTnl5QmV3NXRKMTk1VzVWYlU5ckN0N1RBTWlQTFdFQmZ4OE5KOU9QeksyQUxWQ3c3b19ETjl3UFBsTmNaM2t5bmJQbGdlbUNGZFI5djhZNkJyb0I2X0dCTm04UjAxTUnSAXBBVV95cUxOOE9pejAtN2hNU055eUJldzV0SjE5NVc1VmJVOXJDdDdUQU1pUExXRUJmeDhOSjlPUHpLMkFMVkN3N29fRE45d1BQbE5jWjNreW5iUGxnZW1DRmRSOXY4WTZCcm9CNl9HQk5tOFIwMU1J?oc=5) — **외 1건**(2개 매체)
 
 **교육·육아·의료** (사건 6개)
+- (4) 11-08 연합뉴스TV 경제 — ["한국 양육·돌봄 부담 2048년 OECD 최고"](https://www.yonhapnewstv.co.kr/news/MYH202611081554150nN) — **외 2건**(3개 매체)
 - (3) 11-07 MEDI:GATE NEWS — [김상훈 의원, 필수의료 병원·호텔 가업상속공제 포함 법안 발의](https://news.google.com/rss/articles/CBMiV0FVX3lxTE5DajBUamp0bUxoejUzNlNwZGZmZ2hZSzF3NmRWNk5QQ04xMnR4bDI5SlQydFNJU0hZZmdOSHdFX3I5cWxGazNIaWxxaWdpTEo0RWhGTi11bw?oc=5) — **외 2건**(3개 매체)
 - (3) 11-07 경기일보 — [[속보] “4살부터 의대반? 미친 나라”…정승제 “아동학대로 구속시켜야”](https://news.google.com/rss/articles/CBMiW0FVX3lxTFBobWRwZ3R4Sk5WSkNDTm9Ub1RtRHhldnY4WDRpaVFZeU4xUTNGQWNxSTEyRlpjTUhPS2Juem1yWlRTczVkSVJsMFFqN0N1MVc0ZTAtQjdfUjNWeUE?oc=5) — **외 2건**(2개 매체)
-- (4) 11-08 조선 경제 — [저출생·고령화에 양육·돌봄 부담 급증...한국 총부양비 OECD 최저에서 2048년 최고로](https://www.chosun.com/economy/economy_general/2026/11/08/FTPUPARHLZAGDA2N6FILGFB7DA/) — **외 1건**(2개 매체)
 
 **기타** (사건 2개)
 - (6) 11-06 토큰포스트 — [1인당 1,548만달러…미 상속·증여세 공제 48만달러 인상](https://www.tokenpost.kr/news/policy/433624)
@@ -210,4 +210,4 @@
 
 ## 언론사별 건수 상위 15
 
-연합뉴스 최신 1713, 토큰포스트 1003, 머니투데이 622, 뉴시스 사회 508, 인포맥스 421, 코인리더스 380, 아시아경제 363, 연합뉴스 마켓 355, 조선비즈 353, 파이낸셜뉴스 전체 348, 동아 사회 270, 뉴시스 금융 254, 한국경제 금융 239, 재경일보 233, 뉴시스 정치 232
+연합뉴스 최신 1742, 토큰포스트 1006, 머니투데이 626, 뉴시스 사회 514, 인포맥스 421, 코인리더스 388, 아시아경제 362, 조선비즈 355, 연합뉴스 마켓 355, 파이낸셜뉴스 전체 347, 동아 사회 274, 뉴시스 금융 254, 한국경제 금융 239, 뉴시스 정치 235, 재경일보 234
