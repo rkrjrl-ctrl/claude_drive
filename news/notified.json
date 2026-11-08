@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T11:05+09:00",
+"updated": "2026-11-08T12:05+09:00",
 "items": [
 {
 "kind": "gov",
@@ -6617,6 +6617,54 @@
 "올랐다",
 "집값"
 ]
+},
+{
+"kind": "gov",
+"link": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249770&menuNo=200218&pageIndex=1",
+"t": "2026-11-08T12:05+09:00",
+"tok": [
+"담보비율",
+"면제조치",
+"변동성",
+"시행",
+"신용공여",
+"완화를",
+"위한",
+"유지의무",
+"증시"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9rcW5qRFZWdnQ3MVRQTW4wbmxPMTFHZ0h4V2FkV01JU1p1b0ZKWUZwME9iUkNXZDFQMmRmOVBQYnVHdW9GbFZ1SWdvWmNLVTJFbnEtX1BvSVg4a1FLbEY4em9pdTVWdTVsc3gxZk5UY0owT0s3enJB?oc=5",
+"t": "2026-11-08T12:05+09:00",
+"tok": [
+"국민연금으로",
+"선거",
+"오세훈",
+"증시",
+"직격",
+"키워",
+"폭락"
+],
+"g": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9rcW5qRFZWdnQ3MVRQTW4wbmxPMTFHZ0h4V2FkV01JU1p1b0ZKWUZwME9iUkNXZDFQMmRmOVBQYnVHdW9GbFZ1SWdvWmNLVTJFbnEtX1BvSVg4a1FLbEY4em9pdTVWdTVsc3gxZk5UY0owT0s3enJB?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5SSWxRNzZCZTN5R0hmX0Zwb0RLR2x6NkZnT2pmTWJmNDFIMmp6REcwUVpQUnltM24wVXUwNVRHTlhpNDY5cE1KNmhlWWUwYnpEWE5YT09nX3ZUcHdwUU9ib2N0cm1mY1o2cmJQR2pUSTk?oc=5",
+"t": "2026-11-08T12:05+09:00",
+"tok": [
+"거듭",
+"도박",
+"선거",
+"오세훈",
+"우연의",
+"일치냐",
+"주식",
+"지방선거용",
+"폭락"
+],
+"g": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9rcW5qRFZWdnQ3MVRQTW4wbmxPMTFHZ0h4V2FkV01JU1p1b0ZKWUZwME9iUkNXZDFQMmRmOVBQYnVHdW9GbFZ1SWdvWmNLVTJFbnEtX1BvSVg4a1FLbEY4em9pdTVWdTVsc3gxZk5UY0owT0s3enJB?oc=5"
 }
 ]
 }
