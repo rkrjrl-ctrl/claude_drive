@@ -70,6 +70,21 @@ def round_now():
     return "2차", NOW.replace(hour=h, minute=mi, second=0, microsecond=0)
 
 
+def sync():
+    """main 최신으로 맞춘다. 클라우드는 브랜치 없이(분리된 HEAD) 받아서 pull이 안 되므로 fetch + rebase로 한다(11/8)."""
+    sh("git", "fetch", "-q", "origin", "main")
+    return sh("git", "rebase", "-q", "--autostash", "origin/main")
+
+
+def push():
+    """어느 상태에서든 main으로 보낸다. 거절되면 한 번 맞춘 뒤 다시."""
+    p = sh("git", "push", "-q", "origin", "HEAD:main")
+    if p.returncode:
+        sync()
+        p = sh("git", "push", "-q", "origin", "HEAD:main")
+    return p
+
+
 def collect():
     """수집을 바로 돌리고 끝날 때까지 기다린다(최대 6분). 실패해도 있는 자료로 진행."""
     t0 = datetime.datetime.now(datetime.timezone.utc)
@@ -141,7 +156,7 @@ def prep():
         print("끝: 오늘 할 추천이 없음(이미 2차까지 있거나, 오전인데 1차가 이미 있음)")
         return 3
     note = collect()
-    sh("git", "pull", "--rebase", "-q")
+    sync()
     board = json.load(open(os.path.join(NEWS, "board.json"), encoding="utf-8"))
     rows = recent_rows(since)
     done = picked_titles()
@@ -255,7 +270,11 @@ def pdf_links(page, base):
 
 
 def pdf_text(url):
-    import pypdfium2 as pdfium   # 이 PC·액션에 있는 PDF 글자 뽑기
+    try:
+        import pypdfium2 as pdfium   # 이 PC·액션에 있는 PDF 글자 뽑기
+    except ModuleNotFoundError:      # 클라우드 예약에는 없어서 한 번 설치한다(11/8)
+        subprocess.run([sys.executable, "-m", "pip", "install", "-q", "pypdfium2"], capture_output=True)
+        import pypdfium2 as pdfium
     data = get(url, timeout=40)[0]
     if not data.startswith(b"%PDF"):
         return ""
@@ -313,7 +332,7 @@ def save(path, titles=None):
         print("오류: 파일 첫 줄이 「## 1차 추천 (HH:MM)」 또는 「## 2차 보충 (HH:MM)」이 아님")
         return 2
     rnd = m.group(1)[:2]
-    sh("git", "pull", "--rebase", "-q")
+    sync()
     md = open(MD, encoding="utf-8").read().rstrip() + "\n\n" if os.path.exists(MD) else f"# {TODAY} 영상 소재\n\n"
     if f"## {m.group(1)}" in md:
         print(f"오류: 오늘 글에 이미 「{m.group(1)}」이 있음")
@@ -340,10 +359,7 @@ def save(path, titles=None):
     msg = f"briefs: {TODAY} {m.group(1)}" + ("" if names else "(보충 없음)")
     sh("git", "add", MD, PICKS, check=True)
     sh("git", "commit", "-q", "-m", msg + "\n\nCo-Authored-By: Claude <noreply@anthropic.com>", check=True)
-    p = sh("git", "push", "-q")
-    if p.returncode:
-        sh("git", "pull", "--rebase", "-q")
-        p = sh("git", "push", "-q")
+    p = push()
     print(f"저장: {os.path.relpath(MD, ROOT)} + picks.csv {len(names)}줄, 커밋「{msg}」, 푸시 {'성공' if not p.returncode else '실패: ' + p.stderr.strip()}")
     return 0
 
