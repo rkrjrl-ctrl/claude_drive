@@ -1,7 +1,8 @@
 """휴대폰 알림(ntfy). 11/3 사용자: 헤드라인으로 이슈를 계속 훑으려는 알림이라 좀 많아도 괜찮다.
 
   python scripts/notify.py news            # 수집 직후(news-collect 액션): 새 단독·속보·주목·관련 보도자료
-  python scripts/notify.py picks <md 파일>  # 추천 글이 올라오면(news-picks-notify 액션): 1차 추천·2차 보충
+  python scripts/notify.py picks <md 파일>  # (옛 방식) 추천 글이 올라오면: 1차 추천·2차 보충
+  python scripts/notify.py summary <md 파일> <옛 md> <옛 updates.csv>  # 11/8~: 11시·17시 소재판 요약(새 소재·덧붙임·마감 임박)
 
 받는 주제 이름은 깃허브 비밀값 NTFY_TOPIC에만 둔다(공개 저장소라 코드에 적으면 누구나 구독한다).
 알림 하나에 헤드라인 하나, 누르면 기사가 열린다. 같은 사건은 한 번만 보낸다(news/notified.json).
@@ -474,8 +475,90 @@ def run_picks(path, old_path=None):
     print("추천 알림 보냄:", title)
 
 
+# ---------------- 소재판 요약(11/8) ----------------
+# 사용자: 11시·17시 알림은 「소재판 요약 + 이번에 새로 들어오거나 덧붙은 것」. 보드(news_board.html)와 같은 규칙으로 센다.
+URGENT_DAYS = 3
+
+
+def _csv(path):
+    if not path or not os.path.exists(path):
+        return []
+    with open(path, encoding="utf-8-sig", newline="") as f:
+        return list(csv.DictReader(f))
+
+
+def _days(a, b):
+    return (datetime.date.fromisoformat(a) - datetime.date.fromisoformat(b)).days
+
+
+def open_picks(rows, today):
+    out = []
+    for r in rows:
+        if r.get("decision") in ("제작", "안 함"):
+            continue
+        dl = r.get("deadline", "")
+        if dl and dl < today:
+            continue
+        if not dl and r.get("timing") == "급함" and _days(today, r["date"]) > URGENT_DAYS:
+            continue
+        out.append(r)
+    return out
+
+
+def new_section_picks(path, old_path):
+    """이번 푸시로 새로 붙은 묶음(1차·2차)의 소재 제목과 「보충 없음」 이유."""
+    if not path or not os.path.exists(path):
+        return None, [], ""
+    md = open(path, encoding="utf-8").read()
+    old = open(old_path, encoding="utf-8").read() if old_path and os.path.exists(old_path) else ""
+    secs = re.split(r"(?m)^## ", md)
+    if len(secs) < 2 or secs[-1].splitlines()[0].strip() in re.findall(r"(?m)^## (.*)$", old):
+        return None, [], ""
+    last = secs[-1]
+    head = last.splitlines()[0].strip()
+    picks = [re.sub(r"\s+—\s+.*$", "", h).strip() for h in re.findall(r"(?m)^### ([①-⑩].*)$", last)]
+    none = re.search(r"(?m)^- (보충 없음|오늘은 없음)(.*)$", last)
+    return head, picks, (none.group(0)[2:] if none else "")
+
+
+def run_summary(md_path="", old_md="", old_updates=""):
+    if not TOPIC and not os.environ.get("NTFY_DRY"):
+        print("NTFY_TOPIC이 없어 건너뜀")
+        return
+    today = datetime.datetime.now(KST).strftime("%Y-%m-%d")
+    base = os.path.join(ROOT, "briefs", "news")
+    rows = _csv(os.path.join(base, "picks.csv"))
+    title_of = {r["date"] + r.get("no", ""): r["title"] for r in rows}
+    seen = {(a["at"], a["date"], a["no"], a["text"]) for a in _csv(old_updates)}
+    adds = [a for a in _csv(os.path.join(base, "updates.csv")) if (a["at"], a["date"], a["no"], a["text"]) not in seen]
+    head, picks, none = new_section_picks(md_path, old_md)
+    if head is None and not adds:
+        print("새 묶음·덧붙임이 없어(글 손질) 알림 생략")
+        return
+    op = open_picks(rows, today)
+    soon = [r for r in op if (_days(r["deadline"], today) <= 7 if r.get("deadline") else r.get("timing") == "급함")]
+    soon.sort(key=lambda r: r.get("deadline") or "0")
+    lines = [f"새 · {p}" for p in picks]
+    lines += [f"추가 · {title_of.get(a['date'] + a['no'], a['date'][5:] + ' ' + a['no'])}: {a['text'][:70]}" for a in adds]
+    if not picks and not adds:
+        lines.append(none or "이번엔 새 소재·덧붙임이 없어요.")
+    if soon:
+        lines.append("")
+        for r in soon[:4]:
+            d = r.get("deadline")
+            due = ("오늘까지" if _days(d, today) == 0 else f"D-{_days(d, today)}") if d else "빨리"
+            lines.append(f"마감 {due} · {r['title']}")
+    when = (head.split("(")[0].strip() + " · ") if head else ""
+    title = f"소재판 {when}고를 것 {len(op)} · 새 {len(picks)} · 추가 {len(adds)}"
+    send(title, "\n".join(lines), BOARD_URL + "#picks", ["clapper"], priority=4)
+    print("소재판 요약 알림 보냄:", title)
+
+
 if __name__ == "__main__":
-    if len(sys.argv) >= 3 and sys.argv[1] == "picks":
+    if len(sys.argv) >= 2 and sys.argv[1] == "summary":
+        a = sys.argv[2:] + ["", "", ""]
+        run_summary(a[0], a[1], a[2])
+    elif len(sys.argv) >= 3 and sys.argv[1] == "picks":
         run_picks(sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else None)
     elif len(sys.argv) >= 4 and sys.argv[1] == "digest-test":
         run_digest_test(sys.argv[2], sys.argv[3])

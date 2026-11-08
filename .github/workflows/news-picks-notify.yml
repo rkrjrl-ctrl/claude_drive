@@ -1,11 +1,13 @@
 name: news-picks-notify
 
-# 영상 소재 추천 글(briefs/news/날짜.md)에 새 묶음(1차 추천·2차 보충)이 올라오면 휴대폰 알림(11/3)
+# 11시·17시 추천이 올라오면(briefs/news/날짜.md 새 묶음, 또는 기존 소재에 덧붙인 updates.csv)
+# 소재판 요약 알림 한 통: 새 소재·덧붙임·마감 임박(11/8, 처음은 11/3 추천 알림)
 on:
   push:
     branches: [main]
     paths:
       - "briefs/news/2*.md"
+      - "briefs/news/updates.csv"
 
 permissions:
   contents: read
@@ -23,11 +25,12 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: 추천 알림
+      - name: 소재판 요약 알림
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: |
-          for f in $(git diff --name-only HEAD~1 HEAD -- 'briefs/news/2*.md'); do
-            git show "HEAD~1:$f" > "$RUNNER_TEMP/old.md" 2>/dev/null || : > "$RUNNER_TEMP/old.md"
-            python scripts/notify.py picks "$f" "$RUNNER_TEMP/old.md"
-          done
+          f=$(git diff --name-only HEAD~1 HEAD -- 'briefs/news/2*.md' | tail -1)
+          : > "$RUNNER_TEMP/old.md"
+          if [ -n "$f" ]; then git show "HEAD~1:$f" > "$RUNNER_TEMP/old.md" 2>/dev/null || :; fi
+          git show "HEAD~1:briefs/news/updates.csv" > "$RUNNER_TEMP/old_updates.csv" 2>/dev/null || : > "$RUNNER_TEMP/old_updates.csv"
+          python scripts/notify.py summary "$f" "$RUNNER_TEMP/old.md" "$RUNNER_TEMP/old_updates.csv"

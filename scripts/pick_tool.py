@@ -3,6 +3,7 @@
   python scripts/pick_tool.py prep            # 몇 차인지 판단 → 수집 실행·기다림 → pull → 후보 30건 안팎 + 이미 고른 것
   python scripts/pick_tool.py fetch G1 I3     # 후보 번호(또는 주소)의 본문 + 첨부 PDF 글자(번호마다 앞부분만)
   python scripts/pick_tool.py save <파일.md> [--titles "제목1|제목2"]   # 오늘 글에 덧붙이고 picks.csv·커밋·푸시
+                                                                    # 파일 끝 「## 추가」 묶음은 updates.csv로(기존 소재에 덧붙임)
 
 판단(무엇을 고를지, 숫자가 맞는지)은 Claude가 하고, 정해진 일(수집 기다리기·거르기·글자 뽑기·저장)은 여기서 한다.
 """
@@ -27,6 +28,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NEWS = os.path.join(ROOT, "news")
 BRIEFS = os.path.join(ROOT, "briefs", "news")
 PICKS = os.path.join(BRIEFS, "picks.csv")
+UPDATES = os.path.join(BRIEFS, "updates.csv")   # 기존 소재에 덧붙인 새 소식(11/8): at,date,no,text
 # 이미 만든 영상(없으면 건너뜀). 클라우드 예약에서는 받아 둔 claude-skills 위치를 CONTENT_STATUS로 준다(11/4).
 STATUS = os.environ.get("CONTENT_STATUS") or os.path.expanduser("~/.claude/skills/_memory/content-status.md")
 CACHE = os.path.join(tempfile.gettempdir(), "pick_candidates.json")
@@ -140,7 +142,7 @@ def picked_titles(days=14):
         return []
     lim = (NOW - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
     with open(PICKS, encoding="utf-8-sig", newline="") as f:
-        return [(r["date"], r["title"], r.get("decision", "")) for r in csv.DictReader(f) if r["date"] >= lim]
+        return [(r["date"], r["title"], r.get("decision", ""), r.get("no", "")) for r in csv.DictReader(f) if r["date"] >= lim]
 
 
 def made_videos():
@@ -160,14 +162,28 @@ def prep():
     board = json.load(open(os.path.join(NEWS, "board.json"), encoding="utf-8"))
     rows = recent_rows(since)
     done = picked_titles()
-    done_tok = [tokens(t) for _, t, _ in done]
-    cands = []
+    done_tok = [tokens(t) for _, t, _, _ in done]
+    cands, follow = [], []
 
     def add(kind, item, line, link):
-        if any(same(tokens(item), d) for d in done_tok):
+        tk, flat = tokens(item), re.sub(r"\s+", "", item)
+        hit = None
+        for p, d in zip(done, done_tok):
+            if same(tk, d):
+                hit = (p, True)
+                break
+            if hit is None and sum(1 for w in d if w in flat) >= 3:
+                hit = (p, False)
+        if hit and hit[0][2] == "후보":
+            # 11/8: 아직 안 만든 소재의 후속 소식은 버리지 않고 따로 보여 준다(바뀐 사실이 있으면 「## 추가」로 덧붙인다)
+            p = hit[0]
+            cid = f"F{len(follow) + 1}"
+            follow.append(f"[{cid}] {line}\n     → {p[0][5:]} {p[3]} {p[1]}")
+            cands.append({"id": cid, "title": item, "link": link, "alts": alt_links(item, rows) if "news.google.com" in link else []})
             return
-        flat = re.sub(r"\s+", "", item)
-        if any(sum(1 for w in d if w in flat) >= 3 for d in done_tok):   # 표현만 다른 같은 소식(빼지 않고 표시)
+        if hit and hit[1]:
+            return
+        if hit:   # 만든·뺀 소재와 표현만 다른 같은 소식(빼지 않고 표시)
             line = "≈이미 추천 · " + line
         cid = f"{kind}{sum(1 for c in cands if c['id'][0] == kind) + 1}"
         alts = alt_links(item, rows) if "news.google.com" in link else []
@@ -195,9 +211,11 @@ def prep():
             k += 1
             if k >= n:
                 break
+    print("\n## 이미 있는 소재의 새 소식(아직 안 만든 소재와 겹치는 기사, F번호로 fetch)")
+    print("\n".join(follow) if follow else "- 없음")
     print("\n## 이미 추천한 것(최근 14일, 겹치면 빼기)")
-    for d, t, dec in done:
-        print(f"- {d[5:]} {t} ({dec})")
+    for d, t, dec, no in done:
+        print(f"- {d[5:]} {no} {t} ({dec})")
     mv = made_videos()
     if mv:
         print("\n## 이미 만든 영상·접은 기획")
@@ -205,6 +223,9 @@ def prep():
     json.dump({"round": rnd, "cands": cands}, open(CACHE, "w", encoding="utf-8"), ensure_ascii=False)
     print(f"\n(후보 {len(cands)}건. 본문은 `python scripts/pick_tool.py fetch <번호…>`)")
     # 11/8 주간 소재판: 보드가 기한순으로 정렬한다. 예약 작업 지시문에 없는 줄이라 여기서 알린다.
+    print("(덧붙이기: 「새 소식」 중 기존 소재의 사실이 바뀌었으면(시행일 확정·금액 변경·1차 출처 공개·신청 창구 등) fetch로 확인한 뒤, "
+          "저장 파일 맨 끝에 `## 추가` 묶음을 두고 `- <소재 날짜 YYYY-MM-DD> <번호> | <바뀐 사실 한두 문장, 출처>` 줄을 쓴다. "
+          "같은 얘기를 되풀이한 기사는 덧붙이지 않는다. 새 소재가 없어도 덧붙일 것만 있으면 「보충 없음」 묶음 + 「## 추가」로 저장한다.)")
     print("(형식 추가: 신청 마감·시행일처럼 그날이 지나면 소재 가치가 떨어지는 날이 있으면, 각 소재의 「한 줄 요약」 바로 아래에 "
           "`- **기한:** YYYY-MM-DD` 한 줄을 넣는다. 원문에서 확인한 날짜만 쓰고, 없으면 그 줄을 뺀다.)")
     return 0
@@ -332,6 +353,16 @@ def save(path, titles=None):
         print("오류: 파일 첫 줄이 「## 1차 추천 (HH:MM)」 또는 「## 2차 보충 (HH:MM)」이 아님")
         return 2
     rnd = m.group(1)[:2]
+    adds = []
+    ma = re.search(r"(?m)^## 추가\s*$", sec)
+    if ma:
+        for ln in sec[ma.end():].splitlines():
+            a = re.match(r"-\s*(\d{4}-\d{2}-\d{2})\s+([①-⑩])\s*\|\s*(.+)$", ln.strip())
+            if a:
+                adds.append([NOW.strftime("%Y-%m-%dT%H:%M"), a.group(1), a.group(2), a.group(3).strip()])
+            elif ln.strip():
+                print(f"경고: 「## 추가」 줄 형식이 달라 건너뜀: {ln.strip()[:60]}")
+        sec = sec[:ma.start()].rstrip() + "\n"
     sync()
     md = open(MD, encoding="utf-8").read().rstrip() + "\n\n" if os.path.exists(MD) else f"# {TODAY} 영상 소재\n\n"
     if f"## {m.group(1)}" in md:
@@ -356,11 +387,18 @@ def save(path, titles=None):
             for k, n in enumerate(names):
                 no, _, tm, dl = items[k] if k < len(items) else ["", "", "", ""]
                 w.writerow([TODAY, n, "후보", rnd, no, tm, dl])
-    msg = f"briefs: {TODAY} {m.group(1)}" + ("" if names else "(보충 없음)")
-    sh("git", "add", MD, PICKS, check=True)
+    if adds:
+        new = not os.path.exists(UPDATES)
+        with open(UPDATES, "a", encoding="utf-8", newline="") as f:
+            w = csv.writer(f, lineterminator="\n")
+            if new:
+                w.writerow(["at", "date", "no", "text"])
+            w.writerows(adds)
+    msg = f"briefs: {TODAY} {m.group(1)}" + ("" if names else "(보충 없음)") + (f" + 추가 {len(adds)}" if adds else "")
+    sh("git", "add", MD, PICKS, *([UPDATES] if adds else []), check=True)
     sh("git", "commit", "-q", "-m", msg + "\n\nCo-Authored-By: Claude <noreply@anthropic.com>", check=True)
     p = push()
-    print(f"저장: {os.path.relpath(MD, ROOT)} + picks.csv {len(names)}줄, 커밋「{msg}」, 푸시 {'성공' if not p.returncode else '실패: ' + p.stderr.strip()}")
+    print(f"저장: {os.path.relpath(MD, ROOT)} + picks.csv {len(names)}줄, 추가 {len(adds)}줄, 커밋「{msg}」, 푸시 {'성공' if not p.returncode else '실패: ' + p.stderr.strip()}")
     return 0
 
 

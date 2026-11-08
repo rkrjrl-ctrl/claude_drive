@@ -95,6 +95,15 @@
   .wk .it-meta{ font-size:12px; color:var(--ink-muted); margin-top:3px; }
   .wk .md{ margin:0 0 12px; }
   .wk .md h3{ display:none; }
+  .strip{ display:flex; flex-wrap:wrap; gap:6px 12px; align-items:center; margin:0 0 12px; padding:10px 14px;
+    border:1px solid var(--hot); border-radius:12px; background:var(--hot-fill); font-size:13px; }
+  .strip b{ color:var(--hot); }
+  .strip a{ color:var(--ink-primary); text-decoration:none; display:inline-flex; gap:6px; align-items:center; overflow-wrap:anywhere; }
+  .strip a:hover{ text-decoration:underline; }
+  .wk .adds{ margin:0 0 10px; display:flex; flex-direction:column; gap:6px; }
+  .wk .add{ font-size:14px; padding:8px 10px; border-left:3px solid var(--new); background:var(--new-fill); border-radius:0 8px 8px 0; overflow-wrap:anywhere; }
+  .wk .add b{ color:var(--new); margin-right:6px; font-size:12px; }
+  .wk details.item{ scroll-margin-top:12px; }
   .fold{ margin-top:14px; }
   .fold > summary{ cursor:pointer; font-size:14px; font-weight:600; color:var(--ink-secondary); padding:6px 0; }
   .md{ margin-top:12px; padding-top:12px; border-top:1px solid var(--grid-line); font-size:14px; overflow-wrap:anywhere; }
@@ -163,7 +172,7 @@
   </div>
 
   <section id="picksPanel" hidden>
-  <p class="sub">Claude가 원문을 확인하고 고른 소재 중 아직 안 만든 것을 기한이 가까운 순으로 모았어요. 제목을 누르면 요약이 펼쳐져요. 기한이 지나면 「지나감」으로 내려가요.</p>
+  <p class="sub">Claude가 매일 11시·17시에 고른 소재 중 아직 안 만든 것이에요. 새로 들어오거나 새 소식이 덧붙은 소재가 맨 위로 올라와요. 7일 안에 마감인 소재는 맨 위 띠에 모았어요. 제목을 누르면 덧붙인 소식과 요약이 펼쳐져요.</p>
   <div id="picks"><div class="empty">불러오는 중…</div></div>
   </section>
 
@@ -265,10 +274,17 @@
     if(!r.deadline && r.timing === "급함" && dayDiff(today, r.date) > URGENT_DAYS) return "past";
     return "open";
   }
-  function sortKey(r){
-    if(r.deadline) return r.deadline;
-    if(r.timing === "급함") return "0000";          // 기한 없는 급함은 맨 위
-    return "9999-" + (r.timing === "시행일" ? "1" : "2");
+  // 11/8 사용자 「추가된 게 먼저 보이게 위로 쌓고 기존 것들이 아래로」: 마지막으로 움직인 시각(새 추천·덧붙인 소식) 역순
+  function lastAt(r){
+    var u = r._adds && r._adds.length ? r._adds[0].at : "";
+    var base = r.date + (r.round === "2차" ? "T17:00" : "T11:00");
+    return u > base ? u : base;
+  }
+  function imminent(r, today){ return r.deadline ? dayDiff(r.deadline, today) <= 7 : r.timing === "급함"; }
+  function shortDue(r, today){
+    if(!r.deadline) return "빨리";
+    var n = dayDiff(r.deadline, today);
+    return n === 0 ? "오늘까지" : "D-" + n;
   }
   function dueChip(r, today){
     if(r.deadline){
@@ -289,12 +305,17 @@
     }
     return out.join("\n");
   }
+  function kstShort(at){ return md5(at.slice(0, 10)) + " " + at.slice(11, 16); }
   function itemHtml(r, today, showDue){
-    return '<details class="item" data-date="' + esc(r.date) + '" data-no="' + esc(r.no) + '"><summary>' +
+    var adds = r._adds || [], recent = adds.length && dayDiff(today, adds[0].at.slice(0, 10)) <= 1;
+    return '<details class="item" id="pk-' + esc(r.date + r.no) + '" data-date="' + esc(r.date) + '" data-no="' + esc(r.no) + '"><summary>' +
       '<div class="due">' + (showDue ? dueChip(r, today) : decisionPill(r.decision)) + "</div>" +
       '<div class="body"><div class="it-title">' + esc(r.title) + "</div>" +
-      '<div class="it-meta">' + md5(r.date) + " " + esc(r.round || "") + " 추천" + (r.timing ? " · " + esc(r.timing === "시행일" ? "시행일 맞춰" : r.timing) : "") + "</div></div>" +
-      '</summary><div class="md"></div></details>';
+      '<div class="it-meta">' + (adds.length ? '<span class="pill ' + (recent ? "new" : "") + '">추가 ' + adds.length + " · " + kstShort(adds[0].at) + "</span> " : "") +
+      md5(r.date) + " " + esc(r.round || "") + " 추천" + (r.timing ? " · " + esc(r.timing === "시행일" ? "시행일 맞춰" : r.timing) : "") + "</div></div>" +
+      "</summary>" +
+      (adds.length ? '<div class="adds">' + adds.map(function(a){ return '<div class="add"><b>추가 ' + kstShort(a.at) + "</b> " + esc(a.text) + "</div>"; }).join("") + "</div>" : "") +
+      '<div class="md"></div></details>';
   }
   function bindItems(root){
     root.querySelectorAll("details.item").forEach(function(el){
@@ -314,24 +335,29 @@
   }
   function loadPicks(){
     var box = document.getElementById("picks");
-    return get("briefs/news/picks.csv").then(function(text){
+    return Promise.all([get("briefs/news/picks.csv"), get("briefs/news/updates.csv").catch(function(){ return ""; })]).then(function(res){
+      var text = res[0], adds = res[1] ? parseCsv(res[1]) : [], byKey = {};
+      adds.forEach(function(a){ (byKey[a.date + a.no] = byKey[a.date + a.no] || []).push(a); });
+      Object.keys(byKey).forEach(function(k){ byKey[k].sort(function(a, b){ return a.at < b.at ? 1 : -1; }); });   // 최신 덧붙임이 위
       var rows = parseCsv(text), byDate = {};
+      rows.forEach(function(r){ r._adds = byKey[r.date + r.no] || []; });
       rows.forEach(function(r){ (byDate[r.date] = byDate[r.date] || []).push(r); });
       var dates = Object.keys(byDate).sort().reverse().slice(0, 14);
       if(!dates.length){ box.innerHTML = '<div class="empty">아직 추천이 없어요.</div>'; return; }
       var today = new Date(Date.now() + 9*3600000).toISOString().slice(0, 10), bp = document.getElementById("badgePicks");
       var g = { open:[], made:[], past:[], drop:[] };
       rows.forEach(function(r){ g[pickStatus(r, today)].push(r); });
-      g.open.sort(function(a, b){ var x = sortKey(a), y = sortKey(b); return x < y ? -1 : x > y ? 1 : (a.date < b.date ? 1 : -1); });
-      ["made", "past", "drop"].forEach(function(k){ g[k].sort(function(a, b){ return a.date < b.date ? 1 : -1; }); });
-      var soon = g.open.filter(function(r){ return r.timing === "급함" || (r.deadline && dayDiff(r.deadline, today) <= 7); }).length;
-      var fresh = g.open.filter(function(r){ return dayDiff(today, r.date) <= 1; }).length;
+      ["open", "made", "past", "drop"].forEach(function(k){ g[k].sort(function(a, b){ var x = lastAt(a), y = lastAt(b); return x < y ? 1 : x > y ? -1 : (a.no > b.no ? 1 : -1); }); });
+      var soonList = g.open.filter(function(r){ return imminent(r, today); }).sort(function(a, b){ return (a.deadline || "0") < (b.deadline || "0") ? -1 : 1; });
+      var fresh = g.open.filter(function(r){ return dayDiff(today, lastAt(r).slice(0, 10)) <= 1; }).length;
       bp.textContent = g.open.length ? "고를 것 " + g.open.length : "";
-      bp.className = "badge" + (soon ? " new" : "");
+      bp.className = "badge" + (soonList.length ? " new" : "");
       var html = '<div class="wk-sum"><span class="pill cand">고를 것 ' + g.open.length + "건</span>" +
-        (soon ? '<span class="pill hot">급하거나 7일 안 기한 ' + soon + "건</span>" : "") +
-        (fresh ? '<span class="pill new">어제·오늘 새로 ' + fresh + "건</span>" : "") +
+        (fresh ? '<span class="pill new">어제·오늘 새로·추가 ' + fresh + "건</span>" : "") +
         '<span class="pill made">만든 것 ' + g.made.length + "건</span></div>";
+      if(soonList.length) html += '<div class="strip"><b>마감 임박</b>' + soonList.map(function(r){
+        return '<a href="#pk-' + esc(r.date + r.no) + '" data-k="pk-' + esc(r.date + r.no) + '"><span class="pill hot">' + shortDue(r, today) + "</span>" + esc(r.title) + "</a>";
+      }).join("") + "</div>";
       html += g.open.length ? '<div class="card wk">' + g.open.map(function(r){ return itemHtml(r, today, true); }).join("") + "</div>"
         : '<div class="empty">지금 고를 소재가 없어요.</div>';
       if(g.made.length) html += '<details class="fold"><summary>만든 것 ' + g.made.length + '건</summary><div class="card wk">' + g.made.map(function(r){ return itemHtml(r, today, false); }).join("") + "</div></details>";
@@ -340,6 +366,12 @@
       html += '<details class="fold" id="byDay"><summary>날짜별 기록(최근 ' + dates.length + '일)</summary><div id="dayCards"></div></details>';
       box.innerHTML = html;
       bindItems(box);
+      box.querySelectorAll(".strip a").forEach(function(a){
+        a.addEventListener("click", function(e){
+          var el = document.getElementById(a.dataset.k); if(!el) return;
+          e.preventDefault(); el.open = true; el.scrollIntoView({ behavior:"smooth", block:"start" });
+        });
+      });
       document.getElementById("dayCards").innerHTML = dates.map(function(d, i){
         var w = "일월화수목금토"[new Date(d + "T12:00:00+09:00").getDay()];
         return '<details class="card day" data-date="' + d + '">' +
@@ -434,6 +466,8 @@
     this.querySelectorAll("button").forEach(function(b){ b.classList.toggle("on", b === t); b.setAttribute("aria-selected", b === t); });
     ["general", "govPanel", "picksPanel"].forEach(function(id){ document.getElementById(id).hidden = id !== t.dataset.p; });
   });
+  // 알림의 「…news.html#picks」로 열면 추천 탭(소재판)부터 보여 준다(11/8)
+  if(location.hash === "#picks") document.querySelector('#subtabs [data-p="picksPanel"]').click();
   document.getElementById("trackSeg").addEventListener("click", function(e){
     var t = e.target.closest("button"); if(!t) return;
     state.track = t.dataset.t; state.candN = 20;
