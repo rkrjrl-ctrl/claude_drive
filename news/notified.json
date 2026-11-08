@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T19:05+09:00",
+"updated": "2026-11-08T20:05+09:00",
 "items": [
 {
 "kind": "gov",
@@ -6864,6 +6864,88 @@
 "필수의료",
 "호텔"
 ]
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBxaHNDdnd1YWRUQlhvaUhiaG5uS3RpZG9Wak8wTkxwVVFLZVpqSU9DbEZVMHE2SmM4X0trWDlicFMwSGFWREhBZXBIdjl2eW9QRXfSAVNBVV95cUxQQkdrWmNIRnRCcGV4bWd4U3RNWjVVMERrNEVlNzFoelpmUnFUMjVFRlFjVmZDVXJYZFdVUjQtQ29UcklxdnBMTl9zTGZLaEI0WFJjNA?oc=5",
+"t": "2026-11-08T20:05+09:00",
+"tok": [
+"눈독",
+"로보택시",
+"속도내는",
+"실증",
+"엔비디아",
+"자율주행"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261108_0003859520",
+"t": "2026-11-08T20:05+09:00",
+"tok": [
+"14억",
+"구분",
+"실거주",
+"없이",
+"요구",
+"적용",
+"정부에",
+"종부세"
+],
+"g": "https://www.newsis.com/view/NISX20261108_0003859520"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Vdkp0bUdaNkcyX1lKM1hxTkVsLXEwc0V3QWpDSzJ4LXhMeExlMVRUaWNpdTk0dVE2cHluOUI4VzEtcGdFOTkxRFlnWXdQR2RaYS1YcGRvRndoMUxlQV9yYzRlOUFpc2la?oc=5",
+"t": "2026-11-08T20:05+09:00",
+"tok": [
+"공격받아",
+"국제유가",
+"금융지구에",
+"긴장",
+"리야드",
+"발사체",
+"사우디",
+"수도",
+"아람코",
+"타워",
+"피해"
+],
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Vdkp0bUdaNkcyX1lKM1hxTkVsLXEwc0V3QWpDSzJ4LXhMeExlMVRUaWNpdTk0dVE2cHluOUI4VzEtcGdFOTkxRFlnWXdQR2RaYS1YcGRvRndoMUxlQV9yYzRlOUFpc2la?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBTVlNtR2pHUWpPdUw1RzN1Wm1hX19MSUlmS1dSNTVCTFBYOEVtRGREOXRfbmtWajZmejJyWkw3N3Vwc05QdXNBSTc5ZHFXbHZxSEJpSTJCdEvSAVhBVV95cUxQU1ZTbUdqR1FqT3VMNUczdVptYV9fTElJZktXUjU1QkxQWDhFbURkRDl0X25rVmo2ZnoyclpMNzd1cHNOUHVzQUk3OWRxV2x2cUhCaUkyQnRL?oc=5",
+"t": "2026-11-08T20:05+09:00",
+"tok": [
+"14억",
+"구분",
+"기준",
+"실거주",
+"없이",
+"요구",
+"적용",
+"정부에",
+"종부세"
+],
+"g": "https://www.newsis.com/view/NISX20261108_0003859520"
+},
+{
+"kind": "속보",
+"link": "https://www.donga.com/news/Politics/article/all/20261108/134987799/2",
+"t": "2026-11-08T20:05+09:00",
+"tok": [
+"14억",
+"강력",
+"구분",
+"실거주",
+"없이",
+"요구",
+"적용",
+"정부에",
+"종부세"
+],
+"g": "https://www.newsis.com/view/NISX20261108_0003859520"
 }
 ]
 }
