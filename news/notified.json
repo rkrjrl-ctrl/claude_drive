@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T14:05+09:00",
+"updated": "2026-11-08T15:06+09:00",
 "items": [
 {
 "kind": "gov",
@@ -6705,6 +6705,35 @@
 "오세훈",
 "주식",
 "지방선거용"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZMU41Vld4NlZ5eXZkanNKSm1EM3FDbldaNUkwMVVjZjRrOXZ2dzI3Qkl3a2FvWVZqX2N4V0R5OTV0S3hSdUR2M2VZNm9EVFBfejBGS25oOTN0X1hDZ0l0aFpYNU5HY1FvdnRlYw?oc=5",
+"t": "2026-11-08T15:06+09:00",
+"tok": [
+"급증",
+"매물",
+"서울",
+"아파트"
+],
+"g": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZMU41Vld4NlZ5eXZkanNKSm1EM3FDbldaNUkwMVVjZjRrOXZ2dzI3Qkl3a2FvWVZqX2N4V0R5OTV0S3hSdUR2M2VZNm9EVFBfejBGS25oOTN0X1hDZ0l0aFpYNU5HY1FvdnRlYw?oc=5"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4xWjJFaDNWeUllODhrbGpmQkIxcWJSZi1fMFZEbkdHWXUzQkZjZFk5WE0xdEdnRjE5b09UMnQ5dXhTdUFaQXFkbXU2TjhWaU9lVWJ3bkc2dmk4czZ2aWNsY0NLV3lYQnEzZVF0OFFPY9IBb0FVX3lxTE4xWjJFaDNWeUllODhrbGpmQkIxcWJSZi1fMFZEbkdHWXUzQkZjZFk5WE0xdEdnRjE5b09UMnQ5dXhTdUFaQXFkbXU2TjhWaU9lVWJ3bkc2dmk4czZ2aWNsY0NLV3lYQnEzZVF0OFFPYw?oc=5",
+"t": "2026-11-08T15:06+09:00",
+"tok": [
+"강남",
+"꺾이고",
+"뛰었다",
+"상승축",
+"서대문",
+"서울",
+"성북",
+"외곽",
+"이동",
+"집값"
 ]
 }
 ]
