@@ -1,9 +1,9 @@
 # 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-09 02:05 KST  /  최근 7일 24101건 (보험·의료 3563 · 투자·경제 13723 · 생활·사회 6507)  /  이번 신규 306건
+- 갱신: 2026-11-09 03:05 KST  /  최근 7일 24123건 (보험·의료 3565 · 투자·경제 13727 · 생활·사회 6523)  /  이번 신규 305건
 - 소스 79곳 + 구글뉴스 키워드 110개(보험·의료 45 · 투자·경제 45 · 생활 20)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 없음
+- 수집 실패 소스: 머니투데이
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
@@ -13,7 +13,7 @@
 - (7) 11-02 이투데이 — [초기 실손보험료 최대 40% 할인…이달부터 시행](https://news.google.com/rss/articles/CBMibkFVX3lxTE81VkJnWG1IcHV2VGZOVnZGNEdyN1ZudjZhcXdMMkpJR084NUhoRmxLMjdsYzU2dnJMUHN6czRqZ3JPbVNIbEdxRnAtTDQ2ajRIbUxXVGtUZTh1UExTWG5PUklHdHhjSzNwU3VWUW13?oc=5) — **외 1건**(2개 매체)
 
 **암·질병 보장 상품** (사건 17개)
-- (5) 11-05 울산시민신문 — [국민건강보험공단은 간호·간병통합서비스 우수기관 38곳 선정](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlV3pLaTNYRGlMLVlleWRsVVNSejZ6aWtaOHA2MFBBNThqQjhXajdCRG82RnN0NFdXdl9zZmFBYU0yVUNmbWNaTnRvV1hnWWhaYTNLbzRoM3dTay1nclc0MWFvSXowVk0?oc=5) — **외 6건**(7개 매체)
+- (5) 11-05 울산시민신문 — [국민건강보험공단은 간호·간병통합서비스 우수기관 38곳 선정](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlV3pLaTNYRGlMLVlleWRsVVNSejZ6aWtaOHA2MFBBNThqQjhXajdCRG82RnN0NFdXdl9zZmFBYU0yVUNmbWNaTnRvV1hnWWhaYTNLbzRoM3dTay1nclc0MWFvSXowVk0?oc=5) — **외 7건**(8개 매체)
 - (6) 11-02 포인트데일리 — [KDB생명, 치매·간병 보장 강화한 연금보험 출시](https://news.google.com/rss/articles/CBMicEFVX3lxTE9QRUpobDdlNEkwOGdhdzNVUGFCSHdyOEc3dmdJdG9iUE5MLWJOMmxwYXlyM1VnS2d2bjBwRHRlQ3ZybnY5OUlMeVRWcERFQlJHelNFYm9KRXRzWEFPZHNyeUlHbGxfZXZUZTNGSUVzSGfSAXRBVV95cUxNZ3YycVVPZExRanFwUTNZR0lPRWd1M05TTGQxVE9pang1clVkblJ6bFdaTmdzcS0wQWVHVFY4SU42MkZwUzdNRVhjMmhxREFQQkdoaDNxRVNoal82NVc3c214cW9xYmxDXy04Y2g4bGRkdmhzcg?oc=5) — **외 3건**(4개 매체)
 - (5) 11-05 핀포인트뉴스 — [ABL생명, 납입보험료 인출 가능한 종신보험 출시](https://news.google.com/rss/articles/CBMid0FVX3lxTE0tWUtOeDlJbTZZMmJMRU1UMmxIM180WlNQUi1hdjc3cjN3aVg0NFk3MVVnMTJlQXFneXZONk5uMV9YSGZFWFVwY2dPUkU4TmE4TmZ2M3NVcEFtVmY0RzdZcTQyQXVPamlnZlV1a0I3MUZMdUVyVVVZ0gF3QVVfeXFMTS1ZS054OUltNlkyYkxFTVQybEgzXzRaU1BSLWF2NzdyM3dpWDQ0WTcxVWcxMmVBcWd5dk42Tm4xX1hIZkVYVXBjZ09SRThOYThOZnYzc1VwQW1WZjRHN1lxNDJBdU9qaWdmVXVrQjcxRkx1RXJVVVk?oc=5) — **외 4건**(5개 매체)
 
@@ -210,4 +210,4 @@
 
 ## 언론사별 건수 상위 15
 
-연합뉴스 최신 1856, 토큰포스트 1011, 머니투데이 630, 뉴시스 사회 535, 인포맥스 420, 코인리더스 393, 아시아경제 368, 조선비즈 366, 연합뉴스 마켓 355, 파이낸셜뉴스 전체 353, 동아 사회 300, 뉴시스 금융 255, 뉴시스 정치 251, KBS 뉴스 248, 한국경제 금융 246
+연합뉴스 최신 1859, 토큰포스트 1013, 머니투데이 630, 뉴시스 사회 535, 인포맥스 420, 코인리더스 393, 아시아경제 369, 조선비즈 366, 연합뉴스 마켓 355, 파이낸셜뉴스 전체 353, 동아 사회 300, 뉴시스 금융 255, 뉴시스 정치 251, KBS 뉴스 248, 한국경제 금융 246
