@@ -1,83 +1,94 @@
 # 자동 감시 결과 (자동 생성 — 직접 수정 금지)
 
-- 실행일: 2026-11-07  /  감시 url 2334개  /  자료 2334건  /  이번에 확인 2097개(연속 실패로 쉼 237개, 시간 초과로 넘김 0개)
+- 실행일: 2026-11-08  /  감시 url 2334개  /  자료 2334건  /  이번에 확인 2096개(연속 실패로 쉼 238개, 시간 초과로 넘김 0개)
 - 이 파일은 **감지만** 한다. 원문 내용 확인·자료 갱신은 Claude Code가 한다.
 
-## 원문 변경 확정 (71건)
+## 원문 변경 확정 (82건)
 
-- MED-0092 — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3791
-- MED-0288 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13009686/
-- MED-0289 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13009690/
-- MED-0290 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12971177/
-- MED-0291 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13382552/
-- MED-0292 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13439306/
-- MED-0568 — https://www.who.int/news-room/fact-sheets/detail/ageing-and-health
-- MED-0572 — https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders
-- MED-0697 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-screening
-- MED-0698 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breastfeeding-primary-care-interventions
-- MED-0702 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/colorectal-cancer-screening
-- MED-0717 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/iron-deficiency-anemia-in-pregnant-women-screening-and-supplementation
-- MED-0721 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening
-- MED-0723 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-children-and-adolescents-screening
-- MED-0725 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/oral-health-adults-screening-preventive-interventions
-- MED-0737 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/speech-and-language-delay-and-disorders-in-children-age-5-and-younger-screening
-- MED-0811 — https://medlineplus.gov/analcancer.html
-- MED-0828 — https://medlineplus.gov/bloodclots.html
-- MED-0833 — https://medlineplus.gov/bonedensity.html
-- MED-0837 — https://medlineplus.gov/cancer.html
-- MED-0841 — https://medlineplus.gov/carpaltunnelsyndrome.html
-- MED-0856 — https://medlineplus.gov/colorectalcancer.html
-- MED-0869 — https://medlineplus.gov/developmentaldisabilities.html
-- MED-0872 — https://medlineplus.gov/diabetescomplications.html
-- MED-0873 — https://medlineplus.gov/diabetesmedicines.html
-- MED-0882 — https://medlineplus.gov/dislocatedshoulder.html
-- MED-0894 — https://medlineplus.gov/gastroenteritis.html
-- MED-0908 — https://medlineplus.gov/heartvalvediseases.html
-- MED-0910 — https://medlineplus.gov/hemorrhagicstroke.html
-- MED-0934 — https://medlineplus.gov/juvenilearthritis.html
-- MED-0936 — https://medlineplus.gov/kawasakidisease.html
-- MED-0968 — https://medlineplus.gov/oxygentherapy.html
-- MED-0984 — https://medlineplus.gov/prostatecancer.html
-- MED-0993 — https://medlineplus.gov/respiratoryfailure.html
-- MED-1023 — https://medlineplus.gov/vasculardiseases.html
-- MED-1032 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5495
-- MED-1036 — https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=3828
-- MED-1084 — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3768
-- MED-1293 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/osteoporosis-screening
-- MED-1296 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/aspirin-to-prevent-cardiovascular-disease-preventive-medication
-- MED-1323 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/syphilis-infection-in-pregnancy-screening
-- MED-1331 — https://www.nice.org.uk/guidance/ng258
-- MED-1333 — https://www.nice.org.uk/guidance/ng217
-- MED-1353 — https://pmc.ncbi.nlm.nih.gov/articles/PMC10982054/
-- MED-1354 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7354982/
-- MED-1355 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7541973/
-- MED-1356 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7840311/
-- MED-1357 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7542002/
-- MED-1369 — https://www.who.int/news-room/fact-sheets/detail/asbestos
-- MED-1373 — https://www.who.int/news-room/fact-sheets/detail/household-air-pollution-and-health
-- MED-1375 — https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults
-- MED-1380 — https://www.who.int/news-room/fact-sheets/detail/universal-health-coverage-(uhc)
-- MED-1399 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6609748/
-- MED-1456 — https://www.fsc.go.kr/no010101/76157
-- MED-1688 — https://www.fsc.go.kr/no010101/86831
-- MED-1750 — https://www.fsc.go.kr/no010101/84272
-- MED-1751 — https://www.fsc.go.kr/po020201/84273
-- MED-1752 — https://www.fsc.go.kr/no010101/85456
-- MED-1753 — https://www.fsc.go.kr/no010101/86709
-- MED-1823 — https://www.fsc.go.kr/no010101/79680
-- MED-2039 — https://www.fsc.go.kr/no010101/73088
-- MED-2041 — https://www.fsc.go.kr/no010101/71166
-- MED-2042 — https://www.fsc.go.kr/no010101/83985
-- MED-2259 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000286276
-- MED-2306 — https://www.fsc.go.kr/no010101/73428
-- MED-2307 — https://www.fsc.go.kr/no010101/82452
-- MED-2308 — https://www.fsc.go.kr/no010101/86831?part=consumer-protection
-- MED-2319 — https://www.fsc.go.kr/no010101/73753
-- MED-2320 — https://www.fsc.go.kr/no010101/76503
-- MED-2324 — https://www.fsc.go.kr/po020201/75644
-- MED-2325 — https://www.fsc.go.kr/no010101/87270
+- MED-0080 — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3753
+- MED-0089 — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3786
+- MED-0120 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=7&idx=0
+- MED-0121 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=8&idx=0
+- MED-0122 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=2&idx=0
+- MED-0123 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=6&idx=0
+- MED-0141 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=26&idx=0
+- MED-0160 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=12&idx=0
+- MED-0161 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=4&idx=0
+- MED-0162 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=11&idx=0
+- MED-0163 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=15&idx=0
+- MED-0164 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=14&idx=0
+- MED-0165 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=10&idx=0
+- MED-0588 — https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease
+- MED-0608 — https://www.who.int/news-room/fact-sheets/detail/menopause
+- MED-0619 — https://www.who.int/news-room/fact-sheets/detail/patient-safety
+- MED-0815 — https://medlineplus.gov/anxiety.html
+- MED-0822 — https://medlineplus.gov/asthmainchildren.html
+- MED-0834 — https://medlineplus.gov/breastcancer.html
+- MED-0838 — https://medlineplus.gov/cancerchemotherapy.html
+- MED-0839 — https://medlineplus.gov/cancerimmunotherapy.html
+- MED-0842 — https://medlineplus.gov/celiacdisease.html
+- MED-0852 — https://medlineplus.gov/chroniclymphocyticleukemia.html
+- MED-0854 — https://medlineplus.gov/chronicpain.html
+- MED-0859 — https://medlineplus.gov/copd.html
+- MED-0861 — https://medlineplus.gov/coronaryarterydisease.html
+- MED-0868 — https://medlineplus.gov/depression.html
+- MED-0875 — https://medlineplus.gov/diabetestype2.html
+- MED-0879 — https://medlineplus.gov/diabeticheartdisease.html
+- MED-0880 — https://medlineplus.gov/diagnosticimaging.html
+- MED-0886 — https://medlineplus.gov/emphysema.html
+- MED-0896 — https://medlineplus.gov/gerd.html
+- MED-0899 — https://medlineplus.gov/hdlthegoodcholesterol.html
+- MED-0902 — https://medlineplus.gov/heartattack.html
+- MED-0903 — https://medlineplus.gov/heartdiseaseinwomen.html
+- MED-0904 — https://medlineplus.gov/heartdiseases.html
+- MED-0905 — https://medlineplus.gov/heartfailure.html
+- MED-0909 — https://medlineplus.gov/hemophilia.html
+- MED-0914 — https://medlineplus.gov/hepatitisb.html
+- MED-0915 — https://medlineplus.gov/hepatitisc.html
+- MED-0920 — https://medlineplus.gov/howtoimprovementalhealth.html
+- MED-0923 — https://medlineplus.gov/howtopreventdiabetes.html
+- MED-0925 — https://medlineplus.gov/howtopreventhighbloodpressure.html
+- MED-0929 — https://medlineplus.gov/hypothyroidism.html
+- MED-0932 — https://medlineplus.gov/isletcelltransplantation.html
+- MED-0933 — https://medlineplus.gov/jointdisorders.html
+- MED-0937 — https://medlineplus.gov/kneereplacement.html
+- MED-0938 — https://medlineplus.gov/ldlthebadcholesterol.html
+- MED-0939 — https://medlineplus.gov/learningdisabilities.html
+- MED-0945 — https://medlineplus.gov/mammography.html
+- MED-0946 — https://medlineplus.gov/menstruation.html
+- MED-0948 — https://medlineplus.gov/mentalhealth.html
+- MED-0950 — https://medlineplus.gov/migraine.html
+- MED-0959 — https://medlineplus.gov/neuroblastoma.html
+- MED-0967 — https://medlineplus.gov/ovariancancer.html
+- MED-0969 — https://medlineplus.gov/pagetsdiseaseofbone.html
+- MED-0970 — https://medlineplus.gov/pain.html
+- MED-0977 — https://medlineplus.gov/polycysticovarysyndrome.html
+- MED-0989 — https://medlineplus.gov/radiationtherapy.html
+- MED-0992 — https://medlineplus.gov/refluxininfants.html
+- MED-0997 — https://medlineplus.gov/rotatorcuffinjuries.html
+- MED-1002 — https://medlineplus.gov/sjogrenssyndrome.html
+- MED-1005 — https://medlineplus.gov/spinalmuscularatrophy.html
+- MED-1007 — https://medlineplus.gov/stress.html
+- MED-1012 — https://medlineplus.gov/suicide.html
+- MED-1014 — https://medlineplus.gov/testicularcancer.html
+- MED-1018 — https://medlineplus.gov/triglycerides.html
+- MED-1021 — https://medlineplus.gov/urinaryincontinence.html
+- MED-1026 — https://medlineplus.gov/whoopingcough.html
+- MED-1083 — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3752
+- MED-1128 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13341177/
+- MED-1129 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13537874/
+- MED-1130 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11524690/
+- MED-1131 — https://pmc.ncbi.nlm.nih.gov/articles/PMC5620396/
+- MED-1132 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6536791/
+- MED-1232 — https://www.data.go.kr/data/15117426/fileData.do
+- MED-1233 — https://www.data.go.kr/data/3051778/fileData.do
+- MED-1370 — https://www.who.int/news-room/fact-sheets/detail/radon-and-health
+- MED-1400 — https://www.ijthyroid.org/journal/view.html?doi=10.11106/ijt.2024.17.1.1
+- MED-1465 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=13&idx=0
+- MED-1466 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=16&idx=0
+- MED-2201 — https://www.kihasa.re.kr/news/event/view?seq=76736
 
-## 접속 3회 이상 연속 실패 (238건)
+## 접속 3회 이상 연속 실패 (240건)
 
 - MED-0010 — 22회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.nhis.or.kr/renewal_popup/poster/20260608_poster_longdesc_1.html
 - MED-0014 — 6회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.hira.or.kr/bbsDummy.do?brdBltNo=45666&brdScnBltNo=4&pgmid=HIRAA030023080000
@@ -102,6 +113,7 @@
 - MED-0099 — 8회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3352
 - MED-0100 — 8회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5128
 - MED-0101 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3784
+- MED-0102 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-07, 7일마다 재시도) — https://www.cancer.go.kr/lay1/S1T261C262/contents.do
 - MED-0108 — 8회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4666
 - MED-0109 — 18회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3802
 - MED-0110 — 11회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5242
@@ -316,7 +328,8 @@
 - MED-2217 — 13회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11005254
 - MED-2255 — 6회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-02, 7일마다 재시도) — https://www.hira.or.kr/dummy.do?pgmid=HIRAA020020000005
 - MED-2301 — 3회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-03, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01000m01.do?mode=view&articleNo=11008009
-- MED-0102 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/S1T261C262/contents.do
+- MED-0175 — 3회 — TimeoutError: 총 20초 초과 — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=10597
+- MED-0176 — 3회 — TimeoutError: 총 20초 초과 — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18575
 
 ## 재확인 기한 도래·30일 이내 (12건)
 
@@ -333,12 +346,10 @@
 - 2026-12-01 MED-1448 [verified] 비대면진료 시범사업 지침(보건복지부 공고 제2026-825호, 2026-11-01 시행, 의료기관용) — 의원급 중심(의사가 안전하다고 판단한 환자, 초·재진 구분 없음), 병원급은 1년 안 대면진료한 희귀질환 산정특례자·30일 안 대면진료한 수술·치료 후 관리 환자·제1형 당뇨병 환자만, 의료기관별 비대면진료 비율 월 30% 이하, 외래진찰료 + 비대면진료 시범사업 관리료(의과 40.34점, 2026년 단가로 의원 3,860원·병원 3,380원, 동일 환자 월 2회까지, 종별·야간 등 가산 없음), 본인부담은 시행령 제19조 일반 원칙, 마약류·오남용·사후피임·비만치료제(에페글레나타이드 추가) 처방 금지
 - 2026-12-01 MED-1449 [verified] 첩약 건강보험 적용 2단계 시범사업 지침(보건복지부 공고 제2025-150호, 2025-02-27 시행, 사업기간 2024-04~2026-12) — 시범기관(한의원·한방병원·한방 진료과목 병원·종합병원, 상급종합 제외) 외래에서 6개 질환(안면신경마비·뇌혈관질환 후유증·월경통·알레르기비염·기능성 소화불량·요추 추간판탈출증)에 치료용 첩약, 본인부담 종합병원 50%·병원·한방병원 40%·한의원·(한)약국 30%, 질환별 연간 20일 초과분 전액 본인부담, 연간 2개 질환, 1회 최대 10일분, 한의사 1인당 1일 8건·월 60건·연 600건
 
-## PubMed 신규 가이드라인·RCT·메타분석 (2026-11-06 이후)
+## PubMed 신규 가이드라인·RCT·메타분석 (2026-11-07 이후)
 
-**대장암**
-- Comparative efficacy and safety of second- and later-line BRAF-targeted regimens in BRAF V600E-mutant metastatic colorectal cancer: A systematic review and network meta-analysis. (2026 Nov 6) https://pubmed.ncbi.nlm.nih.gov/42994867/
 **유방암**
-- Primary Endocrine Therapy vs Upfront Surgery for Older Women With Estrogen Receptor-Positive Breast Cancer: A Systematic Review and Meta-Analysis. (2026 Nov 2) https://pubmed.ncbi.nlm.nih.gov/42993545/
+- Cardioprotective Effects of Low-Dose Bisoprolol Against Anthracycline-Induced Subclinical Cardiotoxicity in Breast Cancer: A Triple-Blind Randomized Controlled Trial Using Advanced Echocardiographic Parameters. (2026 Oct) https://pubmed.ncbi.nlm.nih.gov/42999781/
 
 ## 아직 감시하지 않는 것
 
