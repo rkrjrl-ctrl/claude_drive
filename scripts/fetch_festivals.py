@@ -47,6 +47,13 @@ def main():
                    "eventStartDate": (today - datetime.timedelta(days=90)).strftime("%Y%m%d")})
         head = res.get("response", {}).get("header", {})
         if head.get("resultCode") not in ("0000", "00"):
+            # 원인 가르기: 같은 서비스의 가장 단순한 요청(지역 코드)이 되는지 본다
+            try:
+                q = urllib.parse.urlencode({"serviceKey": key, "MobileOS": "ETC", "MobileApp": "claude_drive", "_type": "json", "numOfRows": 2}, safe=":[]")
+                with urllib.request.urlopen(URL.replace("searchFestival2", "areaCode2") + "?" + q, timeout=60) as r:
+                    print("지역 코드 요청 응답:", r.read().decode("utf-8")[:300])
+            except Exception as e2:
+                print("지역 코드 요청도 실패:", e2)
             raise SystemExit(f"API 오류: {json.dumps(res, ensure_ascii=False)[:400]}")
         body = res["response"]["body"]
         items = body.get("items") or {}
