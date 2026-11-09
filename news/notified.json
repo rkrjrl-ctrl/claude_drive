@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T10:16+09:00",
+"updated": "2026-11-09T11:06+09:00",
 "items": [
 {
 "kind": "gov",
@@ -7234,6 +7234,116 @@
 "출시",
 "할인",
 "할인특약"
+]
+},
+{
+"kind": "gov",
+"link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788424",
+"t": "2026-11-09T11:06+09:00",
+"tok": [
+"10일부터",
+"시행",
+"신청하세요",
+"전세사기피해자",
+"최소보장제",
+"최소지원금"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261109_0003860046",
+"t": "2026-11-09T11:06+09:00",
+"tok": [
+"10월",
+"CPI",
+"둔화",
+"생산자물가",
+"소비자물가",
+"중국"
+],
+"g": "https://www.newsis.com/view/NISX20261109_0003860046"
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261109061800008",
+"t": "2026-11-09T11:06+09:00",
+"tok": [
+"강화",
+"삼전닉스",
+"상승탄력",
+"오름세로",
+"코스피"
+],
+"m": 1,
+"g": "https://www.yna.co.kr/view/AKR20261109061800008"
+},
+{
+"kind": "단독",
+"link": "https://www.fnnews.com/news/202611091038043154",
+"t": "2026-11-09T11:06+09:00",
+"tok": [
+"SNS",
+"거론될",
+"국힘",
+"부동산",
+"오세훈",
+"유튜브",
+"청년대변인",
+"출연",
+"캠프"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1CNHZ6cC0tajR4dWZPYkpRQVJMaFNudEV1SmhxOF80RzFVdlJyRTVaLTBRYmRhU1JMalpJZ1QtUExQQW5VQjBKcHk1SFJHd3JMeHN4Mw?oc=5",
+"t": "2026-11-09T11:06+09:00",
+"tok": [
+"15",
+"깎아준다",
+"날만큼",
+"롯데손보",
+"보험료",
+"최대",
+"할인"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPa1NTYkM0N2dXcVlKaV9rSkEtY1JhMjhyUXhKYlBaSjRRUk9PcDBJRWZiaHhjRmcwMTBUV3h3WlE4dDdsUHVHa2otaDdoMS14anptTHM2UHRVZmRmVEIwaDhRdWgwQk9TMWtwTDlKTFp3aUZGc3RfMHl0QnNCbzRnQ04wZUx1elJZT2IxUU1R?oc=5",
+"t": "2026-11-09T11:06+09:00",
+"tok": [
+"10일부터",
+"받는다",
+"신청",
+"전세사기",
+"최소지원금",
+"피해자"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE96X2JqV2dkYUFzMGRtdGJmeks3WFFUbnQyckFRaWxXdVJyUFZ5eUNSOWhjbHlKMzB1ZVBEd2ZLUTVzdWk0Z2NodXBGVGlseHFwY21OdzZCSjV1Y2xNMUl5bXo1NGNMV0V2YVFZYm5uN3BBWGPSAXZBVV95cUxPU2UzZ2RtUGd2SWcyUkNUWVBJUWtQQ3Q5Zi1fVm1paEZHWHJKY3d0U3NoeVIzZk5QTGp3QjlTZFBkQnZ0ZWpFRkZWLWI1SEttM0RLcDdkZmNUS2FNdTBHZmdtU3dONzNqZW9KaXYycjdBTmNzbzV3?oc=5",
+"t": "2026-11-09T11:06+09:00",
+"tok": [
+"예방",
+"전남광주시",
+"전세사기",
+"점검",
+"중개사무소"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBKS3F0dGliSjNHM1VoeG5JS2xYWkF4TVpqSmlTSlZHUVNUNTduU21MZmptQjBBVWstbHRsN3NGZVRMMHFPQThpSXNnbV8?oc=5",
+"t": "2026-11-09T11:06+09:00",
+"tok": [
+"12월",
+"31일까지",
+"고용노동부",
+"부정수급",
+"실업급여",
+"집중신고",
+"특별점검"
 ]
 }
 ]
