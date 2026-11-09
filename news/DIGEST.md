@@ -1,9 +1,9 @@
 # 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-10 04:05 KST  /  최근 7일 27431건 (보험·의료 3457 · 투자·경제 14545 · 생활·사회 9090)  /  이번 신규 316건
+- 갱신: 2026-11-10 05:05 KST  /  최근 7일 27510건 (보험·의료 3460 · 투자·경제 14546 · 생활·사회 9164)  /  이번 신규 395건
 - 소스 79곳 + 구글뉴스 키워드 110개(보험·의료 45 · 투자·경제 45 · 생활 20)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 아시아경제 증권, 머니투데이
+- 수집 실패 소스: 없음
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
@@ -12,12 +12,12 @@
 - (9) 11-09 라포르시안 — ["하지정맥류 실손보험금 거부, 금감원 즉각적인 행정 조치 나서야"](https://news.google.com/rss/articles/CBMibkFVX3lxTE9pdlRONmdwRUFlYU1TTXRpakdULVJpVkVZZVZkQ1lVcHhCY0lHVTNwUDJGWnNxRWE5VDI0V05HZllUNE11QmpTYnVvZ3l4ZjZESjBJWUF4ZEc2MGk3dThGNF84eEpmZEUzMmUzYVhn?oc=5)
 - (8) 11-09 e-의료정보 — [하지정맥류 실손보험금 부지급 논란…“금융당국이 입원기준 정리해야”](https://news.google.com/rss/articles/CBMia0FVX3lxTE5KUFI0TG5INk1sRUd5RlNSVUJXYkdRUHZ5VWNsRC1mRWhWNXpPd3g1OG9pbGxNZmtmSm45UzAzbl9uc2J4bXl3SVZXMG12VG1tY2pfTE5ESG50ZUlUd19xdGxCU08tbl9QNzZV0gFvQVVfeXFMTmthSHhXRG9hV2ZZeTg4X3ZQQ2ZfUGVVeFhTSXFrdjVfODB3aHdOeVhYNkp4Z0Z5Q3NlelAyNVoyc1FTNVZwd2FxMHhZSFB4dEhTWXdoUEVWdFA4Y2ViRHFMRWt6Qk5ueXBKNHA0Y0NZ?oc=5)
 
-**암·질병 보장 상품** (사건 14개)
+**암·질병 보장 상품** (사건 15개)
 - (5) 11-05 울산시민신문 — [국민건강보험공단은 간호·간병통합서비스 우수기관 38곳 선정](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlV3pLaTNYRGlMLVlleWRsVVNSejZ6aWtaOHA2MFBBNThqQjhXajdCRG82RnN0NFdXdl9zZmFBYU0yVUNmbWNaTnRvV1hnWWhaYTNLbzRoM3dTay1nclc0MWFvSXowVk0?oc=5) — **외 6건**(7개 매체)
 - (6) 11-09 머니투데이 — [암진단비 재보험금 놓고 손보사-재보험사 충돌…금융당국은 '뒷짐'](https://www.mt.co.kr/finance/2026/11/09/2026110915470933367) — **외 2건**(1개 매체)
 - (5) 11-03 DealSite경제TV — [[보험·카드24시] 동양생명, 보험료 면제와 치료보장 더한 종신보험 출시 外](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hRTVvWFM2R2tfYW1RS01WdDAtLWVBdGVBX210S18xLVJ0STFLWmYzd0pZQ2FER09DMlJCQzVrZUVOSlAxQXQ5bzRCNHhhc0tBTHFQQkF3?oc=5) — **외 2건**(3개 매체)
 
-**건강보험·의료제도** (사건 43개)
+**건강보험·의료제도** (사건 42개)
 - (7) 11-04 세계일보 — [국민연금 10년 부은 평균소득자, 기초연금보다 덜 받는다…‘급여 역전’](https://news.google.com/rss/articles/CBMiWEFVX3lxTFA4TDJWU1VnLTI0WE9aVHdkeEduVkc5RUlidlpJS29mYTNlY0xDX1hUcV9ZbXJodFZkcnQ4eV95cDZhbC14d0VSUVBCdTRhV2F0cVNzRENHY3LSAVRBVV95cUxQSFhUNVpYNmpDTGRub0x5aGJzTWxXZ0JUajdLaGxXa3l4dkJvNDRzcUFWajZpaGxVdktnT2gzQ0tQaFZnR21ETDBjaG5qS2VtNVc2OG4?oc=5) — **외 10건**(10개 매체)
 - (7) 11-04 재경일보 — [국민연금 10년 가입 월급여…기초연금보다 적어 : 정책.지표](https://news.google.com/rss/articles/CBMiS0FVX3lxTE0wUHZUZ09VZzlEVzBFZUJnekFWSEVyaEF6UTQ0VkhQQlV3LTRVdHNDaFlQYjE4dEFhTzI1bWhnMFRZd01vU3FYbGlVMA?oc=5) — **외 8건**(7개 매체)
 - (7) 11-04 서울경제 경제 — [“국민연금 10년 냈는데 月 급여액 34만 3300원”...기초연금 기준액보다 적어](https://www.sedaily.com/article/20109959) — **외 5건**(6개 매체)
@@ -25,7 +25,7 @@
 **국민연금·퇴직연금** (사건 82개)
 - (5) 11-03 비즈월드 — [금감원, '퇴직연금 장기·분산투자 캠페인' 시작](https://news.google.com/rss/articles/CBMiakFVX3lxTE5GOTFLVHdXZXZpbEJ5V0xEeVBzYUZuX1VRd2J5eFI2OTJKM21Ud2lsRzdrTUJIQWRDUFo2X1dwNmdTNlQxc2ROdTFrNTVjMkpkUUJWWHBOTkRocThhLWtYREM1OXlaYWpjRXc?oc=5) — **외 12건**(13개 매체)
 - (9) 11-03 핀포인트뉴스 — ["보험료 10년 낸 국민연금액, 세금 지원 기초연금보다 적다"](https://news.google.com/rss/articles/CBMic0FVX3lxTFBqYU83d3VNVWhZbDQxcmJNWElzcVJOV1Q2c1prTmthV0MtYTB2X3RaSDVILUhBcE1rN3pVcDZaTkJPS0pjcnFjRWpLRzdJd1BYSDhhZWU4VmJhTUlpOF8zMVpWNG1BVGJJTXpQTmRoVE1sS1E?oc=5) — **외 3건**(4개 매체)
-- (4) 11-09 knpp.co.kr — [복수국적자 기초연금, 형평성 논란 왜 커졌나…내년부터 '국내 5년 거주' 조건](https://news.google.com/rss/articles/CBMiQ0FVX3lxTFA2dHc0Q3lZM3dNdEtzZVExZzhUanBzU3pwLUJTYzRnc0RYbmdxZEZuZ3JQS1NJeUdZYURqWUVXWDNHVVE?oc=5) — **외 13건**(13개 매체)
+- (4) 11-09 knpp.co.kr — [복수국적자 기초연금, 형평성 논란 왜 커졌나…내년부터 '국내 5년 거주' 조건](https://news.google.com/rss/articles/CBMiQ0FVX3lxTFA2dHc0Q3lZM3dNdEtzZVExZzhUanBzU3pwLUJTYzRnc0RYbmdxZEZuZ3JQS1NJeUdZYURqWUVXWDNHVVE?oc=5) — **외 12건**(12개 매체)
 
 **보험금 분쟁·판결** (사건 26개)
 - (7) 11-09 조선일보 — [렌터카로 ‘쾅’ 박더니...보험금 3억2000만원 챙긴 보험사기 피의자 21명 검거](https://news.google.com/rss/articles/CBMikAFBVV95cUxPSGc5WVM3bjh1TElLdDQ1RURvUTlab19iX29IU093SjZCWTJDZXN4Q3huOVZZQWJualQ2QkxFTERzelpoc3JEeWRNdXAwZGZvWHNXMy1PTkxyVG5wcEtOS1ZhX2Yyd2VPU1YxR0dXZU5hWUJaYXd3bVQ1MnlxUEQxWDdCS2gwT0NoT1BDQVYyZTg?oc=5) — **외 3건**(4개 매체)
@@ -116,17 +116,17 @@
 
 ## [생활·사회] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
-**요금·물가** (사건 32개)
+**요금·물가** (사건 31개)
 - (8) 11-05 조선 경제 — [김동철 한전 사장 “전기요금 현실화 필요…단, 산업용 전기료 인상은 최후 수단”](https://www.chosun.com/economy/industry-company/2026/11/05/HA2DMZLEMZRTIMJXGJTDCODEHA/) — **외 11건**(10개 매체)
 - (10) 11-09 KBS 뉴스 — [프랑스, 고물가 항의 시위에 다음달부터 최저임금 1.6% 인상](https://news.google.com/rss/articles/CBMiW0FVX3lxTE5IeTJld2tvcXlfZG5ZM1A3TVMtUWVDMnc2WnV4X0JpM1E4R1FidWhhMFhmOFEtUW5RQWJDM2JFcXZEaVgxQXliN3F2WGFCWk5IajdNcmVLN2lxNXM?oc=5) — **외 3건**(4개 매체)
 - (8) 11-09 연합뉴스TV 경제 — [전남광주 어르신, 카드 한 장으로 지하철 무료·교통비 환급](https://www.yonhapnewstv.co.kr/news/AKR20261109155651Uel) — **외 4건**(5개 매체)
 
 **세금·지원금** (사건 50개)
-- (11) 11-09 베이비뉴스 — [전세사기 피해자 보증금 최소 3분의 1 보장…10일부터 지원금 신청](https://news.google.com/rss/articles/CBMibEFVX3lxTE5JcTc1eFVTOWxlOE5SZFBmTmZsTE15Q0V6VUNyNHlnVmFUMFdjOUdXTHpib0hVWENQV3d0Q19fT2xpYk4yTUpjbV9HTWdISlo2RVVrWENpVEJQR2hQMVFTeUlVRHViNWE2dmlNYQ?oc=5) — **외 68건**(66개 매체)
+- (11) 11-09 베이비뉴스 — [전세사기 피해자 보증금 최소 3분의 1 보장…10일부터 지원금 신청](https://news.google.com/rss/articles/CBMibEFVX3lxTE5JcTc1eFVTOWxlOE5SZFBmTmZsTE15Q0V6VUNyNHlnVmFUMFdjOUdXTHpib0hVWENQV3d0Q19fT2xpYk4yTUpjbV9HTWdISlo2RVVrWENpVEJQR2hQMVFTeUlVRHViNWE2dmlNYQ?oc=5) — **외 69건**(67개 매체)
 - (9) 11-06 디지털데일리 — ["보이스피싱 피해금 환급 받으세요"… 금융기관 사칭 사기 `주의보`](https://news.google.com/rss/articles/CBMiZEFVX3lxTFA2QWF3UGl0TFlRYmpHODVaR0JPdENRSGtFWTFaNHk1bXhNRFQyUk5heGYxRGVtVGhZWVVWMHJCWktHdG5nc1FQejZuQjRjVHNIMGxTVWtqVmVTd1ZoTFZUS2JhSDU?oc=5) — **외 8건**(9개 매체)
 - (11) 11-09 www.climatepol.com — [국토교통부, 전세사기피해자 최소보장제 시행, 10일부터 최소지원금 신청하세요!](https://news.google.com/rss/articles/CBMibEFVX3lxTE9UMldueWxGNWdaU2h4OExnNVY4NTZTT21OQUxSUERhbl9qN1RyMkNwM0lDdEs1V01PSnk4T2FfbjNGeFRKVE1neUx5bU1xWXNJb1JwZWk2SGQxc1NYQldLMzd2SXJncnRzTlo0Zw?oc=5) — **외 3건**(4개 매체)
 
-**일자리·임금** (사건 34개)
+**일자리·임금** (사건 35개)
 - (9) 11-08 재경일보 — [멜랑숑, 최저임금 인상·정년 60세 공약 발표 : 국제](https://news.google.com/rss/articles/CBMiS0FVX3lxTE5qX25rRjU1eFFlcXIwSmJ0VExZWk1jQzFRVFFPblllTUVDVnc2RER3b2NSaG4ydzhzN1Z5QnhrTi1XdU1jZ1VxclVTVQ?oc=5) — **외 1건**(2개 매체)
 - (8) 11-03 데일리안 — [최저임금 인상 뒤 요양시설 간호사 고용 감소…간호조무사 늘며 전문성 약화](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9odFZyY1Q2ZzJpMGxkb09ubUNLMURwdDZlUTVEYlVEaml2UlgyZjRBU2lqTkVrdG92ZDBKdS1kU1hIWW1vcjZvR3VkTzFNUWphdElJ?oc=5) — **외 1건**(2개 매체)
 - (8) 11-10 Sortir à Paris — [최저임금, 2026년 12월 1일부터 인상 확정…얼마나 오를까](https://news.google.com/rss/articles/CBMi9gFBVV95cUxON0tBSWhSa0pUaUFxcnVGUXk0NURIUEJZQlpTU1VQS2I1UndUY1JoRFhJdV9RS3BrSVNmbWk5UzJrVzlKaUpkb1FjVDQ4enhuQkxJbFptd0hGUWtnOHVGN0hUYlpTMDhUOEJheE96MHdQYVZPUXhTVDI5QUdRWDZRakdxRUxNeE9TeXhxaVdSNmVxeUw3cDV6VEZxV3pEU1lIWFhLUVhIeW42Tk8teWZaZ1VUTWs3aWRsRU9MTVREMm5Gd3Y2cjl5Q01BVDh3WWtERjh6NlZoRHdkV1plRlNmMFpMSkRyeHYtcUVLMVpVLTFnRHpUMmc?oc=5) — **외 1건**(1개 매체)
@@ -194,19 +194,19 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
+- 11-10 MarketWatch — [Gas prices are finally below $4 a gallon, but Thanksgiving fuel costs will still be the highest since 2000](https://www.marketwatch.com/story/gas-prices-are-finally-below-4-a-gallon-but-thanksgiving-fuel-costs-will-still-be-the-highest-since-2000-94a7865b?mod=mw_rss_topstories)
+- 11-10 MarketWatch — [What employers should do to build a pipeline of talented Gen Z workers](https://www.marketwatch.com/story/what-employers-should-do-to-build-a-pipeline-of-talented-gen-z-workers-31c0e9b9?mod=mw_rss_topstories)
 - 11-10 MarketWatch — [Are AMD and Broadcom the real winners of the Nvidia spy scandal?](https://www.marketwatch.com/story/are-amd-and-broadcom-the-real-winners-of-the-nvidia-spy-scandal-d2343072?mod=mw_rss_topstories)
 - 11-10 MarketWatch — [Think the bond market is broken? History says a massive turnaround could be coming.](https://www.marketwatch.com/story/think-the-bond-market-is-broken-history-says-a-massive-turnaround-could-be-coming-dfaae450?mod=mw_rss_topstories)
-- 11-10 CNBC — [Boeing to cut 5% of commercial airplane workers as production increase takes longer than expected](https://www.cnbc.com/2026/11/09/boeing-layoffs-commercial-airplane.html)
 - 11-10 MarketWatch — [Hot U.S. inflation hasn’t cooled off. Rising consumer prices to keep Fed rate hike on track.](https://www.marketwatch.com/story/hot-u-s-inflation-hasnt-cooled-off-rising-consumer-prices-to-keep-fed-rate-hike-on-track-926c44b0?mod=mw_rss_topstories)
+- 11-10 CNBC — [Boeing to cut 5% of commercial airplane workers as production increase takes longer than expected](https://www.cnbc.com/2026/11/09/boeing-layoffs-commercial-airplane.html)
 - 11-10 CNBC — [Goldman CEO Solomon says AI financing remains strong despite market jitters](https://www.cnbc.com/2026/11/09/goldman-ceo-ai-financing-market.html)
 - 11-10 MarketWatch — [His, mine or ours? I’m 53 and not sure how to handle merging finances with my long-term partner.](https://www.marketwatch.com/story/his-mine-or-ours-im-53-and-not-sure-how-to-handle-merging-finances-with-my-long-term-partner-4c34c914?mod=mw_rss_topstories)
 - 11-10 CNBC — [Boeing to cut 5% of commercial airplane workforce as production increase is slower than expected](https://www.cnbc.com/2026/11/09/boeing-layoffs-commercial-airplane.html)
 - 11-10 MarketWatch — [Ozempic, Zepbound and other GLP-1 drugs have a possible risk of vision loss](https://www.marketwatch.com/story/ozempic-zepbound-and-other-glp-1-drugs-have-a-possible-risk-of-vision-loss-b3738f36?mod=mw_rss_topstories)
 - 11-10 MarketWatch — [There is no one at Nvidia who would be ready to replace Jensen Huang](https://www.marketwatch.com/story/there-is-no-one-at-nvidia-who-would-be-ready-to-replace-jensen-huang-816cc405?mod=mw_rss_topstories)
 - 11-10 CNBC — [Honda to invest $3 billion in new vehicle assembly plant in Ohio](https://www.cnbc.com/2026/11/09/honda-to-invest-3-billion-in-new-vehicle-assembly-plant-in-ohio.html)
-- 11-10 MarketWatch — [Why renters are obsessed with these $300 ‘boneless couches’](https://www.marketwatch.com/story/why-renters-are-obsessed-with-these-300-boneless-couches-65a2e4fe?mod=mw_rss_topstories)
-- 11-10 MarketWatch — [How SpaceX was able to avert one of the market’s biggest fears about its stock](https://www.marketwatch.com/story/how-spacex-was-able-to-avert-one-of-the-markets-biggest-fears-about-its-stock-93870736?mod=mw_rss_topstories)
 
 ## 언론사별 건수 상위 15
 
-연합뉴스 최신 2791, 토큰포스트 1106, 뉴시스 사회 771, 머니투데이 744, 인포맥스 454, 동아 사회 449, 코인리더스 437, 아시아경제 394, 조선비즈 388, 파이낸셜뉴스 전체 362, 연합뉴스 마켓 353, 뉴시스 정치 337, KBS 뉴스 304, SBS 사회 285, 뉴시스 금융 268
+연합뉴스 최신 2795, 토큰포스트 1111, 뉴시스 사회 777, 머니투데이 750, 동아 사회 495, 인포맥스 454, 코인리더스 437, 아시아경제 394, 조선비즈 388, 파이낸셜뉴스 전체 363, 연합뉴스 마켓 352, 뉴시스 정치 340, KBS 뉴스 305, SBS 사회 285, 뉴시스 금융 268
