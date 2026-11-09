@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T15:05+09:00",
+"updated": "2026-11-09T15:49+09:00",
 "items": [
 {
 "kind": "gov",
@@ -7673,6 +7673,210 @@
 "인프라",
 "직격탄",
 "현금흐름"
+]
+},
+{
+"kind": "단독",
+"link": "https://www.hankyung.com/article/202611095186i",
+"t": "2026-11-09T15:49+09:00",
+"tok": [
+"글로벌",
+"기술",
+"기업들",
+"노리나",
+"다원파워트론",
+"반도체",
+"인수전",
+"참여",
+"핵심"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261109_0003860711",
+"t": "2026-11-09T15:49+09:00",
+"tok": [
+"35",
+"64",
+"SK하닉",
+"마감",
+"삼성전자",
+"상승"
+],
+"g": "https://www.newsis.com/view/NISX20261109_0003860711"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261109_0003860724",
+"t": "2026-11-09T15:49+09:00",
+"tok": [
+"1347",
+"1원",
+"5원",
+"내린",
+"달러",
+"마감",
+"환율"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261109_0003860724"
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261109116400008",
+"t": "2026-11-09T15:49+09:00",
+"tok": [
+"5천피는",
+"결국",
+"반등했던",
+"사수",
+"장중",
+"코스피",
+"하락"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261109_0003860724"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261109_0003860705",
+"t": "2026-11-09T15:49+09:00",
+"tok": [
+"40",
+"5018",
+"81",
+"84포인트",
+"85",
+"내린",
+"마감",
+"코스피"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261109_0003860724"
+},
+{
+"kind": "속보",
+"link": "https://biz.chosun.com/stock/stock_general/2026/11/09/MFSTGOLGMUZWCZTGMFRWGYJQMQ/",
+"t": "2026-11-09T15:49+09:00",
+"tok": [
+"5018",
+"81",
+"85",
+"내린",
+"마감",
+"코스피"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261109_0003860724"
+},
+{
+"kind": "속보",
+"link": "https://biz.chosun.com/policy/policy_sub/2026/11/09/ABU77S6BTZGXDLIBDUPBUE4VMI/",
+"t": "2026-11-09T15:49+09:00",
+"tok": [
+"1347",
+"1원",
+"5원",
+"내린",
+"달러",
+"환율"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261109_0003860724"
+},
+{
+"kind": "속보",
+"link": "https://www.hankyung.com/article/2026110953477",
+"t": "2026-11-09T15:49+09:00",
+"tok": [
+"5000피는",
+"결국",
+"반등했던",
+"사수",
+"장중",
+"코스피",
+"하락"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261109_0003860724"
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBrZnU5cENReDVYMDJTb2ZfVnhFXy1sTVo5cHBTMGxHWERUdmJIOWYyN3NmX2FpaGlFaWJOYmFhT0lEcDBfaWRJX0VOU2RSNWdXVnZkNFRB?oc=5",
+"t": "2026-11-09T15:49+09:00",
+"tok": [
+"1억달러",
+"갈등",
+"관리는",
+"뒤로",
+"미룬",
+"신청한",
+"우크라이나",
+"정부",
+"지원",
+"편성"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.newsis.com/view/NISX20261109_0003859890",
+"t": "2026-11-09T15:49+09:00",
+"tok": [
+"교통비",
+"도시철도",
+"무료",
+"어르신",
+"장으로",
+"전남광주",
+"카드",
+"환급"
+]
+},
+{
+"kind": "주목",
+"link": "https://view.asiae.co.kr/article/2026110914572838765",
+"t": "2026-11-09T15:49+09:00",
+"tok": [
+"가입",
+"고객에",
+"대신증권",
+"무료",
+"보상보험",
+"보이스피싱",
+"정보유출",
+"지원",
+"해킹"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ENVZUSWxsSGYwbXU2U2VkR3owa3dVRW1IUzVEdThZaHM4MVJNMldOWVlUWGZrSE5mVmFjSWhPWWU0RFluU3B0MFBNMjFHSl9HYnY2UVBROGtvMXRqaC0xWXln?oc=5",
+"t": "2026-11-09T15:49+09:00",
+"tok": [
+"1인당",
+"200만",
+"보이스피싱",
+"생계비",
+"일상",
+"준다",
+"지원",
+"피해자",
+"회복"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9MN1RRQnMtNlVVX1dxUWxvSTNjRzItNnNWQjlSeGVYbUFxdVNpai1kdUVQVElSSV9FMXhndzZkMWNrcU1GQUotN0xmRTJTVlFtMExsZTFLWFFfc1BlUGRJcDBleG10Vkk4eU1z?oc=5",
+"t": "2026-11-09T15:49+09:00",
+"tok": [
+"200만원",
+"금감원",
+"돕는다",
+"보이스피싱",
+"일상복귀",
+"지원",
+"최대",
+"피해자"
 ]
 }
 ]
