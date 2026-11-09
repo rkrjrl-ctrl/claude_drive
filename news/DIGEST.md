@@ -1,9 +1,9 @@
 # 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-09 23:05 KST  /  최근 7일 27255건 (보험·의료 3455 · 투자·경제 14490 · 생활·사회 8972)  /  이번 신규 375건
+- 갱신: 2026-11-10 00:05 KST  /  최근 7일 27298건 (보험·의료 3456 · 투자·경제 14507 · 생활·사회 8996)  /  이번 신규 358건
 - 소스 79곳 + 구글뉴스 키워드 110개(보험·의료 45 · 투자·경제 45 · 생활 20)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 없음
+- 수집 실패 소스: 아시아경제 증권, 경향 경제, 머니투데이, 아시아경제, 아시아경제 부동산, 경향 사회
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
@@ -17,14 +17,14 @@
 - (6) 11-09 머니투데이 — [암진단비 재보험금 놓고 손보사-재보험사 충돌…금융당국은 '뒷짐'](https://www.mt.co.kr/finance/2026/11/09/2026110915470933367) — **외 2건**(1개 매체)
 - (5) 11-03 DealSite경제TV — [[보험·카드24시] 동양생명, 보험료 면제와 치료보장 더한 종신보험 출시 外](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hRTVvWFM2R2tfYW1RS01WdDAtLWVBdGVBX210S18xLVJ0STFLWmYzd0pZQ2FER09DMlJCQzVrZUVOSlAxQXQ5bzRCNHhhc0tBTHFQQkF3?oc=5) — **외 2건**(3개 매체)
 
-**건강보험·의료제도** (사건 44개)
+**건강보험·의료제도** (사건 43개)
 - (7) 11-04 세계일보 — [국민연금 10년 부은 평균소득자, 기초연금보다 덜 받는다…‘급여 역전’](https://news.google.com/rss/articles/CBMiWEFVX3lxTFA4TDJWU1VnLTI0WE9aVHdkeEduVkc5RUlidlpJS29mYTNlY0xDX1hUcV9ZbXJodFZkcnQ4eV95cDZhbC14d0VSUVBCdTRhV2F0cVNzRENHY3LSAVRBVV95cUxQSFhUNVpYNmpDTGRub0x5aGJzTWxXZ0JUajdLaGxXa3l4dkJvNDRzcUFWajZpaGxVdktnT2gzQ0tQaFZnR21ETDBjaG5qS2VtNVc2OG4?oc=5) — **외 10건**(10개 매체)
 - (7) 11-04 재경일보 — [국민연금 10년 가입 월급여…기초연금보다 적어 : 정책.지표](https://news.google.com/rss/articles/CBMiS0FVX3lxTE0wUHZUZ09VZzlEVzBFZUJnekFWSEVyaEF6UTQ0VkhQQlV3LTRVdHNDaFlQYjE4dEFhTzI1bWhnMFRZd01vU3FYbGlVMA?oc=5) — **외 8건**(7개 매체)
 - (7) 11-04 서울경제 경제 — [“국민연금 10년 냈는데 月 급여액 34만 3300원”...기초연금 기준액보다 적어](https://www.sedaily.com/article/20109959) — **외 5건**(6개 매체)
 
-**국민연금·퇴직연금** (사건 81개)
+**국민연금·퇴직연금** (사건 82개)
 - (5) 11-03 비즈월드 — [금감원, '퇴직연금 장기·분산투자 캠페인' 시작](https://news.google.com/rss/articles/CBMiakFVX3lxTE5GOTFLVHdXZXZpbEJ5V0xEeVBzYUZuX1VRd2J5eFI2OTJKM21Ud2lsRzdrTUJIQWRDUFo2X1dwNmdTNlQxc2ROdTFrNTVjMkpkUUJWWHBOTkRocThhLWtYREM1OXlaYWpjRXc?oc=5) — **외 12건**(13개 매체)
-- (4) 11-09 knpp.co.kr — [복수국적자 기초연금, 형평성 논란 왜 커졌나…내년부터 '국내 5년 거주' 조건](https://news.google.com/rss/articles/CBMiQ0FVX3lxTFA2dHc0Q3lZM3dNdEtzZVExZzhUanBzU3pwLUJTYzRnc0RYbmdxZEZuZ3JQS1NJeUdZYURqWUVXWDNHVVE?oc=5) — **외 15건**(15개 매체)
+- (4) 11-09 knpp.co.kr — [복수국적자 기초연금, 형평성 논란 왜 커졌나…내년부터 '국내 5년 거주' 조건](https://news.google.com/rss/articles/CBMiQ0FVX3lxTFA2dHc0Q3lZM3dNdEtzZVExZzhUanBzU3pwLUJTYzRnc0RYbmdxZEZuZ3JQS1NJeUdZYURqWUVXWDNHVVE?oc=5) — **외 14건**(14개 매체)
 - (9) 11-03 핀포인트뉴스 — ["보험료 10년 낸 국민연금액, 세금 지원 기초연금보다 적다"](https://news.google.com/rss/articles/CBMic0FVX3lxTFBqYU83d3VNVWhZbDQxcmJNWElzcVJOV1Q2c1prTmthV0MtYTB2X3RaSDVILUhBcE1rN3pVcDZaTkJPS0pjcnFjRWpLRzdJd1BYSDhhZWU4VmJhTUlpOF8zMVpWNG1BVGJJTXpQTmRoVE1sS1E?oc=5) — **외 3건**(4개 매체)
 
 **보험금 분쟁·판결** (사건 26개)
@@ -69,7 +69,7 @@
 - (9) 11-08 위키트리 — [비트코인 ETF, 기술주 급락에 4억 3,020만 달러 이탈…유출 94%가 IBIT에 집중](https://news.google.com/rss/articles/CBMiVkFVX3lxTE5fQVRnUGFUc09IMm9QZEFVUVlMdFJfZTkwcnNpaDg3RGh5N1pJQnpjeUlTSjNud3BRZGFqYjY3LWk4UUtRZnlrdTFaeHNDZVdmRF9tWEVn?oc=5) — **외 2건**(2개 매체)
 
 **미국·해외 증시** (사건 75개)
-- (19) 11-06 CBC뉴스 — [[속보]뉴욕증시 대폭락, 나스닥 5.52% 급락…'블루쓰나미' 후폭풍에 월가 출렁 다우 3.44%·S&P500 4.36% 하락…AI·반도체 이틀 연속 약세, 미국 중간선거 이후 정책 불확실성 주목](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Gdzc5MHBJMUsxRmF2R1ZpNENfMmVBdW5HU0UxNEFoQjZxX3ZPNXZBTFhtQ2lNb01QUXRhR2FmMlhnWmFkVmNGV3pxRzlIalhMMWJGOUFlNmV3R3JNbk91R3kyb1dPcTdW?oc=5) — **외 83건**(57개 매체)
+- (19) 11-06 CBC뉴스 — [[속보]뉴욕증시 대폭락, 나스닥 5.52% 급락…'블루쓰나미' 후폭풍에 월가 출렁 다우 3.44%·S&P500 4.36% 하락…AI·반도체 이틀 연속 약세, 미국 중간선거 이후 정책 불확실성 주목](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Gdzc5MHBJMUsxRmF2R1ZpNENfMmVBdW5HU0UxNEFoQjZxX3ZPNXZBTFhtQ2lNb01QUXRhR2FmMlhnWmFkVmNGV3pxRzlIalhMMWJGOUFlNmV3R3JNbk91R3kyb1dPcTdW?oc=5) — **외 82건**(57개 매체)
 - (14) 11-03 뉴스핌 — [뉴욕증시, 혼조 마감…유가 급락에도 반도체 약세에 나스닥 1.07%↓](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jaEVha0VKTnl5V1lmajF6OEpkZXVoWHlZcUZkOU5SM3ZYYjZ2b0xvSklKOXdOV0tzanF4Y2M0SnBna3VsNzN6MjVUc3YtVWlGSThoWkpoTWNaQV9G?oc=5) — **외 24건**(21개 매체)
 - (15) 11-06 톱스타뉴스 — [[미국 뉴욕증시 전망] 나스닥 5.5% 폭락 후 반등 시도…엔비디아·마이크론 회복세, 고용지표가 분수령](https://news.google.com/rss/articles/CBMickFVX3lxTE5jdEd3aEozRDRBVXlRbktpVE4wa29MS19sU0pRNUctN1p2MVVxMklpM1diQTJjSWlsRWNmUkNSYjBHR24wTGd3UE1rdWRLNENZYjNEaEM0MGFIMmtCeDFVVVdOM0JNeEZzTEdZWDh6OFdTZw?oc=5) — **외 14건**(12개 매체)
 
@@ -79,7 +79,7 @@
 - (14) 11-06 재경일보 — [코스피 5천선 붕괴에 서킷브레이커…삼성전자·SK하이닉스 급락에 개미들 패닉..폭락장에 망연자실](https://news.google.com/rss/articles/CBMiS0FVX3lxTE9QX3BkWW1zQ0JIRngzcHJFOEh5YTJZZVZ1TzVKUGNVZzFveVNOb3BLdzkwa2o5RTNFTGJRallXYlJ4d0xSaHVHY2hMZw?oc=5) — **외 10건**(7개 매체)
 
 **금리·중앙은행** (사건 12개)
-- (12) 11-03 뉴스핌 — [[채권/외환] 이란 종전 협상 기대에 유가 급락…美 국채 금리·달러 동반 하락](https://news.google.com/rss/articles/CBMiXEFVX3lxTE82dENRRmtaRXBvYm1XRFA0SlFtX2FFeXBqNTBPZ1hLZVc3QVEtblVUWWpiMV9YOUI1eXRKUlRvY3ZWNVJwSTFtOEN0VEZKZ0dyR2ViRDN4X0M5eEk0?oc=5) — **외 7건**(6개 매체)
+- (12) 11-03 뉴스핌 — [[채권/외환] 이란 종전 협상 기대에 유가 급락…美 국채 금리·달러 동반 하락](https://news.google.com/rss/articles/CBMiXEFVX3lxTE82dENRRmtaRXBvYm1XRFA0SlFtX2FFeXBqNTBPZ1hLZVc3QVEtblVUWWpiMV9YOUI1eXRKUlRvY3ZWNVJwSTFtOEN0VEZKZ0dyR2ViRDN4X0M5eEk0?oc=5) — **외 6건**(5개 매체)
 - (12) 11-07 IndexBox — [중간선거 후 금값 4,000달러 상회: CPI와 연준 금리 인상 위험 분석 - 뉴스 및 통계](https://news.google.com/rss/articles/CBMixAFBVV95cUxPcTd5aXlqRFl1SXBablhVdDVRNGZVMm5XN3k2YXVSM2ltTVEtNWZvSTNiSmoyb2E2bkRtSkU1WkZlU1dLWHV0dUM3SGFlYUZRV0M0a3RtSTNlcEZ1Y3ZQaW5vWXV4UUM2azQ2OXhySEh4Y0VrQm1ZU09ScTBnREl5djFYX2hRQ2FMdTRueEduVnU1d0xzdW1ueVhtNHRDaS0tX0dVOXQycWpmRjY2UXZ6SmpHMVY4WGFrQlZTRUdXMW9iWm5J?oc=5) — **외 4건**(3개 매체)
 - (12) 11-06 재경일보 — [달러·국채금리 하락에 금값 2주 만에 최고…미 연준 금리 향방 주목 : 금융](https://news.google.com/rss/articles/CBMiS0FVX3lxTFByUmhtaEREQ1YzU09SczlvMEFlbEhaeUtxMUMtN1pHdldLSjJPb0RuOHZWSTd1UFlmSWN5MVJ6Rnh3Wk8zZkk5LUJhVQ?oc=5) — **외 1건**(2개 매체)
 
@@ -90,6 +90,9 @@
 
 **원자재·금·유가** (사건 1개)
 - (10) 11-04 초이스경제 — [천연가스 '급등' 속...금값 '하락', 금 ETF·은값·구릿값 '뚝'](https://news.google.com/rss/articles/CBMic0FVX3lxTE03czFDUDltbmNOOFBkR2RBT2R6djcxcFJJMkZha1FhTzk4MVY0aFpBX0ZkZ2NmU0NmWlRFVkNESHNqUmd3d0Zuazk1bjl0dlhKMXJramdRWkE4R1NmaG5mQXlTZWtCbWY4XzNsZjQyZFFISEXSAXNBVV95cUxNN3MxQ1A5bW5jTjhQZEdkQU9kenY3MXBSSTJGYWtRYU85ODFWNGhaQV9GZGdjZlNDZlpURVZDREhzalJnd3dGbms5NW45dHZYSjFya2pnUVpBOEdTZmhuZkF5U2VrQm1mOF8zbGY0MmRRSEhF?oc=5)
+
+**채권·ETF·배당** (사건 1개)
+- (9) 11-05 핀포인트뉴스 — [반도체 ETF 급락에 SOXS 8.76% 급등…리사 수 AMD는 반전할까](https://news.google.com/rss/articles/CBMic0FVX3lxTE1KQXBLOUcwX0wtYnNHNVRGd3dvazdPa19JakI2ME5fQ3NEc0pJa0RQUmFVZjlKVk5zR2ZFZGp5eTZkS3RxemU1WWpTdEh0ZkxBNW80ekQwYkdydTdmUl80a1pDX0NZaWpwbEJ6NDViU2ZfNWvSAXdBVV95cUxPb0hUdFNZWEoxRmVNWkt0YVZVTjdDU2NQUzBRVlkzMTZFamJBN1RvSm5Ub25jdTBBQ0pCTFV2ZC1wTmdkb041T041UzRZRXBBYlAxMmN2S1pjM3ByUDJNU0loaDJYQktlcmxCeExRUjdqZllBX0Y0Yw?oc=5)
 
 
 ### [투자·경제] 기관 보도자료
@@ -119,7 +122,7 @@
 **요금·물가** (사건 32개)
 - (8) 11-05 조선 경제 — [김동철 한전 사장 “전기요금 현실화 필요…단, 산업용 전기료 인상은 최후 수단”](https://www.chosun.com/economy/industry-company/2026/11/05/HA2DMZLEMZRTIMJXGJTDCODEHA/) — **외 11건**(10개 매체)
 - (8) 11-09 연합뉴스TV 경제 — [전남광주 어르신, 카드 한 장으로 지하철 무료·교통비 환급](https://www.yonhapnewstv.co.kr/news/AKR20261109155651Uel) — **외 4건**(5개 매체)
-- (6) 11-09 이코노미사이언스 — [우리은행, 알뜰폰 요금제 11종 통신비 지원…포인트·쿠폰으로 부담 낮춘다](https://news.google.com/rss/articles/CBMib0FVX3lxTE12YjZUM3l3a1RMOTltazlZb2J5bktoUnIzaVBXWnpGMnFHYTZra2xCVW5Wc1RVa0tFcVMwM2xMRE9jTHRpRm5HTVI4eEVWcWhZMUlaOUgwWWVpRWtkd0dZR3V2bFlsaGsyYXZ5bXpTQQ?oc=5) — **외 4건**(4개 매체)
+- (10) 11-09 KBS 뉴스 — [프랑스, 고물가 항의 시위에 다음달부터 최저임금 1.6% 인상](https://news.google.com/rss/articles/CBMiW0FVX3lxTE5IeTJld2tvcXlfZG5ZM1A3TVMtUWVDMnc2WnV4X0JpM1E4R1FidWhhMFhmOFEtUW5RQWJDM2JFcXZEaVgxQXliN3F2WGFCWk5IajdNcmVLN2lxNXM?oc=5) — **외 1건**(2개 매체)
 
 **세금·지원금** (사건 51개)
 - (11) 11-09 베이비뉴스 — [전세사기 피해자 보증금 최소 3분의 1 보장…10일부터 지원금 신청](https://news.google.com/rss/articles/CBMibEFVX3lxTE5JcTc1eFVTOWxlOE5SZFBmTmZsTE15Q0V6VUNyNHlnVmFUMFdjOUdXTHpib0hVWENQV3d0Q19fT2xpYk4yTUpjbV9HTWdISlo2RVVrWENpVEJQR2hQMVFTeUlVRHViNWE2dmlNYQ?oc=5) — **외 68건**(66개 매체)
@@ -143,8 +146,8 @@
 
 **교육·육아·의료** (사건 3개)
 - (4) 11-08 연합뉴스TV 경제 — ["한국 양육·돌봄 부담 2048년 OECD 최고"](https://www.yonhapnewstv.co.kr/news/MYH202611081554150nN) — **외 2건**(3개 매체)
-- (4) 11-06 포인트데일리 — [한국장학재단, 2학기 학자금대출 신청 17일 마감… 등록금·생활비 지원](https://news.google.com/rss/articles/CBMicEFVX3lxTE1vbFIySmQwYlpZNnBhSXZHalFISDdpd1FBaWlkX213eWMyUHEyeHFxNnQwWjNOYkU1WWwwX0NvT3c1S1RNaXJsdGlRaFlVV1FOVW1iZ3JPajJuVml3V09ZSERJT1lZUjVUdmZ3YThmeFXSAXRBVV95cUxPek9Sd0NERENQWTRPWmdYbGJxczBYUWNRa3hWcUUybk9SLXotYy1TaDFsMi03eEpjRW1GMzN0SGwxck54cDN2cVZteGEzLW1ydGtVXzJOUDExODBPTTRqOWdRZ05MTm5HeG5paFpseFRvYkwwbA?oc=5) — **외 1건**(2개 매체)
 - (5) 11-05 연합뉴스 건강 — [이두익 백령병원장, 인하대 의대에 발전기금…사후 인체 기증](https://www.yna.co.kr/view/AKR20261105102300065)
+- (5) 11-05 베이비뉴스 — [혼인 100만 원·출산 최대 2000만 원…‘혼인·출산·양육 3종 패키지’ 관심 집중](https://news.google.com/rss/articles/CBMibEFVX3lxTFBSVm1yNkp6bUlBNW8zcll4clhLaHl5YkNyV3JGR2JTUUJMR19pYkpJdUh5R2MyY0xzdW5oTi03LVMzTWpXdTdZZVN6ZTNXTUVGbFlRbHQ5TTBsYmdFZHNhUDhqbTc0VHE3XzhMZA?oc=5)
 
 **기타** (사건 3개)
 - (6) 11-06 토큰포스트 — [1인당 1,548만달러…미 상속·증여세 공제 48만달러 인상](https://www.tokenpost.kr/news/policy/433624)
@@ -195,6 +198,10 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
+- 11-09 CNBC — [Goodyear Tire CEO Mark Stewart steps down as company continues turnaround plan](https://www.cnbc.com/2026/11/09/goodyear-roger-wood-interim-ceo.html)
+- 11-09 CNBC — [Eli Lilly’s Foundayo obesity pill eases sleep apnea in late-stage trial, paving way for approval](https://www.cnbc.com/2026/11/09/eli-lilly-foundayo-sleep-apnea-trial.html)
+- 11-09 MarketWatch — [‘She can always change her mind’: Should a widow leave the family home to her stepchildren?](https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories)
+- 11-09 MarketWatch — [As AI trade falters, Goldman Sachs says this lagging region is now positioned to outperform](https://www.marketwatch.com/story/as-ai-trade-falters-goldman-sachs-says-this-lagging-region-is-now-positioned-to-outperform-589805c6?mod=mw_rss_topstories)
 - 11-09 MarketWatch — [As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal](https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories)
 - 11-09 MarketWatch — [A failed trial for a heart drug casts shadow over rivals developing similar therapies](https://www.marketwatch.com/story/a-failed-trial-for-a-heart-drug-casts-shadow-over-rivals-developing-similar-therapies-2d9bd79f?mod=mw_rss_topstories)
 - 11-09 MarketWatch — [Retirement is now part of the affordability crisis. Politicians should pay attention.](https://www.marketwatch.com/story/retirement-is-now-part-of-the-affordability-crisis-politicians-should-pay-attention-2923b2d7?mod=mw_rss_topstories)
@@ -203,11 +210,7 @@
 - 11-09 CNBC — [Restaurant chains refocus on food quality to bring back diners](https://www.cnbc.com/2026/11/09/restaurant-chains-better-food-diners.html)
 - 11-09 MarketWatch — [Until AI sentiment improves, Citi tells investors it’s better to sit out the global tech trade](https://www.marketwatch.com/story/until-sentiment-in-the-ai-trade-improves-citi-tells-investors-its-better-to-sit-out-the-global-tech-trade-ed939f30?mod=mw_rss_topstories)
 - 11-09 MarketWatch — [Until AI sentiment improves, it’s better to sit out the global tech trade, Citi tells investors](https://www.marketwatch.com/story/until-sentiment-in-the-ai-trade-improves-citi-tells-investors-its-better-to-sit-out-the-global-tech-trade-ed939f30?mod=mw_rss_topstories)
-- 11-09 MarketWatch — [The biggest takeaway from Berkshire Hathaway’s latest quarter isn’t the $357 billion cash or its stock buybacks](https://www.marketwatch.com/story/the-biggest-takeaway-from-berkshire-hathaways-latest-quarter-isnt-the-357-billion-cash-or-its-stock-buybacks-3069f6a9?mod=mw_rss_topstories)
-- 11-09 MarketWatch — [The market’s correction is entering its final phase — but wait before buying the dip, says Morgan Stanley chief strategist](https://www.marketwatch.com/story/the-markets-correction-is-entering-its-final-phase-but-wait-before-buying-the-dip-says-morgan-stanley-chief-strategist-2c1be13e?mod=mw_rss_topstories)
-- 11-09 MarketWatch — [Until sentiment in the AI trade improves, Citi tells investors it’s better to sit out the global tech trade](https://www.marketwatch.com/story/until-sentiment-in-the-ai-trade-improves-citi-tells-investors-its-better-to-sit-out-the-global-tech-trade-ed939f30?mod=mw_rss_topstories)
-- 11-09 MarketWatch — [‘We had the worst fight we’ve ever had’: I want my husband to retire at 65. But I don’t want to lose his $280,000 salary.](https://www.marketwatch.com/story/we-had-the-worst-fight-weve-ever-had-i-want-my-husband-to-retire-at-65-but-i-dont-want-to-lose-his-280-000-salary-48511469?mod=mw_rss_topstories)
 
 ## 언론사별 건수 상위 15
 
-연합뉴스 최신 2769, 토큰포스트 1083, 뉴시스 사회 762, 머니투데이 746, 인포맥스 455, 동아 사회 448, 코인리더스 437, 조선비즈 394, 아시아경제 394, 파이낸셜뉴스 전체 361, 연합뉴스 마켓 353, 뉴시스 정치 336, KBS 뉴스 300, SBS 사회 278, 뉴시스 금융 267
+연합뉴스 최신 2773, 토큰포스트 1092, 뉴시스 사회 766, 머니투데이 746, 인포맥스 456, 동아 사회 448, 코인리더스 436, 조선비즈 395, 아시아경제 393, 파이낸셜뉴스 전체 362, 연합뉴스 마켓 353, 뉴시스 정치 337, KBS 뉴스 302, SBS 사회 278, 뉴시스 금융 269
