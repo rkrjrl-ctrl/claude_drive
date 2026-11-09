@@ -1,6 +1,6 @@
 # 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-10 02:05 KST  /  최근 7일 27386건 (보험·의료 3454 · 투자·경제 14541 · 생활·사회 9052)  /  이번 신규 317건
+- 갱신: 2026-11-10 03:05 KST  /  최근 7일 27408건 (보험·의료 3453 · 투자·경제 14549 · 생활·사회 9067)  /  이번 신규 318건
 - 소스 79곳 + 구글뉴스 키워드 110개(보험·의료 45 · 투자·경제 45 · 생활 20)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
 - 수집 실패 소스: 없음
@@ -194,6 +194,9 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
+- 11-10 CNBC — [Boeing to cut 5% of commercial airplane workforce as production increase is slower than expected](https://www.cnbc.com/2026/11/09/boeing-layoffs-commercial-airplane.html)
+- 11-10 MarketWatch — [Ozempic, Zepbound and other GLP-1 drugs have a possible risk of vision loss](https://www.marketwatch.com/story/ozempic-zepbound-and-other-glp-1-drugs-have-a-possible-risk-of-vision-loss-b3738f36?mod=mw_rss_topstories)
+- 11-10 MarketWatch — [There is no one at Nvidia who would be ready to replace Jensen Huang](https://www.marketwatch.com/story/there-is-no-one-at-nvidia-who-would-be-ready-to-replace-jensen-huang-816cc405?mod=mw_rss_topstories)
 - 11-10 CNBC — [Honda to invest $3 billion in new vehicle assembly plant in Ohio](https://www.cnbc.com/2026/11/09/honda-to-invest-3-billion-in-new-vehicle-assembly-plant-in-ohio.html)
 - 11-10 MarketWatch — [Why renters are obsessed with these $300 ‘boneless couches’](https://www.marketwatch.com/story/why-renters-are-obsessed-with-these-300-boneless-couches-65a2e4fe?mod=mw_rss_topstories)
 - 11-10 MarketWatch — [How SpaceX was able to avert one of the market’s biggest fears about its stock](https://www.marketwatch.com/story/how-spacex-was-able-to-avert-one-of-the-markets-biggest-fears-about-its-stock-93870736?mod=mw_rss_topstories)
@@ -203,10 +206,7 @@
 - 11-09 CNBC — [Eli Lilly’s Foundayo obesity pill eases sleep apnea in late-stage trial, paving way for approval](https://www.cnbc.com/2026/11/09/eli-lilly-foundayo-sleep-apnea-trial.html)
 - 11-09 MarketWatch — [As AI trade falters, Goldman Sachs says this lagging region is now positioned to outperform](https://www.marketwatch.com/story/as-ai-trade-falters-goldman-sachs-says-this-lagging-region-is-now-positioned-to-outperform-589805c6?mod=mw_rss_topstories)
 - 11-09 MarketWatch — [As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal](https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories)
-- 11-09 MarketWatch — [A failed trial for a heart drug casts shadow over rivals developing similar therapies](https://www.marketwatch.com/story/a-failed-trial-for-a-heart-drug-casts-shadow-over-rivals-developing-similar-therapies-2d9bd79f?mod=mw_rss_topstories)
-- 11-09 MarketWatch — [Retirement is now part of the affordability crisis. Politicians should pay attention.](https://www.marketwatch.com/story/retirement-is-now-part-of-the-affordability-crisis-politicians-should-pay-attention-2923b2d7?mod=mw_rss_topstories)
-- 11-09 MarketWatch — [A new setback for the AI trade: Nvidia’s board is probing CEO Huang’s relationship with an alleged spy](https://www.marketwatch.com/story/nvidias-board-will-probe-ceo-jensen-huangs-relationship-with-an-alleged-spy-heres-what-to-know-86656cd9?mod=mw_rss_topstories)
 
 ## 언론사별 건수 상위 15
 
-연합뉴스 최신 2783, 토큰포스트 1099, 뉴시스 사회 768, 머니투데이 748, 인포맥스 455, 동아 사회 449, 코인리더스 437, 아시아경제 394, 조선비즈 388, 파이낸셜뉴스 전체 362, 연합뉴스 마켓 353, 뉴시스 정치 337, KBS 뉴스 303, SBS 사회 283, 뉴시스 금융 268
+연합뉴스 최신 2786, 토큰포스트 1105, 뉴시스 사회 769, 머니투데이 748, 인포맥스 454, 동아 사회 449, 코인리더스 436, 아시아경제 394, 조선비즈 388, 파이낸셜뉴스 전체 362, 연합뉴스 마켓 353, 뉴시스 정치 337, KBS 뉴스 303, SBS 사회 283, 뉴시스 금융 268
