@@ -1,6 +1,6 @@
 # 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-10 01:05 KST  /  최근 7일 27359건 (보험·의료 3453 · 투자·경제 14532 · 생활·사회 9035)  /  이번 신규 372건
+- 갱신: 2026-11-10 02:05 KST  /  최근 7일 27386건 (보험·의료 3454 · 투자·경제 14541 · 생활·사회 9052)  /  이번 신규 317건
 - 소스 79곳 + 구글뉴스 키워드 110개(보험·의료 45 · 투자·경제 45 · 생활 20)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
 - 수집 실패 소스: 없음
@@ -78,12 +78,12 @@
 - (13) 11-06 싱글리스트 — [美 증시 폭락에 코스피 '투매 공포'…삼성전자·SK하이닉스 추가 급락 우려](https://news.google.com/rss/articles/CBMiZkFVX3lxTFAzWGhXNzk2ZGlSdWp2Qno3QlExeEVXanN0cUc0aU8xSkJnRV9SZUtWYldjaHZVUU5WOEFrZHotdkdkakRvdW93NjBNQ0VzMzl4WExlajlMR3dYQlNYVnBRZFhzRDBndw?oc=5) — **외 19건**(16개 매체)
 - (14) 11-06 재경일보 — [코스피 5천선 붕괴에 서킷브레이커…삼성전자·SK하이닉스 급락에 개미들 패닉..폭락장에 망연자실](https://news.google.com/rss/articles/CBMiS0FVX3lxTE9QX3BkWW1zQ0JIRngzcHJFOEh5YTJZZVZ1TzVKUGNVZzFveVNOb3BLdzkwa2o5RTNFTGJRallXYlJ4d0xSaHVHY2hMZw?oc=5) — **외 10건**(7개 매체)
 
-**금리·중앙은행** (사건 12개)
+**금리·중앙은행** (사건 13개)
 - (12) 11-03 뉴스핌 — [[채권/외환] 이란 종전 협상 기대에 유가 급락…美 국채 금리·달러 동반 하락](https://news.google.com/rss/articles/CBMiXEFVX3lxTE82dENRRmtaRXBvYm1XRFA0SlFtX2FFeXBqNTBPZ1hLZVc3QVEtblVUWWpiMV9YOUI1eXRKUlRvY3ZWNVJwSTFtOEN0VEZKZ0dyR2ViRDN4X0M5eEk0?oc=5) — **외 7건**(5개 매체)
 - (12) 11-07 IndexBox — [중간선거 후 금값 4,000달러 상회: CPI와 연준 금리 인상 위험 분석 - 뉴스 및 통계](https://news.google.com/rss/articles/CBMixAFBVV95cUxPcTd5aXlqRFl1SXBablhVdDVRNGZVMm5XN3k2YXVSM2ltTVEtNWZvSTNiSmoyb2E2bkRtSkU1WkZlU1dLWHV0dUM3SGFlYUZRV0M0a3RtSTNlcEZ1Y3ZQaW5vWXV4UUM2azQ2OXhySEh4Y0VrQm1ZU09ScTBnREl5djFYX2hRQ2FMdTRueEduVnU1d0xzdW1ueVhtNHRDaS0tX0dVOXQycWpmRjY2UXZ6SmpHMVY4WGFrQlZTRUdXMW9iWm5J?oc=5) — **외 5건**(3개 매체)
 - (12) 11-06 재경일보 — [달러·국채금리 하락에 금값 2주 만에 최고…미 연준 금리 향방 주목 : 금융](https://news.google.com/rss/articles/CBMiS0FVX3lxTFByUmhtaEREQ1YzU09SczlvMEFlbEhaeUtxMUMtN1pHdldLSjJPb0RuOHZWSTd1UFlmSWN5MVJ6Rnh3Wk8zZkk5LUJhVQ?oc=5) — **외 1건**(2개 매체)
 
-**환율·달러** (사건 6개)
+**환율·달러** (사건 5개)
 - (10) 11-06 위키트리 — [오늘 금시세(금값) 급락... 원·달러 환율 올랐는데 국내 금가격이 떨어진 이유](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1qdXQ2SzB3SjZDb2lSdUtVMmJmM1JhcUo2WTA0S21xazgxOEgwU2dtczRjLTl0Ml83RnRzcVJXMGN5RXV5V0ZPZkhMMGNOal8wYW91UWpB?oc=5) — **외 1건**(2개 매체)
 - (11) 11-06 크리스천투데이 — [원달러 환율 1340원대, 금값 시세 다시 상승…오늘 금 한돈 가격은? : 일반](https://news.google.com/rss/articles/CBMiV0FVX3lxTE5aX3NXUjdNLVFLa0cyXzlKRU9PLXNYaGpoN19PM2lhMS1XSmRqV3NPVFhzd3pyNjdMNjN5cTI1VGUzRjB4V2tEejJCQWUzRTFoamt2WDVSUQ?oc=5)
 - (10) 11-08 데일리머니 — [반도체 호황 뒤편 외국인의 대규모 매도 행진과 역설의 진실 - 사상 최대 경상수지 흑자 속 달러 유출 부르는 자본계정 왜곡 > 외인 17조원 이탈에도 1270원 환율 장담했던 엉터리 분석 |](https://news.google.com/rss/articles/CBMidkFVX3lxTE02UW94UExzd1dEUEo1RGM2eTUtaEFGdVFHaWV1dTBkU1dPcDFzeHhFekhXLVROTmMzMzlQZVViNDB4V2hZemZrRWl5TTdrcmc1TzJWaW9qeS1CVFpNalZVcEFyQldweG5SeGd3Q0RMNzFLNzE3YkE?oc=5)
@@ -121,12 +121,12 @@
 - (10) 11-09 KBS 뉴스 — [프랑스, 고물가 항의 시위에 다음달부터 최저임금 1.6% 인상](https://news.google.com/rss/articles/CBMiW0FVX3lxTE5IeTJld2tvcXlfZG5ZM1A3TVMtUWVDMnc2WnV4X0JpM1E4R1FidWhhMFhmOFEtUW5RQWJDM2JFcXZEaVgxQXliN3F2WGFCWk5IajdNcmVLN2lxNXM?oc=5) — **외 3건**(4개 매체)
 - (8) 11-09 연합뉴스TV 경제 — [전남광주 어르신, 카드 한 장으로 지하철 무료·교통비 환급](https://www.yonhapnewstv.co.kr/news/AKR20261109155651Uel) — **외 4건**(5개 매체)
 
-**세금·지원금** (사건 51개)
+**세금·지원금** (사건 50개)
 - (11) 11-09 베이비뉴스 — [전세사기 피해자 보증금 최소 3분의 1 보장…10일부터 지원금 신청](https://news.google.com/rss/articles/CBMibEFVX3lxTE5JcTc1eFVTOWxlOE5SZFBmTmZsTE15Q0V6VUNyNHlnVmFUMFdjOUdXTHpib0hVWENQV3d0Q19fT2xpYk4yTUpjbV9HTWdISlo2RVVrWENpVEJQR2hQMVFTeUlVRHViNWE2dmlNYQ?oc=5) — **외 68건**(66개 매체)
 - (9) 11-06 디지털데일리 — ["보이스피싱 피해금 환급 받으세요"… 금융기관 사칭 사기 `주의보`](https://news.google.com/rss/articles/CBMiZEFVX3lxTFA2QWF3UGl0TFlRYmpHODVaR0JPdENRSGtFWTFaNHk1bXhNRFQyUk5heGYxRGVtVGhZWVVWMHJCWktHdG5nc1FQejZuQjRjVHNIMGxTVWtqVmVTd1ZoTFZUS2JhSDU?oc=5) — **외 8건**(9개 매체)
 - (11) 11-09 www.climatepol.com — [국토교통부, 전세사기피해자 최소보장제 시행, 10일부터 최소지원금 신청하세요!](https://news.google.com/rss/articles/CBMibEFVX3lxTE9UMldueWxGNWdaU2h4OExnNVY4NTZTT21OQUxSUERhbl9qN1RyMkNwM0lDdEs1V01PSnk4T2FfbjNGeFRKVE1neUx5bU1xWXNJb1JwZWk2SGQxc1NYQldLMzd2SXJncnRzTlo0Zw?oc=5) — **외 3건**(4개 매체)
 
-**일자리·임금** (사건 33개)
+**일자리·임금** (사건 34개)
 - (9) 11-08 재경일보 — [멜랑숑, 최저임금 인상·정년 60세 공약 발표 : 국제](https://news.google.com/rss/articles/CBMiS0FVX3lxTE5qX25rRjU1eFFlcXIwSmJ0VExZWk1jQzFRVFFPblllTUVDVnc2RER3b2NSaG4ydzhzN1Z5QnhrTi1XdU1jZ1VxclVTVQ?oc=5) — **외 1건**(2개 매체)
 - (8) 11-03 데일리안 — [최저임금 인상 뒤 요양시설 간호사 고용 감소…간호조무사 늘며 전문성 약화](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9odFZyY1Q2ZzJpMGxkb09ubUNLMURwdDZlUTVEYlVEaml2UlgyZjRBU2lqTkVrdG92ZDBKdS1kU1hIWW1vcjZvR3VkTzFNUWphdElJ?oc=5) — **외 1건**(2개 매체)
 - (8) 11-10 Sortir à Paris — [최저임금, 2026년 12월 1일부터 인상 확정…얼마나 오를까](https://news.google.com/rss/articles/CBMi9gFBVV95cUxON0tBSWhSa0pUaUFxcnVGUXk0NURIUEJZQlpTU1VQS2I1UndUY1JoRFhJdV9RS3BrSVNmbWk5UzJrVzlKaUpkb1FjVDQ4enhuQkxJbFptd0hGUWtnOHVGN0hUYlpTMDhUOEJheE96MHdQYVZPUXhTVDI5QUdRWDZRakdxRUxNeE9TeXhxaVdSNmVxeUw3cDV6VEZxV3pEU1lIWFhLUVhIeW42Tk8teWZaZ1VUTWs3aWRsRU9MTVREMm5Gd3Y2cjl5Q01BVDh3WWtERjh6NlZoRHdkV1plRlNmMFpMSkRyeHYtcUVLMVpVLTFnRHpUMmc?oc=5) — **외 1건**(1개 매체)
@@ -194,19 +194,19 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
+- 11-10 CNBC — [Honda to invest $3 billion in new vehicle assembly plant in Ohio](https://www.cnbc.com/2026/11/09/honda-to-invest-3-billion-in-new-vehicle-assembly-plant-in-ohio.html)
+- 11-10 MarketWatch — [Why renters are obsessed with these $300 ‘boneless couches’](https://www.marketwatch.com/story/why-renters-are-obsessed-with-these-300-boneless-couches-65a2e4fe?mod=mw_rss_topstories)
 - 11-10 MarketWatch — [How SpaceX was able to avert one of the market’s biggest fears about its stock](https://www.marketwatch.com/story/how-spacex-was-able-to-avert-one-of-the-markets-biggest-fears-about-its-stock-93870736?mod=mw_rss_topstories)
 - 11-09 CNBC — [Goodyear Tire CEO Mark Stewart steps down as company continues turnaround plan](https://www.cnbc.com/2026/11/09/goodyear-roger-wood-interim-ceo.html)
 - 11-09 MarketWatch — [‘She can always change her mind’: Should a widow leave the family home to her stepchildren?](https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories)
-- 11-09 CNBC — [Eli Lilly’s Foundayo obesity pill eases sleep apnea in late-stage trial, paving way for approval](https://www.cnbc.com/2026/11/09/eli-lilly-foundayo-sleep-apnea-trial.html)
 - 11-09 MarketWatch — [Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?](https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories)
+- 11-09 CNBC — [Eli Lilly’s Foundayo obesity pill eases sleep apnea in late-stage trial, paving way for approval](https://www.cnbc.com/2026/11/09/eli-lilly-foundayo-sleep-apnea-trial.html)
 - 11-09 MarketWatch — [As AI trade falters, Goldman Sachs says this lagging region is now positioned to outperform](https://www.marketwatch.com/story/as-ai-trade-falters-goldman-sachs-says-this-lagging-region-is-now-positioned-to-outperform-589805c6?mod=mw_rss_topstories)
 - 11-09 MarketWatch — [As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal](https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories)
 - 11-09 MarketWatch — [A failed trial for a heart drug casts shadow over rivals developing similar therapies](https://www.marketwatch.com/story/a-failed-trial-for-a-heart-drug-casts-shadow-over-rivals-developing-similar-therapies-2d9bd79f?mod=mw_rss_topstories)
 - 11-09 MarketWatch — [Retirement is now part of the affordability crisis. Politicians should pay attention.](https://www.marketwatch.com/story/retirement-is-now-part-of-the-affordability-crisis-politicians-should-pay-attention-2923b2d7?mod=mw_rss_topstories)
 - 11-09 MarketWatch — [A new setback for the AI trade: Nvidia’s board is probing CEO Huang’s relationship with an alleged spy](https://www.marketwatch.com/story/nvidias-board-will-probe-ceo-jensen-huangs-relationship-with-an-alleged-spy-heres-what-to-know-86656cd9?mod=mw_rss_topstories)
-- 11-09 MarketWatch — [Can the AI trade catch a break? Nvidia, Anthropic and CoreWeave may have a say.](https://www.marketwatch.com/story/can-the-ai-trade-catch-a-break-nvidia-anthropic-and-coreweave-may-have-a-say-d00c9ab3?mod=mw_rss_topstories)
-- 11-09 CNBC — [Restaurant chains refocus on food quality to bring back diners](https://www.cnbc.com/2026/11/09/restaurant-chains-better-food-diners.html)
 
 ## 언론사별 건수 상위 15
 
-연합뉴스 최신 2777, 토큰포스트 1100, 뉴시스 사회 768, 머니투데이 746, 인포맥스 456, 동아 사회 449, 코인리더스 435, 아시아경제 394, 조선비즈 387, 파이낸셜뉴스 전체 362, 연합뉴스 마켓 353, 뉴시스 정치 337, KBS 뉴스 302, SBS 사회 281, 뉴시스 금융 268
+연합뉴스 최신 2783, 토큰포스트 1099, 뉴시스 사회 768, 머니투데이 748, 인포맥스 455, 동아 사회 449, 코인리더스 437, 아시아경제 394, 조선비즈 388, 파이낸셜뉴스 전체 362, 연합뉴스 마켓 353, 뉴시스 정치 337, KBS 뉴스 303, SBS 사회 283, 뉴시스 금융 268
