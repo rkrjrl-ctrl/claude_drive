@@ -128,7 +128,7 @@ def watch_admrul(state, alerts, errs, first_run):
                 if (not first_run) or recent:
                     new.append((x["발령일자"], f"{x['행정규칙명']} — {x['소관부처명']} {x['행정규칙종류']} {x.get('발령번호', '')} "
                                 f"({x.get('제개정구분명', '')}, 발령 {x['발령일자']}, 시행 {x.get('시행일자', '')}) "
-                                f"https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq={sig}"  # 키(OC)가 공개 파일에 남지 않게 공개 주소로))
+                                f"https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq={sig}"))  # 키(OC)가 공개 파일에 남지 않게 공개 주소로
             st[rid] = {"sig": sig, "name": x["행정규칙명"], "date": x["발령일자"]}
         time.sleep(0.3)
     new = sorted(set(new), reverse=True)
