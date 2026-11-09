@@ -1,29 +1,27 @@
 # 자동 감시 결과 (자동 생성 — 직접 수정 금지)
 
-- 실행일: 2026-11-09  /  감시 url 2334개  /  자료 2334건  /  이번에 확인 2103개(연속 실패로 쉼 231개, 시간 초과로 넘김 0개)
+- 실행일: 2026-11-09  /  감시 url 2334개  /  자료 2334건  /  이번에 확인 2092개(연속 실패로 쉼 242개, 시간 초과로 넘김 0개)
 - 이 파일은 **감지만** 한다. 원문 내용 확인·자료 갱신은 Claude Code가 한다.
 
-## 원문 변경 확정 (17건)
+## 원문 변경 확정 (15건)
 
-- MED-0083 — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3761
-- MED-0088 — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3785
-- MED-0254 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2297&mode=view
-- MED-0256 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2016&mode=view
-- MED-0476 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2395&mode=view
-- MED-0482 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2019&mode=view
-- MED-1225 — https://www.data.go.kr/data/15101151/fileData.do
-- MED-1227 — https://www.data.go.kr/data/15159616/fileData.do
-- MED-1228 — https://www.data.go.kr/data/15104692/fileData.do
-- MED-1229 — https://www.data.go.kr/data/15074889/fileData.do
-- MED-1230 — https://www.data.go.kr/data/15144293/fileData.do
-- MED-1231 — https://www.data.go.kr/data/15117753/fileData.do
-- MED-1232 — https://www.data.go.kr/data/15117426/fileData.do
-- MED-1233 — https://www.data.go.kr/data/3051778/fileData.do
-- MED-1350 — https://pmc.ncbi.nlm.nih.gov/articles/PMC8811204/
-- MED-1448 — https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492381&part=remote-care
-- MED-1689 — https://www.data.go.kr/data/15067467/fileData.do
+- MED-0090 — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3789
+- MED-0095 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5248
+- MED-0783 — https://www.nice.org.uk/guidance/ng155
+- MED-1265 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7160350/
+- MED-1266 — https://pmc.ncbi.nlm.nih.gov/articles/PMC10079515/
+- MED-1267 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12620694/
+- MED-1268 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6435847/
+- MED-1352 — https://pmc.ncbi.nlm.nih.gov/articles/PMC8650817/
+- MED-1353 — https://pmc.ncbi.nlm.nih.gov/articles/PMC10982054/
+- MED-1354 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7354982/
+- MED-1355 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7541973/
+- MED-1356 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7840311/
+- MED-1357 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7542002/
+- MED-2201 — https://www.kihasa.re.kr/news/event/view?seq=76736
+- MED-2288 — https://www.geumcheon.go.kr/health/contents.do?key=4523
 
-## 접속 3회 이상 연속 실패 (242건)
+## 접속 3회 이상 연속 실패 (247건)
 
 - MED-0010 — 23회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.nhis.or.kr/renewal_popup/poster/20260608_poster_longdesc_1.html
 - MED-0014 — 7회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.hira.or.kr/bbsDummy.do?brdBltNo=45666&brdScnBltNo=4&pgmid=HIRAA030023080000
@@ -52,6 +50,8 @@
 - MED-0114 — 13회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3346
 - MED-0115 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-03, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5122
 - MED-0117 — 10회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.cancer.go.kr/lay1/S1T648C650/contents.do
+- MED-0142 — 3회 — TimeoutError: 총 45초 초과 (마지막 시도 2026-11-09, 7일마다 재시도) — https://m.circulation.or.kr/bbs/download.php?code=guide&number=2685
+- MED-0143 — 3회 — TimeoutError: 총 45초 초과 (마지막 시도 2026-11-09, 7일마다 재시도) — https://diabetes.or.kr/bbs/download.php?code=guide&number=1522
 - MED-0153 — 3회 — TimeoutError: 총 45초 초과 (마지막 시도 2026-11-03, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=19618
 - MED-0154 — 3회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-06, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=17106
 - MED-0157 — 23회 — URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.seoulhp.com/seoul/cmmn/file/fileDown.do?atchFileId=79e740a49bff47a1aa20365c7d80153f&fileSn=4&menuNo=100136
@@ -62,9 +62,13 @@
 - MED-0170 — 3회 — TimeoutError: 총 45초 초과 (마지막 시도 2026-11-03, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=7
 - MED-0171 — 3회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-06, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=8-9
 - MED-0172 — 3회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-06, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18579
+- MED-0173 — 3회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=14791
 - MED-0174 — 3회 — TimeoutError: 총 45초 초과 (마지막 시도 2026-11-03, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=10288
 - MED-0175 — 3회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-08, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=10597
 - MED-0176 — 3회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-08, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18575
+- MED-0177 — 3회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=14697
+- MED-0184 — 3회 — TimeoutError: 총 45초 초과 (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=2961
+- MED-0211 — 3회 — TimeoutError: 총 45초 초과 (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=2962
 - MED-1028 — 18회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12 (마지막 시도 2026-11-09, 7일마다 재시도) — https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=1
 - MED-1029 — 18회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12 (마지막 시도 2026-11-09, 7일마다 재시도) — https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=2
 - MED-1030 — 18회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12 (마지막 시도 2026-11-09, 7일마다 재시도) — https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=3
@@ -121,12 +125,17 @@
 - MED-1347 — 7회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20251101&sno=1&mtgMtrRegSno=0001&part=hbv
 - MED-1348 — 7회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20200501&sno=3&mtgMtrRegSno=0007&part=hyaluronate
 - MED-1349 — 7회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20210101&sno=15&mtgMtrRegSno=0001&part=zoledronic
+- MED-1358 — 3회 — TimeoutError: 총 45초 초과 (마지막 시도 2026-11-09, 7일마다 재시도) — https://ksn.or.kr/bbs/skin/publication/download.php?code=g_guideline&number=2368
 - MED-1365 — 17회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.nhis.or.kr/announce/wbhaec11503m01.do
+- MED-1386 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng237
+- MED-1387 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng47
+- MED-1388 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng211
 - MED-1389 — 7회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20240730&sno=4&mtgMtrRegSno=0006&part=mri
 - MED-1390 — 7회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20230701&sno=1&mtgMtrRegSno=0001&part=ultrasound
 - MED-1391 — 3회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-04, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260701&sno=4&mtgMtrRegSno=0001&part=manualtherapy
 - MED-1392 — 7회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20151029&sno=2&mtgMtrRegSno=0001&part=eswl
 - MED-1393 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20110124&sno=2&mtgMtrRegSno=0008&part=varicose
+- MED-1397 — 3회 — TimeoutError: 총 45초 초과 (마지막 시도 2026-11-09, 7일마다 재시도) — https://ksn.or.kr/bbs/skin/publication/download.php?code=g_guideline&number=2293
 - MED-1401 — 17회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 25-30: ordinal not in range(12 (마지막 시도 2026-11-09, 7일마다 재시도) — https://cdn.medsoft.co.kr/309/data/recom/11/11차진료권고안.pdf
 - MED-1417 — 7회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.hira.or.kr/ebooksc/2026/02/BZ202602273023260.pdf?part=nonpay-procedures
 - MED-1418 — 7회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.hira.or.kr/ebooksc/2026/02/BZ202602273023260.pdf?part=cataract-drg
@@ -256,17 +265,11 @@
 - MED-2217 — 14회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11005254
 - MED-2255 — 7회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.hira.or.kr/dummy.do?pgmid=HIRAA020020000005
 - MED-2301 — 3회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-03, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01000m01.do?mode=view&articleNo=11008009
-- MED-0142 — 3회 — TimeoutError: 총 45초 초과 — https://m.circulation.or.kr/bbs/download.php?code=guide&number=2685
-- MED-0143 — 3회 — TimeoutError: 총 45초 초과 — https://diabetes.or.kr/bbs/download.php?code=guide&number=1522
-- MED-0173 — 3회 — TimeoutError: 총 20초 초과 — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=14791
-- MED-0177 — 3회 — TimeoutError: 총 20초 초과 — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=14697
-- MED-0184 — 3회 — TimeoutError: 총 45초 초과 — https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=2961
-- MED-0211 — 3회 — TimeoutError: 총 45초 초과 — https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=2962
-- MED-1358 — 3회 — TimeoutError: 총 45초 초과 — https://ksn.or.kr/bbs/skin/publication/download.php?code=g_guideline&number=2368
-- MED-1386 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng237
-- MED-1387 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng47
-- MED-1388 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng211
-- MED-1397 — 3회 — TimeoutError: 총 45초 초과 — https://ksn.or.kr/bbs/skin/publication/download.php?code=g_guideline&number=2293
+- MED-0183 — 3회 — TimeoutError: 총 20초 초과 — https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=2442
+- MED-0185 — 3회 — TimeoutError: 총 20초 초과 — https://ksn.or.kr/bbs/skin/publication/download.php?code=guideline_k&number=2303
+- MED-0212 — 3회 — TimeoutError: 총 20초 초과 — https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=2636
+- MED-1359 — 3회 — TimeoutError: 총 20초 초과 — https://ksn.or.kr/bbs/skin/publication/download.php?code=g_guideline&number=2289
+- MED-1396 — 3회 — TimeoutError: 총 20초 초과 — https://ksn.or.kr/bbs/skin/publication/download.php?code=g_guideline&number=2245
 
 ## 재확인 기한 도래·30일 이내 (12건)
 
@@ -285,7 +288,11 @@
 
 ## PubMed 신규 가이드라인·RCT·메타분석 (2026-11-09 이후)
 
-- 없음
+**대장암**
+- Short-term outcomes of the hinotori versus da Vinci robotic surgical systems in colorectal cancer surgery: a systematic review and meta-analysis. (2026 Nov 9) https://pubmed.ncbi.nlm.nih.gov/43002271/
+**유방암**
+- Association of HTR3A and COMT polymorphisms with electroacupuncture response for chemotherapy-induced nausea and vomiting in breast cancer: a secondary analysis of a randomized controlled trial. (2026 Nov 9) https://pubmed.ncbi.nlm.nih.gov/43002266/
+- Sequencing trastuzumab deruxtecan and sacituzumab govitecan in metastatic breast cancer: a systematic review and meta-analysis. (2026 Nov 9) https://pubmed.ncbi.nlm.nih.gov/43002259/
 
 ## 아직 감시하지 않는 것
 
