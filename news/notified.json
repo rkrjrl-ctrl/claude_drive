@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T12:06+09:00",
+"updated": "2026-11-09T13:06+09:00",
 "items": [
 {
 "kind": "gov",
@@ -7405,6 +7405,40 @@
 "최소보장제",
 "피해"
 ]
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBjNFN4anIxWGowUGRncjFNZXF1djBzdzVyLTF4LWRYOXZCckkwOW1RZk92MnNibjNSZXhDTWNZS25PcmdaZHlScHd5dGgxUmhkTGxaNnNEWQ?oc=5",
+"t": "2026-11-09T13:06+09:00",
+"tok": [
+"IR",
+"개정",
+"거래소",
+"매년",
+"상장계약",
+"상장사",
+"의무화",
+"추진",
+"코스닥"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261109_0003860338",
+"t": "2026-11-09T13:06+09:00",
+"tok": [
+"10",
+"10일",
+"13시",
+"1분부터",
+"2개월간",
+"관세",
+"미국산",
+"상품",
+"유지",
+"추가"
+],
+"g": "https://www.newsis.com/view/NISX20261109_0003860338"
 }
 ]
 }
