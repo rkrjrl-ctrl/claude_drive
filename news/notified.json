@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T08:47+09:00",
+"updated": "2026-11-09T10:06+09:00",
 "items": [
 {
 "kind": "gov",
@@ -7055,6 +7055,185 @@
 "파견",
 "합동",
 "확대"
+]
+},
+{
+"kind": "gov",
+"link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788404",
+"t": "2026-11-09T10:06+09:00",
+"tok": [
+"3년",
+"대한민국",
+"수상",
+"어워드",
+"연속",
+"일자리",
+"한국장애인고용공단"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9XMWlQanFXQ3A4SkMyR0trdzA3QlhtRHpQS1NyVUJVSmZXeS1hcXZQTG9ITXhsQW16WHlCbTczNElKOGd0eUFITmZvMUxTWGJhcFdoRDM1UVVwNGdjc3oydVlHX05NSmcxRmRuSy03ZWhOYkRIc1phMFRia9IBgAFBVV95cUxPWG1WNkJKYnBmeVFJX3lfZ3NEVG5tSUZlcGZjNWpnSVZURDlnYzFqQWU1M2NWalltNEEtQjNac2dEU01aWGY3Y09HWjRSRVFGdEdEVmlabF9RdXVpV0FPbUU5aDRzWFJvMS1oOTVNaEtZQ2FQQS1GZl82eEtHM1R1aQ?oc=5",
+"t": "2026-11-09T10:06+09:00",
+"tok": [
+"반도체",
+"반등",
+"삼전닉스",
+"저가매수에",
+"프리장"
+],
+"g": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9XMWlQanFXQ3A4SkMyR0trdzA3QlhtRHpQS1NyVUJVSmZXeS1hcXZQTG9ITXhsQW16WHlCbTczNElKOGd0eUFITmZvMUxTWGJhcFdoRDM1UVVwNGdjc3oydVlHX05NSmcxRmRuSy03ZWhOYkRIc1phMFRia9IBgAFBVV95cUxPWG1WNkJKYnBmeVFJX3lfZ3NEVG5tSUZlcGZjNWpnSVZURDlnYzFqQWU1M2NWalltNEEtQjNac2dEU01aWGY3Y09HWjRSRVFGdEdEVmlabF9RdXVpV0FPbUU5aDRzWFJvMS1oOTVNaEtZQ2FQQS1GZl82eEtHM1R1aQ?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261109_0003859741",
+"t": "2026-11-09T10:06+09:00",
+"tok": [
+"20",
+"25",
+"49포인트",
+"50",
+"5034",
+"내린",
+"출발",
+"코스피"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261109_0003859741"
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261109028600008",
+"t": "2026-11-09T10:06+09:00",
+"tok": [
+"등락",
+"보합권서",
+"출발후",
+"코스피",
+"하락"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261109_0003859741"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261109_0003859743",
+"t": "2026-11-09T10:06+09:00",
+"tok": [
+"45포인트",
+"638",
+"82",
+"85",
+"내린",
+"출발",
+"코스닥"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261109_0003859741"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBBNHpJM0xfSDdSdjJwQnEwVTZ1MlRxNFN2cnVSM2w1WmlJM0pGeW9lUWl5VVZyN2NrcDNJUzVHYnBTaXh4ZkRIS1ZsSFR0OWlNOGViTQ?oc=5",
+"t": "2026-11-09T10:06+09:00",
+"tok": [
+"45p",
+"638",
+"82",
+"85",
+"개장",
+"내린",
+"코스닥"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261109_0003859741"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261109_0003859747",
+"t": "2026-11-09T10:06+09:00",
+"tok": [
+"SK하이닉스",
+"삼성전자",
+"출발",
+"하락"
+],
+"g": "https://www.newsis.com/view/NISX20261109_0003859747"
+},
+{
+"kind": "속보",
+"link": "https://www.fnnews.com/news/202611090855226187",
+"t": "2026-11-09T10:06+09:00",
+"tok": [
+"20",
+"25",
+"49p",
+"50",
+"5034",
+"638",
+"82",
+"내린",
+"출발",
+"코스닥은",
+"코스피"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261109_0003859741"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUaUYtY0stLUNKWkx3cklEMi1RejZQT2g2Uk10UFYzUzRleHpiekZXZW9hU01MWUgza3Ata2RIaExmQjdyQ2RCSTR2alNvNnl1NkI5OXJ0WW9rMDlhX3N5UdIBeEFVX3lxTFBuMnJkSjI0YzFFa3FVZWgyX0ZVWlp2eUpsalJHdk1oUEZoazlVZl9TcVRZMUhpOWo1cHdGOXF1aDFnTXpkMkNWcFpmTEs5RHpZMVJ6dGFnU2tsTTRzRFlDNHY0WEo4VFJIaXEtN1ppenpxTFFJeHNERg?oc=5",
+"t": "2026-11-09T10:06+09:00",
+"tok": [
+"SK하이닉스",
+"삼성전자",
+"출발",
+"하락"
+],
+"g": "https://www.newsis.com/view/NISX20261109_0003859747"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1VMnpidEUtb1VoUi13NjNWZDNhSEc3MUM1QVNNZWhqTGszNFNmbmdEWVNuOWpXOTI0WnNpWmd1V1V2SXJvMy1wYjVFWGFWUG04M2tmRlFqMFh2MlFkMFVPLVoxQkNteE0?oc=5",
+"t": "2026-11-09T10:06+09:00",
+"tok": [
+"034",
+"20",
+"50",
+"개장",
+"내린",
+"코스피"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261109_0003859741"
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5DUjMzVlhRaFR1YmJpalN5RFlwWi12NFUyZDNpREItWV9adFVmb2tReld3LTgxWHpCMWo1Z2h3cHdaa040QWM4VjJ3YkJPaTN0QXc?oc=5",
+"t": "2026-11-09T10:06+09:00",
+"tok": [
+"건강검진비에",
+"계열사에",
+"국세청",
+"뗀다고",
+"삼성",
+"세금",
+"월급",
+"이것도",
+"회사"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBHSzZQWE5aSHNNOVFHcExVYmdoRDBQUHYzMFVKVWhsMXRmNTRPRmVRVWVWZHZJaE1RRTM3T2pncnRXYTFqUG1sVEQ4ZGhoSE1KQklmRE9EVEpweFpvWFRjSTB1VVFBd3J3dWlHT0hVREgyUlVJ?oc=5",
+"t": "2026-11-09T10:06+09:00",
+"tok": [
+"날도",
+"롯데손보",
+"보험료",
+"주차일수",
+"출시",
+"할인",
+"할인특약"
 ]
 }
 ]
