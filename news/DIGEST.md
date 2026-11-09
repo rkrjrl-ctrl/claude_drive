@@ -1,30 +1,30 @@
 # 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-09 15:48 KST  /  최근 7일 26220건 (보험·의료 3482 · 투자·경제 14169 · 생활·사회 8236)  /  이번 신규 632건
+- 갱신: 2026-11-09 17:05 KST  /  최근 7일 26506건 (보험·의료 3451 · 투자·경제 14244 · 생활·사회 8476)  /  이번 신규 827건
 - 소스 79곳 + 구글뉴스 키워드 110개(보험·의료 45 · 투자·경제 45 · 생활 20)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
 - 수집 실패 소스: 없음
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
-**실손·비급여** (사건 27개)
+**실손·비급여** (사건 25개)
 - (10) 11-02 한양경제 — [본인부담상한제 환급금 실손보험 보상 대상 제외...대법원 판결 찾아보니](https://news.google.com/rss/articles/CBMickFVX3lxTE85U2pjcm9sVHJUNjliRlZLc0h0dFk2VHQ5Q3hkcF84NHlSM3ZGUWpuUUJFd2Y5N1lwdWdILTkwNGJCbkJrbElDd1ZUa014UWQ0THpTa1hfTXlaN0dlNEc0cmhfN2lKN1JTLTJIZlZtNFpVUQ?oc=5) — **외 1건**(1개 매체)
 - (8) 11-06 보험매일 — [실손보험 비급여 관리 강화에 의료계 반발…“민간보험 손해율 관리 수단 전락”](http://www.fins.co.kr/news/articleView.html?idxno=110447) — **외 1건**(2개 매체)
-- (7) 11-02 이투데이 — [초기 실손보험료 최대 40% 할인…이달부터 시행](https://news.google.com/rss/articles/CBMibkFVX3lxTE81VkJnWG1IcHV2VGZOVnZGNEdyN1ZudjZhcXdMMkpJR084NUhoRmxLMjdsYzU2dnJMUHN6czRqZ3JPbVNIbEdxRnAtTDQ2ajRIbUxXVGtUZTh1UExTWG5PUklHdHhjSzNwU3VWUW13?oc=5) — **외 1건**(2개 매체)
+- (9) 11-09 라포르시안 — ["하지정맥류 실손보험금 거부, 금감원 즉각적인 행정 조치 나서야"](https://news.google.com/rss/articles/CBMibkFVX3lxTE9pdlRONmdwRUFlYU1TTXRpakdULVJpVkVZZVZkQ1lVcHhCY0lHVTNwUDJGWnNxRWE5VDI0V05HZllUNE11QmpTYnVvZ3l4ZjZESjBJWUF4ZEc2MGk3dThGNF84eEpmZEUzMmUzYVhn?oc=5)
 
-**암·질병 보장 상품** (사건 14개)
+**암·질병 보장 상품** (사건 15개)
 - (5) 11-05 울산시민신문 — [국민건강보험공단은 간호·간병통합서비스 우수기관 38곳 선정](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlV3pLaTNYRGlMLVlleWRsVVNSejZ6aWtaOHA2MFBBNThqQjhXajdCRG82RnN0NFdXdl9zZmFBYU0yVUNmbWNaTnRvV1hnWWhaYTNLbzRoM3dTay1nclc0MWFvSXowVk0?oc=5) — **외 5건**(6개 매체)
 - (5) 11-03 DealSite경제TV — [[보험·카드24시] 동양생명, 보험료 면제와 치료보장 더한 종신보험 출시 外](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hRTVvWFM2R2tfYW1RS01WdDAtLWVBdGVBX210S18xLVJ0STFLWmYzd0pZQ2FER09DMlJCQzVrZUVOSlAxQXQ5bzRCNHhhc0tBTHFQQkF3?oc=5) — **외 2건**(3개 매체)
 - (8) 11-03 글로벌이코노믹 — [‘사망보험금 체증→연금 전환’ 동양생명, 신규 종신보험 선봬](https://news.google.com/rss/articles/CBMihAFBVV95cUxNWjE5T0RGWEo3RzVFMTZJbklWdzNjZ2VkX2R1U1phLTJtQ0JkWEtUT0k1UGxhQ3ZLa3VIaU5uQ1RRb1JDYzBpbnlPUXBWalpiN0tRNG0zWHBvZ0ZXTFp0UThmamphYkVTdjNySzlVLS1DdFkzUlFucHdCMThpX0FIaUhYeFQ?oc=5)
 
-**건강보험·의료제도** (사건 44개)
+**건강보험·의료제도** (사건 46개)
 - (7) 11-04 세계일보 — [국민연금 10년 부은 평균소득자, 기초연금보다 덜 받는다…‘급여 역전’](https://news.google.com/rss/articles/CBMiWEFVX3lxTFA4TDJWU1VnLTI0WE9aVHdkeEduVkc5RUlidlpJS29mYTNlY0xDX1hUcV9ZbXJodFZkcnQ4eV95cDZhbC14d0VSUVBCdTRhV2F0cVNzRENHY3LSAVRBVV95cUxQSFhUNVpYNmpDTGRub0x5aGJzTWxXZ0JUajdLaGxXa3l4dkJvNDRzcUFWajZpaGxVdktnT2gzQ0tQaFZnR21ETDBjaG5qS2VtNVc2OG4?oc=5) — **외 10건**(10개 매체)
 - (7) 11-04 재경일보 — [국민연금 10년 가입 월급여…기초연금보다 적어 : 정책.지표](https://news.google.com/rss/articles/CBMiS0FVX3lxTE0wUHZUZ09VZzlEVzBFZUJnekFWSEVyaEF6UTQ0VkhQQlV3LTRVdHNDaFlQYjE4dEFhTzI1bWhnMFRZd01vU3FYbGlVMA?oc=5) — **외 8건**(7개 매체)
 - (7) 11-04 서울경제 경제 — [“국민연금 10년 냈는데 月 급여액 34만 3300원”...기초연금 기준액보다 적어](https://www.sedaily.com/article/20109959) — **외 5건**(6개 매체)
 
-**국민연금·퇴직연금** (사건 84개)
-- (4) 11-09 knpp.co.kr — [복수국적자 기초연금, 형평성 논란 왜 커졌나…내년부터 '국내 5년 거주' 조건](https://news.google.com/rss/articles/CBMiQ0FVX3lxTFA2dHc0Q3lZM3dNdEtzZVExZzhUanBzU3pwLUJTYzRnc0RYbmdxZEZuZ3JQS1NJeUdZYURqWUVXWDNHVVE?oc=5) — **외 19건**(19개 매체)
+**국민연금·퇴직연금** (사건 83개)
 - (5) 11-03 비즈월드 — [금감원, '퇴직연금 장기·분산투자 캠페인' 시작](https://news.google.com/rss/articles/CBMiakFVX3lxTE5GOTFLVHdXZXZpbEJ5V0xEeVBzYUZuX1VRd2J5eFI2OTJKM21Ud2lsRzdrTUJIQWRDUFo2X1dwNmdTNlQxc2ROdTFrNTVjMkpkUUJWWHBOTkRocThhLWtYREM1OXlaYWpjRXc?oc=5) — **외 12건**(13개 매체)
+- (4) 11-09 knpp.co.kr — [복수국적자 기초연금, 형평성 논란 왜 커졌나…내년부터 '국내 5년 거주' 조건](https://news.google.com/rss/articles/CBMiQ0FVX3lxTFA2dHc0Q3lZM3dNdEtzZVExZzhUanBzU3pwLUJTYzRnc0RYbmdxZEZuZ3JQS1NJeUdZYURqWUVXWDNHVVE?oc=5) — **외 17건**(17개 매체)
 - (9) 11-03 핀포인트뉴스 — ["보험료 10년 낸 국민연금액, 세금 지원 기초연금보다 적다"](https://news.google.com/rss/articles/CBMic0FVX3lxTFBqYU83d3VNVWhZbDQxcmJNWElzcVJOV1Q2c1prTmthV0MtYTB2X3RaSDVILUhBcE1rN3pVcDZaTkJPS0pjcnFjRWpLRzdJd1BYSDhhZWU4VmJhTUlpOF8zMVpWNG1BVGJJTXpQTmRoVE1sS1E?oc=5) — **외 3건**(4개 매체)
 
 **보험금 분쟁·판결** (사건 24개)
@@ -33,8 +33,8 @@
 - (6) 11-05 뉴스워커 — [[뉴스워커_신한라이프] 보험금 분쟁 심의에 외부 전문가 참여…의결권까지 부여](https://news.google.com/rss/articles/CBMicEFVX3lxTFBxNGp6UFRwSFpVMFRzMGs3ZmJaNl9mRG9EY0dRMVVXa2xicjVWUnRESFRlZEZfR1VyR0VRUXpyTzZPREsxSlRIU3g2VmNfTFotWjJkbkgyNWtWSjNfbEM3R1NYOWx1c09KaWlyY1NPU0zSAXRBVV95cUxQcV93ZjhjR1hseTk0X00zTFY3c0lSQ0V1RmFacFgxeE1GdHJpVzYyb20zU25VejQ3X1d1TXJzYTFwTUJ0Z2JnQkR0YmhsQWVOQjFYZVVoYTNuWk4xbElsWWNxMmRxM01SNENpY3BYVFJUZlpxTg?oc=5) — **외 2건**(3개 매체)
 
 **보험업계·상품 출시** (사건 7개)
-- (6) 11-09 조세일보 — [주말에만 타는 차라면…롯데손보, 자동차보험료 최대 15% 할인](https://news.google.com/rss/articles/CBMidEFVX3lxTFBPRTRRMjR6ckMwbHBBRGZTSUlZSFFmQjVidkx4VUQ2RldRejNyLXlWLWc4MDlra1oxaWRRVXluT01zV2lFNUg5VjI5VVRYNFBmN3lCRVZvSk5GY2tXSC1RMzMyT3VuV0lSbVJ3M0VtdWlBLVJk?oc=5) — **외 7건**(8개 매체)
-- (4) 11-09 경향 경제 — [차 안 쓴 날만큼 보험료 할인…롯데손보 ‘주차일수 할인특약’ 업계 첫 출시](https://www.khan.co.kr/article/202611091535001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news) — **외 9건**(10개 매체)
+- (6) 11-09 조세일보 — [주말에만 타는 차라면…롯데손보, 자동차보험료 최대 15% 할인](https://news.google.com/rss/articles/CBMidEFVX3lxTFBPRTRRMjR6ckMwbHBBRGZTSUlZSFFmQjVidkx4VUQ2RldRejNyLXlWLWc4MDlra1oxaWRRVXluT01zV2lFNUg5VjI5VVRYNFBmN3lCRVZvSk5GY2tXSC1RMzMyT3VuV0lSbVJ3M0VtdWlBLVJk?oc=5) — **외 8건**(9개 매체)
+- (4) 11-09 보험신보 — [롯데손보, 차 세워둔 날만큼 보험료 할인… 업계 첫 주차일수 특약](https://www.insnews.co.kr/news/articleView.html?idxno=93731) — **외 9건**(10개 매체)
 - (5) 11-03 시사통신 — [청년 자동차보험료 부담 낮춘다…운전경력 인정·할인 안내 확대](https://news.google.com/rss/articles/CBMia0FVX3lxTE1Ca3dldmg4S1czSklyTjFBY0JvZFFlWGhOWTJ2d1VZZG95OTl3bzQwemo3RVB0al9IbFNYbzZhMzBEV1lIcHFCdGJ5NktTSFNac3ZSdTdyTjlCZmQ5ZWUtQmhaVDd3OU83TlEw0gFrQVVfeXFMTUJrd2V2aDhLVzNKSXJOMUFjQm9kUWVYaE5ZMnZ3VVlkb3k5OXdvNDB6ajdFUHRqX0hsU1hvNmEzMERXWUhwcUJ0Ynk2S1NIU1pzdlJ1N3JOOUJmZDllZS1CaFpUN3c5TzdOUTA?oc=5) — **외 1건**(2개 매체)
 
 
@@ -63,24 +63,24 @@
 
 ## [투자·경제] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
-**가상자산** (사건 15개)
+**가상자산** (사건 16개)
 - (12) 11-09 코인리더스 — [비트코인(BTC) 7만 3,692달러 지지선 지킬까…나스닥 급락·ETF 유출 부담](https://news.google.com/rss/articles/CBMiSkFVX3lxTFB2eUhwVVhWa0M5bGJ5b2RWdUw2T0RrWGp6YUkxYUxuZjRFLWpPUTlUQ3JNdGxHVVBuQlh0MVZHYXpGd1BUMVphOVBR?oc=5) — **외 2건**(1개 매체)
 - (9) 11-08 위키트리 — [비트코인 ETF, 기술주 급락에 4억 3,020만 달러 이탈…유출 94%가 IBIT에 집중](https://news.google.com/rss/articles/CBMiVkFVX3lxTE5fQVRnUGFUc09IMm9QZEFVUVlMdFJfZTkwcnNpaDg3RGh5N1pJQnpjeUlTSjNud3BRZGFqYjY3LWk4UUtRZnlrdTFaeHNDZVdmRF9tWEVn?oc=5) — **외 2건**(2개 매체)
 - (10) 11-09 코인리더스 — [비트코인 5주 연속 하락! ETF 자금 유출에 연준 금리 인상 우려까지](https://news.google.com/rss/articles/CBMiSkFVX3lxTE5INENZa1NqLXBjNTE4UGl5UmNEcV9EWjJJMVQzVWMyWmt0N0FUazNfVHpDaXYxaC1WRFNDcV9fNFBmdGgySU9ES2NR?oc=5) — **외 1건**(2개 매체)
 
-**미국·해외 증시** (사건 73개)
+**미국·해외 증시** (사건 74개)
 - (19) 11-06 CBC뉴스 — [[속보]뉴욕증시 대폭락, 나스닥 5.52% 급락…'블루쓰나미' 후폭풍에 월가 출렁 다우 3.44%·S&P500 4.36% 하락…AI·반도체 이틀 연속 약세, 미국 중간선거 이후 정책 불확실성 주목](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Gdzc5MHBJMUsxRmF2R1ZpNENfMmVBdW5HU0UxNEFoQjZxX3ZPNXZBTFhtQ2lNb01QUXRhR2FmMlhnWmFkVmNGV3pxRzlIalhMMWJGOUFlNmV3R3JNbk91R3kyb1dPcTdW?oc=5) — **외 85건**(58개 매체)
 - (14) 11-03 뉴스핌 — [뉴욕증시, 혼조 마감…유가 급락에도 반도체 약세에 나스닥 1.07%↓](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jaEVha0VKTnl5V1lmajF6OEpkZXVoWHlZcUZkOU5SM3ZYYjZ2b0xvSklKOXdOV0tzanF4Y2M0SnBna3VsNzN6MjVUc3YtVWlGSThoWkpoTWNaQV9G?oc=5) — **외 24건**(21개 매체)
 - (15) 11-06 톱스타뉴스 — [[미국 뉴욕증시 전망] 나스닥 5.5% 폭락 후 반등 시도…엔비디아·마이크론 회복세, 고용지표가 분수령](https://news.google.com/rss/articles/CBMickFVX3lxTE5jdEd3aEozRDRBVXlRbktpVE4wa29MS19sU0pRNUctN1p2MVVxMklpM1diQTJjSWlsRWNmUkNSYjBHR24wTGd3UE1rdWRLNENZYjNEaEM0MGFIMmtCeDFVVVdOM0JNeEZzTEdZWDh6OFdTZw?oc=5) — **외 13건**(12개 매체)
 
 **국내 증시** (사건 61개)
-- (19) 11-06 포인트데일리 — [증시, '미 반도체 폭락'에 급락…코스피 서킷브레이커·코스닥 매도 사이드카 발동](https://news.google.com/rss/articles/CBMicEFVX3lxTFBBQ0xpS21pWUVYd25PdkFicDgzWEEzcUNaMDNGa0FFZlVMZ3NEeGZZVm1EZVVIMmJVVTFPLWdUVzdVYlNFUW4zQ1Rza3YyblNPc2ZsTTNTWWtqaGp2TExhLUotZThNQmNaSGtlc1lWNW_SAXRBVV95cUxPWU1mZ1ExV091bE5zV01oeWRneEZGQnJ4c0owT3hxZ3g4cU9mOUdqMURjcF9JZU5rZDR3dUFkR1hUa1h6TkhhbFhWUzlJMXctOXM0bzFSZWhPVVNLSE9LVkRranJjYnI2M0p2bnY5eFdsYUFPTA?oc=5) — **외 135건**(92개 매체)
-- (13) 11-06 싱글리스트 — [美 증시 폭락에 코스피 '투매 공포'…삼성전자·SK하이닉스 추가 급락 우려](https://news.google.com/rss/articles/CBMiZkFVX3lxTFAzWGhXNzk2ZGlSdWp2Qno3QlExeEVXanN0cUc0aU8xSkJnRV9SZUtWYldjaHZVUU5WOEFrZHotdkdkakRvdW93NjBNQ0VzMzl4WExlajlMR3dYQlNYVnBRZFhzRDBndw?oc=5) — **외 20건**(17개 매체)
+- (19) 11-06 포인트데일리 — [증시, '미 반도체 폭락'에 급락…코스피 서킷브레이커·코스닥 매도 사이드카 발동](https://news.google.com/rss/articles/CBMicEFVX3lxTFBBQ0xpS21pWUVYd25PdkFicDgzWEEzcUNaMDNGa0FFZlVMZ3NEeGZZVm1EZVVIMmJVVTFPLWdUVzdVYlNFUW4zQ1Rza3YyblNPc2ZsTTNTWWtqaGp2TExhLUotZThNQmNaSGtlc1lWNW_SAXRBVV95cUxPWU1mZ1ExV091bE5zV01oeWRneEZGQnJ4c0owT3hxZ3g4cU9mOUdqMURjcF9JZU5rZDR3dUFkR1hUa1h6TkhhbFhWUzlJMXctOXM0bzFSZWhPVVNLSE9LVkRranJjYnI2M0p2bnY5eFdsYUFPTA?oc=5) — **외 136건**(93개 매체)
+- (13) 11-06 싱글리스트 — [美 증시 폭락에 코스피 '투매 공포'…삼성전자·SK하이닉스 추가 급락 우려](https://news.google.com/rss/articles/CBMiZkFVX3lxTFAzWGhXNzk2ZGlSdWp2Qno3QlExeEVXanN0cUc0aU8xSkJnRV9SZUtWYldjaHZVUU5WOEFrZHotdkdkakRvdW93NjBNQ0VzMzl4WExlajlMR3dYQlNYVnBRZFhzRDBndw?oc=5) — **외 19건**(16개 매체)
 - (14) 11-06 재경일보 — [코스피 5천선 붕괴에 서킷브레이커…삼성전자·SK하이닉스 급락에 개미들 패닉..폭락장에 망연자실](https://news.google.com/rss/articles/CBMiS0FVX3lxTE9QX3BkWW1zQ0JIRngzcHJFOEh5YTJZZVZ1TzVKUGNVZzFveVNOb3BLdzkwa2o5RTNFTGJRallXYlJ4d0xSaHVHY2hMZw?oc=5) — **외 10건**(7개 매체)
 
 **금리·중앙은행** (사건 11개)
 - (12) 11-03 뉴스핌 — [[채권/외환] 이란 종전 협상 기대에 유가 급락…美 국채 금리·달러 동반 하락](https://news.google.com/rss/articles/CBMiXEFVX3lxTE82dENRRmtaRXBvYm1XRFA0SlFtX2FFeXBqNTBPZ1hLZVc3QVEtblVUWWpiMV9YOUI1eXRKUlRvY3ZWNVJwSTFtOEN0VEZKZ0dyR2ViRDN4X0M5eEk0?oc=5) — **외 7건**(6개 매체)
-- (12) 11-07 IndexBox — [중간선거 후 금값 4,000달러 상회: CPI와 연준 금리 인상 위험 분석 - 뉴스 및 통계](https://news.google.com/rss/articles/CBMixAFBVV95cUxPcTd5aXlqRFl1SXBablhVdDVRNGZVMm5XN3k2YXVSM2ltTVEtNWZvSTNiSmoyb2E2bkRtSkU1WkZlU1dLWHV0dUM3SGFlYUZRV0M0a3RtSTNlcEZ1Y3ZQaW5vWXV4UUM2azQ2OXhySEh4Y0VrQm1ZU09ScTBnREl5djFYX2hRQ2FMdTRueEduVnU1d0xzdW1ueVhtNHRDaS0tX0dVOXQycWpmRjY2UXZ6SmpHMVY4WGFrQlZTRUdXMW9iWm5J?oc=5) — **외 4건**(2개 매체)
+- (12) 11-07 IndexBox — [중간선거 후 금값 4,000달러 상회: CPI와 연준 금리 인상 위험 분석 - 뉴스 및 통계](https://news.google.com/rss/articles/CBMixAFBVV95cUxPcTd5aXlqRFl1SXBablhVdDVRNGZVMm5XN3k2YXVSM2ltTVEtNWZvSTNiSmoyb2E2bkRtSkU1WkZlU1dLWHV0dUM3SGFlYUZRV0M0a3RtSTNlcEZ1Y3ZQaW5vWXV4UUM2azQ2OXhySEh4Y0VrQm1ZU09ScTBnREl5djFYX2hRQ2FMdTRueEduVnU1d0xzdW1ueVhtNHRDaS0tX0dVOXQycWpmRjY2UXZ6SmpHMVY4WGFrQlZTRUdXMW9iWm5J?oc=5) — **외 3건**(2개 매체)
 - (12) 11-06 재경일보 — [달러·국채금리 하락에 금값 2주 만에 최고…미 연준 금리 향방 주목 : 금융](https://news.google.com/rss/articles/CBMiS0FVX3lxTFByUmhtaEREQ1YzU09SczlvMEFlbEhaeUtxMUMtN1pHdldLSjJPb0RuOHZWSTd1UFlmSWN5MVJ6Rnh3Wk8zZkk5LUJhVQ?oc=5) — **외 1건**(2개 매체)
 
 **환율·달러** (사건 8개)
@@ -119,30 +119,30 @@
 
 ## [생활·사회] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
-**요금·물가** (사건 35개)
+**요금·물가** (사건 34개)
 - (8) 11-05 조선 경제 — [김동철 한전 사장 “전기요금 현실화 필요…단, 산업용 전기료 인상은 최후 수단”](https://www.chosun.com/economy/industry-company/2026/11/05/HA2DMZLEMZRTIMJXGJTDCODEHA/) — **외 11건**(10개 매체)
-- (8) 11-09 뉴시스 경제 — [전남광주 어르신 카드 한 장으로 도시철도 무료·교통비 환급](https://www.newsis.com/view/NISX20261109_0003859890) — **외 3건**(4개 매체)
-- (8) 11-05 국제뉴스 — [에너지바우처 신청 서두르세요… 난방비 최대 70만 원 준다고?](https://news.google.com/rss/articles/CBMibkFVX3lxTE80cGxNREFiTkd0emNPR0hJQmtYMlFYcTJna25sTmVDUV9HaXZEOEE5MkNoWlBsM0VmZ3gwS3dCbnVOcUE3Z29jU29vRnh6UWY4LVVNdVI5VUx6SjZHeTBHaDFOb0FzQWl1bURBMlhB?oc=5) — **외 1건**(2개 매체)
+- (8) 11-09 연합뉴스TV 경제 — [전남광주 어르신, 카드 한 장으로 지하철 무료·교통비 환급](https://www.yonhapnewstv.co.kr/news/AKR20261109155651Uel) — **외 4건**(5개 매체)
+- (11) 11-09 파이낸셜뉴스 전체 — [靑 '월급방위대 TF' 본격 가동…월세 공제·교통비 환급 확대 추진](https://www.fnnews.com/news/202611091648168055)
 
 **세금·지원금** (사건 50개)
-- (11) 11-09 CCBS뉴스 — [[가든라움 부동산금맥] 전세사기 피해자 보증금 3분의 1 최소보장…11월 10일부터 지원금 신청](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKMWI5aHUwVTdzTjd4YmU3QnNHSDBGT2VueHJWNjBHUTVTdFFVaDVrSWM1X0pIRGVLaW80X0t2ZzdZN3RtbktONEl3bDZjS3M?oc=5) — **외 38건**(38개 매체)
+- (11) 11-09 베이비뉴스 — [전세사기 피해자 보증금 최소 3분의 1 보장…10일부터 지원금 신청](https://news.google.com/rss/articles/CBMibEFVX3lxTE5JcTc1eFVTOWxlOE5SZFBmTmZsTE15Q0V6VUNyNHlnVmFUMFdjOUdXTHpib0hVWENQV3d0Q19fT2xpYk4yTUpjbV9HTWdISlo2RVVrWENpVEJQR2hQMVFTeUlVRHViNWE2dmlNYQ?oc=5) — **외 59건**(57개 매체)
 - (9) 11-06 디지털데일리 — ["보이스피싱 피해금 환급 받으세요"… 금융기관 사칭 사기 `주의보`](https://news.google.com/rss/articles/CBMiZEFVX3lxTFA2QWF3UGl0TFlRYmpHODVaR0JPdENRSGtFWTFaNHk1bXhNRFQyUk5heGYxRGVtVGhZWVVWMHJCWktHdG5nc1FQejZuQjRjVHNIMGxTVWtqVmVTd1ZoTFZUS2JhSDU?oc=5) — **외 8건**(9개 매체)
-- (9) 11-09 뉴시스 경제 — ['보증금 3분의1 보장'…전세사기 최소지원금 10일부터 접수](https://www.newsis.com/view/NISX20261109_0003859831) — **외 5건**(5개 매체)
+- (9) 11-09 지데일리 — [전세사기 피해자 최소지원금 도입…잃어버린 보증금 회복 지원 > 뉴스](https://news.google.com/rss/articles/CBMibEFVX3lxTE1jd3JyYy1JSkhVN0tfTmV6SGZDcGxVaTZEUWZzR092OFc4WC11czh3SGdjYVlMYUtuUmpGeHJRNW1nS2dfRlh3QWoyUVk5ZjAzQWJha0M2VklvM3JBM1VDM3pqZ1RzZlJXd3g0UA?oc=5) — **외 2건**(3개 매체)
 
-**일자리·임금** (사건 33개)
+**일자리·임금** (사건 34개)
 - (9) 11-08 재경일보 — [멜랑숑, 최저임금 인상·정년 60세 공약 발표 : 국제](https://news.google.com/rss/articles/CBMiS0FVX3lxTE5qX25rRjU1eFFlcXIwSmJ0VExZWk1jQzFRVFFPblllTUVDVnc2RER3b2NSaG4ydzhzN1Z5QnhrTi1XdU1jZ1VxclVTVQ?oc=5) — **외 1건**(2개 매체)
 - (8) 11-03 데일리안 — [최저임금 인상 뒤 요양시설 간호사 고용 감소…간호조무사 늘며 전문성 약화](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9odFZyY1Q2ZzJpMGxkb09ubUNLMURwdDZlUTVEYlVEaml2UlgyZjRBU2lqTkVrdG92ZDBKdS1kU1hIWW1vcjZvR3VkTzFNUWphdElJ?oc=5) — **외 1건**(2개 매체)
 - (4) 11-06 서울파이낸스 — [진에어 노사, 2026년 임금 협약 잠정 합의…전 직군 2% 안팎 인상](https://www.seoulfn.com/news/articleView.html?idxno=642146) — **외 4건**(5개 매체)
 
-**집·주거** (사건 56개)
+**집·주거** (사건 57개)
 - (11) 11-04 연합뉴스 경제 — ['전세사기 걱정 더는' 전월세 안심신탁 임대인 오늘부터 모집](https://www.yna.co.kr/view/AKR20261104070700003) — **외 27건**(27개 매체)
-- (5) 11-07 동방일보 — [성남시, AI 활용 전세사기 예방 나선다…공인중개사 2240곳 홍보](https://news.google.com/rss/articles/CBMic0FVX3lxTE9SUEdwcExpdW1Bek1QUkpIUjJwdnpyREE1UWc4djVSSlN6cE0yVXpXZ2tHZXBESXNRb1ZQNmxGS2JRRE5JZVFiWV9QX0plYVlobVI3QnhHdVVBVjJ0TnNCUlJ3YlVsc3JGVFZDLTNWQ0Y0ZTg?oc=5) — **외 6건**(7개 매체)
-- (7) 11-09 레디앙 — [전세사기피해자 최소보장제 13일부터 시행...임차보증금 최소 3분의 1 회복 지원](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9QZVB0bHlaNUE3VElHN280dkFOSjdzTnlnSm1EN3M5bGtjdl93ZV9HV3JOUWZSejd5UU9ocE40aEZmZWV6SlVBblJZQzlsVVRuMlBkUlBCUnNkWUZZaDljdkY2TDJxVklV?oc=5) — **외 3건**(4개 매체)
+- (5) 11-09 여주신문 — [여주시, 전세사기 예방을 위한 AI기반 ‘경기 안심 부동산’ 집중 홍보 캠페인 추진](https://news.google.com/rss/articles/CBMibkFVX3lxTE1LYmZaMmRfUTUyTGJ0Q0hZZHFFRDVzTkN2UDFzcUZLbjJOWFQ1MUd0YXRQb0JGcE1DeGk5UFJsbkhhYkZLemRodkNuOUE5NDl3VVk1LU9rY3FLMWVxbjNURTdQdEpFWE04RzdjYVhn?oc=5) — **외 8건**(9개 매체)
+- (6) 11-05 KBS 뉴스 — [서울 성북구 6억 원대 전세사기 50대에 징역 8년 구형](https://news.google.com/rss/articles/CBMiW0FVX3lxTFBUU0REQl9RSnEyOWs0ZlFmTVU0LXZFdXlwV3lNRGVFMUE3R1lqRC12eFJVeVhXVHN5MHZWS1NYUnhtV3d3Tkl0NFlqb3RQcUhCd2VJVWFJVXJDRjA?oc=5) — **외 4건**(5개 매체)
 
-**사기·피해·배상** (사건 20개)
-- (5) 11-09 한겨레 경제 — [보이스피싱 피해자에 생계비 최대 200만원…23일부터 시범사업](https://www.hani.co.kr/arti/economy/finance/1286429.html) — **외 16건**(16개 매체)
+**사기·피해·배상** (사건 19개)
+- (5) 11-09 경향 경제 — [“보이스피싱 피해자, 최대 200만원 생계비 지원 신청하세요”](https://www.khan.co.kr/article/202611091703001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news) — **외 26건**(25개 매체)
 - (7) 11-09 아시아경제 증권 — [대신증권, 해킹 정보유출 고객에 '보이스피싱 보상보험 무료 가입' 지원](https://view.asiae.co.kr/article/2026110914572838765) — **외 2건**(3개 매체)
-- (5) 11-09 뉴스1 — [보이스피싱 피해자 '일상 회복' 지원…1인당 200만 원 생계비 준다](https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ENVZUSWxsSGYwbXU2U2VkR3owa3dVRW1IUzVEdThZaHM4MVJNMldOWVlUWGZrSE5mVmFjSWhPWWU0RFluU3B0MFBNMjFHSl9HYnY2UVBROGtvMXRqaC0xWXln?oc=5) — **외 4건**(4개 매체)
+- (5) 11-09 한국일보 — [보이스피싱 피해자에 생계비 100만 원…심리상담 받으면 100만 원 추가](https://news.google.com/rss/articles/CBMic0FVX3lxTE5VNFIyZk9RZHhycTlRRlR0bS1YZjRvWVRKS3BpMlZCRDlFODdpcE9PRnNydUt4Wm1NaG03cXUtaDIzMVF3amtScm9nVlRCS2dWZUFoQVFYZ2VqRnhwaWduRzhnMGNncG1ZNkpEZlY4NGtTbXPSAXNBVV95cUxOVTRSMmZPUWR4cnE5UUZUdG0tWGY0b1lUSktwaTJWQkQ5RTg3aXBPT0ZzcnVLeFptTWhtN3F1LWgyMzFRd2prUnJvZ1ZUQktnVmVBaEFRWGdlakZ4cGlnbkc4ZzBjZ3BtWTZKRGZWODRrU21z?oc=5) — **외 3건**(4개 매체)
 
 **교육·육아·의료** (사건 4개)
 - (4) 11-08 연합뉴스TV 경제 — ["한국 양육·돌봄 부담 2048년 OECD 최고"](https://www.yonhapnewstv.co.kr/news/MYH202611081554150nN) — **외 2건**(3개 매체)
@@ -156,6 +156,8 @@
 
 ### [생활·사회] 기관 보도자료
 
+- 11-09 [과학기술정보통신부] ['26년 11월 '대한민국 엔지니어 상' 수상자 선정](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788461)
+- 11-09 [개인정보보호위원회] [개인정보위, 민간과 함께 인공지능 침해 위협에 대응하는 보호체계 정착방안 모색](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788460)
 - 11-09 [해양경찰청] [해양경찰청, 제5회 해양 국제범죄 대응 컨퍼런스(I-MARC) 성공적 개최 !](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788458)
 - 11-09 [고용노동부] [(참고) 고용노동부 서산지청, 부당노동행위 혐의 압수·수색 실시](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788456)
 - 11-09 [통일부] [「한반도 평화관광협력 국제세미나」 개최](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788454)
@@ -174,11 +176,13 @@
 - 11-09 [감사원] [육군본부 기관정기감사](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788432)
 - 11-09 [공정거래위원회] [배달앱 불공정행위 제재](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788431)
 - 11-09 [과학기술정보통신부] [에스케이브로드밴드(주) 분할에 대한의견수렴 시행](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788429)
-- 11-09 [재정경제부] [제19회 아시아 고위공무원 초청연수 실시](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788428)
-- 11-09 [국토교통부] [도심항공교통(UAM) 실증, 기술검증 넘어 지역 상용화로 확대](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788425)
 
 ## 보험 전문지 최신
 
+- 11-09 보험신보 — [금융권, 보이스피싱 피해자 일상 회복 지원 나선다](https://www.insnews.co.kr/news/articleView.html?idxno=93730)
+- 11-09 보험신보 — [롯데손보, 차 세워둔 날만큼 보험료 할인… 업계 첫 주차일수 특약](https://www.insnews.co.kr/news/articleView.html?idxno=93731)
+- 11-09 보험저널 — [“생보 70:30, 손보 80:20… 수수료 경쟁력 달라지나”… 연만기·세만기 상품믹스 변수](https://www.insjournal.co.kr/news/articleView.html?idxno=33834)
+- 11-09 보험매일 — [산재보상 이의제기도 국가가 지원…내년 3월 시행](http://www.fins.co.kr/news/articleView.html?idxno=110470)
 - 11-09 보험저널 — [[9일 보험주 마감시황] 에이플러스 5.32% 급등·인카 0.81%↓…미래에셋생명 3.88%↓](https://www.insjournal.co.kr/news/articleView.html?idxno=33833)
 - 11-09 보험저널 — ["영업과 리크루팅의 가장 강력한 무기"… 보험저널, 공식 인증 '명인 열전' 프로젝트 가동](https://www.insjournal.co.kr/news/articleView.html?idxno=33830)
 - 11-09 보험저널 — ["영업 동력 약화 우려"… 4·7년 분급제 도입에 GA 대표, 단순 '수수료 전달자' , 설계사, '월급쟁이' 전락 위기](https://www.insjournal.co.kr/news/articleView.html?idxno=33832)
@@ -190,10 +194,6 @@
 - 11-09 보험저널 — ["잠재 고객 상담도 다 녹취하라?"… GA업계 "전형적 원수사 책임 떠넘기기" 반발](https://www.insjournal.co.kr/news/articleView.html?idxno=33811)
 - 11-09 보험저널 — ["자문 수요 폭발에 채널 권력 이동"… 글로벌 생보 시장, '독립 중개업자·AI'가 판 바꾼다](https://www.insjournal.co.kr/news/articleView.html?idxno=33828)
 - 11-09 보험신보 — [금융보안원, ‘ASAP’에 보이스피싱 탐지 AI 탑재… 금융권 대응 지원](https://www.insnews.co.kr/news/articleView.html?idxno=93720)
-- 11-09 보험신보 — [보험연구원, 스위스 생갈렌대와 ‘보험 연구’ 협력](https://www.insnews.co.kr/news/articleView.html?idxno=93719)
-- 11-09 보험신보 — [김은경 서민금융진흥원장, KT&G장학재단 장학생 금융특강… 미래 금융역량 키운다](https://www.insnews.co.kr/news/articleView.html?idxno=93715)
-- 11-09 한국보험신문 — [보험연구원, 스위스 생갈렌대와 연구 교류 진행](https://www.insweek.co.kr/news/articleView.html?idxno=72934)
-- 11-09 한국보험신문 — [DB손해보험, 소방공무원 응원하는 '마음을 잇다' 봉사활동 진행](https://www.insweek.co.kr/news/articleView.html?idxno=72932)
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
@@ -212,4 +212,4 @@
 
 ## 언론사별 건수 상위 15
 
-연합뉴스 최신 2548, 토큰포스트 1056, 머니투데이 706, 뉴시스 사회 704, 인포맥스 460, 코인리더스 435, 동아 사회 415, 아시아경제 390, 조선비즈 378, 연합뉴스 마켓 351, 파이낸셜뉴스 전체 350, 뉴시스 정치 309, KBS 뉴스 278, 뉴시스 금융 268, SBS 사회 254
+연합뉴스 최신 2654, 토큰포스트 1066, 머니투데이 732, 뉴시스 사회 727, 인포맥스 453, 코인리더스 434, 동아 사회 424, 아시아경제 397, 조선비즈 384, 연합뉴스 마켓 356, 파이낸셜뉴스 전체 349, 뉴시스 정치 317, KBS 뉴스 282, 뉴시스 금융 268, SBS 사회 258
