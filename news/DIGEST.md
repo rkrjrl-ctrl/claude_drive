@@ -1,9 +1,9 @@
 # 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-10 03:05 KST  /  최근 7일 27408건 (보험·의료 3453 · 투자·경제 14549 · 생활·사회 9067)  /  이번 신규 318건
+- 갱신: 2026-11-10 04:05 KST  /  최근 7일 27431건 (보험·의료 3457 · 투자·경제 14545 · 생활·사회 9090)  /  이번 신규 316건
 - 소스 79곳 + 구글뉴스 키워드 110개(보험·의료 45 · 투자·경제 45 · 생활 20)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
-- 수집 실패 소스: 없음
+- 수집 실패 소스: 아시아경제 증권, 머니투데이
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
@@ -78,7 +78,7 @@
 - (13) 11-06 싱글리스트 — [美 증시 폭락에 코스피 '투매 공포'…삼성전자·SK하이닉스 추가 급락 우려](https://news.google.com/rss/articles/CBMiZkFVX3lxTFAzWGhXNzk2ZGlSdWp2Qno3QlExeEVXanN0cUc0aU8xSkJnRV9SZUtWYldjaHZVUU5WOEFrZHotdkdkakRvdW93NjBNQ0VzMzl4WExlajlMR3dYQlNYVnBRZFhzRDBndw?oc=5) — **외 19건**(16개 매체)
 - (14) 11-06 재경일보 — [코스피 5천선 붕괴에 서킷브레이커…삼성전자·SK하이닉스 급락에 개미들 패닉..폭락장에 망연자실](https://news.google.com/rss/articles/CBMiS0FVX3lxTE9QX3BkWW1zQ0JIRngzcHJFOEh5YTJZZVZ1TzVKUGNVZzFveVNOb3BLdzkwa2o5RTNFTGJRallXYlJ4d0xSaHVHY2hMZw?oc=5) — **외 10건**(7개 매체)
 
-**금리·중앙은행** (사건 13개)
+**금리·중앙은행** (사건 12개)
 - (12) 11-03 뉴스핌 — [[채권/외환] 이란 종전 협상 기대에 유가 급락…美 국채 금리·달러 동반 하락](https://news.google.com/rss/articles/CBMiXEFVX3lxTE82dENRRmtaRXBvYm1XRFA0SlFtX2FFeXBqNTBPZ1hLZVc3QVEtblVUWWpiMV9YOUI1eXRKUlRvY3ZWNVJwSTFtOEN0VEZKZ0dyR2ViRDN4X0M5eEk0?oc=5) — **외 7건**(5개 매체)
 - (12) 11-07 IndexBox — [중간선거 후 금값 4,000달러 상회: CPI와 연준 금리 인상 위험 분석 - 뉴스 및 통계](https://news.google.com/rss/articles/CBMixAFBVV95cUxPcTd5aXlqRFl1SXBablhVdDVRNGZVMm5XN3k2YXVSM2ltTVEtNWZvSTNiSmoyb2E2bkRtSkU1WkZlU1dLWHV0dUM3SGFlYUZRV0M0a3RtSTNlcEZ1Y3ZQaW5vWXV4UUM2azQ2OXhySEh4Y0VrQm1ZU09ScTBnREl5djFYX2hRQ2FMdTRueEduVnU1d0xzdW1ueVhtNHRDaS0tX0dVOXQycWpmRjY2UXZ6SmpHMVY4WGFrQlZTRUdXMW9iWm5J?oc=5) — **외 5건**(3개 매체)
 - (12) 11-06 재경일보 — [달러·국채금리 하락에 금값 2주 만에 최고…미 연준 금리 향방 주목 : 금융](https://news.google.com/rss/articles/CBMiS0FVX3lxTFByUmhtaEREQ1YzU09SczlvMEFlbEhaeUtxMUMtN1pHdldLSjJPb0RuOHZWSTd1UFlmSWN5MVJ6Rnh3Wk8zZkk5LUJhVQ?oc=5) — **외 1건**(2개 매체)
@@ -194,19 +194,19 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
+- 11-10 MarketWatch — [Are AMD and Broadcom the real winners of the Nvidia spy scandal?](https://www.marketwatch.com/story/are-amd-and-broadcom-the-real-winners-of-the-nvidia-spy-scandal-d2343072?mod=mw_rss_topstories)
+- 11-10 MarketWatch — [Think the bond market is broken? History says a massive turnaround could be coming.](https://www.marketwatch.com/story/think-the-bond-market-is-broken-history-says-a-massive-turnaround-could-be-coming-dfaae450?mod=mw_rss_topstories)
+- 11-10 CNBC — [Boeing to cut 5% of commercial airplane workers as production increase takes longer than expected](https://www.cnbc.com/2026/11/09/boeing-layoffs-commercial-airplane.html)
+- 11-10 MarketWatch — [Hot U.S. inflation hasn’t cooled off. Rising consumer prices to keep Fed rate hike on track.](https://www.marketwatch.com/story/hot-u-s-inflation-hasnt-cooled-off-rising-consumer-prices-to-keep-fed-rate-hike-on-track-926c44b0?mod=mw_rss_topstories)
+- 11-10 CNBC — [Goldman CEO Solomon says AI financing remains strong despite market jitters](https://www.cnbc.com/2026/11/09/goldman-ceo-ai-financing-market.html)
+- 11-10 MarketWatch — [His, mine or ours? I’m 53 and not sure how to handle merging finances with my long-term partner.](https://www.marketwatch.com/story/his-mine-or-ours-im-53-and-not-sure-how-to-handle-merging-finances-with-my-long-term-partner-4c34c914?mod=mw_rss_topstories)
 - 11-10 CNBC — [Boeing to cut 5% of commercial airplane workforce as production increase is slower than expected](https://www.cnbc.com/2026/11/09/boeing-layoffs-commercial-airplane.html)
 - 11-10 MarketWatch — [Ozempic, Zepbound and other GLP-1 drugs have a possible risk of vision loss](https://www.marketwatch.com/story/ozempic-zepbound-and-other-glp-1-drugs-have-a-possible-risk-of-vision-loss-b3738f36?mod=mw_rss_topstories)
 - 11-10 MarketWatch — [There is no one at Nvidia who would be ready to replace Jensen Huang](https://www.marketwatch.com/story/there-is-no-one-at-nvidia-who-would-be-ready-to-replace-jensen-huang-816cc405?mod=mw_rss_topstories)
 - 11-10 CNBC — [Honda to invest $3 billion in new vehicle assembly plant in Ohio](https://www.cnbc.com/2026/11/09/honda-to-invest-3-billion-in-new-vehicle-assembly-plant-in-ohio.html)
 - 11-10 MarketWatch — [Why renters are obsessed with these $300 ‘boneless couches’](https://www.marketwatch.com/story/why-renters-are-obsessed-with-these-300-boneless-couches-65a2e4fe?mod=mw_rss_topstories)
 - 11-10 MarketWatch — [How SpaceX was able to avert one of the market’s biggest fears about its stock](https://www.marketwatch.com/story/how-spacex-was-able-to-avert-one-of-the-markets-biggest-fears-about-its-stock-93870736?mod=mw_rss_topstories)
-- 11-09 CNBC — [Goodyear Tire CEO Mark Stewart steps down as company continues turnaround plan](https://www.cnbc.com/2026/11/09/goodyear-roger-wood-interim-ceo.html)
-- 11-09 MarketWatch — [‘She can always change her mind’: Should a widow leave the family home to her stepchildren?](https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories)
-- 11-09 MarketWatch — [Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?](https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories)
-- 11-09 CNBC — [Eli Lilly’s Foundayo obesity pill eases sleep apnea in late-stage trial, paving way for approval](https://www.cnbc.com/2026/11/09/eli-lilly-foundayo-sleep-apnea-trial.html)
-- 11-09 MarketWatch — [As AI trade falters, Goldman Sachs says this lagging region is now positioned to outperform](https://www.marketwatch.com/story/as-ai-trade-falters-goldman-sachs-says-this-lagging-region-is-now-positioned-to-outperform-589805c6?mod=mw_rss_topstories)
-- 11-09 MarketWatch — [As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal](https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories)
 
 ## 언론사별 건수 상위 15
 
-연합뉴스 최신 2786, 토큰포스트 1105, 뉴시스 사회 769, 머니투데이 748, 인포맥스 454, 동아 사회 449, 코인리더스 436, 아시아경제 394, 조선비즈 388, 파이낸셜뉴스 전체 362, 연합뉴스 마켓 353, 뉴시스 정치 337, KBS 뉴스 303, SBS 사회 283, 뉴시스 금융 268
+연합뉴스 최신 2791, 토큰포스트 1106, 뉴시스 사회 771, 머니투데이 744, 인포맥스 454, 동아 사회 449, 코인리더스 437, 아시아경제 394, 조선비즈 388, 파이낸셜뉴스 전체 362, 연합뉴스 마켓 353, 뉴시스 정치 337, KBS 뉴스 304, SBS 사회 285, 뉴시스 금융 268
