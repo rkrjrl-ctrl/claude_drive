@@ -1,6 +1,6 @@
 # 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-09 21:05 KST  /  최근 7일 27109건 (보험·의료 3449 · 투자·경제 14467 · 생활·사회 8855)  /  이번 신규 418건
+- 갱신: 2026-11-09 22:05 KST  /  최근 7일 27196건 (보험·의료 3454 · 투자·경제 14474 · 생활·사회 8930)  /  이번 신규 423건
 - 소스 79곳 + 구글뉴스 키워드 110개(보험·의료 45 · 투자·경제 45 · 생활 20)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
 - 수집 실패 소스: 없음
@@ -17,7 +17,7 @@
 - (6) 11-09 머니투데이 — [암진단비 재보험금 놓고 손보사-재보험사 충돌…금융당국은 '뒷짐'](https://www.mt.co.kr/finance/2026/11/09/2026110915470933367) — **외 2건**(1개 매체)
 - (5) 11-03 DealSite경제TV — [[보험·카드24시] 동양생명, 보험료 면제와 치료보장 더한 종신보험 출시 外](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hRTVvWFM2R2tfYW1RS01WdDAtLWVBdGVBX210S18xLVJ0STFLWmYzd0pZQ2FER09DMlJCQzVrZUVOSlAxQXQ5bzRCNHhhc0tBTHFQQkF3?oc=5) — **외 2건**(3개 매체)
 
-**건강보험·의료제도** (사건 45개)
+**건강보험·의료제도** (사건 44개)
 - (7) 11-04 세계일보 — [국민연금 10년 부은 평균소득자, 기초연금보다 덜 받는다…‘급여 역전’](https://news.google.com/rss/articles/CBMiWEFVX3lxTFA4TDJWU1VnLTI0WE9aVHdkeEduVkc5RUlidlpJS29mYTNlY0xDX1hUcV9ZbXJodFZkcnQ4eV95cDZhbC14d0VSUVBCdTRhV2F0cVNzRENHY3LSAVRBVV95cUxQSFhUNVpYNmpDTGRub0x5aGJzTWxXZ0JUajdLaGxXa3l4dkJvNDRzcUFWajZpaGxVdktnT2gzQ0tQaFZnR21ETDBjaG5qS2VtNVc2OG4?oc=5) — **외 10건**(10개 매체)
 - (7) 11-04 재경일보 — [국민연금 10년 가입 월급여…기초연금보다 적어 : 정책.지표](https://news.google.com/rss/articles/CBMiS0FVX3lxTE0wUHZUZ09VZzlEVzBFZUJnekFWSEVyaEF6UTQ0VkhQQlV3LTRVdHNDaFlQYjE4dEFhTzI1bWhnMFRZd01vU3FYbGlVMA?oc=5) — **외 8건**(7개 매체)
 - (7) 11-04 서울경제 경제 — [“국민연금 10년 냈는데 月 급여액 34만 3300원”...기초연금 기준액보다 적어](https://www.sedaily.com/article/20109959) — **외 5건**(6개 매체)
@@ -27,7 +27,7 @@
 - (4) 11-09 knpp.co.kr — [복수국적자 기초연금, 형평성 논란 왜 커졌나…내년부터 '국내 5년 거주' 조건](https://news.google.com/rss/articles/CBMiQ0FVX3lxTFA2dHc0Q3lZM3dNdEtzZVExZzhUanBzU3pwLUJTYzRnc0RYbmdxZEZuZ3JQS1NJeUdZYURqWUVXWDNHVVE?oc=5) — **외 16건**(16개 매체)
 - (9) 11-03 핀포인트뉴스 — ["보험료 10년 낸 국민연금액, 세금 지원 기초연금보다 적다"](https://news.google.com/rss/articles/CBMic0FVX3lxTFBqYU83d3VNVWhZbDQxcmJNWElzcVJOV1Q2c1prTmthV0MtYTB2X3RaSDVILUhBcE1rN3pVcDZaTkJPS0pjcnFjRWpLRzdJd1BYSDhhZWU4VmJhTUlpOF8zMVpWNG1BVGJJTXpQTmRoVE1sS1E?oc=5) — **외 3건**(4개 매체)
 
-**보험금 분쟁·판결** (사건 24개)
+**보험금 분쟁·판결** (사건 25개)
 - (7) 11-09 조선일보 — [렌터카로 ‘쾅’ 박더니...보험금 3억2000만원 챙긴 보험사기 피의자 21명 검거](https://news.google.com/rss/articles/CBMikAFBVV95cUxPSGc5WVM3bjh1TElLdDQ1RURvUTlab19iX29IU093SjZCWTJDZXN4Q3huOVZZQWJualQ2QkxFTERzelpoc3JEeWRNdXAwZGZvWHNXMy1PTkxyVG5wcEtOS1ZhX2Yyd2VPU1YxR0dXZU5hWUJaYXd3bVQ1MnlxUEQxWDdCS2gwT0NoT1BDQVYyZTg?oc=5) — **외 3건**(4개 매체)
 - (7) 11-03 남도일보 — [자해하고 보험금 청구…9억 챙긴 보험사기 일당 ‘덜미’](https://news.google.com/rss/articles/CBMibEFVX3lxTE1EUXpoTTJGbjBCajJXZEk5ZXlDYWtncnlUMDBqYWZvMDNxTW0zMGtncmhzc01wR3BMMlNuZHR1UGdTTTlGT0JZeEhEMC1sbjFzTjJXem5DdjlfNEdOVnNWMHQ0WnZ3dkZVVUwtR9IBcEFVX3lxTE8teUExVTB0SHhFZnItRDVpYnBJQWV6eFBoYnRCTjl4S1pYWTFlQ1RUTEk0RVpLWkVUUWVybDZ6VDROclp3TkZDd2F4ZzlkQWprN05PRzRBY3RvRGtjUmMxN05sQWtDV05sbmVwUFZpQnU?oc=5) — **외 2건**(3개 매체)
 - (6) 11-05 뉴스워커 — [[뉴스워커_신한라이프] 보험금 분쟁 심의에 외부 전문가 참여…의결권까지 부여](https://news.google.com/rss/articles/CBMicEFVX3lxTFBxNGp6UFRwSFpVMFRzMGs3ZmJaNl9mRG9EY0dRMVVXa2xicjVWUnRESFRlZEZfR1VyR0VRUXpyTzZPREsxSlRIU3g2VmNfTFotWjJkbkgyNWtWSjNfbEM3R1NYOWx1c09KaWlyY1NPU0zSAXRBVV95cUxQcV93ZjhjR1hseTk0X00zTFY3c0lSQ0V1RmFacFgxeE1GdHJpVzYyb20zU25VejQ3X1d1TXJzYTFwTUJ0Z2JnQkR0YmhsQWVOQjFYZVVoYTNuWk4xbElsWWNxMmRxM01SNENpY3BYVFJUZlpxTg?oc=5) — **외 2건**(3개 매체)
@@ -73,14 +73,14 @@
 - (14) 11-03 뉴스핌 — [뉴욕증시, 혼조 마감…유가 급락에도 반도체 약세에 나스닥 1.07%↓](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jaEVha0VKTnl5V1lmajF6OEpkZXVoWHlZcUZkOU5SM3ZYYjZ2b0xvSklKOXdOV0tzanF4Y2M0SnBna3VsNzN6MjVUc3YtVWlGSThoWkpoTWNaQV9G?oc=5) — **외 24건**(21개 매체)
 - (15) 11-06 톱스타뉴스 — [[미국 뉴욕증시 전망] 나스닥 5.5% 폭락 후 반등 시도…엔비디아·마이크론 회복세, 고용지표가 분수령](https://news.google.com/rss/articles/CBMickFVX3lxTE5jdEd3aEozRDRBVXlRbktpVE4wa29MS19sU0pRNUctN1p2MVVxMklpM1diQTJjSWlsRWNmUkNSYjBHR24wTGd3UE1rdWRLNENZYjNEaEM0MGFIMmtCeDFVVVdOM0JNeEZzTEdZWDh6OFdTZw?oc=5) — **외 14건**(12개 매체)
 
-**국내 증시** (사건 63개)
+**국내 증시** (사건 62개)
 - (19) 11-06 포인트데일리 — [증시, '미 반도체 폭락'에 급락…코스피 서킷브레이커·코스닥 매도 사이드카 발동](https://news.google.com/rss/articles/CBMicEFVX3lxTFBBQ0xpS21pWUVYd25PdkFicDgzWEEzcUNaMDNGa0FFZlVMZ3NEeGZZVm1EZVVIMmJVVTFPLWdUVzdVYlNFUW4zQ1Rza3YyblNPc2ZsTTNTWWtqaGp2TExhLUotZThNQmNaSGtlc1lWNW_SAXRBVV95cUxPWU1mZ1ExV091bE5zV01oeWRneEZGQnJ4c0owT3hxZ3g4cU9mOUdqMURjcF9JZU5rZDR3dUFkR1hUa1h6TkhhbFhWUzlJMXctOXM0bzFSZWhPVVNLSE9LVkRranJjYnI2M0p2bnY5eFdsYUFPTA?oc=5) — **외 136건**(93개 매체)
 - (13) 11-06 싱글리스트 — [美 증시 폭락에 코스피 '투매 공포'…삼성전자·SK하이닉스 추가 급락 우려](https://news.google.com/rss/articles/CBMiZkFVX3lxTFAzWGhXNzk2ZGlSdWp2Qno3QlExeEVXanN0cUc0aU8xSkJnRV9SZUtWYldjaHZVUU5WOEFrZHotdkdkakRvdW93NjBNQ0VzMzl4WExlajlMR3dYQlNYVnBRZFhzRDBndw?oc=5) — **외 19건**(16개 매체)
 - (14) 11-06 재경일보 — [코스피 5천선 붕괴에 서킷브레이커…삼성전자·SK하이닉스 급락에 개미들 패닉..폭락장에 망연자실](https://news.google.com/rss/articles/CBMiS0FVX3lxTE9QX3BkWW1zQ0JIRngzcHJFOEh5YTJZZVZ1TzVKUGNVZzFveVNOb3BLdzkwa2o5RTNFTGJRallXYlJ4d0xSaHVHY2hMZw?oc=5) — **외 10건**(7개 매체)
 
 **금리·중앙은행** (사건 12개)
 - (12) 11-03 뉴스핌 — [[채권/외환] 이란 종전 협상 기대에 유가 급락…美 국채 금리·달러 동반 하락](https://news.google.com/rss/articles/CBMiXEFVX3lxTE82dENRRmtaRXBvYm1XRFA0SlFtX2FFeXBqNTBPZ1hLZVc3QVEtblVUWWpiMV9YOUI1eXRKUlRvY3ZWNVJwSTFtOEN0VEZKZ0dyR2ViRDN4X0M5eEk0?oc=5) — **외 7건**(6개 매체)
-- (12) 11-07 IndexBox — [중간선거 후 금값 4,000달러 상회: CPI와 연준 금리 인상 위험 분석 - 뉴스 및 통계](https://news.google.com/rss/articles/CBMixAFBVV95cUxPcTd5aXlqRFl1SXBablhVdDVRNGZVMm5XN3k2YXVSM2ltTVEtNWZvSTNiSmoyb2E2bkRtSkU1WkZlU1dLWHV0dUM3SGFlYUZRV0M0a3RtSTNlcEZ1Y3ZQaW5vWXV4UUM2azQ2OXhySEh4Y0VrQm1ZU09ScTBnREl5djFYX2hRQ2FMdTRueEduVnU1d0xzdW1ueVhtNHRDaS0tX0dVOXQycWpmRjY2UXZ6SmpHMVY4WGFrQlZTRUdXMW9iWm5J?oc=5) — **외 3건**(2개 매체)
+- (12) 11-07 IndexBox — [중간선거 후 금값 4,000달러 상회: CPI와 연준 금리 인상 위험 분석 - 뉴스 및 통계](https://news.google.com/rss/articles/CBMixAFBVV95cUxPcTd5aXlqRFl1SXBablhVdDVRNGZVMm5XN3k2YXVSM2ltTVEtNWZvSTNiSmoyb2E2bkRtSkU1WkZlU1dLWHV0dUM3SGFlYUZRV0M0a3RtSTNlcEZ1Y3ZQaW5vWXV4UUM2azQ2OXhySEh4Y0VrQm1ZU09ScTBnREl5djFYX2hRQ2FMdTRueEduVnU1d0xzdW1ueVhtNHRDaS0tX0dVOXQycWpmRjY2UXZ6SmpHMVY4WGFrQlZTRUdXMW9iWm5J?oc=5) — **외 4건**(3개 매체)
 - (12) 11-06 재경일보 — [달러·국채금리 하락에 금값 2주 만에 최고…미 연준 금리 향방 주목 : 금융](https://news.google.com/rss/articles/CBMiS0FVX3lxTFByUmhtaEREQ1YzU09SczlvMEFlbEhaeUtxMUMtN1pHdldLSjJPb0RuOHZWSTd1UFlmSWN5MVJ6Rnh3Wk8zZkk5LUJhVQ?oc=5) — **외 1건**(2개 매체)
 
 **환율·달러** (사건 6개)
@@ -121,22 +121,22 @@
 - (8) 11-09 연합뉴스TV 경제 — [전남광주 어르신, 카드 한 장으로 지하철 무료·교통비 환급](https://www.yonhapnewstv.co.kr/news/AKR20261109155651Uel) — **외 4건**(5개 매체)
 - (6) 11-09 이코노미사이언스 — [우리은행, 알뜰폰 요금제 11종 통신비 지원…포인트·쿠폰으로 부담 낮춘다](https://news.google.com/rss/articles/CBMib0FVX3lxTE12YjZUM3l3a1RMOTltazlZb2J5bktoUnIzaVBXWnpGMnFHYTZra2xCVW5Wc1RVa0tFcVMwM2xMRE9jTHRpRm5HTVI4eEVWcWhZMUlaOUgwWWVpRWtkd0dZR3V2bFlsaGsyYXZ5bXpTQQ?oc=5) — **외 4건**(4개 매체)
 
-**세금·지원금** (사건 51개)
-- (11) 11-09 베이비뉴스 — [전세사기 피해자 보증금 최소 3분의 1 보장…10일부터 지원금 신청](https://news.google.com/rss/articles/CBMibEFVX3lxTE5JcTc1eFVTOWxlOE5SZFBmTmZsTE15Q0V6VUNyNHlnVmFUMFdjOUdXTHpib0hVWENQV3d0Q19fT2xpYk4yTUpjbV9HTWdISlo2RVVrWENpVEJQR2hQMVFTeUlVRHViNWE2dmlNYQ?oc=5) — **외 67건**(65개 매체)
+**세금·지원금** (사건 50개)
+- (11) 11-09 베이비뉴스 — [전세사기 피해자 보증금 최소 3분의 1 보장…10일부터 지원금 신청](https://news.google.com/rss/articles/CBMibEFVX3lxTE5JcTc1eFVTOWxlOE5SZFBmTmZsTE15Q0V6VUNyNHlnVmFUMFdjOUdXTHpib0hVWENQV3d0Q19fT2xpYk4yTUpjbV9HTWdISlo2RVVrWENpVEJQR2hQMVFTeUlVRHViNWE2dmlNYQ?oc=5) — **외 68건**(66개 매체)
 - (9) 11-06 디지털데일리 — ["보이스피싱 피해금 환급 받으세요"… 금융기관 사칭 사기 `주의보`](https://news.google.com/rss/articles/CBMiZEFVX3lxTFA2QWF3UGl0TFlRYmpHODVaR0JPdENRSGtFWTFaNHk1bXhNRFQyUk5heGYxRGVtVGhZWVVWMHJCWktHdG5nc1FQejZuQjRjVHNIMGxTVWtqVmVTd1ZoTFZUS2JhSDU?oc=5) — **외 8건**(9개 매체)
 - (11) 11-09 www.climatepol.com — [국토교통부, 전세사기피해자 최소보장제 시행, 10일부터 최소지원금 신청하세요!](https://news.google.com/rss/articles/CBMibEFVX3lxTE9UMldueWxGNWdaU2h4OExnNVY4NTZTT21OQUxSUERhbl9qN1RyMkNwM0lDdEs1V01PSnk4T2FfbjNGeFRKVE1neUx5bU1xWXNJb1JwZWk2SGQxc1NYQldLMzd2SXJncnRzTlo0Zw?oc=5) — **외 2건**(3개 매체)
 
-**일자리·임금** (사건 35개)
+**일자리·임금** (사건 33개)
 - (9) 11-08 재경일보 — [멜랑숑, 최저임금 인상·정년 60세 공약 발표 : 국제](https://news.google.com/rss/articles/CBMiS0FVX3lxTE5qX25rRjU1eFFlcXIwSmJ0VExZWk1jQzFRVFFPblllTUVDVnc2RER3b2NSaG4ydzhzN1Z5QnhrTi1XdU1jZ1VxclVTVQ?oc=5) — **외 1건**(2개 매체)
 - (8) 11-03 데일리안 — [최저임금 인상 뒤 요양시설 간호사 고용 감소…간호조무사 늘며 전문성 약화](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9odFZyY1Q2ZzJpMGxkb09ubUNLMURwdDZlUTVEYlVEaml2UlgyZjRBU2lqTkVrdG92ZDBKdS1kU1hIWW1vcjZvR3VkTzFNUWphdElJ?oc=5) — **외 1건**(2개 매체)
 - (4) 11-06 서울파이낸스 — [진에어 노사, 2026년 임금 협약 잠정 합의…전 직군 2% 안팎 인상](https://www.seoulfn.com/news/articleView.html?idxno=642146) — **외 4건**(5개 매체)
 
-**집·주거** (사건 58개)
+**집·주거** (사건 60개)
 - (11) 11-04 연합뉴스 경제 — ['전세사기 걱정 더는' 전월세 안심신탁 임대인 오늘부터 모집](https://www.yna.co.kr/view/AKR20261104070700003) — **외 27건**(27개 매체)
 - (5) 11-09 여주신문 — [여주시, 전세사기 예방을 위한 AI기반 ‘경기 안심 부동산’ 집중 홍보 캠페인 추진](https://news.google.com/rss/articles/CBMibkFVX3lxTE1LYmZaMmRfUTUyTGJ0Q0hZZHFFRDVzTkN2UDFzcUZLbjJOWFQ1MUd0YXRQb0JGcE1DeGk5UFJsbkhhYkZLemRodkNuOUE5NDl3VVk1LU9rY3FLMWVxbjNURTdQdEpFWE04RzdjYVhn?oc=5) — **외 8건**(9개 매체)
 - (6) 11-05 KBS 뉴스 — [서울 성북구 6억 원대 전세사기 50대에 징역 8년 구형](https://news.google.com/rss/articles/CBMiW0FVX3lxTFBUU0REQl9RSnEyOWs0ZlFmTVU0LXZFdXlwV3lNRGVFMUE3R1lqRC12eFJVeVhXVHN5MHZWS1NYUnhtV3d3Tkl0NFlqb3RQcUhCd2VJVWFJVXJDRjA?oc=5) — **외 4건**(5개 매체)
 
-**사기·피해·배상** (사건 18개)
+**사기·피해·배상** (사건 19개)
 - (5) 11-09 경향 경제 — [“보이스피싱 피해자, 최대 200만원 생계비 지원 신청하세요”](https://www.khan.co.kr/article/202611091703001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news) — **외 33건**(32개 매체)
 - (7) 11-09 뉴시안 — [대신증권, 정보유출 고객에 보이스피싱 보험 무료 가입 지원…1000만원 보상](https://news.google.com/rss/articles/CBMibEFVX3lxTE9VbWQxRVJIOFNZU2NZUzhmc1l6WXQ3OUZPWi1oSGFCeXFtTkNqWjFnWHNRdGFYLWtTZlgyeFNyQV9XYjNlRDFyYmtPOS1iWHZicDA3YWlTVGU4X3ZiUTFYRVpCXzdLQkhlU1lPNg?oc=5) — **외 6건**(7개 매체)
 - (5) 11-09 한국일보 — [보이스피싱 피해자에 생계비 100만 원…심리상담 받으면 100만 원 추가](https://news.google.com/rss/articles/CBMic0FVX3lxTE5VNFIyZk9RZHhycTlRRlR0bS1YZjRvWVRKS3BpMlZCRDlFODdpcE9PRnNydUt4Wm1NaG03cXUtaDIzMVF3amtScm9nVlRCS2dWZUFoQVFYZ2VqRnhwaWduRzhnMGNncG1ZNkpEZlY4NGtTbXPSAXNBVV95cUxOVTRSMmZPUWR4cnE5UUZUdG0tWGY0b1lUSktwaTJWQkQ5RTg3aXBPT0ZzcnVLeFptTWhtN3F1LWgyMzFRd2prUnJvZ1ZUQktnVmVBaEFRWGdlakZ4cGlnbkc4ZzBjZ3BtWTZKRGZWODRrU21z?oc=5) — **외 5건**(5개 매체)
@@ -195,19 +195,19 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
+- 11-09 MarketWatch — [A new setback for the AI trade: Nvidia’s board is probing CEO Huang’s relationship with an alleged spy](https://www.marketwatch.com/story/nvidias-board-will-probe-ceo-jensen-huangs-relationship-with-an-alleged-spy-heres-what-to-know-86656cd9?mod=mw_rss_topstories)
+- 11-09 MarketWatch — [Can the AI trade catch a break? Nvidia, Anthropic and CoreWeave may have a say.](https://www.marketwatch.com/story/can-the-ai-trade-catch-a-break-nvidia-anthropic-and-coreweave-may-have-a-say-d00c9ab3?mod=mw_rss_topstories)
 - 11-09 CNBC — [Restaurant chains refocus on food quality to bring back diners](https://www.cnbc.com/2026/11/09/restaurant-chains-better-food-diners.html)
 - 11-09 MarketWatch — [Until AI sentiment improves, Citi tells investors it’s better to sit out the global tech trade](https://www.marketwatch.com/story/until-sentiment-in-the-ai-trade-improves-citi-tells-investors-its-better-to-sit-out-the-global-tech-trade-ed939f30?mod=mw_rss_topstories)
 - 11-09 MarketWatch — [The biggest takeaway from Berkshire Hathaway’s latest quarter isn’t the $357 billion cash or its stock buybacks](https://www.marketwatch.com/story/the-biggest-takeaway-from-berkshire-hathaways-latest-quarter-isnt-the-357-billion-cash-or-its-stock-buybacks-3069f6a9?mod=mw_rss_topstories)
 - 11-09 MarketWatch — [The market’s correction is entering its final phase — but wait before buying the dip, says Morgan Stanley chief strategist](https://www.marketwatch.com/story/the-markets-correction-is-entering-its-final-phase-but-wait-before-buying-the-dip-says-morgan-stanley-chief-strategist-2c1be13e?mod=mw_rss_topstories)
 - 11-09 MarketWatch — [Until sentiment in the AI trade improves, Citi tells investors it’s better to sit out the global tech trade](https://www.marketwatch.com/story/until-sentiment-in-the-ai-trade-improves-citi-tells-investors-its-better-to-sit-out-the-global-tech-trade-ed939f30?mod=mw_rss_topstories)
 - 11-09 MarketWatch — [‘We had the worst fight we’ve ever had’: I want my husband to retire at 65. But I don’t want to lose his $280,000 salary.](https://www.marketwatch.com/story/we-had-the-worst-fight-weve-ever-had-i-want-my-husband-to-retire-at-65-but-i-dont-want-to-lose-his-280-000-salary-48511469?mod=mw_rss_topstories)
+- 11-09 MarketWatch — [‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?](https://www.marketwatch.com/story/we-had-the-worst-fight-weve-ever-had-i-want-my-husband-to-retire-at-65-but-i-dont-want-to-lose-his-280-000-salary-48511469?mod=mw_rss_topstories)
 - 11-09 MarketWatch — [Ryan Serhant of ‘Owning Manhattan’ on why you shouldn’t wait to buy a house, and the hot spots to watch for](https://www.marketwatch.com/story/ryan-serhant-of-owning-manhattan-on-why-you-shouldnt-wait-to-buy-a-house-and-the-hot-spots-to-watch-for-9c2731c3?mod=mw_rss_topstories)
 - 11-09 MarketWatch — [Brewers star Christian Yelich is selling his hillside Malibu mansion for $30 million](https://www.marketwatch.com/story/brewers-star-christian-yelich-is-selling-his-hillside-malibu-mansion-for-30-million-92bee567?mod=mw_rss_topstories)
 - 11-09 MarketWatch — [How Wall Street is reacting to the news of Nvidia’s investigation into Jensen Huang spy claims](https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories)
-- 11-09 MarketWatch — [How Wall Street is reacting to the news of Nvidia’s Jensen Huang investigation into spy claims](https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories)
-- 11-09 MarketWatch — [I’m second-guessing my adviser: Is an annuity the right move in this market?](https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories)
-- 11-09 MarketWatch — [A new setback for the AI trade: Nvidia’s board is probing CEO Huang’s relationship with alleged spy](https://www.marketwatch.com/story/nvidias-board-will-probe-ceo-jensen-huangs-relationship-with-an-alleged-spy-heres-what-to-know-86656cd9?mod=mw_rss_topstories)
 
 ## 언론사별 건수 상위 15
 
-연합뉴스 최신 2750, 토큰포스트 1083, 뉴시스 사회 756, 머니투데이 745, 인포맥스 454, 동아 사회 440, 코인리더스 436, 아시아경제 396, 조선비즈 391, 파이낸셜뉴스 전체 360, 연합뉴스 마켓 353, 뉴시스 정치 335, KBS 뉴스 290, SBS 사회 274, 뉴시스 금융 267
+연합뉴스 최신 2765, 토큰포스트 1084, 뉴시스 사회 761, 머니투데이 746, 인포맥스 453, 동아 사회 442, 코인리더스 436, 조선비즈 394, 아시아경제 394, 파이낸셜뉴스 전체 361, 연합뉴스 마켓 353, 뉴시스 정치 336, KBS 뉴스 293, SBS 사회 278, 뉴시스 금융 267
