@@ -1,40 +1,40 @@
 # 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-09 14:05 KST  /  최근 7일 25710건 (보험·의료 3489 · 투자·경제 14055 · 생활·사회 7833)  /  이번 신규 556건
+- 갱신: 2026-11-09 15:05 KST  /  최근 7일 26015건 (보험·의료 3485 · 투자·경제 14140 · 생활·사회 8057)  /  이번 신규 723건
 - 소스 79곳 + 구글뉴스 키워드 110개(보험·의료 45 · 투자·경제 45 · 생활 20)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.
 - 수집 실패 소스: 없음
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
-**실손·비급여** (사건 27개)
+**실손·비급여** (사건 26개)
 - (10) 11-02 한양경제 — [본인부담상한제 환급금 실손보험 보상 대상 제외...대법원 판결 찾아보니](https://news.google.com/rss/articles/CBMickFVX3lxTE85U2pjcm9sVHJUNjliRlZLc0h0dFk2VHQ5Q3hkcF84NHlSM3ZGUWpuUUJFd2Y5N1lwdWdILTkwNGJCbkJrbElDd1ZUa014UWQ0THpTa1hfTXlaN0dlNEc0cmhfN2lKN1JTLTJIZlZtNFpVUQ?oc=5) — **외 1건**(1개 매체)
 - (8) 11-06 보험매일 — [실손보험 비급여 관리 강화에 의료계 반발…“민간보험 손해율 관리 수단 전락”](http://www.fins.co.kr/news/articleView.html?idxno=110447) — **외 1건**(2개 매체)
 - (7) 11-02 이투데이 — [초기 실손보험료 최대 40% 할인…이달부터 시행](https://news.google.com/rss/articles/CBMibkFVX3lxTE81VkJnWG1IcHV2VGZOVnZGNEdyN1ZudjZhcXdMMkpJR084NUhoRmxLMjdsYzU2dnJMUHN6czRqZ3JPbVNIbEdxRnAtTDQ2ajRIbUxXVGtUZTh1UExTWG5PUklHdHhjSzNwU3VWUW13?oc=5) — **외 1건**(2개 매체)
 
-**암·질병 보장 상품** (사건 14개)
+**암·질병 보장 상품** (사건 12개)
 - (5) 11-05 울산시민신문 — [국민건강보험공단은 간호·간병통합서비스 우수기관 38곳 선정](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlV3pLaTNYRGlMLVlleWRsVVNSejZ6aWtaOHA2MFBBNThqQjhXajdCRG82RnN0NFdXdl9zZmFBYU0yVUNmbWNaTnRvV1hnWWhaYTNLbzRoM3dTay1nclc0MWFvSXowVk0?oc=5) — **외 6건**(7개 매체)
-- (5) 11-05 핀포인트뉴스 — [ABL생명, 납입보험료 인출 가능한 종신보험 출시](https://news.google.com/rss/articles/CBMid0FVX3lxTE0tWUtOeDlJbTZZMmJMRU1UMmxIM180WlNQUi1hdjc3cjN3aVg0NFk3MVVnMTJlQXFneXZONk5uMV9YSGZFWFVwY2dPUkU4TmE4TmZ2M3NVcEFtVmY0RzdZcTQyQXVPamlnZlV1a0I3MUZMdUVyVVVZ0gF3QVVfeXFMTS1ZS054OUltNlkyYkxFTVQybEgzXzRaU1BSLWF2NzdyM3dpWDQ0WTcxVWcxMmVBcWd5dk42Tm4xX1hIZkVYVXBjZ09SRThOYThOZnYzc1VwQW1WZjRHN1lxNDJBdU9qaWdmVXVrQjcxRkx1RXJVVVk?oc=5) — **외 2건**(3개 매체)
 - (5) 11-03 DealSite경제TV — [[보험·카드24시] 동양생명, 보험료 면제와 치료보장 더한 종신보험 출시 外](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hRTVvWFM2R2tfYW1RS01WdDAtLWVBdGVBX210S18xLVJ0STFLWmYzd0pZQ2FER09DMlJCQzVrZUVOSlAxQXQ5bzRCNHhhc0tBTHFQQkF3?oc=5) — **외 2건**(3개 매체)
+- (8) 11-03 글로벌이코노믹 — [‘사망보험금 체증→연금 전환’ 동양생명, 신규 종신보험 선봬](https://news.google.com/rss/articles/CBMihAFBVV95cUxNWjE5T0RGWEo3RzVFMTZJbklWdzNjZ2VkX2R1U1phLTJtQ0JkWEtUT0k1UGxhQ3ZLa3VIaU5uQ1RRb1JDYzBpbnlPUXBWalpiN0tRNG0zWHBvZ0ZXTFp0UThmamphYkVTdjNySzlVLS1DdFkzUlFucHdCMThpX0FIaUhYeFQ?oc=5)
 
-**건강보험·의료제도** (사건 43개)
+**건강보험·의료제도** (사건 45개)
 - (7) 11-04 세계일보 — [국민연금 10년 부은 평균소득자, 기초연금보다 덜 받는다…‘급여 역전’](https://news.google.com/rss/articles/CBMiWEFVX3lxTFA4TDJWU1VnLTI0WE9aVHdkeEduVkc5RUlidlpJS29mYTNlY0xDX1hUcV9ZbXJodFZkcnQ4eV95cDZhbC14d0VSUVBCdTRhV2F0cVNzRENHY3LSAVRBVV95cUxQSFhUNVpYNmpDTGRub0x5aGJzTWxXZ0JUajdLaGxXa3l4dkJvNDRzcUFWajZpaGxVdktnT2gzQ0tQaFZnR21ETDBjaG5qS2VtNVc2OG4?oc=5) — **외 10건**(10개 매체)
 - (7) 11-04 재경일보 — [국민연금 10년 가입 월급여…기초연금보다 적어 : 정책.지표](https://news.google.com/rss/articles/CBMiS0FVX3lxTE0wUHZUZ09VZzlEVzBFZUJnekFWSEVyaEF6UTQ0VkhQQlV3LTRVdHNDaFlQYjE4dEFhTzI1bWhnMFRZd01vU3FYbGlVMA?oc=5) — **외 8건**(7개 매체)
 - (7) 11-04 서울경제 경제 — [“국민연금 10년 냈는데 月 급여액 34만 3300원”...기초연금 기준액보다 적어](https://www.sedaily.com/article/20109959) — **외 5건**(6개 매체)
 
-**국민연금·퇴직연금** (사건 83개)
-- (4) 11-09 knpp.co.kr — [복수국적자 기초연금, 형평성 논란 왜 커졌나…내년부터 '국내 5년 거주' 조건](https://news.google.com/rss/articles/CBMiQ0FVX3lxTFA2dHc0Q3lZM3dNdEtzZVExZzhUanBzU3pwLUJTYzRnc0RYbmdxZEZuZ3JQS1NJeUdZYURqWUVXWDNHVVE?oc=5) — **외 21건**(21개 매체)
+**국민연금·퇴직연금** (사건 85개)
+- (4) 11-09 knpp.co.kr — [복수국적자 기초연금, 형평성 논란 왜 커졌나…내년부터 '국내 5년 거주' 조건](https://news.google.com/rss/articles/CBMiQ0FVX3lxTFA2dHc0Q3lZM3dNdEtzZVExZzhUanBzU3pwLUJTYzRnc0RYbmdxZEZuZ3JQS1NJeUdZYURqWUVXWDNHVVE?oc=5) — **외 19건**(19개 매체)
 - (5) 11-03 비즈월드 — [금감원, '퇴직연금 장기·분산투자 캠페인' 시작](https://news.google.com/rss/articles/CBMiakFVX3lxTE5GOTFLVHdXZXZpbEJ5V0xEeVBzYUZuX1VRd2J5eFI2OTJKM21Ud2lsRzdrTUJIQWRDUFo2X1dwNmdTNlQxc2ROdTFrNTVjMkpkUUJWWHBOTkRocThhLWtYREM1OXlaYWpjRXc?oc=5) — **외 12건**(13개 매체)
 - (9) 11-03 핀포인트뉴스 — ["보험료 10년 낸 국민연금액, 세금 지원 기초연금보다 적다"](https://news.google.com/rss/articles/CBMic0FVX3lxTFBqYU83d3VNVWhZbDQxcmJNWElzcVJOV1Q2c1prTmthV0MtYTB2X3RaSDVILUhBcE1rN3pVcDZaTkJPS0pjcnFjRWpLRzdJd1BYSDhhZWU4VmJhTUlpOF8zMVpWNG1BVGJJTXpQTmRoVE1sS1E?oc=5) — **외 3건**(4개 매체)
 
 **보험금 분쟁·판결** (사건 25개)
-- (7) 11-09 조선일보 — [렌터카로 ‘쾅’ 박더니...보험금 3억2000만원 챙긴 보험사기 피의자 21명 검거](https://news.google.com/rss/articles/CBMikAFBVV95cUxPSGc5WVM3bjh1TElLdDQ1RURvUTlab19iX29IU093SjZCWTJDZXN4Q3huOVZZQWJualQ2QkxFTERzelpoc3JEeWRNdXAwZGZvWHNXMy1PTkxyVG5wcEtOS1ZhX2Yyd2VPU1YxR0dXZU5hWUJaYXd3bVQ1MnlxUEQxWDdCS2gwT0NoT1BDQVYyZTg?oc=5) — **외 2건**(3개 매체)
+- (7) 11-09 조선일보 — [렌터카로 ‘쾅’ 박더니...보험금 3억2000만원 챙긴 보험사기 피의자 21명 검거](https://news.google.com/rss/articles/CBMikAFBVV95cUxPSGc5WVM3bjh1TElLdDQ1RURvUTlab19iX29IU093SjZCWTJDZXN4Q3huOVZZQWJualQ2QkxFTERzelpoc3JEeWRNdXAwZGZvWHNXMy1PTkxyVG5wcEtOS1ZhX2Yyd2VPU1YxR0dXZU5hWUJaYXd3bVQ1MnlxUEQxWDdCS2gwT0NoT1BDQVYyZTg?oc=5) — **외 3건**(4개 매체)
 - (7) 11-03 남도일보 — [자해하고 보험금 청구…9억 챙긴 보험사기 일당 ‘덜미’](https://news.google.com/rss/articles/CBMibEFVX3lxTE1EUXpoTTJGbjBCajJXZEk5ZXlDYWtncnlUMDBqYWZvMDNxTW0zMGtncmhzc01wR3BMMlNuZHR1UGdTTTlGT0JZeEhEMC1sbjFzTjJXem5DdjlfNEdOVnNWMHQ0WnZ3dkZVVUwtR9IBcEFVX3lxTE8teUExVTB0SHhFZnItRDVpYnBJQWV6eFBoYnRCTjl4S1pYWTFlQ1RUTEk0RVpLWkVUUWVybDZ6VDROclp3TkZDd2F4ZzlkQWprN05PRzRBY3RvRGtjUmMxN05sQWtDV05sbmVwUFZpQnU?oc=5) — **외 2건**(3개 매체)
 - (6) 11-05 뉴스워커 — [[뉴스워커_신한라이프] 보험금 분쟁 심의에 외부 전문가 참여…의결권까지 부여](https://news.google.com/rss/articles/CBMicEFVX3lxTFBxNGp6UFRwSFpVMFRzMGs3ZmJaNl9mRG9EY0dRMVVXa2xicjVWUnRESFRlZEZfR1VyR0VRUXpyTzZPREsxSlRIU3g2VmNfTFotWjJkbkgyNWtWSjNfbEM3R1NYOWx1c09KaWlyY1NPU0zSAXRBVV95cUxQcV93ZjhjR1hseTk0X00zTFY3c0lSQ0V1RmFacFgxeE1GdHJpVzYyb20zU25VejQ3X1d1TXJzYTFwTUJ0Z2JnQkR0YmhsQWVOQjFYZVVoYTNuWk4xbElsWWNxMmRxM01SNENpY3BYVFJUZlpxTg?oc=5) — **외 2건**(3개 매체)
 
-**보험업계·상품 출시** (사건 8개)
-- (4) 11-09 경제타임스 — [롯데손보, '주차일수 할인특약'…보험료 최대 15%↓](https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCNm1Ed1Y4U3F2eDQ5ajJYako1ZUhVcFltRlVKMVNWSTVRWDNjMDkzTjl1Ulg3ZkVjSUZLYngtNVVvNWR5a2xZSmN4TzZLS19DZ29B?oc=5) — **외 10건**(11개 매체)
-- (6) 11-09 이코노미사이언스 — [롯데손해보험, 차 세워둔 날만큼 자동차보험료 할인…최대 15% 적용](https://news.google.com/rss/articles/CBMib0FVX3lxTE1tdmxScHd0MTNiQl9INkozdkRqZzVmdWltMHNxaVcxYWxBVTBJS1N3WFRxeFdhMGRDbmZra0RfYi1KUVBfcE9rczNPYVhwZjBqWkxZSWJBVWVxTEVnbFRISlV1Q2hkdVJFNk5ubVQtVQ?oc=5) — **외 1건**(2개 매체)
+**보험업계·상품 출시** (사건 7개)
+- (6) 11-09 조세일보 — [주말에만 타는 차라면…롯데손보, 자동차보험료 최대 15% 할인](https://news.google.com/rss/articles/CBMidEFVX3lxTFBPRTRRMjR6ckMwbHBBRGZTSUlZSFFmQjVidkx4VUQ2RldRejNyLXlWLWc4MDlra1oxaWRRVXluT01zV2lFNUg5VjI5VVRYNFBmN3lCRVZvSk5GY2tXSC1RMzMyT3VuV0lSbVJ3M0VtdWlBLVJk?oc=5) — **외 6건**(7개 매체)
+- (4) 11-09 머니투데이 — ["주차한 날만큼 보험료 할인"…롯데손보, 업계 첫 특약 출시](https://www.mt.co.kr/finance/2026/11/09/2026110914201132903) — **외 7건**(8개 매체)
 - (5) 11-03 시사통신 — [청년 자동차보험료 부담 낮춘다…운전경력 인정·할인 안내 확대](https://news.google.com/rss/articles/CBMia0FVX3lxTE1Ca3dldmg4S1czSklyTjFBY0JvZFFlWGhOWTJ2d1VZZG95OTl3bzQwemo3RVB0al9IbFNYbzZhMzBEV1lIcHFCdGJ5NktTSFNac3ZSdTdyTjlCZmQ5ZWUtQmhaVDd3OU83TlEw0gFrQVVfeXFMTUJrd2V2aDhLVzNKSXJOMUFjQm9kUWVYaE5ZMnZ3VVlkb3k5OXdvNDB6ajdFUHRqX0hsU1hvNmEzMERXWUhwcUJ0Ynk2S1NIU1pzdlJ1N3JOOUJmZDllZS1CaFpUN3c5TzdOUTA?oc=5) — **외 1건**(2개 매체)
 
 
@@ -99,6 +99,7 @@
 
 - 11-09 [법무부] [법무부·해수부, 어업분야 외국인 계절노동자 고용 어가 인권실태 합동점검 실시](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788393)
 - 11-09 [식품의약품안전처] [식약처, K-뷰티 중남미 수출 확대 위해 민·관 합동 진출지원단 파견](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788355)
+- 11-09 [과학기술정보통신부] [국산 NPU, 엔비디아 시스템과 연계해 글로벌 AI 인프라 시장 진출 길 연다](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788455)
 - 11-08 [해양수산부] [해수부·법무부, 어업 분야 외국인 계절노동자 고용 어가 대상 인권 실태 점검 실시](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788324)
 - 11-08 [금융감독원 보도자료] [증시 변동성 완화를 위한 신용공여 담보비율 유지의무 면제조치 시행](https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249770&menuNo=200218&pageIndex=1)
 - 11-06 [농림축산식품부] [한중 정상외교 성과 1년 만에 결실…한국산 단감, 첫 중국 수출길 열렸다](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788273)
@@ -118,30 +119,30 @@
 
 ## [생활·사회] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)
 
-**요금·물가** (사건 39개)
+**요금·물가** (사건 34개)
 - (8) 11-05 조선 경제 — [김동철 한전 사장 “전기요금 현실화 필요…단, 산업용 전기료 인상은 최후 수단”](https://www.chosun.com/economy/industry-company/2026/11/05/HA2DMZLEMZRTIMJXGJTDCODEHA/) — **외 11건**(10개 매체)
 - (8) 11-05 국제뉴스 — [에너지바우처 신청 서두르세요… 난방비 최대 70만 원 준다고?](https://news.google.com/rss/articles/CBMibkFVX3lxTE80cGxNREFiTkd0emNPR0hJQmtYMlFYcTJna25sTmVDUV9HaXZEOEE5MkNoWlBsM0VmZ3gwS3dCbnVOcUE3Z29jU29vRnh6UWY4LVVNdVI5VUx6SjZHeTBHaDFOb0FzQWl1bURBMlhB?oc=5) — **외 1건**(2개 매체)
-- (5) 11-08 www.ppss.kr — [[경제진단] 서울 아파트 매물 33% 늘었는데 집값은 상승…부동산 시장에 나타난 '정책과 가격의 괴리'](https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzeTgyU1pCYllaZmZCbWhRellSRkhFbDRpdDJtUVpQTUlmYVpyZ0plVUZobklvejNFMnFqWEFNdnExb1NZN0JWeGdFVGV5aW9ubmxhQkp3TWFwWG1SNkgzYlRzd08?oc=5) — **외 3건**(4개 매체)
+- (7) 11-08 베이비뉴스 — [[카드뉴스] '겨울 난방비 지원' 에너지바우처, 12월 31일까지 신청하면 최대 70만1300원](https://news.google.com/rss/articles/CBMibEFVX3lxTE4xR0g3UDI4TVgyQk9pSmpCX2JBcDRoOXVkNE1pYmh0NDhNdE5iNkVGSEdHS2ZiUVNBXzdPNEFxZTluRG5JR1hXNl9EZkNTMmliM25pSUlJNjQ3SEE2aDNZRTI4b1htWWhVU0pRRA?oc=5) — **외 1건**(2개 매체)
 
-**세금·지원금** (사건 47개)
-- (11) 11-09 연합뉴스TV 경제 — [전세사기 피해자 보증금 3분의 1 보장…10일부터 지원금 신청](https://www.yonhapnewstv.co.kr/news/AKR20261109114832lFo) — **외 39건**(39개 매체)
+**세금·지원금** (사건 50개)
+- (11) 11-09 CCBS뉴스 — [[가든라움 부동산금맥] 전세사기 피해자 보증금 3분의 1 최소보장…11월 10일부터 지원금 신청](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKMWI5aHUwVTdzTjd4YmU3QnNHSDBGT2VueHJWNjBHUTVTdFFVaDVrSWM1X0pIRGVLaW80X0t2ZzdZN3RtbktONEl3bDZjS3M?oc=5) — **외 35건**(35개 매체)
 - (9) 11-06 디지털데일리 — ["보이스피싱 피해금 환급 받으세요"… 금융기관 사칭 사기 `주의보`](https://news.google.com/rss/articles/CBMiZEFVX3lxTFA2QWF3UGl0TFlRYmpHODVaR0JPdENRSGtFWTFaNHk1bXhNRFQyUk5heGYxRGVtVGhZWVVWMHJCWktHdG5nc1FQejZuQjRjVHNIMGxTVWtqVmVTd1ZoTFZUS2JhSDU?oc=5) — **외 8건**(9개 매체)
-- (7) 11-05 포커스경제 — [HUG가 전세금 관리하고 임대인에 월세 지급…전월세 안심신탁 시행](https://news.google.com/rss/articles/CBMibkFVX3lxTE5VZnlJWWR2Si1QZjRKQ3NKekloQjFhRnFvNWNpRWhEcTFWUHhIR1A0cUZHX21DQmN6clpBeFRNdEFEU25wWm1DNW9DMm8wWDFFU3JlOVY4WUZrSXhVcUk4R01MWHR1aS1JZ2pNR2hB?oc=5) — **외 3건**(4개 매체)
+- (9) 11-09 뉴시스 경제 — ['보증금 3분의1 보장'…전세사기 최소지원금 10일부터 접수](https://www.newsis.com/view/NISX20261109_0003859831) — **외 5건**(5개 매체)
 
-**일자리·임금** (사건 32개)
+**일자리·임금** (사건 33개)
 - (9) 11-08 재경일보 — [멜랑숑, 최저임금 인상·정년 60세 공약 발표 : 국제](https://news.google.com/rss/articles/CBMiS0FVX3lxTE5qX25rRjU1eFFlcXIwSmJ0VExZWk1jQzFRVFFPblllTUVDVnc2RER3b2NSaG4ydzhzN1Z5QnhrTi1XdU1jZ1VxclVTVQ?oc=5) — **외 1건**(2개 매체)
 - (8) 11-03 데일리안 — [최저임금 인상 뒤 요양시설 간호사 고용 감소…간호조무사 늘며 전문성 약화](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9odFZyY1Q2ZzJpMGxkb09ubUNLMURwdDZlUTVEYlVEaml2UlgyZjRBU2lqTkVrdG92ZDBKdS1kU1hIWW1vcjZvR3VkTzFNUWphdElJ?oc=5) — **외 1건**(2개 매체)
 - (4) 11-06 서울파이낸스 — [진에어 노사, 2026년 임금 협약 잠정 합의…전 직군 2% 안팎 인상](https://www.seoulfn.com/news/articleView.html?idxno=642146) — **외 4건**(5개 매체)
 
-**집·주거** (사건 60개)
+**집·주거** (사건 57개)
 - (11) 11-04 연합뉴스 경제 — ['전세사기 걱정 더는' 전월세 안심신탁 임대인 오늘부터 모집](https://www.yna.co.kr/view/AKR20261104070700003) — **외 27건**(27개 매체)
 - (5) 11-07 동방일보 — [성남시, AI 활용 전세사기 예방 나선다…공인중개사 2240곳 홍보](https://news.google.com/rss/articles/CBMic0FVX3lxTE9SUEdwcExpdW1Bek1QUkpIUjJwdnpyREE1UWc4djVSSlN6cE0yVXpXZ2tHZXBESXNRb1ZQNmxGS2JRRE5JZVFiWV9QX0plYVlobVI3QnhHdVVBVjJ0TnNCUlJ3YlVsc3JGVFZDLTNWQ0Y0ZTg?oc=5) — **외 6건**(7개 매체)
-- (6) 11-05 KBS 뉴스 — [서울 성북구 6억 원대 전세사기 50대에 징역 8년 구형](https://news.google.com/rss/articles/CBMiW0FVX3lxTFBUU0REQl9RSnEyOWs0ZlFmTVU0LXZFdXlwV3lNRGVFMUE3R1lqRC12eFJVeVhXVHN5MHZWS1NYUnhtV3d3Tkl0NFlqb3RQcUhCd2VJVWFJVXJDRjA?oc=5) — **외 4건**(5개 매체)
+- (7) 11-09 레디앙 — [전세사기피해자 최소보장제 13일부터 시행...임차보증금 최소 3분의 1 회복 지원](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9QZVB0bHlaNUE3VElHN280dkFOSjdzTnlnSm1EN3M5bGtjdl93ZV9HV3JOUWZSejd5UU9ocE40aEZmZWV6SlVBblJZQzlsVVRuMlBkUlBCUnNkWUZZaDljdkY2TDJxVklV?oc=5) — **외 3건**(4개 매체)
 
-**사기·피해·배상** (사건 16개)
+**사기·피해·배상** (사건 20개)
+- (5) 11-09 한겨레 경제 — [보이스피싱 피해자에 생계비 최대 200만원…23일부터 시범사업](https://www.hani.co.kr/arti/economy/finance/1286429.html) — **외 11건**(11개 매체)
 - (5) 11-06 아시아경제 — [서울중수청, ‘노쇼 사기’ 조직원 구속송치…보이스피싱 사건 첫 사례](https://view.asiae.co.kr/article/2026110616211390442) — **외 3건**(4개 매체)
 - (4) 11-05 연합투데이 — [5000만원 보이스피싱 피해에 숨진 모자…카자흐스탄 한인 조직 소행](https://news.google.com/rss/articles/CBMib0FVX3lxTFBfWFFsM2xXaTVLQmFsLVJNZEZsQUlLeXo2a0VWMnR5ZlhYa2t2Z1hoUnlKZWZSTWZZazUzNVdKN2paUlFKeXNQNnNQT2N4Z2U0eUNiTVh1eWVYVmhleVY1S29ucDEwcUkwOFZ4OXVyVdIBb0FVX3lxTFBfWFFsM2xXaTVLQmFsLVJNZEZsQUlLeXo2a0VWMnR5ZlhYa2t2Z1hoUnlKZWZSTWZZazUzNVdKN2paUlFKeXNQNnNQT2N4Z2U0eUNiTVh1eWVYVmhleVY1S29ucDEwcUkwOFZ4OXVyVQ?oc=5) — **외 3건**(4개 매체)
-- (6) 11-04 머니투데이 — ["개인정보 털린 뒤 보이스피싱 전화"…2차 피해 입증 어려워 보상 '막막' - 머니투데이](https://news.google.com/rss/articles/CBMicEFVX3lxTE44T2l6MC03aE1TTnl5QmV3NXRKMTk1VzVWYlU5ckN0N1RBTWlQTFdFQmZ4OE5KOU9QeksyQUxWQ3c3b19ETjl3UFBsTmNaM2t5bmJQbGdlbUNGZFI5djhZNkJyb0I2X0dCTm04UjAxTUnSAXBBVV95cUxOOE9pejAtN2hNU055eUJldzV0SjE5NVc1VmJVOXJDdDdUQU1pUExXRUJmeDhOSjlPUHpLMkFMVkN3N29fRE45d1BQbE5jWjNreW5iUGxnZW1DRmRSOXY4WTZCcm9CNl9HQk5tOFIwMU1J?oc=5) — **외 1건**(2개 매체)
 
 **교육·육아·의료** (사건 4개)
 - (4) 11-08 연합뉴스TV 경제 — ["한국 양육·돌봄 부담 2048년 OECD 최고"](https://www.yonhapnewstv.co.kr/news/MYH202611081554150nN) — **외 2건**(3개 매체)
@@ -155,6 +156,8 @@
 
 ### [생활·사회] 기관 보도자료
 
+- 11-09 [과학기술정보통신부] [과기정통부, 전직급 인공지능 대화형 코딩으로 행정혁신 앞당긴다](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788451)
+- 11-09 [산림청] [산림청, 소나무재선충병 전국 확산 차단 위해 소나무류 이동 특별단속 실시](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788449)
 - 11-09 [행정안전부] [행정안전부, '2027년 생활권 보행환경 종합정비사업' 대상지 5곳 선정](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788444)
 - 11-09 [행정안전부] ['차세대 지방행정공통시스템 구축 통합사업 설명회' 개최](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788442)
 - 11-09 [교육부] [스마트 안경 관련 내신평가 부정행위 전수조사 결과](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788440)
@@ -173,11 +176,11 @@
 - 11-09 [해양수산부] [어촌뉴딜 3.0 신규 대상지 40개소 선정... 사업 구조도 개편한다](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788423)
 - 11-09 [해양수산부] [해양수산부, 중소선사와 함께 친환경·저탄소 전환에 대응한다](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788422)
 - 11-09 [해양수산부] [글로벌 해양정보 디지털 전환의 중심인 '국제수로기구(IHO) 인프라센터' 대한민국에 문 연다](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788421)
-- 11-09 [해양수산부] [해수부, 국내 해양플랜트 서비스기업의 베트남 시장 진출을 본격 지원한다](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788420)
-- 11-09 [농림축산식품부] [국내 곤충산업 591억 원 규모로 지속 성장··· 사료용 곤충산업 '65.3% 증가' 견인](https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788419)
 
 ## 보험 전문지 최신
 
+- 11-09 보험신보 — [서금원 “불법대부광고 제보받아요”… ‘전화번호 신고 캠페인’ 진행](https://www.insnews.co.kr/news/articleView.html?idxno=93726)
+- 11-09 보험신보 — [손해사정 공정성 확보하려면… 선임권부터 의료자문까지 개선 필요](https://www.insnews.co.kr/news/articleView.html?idxno=93725)
 - 11-09 보험신보 — [우정사업본부, 최고 연 3.90% 주는 ‘우체국 잇다플러스 정기예금’ 출시](https://www.insnews.co.kr/news/articleView.html?idxno=93723)
 - 11-09 보험신보 — [하나은행, 외국인 주민 위한 복합 커뮤니티 ‘EZ라운지’ 개소](https://www.insnews.co.kr/news/articleView.html?idxno=93722)
 - 11-09 보험저널 — ["아프고 나서 가입하는 보험?"… '돌봄 파산' 막을 중산층 구원투수 '즉시형 장기요양연금' 뜬다](https://www.insjournal.co.kr/news/articleView.html?idxno=33829)
@@ -191,8 +194,6 @@
 - 11-09 보험저널 — [자녀 태운 부모 운전자까지…카카오페이손보, '운전자보험' 4개 플랜 개편](https://www.insjournal.co.kr/news/articleView.html?idxno=33827)
 - 11-09 보험매일 — [생보사 연금저축보험 수익률 ‘마이너스’](http://www.fins.co.kr/news/articleView.html?idxno=110466)
 - 11-09 보험매일 — [생보 판매채널 '상품 판매'서 '자산관리'로…GA 역할 변화](http://www.fins.co.kr/news/articleView.html?idxno=110465)
-- 11-09 한국보험신문 — [카카오페이손해보험, 운전자보험 개편···맞춤형 플랜 4종 출시](https://www.insweek.co.kr/news/articleView.html?idxno=72928)
-- 11-09 보험저널 — [연말까지 '고용보험 부정수급' 자진신고…추가징수 면제](https://www.insjournal.co.kr/news/articleView.html?idxno=33826)
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
@@ -211,4 +212,4 @@
 
 ## 언론사별 건수 상위 15
 
-연합뉴스 최신 2383, 토큰포스트 1046, 머니투데이 683, 뉴시스 사회 671, 인포맥스 456, 코인리더스 414, 동아 사회 402, 아시아경제 384, 조선비즈 367, 연합뉴스 마켓 354, 파이낸셜뉴스 전체 354, 뉴시스 정치 291, KBS 뉴스 269, 뉴시스 금융 263, 재경일보 251
+연합뉴스 최신 2478, 토큰포스트 1050, 머니투데이 696, 뉴시스 사회 692, 인포맥스 459, 코인리더스 423, 동아 사회 406, 아시아경제 388, 조선비즈 373, 연합뉴스 마켓 355, 파이낸셜뉴스 전체 353, 뉴시스 정치 300, KBS 뉴스 274, 뉴시스 금융 267, 재경일보 252
