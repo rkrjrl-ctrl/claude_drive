@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T22:06+09:00",
+"updated": "2026-11-10T23:06+09:00",
 "items": [
 {
 "kind": "gov",
@@ -9634,6 +9634,116 @@
 "착수",
 "회계감리"
 ]
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA1X2NkNmNETm5WZ3VzSmp4eFotaTdmSTRvWU1wX0RQOTJveDBVQWVmdHItVHBBck11bC1vZG1JMk95QzBBLVRjb0RVendNYXR0N1E?oc=5",
+"t": "2026-11-10T23:06+09:00",
+"tok": [
+"2배",
+"나스닥",
+"레버리지",
+"미성년",
+"상위",
+"상품",
+"순매수",
+"열풍",
+"자녀계좌에도"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261110_0003862897",
+"t": "2026-11-10T23:06+09:00",
+"tok": [
+"10월",
+"내림세",
+"소비자물가",
+"에서",
+"올라",
+"월간",
+"전달의"
+],
+"g": "https://www.newsis.com/view/NISX20261110_0003862897"
+},
+{
+"kind": "속보",
+"link": "http://www.edaily.co.kr/news/newspath.asp?newsid=07353766645644408",
+"t": "2026-11-10T23:06+09:00",
+"tok": [
+"10월",
+"CPI",
+"근원도",
+"상회",
+"예상",
+"올라",
+"전월비"
+],
+"g": "http://www.edaily.co.kr/news/newspath.asp?newsid=07353766645644408"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9kdmN6V1ZWMWJmZTJKMlZjOGU1Z1R0VThiWnNoQUozMnRkSlFaQVdKc3loa0VKQVdTZmlIbEpGZWowTzBSdHZoY2hDNzBTUmZhQ3Qxd0x0RWlQNU5fcTdHX2VYdFJpTFFm?oc=5",
+"t": "2026-11-10T23:06+09:00",
+"tok": [
+"10월",
+"CPI",
+"근원",
+"대비",
+"물가",
+"미국",
+"시장",
+"전월",
+"촉각",
+"흐름에"
+],
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9kdmN6V1ZWMWJmZTJKMlZjOGU1Z1R0VThiWnNoQUozMnRkSlFaQVdKc3loa0VKQVdTZmlIbEpGZWowTzBSdHZoY2hDNzBTUmZhQ3Qxd0x0RWlQNU5fcTdHX2VYdFJpTFFm?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0zQ3hvUTVWcnlsRUJMVW9EUmIybXVRSEhLTjlzNkFHQUpxSHpJYW4xLUxkaTZzdEhaMU5Uek9oTVpfLU1lSXkwQWk2NVB1aVNTRlVnbHdaeVM?oc=5",
+"t": "2026-11-10T23:06+09:00",
+"tok": [
+"CPI",
+"대비",
+"미국",
+"상승",
+"전월"
+],
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9kdmN6V1ZWMWJmZTJKMlZjOGU1Z1R0VThiWnNoQUozMnRkSlFaQVdKc3loa0VKQVdTZmlIbEpGZWowTzBSdHZoY2hDNzBTUmZhQ3Qxd0x0RWlQNU5fcTdHX2VYdFJpTFFm?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.hankyung.com/article/202611108646i",
+"t": "2026-11-10T23:06+09:00",
+"tok": [
+"10월",
+"CPI",
+"CPI는",
+"상승",
+"전월보다",
+"핵심"
+],
+"g": "https://www.hankyung.com/article/202611108646i"
+},
+{
+"kind": "속보",
+"link": "https://www.chosun.com/economy/int_economy/2026/11/10/6XRRBGC7ANAMVHZS3FBSUA4CTU/",
+"t": "2026-11-10T23:06+09:00",
+"tok": [
+"10월",
+"12월",
+"결정",
+"금리",
+"부담",
+"상회",
+"소비자물가",
+"앞둔",
+"연준",
+"예상",
+"올라"
+],
+"g": "https://www.newsis.com/view/NISX20261110_0003862897"
 }
 ]
 }
