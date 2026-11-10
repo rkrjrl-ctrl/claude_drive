@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T23:06+09:00",
+"updated": "2026-11-11T00:06+09:00",
 "items": [
 {
 "kind": "gov",
@@ -9744,6 +9744,64 @@
 "올라"
 ],
 "g": "https://www.newsis.com/view/NISX20261110_0003862897"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15YzhuZnNPTXpfQXZsWFBTa0VqcVVOYV9ERW9lVWcwM1plRmFTeWpLMi0xREVBZ2N3M2hDLVRvb0FaemlOdTFBdjBzNENhaGdIYTVGczhnWUxsNFd5?oc=5",
+"t": "2026-11-11T00:06+09:00",
+"tok": [
+"10월",
+"CPI",
+"미국",
+"상회",
+"예상",
+"전월비"
+],
+"g": "https://www.newsis.com/view/NISX20261110_0003862897"
+},
+{
+"kind": "속보",
+"link": "https://www.hankyung.com/article/2026111086537",
+"t": "2026-11-11T00:06+09:00",
+"tok": [
+"10월",
+"상회",
+"소비자물가",
+"전망치",
+"전월비"
+],
+"g": "https://www.newsis.com/view/NISX20261110_0003862897"
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zNjdvSVNoc0VGZzRyNVVGRDF0bHhFMDUtcDNzT1FRWTJGWVhDNU93YVVUX1RkTlBBRHVLbDN6N214LU5rbVMybDFVUFlCbmhrZkhlTjd2OFNLNjdOQXBybXZvbWZhd0Z00gFsQVVfeXFMTmp4OE16OE15bDI5MWtVRjdMU0RqMWp1ajZZZ1FVbFZHMG1XOVlWUnJ2TDgtVWZtWlp3TURUaEtXTFNpZm5RdFZjZkpXR3ZVSk16UGdvazFTZExoM0ItRkNOczRtSkdDQldMV0d5?oc=5",
+"t": "2026-11-11T00:06+09:00",
+"tok": [
+"공개매수",
+"상장사",
+"상폐",
+"에스텍",
+"추진",
+"코스닥",
+"포스타전기"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261110_0003862913",
+"t": "2026-11-11T00:06+09:00",
+"tok": [
+"CPI에",
+"기술주",
+"뉴욕증시",
+"압박",
+"예상",
+"웃돈",
+"출발",
+"하락"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261110_0003862913"
 }
 ]
 }
