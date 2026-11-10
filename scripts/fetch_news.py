@@ -441,6 +441,116 @@ def fmt(g):
     return f"- ({r['score']}) {r['date'][5:10]} {r['source']} — [{r['title']}]({r['link']}){more}"
 
 
+# ── 요약(DIGEST.md) 전용 사건 묶기 (11/10 사용자 「뉴스 요약 뭔가 아쉬워」 → 「수정해봐」) ──
+# 보드·알림이 쓰는 cluster()는 그대로 두고 요약에만 쓴다(주목 알림 기준이 바뀌지 않게).
+# 고친 점: 같은 소식이 표현만 달라 여러 줄을 차지함 / 외국 기사가 생활 칸에 섞임 / 작은 매체·구글 경유 주소가 대표가 됨 /
+# 순위가 낱말 점수 순이라 여러 매체가 다룬 큰 소식이 밀림 / 홍보성 기사·행사 보도자료가 그대로 나옴
+MAJOR = ("연합뉴스", "뉴시스", "뉴스1", "조선", "중앙일보", "동아", "한겨레", "경향", "한국경제", "매일경제", "서울경제", "머니투데이",
+         "이데일리", "파이낸셜", "아시아경제", "헤럴드", "SBS", "KBS", "MBC", "JTBC", "YTN", "국민일보", "세계일보", "한국일보",
+         "서울신문", "노컷", "오마이", "보험매일", "보험신보", "한국보험신문", "보험저널", "청년의사", "메디파나", "의협신문", "인포맥스")
+FOREIGN = re.compile(r"프랑스|佛|미국|美|영국|英|일본|日|중국|中|독일|獨|유럽|EU|러시아|露|베트남|인도|호주|캐나다|멕시코|대만|"
+                     r"파리|뉴욕|워싱턴|도쿄|베이징|트럼프|마크롱|멜랑숑")
+HOME = re.compile(r"국내|한국|韓|정부|국회|서울|부산|경기|국민|우리|내년|시행|신청")
+EVENT_SIM = 0.33
+PARTICLE = re.compile(r"(으로|에서|에게|까지|부터|은|는|이|가|을|를|의|에|도|로|과|와|만)$")
+
+
+def dtokens(title):
+    t = re.sub(r"\s+-\s+[^-]{1,30}$", "", TAG.sub("", title))
+    out = set()
+    for w in re.findall(r"[가-힣A-Za-z0-9]{2,}", t):
+        if w in STOP:
+            continue
+        w2 = PARTICLE.sub("", w) if len(w) > 2 else w
+        out.add(w2 if len(w2) >= 2 else w)
+    return out
+
+
+def events(items):
+    """드문 낱말에 무게를 둔 겹침으로 같은 소식을 묶는다. 겹친 낱말 2개 이상 + 겹친 무게가 짧은 쪽 제목의 45% 이상."""
+    toks = [dtokens(r["title"]) for r in items]
+    df = Counter(w for t in toks for w in t)
+    idf = {w: math.log(1 + len(items) / c) for w, c in df.items()}
+    wsum = lambda t: sum(idf[w] for w in t) or 1e-9
+    groups, index = [], {}
+    for r, t in zip(items, toks):
+        cand = set()
+        for w in t:
+            if df[w] <= 300:   # 흔한 낱말(보험·대통령 등)로는 후보를 찾지 않는다
+                cand.update(index.get(w, ()))
+        best, bs = None, 0.0
+        for gi in cand:
+            g = groups[gi]
+            for m in g["toks"]:   # 묶음의 앞쪽 기사 몇 개와만 견준다(묶음 전체 낱말과 견주면 다른 소식까지 줄줄이 붙는다)
+                sh = t & m
+                if len(sh) < 2:
+                    continue
+                s = sum(idf[w] for w in sh) / min(wsum(t), wsum(m))
+                if s > bs:
+                    best, bs = gi, s
+        if best is not None and bs >= EVENT_SIM:
+            g = groups[best]
+            g["items"].append(r)
+            if len(g["toks"]) < 6:
+                g["toks"].append(t)
+                for w in t:
+                    index.setdefault(w, set()).add(best)
+        else:
+            best = len(groups)
+            groups.append({"items": [r], "toks": [t]})
+            for w in t:
+                index.setdefault(w, set()).add(best)
+    out = []
+    for g in groups:
+        its = g["items"]
+        rep = max(its, key=lambda r: (not re.match(r"\s*\[(포토|게시판|특징주|사진|영상|인사|부고)", r["title"]),   # 머리말 붙은 기사는 대표에서 뒤로
+                                      any(m in r["source"] for m in MAJOR), "news.google.com" not in r["link"],
+                                      int(r["score"] or 0), r["date"]))
+        src = {r["source"] for r in its}
+        out.append({"rep": rep, "n": len(its), "src": src, "media": len(src), "score": max(int(r["score"] or 0) for r in its),
+                    "first": min(r["date"] for r in its), "last": max(r["date"] for r in its), "track": rep["track"],
+                    "titles": " ".join(r["title"] for r in its), "items": its})
+    return sorted(out, key=lambda e: (e["media"], e["n"], e["score"], e["last"]), reverse=True)
+
+
+def shown_filter(pool):
+    """요약에 줄을 고를 때 앞에 보인 줄과 같은 소식이면 건너뛴다. 「경국대/국립경국대」 「의대/지역의대」처럼
+    붙여 쓴 말도 같은 말로 친다(한 낱말이 다른 낱말 안에 들어 있으면 같음). 줄 수가 적어 하나하나 견줘도 빠르다."""
+    df = Counter(w for r in pool for w in dtokens(r["title"]))
+    n = max(len(pool), 1)
+    idf = lambda w: math.log(1 + n / df.get(w, 1))
+    rare = max(30, n * 0.02)   # 전체 기사의 2% 이하에 나오는 말을 드문 말로 친다
+    shown = []
+
+    def ok(e):
+        a = dtokens(e["rep"]["title"])   # 대표 제목끼리 견준다(묶음 전체 낱말을 쓰면 기준이 묽어진다)
+        for b in shown:   # 겹친 말에 드문 말(고유 이름 등)이 하나는 있어야 같은 소식(피해자·지원금·신청만 겹치면 다른 소식)
+            common = set()   # 겹친 부분: 두 말 중 짧은 쪽(「신청/신청하세요」면 「신청」)
+            for x in a:
+                for y in b:
+                    if x == y or x in y or y in x:
+                        common.add(x if len(x) <= len(y) else y)
+            if (len(common) >= 2 and any(df.get(c, 0) <= rare for c in common)
+                    and sum(idf(c) for c in common) >= 0.3 * min(sum(idf(x) for x in a), sum(idf(y) for y in b))):
+                return False
+        shown.append(a)
+        return True
+    return ok
+
+
+def is_foreign(e):
+    t = e["rep"]["title"]
+    return bool(FOREIGN.search(t)) and not HOME.search(t)
+
+
+def efmt(e, show_track=False):
+    r = e["rep"]
+    lab = f"[{TRACK_NAME.get(e['track'], '일반')}] " if show_track else ""
+    more = f" — **{e['media']}개 매체**" + (f"·{e['n']}건" if e["n"] > e["media"] else "") if e["media"] > 1 else " — 1개 매체"
+    title = re.sub(r"^\s*[\[【(<]\s*(단독|속보)\s*[\]】)>]?\s*", "", r["title"]).strip()
+    return f"- {lab}{r['date'][5:10]} {r['source']} — [{title}]({r['link']}){more}"
+
+
 BOARD = os.path.join(ROOT, "board.json")
 HOT = 8   # 이만큼 많은 매체가 다룬 사건이면 보드에 「주목」 표시(두 분야 점수 크기가 달라 매체 수로 잰다). 판단은 아니다
 TAG = re.compile(r"^\s*[\[【(<]\s*(단독|속보)")   # 제목 앞 [단독]·[속보] 표시(11/3 사용자: 보드·알림에서 따로 구분)
@@ -557,24 +667,49 @@ def main():
     L = ["# 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)\n",
          f"- 갱신: {NOW:%Y-%m-%d %H:%M} KST  /  최근 7일 {len(news)}건 (보험·의료 {cnt['INS']} · 투자·경제 {cnt['INV']} · 생활·사회 {cnt['LIFE']})  /  이번 신규 {new_n}건",
          f"- 소스 {len(FEEDS)}곳 + 구글뉴스 키워드 {len(QUERIES)}개(보험·의료 {len(QUERIES_INS)} · 투자·경제 {len(QUERIES_INV)} · 생활 {len(QUERIES_LIFE)})  /  네이버 {'사용' if os.environ.get('NAVER_CLIENT_ID') else '미사용'}",
-         "- 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다. 비슷한 제목은 한 사건으로 묶어 보여 준다.",
+         "- 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다.",
+         "- 같은 소식은 표현이 달라도 한 줄로 묶고, **다룬 매체 수 순**으로 보인다. 대표 기사는 주요 매체의 직접 주소를 먼저 고른다. 홍보성 기사·행사 보도자료는 뺀다.",
          f"- 수집 실패 소스: {', '.join(failed) if failed else '없음'}\n"]
+    day = (NOW - datetime.timedelta(hours=24)).isoformat(timespec="minutes")
+    today = [r for r in news if r["date"] >= day]
+    top = [e for e in events(today) if not is_pr(e["rep"]["title"])]
+    L.append("## 오늘의 큰 뉴스 (최근 24시간, 분야 상관없이 여러 매체가 다룬 순)\n")
+    per, pick, ok = Counter(), [], shown_filter(today)
+    for e in top:   # 증시가 크게 움직인 날 한 분야가 다 차지하지 않게 분야마다 5개까지
+        if per[e["track"]] < 5 and ok(e):
+            per[e["track"]] += 1
+            pick.append(e)
+        if len(pick) >= 12:
+            break
+    L += [efmt(e, True) for e in pick] or ["- 없음"]
+    L.append("")
     for t in ("INS", "INV", "LIFE"):
-        L.append(f"## [{TRACK_NAME[t]}] 최근 7일 — 주제별 상위 사건 (사건마다 비슷한 기사를 묶음)\n")
+        L.append(f"## [{TRACK_NAME[t]}] 최근 7일 — 주제별 상위 사건 (다룬 매체 수 순)\n")
+        pool = [r for r in news if r["track"] == t and (t != "LIFE" or int(r["score"] or 0) > 0)]   # 생활은 돈과 이어지는 기사만
         buckets = {}
-        for g in cluster(by_score(t)[:600], 200):
-            buckets.setdefault(subtopic(t, g["rep"]["title"]), []).append(g)
-        order = [n for n, _ in SUBTOPICS[t]] + ["기타"]
+        for e in events(pool):
+            if is_pr(e["rep"]["title"]) or (t != "INV" and is_foreign(e)):
+                continue
+            buckets.setdefault(subtopic(t, e["titles"] if subtopic(t, e["rep"]["title"]) == "기타" else e["rep"]["title"]), []).append(e)
+        order = [n for n, _ in SUBTOPICS[t] if not (t == "LIFE" and n in ("정치·국회", "사건·사고"))] + (["기타"] if t == "INV" else [])   # 정치·사건은 위 「오늘의 큰 뉴스」에서 본다   # 보험·생활의 「기타」는 연예·해외 등 잡음이라 뺀다
+        ok = shown_filter(pool)
         for name in order:
-            gs = buckets.get(name, [])
-            if gs:
-                L.append(f"**{name}** (사건 {len(gs)}개)")
-                L += [fmt(g) for g in gs[:3]]
+            es = buckets.get(name, [])
+            if es:
+                lines = []
+                for e in es:
+                    if len(lines) >= 4:
+                        break
+                    if ok(e):
+                        lines.append(efmt(e))
+                L.append(f"**{name}** (사건 {len(es)}개)")
+                L += lines
                 L.append("")
         if not buckets:
             L.append("- 없음")
-        L.append(f"\n### [{TRACK_NAME[t]}] 기관 보도자료\n")
-        L += [f"- {r['date'][5:10]} [{r['source']}] [{r['title']}]({r['link']})" for r in govs(t)] or ["- 없음"]
+        L.append(f"\n### [{TRACK_NAME[t]}] 기관 보도자료 (생활 관련만)\n")
+        gl = [r for r in recent if r["via"] == "gov" and r["track"] == t and gov_rel(r["title"]) >= GOV_REL and not is_pr(r["title"])][:20]
+        L += [f"- {r['date'][5:10]} [{r['source']}] [{r['title']}]({r['link']})" for r in gl] or ["- 없음"]
         L.append("")
     L.append("## 보험 전문지 최신\n")
     L += [f"- {r['date'][5:10]} {r['source']} — [{r['title']}]({r['link']})" for r in ins_trade] or ["- 없음"]
