@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T16:06+09:00",
+"updated": "2026-11-10T17:04+09:00",
 "items": [
 {
 "kind": "gov",
@@ -9429,6 +9429,38 @@
 ],
 "m": 1,
 "g": "https://www.newsis.com/view/NISX20261110_0003862381"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNT2pOMGJIeXRBcHFiNExodDJsaGZleEJUZm9Jei1tX29QRnAwcU5zYVRkMEpfNkhYT09VaFhndy1ydjZ0R1ZmY0lLUFhHNXFBZjFJU3JhV09HYkprb3Q2SEJBei1RYzNuQzhlcGwtMG1rejVJY0EzMmZLWmtfdlJaSk5PZFI3WTVFemI5ZWZn?oc=5",
+"t": "2026-11-10T17:04+09:00",
+"tok": [
+"4거래일",
+"급등",
+"급락딛고",
+"마감",
+"만에",
+"반등",
+"코스닥",
+"코스피"
+]
+},
+{
+"kind": "주목",
+"link": "https://view.asiae.co.kr/article/2026111015331863920",
+"t": "2026-11-10T17:04+09:00",
+"tok": [
+"41억",
+"꿀꺽",
+"세입자",
+"송치",
+"울린",
+"일당",
+"임대법인",
+"전세사기",
+"중개인",
+"짜고"
+]
 }
 ]
 }
