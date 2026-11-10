@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T15:06+09:00",
+"updated": "2026-11-10T16:06+09:00",
 "items": [
 {
 "kind": "gov",
@@ -9272,6 +9272,163 @@
 "부담",
 "의원"
 ]
+},
+{
+"kind": "gov",
+"link": "https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11066447&menuNo=200690",
+"t": "2026-11-10T16:06+09:00",
+"tok": [
+"10",
+"2026",
+"2026년",
+"22",
+"금융통화위원회",
+"의사록",
+"제20차"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261110_0003862381",
+"t": "2026-11-10T16:06+09:00",
+"tok": [
+"1337",
+"5원",
+"6원",
+"내린",
+"달러",
+"마감",
+"환율"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261110_0003862381"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261110_0003862390",
+"t": "2026-11-10T16:06+09:00",
+"tok": [
+"28",
+"48",
+"61",
+"64포인트",
+"667",
+"마감",
+"오른",
+"코스닥"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261110_0003862381"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261110_0003862389",
+"t": "2026-11-10T16:06+09:00",
+"tok": [
+"13",
+"220",
+"28포인트",
+"39",
+"5239",
+"마감",
+"오른",
+"코스피"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261110_0003862381"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTWxzbkJZQ19xdjhzTEpsU0VDRzUtODZuZnFHUHpmLUZjbGJCVTl6RjNzUFlVYzR5NVJsNkhFX3lwYkVtRzhvVlBncFBob2JsQUo3RFhlMTBYMUFWWWNBYS1rcVJjX3hoYnIxdVpLcEJHMW1vc1drZXhuRWU0SjBDcVhQWDY2UdIBmgFBVV95cUxNSmR6UFZLNHN3a3RRUnBNeThVTk5fRFBuaElzRXFQQ3pJdkVJc1lLLUM4OE9LQUdsSkFUbUgtak1DODF6Q1RkNVhnMmJiVjE5Q3FrZzJ6bWtaV1FSYlk2bTBESkx1cVFvWEg5akk2X0ZqMEhUOU9KanplT0NmOHA3b01UQjVfbG5OU0p4TEIteG94amRRcDZwNEVR?oc=5",
+"t": "2026-11-10T16:06+09:00",
+"tok": [
+"1337",
+"5원",
+"6원",
+"내린",
+"달러",
+"환율"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261110_0003862381"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWmFnMW8zVDJqY3hvMlJsdEhHMUM3RTcyLVRFek9JRzJrQUc3QmQwdUNURE9qT215RUh6RHFheDZHbkJVZ2FBeklpRkNMRHBqWmV3dkZkMWx3Y29oTzZjUHZrcDlHMTBhMUllcFNseUN1M19rOFozRS1TUUU1b0c1Ng?oc=5",
+"t": "2026-11-10T16:06+09:00",
+"tok": [
+"13",
+"39",
+"5239",
+"SK하이닉스",
+"강세",
+"마감",
+"삼성전자",
+"오른",
+"코스피"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261110_0003862381"
+},
+{
+"kind": "속보",
+"link": "https://www.edaily.co.kr/News/Read?newsId=04844566645644408",
+"t": "2026-11-10T16:06+09:00",
+"tok": [
+"39",
+"48",
+"5230선",
+"상승",
+"코스닥도",
+"코스피"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261110_0003862381"
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5wbUo5cEFrenl5MFdsOF9mVnlzOWlVMkZieWJPVlRyYzQ2Z080UUN4UWp6bjRlU3FYcjZsYTg2TG9EbFFYLVN0SnVqMWdHaUJTZnhtNQ?oc=5",
+"t": "2026-11-10T16:06+09:00",
+"tok": [
+"KB손보",
+"기준도",
+"논란",
+"모르는데",
+"설계사",
+"수백만원",
+"아무",
+"환수",
+"환수금"
+]
+},
+{
+"kind": "단독",
+"link": "https://biz.chosun.com/topics/topics_social/2026/11/10/Y4UMG73LYVGPZAQYNYBO46HY5M/",
+"t": "2026-11-10T16:06+09:00",
+"tok": [
+"과태료",
+"근로감독",
+"노동부",
+"두산에너빌리티",
+"미달에",
+"적립률",
+"착수",
+"퇴직연금"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.nocutnews.co.kr/news/6604764",
+"t": "2026-11-10T16:06+09:00",
+"tok": [
+"5200대",
+"급등해",
+"마감",
+"코스닥도",
+"코스피"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261110_0003862381"
 }
 ]
 }
