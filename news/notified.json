@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T17:04+09:00",
+"updated": "2026-11-10T18:06+09:00",
 "items": [
 {
 "kind": "gov",
@@ -9460,6 +9460,90 @@
 "전세사기",
 "중개인",
 "짜고"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAxOTE2MmRmSV8zc25FV1RyUXY4czg3d3R2WW9qOHZJYlRzR2ZWNkFFbTA4SUNSa1dMQlEyXzNvZjZSYTdwcjFvcm02LTV1alU3QXlfUTY2LWRfMFpOdExTeG5ueFlTQ1hNSUZPRjU5azJZRkJpaEl0enBFTdIBgAFBVV95cUxPUVFla29qcFZ1WjN0SHBCeFY4VFlWMk9FZmwyeHM0QkVzUnU2b1RvOXBsaWtMMHYwdWV1ekFpNVF5dmF1bkFFVHVySzZoaFRpSC1BNk15eWZhS0hqbFdDYnJVTE9jMmRGMDN3QTlWZGtuTUZPMVFBRzdBUzhGX01XdA?oc=5",
+"t": "2026-11-10T18:06+09:00",
+"tok": [
+"SK하이닉스",
+"겨울",
+"모건스탠리",
+"목표가",
+"반도체",
+"삼성전자",
+"전격",
+"하향"
+],
+"g": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAxOTE2MmRmSV8zc25FV1RyUXY4czg3d3R2WW9qOHZJYlRzR2ZWNkFFbTA4SUNSa1dMQlEyXzNvZjZSYTdwcjFvcm02LTV1alU3QXlfUTY2LWRfMFpOdExTeG5ueFlTQ1hNSUZPRjU5azJZRkJpaEl0enBFTdIBgAFBVV95cUxPUVFla29qcFZ1WjN0SHBCeFY4VFlWMk9FZmwyeHM0QkVzUnU2b1RvOXBsaWtMMHYwdWV1ekFpNVF5dmF1bkFFVHVySzZoaFRpSC1BNk15eWZhS0hqbFdDYnJVTE9jMmRGMDN3QTlWZGtuTUZPMVFBRzdBUzhGX01XdA?oc=5"
+},
+{
+"kind": "단독",
+"link": "https://www.hankyung.com/article/202611108138i",
+"t": "2026-11-10T18:06+09:00",
+"tok": [
+"1년보다",
+"6개월이",
+"높다",
+"사상",
+"역전폭",
+"예금금리",
+"최대"
+]
+},
+{
+"kind": "단독",
+"link": "https://www.hankyung.com/article/202611108161i",
+"t": "2026-11-10T18:06+09:00",
+"tok": [
+"80",
+"겹쳐",
+"논란",
+"셀렉트",
+"실효성",
+"최대",
+"코스닥",
+"코스피150과"
+]
+},
+{
+"kind": "단독",
+"link": "https://www.sedaily.com/article/20112600",
+"t": "2026-11-10T18:06+09:00",
+"tok": [
+"22",
+"대란인데",
+"전세",
+"줄었다",
+"청년보증"
+]
+},
+{
+"kind": "단독",
+"link": "https://www.hankyung.com/article/2026111083281",
+"t": "2026-11-10T18:06+09:00",
+"tok": [
+"80",
+"겹친다",
+"승강제",
+"우량기업",
+"코스닥",
+"코스닥150과"
+]
+},
+{
+"kind": "단독",
+"link": "https://www.sedaily.com/article/20112657",
+"t": "2026-11-10T18:06+09:00",
+"tok": [
+"개방",
+"공공보행로",
+"막는다",
+"명시",
+"분양공고부터",
+"분쟁",
+"의무"
 ]
 }
 ]
