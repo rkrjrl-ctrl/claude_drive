@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T09:06+09:00",
+"updated": "2026-11-11T10:06+09:00",
 "items": [
 {
 "kind": "gov",
@@ -10151,6 +10151,114 @@
 "전세사기",
 "중개",
 "책임"
+]
+},
+{
+"kind": "gov",
+"link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788688",
+"t": "2026-11-11T10:06+09:00",
+"tok": [
+"거점으로",
+"공공나노팹",
+"과기정통부",
+"노하우",
+"더해",
+"도약",
+"민간",
+"반도체",
+"연구지원",
+"장비"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.hankyung.com/article/2026111191897",
+"t": "2026-11-11T10:06+09:00",
+"tok": [
+"10일",
+"111",
+"11월",
+"335억달러",
+"97",
+"수출",
+"일평균",
+"증가"
+],
+"g": "https://www.hankyung.com/article/2026111191897"
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261111036500008",
+"t": "2026-11-11T10:06+09:00",
+"tok": [
+"등락",
+"보합권서",
+"상승",
+"코스닥",
+"코스피"
+],
+"m": 1,
+"g": "https://www.yna.co.kr/view/AKR20261111036500008"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5TOEJST1ZoR2dWRDdHNERRSXZrQmg0bEs2ZkJYcFRhVjh6UWRTNjVEZklQOVZhZGJmc1ctZDdDQ1ptT2hIa2ZNYTQwcTJMTXdpVHJ6eG92Q2NWS2pCeUYyLUpkX2xIcklD?oc=5",
+"t": "2026-11-11T10:06+09:00",
+"tok": [
+"1억원선",
+"붕괴",
+"비트코인",
+"원화마켓서"
+],
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5TOEJST1ZoR2dWRDdHNERRSXZrQmg0bEs2ZkJYcFRhVjh6UWRTNjVEZklQOVZhZGJmc1ctZDdDQ1ptT2hIa2ZNYTQwcTJMTXdpVHJ6eG92Q2NWS2pCeUYyLUpkX2xIcklD?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CN0NoWERvSy16M2RUQXJSV3hEdVpGSHlJTE1QZk53WXktWEZfYWRYaEM0UWpEeWVPWFRYdlNNLUVnQUJPUkdyVnRIa0p0WDhEZXlmZnJnRUNyc2llMjFZWHQ0RTBxTVk?oc=5",
+"t": "2026-11-11T10:06+09:00",
+"tok": [
+"10조원",
+"공급",
+"관계",
+"규모",
+"반도체",
+"앨리스",
+"엔비디아",
+"우회",
+"의혹",
+"이용",
+"젠슨",
+"중국"
+],
+"g": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWUJJazVILURsMzdqeUZ2N0VXNEpfMGVCNVZ5TmxURk9TWWE4NWdyQ0pWRk5nVjFoSzdidmE4NzZxMkdhUXkzVzZXUHJrVWs5QkF5d0x6ZkVIQ1pxekhGT3ZMY1BCMDlWVENFNHhhdEtOdEpGRXBKNEk3aktuUmdyWEZFWkt5UTBaZ25xTW5R?oc=5"
+},
+{
+"kind": "주목",
+"link": "https://view.asiae.co.kr/article/2026111109151620691",
+"t": "2026-11-11T10:06+09:00",
+"tok": [
+"KDB생명",
+"늘리고",
+"더한",
+"사망보장",
+"연금전환",
+"종신보험",
+"출시"
+]
+},
+{
+"kind": "주목",
+"link": "https://view.asiae.co.kr/article/2026111109562569100",
+"t": "2026-11-11T10:06+09:00",
+"tok": [
+"개인투자용",
+"계좌",
+"국채",
+"접수",
+"청약",
+"퇴직연금",
+"한투증권",
+"활용"
 ]
 }
 ]
