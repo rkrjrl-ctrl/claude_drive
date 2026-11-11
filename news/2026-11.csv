@@ -1,13 +1,314 @@
 ﻿date,source,title,link,score,tags,via,track
+2026-11-11T15:05+09:00,한겨레 사회,김종철 ‘꼼수분양 의혹’ 재개발 지분 바로잡아…재산신고 20억으로 늘어,https://www.hani.co.kr/arti/society/society_general/1286777.html,0,,rss:한겨레 사회,LIFE
+2026-11-11T15:05+09:00,한겨레 사회,‘아들 성범죄 사건’ 피해자 살해 혐의…50대 남성 긴급체포,https://www.hani.co.kr/arti/society/society_general/1286772.html,1,피해,rss:한겨레 사회,LIFE
+2026-11-11T15:05+09:00,한겨레 사회,위고비·마운자로 맞다 ‘시력 저하’…식약처 “의료진에 즉시 알려야”,https://www.hani.co.kr/arti/society/health/1286752.html,0,,rss:한겨레 사회,LIFE
+2026-11-11T15:03+09:00,글로벌이코노믹,공모가 거품 잡힐까…IPO 새 제도 앞두고 무신사·리벨리온 '주목',https://news.google.com/rss/articles/CBMihwFBVV95cUxPNW9MbkpySEhtMUVVaEJjOVVZWWpCQnlIelRDbGZ6T1F4ZTRDNHE5T1ZNRjg0S3ZpY08yVUpGUW9jcnBmX2ROb0NYdzgzenJXMWJJTFJZNXJHc3ItSjFveXZ0aWwwaEtZM3BoOHR0clJzSGNZbUpNNy1GckF4OEhiX1J5TTlzWnM?oc=5,2,IPO,google:구글뉴스:공모주 IPO,INV
+2026-11-11T15:01+09:00,연합뉴스 최신,"배추 도매가격 작년보다 42% 하락…정부, 3만t 출하정지 추진",https://www.yna.co.kr/view/AKR20261111116500030,2,가격,rss:연합뉴스 최신,LIFE
+2026-11-11T15:01+09:00,연합뉴스 마켓,"""국고채 입찰금리 맞춰쓰자""…15개 PD사 과징금 역대 최대 1.6조(종합)",https://www.yna.co.kr/view/AKR20261111082551002,2,금리,rss:연합뉴스 마켓,INV
+2026-11-11T15:01+09:00,코인리더스,리플(XRP) 1.04달러 지지선 지킬까…물가 부담에 ETF 자금 이탈,https://news.google.com/rss/articles/CBMiSkFVX3lxTFA2U1JxTnNzb3JOOGVraTB5UVFpN3h6aVgzWFVDTmswSFRwSGpiMmM3OVBzVnViMXlhU0xoNTIwUUZtX1JtVzY1WHJn?oc=5,7,ETF|달러|물가,google:구글뉴스:비트코인,INV
+2026-11-11T15:00+09:00,연합뉴스TV 경제,"이형일 ""내년 성장전략, 양극화 완화·잠재성장률 제고 초점""",https://www.yonhapnewstv.co.kr/news/AKR20261111150057q8V,2,성장률,rss:연합뉴스TV 경제,INV
+2026-11-11T15:00+09:00,연합뉴스 최신,"김서윤, 육상인의 날 최우수선수상 수상 ""52초대 기록 목표""",https://www.yna.co.kr/view/AKR20261111123400007,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T15:00+09:00,연합뉴스 최신,"美의회 ""엡스틴 성범죄, 검찰 실패 없었다면 막을 수 있었다""",https://www.yna.co.kr/view/AKR20261111122200009,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T15:00+09:00,연합뉴스 마켓,"코어위브 주가, 시간외 거래서 16%↑…""규제 영향 없다""",https://www.yna.co.kr/view/AKR20261111120600009,1,주가,rss:연합뉴스 마켓,INV
+2026-11-11T15:00+09:00,연합뉴스 최신,"5인승급·200㎞ 이상 목표…우주청, 수직이착륙기 개발 추진",https://www.yna.co.kr/view/AKR20261111119200017,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T15:00+09:00,연합뉴스 최신,"[과학스냅] NST, 과학 콘텐츠 포털 '아이카오스'에 출연연 채널 신설",https://www.yna.co.kr/view/AKR20261111107200017,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T15:00+09:00,연합뉴스 최신,"한·인니, 자카르타서 방산협력회의…KF-21 수출계약 해 넘길 듯",https://www.yna.co.kr/view/AKR20261111089700504,1,수출,rss:연합뉴스 최신,INV
+2026-11-11T15:00+09:00,연합뉴스 최신,온라인 카페에 '북한 찬양글' 229개 올린 60대 징역형 집유,https://www.yna.co.kr/view/AKR20261111050900061,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T15:00+09:00,뉴시스 사회,"""어버이 수령님 그립습니다""…北찬양글 수백개 60대 집유",https://www.newsis.com/view/NISX20261111_0003863607,0,,rss:뉴시스 사회,LIFE
+2026-11-11T15:00+09:00,뉴시스 사회,"""이거 나만 불편해?""…지하철 좌석에 신발 신은 발 올린 아이, 엄마는 방관",https://www.newsis.com/view/NISX20261111_0003863599,0,,rss:뉴시스 사회,LIFE
+2026-11-11T15:00+09:00,뉴시스 정치,"방사청, 인니 국방부와 방산협력위원회 개최…현지화·공동개발 등 논의",https://www.newsis.com/view/NISX20261111_0003863390,0,,rss:뉴시스 정치,LIFE
+2026-11-11T15:00+09:00,뉴시스 정치,"조갑제 ""보수 재건에 한동훈은 뺄 수 없어…장동혁은 빼야 하는 인물""",https://www.newsis.com/view/NISX20261111_0003863103,0,,rss:뉴시스 정치,LIFE
+2026-11-11T15:00+09:00,SBS 사회,"[자막뉴스] '이별통보' 여자친구 프라이팬으로 '쾅'…살해 후 ""어릴 때 묻지마 폭행 당해서""? 황당 변명",https://news.sbs.co.kr/news/endPage.do?news_id=N1008841082&plink=RSSLINK&cooper=RSSREADER,0,,rss:SBS 사회,LIFE
+2026-11-11T15:00+09:00,SBS 사회,도로 뛰어든 러너에 '빵빵'하자…쏟아낸 폭언,https://news.sbs.co.kr/news/endPage.do?news_id=N1008840953&plink=RSSLINK&cooper=RSSREADER,0,,rss:SBS 사회,LIFE
+2026-11-11T15:00+09:00,연합뉴스TV,"""차기 엔비디아 수장 후보군에 리사 수 AMD CEO 포함""",https://news.google.com/rss/articles/CBMiZ0FVX3lxTE94VlVUVU9WNHMwOGo3N3ZuUDMyVG41QkxkVk1rcnJMVGdYS0ZiWm1famVSUzVyZHZYQnU0TW5WdGtXUEdTQ1IxNE5vWnJBTHRpaHB3YjlsbVdxVmZOUkE0NTFKNEdDbUk?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
+2026-11-11T14:59+09:00,연합뉴스 최신,"순창군, '재생에너지 발전 수익' 햇빛소득 마을 100곳 추진",https://www.yna.co.kr/view/AKR20261111123100055,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:59+09:00,연합뉴스 최신,"中 ""올해 수입박람회서 거래의향 금액 114조원…2.3% 증가""",https://www.yna.co.kr/view/AKR20261111121200089,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:59+09:00,연합뉴스 최신,"""6명 중 1명꼴로 횡단보도 건너며 스마트폰 본다""",https://www.yna.co.kr/view/AKR20261111120900002,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:59+09:00,보험저널,"“리쿠르팅은 막히고 수입은 줄고”…GA 지사장들, 고난의 시대",https://www.insjournal.co.kr/news/articleView.html?idxno=33875,0,,rss:보험저널,INS
+2026-11-11T14:59+09:00,SBS 사회,[단독] 성북구서 아들 성범죄 사건 피해자 살해한 50대 검거,https://news.sbs.co.kr/news/endPage.do?news_id=N1008840394&plink=RSSLINK&cooper=RSSREADER,1,피해,rss:SBS 사회,LIFE
+2026-11-11T14:59+09:00,JTBC 사회,"틱톡커 된 박신영 아나 ""웃는다고 반성 안 하는 거 아냐""",https://news.jtbc.co.kr/article/NB12327566,0,,rss:JTBC 사회,LIFE
+2026-11-11T14:58+09:00,뉴시스 정치,日 안보 3문서 개정…'금기' 원자력 잠수함 도입까지 검토,https://www.newsis.com/view/NISX20261111_0003863824,0,,rss:뉴시스 정치,LIFE
+2026-11-11T14:58+09:00,머니투데이,저점론·부양책 기대감 모락모락…코스닥 700 회복,https://www.mt.co.kr/stock/2026/11/11/2026111114440458338,2,코스닥,rss:머니투데이,INV
+2026-11-11T14:58+09:00,한국보험신문,"NH농협손해보험, '지역사회공헌 인정기업' 6년 연속 선정",https://www.insweek.co.kr/news/articleView.html?idxno=72951,2,보험|손해보험,rss:한국보험신문,INS
+2026-11-11T14:58+09:00,머니투데이,저점론·부양책 기대감 모락모락…코스닥 700 회복 - 머니투데이,https://news.google.com/rss/articles/CBMidkFVX3lxTFBKZ05JSXV1SHJDbVJTb1Ytc2lseXk0YVc0NFI1V2dpbU8ydTZwbzB6WjBOZWVpS1ExQTkwbW9HX3BOek9PRFUxMklBODlCOTRXb2NHOWtBX0x2S2N3MjQzaWtOa0JRM2FvTlQwS2piZEhDYTRiUXfSAXtBVV95cUxOX0pmbGxQVldoRnZ0a1RvR2lqSy1VaW5BUzM0WHNSdVRPbWoyWmM0cEdMZnhmSHE5T0wyQTFkUWJBY2xsVWoySUVHY3ZiVHUwZU1jb2FLOXgwV1g2dVBxcFhtano0WTFVVC1IVUpuQzFETnhEcXhDNHF1WVk?oc=5,2,코스닥,google:구글뉴스:코스닥,INV
+2026-11-11T14:58+09:00,인포맥스,"박홍근 ""최근 증시 조정은 반도체 편중 신호…산업 다변화 추진""",https://news.einfomax.co.kr/news/articleView.html?idxno=4444209,4,증시|반도체,rss:인포맥스,INV
+2026-11-11T14:58+09:00,보험매일,"KB라이프, 지배구조 평가 4년 연속 A등급",http://www.fins.co.kr/news/articleView.html?idxno=110504,0,,rss:보험매일,INS
+2026-11-11T14:57+09:00,연합뉴스 최신,"유소년 농구 디비전 i-챔피언십, 14∼15일 인제서 개최",https://www.yna.co.kr/view/AKR20261111123000007,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:57+09:00,연합뉴스 최신,'명예훼손' 김세의 재판에 배우 김수현 증인 출석…비공개 진행,https://www.yna.co.kr/view/AKR20261111122600004,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:57+09:00,연합뉴스 경제,"박홍근 ""증시 조정, 반도체 편중된 韓경제에 신호…엄중히 인식""",https://www.yna.co.kr/view/AKR20261111122100002,4,증시|반도체,rss:연합뉴스 경제,INV
+2026-11-11T14:57+09:00,JTBC 사회,"빼빼로 못 받으면 '빼난지원금'?…아일릿도 ""그게 뭐예요?"" 초등생 신조어 수업",https://news.jtbc.co.kr/article/NB12327565,3,지원금,rss:JTBC 사회,LIFE
+2026-11-11T14:57+09:00,애플경제,AMD vs 엔비디아·Arm…CPU 시장 두고 ‘신경전’,https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jWXNLd0cycVNxVFdPcDRDblpNTXptTi13ZF8tM3ZHMk95NlRCMWh4Z3NmSFliUmRrbkltY0dxVW1RSmFmUWNXY2ZXVnExdkw2YUVMZXVSWGE1OVJNMWJWR014RkZuMjhr?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
+2026-11-11T14:57+09:00,뉴스핌,"美 고물가에 빅스텝 거론…한은, 11월 금리 추가 인상 초읽기",https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Ld09RWjMxc05VQVRyYzhVSWZPUW1kdkUtcjRDVDZJX0tTQzRWaF9mRjhzRDVxOWRFbm05ZEU3dFJoeklvaTljRXUtVk9iVWZ3QUI2U0JqRHQ3Q1Y3?oc=5,4,금리|물가,google:구글뉴스:기준금리,INV
+2026-11-11T14:56+09:00,연합뉴스TV 경제,반도체 수출 4배로 껑충…'1조 달러' 달성 눈앞,https://www.yonhapnewstv.co.kr/news/AKR20261111145611hyg,5,반도체|달러|수출,rss:연합뉴스TV 경제,INV
+2026-11-11T14:56+09:00,연합뉴스 최신,"화성시, 첫 시립요양원 '실버드림센터' 입소자 110명 모집",https://www.yna.co.kr/view/AKR20261111121700061,1,요양,rss:연합뉴스 최신,INS
+2026-11-11T14:56+09:00,파이낸셜뉴스 전체,"안전공단·인력공단, 외국인근로자 입국 전 VR 산업안전 교육 본격 추진",https://www.fnnews.com/news/202611111437330381,1,외국인,rss:파이낸셜뉴스 전체,INV
+2026-11-11T14:56+09:00,JTBC 사회,"'출혈·복통' 24주차 임신부, 34개 병원 거부 끝에 청주서 서울까지",https://news.jtbc.co.kr/article/NB12327564,1,병원,rss:JTBC 사회,LIFE
+2026-11-11T14:56+09:00,한국경제,[단독] 통증 줄여준다며 주사 남발… ‘히알루로니다제’ 실손 청구 급증,https://news.google.com/rss/articles/CBMiWkFVX3lxTFBTaGV6eHNNalBocE5WcTA2MHREalFld0tfQ0hHWWg3ZXUwcTJ5UVhzRHBWMFNIaVBWTXFhT3F0T24xYVBjNUhZU09zWUNwQlBUQk9LTVZUYl84UQ?oc=5,3,실손,google:구글뉴스:실손보험,INS
+2026-11-11T14:56+09:00,뉴스1,"골드만삭스 ""美연준, 내년 3월 추가 금리인상…인하 시작은 내년 12월""",https://news.google.com/rss/articles/CBMiWEFVX3lxTFB4NVZPbXhiTi1yZXBya1hEc3dKS0lTZml1Y29OZWduWnEtY1dSWXp2bE5VMlNBdE8zT3VtenlxRXVZX3RjaWpyeWJCaUd6M1hFenN4RkpBVkU?oc=5,5,금리|연준,google:구글뉴스:연준 금리 인하,INV
+2026-11-11T14:56+09:00,조선비즈,"민생지원금 소비 효과도 챗GPT로 예측… 오픈AI, AI 활용 정책 연구 공개",https://biz.chosun.com/it-science/ict/2026/11/11/QBKDVTLIUZHY5NQ6YB2OULC4UA/,3,지원금,rss:조선비즈,LIFE
+2026-11-11T14:55+09:00,연합뉴스 최신,부산 자갈치현대화시장 유상사용 신청접수 이틀 연장,https://www.yna.co.kr/view/AKR20261111121000051,1,신청,rss:연합뉴스 최신,LIFE
+2026-11-11T14:55+09:00,토큰포스트,[수출 잠정치] 11월 1~10일 수출 335억 달러…반도체가 절반 가까이 채웠다,https://www.tokenpost.kr/news/economy/436293,5,반도체|달러|수출,rss:토큰포스트,INV
+2026-11-11T14:55+09:00,파이낸셜뉴스 증권,"한국투자증권, 퇴직연금으로 국채 투자…10년물 연 6%",https://www.fnnews.com/news/202611111429309873,4,연금|퇴직연금,rss:파이낸셜뉴스 증권,INS
+2026-11-11T14:55+09:00,동아 사회,서천 한솔제지 공장서 30대 근로자 종이롤에 끼여 숨져,https://www.donga.com/news/Society/article/all/20261111/135006737/1,0,,rss:동아 사회,LIFE
+2026-11-11T14:55+09:00,JTBC 사회,"""신병들 비 맞는데 어떻게 앉아있나""…잊지 못할 빗속 '낭만 수료식'",https://news.jtbc.co.kr/article/NB12327563,0,,rss:JTBC 사회,LIFE
+2026-11-11T14:55+09:00,PRESS9,삼성자산운용 ‘KODEX 인도Nifty50’ ETF…1개월 수익률 1위,https://news.google.com/rss/articles/CBMiZEFVX3lxTE5KSzZReUxZdUplZ2p2UlpWRm5sQkNkaXRsRG4xQklNUXdmVUtnaHlVZ1pycHdKaXNkSENwWjhON3FYbzYwV1RZcGo3YkFsaWl3V1BfWDB5UGZCNHhFNGdzSENSYUk?oc=5,3,ETF,google:구글뉴스:국제 유가,INV
+2026-11-11T14:54+09:00,연합뉴스 최신,핸드볼경기장 개표소 진입 홀로 막은 '올다르크' 불구속기소,https://www.yna.co.kr/view/AKR20261111121800004,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:54+09:00,연합뉴스 최신,"이중근 부영 회장, '유엔참전용사 추모' 국민대표로 헌화",https://www.yna.co.kr/view/AKR20261111119900003,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:54+09:00,파이낸셜뉴스 전체,"""그때 빚 내서 집 살 걸""..野 부동산 포럼서 최경환 ""미친 규제"" 맹폭",https://www.fnnews.com/news/202611111354401984,1,부동산,rss:파이낸셜뉴스 전체,INV
+2026-11-11T14:54+09:00,이코노믹리뷰,"미래에셋증권, 개인투자용국채 11월 청약 실시…10·20년물 가산금리 상승",https://www.econovill.com/news/articleView.html?idxno=756843,4,국채|금리,rss:이코노믹리뷰,INV
+2026-11-11T14:54+09:00,이코노믹리뷰,국내 성장 한계에 해외로 향하는 보험사들…M&A로 돌파구 모색,https://www.econovill.com/news/articleView.html?idxno=756840,2,보험|보험사,rss:이코노믹리뷰,INS
+2026-11-11T14:53+09:00,토큰포스트,DRAM·기업용 SSD 인상 신호…공문 전 유통가격 먼저 움직여,https://www.tokenpost.kr/news/tech/436417,4,가격|인상,rss:토큰포스트,LIFE
+2026-11-11T14:53+09:00,이데일리,"삼성전자, AMD와 차세대 반도체 테스트 인프라 성능 개선 협력",https://www.edaily.co.kr/News/Read?newsId=04660886645644736,4,반도체|삼성전자,rss:이데일리,INV
+2026-11-11T14:52+09:00,연합뉴스 최신,"""청소년에게 책 선물을""…전주시 '책 사줄게' 캠페인 확대",https://www.yna.co.kr/view/AKR20261111121600055,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:52+09:00,연합뉴스 최신,[대구소식] 두류정수장서 김장 나눔·농특산물 직거래 행사,https://www.yna.co.kr/view/AKR20261111121400053,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:52+09:00,연합뉴스 마켓,"""차기 엔비디아 수장 후보로 리사 수 AMD CEO도 거론""",https://www.yna.co.kr/view/AKR20261111110900009,3,엔비디아,rss:연합뉴스 마켓,INV
+2026-11-11T14:52+09:00,머니투데이,"배춧값 1년 새 42% 급락…정부, 3만t 출하정지·추가 수매 추진",https://www.mt.co.kr/economy/2026/11/11/2026111114343047342,2,급락,rss:머니투데이,INV
+2026-11-11T14:52+09:00,파이낸셜뉴스 국제,"시험대에 오른 앤스로픽 IPO, '매출 150배' 기대와 AI 거품론 우려",https://www.fnnews.com/news/202611111037001257,2,IPO,rss:파이낸셜뉴스 국제,INV
+2026-11-11T14:52+09:00,파이낸셜리뷰,쇼핑엔티 ‘벨리츠’ FW 대표 상품군 4개 목표치 달성,https://news.google.com/rss/articles/CBMidEFVX3lxTE1jWjlrNEhSTEh1cHhCVnMwMlBpNDJwV3FlbGswN3htVlpzcTFGMmxlOXl3M0VrNVRfX3Z1Z3JzQ0N1VnUzUzFGVi1mVUIwT0hCa09FMkRxdnJzOUhaX2VKcnRqdWFBU2xrb1RHVUc2UkVvSEtW?oc=5,2,리츠,google:구글뉴스:리츠,INV
+2026-11-11T14:52+09:00,간호사신문,"좋은병원들 3개 병원, 간호·간병통합서비스 첫 우수기관 동시 선정",https://news.google.com/rss/articles/CBMibkFVX3lxTE5UOFUwVGtENV9TUlNJUklZd2VON2dTeG5EZGNlMkt5cHdwWkRlb29UQTByZzVfbDZ3dGd6RGk1WmxTZWVWVl9rMmlGN3l5dzZhQVI1QXJnTzZoSlZ3aFpBeTJqTjdWMVlHTjJSNXhR?oc=5,2,간병,google:구글뉴스:간병보험,INS
+2026-11-11T14:52+09:00,비건뉴스,뉴욕증시 하락에도 코스피 상승 전환…삼성전자·SK하이닉스 강세,https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ENkdmNE5LNkZvRk9MMjlSRXFBRWd6c3FjZ1RFNkNjYjhPaVRBaXNoS01CVkFxS3VzNjNabGYxSHJfcEQ1NENydmdINzY2cjV4MEhtODNEWHdFS0cxT1llMmhPV3dfQQ?oc=5,12,코스피|증시|뉴욕증시|삼성전자|하이닉스,google:구글뉴스:삼성전자 SK하이닉스,INV
+2026-11-11T14:51+09:00,연합뉴스 최신,[쇼츠] 휙 던지자 날아가더니 목표 타격…투척형 공격 드론 'STUD',https://www.yna.co.kr/view/AKR20261111120800704,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:51+09:00,연합뉴스 최신,"대전 시민단체 ""도시철도 2호선 수소트램 재검토해야""",https://www.yna.co.kr/view/AKR20261111120300063,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:51+09:00,연합뉴스 마켓,소프트뱅크 주가 출렁…장초반 11% 급락후 회복,https://www.yna.co.kr/view/AKR20261111119500009,3,주가|급락,rss:연합뉴스 마켓,INV
+2026-11-11T14:51+09:00,뉴시스 정치,"[기자수첩]""민생에 이견 없다""는 與野의 구두선",https://www.newsis.com/view/NISX20261111_0003863138,0,,rss:뉴시스 정치,LIFE
+2026-11-11T14:51+09:00,Investing.com 한국어,미 수출 규제에도 중국 인민해방군 연계 대학이 Nvidia H200 칩 구매 - Investing.com 한국어,https://news.google.com/rss/articles/CBMicEFVX3lxTE9SREpTbGFTZG1BbW1oUEUyVUJpNnFLdTg4Uk9TV3NZRjE2eDVqS3otNGJDck9GbjhjdUhfQ2FEcVlxQkxlZ21QMUEwVFVDRlFNTWhkdTZDYmFmTjBqNHhSVkZCVDFFMGdPT29jSlhBdFI?oc=5,1,수출,rss:구글뉴스 비즈니스,INV
+2026-11-11T14:50+09:00,연합뉴스 최신,"용산구, 14∼15일 '라이징 이태원' 상권 활성화 행사",https://www.yna.co.kr/view/AKR20261111121500004,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:50+09:00,연합뉴스 최신,"부산대, 정부 선도연구센터 '양자 포노닉스 연구센터' 개소",https://www.yna.co.kr/view/AKR20261111121100051,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:50+09:00,연합뉴스 최신,"파주시, 행안부 '생활권 보행환경 종합 정비사업' 공모 선정",https://www.yna.co.kr/view/AKR20261111120100060,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:50+09:00,연합뉴스 최신,"""원아에 물리고도 고소당한 교사 보호해야""…노조, 법개정 촉구",https://www.yna.co.kr/view/AKR20261111117900063,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:50+09:00,파이낸셜포스트,삼성전자·SK하이닉스 반도체 양날개 단 한국 수출…1조 달러 '초읽기',https://news.google.com/rss/articles/CBMidEFVX3lxTE9FaEdtdmdzLXlOQmVmb0JhU05DTnRkNndLbDZRWmVqOVpUMHhSRWlvM2JhX2kzSldfZTlZWFRCWUFGMHFENFhmQlc3MTNNNUtiQnFtbURyaGp0VVVJTWVlWXdFdW5TVjI4Z0c0SXpuejlXUE9S?oc=5,9,반도체|삼성전자|하이닉스|달러|수출,google:구글뉴스:삼성전자 SK하이닉스,INV
+2026-11-11T14:50+09:00,문화저널21,"쇼핑엔티 PB '벨리츠', FW 시즌 판매 호조…기능성·가격 경쟁력 '집중'",https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA1eEhodng3NVpMcnJ4TEJaVHVKRWNHcWlXaE1CWlZFZTNPMlkzRG14UWlEVkg4NDRZYV9oYkNxLWE1MXYyd2prSno1S1dSWEFQcmJTLVpPc09qb3lwUTRXMG5zYmlwNUk?oc=5,2,리츠,google:구글뉴스:리츠,INV
+2026-11-11T14:49+09:00,연합뉴스 최신,"파키스탄 ""인도 힌두교 축제 폭죽에 오염된 공기 국경 넘어와""",https://www.yna.co.kr/view/AKR20261111117800009,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:49+09:00,연합뉴스 최신,"엔씨, '리니지 클래식·아이온2' 성과에 3분기 흑자전환(종합)",https://www.yna.co.kr/view/AKR20261111112251527,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:49+09:00,뉴시스 사회,"서이초 통학로 전봇대 없앤다…서초구, 지중화 공사 시작",https://www.newsis.com/view/NISX20261111_0003863879,0,,rss:뉴시스 사회,LIFE
+2026-11-11T14:49+09:00,파이낸셜뉴스 증권,"[단독]금감원, 대차주식 '고율 재대여' 손본다…LP용·일반용 분리 추진",https://www.fnnews.com/news/202611101514337060,1,금감원,rss:파이낸셜뉴스 증권,INS
+2026-11-11T14:49+09:00,동아 사회,내가 그린 지도로 분쟁지 의료 구호…MSF ‘매파톤’ 21일 개최,https://www.donga.com/news/Society/article/all/20261111/135004908/2,2,분쟁,rss:동아 사회,INS
+2026-11-11T14:49+09:00,메디포뉴스,"일산병원, 간호·간병통합서비스 우수기관 선정",https://news.google.com/rss/articles/CBMiZEFVX3lxTE5yVlVJLUlWMXo0dU4xUHpVbU9zb1IyRExHb0hEWm1RcF9adXdpUFRibDljQUJyLWhMMWpVbjR1Y055eVlGdU9sZnNVdTVwcmpVWWFhemdaNF9fQWdKZmcxb3otc1I?oc=5,2,간병,google:구글뉴스:간병보험,INS
+2026-11-11T14:48+09:00,연합뉴스 최신,"울산 공공기관 감사 '겉돌았다'…시, 내부통제 손질 착수",https://www.yna.co.kr/view/AKR20261111119400057,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:48+09:00,글로벌이코노믹,"""엔비디아만 믿다간 계좌 녹는다""…AI 폭증에 진짜 돈 버는 '전력·냉각 3총사'",https://news.google.com/rss/articles/CBMihwFBVV95cUxQTHp0N21VdzJQRlc4OHZLZTVBZ1pBYm9OcHJGcFJWZTI0T1E1S2FIMXc1bno5azBiVll4OVNiOVBXU2dhYzlRLWRMUF9VNkE0a053aFZ3VXdQeWRURjBETXY2V1dzSC0zQVcwUDFwQTJLWkswcEFyeERHbUpFZzJEMDU4UUROSnc?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
+2026-11-11T14:48+09:00,아시아타임즈,'빅스텝' 불씨 지핀 연준…'강달러' 다시 오나,https://news.google.com/rss/articles/CBMiXkFVX3lxTE5SSjR1Z01UZXZpWG1ZcHJSc0o3d3ZKc0dfSDc0aTMxLXFCMFhXWVp2RGFfeHo1QllQbW5hakw0WWsydVRIVGJZSnF5R09zRDd0VGNFSzZod25idHRSZXc?oc=5,5,달러|연준,google:구글뉴스:원달러 환율,INV
+2026-11-11T14:48+09:00,뉴스1,"""젠슨 황, 평소처럼 출근해 회의 주재…엔비디아 내부는 침울""",https://news.google.com/rss/articles/CBMiWEFVX3lxTFAwRGFIVTBxbHVzVHc1Wk4xbjZCZTYteVZRY3dTbl9veERxbDZUODB5RUpGMTBBM0QxLVlqUDZzN3duMVduc09NdTI1UzdkODhjUjVWS3NqZm8?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
+2026-11-11T14:47+09:00,연합뉴스 최신,에버랜드 대입 수험생에 연말까지 할인…동반 최대 3명 우대,https://www.yna.co.kr/view/AKR20261111120000061,2,할인,rss:연합뉴스 최신,LIFE
+2026-11-11T14:47+09:00,연합뉴스 최신,황금빛 은행나무숲으로 가을 나들이…고령서 주말 축제,https://www.yna.co.kr/view/AKR20261111119600053,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:47+09:00,연합뉴스 최신,"중동 사태로 농자재 가격 상승…농진청, 절감 기술 자료집 발간",https://www.yna.co.kr/view/AKR20261111118100055,2,가격,rss:연합뉴스 최신,LIFE
+2026-11-11T14:47+09:00,뉴시스 경제,부동산산업의 날 개최…AI·프롭테크 미래 전략 논의,https://www.newsis.com/view/NISX20261111_0003863906,1,부동산,rss:뉴시스 경제,INV
+2026-11-11T14:47+09:00,머니투데이,"김민석, 전남·광주서 ""반도체·병원 확충 최선""...'텃밭 민심' 구애",https://www.mt.co.kr/politics/2026/11/11/2026111113555062149,2,반도체,rss:머니투데이,INV
+2026-11-11T14:47+09:00,코메디닷컴,"의협, '건보공단 특사경' 반대 1인 시위⋯법안은 국회 소위 통과",https://news.google.com/rss/articles/CBMiQkFVX3lxTE9IOXpZR1lZeGRzWk9kZVlyU3ZWQnpERzRRdklNRTJ1dkJSQXQzWi1CVm1HbW9NMFJFcHFDZ0F3b1pidw?oc=5,2,건보,google:구글뉴스:건강보험 재정,INS
+2026-11-11T14:46+09:00,연합뉴스 최신,"일진전기 3분기 영업익 700억원…""전선사업 해외 수주 확대""",https://www.yna.co.kr/view/AKR20261111119100003,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:46+09:00,뉴시스 국제,"젠슨 황 불륜 상대, 회사 넘기고도 운영 통제…나흘 뒤 엔비디아 파트너",https://www.newsis.com/view/NISX20261111_0003863922,3,엔비디아,rss:뉴시스 국제,INV
+2026-11-11T14:46+09:00,머니투데이,"[속보]NC, 3분기 영업이익 1196억원…흑자 전환",https://www.mt.co.kr/tech/2026/11/11/2026111114460137120,0,,rss:머니투데이,ETC
+2026-11-11T14:46+09:00,머니투데이,"하나은행, 주담대 빗장 더 푼다…변동형도 모기지보험 재개",https://www.mt.co.kr/finance/2026/11/11/2026111114294657281,1,보험,rss:머니투데이,INS
+2026-11-11T14:46+09:00,파이낸셜뉴스 증권,"유안타증권, 생전 자산관리부터 상속까지…재산승계신탁 '가온'",https://www.fnnews.com/news/202611111412486356,3,상속|부터,rss:파이낸셜뉴스 증권,LIFE
+2026-11-11T14:46+09:00,뉴스1,"""낙폭 지나치다"" 코스닥 4%대↑ '또 사이드카'…부양책 기대[장중시황]",https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jNEV4N2V0TWlzYVRDV3hlT2pGTzhhbjExdFBkUWVQQXcyUHNjeUowXzAzbTFNT0FuUXlCODJfRENBVVJBOFZpd0hqeE9WWVZtTzJtem9TWHMyN3c?oc=5,5,코스닥|사이드카,google:구글뉴스:코스닥,INV
+2026-11-11T14:45+09:00,뉴시스 사회,"""잠자는 건강보험 본인부담금환급금 확인하세요""",https://www.newsis.com/view/NISX20261111_0003863907,5,건강보험|보험|본인부담,rss:뉴시스 사회,INS
+2026-11-11T14:45+09:00,뉴스1,"與수도권 의원 '부동산 실용주의 모임' 결성…""전월세 안정에 초점""",https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IM1ZEYm0yRFhuYUhQNjBEZmpiZHhlQ0FjSUVwMFRsRnNYcXlVRFlVUEhvQmJkbjJQejNETUFqRlh0d0lRWnBDMk13dWx6NjUtUlQySTNoemxqQQ?oc=5,3,월세,google:구글뉴스:주택연금,LIFE
+2026-11-11T14:44+09:00,연합뉴스 최신,[인사] 기상청,https://www.yna.co.kr/view/AKR20261111120200530,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:44+09:00,연합뉴스 최신,"[동포의 창] 민주평통 아태지역회의, 네팔에 홍수 피해 복구 성금",https://www.yna.co.kr/view/AKR20261111119700371,1,피해,rss:연합뉴스 최신,LIFE
+2026-11-11T14:44+09:00,뉴시스 사회,"굿네이버스 ""아동 43%, 온라인 피해 본인 책임이라 생각""",https://www.newsis.com/view/NISX20261111_0003863938,1,피해,rss:뉴시스 사회,LIFE
+2026-11-11T14:44+09:00,뉴시스 경제,"부동산원, 재건축·재개발 현장 지원 강화…사업 지연 최소화",https://www.newsis.com/view/NISX20261111_0003863904,1,부동산,rss:뉴시스 경제,INV
+2026-11-11T14:44+09:00,뉴시스 사회,"굿네이버스, 고액기부자 모임…우간다 후원 성과 등 공유",https://www.newsis.com/view/NISX20261111_0003863902,0,,rss:뉴시스 사회,LIFE
+2026-11-11T14:44+09:00,뉴시스 사회,"홍준호 성신여대 교수, 디지털포렌식 학술대회서 '경찰청장상' 수상",https://www.newsis.com/view/NISX20261111_0003863789,0,,rss:뉴시스 사회,LIFE
+2026-11-11T14:44+09:00,머니투데이,"""신축 아파트 90%가 중소형""…'브레인시티 푸르지오' 대형 평형 반사이익",https://www.mt.co.kr/estate/2026/11/11/2026111110580265531,1,아파트,rss:머니투데이,INV
+2026-11-11T14:44+09:00,동아 사회,"상미당홀딩스, 푸드뱅크 차량 기부 확대…2030년까지 20대 목표",https://www.donga.com/news/Economy/article/all/20261111/135006601/1,0,,rss:동아 사회,LIFE
+2026-11-11T14:44+09:00,블루밍비트,"리플 ""2030년까지 30조달러가 온체인으로…상호운용성 확보 필요""",https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ZNFhsTEJzZktWN2wycFkyeEJtUzItRHh4bFREYmFjSUxsTHRKLWdmekJHOGN3UHVqc2s4VXRlMk95NlNwWUNrWWFhaGh2dlBF?oc=5,2,달러,google:구글뉴스:스테이블코인,INV
+2026-11-11T14:43+09:00,연합뉴스 최신,일손 부족에 로봇이 선거 참관인으로…日 지자체 실험,https://www.yna.co.kr/view/AKR20261111118500009,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:43+09:00,보험저널,"""1200% 룰 시행 여파""… 3분기 GA 정착지원금 총액 74% 급감",https://www.insjournal.co.kr/news/articleView.html?idxno=33865,3,지원금,rss:보험저널,LIFE
+2026-11-11T14:43+09:00,파이낸셜뉴스 전체,위암 전 단계 '장상피화생' 두 유형 달랐다… 제주대 장보근 교수 의학상,https://www.fnnews.com/news/202611111441089686,1,암,rss:파이낸셜뉴스 전체,INS
+2026-11-11T14:43+09:00,조선 경제,"2조달러 기대 모았지만… 앤스로픽, 목표 낮춰 IPO 시험대",https://www.chosun.com/economy/tech_it/2026/11/11/BJZQKIKMRVDDVICOH4HDFGDKTA/,4,IPO|달러,rss:조선 경제,INV
+2026-11-11T14:43+09:00,조선 경제,"""잠실, 순식간에 5억 폭락"" 주공 5단지, 아시아선수촌 등 줄줄이 급락",https://www.chosun.com/economy/realty/apartment/2026/11/11/MI2GGNRWMQ4DMYZSGVQTSZLEME/,4,폭락|급락,rss:조선 경제,INV
+2026-11-11T14:42+09:00,연합뉴스 최신,"일감 몰아주기 의혹에 공금 유용…""강원체육 자정능력 상실""",https://www.yna.co.kr/view/AKR20261111118700062,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:41+09:00,연합뉴스 최신,"U-23 야구대표팀, 세계선수권서 남아공 꺾고 슈퍼라운드 진출",https://www.yna.co.kr/view/AKR20261111119300007,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:41+09:00,연합뉴스 최신,횡성서 미용실에 승용차 돌진…1명 중상·2명 구조 중,https://www.yna.co.kr/view/AKR20261111118800062,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:41+09:00,연합뉴스 최신,"이용철 법무장관 후보 로펌, 김현지 형사사건 변호했다",https://www.yna.co.kr/view/AKR20261111118200004,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:41+09:00,연합뉴스 최신,"전직 교육감 21명, 교육교부금 개편안 반대…""내국세 연동 유지""",https://www.yna.co.kr/view/AKR20261111117600530,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:41+09:00,메디파나,"사무장병원 미환수액 2.9조…건보노조, 의협에 '특사경 협력' 요구",https://www.medipana.com/news/articleView.html?idxno=421550,2,건보,rss:메디파나,INS
+2026-11-11T14:41+09:00,파이낸셜뉴스 전체,제주 대화카드 노르웨이 수출계약… AI 그림책은 중국 진출 추진,https://www.fnnews.com/news/202611111428364925,1,수출,rss:파이낸셜뉴스 전체,INV
+2026-11-11T14:41+09:00,동아 경제,"배추값 40% 폭락…정부, 출하정지 등 가을배추 4만톤 묶는다",https://www.donga.com/news/Economy/article/all/20261111/135006679/1,2,폭락,rss:동아 경제,INV
+2026-11-11T14:41+09:00,JTBC 사회,"돌봄 공백 줄인다던 '3시 하교제' 제외…국교위, 반발에 또 후퇴",https://news.jtbc.co.kr/article/NB12327559,2,돌봄,rss:JTBC 사회,LIFE
+2026-11-11T14:40+09:00,연합뉴스 최신,"""위기를 기회로""…임실 농업인들, 지속 가능한 농업 결의",https://www.yna.co.kr/view/AKR20261111118300055,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:40+09:00,연합뉴스 최신,"경남 직업계고 2곳·학생 3명, 국가기술자격 취득 우수 선정",https://www.yna.co.kr/view/AKR20261111115100052,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:40+09:00,머니투데이,"트럼프 '외국인 채용 빗장'에…IBM, 직원 비자 지원 축소",https://www.mt.co.kr/world/2026/11/11/2026111111390575136,1,외국인,rss:머니투데이,INV
+2026-11-11T14:40+09:00,보험매일,건설노동자 근로 이력도 대출심사 반영…내년 맞춤형 상품 나온다,http://www.fins.co.kr/news/articleView.html?idxno=110503,0,,rss:보험매일,INS
+2026-11-11T14:39+09:00,연합뉴스 최신,"[게시판] 우리자산신탁, 부천 한아름마을 3천100세대 통합재건축 협약",https://www.yna.co.kr/view/AKR20261111117300002,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:39+09:00,연합뉴스 최신,게임 정책·문화 한자리에…지스타서 6개국 심포지엄,https://www.yna.co.kr/view/AKR20261111116900017,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:39+09:00,데일리팝,"원화 스테이블코인, 발행보다 사용처가 문제…달러 중심 시장서 생존 전략은 [디지털 금융 패권 경쟁, 한국의 선택①]",https://news.google.com/rss/articles/CBMiaEFVX3lxTFBuWVVFN0Nzb3JFZVJ0RE5HaXJKQ2ZYRERJZ0JlRlZCOGVsS0RURmo1R0JDUDg3eFJFQ1Y1dnpBY2oySml4dVRzaUcyaW0wMTA4MmdrZy1mRGxWN1Rsa1A4ZGJuX1ZRM2c0?oc=5,4,달러|스테이블코인,google:구글뉴스:스테이블코인,INV
+2026-11-11T14:38+09:00,연합뉴스 최신,"두나무, 데이터랩 '업타이드' 상표 출원…""상표권 관리 차원""",https://www.yna.co.kr/view/AKR20261111118000002,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:38+09:00,토큰포스트,리플(XRP) ETF 760만달러 순유출…가격 24시간 3.04% 하락,https://www.tokenpost.kr/news/cryptocurrency/436414,5,ETF|달러,rss:토큰포스트,INV
+2026-11-11T14:38+09:00,SBS 생활문화,"[에디터픽] 한입 먹자마자 ""으악!"" 손사래..대충 골랐다가 '캡사이신 범벅'",https://news.sbs.co.kr/news/endPage.do?news_id=N1008841005&plink=RSSLINK&cooper=RSSREADER,0,,rss:SBS 생활문화,LIFE
+2026-11-11T14:37+09:00,연합뉴스 최신,"경남도 ""기본소득 견해차, 형사고발 유감""…진보당 ""공포 정치""(종합)",https://www.yna.co.kr/view/AKR20261111078351052,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:37+09:00,뉴시스 정치,[부고]조승래(더불어민주당 국회의원)씨 빙모상,https://www.newsis.com/view/NISX20261111_0003863914,0,,rss:뉴시스 정치,LIFE
+2026-11-11T14:37+09:00,뉴시스 정치,"국힘, 최민희 사진기자에 '하이에나 떼들' 발언에 ""입에 담을 수 없는 막말""",https://www.newsis.com/view/NISX20261111_0003863868,0,,rss:뉴시스 정치,LIFE
+2026-11-11T14:37+09:00,아시아경제,"공인중개사협회 ""AI시대, 프롭테크와 상생""…부동산산업의 날 개최",https://view.asiae.co.kr/article/2026111114372145206,1,부동산,rss:아시아경제,INV
+2026-11-11T14:36+09:00,연합뉴스 경제,"김제시, 플랫폼 종사자에 산재보험료 연간 최대 10만원 지원",https://www.yna.co.kr/view/AKR20261111117500055,3,보험료|보험,rss:연합뉴스 경제,INS
+2026-11-11T14:36+09:00,연합뉴스 최신,"부산항만공사, AI기반 항만크레인 진단 기술 해외시장 노크",https://www.yna.co.kr/view/AKR20261111117400051,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:36+09:00,연합뉴스 최신,남의 집에 래커칠 '보복대행' 10대 형사처벌 면해…소년부 송치,https://www.yna.co.kr/view/AKR20261111116200004,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:36+09:00,연합뉴스 최신,[대구소식] 서구 공공 문화·체육시설 '평리들마을' 14일부터 운영,https://www.yna.co.kr/view/AKR20261111114500053,1,부터,rss:연합뉴스 최신,LIFE
+2026-11-11T14:36+09:00,연합뉴스 최신,"한은 ""지급결제 안전망, 새로운 위험 대응되나 냉정히 짚어야""(종합)",https://www.yna.co.kr/view/AKR20261111072651002,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:36+09:00,YTN,코스피 2% 상승...삼전·닉스도 오름폭 키워,https://news.google.com/rss/articles/CBMiXkFVX3lxTE00QkNXUlIwbWtLV3BYQm9zUWFDZklqS0FwMUxON29LZGswN012UFpYY1lldmt0NW9jZzNkb1JZV3dvc2RyVXpfcWozV2NFNFZVUHdaMjA2YnJPbS1OVFE?oc=5,3,코스피,google:구글뉴스:삼성전자 SK하이닉스,INV
+2026-11-11T14:35+09:00,이데일리,이근주 “스테이블코인 통해 지급결제 혁신 가능”,https://www.edaily.co.kr/News/Read?newsId=04578886645644736,2,스테이블코인,rss:이데일리,INV
+2026-11-11T14:35+09:00,Benzinga,"비트코인, CPI 충격에 7만 3천 달러까지 하락···“매수세 돌아와야 반등”",https://news.google.com/rss/articles/CBMirAJBVV95cUxQZDBZT1d0c0FpSzFMR2xnYl9YekVlR3FlRjJ1dE1kQ3lvbkJwamxaMGUwNloycGxCWXhvbXItQzVNblBqUXM5NUNhREh0UVdaazRKRWVvTE0wV1JfekV1QjZBazgtS291c3RWTkNzanZPNjFZUmtIVlRmeWpXeUJ4dWJlYUhib0t0WjBjS3A0ZFc5MktkLTc5ZFdOREctQnVWbFJaUUxLay15VFZpUzFGNFNBUHNveXZjREJOSDQtSDE0OVFvSUtuX0tJZFZlZnRUejYwNGNfaVlKNzJRc1hxZGZhd1dsSEVlVmZfTmJRRjNjUVBoMXROVXA2ZDFmRmVOekhRMWtLd042UEFSYlNCdXg4cGpXLVJFQmpzbUxQOUhRZ3ZQc2J1akVIb2s?oc=5,6,달러|CPI|비트코인,google:구글뉴스:비트코인,INV
+2026-11-11T14:35+09:00,코인리더스,"지캐시(ZEC) 1,000달러 무너지나…그레이스케일 호재에도 880달러 추락 경고",https://news.google.com/rss/articles/CBMiSkFVX3lxTE5nZlJzRnMtZHlKNW5LeXRnZldsbGVmRmN1Z3dwV185dlE2NXhoRHlnYk1tU0RkYXdoVkd5SHhYM3Q1bHVHcG9UazRn?oc=5,2,달러,google:구글뉴스:비트코인,INV
+2026-11-11T14:34+09:00,연합뉴스 최신,"영월 청년 농업인 경소정 씨, 강원 농업인대상 수상",https://www.yna.co.kr/view/AKR20261111117200062,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:34+09:00,연합뉴스 최신,"익산시, 반도체 소부장 특화단지 미래 그린다…타운홀미팅 개최",https://www.yna.co.kr/view/AKR20261111116400055,2,반도체,rss:연합뉴스 최신,INV
+2026-11-11T14:34+09:00,연합뉴스 최신,영수증이 공연 티켓…태백서 더픽트 '상생페스타' 14∼15일 개최,https://www.yna.co.kr/view/AKR20261111115800062,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:34+09:00,연합뉴스 최신,김해 물류창고서 40대 노동자 4ｍ 높이서 추락해 심정지,https://www.yna.co.kr/view/AKR20261111113100052,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:34+09:00,연합뉴스 마켓,"""흥행 여부에 AI투심 달렸다""…'카운트다운' 앤트로픽 IPO에 촉각",https://www.yna.co.kr/view/AKR20261111093200008,2,IPO,rss:연합뉴스 마켓,INV
+2026-11-11T14:34+09:00,아시아경제,日 소프트뱅크 주가 11% 급락…2년만 분기 적자 후폭풍,https://view.asiae.co.kr/article/2026111114303684209,3,주가|급락,rss:아시아경제,INV
+2026-11-11T14:34+09:00,JTBC 사회,"이 대통령 향해 ""나쁜 X의 자식""…전광훈, '재개발 알박기' 지적에 욕설",https://news.jtbc.co.kr/article/NB12327558,0,,rss:JTBC 사회,LIFE
+2026-11-11T14:34+09:00,포인트데일리,"[新한일경제③] AI 반도체 시대, 한일 '소부장 동맹' 다시 짠다",https://news.google.com/rss/articles/CBMicEFVX3lxTFA5bVJiZklnNU1sbHF4TF9BMnphSTgzVzg0ZVp1NGQtMmlkdG5qQ2MyV0t0ZDBteUs5MkpwLUJ2WmZyY19PR1lSeEVYemhZaFFBM0xSRE15R3pKdWJYRndaaTlhMHRJVi13RTNrM2tuWXnSAXRBVV95cUxOaHRSR3RrVU5DQlFhWExDaXVqMWFoSGVKbE1xVS0za1IzaGNtdlF5X1VlY2RTaW5vdHRxU0hlQ0lsSU5manNlZk9TdzBIeGlobFYzYXRfcGZoR0RFdE9iMl9FUGtVOEw0OS1Vc2pLcGlnNTNBUg?oc=5,2,반도체,google:구글뉴스:삼성전자 SK하이닉스,INV
+2026-11-11T14:33+09:00,연합뉴스 최신,"파주시, 내년부터 '공영주차장 24시간 콜센터' 운영",https://www.yna.co.kr/view/AKR20261111115600060,1,부터,rss:연합뉴스 최신,LIFE
+2026-11-11T14:33+09:00,연합뉴스 최신,'사업비 부족' 경남농기원 청사 이전 지연 또 질타…도의회 행감,https://www.yna.co.kr/view/AKR20261111112900052,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:33+09:00,뉴시스 사회,춘천 퇴계동 아파트 13층서 불…주민 8명 대피,https://www.newsis.com/view/NISX20261111_0003863895,1,아파트,rss:뉴시스 사회,INV
+2026-11-11T14:33+09:00,매일일보,"""젠슨황 내연녀, 10조원 엔비디아 AI칩 中 밀반입""…이혼 땐 부인에 100조원 지급",https://news.google.com/rss/articles/CBMiZEFVX3lxTFB1TGttUFZoSWhlTFZHZmFmdEdDVW14dW9aY3BkTEtrZmxmaDhIRXpyTDYyclllS1VQd2phTUl3SHFBVW5pMGlrcnU0VURuNXpJX2pheUlIal9CeDQxOGRMMGxHcng?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
+2026-11-11T14:33+09:00,위키트리,오늘 금가격(금값) 폭락... 국내 금시세를 짓누른 핵심 배경은,https://news.google.com/rss/articles/CBMiVkFVX3lxTE41UE03SnU0YUY5U1EtYk4tZmNrajA0OEc3ZWJHYmd0VGxOQ1VWcmEyb2JEeTJIakRpb3VyTTlibFNac1A1NDlVWGR2UWROdUFabkNRMUd3?oc=5,5,폭락|금값,google:구글뉴스:원달러 환율,INV
+2026-11-11T14:32+09:00,연합뉴스 최신,춘천 아파트서 불…주민 8명 대피,https://www.yna.co.kr/view/AKR20261111114600062,1,아파트,rss:연합뉴스 최신,INV
+2026-11-11T14:32+09:00,토큰포스트,"40억위안 위안화 녹색국채, 캐나다서 첫 발행…청약 13.5배",https://www.tokenpost.kr/news/international/436411,4,위안화|국채,rss:토큰포스트,INV
+2026-11-11T14:31+09:00,연합뉴스 최신,"파주시, 다율동에 반려동물 공원 개장…대형견 이용 가능",https://www.yna.co.kr/view/AKR20261111114700060,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:31+09:00,토큰포스트,[크립토 인앤아웃] 원화 현금화 1725만 달러...NVDAB가 코인 유입 2위,https://www.tokenpost.kr/news/cryptocurrency/436409,2,달러,rss:토큰포스트,INV
+2026-11-11T14:31+09:00,경향 사회,"‘채용 비리 의혹’ 위성호 전 신한카드 대표, 2심서 무죄로 뒤집혀",https://www.khan.co.kr/article/202611111431001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=society_news,0,,rss:경향 사회,LIFE
+2026-11-11T14:31+09:00,파이낸셜뉴스 전체,"부동산산업의 날 개최…김종호 연합회장 ""프롭테크와 상생 생태계 구축""",https://www.fnnews.com/news/202611111411158580,1,부동산,rss:파이낸셜뉴스 전체,INV
+2026-11-11T14:31+09:00,JTBC 사회,존박 '맥도날드 랩' 해외서 도둑맞았다…음원 무단 등록,https://news.jtbc.co.kr/article/NB12327555,0,,rss:JTBC 사회,LIFE
+2026-11-11T14:31+09:00,더팩트,"엔비디아, 젠슨 황 거취 고심…""해임 시 기업가치 30% 하락""",https://news.google.com/rss/articles/CBMiWkFVX3lxTE03eWY2MkxfTGpTRExVQlJqQ291anNOT3E3b3ctNU80VGE3T25MY0ZiTVJVX1dvSmZtYnlSVEJLdkNRdVplaHAwOHNRdFlGQmJ4cEpWQ0s2RGdrZ9IBVEFVX3lxTFA1bDBuWUU4eEhRbktGaHh3ZWQ2UXVPU2t3TnZqNVVTOGhORzFFY0lkS01aa0pQdUhJTzRfVlVaOWJxMENveUlESlBTZlNPZlNJdXpPaw?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
+2026-11-11T14:31+09:00,한국정경신문,"SK하이닉스, 학력 무관 생산직 공채..17일까지 원서 접수",https://news.google.com/rss/articles/CBMiUkFVX3lxTE1pNEQ1VUlTcnMyaE42RmlvWXJVcjVfRGY4QzNEZkt1cWpiY3ZZZmNXcEt6Y2pwcTNYTVgzSXdaV0Q2dFRnYVB1YUlEQzllRkZ5eHc?oc=5,2,하이닉스,google:구글뉴스:삼성전자 SK하이닉스,INV
+2026-11-11T14:31+09:00,조선비즈,Anthropic創業者7人がIPOで持分売却し経営権維持,https://biz.chosun.com/jp/jp-it/2026/11/11/OEY25Q5TKVE5LOC5GQXBI7TZ54/,2,IPO,rss:조선비즈,INV
+2026-11-11T14:31+09:00,조선비즈,"앤트로픽 창립자 7명, IPO서 1인당 3500억원 지분 매각",https://biz.chosun.com/it-science/ict/2026/11/11/QNJV3HF24VEGHER47W6HSDTCV4/,2,IPO,rss:조선비즈,INV
+2026-11-11T14:31+09:00,조선비즈,"오픈AI, 3분기 매출 첫 100억달러 돌파…전분기比 50% 급증",https://biz.chosun.com/it-science/ict/2026/11/11/QDQLRCEK5ZHBRLD4HDRBECGH5U/,2,달러,rss:조선비즈,INV
+2026-11-11T14:30+09:00,연합뉴스 최신,[부고] 조승래(더불어민주당 국회의원)씨 장모상,https://www.yna.co.kr/view/AKR20261111116000001,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:30+09:00,연합뉴스 최신,"KPGT, 푸른그룹과 윈터투어 조인식…내년 1월 말레이시아서 개최",https://www.yna.co.kr/view/AKR20261111115900007,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:30+09:00,연합뉴스 최신,"계룡도 뚫렸다…소나무재선충병, 충남 15개 시군 전역으로 확산(종합)",https://www.yna.co.kr/view/AKR20261111098451063,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:30+09:00,연합뉴스 최신,"인천시, 겨울철 한파쉼터 931곳·대피소 19곳 운영",https://www.yna.co.kr/view/AKR20261111077000065,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:30+09:00,연합뉴스 최신,폭설에 연쇄추돌·염산유출…고속도로 복합재난 대응훈련 실시,https://www.yna.co.kr/view/AKR20261111023900530,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:30+09:00,뉴시스 사회,"눈길서 탱크로리·버스 연쇄추돌 한다면…행안부, 대응훈련",https://www.newsis.com/view/NISX20261111_0003863522,0,,rss:뉴시스 사회,LIFE
+2026-11-11T14:30+09:00,뉴시스 사회,"""스트레스 주는 사람은 손절""…10명 중 8명 '인간관계 다이어트'",https://www.newsis.com/view/NISX20261111_0003863102,0,,rss:뉴시스 사회,LIFE
+2026-11-11T14:30+09:00,보험신보,"전국 우체국 2000여 곳, ‘한파 쉼터’로 운영",https://www.insnews.co.kr/news/articleView.html?idxno=93786,0,,rss:보험신보,INS
+2026-11-11T14:30+09:00,보험신보,금융보안원 상시평가 시스템서 정보 유출… 접속 차단·정밀 조사,https://www.insnews.co.kr/news/articleView.html?idxno=93783,0,,rss:보험신보,INS
+2026-11-11T14:30+09:00,자본시장뉴스,구글 TPU 4종 갖췄지만 엔비디아 쿠다 벽은 남았다,https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaQjd3NXpSTV9ZMDhVOVpreFhNZWtLMmZGbW9uOUJtRDJ4WndVbl9FZG1VQXlPUWFJaXEwZmlKSlVHckJKZGpIcnYxeDlIVjNfYzJFR1A4aC1MVXdEaWdmXzVpZVg5Y00?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
+2026-11-11T14:30+09:00,매일신문,암 이겼는데 몸은 9.4년 더 늙었다…유방암 치료가 남긴 충격 결과 [매일비타민] - 매일신문,https://news.google.com/rss/articles/CBMiYkFVX3lxTFB5eGhjZkhPUWNCbF9JSVdveG9XUDV1MzN1OHNVbVp5Tm82aEVab3R6QjF6Xy1VSW9DOGdVR0dLT0JWWHoyeVlScEJhaXZpNXE1N0dwZjNLYUI4Q3ozcU5iVWFR?oc=5,1,암,rss:구글뉴스 건강,INS
+2026-11-11T14:29+09:00,연합뉴스 최신,임금협상 다시 막힌 포스코…노조 17일 서울 본사 앞 집회 예고,https://www.yna.co.kr/view/AKR20261111115300053,2,임금,rss:연합뉴스 최신,LIFE
+2026-11-11T14:29+09:00,연합뉴스 최신,농가는 줄고 덩치는 커졌다…충북 축산농가 10년 새 38.7%↓,https://www.yna.co.kr/view/AKR20261111114200064,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:29+09:00,연합뉴스 최신,"""강원 배드민턴협회 보조금 부정 사용 의혹…전수 조사해야""",https://www.yna.co.kr/view/AKR20261111112100062,3,보조금,rss:연합뉴스 최신,LIFE
+2026-11-11T14:29+09:00,토큰포스트,"루미스, 급여·해외송금 사례로 워런의 가상자산 회의론 반박",https://www.tokenpost.kr/news/cryptocurrency/436407,2,가상자산,rss:토큰포스트,INV
+2026-11-11T14:29+09:00,뉴시스 사회,"경실련 ""교육부 감사에도 사립대 비리 반복…상설 감독기구 필요""",https://www.newsis.com/view/NISX20261111_0003863859,0,,rss:뉴시스 사회,LIFE
+2026-11-11T14:29+09:00,보험저널,"‘보장 덜고 40% 인하’ vs ‘5세대 전환 50% 할인’… 기로에 선 1·2세대 실손, '득실' 따져보니",https://www.insjournal.co.kr/news/articleView.html?idxno=33867,4,인하|할인,rss:보험저널,LIFE
+2026-11-11T14:29+09:00,파이낸셜뉴스 전체,춘천 퇴계동 아파트 13층 화재…주민 8명 자력 대피,https://www.fnnews.com/news/202611111420454540,1,아파트,rss:파이낸셜뉴스 전체,INV
+2026-11-11T14:29+09:00,이데일리 글로벌,"코어위브 CEO ""엔비디아와 협력, 달라질 이유 없어""",http://www.edaily.co.kr/news/newspath.asp?newsid=04562486645644736,3,엔비디아,rss:이데일리 글로벌,INV
+2026-11-11T14:28+09:00,연합뉴스 최신,"성남시, '내집 생애말기 케어' 연계 강화…민관지원단 출범",https://www.yna.co.kr/view/AKR20261111115700061,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:28+09:00,연합뉴스 최신,"울산시, 내년 본예산 5조9천907억 편성…'시민 체감'에 방점",https://www.yna.co.kr/view/AKR20261111113700057,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:28+09:00,뉴시스 사회,"서정대, 2027학년 수시 2차 380명 모집…25일까지 접수",https://www.newsis.com/view/NISX20261111_0003863880,0,,rss:뉴시스 사회,LIFE
+2026-11-11T14:28+09:00,뉴시스 금융,"국민연금, JP모간운용과 전략적 협력 확대…내년 전주에 사무소",https://www.newsis.com/view/NISX20261111_0003863871,4,연금|국민연금,rss:뉴시스 금융,INS
+2026-11-11T14:28+09:00,뉴시스 사회,"'미공개정보 주식거래' LG家 장녀 부부, 2심도 무죄…""증명 부족""",https://www.newsis.com/view/NISX20261111_0003863854,0,,rss:뉴시스 사회,LIFE
+2026-11-11T14:28+09:00,보험신보,"KDB생명, 사망보험금 10년간 늘어나는 ‘더!행복플러스종신보험(무)’ 출시",https://www.insnews.co.kr/news/articleView.html?idxno=93782,6,보험금|종신|보험,rss:보험신보,INS
+2026-11-11T14:28+09:00,와이드경제,AI 거품론에 물가 충격 겹친 월가… 연준 ‘빅스텝’ 공포에 국채금리 폭등,https://news.google.com/rss/articles/CBMibEFVX3lxTFBSODhZZHRESzg5RDlaaHY5cnIzYjNXUjJ0Y1hLR3BnUVRaVFBZQ0xHbVNsT1lSNG9jaFlVT1VnMmtMTk5NanlMVE8wUnNsVGZ1ZXVZRnpwakZZck5GUnhUSUEzWEh1TWdJQkUyOQ?oc=5,10,월가|국채|금리|연준|물가,google:구글뉴스:기준금리,INV
+2026-11-11T14:28+09:00,M이코노미뉴스,젠슨 황 ‘中 스파이 연루 의혹’ 확산...엔비디아 변곡점에 한국 반도체도 촉각,https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YM0Jaa21xdmt0UWx5RXUzdklUQ1NLeEVlLWw1X0N1OG1DY1c0bDJzdnJxQzNLRjUyUU1WNmZNZkh5TWdBcUNMUVFVeUh1TTJIU3UtOHExUFNUN2FQMVhFNUczRGRfWE0?oc=5,5,반도체|엔비디아,google:구글뉴스:엔비디아,INV
+2026-11-11T14:27+09:00,연합뉴스 최신,"BTS '스윔', 애플뮤직 '2026 베스트 송'…K팝 그룹 유일",https://www.yna.co.kr/view/AKR20261111113500005,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:26+09:00,연합뉴스 최신,K리그 선수위원회 4년 만에 재출범…선수 권익 위한 소통 강화,https://www.yna.co.kr/view/AKR20261111115500007,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:26+09:00,연합뉴스 최신,"LG家 장녀 부부, 미공개정보 주식 혐의 2심도 무죄",https://www.yna.co.kr/view/AKR20261111115400004,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:26+09:00,연합뉴스 최신,"경기도, 폭설 대비 '안심 제설'·'AI대응 시스템' 운영",https://www.yna.co.kr/view/AKR20261111115200061,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:26+09:00,뉴시스 사회,보은군청 홈피에 공무원 사진·비방글 12회…30대 불구속,https://www.newsis.com/view/NISX20261111_0003863851,0,,rss:뉴시스 사회,LIFE
+2026-11-11T14:26+09:00,경향 사회,대설 때 전국에 재난문자 발송·주민대피지원단 가동···눈 내리기 1∼2시간 전 제설제 살포도,https://www.khan.co.kr/article/202611111426001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=society_news,0,,rss:경향 사회,LIFE
+2026-11-11T14:26+09:00,보험신보,"우리다문화장학재단, 다문화·취약계층 청소년 대학탐방 진행",https://www.insnews.co.kr/news/articleView.html?idxno=93781,0,,rss:보험신보,INS
+2026-11-11T14:26+09:00,동아 사회,국힘 윤리위원 “한동훈 제명은 조작 징계” 주장,https://www.donga.com/news/Politics/article/all/20261111/135006295/1,0,,rss:동아 사회,LIFE
+2026-11-11T14:26+09:00,뉴스N연합,[손해사정 인사이트] “퇴근 후 다시 대학생으로”… 직장인을 위한 온라인 보험금융학과의 인기,https://news.google.com/rss/articles/CBMiSkFVX3lxTE1mQWVpcW02TTFIRk9FcDFmcll4bjZZUS1helhYQVg1V2RMdzMzZ21zMFkwbzRqRjhTS0hlRGQtejRReVp1WmxJZFNn?oc=5,4,보험금|보험,google:구글뉴스:보험 약관,INS
+2026-11-11T14:25+09:00,뉴시스 사회,‘누가 날 해칠까봐’…흉기들고 제주거리 배회 40대 송치,https://www.newsis.com/view/NISX20261111_0003863881,0,,rss:뉴시스 사회,LIFE
+2026-11-11T14:25+09:00,보험신보,횡단보도 6명 중 1명 스마트폰 사용… ‘스몸비’ 주의보,https://www.insnews.co.kr/news/articleView.html?idxno=93787,0,,rss:보험신보,INS
+2026-11-11T14:25+09:00,톱클래스,"젠슨 황과 엔비디아 흔든, 앨리스 황은 누구인가",https://news.google.com/rss/articles/CBMibEFVX3lxTE8tVkdfYV9vVTNHUVJLY1haVldtOHZ2M1dncldYR3Z6SldUb19NUHBmLWVoLVhsRC1UQTJoZUFtNDM4MlIwX1VYbmVJY25fR1phdnVZNm41WVJFdEEyd3F2aTNDX0V2TXJ5V3dXbtIBcEFVX3lxTFB2aEtVeUZkSmxkNi1RQUZvYnNYandNbWN1aGhoZDh6Y21obDhKbnNId3J2RG9HdUNQTmtGdzI1SFNIN1V4X1BsdzhKamdxbVpLaHVPYVFKMnNBMUNOMUJzeXd2SFBiNjhtWjJvYXhCa1M?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
+2026-11-11T14:25+09:00,뉴시스,"미국, 對중국 반도체 통제 강화 조짐…K반도체 ""규제 이미 상수, 영향 적을 것""",https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xS3BlaEZJMVVDZnpST0dUNGNSTTkya09SN296WktBSTFDMjZBRFlGcENPX3ZKN3NIVF9MZmRPaVlwSnE1bEs1ZFRzazJpZ25TWDQxYWhsQ0JDN0lxVWM1ONIBeEFVX3lxTE93VGtLdkxHZFFDVG9vRmVLdU9TVExpMFVGd3BrRmFWMWx1ak1rOXJnWWhCRmZUUC1rTXRsX0lXRGVXc0FNcm1BQXVPUkR0TEFJTGsyWENRM1hhZVZGaEFyZ2szamI0Tkh5bVJwNjU1SjJ0U0VRSVA4Wg?oc=5,2,반도체,google:구글뉴스:삼성전자 SK하이닉스,INV
+2026-11-11T14:24+09:00,연합뉴스 최신,"불법 자금세탁 조직, 수사 대비 증거인멸…20대 징역 1년",https://www.yna.co.kr/view/AKR20261111114400053,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:23+09:00,연합뉴스 최신,"축구협회, 미래 국제심판 양성 위한 'S코스' 3차 교육 개최",https://www.yna.co.kr/view/AKR20261111114900007,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:23+09:00,연합뉴스 최신,"법무부, 빈·홍콩·서울서 국제투자분쟁 개선 릴레이 세미나",https://www.yna.co.kr/view/AKR20261111114300004,2,분쟁,rss:연합뉴스 최신,INS
+2026-11-11T14:23+09:00,토큰포스트,"AI주 급락에도 S&P500 연말 8000 전망…""투자 규율이 성장 주기 늘린다""",https://www.tokenpost.kr/news/cryptocurrency/436405,4,S&P|급락,rss:토큰포스트,INV
+2026-11-11T14:23+09:00,뉴시스 사회,"'KT사옥·철도역 등 폭파 협박 글' 10대, 1심서 징역 1년",https://www.newsis.com/view/NISX20261111_0003863873,0,,rss:뉴시스 사회,LIFE
+2026-11-11T14:23+09:00,뉴시스 사회,여수 복합상가서 불…인명 피해 없어,https://www.newsis.com/view/NISX20261111_0003863872,1,피해,rss:뉴시스 사회,LIFE
+2026-11-11T14:23+09:00,뉴시스 사회,"분당 버스, 승용차 등 31대 충돌·70명 중경상(종합3보)",https://www.newsis.com/view/NISX20261111_0003863855,0,,rss:뉴시스 사회,LIFE
+2026-11-11T14:23+09:00,보험신보,"한화손보, ‘웰니스 존’ 조성으로 친환경 치유센터 개소",https://www.insnews.co.kr/news/articleView.html?idxno=93780,1,손보,rss:보험신보,INS
+2026-11-11T14:23+09:00,미디어파인,중력파에 새겨진 행성의 흔들림…쌍백색왜성 주변 세계 찾는다 - 미디어파인,https://news.google.com/rss/articles/CBMibkFVX3lxTE4tZndwVzlSNGowei02aGJ3VENidVkxZ3J2a010Si0ydnFnNUhQMkpvaWZBOHNzQVBaRF9vWkw2OXVUU3Q0QjZaaTJyWG5MVXA3ZFpnY3BQaHd2ZU11RG1wY0dBX0wzZkcxa0ktaVBB?oc=5,0,,rss:구글뉴스 주요,LIFE
+2026-11-11T14:22+09:00,연합뉴스 최신,"프로야구 키움, 이성열 1군 타격 코치 선임…코치진 인선 완료",https://www.yna.co.kr/view/AKR20261111114800007,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:22+09:00,연합뉴스 최신,안양1번가 일자리·주거·여가 복합공간 재편…내년 밑그림,https://www.yna.co.kr/view/AKR20261111113400061,2,일자리,rss:연합뉴스 최신,LIFE
+2026-11-11T14:22+09:00,뉴시스 사회,중수청 '1호 구속' 동남아 국적 대마 밀수범 재판행,https://www.newsis.com/view/NISX20261111_0003863867,0,,rss:뉴시스 사회,LIFE
+2026-11-11T14:22+09:00,경향 사회,동물병원 마취제 빼돌려 92차례 ‘클럽 마약’ 케타민 셀프 투약한 병원장···약에 취해 진료도 봤다,https://www.khan.co.kr/article/202611111422001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=society_news,1,병원,rss:경향 사회,LIFE
+2026-11-11T14:21+09:00,연합뉴스 최신,"이마트, 3분기 별도 영업익 1천660억원…스타벅스는 450억 적자(종합2보)",https://www.yna.co.kr/view/AKR20261111097752527,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:21+09:00,뉴시스 정치,"조정식 ""국회의장 직속 개헌 자문위 조만간 출범…현직 대통령 연임 불가""(종합)",https://www.newsis.com/view/NISX20261111_0003863830,0,,rss:뉴시스 정치,LIFE
+2026-11-11T14:21+09:00,경향 사회,굴러온 2t 종이롤에 끼여···한솔제지 장항공장서 30대 숨져,https://www.khan.co.kr/article/202611111421001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=society_news,0,,rss:경향 사회,LIFE
+2026-11-11T14:21+09:00,SBS 정치,부동산 정책 놓고 민주당 강온대립…일부 의원 '부동산 실용주의 모임' 결성,https://news.sbs.co.kr/news/endPage.do?news_id=N1008841095&plink=RSSLINK&cooper=RSSREADER,1,부동산,rss:SBS 정치,INV
+2026-11-11T14:20+09:00,연합뉴스 최신,프로야구 PS 평균 시청률 7.03%…총 2천240만명 시청,https://www.yna.co.kr/view/AKR20261111114000007,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:20+09:00,연합뉴스 최신,"""재정위기, 어르신에 전가""…진보당, 전주시 노인예산 삭감 반발",https://www.yna.co.kr/view/AKR20261111113600055,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:19+09:00,연합뉴스 최신,가족을 기다리는 진한 그리움…연극 '돌아온다' 내달 개막,https://www.yna.co.kr/view/AKR20261111113000005,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:19+09:00,경향 사회,한국 기후대응 세계 ‘61위’ 최하위권…온실가스·재생에너지·에너지 사용 모두 낙제점,https://www.khan.co.kr/article/202611111419001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=society_news,0,,rss:경향 사회,LIFE
+2026-11-11T14:18+09:00,연합뉴스 최신,"네이버, 동반성장지수 10년 연속 최우수…""인터넷 플랫폼 유일""",https://www.yna.co.kr/view/AKR20261111107700017,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:18+09:00,톱스타뉴스,코스피 5350선 돌파…SK하이닉스 5%·코스닥 5% 급등,https://news.google.com/rss/articles/CBMickFVX3lxTFBaR2djbWZzQzlXT2c2VmcyT0hUbi14MHo2R2dtZHBQM3ZnWjZ6MlIxLUtkcy13M0RUcVZaWnVUallkOUtfbDdsR0g2cG9ORGMxRFpYVW5kemtmVTRjUmpVWUlXeDdqLVZiUVpoUkh0cmZiZw?oc=5,9,코스피|코스닥|하이닉스|급등,google:구글뉴스:코스닥,INV
+2026-11-11T14:18+09:00,인더스트리뉴스,"“젠슨 황 '불륜 상대' 앨리스 황, 엔비디아 칩 10조원 中 밀반입 관여”",https://news.google.com/rss/articles/CBMickFVX3lxTE96TEhVZ0dlNjhMNFB3QWt3UXU5M1VuUDAtdV9vSnJMZTlNY21pYTVnaFVpQkJOMXlqbU5vZjZZSURDUFlSMzJWU2VpTnBGS1lici1nZ2hEZ0hoWlp1c0p2S1NPajRQaExwSXd3bXA5aDhFQQ?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
+2026-11-11T14:18+09:00,택스워치,근로장려금 준다는데도 신청 안 했다…이유 물어보니,https://news.google.com/rss/articles/CBMiZEFVX3lxTE5pXzJ4WFlYSUpBYkNjUTVRNkg4eGNQSnFtYkZ4X3U0NHdMQWxZZ1BRYWtoeXhzeTFHel9lTGJqb0dGSlo2RjhCOUhwbUxPczRlalhiYTlpRXFyeVktZkxEcDNkSHY?oc=5,4,근로장려금|신청,google:구글뉴스:근로장려금,LIFE
+2026-11-11T14:18+09:00,바이라인네트워크,"엔비디아, 국내 AI 스타트업 4곳 투자",https://news.google.com/rss/articles/CBMiX0FVX3lxTE1jNDdSSnR6MjBnUHh5UUxjQUw1OExtMnBDdldZaXBGQVVxb1I3bUdvbExyQ2FVbXN4NnpLRkR5bXgxOGxxcHZ5YzE0d3lsenhZSE0zTGNsOGgyQmpFLTdV?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
+2026-11-11T14:17+09:00,연합뉴스 최신,"의대탈락 서남권 통합시의원 ""전남연구원 출연금 삭감"" 논란",https://www.yna.co.kr/view/AKR20261111106500054,2,연금,rss:연합뉴스 최신,INS
+2026-11-11T14:17+09:00,연합뉴스 최신,"[AI픽] IITP, 내년 AI 화두로 생산성 입증 제시…활용·설계 강조",https://www.yna.co.kr/view/AKR20261111105900017,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:17+09:00,보험저널,"KB손보, 피프티피프티와 손잡고 2030 공략… 웰니스 웹예능 ‘Z-톡스’ 공개",https://www.insjournal.co.kr/news/articleView.html?idxno=33874,1,손보,rss:보험저널,INS
+2026-11-11T14:17+09:00,SBS 사회,'하루 6번' 마약에 취해 진료…'셀프 투약' 수의사 적발,https://news.sbs.co.kr/news/endPage.do?news_id=N1008840613&plink=RSSLINK&cooper=RSSREADER,0,,rss:SBS 사회,LIFE
+2026-11-11T14:16+09:00,머니투데이,"파이퍼, 이더파이·콘크리트와 1000만달러 규모 'FYUSD' 공급",https://www.mt.co.kr/stock/2026/11/11/2026111114150660100,2,달러,rss:머니투데이,INV
+2026-11-11T14:16+09:00,머니투데이,"파이퍼, 이더파이·콘크리트와 1000만달러 규모 'FYUSD' 공급 - 머니투데이",https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QQWh5Y08yc29ZSU1uUXp6RWxIOEQtRmVZb20tTndITFRRZXN1cTgyLW9mS1JqVFFtUGV0QTlOUDBnSTZRbjd5NlJaVXpWNjVxVXpOdm9LVnhFY242eVdRX01FQ3JIb0hz0gFuQVVfeXFMTUs5N1hIclFHYkg2TjFTOUk4TW9KeHVlR3ZDVS0tdnQxUmZjeXVjMXdDNU5NX1dQTHVfOFU4bjJJU1lLbjU5LTNHbE5iZWg3WXZEc2xnNm83d1I0amVBUC1CLTZsNkFvM1dRb1FOZFE?oc=5,2,달러,google:구글뉴스:스테이블코인,INV
+2026-11-11T14:15+09:00,연합뉴스 최신,NC 3분기 영업이익 1천196억원…흑자 전환,https://www.yna.co.kr/view/AKR20261111112200527,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:15+09:00,동아 사회,AI 스마트안경 쓰고 수능 보면 무효…내년 응시 자격도 박탈[교육 인사이드],https://www.donga.com/news/Society/article/all/20261111/134993485/1,0,,rss:동아 사회,LIFE
+2026-11-11T14:15+09:00,전자신문,“증권·펀드 거래도 블록체인으로”…스테이블코인 결제 확산 전망,https://news.google.com/rss/articles/CBMiTkFVX3lxTE1wSFNsd0RNX3pTQzVZaTZGcTFvamVXSC02VS1VWUNnZjBkcW4ybHI0UWVEa1RJbG90VnQtVWh6cGl1RFFkemhkaUU5T1VnQQ?oc=5,2,스테이블코인,google:구글뉴스:스테이블코인,INV
+2026-11-11T14:14+09:00,보험저널,"KB라이프, 출범 후 줄곧 지배구조 ‘A’… ‘대표·이사회 분리’ 통했다",https://www.insjournal.co.kr/news/articleView.html?idxno=33872,0,,rss:보험저널,INS
+2026-11-11T14:14+09:00,파이낸셜뉴스 전체,"정연두 북핵수석대표 ""가상자산 탈취는 국제 안보 문제""",https://www.fnnews.com/news/202611111411090767,2,가상자산,rss:파이낸셜뉴스 전체,INV
+2026-11-11T14:14+09:00,공감신문,"금융보안원, 해킹 사고 경찰 수사 의뢰…금감원 사칭해 자료 유출",https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UTDJReXNSQzZJUzFIWnozVGZLczZsLWV3MHBpZVp0REV0YkVLS2ZSb2VqNFl5cVJNTWRocUZ4TjhkMVQ5Tzc4SFJzZmFrT1VmQnl2RWNoWTNlcVktWVFtbUlpbDBNTjA?oc=5,1,금감원,google:구글뉴스:금융감독원 보험,INS
+2026-11-11T14:13+09:00,한국보험신문,"삼성화재 교통안전문화연구소, 횡단보도 보행자 6명중 1명 스마트폰 사용",https://www.insweek.co.kr/news/articleView.html?idxno=72950,0,,rss:한국보험신문,INS
+2026-11-11T14:12+09:00,연합뉴스 최신,횡성 농업인 1천500명 한자리…농업 미래·화합 다져,https://www.yna.co.kr/view/AKR20261111112000062,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:12+09:00,연합뉴스 최신,충북대학교 사범대 연구실서 불…인명피해 없어,https://www.yna.co.kr/view/AKR20261111111100064,1,피해,rss:연합뉴스 최신,LIFE
+2026-11-11T14:12+09:00,이데일리,"서울시 마약관리센터 개소 1년…""은평병원에서 두 번째 생일 맞아""(종합)",https://www.edaily.co.kr/News/Read?newsId=04510006645644736,2,약관,rss:이데일리,INS
+2026-11-11T14:11+09:00,연합뉴스 최신,"피겨 이해인, 악성 댓글·허위사실 유포에 '법적 대응'",https://www.yna.co.kr/view/AKR20261111111800007,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:11+09:00,연합뉴스 최신,순천향대천안병원 전산 장애로 진료 차질…환자들 불편,https://www.yna.co.kr/view/AKR20261111111500063,1,병원,rss:연합뉴스 최신,LIFE
+2026-11-11T14:11+09:00,연합뉴스 최신,"울산중부경찰서, 인스타툰 작가 김퇴사와 사기 예방 웹툰 제작",https://www.yna.co.kr/view/AKR20261111109700057,2,사기,rss:연합뉴스 최신,LIFE
+2026-11-11T14:11+09:00,파이낸셜뉴스 전체,"""금리 낮추고 대환 빠르게"" 카뱅, 사장님 부동산담보대출 갈아타기 시작",https://www.fnnews.com/news/202611111011453005,3,금리|부동산,rss:파이낸셜뉴스 전체,INV
+2026-11-11T14:10+09:00,연합뉴스 최신,"철원군, 민선 9기 54개 대표 공약·126개 실천 과제 확정",https://www.yna.co.kr/view/AKR20261111110600062,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:10+09:00,연합뉴스 최신,"국립경국대 학생 30명, 경북 일대 50㎞ 국토대장정 완주",https://www.yna.co.kr/view/AKR20261111109800053,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:10+09:00,머니투데이,"광운대, AI 반도체 인재양성 성과 공유…학연 협력 확대 방안 모색",https://www.mt.co.kr/policy/2026/11/11/2026111114022410846,2,반도체,rss:머니투데이,INV
+2026-11-11T14:10+09:00,보험저널,“회사 돈으로 보험 들면 대표에게 현금”…732억 리베이트에 GA 본사 224억 손실,https://www.insjournal.co.kr/news/articleView.html?idxno=33871,1,보험,rss:보험저널,INS
+2026-11-11T14:09+09:00,연합뉴스 최신,"인천 송도 영어유치원 앞 불 지른 60대 ""고소 당해 화나서""",https://www.yna.co.kr/view/AKR20261111111000065,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:09+09:00,레디앙,"정부, 겨울철 취약계층 지원 확대...난방비·생계 지원 강화",https://news.google.com/rss/articles/CBMiaEFVX3lxTE1kOTgyMGc5ZFRYWVhiN0FoZkFtcnVKYnRxVV8xX01send2UnJPbDVYWXFPUTRBZW85bUVnZEZFQnA1S0l4b0ZIdGNjRC1QeU9ZQlltbVpvRHd0aC16eWxaOUtMVmRQMU1M?oc=5,3,난방비,google:구글뉴스:가스요금 난방비,LIFE
+2026-11-11T14:09+09:00,인포맥스,"알리바바, '엔비디아 대항마' 반도체 자회사 홍콩 상장 추진",https://news.einfomax.co.kr/news/articleView.html?idxno=4444205,5,반도체|엔비디아,rss:인포맥스,INV
+2026-11-11T14:09+09:00,의협신문,"정신건강의학과의사회 ""비급여 관리법 과잉 입법"" 철회 촉구",http://www.doctorsnews.co.kr/news/articleView.html?idxno=167252,3,급여|비급여,rss:의협신문,INS
+2026-11-11T14:08+09:00,연합뉴스 최신,"강삼영 강원교육감, 시군 공동투자형 '미래성장 진로특구' 제안",https://www.yna.co.kr/view/AKR20261111110400062,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:08+09:00,연합뉴스 최신,생태와 안전이 공존하게…경북 청도군 610억원 들여 하천 정비,https://www.yna.co.kr/view/AKR20261111108500053,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:08+09:00,파이낸셜뉴스 전체,[속보] LG家 '미공개정보 주식거래' 혐의 2심도 무죄...검사 항고 기각,https://www.fnnews.com/news/202611111350338777,0,,rss:파이낸셜뉴스 전체,ETC
+2026-11-11T14:08+09:00,이데일리,[속보]'미공개정보 주식거래' LG家 구연경·윤관 2심도 무죄,https://www.edaily.co.kr/News/Read?newsId=04490326645644736,0,,rss:이데일리,ETC
+2026-11-11T14:08+09:00,이데일리,"정태호 “스테이블코인, 새로운 지급결제 수단…제도 기반 필요”",https://www.edaily.co.kr/News/Read?newsId=04487046645644736,2,스테이블코인,rss:이데일리,INV
+2026-11-11T14:08+09:00,Korea IT Times,"DB증권, 스피어 랩스와 디지털자산 사업 협력… STO·스테이블코인 공략",https://news.google.com/rss/articles/CBMicEFVX3lxTFAtYjliaVVCeThESnM4Yk5zM25wLS1uZlZQSERINTZpWXV2WUt3LWlfTWoyblFtR3VRQXJsR2hMV1dUc0NJVGdGSjVwV2cxM2VFMlBObFdQSkJCZ3o2V1dxR0hxdTRJeDd6SGJKcjl5T0o?oc=5,2,스테이블코인,google:구글뉴스:스테이블코인,INV
+2026-11-11T14:08+09:00,이코리아,美 물가 예상 웃돌자 연준 긴축 경계… 한은 11월 금리인상 주목,https://news.google.com/rss/articles/CBMib0FVX3lxTE9GQmRPUWxLQXhpTVVhREVseW1kbzI4WXFZdWFVcmVzVWZ6VndwRmlRMnlkQ1lSdFVaNFZoeDFJOW1XX2JWREY1U3FGY0JydjRGQUh3VWtMSEJkUFRjZkEwektjRGt1R1I3d3p3LS1pUQ?oc=5,7,금리|연준|물가,google:구글뉴스:FOMC,INV
+2026-11-11T14:08+09:00,CBC뉴스,[삼전닉스] 삼성전자·SK하이닉스 동반 상승…코스피·코스닥 껑충,https://news.google.com/rss/articles/CBMiaEFVX3lxTE9qVTF2Q3g2YWpGTnh1aDhmdmFnajNtMVpwN3ZZYzFuSHZyU2hUaVNPVmJ4MVQxdlFrellnM29UVUx0QXFXbEN6TV83TDJwbE43M1IwVXlqUjFMRXhSWWhjSmtPMl9SOHdU?oc=5,9,코스피|코스닥|삼성전자|하이닉스,google:구글뉴스:삼성전자 SK하이닉스,INV
+2026-11-11T14:08+09:00,메트로신문,내년엔 환율 '1200원대'?…달러 강세에도 원화는 '꿋꿋',https://news.google.com/rss/articles/CBMiYEFVX3lxTFA0QTNBTnRzREdBV1JyRUFIZ0xDT0tncHhKZmFTYUZxOWVqb0tDRXpSeWN5UWl0U3lsVlFLSVZXT0xXQTdnNWd6WnVIbENMUjRJNENYeWZPVktnN0F6a1l4OA?oc=5,5,환율|달러,google:구글뉴스:원달러 환율,INV
+2026-11-11T14:07+09:00,연합뉴스 최신,"한국거래소, 부산지역 체육 꿈나무 장학금 5천만원 기부",https://www.yna.co.kr/view/AKR20261111110500051,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:07+09:00,연합뉴스 최신,울산 입화산 내 숙박시설 '별난숲 산림휴양관' 개관,https://www.yna.co.kr/view/AKR20261111109600057,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:07+09:00,뉴시스 사회,군산 장미동 부두 정박 바지선서 불…인명 피해 없어,https://www.newsis.com/view/NISX20261111_0003863831,1,피해,rss:뉴시스 사회,LIFE
+2026-11-11T14:07+09:00,뉴시스 국제,"연준 '과잉 긴축' 내년 美증시 복병 되나…르네상스 분석가 ""큰 위험""",https://www.newsis.com/view/NISX20261111_0003863794,5,증시|연준,rss:뉴시스 국제,INV
+2026-11-11T14:06+09:00,연합뉴스 최신,"SK에코플랜트, 동반성장지수 10년 연속 '최우수' 달성",https://www.yna.co.kr/view/AKR20261111108200003,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:06+09:00,연합뉴스 최신,늦은 밤 프리다이빙하다 너울성 파도에 휩쓸린 40대 구조,https://www.yna.co.kr/view/AKR20261111085500063,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:06+09:00,뉴시스 금융,"금융보안원 뚫은 해커, 금감원 수준의 '접근 권한' 탈취해 자료 탈취(종합)",https://www.newsis.com/view/NISX20261111_0003863804,1,금감원,rss:뉴시스 금융,INS
+2026-11-11T14:06+09:00,뉴시스 사회,[속보]'미공개정보 주식거래' LG家 장녀 부부 2심도 무죄,https://www.newsis.com/view/NISX20261111_0003863674,0,,rss:뉴시스 사회,LIFE
+2026-11-11T14:06+09:00,한국경제 부동산,"'부동산산업의 날' 43명 표창…마케팅협회, AI 인재 양성 성과 공개",https://www.hankyung.com/article/202611110211i,1,부동산,rss:한국경제 부동산,INV
+2026-11-11T14:06+09:00,아시아경제,"[속보]'미공개정보 주식거래' 혐의 LG家 장녀 부부, 2심도 무죄",https://view.asiae.co.kr/article/2026111114065332930,0,,rss:아시아경제,ETC
+2026-11-11T14:06+09:00,아시아경제,"與 수도권 의원들 ""집값보다 전월세 안정에 정책 초점""…주택연금 활용 임대공급 제안도",https://view.asiae.co.kr/article/2026111114065228337,8,월세|집값|임대,rss:아시아경제,LIFE
+2026-11-11T14:05+09:00,연합뉴스 최신,"적으로 보스턴 만난 브라운, 테이텀에 여전한 앙금…팀은 완패",https://www.yna.co.kr/view/AKR20261111110200007,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:05+09:00,연합뉴스 최신,"신한금융 ""한국ESG기준원 ESG 평가 12년 연속 통합 A+ 등급""",https://www.yna.co.kr/view/AKR20261111109100002,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:05+09:00,연합뉴스 최신,"""구글 계정 탈취 대전교육청 최다…공격 사실도 뒤늦게 인지""",https://www.yna.co.kr/view/AKR20261111106700063,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T14:05+09:00,보건복지부,정부·정보통신서비스 제공자·전문가 등 모여 온라인 유통 자살유발정보 차단 방안 논의,https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492512&act=view,0,,gov,INS
 2026-11-11T14:05+09:00,보건복지부,"‘공공의료 AI 고속도로’ 첫 개통,강원 지역 공공병원 의료 AI로 본격 연결",https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492511&act=view,0,,gov,INS
 2026-11-11T14:05+09:00,한겨레 사회,"김종철 후보자, 20억원대 재산 신고…‘편법 입주권 의혹’ 성남 재개발 지분 정정",https://www.hani.co.kr/arti/society/society_general/1286777.html,0,,rss:한겨레 사회,LIFE
 2026-11-11T14:05+09:00,한겨레 사회,성범죄 피의자 아버지가 10대 피해자 살해…긴급체포 뒤 조사,https://www.hani.co.kr/arti/society/society_general/1286772.html,1,피해,rss:한겨레 사회,LIFE
 2026-11-11T14:05+09:00,한겨레 사회,"위고비·마운자 맞다 ‘시력 저하’…식약처, 의료진에 즉시 알려야",https://www.hani.co.kr/arti/society/health/1286752.html,0,,rss:한겨레 사회,LIFE
+2026-11-11T14:05+09:00,동아 사회,"한민수, 金 향해 “당 혼란에 빠뜨린 자승자박 상황…당 대표가 바로잡아야”",https://www.donga.com/news/Politics/article/all/20261111/135006225/2,0,,rss:동아 사회,LIFE
+2026-11-11T14:05+09:00,SBS 정치,"한 총리 ""농어촌 기본소득 예산 늘려야…농업인 퇴직연금도 준비""",https://news.sbs.co.kr/news/endPage.do?news_id=N1008841063&plink=RSSLINK&cooper=RSSREADER,4,연금|퇴직연금,rss:SBS 정치,INS
+2026-11-11T14:04+09:00,연합뉴스 최신,"[게시판] BNK증권, 고객 메시지 표준화 매뉴얼 마련",https://www.yna.co.kr/view/AKR20261111109900051,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:04+09:00,연합뉴스 최신,"""환경미화원 사망 사고에 망언…신현광 충북도의원 사퇴하라""",https://www.yna.co.kr/view/AKR20261111108300064,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T14:04+09:00,뉴시스 사회,"아들 성범죄 피해자 10대 살해한 50대…경찰 ""보복범죄 수사""(종합3보)",https://www.newsis.com/view/NISX20261111_0003863813,1,피해,rss:뉴시스 사회,LIFE
+2026-11-11T14:04+09:00,파이낸셜뉴스 증권,"코스피 5300선 회복...외국인 매수세 전환, 코스닥은 5% 급등[fn오후시황]",https://www.fnnews.com/news/202611111356111533,8,코스피|코스닥|외국인|급등,rss:파이낸셜뉴스 증권,INV
+2026-11-11T14:04+09:00,한국정경신문,"신세계, 이익 늘어도 성장 둔화에 눈높이 낮춰..증권사 목표주가 일제히 하향",https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RVkh5TlJ6Q2l0RFNINmtfTDBqQnVpTnlJaTNFdkRqcGJDMlFrM0JzQklHX2lRd1Fzdlc1MnYwSkx3Z3RMSEdiLWdYWGttODlfcFE?oc=5,2,주가|목표주가,google:구글뉴스:목표주가 증권사,INV
+2026-11-11T14:03+09:00,연합뉴스 최신,"인천 대이작도 오형제바위 팔각정, 강풍에 기울어…복구 작업",https://www.yna.co.kr/view/AKR20261111109200065,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T14:03+09:00,연합뉴스 최신,[여행소식] 항공·여행업계 '빼빼로데이' 대규모 할인 행사,https://www.yna.co.kr/view/AKR20261111081100542,2,할인,rss:연합뉴스 최신,LIFE
+2026-11-11T14:03+09:00,연합뉴스 최신,공산성서 백제 왕궁 실체 첫 확인…문궐·대형건물지 드러나(종합),https://www.yna.co.kr/view/AKR20261111064051063,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T14:03+09:00,동아 사회,"“조청파세요, 간장파세요?”…李 가래떡 ‘쇼츠 먹방’ 이유는",https://www.donga.com/news/Politics/article/all/20261111/135006257/2,0,,rss:동아 사회,LIFE
 2026-11-11T14:03+09:00,조선 경제,공사비 급등·재초환 이중고에 흔들리는 재건축…현실적 해법은?,https://www.chosun.com/economy/real_estate/2026/11/11/CAXPGI67DRBJ7MDU5WZZ5NK47Q/,2,급등,rss:조선 경제,INV
 2026-11-11T14:03+09:00,SBS 정치,"민주당, 호남 찾아 조희대 비판 총공세…""한덕수 석방 시 마지노선 넘는 것""",https://news.sbs.co.kr/news/endPage.do?news_id=N1008841057&plink=RSSLINK&cooper=RSSREADER,0,,rss:SBS 정치,LIFE
+2026-11-11T14:03+09:00,경제타임스,평수 넓히려면 4.4억 더…서울은 소형 아파트만 산다,https://news.google.com/rss/articles/CBMiU0FVX3lxTFBTWmE2cWVtSU4yRG15cE90ZEs0Qy1IbXdKMzl0TWMzY2R4MENLcWFORXl0TU5HVFVIUGk3X1lJWXBOdWdoVTdLbjIwb0dRd1lfcUM4?oc=5,1,아파트,google:구글뉴스:아파트 거래,INV
 2026-11-11T14:02+09:00,연합뉴스 최신,인천공항 제설대응체계 점검…올해부터 활주로 동시 제설,https://www.yna.co.kr/view/AKR20261111109000065,1,부터,rss:연합뉴스 최신,LIFE
 2026-11-11T14:02+09:00,연합뉴스 최신,"경북 예천군, 공공비축용 건조벼 4천667t 매입",https://www.yna.co.kr/view/AKR20261111108000053,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T14:02+09:00,연합뉴스 마켓,"미래에셋, 개인투자용 국채 11월 청약…총발행규모 2천억원",https://www.yna.co.kr/view/AKR20261111107600008,2,국채,rss:연합뉴스 마켓,INV
@@ -34,6 +335,7 @@
 2026-11-11T14:00+09:00,뉴시스 사회,보이스피싱 번호 뜨면 즉시 차단…경찰·통신사 실시간 공조,https://www.newsis.com/view/NISX20261111_0003863275,3,보이스피싱,rss:뉴시스 사회,LIFE
 2026-11-11T14:00+09:00,뉴시스 사회,가불 후 무단결근하더니 금고까지 털…치킨집 사장 '배신감',https://www.newsis.com/view/NISX20261111_0003863124,0,,rss:뉴시스 사회,LIFE
 2026-11-11T14:00+09:00,머니투데이,"중앙전파관리소·경찰청, 보이스피싱 악용 전화번호 신속 차단 추진",https://www.mt.co.kr/tech/2026/11/11/2026111110234312095,3,보이스피싱,rss:머니투데이,LIFE
+2026-11-11T14:00+09:00,한국경제 금융,"""팔지 말고 버텨라"" 가치 바닥 친 한국증시 생존법",https://www.hankyung.com/article/202611107754i,2,증시,rss:한국경제 금융,INV
 2026-11-11T14:00+09:00,서울뉴스통신,보이스피싱 범죄번호 신속 차단…경찰·통신사 실시간 대응체계 구축,https://news.google.com/rss/articles/CBMia0FVX3lxTE1CTjM0Z0tmclZ2NWpzVmxmaGxvSVlzdjJ0ellQdkJEbEV0dlVvUWdUTjliNEY2QU8tYjNjSHlzdzYyVHhwcmJ0U0hyMWNJbmVKcXZyT2Z3eFpBN0dsTzA1d3o1QWQwWkVUaU13?oc=5,3,보이스피싱,google:구글뉴스:보이스피싱 피해,LIFE
 2026-11-11T14:00+09:00,매일일보,원료 걱정 한숨 돌렸더니…정유·석화 덮친 '유가 급락',https://news.google.com/rss/articles/CBMiZEFVX3lxTE9aYmRGNWJaZV94c2tnUkFkS0lpQTgyYU1kUmNacEUtbERuNFRWRkk3VmhiU2tkaVF5a1pGWmpXYWt1djVxdkc5dGMxTkFldkFHN2hpdkhDU1ZZU3UtcTdXYkdLRmw?oc=5,4,급락|유가,google:구글뉴스:국제 유가,INV
 2026-11-11T14:00+09:00,코인리더스,"[ETF 플로우] 비트코인(BTC) ETF 9,500만달러 순유출…이더리움(ETH)도 4일째 유출",https://news.google.com/rss/articles/CBMiSkFVX3lxTE1RX0pzSVhUd1dLZU9TVVlBckJ3M1BDaTVxNFpKRTRadWRIMUdCR0swbWlpRWcxdXJGLWxINkxvbUY1dk9hQ3RlU0FB?oc=5,8,ETF|달러|비트코인|이더리움,google:구글뉴스:비트코인,INV
@@ -55,8 +357,10 @@
 2026-11-11T13:56+09:00,보험매일,스마트폰 보며 횡단하다 사고…3건 중 2건 운전자 100% 과실,http://www.fins.co.kr/news/articleView.html?idxno=110502,0,,rss:보험매일,INS
 2026-11-11T13:55+09:00,연합뉴스 국제,"中알리바바 반도체 자회사, 홍콩IPO 신청…데이터센터 확대 겨냥",https://www.yna.co.kr/view/AKR20261111101700083,4,반도체|IPO,rss:연합뉴스 국제,INV
 2026-11-11T13:55+09:00,연합뉴스 최신,"롯데웰푸드 3분기 영업이익 29.7%↑…""해외사업 호조""(종합)",https://www.yna.co.kr/view/AKR20261111067051527,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T13:55+09:00,한국경제 금융,암 백신 하나로 9배 뛴 모더나…월가 목표가는 반토막?,https://www.hankyung.com/article/202611107862i,1,암,rss:한국경제 금융,INS
 2026-11-11T13:55+09:00,파이낸셜뉴스 전체,제니 '드라큘라' 58주째 질주 끝 빌보드 핫100 3위...로제 '아파트'와 나란히,https://www.fnnews.com/news/202611111349567895,1,아파트,rss:파이낸셜뉴스 전체,INV
 2026-11-11T13:55+09:00,아시아경제 증권,"'상승 전환' 코스피, 5300선 회복…코스닥은 5%대 급등",https://view.asiae.co.kr/article/2026111113552625188,7,코스피|코스닥|급등,rss:아시아경제 증권,INV
+2026-11-11T13:55+09:00,MEDI:GATE NEWS,"의료계, 소아응급실 압수수색 UN에 제소…""후진국적 공권력 남용"" - MEDI:GATE NEWS",https://news.google.com/rss/articles/CBMiV0FVX3lxTE5GSXpjQVNmVWpucVhmaF92V0pfZWZnVlE3alR5Nm5jZHBoZThqTm45Wkg0VnlQV3ZwX2dOOGFPLWwwZFM3TlUya2w0V3F5MVMwcU0yZXNTZw?oc=5,1,응급,rss:구글뉴스 대한민국,LIFE
 2026-11-11T13:54+09:00,연합뉴스 경제,"송도 신세계 쇼핑몰·항운연안 아파트 사업, 경관심의 통과",https://www.yna.co.kr/view/AKR20261111107100065,1,아파트,rss:연합뉴스 경제,INV
 2026-11-11T13:54+09:00,연합뉴스 최신,"두산에너빌리티, 동반성장지수평가 '최우수 명예기업' 선정",https://www.yna.co.kr/view/AKR20261111106100003,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T13:54+09:00,연합뉴스 최신,한솔제지 장항공장서 30대 협력업체 직원 2t 종이롤에 끼여 숨져,https://www.yna.co.kr/view/AKR20261111100300063,0,,rss:연합뉴스 최신,LIFE
@@ -73,11 +377,14 @@
 2026-11-11T13:51+09:00,머니투데이,"알리바바도 AI 칩 자회사 상장 추진…中 반도체, 자금 조달 경쟁",https://www.mt.co.kr/world/2026/11/11/2026111113230044411,2,반도체,rss:머니투데이,INV
 2026-11-11T13:51+09:00,머니투데이,"中, 우주 AI 데이터센터 구축 시동…반도체 기업·국유자본 결집",https://www.mt.co.kr/world/2026/11/11/2026111111024277119,2,반도체,rss:머니투데이,INV
 2026-11-11T13:51+09:00,JTBC 사회,1대 청장 '홍길동'? 전화 걸어보니 연결 실패…'개청 한 달' 중수청 여전히 혼란,https://news.jtbc.co.kr/article/NB12327548,0,,rss:JTBC 사회,LIFE
+2026-11-11T13:51+09:00,한겨레,"전광훈, 이 대통령에 “나쁜 X 자식”…‘재개발 알박기’ 지적에 막말 - 한겨레",https://news.google.com/rss/articles/CBMickFVX3lxTE5scmJFbzN2RnBVdW1kcndORjRMR2Nha2hqWk5zZWZxV3JNVTdrTmt4MFZTZkF3UnJtZVYyVjJFV0EwOTVGRFZxNmF6UE5RT0JwSUVTYkZRTXlEbThSNEUtdU5qWXNqamVYaldYS05yMHgzUQ?oc=5,0,,rss:구글뉴스 대한민국,LIFE
 2026-11-11T13:51+09:00,동방일보,"인천시, 청년 일자리·주거 지원 확대…지역 정착 기반 강화",https://news.google.com/rss/articles/CBMic0FVX3lxTE9TOGVIYnl1TktaOHVlYXktOXZRTHZkMnhCLTE2V3N6SmNYbl9TWmQ0T1RQdE1jWWNsQkRfY0xZY1BMSDgzc3JoM0RJcElCSFUxV0lpVjU3UWxrZUxQQldQV2hUV1puY3NLbnE3QTRyMGg2a0U?oc=5,2,일자리,google:구글뉴스:청년 월세 지원,LIFE
 2026-11-11T13:51+09:00,한국공공정책신문,보증보험 미가입 집주인 과태료 3000만원 사기죄 형사처벌 진실?!!,https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBCRzZSdTBpdm9aRXlnclNpNnJ2azRUdFVJaDd4RFJjV2VhajNtUXZvUExMbGRjVHZmdFlWVHJ6SHN0NlU?oc=5,4,사기|과태료,google:구글뉴스:전세사기,LIFE
 2026-11-11T13:50+09:00,연합뉴스 최신,"제주지사 ""교육감 제주특별법 의견 제출권 보장돼야""",https://www.yna.co.kr/view/AKR20261111103400056,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T13:50+09:00,연합뉴스 최신,"호서대 정현자 교수 연구팀, 아토피 피부염 악화 핵심 인자 규명",https://www.yna.co.kr/view/AKR20261111100100063,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T13:50+09:00,머니투데이,고용시장 떠나 학원가로…청년층 실업자 줄었는데도 '우려',https://www.mt.co.kr/economy/2026/11/11/2026111109583126913,3,실업|고용,rss:머니투데이,LIFE
+2026-11-11T13:50+09:00,금강일보,"충북 이전 AI 기업, SK하이닉스·삼성전자와 사업화 협력 물꼬",https://news.google.com/rss/articles/CBMiakFVX3lxTE5hWW5UV0tuWTRpZXIzNHU1NkhjRFp2UDZta04yMTFucVFDM3E2SFBfTFVXdFhLejNneEpIcXRta1Z0UEFUbkxEUzU2R3c3VkVwbEZkSTFQbXJJZ00zQ3p3NWhWQWN5MkZ6V1E?oc=5,4,삼성전자|하이닉스,google:구글뉴스:삼성전자 SK하이닉스,INV
+2026-11-11T13:50+09:00,데일리연합,"[심층분석] 엔비디아의 오픈소스 전환과 AI 인프라 확장, 생태계 개방인가, 지배력 강화의 다른 이름인가",https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2blVnclJibzg3Tlo5OGdxbDBpNmwxVm1CYUxHS0FRNlNTLWFIRGdIX3l2alc1Z19vOFNnZmlaaEVMbnA4ZnowbDRYU1JCcl9HYWdfQWE2WnhMUQ?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
 2026-11-11T13:50+09:00,조선비즈,“수출은 급증했는데 수익은 제자리”… 위안화 강세에 中 전기차 업계 ‘한숨’,https://biz.chosun.com/international/international_general/2026/11/11/Q3T6Y4CFBRGYTM57YPNKYBCWYU/,3,위안화|수출,rss:조선비즈,INV
 2026-11-11T13:50+09:00,청년의사,"건보공단 특사경법, 법사위 소위 통과…입법 급물살",http://www.docdocdoc.co.kr/news/articleView.html?idxno=3044482,2,건보,rss:청년의사,INS
 2026-11-11T13:49+09:00,연합뉴스 최신,"""학생 문해력 향상위해 한자어 교육 확대해야"" 경남도의회 행감",https://www.yna.co.kr/view/AKR20261111103700052,0,,rss:연합뉴스 최신,LIFE
@@ -93,6 +400,7 @@
 2026-11-11T13:48+09:00,전국매일신문,"[국민청원] ""VHL 치료제 ‘웰리렉’ 건강보험 급여 적용 촉구""",https://news.google.com/rss/articles/CBMibkFVX3lxTE9FeHZzdThlNzR4SU5IRGQ4VTdQNEhXNWs1QU5wOTZDTlZhS2F0WmtKWWlqMmtNc0NlUm9URFJPN0lVQ3dXZ1hRbUY4UU1vZnczVFl4RklEZnAwT2ZzWmdveVc2M0RuT2dRRm5vbWdR?oc=5,4,건강보험|급여|보험,google:구글뉴스:건강보험 급여,INS
 2026-11-11T13:47+09:00,연합뉴스 최신,"국고채 담합 '역대최대 과징금'에 ""납득 어려워""…법적 다툼 시사",https://www.yna.co.kr/view/AKR20261111092000008,2,과징금,rss:연합뉴스 최신,LIFE
 2026-11-11T13:46+09:00,경향 사회,보행로 절반에도 그늘 못 드리우는 가로수···광주환경운동연합 조사,https://www.khan.co.kr/article/202611111346001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=society_news,0,,rss:경향 사회,LIFE
+2026-11-11T13:46+09:00,경향 사회,나무는 있는데 그늘이 없다…광주 가로수 10그루 중 4그루 ‘낙제점’,https://www.khan.co.kr/article/202611111346001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=society_news,0,,rss:경향 사회,LIFE
 2026-11-11T13:46+09:00,에듀진 인터넷 교육신문,올해 의대 선발 492명 늘었는데…정시 일반전형은 21명 감소,https://news.google.com/rss/articles/CBMiakFVX3lxTE1sRThVU1pyWEFzbi1DMkk3eWpuZXUwMG1TZVV4QTlCd09CMWE4amFFVURETXNDMTh6blgzSkUwRHRzaEgzdTZvd0VGWUVfQmd4aWZ6bmpTRzRSU2VFSVF0eFlrTEJJOHlYUGc?oc=5,2,의대,google:구글뉴스:의대 정원,LIFE
 2026-11-11T13:44+09:00,서울경제TV,찬바람 부는 초겨울 기침·숨참…사망 원인 3위 ‘COPD’ 주의보 - 서울경제TV,https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zWGFNTlhZb2RsNTYtNUZSdXBwQmdvbkdkOGIzdVpqV05pMlZWY2oyMFRBeTVaUFN4WXptR2xBSXZVRmNpbDNyODhWb0dNMVVRXzV4ODQwTV9OS1lTdVZaVF80TEE?oc=5,0,,rss:구글뉴스 주요,LIFE
 2026-11-11T13:43+09:00,연합뉴스 최신,"남해 농어촌 기본소득, 소비 활성화 넘어 '돌봄 공동체로' 확산",https://www.yna.co.kr/view/AKR20261111102100052,2,돌봄,rss:연합뉴스 최신,LIFE
@@ -130,6 +438,7 @@
 2026-11-11T13:36+09:00,연합뉴스 최신,"한국머크 헬스케어 ""혁신 성과로 한국 환자 치료 접근성 개선""",https://www.yna.co.kr/view/AKR20261111095600017,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T13:36+09:00,토큰포스트,"레인, AI 에이전트 결제 인프라 발표…스테이블코인 정산 지원",https://www.tokenpost.kr/news/cryptocurrency/436387,2,스테이블코인,rss:토큰포스트,INV
 2026-11-11T13:36+09:00,한국경제TV,"코스닥 또 사이드카, 올해만 38번째",https://news.google.com/rss/articles/CBMifkFVX3lxTE13VEQ2aTBFYlRXZUxhNEFCdDd6eFRWUGkzcnYzY2Q2QnJydkFRM2ZVN25KNVBPQnNxYWczaVFPMzhlTVRrTks1QTBSdTFTdWpMbF83SGlLNWNsVTYzVV9GaTVWYXFwVll2TnFtNzZldUpLeUNKWjBNTENsOXphUQ?oc=5,5,코스닥|사이드카,google:구글뉴스:코스닥,INV
+2026-11-11T13:36+09:00,핀포인트뉴스,"한국투자신탁운용, '미국10년국채 ETF' 6개월 개인순매수 500억 유입",https://news.google.com/rss/articles/CBMid0FVX3lxTFBDQ1JKVDdCMi10aUhzQTlwc1dsUWl1aGUtS3d4NzNGOUhmSkNsbGd1TndrOHZxSFBESi1FRnYtZ05PdnRhOEMtTmVFak1MM1BjbThQU2ZFcTlMZGIxSFBLQVF2ZVR5c05yQ3dJVllnU05CclZlSUM40gF3QVVfeXFMUENDUkpUN0IyLXRpSHNBOXBzV2xRaXVoZS1Ld3g3M0Y5SGZKQ2xsZ3VOd2s4dnFIUERKLUVGdi1nTk92dGE4Qy1OZUVqTUwzUGNtOFBTZkVxOUxkYjFIUEtBUXZlVHlzTnJDd0lWWWdTTkJyVmVJQzg?oc=5,7,순매수|ETF|국채,google:구글뉴스:개인투자자 순매수,INV
 2026-11-11T13:36+09:00,AI타임스,"엔비디아, 젠슨 황 사건 조사 위해 뉴욕 유명 로펌 고용",https://news.google.com/rss/articles/CBMiakFVX3lxTFBldkVoVWhoaUJIQmJUUE10b3JWUG9ISnVKT0ZPMjVqU2lyRnQtUVpSaVBTd0tOZGVMLXZPV0diZ3FrYUZkeFZCWHJFNmN5bGpwUmVleGJ6aklObDhZZGg1WmhNWEtyX3ZsZHc?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
 2026-11-11T13:36+09:00,PRESS9,"농협상호금융, 투자사기 피해금 3억7300만원 회수",https://news.google.com/rss/articles/CBMiZEFVX3lxTFBia2V3OVlzMmZTRTFkejZFdEpLMXByRXZqZzRwZnBoRVpBZV9ZYmVjUWdmZHVWN3hOQ2lSZkoxZV9OMnlDbFlvcmdvMkJBT1FIWTE4MDNDTUQwcW5hRUpReEdjbmo?oc=5,3,사기|피해,google:구글뉴스:보이스피싱 피해,LIFE
 2026-11-11T13:35+09:00,연합뉴스 최신,종로구 '겨울철 청소대책' 가동…낙엽 수거부터 제설까지,https://www.yna.co.kr/view/AKR20261111102000004,1,부터,rss:연합뉴스 최신,LIFE
@@ -157,6 +466,7 @@
 2026-11-11T13:28+09:00,토큰포스트,SK하이닉스 24시간 시세 7.20% 상승…엔비디아 2.38%,https://www.tokenpost.kr/news/market/436383,5,하이닉스|엔비디아,rss:토큰포스트,INV
 2026-11-11T13:28+09:00,토큰포스트,비트코인 7만3000달러 지지 시험…200일선 이탈 땐 6만7000달러 경고,https://www.tokenpost.kr/news/cryptocurrency/436382,4,달러|비트코인,rss:토큰포스트,INV
 2026-11-11T13:28+09:00,뉴시스 사회,"평택 가재지구 오수관 매설 60대 작업자, 토사에 깔려 부상",https://www.newsis.com/view/NISX20261111_0003863750,0,,rss:뉴시스 사회,LIFE
+2026-11-11T13:28+09:00,한국경제 경제,증시 바닥인 줄 알았더니…개미들 '빚투' 폭발에 역대급 상황,https://www.hankyung.com/article/2026111100806,2,증시,rss:한국경제 경제,INV
 2026-11-11T13:27+09:00,연합뉴스 최신,제주아트센터서 서울발레시어터 '호두까기인형' 공연,https://www.yna.co.kr/view/AKR20261111100200056,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T13:27+09:00,연합뉴스 최신,"이자람 판소리 '눈, 눈, 눈' 제주아트센터 공연",https://www.yna.co.kr/view/AKR20261111099800056,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T13:27+09:00,연합뉴스 최신,"제주, 유네스코 세계지질공원 4회 연속 재검증 통과",https://www.yna.co.kr/view/AKR20261111099400056,0,,rss:연합뉴스 최신,LIFE
@@ -184,6 +494,7 @@
 2026-11-11T13:20+09:00,이투데이,정년 연장하면 퇴직연금 운용 방식도 바뀔까 - 이투데이,https://news.google.com/rss/articles/CBMiWkFVX3lxTE5fTWk2bHpYSWxld3NzZE9WVVMyNUw0a3RucjdUeXdYdExIYkk2WFdUbWp0MXpWYTcyUWJXUzRfeGFqSnFicmxUQ0xwXzJObGVaeU5ITGkwVXdTQQ?oc=5,4,연금|퇴직연금,rss:구글뉴스 비즈니스,INS
 2026-11-11T13:20+09:00,이투데이,정년 연장하면 퇴직연금 운용 방식도 바뀔까,https://news.google.com/rss/articles/CBMiWkFVX3lxTE5fTWk2bHpYSWxld3NzZE9WVVMyNUw0a3RucjdUeXdYdExIYkk2WFdUbWp0MXpWYTcyUWJXUzRfeGFqSnFicmxUQ0xwXzJObGVaeU5ITGkwVXdTQQ?oc=5,4,연금|퇴직연금,google:구글뉴스:연금보험,INS
 2026-11-11T13:19+09:00,동아 사회,"명지대 인디게임팀, 국내 최대 게임 공모전서 문체부 장관상",https://www.donga.com/news/Society/article/all/20261111/135005733/1,0,,rss:동아 사회,LIFE
+2026-11-11T13:19+09:00,약사공론,통합돌봄 재정 어디서 마련하나…건강증진기금·연금기금 활용론 부상,https://news.google.com/rss/articles/CBMibEFVX3lxTE1XVE5sVURTZE9aSEhHT0ZHdWRBN1dEdmtiNkRjNnV6V0xTTzY4ZENnYlBaOV9xMTVuSE1VQzZwZ1BfT1B5Ym1vQWFxbk9mWEVGR016dDNCMG9jR3FjVmFGRFZrUEpKdmhUOXFobw?oc=5,2,연금,google:구글뉴스:건강보험 재정,INS
 2026-11-11T13:19+09:00,재경일보,"늘어난 의대 정원, 정시 일반전형은 오히려 줄었다 : 사회",https://news.google.com/rss/articles/CBMiS0FVX3lxTE5PQmNZRTFYOVRjZUc5bkc2aWtEcGxra1dkWDRJemRtMVBPWTBVdDJwcUpZWldpWG5HNjRmTURZWG5idkJJMlgxU2xSSQ?oc=5,2,의대,google:구글뉴스:의대 정원,LIFE
 2026-11-11T13:19+09:00,조선비즈,"오세훈, 개소 1년 마약관리센터 점검…“전문치료·사회적 지지로 극복”",https://biz.chosun.com/topics/topics_social/2026/11/11/VCDLWKHKURAW3ISWKBORHGJ5NU/,2,약관,rss:조선비즈,INS
 2026-11-11T13:19+09:00,이데일리 글로벌,“엔비디아 주춤할 때”…‘최대 4조원’ 알리바바 반도체 증시 추진,http://www.edaily.co.kr/news/newspath.asp?newsid=04309926645644736,7,증시|반도체|엔비디아,rss:이데일리 글로벌,INV
@@ -196,9 +507,11 @@
 2026-11-11T13:16+09:00,라이센스뉴스,"코스닥, 매수 사이드카 발동...올해 21번째",https://news.google.com/rss/articles/CBMia0FVX3lxTE5WOEZzWGxTOVN1ZUR3b3lzeTdPZnN2bFM5U0g0OWE4WUw5aFdULXVnYXhramc2emlrSS1PalI4cjFteXM0bmJwWDN5cUtmRVhFVlFHVG4yVVhFREg3ZklLYmwtUjF4QW5OU0pZ?oc=5,5,코스닥|사이드카,google:구글뉴스:코스닥,INV
 2026-11-11T13:16+09:00,강원도민일보,코스닥 4%대 급등에 매수 사이드카 발동…이틀 연속,https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5CNkNrRm5rUWhrNTFZNHltSnE0VGxrV21sLWcwYnB0blJUVDIxaEdVdDRabXFHN2tNc2J1d0huRHJtYjBWZW9TX2xQMFg5VjdSV0tyemlaaXU5bUMtWFh0cVJiUHRiZW8?oc=5,7,코스닥|사이드카|급등,google:구글뉴스:코스닥,INV
 2026-11-11T13:15+09:00,글로벌이코노믹,"코스피, 5300선 회복…코스닥, 4% 급등에 '매수 사이드카'",https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX0hPOWFmem8tdXBQT3ctblliVXlFZTNnOUZKNHNabzdISHl6c1g3Uk11YkJQbTh3aTlvMjdWR3FkeEVhWWVQazNKVEVuY3dkTERuWUpDU2d2clRfaXFBaExLbWVWWVd2dUNjWVRZZlRlQlc4aUhnMTFqb0dwOXJTSUxaek9aS2JW?oc=5,10,코스피|코스닥|사이드카|급등,google:구글뉴스:코스닥,INV
+2026-11-11T13:15+09:00,스마트경제,"“혁신 기술로 교통·환경 문제 푼다”… DB손해보험, ‘교통·환경챌린지 8기’ 데모데이 성황리 개최",https://news.google.com/rss/articles/CBMicEFVX3lxTFByZ2dvTThQNVpVRVhaR3BaeWd0eGtYM1NSVktwWFVDdzNwd1lUaHcwdm4xdlE4THd2WTJaVjFQZmtJeUk1VnVHWFltSGxhVWtvTDZnSnExbF9pTFJJRlpJdktYTjdFUmpNbEJEWFBnXzQ?oc=5,2,보험|손해보험,google:구글뉴스:화재보험,INS
 2026-11-11T13:15+09:00,AI타임스,"디 인포메이션 ""젠슨 황 인맥으로 엔비디아 칩 75억달러 중국 공급""",https://news.google.com/rss/articles/CBMiakFVX3lxTE1PMTRKMVdvTlI3ZUpjY0JScXZjNHM5QWhmS3R4Y0NJZU13SDVJb2s5eUFPcm5SNGYtU216bzJFM1JJOWpCTGVEUmJjN3FfWEg2SlhuSFNfQTFlejBiUHRrUE5TT2hNX3g3UGc?oc=5,5,엔비디아|달러,google:구글뉴스:엔비디아,INV
 2026-11-11T13:15+09:00,강원일보,[이코노미플러스]KB증권 “AI 투자 위축 가능성 낮아···삼성전자·SK하이닉스 최선호주”,https://news.google.com/rss/articles/CBMiW0FVX3lxTE1GdV8tOXU5NVpySXI0dktCT1R0NHNGWWtVYlhpTlJYTHcycFJXRlViaTdRUzBjV3hKQWlLdGowZ2xpOFVTQWR3UXhWWExvaTBUZGpmLTJWcTFrdk0?oc=5,4,삼성전자|하이닉스,google:구글뉴스:삼성전자 SK하이닉스,INV
 2026-11-11T13:14+09:00,연합뉴스 한민족센터,불륜 스캔들 직격탄…엔비디아·젠슨황 가치 연일 추락,https://news.google.com/rss/articles/CBMidEFVX3lxTE93ZHhmei1FUHdoTndTQTcwaDhsOTdYeThnQ0NuX3hUT0s3UE9fcHp4ZXNqNG5fMzJnYmRPQjB1THFfWTd1dHVkM0hpV3YyLVZuRlpGa01nZ0dmWWpTcnZvZzZMM1o1QWVFUnI3djlZcmN4dVVn?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
+2026-11-11T13:14+09:00,뉴스핌,"미중러, 선전 APEC서 핵무기 AI 통제 논의, 3국 정상회담 의제 조율 - 뉴스핌",https://news.google.com/rss/articles/CBMiXEFVX3lxTE1TeG9XNnJPUmRUTG9tZW9HVjM3TFJ5Y0lsdUkzZ0EtS1pXMnVtbktZMVVfYmd5QTF3bFdYeWhQNEJrQnZaX2VFOTUwMGVaNWlFZjhrR2JXV0ljcXY1?oc=5,0,,rss:구글뉴스 주요,LIFE
 2026-11-11T13:14+09:00,조선비즈,"SK하이닉스, 저전력 D램 국제 안전·보안 인증 확보… 로봇·자율주행 시장 공략",https://biz.chosun.com/it-science/ict/2026/11/11/ETQXGQEYGFHGPADW57P2RUWGDQ/,2,하이닉스,rss:조선비즈,INV
 2026-11-11T13:13+09:00,연합뉴스 최신,이마트 3분기 영업이익 461억원…작년 동기 대비 69.6%↓,https://www.yna.co.kr/view/AKR20261111097700527,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T13:13+09:00,동방일보,"[경제+] 쇼핑 후 현장 환급...中 선전, 택스리펀 확대로 인바운드 소비 견인",https://news.google.com/rss/articles/CBMic0FVX3lxTE9Dam5ucDBJRHlFWTZUSXZENjZOTms1NmRDdDR5bFItbDNsQXVBOEw3NkhqODdudDRPRk01YTVoSVFBUHBmb1lyd0ZSLS1jYWVSWkVqTmg1YUVGY1ZEdXlmTVlFdmdxZENzN1RMblRnVUo5Z1U?oc=5,3,환급,google:구글뉴스:세금 환급,LIFE
@@ -208,12 +521,14 @@
 2026-11-11T13:12+09:00,인공지능신문,"엔비디아, AI 에이전트 보안 기술 ‘오픈셸’ CNCF에 기증…오픈소스로 자율형 AI 실행 환경 구축",https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBiRHVoMnVOaUxNZnZ4YktwQ0J5ZTcteUM0MDh4UEdzbFhpZGttMVlDNW1VYThmRDV5Ny1HVmd1RnNmZEVUamhtSUhQLTBucmFWZzNUYzJDVkhxMlpmSkdqVV9IV19mX2s?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
 2026-11-11T13:12+09:00,조선비즈,"삼성전자, AMD와 반도체 테스트 인프라 고도화 협력… 차세대 메모리 검증 강화",https://biz.chosun.com/it-science/ict/2026/11/11/ZMHICREF6VGANEZIWCEHIXUMRE/,4,반도체|삼성전자,rss:조선비즈,INV
 2026-11-11T13:11+09:00,연합뉴스 최신,"중랑구, 신내동에 반려견 놀이터 문 열어",https://www.yna.co.kr/view/AKR20261111097300004,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T13:11+09:00,JTBC,내년 최저임금 3.7% 올라 ‘1만700원’…3년 만 최대폭 인상,https://news.google.com/rss/articles/CBMiakFVX3lxTE5IZEthMlE4ZnlUOFVuQ0pJY0w1czd2MVdrbzJwS1F6cUthWVZBYzNpS2QyVHhfRDR3YXNjSzYyRm9sd3BFQ1dhcHdMdlR0V3NTMHRQcHJsb0lvVV9HSWNESFV4MWlINk5nT3c?oc=5,7,최저임금|임금|인상,google:구글뉴스:최저임금,LIFE
 2026-11-11T13:11+09:00,BBS불교방송,"농협상호금융, 보이스피싱 예방 우수직원 선정",https://news.google.com/rss/articles/CBMia0FVX3lxTFBXT3hvMzljcVNVX0pvQW9TUXR4czRLbG43U2Vrb3plbklOQVp3ZGNEdVFXMmJjR0FtX3pGSVhjYTFHOU1RTHlWYTFEOTFPc0hpUWw2NlBfU2cyY2NpRzdnNjVKSm95M3pXM2JJ?oc=5,3,보이스피싱,google:구글뉴스:보이스피싱 피해,LIFE
 2026-11-11T13:11+09:00,메트로신문,美 2년물 국채금리 19개월 만에 최대 급등...‘12월 빅스텝’ 가능성 부상,https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XR01wNUdQcGtkUnBsdzUwcTZVQkQtSERwTVRYQ0JEbExJQzdiYVRRRU1neUlMQmMydXNZRnVwcmdqamFtNTViT0VDRFhWRWxPTUhYUmRRM2tyQTAtcG5qYg?oc=5,6,급등|국채|금리,google:구글뉴스:미국 국채금리,INV
 2026-11-11T13:11+09:00,YTN,"젠슨황 스캔들 일파만파...""앨리스황, 엔비디아 AI칩 중국 밀반입"" [시사정각]",https://news.google.com/rss/articles/CBMiXkFVX3lxTFBFYVVFN2pyc0lYdVRrZHBpWWVia2pXT2xpQ0l2a2ZvbVNXV09EVWwxUGZpUGFOYjdLTzZuemhCel9qcXZGTERZY1IyZndfc2h3eENUWWVaWERxR1pUTXc?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
 2026-11-11T13:10+09:00,토큰포스트,STRC 장중 100달러 기록에도 주간 신규 판매는 없었다,https://www.tokenpost.kr/news/market/436376,2,달러,rss:토큰포스트,INV
 2026-11-11T13:10+09:00,코인리더스,"엔비디아(NVDA) 주주 집단소송 제기...트럼프 ""젠슨 황 괜찮을 것""",https://news.google.com/rss/articles/CBMiSkFVX3lxTE1QbUJvRzhqSWs1NWhpUHZVU2x0TFlEUVFINGRKTWh2WnBQSGNnZWtOcG1fbDY1bVR1bmw3LW1vTnJXVHdYcWFYam93?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
 2026-11-11T13:09+09:00,뉴시스 사회,분당 시내버스 지그재그로 승용차 등 17중 연쇄 충격[현장],https://www.newsis.com/view/NISX20261111_0003863715,0,,rss:뉴시스 사회,LIFE
+2026-11-11T13:09+09:00,연합뉴스TV,"""젠슨황 연인, 10조원 엔비디아칩 中 밀반입""",https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmLWhieUhaTWF1VjJlc2tBbE9ITy12cXJidFBJYlh4MVlQelNqY0txSGxPQjZxOUtzMWd2QXhmeDZDdU9MQmdJNHZVeS0zNEh2VE1ta2tDcGhuUkdaMV9kZzJiaE1OS1U?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
 2026-11-11T13:08+09:00,디지털투데이,XRP 단기 변동성 급증…비트코인·이더리움 웃돌아,https://news.google.com/rss/articles/CBMic0FVX3lxTFBldjI5Yjg1bGMzb2V2WERZMVVPU1R5bDNsbWF2UjZmMUVkNnhUd1RNRzUydTNNQ01DdEtjWVIzSnZLS0R6U1RQaDdpZFpHV29ZVm5tY09rbmp2MWFHT0pmdUhyb3QtYUkxMGd0Zm84SmtFSXM?oc=5,3,비트코인|이더리움,google:구글뉴스:비트코인,INV
 2026-11-11T13:08+09:00,인포맥스,"與, '전월세 안정 실용주의 모임' 토론회 개최…""전월세 안정화에 초점 둬야""",https://news.einfomax.co.kr/news/articleView.html?idxno=4444190,3,월세,rss:인포맥스,LIFE
 2026-11-11T13:08+09:00,인포스탁데일리,"삼성전자, 국내 기업 최초 '15년 연속' 동반성장 평가 최우수 획득",http://www.infostockdaily.co.kr/news/articleView.html?idxno=218881,2,삼성전자,rss:인포스탁데일리,INV
@@ -255,6 +570,7 @@
 2026-11-11T12:51+09:00,뉴시스 사회,"'화천대유 고문' 권순일 전 대법관 ""침묵하는 검찰 괘씸""…내년 1월 2심 선고",https://www.newsis.com/view/NISX20261111_0003863695,0,,rss:뉴시스 사회,LIFE
 2026-11-11T12:51+09:00,보험저널,"보험사 가계대출, 두 달 감소 끝에 '반전'…8000억원 줄더니 3000억원 증가",https://www.insjournal.co.kr/news/articleView.html?idxno=33870,2,보험|보험사,rss:보험저널,INS
 2026-11-11T12:51+09:00,동아 사회,조정식 “현직 대통령 연임 불가…오해 빚어 송구”,https://www.donga.com/news/Politics/article/all/20261111/135005706/1,0,,rss:동아 사회,LIFE
+2026-11-11T12:51+09:00,동아일보,조정식 “현직 대통령 연임 불가…오해 빚어 송구” - 동아일보,https://news.google.com/rss/articles/CBMid0FVX3lxTE5zNHgwM3p0eV9nODg4cUg4amNYc0hqbW1NbW14V3hlNG5WX0lCTHJXODhTdzdjczhmaUlVZXVCeTZwRTlyLXBfQ0VLNXZ6YkNVSVlkODM0bFc2TzBkN3lsc0RnWEdaa0lBTlFLR2N0ODY5VmNXWW1n0gFmQVVfeXFMUFNzRVZhWVlIcG44Y3pfQk93RkRfNGtPV1dRcU4xZW1YVFVHa19rLXJIQVhRS2RoMzBfSGc5amJBMldUOVA0ZVF3UElQVFpnX3htTWNIX1VNSHNjaWRyRFpvNERRYlpn?oc=5,0,,rss:구글뉴스 주요,LIFE
 2026-11-11T12:51+09:00,식약일보,"의료 AI가 지역 필수의료 살린다…영월의료원, 분만 21건 기능 복원",https://news.google.com/rss/articles/CBMiO0FVX3lxTE53Ty13LTEzbk5Hdmt6OGVPcWgxbzU0Q3owQTVvVXhnbGpqMmJHOTQxV04zN0tSRTYtMkVZ?oc=5,1,필수의료,google:구글뉴스:필수의료,INS
 2026-11-11T12:50+09:00,토큰포스트,가상자산 6000유로 이상 절도 혐의…전직 헌병에 징역 6개월 구형,https://www.tokenpost.kr/news/cryptocurrency/436364,2,가상자산,rss:토큰포스트,INV
 2026-11-11T12:49+09:00,초이스경제,미국증시 마감 1시간 前...나스닥·엔비디아·태양광주·양자주 '뚝',https://news.google.com/rss/articles/CBMic0FVX3lxTFBpRXpqbnhzd0RsTHVEV1pXZ1BwLS1EZWpORDF0ZnAta0JpcGpNLTdqR1NwUDByWmEzc0R2dkdUa2NEdktwMW9oZ0tTN2QzN3pKNmJKM201WmhycThNR25aYzFjdlA0VkJWMElLUVlyR0VZQUHSAXNBVV95cUxQaUV6am54c3dEbEx1RFdaV2dQcC0tRGVqTkQxdGZwLWtCaXBqTS03akdTcFAwclphM3NEdnZHVGtjRHZLcDFvaGdLUzdkMzd6SjZiSjNtNVpocnE4TUduWmMxY3ZQNFZCVjBJS1FZckdFWUFB?oc=5,8,증시|나스닥|엔비디아,google:구글뉴스:나스닥 마감,INV
@@ -267,6 +583,7 @@
 2026-11-11T12:45+09:00,BeInCrypto,"짐 크레이머, CPI 완화 $40 유가 연결…브렌트 $92 상회",https://news.google.com/rss/articles/CBMiZkFVX3lxTE94S2ZBaFZGZzNGc255SDk3MldDQm5jbF9nb2FGR3FDWFBhSXdKQ0R2anI3cTM0TVVDU2EzZmlsSVc3MGFaVk9RU1p1V3RjMUJvaU96RUpxN2UzN3BmX2oyMW9KWV9uUQ?oc=5,4,유가|CPI,google:구글뉴스:미국 CPI,INV
 2026-11-11T12:45+09:00,뉴스핌,"[미국 특징주] 폭스, 로쿠 인수 자금 마련 위해 84억 달러 회사채 발행",https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLcGJQbW9xWmZpTnZUMmRCSWgxUWNzaTd1XzhocVlhdWdDOFAyTEhmcUlhSm84RGtMOEZHdVFUZkJJd2FxTVgwTTRiUWN6VHJsMFkwaGV4Yy1pQ252?oc=5,3,달러|회사채,google:구글뉴스:회사채 금리,INV
 2026-11-11T12:44+09:00,보험저널,허위계약 1890건에 부당 승환까지……인카금융서비스 '53억 과태료' 중징계,https://www.insjournal.co.kr/news/articleView.html?idxno=33869,0,,rss:보험저널,INS
+2026-11-11T12:44+09:00,뉴스웨이,코스닥 5%대 급등···이틀 연속 매수 사이드카 발동,https://news.google.com/rss/articles/CBMiakFVX3lxTE41RVhLX2VvaGRuZ29DOVhpMnJtUUpnTlZwY1ZHOXVIZVpZd2YzTGNKWHFwZjJBc083QlJXZVBOXzVlTkEwZEhVLUNYYXhyN0pCZ3JUUVNkWm9MTWZJeVJMZEpiT2I5OVZRZ3c?oc=5,7,코스닥|사이드카|급등,google:구글뉴스:코스닥,INV
 2026-11-11T12:44+09:00,블로터,"[의료로봇 줌인] 리브스메드, 코스닥 입성 첫 성적표 '멀어진 흑자경영'",https://news.google.com/rss/articles/CBMiaEFVX3lxTE16S3Eyem5YY2d4NzhrVWFnYVA2V2tpUklqSDlGV2hRMnNsRGtuUTNiUURuYjJGYmE5ZVVMUi10bGtUS0Z2Wl93aDBkclQtcWVSblpXcUtaU2RfSXA1SDN0U2R0RGRVX21Z0gFsQVVfeXFMTjhKMmRtSm15eTlLNWRyT1R5R0pRZDgwaVRLX0R4M1l6Zlg1SUZLdkh3Xy1WcENLa1JuLUpWMXhSRmpvV0pKX2Q3Yk9JNThoNlBKdnNkSV9xV3Z6eXRvNjBwbU9oWndib3V4eURB?oc=5,2,코스닥,google:구글뉴스:코스닥,INV
 2026-11-11T12:43+09:00,뉴시스 경제,"野 의원들, '빚 내서 집 사라' 최경환 초청 부동산 정책 세미나 개최",https://www.newsis.com/view/NISX20261111_0003863707,1,부동산,rss:뉴시스 경제,INV
 2026-11-11T12:43+09:00,머니투데이,"'5700만원' 보이스피싱 막은 은행 직원들…은평서, 감사장 전달",https://www.mt.co.kr/society/2026/11/11/2026111109171759195,3,보이스피싱,rss:머니투데이,LIFE
@@ -285,6 +602,7 @@
 2026-11-11T12:39+09:00,보험저널,보행자 6명 중 1명은 횡단보도 위 ‘스몸비’… 좌우도 안 보고 건너는데 과실은 ‘0%’,https://www.insjournal.co.kr/news/articleView.html?idxno=33868,0,,rss:보험저널,INS
 2026-11-11T12:39+09:00,비욘드포스트,"""엔비디아 주가, 젠슨 황 CEO 자리 지킬 지 여부에 달려""...블룸버그통신 전망",https://news.google.com/rss/articles/CBMifEFVX3lxTFBtZDdpTGIzeUpsSTRsNGllNElqMDB6UTE2RTM2MDIxNEZkWFZhY1lwblo4ZnI3SW9leUMzUlVHandKTlE1bGRLOUdLQzNoNWpsdlZPWGZ2RXVMdVhTcFFlbm5ocjRrdDRXV2ZUMFV4N20wRzhhT1NIMmJUVEw?oc=5,4,주가|엔비디아,google:구글뉴스:엔비디아,INV
 2026-11-11T12:37+09:00,머니투데이,보험 가입하면 월 1000만원…법인자금을 대표님 쌈짓돈으로,https://www.mt.co.kr/society/2026/11/11/2026111108483228774,1,보험,rss:머니투데이,INS
+2026-11-11T12:37+09:00,머니투데이,보험 가입하면 월 1000만원…법인자금을 대표님 쌈짓돈으로 - 머니투데이,https://news.google.com/rss/articles/CBMicEFVX3lxTFA3cEpRd2hvMHFGSVhqcjNHN08zTnhPY1o1RWF2T2F4aW9XOTF3bEZITEgxUHNyUmFYd1JnU0pNVmFMU0JYSk93dGZCdlRkMnFmWXk4YkZWUUZkWDU4R1JqZm5POWxIZEtaVmcyVXFFN3LSAXBBVV95cUxQN3BKUXdobzBxRklYanIzRzdPM054T2NaNUVhdk9heGlvVzkxd2xGSExIMVBzclJhWHdSZ1NKTVZhTFNCWEpPd3RmQnZUZDJxZll5OGJGVlFGZFg1OEdSamZuTzlsSGRLWlZnMlVxRTdy?oc=5,1,보험,google:구글뉴스:보험료 인상,INS
 2026-11-11T12:36+09:00,파이낸셜뉴스 국제,"中, 엔비디아 칩 10조원대 밀수 의혹...美中 관계 얼어붙나?",https://www.fnnews.com/news/202611110957508284,3,엔비디아,rss:파이낸셜뉴스 국제,INV
 2026-11-11T12:36+09:00,인포맥스,"美 상원 공화당 중진 ""엔비디아 CEO 사임해야…국가안보 위험""",https://news.einfomax.co.kr/news/articleView.html?idxno=4444182,3,엔비디아,rss:인포맥스,INV
 2026-11-11T12:35+09:00,토큰포스트,보안 사건 보고 60건…프로토콜 공격 손실 387만달러,https://www.tokenpost.kr/news/blockchain/436357,2,달러,rss:토큰포스트,INV
@@ -295,6 +613,7 @@
 2026-11-11T12:30+09:00,연합뉴스 최신,'화천대유 고문료' 권순일 前대법관 2심 1월 선고…1심 공소기각,https://www.yna.co.kr/view/AKR20261111095500004,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T12:30+09:00,JTBC 사회,"아들 성범죄 피해자 살해한 50대...""피해자 쉼터 생활은 별개 사안""",https://news.jtbc.co.kr/article/NB12327543,1,피해,rss:JTBC 사회,LIFE
 2026-11-11T12:30+09:00,한국일보,"""젠슨 황 연인, 10조 규모 엔비디아 칩 중국에 밀반입… 알리바바·텐센트에 흘러갔다""",https://news.google.com/rss/articles/CBMibkFVX3lxTE52Q2pZODZiTmpyb1p4VTZ6SFc1MjNFMkw2WGppNGczOWl6dnBoS3pZM3lkN3g0QVBtYWVURGlpS0sxSllKTTdjS3dpRXdaOUtrOWFRSFBwb0JkQ19xeVFIenJqS1VUT1BaT1BKVm1R0gFzQVVfeXFMTTBlWkU0djg1ZlF4eU0zRGRyT1BmaTdrUkktWFhHQjVhOWhWQVVyLUFtbTduamEtUWtncm1aMV9oV1BzWkV5dTZaVktiVGhwVWkzVFg0NFVwbl9qY1puME9LRmVzRVhRaVdPOGpLQ0hJZEdZWQ?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
+2026-11-11T12:30+09:00,세상을 바꾸는 시민언론 민들레,"예상 웃돈 미 CPI… 연준, 기준금리 빅스텝 밟나",https://news.google.com/rss/articles/CBMibEFVX3lxTE5vR3ZlSmpPTWJtcW9udmk5ckhyLXhfVllwQTdCSUNGM0V0T2dKOGYyRE9hdXoxMkRlLW95ekM5bHlvSmFuOHh4OFlzeEFOUGpzTGRSREpBNXdsNFZZWnY2NHB4bHBwNDhKcS1GMQ?oc=5,10,기준금리|금리|연준|CPI,google:구글뉴스:기준금리,INV
 2026-11-11T12:30+09:00,경남도민뉴스,"최갑현 경상남도의원, “농업기술원 이전, 리츠 활용 등 재원조달 대안 검토해야”",https://news.google.com/rss/articles/CBMiY0FVX3lxTE4xVUxDSm9uTXl6cjBaWG1qRzFoMXdrMUQtYlJxZi1ncFZ5MmFLREZuWmQxRFR4Mi14WHkzU3pKbVYwREpMdy1qOEJ3NEpqRGh1cWpfRVYyNVlyaHpHXy1EaTh6QQ?oc=5,2,리츠,google:구글뉴스:리츠,INV
 2026-11-11T12:29+09:00,연합뉴스 최신,日 수학여행 '안전불감증'…유람선에 정원 1.7배 인원 탑승,https://www.yna.co.kr/view/AKR20261111095200073,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T12:28+09:00,뉴시스 정치,"韓총리 ""내년도 농업예산 역대 최대 22조원…전략산업 농업 혁신 적극 지원""",https://www.newsis.com/view/NISX20261111_0003863693,0,,rss:뉴시스 정치,LIFE
@@ -309,6 +628,7 @@
 2026-11-11T12:20+09:00,Laodong.vn,오늘 11월 11일 USD 환율: 달러 강세,https://news.google.com/rss/articles/CBMikgFBVV95cUxNUXpWNzJKSm81QVlLSE00cUlMU2VNdnFmWjBkLUcwOUxlZ0FCMjZQSzY3NnZBaEI1aGRXeFU0eUQyMk1HN3UzZ1FCaE9PaURlYWk5dVpibGVvbkp6aEpDS3NqejlGbklZT2hvck5tSVNhQ3hlU0xlRTkxRV9YdnYtQWUzWGFXQVFabktGRll4NkZGUQ?oc=5,5,환율|달러,google:구글뉴스:달러 강세,INV
 2026-11-11T12:20+09:00,YTN,"젠슨 황 내연녀, 10조 원 엔비디아칩 중국으로...트럼프도 불똥 [뉴스나우]",https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYVXJ2WWlDMGtVOGlNQVNVWjRueWhVc0NaeGJqM1FGTTRiaHhlS0V5U25FS1F3Mk0xSW9YeUV1dXpWYVhxZDdBVVNBeUNwU3RXNzNGQzgzTm9EM1dvTFE?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
 2026-11-11T12:18+09:00,연합뉴스 최신,군산 장미동 부두서 선박 화재…소방 진화 작업 중,https://www.yna.co.kr/view/AKR20261111095000055,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T12:18+09:00,파이낸셜투데이,"‘W27’ 앞세운 삼성, 애플·화웨이 맞서 中 폴더블폰 3강 구도 맞불 - 파이낸셜투데이",https://news.google.com/rss/articles/CBMiakFVX3lxTFBxS3JUSk1rVExTaWt0RVFFb2N3dlVfSVhEZHFGMU15Zmt1dFR5TXNQbTdudjVCVDRxQ2tIcUp6dHVDMjlhQnZBV09ZTllXcHRkc2k1X3hkTXNXdW5LYWk4ZFpZTjJpZkZtcnfSAW5BVV95cUxOaW42NGszUlQxZDdwTThiNFJOcnUzazFuSi02UnktWGs5a0ZBcER4SHNHRzgxZVk0XzBFN2lRVFU5VmQ1Smx5U2ZuZU01em5zRm5BZU0yZHNoVnBOZWEzS0hFbFVVWHRMWkdvTDNOdw?oc=5,0,,rss:구글뉴스 주요,LIFE
 2026-11-11T12:16+09:00,토큰포스트,비트코인 고래 한 주 새 3만4000개 넘게 감소…이더리움도 줄어,https://www.tokenpost.kr/news/cryptocurrency/436347,3,비트코인|이더리움,rss:토큰포스트,INV
 2026-11-11T12:15+09:00,중앙일보,엔비디아칩 24만개 中공급에 유부녀?…커지는 젠슨황 불륜녀 미스터리,https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoYU9vWTI3Y1hZeF9nbzVUQzVQNjd2ZC15cGcyNVNtbG83aW9hWTVmdFc0dldJZ3NHTTVKX2NqLXJfSllSNndjQXJhUDNRR0wzSUZNcFVB?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
 2026-11-11T12:15+09:00,재경일보,채권시장 약세 전환…3년·10년물 금리 동반 상승 : 금융,https://news.google.com/rss/articles/CBMiS0FVX3lxTE8zbU9fbXNQWkJuRWxkWnhCd09KY1pKd2hyTjBZZWdNVkQ0WFhhSGxfS1JGQzRWVjFiVDdvZmRoMGNDdXN1bXR4RmdCdw?oc=5,4,채권|금리,google:구글뉴스:회사채 금리,INV
@@ -356,6 +676,7 @@
 2026-11-11T12:02+09:00,조선비즈,"李대통령, 김민석·한병도와 만찬... 종부세 등 조율 주목",https://biz.chosun.com/policy/politics/president_office/2026/11/11/LLSXZGJMSJBOXOAV2PS6LPHC44/,1,종부세,rss:조선비즈,INV
 2026-11-11T12:01+09:00,연합뉴스 최신,아들 성범죄사건 피해자인 10대 찾아가 살해…50대 긴급체포(종합2보),https://www.yna.co.kr/view/AKR20261111041752004,1,피해,rss:연합뉴스 최신,LIFE
 2026-11-11T12:01+09:00,뉴시스 사회,국고채 담합 15개 금융사에 '역대 최대' 과징금 1.6조…7곳 중수청 고발,https://www.newsis.com/view/NISX20261111_0003863659,2,과징금,rss:뉴시스 사회,LIFE
+2026-11-11T12:01+09:00,MBC 뉴스,"""회삿돈으로 가입하면 현금으로 돌려줄게""‥경찰, 732억 원 보험 리베이트 일당 송치 - MBC 뉴스",https://news.google.com/rss/articles/CBMid0FVX3lxTE5CVUtZUXB1bG5oMXJxLTdZRmlBRkFlSlRhZ084QTdQa0dDei05NS1mMWNmd0hlTnI3amtwcTFkeTQ2cW91ZWZJQXlpWmphZzRMLUZsdWJBeFdOb1hWcGhSYzEwX3lKbTZmNXNqSExpMmhqR3lpLU130gF3QVVfeXFMT3JQNWx5ZGo4Y3RzbXlzajBHVzljQi1YVldKbE12UWFRdjJtbTFIRHIxN0w2ZG9KQzBSenlXY1EwZFRTaDNYaUtBZVUtLVl3UU55RVpjVU9HZ0lEM3BFZ0J4Z29NaUFlYTllWUxkejNsM0RHN0R1d3c?oc=5,1,보험,rss:구글뉴스 대한민국,INS
 2026-11-11T12:01+09:00,코인리더스,[업비트 TOP10] 엘프(ELF) 26.56% 급등 1위…10% 넘게 오른 종목 2개,https://news.google.com/rss/articles/CBMiSkFVX3lxTFBmV1dGY3UxR2ZmMVhFcFRUREIzczRkQ1VvYXRLUDIzcGJZUGdtMnNzS2wwbmxocjQwTnNOM09xTVBsVXV1aWs5aGZn?oc=5,2,급등,google:구글뉴스:비트코인,INV
 2026-11-11T12:00+09:00,연합뉴스TV 경제,미용실 해지 위약금이 30%?…미용 서비스 소비자 분쟁 급증,https://www.yonhapnewstv.co.kr/news/AKR202611101827014Xx,2,분쟁,rss:연합뉴스TV 경제,INS
 2026-11-11T12:00+09:00,연합뉴스 경제,"""법인보험 들면 현금줄게""…법인대표에 732억원 리베이트 덜미",https://www.yna.co.kr/view/AKR20261111087900004,1,보험,rss:연합뉴스 경제,INS
@@ -398,6 +719,7 @@
 2026-11-11T12:00+09:00,Laodong.vn,2027년부터 실업 수당 변경,https://news.google.com/rss/articles/CBMiigFBVV95cUxNRml3RnQ3UFhoTF9NYWZuX0FCYThRWEF0azFUaW8zdzRXWVJBZmFJc0dDTUhIbXFQRjNRNHB5QmZtcFJ3ajNkbEtaMUtUZThuaUdSeWFNX0FWbXUwNXl2Tk80NEFyMzhSS2RNNWM0T0ZycmpyTnF5bUxxVklNeFFFeFJsZ0o0dXhsYWc?oc=5,5,수당|실업|부터,google:구글뉴스:최저임금,LIFE
 2026-11-11T12:00+09:00,헬스조선,“식이섬유 많아 다이어트 때 추천”… 이국주가 일본에서 산 ‘찐 고구마’ - 헬스조선,https://news.google.com/rss/articles/CBMif0FVX3lxTE1hWFJEblF1YjJNOXhvQ0NNSUllMFk3SG43UEp4Qm5Bd2xydzdXZDNOQTdNODhiSG1xVElkMFVQWHNtQkpvbUVpUUNKb3QweFNad2dYSTFjUE56cXBJVkV4VkJxeUZWUHlROVZKZkRXM2djV0NodjRFaHAwcXRjVHM?oc=5,1,주가,rss:구글뉴스 건강,INV
 2026-11-11T12:00+09:00,경제시그널,"""내년 월급 또 줄어드나""… 국민연금 보험료율 1월부터 10%, 월급 300만원이면 매달 7500원 더 뗀다",https://news.google.com/rss/articles/CBMic0FVX3lxTE0zTkVUUmE5bnFmMDJIYXBseklxMDZRTlB2WXU1WkJWRjdYVnlkbFQ3QllXeWVfbDBualNHTDFSYzZTa2wxZzVZN3QxcUZUREpXR1J3OVlIMTNQZkNmN3FqT1NkOFlONnA3aFp5WGdOaW5PT2c?oc=5,7,보험료|연금|국민연금|보험,google:구글뉴스:연금보험,INS
+2026-11-11T12:00+09:00,연합뉴스TV,미용실 해지 위약금이 30%?…미용 서비스 소비자 분쟁 급증 - 연합뉴스TV,https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Xc3lod0lTeUMxSkVhLUFKVEp2VFRjODk2bkQ4SlNLS1pOby1RYk1PcGZvbGM0c3d5ZGF0aERMeUFWWmRWYlkwNzVLQjJRWERBbGhHUWtjU011aDFBMUpvQVhFSEp1ZGc?oc=5,2,분쟁,rss:구글뉴스 비즈니스,INS
 2026-11-11T12:00+09:00,인포맥스,삼성전자 15년 연속 '최우수'…동반성장 명예기업 20곳으로,https://news.einfomax.co.kr/news/articleView.html?idxno=4444174,2,삼성전자,rss:인포맥스,INV
 2026-11-11T12:00+09:00,인포맥스,"금융위 ""연말 대출절벽 없도록…부동산 투기 금융권 점검""",https://news.einfomax.co.kr/news/articleView.html?idxno=4444172,1,부동산,rss:인포맥스,INV
 2026-11-11T12:00+09:00,조선비즈,"삼성전자, 동반성장 평가 15년 연속 ‘최우수’… 국내 기업 최초",https://biz.chosun.com/it-science/ict/2026/11/11/JIM22WBAEBHEZHQAI63CXEPSO4/,2,삼성전자,rss:조선비즈,INV
@@ -553,6 +875,8 @@
 2026-11-11T11:32+09:00,아시아경제 증권,"[속보]코스닥, 매수 사이드카 발동…4%대 급등",https://view.asiae.co.kr/article/2026111111321216543,7,코스닥|사이드카|급등,rss:아시아경제 증권,INV
 2026-11-11T11:32+09:00,MBC 뉴스,[속보] 코스닥 4%대 급등에 이틀 연속 '매수 사이드카' 발동,https://news.google.com/rss/articles/CBMidEFVX3lxTE9YV3hHUzMxR0p3TVBPUk5OR0VFbmZYLU1HNHJySGQ0bURnS1Z4RzJnWVpKOXdfVnZfWGZtT1BEYUtYdkIzMkpDdzZ4b2V5ODhJbjB4SVZwY2x6WE52T1JFcm1IdlhFLWN0X1JsYWZkSzBjQzNW0gF0QVVfeXFMTmNnTktYaTdTV01reUgta0xPcHVXRWxqY0tLMEg3Vkk1Mjh6MzBLLXZqbHhYOVpWeHAyWmFqRXJsU3FKUERiclljWmFkUXN0UldrUjFOYkM4YzdFYXRMMEh6eDFwdU9qbFV3dksyckw2Rmw0MUI?oc=5,7,코스닥|사이드카|급등,google:구글뉴스:코스닥,INV
 2026-11-11T11:32+09:00,MBC 뉴스,[속보] 코스닥 4%대 급등에 이틀 연속 '매수 사이드카' 발동 - MBC 뉴스,https://news.google.com/rss/articles/CBMidEFVX3lxTE9YV3hHUzMxR0p3TVBPUk5OR0VFbmZYLU1HNHJySGQ0bURnS1Z4RzJnWVpKOXdfVnZfWGZtT1BEYUtYdkIzMkpDdzZ4b2V5ODhJbjB4SVZwY2x6WE52T1JFcm1IdlhFLWN0X1JsYWZkSzBjQzNW0gF0QVVfeXFMTmNnTktYaTdTV01reUgta0xPcHVXRWxqY0tLMEg3Vkk1Mjh6MzBLLXZqbHhYOVpWeHAyWmFqRXJsU3FKUERiclljWmFkUXN0UldrUjFOYkM4YzdFYXRMMEh6eDFwdU9qbFV3dksyckw2Rmw0MUI?oc=5,7,코스닥|사이드카|급등,rss:구글뉴스 비즈니스,INV
+2026-11-11T11:32+09:00,MBC 뉴스,코스닥 4%대 급등에 이틀 연속 '매수 사이드카' 발동 - MBC 뉴스,https://news.google.com/rss/articles/CBMidEFVX3lxTE9YV3hHUzMxR0p3TVBPUk5OR0VFbmZYLU1HNHJySGQ0bURnS1Z4RzJnWVpKOXdfVnZfWGZtT1BEYUtYdkIzMkpDdzZ4b2V5ODhJbjB4SVZwY2x6WE52T1JFcm1IdlhFLWN0X1JsYWZkSzBjQzNW0gF0QVVfeXFMTmNnTktYaTdTV01reUgta0xPcHVXRWxqY0tLMEg3Vkk1Mjh6MzBLLXZqbHhYOVpWeHAyWmFqRXJsU3FKUERiclljWmFkUXN0UldrUjFOYkM4YzdFYXRMMEh6eDFwdU9qbFV3dksyckw2Rmw0MUI?oc=5,7,코스닥|사이드카|급등,rss:구글뉴스 비즈니스,INV
+2026-11-11T11:32+09:00,MBC 뉴스,코스닥 4%대 급등에 이틀 연속 '매수 사이드카' 발동,https://news.google.com/rss/articles/CBMidEFVX3lxTE9YV3hHUzMxR0p3TVBPUk5OR0VFbmZYLU1HNHJySGQ0bURnS1Z4RzJnWVpKOXdfVnZfWGZtT1BEYUtYdkIzMkpDdzZ4b2V5ODhJbjB4SVZwY2x6WE52T1JFcm1IdlhFLWN0X1JsYWZkSzBjQzNW0gF0QVVfeXFMTmNnTktYaTdTV01reUgta0xPcHVXRWxqY0tLMEg3Vkk1Mjh6MzBLLXZqbHhYOVpWeHAyWmFqRXJsU3FKUERiclljWmFkUXN0UldrUjFOYkM4YzdFYXRMMEh6eDFwdU9qbFV3dksyckw2Rmw0MUI?oc=5,7,코스닥|사이드카|급등,google:구글뉴스:코스닥,INV
 2026-11-11T11:32+09:00,비건뉴스,명왕성·해왕성 궤도 겹쳐도 가까워지지 않는 이유 - 비건뉴스,https://news.google.com/rss/articles/CBMiZkFVX3lxTE9JNXFacmI0SFhtOHJrajV1dXA2TXhaUWxSLUh2MVp2amdZUlRuRUVVR1RLMEZ6YVdMQXdaUDNzMXJYUHVGM3pOQUJfUWZjQ1FXSEE0ZWU2R0NHZ1dwUk5WSXdoMXBBUQ?oc=5,0,,rss:구글뉴스 주요,LIFE
 2026-11-11T11:32+09:00,뉴스1,"코스닥, 부양책 기대에 4% 급등…700선 탈환 시도[장중시황]",https://news.google.com/rss/articles/CBMiW0FVX3lxTE1UeEUyRjk1ZFFvSzBYamI1OV9nZlJLUFRST3VGNmxNS01LbXhHY3VIVDdIaW5Cdk1PYlJQSzJQVWJNWVdsS1lEU1I4UVBZZmtneGhaZ01Day05Mmc?oc=5,4,코스닥|급등,google:구글뉴스:코스닥,INV
 2026-11-11T11:31+09:00,연합뉴스 최신,'호텔 출산 후 신생아 사망' 20대 친모 1심 징역 3년6개월,https://www.yna.co.kr/view/AKR20261111086400004,2,출산,rss:연합뉴스 최신,LIFE
@@ -596,6 +920,7 @@
 2026-11-11T11:27+09:00,동아 사회,"韓·우크라 외교장관, 포로 갈등 후 첫 회담…관계 회복 주목",https://www.donga.com/news/Politics/article/all/20261111/135004876/1,0,,rss:동아 사회,LIFE
 2026-11-11T11:27+09:00,동아 사회,"韓·우크라 외교장관, 포로 갈등 후 첫 회담…우크라 측 사과는 없어",https://www.donga.com/news/Politics/article/all/20261111/135004876/1,0,,rss:동아 사회,LIFE
 2026-11-11T11:27+09:00,JTBC 사회,"출근길 아수라장…버스가 차량 32대 들이받아, 48명 부상",https://news.jtbc.co.kr/article/NB12327530,0,,rss:JTBC 사회,LIFE
+2026-11-11T11:27+09:00,조선일보,김종철 경찰청장 후보자 재산 20억원... 10개월 새 3억원 증가 - 조선일보,https://news.google.com/rss/articles/CBMihgFBVV95cUxPUm9EeVUtSGZNZy1rRldoYi1XQl9QSUpfdldkNGpCVzl6WmRYdXpONHdpb0ZGVHlxbFNPU0FoNGozSXBrWmpWTjNxeGFONXpLNHFKN2dNbGU0UWdjY1BXOTVmdTJ6N05CVHdqa2NmZFdUNmI1RkJZTjZsNjByWmtucHlmLTFXUQ?oc=5,0,,rss:구글뉴스 대한민국,LIFE
 2026-11-11T11:27+09:00,뉴스티앤티,"[특징주] 외국인 '삼성전자·심텍홀딩스', 기관 'SFA반도체·진에어' 러브콜",https://news.google.com/rss/articles/CBMiakFVX3lxTFAyYlE2TExoSXBPRm9IU3RMdGlXUlI1ZE9fd21faEthQ3ZHbENRa3NDRXRKNk9sSE9ad096VVZIUnM4dkw5c2szWkNvaHVSeFU4V2R0Q0lnWGtUd3hsN01VOWRMUDlIS29Namc?oc=5,5,반도체|삼성전자|외국인,google:구글뉴스:외국인 순매도,INV
 2026-11-11T11:27+09:00,인포스탁데일리,"[1111시황레이더] 신세계, 자산효과 악화에 따른 4분기 백화점 성장률 둔화 우려 등",http://www.infostockdaily.co.kr/news/articleView.html?idxno=218879,2,성장률,rss:인포스탁데일리,INV
 2026-11-11T11:26+09:00,연합뉴스 최신,[영상] '핵무장 가능' 러 전략폭격기 47대 극동 집결…이례적 전력 집중,https://www.yna.co.kr/view/AKR20261111084100704,0,,rss:연합뉴스 최신,LIFE
@@ -623,6 +948,7 @@
 2026-11-11T11:24+09:00,간호사신문,고령화 속 재정 방어… 장기요양보험료율 올린다,https://news.google.com/rss/articles/CBMibkFVX3lxTE9ZdW84a0VTeFZDSVpWVzlud2N5Mk9yWWk4RVc2cExJa1pmQkFsNG94bE02cFktS2hFVHV4UUtJTXZLR0ZadGVpOFd1Ymh1N0RVRU9adEVvOEZER3luN3ZCVDFuOXpiQ1IyWG1vU2tB?oc=5,4,보험료|보험|요양,google:구글뉴스:장기요양보험,INS
 2026-11-11T11:24+09:00,한국경제,민주 토론회장 찾아간 조국혁신당…“종부세 완화야말로 반명” - 한국경제,https://news.google.com/rss/articles/CBMiWkFVX3lxTFBRbUJxSEw5UV8zUEREekR6bkZSUW9VRkJNekF6SF9Nd0xHSElyZHIwdE5qdFhmMEdnS3Ntd2FxX1VKamQ4SzBwU3RDcVpGSGttOE5CWm9WbTgxdw?oc=5,1,종부세,rss:구글뉴스 주요,INV
 2026-11-11T11:24+09:00,중앙일보,젠슨 황 불륜 후폭풍…엔비디아 시총 이틀 새 540조원 증발,https://news.google.com/rss/articles/CBMiVkFVX3lxTE43OFNTZTc0Z3hZYXVFRGxmREhWNjFraGl1ZFJhOTZnR1hmZVNIaUlkbnBTQ2dWT21UMGVWdW50eWdMUURabURVelNsNHVYdXp0bDRMaVN3?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
+2026-11-11T11:24+09:00,문화일보,"축구대표팀, 도하서 완전체 훈련… 손흥민 “다 같이 웃자” - 문화일보",https://news.google.com/rss/articles/CBMiUEFVX3lxTE55cEFPNV8zSkpuVTcxb04tT0hROFBzSUdaU0NnNmZuS09wN2lfTzMtYUlDU3pwbUZrMlc4YUk5b2U3REJfQy03YjZ1Szhmb0M1?oc=5,0,,rss:구글뉴스 주요,LIFE
 2026-11-11T11:23+09:00,연합뉴스 최신,[영상] 정치도 경제도 노답…이러다 진짜 큰일 난다는 프랑스,https://www.yna.co.kr/view/AKR20261111084600797,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T11:23+09:00,연합뉴스 최신,"[테크스냅] 이통 3사, 동반성장지수 '최우수' 등급 받아",https://www.yna.co.kr/view/AKR20261111083500017,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T11:23+09:00,연합뉴스 최신,"강원학원 정상화 공대위 ""교육청TF, 전현직 임원 책임 규명해야""",https://www.yna.co.kr/view/AKR20261111080600062,0,,rss:연합뉴스 최신,LIFE
@@ -644,6 +970,7 @@
 2026-11-11T11:20+09:00,한국보험신문,"한화손해보험, 이대서울병원에 '웰니스 존' 조성",https://www.insweek.co.kr/news/articleView.html?idxno=72949,2,보험|손해보험,rss:한국보험신문,INS
 2026-11-11T11:20+09:00,동아 사회,"조정식 의장 “현직 대통령 연임, 개헌 논의 대상 아냐…정쟁 말아야”",https://www.donga.com/news/Politics/article/all/20261111/135005313/1,0,,rss:동아 사회,LIFE
 2026-11-11T11:20+09:00,파이낸스투데이,미국 휘발유 가격 4달러 아래로…트럼프 이란 공습 보류 시사에 국제유가 급락,https://news.google.com/rss/articles/CBMibEFVX3lxTE96c0dZSFdWQVIyVmlQM2VlS3h5M0VwUk9wM0RhY3k5c3dOQVRGQWtRLWNWa0w5TVFIU1NDMWd1SGNkaXdQRDV4a0Joclh3LVpOLXRRcFBib3dkZUlPWTZYQ3p3b2k0ZURVd0dKMw?oc=5,6,급락|유가|달러,google:구글뉴스:국제 유가,INV
+2026-11-11T11:20+09:00,시사위크,"다가오는 한파에 취약계층 보호 강화… 난방비 최대 51만4,000원 지원",https://news.google.com/rss/articles/CBMia0FVX3lxTFBXbDZxNkw0MGFJM0VfNlpoSGJZcExKMnBpLWY4eGxuUjJaQVNYVEpaYWhZN1lfUF9UVU9tbDRGVjZ5dlBuUkx3bEZMcXRfR1V4cnNmd2ZtbnVJSXFwVDVETWJGQTh0cWQ4dGhN0gFvQVVfeXFMTVpWZll1ZEtRaENGLWYxTFVYRE9qRllUU2luR1IzQ1lmeGFwSGZZQXFRbXhuWnFLSUF4RlVzWUhRQ3U5dmFseFhPbVh3eEFzWDNoa2VmM0EzdjUxbWx0R1o5eE9nbG91YXZHSl9IMnZz?oc=5,3,난방비,google:구글뉴스:가스요금 난방비,LIFE
 2026-11-11T11:20+09:00,고향사랑기부제 위기브,연말정산 세테크의 완성! 10-20만 원 44% 세액공제받고 위기브 한우로 럭셔리 연말 파티 준비,https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pOVRQT3RsNThuOVM5cG1mWHliSU9zMzh6X3pNRklJLWExc3NmOTVRVFduekJEOG9HbVlmdDdkajZiQVF5Mi1oQVNVejZJNnVmQzdVZjln?oc=5,4,연말정산|만 원,google:구글뉴스:연말정산,LIFE
 2026-11-11T11:19+09:00,연합뉴스 최신,"李대통령 ""농지개혁·CPTPP, 농업인에 도움이 되도록 추진""",https://www.yna.co.kr/view/AKR20261111079100001,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T11:19+09:00,연합뉴스 최신,"'비틀스' 폴 매카트니, 억만장자 대열에…전 세계 3위 부자 가수",https://www.yna.co.kr/view/AKR20261111078700075,0,,rss:연합뉴스 최신,LIFE
@@ -748,6 +1075,7 @@
 2026-11-11T11:10+09:00,연합뉴스 사회,'심덕섭 고창군수 금품수수 의혹' 연루 혐의…전직 공무원 송치,https://www.yna.co.kr/view/AKR20261111078600055,0,,rss:연합뉴스 사회,LIFE
 2026-11-11T11:10+09:00,머니투데이,"""위탁운용에서 한발 더"" 국민연금, JP모간자산운용과 협력확대 협약",https://www.mt.co.kr/stock/2026/11/11/2026111110462769733,4,연금|국민연금,rss:머니투데이,INS
 2026-11-11T11:10+09:00,아시아경제,美 공화당 하원 원내대표에 강경파 짐 조던…中 반도체 규제 강화되나(종합),https://view.asiae.co.kr/article/2026111111100261918,2,반도체,rss:아시아경제,INV
+2026-11-11T11:10+09:00,충청투데이,"한화이글스, 새 외국인 투수 트로이 왓슨 영입 - 충청투데이",https://news.google.com/rss/articles/CBMibkFVX3lxTE9MSjhwSWl1Q2FmZ3pNc0hKWnhWemE3ZWNRRkxjS2FuRHA0bGhPYU42UkJpV2ZGUXNGMUxvM1gxNHFZVGFUYjMxOVoweFR5VThiVjREYjlORWhILW1YZEV0UlgyYjRBZm1hR1hPYzNR?oc=5,1,외국인,rss:구글뉴스 주요,INV
 2026-11-11T11:10+09:00,이코노미사이언스,"KDB생명, 사망보험금 10년간 체증하는 종신보험 출시…연금전환 기능도 제공",https://news.google.com/rss/articles/CBMib0FVX3lxTFBZalZiODVqR3VGczBmRXkyNXJEanpkMzBjMEF6YUF3Zm02VVdkbXRxZl9za3czVjZHeXlBMnNaTGlVRU1kM09Sc3FIaEJoYklsNThrMWZxNXlmQ2RBRkJISFBGeVpOaEp1WlZORWxRbw?oc=5,8,보험금|연금|종신|보험,google:구글뉴스:종신보험,INS
 2026-11-11T11:10+09:00,금강일보,"오킨스전자 주가, 급등세... 무슨 회사길래?",https://news.google.com/rss/articles/CBMiakFVX3lxTE9nNWU3cTFqY3VTbkR1ZFVucHNrYmV5U2FfeDlHMWo2TDJrcl80TWtDSVZqRW1kRU1ocjJpZElIb1NVdThka1FlWDJYTGt0dlhZSFZ6WHBDNHNuNWpxX1JSUGk5UnZvRWFDWEE?oc=5,3,주가|급등,google:구글뉴스:반도체 주가,INV
 2026-11-11T11:10+09:00,뉴스핌,삼성·SK하이닉스 빠진 엔스로픽 반도체 동맹…TSMC·마이크론은 대규모 투자,https://news.google.com/rss/articles/CBMiXEFVX3lxTE1kamtkWWVieGZ3LXdEd2NPTjh6ZXk5cGJLSFBiVmxnZ0QxNWVYaXYtZXZ6ZUFPRjloeGZ5dHRZRVdlb1dnZmRhM2ZGQ0Q3SklIb2lWaFVXWXNuZ1M1?oc=5,4,반도체|하이닉스,google:구글뉴스:삼성전자 SK하이닉스,INV
@@ -818,6 +1146,7 @@
 2026-11-11T11:01+09:00,비욘드포스트,"삼성자산운용, 삼전닉스 특별배당 'KODEX 200타겟위클리커버드콜' 분배금에 반영",https://news.google.com/rss/articles/CBMifEFVX3lxTFAyY25zOElfZkVVM0owNldnNlNhbWVYN0d1UzBCYVdUdWJKTE03WmczODdXclk2a1VuckZqT0liaWdjemduVmNzWnRuZnRSSldyNl9qcC04RmstcG9tTDZ5aFFxUXN5SDZWZ3RVUW1nb29ldkxoOFhLc1FKRmc?oc=5,2,배당,google:구글뉴스:삼성전자 SK하이닉스,INV
 2026-11-11T11:01+09:00,www.hidomin.com,"“현실적 벽 높지만 멈출 수 없다”… 포항시, ‘포스텍 의대’ 카드 계속 쥐는 이유",https://news.google.com/rss/articles/CBMiakFVX3lxTE1ieTVwVDJVa2NFSUNxOVQ5WUQ2UmN1aG5kLWZuTUF3a3NScGxRa0hLSGdIRkc3ZTRZU1BNWlFHVUJ4T2swMXhpakNVVW9DS0VVcE9Mc2RreWE4cFIzYmNsMDE5SUtSSDRoc1E?oc=5,2,의대,google:구글뉴스:의대 정원,LIFE
 2026-11-11T11:01+09:00,인공지능신문,"AMD, AI 인프라 경쟁 확대...6세대 에픽 서버 CPU 출시, 엔비디아 베라 대비 최대 3.7배↑",https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OdGhCZm5seExEWGE5S1dibE5Db0Z0RDgyWV9fbWV5QnF6TDNwMXhuMXIyVEhuMTYtOWNxR0JWajI4R2l2SjZmR2U3OV9veTF3cXFocnUwVDA1YVRGMnRpcVR3WVpzQkk?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
+2026-11-11T11:01+09:00,한국경제,"[속보] 철도노조 ""12월10일 오전 9시부터 무기한 총파업"" - 한국경제",https://news.google.com/rss/articles/CBMiWkFVX3lxTE14YUFCXzVRNDFTWnVWZWpLdEpaajBFYy1qcVhKNm1yOTBhUHZvYmU4VHBFcTZncS00NU9ERU91b2hEOEpMZHBNNnlKWGE0QUwzUlZRZFhVeUlmZw?oc=5,1,부터,rss:구글뉴스 대한민국,LIFE
 2026-11-11T11:00+09:00,연합뉴스 최신,"강릉시, 49억 투입 남대천 자전거 도로 완전 개통",https://www.yna.co.kr/view/AKR20261111073100062,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T11:00+09:00,연합뉴스 최신,"[속보] 철도노조 ""12월10일 오전 9시부터 무기한 총파업""",https://www.yna.co.kr/view/AKR20261111072200004,1,부터,rss:연합뉴스 최신,LIFE
 2026-11-11T11:00+09:00,연합뉴스 경제,푸드위크 코리아서 1천400만달러 수출계약…작년보다 18% 증가,https://www.yna.co.kr/view/AKR20261111071100030,3,달러|수출,rss:연합뉴스 경제,INV
@@ -930,6 +1259,7 @@
 2026-11-11T10:50+09:00,토큰포스트,"2500만달러 유치한 코프레임, 방문자별 AI 웹사이트 개발",https://www.tokenpost.kr/news/ai/436299,2,달러,rss:토큰포스트,INV
 2026-11-11T10:50+09:00,뉴시스 사회,여행 중 갑작스런 출혈…경북대병원서 1시간15분 만에 응급출산,https://www.newsis.com/view/NISX20261111_0003863477,4,출산|병원|응급,rss:뉴시스 사회,LIFE
 2026-11-11T10:50+09:00,Tbc.co.kr,보이스피싱 자금세탁 조직·명의 대여자 12명 송치,https://news.google.com/rss/articles/CBMigAFBVV95cUxQcUJnZ0FHaWFWLXRwU0EyYy1FV2E2S1gyWkI0RC16anRtWEJKTnZVZW5MTnBUbTdCTzhiUlN0RnZJZ1V5eEpXRlg4Y3dMSzVoNlkzdlFnWHhmWl9NaXhjZmNzYk1Ta2dsZXRyeERpZFhEZDJSZU16X1ZlQUQzM3B4dA?oc=5,3,보이스피싱,google:구글뉴스:보이스피싱 피해,LIFE
+2026-11-11T10:50+09:00,금융경제신문,"KDB생명, 사망보험금 최대 200% 보장…'더!행복플러스종신보험' 출시",https://news.google.com/rss/articles/CBMibEFVX3lxTFBBejZXUkRldTYxRnFJVkNfelFpc1FUZ2xLMkU5TWgtWnE2c1dBZUdDOUI1cUw0cU5tdVEwaWNOQ2dsX3hQZGJxT2gxbmh3VjBSREhVcXd2cndZdzUxV2hYa0I4eXB3NmIzN3g1MNIBb0FVX3lxTE0xQ1FNb2t4TUU4QVRLR1NfM1ozYnMxVmhUZmtnWFBDekZITDNoYUdQWFRmTEVIMzdmZW5teS1odzVmeldWMExUb24wOUJBSkM2Sk5DTmZqTmk0MmxFN2hIWHFaODdRVTdRUVhKc1pzNA?oc=5,6,보험금|종신|보험,google:구글뉴스:종신보험,INS
 2026-11-11T10:50+09:00,www.sideview.co.kr,전세사기만 2525명 송치…부동산 특별단속 전체보다 많았다,https://news.google.com/rss/articles/CBMibEFVX3lxTFAyS3hYVmFCWjBTQ3ZpeGpTQlBXSlE3OWxTYjhaMHJuV3dreVp4NFUyMG9QbjIxMGREZENjNW05XzZNMVotV1BpMGY1RDVZdjFvX3I2TFN3NzQ5NUtmZnBMdUF2RHJGRzFfTVNkNw?oc=5,5,전세사기|사기,google:구글뉴스:전세사기,LIFE
 2026-11-11T10:50+09:00,한국경제,"[단독] 지역화폐 예산 역대 최대 1.45조…국회사무처 ""규모 적정성 검토해야"" - 한국경제",https://news.google.com/rss/articles/CBMiWkFVX3lxTFAtbVk3SE1KbzlpRHBNSlpHZHVOWHBQMTBXTDByeVhqeDk5OXgyWjQ1UDJkRGQ4VmlUWXNnM3NDVHJ0NkZsMktSRVRYMzJjR2tldjN3UExkd0Z4QQ?oc=5,0,,rss:구글뉴스 주요,LIFE
 2026-11-11T10:50+09:00,서울경제,“젠슨 황 불륜에 10조원 어치 엔비디아 칩 중국 흘러 들어가” 주장 제기,https://news.google.com/rss/articles/CBMiUkFVX3lxTFBrT0ZJdXZSM2V0V0Mwa21lcjBHY3N5SDg5Znhac1QwNjFpUVZkYmIyQk54NEVJX3ZGTUtHVWxDb2JKUGhRODFFVkhvcS1sc0pHWmfSAVNBVV95cUxQQk56ZGViMWQzdk4zR0p5ZENneVB5UDlxczR0Z3JySnhKSUlOWHN3SW9HX3RJWnJmVEhJLVlkSmhQZnlEN0ltVFV6MmpyeW5zczAzMA?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
@@ -970,6 +1300,7 @@
 2026-11-11T10:46+09:00,조선비즈,"한국부동산원, 재개발·재건축 현장 지원 확대… “사업 지연 요인 선제적 발굴”",https://biz.chosun.com/real_estate/real_estate_general/2026/11/11/OI5S676FFFCJPIU4CC5PPWOQ3Y/,1,부동산,rss:조선비즈,INV
 2026-11-11T10:45+09:00,연합뉴스 최신,영암 조선소 노동자 사망 사고 전 안전조치 여부 조사,https://www.yna.co.kr/view/AKR20261111067100054,1,암,rss:연합뉴스 최신,INS
 2026-11-11T10:45+09:00,이데일리,"삼성 반도체 제조 노하우, 전국 14개 공공 연구시설로 확대(종합)",https://www.edaily.co.kr/News/Read?newsId=03939286645644736,2,반도체,rss:이데일리,INV
+2026-11-11T10:45+09:00,BeInCrypto,"비트코인, 약세 전환…지난번 가격 변화는",https://news.google.com/rss/articles/CBMickFVX3lxTE4zUkRxSlFCd2x3WXFVa0xmU1AzNU4xZHRkMmZURm5ma1VYZjJxbS14dzI0a202bXZNY3R6U3VtY0VvckloeVVNM1RtRG1UVmJ6RERtVElVNnNGTVlYeVg4WVluTkNScXRUVFdpalJ4cFJqQQ?oc=5,2,비트코인,google:구글뉴스:비트코인,INV
 2026-11-11T10:45+09:00,간호사신문,"영월의료원, AI로 패혈증·심정지 위험 예측…지역 필수의료 강화",https://news.google.com/rss/articles/CBMibkFVX3lxTE03ckJ2a3oteEdmVE04cGMtWlVpbFdmTllZUlN6SDJUWjFYRnZ1ZTJsS1gzTW03dmRZRDJkaGNjeDRaSms2OWZ5ek95VEtHQU9oeGl4N1FkMHk4WHpuMS1qc3ExRk5IRERPTVhRSzRB?oc=5,1,필수의료,google:구글뉴스:필수의료,INS
 2026-11-11T10:45+09:00,KBC광주방송,"출근길 차량 32대 연쇄 추돌에 아수라장...버스기사 ""제동 안 돼"" - KBC광주방송",https://news.google.com/rss/articles/CBMiYkFVX3lxTE5zX19jWEFEbDJmMFZiTTlvS3JGeFN1V2dDTkpuSGk2OXlwSGhFd2Z5NXZEd0Fla0d5VDBzc3JfSndwY24xcUg2R0hzRG1DMDlTcEIxRkJDU1B6OURjeDdicDVn?oc=5,0,,rss:구글뉴스 주요,LIFE
 2026-11-11T10:45+09:00,경제타임스,침수·화재 막는 벤처 육성…DB손보의 '소셜 혁신 8기',https://news.google.com/rss/articles/CBMiU0FVX3lxTE1nbm9nTm1aUEVHRkxBSHNvQVpLZW5uUmtyQ0tvbVFTRnJBemUyMWdSaU13ZHJ1eTFia2JGNXE3YUdPdF9kVVRBUi1XbkZXYmJ4TDBZ?oc=5,1,손보,google:구글뉴스:화재보험,INS
@@ -1004,6 +1335,7 @@
 2026-11-11T10:41+09:00,뉴시스 정치,"최민희, 사진기자 '하이에나 떼들' 표현했다 사과…""표현 과했다""",https://www.newsis.com/view/NISX20261111_0003863403,0,,rss:뉴시스 정치,LIFE
 2026-11-11T10:41+09:00,SBS 국제,"[자막뉴스] ""결국 미션 성공"" 남편까지 이용한 앨리스 황…10조 원어치 '엔비디아 AI 칩' 이미 중국 넘어갔다",https://news.sbs.co.kr/news/endPage.do?news_id=N1008840442&plink=RSSLINK&cooper=RSSREADER,3,엔비디아,rss:SBS 국제,INV
 2026-11-11T10:41+09:00,내외뉴스통신,[27년 경제전망분석] 반도체가 이끄는 3.1% 성장…고용·가계소득으로 얼마나 이어질까,https://news.google.com/rss/articles/CBMibEFVX3lxTE5iN29nXzVnaS1ic3ZXV04tQ1IxV3hZWG9UVnJIbU55TkFtUnVaOTZ5T2NQNWVZdEtBbzFOc2UwMndFcURQR2pndkNvVXVwYUJ2UXJyaEtDZGdQUHZrYkctMkxFeU9PenpYemJJQtIBcEFVX3lxTE1DR3lGLVlOekZuNnBEZ3Y3UUlGaWQxaDhjcVBvT1pHQWVIX0hldGF4akdMUzU3MmlSUHBKVE5iRWJLYWxBempqWVZOQjBaTURoNFBNMlR5cURid1c3TkV0M1oxOE1ENE50aFNkMHhHb2I?oc=5,2,반도체,google:구글뉴스:경상수지,INV
+2026-11-11T10:41+09:00,경향신문,"[단독]이용철, ‘일가족 살해 후 사체 소각’ 흉악범 변호···변론 전략은 “검찰 강압수사” - 경향신문",https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YVXVFUm1xY21BYkg5WXpwVGZidmdXc3ViekNTYURVeWVyMWh1Nk9LNmw5Vlo1RTd1N2xrTE9CWFZoSGQyeDFETlVkQjgyenNicVpmaVhiN1Jrd9IBX0FVX3lxTFB2alg2WlNncmxsaDBQRDlYZER3c3pZUGVYVWl1a2dQOElUaVd2aEdHTVFxWmtYRVNBU05XajNkQTAxcHBMU1RhTVktNmR5TGhfdUZHcWNuamlMam5iMzBv?oc=5,0,,rss:구글뉴스 주요,LIFE
 2026-11-11T10:41+09:00,전자신문,"코스피, 장 초반 상승 전환...코스닥 4%대 급등",https://news.google.com/rss/articles/CBMiTEFVX3lxTE9QRjJjRFo0YjI3dmc5dTR4Q2ZPOVFGcW9UV1RORF9CZHprOXFtZ2cyMEtZQ0NYY19DcXQxeEdaeWpnRy1IOXlpcTZaRUs?oc=5,7,코스피|코스닥|급등,google:구글뉴스:코스닥,INV
 2026-11-11T10:40+09:00,연합뉴스 최신,KT 사옥 등에 7차례 폭파 협박…10대 '스와팅' 범행에 징역 1년,https://www.yna.co.kr/view/AKR20261111069900061,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T10:40+09:00,연합뉴스 최신,동해선 ITX-마음 열차 영덕서 차량장애로 멈춰…승객 86명 환승,https://www.yna.co.kr/view/AKR20261111069700053,0,,rss:연합뉴스 최신,LIFE
@@ -1030,6 +1362,8 @@
 2026-11-11T10:38+09:00,필드뉴스,"[IPO X레이] 제이앤티지 ②'매출처 다양'하다고 밝혔지만, 적자 고객 한 곳이 매출 83% 담당",https://news.google.com/rss/articles/CBMibEFVX3lxTE9DSG1CbWVZMWdlcUZHdEplOUwxTXBra2FjcFJ6UXg4dXFLUkt5X3ZTMGJWSzBBU1VMWm1tX2RVNG0tOW1yZGE4QzFEUmVKblpuZnhiSGxSa2RrQjUyZTR4ZWVQTnNGRUF3UFRrdtIBbEFVX3lxTE9DSG1CbWVZMWdlcUZHdEplOUwxTXBra2FjcFJ6UXg4dXFLUkt5X3ZTMGJWSzBBU1VMWm1tX2RVNG0tOW1yZGE4QzFEUmVKblpuZnhiSGxSa2RrQjUyZTR4ZWVQTnNGRUF3UFRrdg?oc=5,2,IPO,google:구글뉴스:공모주 IPO,INV
 2026-11-11T10:37+09:00,연합뉴스 최신,"순천서 초등 유도부 코치, 학생 학대 의혹…경찰 수사",https://www.yna.co.kr/view/AKR20261111066800054,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T10:37+09:00,연합뉴스 최신,"趙의장 ""개헌, 국회 중심으로 추진…현직 대통령 연임은 불가""",https://www.yna.co.kr/view/AKR20261111060600001,0,,rss:연합뉴스 최신,LIFE
+2026-11-11T10:37+09:00,매일경제,"강지영, 테이 후임 된다…‘굿모닝FM’ 새 DJ 낙점 - 매일경제",https://news.google.com/rss/articles/CBMiZkFVX3lxTFBIQlpSY19aYUFac3pIR25LUXBRUUR3aXJOLVZJOURkUFdvOFVJWWhOODRRN2l6NTZuZU1qbEFaM29TN2lNa0dKUk85bGhYNlJqQW9DTzdTRXZLLWtxcGg4OGdydkxadw?oc=5,0,,rss:구글뉴스 주요,LIFE
+2026-11-11T10:37+09:00,한겨레,제주 해역서 우주발사체 시험발사 준비하던 스쿠버다이버 사망 - 한겨레,https://news.google.com/rss/articles/CBMiX0FVX3lxTFA5TFNkQ3poRjl4RWFkT0p0WjVFX3NkVjE2RUFjUEZWT3ViQmd3MUIzSnNPZUxnSERyZ1pBdDdEclp4d195QVdPRXFBV1Rob1hqNEFSMThFQmlDTE5WMVFB?oc=5,0,,rss:구글뉴스 대한민국,LIFE
 2026-11-11T10:37+09:00,인포맥스,"한은 ""외국인 NDF 매도, 주식 환헤지 영향 커""…원화 강세 베팅도",https://news.einfomax.co.kr/news/articleView.html?idxno=4444144,1,외국인,rss:인포맥스,INV
 2026-11-11T10:37+09:00,조선비즈,"전세계 15명..권오중 희귀병子, ""의사가 15세 전에 죽는다고..아내에 숨기고 생사 확인"" [Oh!쎈 이슈]",https://biz.chosun.com/entertainment/enter_general/2026/11/11/GNRWEYRYGQZWINZRMVTDSMZUGA/,1,전세,rss:조선비즈,INV
 2026-11-11T10:36+09:00,연합뉴스 최신,"산림청, 소나무재선충병 확산 차단 위해 국비 추가 투입",https://www.yna.co.kr/view/AKR20261111064400063,0,,rss:연합뉴스 최신,LIFE
@@ -1050,6 +1384,7 @@
 2026-11-11T10:33+09:00,연합뉴스 경제,"국민연금, JP모건자산운용과 업무협약…전략적 협력 강화",https://www.yna.co.kr/view/AKR20261111067400530,4,연금|국민연금,rss:연합뉴스 경제,INS
 2026-11-11T10:33+09:00,연합뉴스 최신,"인도, 오염 극심한 야무나강에 유람선 띄워…환경단체 우려 묵살",https://www.yna.co.kr/view/AKR20261111065800009,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T10:33+09:00,파이낸셜뉴스 증권,"한진칼우, 또 상한가…호반·조원태 지분 경쟁에 7거래일 4배 급등",https://www.fnnews.com/news/202611110945565709,2,급등,rss:파이낸셜뉴스 증권,INV
+2026-11-11T10:33+09:00,조선일보,"이번엔 남산 케이블카, 또 충돌한 서울시와 국토부 - 조선일보",https://news.google.com/rss/articles/CBMilwFBVV95cUxOdW9DRDhIeGlXWXZnRDhtTEJHYi1LX25DTXd6amFmOWotRzkwSndjakFBTUltS0xELXRaYk5TZERqU3ZHYzhuQWdOMU1FOVBiTnVXVWpjUEN6MWN4VlllbTN0cEtNMmV0OV83eGJCb2hPS0k1eFNBM2J4NjR2MUNZUUlHd0pyeTNlM2FnaXpzRldCaVd2ZGlv?oc=5,0,,rss:구글뉴스 대한민국,LIFE
 2026-11-11T10:33+09:00,의사신문,"[건강정보] 찬바람 부는 초겨울, 기침·가래 잦아진다면 ‘COPD’ 의심 - 의사신문",https://news.google.com/rss/articles/CBMib0FVX3lxTE83MWpkQ2ppQkhkdHJDZkVFVGx5T2prMkpaNi1lQ3RZMHZFcC1aQWhiMWNURjI4SUlpeXVtN3lHMl9pN3dnd2xjQV9Wa2VJVXRNcnhSbmRhQ21HTm1VeFQwaFNmdHg3UEx6YklOcnNKNA?oc=5,0,,rss:구글뉴스 주요,LIFE
 2026-11-11T10:33+09:00,CEONEWS,[글로벌이슈] 젠슨 황의 위기…엔비디아 제국 흔들리나,https://news.google.com/rss/articles/CBMiX0FVX3lxTE5mTHRXTFpzRVVDMlo4eG55R3pzQTQzemtrYk1kbXYtMEdaZFdyS1NhUlQ1Rl9kM3Q1MjE5WXlISEhOQlhTWlptRVdFal9JaDlVRWNSbDFET1BBT2U5d1Yw?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
 2026-11-11T10:32+09:00,연합뉴스 최신,"[게시판] 신한증권, 11∼12일 '2027년 신한 금융시장 포럼'",https://www.yna.co.kr/view/AKR20261111067200008,0,,rss:연합뉴스 최신,LIFE
@@ -1063,6 +1398,7 @@
 2026-11-11T10:31+09:00,뉴시스 정치,"한동훈 ""수험생 여러분, 다 잘 될 겁니다""…응원 메시지",https://www.newsis.com/view/NISX20261111_0003863423,0,,rss:뉴시스 정치,LIFE
 2026-11-11T10:31+09:00,조선 경제,"美 상무부, ‘中 스파이 의혹’ 연루 기업 제재 미뤘다…엔비디아 입김 논란",https://www.chosun.com/economy/tech_it/2026/11/11/CBNRPUZTWZG3DAMHH2ILWNF62U/,3,엔비디아,rss:조선 경제,INV
 2026-11-11T10:31+09:00,뉴스웰,‘단일 종목 레버리지 ETF’ 되짚어보기(중) [오인경의 그·말·이],https://news.google.com/rss/articles/CBMibEFVX3lxTFBFcEJkdjZRU0lvR0t2eXpCZHRlUHd1TDlyalY4Ml9mQU11RW5naEVPNHF0b0kybFFQa0w0dDJ0eDBHUzlGV1BNZW5EUVNfZ1hURE9pRmFBT1BOWnJBOTNQUjNIVk90dHlnRFNsWg?oc=5,3,ETF,google:구글뉴스:삼성전자 SK하이닉스,INV
+2026-11-11T10:31+09:00,여성소비자신문,제약업계 ‘벤포벨알파정’ 출시·캄보디아 헤브론의료원에 전문의약품 기부 - 여성소비자신문,https://news.google.com/rss/articles/CBMiZkFVX3lxTE5UN2J2dDAzWjV1bkprcTNGTW1OdEpDUmxHekQ4SWppOFNqZG85Z29peUVlSU9HaVZsNmhrdFFSQmdmZVo4aUk1YXllVkRrTG9IcDg1SjhCMHV5RGhPeDBSNWlZVXlUUQ?oc=5,0,,rss:구글뉴스 주요,LIFE
 2026-11-11T10:31+09:00,인터넷조은뉴스,"[조은행사]비트코인하우스오리진, HRF와 함께 '탈북작가 이현서' 북사인회 및 다큐멘터리 상영회 개최",https://news.google.com/rss/articles/CBMiY0FVX3lxTE1uVWVvNERBZENSUFRpSktqSVdGaXlaNnVTOEs1MU5zLXZQcHlUTE1ySlo2eU5xRlpmTF9ZTVZsekdadlFaLTFhYmxnT3M0MFdHZWZnSHdZQU8yUFhZdDBIMVZ4Zw?oc=5,2,비트코인,google:구글뉴스:비트코인,INV
 2026-11-11T10:31+09:00,허프포스트코리아,"하나금융그룹 뼈아픈 보험 부문의 퇴행 : 하나생보·손보 3분기 누적 적자, '비은행 강화 전략' 발목 잡는다",https://news.google.com/rss/articles/CBMiV0FVX3lxTE1kRkViZFp0eGxwRGV3TWNwcG5DT1VpWG1HbFJqS1VNY0k1VzFkT1FfQU1PcHNMNm1QZmtVT0RMV3dhQlcteGNLVHBxcE9pQ0p6OVQyNjc2Zw?oc=5,3,보험|손보|생보,google:구글뉴스:보험사 실적,INS
 2026-11-11T10:30+09:00,연합뉴스 최신,롯데웰푸드 3분기 영업이익 899억원…작년 동기 대비 29.7%↑,https://www.yna.co.kr/view/AKR20261111067000527,0,,rss:연합뉴스 최신,LIFE
@@ -1085,6 +1421,7 @@
 2026-11-11T10:29+09:00,조선 경제,"금융보안원 뚫은 해커, 금융감독원 위장한 뒤 IP 100여 개 동원해 교란…금융당국 오늘 현장 조사",https://www.chosun.com/economy/economy_general/2026/11/11/HMSMUF22Z5D6TMUO7AIAJ7LQUM/,1,금융감독원,rss:조선 경제,INS
 2026-11-11T10:29+09:00,글로벌뉴스통신GNA,"한국거래소,(주)바로팜 코스닥시장 상장기념식 개최",https://news.google.com/rss/articles/CBMidEFVX3lxTE5BMUJTOUdQbTBUTTBRQkJQT29ZOXZqbDVUUnN0VjFSNHNnVnhRaDk4WUU5UGpXVmpxQ2FwVTVqeGtUNWVYZy1tTEVuV1NSWFlqckpwdmZOSkxJemZjdThNcEM4b3M2S2xyVWdrOU9QTndDNUxs?oc=5,2,코스닥,google:구글뉴스:코스닥,INV
 2026-11-11T10:29+09:00,연합인포맥스,"금융위·금감원, 금융보안원 긴급 현장 조사…정보유출 경위 파악 - 연합인포맥스",https://news.google.com/rss/articles/CBMicEFVX3lxTFBVS2dsZkZNNlhqSzBlZmlqYlZwODBhNWJHYjhuc1dXODh6OXlBNmd2NHZoYWFNWTd3dkNyZFJ2akpCMVVINm9CLTJGWUhYQzJfQkRYdXNtT3NzLU56dFJwd01saWNCX05ZNFZ6OF9ja3A?oc=5,1,금감원,rss:구글뉴스 비즈니스,INS
+2026-11-11T10:29+09:00,뉴스락,"[함께가자 우리ESG] DB손해보험, 교통·환경챌린지 데모데이 성료",https://news.google.com/rss/articles/CBMibkFVX3lxTFBuaUVlX0kwaW44aFVpRWdoTGJwY0J3ZE9Zcl9mb19pRmRvdGVNSldDbnBUd0FlWGpGcWFuZEhmeHh6S0dQcVZJTWR6VWtELUQyLXhZWS1QeXdnX29PVGZvYl9iQVQ1RWlPRFpuWG5n?oc=5,2,보험|손해보험,google:구글뉴스:화재보험,INS
 2026-11-11T10:29+09:00,월요신문,"바로팜, 코스닥 상장 첫날 공모가 아래서 출발...장중 28%↓",https://news.google.com/rss/articles/CBMiakFVX3lxTE5aMi1idzR4YUZ0cUlIX0tsOVFKMEZaOUQ4aHlBZ1Y5c0Y4b0JDQmtXamVrVEpBRkd4dE4wQW1lQzJ2YWpSM1FLN0J0VHJwc09zM2dBei1LR2lsdjBPMjRkbUo5VlozQXE2Q1E?oc=5,2,코스닥,google:구글뉴스:코스닥,INV
 2026-11-11T10:29+09:00,인포맥스,"금융위·금감원, 금융보안원 긴급 현장 조사…정보유출 경위 파악",https://news.einfomax.co.kr/news/articleView.html?idxno=4444141,1,금감원,rss:인포맥스,INS
 2026-11-11T10:28+09:00,연합뉴스 최신,말자할매와 함께 고민 나눈다…성동구 '청년공감 소통토크쇼',https://www.yna.co.kr/view/AKR20261111066100004,0,,rss:연합뉴스 최신,LIFE
@@ -1115,6 +1452,7 @@
 2026-11-11T10:24+09:00,아시아경제 증권,"국민연금, JP모건자산운용과 맞손…""全자산군 협업""",https://view.asiae.co.kr/article/2026111110243983778,4,연금|국민연금,rss:아시아경제 증권,INS
 2026-11-11T10:24+09:00,라이센스뉴스,"KDB생명, 사망보험금 10년 후 2배 되는 종신보험 출시",https://news.google.com/rss/articles/CBMia0FVX3lxTE0wZ3JrVjNOd1FKZHFHSnNhSlBwa1JuYkQ4Z1ZoY21obUZ1SU1WQi16REFZcDFHcnhvVzRjeEEwTXRFOHEwMUctaVl1eS1zS2phTUlUU2hMQS02SEs3Q2Q5cVI2MEhWYjhCeEtr?oc=5,6,보험금|종신|보험,google:구글뉴스:종신보험,INS
 2026-11-11T10:24+09:00,연합뉴스TV,"코스피, 하락 출발 후 상승 전환…코스닥 3%대 강세",https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9sb2NZZXRjbkRGbFlzVEZMU0dYYXU0TmpVejhXSUNGQ09VOVgteGlacUtEaEJWM0RmMEVzNzBqU0Ftdm9hM0VOYUVpbk9sQ3JEczlZdDhkMjY1cm1GMGpvckxTVnlmNkU?oc=5,5,코스피|코스닥,google:구글뉴스:코스닥,INV
+2026-11-11T10:24+09:00,문화일보,“남자들 그녀 미소에 영혼까지 끌려가” 앨리스황 지인이 전한 말 - 문화일보,https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Hc3NVZlNJMDMwd1lMTjRNSmVjQy1vTDVTN0NmNDZ1MlVDeE16VUM4dzl2UVlQYjI3Q3lvYldjZjJpdGJlZHFPU2d6UDY2bGxx?oc=5,0,,rss:구글뉴스 주요,LIFE
 2026-11-11T10:23+09:00,매일경제,반도체 반등 베팅한 초고수…셀트리온은 차익 실현 [주식 초고수는 지금],https://news.google.com/rss/articles/CBMiUkFVX3lxTFBQMl9tYVhsNlQwMThWY2plWldDSm1UYUtJX3NITnpFdWpCWE56Y0lMdGwxNXJPSW1Gc3Bjdk1xdGlacUdoYzdnZ0U3THJ6dnNrZFE?oc=5,2,반도체,google:구글뉴스:반도체 주가,INV
 2026-11-11T10:22+09:00,연합뉴스 최신,"리센느, 내년 2월 첫 단독 콘서트…""꿈만 같아, 최선 다해 준비""",https://www.yna.co.kr/view/AKR20261111063700005,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T10:22+09:00,연합뉴스 최신,"전남광주시, 환경오염물질 배출사업장 합동점검",https://www.yna.co.kr/view/AKR20261111062700054,0,,rss:연합뉴스 최신,LIFE
@@ -1382,7 +1720,7 @@
 2026-11-11T09:49+09:00,MBC 뉴스,"코스피, 장 초반 등락 반복‥코스닥은 상승",https://news.google.com/rss/articles/CBMidEFVX3lxTE9Yc2NmZUR3d1RvMXNaNnEwQVNSaTdZaTBlVW9VTkJMVUNuTUxVOWNRNWNnbWViYVVBdm0tWFpQZ3IzX0MxOTlCeW5WejFZZndtaVowUWxFQXVRV080djMxcE9EZm9RWWRRV3FDd3RlR2NaTFR60gF0QVVfeXFMUGZjOFVuZjRCaDNPZ3g1RnlNaUhpRnBHNnB6SURoN0lSaE90QVVjMjV1aHJ4a1JYX1hqMmpKeEZ0ZGx3TlpFd3RaYmxBcWszbEFmbmRJTTFhSVZ4QUM1eFh5cnVfcGJab1Q0SXdiR0RIaTVYMko?oc=5,5,코스피|코스닥,google:구글뉴스:코스닥,INV
 2026-11-11T09:49+09:00,www.2news.co.kr,"미국 CPI 쇼크에 흔들린 코스피, 외국인 매도세 속 장초반 혼조세",https://news.google.com/rss/articles/CBMiaEFVX3lxTE9UZDY0ZzBQV2dlVlAteVVCQ0NCUUJPRGktQnNsZ1BtQVIxX005Z1FjNVlSQ1RkX18wZm42OUxXRkthbDRXcTRrSnhLQko1d1ZSNENRbGtXS1dMVkRiM3ZTbzBLU3VBR0hh?oc=5,6,코스피|외국인|CPI,google:구글뉴스:미국 CPI,INV
 2026-11-11T09:49+09:00,뉴스투데이,"""미국 물가 예상보다 높아…12월 이후에도 인상 기조""",https://news.google.com/rss/articles/CBMiXkFVX3lxTE9IcTYzOFV4STRzUHBmdWlsUEtFOWdSa293U1RWNUU0QVJtWldubVZqLVl0X0wyOC1heU5yVVF4MlhOSUV5cHNJNG4tRXNJYmFQb1hwLUFlbzNQYURtY2c?oc=5,4,물가|인상,google:구글뉴스:기준금리,LIFE
-2026-11-11T09:49+09:00,경향신문,[속보]서울 성북구서 10대 여성 살해한 50대 남성 긴급체포 - 경향신문,https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlbkNHZ21yYmtzTnAwam1QWkJfUDE3OS1lUkZzUlVUeVVKcm92X0NBWlVfLWJDTi1pSUMxZU10MHdZNHFKWTJkSC1XYmNLdzJXekJUcUlhN1V6d9IBX0FVX3lxTE0xRk96U2RiVVJxWFpUNE1UTlhVakJoSGtUSFBvdXNoenNRaTdrYUZfQzloRGJXTmRTbHNZTU16Z2N1dlUyQ2t4NTRWTlhYN1k2QkFpQWFhSlozcElmSkpj?oc=5,0,,rss:구글뉴스 주요,LIFE
+2026-11-11T09:49+09:00,경향신문,[속보]서울 성북구서 10대 여성 살해한 50대 남성 긴급체포 - 경향신문,https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlbkNHZ21yYmtzTnAwam1QWkJfUDE3OS1lUkZzUlVUeVVKcm92X0NBWlVfLWJDTi1pSUMxZU10MHdZNHFKWTJkSC1XYmNLdzJXekJUcUlhN1V6d9IBX0FVX3lxTE0xRk96U2RiVVJxWFpUNE1UTlhVakJoSGtUSFBvdXNoenNRaTdrYUZfQzloRGJXTmRTbHNZTU16Z2N1dlUyQ2t4NTRWTlhYN1k2QkFpQWFhSlozcElmSkpj?oc=5,0,,rss:구글뉴스 주요,ETC
 2026-11-11T09:49+09:00,서울경제,美 ‘빅스텝’ 우려에 삼전닉스 주춤한데…코스닥은 3%대 상승[마켓시그널],https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwUnZldXBqZ18tZzF0X1h0NE1MUmlIdzhWbjdtaVdTRng3bjdPci1xR0xFbkRzNDFMUWhBX29ZanM2VXRWaE1xOXowWDI0MG5HTUHSAVNBVV95cUxNeHVQVGFRR2FYV2tTcG9UT3VTWGVSRks4NTY3NExIeGt0WUxDTDdUTmp5WS1GcnV6bWhMRm9BOTc3bHQwSURkT0szSnNwb1hYS0xDbw?oc=5,2,코스닥,google:구글뉴스:코스닥,INV
 2026-11-11T09:48+09:00,연합뉴스 최신,아시안게임 금메달리스트도 총출동…16일 국제브리지대회 개막,https://www.yna.co.kr/view/AKR20261111053400007,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T09:48+09:00,연합뉴스 최신,"초록우산, 23일 이주배경아동 체류권 보장 정책토론회 개최",https://www.yna.co.kr/view/AKR20261111053100371,0,,rss:연합뉴스 최신,LIFE
@@ -1403,6 +1741,7 @@
 2026-11-11T09:46+09:00,연합뉴스 최신,"美 군용기 10여대, 이란 위협 속 영국 기지서 재배치",https://www.yna.co.kr/view/AKR20261111048500009,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T09:46+09:00,이데일리,조직 저항 느끼는 로봇수술…식도암 환자 성대 장애 줄었다,https://www.edaily.co.kr/News/Read?newsId=03660486645644736,1,암,rss:이데일리,INS
 2026-11-11T09:46+09:00,동아 사회,새벽 서울 성북구서 10대 여성 살해…50대男 긴급체포,https://www.donga.com/news/Society/article/all/20261111/135004262/1,0,,rss:동아 사회,LIFE
+2026-11-11T09:46+09:00,동아 사회,아들 성범죄 합의 안해주자…피해 10대 여성 살해했다,https://www.donga.com/news/Society/article/all/20261111/135004262/1,1,피해,rss:동아 사회,LIFE
 2026-11-11T09:46+09:00,아시아경제 증권,"삼성운용, 'KODEX 200타겟위클리커버드콜' 삼전·닉스 특별배당 반영",https://view.asiae.co.kr/article/2026111109460676253,2,배당,rss:아시아경제 증권,INV
 2026-11-11T09:46+09:00,뉴스투데이,"환율, 1330원대 후반에서 등락…美 물가 충격에 달러 반등",https://news.google.com/rss/articles/CBMiXkFVX3lxTE0tRU9QNFZuR0xNalN6TmR2VFg0YmtlZ3dkM0FCNWtNay1nMlhCRWxUVmNlMFZwQnFuRWZFSXBSd0ZaVVBMVmZlWDR5MlRudTVGbW1Jd2tvY1ZuZVY3U1E?oc=5,7,환율|달러|물가,google:구글뉴스:원달러 환율,INV
 2026-11-11T09:46+09:00,인포맥스,삼성전자가 키우면 다르다…투자자가 주목하는 'C랩 스타트업',https://news.einfomax.co.kr/news/articleView.html?idxno=4444121,2,삼성전자,rss:인포맥스,INV
@@ -1468,6 +1807,7 @@
 2026-11-11T09:37+09:00,토큰포스트,텍사스 지자체별 1000만달러 가상자산 투자 법안 제출,https://www.tokenpost.kr/news/policy/436255,4,달러|가상자산,rss:토큰포스트,INV
 2026-11-11T09:37+09:00,뉴시스 사회,"한양대 ERICA 창업기업 코스모크, 글로벌 대회 ‘2위' 수상",https://www.newsis.com/view/NISX20261111_0003863219,0,,rss:뉴시스 사회,LIFE
 2026-11-11T09:37+09:00,동아 사회,"배추 들 땐 허리, 버무릴 땐 손목…“김장철 척추·관절 주의”",https://www.donga.com/news/Society/article/all/20261111/135004279/1,0,,rss:동아 사회,LIFE
+2026-11-11T09:37+09:00,유스연합,몰라서 못 받은 생활비 지원금 충격?!! 취약계층 생활비 지원과 받는 법,https://news.google.com/rss/articles/CBMidEFVX3lxTE1NSFJvMGtzeVJYTDZ3S1lkTGVweDNLSFFBU1lNelFxcEUwSmF5ZUozNjY3NWNJY2M5T1dRbmFFT1RWWEt3QVNOdXlaeHpuUWhxRWxBdDRZOXB6SDQ2cDdWbTR0NjNaMzFnRm93ZHpEQnpvdFgy?oc=5,3,지원금,google:구글뉴스:정부 지원금 신청,LIFE
 2026-11-11T09:37+09:00,뉴시안,반도체 수출 4배 폭증…한국 수출 1조 달러 돌파 '초읽기',https://news.google.com/rss/articles/CBMibEFVX3lxTE9VQ1J5dU5KZWhRdXpsSHNrazR0c2QzX2pHald0YXQza1ZPVG55NjJpSG9BVTlsS3JibzlRcjdzUmFvZ3YwVnlGbGs2UTlsS3R4bi1EM0RXOElwVjgtaUZ6S1U4UGZCM29QVkJjZA?oc=5,5,반도체|달러|수출,google:구글뉴스:수출 증가율,INV
 2026-11-11T09:37+09:00,진일보 | 전남일보,삼성전자·SK하이닉스 동반 약세…美 물가 충격에 반도체주 흔들,https://news.google.com/rss/articles/CBMib0FVX3lxTFBPR1dqUnhHWjhLbnBDcWJqbDhIVTFKUGNRbW4zQVNCVFc1NDgzbmZtUm5nOXdhT1pDZFRyRVZORDlTekZmSDRqS1h2VEVWdW15MUdZaVl6dWloalpqdV9EYmp1eVd6aDdVal9jY2JzMA?oc=5,8,반도체|삼성전자|하이닉스|물가,google:구글뉴스:삼성전자 SK하이닉스,INV
 2026-11-11T09:37+09:00,비즈트리뷴,"카카오뱅크, 10만 원 내면 13만 원 혜택… 연말정산 타깃 '고향사랑기부' 출시",https://news.google.com/rss/articles/CBMib0FVX3lxTE5iV280Vzhfb2Z1a3RFLXdNdEtOVkV4LVhYTmxWcWZMdjhCNFN0cWQ2ek9DTy1QN043RDZGeFF1bTdGVnlPbVZTNk82bDIxQWFFMldpNDZoeTJSV0VGbnZrRk1BS0RtV1ZHRXpzTDVhQQ?oc=5,4,연말정산|만 원,google:구글뉴스:연말정산,LIFE
@@ -1603,6 +1943,7 @@
 2026-11-11T09:22+09:00,연합뉴스 최신,AI 시대 지역 저널리즘의 생존 전략…청주서 지역신문 콘퍼런스,https://www.yna.co.kr/view/AKR20261111043900005,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T09:22+09:00,이데일리,스테이블코인법 정부안 제출 임박…오늘 국회 세미나,https://news.google.com/rss/articles/CBMigAFBVV95cUxOYUU2enlKUjB6WmJ4OTZ4U2VtWlNpRkV0dzNfWE1CMHAzTmp1SUhhU045Y1d2c2NHUDYwVmhLajFNa1V4MTVKVzlWdTN5ZlRhVUI2R3FvemFMM0R0NjB3OGhwWkJkT21XcnlZZmwwNFNaQl9KY1hIUFlMcWY2WXN3aA?oc=5,2,스테이블코인,google:구글뉴스:스테이블코인,INV
 2026-11-11T09:22+09:00,이뉴스투데이,"한투운용, 미 국채 ETF 순매수 500억 돌파",https://news.google.com/rss/articles/CBMidEFVX3lxTE5fQUQwT3d0QnhIVEFCZ2lZdTFLZkxrcnY5MVF6dEg3cFRzX1J1cVBXQTRid2xMbjNLWEg3bk1YTGE4MVdNbnpDcm9zM1Q2ZGh2eVFIQW8wTTBnWnRTYU9yWWtSM2JkWjZXR3FoTU9ESHhjY3ZG0gF0QVVfeXFMTl9BRDBPd3RCeEhUQUJnaVl1MUtmTGtydjkxUXp0SDdwVHNfUnVxUFdBNGJ3bExuM0tYSDduTVhMYTgxV01uekNyb3MzVDZkaHZ5UUhBbzBNMGdadFNhT3JZa1IzYmRaNldHcWhNT0RIeGNjdkY?oc=5,7,순매수|ETF|국채,google:구글뉴스:개인투자자 순매수,INV
+2026-11-11T09:22+09:00,한겨레,"이 대통령, 오늘 김민석·한병도와 만찬…종부세·조작기소 특검 논의할 듯 - 한겨레",https://news.google.com/rss/articles/CBMidEFVX3lxTE1JSXZUUjQtZGI4Zk5lZnlBekJqMUQxUWxJY2VsNzJQYzFjUThzRDFnUmVuTUFPTFBpb2IxX1FiRHRYWTB0Tmo2Z3hGSnVPVVhnVmtxQ1RrVlZiclBaSEhEUGVKeTdhY3ltN0xydEM3OHpiX0Yy?oc=5,1,종부세,rss:구글뉴스 대한민국,INV
 2026-11-11T09:22+09:00,www.ebn.co.kr,"코스피, 美 물가 충격 딛고 반등 성공…코스닥 2%대 급등",https://news.google.com/rss/articles/CBMiaEFVX3lxTE50QnFMXzd3WGMyQjRPcUdTdnc4Z0x5RlJ6ZHd0RnlkR2haNjR0YmhuQWFuLW9rUzNGdHRnSy1adW5GMEZpWGtaekdwSTlnejNaY2VYYlltb1RVVnBEbHBLQlFZYkZEcndr?oc=5,9,코스피|코스닥|급등|물가,google:구글뉴스:코스닥,INV
 2026-11-11T09:22+09:00,www.2news.co.kr,삼성전자 SK하이닉스 장 초반 약보합,https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ZUmZOaU1aaHVIVVFzQUhmMGFjOVJfNEFhM1hTRGNfaXEzRkt5ZGZRNnBFaTB5eGJ1MXdWWkdzYVExbkwtTnhXRTNjbE41WG12STM5MEstakpPeE9HLUMtYmYyMFBDb09z?oc=5,4,삼성전자|하이닉스,google:구글뉴스:삼성전자 SK하이닉스,INV
 2026-11-11T09:22+09:00,M이코노미뉴스,"코스피, 美 금리 인상 우려에 장 초반 약세...코스닥은 2%대 상승",https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5rdnAyaU5IVDhYVVUzRjkxS1VVWW1YNS1GcWdERFh2a2hfd1BFMG0xRzBLSFljV1lNOUs3dDdFcEF2dkZFdFFEVENZcGJUeXo4bUotTkRBamJUTk1OaEVPcE9mOVl6Vlk?oc=5,7,코스피|코스닥|금리,google:구글뉴스:코스닥,INV
@@ -1627,6 +1968,7 @@
 2026-11-11T09:19+09:00,연합뉴스 최신,"네오위즈, 신작 공백에 3분기 영업이익 63.7%↓(종합)",https://www.yna.co.kr/view/AKR20261111033251527,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T09:19+09:00,한국경제 금융,[마켓라이브] 미국 물가 부담에 반도체 대형주 주춤…보안·바이오·클라우드는 강세,https://www.hankyung.com/article/202611119266i,4,반도체|물가,rss:한국경제 금융,INV
 2026-11-11T09:19+09:00,한국경제 금융,[마켓라이브] 코스피 상승 전환·코스닥 4%대 강세…반도체 장비·기판주 급반등,https://www.hankyung.com/article/202611119266i,7,코스피|코스닥|반도체,rss:한국경제 금융,INV
+2026-11-11T09:19+09:00,한국경제 금융,[마켓라이브]코스닥 이틀 연속 매수 사이드카…삼전닉스도 상승폭 확대,https://www.hankyung.com/article/202611119266i,5,코스닥|사이드카,rss:한국경제 금융,INV
 2026-11-11T09:19+09:00,동아 사회,‘숯덩이 고등어’ 항의하자 “예민하다” 되레 핀잔 준 식당,https://www.donga.com/news/Society/article/all/20261111/135004053/2,0,,rss:동아 사회,LIFE
 2026-11-11T09:19+09:00,조선일보,"""내 최애 디즈니 왕자님""..'재혼 황후' 이종석, 로판이 곧 퍼스널 컬러 '글로벌 최다시청 핵심' - 조선일보",https://news.google.com/rss/articles/CBMijwFBVV95cUxQVlZYWWNLTUJKTzhZOUR1NTZiRVpNREhvYmVkOEh2cHZXM0ZBdHhoQ2hGcVY0YnNPelN1NEV3TEhCaUVreWxYM0gtNWZna2x6UzllamdVaW9ETHk0MGUycVNWTEJMbVljYmdMZnBQRXVOR2Vaa2VPMnBLbHRuM2dIc3hBM01UQUQ1cWZ0R2dSbw?oc=5,0,,rss:구글뉴스 주요,LIFE
 2026-11-11T09:19+09:00,강원도민일보,"[속보] 앨리스 황, 10조원 규모 엔비디아 반도체 중국 우회 공급 의혹...젠슨 황 관계 이용",https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CN0NoWERvSy16M2RUQXJSV3hEdVpGSHlJTE1QZk53WXktWEZfYWRYaEM0UWpEeWVPWFRYdlNNLUVnQUJPUkdyVnRIa0p0WDhEZXlmZnJnRUNyc2llMjFZWHQ0RTBxTVk?oc=5,5,반도체|엔비디아,google:구글뉴스:엔비디아,INV
@@ -1827,6 +2169,12 @@
 2026-11-11T09:00+09:00,머니투데이,[스팟] 코스피 29.42포인트(0.56%) 내린 5209.71 출발,https://www.mt.co.kr/stock/2026/11/11/2026111108554667494,3,코스피,rss:머니투데이,INV
 2026-11-11T09:00+09:00,머니투데이,[속보]11월1~10일 수출 335억달러…반도체 331.2%↑,https://www.mt.co.kr/economy/2026/11/11/2026111108455170780,5,반도체|달러|수출,rss:머니투데이,INV
 2026-11-11T09:00+09:00,머니투데이,반도체만 331%↑…11월1~10일 수출 '역대 최대',https://www.mt.co.kr/economy/2026/11/11/2026111108322848143,3,반도체|수출,rss:머니투데이,INV
+2026-11-11T09:00+09:00,법무부,"법무부, 비엔나·홍콩·서울서 국제 세미나 개최...법무외교를 통해 국제투자분쟁(ISDS) 제도 개선에 기여",https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788768,2,분쟁,gov,INS
+2026-11-11T09:00+09:00,행정안전부,고속도로 대설 복합재난 대응역량 강화한다,https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788767,0,,gov,LIFE
+2026-11-11T09:00+09:00,기획예산처,"기획처장관, 美 중간선거 이후 경제동향 점검을 위한 전문가 간담회 개최",https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788765,0,,gov,LIFE
+2026-11-11T09:00+09:00,기후에너지환경부,"주민주도 재생에너지 확산… 김성환 기후부 장관, 햇빛소득마을 현장 방문",https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788761,0,,gov,LIFE
+2026-11-11T09:00+09:00,기상청,"기상청 인사발령(고공단 및 3, 4급 전보)",https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788760,0,,gov,LIFE
+2026-11-11T09:00+09:00,산림청,"정읍국유림관리소, 가을철 임업직불제 의무준수사항 이행점검 성료",https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788757,0,,gov,LIFE
 2026-11-11T09:00+09:00,농림축산식품부,"'농업인의 헌신에 감사, 농업·농촌의 미래를 함께 열다'",https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788755,0,,gov,LIFE
 2026-11-11T09:00+09:00,과학기술정보통신부,중앙전파관리소-경찰청 통합대응단 전기통신금융사기 예방 위해 업무 협약 체결,https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788753,2,사기,gov,LIFE
 2026-11-11T09:00+09:00,고용노동부,"장애인 고용의 가능성, 새로운 직무에서 찾는다",https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788752,1,고용,gov,LIFE
@@ -1926,7 +2274,7 @@
 2026-11-11T08:59+09:00,지디넷코리아,데이원컴퍼니-엔비디아 에이전틱 AI 해커톤서 '플라이게이트' 팀 우승,https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvZkZvWk9JaWRzSFBzbmZpMi1LMEV6SWpXNEZCeG1LSklROUd1bERnRTk1ZU1RRzhiQm5FcGZ1RER1emJSa0Y3RTBmSFdWX2VfYnVFQnN3?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
 2026-11-11T08:58+09:00,MBC 뉴스,"與 ""참는 데도 한계‥한덕수 풀려나면 진짜 전쟁"" - MBC 뉴스",https://news.google.com/rss/articles/CBMieEFVX3lxTFBJVEdIeGRmaHlSLTQ4MFNkQXZLVjBjNEJqcC1IWXRJbFBSclF3RUQ5WkRHeHhEWkVkSFZUdzBMbkVWT25aWGtaUTNvTF92ZEE3LUQwSWJJTFlVU3hUckVCMnlmOW8ydjEtUHZXSnZzV2lOV2Rudks2N9IBeEFVX3lxTE1NYVJIN1JidVV4UEFDLVZfU0I2MDhXVWo0OVhpVnFQdDloTWotbGQ2dXFCaXJnNUpnX3dIWENZakVkU0FCMU53SGdNQ0hmbTBfYWFGWmRYQXRPTFFUNDBBcldEbmNQRnlkWXp6UUZra0RoaXJ2dTByYQ?oc=5,0,,rss:구글뉴스 주요,LIFE
 2026-11-11T08:58+09:00,뉴스핌,"신한운용, 월배당 ETF 통했다…커버드콜 시리즈 5500억 돌파",https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jMlR5VHZuc3Q0MXQzR3R2XzNiT1NCNWQ2b2dzS0tBSVh6c19SNW5rak9DR3haZVRVeWNKdHQ5MGliaXhEMkNDSE9KcGdqeV9OaThvZTdhRUZyLVo5?oc=5,5,ETF|배당,google:구글뉴스:ETF 순자산,INV
-2026-11-11T08:58+09:00,한국경제,"[속보] 소방 ""분당 버스 10여대 추돌사고 부상자 30여명"" - 한국경제",https://news.google.com/rss/articles/CBMiWkFVX3lxTE00ZHNxYWF2QXIxN3VnZ3d4YV9uWjVIY05vbnp0dTk0eHFkZVlTX1hjWWxnNkpvUlR4bDg4andBN2xnTjNEVVJSM0lhd0tsUjJCS3hwR1FvbkxHUQ?oc=5,0,,rss:구글뉴스 대한민국,LIFE
+2026-11-11T08:58+09:00,한국경제,"[속보] 소방 ""분당 버스 10여대 추돌사고 부상자 30여명"" - 한국경제",https://news.google.com/rss/articles/CBMiWkFVX3lxTE00ZHNxYWF2QXIxN3VnZ3d4YV9uWjVIY05vbnp0dTk0eHFkZVlTX1hjWWxnNkpvUlR4bDg4andBN2xnTjNEVVJSM0lhd0tsUjJCS3hwR1FvbkxHUQ?oc=5,0,,rss:구글뉴스 대한민국,ETC
 2026-11-11T08:58+09:00,에너지경제신문,"“원화스테이블코인 법제화, 신속성·안정성 두 마리 토끼 잡아야”",https://news.google.com/rss/articles/CBMiW0FVX3lxTE10X1hnekprZU8zUTBXTDA1b3p0MVRyc2dWOHprVHptTWpWMjIxNHQxY1dZZTM2ZnR3VHlIZ1l6QWhFalNtUFByRWVUa2Izc0pKbmhwMndGVFJVeXc?oc=5,2,스테이블코인,google:구글뉴스:스테이블코인,INV
 2026-11-11T08:57+09:00,아시아경제 증권,"한투운용, ACE미국10년국채액티브 ETF 6개월 개인순매수 500억 돌파",https://view.asiae.co.kr/article/2026111108575293259,7,순매수|ETF|국채,rss:아시아경제 증권,INV
 2026-11-11T08:56+09:00,연합뉴스 최신,"[게시판] KIND, 아일랜드 에너지저장장치 사업 공동 개발 협약",https://www.yna.co.kr/view/AKR20261111033900003,0,,rss:연합뉴스 최신,LIFE
@@ -1992,6 +2340,7 @@
 2026-11-11T08:48+09:00,파이낸셜뉴스 전체,"힘 조절 아는 로봇, 식도암 환자 목소리 살렸다 [헬스체크]",https://www.fnnews.com/news/202611110846016329,1,암,rss:파이낸셜뉴스 전체,INS
 2026-11-11T08:48+09:00,블록체인투데이,비트코인 지갑 11만 개 감소의 착시…텔레그램 93만 개 지갑도 ‘빈 껍데기’,https://news.google.com/rss/articles/CBMicEFVX3lxTE1hNVhUM1V0eWRYbXR5UFFKb2ZZU1JBZ3VISXlKTEdpVlFuUWlyaE5ZWGJPSEI4cjV1RDl4cF9ieDNaczFTMzRhUFRmcUV4d1djVWNIRjBoWHpkQ2hYTHBNd1pmVnlVYWdLRlhMVjB2NXU?oc=5,2,비트코인,google:구글뉴스:비트코인,INV
 2026-11-11T08:48+09:00,비즈니스포스트,"비트코인 1억 원대 하락, 미국 10월 물가 예상 웃돌아 금리 인상 우려 커져",https://news.google.com/rss/articles/CBMic0FVX3lxTFBLRmNXa0h4UHdCYU5reXo2b0lQUTF4NWlqdG5LSEZuZ0prQUhzQXZURlFHRlNmWS1CNVFTaGYza1Z5bVVNS0xwejY5N2owTGk1N2lJVjNxQzNEXzRoWWc0THRhdzhZaW9xOUs5eE1iQV8yeDQ?oc=5,6,금리|물가|비트코인,google:구글뉴스:비트코인,INV
+2026-11-11T08:48+09:00,피렌체의식탁,전월세난에 대한 '마강래식 해법',https://news.google.com/rss/articles/CBMibkFVX3lxTE9ISzFUWG1VNU16OVc2VTdHd1RwNENQX2VIemFoWnlyNDJ2Q1J1NlZVYzQtVDk2ZlBIY1ZFR3BNbm5TTkZObFFlc1FtcW1YUGk3Ui1DbFZGWmlCUXZwLUlwSUZIdlNyeVF6eUdwNjd30gFuQVVfeXFMT0hLMVRYbVU1TXo5VzZVN0d3VHA0Q1BfZUh6YWhaeXI0MnZDUnU2VlVjNC1UOTZmUEhjVkVHcE1ublNORk5sUWVzUW1xbVhQaTdSLUNsVkZaaUJRdnAtSXBJRkh2U3J5UXp5R3A2N3c?oc=5,3,월세,google:구글뉴스:주택연금,LIFE
 2026-11-11T08:48+09:00,조선비즈,"[속보] 이용철 법무후보 “공소취소, 지금은 진상 규명 집중할 때... 특검 지켜볼 것”",https://biz.chosun.com/topics/law_firm/2026/11/11/5D6LQ5WGCJCA5BOSI75L6DGXQU/,0,,rss:조선비즈,ETC
 2026-11-11T08:47+09:00,연합뉴스 최신,"KB증권 ""美 규제 우려에도 2028년까지 AI 투자 방향성 안 꺾여""",https://www.yna.co.kr/view/AKR20261111031400008,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T08:47+09:00,연합뉴스 최신,"증권가 ""NHN, AIDC 사업 성장 기대""…목표가 잇단 상향",https://www.yna.co.kr/view/AKR20261111030300008,0,,rss:연합뉴스 최신,LIFE
@@ -2054,6 +2403,7 @@
 2026-11-11T08:35+09:00,연합뉴스 최신,"비만치료제 투여 뒤 시력 이상 땐?…식약처, 주의 당부",https://www.yna.co.kr/view/AKR20261111027000017,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T08:35+09:00,이데일리,美 물가·긴축 우려에 비트코인 7.3만달러대로 밀려[코인모닝콜],https://www.edaily.co.kr/News/Read?newsId=03260326645644736,6,달러|물가|비트코인,rss:이데일리,INV
 2026-11-11T08:35+09:00,SBS 사회,"아이유·아이브, 소방관 지원 공로로 소방청장 표창",https://news.sbs.co.kr/news/endPage.do?news_id=N1008840024&plink=RSSLINK&cooper=RSSREADER,0,,rss:SBS 사회,LIFE
+2026-11-11T08:35+09:00,이데일리,美 물가·긴축 우려에 비트코인 7.3만달러대 밀려[코인모닝콜],https://news.google.com/rss/articles/CBMigAFBVV95cUxOSGFQS24wYkNIT2FiN2t5ME5iVXEzRDBKNmhCb1Z2cWZfMkZGcklJNnpTX1ljV01RSUJER3VMX2lvbnRVNGJ3bWlJVkpZOENKQmtmOFZNN3RPZl94azlNVGE2ZFpidTlLQ24wMzdiYXkxdzZ3TXc3NmxPSklCcFN2cA?oc=5,6,달러|물가|비트코인,google:구글뉴스:비트코인,INV
 2026-11-11T08:35+09:00,신아일보,[국제유가] 중동 긴장 완화에 낙폭 확대,https://news.google.com/rss/articles/CBMicEFVX3lxTFBGQ1hERGNOMGYxRFF4RU14al9vVHRTWWRhckpqMHZ0RWZrX1hIM3E5eHhiem5mYWRRdHA3NHdXVFpZSGZjUmpMM0I5TzZacEZZZjhOUTkxN01Rc192cmZhSTR2RDBvT0ZGZ1hQZGxMUmw?oc=5,2,유가,google:구글뉴스:국제 유가,INV
 2026-11-11T08:35+09:00,인포맥스,"제프리스, 라이엇 플랫폼즈 '매수'로 상향…목표가 28달러",https://news.einfomax.co.kr/news/articleView.html?idxno=4444080,2,달러,rss:인포맥스,INV
 2026-11-11T08:34+09:00,연합뉴스 최신,"아산시, '온궁 보행생활권' 조성…원도심 보행환경 바꾼다",https://www.yna.co.kr/view/AKR20261111028000063,0,,rss:연합뉴스 최신,LIFE
@@ -2096,6 +2446,7 @@
 2026-11-11T08:28+09:00,파이낸셜뉴스 전체,"""돌아온 대륙의 큰손""… K푸드 對中 수출, 한한령 뚫고 2년 연속 훈풍",https://www.fnnews.com/news/202611091416370934,1,수출,rss:파이낸셜뉴스 전체,INV
 2026-11-11T08:28+09:00,MBC 뉴스,[속보] 경기 성남 분당서 버스가 차량 10여대 연쇄 추돌 - MBC 뉴스,https://news.google.com/rss/articles/CBMid0FVX3lxTE03RlNKS2p5ekJWN1FlS1hVam9EdGhjOW9HSlhQNGIyREdPN3ZCbFRGNkdELWp0MDVaOEkxZGNpQmN5aUJUY0E0ekZEeWgtVXNnWFk5Z1RSbnk3cktfVlNhcDdlVDVyV3RFWlJVV2xaLW9Hal9fUks40gF3QVVfeXFMTXdQQ1c1VXU0bjcwWTNyZm9hRlRvNUpBS0taeUdTc2RySkU3X1hRUUdJWWZzeWxKUkFqODdGZXgydFlranJOZDRvX0xNOV96Sm8zZElaQWdxQ29RRWRZM0RrNUVkMnZ4dWxHSWM5VEhpOHNXOURxeEU?oc=5,0,,rss:구글뉴스 대한민국,ETC
 2026-11-11T08:28+09:00,MBC 뉴스,경기 성남 분당서 버스가 차량 16대 연쇄 추돌‥최소 34명 부상 - MBC 뉴스,https://news.google.com/rss/articles/CBMid0FVX3lxTE03RlNKS2p5ekJWN1FlS1hVam9EdGhjOW9HSlhQNGIyREdPN3ZCbFRGNkdELWp0MDVaOEkxZGNpQmN5aUJUY0E0ekZEeWgtVXNnWFk5Z1RSbnk3cktfVlNhcDdlVDVyV3RFWlJVV2xaLW9Hal9fUks40gF3QVVfeXFMTXdQQ1c1VXU0bjcwWTNyZm9hRlRvNUpBS0taeUdTc2RySkU3X1hRUUdJWWZzeWxKUkFqODdGZXgydFlranJOZDRvX0xNOV96Sm8zZElaQWdxQ29RRWRZM0RrNUVkMnZ4dWxHSWM5VEhpOHNXOURxeEU?oc=5,0,,rss:구글뉴스 대한민국,LIFE
+2026-11-11T08:28+09:00,MBC 뉴스,성남 분당서 버스가 차량 16대 연쇄 추돌‥최소 34명 부상 - MBC 뉴스,https://news.google.com/rss/articles/CBMid0FVX3lxTE03RlNKS2p5ekJWN1FlS1hVam9EdGhjOW9HSlhQNGIyREdPN3ZCbFRGNkdELWp0MDVaOEkxZGNpQmN5aUJUY0E0ekZEeWgtVXNnWFk5Z1RSbnk3cktfVlNhcDdlVDVyV3RFWlJVV2xaLW9Hal9fUks40gF3QVVfeXFMTXdQQ1c1VXU0bjcwWTNyZm9hRlRvNUpBS0taeUdTc2RySkU3X1hRUUdJWWZzeWxKUkFqODdGZXgydFlranJOZDRvX0xNOV96Sm8zZElaQWdxQ29RRWRZM0RrNUVkMnZ4dWxHSWM5VEhpOHNXOURxeEU?oc=5,0,,rss:구글뉴스 주요,LIFE
 2026-11-11T08:27+09:00,연합뉴스 최신,"美공화당, 하원서 헤그세스 국방 탄핵소추안 표결 저지",https://www.yna.co.kr/view/AKR20261111024051071,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T08:27+09:00,SBS 국제,물가·연준 '빅스텝' 우려에 뉴욕증시 하락…나스닥 0.7%↓,https://news.sbs.co.kr/news/endPage.do?news_id=N1008840248&plink=RSSLINK&cooper=RSSREADER,13,증시|나스닥|뉴욕증시|연준|물가,rss:SBS 국제,INV
 2026-11-11T08:27+09:00,이데일리,"외국인 돌아왔지만…""코스피 본격 반등 판단 이르다""",https://news.google.com/rss/articles/CBMigAFBVV95cUxNcVY2ekNGTHItMGdubno1a2pYWVQxNlRqX1FDRkxWeXhya0ozcURYelo3UHh0Rk4xbXdieENRRThKWTZKZUNIZ3hqUTJtRXpPZDZJdVpjaGtaN2NfNnhiQjdUbEk1VTN4b3BtX2ctdTlaVmVKZ1NsT3BKbm1feDJxcw?oc=5,4,코스피|외국인,google:구글뉴스:코스피 전망,INV
@@ -2123,6 +2474,7 @@
 2026-11-11T08:24+09:00,연합뉴스 최신,"IBK증권, 크래프톤 목표가↓…""내년도 주당순익 하향조정 반영""",https://www.yna.co.kr/view/AKR20261111025800008,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T08:24+09:00,한겨레,9개월 만에 우크라이나 종전협상 열려…전후 안보보장에 초점 - 한겨레,https://news.google.com/rss/articles/CBMiggFBVV95cUxQeWVDRWozWW5kMnRWM0xiQUFxSHNEb2dnS1FjdXBjaW9uWjJxa3dUaDVKUVk5OHg5WWY2ZDE0eGtTSkI4ZFJNR2ZFV0ZIV1JER3hXMEtQaUZIQ3hfS2dHdW9XRU43NkFheWV5QWtnRHJZbjNRXzFSc3dWdzhCNWlRX2pn?oc=5,0,,rss:구글뉴스 주요,LIFE
 2026-11-11T08:24+09:00,한겨레,"9개월 만에 열린 우크라이나 종전협상…영토 양보, 안보 보장 주력 - 한겨레",https://news.google.com/rss/articles/CBMiggFBVV95cUxQeWVDRWozWW5kMnRWM0xiQUFxSHNEb2dnS1FjdXBjaW9uWjJxa3dUaDVKUVk5OHg5WWY2ZDE0eGtTSkI4ZFJNR2ZFV0ZIV1JER3hXMEtQaUZIQ3hfS2dHdW9XRU43NkFheWV5QWtnRHJZbjNRXzFSc3dWdzhCNWlRX2pn?oc=5,0,,rss:구글뉴스 주요,LIFE
+2026-11-11T08:24+09:00,파이낸셜포스트,"국내 손해보험사, 해외 사업 확대 본격화…특수보험 시장에 주목",https://news.google.com/rss/articles/CBMidEFVX3lxTE5ZSkZ0Wjg3T1h2OTQ3eFZDWUQ0Tkpvdkl2QzVkVlY2OGpNUVVEM3RCM2c1M18xcUU5VVNuelU1ZFE4Vm5OV2Y2dW5lLWdiRXVjMnJvZHVpVjN5anEwQTAzY1g4QWg5RGl0ODVKbXZWOEFTdkJD?oc=5,3,보험|손해보험|보험사,google:구글뉴스:자동차보험,INS
 2026-11-11T08:24+09:00,Investing.com 한국어,"[젠슨황 스캔들] 엔비디아 AI칩 10조원 중국으로 밀반입…미국, 뒤늦게 ’수출 통제’ 강화 By FinancialPost",https://news.google.com/rss/articles/CBMicEFVX3lxTE9VZ3NSX0FWTHUxNXl5TFUtSnVKV01nWlJRRWEzd0xIMjBORnhGYTVxYVNreTE2eGtlRE9qdnZmT0duVnNuVTQybnN1aHBYb3JYVkMzMG5kMHNGdTVta0M5R19zai0yUjhYd2FLcHpkT3I?oc=5,4,엔비디아|수출,google:구글뉴스:엔비디아,INV
 2026-11-11T08:23+09:00,뉴시스 정치,"진중권 ""한동훈 뺀 보수통합은 어불성설…복당 막으면 '신당 창당' 길 열릴 것""",https://www.newsis.com/view/NISX20261111_0003863065,0,,rss:뉴시스 정치,LIFE
 2026-11-11T08:23+09:00,토큰포스트,"0.5%포인트 인상 가능성…KPMG, 미 PCE 강세 전망",https://news.google.com/rss/articles/CBMiXEFVX3lxTE03eER1MldFVWwxeERwcm9aUGp0aThSMVlsSUhwZl9TdldIbEVYZWVHOTRmR0lpSGxkRXZGY0NJWUtHeUFxTUJqZXd2VVMtUkUyTDh6RjNYQ3hVem1T0gFcQVVfeXFMTTd4RHUyV0VVbDF4RHByb1pQanRpOFIxWWxJSHBmX1N2V0hsRVhlZUc5NGZHSWlIbGRFdkZjQ0lZS0d5QXFNQmpld3ZVUy1SRTJMOHpGM1hDeFV6bVM?oc=5,2,인상,google:구글뉴스:물가 장바구니,LIFE
@@ -2320,6 +2672,7 @@
 2026-11-11T07:41+09:00,SBS 사회,내년부터 혼인신고 하면 100만 원?…형평성 논란,https://news.sbs.co.kr/news/endPage.do?news_id=N1008840009&plink=RSSLINK&cooper=RSSREADER,2,만 원|부터,rss:SBS 사회,LIFE
 2026-11-11T07:40+09:00,JTBC 사회,'대법원 판단' 늦어지는 사이…한덕수·이상민 '구속 만료' 임박,https://news.jtbc.co.kr/article/NB12327475,2,대법원,rss:JTBC 사회,INS
 2026-11-11T07:40+09:00,오피니언뉴스,"[오늘의 글로벌마켓] 뉴욕증시, 미 3대지수 일제히 하락...물가 압력 부담",https://news.google.com/rss/articles/CBMickFVX3lxTE9UVUFEc2p5aGtuV2ZqV0RwMll2RHlSZnpDWTZCUThkNHN4VC0tendxVzA4a29SOVp0U0xJTnhzUllxT2k3NlBTVWlXc1MzUW82RXBKY1BjRzhKZTNGd0pqV3VCUVVjTU5JU3AxcjYwOF9sdw?oc=5,7,증시|뉴욕증시|물가,google:구글뉴스:뉴욕증시 마감,INV
+2026-11-11T07:40+09:00,뉴스1,출근길 수도권제1순환고속도 음주운전 연쇄 추돌사고…3명 경상 - 뉴스1,https://news.google.com/rss/articles/CBMiVEFVX3lxTE9hYjgxMWdhZ2tqeXhUajI4ams0UndjbjM3ODV4TmxxT3duVEx4Wm5tT2dZMVk2THFjWnNLVUtZR282LWx2WUIzelhhZU1TUWR6eWoteQ?oc=5,0,,rss:구글뉴스 대한민국,LIFE
 2026-11-11T07:40+09:00,이데일리 증권,"신세계, 증시 하락에 백화점 성장 둔화 우려…목표가 ↓-키움",http://www.edaily.co.kr/news/newspath.asp?newsid=03011046645644736,2,증시,rss:이데일리 증권,INV
 2026-11-11T07:40+09:00,이데일리 글로벌,美애틀랜타에 中企 상설 수출거점…미주한상총연 운영 시작,http://www.edaily.co.kr/news/newspath.asp?newsid=03004486645644736,1,수출,rss:이데일리 글로벌,INV
 2026-11-11T07:38+09:00,연합뉴스 최신,"美내무부 등, 의회 조사대비 '트럼프 프로젝트' 문서 파기 의혹",https://www.yna.co.kr/view/AKR20261111016500071,0,,rss:연합뉴스 최신,LIFE
@@ -2498,6 +2851,7 @@
 2026-11-11T06:51+09:00,토큰포스트,"2027년 미 증시, 두타가 연준 과잉 긴축 위험 가능성 거론",https://www.tokenpost.kr/news/economy/436187,5,증시|연준,rss:토큰포스트,INV
 2026-11-11T06:51+09:00,동아 경제,"美 10월 물가도 예상치 상회…연준, 12월 ‘빅스텝’ 거론",https://www.donga.com/news/Inter/article/all/20261111/135003318/1,5,연준|물가,rss:동아 경제,INV
 2026-11-11T06:51+09:00,동아일보,美 10월 물가도 예상치 상회…12월 FOMC ‘빅스텝’도 거론,https://news.google.com/rss/articles/CBMic0FVX3lxTE5xdkJFYjhRY0Nkb3VUS0dKN1JTaUlhWFBjSVdDWVhUOGZMc2JBWWxSSzJ5ZkFCSXVUb1J0eXVnamNLMWFKQkRSaHVxYnItUGlRdkQwYjJPMFI0NW9iTWl6Z3M0c3Zjd2ZaOUdIUjdySlR0LWfSAWZBVV95cUxQdjktV1Z3elRfYW93bUVmSHhuM0N3SHRJbGVya3h1WV9PMUJmRkFMWkkxeUxtSzJQZk9WcjVJcFhtM0F3N0FpM2I2SVNqeXpwWmxqeDJlaU9LUXV3R0U5N1FqcGJqQnc?oc=5,5,FOMC|물가,google:구글뉴스:FOMC,INV
+2026-11-11T06:51+09:00,Investing.com 한국어,"Myriad Genetics, UBS 헬스케어 콘퍼런스서 암 진단 사업 강화",https://news.google.com/rss/articles/CBMib0FVX3lxTE9KT3AzVktXU2RITU41WFh1dXotb21TenpaOERaNWlCYTluZy0xUER1MlFWZjY4bFlib2JzN0lZREZrM2syal9LblREdkNCbjJSeGJVQ2ZfS0V0ZmJRajFNU0E5bzFDblY3UkVGTWNHUQ?oc=5,1,암,google:구글뉴스:암보험,INS
 2026-11-11T06:51+09:00,코인리더스,비트코인 또 급락! 물가 충격에 ETF 자금까지 이탈…7만 달러 경고등,https://news.google.com/rss/articles/CBMiSkFVX3lxTFBWSkJTaVNEeFlnazB5N0NGUGh0SUlqTmZ0c2VLaEh6UEpYZ25IcHBUc20wQnpJWDhOd0VJd1FVczJEbzRIMkJ4QWFR?oc=5,11,급락|ETF|달러|물가|비트코인,google:구글뉴스:비트코인,INV
 2026-11-11T06:50+09:00,연합뉴스 최신,강남 구룡마을서 또 화재…소방 진화 작업 중,https://www.yna.co.kr/view/AKR20261111013400004,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T06:50+09:00,진일보 | 전남일보,미국 연준 12월 기준금리 인상 가능성 100%,https://news.google.com/rss/articles/CBMib0FVX3lxTE80ZjRWMXVUYmdwRWZQa25DelVlUVR2b0xmazNmNF9KaFhtYUdiQVZCRWtabTFFd2g5dXJYVmVmS2l2V05hb0NuS2d6aWMzb18zTmhzRmdRa24yRlE0bHZFN1d4VENiUmdKTU1faGRnVQ?oc=5,8,기준금리|금리|연준,google:구글뉴스:FOMC,INV
@@ -2661,6 +3015,7 @@
 2026-11-11T06:07+09:00,한국경제 경제,[속보] 엔비디아 이틀간 9.6% 급락…시총 약 4300억달러 증발,https://www.hankyung.com/article/2026111187687,7,엔비디아|급락|달러,rss:한국경제 경제,INV
 2026-11-11T06:06+09:00,히트뉴스,"한미약품 MASH 신약, 체중감량보다 '간 섬유화 개선'에 주목",https://www.hitnews.co.kr/news/articleView.html?idxno=80673,1,신약,rss:히트뉴스,INS
 2026-11-11T06:06+09:00,SBS 국제,엔비디아 이틀째 '급락'…장중 시총 3위로 밀려,https://news.sbs.co.kr/news/endPage.do?news_id=N1008840038&plink=RSSLINK&cooper=RSSREADER,5,엔비디아|급락,rss:SBS 국제,INV
+2026-11-11T06:06+09:00,Chosunbiz,[비즈톡톡] 메모리값 급등 속 삼성의 고가폰 확대 전략… 여권형 폴더블 이어 ‘작은 울트라’ 나올까 - Chosunbiz,https://news.google.com/rss/articles/CBMiggFBVV95cUxNUlg4YXlYWEFFVjFXYUpqZ1pBekprYUc2Y2NLZFh2Q1JBbThUazBhY3hBTVRCVmZlWlV1SjFPU0pzMVhaM1poNGFDU0Z6dlAzdnFxdUhOQmJ3bGpHbDBWZjlkTklmRmJFUzlXbnh6S1lCQUludUxqcFpGX1RWTmFXczNn0gGWAUFVX3lxTFB6ejd0WV9JakZUX0VzR2xZTEVSbU1oTHNXTjVFLVZRMkZvUGw4aTBwZWJrbjh2LTBabUdtbEw4RHI4RGVybGU2ZUNJeUpwWFQybzBWUElHMXRKV2dzZ2VTaC1Sc3hHR2Y3SGpyT2VYZmE3dUU5ay1GakNPM0xGclI3N0pqRUdXYnc0NUhMeVBOVWNBYWEyZw?oc=5,2,급등,rss:구글뉴스 비즈니스,INV
 2026-11-11T06:06+09:00,블루밍비트,"뉴욕증시, 하락세로 마감…나스닥 0.74%↓",https://news.google.com/rss/articles/CBMiUEFVX3lxTFByOGpwczhYeW9HbUpxalVIYjI2ZEpZemlMUVIxQnZTVW9zclZhY0lTck95T18zLUVxMjFlRTdGQV9jcnpzbEVHVVlwNHdTUGJ5?oc=5,8,증시|나스닥|뉴욕증시,google:구글뉴스:나스닥 마감,INV
 2026-11-11T06:06+09:00,이데일리 증권,[단독]국민연금 '4조 강남건물' 운용사교체 점수조작 의혹,http://www.edaily.co.kr/news/newspath.asp?newsid=01987686645644736,4,연금|국민연금,rss:이데일리 증권,INS
 2026-11-11T06:05+09:00,연합뉴스 최신,"'AG 금빛' 엄지성 ""아시안컵 연기 아쉬워…꼭 발탁 되고파""",https://www.yna.co.kr/view/AKR20261111001500007,0,,rss:연합뉴스 최신,LIFE
@@ -3134,6 +3489,7 @@
 2026-11-11T01:04+09:00,SBS 사회,입소문 탄 '귀신 훈육'…'아동 학대' 현장 조사,https://news.sbs.co.kr/news/endPage.do?news_id=N1008839937&plink=RSSLINK&cooper=RSSREADER,0,,rss:SBS 사회,LIFE
 2026-11-11T01:02+09:00,연합뉴스 최신,'월드컵 돌풍' 카보베르데 15일 대선…첫 여성 후보 도전,https://www.yna.co.kr/view/AKR20261111001000099,0,,rss:연합뉴스 최신,LIFE
 2026-11-11T01:02+09:00,뉴스핌,"우크라 종전협상서 '전후 유럽 안보 체제'가 이슈로 부상… 유럽·우크라, 美와 재검토 합의 - 뉴스핌",https://news.google.com/rss/articles/CBMiXEFVX3lxTE1IZTVobmJva3ZUZV9SNVdPX0VyYkZxN0drTmdSVVJzMmlkNVdraW1hOEtvWGR3WXpPTGNDTXZYZEpObmxmLVFaV1J1YUpkVnRpdWlXQUg0aUFvcVMy?oc=5,0,,rss:구글뉴스 주요,LIFE
+2026-11-11T01:02+09:00,KBS 뉴스,"민주당 수도권 의원들, ‘비거주 1주택 규제 재검토’ 논의 토론회 - KBS 뉴스",https://news.google.com/rss/articles/CBMiW0FVX3lxTE43MW9jVFRpWUpPZGcxWHJaRmhEbDdLeklURWxVQmRaR2NFZ3JoWUdGZnRnZG5MSWNPZGtwa1BmZ2ZKcnVNY1RmLXgtMnRfSWR1blRDeFJHZVVTWkU?oc=5,0,,rss:구글뉴스 대한민국,LIFE
 2026-11-11T01:01+09:00,토큰포스트,"4975만달러 합의안 제출…프로그레스 레지덴셜, 법원 승인 남았다",https://www.tokenpost.kr/news/policy/436017,2,달러,rss:토큰포스트,INV
 2026-11-11T01:01+09:00,뉴시스 사회,빼빼로데이 달콤한 유혹…아이 평생 쓸 치아 위협,https://www.newsis.com/view/NISX20261110_0003862323,0,,rss:뉴시스 사회,LIFE
 2026-11-11T01:01+09:00,MarketWatch,‘Boneless couches’ are the new futons,https://www.marketwatch.com/story/why-renters-are-obsessed-with-these-300-boneless-couches-65a2e4fe?mod=mw_rss_topstories,0,,intl,INV
@@ -3238,6 +3594,7 @@
 2026-11-11T00:00+09:00,글로벌이코노믹,[김대호 진단] 젠슨황 스파이 불륜과 엔비디아 주주집단소송,https://news.google.com/rss/articles/CBMigwFBVV95cUxPcW1FLW9keG1RS25EelhnX3N1bnI2WklCV3FMLUx0eWlfNVBTNDhKSWhKX25EOEo1OWdDb3JyeC00cW1sTUhoZHlJczk2cUc5dElRS2tOS3l6eW9Nb2VwbWNOTVh3Mk56Vm1BRS0yUnZhVTNaWTlHOV8xY3BnODJsWks5dw?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
 2026-11-11T00:00+09:00,주달,"[11.11(수) 미장 0시] - 10년물 5% 근접에 금리민감 섹터 전면 후퇴, 반도체 홀로 방어",https://news.google.com/rss/articles/CBMieEFVX3lxTFBYZVNaa1JqVGpEOGdWYWxIaDBwa0k0MGMwd01wUG9RYVNZM2ZpZjZ6aHNKUHBoSGhtQVNlSFJlV2p0NGVPdFJfSHBpWVdJOEJGMlJhLTdyMzhLNWZHYV9tc2xzVDV2NE5BOGN2LUZkZnN0WWFkbl9WQQ?oc=5,4,반도체|금리,google:구글뉴스:달러 강세,INV
 2026-11-11T00:00+09:00,MBC 뉴스,"[날씨] 오전 곳곳 안개, 서리·살얼음도‥일교차 15도 안팎 - MBC 뉴스",https://news.google.com/rss/articles/CBMid0FVX3lxTE5yeURuczFQVC0xYkhPZTFZQ1hpOXo3RlF4QllRNktkUU84aFlyX21vbThuOHJrSVRyUWtyZ0pCX0NZLURUMXp5QlRYU1lyckJNTnRCWDI1S2VDQ1lhTnBFODNCeE8tTGMwT1BtaERwUERPZ205Q1Rj0gF3QVVfeXFMTmo2WEl0WjRaUUx3WGtZenk4NjVtSllCYnVJYlJ6eUJEbzRhY1hkT0pWZWtBQkdib2o3S3NzaUxxTGhLWW1ld2U4S05oZDlBdGNBeF80U1pkTXFPOXJHVGdnWXRndXFiVFdjalM5bk5GUVlmZUJIT28?oc=5,0,,rss:구글뉴스 주요,LIFE
+2026-11-11T00:00+09:00,아시아투데이,"[사설] 영세사업장 퇴직연금 개편, 누구를 위한 정책인가",https://news.google.com/rss/articles/CBMibkFVX3lxTFBqVjVOcWc4R3F6QnZrc1B5MXh6UWNlZ0VTRmlNdlQtQXEtQXhkeWc1UjFwWDZudHBvWmNJVE04cmpfckFqclp1Ny1uVWNKbFNLVnlfdTZyMzIwbDg5MHJMcUk2VzRmUEZuM2V3TFdn?oc=5,4,연금|퇴직연금,google:구글뉴스:퇴직연금 의무화,INS
 2026-11-11T00:00+09:00,경상일보,"울산대병원, 전문인력 20명 대상...호스피스·완화의료 실무교육 실시",https://news.google.com/rss/articles/CBMibEFVX3lxTE8tMmI5N3JSbUhYbnpEU2NqRjE0Q24ycGVCdTh4SUtfbElRQXFrTXQ5a0k0ZVZtT252LTBSY0w5dW5OUXVMajllMVhSRFJnTFZsbGd5dEtrNnlYVENTOEtfV2lkdk80N2h4a2p4ZQ?oc=5,2,호스피스,google:구글뉴스:호스피스 연명의료,INS
 2026-11-11T00:00+09:00,경상일보,김민솔 3관왕·상금 16억원 등 KLPGA 신기록 쏟아져 - 경상일보,https://news.google.com/rss/articles/CBMibEFVX3lxTE52bzZXQlJjX1J5eUZJaWJaN0JrMlhmM3hjVC1zbWVVbm9QV3l5ekJaRzY3ejRBVW9KR1Yybl9Td3phVG8wQUhJOHl4T2JBaFhuc2g4OG9Ka0ZycHB0bnlrMVBjRTZkNk5rT251OA?oc=5,0,,rss:구글뉴스 주요,LIFE
 2026-11-11T00:00+09:00,CBC뉴스,"[공모주 HOT] 바로팜, 11일 코스닥 입성 예정…기관 경쟁률 152대 1",https://news.google.com/rss/articles/CBMiaEFVX3lxTFB1QVA4VUtEUnZTNVdEc0RUR0Myd1R1cHVXeUZLLW9nOEUzaEh1Y2ZTbmtUMGR4VWtNRjgwUUljR1VmVWpuV3h2NTlvaVoyWGd0X1VuTW5qRm5uaS1ycGFYX09vNmZpV1o3?oc=5,4,코스닥|공모주,google:구글뉴스:공모주 IPO,INV
@@ -3458,6 +3815,7 @@
 2026-11-10T21:49+09:00,Investing.com 한국어,"Compass Point, 비트코인 약세에 MARA Holdings 목표주가 하향",https://news.google.com/rss/articles/CBMidEFVX3lxTFBqaGw2ekFTR2pWaFozQXIwQXdGZGRTVW5SYlpfTHAzQzNKdS1vTGp6Z05takN5Tmx5OHlMdkJmR2tzRkV5OXhlRWNvSDdZRHd0VGZyZVY5UkpuUjBoOWlfVTdad3VUeFhuLXBNamtKTmR0ek5u?oc=5,4,주가|목표주가|비트코인,google:구글뉴스:비트코인,INV
 2026-11-10T21:49+09:00,Investing.com 한국어,"Compass Point, 비트코인 약세에 MARA Holdings 목표주가 하향 By Investing.com",https://news.google.com/rss/articles/CBMidEFVX3lxTFBqaGw2ekFTR2pWaFozQXIwQXdGZGRTVW5SYlpfTHAzQzNKdS1vTGp6Z05takN5Tmx5OHlMdkJmR2tzRkV5OXhlRWNvSDdZRHd0VGZyZVY5UkpuUjBoOWlfVTdad3VUeFhuLXBNamtKTmR0ek5u?oc=5,4,주가|목표주가|비트코인,google:구글뉴스:비트코인,INV
 2026-11-10T21:49+09:00,Investing.com 한국어,"Rosenblatt, 매출 예상치 하회에 BitGo 목표주가 9달러로 하향",https://news.google.com/rss/articles/CBMidEFVX3lxTE9vS1ZwVWRLMFFLQWdCVy1GYnczckpnWkNYcE5RM0cxZXR5SFZXaFBkUWJmVDRROUFNTVg0eHZDeGNjcEhvcnFWVU5BUEJkTk9wNHlQWE9wdzV0SGd1VEJGVW54SUpxZXJNTktRbjBwLThMaDQy?oc=5,4,주가|목표주가|달러,google:구글뉴스:비트코인,INV
+2026-11-10T21:49+09:00,미주한국일보,내년 건강보험료 인상…“보조금·가입 자격 꼭 확인을”,https://news.google.com/rss/articles/CBMiVkFVX3lxTFBVeGxUemtQcUlDTjZCS2xJTzZmN192Ym84WVhIMFR4NFhkLTBOZDNia283MXplOG9DeEJuXzl4SjdDOFlNVk5sYWg3VDFBeEdidTB3Ri1R?oc=5,5,보험료|건강보험|보험,google:구글뉴스:보험료 인상,INS
 2026-11-10T21:48+09:00,연합뉴스 최신,"공소청, '노태우 비자금 의혹' 노재헌 주중대사 피의자 입건",https://www.yna.co.kr/view/AKR20261110175900004,0,,rss:연합뉴스 최신,LIFE
 2026-11-10T21:48+09:00,머니투데이,"치매 시모 8년 간병했는데…남편 ""이혼하자, 퇴직금·연금은 내 거""",https://www.mt.co.kr/society/2026/11/10/2026111020183814004,5,연금|치매|간병,rss:머니투데이,INS
 2026-11-10T21:48+09:00,아시아경제,"앤트로픽, IPO 기업가치 최대 1366조원 목표…121조원 조달 추진",https://view.asiae.co.kr/article/2026111021480059952,2,IPO,rss:아시아경제,INV
@@ -3485,6 +3843,7 @@
 2026-11-10T21:37+09:00,뉴시스 사회,"이용철 ""법령 세심히 살피지 못해 송구""…근로기준법 위반 전력",https://www.newsis.com/view/NISX20261110_0003862875,0,,rss:뉴시스 사회,LIFE
 2026-11-10T21:37+09:00,뉴시스 사회,"""경적 울렸더니 되레 욕설""…제주서 차도로 달리는 러너",https://www.newsis.com/view/NISX20261110_0003862866,0,,rss:뉴시스 사회,LIFE
 2026-11-10T21:36+09:00,연합뉴스 최신,디올 CEO 이대 명예박사 수여식에 대기업 총수 대거 참석할 듯,https://www.yna.co.kr/view/AKR20261110176200030,0,,rss:연합뉴스 최신,LIFE
+2026-11-10T21:36+09:00,나남뉴스,"""우리도 박살났어요"" 美 헤지펀드, AI 반도체 증시 폭락에 줄줄이 '구조조정' 전망",https://news.google.com/rss/articles/CBMibEFVX3lxTE5kR0VPV3V6Ym5jb1dDaVVjem41MkFzaHFPX2daTFREMjdETTJJcVQwY0ItejBWMjE2RVlTTW1WSFB0QXpnVUZIQTJrYXVlT2F6aVFGS045QVRIMUxQTlc0X2hHUU01UFM5U1B0QQ?oc=5,6,증시|반도체|폭락,google:구글뉴스:증시 폭락,INV
 2026-11-10T21:36+09:00,연합뉴스TV,"與 ""한덕수 풀려나면 진짜 전쟁…대법원 국민이 용납않을 것"" - 연합뉴스TV",https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tVENSNENRM3ZPNVdxNTBUX19qTFRWLTZtaHhDOF9YSWxBM21uMEh2c2loRWdOdzRNcVc2T25feUpERmE4MkhyMUgtOWhLOHZmRmF6SGN1YjFzUVlHVWY5Z2ZJaEFRZkE?oc=5,2,대법원,rss:구글뉴스 주요,INS
 2026-11-10T21:35+09:00,연합인포맥스,"앤트로픽, IPO 몸값 1조달러 목표…최대 900억달러 조달 추진 - 연합인포맥스",https://news.google.com/rss/articles/CBMicEFVX3lxTE5OTzE4N1NncGRuZXZLaERnZXlvS0RhZnY5VnZqQU54NndZQ0NnVzY0N0c2UWx0TlZTMFdnU2tWVG5XcWNmQ1lXNmFna2RENnlmSHM0MmpKYXhMU1pmMTRaRXJOenZQRWVLMHFrVkp0Y1A?oc=5,4,IPO|달러,rss:구글뉴스 비즈니스,INV
 2026-11-10T21:35+09:00,인포맥스,"앤트로픽, IPO 몸값 1조달러 목표…최대 900억달러 조달 추진",https://news.einfomax.co.kr/news/articleView.html?idxno=4444040,4,IPO|달러,rss:인포맥스,INV
@@ -8248,6 +8607,7 @@
 2026-11-10T08:19+09:00,Investing.com 한국어,"[현장] 엔비디아·SKT·리벨리온, AI 인프라 삼각동맹…협력 방향은 By EBN",https://news.google.com/rss/articles/CBMicEFVX3lxTE5oOWhDdEkwdkJUYjk0SmlfZ3VuZURFc2pWZ0V6TXdabTJ4NkhzYjY1WGZRS0NfR1RocUxOUUtua1lzMFRmLXV1XzBRcXNzS2gtazJHRXoxMTQzYnI4TU9BdXZBWGxkaHNqLVhYMUo1NkM?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
 2026-11-10T08:19+09:00,Investing.com 한국어,"[현장] 엔비디아·SKT·리벨리온, AI 인프라 삼각동맹…협력 방향은 By EBN - Investing.com 한국어",https://news.google.com/rss/articles/CBMicEFVX3lxTE5oOWhDdEkwdkJUYjk0SmlfZ3VuZURFc2pWZ0V6TXdabTJ4NkhzYjY1WGZRS0NfR1RocUxOUUtua1lzMFRmLXV1XzBRcXNzS2gtazJHRXoxMTQzYnI4TU9BdXZBWGxkaHNqLVhYMUo1NkM?oc=5,3,엔비디아,rss:구글뉴스 비즈니스,INV
 2026-11-10T08:19+09:00,Investing.com 한국어,젠슨 황 스캔들에 삼전닉스도 촉각…엔비디아 리스크 번지나 By EBN,https://news.google.com/rss/articles/CBMicEFVX3lxTE1fZmp4YWNtOGNXMDlIeUt4dUtESWhmZjI1dXlQQ0tBMVRiWDh1T0MxcElVeUhqeFgwdkIwQi10TGRYYmdJRzJTdTNwUHJzOGxLbmxVZ2JBZHdrdVhoaFhLTzN5M05vZVRqVWFSWW90ME4?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
+2026-11-10T08:19+09:00,Investing.com 한국어,"모티프, 엔비디아 투자 유치…차세대 LLM ’모티프 4’ 개발 착수 By EBN - Investing.com 한국어",https://news.google.com/rss/articles/CBMicEFVX3lxTE1XZjk4bGVSY2ZucjJOSnktajZKNnlCVzlwUWFFMGhBMVRDZnpIeVBuQXFvb2I0MzdSbTI4MkVRYnRsS0RwcUpxbUwzZ2RtWkl5LUplMk53ak0zTHVUdFVxLVhIM0tlMXBsLWhIQlVleDE?oc=5,3,엔비디아,rss:구글뉴스 비즈니스,INV
 2026-11-10T08:19+09:00,Investing.com 한국어,미 상무부 ’젠슨황 내연녀’ 재직 기업 조사 중단…엔비디아 개입 의혹 By EBN,https://news.google.com/rss/articles/CBMicEFVX3lxTE0yMnZqUW1vajRYRC16YVJzMmJCYTJWaHk1Mm9mQWVVdXV1ek9oOUN1eEtzYUpfdHk0bVEybTF0bXdWeDZiUzVrM2JpUHdxMmt5ZlJGbHh4VzA4WUpyYm5XRWVyckMwMi1EdG9fZkw5LVc?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
 2026-11-10T08:19+09:00,디지털데일리,엔비디아 개입 후 메가스피드 칩 밀반출 수사 법무부 이첩,https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xbjlkd2k4cHhmdm8yVEpRRkJwekh3YnB1MExpdElubFpMUGpwaFk2NE9kdW1lcG9DbHc2TDY0cU1sRXpIU01HWFA5TDVsWUVNdV90dGMwdEoxTXRidXF4NGxhdzk?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
 2026-11-10T08:18+09:00,연합뉴스 최신,통영서 빗길에 SUV 가드레일 들이받고 전복…60대 운전자 숨져,https://www.yna.co.kr/view/AKR20261110025100052,0,,rss:연합뉴스 최신,LIFE
@@ -8452,6 +8812,7 @@
 2026-11-10T07:24+09:00,Chosunbiz,"김구라, 주식 급락에 한숨 “올해 번 돈 다 반납했다…이제 마이너스”[Oh!쎈 이슈] - Chosunbiz",https://news.google.com/rss/articles/CBMikwFBVV95cUxPZWJfRVRPZWpuVDRBSjJDbVl6RW1EekduZDlwZWItdzdTeGo2UWZCTERyR0VpY0tfQ1dsNl92UmlUUGhkMWllSGo3dXFiQ2lJeEd3Y3NpUlhUQmpwUS1PN2FzY3ozalNCMjVjWF9DcVRDN1d2YmxFS2ZieTROSFoxZlFoWmdWeERIVzVpc1lhZ1h0NDjSAacBQVVfeXFMTTJRVUdWbHBFSXcxT2xSYjdHZ3VLMmFaN2NQUUJOVV85bkg2c2hzY1ZoempTN1BldHlfRjRaVVdHSDY0QzFQZ0NRckdpUU12a0lVRFh0OGlhX2J0dUFSOW04eWw5ajB0QnRMV3B6RlJhcDBvZ19Ib0lQLWRxMi1TU2xDeUt6Q0xBRTVMeXF1VXdFQWcyUFZXRHNhYzg3YjN1aW90d3FuTzQ?oc=5,2,급락,rss:구글뉴스 주요,INV
 2026-11-10T07:24+09:00,코인리더스,"이더리움 2,100달러 붕괴 위기…비탈릭의 새 전략이 반등 이끌까?",https://news.google.com/rss/articles/CBMiSkFVX3lxTE5jSWFQQzVTY0tGUC1mck9tR1FER0RyajRYUGhPd2xpU2Fzc2lBZWx2dFJETzlld3JqR0xHU1FwTllsVGhtQmhWQ1lB?oc=5,3,달러|이더리움,google:구글뉴스:비트코인,INV
 2026-11-10T07:24+09:00,조선비즈,"김구라, 주식 급락에 한숨 “올해 번 돈 다 반납했다…이제 마이너스”[Oh!쎈 이슈]",https://biz.chosun.com/entertainment/enter_general/2026/11/10/MFQTQNDCMRTDSOBTGQ3WGYRSGI/,2,급락,rss:조선비즈,INV
+2026-11-10T07:23+09:00,초이스경제,유가 '폭락' 속...달러가치 '뚝' vs 유로·파운드·엔화 '절상',https://news.google.com/rss/articles/CBMic0FVX3lxTE85TzBmUm9DZlJORExwTGRnUkN6b2REMmpvbVJwdldCcGNoT1hUWGZCMzVEaWQ0dlJCN2cyUzNteDJLZGNfZDhJcUdTVG5tOWhVM2ZGdUxCTUplN3dPeXhuMUdXTDZXN2F3UDRBZU44cUQ5T2fSAXNBVV95cUxPOU8wZlJvQ2ZSTkRMcExkZ1JDem9kRDJqb21ScHZXQnBjaE9YVFhmQjM1RGlkNHZSQjdnMlMzbXgyS2RjX2Q4SXFHU1RubTloVTNmRnVMQk1KZTd3T3l4bjFHV0w2Vzdhd1A0QWVOOHFEOU9n?oc=5,8,폭락|유가|달러|엔화,google:구글뉴스:미국 고용지표,INV
 2026-11-10T07:22+09:00,동아 사회,“새벽 샤워·엘리베이터 자제해달라”…선 넘은 배려 요구인가,https://www.donga.com/news/Society/article/all/20261110/134996297/1,0,,rss:동아 사회,LIFE
 2026-11-10T07:22+09:00,SBS 국제,밤사이 뉴욕증시 반등했는데…엔비디아만 급락,https://news.sbs.co.kr/news/endPage.do?news_id=N1008838194&plink=RSSLINK&cooper=RSSREADER,10,증시|뉴욕증시|엔비디아|급락,rss:SBS 국제,INV
 2026-11-10T07:22+09:00,코리아리포트,트럼프 발언에 유가 급락…반도체와 빅테크 급반등,https://news.google.com/rss/articles/CBMicEFVX3lxTE1sNE84VmctTFZoU21vTUtMWkpJNXhnX1RMdlNhbU5YNVZmWmJaOFA5WDc2SllheFZZVHpLamVhQks1elFYczE2MzR1dTIwR0gtMDA2dFJ1VnZCVXB4Q28tazBDWExCTEZjQXFXS3NVbEo?oc=5,6,반도체|급락|유가,google:구글뉴스:국제 유가,INV
@@ -9888,6 +10249,7 @@
 2026-11-09T19:02+09:00,시선뉴스,"해양수산부 X '더꽃게', ‘2026 대한민국 수산대전’ 2주차 진행…제철 ‘홍가리비·방어회’ 최대 1만 원 할인",https://news.google.com/rss/articles/CBMickFVX3lxTE93VC02cmZIcDJJZUE0aEVmTlExN093bkpLY2c1NTBuMUh5NEJ1YzAwb2lUcWsycFJiU19GcENKemlVYWkyZkJFT1l3NUpkQXRvbHd2Q3Y1UUkyQnNBSXcwMlMyOWh4UnBGYVUtdWx3dk9xd9IBckFVX3lxTE93VC02cmZIcDJJZUE0aEVmTlExN093bkpLY2c1NTBuMUh5NEJ1YzAwb2lUcWsycFJiU19GcENKemlVYWkyZkJFT1l3NUpkQXRvbHd2Q3Y1UUkyQnNBSXcwMlMyOWh4UnBGYVUtdWx3dk9xdw?oc=5,3,할인|만 원,google:구글뉴스:물가 장바구니,LIFE
 2026-11-09T19:01+09:00,연합뉴스 최신,"'성남FC 후원금' 전 성남시 공무원들 ""후원 요구한 적 없다""",https://www.yna.co.kr/view/AKR20261109150700061,0,,rss:연합뉴스 최신,LIFE
 2026-11-09T19:01+09:00,히트뉴스,"[주식] 알테오젠, 美 약가인하 우려에 주가 '출렁'...16% 하락",https://www.hitnews.co.kr/news/articleView.html?idxno=80628,1,주가,rss:히트뉴스,INV
+2026-11-09T19:01+09:00,인사이트코리아,"한국투자증권, 기업 퇴직연금 실무자 대상 제도 개편 교육",https://news.google.com/rss/articles/CBMic0FVX3lxTE5CUkVGRDVhdEhxTXprbkpLbF84UU5vMnR5R3FiTlNMVndfT0xaTjdYaUI4ZEppLWJabnZLWWdybFpUaUV1UzlBSGJMYzNRZ0kwR3NteXgwMUZLTGZ3Q3MzSWs5Z01fakEzTGdsaGU3cVVTRUXSAXdBVV95cUxPY2JTVXJOQl9oN0YweXRtWmtCWmdmMkl3RkgwYkp3dC1SSk16VjU2MGliT05EcjZRSjBLS3E2UkYtOGZ2S3dHeHlNLVRrQy1aRzhVbjJaS0JpT2xLQXRuY0ZwU0RhTEtIajA3RllaQzUwc2V2d2pycw?oc=5,4,연금|퇴직연금,google:구글뉴스:퇴직연금 의무화,INS
 2026-11-09T19:01+09:00,공공뉴스,"퇴직연금 대전환 임박...한국투자증권, 기업 지원 강화",https://news.google.com/rss/articles/CBMiakFVX3lxTE10dHlxT1BXZXlZUFN5Y0ZNWmQxaXVoY0hhakJ5cTJ4cEMxSng1c1ZIQWg2WGRJNDNoWGU5UXNOckVrWnN4X1djR3RkSHMwS0QtX2wzZ3NLWHU1dHJpNDRZS3FqSFF4WWVQWHfSAW5BVV95cUxOR245Rmw3WmwwR2VQSEVIWU9aM0w2d0ZxMHQwbGt0R0NDMVM3VWl2T2VOcVlGTUp6S1I1Rjd4dXZsRmcwaVlWVmttblhPX18xQ1BjWEllOS1TcEZ4bzJ3VFM0Q3dBWFNhd2hBWnlwUQ?oc=5,4,연금|퇴직연금,google:구글뉴스:퇴직연금 의무화,INS
 2026-11-09T19:01+09:00,KBS 뉴스,‘TK 패싱’ 불식 나선 민주당…“경북 현안 지원” - KBS 뉴스,https://news.google.com/rss/articles/CBMiZkFVX3lxTFBXR0Z6YmtEY1gwbUZCcTRYQ1BiSFNCbi1yQy1SZ090UnFsQkdlQzE1cHMxZFBXNlprdDluSDh0Z2FIdWEwblc2LXR0T2ZJcFR5Zng2dVVjUGJ4MFBFbjhVUnNjRUM5UQ?oc=5,0,,rss:구글뉴스 대한민국,LIFE
 2026-11-09T19:01+09:00,아주경제,"여야, 부동산 세제 개편에 이견...공정 과세 vs 이념 정책",https://news.google.com/rss/articles/CBMiWEFVX3lxTE5SZUNQMktrTktOTmY4ZVh0YWtWbkJaU2xVNkpPVlJBUUh2eUlINF94Q3NwMUJoYndGdU9RaDlVZmhHVUxINlVXcDBhNzVOTEQ1Uk9yVDEycHbSAVhBVV95cUxOUmVDUDJLa05LTk5mOGVYdGFrVm5CWlNsVTZKT1ZSQVFIdnlJSDRfeENzcDFCaGJ3RnVPUWg5VWZoR1VMSDZVV3AwYTc1TkxENVJPclQxMnB2?oc=5,1,부동산,google:구글뉴스:종합부동산세 양도세,INV
@@ -9931,6 +10293,7 @@
 2026-11-09T18:50+09:00,토큰포스트,"아캄, 가상자산 펀드 30억달러 보유분 분류…코인셰어스 15억2000만달러",https://www.tokenpost.kr/news/cryptocurrency/435132,4,달러|가상자산,rss:토큰포스트,INV
 2026-11-09T18:50+09:00,공공뉴스,[‘클릭’ 증시] 공매도 80%는 외국인...코스피 5000선 턱걸이,https://news.google.com/rss/articles/CBMibkFVX3lxTE9TTDM0bzZ1azJzWkxaeWF4V21ucHZFWkhLZjdmYUo3QlNuNmxlYkFpNmZLM1FqZjlGQ2xnSWZfTGx2alhCT2ZRMTJWLU00eEFrcWs0WTk0U2s0VXdjd3VGeEdBb1VCVmEwemRBajVB0gFuQVVfeXFMT1NMMzRvNnVrMnNaTFp5YXhXbW5wdkVaSEtmN2ZhSjdCU242bGViQWk2ZkszUWpmOUZDbGdJZl9MbHZqWEJPZlExMlYtTTR4QWtxazRZOTRTazRVd2N3dUZ4R0FvVUJWYTB6ZEFqNUE?oc=5,8,코스피|증시|외국인|공매도,google:구글뉴스:공매도,INV
 2026-11-09T18:50+09:00,한겨레,"트럼프, 불륜 젠슨 황 ‘스파이 연루’ 의혹 1년 뭉갰나 - 한겨레",https://news.google.com/rss/articles/CBMib0FVX3lxTE05N19SWmt6YS0yX3h5N0N6cnhDSzdxV3l5dmFickhIMWJTakFQM2pZX3JjQlVFWmpJVml3bURqbmJVMEdJOWh6RnVpcUJEM1B6SnJZZlExZnhKMHhxZzNfeElnM0x1RThGXzZENWcwYw?oc=5,0,,rss:구글뉴스 주요,LIFE
+2026-11-09T18:48+09:00,투어코리아,"한국투자증권, 기업 퇴직연금 담당자 대상 '퇴직연금 아카데미' 진행",https://news.google.com/rss/articles/CBMibkFVX3lxTE56WHE5UDdWbUhOei15YVNaby0zdG9mZ2RMSnEweVcybXQwU0dYTHotSEdFaGpHYTN2c0IwMzNtWWp6YVN2aUNzbnBYVTBZbGM5R2NrM2NsenQ3dWhFeEZSNmFlWTZvRWxfLU5tZGlB?oc=5,4,연금|퇴직연금,google:구글뉴스:퇴직연금 의무화,INS
 2026-11-09T18:47+09:00,이데일리,"반도체 분석 18시간→41초…엔비디아, 韓 산업 '밀착'(종합)",https://news.google.com/rss/articles/CBMigAFBVV95cUxQUXhYT3lFOFBxRHkzX1FBMzlOb2JnUXdjdDhJVWR6UDVNTDZwZEdFa1FJZnpkV3NPRnEwNkdnUWdlQm12QXFpWmZMeElKOTVuTDVEaGRBSzBuSTZfNnRCd2MyNlFYQ0VSeFZ1RnNBbzJYak1ldXl2Y05kd0o4c1JvcA?oc=5,5,반도체|엔비디아,google:구글뉴스:엔비디아,INV
 2026-11-09T18:47+09:00,신아일보,"엔비디아, 국내 AI 스타트업 4사 투자 추진",https://news.google.com/rss/articles/CBMicEFVX3lxTE8xRnJOMHVZeGN3SEdmNGRhZjFndFhpb3kzUGNlYXBoQ3VybmsyTF8wWVdRbWYtMFQ2MHN0RUp6SmZpWG5ibVdlTnJVTmhOYnRBUnkyeTQwbUFfV1VOME9HY2NmUF95YTgteE5uWmpqMnk?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
 2026-11-09T18:47+09:00,아시아투데이,GA ‘보험판매전문회사 전환’ 놓고 의견 팽팽…국회서도 잇따라 찬반 토론회 개최,https://news.google.com/rss/articles/CBMibkFVX3lxTFBrTmZ5emFjWTJzVmZJSXJDVzNITVF4Q01hbTdCQk45SThzZ19JYjNIbEtCRmg5RDZkWGY2V2NBWnRKdzVPZVVSamdXemxZZ1c0b3Y1ZHRlTk9DWTBsYjRXakg2dnFtaVVzMWIxOTF3?oc=5,1,보험,google:구글뉴스:GA 보험대리점,INS
@@ -9954,6 +10317,7 @@
 2026-11-09T18:40+09:00,디지털데일리,"“로봇 손, 공장서 일할 수 있나”… 리얼월드, 엔비디아와 개발한 ‘덱스벤치 1.0’ 첫 공개",https://news.google.com/rss/articles/CBMiZEFVX3lxTFBHckxSSENlcFZzMEZBQmdMdmFlSWJ5R0tVV2UwdHBMaHowWVdDLW1zX3RyRlp2Rm9PX0VlelAycjFxTUNxQ0xsZTlTdXZNbWdGbk9pSUd4QV9WV0F0cDE2aTkxUlU?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
 2026-11-09T18:38+09:00,Investing.com 한국어,달러 약세에 파운드화 강세…금요일 랠리 되돌림,https://news.google.com/rss/articles/CBMiZ0FVX3lxTE05cTdPMWxaNVBoMHNMNXlqYVFNSk13QldDZGU1a1A0RzFPWWl1Nm1LVlNTR2FZSUFaMHlFdE0xNmhGQmo2dk85YUtvRGRuU3ZTQTBFVDJUdk9qWjdXTFRLcjZ3ZHQyLVU?oc=5,2,달러,google:구글뉴스:달러 강세,INV
 2026-11-09T18:37+09:00,JTBC 사회,"'배달원 사망사고' 박신영 전 아나, 틱톡커로 대중 앞에",https://news.jtbc.co.kr/article/NB12327254,0,,rss:JTBC 사회,LIFE
+2026-11-09T18:37+09:00,더퍼블릭,"한국투자증권, 근퇴법 개정 앞두고 기업 대상 연금 컨설팅 강화",https://news.google.com/rss/articles/CBMia0FVX3lxTE5sUmdhajVKOUNFdm84eG0zZUtVYXRHYzFCQm9wRnZVZ2N4cTdXU0xQN2pkUlFOTllxS29rQ1pqNjNwZzFMYTk3NmZLODZtTWNYMmVkUXpfRkFxUHFWeG9WZVE1T1hIR09aVk4w0gFvQVVfeXFMTThlSERDVm80dzUzZmI3WHVTNmNrbTVhSlBLeVFmenZBRlJ1TXpRbHRfZmw0OFlhRUJGN095eFotdU5vT2RxMkZtRUlma3NxdWFvSnNYcmVzWHJ6Umhzb0lFQk5yZ0VlVWJDX3NDdDFF?oc=5,2,연금,google:구글뉴스:퇴직연금 의무화,INS
 2026-11-09T18:36+09:00,조선일보,"선관위 특검, ‘이상 의심 투표지’ 국과수 등에 정밀 감정 의뢰 - 조선일보",https://news.google.com/rss/articles/CBMihwFBVV95cUxPcjlNSDVkV2pFT2Z1cHRUMks2a2NYOGVmMjZ0R3ZfT3F5am5hYU9aVVBuSWdRZ2wyWHJkdzFVRFFFZWJ2Qzg2MWNmbldadWdwTGlKTlZ0WFNlcXcyeldSZS1OM1I0eWVEOU9PR0tFd3BLeUVuU3lFNU5QV05YZ0VfTGZXVzFET1k?oc=5,0,,rss:구글뉴스 주요,LIFE
 2026-11-09T18:36+09:00,연합뉴스 한민족센터,[뉴스잇] 불륜 인정한 젠슨 황…엔비디아 미래는?,https://news.google.com/rss/articles/CBMidEFVX3lxTE1vNGZIRU5rSXg1VTc2bW1VSFFNMkctUDYxa2hwa2xDQVg4VVEwV1JIV21BNGFGejQwMGRVTjg3ZjVxRXZ6TDBoZTVWd0dWS25pSTVha0tHVmtBcjZ4ZzM5ZVJ1SDJvMTRSZDl1eFNZbXJMQk1h?oc=5,3,엔비디아,google:구글뉴스:엔비디아,INV
 2026-11-09T18:35+09:00,뉴시스 정치,"與 '개별열람'에도 신천지 설전 계속…""대표 흔들지 마라"" vs ""성공한 정치공작""(종합)",https://www.newsis.com/view/NISX20261109_0003861061,0,,rss:뉴시스 정치,LIFE
@@ -10215,6 +10579,7 @@
 2026-11-09T17:43+09:00,동아 경제,젠슨 황 불륜 논란 속 ‘엔비디아 AI데이’…취재진 질문에 침묵,https://www.donga.com/news/Economy/article/all/20261109/134994225/1,3,엔비디아,rss:동아 경제,INV
 2026-11-09T17:43+09:00,메가경제,[메가이슈분석] 연말 채권 투자 셈법 바뀐다…국고채·회사채·ETF 어디에 담을까,https://news.google.com/rss/articles/CBMickFVX3lxTE5NR2FhZ3dnYUJiay1ITGJobzI0Vk85S3hiUEFDZEM5WkFkb1VXRFEtUktOWV9NNF9KOXpFMUhCQXFXNHpEdDM4V3pJeS1RbUFWcmVKa0Zxc2tOc1doU3REdnZLa1RZUmd5NTNvNy1ESFVUd9IBckFVX3lxTE5NR2FhZ3dnYUJiay1ITGJobzI0Vk85S3hiUEFDZEM5WkFkb1VXRFEtUktOWV9NNF9KOXpFMUhCQXFXNHpEdDM4V3pJeS1RbUFWcmVKa0Zxc2tOc1doU3REdnZLa1RZUmd5NTNvNy1ESFVUdw?oc=5,6,ETF|채권|회사채,google:구글뉴스:회사채 금리,INV
 2026-11-09T17:43+09:00,대한데일리,2027년 세부담 정상화 추진 양도세·종부세…의견 엇갈려,https://news.google.com/rss/articles/CBMiakFVX3lxTE9BV04ycHBTVExPWkU4aTFtYVlfTUs1V2ZXVXhTdlZsWlZweXZROTJyYVdXTG1taXZHYzRRTFM5LUN0bFFia0RJMkFJcWdpV1QzTHRQenctMUFHTDhYb0t0MTRRa3I2UXNOWHc?oc=5,2,종부세|양도세,google:구글뉴스:종합부동산세 양도세,INV
+2026-11-09T17:43+09:00,K채널,"k채널/전남광주통합특별시, 전세사기 예방 위해 중개사무소 합동점검",https://news.google.com/rss/articles/CBMiakFVX3lxTE44czhKVTFvTmRxZnlNYkJXRVQ4OFRid01IUkhObS1URGMycURJLTdkNTZFRVhId1NlY01pRE8wWkpiZzN0V0hacWhPOWQzdTkzZk1VZzY4YzR0MVRpM1RUYTBYRzJDUHJWeHc?oc=5,5,전세사기|사기,google:구글뉴스:전세사기,LIFE
 2026-11-09T17:42+09:00,한국경제 금융,"대신증권, 3분기 영업손실 22억원...유가증권 평가손실에 적자 전환",https://www.hankyung.com/article/202611095732i,2,유가,rss:한국경제 금융,INV
 2026-11-09T17:42+09:00,뉴스투온,"명조 3.8버전, 신규 공명자 ‘릴리’와 오프라인 행사 예고 - 뉴스투온",https://news.google.com/rss/articles/CBMibEFVX3lxTFB1N0lmN3hpVUJQLTRGekh4aEdQR1R1a3FkbmdyNWZXUmF4MHFyb3dhVlRCUjNBZ2RCUGRYc2d6b281MmNzRzByZVg2WU0tR1ZkMlhJT3lNVXJfRXp1SUNOazZHb2tlNlBTTUpwcg?oc=5,0,,rss:구글뉴스 주요,LIFE
 2026-11-09T17:42+09:00,데일리팝,"[매일 금리·환율 브리핑] 11월 9일, 원/달러 환율 9.5원 하락",https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBQlA3cThsRExUTTc2RzkzVGkwc2VDRldXYmV4OWczZkxNRGlZRlpQbG5iZ2lCa2VIWk9HckdUSFhmalhtbHI5bVJqYzlKSDlwcHViZkNDZWdZRTVQVnptZjJSdlRaWTV5?oc=5,7,환율|달러|금리,google:구글뉴스:원달러 환율,INV
@@ -10302,6 +10667,7 @@
 2026-11-09T17:29+09:00,이뉴스투데이,"우리WON모바일, 블랙프라이데이 맞아 통신비 0원 혜택",https://news.google.com/rss/articles/CBMicEFVX3lxTE5qLWkta1dWMklMNE1LdEk0UUwzNkl1WFg5b1pqejB2NEtZMHBTc0dHTTl6RHlwQXZERGhHM19YZGJzcTFDZ2thVTN1SkVhTGp0Y0N4Q1JUVi1QZmduRXBCQkNEVjg3V2syWnVDN1U3WFbSAXRBVV95cUxOWW52aktTX09TTWEzTUNtcXF5RC1iZnpsVjlWLUllVWszM1lJamNuNWZpU0NDNi1mWlJwSEVuQUZzLUNRS25maTZTc2RuTEVGYzlBbUN3R3VLQWVxODgycFNDcEhod1VYbC1BU2pXTFV4bGNyeg?oc=5,3,통신비,google:구글뉴스:통신비 요금제,LIFE
 2026-11-09T17:29+09:00,데일리팝,"DB손해보험, 포상·장학·교육 이어 임직원 봉사로 소방공무원 지원",https://news.google.com/rss/articles/CBMiaEFVX3lxTE1CRHNrbEtLT0tfaXppUFBQTjRfNnM0di1fVmQtY0pmMFJZVlRDaDVVZmFEb1U1azBRbkJkZk1BZVBWekZDWG05UXB3ZlZMakRSSlNIY0lMbXlSX1Bwbm5KeUt1aDlUUGtN?oc=5,2,보험|손해보험,google:구글뉴스:화재보험,INS
 2026-11-09T17:28+09:00,뉴시스 국제,"日증시, AI 규제 충격 딛고 반등…6만선 탈환은 아직",https://www.newsis.com/view/NISX20261109_0003860723,2,증시,rss:뉴시스 국제,INV
+2026-11-09T17:28+09:00,SeattleN,"故이예람 중사 유족, 보험금 소송 2심도 승소…""6억원 지급해야"" > 뉴스포커스",https://news.google.com/rss/articles/CBMic0FVX3lxTE5sRHBGUXNCYjV1d0pZbnJfci14djFkVHJXUWlyaWp3ZlhsLUtCaHV1NzFONFg5amJVeHRhbzBCVGE2QmxidV9Za0RDNFUtRURwcWpOdi1vc3ZXREUzd3VkcmhTbVRtczNMQ2dDenRtcWl0U0E?oc=5,4,보험금|보험,google:구글뉴스:보험금 지급,INS
 2026-11-09T17:28+09:00,게임톡,[명조] 3.8 복각 5종? 애정캐 없다면 그냥 존버하세요 - 게임톡,https://news.google.com/rss/articles/CBMibEFVX3lxTFBPWk14Z2g5NUtldk9MWU1aV19lVkZzbTk1dHVfcDdPSmlOYjFmOVp5SS1ta3pHcVBiMDZrZ3ZCekw3b2JWTVp6SVpKeHVZRFZRYW1EcG9QNk02eUJBeThOU2MzbVczWG12LWFSbg?oc=5,0,,rss:구글뉴스 주요,LIFE
 2026-11-09T17:28+09:00,진일보 | 전남일보,K-뷰티 유통 '그레이스'·공유오피스 '패스트파이브' 코스닥 노크,https://news.google.com/rss/articles/CBMib0FVX3lxTE43dDFUekwwZkVfTWQ3QUlrTFFvbHNxd2VaU0tqa0VwdXVYRDd4V2F2d25sLTRQZzIzZnhtUm1pdW82eGY5RXZXZW15SzF1ZV9jN1MwMjFoZHNMMldFVmdBbGs2X1NHOU4wOXlfSEItOA?oc=5,2,코스닥,google:구글뉴스:코스닥,INV
 2026-11-09T17:28+09:00,대한민국 정책브리핑,"'점으로 쓴 한글, 기록이 되다' 훈맹정음 반포 100주년 맞아 찾은 학술대회 - 대한민국 정책브리핑",https://news.google.com/rss/articles/CBMiakFVX3lxTE9KMFA0cy1VOXRCdGMzb2w1bks1RkVFaVVZdkdNVFltdXJMcUxRUW52MEdMa3FWdmx4anU1MkRGQjZhX0hVcVlhOElrQjdqVkUxakJBdFRWNWxnTjF2RTBBRVFnNW12SDhMdXc?oc=5,0,,rss:구글뉴스 대한민국,LIFE
@@ -10439,6 +10805,7 @@
 2026-11-09T17:07+09:00,연합뉴스 최신,"[AI프리즘] 엔비디아 ""피지컬 AI 황금시대""…한국 제조업과 협력(종합)",https://www.yna.co.kr/view/AKR20261109077051017,3,엔비디아,rss:연합뉴스 최신,INV
 2026-11-09T17:07+09:00,한국경제 금융,"""팬데믹 전 매출 82% 회복""…CGV, 특별관으로 주가 회복할 수 있을까",https://www.hankyung.com/article/202611095608i,1,주가,rss:한국경제 금융,INV
 2026-11-09T17:07+09:00,스포츠동아,"박신영, 사망 교통사고 이후 파격 근황…틱톡커 변신 - 스포츠동아",https://news.google.com/rss/articles/CBMibkFVX3lxTE5sVFlVa1RUWk9OaFYxUDdHWEd5V3A4dDlEWWVQNjN1QVd0V0JwOUlpTVR3SVRnUU1uN0pfVWhaRFJieTF0MTJoZUd2TFFwN0pIUTlENXdzOXJ0RFBDU2EtZmhwUjdmSXdmMGhOTmln?oc=5,0,,rss:구글뉴스 주요,LIFE
+2026-11-09T17:07+09:00,https://www.diarypoint.com/,"전세사기 최소보장제, 10일부터 신청…보증금 3분의 1까지 지원",https://news.google.com/rss/articles/CBMia0FVX3lxTE5NR2VQTnc2YU9OUmVHbk5pQkpVSFJRVDVWc3Uyc3Y2ekxOYkt6VlN4RkEzOVdYNDhwSUlqVHBIMlRXNWJhZDZrRHNHNExDaFRHUkFtaVNYNTBCSlFBREZ3Tm5ZTkgzT3VHTHBF?oc=5,7,전세사기|사기|신청|부터,google:구글뉴스:전세사기,LIFE
 2026-11-09T17:06+09:00,연합뉴스 최신,[쇼츠] 먼저 침투해 적 방공망 연다…中 스텔스 전투드론 GJ-11,https://www.yna.co.kr/view/AKR20261109136600704,0,,rss:연합뉴스 최신,LIFE
 2026-11-09T17:06+09:00,머니투데이,'똘똘한 한 채' 손보자는 與·학계…비거주 차별엔 한목소리 우려,https://www.mt.co.kr/politics/2026/11/09/2026110916063158614,1,손보,rss:머니투데이,INS
 2026-11-09T17:06+09:00,스페셜타임스,미국 고용지표 호조에 국고채 금리 전반 상승,https://news.google.com/rss/articles/CBMickFVX3lxTE9sVWdITWRFRnMwSXhZdHlLUlRLaHo0aTgtd3Z3emIxajRfYkFvdjloTEtSSFhPOE9FRjNGR21paTB1dnNJMXV5U2pOQnR3cWdJcnRIenctWmp6QnpDN2hmZVBOU0J5MG5iMUoxQldaTHZjdw?oc=5,4,금리|고용지표,google:구글뉴스:미국 국채금리,INV
