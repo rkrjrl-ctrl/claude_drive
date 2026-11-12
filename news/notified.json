@@ -1,24 +1,6 @@
 {
-"updated": "2026-11-12T08:06+09:00",
+"updated": "2026-11-12T09:06+09:00",
 "items": [
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBEb1M1OFNuSldBUEJ6MlhXdS0wSU9EaWR1bmhKX3hIZXBZQlVlVy1fTnlyV2pIZHFVYzc0SFE0dEM4OV9zcE05ZC0wMA?oc=5",
-"t": "2026-11-04T08:28+09:00",
-"tok": [
-"건보료",
-"검토",
-"금융",
-"매기나",
-"보험료",
-"부과",
-"분리과세소득",
-"사회",
-"연금소득에도",
-"일부",
-"일용근로"
-]
-},
 {
 "kind": "gov",
 "link": "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492435&act=view",
@@ -11061,6 +11043,219 @@
 "보증금",
 "사각지대",
 "전세사기",
+"피해자"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13X0l6aEY4WHNvdjA5NkFqZ1h4VVMxQUJLVWVIVnpLVmdOZEpVQW02SU1XSzlfNU51T21Kc1M5MUNUNVhVMm44M0JIWnhlSE9DSUtLeDVB?oc=5",
+"t": "2026-11-12T09:06+09:00",
+"tok": [
+"불륜",
+"엔비디아",
+"여성임원과도",
+"이르면",
+"이사회",
+"젠슨황",
+"준비",
+"해임",
+"회의"
+],
+"g": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5XZjVib0pFM0pwaXlndkh0OVE3WG1UMWxLYkI1cjgxNkNqa1RUcUJsRTl6ckNGQUlHdTgyWFF4VnNYQ2YxdG1JMVV5NlhWMGMybkZqWVJ0Vlhnc0pU?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE45cjZTVXdVN19BeTVhTUtRRDdLQTgzbGVzSzJGSjVvd1BuVEdTRjdrZDQ4cl9jU0VZbFBmRi0wbVllY055bEMtdG52Vk5yM0NIWkHSAVNBVV95cUxPYU12cjh0VjhKUjJqU3ZUakRObUtZZk5VVlpTZkhZVmtKZXZaQTZYeXk2anJtVVVqWWRXelJTOXFpZ3g1OERIbXBJQVlIVDdwbWd2Yw?oc=5",
+"t": "2026-11-12T09:06+09:00",
+"tok": [
+"NYT",
+"관계",
+"부사장과도",
+"불륜",
+"엔비디아",
+"젠슨"
+],
+"g": "https://www.yna.co.kr/view/AKR20261112020900009"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE04LXoxVnZrWFl1RWF4Z3pReUdzUVRDNnc2U1FyNVl6MlBLQk5sdkcwZUt5bGN2TldHLWgwd2xYV3RnYXkzZGhjY2VVNVFHOU1a?oc=5",
+"t": "2026-11-12T09:06+09:00",
+"tok": [
+"급락",
+"보도",
+"시간외",
+"엔비디아",
+"영향",
+"주가",
+"준비",
+"해임"
+],
+"g": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5XZjVib0pFM0pwaXlndkh0OVE3WG1UMWxLYkI1cjgxNkNqa1RUcUJsRTl6ckNGQUlHdTgyWFF4VnNYQ2YxdG1JMVV5NlhWMGMybkZqWVJ0Vlhnc0pU?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5tRHRGYXRCMGNWejBfSENzNXpjSUVHbWdUXzhPbTRuSlNnUHctRnJ6NFlyd2p5dF9XYW4wZnBZb21KdlhYeW5jVzc1aGhtdnphQ1RsNXZhcU5LTlQzVmE1cmtHVmJJVUk4TjJOSEpUTQ?oc=5",
+"t": "2026-11-12T09:06+09:00",
+"tok": [
+"불륜",
+"사내",
+"엔비디아",
+"여성",
+"의혹",
+"이사회",
+"임원과도",
+"젠슨",
+"준비",
+"해임"
+],
+"g": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5XZjVib0pFM0pwaXlndkh0OVE3WG1UMWxLYkI1cjgxNkNqa1RUcUJsRTl6ckNGQUlHdTgyWFF4VnNYQ2YxdG1JMVV5NlhWMGMybkZqWVJ0Vlhnc0pU?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wNFUtWkQ5bTBpcEwwWS00MkhfcVhzUzhHaVJ4eXo0WGNvZlZfRWhsYjNLMFpuVzNGM0dhNkptR05jNUFhSGVXTE5wOUM1UXM0U0hkNHZB?oc=5",
+"t": "2026-11-12T09:06+09:00",
+"tok": [
+"CEO",
+"WSJ",
+"검토",
+"결론",
+"빠르면",
+"엔비디아",
+"젠슨",
+"해임"
+],
+"g": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5XZjVib0pFM0pwaXlndkh0OVE3WG1UMWxLYkI1cjgxNkNqa1RUcUJsRTl6ckNGQUlHdTgyWFF4VnNYQ2YxdG1JMVV5NlhWMGMybkZqWVJ0Vlhnc0pU?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1rWDR3bWo1Qkk3bHVteW9VLW45SUhsOGw5eFRHMlQxZm8yd0ZwaDR3bm5KYV9KdkZ2ZFZsRC05VzRfUkJQMFB4OGcza0p5cE9qbHI3U3RkZmdES21iRnJLMjdwVUJfbm8?oc=5",
+"t": "2026-11-12T09:06+09:00",
+"tok": [
+"CEO",
+"엔비디아",
+"이사회",
+"젠슨황",
+"준비",
+"해임"
+],
+"g": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5XZjVib0pFM0pwaXlndkh0OVE3WG1UMWxLYkI1cjgxNkNqa1RUcUJsRTl6ckNGQUlHdTgyWFF4VnNYQ2YxdG1JMVV5NlhWMGMybkZqWVJ0Vlhnc0pU?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGUmRQSklxTzVtYlZtQ2t0bVNFVndDNnVIeE1Td2w4QnJNcHFETDJtV1hVVjhGLVMtNjFoYmFHMG85MVg0RjhTX0h1R1k4T21UVmoxLXdlQkFTTW1v?oc=5",
+"t": "2026-11-12T09:06+09:00",
+"tok": [
+"CEO",
+"기업과",
+"물색",
+"블룸버그",
+"엔비디아",
+"외부",
+"차기",
+"협력해"
+],
+"g": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGUmRQSklxTzVtYlZtQ2t0bVNFVndDNnVIeE1Td2w4QnJNcHFETDJtV1hVVjhGLVMtNjFoYmFHMG85MVg0RjhTX0h1R1k4T21UVmoxLXdlQkFTTW1v?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8ya21jeDFtbXhkY2hpbk5OREh3X1VIaVpmZ2FUbnJvTzRFNTJPYy1QSVVhQ2lPbjZzNjRoMGU3aGw3US12UHJMdTA4cThPSzhrb29tX0ZpZWw1RE93?oc=5",
+"t": "2026-11-12T09:06+09:00",
+"tok": [
+"CEO",
+"검토",
+"물색에",
+"본격적인",
+"블룸버그",
+"앞서",
+"엔비디아",
+"임명",
+"임시"
+],
+"g": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5XZjVib0pFM0pwaXlndkh0OVE3WG1UMWxLYkI1cjgxNkNqa1RUcUJsRTl6ckNGQUlHdTgyWFF4VnNYQ2YxdG1JMVV5NlhWMGMybkZqWVJ0Vlhnc0pU?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261112_0003864828",
+"t": "2026-11-12T09:06+09:00",
+"tok": [
+"10",
+"20",
+"5385",
+"58포인트",
+"94",
+"오른",
+"출발",
+"코스피"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261112_0003864828"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261112_0003864831",
+"t": "2026-11-12T09:06+09:00",
+"tok": [
+"22",
+"27",
+"703",
+"88포인트",
+"내린",
+"출발",
+"코스닥"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261112_0003864828"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GSzdSQVYyZV9FcmZxVVhlY0RfamFwVWw1N1N4bkoyeDVhVm5PRko3dFByVTBPZ2x4cVQyVHZ6d0pqMXY2cXZuR1BCY3ZkX3VjU3gzU29xWk9RZmwwM2Q4NXhTSzZ4LWxtQlh2eQ?oc=5",
+"t": "2026-11-12T09:06+09:00",
+"tok": [
+"1만1천",
+"480건",
+"4만2천",
+"LH가",
+"넘었다",
+"누적",
+"사들인",
+"인정",
+"전세사기",
+"피해자",
+"피해주택"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRkpRaEliRUxnNHA4UkhKMjI0OHdVS2FqMEtRTWdNSEY3dThOZkNHZWUybXJ0T1FKQWdGMVR4Rm03emdMbUFXYzd4T201a3VkeU41OHRnSUFCWU9LMUdGM1NHOU12a1VzTXRIVDBQVklOZXBUNnFvRmk1dDhpZFdmcTJNUlpjcy1pQVhV?oc=5",
+"t": "2026-11-12T09:06+09:00",
+"tok": [
+"10일부터",
+"11월",
+"멀티미디어",
+"신청",
+"전세사기",
+"전체",
+"지원",
+"카드",
+"피해",
+"한컷",
+"회복"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5teXF2WDlHSHkwa19TeGU1Y2VPN0NyWVk3Ml9YWkk4M1ZnMmN3dktwSDVCN01zYTd2YUtOemlQVnNxQ2hLaWtjOWstUHZKMVQzQTdFczA4dVBMYWlsSm9ab3Mxd1pzZw?oc=5",
+"t": "2026-11-12T09:06+09:00",
+"tok": [
+"480명",
+"4만2천여",
+"KBS",
+"결정",
+"누적",
+"뉴스",
+"전세사기",
+"추가",
 "피해자"
 ]
 }
