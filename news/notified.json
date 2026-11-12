@@ -1,162 +1,6 @@
 {
-"updated": "2026-11-12T12:06+09:00",
+"updated": "2026-11-12T13:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261104085300071",
-"t": "2026-11-04T13:05+09:00",
-"tok": [
-"공화텃밭",
-"민주",
-"사우스캐롤라이나",
-"상원",
-"승리",
-"예측"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.hankyung.com/article/2026110452927",
-"t": "2026-11-04T13:05+09:00",
-"tok": [
-"다수당",
-"민주",
-"연방",
-"예측",
-"중간선거서",
-"탈환",
-"하원"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261104_0003854405",
-"t": "2026-11-04T13:05+09:00",
-"tok": [
-"36석",
-"46석",
-"공화",
-"낮12시",
-"민주",
-"상원",
-"중간선거",
-"현재"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261104_0003854231",
-"t": "2026-11-04T13:05+09:00",
-"tok": [
-"당선",
-"매사추세츠",
-"연방",
-"하원의원에",
-"한국계"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.hankyung.com/article/2026110453197",
-"t": "2026-11-04T13:05+09:00",
-"tok": [
-"고씨",
-"당선",
-"댄고",
-"민주당",
-"연방",
-"제주",
-"하원의원"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261104094100071",
-"t": "2026-11-04T13:05+09:00",
-"tok": [
-"내가",
-"압승",
-"없었다",
-"있었다면",
-"투표용지에",
-"트럼프",
-"패배에",
-"하원"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261104094300071",
-"t": "2026-11-04T13:05+09:00",
-"tok": [
-"광고",
-"라마스와미",
-"비열",
-"선거",
-"오하이오",
-"주지사",
-"패배"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611041251256576",
-"t": "2026-11-04T13:05+09:00",
-"tok": [
-"DDHQ",
-"공화",
-"민주",
-"상원서",
-"승리",
-"텃밭",
-"텍사스"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261104094900071",
-"t": "2026-11-04T13:05+09:00",
-"tok": [
-"민주당",
-"상원선거",
-"승리",
-"예측",
-"텍사스"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611041256589959",
-"t": "2026-11-04T13:05+09:00",
-"tok": [
-"116",
-"36",
-"46",
-"65",
-"vs",
-"민주",
-"상원",
-"예상",
-"장악",
-"하원"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0RDhOUm9QRUVick5STmIwUGMxOFRQcGJnSDRvUWZKdnNDOEZYMjBOQnp0YlQ0ZDNUVkVNWlFzS2NEcGVPWHlHaHA1QU9TWlRrX3RmOTh3?oc=5",
-"t": "2026-11-04T13:05+09:00",
-"tok": [
-"0원",
-"건보료",
-"검토",
-"금융소득에도",
-"내는데",
-"부과",
-"세금",
-"연금",
-"일용직"
-]
-},
 {
 "kind": "속보",
 "link": "https://www.yna.co.kr/view/AKR20261104095100071",
@@ -10914,6 +10758,36 @@
 "진료",
 "집단",
 "침해"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBkY21RRzc3MGk0cFJEWnE2RTNQcmlvUW84SnBmd3cxVkJHRG5yWXZfOV8tQkdSVm9wdlk4SFo5bG1ONDVUMWY2VXBDemxNVjNFMzVkUVF0OHV2b2NJRWZUSmFBUDdleWRM?oc=5",
+"t": "2026-11-12T13:06+09:00",
+"tok": [
+"4종",
+"개편",
+"공제상품",
+"달라졌나",
+"무엇이",
+"신약",
+"신협",
+"출시",
+"치매",
+"특약",
+"표적항암"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aMndUMWp2dWh0NGF2SU84Tm9BVFZfbkN2bDg3MDBCS2hVVk10NEJNVVlJVl9OVV9US3RDS2U3SEVyUkNvazhSTUtQN2l0VkZicWEwWmhxNm44WXUzWUFtd0JDVGI5VlhpYUo2Zw?oc=5",
+"t": "2026-11-12T13:06+09:00",
+"tok": [
+"480건",
+"결정",
+"국토부",
+"전세사기피해자등",
+"추가"
 ]
 }
 ]
