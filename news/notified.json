@@ -1,84 +1,6 @@
 {
-"updated": "2026-11-12T17:06+09:00",
+"updated": "2026-11-12T18:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261104161400004",
-"t": "2026-11-04T18:05+09:00",
-"tok": [
-"1명",
-"난동",
-"부상",
-"세브란스병원서",
-"신촌",
-"의사",
-"환자가",
-"흉기"
-]
-},
-{
-"kind": "속보",
-"link": "https://view.asiae.co.kr/article/2026110417412152237",
-"t": "2026-11-04T18:05+09:00",
-"tok": [
-"병원서",
-"세브란스",
-"신촌",
-"의사",
-"입건",
-"찔러",
-"특수상해",
-"혐의",
-"환자가"
-]
-},
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE92Q0l6MVVpVzhlZUZZTXRyWFQ1TjVqV2VxU0ctc0F0QW16SFpBZjNsZDl4cDJZQnZsYmF4cFlwaDZsQVRXc2hQYW1hbVFVV2NNV2FkVDNkeEJmckJL?oc=5",
-"t": "2026-11-04T18:05+09:00",
-"tok": [
-"4000여건",
-"8주룰",
-"결과",
-"보험",
-"심사",
-"이르면",
-"접수",
-"통보"
-]
-},
-{
-"kind": "속보",
-"link": "https://biz.chosun.com/stock/stock_general/2026/11/04/RYSQUKYR2JGWDCNFOBQJANECGM/",
-"t": "2026-11-04T18:05+09:00",
-"tok": [
-"2615억",
-"28",
-"47",
-"다우기술",
-"사람인",
-"중앙일보에",
-"증자",
-"지분율",
-"투입",
-"확보"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261104164700005",
-"t": "2026-11-04T18:05+09:00",
-"tok": [
-"5일",
-"5천200억",
-"CJ컨소시엄",
-"규모",
-"다우",
-"인수계약",
-"중앙일보",
-"체결"
-]
-},
 {
 "kind": "단독",
 "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9HTVVQSVNIck1GMDM3cnJ6YVhNWkxXdGlLU2hqRXdzc1gyaGVmMVQ2dVFOS0VZQ3VIU1d6ckxIR0ZuSGZQVENNN1dyVWZ2ZEM2ZGEyXw?oc=5",
@@ -10730,6 +10652,114 @@
 "예방",
 "우수시군",
 "전세사기"
+]
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9JUmZfWnZWYWpseWM0RGJwRTJGdUxJQUE5R0g1WGpOWHhVbTVOOXpCLTFsZU5YQi1ybkw5ZU0tZ3Mxd2xMbTFzR1A4SHF2SFp5N1Ezd2pB?oc=5",
+"t": "2026-11-12T18:06+09:00",
+"tok": [
+"2대",
+"개통",
+"막아",
+"문자는",
+"바꾸면",
+"속여",
+"알뜰폰",
+"요금",
+"전화",
+"카드",
+"통신사",
+"통에",
+"피싱",
+"할인",
+"확인"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9qdWV2X2d4YzdfX3NvWUIzSm1zTXlmSUphQmxWVV85S1V4bGZ2ekJSelItM0ctSjZjOXJzSTk4ZF9TQkpjcTg4LTVlZXJVTWp6R2NuM1NsbEJLcF9CMm9BWjlUeEJORHBYWkV3?oc=5",
+"t": "2026-11-12T18:06+09:00",
+"tok": [
+"개정",
+"보장",
+"암보험",
+"어린이보험도",
+"중입자치료",
+"출시",
+"현대해상"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.sedaily.com/article/20113652",
+"t": "2026-11-12T18:06+09:00",
+"tok": [
+"국민연금",
+"금융지주",
+"독립이사",
+"열렸다",
+"추천"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiUDdwRjNjbnluQWppblV2cExJTkQtZnNKS3pQY0JtTEZZVVlDZTEzaWlVa25YR1NBcTdNb0d1a0dkSDRSTVFfanlOU2pCU0RfU2lkbHE0YnY3Y2g0TmN6RzVocTBNcFk4X0k1bTViZ3p4MW8?oc=5",
+"t": "2026-11-12T18:06+09:00",
+"tok": [
+"3분기",
+"반영",
+"변액보험",
+"손실",
+"적자전환",
+"한화생명",
+"헤지",
+"환손실"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE82R19ULU9STTBkTVhWTGZfY2sxR3J6eS1Nd3MtZTRuRFpUR0ttLTB4c21jZkdpWEFHaHFlNGJJMGFoaXIxWkNJa0FGNUdrNFlCRzFkcjBSQUpBendkUkN2bE9RZHNsV0dwcWxTTEhFTdIBc0FVX3lxTE5JMUZGOGtWaUVEN3FyUE5UeXBGa1Z4SS1WUGxhYkVxNHg3dGhyMHhkaVVTZVk0WndnYXlRSzZmYy1FLXR4eWVsQlZrUk9WdDBRSGJXR0dQdVNYRmZtSWFNYW1rN19HX3EzaEZMY2JtRzVKb28?oc=5",
+"t": "2026-11-12T18:06+09:00",
+"tok": [
+"미달",
+"미지급",
+"서울시의원",
+"연차수당",
+"지적",
+"최저임금",
+"홍은정",
+"효창운동장"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBhNkllczdSeHN3VkpwOUgtVXlkVnN4dDdEREo3c0pCdnAzdmJDZ1BScFE5WHNNTWZfQ0h6R0hCb3VRN0tGUkVwek1oVVFOTzZobkNDODBIWEdFMTNJNGluYlFfZmg1ZUtiNUFtX3ZISWpIWXM?oc=5",
+"t": "2026-11-12T18:06+09:00",
+"tok": [
+"3분기",
+"70",
+"감소",
+"논의",
+"영업이익",
+"인상",
+"전기요금",
+"한전",
+"확대"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1iS0hPbnpudmEzTnl6U3NJcFNWMWVETVZ3VGpYbzlQM0U5M1gyMTBoWnIybTlpbGhSMXNhRlZIWjBmWTRfTElkVTRyQWtaNEJXaUttWVRQbE9fT2VVaV90dmlB?oc=5",
+"t": "2026-11-12T18:06+09:00",
+"tok": [
+"9000만원",
+"막아",
+"보이스피싱",
+"직원",
+"태안농협",
+"피해",
+"화성"
 ]
 }
 ]
