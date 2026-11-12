@@ -1,18 +1,6 @@
 {
-"updated": "2026-11-12T21:06+09:00",
+"updated": "2026-11-12T22:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://www.mt.co.kr/politics/2026/11/04/2026110421053430511",
-"t": "2026-11-04T22:05+09:00",
-"tok": [
-"법사위",
-"조작기소",
-"주도로",
-"통과",
-"특검법"
-]
-},
 {
 "kind": "속보",
 "link": "https://www.newsis.com/view/NISX20261104_0003855365",
@@ -10724,6 +10712,21 @@
 "전기료",
 "조업시간",
 "주말"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9KZ0JTUnpxSkM3MjNldkZXa3dKUS1ERFZtT2NwWlE0QUZkUUl5VjFpZHk1OFNFN3RTcEtEMWhKS0ZYWm9DUzM5cVUxY292QQ?oc=5",
+"t": "2026-11-12T22:06+09:00",
+"tok": [
+"4조",
+"국민연금",
+"노후자금이",
+"불륜에",
+"엔비디아",
+"젠슨",
+"증발",
+"평가액만"
 ]
 }
 ]
