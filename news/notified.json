@@ -1,525 +1,6 @@
 {
-"updated": "2026-11-12T11:06+09:00",
+"updated": "2026-11-12T12:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA5M1dUTlF3aUpkMTQ1NFE5b0FXUVVFMmFEdWt5dXpVenp1TkdYZDNWeUlGVk82VVdwaTk2TUh1SWtWeU5Dd1FkS3ZRSVlkYUdCbzBWQ1otWTLSAVhBVV95cUxQOTNXVE5Rd2lKZDE0NTRROW9BV1FVRTJhRHVreXV6VXp6dU5HWGQzVnlJRlZPNlVXcGk5Nk1IdUlrVnlOQ3dRZEt2UUlZZGFHQm8wVkNaLVky?oc=5",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"36",
-"38",
-"83",
-"P500",
-"나스닥",
-"다우",
-"마감",
-"증시",
-"혼조"
-]
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5oUHpvY3RORjdnZVpzak5BcWZqRlV1Mk5vMjNDdXI2NHRuZW52VlNCbm9GNlNCMXNOdkRLSXVGQjFsVDVERldadC13SlZobDRFTzNMR1NKNl8?oc=5",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"63",
-"나스닥",
-"마감",
-"반도체지수",
-"상승",
-"소폭",
-"필라델피아"
-]
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9JMWh6RnpWMFJSTTlqN3RuaVp1WXlwNmNZUXJqLS1tYkprR2xlWURKem84NzdKZTBoVWE2ajU0YzZlNjIxUEZVZWFYVTBGNTNRbDhBaQ?oc=5",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"38",
-"WTI",
-"국제유가",
-"하락"
-]
-},
-{
-"kind": "속보",
-"link": "https://view.asiae.co.kr/article/2026110406111621833",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"뉴욕증시",
-"당일",
-"마감",
-"반도체주",
-"반등",
-"선거",
-"혼조"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261104_0003853604",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"2건의",
-"고속철",
-"교통부장관",
-"밝혀",
-"사임의사",
-"스페인",
-"연내",
-"참사로"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.hankyung.com/article/202611044167g",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"14조",
-"3분기",
-"6423억",
-"넘겼지만",
-"매출",
-"모회사",
-"영업손실",
-"쿠팡"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611040615317905",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"3개",
-"3분기",
-"6423억원",
-"분기",
-"연속",
-"영업손실",
-"적자",
-"쿠팡"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261104_0003853609",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"5명",
-"ICJ",
-"국제사법재판소",
-"선출",
-"안보리",
-"유엔총회",
-"판사"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611040622509501",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"김여정",
-"담화",
-"마주",
-"바이낸스",
-"사태",
-"앉을",
-"없어",
-"필요",
-"하루만에"
-]
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5nVG5OOXdtY3R3S05vQ3FjNTZpSFRRUzNBN2NIVkdSZ2xnWWlqQUd3UVRmNjRDTm9DVzZjMEdjR1I0c2d1NHVTT09tdzMzYWxoMUpxdW5WckFULUdVRFc4dEtwUkJPak5i?oc=5",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"65",
-"85",
-"AMD",
-"강세",
-"급등",
-"뉴욕증시",
-"마이크론",
-"애플",
-"엔비디아",
-"오라클",
-"테슬라",
-"하락"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261104_0003853686",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"인디애나",
-"일부",
-"중간선거",
-"켄터키",
-"투표마감"
-]
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4zVlFHd2Y2QWExaWZvbHJlb21jS01hRzE1Mi0zVTNwTmhlMER1X0ptdlc2Q1kydHVRX1BfUGdiN0g2R2dUYTRTYldyMFBkbTU5QnhXU0VYS184U3ByNTRyWU9RNTBrTXRsV01IMUx0aENiTEFOS01wWHcxRQ?oc=5",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"700선",
-"7월",
-"상승",
-"이후",
-"장중",
-"처음",
-"출발에도",
-"코스닥",
-"하회"
-]
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52M2dlUWlyN3ZNcEFVUElxYWpXWWRZNkJzQUt0dTFZYzIyNEU3QVhPcnVZQVZBU2VxR202MlVldm43OEZpaDdsaWd4UldidDhHOHhaZjdnd0lOY3p4ZUs1TFdlYmpURnho?oc=5",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"1만2400원",
-"50",
-"공모가",
-"상장",
-"이에스티",
-"주가",
-"주목",
-"첫날",
-"코스닥"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261104_0003853866",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"11",
-"35포인트",
-"61",
-"715",
-"74",
-"개장",
-"오른",
-"코스닥"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261104_0003853865",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"13",
-"137",
-"34포인트",
-"43",
-"5786",
-"개장",
-"오른",
-"코스피"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611040915363448",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"11시",
-"개표",
-"뉴욕은",
-"동부",
-"시작",
-"오전",
-"조지아",
-"한국"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611040916176519",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"개표",
-"동부",
-"민주",
-"시작",
-"우세",
-"중간선거",
-"지역",
-"하원"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611040933043270",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"발급기",
-"사업",
-"사전투표용지",
-"압수수색",
-"중앙선관위",
-"특검",
-"특혜"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611040947188774",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"3개월",
-"600선대",
-"700선마저",
-"내줬다",
-"만에",
-"진입",
-"코스닥"
-]
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MbDJqZS11WVpRTEJQS0pNSXNpeS1DbTZ3dlZ5ZDRCb3pkME1rOHQyWjM5UWtPRVFtVUd2NmNGbUZVOWZXcEhfcHJjY2VJSkVkUUhWOGtGVzV3UdIBWEFVX3lxTFBZbk9QbjhlZUtqdC16eUhLbTBBb1EwaXNHV1BVanA2aVZrNGVNUkpoUk1qaWlhSkxISnZnNnFLS2p3SDRjVnlLYm9BcndRNjJydFlWN3NQQ0U?oc=5",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"3개월",
-"700선",
-"붕괴",
-"장중",
-"코스닥"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611040952374712",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"동해상으로",
-"미상발사체"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611040952423217",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"동해상으로",
-"미상",
-"발사",
-"발사체",
-"합참"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.mt.co.kr/politics/2026/11/04/2026110410030383865",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"가상자산",
-"공식",
-"과세",
-"김민석",
-"유예",
-"정부에",
-"제안"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261104064400008",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"상승",
-"출발했던",
-"코스닥",
-"코스피",
-"하락",
-"하락전환"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611041021517716",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"뉴햄프셔",
-"당선",
-"민주당",
-"상원",
-"파파스",
-"확실"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261104_0003854235",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"10월",
-"4P",
-"50",
-"52",
-"8P",
-"PMI",
-"레이팅독",
-"서비스업"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261104_0003853995",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"3시",
-"6곳",
-"개표",
-"마감",
-"미시간",
-"시작",
-"알래스카",
-"오후",
-"중간선거",
-"투표"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261104082400001",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"국회",
-"국힘",
-"법사위",
-"상정",
-"조작기소",
-"퇴장",
-"특검법안"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261104088400004",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"부족",
-"사후",
-"선관위",
-"위변조",
-"지시로",
-"투표록",
-"투표소",
-"투표지",
-"특검"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611041144140826",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"변조",
-"서울시",
-"선관위",
-"압수수색",
-"중앙",
-"투표록",
-"특검"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.mt.co.kr/politics/2026/11/04/2026110411503432068",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"동해상으로",
-"미사일",
-"북한",
-"선덕",
-"수발의",
-"일대서",
-"포착",
-"합참"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.mt.co.kr/politics/2026/11/04/2026110411515779557",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"1소위",
-"결론",
-"법안심사",
-"조작기소",
-"특검법",
-"회부"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.nocutnews.co.kr/news/6601038",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"고객정보",
-"유출",
-"일부",
-"정보",
-"한양증권에서도",
-"해킹"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5vNmRmYm9NbU9SS0NuWVBwTHE1amlnSEVieUtpVjZEQnZqenpkR2M2Zmt6dkd0RWE2SmFMUzY2Um0tRlhZTE5rSnBRUy1wdVV1ZTB4MGxlTjM3S01KTVU5N3dmTHREUQ?oc=5",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"반대한다",
-"사업장",
-"소상공인연합회",
-"영세",
-"외면한",
-"의무화",
-"퇴직연금",
-"현실"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9ILUVKT2E5cUtXaHNCdGZzMDVfR3RoY2wzZi1UdXRRMjRLUzNCQW1FSk1zU2RkcXVqVDhBMXIxRnBoZGZjWnJMdlZHdXFqWHZ5aGw4bGRuV0laV3ZxN3RYVHYtMldLQkxoNHZJ?oc=5",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"건강보험",
-"복지부",
-"본인부담률",
-"인하",
-"중증난치질환자",
-"희귀"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9nUVRUa2FqRXR3LVVaQTh2NFY2NXBkVGp6am1YX0xxUkhCV1JwRTFzMUhicWZOdG9zVUlQWG1vSjVxUHdRSTlIVTkwUjkyb2hQUUxNWVRVejlxYjdyRVAxVWEwWldHU01oZmFzc2hKZWxPZw?oc=5",
-"t": "2026-11-04T12:05+09:00",
-"tok": [
-"59",
-"개표가",
-"급락",
-"미국",
-"반등",
-"변수",
-"상승",
-"시도",
-"엔비디아",
-"전망",
-"중간선거",
-"증시",
-"코스피"
-]
-},
 {
 "kind": "속보",
 "link": "https://www.yna.co.kr/view/AKR20261104085300071",
@@ -11330,6 +10811,109 @@
 "인정",
 "전세사기",
 "피해"
+]
+},
+{
+"kind": "gov",
+"link": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249820&menuNo=200218&pageIndex=1",
+"t": "2026-11-12T12:06+09:00",
+"tok": [
+"100",
+"누가",
+"들고",
+"보이스피싱",
+"사기입니다",
+"신분증과",
+"왔다고요",
+"위임장을",
+"주민센터에"
+]
+},
+{
+"kind": "단독",
+"link": "https://www.fnnews.com/news/202611111034284840",
+"t": "2026-11-12T12:06+09:00",
+"tok": [
+"10억",
+"9억",
+"PF",
+"가격",
+"넘는데",
+"상한은",
+"소형",
+"아파트도",
+"지원"
+]
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ENmhxemhocTBjTUREWlVOeEJlaVJ5VUpJMkliUlJpcUNRbko1WHNNU3R3Q3h0YnlsNkVTTXF2Y0tUTlhIV2ctVlhnck1Vb1JDVVE?oc=5",
+"t": "2026-11-12T12:06+09:00",
+"tok": [
+"1502억",
+"vs",
+"떠넘기기",
+"부담",
+"절감",
+"정면충돌",
+"지방전기료",
+"할인"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZTnR2ekJsNzVHbGpUa1BBMTBHaE1aX2JZZWFrQmpfWlJuUmlLWFh5RWd1SmRoWGNKNVNmbGJHb0lNYk8tTGlCV3NNTjdvODJRcTNGQWNQRXdNS1Z4YTA3RGtGWEV2WTk4VVpqTA?oc=5",
+"t": "2026-11-12T12:06+09:00",
+"tok": [
+"거래",
+"서울은",
+"아파트",
+"전국",
+"토막"
+],
+"g": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZTnR2ekJsNzVHbGpUa1BBMTBHaE1aX2JZZWFrQmpfWlJuUmlLWFh5RWd1SmRoWGNKNVNmbGJHb0lNYk8tTGlCV3NNTjdvODJRcTNGQWNQRXdNS1Z4YTA3RGtGWEV2WTk4VVpqTA?oc=5"
+},
+{
+"kind": "주목",
+"link": "https://www.yna.co.kr/view/AKR20261112085500530",
+"t": "2026-11-12T12:06+09:00",
+"tok": [
+"국민연금",
+"부담",
+"서류",
+"제출",
+"줄어든다",
+"해외수급자",
+"확인"
+]
+},
+{
+"kind": "주목",
+"link": "https://view.asiae.co.kr/article/2026111211094893761",
+"t": "2026-11-12T12:06+09:00",
+"tok": [
+"ETF",
+"당일매매",
+"서비스",
+"시작",
+"퇴직연금",
+"하나은행"
+]
+},
+{
+"kind": "주목",
+"link": "http://www.docdocdoc.co.kr/news/articleView.html?idxno=3044506",
+"t": "2026-11-12T12:06+09:00",
+"tok": [
+"개원가",
+"개인정보",
+"관리법에",
+"반발",
+"비급여",
+"자율성",
+"진료",
+"집단",
+"침해"
 ]
 }
 ]
