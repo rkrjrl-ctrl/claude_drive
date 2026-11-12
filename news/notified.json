@@ -1,65 +1,6 @@
 {
-"updated": "2026-11-12T09:06+09:00",
+"updated": "2026-11-12T10:06+09:00",
 "items": [
-{
-"kind": "gov",
-"link": "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492435&act=view",
-"t": "2026-11-04T10:06+09:00",
-"tok": [
-"10",
-"건강보험",
-"본인부담률",
-"인하",
-"중증난치질환자",
-"추진",
-"희귀"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.nocutnews.co.kr/news/6601747",
-"t": "2026-11-04T10:06+09:00",
-"tok": [
-"5800선",
-"강세에",
-"급등",
-"넘어서",
-"반도체",
-"코스피"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Pc2RpTTM3NmRrVUxRckY5RllZN1dwQXdiN3lvQ3RlWEhSdDRuZjNmYUw4U0RPMTIxdWQyM2ZYcU1vczBVejhCbnJsSHdPeDA5Tnc?oc=5",
-"t": "2026-11-04T10:06+09:00",
-"tok": [
-"100",
-"경쟁력",
-"관리로",
-"돌파",
-"디폴트옵션",
-"리스크",
-"수익률",
-"자산배분",
-"퇴직연금",
-"한국투자증권"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9aNnc2OFNSVW16cExZTEdvVzNIZHh3R2hFMHlvRE9QaE1qemdrTHJGRElCLXZYVUx0QXdqNU9HaGNoMGZtQnEzS0VFamNXXzBuZ2huSnEwcm9BUdIBVEFVX3lxTE14X01EcEZBVW9PeUp1Nzlia0NOMFBDeGstV0kwSHM3WDN0UWF2YjJyVDZOUHJjWEFNZ2lqR1Q4MzFudngteGJGZ2gyZ0Z5R3dLeV9USQ?oc=5",
-"t": "2026-11-04T10:06+09:00",
-"tok": [
-"SK하이닉스",
-"강세",
-"급등",
-"반도체",
-"삼성전자",
-"초반",
-"코스피",
-"훈풍에"
-]
-},
 {
 "kind": "주목",
 "link": "https://www.yna.co.kr/view/AKR20261104060700002",
@@ -11257,6 +11198,100 @@
 "전세사기",
 "추가",
 "피해자"
+]
+},
+{
+"kind": "gov",
+"link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788852",
+"t": "2026-11-12T10:06+09:00",
+"tok": [
+"가입",
+"공제",
+"국가유산수리",
+"손해배상보험",
+"의무화",
+"전면"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9haUJvVjExY2l6QzZyc1I5Qm8xUEVMajFDc0xwRmljbUdmalc2R1RkbE9kTFo5X0pxdGE4UGZHdzR4S1BWR09rYVlkaFZEamN0THdoakMyV05VZW1ucEhJWjRERQ?oc=5",
+"t": "2026-11-12T10:06+09:00",
+"tok": [
+"부사장과도",
+"불륜",
+"엔비디아",
+"의혹",
+"이사회",
+"젠슨",
+"준비",
+"해임"
+],
+"g": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5XZjVib0pFM0pwaXlndkh0OVE3WG1UMWxLYkI1cjgxNkNqa1RUcUJsRTl6ckNGQUlHdTgyWFF4VnNYQ2YxdG1JMVV5NlhWMGMybkZqWVJ0Vlhnc0pU?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5JRnowa0k4cVdzSG1JQjFabTJNaHN1dEl1VGl2N1N1OEZSZUFWbXZBYVVtRnhxZkdUUFE5Y0Y2eDlDQ0JyYkR2SWc3MFRacnFnMG4xRlYwTVJPSTZoRVN3Y2MwYlZRNXZFaGg5Mk4ySlVIUkcwalU2cnI3SQ?oc=5",
+"t": "2026-11-12T10:06+09:00",
+"tok": [
+"20",
+"27",
+"5380선",
+"코스닥",
+"코스피"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5JRnowa0k4cVdzSG1JQjFabTJNaHN1dEl1VGl2N1N1OEZSZUFWbXZBYVVtRnhxZkdUUFE5Y0Y2eDlDQ0JyYkR2SWc3MFRacnFnMG4xRlYwTVJPSTZoRVN3Y2MwYlZRNXZFaGg5Mk4ySlVIUkcwalU2cnI3SQ?oc=5"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00UkNUazlNN0U5ckNmUDRPTnFfaHI0emVHOEZuMmNMLUtMN3hXbjF6UzF0VDM4c3h6RnBhWDNXZm9TZzdrWW9ScTk1R2dGWWxMZzMyUVdHTjhaa0hQemoyaVIxejYweXpM?oc=5",
+"t": "2026-11-12T10:06+09:00",
+"tok": [
+"개선",
+"건강보험",
+"림프종",
+"암환자",
+"위암",
+"유방암",
+"적용",
+"접근성",
+"추진",
+"치료",
+"항암제",
+"확대"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5YcXVvMlpPMXVqY2FSYkxiak5faWdwYWZDN2FCLVhYaG81anJXd2N3eXFjbEduQkZXTTVWSGViemFBUUY1UDJ3WGw4V3NjMlZxRWJza0ZleGdLamNja2ZKT2lBd2tQOU8yYngzeg?oc=5",
+"t": "2026-11-12T10:06+09:00",
+"tok": [
+"12일",
+"개발기업",
+"넥스아이",
+"상장",
+"신약",
+"코스닥",
+"항암"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5zbTZ2YkFQZHc5NE8yX3BsVFNZR3BudEpXYjlqSEszUTF2RDhUaG9kVUlSY1RNNHp6eTNwQ3pJQ2tiSENkQml1Y1BWbzdsUkRWemI0bzdtbkUtakZMN1FyeWtOUGs0WEdSeUxJSjVkM1nSAXRBVV95cUxNaURxR0syYWRkaGtxMVc0dTFmNVhobVlFUlM3UjdkSmU4TjBMZEFVS09mZTlCeFdhVWVTc1oxQ3FYSFp2QzJoaDZIdWwwQVBmMXdzNXB0NEpwNjdXeER0dWtWVkpfcERLcmM2NG41dnYzZ21zNA?oc=5",
+"t": "2026-11-12T10:06+09:00",
+"tok": [
+"1000만",
+"3000명",
+"보상",
+"보이스피싱",
+"보험",
+"선택한",
+"안심",
+"어르신",
+"용인특례시",
+"최대",
+"피해"
 ]
 }
 ]
