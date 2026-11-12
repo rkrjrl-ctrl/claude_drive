@@ -1,48 +1,6 @@
 {
-"updated": "2026-11-12T16:06+09:00",
+"updated": "2026-11-12T17:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261104147100009",
-"t": "2026-11-04T17:06+09:00",
-"tok": [
-"미시간주",
-"민주당",
-"상원의원",
-"선거",
-"승리",
-"엘사예드"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOGZ0VTlscnY2a0MwYWE2MUJJc1VSZVFpNGVMR2F5dFFDRjNNVi1ibUdINGZCRm53akVtMkRfUUZaQTR3UkVZQjlhaDJCNmFIcWM3cWJFRjFZbVVHdm85dFBIZC16TmNDNjVsVTNneEstTzgxbUE0djNOVVp0Yms3TmxvbEtob2NPbjRENTZ1TTNXTldaZF9CMlZoallsNGJISlJ0RFdqX1N5UQ?oc=5",
-"t": "2026-11-04T17:06+09:00",
-"tok": [
-"건강보험",
-"건보료",
-"검토",
-"부과",
-"분리과세",
-"소득",
-"체계",
-"한국"
-]
-},
-{
-"kind": "주목",
-"link": "http://www.fins.co.kr/news/articleView.html?idxno=110418",
-"t": "2026-11-04T17:06+09:00",
-"tok": [
-"디폴트옵션",
-"보험사",
-"수익률",
-"업권",
-"장기",
-"최하위",
-"퇴직연금"
-]
-},
 {
 "kind": "속보",
 "link": "https://www.yna.co.kr/view/AKR20261104161400004",
@@ -10692,6 +10650,86 @@
 "유성구의원",
 "취약계층",
 "피해"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBPZzJheHpNYmlMR2VtYUNaNElsLWVPVVdMTDd0X05MTTN0NWJRY1kyU3FPbldQQXlBdmltZzdTZ2VvUFNhd1ZhLWVudHdUWEdrYlY4dC1XU1A0OVppem5ZQjdR?oc=5",
+"t": "2026-11-12T17:06+09:00",
+"tok": [
+"대통령",
+"박차",
+"육성",
+"일희일비하지",
+"자본시장",
+"코스닥"
+],
+"g": "https://www.mt.co.kr/politics/2026/11/12/2026111215093726814"
+},
+{
+"kind": "단독",
+"link": "https://www.mt.co.kr/estate/2026/11/12/2026111214392011673",
+"t": "2026-11-12T17:06+09:00",
+"tok": [
+"26만명",
+"SK",
+"SOS",
+"공장",
+"반도체",
+"삼성",
+"정부에",
+"짓는데",
+"필요"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9SOXVIQ1FVNVlZRXVDd0dsajlsaTY4cFBYdmIyUEtLRk5jMU9BVHVsX18tVU9OTmFQSlBKak5ldnAxdHozQ1JuY29OYlFxT0JYR3JzX1pBRHBmZw?oc=5",
+"t": "2026-11-12T17:06+09:00",
+"tok": [
+"기초연금",
+"깎여",
+"빈곤노인",
+"생계급여",
+"실질소득",
+"올라도",
+"제자리"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1obWU1MnRrUHlVZEZGNFpXWDExaUdJWW56d1lKWlpnQS1Gc1JMcUxWZWdFd3FTWjVvNkJFVndXcXg4dHZoZklBSU5Yb202amZ0Yy1YV1hnS1FWeU1xdzRQVjdfZkQ0RllGbDVIT3lNUjRFWTh60gF3QVVfeXFMUHdMTUhyLVBWSGRNZ2FHbkNVb2NyWkc1S3U5QlphYXFFXzJTS1BFR2p2ZEREaG96Y21qRHhVekxEZFBlSDdFOExEcV9OMl95NzNPTGo5TXNNVDNyQW9KWHRDRm1URjEzQk16bklSX1A0VTZWcDlXS2M?oc=5",
+"t": "2026-11-12T17:06+09:00",
+"tok": [
+"21명",
+"2천만",
+"3억",
+"43차례",
+"노려",
+"덜미",
+"뜯어낸",
+"렌터카",
+"변경",
+"보험사기단",
+"사건",
+"차선"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE56cml5bnJwNnNad3hQQXdySUpLQ09NNG9La0diNHhNUnlEOTFOSFE3QXdyc2t1MFBMY3IwdlM1OW5XZTZtVWJBWG5RUVlmZ2ZrdWJ5RGRVdXpFRXF5QV9fTXYzdFdXdHBWSTA0?oc=5",
+"t": "2026-11-12T17:06+09:00",
+"tok": [
+"6개",
+"거래환경",
+"경기도",
+"기여",
+"부동산",
+"선정",
+"안전",
+"예방",
+"우수시군",
+"전세사기"
 ]
 }
 ]
