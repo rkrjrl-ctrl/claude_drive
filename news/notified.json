@@ -1,149 +1,6 @@
 {
-"updated": "2026-11-12T15:06+09:00",
+"updated": "2026-11-12T16:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0zZmRabUREWGo0eURMNkNJb3k2VXVLTkliT0czcWZKc2IxS0RUX0VZbS1tSmtlNkpEck5QYnNlckFKbEVlcExmWVR0VEJSdWJkVXpiWFJ0NkZCclJMRzlyNExKM2cyR21LWUNlRDdHSQ?oc=5",
-"t": "2026-11-04T16:06+09:00",
-"tok": [
-"53석",
-"5선",
-"거물도",
-"공화당",
-"메인주",
-"민주",
-"상원",
-"침몰",
-"확보"
-]
-},
-{
-"kind": "속보",
-"link": "https://view.asiae.co.kr/article/2026110415132588993",
-"t": "2026-11-04T16:06+09:00",
-"tok": [
-"5일",
-"9시",
-"SNS",
-"넘어",
-"대국민",
-"대통령",
-"대통령의",
-"방송",
-"소통",
-"유튜브"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261104_0003854833",
-"t": "2026-11-04T16:06+09:00",
-"tok": [
-"1341",
-"5원",
-"달러",
-"마감",
-"오른",
-"환율"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261104132600008",
-"t": "2026-11-04T16:06+09:00",
-"tok": [
-"62",
-"끝에",
-"롤러코스터",
-"마감",
-"상승",
-"장세",
-"코스피"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261104_0003854839",
-"t": "2026-11-04T16:06+09:00",
-"tok": [
-"01포인트",
-"35",
-"5683",
-"62",
-"80",
-"마감",
-"오른",
-"코스피"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261104_0003854837",
-"t": "2026-11-04T16:06+09:00",
-"tok": [
-"10",
-"50",
-"56포인트",
-"714",
-"95",
-"마감",
-"오른",
-"코스닥"
-]
-},
-{
-"kind": "속보",
-"link": "https://biz.chosun.com/sports/sports_general/2026/11/04/GVSGKOJVGRSWGNLFHA3TSNDCGM/",
-"t": "2026-11-04T16:06+09:00",
-"tok": [
-"11관왕",
-"1게임",
-"1위",
-"21",
-"도전",
-"세계",
-"안세영",
-"압살",
-"앞에서",
-"역시",
-"오픈",
-"완벽",
-"출발",
-"코리아",
-"클래스",
-"팬들"
-]
-},
-{
-"kind": "속보",
-"link": "https://view.asiae.co.kr/article/2026110415462862952",
-"t": "2026-11-04T16:06+09:00",
-"tok": [
-"18억",
-"3620억",
-"7곳에",
-"ELS",
-"과징금",
-"과태료",
-"금융위",
-"은행",
-"판매",
-"홍콩"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.yonhapnewstv.co.kr/news/AKR20261104154947IVI",
-"t": "2026-11-04T16:06+09:00",
-"tok": [
-"700억원",
-"과징금",
-"은행",
-"증권사",
-"홍콩ELS",
-"확정"
-]
-},
 {
 "kind": "속보",
 "link": "https://www.yna.co.kr/view/AKR20261104147100009",
@@ -10519,6 +10376,322 @@
 "전세사기",
 "피해자",
 "피해주택"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFByMTRMTUluZU1YWVlpMzdKS25jX2RMYUJjWHZQRGl4SlpYa0pXeF9nTFppcUdFeU4yN0NKdFJjWDJsSEI1eERmRzNBLWhCdXpBdEVQTjB5WElLQWQxN0F0VnZ3?oc=5",
+"t": "2026-11-12T16:06+09:00",
+"tok": [
+"92주째",
+"강남3구",
+"강동으로",
+"번졌다",
+"상승",
+"서울",
+"성동",
+"집값",
+"하락세"
+],
+"g": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFByMTRMTUluZU1YWVlpMzdKS25jX2RMYUJjWHZQRGl4SlpYa0pXeF9nTFppcUdFeU4yN0NKdFJjWDJsSEI1eERmRzNBLWhCdXpBdEVQTjB5WElLQWQxN0F0VnZ3?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.mt.co.kr/politics/2026/11/12/2026111215093726814",
+"t": "2026-11-12T16:06+09:00",
+"tok": [
+"가해야",
+"대통령",
+"등에",
+"박차",
+"시장",
+"육성",
+"코스닥"
+],
+"g": "https://www.mt.co.kr/politics/2026/11/12/2026111215093726814"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE85VlRScWhIRExEeWE2ZjUtb2VTZDVfaVF1eFJxZTAwUElnd2txbU1ZNnhKUjBtYVJQeTNQbzRUQWxLaFZrR1hjMUhvSlAxaXRtWWFNcWtRejI3SlphNjl3RTFVcl9LTkN2UGpScNIBckFVX3lxTFBINlFvYkdJM0hBblE2dnNMM3d2ZkVmbzhWUUlMNG1TSTh2RERSdjI2dTVzcXhhdDRKZHRKWUREQ0czT0xsUENCLUpzUDNYRlZ4Y1ktWUlITV9Qb3M3NjB2a2toNTVpOVhTQmFnQzVsa29OQQ?oc=5",
+"t": "2026-11-12T16:06+09:00",
+"tok": [
+"가해야",
+"대통령",
+"등에",
+"박차",
+"시장",
+"육성",
+"코스닥"
+],
+"g": "https://www.mt.co.kr/politics/2026/11/12/2026111215093726814"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261112_0003865745",
+"t": "2026-11-12T16:06+09:00",
+"tok": [
+"다각도로",
+"대책",
+"대통령",
+"박차",
+"수립해야",
+"시장",
+"육성에도",
+"장기",
+"코스닥",
+"투자",
+"활성화"
+],
+"g": "https://www.mt.co.kr/politics/2026/11/12/2026111215093726814"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026111215125575484",
+"t": "2026-11-12T16:06+09:00",
+"tok": [
+"국내",
+"대통령",
+"박차",
+"여전히",
+"육성",
+"자본시장",
+"저평가",
+"코스닥"
+],
+"g": "https://www.mt.co.kr/politics/2026/11/12/2026111215093726814"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QMUptemdfY1FnRk1xVFlYQzU4SHZxQmRrRVAzWi1lc1dqSUIxMDNDZTFYRi0tcnlnS19BeG1pVDBpQThHbWJPR2hpOExuV2JTeHRxT1BrUkEtellfV3ZlVHhENlZHUDTSAVhBVV95cUxPSFBrXzdtRjJ5RnQyZm9zTTlEc252dWZRTnJJM09kNHd4XzhjLWltQnV6Tjg2ZjlweHRCWnVfX0sxRjM0SGRUbE4wdUNneEdoU2lrYk1ib2hC?oc=5",
+"t": "2026-11-12T16:06+09:00",
+"tok": [
+"VC",
+"대통령",
+"여전히",
+"육성",
+"자본시장",
+"저평가",
+"코스닥",
+"혁신"
+],
+"g": "https://www.mt.co.kr/politics/2026/11/12/2026111215093726814"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9PeVRTUFRvRVhhejNtb1EtMXBmVzBkMG9KbGtGZTRFLU1RRDNxMDZVM1FZM05UWW1GcVE1YU1kRXBJV1ZFdS0xNVJJS3lVdGMxV1liRVN0QzhqcTZad1d0eHYwTkJxYkVNYVp6UmF4TQ?oc=5",
+"t": "2026-11-12T16:06+09:00",
+"tok": [
+"국내",
+"대통령",
+"박차",
+"여전히",
+"육성",
+"자본시장",
+"저평가",
+"코스닥"
+],
+"g": "https://www.mt.co.kr/politics/2026/11/12/2026111215093726814"
+},
+{
+"kind": "단독",
+"link": "https://www.fnnews.com/news/202611120928415574",
+"t": "2026-11-12T16:06+09:00",
+"tok": [
+"뒤집힌",
+"부동산신탁사",
+"손해배상",
+"승소했다",
+"책준",
+"판결"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261112_0003865808",
+"t": "2026-11-12T16:06+09:00",
+"tok": [
+"32",
+"5342",
+"61",
+"63포인트",
+"73",
+"내린",
+"마감",
+"코스피"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261112_0003865808"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261112_0003865835",
+"t": "2026-11-12T16:06+09:00",
+"tok": [
+"1330",
+"7원",
+"9원",
+"내린",
+"달러",
+"마감",
+"환율"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261112_0003865808"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE43TjZSNEw1WE8ydDlkSkdmQTQzN3VRODBTdHVJdFhkY2JFbGJsREpxNnM4QUhjTXZoQlVDbGM5aHdFVC1XY3I3WWN4Z3FrNE11MS1vRA?oc=5",
+"t": "2026-11-12T16:06+09:00",
+"tok": [
+"22",
+"53",
+"57포인트",
+"696",
+"내린",
+"마감",
+"코스닥"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261112_0003865808"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261112_0003865809",
+"t": "2026-11-12T16:06+09:00",
+"tok": [
+"22",
+"53",
+"696",
+"700선",
+"내린",
+"다시",
+"마감",
+"아래로",
+"코스닥"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261112_0003865808"
+},
+{
+"kind": "속보",
+"link": "https://www.edaily.co.kr/News/Read?newsId=03854006645645064",
+"t": "2026-11-12T16:06+09:00",
+"tok": [
+"22",
+"5340선",
+"61",
+"700선",
+"붕괴",
+"코스닥",
+"코스피"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261112_0003865808"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcjYyMVpLSlhQSFJ1aUxtVm1FcDlpOWZ3Vk9vSzIxUU5mQndDQm4zdnpsRVdNMUhxZERjQkJrdFRKYnVPS3cydi1KVzFCLTlhOUVpM1JudUE5Ty1WeGZtLWc1dllxOUxjbndodUJ4RS1obHhnUW9aVUdsMEFTS2hHUy1GNXBOZ9IBmgFBVV95cUxONXhRdEFKeVR6R2tFaUNDeXdETUNUamY3bWFtUXdWVUZVUEhqY2pJcXZsSkFwSHpvNUpSOVJvajVheVFUSmdLakFYZG95Wm5xRVN3TnQxVHlaeG5MYW85VEVpc0RScXBXX1dOMkNmUWhLSjNUc1VoVTA2LS1RV1lNM3ljVWp1d0cxWGhWZDg0YUNGVWU2UDEwaDZn?oc=5",
+"t": "2026-11-12T16:06+09:00",
+"tok": [
+"1330",
+"7원",
+"9원",
+"내린",
+"달러",
+"환율"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261112_0003865808"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5td2gwSVdLLWpuSjI2cC1oNFVjdmdJa1BiQ1Bvd3BVZGV2dDZ4Ukx3NmpOU1R4RG9jUGxncU5PY0tPcl9jQ3I0MGVWLWw4bllxaGozcWF3SmhNMzIzdjEwMWxkTWZHLXhva002cllIc1pOd9IBckFVX3lxTE5td2gwSVdLLWpuSjI2cC1oNFVjdmdJa1BiQ1Bvd3BVZGV2dDZ4Ukx3NmpOU1R4RG9jUGxncU5PY0tPcl9jQ3I0MGVWLWw4bllxaGozcWF3SmhNMzIzdjEwMWxkTWZHLXhva002cllIc1pOdw?oc=5",
+"t": "2026-11-12T16:06+09:00",
+"tok": [
+"기금형",
+"사외적립",
+"의무화",
+"추진",
+"퇴직급여",
+"퇴직연금",
+"확대"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9PYUFKeGt1Rkt5X0pvMkNteXhnX1ZjaWVRbG1GNjZncjRWU0JpUDNBY2k4RTF4WWR2SzhYVkJGQzJ3ZUJzQ2lLQld6RHpjMHRvWUNhSWNqZ3VmSWxvc29RQW9ZZTB1ODE5ZFRKQ2xiSdIBc0FVX3lxTE5yOW05Yk5DZXBHeU9JeVlKLUktZlI0WWcxZXFBdEZVd0FPby1KanVfN0tBUFNHM0JTRkZQSXU3RGRWVWJjS0E3ODhqVmRBMzg5NFRvSmRqSFV4ZVNwcUNod21zclZycXYwVi1mUkJDNXZyRk0?oc=5",
+"t": "2026-11-12T16:06+09:00",
+"tok": [
+"개편",
+"다이렉트",
+"보장",
+"암보험",
+"어린이보험",
+"치료",
+"현대해상",
+"확대"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GZmdxNHBVVy1SeGc0dGs3ZDVpQWN1Q2ZFb3NCUUgyYmcxemtfQTJWVnpXYnRtb0ttZFplU2Z0ekxaUEZuQlA1VHRSNkJfV28tMzhRU0pOa1lJTVNzZkMtWndGdnFySW8?oc=5",
+"t": "2026-11-12T16:06+09:00",
+"tok": [
+"1조8655억원",
+"3분기",
+"누적",
+"삼성화재",
+"순이익",
+"자동차보험",
+"전환",
+"흑자"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4zZzNDZVZJWEVrZWlseTdJN1hGSU0yWlBMRGd6bHZuODFzZGZHbEx2ZUNtd3JvY3VCX3lfa0tFeTIxQ1Y0Nlh1ek4xZGo3bXlPYWdBa0RHS0laQU45Z0hTbzlqS3FNWXZ4WHJkd0dfMDNlMlnSAXNBVV95cUxOM2czQ2VWSVhFa2VpbHk3STdYRklNMlpQTERnemx2bjgxc2RmR2xMdmVDbXdyb2N1Ql95X2tLRXkyMUNWNDZYdXpOMWRqN215T2FnQWtER0tJWkFOOWdIU285aktxTVl2eFhyZHdHXzAzZTJZ?oc=5",
+"t": "2026-11-12T16:06+09:00",
+"tok": [
+"강화",
+"다이렉트",
+"암플랜",
+"접근성",
+"출시",
+"퍼펙트건강보험",
+"현대해상"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBFQnVrV25ieU9sTnhTdmJmaUg1b3Zqb3Z1VlVoWi01Q0JNSF9Kby01dnhWeG1IT01MOTNPa001RF9JM0xFV1JMSGJWTTg4bGFwU2RDbXgxdXZ0ZDhqby1DTGgwUWJBSktH?oc=5",
+"t": "2026-11-12T16:06+09:00",
+"tok": [
+"11월",
+"200만원",
+"23일부터",
+"보이스피싱",
+"생계비",
+"신청",
+"최대",
+"피해자"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1OazFnT1ZEX3Zycmtsa1pIWFpXMzNwblBtcUtkeGNxb0Jjd1lkMng3VXhRQTY3a1BNZnBGYWRFMmNtbllnWS05R0duTjIyWFFEQTIyc1VIaW1SVDNWZGRB?oc=5",
+"t": "2026-11-12T16:06+09:00",
+"tok": [
+"기사",
+"디지털",
+"모색",
+"박정수",
+"방안",
+"보도자료",
+"보이스피싱",
+"예방",
+"유성구의원",
+"취약계층",
+"피해"
 ]
 }
 ]
