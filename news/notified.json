@@ -1,119 +1,6 @@
 {
-"updated": "2026-11-13T08:06+09:00",
+"updated": "2026-11-13T09:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5EbFVPUUpiaDhseHFvSENYdHN4RWlqeW10cUdiV0JVMDI5LVhIMkw4bHpoeEZPSmRobUZCNXBSTENRaG11b2ZxbkxsZmpCWVJfaFhHMXF4dlNBSzhRb2dXVTM4YTZHeVpSaWh5cUd2Mzd0RnRiaF9IZ3dtWdIBgAFBVV95cUxPa0kyVC05UkRRVUJ4LVNhMjJGQzVCbU9lQ0pLYmgtcXR4a3lHNVdGNmZZcFhIR0E0amxJYXg2TUhoRmh1dHNYbE96UW1qTXJuLVhUNEdaelo4ZXZBbWpZOGxRV2tRUTRmX2dDYVY0SzVVU2UtYWZhUEVxVlg2ckQtag?oc=5",
-"t": "2026-11-05T09:06+09:00",
-"tok": [
-"급등했지만",
-"불확실성",
-"삼성전자",
-"선거",
-"증시",
-"프리장",
-"하락VI"
-]
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jdlFIYTZiRUxzMEJSOF9vTjBMOU42OUZEV3YtXzlWazVZVVRWRGtoUUZPZTRPQVZfMmhGTnl6bXZfdlBsMDBpWnRDel85ZzNYb09FMW1kSEFDWDA?oc=5",
-"t": "2026-11-05T09:06+09:00",
-"tok": [
-"260",
-"600억달러",
-"9월",
-"경상흑자",
-"돌파",
-"반도체",
-"사상",
-"수출"
-]
-},
-{
-"kind": "속보",
-"link": "https://view.asiae.co.kr/article/2026110507580409626",
-"t": "2026-11-05T09:06+09:00",
-"tok": [
-"2403억원",
-"3분기",
-"영업익",
-"전년",
-"카카오"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261105_0003855668",
-"t": "2026-11-05T09:06+09:00",
-"tok": [
-"20",
-"46포인트",
-"49",
-"713",
-"개장",
-"내린",
-"코스닥"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261105_0003855665",
-"t": "2026-11-05T09:06+09:00",
-"tok": [
-"09",
-"103",
-"5580",
-"71포인트",
-"82",
-"개장",
-"내린",
-"코스피"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261105_0003855672",
-"t": "2026-11-05T09:06+09:00",
-"tok": [
-"SK하닉",
-"급락",
-"반도체",
-"부진에",
-"삼전",
-"출발"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE12M0VROVYwVmNjeEVkY25ZZklHampLSVdPc2hqcVl3cEFXa2w1NGxEb3dhNklMVmQ3dldiaGh2bDF4Q1k3enJ1MXk4MEpoejYzNXJ2Q1RsXzJpUFVXTkt3ZmlBNDg?oc=5",
-"t": "2026-11-05T09:06+09:00",
-"tok": [
-"314억",
-"3배",
-"4년",
-"8176명에",
-"기초연금",
-"복수국적",
-"수급자",
-"지난해"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1hekVXcUs4R2FxUGNoMlpXRDR3U3lla3pCTVllako3SmZqM2ZqNFZjZEs1b0ZUQVl0TFUwaFhoVzJRQUJNQWpJNmsyMmZVTnhwYndVYVFGTGc4VV9tVWZ4UFBDSGpRUQ?oc=5",
-"t": "2026-11-05T09:06+09:00",
-"tok": [
-"600억달러",
-"9월",
-"경상수지",
-"돌파",
-"반도체",
-"수출",
-"호조",
-"흑자"
-]
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE51R2h1c2ZDN3pZa3oxckphNmdCdEdLaVdfTERfX3hjdDZ5YkhZX2ViaDY0N3praVJSeFByV3ppajNrMmdad2ZobWJCaWZSejhNN3dfS0FsSDNJMjdmY3NlOEZlc01HUVB3em51VXBjLXhieFk?oc=5",
@@ -11171,6 +11058,143 @@
 "제재",
 "제품",
 "지난"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE50LWdpUWJzTl9MdlhqTk55UUZaaV9OT0JOdHZGQS1tZmo2bFN6OTc1STJ0NFV0WFdrRUdPdlF2aUJjTER1QWVMNmVQLV8yTmJQQnVIOVNfME9QVEdEOHFtMDg2bWZiV0hHUzZzX29wNDNrNDJSUGljOHFHc9IBgAFBVV95cUxONHZEcWE1YlZ2djVtNWd0WHcxbmlmZGdQR1VMZG1CZnc1RmhLSzE2MElFUjYzSU5pTzFjMUU3QTNLUlY4SGFKckJrMHJDdGNUNm9XRWUzWHo1WEhSSEtQUHBfelk4b0ZTMHBfWGN4WnladUR3SERsbGthQ3VndElRMQ?oc=5",
+"t": "2026-11-13T09:06+09:00",
+"tok": [
+"강세",
+"겹악재",
+"국제유가",
+"사임",
+"삼전닉스",
+"상승",
+"에도",
+"젠슨황",
+"증시",
+"프리장"
+],
+"g": "https://news.google.com/rss/articles/CBMie0FVX3lxTE50LWdpUWJzTl9MdlhqTk55UUZaaV9OT0JOdHZGQS1tZmo2bFN6OTc1STJ0NFV0WFdrRUdPdlF2aUJjTER1QWVMNmVQLV8yTmJQQnVIOVNfME9QVEdEOHFtMDg2bWZiV0hHUzZzX29wNDNrNDJSUGljOHFHc9IBgAFBVV95cUxONHZEcWE1YlZ2djVtNWd0WHcxbmlmZGdQR1VMZG1CZnc1RmhLSzE2MElFUjYzSU5pTzFjMUU3QTNLUlY4SGFKckJrMHJDdGNUNm9XRWUzWHo1WEhSSEtQUHBfelk4b0ZTMHBfWGN4WnladUR3SERsbGthQ3VndElRMQ?oc=5"
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CREw2bi0zNmNpRWp6OFB4bERBNkp5ekRVOUNBcWxmalhhVDJhc1ZEZ2t0UEpxMWJrM0JoTEhBa09OdlByazlvWWFaMjRHTjRJWWR4QmtVTzRqcEk?oc=5",
+"t": "2026-11-13T09:06+09:00",
+"tok": [
+"6배",
+"Club",
+"Global",
+"IPO에",
+"Money",
+"몰려",
+"앤트로픽",
+"주문"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261113_0003866585",
+"t": "2026-11-13T09:06+09:00",
+"tok": [
+"35",
+"43포인트",
+"705",
+"96",
+"개장",
+"오른",
+"코스닥"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261113_0003866585"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261113_0003866583",
+"t": "2026-11-13T09:06+09:00",
+"tok": [
+"05",
+"109",
+"41",
+"5452",
+"68포인트",
+"개장",
+"오른",
+"코스피"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261113_0003866585"
+},
+{
+"kind": "속보",
+"link": "https://www.fnnews.com/news/202611130902446874",
+"t": "2026-11-13T09:06+09:00",
+"tok": [
+"05",
+"41",
+"5452",
+"705",
+"96",
+"오른",
+"출발",
+"코스닥",
+"코스피"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261113_0003866585"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1JcFduRVNNVzFEUGFJNlpwdWhxVUNYS2hOaTZOWWxoMTVFSE9TMDc3RGsyLVJQQ05DM1JRUUM3SlpzYmo2Z1BrS0Zn?oc=5",
+"t": "2026-11-13T09:06+09:00",
+"tok": [
+"가상자산",
+"공포에",
+"금리",
+"급락",
+"비트코인",
+"시장",
+"연준",
+"인상",
+"청산",
+"폭증"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBQVFc3WDA3RzBYNzh2YjhGQjZRLUFfV3lodTZETDdaLVZEMjJWb2pMMEZlUExYQjllR2h5OHc3NlhYVXFvNHhrbm1MUjA5X3k0U09GRDlvMjlhckcwbG10OFhVVHZLN0pxZGc?oc=5",
+"t": "2026-11-13T09:06+09:00",
+"tok": [
+"10월은",
+"2027년",
+"7번으로",
+"FOMC",
+"결정",
+"기준금리",
+"논의",
+"연준",
+"전략",
+"집중",
+"축소",
+"통화정책"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5kU2dWX3R5dW5vZ1kwbzZHZ0F2MkhjUmU4UmItRHJsZWNGS2tHSnBGNFNXRVFya1FfWFhIdGIwZlhpMzZTNXV3Nk53dGx1UVUyRnNOdA?oc=5",
+"t": "2026-11-13T09:06+09:00",
+"tok": [
+"TF",
+"가동",
+"교통비",
+"근로장려금",
+"논의",
+"월급방위대",
+"월세공제",
+"정부",
+"확대",
+"환급"
 ]
 }
 ]
