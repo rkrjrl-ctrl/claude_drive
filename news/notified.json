@@ -1,138 +1,6 @@
 {
-"updated": "2026-11-13T09:06+09:00",
+"updated": "2026-11-13T10:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE51R2h1c2ZDN3pZa3oxckphNmdCdEdLaVdfTERfX3hjdDZ5YkhZX2ViaDY0N3praVJSeFByV3ppajNrMmdad2ZobWJCaWZSejhNN3dfS0FsSDNJMjdmY3NlOEZlc01HUVB3em51VXBjLXhieFk?oc=5",
-"t": "2026-11-05T10:05+09:00",
-"tok": [
-"보합세",
-"출발",
-"코스닥은",
-"코스피",
-"하락"
-]
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE50dzBRdm1BMEE1NUYxVjNjMGhud0NCVlV0enZXMHBQdDFkRDZnTWg4cUNpZTZTb0tfTThIcUtOQjI3b0hMajlFaTB1TjVjazh2SFpQakxmdFZydFQyLXVWMjNBVXdNdGRkUExSLWhsTHJSb1pX?oc=5",
-"t": "2026-11-05T10:05+09:00",
-"tok": [
-"5년",
-"국내",
-"국적자",
-"기초연금",
-"내년부터",
-"받는다",
-"복수",
-"살아야",
-"이상"
-]
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPU0Z5SGtJVU1UMHEyNUdfS3J1OWZuZlN2aktpdHgyaHNocHh4dlNpWUJvcGF6b0JVYlVadFc3c2hJQ0xxaF9ESHlCNFVnQjAxOGN0bVlBeXBqS29jVjFvemgyTEdZY0tOZ3M40gFvQVVfeXFMT2lIZnA0aHVlb2h1bFZtUlBzTW9Bb09obGVZSUdyLXBkM2k1V1Q5ZXVmWGtmTkhDc0pIaGR2UHRwaENfSDFNcVVqUXlWd0VERFR4NE9fX2d0WUNsZFpvbkNlcDlMdjFRbUVqT1p4M2hB?oc=5",
-"t": "2026-11-05T10:05+09:00",
-"tok": [
-"5500선",
-"SK하이닉스",
-"급락에",
-"붕괴",
-"삼성전자",
-"위기",
-"증시",
-"코스피",
-"휘청"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tWUtOeDlJbTZZMmJMRU1UMmxIM180WlNQUi1hdjc3cjN3aVg0NFk3MVVnMTJlQXFneXZONk5uMV9YSGZFWFVwY2dPUkU4TmE4TmZ2M3NVcEFtVmY0RzdZcTQyQXVPamlnZlV1a0I3MUZMdUVyVVVZ0gF3QVVfeXFMTS1ZS054OUltNlkyYkxFTVQybEgzXzRaU1BSLWF2NzdyM3dpWDQ0WTcxVWcxMmVBcWd5dk42Tm4xX1hIZkVYVXBjZ09SRThOYThOZnYzc1VwQW1WZjRHN1lxNDJBdU9qaWdmVXVrQjcxRkx1RXJVVVk?oc=5",
-"t": "2026-11-05T10:05+09:00",
-"tok": [
-"ABL생명",
-"가능한",
-"납입보험료",
-"인출",
-"종신보험",
-"출시"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1UMklLQlBOU1o0QjQ1aVhfc25UZVhGTG1UM2FWMU9MY2JvaXlwTzR4d3JkY09rcnQwMjRHRlFUVjJIOFFCeEpaNG80RTFLQkdpSi1GZE5PRGV6Vk9ZUkt0UjdIODNKYTI1X0530gFUQVVfeXFMTmY5QU5UX2E3cGNpMDJoV3NzMUpGRHdqWkF1N0p3c2F4SkJLUDBCVGNKQ2lIbGFBVDdYR2QyNjZDNTNScUltMEFMa1FtVE5HWW9zSkN1?oc=5",
-"t": "2026-11-05T10:05+09:00",
-"tok": [
-"5년",
-"거주해야",
-"국내",
-"기초연금",
-"내년부터",
-"받는다",
-"받던",
-"살아도",
-"이상",
-"해외"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBXTkNHOXZDUEJ5LTQ5Qzk4RlNVVmpiYzZEVmdRMlY3Ylg5Nm93UWZhaFVxTWR2QTM0SEMtbl9zWmNlWmktNGR5SjcyVjNFalBndkVkQTROc1hFQ1JOYkt0alhENWdvdXJrTnNJRWM5NFBpYmPSAXdBVV95cUxPTVNqY05CNlc0clZZcWVORU0yVjBWVUNQcEx0b0gtNVB0QzY4V2F1VHQ5NHY0emIxRDdDQlVrd0puQmhyYkZOSmZGNUItWE1peDVkNEVXc1IyMVpwWVRza1V1M0xVWVpWaDZQVFUzU2dOOWMzZjhkbw?oc=5",
-"t": "2026-11-05T10:05+09:00",
-"tok": [
-"검사부터",
-"보장",
-"장기요양까지",
-"출시",
-"치매보험",
-"하나손보"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9LdC0wMUEwbXhhTS13azZ6aUU0UDRaYTg1RWFRQmxndUJ5NzlFeVlLNWdBSTk3dGtWZHJIOUtpQkhLbkp3dHNKME9MMGpPZ25hWjNNVl9INVFlcVdRMkJ1bXVOSzN0dw?oc=5",
-"t": "2026-11-05T10:05+09:00",
-"tok": [
-"가천대",
-"간병통합서비스",
-"국민건강보험공단",
-"길병원",
-"선정",
-"선정간호",
-"우수기관"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE84d2cxSHdVU0xaODlnRXpPZU4zNlZlRGQ3b3JwSEFhQWxMVGw2ZlpKNGpOWW1yN3BuY3pEczNVd1p5QnhwdzhCOS1adElpZw?oc=5",
-"t": "2026-11-05T10:05+09:00",
-"tok": [
-"국제유가",
-"급등",
-"급락",
-"끝나자",
-"뉴욕증시",
-"다우",
-"중간선거"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1HLW9TMm42NnY2OHl4dWlTZHhXNzBBdDNjWkx2TVhjVmtRVzMxaHJvaXFfZnJNSnJRVU8wNU9xanBjMFFTbnZwbGQ3d3RYVWtXTlZXdlprZWt4MlRTS1NKM1NrdFdpQVpVVmdoTVk0c9IBb0FVX3lxTE1HLW9TMm42NnY2OHl4dWlTZHhXNzBBdDNjWkx2TVhjVmtRVzMxaHJvaXFfZnJNSnJRVU8wNU9xanBjMFFTbnZwbGQ3d3RYVWtXTlZXdlprZWt4MlRTS1NKM1NrdFdpQVpVVmdoTVk0cw?oc=5",
-"t": "2026-11-05T10:05+09:00",
-"tok": [
-"59",
-"AI",
-"금리",
-"급락",
-"무색",
-"수익성",
-"우려에",
-"유가",
-"코스피",
-"호재도"
-]
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FdlBJdUVEM0tVNXBtMk1qWUQtS3NVMTBKTU9ES08zMTBrYTE0d0NielJDQ3UyYnVBcG9GMGlQaWVBMnRUaC13VlMyaWZBZUxfRloydG93T2IxZ9IBX0FVX3lxTE5YdFdwMWdLOXpvSDJJTk9VUVk1ekotbnJWa3hLMlNrM3EybE56STJOUHpPZkJuazA4eFBPY2NGUXJSSUdTMXVjQ1NqY0RxdVY5SWI2M2lGMTJvNzdVNWww?oc=5",
@@ -11195,6 +11063,177 @@
 "정부",
 "확대",
 "환급"
+]
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfR0JGRTlHRmhvZDk3bHpuVGFuR2xzaGNzbXZMakpScVJ5YmtiUlpyQV9qaXdTTXZwcUpfaElqVXlIdWZjNEhrWmlYQ0RUOWczY0NVWVZXejZPc0prcENrdURCeXZrVXRT0gFsQVVfeXFMT01ycFh6Wm9nVGoxZFdGTWlKcno0Z1hJT05oNWNFT0Y2V25CcndGd0dlVXFrLWZQSmRtNjdyNlAyYVJQRGVZMHRqYWRTMzNBWmVHYkpBQktZYlNGaVhMajUyUC1LbHRKNTg0VjBh?oc=5",
+"t": "2026-11-13T10:06+09:00",
+"tok": [
+"84억",
+"DB손해보험",
+"대법서",
+"법인세",
+"사이판",
+"최종",
+"패소",
+"환급소송"
+]
+},
+{
+"kind": "속보",
+"link": "http://www.edaily.co.kr/news/newspath.asp?newsid=02646966645645392",
+"t": "2026-11-13T10:06+09:00",
+"tok": [
+"강세",
+"사임",
+"삼전",
+"젠슨황",
+"충격에도",
+"코스피",
+"하닉"
+],
+"m": 1,
+"g": "http://www.edaily.co.kr/news/newspath.asp?newsid=02646966645645392"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5pTHJWVVlJZExnRF8xZ29MdUhhSDJ6YUtCbi1SX0tST1hLUWtyb181OFByN3BUSXlMZlRkU3lwb291aG5JYUVnRWZpaXlTa2tlRloySFkycTkxaFV0ZXJrWU9oWEM5NlU?oc=5",
+"t": "2026-11-13T10:06+09:00",
+"tok": [
+"450선",
+"상승",
+"출발",
+"코스피"
+],
+"m": 1,
+"g": "http://www.edaily.co.kr/news/newspath.asp?newsid=02646966645645392"
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBRZnRMMVFHdUdQYXF6VERoeHF4OVVHNXVrdjBhSHJyWC1kSGJKd1hDWnVydUs0ZlBWQ2M3RXNlQ3dPM21TTGpmUW5SeUl3N0FaSVItQ25hR1JhVmk5?oc=5",
+"t": "2026-11-13T10:06+09:00",
+"tok": [
+"2년간",
+"공소청",
+"미양육",
+"송치",
+"수령",
+"아동수당",
+"판사",
+"현직",
+"혐의로"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwdE4xLU9HVEVRXzVhal8xcWVHaERmNVVxd3dlR01YUWZQOG1td2pyV0FKYUVoRGR0ZUprMllweFN5VmVnV1pjajl6TWJVcXhrWnNpTWhlRG0tSGZGS1pZSGNrVHFfUlE?oc=5",
+"t": "2026-11-13T10:06+09:00",
+"tok": [
+"상승",
+"젠슨",
+"코스닥도",
+"코스피",
+"퇴임에도"
+],
+"m": 1,
+"g": "http://www.edaily.co.kr/news/newspath.asp?newsid=02646966645645392"
+},
+{
+"kind": "속보",
+"link": "https://www.mt.co.kr/politics/2026/11/13/2026111309381345749",
+"t": "2026-11-13T10:06+09:00",
+"tok": [
+"과제",
+"금융시장",
+"대통령",
+"불합리",
+"저평가",
+"정부",
+"정상화",
+"증시",
+"핵심"
+],
+"g": "https://www.mt.co.kr/politics/2026/11/13/2026111309381345749"
+},
+{
+"kind": "속보",
+"link": "https://www.mt.co.kr/politics/2026/11/13/2026111309422236278",
+"t": "2026-11-13T10:06+09:00",
+"tok": [
+"관리하는",
+"기업의",
+"대통령",
+"상속세에",
+"아니냐",
+"의심도",
+"존중",
+"주가",
+"주주",
+"화두"
+],
+"g": "https://www.mt.co.kr/politics/2026/11/13/2026111309422236278"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026111309482087273",
+"t": "2026-11-13T10:06+09:00",
+"tok": [
+"기업",
+"대통령",
+"문제",
+"부실",
+"신속",
+"저성장",
+"코스닥",
+"퇴출해야"
+],
+"g": "https://view.asiae.co.kr/article/2026111309482087273"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1icGRWLW01T0VRcTBaelZwV0NOdVFFZWRPLWxtcGpyQW02T1pUdEN6cUVJdWNtZWRkOVhOSFQ5S0ZYclRLV0tPeEVQME5RTDY0QkRSc2Q1NFNfQm5NOFQwMA?oc=5",
+"t": "2026-11-13T10:06+09:00",
+"tok": [
+"기업",
+"대통령",
+"문제",
+"부실",
+"신속",
+"저성장",
+"코스닥",
+"퇴출해야"
+],
+"g": "https://view.asiae.co.kr/article/2026111309482087273"
+},
+{
+"kind": "속보",
+"link": "https://www.mt.co.kr/politics/2026/11/13/2026111309540524850",
+"t": "2026-11-13T10:06+09:00",
+"tok": [
+"대들보",
+"돕진",
+"못보는",
+"발목",
+"부동산개혁",
+"않고",
+"친청계"
+],
+"g": "https://www.mt.co.kr/politics/2026/11/13/2026111309540524850"
+},
+{
+"kind": "주목",
+"link": "https://www.mt.co.kr/policy/2026/11/13/2026111309410565434",
+"t": "2026-11-13T10:06+09:00",
+"tok": [
+"경기도",
+"광명",
+"예방",
+"용인",
+"이천시",
+"잘했다",
+"전세사기",
+"최우수"
 ]
 }
 ]
