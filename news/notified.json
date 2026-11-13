@@ -1,20 +1,6 @@
 {
-"updated": "2026-11-13T13:06+09:00",
+"updated": "2026-11-13T14:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4tQ0RlcUxvbXhVTGx1TUtndklvRWZES004d3V1b3RwVE5EVTJOWUFhOHhuZFpxSDdlZzN5UWxQTUo5V0kyT0JmVUhDSExuMnF5SXBOSUM2dDl1a24tYzNaRzJUc0N5MnBhcHY3SmdBXzJtbWNWWGRIWmJhVEMtdw?oc=5",
-"t": "2026-11-05T13:30+09:00",
-"tok": [
-"매도",
-"사이드카",
-"삼성전자",
-"코스피",
-"폭락",
-"하이닉스"
-],
-"g": "https://www.mt.co.kr/stock/2026/11/05/2026110509575174787"
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56cThyQUNOeUFsX2tLNHFBem4yM0x3cnhDaE0xWXBWdG9qTDN4OGtoaDBkRWxwTUV3Mjk4a2ZZLVBIbkcxR3NBM2xrenJZZWJDRkk2X1VMelJ6WUNJcmIzZU1JQUdBSGJS?oc=5",
@@ -11107,6 +11093,54 @@
 "웰컴저축은행",
 "제공",
 "지원",
+"피해"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5Id0p6elZSV21iRGRHd1Z2enRSSk9xXzlUSHI0QnhCbkh1bnNRWGNvYVIzd1h3ODRKc2Yxa3dnM0l6Skd5QW1SdTBSMjF1aTd3dFRyaEFzUW92enNBN015aDBSS0IybnBTckNZ?oc=5",
+"t": "2026-11-13T14:06+09:00",
+"tok": [
+"끊긴",
+"난방비",
+"먼저",
+"에너지바우처",
+"재신청",
+"정부가",
+"지원",
+"찾는다"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE13VWpTZlRWTFVCcFhKOWxnRWlXNGtjUjhpYnBrNEZTM1ppcGlkMXNIUmo0MnFBWGlsQmhPanpnc1U4c1djU1E4dFFoZmhIelFOMDFibkNIcGdUUndNY0dQMk1JZ01DQQ?oc=5",
+"t": "2026-11-13T14:06+09:00",
+"tok": [
+"AI기반",
+"강화",
+"경기",
+"부동산",
+"안심",
+"예방",
+"전세사기",
+"추진",
+"협력",
+"활성화"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.newsis.com/view/NISX20261113_0003867084",
+"t": "2026-11-13T14:06+09:00",
+"tok": [
+"3명",
+"5억",
+"경찰",
+"눈앞",
+"막아",
+"보이스피싱",
+"송금",
+"찾아간",
 "피해"
 ]
 }
