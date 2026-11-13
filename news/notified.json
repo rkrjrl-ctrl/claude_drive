@@ -1,32 +1,6 @@
 {
-"updated": "2026-11-13T20:06+09:00",
+"updated": "2026-11-13T21:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CeFFJRlZSRktfUFN1cENSUEE2QllvV0tVRWJ4ZkY0cHdJZndYOUplQk9rSUxQY1NGOTdBUEE3OHpoYWdmLTI5d3FCQTNudjhaWjdLVlpVNEg5WXc0?oc=5",
-"t": "2026-11-05T21:06+09:00",
-"tok": [
-"25",
-"기준금리",
-"영란은행",
-"인상",
-"포인트"
-],
-"g": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CeFFJRlZSRktfUFN1cENSUEE2QllvV0tVRWJ4ZkY0cHdJZndYOUplQk9rSUxQY1NGOTdBUEE3OHpoYWdmLTI5d3FCQTNudjhaWjdLVlpVNEg5WXc0?oc=5"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10bldfZFgtVHBpRlBIcTlReDg3RFFFRllnVlBqTV91UkRXbHkwWVBIZmZuX3J2Yzhob3V1SzBlanJYR2wzVFNhaVcybHBmaEVGbkNGNFZmQU1HUQ?oc=5",
-"t": "2026-11-05T21:06+09:00",
-"tok": [
-"25",
-"3년여만에",
-"기준금리",
-"영국",
-"인상"
-],
-"g": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CeFFJRlZSRktfUFN1cENSUEE2QllvV0tVRWJ4ZkY0cHdJZndYOUplQk9rSUxQY1NGOTdBUEE3OHpoYWdmLTI5d3FCQTNudjhaWjdLVlpVNEg5WXc0?oc=5"
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNd0ZYQ2NFZ3M0S0VwOWE2Mk1mSGdNelJYLTUyREU5Mi1vZm1HYlhkb2FkWlZjU0dETC1YdlQ0VjdPR2J4d1l6cHNqY2E3X0pxSS1Z?oc=5",
@@ -10265,6 +10239,20 @@
 "청원"
 ],
 "g": "https://news.google.com/rss/articles/CBMidEFVX3lxTE84dFYzV09GS2NCWjgtSnVWTkRvbXh6VUpMTVB1dm4wQ293X1hTZTZLMGFkYVB6VjFBcGd0Ny1JRWdvbDlTOWh2UGM3Z0p0Wlg1Rk9hR3RnX3JTZ09oX1FHOVZ5ZU1NWThGb251VG5iVFdqa2hr?oc=5"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBqUmhoWlBkSEpyUlVCNl9YSVBUSktIaTNNVUJLM3I1QWg1RDl6MDFlck9KVUczNU9RQzA3SEptZjZLRnpFR2Y4STBVSFpjc255MGZj0gFYQVVfeXFMTy1YUFZVSldxUy1XdkpFUWVscVRzSDdOOFdwY21TVENlV3FGV2FydkxfWV8ydWxpMHR6c2JsMW8xRG1LM0NZT1lVVXd2Wm9uTUluaUhCSDZnbg?oc=5",
+"t": "2026-11-13T21:06+09:00",
+"tok": [
+"2분기보다",
+"36억달러",
+"3분기",
+"국민연금",
+"늘어",
+"주식",
+"평가액"
+]
 }
 ]
 }
