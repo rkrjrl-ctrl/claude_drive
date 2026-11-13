@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T06:06+09:00",
+"updated": "2026-11-14T07:06+09:00",
 "items": [
 {
 "kind": "속보",
@@ -9733,6 +9733,84 @@
 "전년"
 ],
 "g": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1vSHZaQlZCNnFveEZYRk1jWDlTYzlXd1pXWjVmZjVyVXAxWDZuVzYwbjN0MlNZV0VlYkhMamdDQTFRYjZhOUZ4LThMVnhOQnAyRXZ2aDI5SWNGdENwYVB1enhNSWxyMk9rak50ZW1n?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.fnnews.com/news/202611140601292872",
+"t": "2026-11-14T07:06+09:00",
+"tok": [
+"뉴욕증시",
+"다우지수만",
+"상승",
+"엔비디아",
+"하락"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611140601292872"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB1RTNnQlpJY1lpVXN6bDM3bnRCeDdtWHQ2WG9ma2pBRnA0VHZsb1ZjVDdfQmZLZ1dsVGdmeXZfODFaMDY1cUdfUTU4eHl1RVYxVVZZUg?oc=5",
+"t": "2026-11-14T07:06+09:00",
+"tok": [
+"WTI",
+"국제유가",
+"마감",
+"혼조"
+],
+"g": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB1RTNnQlpJY1lpVXN6bDM3bnRCeDdtWHQ2WG9ma2pBRnA0VHZsb1ZjVDdfQmZLZ1dsVGdmeXZfODFaMDY1cUdfUTU4eHl1RVYxVVZZUg?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRGJJR21ielBqdXF4MWRFdFhkMk5US1RpbEpxdE5zcGdja1dGb0hqWEduaHp1Q3htZ3FvQWlhcURGdUhodExLTGJHRTJFeTJFTmZzQXd6WmozRXhQX3J3c1JuaGY1eTdVdlQySDY5VE4zVVFHLTU0NmlQeGNGUmMwVw?oc=5",
+"t": "2026-11-14T07:06+09:00",
+"tok": [
+"기술주",
+"나스닥",
+"밀려",
+"반등",
+"실패에",
+"엔비디아"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611140601292872"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5zT0VkX0tHMldrX3paSVY1TmVNcWd6X1JHQ05RMkJ2QTVkZ09NUW1fZk91cUNuSEhUTVdRX2hibHg5RFo1UkZqbEhtS3FnQzNsSUxz0gFYQVVfeXFMT3FMcFFPcnV2VHp3UWdCd3R1bW9uOFo5LXBfWk55MVdtVUViV1JKeWthb0gyNzliRGxybzVaaUpkbVZ3OUcyblNZZ0c2UndGSEgzangxY1dnNw?oc=5",
+"t": "2026-11-14T07:06+09:00",
+"tok": [
+"10",
+"40",
+"91",
+"P500",
+"나스닥",
+"뉴욕증시",
+"다우",
+"마감",
+"엔비디아",
+"혼조"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611140601292872"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPbHhpV1ZYMkJUODBGa3R5Yy1DaV9vNVJ0M2FsT2lkSjFPaktuejE3N1B1S3BTYmdBUGYzNVB6X2NDeXJpMzRTTllkQVczOUp3Rmh3U0VQVklLRXIyRmEzdzMtRHI4SGdKbEJ1WEttM1J2OU9aZjNLTDZZdTJpbXhnN25KRXZWOFZzQkJrcTRsWldUemYxM0dfYWFpSXZ2Qmp0TVZweVJ5NUliVEcwNU5LOTJzb1RCeGpJYkhUNkQ1THBGZmhKSWZhbHNWeUFzMXNBR3U2bzhweU0xZTJLSHUwclhqbjZXTFJXc2RqVVlLdVRJeEhuc2l0VFd0dXhwNnZKcHpzY01aRTM4Q204?oc=5",
+"t": "2026-11-14T07:06+09:00",
+"tok": [
+"01",
+"뉴욕증시",
+"마감",
+"스캔들",
+"엔비디아",
+"여파",
+"젠슨",
+"지속",
+"혼조"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611140601292872"
 }
 ]
 }
