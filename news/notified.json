@@ -1,222 +1,6 @@
 {
-"updated": "2026-11-14T10:06+09:00",
+"updated": "2026-11-14T11:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQWRoVkFXYUdYMmxET1VMckxFZXdaNTZvbl95b0tGaEdGRURtTjlSVHdDVEQwdWwtSjB1YUFqaElZRzR6TE5SZVNDMGRJNWhqREg4LV9XUmZaU0x4M3JmWEFnb3Z3RWRsSUVhVUhZYmgxV3R1Mllha080bFV4MEFNcQ?oc=5",
-"t": "2026-11-06T11:05+09:00",
-"tok": [
-"5000피",
-"발동",
-"붕괴",
-"서킷브레이커",
-"코스피",
-"폭락"
-],
-"g": "https://www.newsis.com/view/NISX20261106_0003857360"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261106_0003857408",
-"t": "2026-11-06T11:05+09:00",
-"tok": [
-"1단계",
-"서킷브레이커",
-"코스피",
-"해제"
-],
-"g": "https://www.yna.co.kr/view/AKR20261106044400008"
-},
-{
-"kind": "속보",
-"link": "https://www.mt.co.kr/stock/2026/11/06/2026110609060860921",
-"t": "2026-11-06T11:05+09:00",
-"tok": [
-"10분간",
-"9시23분부터",
-"단일가",
-"매매",
-"브레이커",
-"서킷",
-"코스피",
-"해제"
-],
-"g": "https://www.newsis.com/view/NISX20261106_0003857360"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9xdnRFd3o2ZDY2SnBBQTdOQ3dDSzlEUzZsa21qU2pOSnNOdXJBMkJraDRxQkxtMXF2eGYwNVZZbTJaMTlvTXBNM1p2b2JUc0t4QngtRVM0bWE4TUJGWU8yc192S3M3NVBPekVUQzBB0gFuQVVfeXFMT3F2dEV3ejZkNjZKcEFBN05Dd0NLOURTNmxrbWpTak5Kc051ckEyQmtoNHFCTG0xcXZ4ZjA1VlltMloxOW9NcE0zWnZvYlRzS3hCeC1FUzRtYThNQkZZTzJzX3ZLczc1UE96RVRDMEE?oc=5",
-"t": "2026-11-06T11:05+09:00",
-"tok": [
-"10분간",
-"9시23분부터",
-"단일가",
-"매매",
-"브레이커",
-"서킷",
-"코스피",
-"해제"
-],
-"g": "https://www.newsis.com/view/NISX20261106_0003857360"
-},
-{
-"kind": "속보",
-"link": "https://www.mt.co.kr/stock/2026/11/06/2026110609253785102",
-"t": "2026-11-06T11:05+09:00",
-"tok": [
-"낙폭",
-"매도",
-"사이드카",
-"서킷",
-"선물",
-"지속",
-"코스피",
-"해제"
-],
-"g": "https://www.newsis.com/view/NISX20261106_0003857360"
-},
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261106049900008",
-"t": "2026-11-06T11:05+09:00",
-"tok": [
-"매도",
-"발동",
-"사이드카",
-"서킷브레이커",
-"이어",
-"코스피"
-],
-"g": "https://www.newsis.com/view/NISX20261106_0003857360"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBwX2dXaDNEbEpTellEa0M0WGV6TXVVOHo5VHpaVWJrcjlDOWpkRmV4by1WOFZuY0VJVmd4Mi1Mb05MUVR0ZEd4YTRGNTZycGdpUzE5ZmtSeFMzVlU?oc=5",
-"t": "2026-11-06T11:05+09:00",
-"tok": [
-"매도",
-"발동",
-"사이드카",
-"서킷",
-"코스피",
-"해제"
-],
-"g": "https://www.newsis.com/view/NISX20261106_0003857360"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jeldPNFdxX29lMXBiamxCb0k4d2dSV1psSWp0NFB6QWM4QXdDTzRZU21aamlrRWY5ZUpjMkk1N0hjQm1LT20xeUwxNi1IenZjWnh6b0V1cDhKN3pqRnZ0QTNMaVYyN1BhUVhETWR0WVUwZ1ZR0gF0QVVfeXFMUFFaclFTTnFUVzluZGpTTFpvaTZIcXRiWlo1am5kV1F5SUZEcGxlcGY3ZTREMmh4Qm4xNnZqQ3RBdmc2T3lzZlVsdjI4czBydFBqRW0wam52Q1Q5dE1YVV9BN051cTRrbDd0M3gzYjJ0NURWS2w?oc=5",
-"t": "2026-11-06T11:05+09:00",
-"tok": [
-"000선",
-"매도",
-"무너져",
-"발동",
-"사이드카도",
-"서킷브레이커",
-"이어",
-"코스피"
-],
-"g": "https://www.newsis.com/view/NISX20261106_0003857360"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jeldPNFdxX29lMXBiamxCb0k4d2dSV1psSWp0NFB6QWM4QXdDTzRZU21aamlrRWY5ZUpjMkk1N0hjQm1LT20xeUwxNi1IenZjWnh6b0V1cDhKN3pqRnZ0QTNMaVYyN1BhUVhETWR0WVUwZ1ZR0gF0QVVfeXFMUFFaclFTTnFUVzluZGpTTFpvaTZIcXRiWlo1am5kV1F5SUZEcGxlcGY3ZTREMmh4Qm4xNnZqQ3RBdmc2T3lzZlVsdjI4czBydFBqRW0wam52Q1Q5dE1YVV9BN051cTRrbDd0M3gzYjJ0NURWS2w?oc=5",
-"t": "2026-11-06T11:05+09:00",
-"tok": [
-"000선",
-"매도",
-"무너져",
-"발동",
-"사이드카도",
-"서킷브레이커",
-"이어",
-"코스피"
-],
-"g": "https://www.newsis.com/view/NISX20261106_0003857360"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261106_0003857558",
-"t": "2026-11-06T11:05+09:00",
-"tok": [
-"5000선",
-"낙폭",
-"줄이며",
-"코스피",
-"회복"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261106_0003857558"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCbDNNS29fOXhKdXZTaXk1Q2lsS1pVTlRhLUtyYVpseWxpVXlQVGdiYU5lWGFNcjJzeVFZUlB1bG13Qm1JS2NPQzdkMWJnZnozMXJjNkhtYThKYmt5MmhrdGtvQWZMcWtJci1v?oc=5",
-"t": "2026-11-06T11:05+09:00",
-"tok": [
-"검은",
-"금요일",
-"덮친",
-"사이드카",
-"서킷브레이커",
-"어제는",
-"오늘은",
-"증시",
-"한국"
-],
-"g": "https://www.newsis.com/view/NISX20261106_0003857360"
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFByUUJOYjR2YVVlQXQyS1FaLXpfSGk0djNCR0hjTzFfSWNuQ0ZVbi1mNmhoWmN6RnRuMGRXZUlicXpaTTVvUHk3RWtNNDlaZ1VfZDlqVGhB?oc=5",
-"t": "2026-11-06T11:05+09:00",
-"tok": [
-"국민연금",
-"대통령이",
-"몰빵한",
-"밝혀라",
-"삼전닉스",
-"상황인지",
-"어떤",
-"한동훈"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41VEhOOGRtZ3huQ0NSUHBMdDV6d3Brejh5SXdSX0FkYVpGNGk0SFFtQlM4SWdjLVZMZVBnaDZuQkF5Sy0yNHZBdmZyeGFpcE1SUXdVU0lGUDg2RFptLUl6QWlibm9pRjRkT3c?oc=5",
-"t": "2026-11-06T11:05+09:00",
-"tok": [
-"100",
-"금융보안원",
-"보이스피싱",
-"사기",
-"사칭",
-"주의",
-"피해금",
-"환급"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1udmI0QTZKNzRCcjVnUzVLWlR6aVN5NGY4NGloRXFYWEM0RVpScHFqeVlUNm9sdThXY3dTTk9OdURRZW14bXhGTzZjbw?oc=5",
-"t": "2026-11-06T11:05+09:00",
-"tok": [
-"19명",
-"5000만원",
-"구속",
-"모자",
-"보이스피싱",
-"사회",
-"소행",
-"송치",
-"숨진",
-"조직",
-"충북",
-"카자흐스탄",
-"피해",
-"한인"
-]
-},
 {
 "kind": "gov",
 "link": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249758&menuNo=200218&pageIndex=1",
@@ -9087,6 +8871,28 @@
 "하락"
 ],
 "g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE05Xy1TaUtCNTRxSm1fb3BBMkFnUTRaSWtoZUpQcGxRRF9Icm9TV2wta0h1U1k0NWVRRzJRc3ozMzZXbU43dTR2VkdOVFVRMEszY1NlNFBwdy1ZeHB1TXdWdnQ1bTRaeU1a?oc=5"
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxZnlVQUt6RVRia1NEZEY3eDhnZl9URTRYLUhIVFowRVkwSzlVTUZzWkZIbE1FUk85b09ESEZmVzBwN2dpendWSW9hY0o3X3FORzNBWnk1RURXaUQ0bllfUGsxRFRBUGJ4MUE?oc=5",
+"t": "2026-11-14T11:06+09:00",
+"tok": [
+"17배로",
+"36명",
+"3년",
+"경찰",
+"공모",
+"나면",
+"만에",
+"배달라이더",
+"베트남",
+"보험사기",
+"사고",
+"숨기기",
+"유학비자",
+"음식",
+"입건"
+]
 }
 ]
 }
