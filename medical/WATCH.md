@@ -1,64 +1,63 @@
 # 자동 감시 결과 (자동 생성 — 직접 수정 금지)
 
-- 실행일: 2026-11-13  /  감시 url 2334개  /  자료 2334건  /  이번에 확인 2084개(연속 실패로 쉼 250개, 시간 초과로 넘김 0개)
+- 실행일: 2026-11-14  /  감시 url 2334개  /  자료 2334건  /  이번에 확인 2078개(연속 실패로 쉼 256개, 시간 초과로 넘김 0개)
 - 이 파일은 **감지만** 한다. 원문 내용 확인·자료 갱신은 Claude Code가 한다.
 
-## 원문 변경 확정 (52건)
+## 원문 변경 확정 (51건)
 
-- MED-0120 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=7&idx=0
-- MED-0121 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=8&idx=0
-- MED-0122 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=2&idx=0
-- MED-0123 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=6&idx=0
-- MED-0141 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=26&idx=0
-- MED-0160 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=12&idx=0
-- MED-0161 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=4&idx=0
-- MED-0162 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=11&idx=0
-- MED-0163 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=15&idx=0
-- MED-0164 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=14&idx=0
-- MED-0165 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=10&idx=0
-- MED-0568 — https://www.who.int/news-room/fact-sheets/detail/ageing-and-health
-- MED-0571 — https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance
-- MED-0579 — https://www.who.int/news-room/fact-sheets/detail/cancer
-- MED-0588 — https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease
-- MED-0600 — https://www.who.int/news-room/fact-sheets/detail/human-papilloma-virus-and-cancer
-- MED-0625 — https://www.who.int/news-room/fact-sheets/detail/pre-eclampsia
-- MED-0631 — https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-(stis)
-- MED-0642 — https://www.who.int/news-room/fact-sheets/detail/tuberculosis
-- MED-0805 — https://medlineplus.gov/acutelymphocyticleukemia.html
-- MED-0816 — https://medlineplus.gov/aorticaneurysm.html
-- MED-0834 — https://medlineplus.gov/breastcancer.html
-- MED-0849 — https://medlineplus.gov/cholesterollevelswhatyouneedtoknow.html
-- MED-0853 — https://medlineplus.gov/chronicmyeloidleukemia.html
-- MED-0870 — https://medlineplus.gov/diabetes.html
-- MED-0879 — https://medlineplus.gov/diabeticheartdisease.html
-- MED-0887 — https://medlineplus.gov/encephalitis.html
-- MED-0892 — https://medlineplus.gov/flu.html
-- MED-0894 — https://medlineplus.gov/gastroenteritis.html
-- MED-0901 — https://medlineplus.gov/healthysleep.html
-- MED-0922 — https://medlineplus.gov/howtolowercholesterolwithdiet.html
-- MED-0927 — https://medlineplus.gov/hyperthyroidism.html
-- MED-0928 — https://medlineplus.gov/hypoglycemia.html
-- MED-0929 — https://medlineplus.gov/hypothyroidism.html
-- MED-0955 — https://medlineplus.gov/musculardystrophy.html
-- MED-0962 — https://medlineplus.gov/obsessivecompulsivedisorder.html
-- MED-0985 — https://medlineplus.gov/prostatecancerscreening.html
-- MED-1003 — https://medlineplus.gov/sleepdisorders.html
-- MED-1009 — https://medlineplus.gov/strokerehabilitation.html
-- MED-1012 — https://medlineplus.gov/suicide.html
-- MED-1014 — https://medlineplus.gov/testicularcancer.html
-- MED-1023 — https://medlineplus.gov/vasculardiseases.html
-- MED-1127 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11917397/
-- MED-1227 — https://www.data.go.kr/data/15159616/fileData.do
-- MED-1366 — https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases
-- MED-1369 — https://www.who.int/news-room/fact-sheets/detail/asbestos
-- MED-1373 — https://www.who.int/news-room/fact-sheets/detail/household-air-pollution-and-health
-- MED-1400 — https://www.ijthyroid.org/journal/view.html?doi=10.11106/ijt.2024.17.1.1
-- MED-1465 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=13&idx=0
-- MED-1466 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=16&idx=0
-- MED-2201 — https://www.kihasa.re.kr/news/event/view?seq=76736
-- MED-2327 — https://fine.fss.or.kr/fine/main/contents.do?menuNo=900209&part=inherit-guide
+- MED-0255 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2018&mode=view
+- MED-0258 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2005&mode=view
+- MED-0587 — https://www.who.int/news-room/fact-sheets/detail/diabetes
+- MED-0620 — https://www.who.int/news-room/fact-sheets/detail/physical-activity
+- MED-0621 — https://www.who.int/news-room/fact-sheets/detail/pneumonia
+- MED-0626 — https://www.who.int/news-room/fact-sheets/detail/rheumatic-heart-disease
+- MED-0632 — https://www.who.int/news-room/fact-sheets/detail/shingles-(herpes-zoster)
+- MED-0813 — https://medlineplus.gov/ankylosingspondylitis.html
+- MED-0827 — https://medlineplus.gov/birdflu.html
+- MED-0828 — https://medlineplus.gov/bloodclots.html
+- MED-0837 — https://medlineplus.gov/cancer.html
+- MED-0838 — https://medlineplus.gov/cancerchemotherapy.html
+- MED-0839 — https://medlineplus.gov/cancerimmunotherapy.html
+- MED-0852 — https://medlineplus.gov/chroniclymphocyticleukemia.html
+- MED-0871 — https://medlineplus.gov/diabetesandpregnancy.html
+- MED-0872 — https://medlineplus.gov/diabetescomplications.html
+- MED-0875 — https://medlineplus.gov/diabetestype2.html
+- MED-0889 — https://medlineplus.gov/eosinophilicesophagitis.html
+- MED-0897 — https://medlineplus.gov/gout.html
+- MED-0898 — https://medlineplus.gov/guidetogoodposture.html
+- MED-0899 — https://medlineplus.gov/hdlthegoodcholesterol.html
+- MED-0903 — https://medlineplus.gov/heartdiseaseinwomen.html
+- MED-0904 — https://medlineplus.gov/heartdiseases.html
+- MED-0905 — https://medlineplus.gov/heartfailure.html
+- MED-0915 — https://medlineplus.gov/hepatitisc.html
+- MED-0918 — https://medlineplus.gov/hodgkinlymphoma.html
+- MED-0925 — https://medlineplus.gov/howtopreventhighbloodpressure.html
+- MED-0934 — https://medlineplus.gov/juvenilearthritis.html
+- MED-0937 — https://medlineplus.gov/kneereplacement.html
+- MED-0943 — https://medlineplus.gov/lewybodydementia.html
+- MED-0946 — https://medlineplus.gov/menstruation.html
+- MED-0951 — https://medlineplus.gov/mitralvalveprolapse.html
+- MED-0952 — https://medlineplus.gov/mriscans.html
+- MED-0956 — https://medlineplus.gov/myalgicencephalomyelitischronicfatiguesyndrome.html
+- MED-0957 — https://medlineplus.gov/myastheniagravis.html
+- MED-0958 — https://medlineplus.gov/nauseaandvomiting.html
+- MED-0959 — https://medlineplus.gov/neuroblastoma.html
+- MED-0976 — https://medlineplus.gov/polioandpostpoliosyndrome.html
+- MED-0984 — https://medlineplus.gov/prostatecancer.html
+- MED-0989 — https://medlineplus.gov/radiationtherapy.html
+- MED-0994 — https://medlineplus.gov/respiratorysyncytialvirusinfections.html
+- MED-0997 — https://medlineplus.gov/rotatorcuffinjuries.html
+- MED-1000 — https://medlineplus.gov/shingles.html
+- MED-1001 — https://medlineplus.gov/sicklecelldisease.html
+- MED-1004 — https://medlineplus.gov/smoking.html
+- MED-1007 — https://medlineplus.gov/stress.html
+- MED-1125 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13655289/
+- MED-1228 — https://www.data.go.kr/data/15104692/fileData.do
+- MED-1232 — https://www.data.go.kr/data/15117426/fileData.do
+- MED-1233 — https://www.data.go.kr/data/3051778/fileData.do
+- MED-1381 — https://www.who.int/news-room/fact-sheets/detail/hepatitis-d
 
-## 접속 3회 이상 연속 실패 (257건)
+## 접속 3회 이상 연속 실패 (259건)
 
 - MED-0010 — 23회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.nhis.or.kr/renewal_popup/poster/20260608_poster_longdesc_1.html
 - MED-0014 — 7회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.hira.or.kr/bbsDummy.do?brdBltNo=45666&brdScnBltNo=4&pgmid=HIRAA030023080000
@@ -68,10 +67,12 @@
 - MED-0030 — 23회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.nhis.or.kr/nhis/minwon/wbhapa01000m01.do?mode=view&articleNo=10946900
 - MED-0073 — 12회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3358
 - MED-0081 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3754
+- MED-0083 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3761
 - MED-0084 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-11, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3762
 - MED-0085 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3765
 - MED-0086 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3766
 - MED-0088 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-11, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3785
+- MED-0089 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3786
 - MED-0091 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3790
 - MED-0094 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3808
 - MED-0096 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4768
@@ -80,7 +81,6 @@
 - MED-0099 — 9회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3352
 - MED-0100 — 9회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5128
 - MED-0101 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3784
-- MED-0102 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-07, 7일마다 재시도) — https://www.cancer.go.kr/lay1/S1T261C262/contents.do
 - MED-0108 — 9회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4666
 - MED-0109 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3802
 - MED-0110 — 12회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5242
@@ -93,10 +93,15 @@
 - MED-0142 — 3회 — TimeoutError: 총 45초 초과 (마지막 시도 2026-11-09, 7일마다 재시도) — https://m.circulation.or.kr/bbs/download.php?code=guide&number=2685
 - MED-0143 — 3회 — TimeoutError: 총 45초 초과 (마지막 시도 2026-11-09, 7일마다 재시도) — https://diabetes.or.kr/bbs/download.php?code=guide&number=1522
 - MED-0153 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=19618
+- MED-0154 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=17106
 - MED-0157 — 23회 — URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.seoulhp.com/seoul/cmmn/file/fileDown.do?atchFileId=79e740a49bff47a1aa20365c7d80153f&fileSn=4&menuNo=100136
+- MED-0166 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=1
 - MED-0167 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=2
 - MED-0168 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=3
+- MED-0169 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=4-6
 - MED-0170 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=7
+- MED-0171 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=8-9
+- MED-0172 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18579
 - MED-0173 — 3회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=14791
 - MED-0174 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=10288
 - MED-0175 — 3회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-08, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=10597
@@ -310,13 +315,9 @@
 - MED-2217 — 14회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11005254
 - MED-2255 — 7회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-09, 7일마다 재시도) — https://www.hira.or.kr/dummy.do?pgmid=HIRAA020020000005
 - MED-2301 — 4회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01000m01.do?mode=view&articleNo=11008009
-- MED-0083 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3761
-- MED-0089 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3786
-- MED-0154 — 4회 — TimeoutError: 총 20초 초과 — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=17106
-- MED-0166 — 4회 — TimeoutError: 총 20초 초과 — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=1
-- MED-0169 — 4회 — TimeoutError: 총 20초 초과 — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=4-6
-- MED-0171 — 4회 — TimeoutError: 총 20초 초과 — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=8-9
-- MED-0172 — 4회 — TimeoutError: 총 20초 초과 — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18579
+- MED-0078 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5134
+- MED-0082 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3760
+- MED-0102 — 4회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/S1T261C262/contents.do
 
 ## 재확인 기한 도래·30일 이내 (36건)
 
@@ -357,19 +358,14 @@
 - 2026-12-11 MED-0250 [superseded] HIV/AIDS 진료지침(개정) — 기회감염증 지침 개요, 초기 평가·ART 시작 시기·치료 원칙 권고 요약(2014년 11월 기준, 구판)
 - 2026-12-11 MED-0251 [superseded] 한국인을 위한 당뇨병 임상 진료지침 — 진단 기준·혈당 조절 목표·2형 당뇨병 약제 치료 권고 요약(2015, 구판)
 
-## PubMed 신규 가이드라인·RCT·메타분석 (2026-11-12 이후)
+## PubMed 신규 가이드라인·RCT·메타분석 (2026-11-13 이후)
 
 **신장암**
 - Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis. (2026 Aug 18) https://pubmed.ncbi.nlm.nih.gov/43021107/
-**대장암**
-- NCCN Guidelines® Insights: Colon Cancer, Version 3.2026. (2026 Nov) https://pubmed.ncbi.nlm.nih.gov/43019762/
 **폐암**
 - First-line immune checkpoint inhibitors versus chemotherapy in delaying quality of life deterioration in advanced NSCLC: a systematic review and meta-analysis. (2026 Aug 14) https://pubmed.ncbi.nlm.nih.gov/43021226/
 **유방암**
-- Prevalence of Cancer in Pakistan: A Meta-Analysis. (2026 Nov) https://pubmed.ncbi.nlm.nih.gov/43016082/
-- Role of CDC25B in human cancers: a meta-analysis and bioinformatics analysis. (2026 Aug 15) https://pubmed.ncbi.nlm.nih.gov/43015696/
-**전립선암**
-- American Cancer Society guideline for the early detection of prostate cancer, 2026. (2026 Nov-Dec) https://pubmed.ncbi.nlm.nih.gov/43018083/
+- Impact of pre-chemotherapy food intake on chemotherapy-induced nausea and vomiting in patients with early breast cancer: a subanalysis of the randomized SUCCESS C trial. (2026 Nov 13) https://pubmed.ncbi.nlm.nih.gov/43026373/
 **췌장암**
 - Tumor Treating Fields and Quality of Life Among Patients With Locally Advanced Pancreatic Adenocarcinoma: A Secondary Analysis of a Randomized Clinical Trial. (2026 Nov 2) https://pubmed.ncbi.nlm.nih.gov/43024239/
 
