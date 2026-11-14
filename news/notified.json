@@ -1,39 +1,6 @@
 {
-"updated": "2026-11-14T18:06+09:00",
+"updated": "2026-11-14T19:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://www.hani.co.kr/arti/society/society_general/1286185.html",
-"t": "2026-11-06T19:06+09:00",
-"tok": [
-"AI",
-"거부권",
-"건보공단에",
-"노조",
-"대리",
-"보장하라",
-"비서가",
-"상담",
-"요청",
-"응대"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9UNGxNNS1WNU1qdHRNTjdjeGs1Y0d0c09DdXJscWtqWWd1TjkyenBLcXhJYk1sS195Q0MxdHNLcFYzMzFCMmRvbmZmWXhuanY5RU9yYU9JVERyN01DTlJQWGt3bmw1VzRCWG5mYS1pbG9lUQ?oc=5",
-"t": "2026-11-06T19:06+09:00",
-"tok": [
-"강화",
-"국회",
-"보이스피싱",
-"보호",
-"빗썸",
-"예방",
-"입법박람회",
-"참가",
-"투자자"
-]
-},
 {
 "kind": "속보",
 "link": "https://www.newsis.com/view/NISX20261106_0003858605",
@@ -8318,6 +8285,22 @@
 "트럼프"
 ],
 "g": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pUmhsWFFPLWZOdWFJOEp6Wm5lZWhxV19iUlcwRHFid1MtNVlQMXMtaEdJVDJCbGV3ZXNZaXNkcGVUS3RtWUFrYXNhTW9leGwyUUlkSXJVbDR5MUlSb0JCamhfbHprcV9IekdoOWdnaFNsMFVp?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBJc1dyY2VhTUZ6OGpNUXRsSWpBNW9zUEtiZHZOSndRMkNKLXBTNXFDMVpnbEplS0hFNXBfbjhqSTVsNHlYT3NaY2c2UUg3SHZtU1pZa3pQaTAxX1FFdGNlUF93?oc=5",
+"t": "2026-11-14T19:06+09:00",
+"tok": [
+"간첩설",
+"논란",
+"에도",
+"엔비디아",
+"이해충돌",
+"주식",
+"트럼프",
+"풀매수"
+],
+"g": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBJc1dyY2VhTUZ6OGpNUXRsSWpBNW9zUEtiZHZOSndRMkNKLXBTNXFDMVpnbEplS0hFNXBfbjhqSTVsNHlYT3NaY2c2UUg3SHZtU1pZa3pQaTAxX1FFdGNlUF93?oc=5"
 }
 ]
 }
