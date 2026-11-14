@@ -1,26 +1,6 @@
 {
-"updated": "2026-11-15T07:06+09:00",
+"updated": "2026-11-15T08:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Gbkt3UUd1VjRuTkpfTDVLWkJuY3VRVU5MQl9VNk42c1d4V25ENVo3dTN5N2U1ZGZiZGVBSXRiWW9KcW1yLTZhajVha0xMNWFZbEliQWxubWoyZ2FWQVg2ZGc0bWxxWnBR?oc=5",
-"t": "2026-11-07T08:06+09:00",
-"tok": [
-"11",
-"AMD",
-"강세",
-"급등",
-"뉴욕증시",
-"동반",
-"마이크론",
-"상승",
-"샌디스크",
-"스페이스X",
-"엔비디아"
-],
-"m": 1,
-"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Gbkt3UUd1VjRuTkpfTDVLWkJuY3VRVU5MQl9VNk42c1d4V25ENVo3dTN5N2U1ZGZiZGVBSXRiWW9KcW1yLTZhajVha0xMNWFZbEliQWxubWoyZ2FWQVg2ZGc0bWxxWnBR?oc=5"
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5qbzRBVkphLW5TQnVSUVRQOUxpUnlmNXY1cDlyZ19zMFBpRTliRnhJb2hpeXlrcWVJTTJOZWFlYllBbzRjd0txb3NHOEtfR2pkUllLa1F0aUFROGRqV0lhVw?oc=5",
@@ -8148,6 +8128,36 @@
 "지원",
 "청년연금",
 "최저임금"
+]
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4wa2ZKM1ExX0xzU0JhRjhkWHdiczh0WkZ5ZGVZQkJGTldobnZNdWgzbTJ4UnBNOHEtOWxvX1g1amN3R2tHQ25fTkt5Q1BLMVhNV1dsZUg2aDVIcnItZzFWdWo3WXFYUkk?oc=5",
+"t": "2026-11-15T08:06+09:00",
+"tok": [
+"금융당국",
+"대형GA",
+"등록취소",
+"리베이트",
+"불법",
+"영업에",
+"예고",
+"폐업위기",
+"한국보험금융"
+]
+},
+{
+"kind": "주목",
+"link": "http://www.fins.co.kr/news/articleView.html?idxno=110560",
+"t": "2026-11-15T08:06+09:00",
+"tok": [
+"기금형",
+"대응",
+"보험업계도",
+"본격화",
+"속도",
+"준비",
+"퇴직연금"
 ]
 }
 ]
