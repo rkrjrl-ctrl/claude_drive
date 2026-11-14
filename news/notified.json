@@ -1,55 +1,6 @@
 {
-"updated": "2026-11-14T16:06+09:00",
+"updated": "2026-11-14T17:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261106_0003858199",
-"t": "2026-11-06T17:06+09:00",
-"tok": [
-"1356",
-"14",
-"5원",
-"6원",
-"급등",
-"달러",
-"마감",
-"오른",
-"폭락장에",
-"환율도"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261106_0003858199"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1tRXQzdWJTNGdBTExLNDBpb1Y0RlcxZE52YS1TNER1S2hFdEp4V0tnQ1NPbWxIejdyYTBYR0NfeGduTFNvZHdwa2lrdmU1TjhVekJpakZZemxHaTNmN0gwZV9LNElRZ19UYVk1cmRfMlkxZ1lSUlFvcVZ0WQ?oc=5",
-"t": "2026-11-06T17:06+09:00",
-"tok": [
-"5000피",
-"검은",
-"금요일",
-"사이드카까지",
-"서킷브레이커",
-"턱걸이"
-],
-"g": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1tRXQzdWJTNGdBTExLNDBpb1Y0RlcxZE52YS1TNER1S2hFdEp4V0tnQ1NPbWxIejdyYTBYR0NfeGduTFNvZHdwa2lrdmU1TjhVekJpakZZemxHaTNmN0gwZV9LNElRZ19UYVk1cmRfMlkxZ1lSUlFvcVZ0WQ?oc=5"
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1Fck4zRXdlelMySWZNT3A0OGNlMTVVY3BCT2VZamluMEdNS1ZZWmJIb1ZqV3RpYVRPVnFVV3Z0ZlpQT1lqcFBDQ3B0M1NMWXFaTWlBS0xZZlJFZTZCNUN3RGRzMA?oc=5",
-"t": "2026-11-06T17:06+09:00",
-"tok": [
-"강화",
-"건강보험",
-"건보공단",
-"돌봄",
-"리부트",
-"선포",
-"연계",
-"요양",
-"의료"
-]
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5SZEZ1bmNaMnVZenFYZDJtNTJaWVZ1VkFfX1ZzR1NpbEpBT1h0aGRMcUNDMG5RT2lhWk4yeUZsanhuc0xhNnlJOFZxdEhMdDVCMEVoYUxYUWhsakxNRmllNTdXc1RqdTBMVzgzRUFMaw?oc=5",
