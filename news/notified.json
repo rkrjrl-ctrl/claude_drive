@@ -1,77 +1,6 @@
 {
-"updated": "2026-11-14T17:06+09:00",
+"updated": "2026-11-14T18:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5SZEZ1bmNaMnVZenFYZDJtNTJaWVZ1VkFfX1ZzR1NpbEpBT1h0aGRMcUNDMG5RT2lhWk4yeUZsanhuc0xhNnlJOFZxdEhMdDVCMEVoYUxYUWhsakxNRmllNTdXc1RqdTBMVzgzRUFMaw?oc=5",
-"t": "2026-11-06T18:06+09:00",
-"tok": [
-"13",
-"1조",
-"3412억원",
-"3대",
-"납입",
-"네이버",
-"된다",
-"엔비디아",
-"완료",
-"주주",
-"지분",
-"확보"
-],
-"g": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5SZEZ1bmNaMnVZenFYZDJtNTJaWVZ1VkFfX1ZzR1NpbEpBT1h0aGRMcUNDMG5RT2lhWk4yeUZsanhuc0xhNnlJOFZxdEhMdDVCMEVoYUxYUWhsakxNRmllNTdXc1RqdTBMVzgzRUFMaw?oc=5"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9YNWZQdlJ1VFVGLUU1YmxzTWZ6a2ZhN0NVcmgxQ0hlODQwMWtFY2RlTUJLeDFNd2dxbXRLUVRhOU5qNVd6cTE3NlV0TkRRQnE5a1dTZ0p5bHladnBRdnJBRXo5V1NVLTFBU01z?oc=5",
-"t": "2026-11-06T18:06+09:00",
-"tok": [
-"3대",
-"3조",
-"네이버",
-"네이버에",
-"됐다",
-"엔비디아",
-"주주",
-"투자"
-],
-"g": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5SZEZ1bmNaMnVZenFYZDJtNTJaWVZ1VkFfX1ZzR1NpbEpBT1h0aGRMcUNDMG5RT2lhWk4yeUZsanhuc0xhNnlJOFZxdEhMdDVCMEVoYUxYUWhsakxNRmllNTdXc1RqdTBMVzgzRUFMaw?oc=5"
-},
-{
-"kind": "단독",
-"link": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/06/ONN6ZD25SVA2NCSH7E5C7PQUGQ/",
-"t": "2026-11-06T18:06+09:00",
-"tok": [
-"320만",
-"개인정보",
-"번호",
-"샜다",
-"쓰는",
-"아파트",
-"아파트너",
-"유출",
-"입주민",
-"휴대폰"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XaGJsQUF6cEtlbVR3MEdzTDRlQWVYUTh4cjQyVGpVWXRZYXNFa0RyR0FDdkptRXg0U3JxbjF0akVWQWE2bGR0Z1l0ZlRhc2VGcm1FX1VLeHZhSTRJRzg5STM2ckJ6LV9yUm9XN1JB?oc=5",
-"t": "2026-11-06T18:06+09:00",
-"tok": [
-"11월",
-"30일까지",
-"관악구",
-"돌려받으세요",
-"미환급금",
-"세금",
-"있던",
-"잊고",
-"지방세",
-"집중",
-"환급"
-]
-},
 {
 "kind": "단독",
 "link": "https://www.hani.co.kr/arti/society/society_general/1286185.html",
@@ -8343,6 +8272,52 @@
 "보이스피싱",
 "피해"
 ]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pUmhsWFFPLWZOdWFJOEp6Wm5lZWhxV19iUlcwRHFid1MtNVlQMXMtaEdJVDJCbGV3ZXNZaXNkcGVUS3RtWUFrYXNhTW9leGwyUUlkSXJVbDR5MUlSb0JCamhfbHprcV9IekdoOWdnaFNsMFVp?oc=5",
+"t": "2026-11-14T18:06+09:00",
+"tok": [
+"AI칩",
+"사고",
+"수출통제",
+"엔비디아",
+"완화",
+"작년",
+"주식",
+"트럼프"
+],
+"g": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pUmhsWFFPLWZOdWFJOEp6Wm5lZWhxV19iUlcwRHFid1MtNVlQMXMtaEdJVDJCbGV3ZXNZaXNkcGVUS3RtWUFrYXNhTW9leGwyUUlkSXJVbDR5MUlSb0JCamhfbHprcV9IekdoOWdnaFNsMFVp?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5IaXFDZ1pKUktSSG9lYlFRUUoxUDJKckctVnR2UWg4bXF5UThONFdudkxPWU53UHNMY3puRk42NzZ6N21LZ0VhemhCYWpPeDlU?oc=5",
+"t": "2026-11-14T18:06+09:00",
+"tok": [
+"규제",
+"반도체",
+"엔비디아",
+"트럼프",
+"풀매수",
+"풀어주며"
+],
+"g": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5IaXFDZ1pKUktSSG9lYlFRUUoxUDJKckctVnR2UWg4bXF5UThONFdudkxPWU53UHNMY3puRk42NzZ6N21LZ0VhemhCYWpPeDlU?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaWNwanFHb01KZVJ1TnkxaUdOemJRRkdsT3JibjVwalhNYmdKc3ZkUjQzSmJKdjc4NkJlTkp3NjlyNTgxTDVWWkpPek1DaTQ0RHZJbHJIYnc4MF9PeW93TU44cEFubkFFOEdEYzFIQXRkODJ4YzVVMl9QYXZLekJBRWtVd3VZVW05TWVJ?oc=5",
+"t": "2026-11-14T18:06+09:00",
+"tok": [
+"AI",
+"규제",
+"매입",
+"반도체",
+"엔비디아",
+"완화",
+"주식",
+"트럼프"
+],
+"g": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pUmhsWFFPLWZOdWFJOEp6Wm5lZWhxV19iUlcwRHFid1MtNVlQMXMtaEdJVDJCbGV3ZXNZaXNkcGVUS3RtWUFrYXNhTW9leGwyUUlkSXJVbDR5MUlSb0JCamhfbHprcV9IekdoOWdnaFNsMFVp?oc=5"
 }
 ]
 }
