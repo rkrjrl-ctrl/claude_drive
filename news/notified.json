@@ -1,22 +1,6 @@
 {
-"updated": "2026-11-15T09:06+09:00",
+"updated": "2026-11-15T10:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5qbzRBVkphLW5TQnVSUVRQOUxpUnlmNXY1cDlyZ19zMFBpRTliRnhJb2hpeXlrcWVJTTJOZWFlYllBbzRjd0txb3NHOEtfR2pkUllLa1F0aUFROGRqV0lhVw?oc=5",
-"t": "2026-11-07T10:05+09:00",
-"tok": [
-"3조",
-"국장",
-"다시",
-"매수",
-"미국으로",
-"서학개미",
-"일주일간",
-"폭락에"
-],
-"g": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5qbzRBVkphLW5TQnVSUVRQOUxpUnlmNXY1cDlyZ19zMFBpRTliRnhJb2hpeXlrcWVJTTJOZWFlYllBbzRjd0txb3NHOEtfR2pkUllLa1F0aUFROGRqV0lhVw?oc=5"
-},
 {
 "kind": "주목",
 "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IZk5OQXYtaWNPZGo1WGF3RHVQVTlmVGs1YVhQZU5MNUNKOHBKQU9xdFIwRUQwcXdiZkhWaDJIMTNEbVdUWlFGZ0QyTDdsaEdjVHRTeG1SaHIzWk9BVHkyMGxlWF8zU2lV?oc=5",
@@ -8176,6 +8160,54 @@
 "하락"
 ],
 "g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MbllpMks1N0xIWGFrZWZGYzdlUjhnTHpFY0xLakQ1cUgzT0h3SHNOZWgwbU9pMTdrMzBBVFdOVVprX3Izb2dSdzhMVWhQc2tRQlJ0ZzFOSEd2U09mVHNmMmRES3hhQWR2?oc=5"
+},
+{
+"kind": "단독",
+"link": "https://www.mt.co.kr/tech/2026/11/15/2026111316485180813",
+"t": "2026-11-15T10:06+09:00",
+"tok": [
+"가상자산",
+"기업부설연구소",
+"도박",
+"매매",
+"인정",
+"중개업도",
+"취급받던"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRUnJ6SU5TTEhtdFBKVmFLVGdIRUVUWVZPeGJJYzJ1ei1zSkd3VERoVS02QUV5di1KOU5VV1BGQnNoWXJTaHE2TkZKYlNLS2M1ZUZSLTJVR05oUmlyeGNSZkQ2eVBTNUdr?oc=5",
+"t": "2026-11-15T10:06+09:00",
+"tok": [
+"105억",
+"공방",
+"나은",
+"득실거려",
+"심경",
+"악마들",
+"월세가",
+"이다인",
+"이승기",
+"전세사기"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE15LUtYZEM3RndGWUJNQ2RlMUVQMzBYc29qQnRHcGxxanNlZ3VaUUxXLV9EYnlpVzdDblAzVVhQQWdnWWJZaEdLSGh2ZXJSb3JXbHZUSg?oc=5",
+"t": "2026-11-15T10:06+09:00",
+"tok": [
+"가스요금",
+"공기업에",
+"기름값",
+"누른",
+"돌아온",
+"물가",
+"잡으려",
+"전기",
+"정부",
+"청구서"
+]
 }
 ]
 }
