@@ -1,40 +1,6 @@
 {
-"updated": "2026-11-15T11:00+09:00",
+"updated": "2026-11-15T12:05+09:00",
 "items": [
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IZk5OQXYtaWNPZGo1WGF3RHVQVTlmVGs1YVhQZU5MNUNKOHBKQU9xdFIwRUQwcXdiZkhWaDJIMTNEbVdUWlFGZ0QyTDdsaEdjVHRTeG1SaHIzWk9BVHkyMGxlWF8zU2lV?oc=5",
-"t": "2026-11-07T11:05+09:00",
-"tok": [
-"2027년부터",
-"5년",
-"거주요건",
-"국내",
-"기초연금",
-"달라진다",
-"배우자",
-"살펴야",
-"신설",
-"자녀",
-"재산도"
-]
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1YWENFMjc4RE5xcEhTNW82SVBvampQRzlob2dhVTRTUzBhLThJTTNhbjlScU1HbFpxcVJKWVZpY2llVU9nQzNIdzhCVC13dTJuUnVoVE1tQmFRV0ZlTTNnTTR3?oc=5",
-"t": "2026-11-07T11:54+09:00",
-"tok": [
-"3조",
-"국장",
-"다시",
-"매수",
-"미국으로",
-"서학개미",
-"일주일간",
-"폭락에"
-],
-"g": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5qbzRBVkphLW5TQnVSUVRQOUxpUnlmNXY1cDlyZ19zMFBpRTliRnhJb2hpeXlrcWVJTTJOZWFlYllBbzRjd0txb3NHOEtfR2pkUllLa1F0aUFROGRqV0lhVw?oc=5"
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1nWmJ5dW5TYXpuX2FTNy1qR0d5TGoyRnRRSXh1WGc2NXRYWXRvLXZ6cG02RFlUNWN5RzN6QmswQzVwMGplM3RuQzFZTlVoNHJqbm5PSg?oc=5",
@@ -8294,6 +8260,45 @@
 "커닝"
 ],
 "g": "https://www.yna.co.kr/view/AKR20261115018600004"
+},
+{
+"kind": "단독",
+"link": "https://view.asiae.co.kr/article/2026111311533788312",
+"t": "2026-11-15T12:05+09:00",
+"tok": [
+"NPL",
+"광주",
+"그늘",
+"금융의",
+"리스크도",
+"빠르게",
+"연체",
+"외국인",
+"외형",
+"전북",
+"지방은행",
+"키운"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9GWWJ2VXdZWjVmMlNIRXFELWxiN1d4Qy1zOWZWOFlUNUlCVF9VSlpXeHBYekRvdmRnZm8xc294bzFoZEdsczlPZ2lwVlpuMVQ0RksySmRVdnRVSndBQ0hVSWt2NW1vbVlq?oc=5",
+"t": "2026-11-15T12:05+09:00",
+"tok": [
+"1800달러",
+"1시간",
+"대비",
+"반등",
+"변동성",
+"비트코인",
+"이더리움",
+"주요",
+"주의",
+"코인",
+"코인시세",
+"회복"
+],
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9GWWJ2VXdZWjVmMlNIRXFELWxiN1d4Qy1zOWZWOFlUNUlCVF9VSlpXeHBYekRvdmRnZm8xc294bzFoZEdsczlPZ2lwVlpuMVQ0RksySmRVdnRVSndBQ0hVSWt2NW1vbVlq?oc=5"
 }
 ]
 }
