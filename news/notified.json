@@ -1,40 +1,6 @@
 {
-"updated": "2026-11-16T06:53+09:00",
+"updated": "2026-11-16T08:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://www.newsis.com/view/NISX20261106_0003858522",
-"t": "2026-11-08T07:06+09:00",
-"tok": [
-"1심",
-"급여",
-"남편",
-"선고",
-"안다르",
-"앞둬",
-"은닉",
-"집유",
-"창업자",
-"항소심"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0za2UxQ2pfUGtkVTJIekR2WTdMRlUzYWR3Ujl6b3JZeUtmX2V3dWRQcjNsTF95WTRKRklZSWpOU05admZvUlotZDFWVQ?oc=5",
-"t": "2026-11-08T07:06+09:00",
-"tok": [
-"강남",
-"거래",
-"늘고",
-"매물",
-"부동산",
-"상승",
-"서울",
-"줄어",
-"집값은",
-"하락에도"
-]
-},
 {
 "kind": "주목",
 "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Ra01iRGxWaHhBOHg4SXlkNU42V3pYbTVxdlUzajJxNUJGczFreGJGUkdOeVA3Y29ZTHotRzBWM01LSGdCT3R2WmRfYVJTamFNbFRMOWV3ZmN1a3lFWTh4ZkdieExVZy04R1VUcUEyR28?oc=5",
@@ -8491,6 +8457,33 @@
 "첩첩산중",
 "커진다",
 "한전"
+]
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPVUN6Ml85RmtISTRob2EzSEgwZWwteEdwNVFOS0Y4MnNnbkNyakRxZHU1cmQ3YWFzeHZXLTdrU3JzSUFwRFNILXRZRVFFTzBfZEVMalh5TkdSQQ?oc=5",
+"t": "2026-11-16T08:06+09:00",
+"tok": [
+"과세관청",
+"분배금",
+"서학개미",
+"이의제기",
+"인정",
+"잇따르나",
+"커버드콜",
+"환급"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5FQ1M3c2gtMGpJRGJkSFlBeV8zbFpSRVVsTDJjcnoyclFmd1VqSnNCWE1YVXNUaEl5TkVvc0RnOUJ6ZHkzVW9RZFFscUExNzJCUFdiZVdsLVZVZE5OaHNiVFNBUloxNGFwZ3BXdm1RRdIBc0FVX3lxTE1QU2ZZUWZtSlRneGpGX3g2WFFsVmtYVVVnZEEtX21GWGFaOWdaRmNYZDRLck1zeE5hbE9PbmZ5WnZjTlQxRUx2X3VoTzVoNlZxbW5Wa0QyVGRBX3RPaU00ZWRDTHRZNXFEanRlOEJqT0lCaEk?oc=5",
+"t": "2026-11-16T08:06+09:00",
+"tok": [
+"4611건",
+"대전",
+"여백",
+"전세사기",
+"피해"
 ]
 }
 ]
