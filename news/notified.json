@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T13:06+09:00",
+"updated": "2026-11-15T14:06+09:00",
 "items": [
 {
 "kind": "주목",
@@ -8331,6 +8331,37 @@
 "상승",
 "전월세",
 "최대폭"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kSjNKZzI0Mm9XTUhUTlJQbFdQSEx0bDZyd2N5Zk9IYXY0bzIzS2VIc3ZyRkVXN2huQTNTR2lEdDZCTTVkWVlXdk9hei1DR2o2YS1ERi1fQURSRVBoOWhrOUhJWkl2WGxZQzRUTg?oc=5",
+"t": "2026-11-15T14:06+09:00",
+"tok": [
+"ICT",
+"수출",
+"역대급",
+"질주",
+"한국"
+],
+"g": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kSjNKZzI0Mm9XTUhUTlJQbFdQSEx0bDZyd2N5Zk9IYXY0bzIzS2VIc3ZyRkVXN2huQTNTR2lEdDZCTTVkWVlXdk9hei1DR2o2YS1ERi1fQURSRVBoOWhrOUhJWkl2WGxZQzRUTg?oc=5"
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGdVZVeTRqd3ppQ0NoUkVoWU1lbklYdHhZSWxMdndnN0wtWTVCb1ZHZ0JzSUdZWmFZOEtXN2FoZGFLRUs2X2RRcUdOOC1fU1hyb0JHOHA0LXUzclJ3Nk5OcE04SGlwRFRoSXIydFRMUlc?oc=5",
+"t": "2026-11-15T14:06+09:00",
+"tok": [
+"249건",
+"결정문에",
+"그후",
+"밝힌다",
+"보도",
+"불인정",
+"이유",
+"이제",
+"전세사기",
+"피해",
+"허위계약"
 ]
 }
 ]
