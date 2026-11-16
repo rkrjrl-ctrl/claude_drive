@@ -19,8 +19,8 @@ CASES = os.path.join(ROOT, "cases", "insurance_cases.csv")
 OC = os.environ.get("LAW_OC") or "test"
 TODAY = datetime.date.today()
 BASE = "https://www.law.go.kr/DRF/"
-CASE_FROM = "20210101"  # 판례 수집 시작일
-DETAIL_CAP = 100         # 1회 실행에서 판시사항을 받아 올 최대 건수
+CASE_FROM = "20000101"  # 판례 수집 시작일(11/16 2021→2000: 최근 2년은 매번, 그 앞은 해마다 거꾸로 채움)
+DETAIL_CAP = 300         # 1회 실행에서 판시사항을 받아 올 최대 건수(11/16 옛 판례 채우기로 100→300)
 
 LAWS = [
     "국민건강보험법", "국민건강보험법 시행령", "국민건강보험법 시행규칙",
@@ -33,8 +33,22 @@ LAWS = [
 ADM_KEYWORDS = ["요양급여", "산정특례", "본인일부부담금", "암환자", "항암", "약제", "선별급여",
                 "재난적의료비", "호스피스", "의료급여", "암관리", "요양비", "보험업감독규정", "실손의료보험"]
 ADM_DEPTS = {"보건복지부", "질병관리청", "금융위원회", "식품의약품안전처"}
+# (검색어, 1=사건명 2=본문). 11/16 사용자 「더 예전 것들도 수집하고 꼭 보험 아니라 경제 관련으로 조금 더 넓히자」
 CASE_QUERIES = [("보험", 1), ("실손의료보험", 2), ("암보험", 2), ("진단비", 2), ("고지의무", 2),
-                ("약관 설명의무", 2), ("요양급여", 2)]
+                ("약관 설명의무", 2), ("요양급여", 2),
+                ("보험금", 1), ("보험계약", 2), ("자동차보험", 2), ("보험약관", 2), ("보증보험", 2),
+                # 생활 금융: 대출·보증금·카드·예금·전자금융 사기·투자 권유·연금
+                ("대출", 1), ("임대차보증금", 1), ("신용카드", 2), ("예금", 1), ("전자금융거래", 2),
+                ("투자권유", 2), ("적합성 원칙", 2), ("연대보증", 2), ("퇴직연금", 2), ("국민연금", 2)]
+# 분야 낱말: 사건명·판시사항에 하나도 없으면 무관한 판례(「고지의무」로 잡힌 스토킹·법인세 등)로 보고 빼 둔다
+FIELD_INS = re.compile(r"보험|공제(계약|금|조합)|실손|약관|피보험자|요양급여")
+FIELD_MONEY = re.compile(r"대출|여신|이자|연체|보증금|전세|임대차|신용카드|카드회원|예금|적금|전자금융|보이스피싱|금융투자|투자권유|적합성|설명의무|펀드|"
+                         r"증권|연금|퇴직급여|연대보증|보증채무|근저당|은행|금융회사|금융기관|대부|신용정보")
+
+
+def field_of(r):
+    t = r["사건명"] + " " + (r.get("판시사항") or "")
+    return "보험" if FIELD_INS.search(t) else "생활금융" if FIELD_MONEY.search(t) else ""
 
 
 T0 = time.time()
@@ -143,32 +157,50 @@ def load_cases():
         return {r["판례일련번호"]: r for r in csv.DictReader(f)}
 
 
+def fetch_cases(cases, kw, mode, ymd_from, ymd_to, seen_new, errs, max_pages):
+    """한 검색어·기간의 판례 목록을 받는다. 끝까지 받았으면 True"""
+    for page in range(1, max_pages + 1):
+        try:
+            d = api("lawSearch.do", target="prec", query=kw, search=mode, org="400201", display=100,
+                    page=page, prncYd=f"{ymd_from}~{ymd_to}", sort="ddes")
+        except Exception as e:
+            errs.append(str(e)); return False
+        rows = items(d, "prec")
+        for x in rows:
+            pid = x["판례일련번호"]
+            if pid in cases:
+                if kw not in cases[pid]["검색어"].split("|"):
+                    cases[pid]["검색어"] += "|" + kw
+                continue
+            cases[pid] = {"판례일련번호": pid, "사건번호": x["사건번호"], "선고일자": x["선고일자"], "사건명": x["사건명"],
+                          "판결유형": x.get("판결유형", ""), "검색어": kw, "분야": "", "판시사항": "",
+                          "링크": f"https://www.law.go.kr/precInfoP.do?precSeq={pid}"}
+            seen_new.append(pid)
+        total = int(next(iter(d.values())).get("totalCnt", 0) or 0) if d else 0
+        if page * 100 >= total or not rows:
+            return True
+        time.sleep(0.3)
+    return True
+
+
 def watch_cases(state, alerts, errs, first_run):
     cases = load_cases()
+    skip = set(state.get("case_skip", []))   # 분야 낱말이 없어 뺀 판례(다시 받지 않음)
     seen_new = []
-    for kw, mode in CASE_QUERIES:
-        for page in range(1, 6):
-            try:
-                d = api("lawSearch.do", target="prec", query=kw, search=mode, org="400201", display=100,
-                        page=page, prncYd=f"{CASE_FROM}~{TODAY.strftime('%Y%m%d')}", sort="ddes")
-            except Exception as e:
-                errs.append(str(e)); break
-            rows = items(d, "prec")
-            for x in rows:
-                pid = x["판례일련번호"]
-                if pid in cases:
-                    if kw not in cases[pid]["검색어"].split("|"):
-                        cases[pid]["검색어"] += "|" + kw
-                    continue
-                cases[pid] = {"판례일련번호": pid, "사건번호": x["사건번호"], "선고일자": x["선고일자"], "사건명": x["사건명"],
-                              "판결유형": x.get("판결유형", ""), "검색어": kw, "판시사항": "",
-                              "링크": f"https://www.law.go.kr/precInfoP.do?precSeq={pid}"}
-                seen_new.append(pid)
-            total = int(next(iter(d.values())).get("totalCnt", 0) or 0) if d else 0
-            if page * 100 >= total or not rows:
-                break
-            time.sleep(0.3)
+    recent = (TODAY - datetime.timedelta(days=730)).strftime("%Y%m%d")
+    for kw, mode in CASE_QUERIES:   # 최근 2년은 매번
+        fetch_cases(cases, kw, mode, recent, TODAY.strftime("%Y%m%d"), seen_new, errs, 5)
         time.sleep(0.3)
+    # 그 앞은 검색어마다 한 해씩 거꾸로(2000년까지). 시간 예산의 절반을 넘기면 다음 실행으로
+    back = state.setdefault("case_back", {})
+    y_last = int(recent[:4])   # 최근 2년 창 앞의 그해 1월~창 시작일까지가 첫 칸
+    for kw, mode in CASE_QUERIES:
+        y = back.get(kw, y_last)
+        while y >= int(CASE_FROM[:4]) and time.time() - T0 < BUDGET * 0.5:
+            if not fetch_cases(cases, kw, mode, f"{y}0101", min(f"{y}1231", recent), seen_new, errs, 20): break
+            y -= 1; back[kw] = y
+    for p in [p for p in seen_new if p in skip]: cases.pop(p, None)
+    seen_new = [p for p in seen_new if p in cases]
     todo = [p for p, r in sorted(cases.items(), key=lambda kv: kv[1]["선고일자"], reverse=True) if not r["판시사항"]][:DETAIL_CAP]
     for pid in todo:
         try:
@@ -180,20 +212,27 @@ def watch_cases(state, alerts, errs, first_run):
         cases[pid]["판시사항"] = plain(v.get("판시사항") or v.get("판결요지")) if isinstance(v, dict) else ""
         cases[pid]["판시사항"] = cases[pid]["판시사항"] or "-"
         time.sleep(0.2)
+    for pid, r in list(cases.items()):   # 판시사항까지 받은 뒤 분야를 정하고, 없으면 뺀다
+        r["분야"] = field_of(r)
+        if not r["분야"] and r["판시사항"]:
+            skip.add(pid); cases.pop(pid)
+    state["case_skip"] = sorted(skip)
+    seen_new = [p for p in seen_new if p in cases]
     os.makedirs(os.path.dirname(CASES), exist_ok=True)
-    cols = ["판례일련번호", "사건번호", "선고일자", "사건명", "판결유형", "검색어", "판시사항", "링크"]
+    cols = ["판례일련번호", "사건번호", "선고일자", "사건명", "판결유형", "분야", "검색어", "판시사항", "링크"]
     with open(CASES, "w", encoding="utf-8-sig", newline="") as f:
         w = csv.DictWriter(f, cols)
         w.writeheader()
         for r in sorted(cases.values(), key=lambda r: (r["선고일자"], r["판례일련번호"]), reverse=True):
-            w.writerow(r)
-    shown = seen_new[:10] if first_run else seen_new
+            w.writerow({c: r.get(c, "") for c in cols})
+    shown = seen_new[:10] if first_run else [p for p in seen_new if cases[p]["선고일자"].replace(".", "") >= recent][:30]   # 옛 판례 채우기는 알림에서 뺀다
     lines = [f"{cases[p]['선고일자']} {cases[p]['사건번호']} {cases[p]['사건명']} — {cases[p]['판시사항'][:140]} {cases[p]['링크']}"
              for p in sorted(shown, key=lambda p: cases[p]["선고일자"], reverse=True)]
     if not first_run:
-        alerts[0] += len(seen_new)
-    return lines, len(cases), len(seen_new)
-
+        alerts[0] += len(shown)
+    left = sum(1 for kw, _ in CASE_QUERIES if back.get(kw, y_last) >= int(CASE_FROM[:4]))
+    if left: lines.append(f"(옛 판례 채우는 중: 검색어 {left}개가 아직 2000년까지 못 감)")
+    return lines, len(cases), len(shown)
 
 def main():
     state = json.load(open(STATE, encoding="utf-8")) if os.path.exists(STATE) else {}
@@ -203,7 +242,7 @@ def main():
     adm = watch_admrul(state, alerts, errs, first_run)
     cases, ncases, nnew = watch_cases(state, alerts, errs, first_run)
     L = ["# 법령·고시·판례 감시 결과 (자동 생성 — 직접 수정 금지)\n",
-         f"- 실행일: {TODAY}  /  법령 {len(LAWS)}개·고시 키워드 {len(ADM_KEYWORDS)}개 감시  /  보험 대법원 판례 누적 {ncases}건 (`medical/cases/insurance_cases.csv`)",
+         f"- 실행일: {TODAY}  /  법령 {len(LAWS)}개·고시 키워드 {len(ADM_KEYWORDS)}개 감시  /  보험·생활금융 대법원 판례 누적 {ncases}건 (`medical/cases/insurance_cases.csv`)",
          "- 이 파일은 **감지만** 한다. 해석·자료 등록은 Claude Code가 한다. 판례는 요약 일부(판시사항)만 보여 주며 원문 확인이 필요하다.\n"]
     if AUTH_FAIL[0]:
         L.append(f"> **경고: 이번 실행은 법제처 API 인증에 실패해 법령·고시·판례를 확인하지 못했다.** 아래 '없음'은 변경이 없다는 뜻이 아니다. "
@@ -216,7 +255,7 @@ def main():
     L += [f"- {t}" for t in upcoming] or ["- 없음"]
     L.append(f"\n## 고시·행정규칙 신규·개정 ({len(adm)}건)\n")
     L += [f"- {t}" for t in adm] or ["- 없음"]
-    L.append(f"\n## 신규 대법원 보험 판례 ({nnew}건{', 첫 실행은 최신 10건 표시' if first_run else ''})\n")
+    L.append(f"\n## 신규 대법원 보험·생활금융 판례 ({nnew}건{', 첫 실행은 최신 10건 표시' if first_run else ''})\n")
     L += [f"- {t}" for t in cases] or ["- 없음"]
     L.append("\n## 수집 오류\n")
     L += [f"- {e}" for e in sorted(set(errs))[:10]] or ["- 없음"]
