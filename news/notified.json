@@ -1,19 +1,6 @@
 {
-"updated": "2026-11-16T08:06+09:00",
+"updated": "2026-11-16T09:06+09:00",
 "items": [
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Ra01iRGxWaHhBOHg4SXlkNU42V3pYbTVxdlUzajJxNUJGczFreGJGUkdOeVA3Y29ZTHotRzBWM01LSGdCT3R2WmRfYVJTamFNbFRMOWV3ZmN1a3lFWTh4ZkdieExVZy04R1VUcUEyR28?oc=5",
-"t": "2026-11-08T09:05+09:00",
-"tok": [
-"보이스피싱",
-"예방",
-"원음방송과",
-"익산경찰서",
-"협력",
-"홍보"
-]
-},
 {
 "kind": "주목",
 "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBhM1ZyUUpCRXhzTHl2SGwyUVZzV1l1aVVOb2dKcXVhRDRBX1RaQzkwOWhhMWoycEdQU3V4cjRTbGZyLUFoTDNNR3N3?oc=5",
@@ -8484,6 +8471,156 @@
 "여백",
 "전세사기",
 "피해"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42T181eUFFZjh5MFdRY2Z5dW9vYkRwd3Jrd2tSNlQtVUxmMWwySG1KNjZMS3VIZlZVNEFzQnNQcGxELWMwYVQxX1lnU3hXWExyeWNfSVlWZm5vdjJ2bm4tUWVEaXdtNVBhZXNGRFN0QUUwM0VHR0pJS2JVVdIBgAFBVV95cUxPYWw0RXJaZGRWdkpPTzV5MnExbHdLSHF4VTBOdEFHM2g5WXpORjNyUkNyeXdrRzFxTjl3NVNmdlJINnFVQm5XMTd5QzB2aExxVlQ1WTFaTEZoeTkxQk40SGcwRmxyTUMteUtpTFZ5VWhUWVVxZS0tSEUxUDRRVkk1Xw?oc=5",
+"t": "2026-11-16T09:06+09:00",
+"tok": [
+"삼전닉스",
+"상승",
+"상장",
+"소폭",
+"실적",
+"앤트로픽",
+"엔비디아",
+"촉각",
+"프리마켓서"
+],
+"g": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42T181eUFFZjh5MFdRY2Z5dW9vYkRwd3Jrd2tSNlQtVUxmMWwySG1KNjZMS3VIZlZVNEFzQnNQcGxELWMwYVQxX1lnU3hXWExyeWNfSVlWZm5vdjJ2bm4tUWVEaXdtNVBhZXNGRFN0QUUwM0VHR0pJS2JVVdIBgAFBVV95cUxPYWw0RXJaZGRWdkpPTzV5MnExbHdLSHF4VTBOdEFHM2g5WXpORjNyUkNyeXdrRzFxTjl3NVNmdlJINnFVQm5XMTd5QzB2aExxVlQ1WTFaTEZoeTkxQk40SGcwRmxyTUMteUtpTFZ5VWhUWVVxZS0tSEUxUDRRVkk1Xw?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5MT2lxM0MzSWZjZFQxYi1wVnlPSVNhXzlBN3VTOTN0NXNDc2hIcS01NHdSaUZaSTR0a0JTN3hxdGh1Q3FjbHJJSXNWLUNJVFA3TEpuQlB1TWFKM1ZleTQwQTdR?oc=5",
+"t": "2026-11-16T09:06+09:00",
+"tok": [
+"CEO",
+"논의",
+"백악관",
+"복귀",
+"설득",
+"엔비디아",
+"젠슨"
+],
+"g": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5MT2lxM0MzSWZjZFQxYi1wVnlPSVNhXzlBN3VTOTN0NXNDc2hIcS01NHdSaUZaSTR0a0JTN3hxdGh1Q3FjbHJJSXNWLUNJVFA3TEpuQlB1TWFKM1ZleTQwQTdR?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80WnU1c2JyRWR1b00zSm5RS3hBaGZuZmh4N0hEVF82WG1pZ3h3bWRtMVU0YUYwamhpcC1QMjhmMTlkNlZncWN6TTZGWDlSc1RFakFYNEotLUZRaHc?oc=5",
+"t": "2026-11-16T09:06+09:00",
+"tok": [
+"CEO",
+"나흘",
+"만에",
+"복귀",
+"사임",
+"실리콘밸리",
+"엔비디아",
+"움직임",
+"젠슨",
+"지원",
+"추진"
+],
+"g": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5MT2lxM0MzSWZjZFQxYi1wVnlPSVNhXzlBN3VTOTN0NXNDc2hIcS01NHdSaUZaSTR0a0JTN3hxdGh1Q3FjbHJJSXNWLUNJVFA3TEpuQlB1TWFKM1ZleTQwQTdR?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261116_0003869066",
+"t": "2026-11-16T09:06+09:00",
+"tok": [
+"28",
+"40",
+"5305",
+"개장",
+"오른",
+"코스피"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261116_0003869066"
+},
+{
+"kind": "속보",
+"link": "https://www.fnnews.com/news/202611160855517223",
+"t": "2026-11-16T09:06+09:00",
+"tok": [
+"28",
+"40",
+"5305",
+"705",
+"88",
+"개장",
+"오른",
+"코스닥",
+"코스피"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261116_0003869066"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261116_0003869074",
+"t": "2026-11-16T09:06+09:00",
+"tok": [
+"24",
+"58",
+"SK하이닉스",
+"삼성전자",
+"출발"
+],
+"g": "https://www.newsis.com/view/NISX20261116_0003869074"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE45alJyNWZOcU1ZX29oTm5nZzNTYVJuYzlQazJkQ3d3TUs5WThWTjZpb1RYTXFHSngtYTcwZjdLRV9XbUd5NS1WQVAwUGJfVXpEN3p6ZU5yZUZ2RXE4MW1OU2RZalhKOGhOWnMyY1k3aGlNMDJN?oc=5",
+"t": "2026-11-16T09:06+09:00",
+"tok": [
+"22p",
+"705",
+"88",
+"89",
+"개장",
+"오른",
+"코스닥"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261116_0003869066"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261116_0003869072",
+"t": "2026-11-16T09:06+09:00",
+"tok": [
+"22포인트",
+"705",
+"88출발",
+"89",
+"상승한",
+"코스닥"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261116_0003869066"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBYNk5sX3lYOF95UGRQcDJGRkthelF4V3NMLXN3MEpONF9TUEJPVG43cEtFNW5TTlJleWUyQk13OTNvWThpM09NcGhUREhFdHhBbi1iRzNkWU5wUkQ0eGlIRjF3?oc=5",
+"t": "2026-11-16T09:06+09:00",
+"tok": [
+"P500",
+"경영진",
+"교체",
+"금리",
+"나스닥",
+"다우",
+"미국증시",
+"불확실성과",
+"상승",
+"소폭",
+"시황",
+"엔비디아",
+"우려에",
+"인상",
+"하락"
 ]
 }
 ]
