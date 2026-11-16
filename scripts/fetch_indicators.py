@@ -40,7 +40,9 @@ FIELDS = [
     "us_yield_spread", "kr_apt_price_national", "kr_apt_price_seoul",
     "kr_apt_avgprice_national", "kr_apt_avgprice_seoul",
     "kr_apt_medprice_national", "kr_apt_medprice_seoul", "soybean", "corn", "wheat", "silver", "shanghai", "hsi", "nikkei", "dax", "ftse", "cac", "stoxx50", "sensex", "nifty",
-    "eurkrw", "jpykrw", "cnykrw", "updated_at",
+    "eurkrw", "jpykrw", "cnykrw",
+    # 2026-11-16 양심적금융인 경제지표용: 상업 이용이 되는 공공 출처(FRED Public Domain)로 받은 미국 10년물·WTI·달러 가치
+    "us_10y_fred", "wti_eia", "usd_broad", "updated_at",
 ]
 
 ECOS_KEY = os.environ.get("BOK_ECOS_API_KEY", "").strip()
@@ -444,6 +446,143 @@ def reb_monthly_price_latest(cls_id, statbl_id):
     return reb_latest(statbl_id, cls_id, "MM")
 
 
+# ---- 2026-11-16: 월간·주간 지표의 긴 기록(long_term) 갱신 ----
+# 원인: 위 함수들은 「최신값 하나」만 받아 history.csv 오늘 행에 적고 long_term/*.csv 는 손대지 않아,
+# 월간(물가·M2·실업률·아파트 월간)과 주간(아파트 지수) 긴 기록이 10/6 백필 뒤로 멈춰 있었다.
+# 이제 최근 몇 해치를 기준 시점(그 달 1일·그 주 날짜)으로 받아 long_term 을 잇는다.
+# 안전장치: 받은 값이 기존 긴 기록과 겹치는 시점에서 3곳 이상 맞을 때만 덮어쓴다(날짜 해석이 틀리면 경고만).
+
+def ym_first(s):
+    """'202608' / '2026-08' / '2026-08-01' -> '2026-08-01'"""
+    s = s.replace("-", "")
+    return f"{s[:4]}-{s[4:6]}-01"
+
+
+def ecos_monthly(stat_code, item_code, months=30):
+    if not ECOS_KEY:
+        return []
+    now = datetime.now(KST)
+    start_dt = now.replace(day=1)
+    for _ in range(months):
+        start_dt = (start_dt - timedelta(days=1)).replace(day=1)
+    text = http_get(f"https://ecos.bok.or.kr/api/StatisticSearch/{ECOS_KEY}/json/kr/1/{months + 5}/"
+                    f"{stat_code}/M/{start_dt.strftime('%Y%m')}/{now.strftime('%Y%m')}/{item_code}")
+    try:
+        rows = json.loads(text)["StatisticSearch"]["row"] if text else []
+    except (ValueError, KeyError):
+        warnings.append(f"ECOS {stat_code}/{item_code}: 월간 시계열 응답 이상")
+        return []
+    return sorted((ym_first(r["TIME"]), float(r["DATA_VALUE"])) for r in rows if r.get("DATA_VALUE") not in (None, ""))
+
+
+def yoy_series(rows):
+    """[(YYYY-MM-01, 지수)] -> [(YYYY-MM-01, 전년 같은 달 대비 %)]"""
+    m = dict(rows)
+    out = []
+    for d, v in rows:
+        prior = m.get(f"{int(d[:4]) - 1}{d[4:]}")
+        if prior:
+            out.append((d, round((v / prior - 1) * 100, 2)))
+    return out
+
+
+def reb_series(statbl_id, cls_id, cycle):
+    """R-ONE 한 표·지역의 전체 시계열 [(날짜, 값)]. 주간은 그 주 날짜(YYYYMMDD), 월간은 그 달 1일."""
+    if not REB_KEY:
+        return []
+    text = http_get(f"https://www.reb.or.kr/r-one/openapi/SttsApiTblData.do?KEY={REB_KEY}&Type=json"
+                    f"&pIndex=1&pSize=1000&STATBL_ID={statbl_id}&DTACYCLE_CD={cycle}&CLS_ID={cls_id}")
+    try:
+        rows = json.loads(text)["SttsApiTblData"][1]["row"] if text else []
+    except (ValueError, KeyError, IndexError):
+        warnings.append(f"REB {statbl_id}/{cls_id}: 시계열 응답 이상")
+        return []
+    out = {}
+    for r in rows:
+        tid = str(r.get("WRTTIME_IDTFR_ID") or "")
+        desc = str(r.get("WRTTIME_DESC") or "")
+        digits = "".join(ch for ch in desc if ch.isdigit())
+        if cycle == "WK":
+            src = tid if len(tid) == 8 else digits if len(digits) == 8 else ""
+            if not src:
+                continue
+            d = f"{src[:4]}-{src[4:6]}-{src[6:8]}"
+        else:
+            src = tid if len(tid) == 6 else digits[:6] if len(digits) >= 6 else ""
+            if not src:
+                continue
+            d = ym_first(src)
+        try:
+            out[d] = float(r["DTA_VAL"])
+        except (KeyError, TypeError, ValueError):
+            continue
+    if rows and not out:
+        warnings.append(f"REB {statbl_id}/{cls_id}: 시점 해석 실패(예: {rows[0].get('WRTTIME_IDTFR_ID')}/{rows[0].get('WRTTIME_DESC')})")
+    return sorted(out.items())
+
+
+def read_long_term(field):
+    path = os.path.join(LONG_TERM_DIR, f"{field}.csv")
+    old = {}
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            for ln in f.read().splitlines()[1:]:
+                d, _, v = ln.partition(",")
+                try:
+                    old[d] = float(v)
+                except ValueError:
+                    continue
+    return old
+
+
+def update_long_term_checked(field, series, tol_abs=0.06, tol_rel=0.01):
+    """기존 긴 기록과 겹치는 시점 3곳 이상이 맞을 때만 이어 쓴다. 이어 쓴 새 시점 수(경고 시 -1)."""
+    if not series:
+        warnings.append(f"long_term {field}: 받은 시계열 없음, 갱신 보류")
+        return -1
+    old = read_long_term(field)
+    common = [(d, v) for d, v in series if d in old]
+    bad = [d for d, v in common if abs(v - old[d]) > max(tol_abs, abs(old[d]) * tol_rel)]
+    if len(common) < 3 or len(bad) > len(common) // 5:
+        warnings.append(f"long_term {field}: 기존 기록과 겹침 {len(common)}곳·어긋남 {len(bad)}곳 → 갱신 보류")
+        return -1
+    new = sum(1 for d, _ in series if d not in old)
+    update_long_term(field, series)
+    return new
+
+
+def fred_full_if_missing(field, series_id, start):
+    """새 필드의 긴 기록 파일이 없으면 FRED 전체 기간으로 한 번 만든다."""
+    path = os.path.join(LONG_TERM_DIR, f"{field}.csv")
+    if os.path.exists(path):
+        return
+    rows = fred_series(series_id, start)
+    if len(rows) > 1000:
+        write_long_term_full(field, rows)
+        print(f"{field}: FRED {series_id} 전체 기간 {rows[0][0]}~{rows[-1][0]} ({len(rows)}건)")
+    else:
+        warnings.append(f"FRED {series_id}: 전체 기간 받기 실패({len(rows)}건), 다음에 다시")
+
+
+def periodic_long_term(now):
+    """월간·주간 지표 긴 기록 갱신. {필드: 새 시점 수}"""
+    cosd = (now - timedelta(days=31 * 30)).strftime("%Y-%m-%d")
+    S = {
+        "us_cpi": yoy_series([(ym_first(d), v) for d, v in fred_series("CPIAUCSL", cosd)]),
+        "us_m2": [(ym_first(d), v) for d, v in fred_series("M2SL", cosd)],
+        "us_unemployment": [(ym_first(d), v) for d, v in fred_series("UNRATE", cosd)],
+        "kr_cpi": yoy_series(ecos_monthly("901Y009", "0", months=30)),
+        "kr_m2": [(d, round(v / 1000, 2)) for d, v in ecos_monthly("161Y006", "BBHA00", months=30)],
+        "kr_apt_price_national": reb_series("T244183132827305", "50001", "WK"),
+        "kr_apt_price_seoul": reb_series("T244183132827305", "50008", "WK"),
+        "kr_apt_avgprice_national": reb_series("A_2024_00188", "500001", "MM"),
+        "kr_apt_avgprice_seoul": reb_series("A_2024_00188", "500004", "MM"),
+        "kr_apt_medprice_national": reb_series("A_2024_00189", "500001", "MM"),
+        "kr_apt_medprice_seoul": reb_series("A_2024_00189", "500004", "MM"),
+    }
+    return {f: update_long_term_checked(f, s) for f, s in S.items()}
+
+
 def load_last_row():
     if not os.path.exists(HISTORY_CSV):
         return None
@@ -527,6 +666,13 @@ def main():
         fetched["us_hy_spread"] = hy_rows[-1][1]
     else:
         fetched["us_hy_spread"] = fred_latest("BAMLH0A0HYM2", lookback_days=30)
+    # 2026-11-16: 미국 10년물(DGS10)·WTI 현물(EIA DCOILWTICO)·달러 가치(연준 광의 달러지수 DTWEXBGS). 모두 FRED 「Public Domain」
+    for field, sid, start in (("us_10y_fred", "DGS10", "1962-01-01"), ("wti_eia", "DCOILWTICO", "1986-01-01"), ("usd_broad", "DTWEXBGS", "2006-01-01")):
+        fred_full_if_missing(field, sid, start)
+        rows = fred_series(sid, (now - timedelta(days=120)).strftime("%Y-%m-%d"))
+        if rows:
+            daily[field] = rows
+            fetched[field] = rows[-1][1]
     if fetched.get("us_10y") is not None and fetched.get("us_2y") is not None:
         fetched["us_yield_spread"] = round(fetched["us_10y"] - fetched["us_2y"], 3)
     if "us_10y" in daily and "us_2y" in daily:
@@ -608,6 +754,8 @@ def main():
             row[field] = ""
 
     upsert_row(row)
+    lt = periodic_long_term(now)
+    print("월간·주간 긴 기록:", {k: v for k, v in lt.items()})
     # Put every daily value under its true trade date: recent history rows and long_term files.
     redate_history(daily)
     for field, series in daily.items():
