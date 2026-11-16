@@ -1,32 +1,6 @@
 {
-"updated": "2026-11-16T17:06+09:00",
+"updated": "2026-11-16T18:16+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://www.sedaily.com/article/20111611",
-"t": "2026-11-08T18:05+09:00",
-"tok": [
-"CD금리",
-"기업",
-"역주행",
-"이자부담",
-"커진다"
-]
-},
-{
-"kind": "단독",
-"link": "https://www.sedaily.com/article/20111624",
-"t": "2026-11-08T18:05+09:00",
-"tok": [
-"1조",
-"근로자성",
-"보험설계사",
-"업계",
-"인정",
-"최소",
-"추가부담"
-]
-},
 {
 "kind": "단독",
 "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5KLTVURWN6SlAzMGd5LVVabUJyUEItZUlqQUZQOHpDZ3B6ak9fbXB2RWRTNzFFVmlSMkhTanJhWTBZbzZNbVQ3WU8tUi1rTElMT3BtZW9WbFpKVklKS1ZBVVpwbUNBazVxNlBN0gFUQVVfeXFMTkwtUlVQQVZtMkpXeUJfWk1FVG1LTzJuM2FsemwyX3BvZzdydkF2VVpmbUNrSUtVYjVpRVUyU284ZnZGenBvUTRqUlZPbVJWQU5VX1pJ?oc=5",
@@ -9219,6 +9193,66 @@
 "엇갈린",
 "전환",
 "축소"
+]
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41U2FMUFk4bkg5OXZBSWRxeE1YSkpuUVlST1pZZVk2MUtPOTJuMTY1cUEzOUI2OGJwUFNjY3pvZmxmLW1ZaVVIX2hyM1BQTlBFMkpmUTM3TGRBdw?oc=5",
+"t": "2026-11-16T18:16+09:00",
+"tok": [
+"ETF",
+"결정",
+"과세",
+"분배금",
+"잘못됐다",
+"커버드콜",
+"환급"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBnek8wN3BGNXotdWpRcXV5WnJjeEdNRzZhdVhxb3V2N2M2TXA4X3g5Z09yQm11Zmh6dV80LUJBX3ZvZFgxR1BLSzh2Q3dpUEh1SV9INThhX2M?oc=5",
+"t": "2026-11-16T18:16+09:00",
+"tok": [
+"1조",
+"3800억",
+"5100선",
+"59",
+"급락해",
+"순매도",
+"외국인",
+"코스피",
+"턱걸이"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zQ2E5dHItcjMzVlE4Y0pNTzVxSklkM296eXZRVW80MDRSX29FaE5DR0xXSDlhZ1B5UWxzWVJjdlFjNWFHc2JLWko5MHdGOTlZajlwemxNRzhfYkRUbzVYcFRIRDNnMmZKY0Ffb0lR?oc=5",
+"t": "2026-11-16T18:16+09:00",
+"tok": [
+"59",
+"SK하이닉스도",
+"급락",
+"마감",
+"삼성전자",
+"약세",
+"코스피",
+"포토뉴스"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1TN0xrdWlsUG9Fa0NJdW01b2NscUtLZVJ1MV9lNllwakdYV0Z3NEZKLVhtRkMyY2xKMThaSE5YN3Q5WGNhZjVIaFk0SC1HQ3QxRDVxM1dqWFFJOU5hVHVfVmRyYWR1eVd0ZjVESlZ5UQ?oc=5",
+"t": "2026-11-16T18:16+09:00",
+"tok": [
+"190포인트",
+"5100선",
+"86",
+"급락",
+"코스닥도",
+"코스피",
+"턱걸이",
+"폭락해"
 ]
 }
 ]
