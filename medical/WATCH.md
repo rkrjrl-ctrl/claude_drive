@@ -1,211 +1,53 @@
 # 자동 감시 결과 (자동 생성 — 직접 수정 금지)
 
-- 실행일: 2026-11-16  /  감시 url 2334개  /  자료 2334건  /  이번에 확인 2283개(연속 실패로 쉼 51개, 시간 초과로 넘김 0개)
+- 실행일: 2026-11-16  /  감시 url 2334개  /  자료 2334건  /  이번에 확인 2048개(연속 실패로 쉼 286개, 시간 초과로 넘김 0개)
 - 이 파일은 **감지만** 한다. 원문 내용 확인·자료 갱신은 Claude Code가 한다.
 
-## 원문 변경 확정 (192건)
+## 원문 변경 확정 (25건)
 
-- MED-0253 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2012&mode=view
-- MED-0255 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2018&mode=view
-- MED-0257 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2006&mode=view
-- MED-0258 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2005&mode=view
-- MED-0575 — https://www.who.int/news-room/fact-sheets/detail/bipolar-disorder
-- MED-0576 — https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment
-- MED-0578 — https://www.who.int/news-room/fact-sheets/detail/burns
-- MED-0584 — https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss
-- MED-0587 — https://www.who.int/news-room/fact-sheets/detail/diabetes
-- MED-0589 — https://www.who.int/news-room/fact-sheets/detail/dyslipidaemia
-- MED-0598 — https://www.who.int/news-room/fact-sheets/detail/hepatitis-c
-- MED-0600 — https://www.who.int/news-room/fact-sheets/detail/human-papilloma-virus-and-cancer
-- MED-0605 — https://www.who.int/news-room/fact-sheets/detail/low-back-pain
-- MED-0606 — https://www.who.int/news-room/fact-sheets/detail/lung-cancer
-- MED-0613 — https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight
-- MED-0615 — https://www.who.int/news-room/fact-sheets/detail/oral-health
-- MED-0619 — https://www.who.int/news-room/fact-sheets/detail/patient-safety
-- MED-0620 — https://www.who.int/news-room/fact-sheets/detail/physical-activity
-- MED-0621 — https://www.who.int/news-room/fact-sheets/detail/pneumonia
-- MED-0626 — https://www.who.int/news-room/fact-sheets/detail/rheumatic-heart-disease
-- MED-0627 — https://www.who.int/news-room/fact-sheets/detail/rheumatoid-arthritis
-- MED-0631 — https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-(stis)
-- MED-0632 — https://www.who.int/news-room/fact-sheets/detail/shingles-(herpes-zoster)
-- MED-0639 — https://www.who.int/news-room/fact-sheets/detail/syphilis
-- MED-1125 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13655289/
-- MED-1126 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13655467/
-- MED-1211 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000275360&chrClsCd=010201
-- MED-1225 — https://www.data.go.kr/data/15101151/fileData.do
-- MED-1227 — https://www.data.go.kr/data/15159616/fileData.do
-- MED-1228 — https://www.data.go.kr/data/15104692/fileData.do
-- MED-1229 — https://www.data.go.kr/data/15074889/fileData.do
-- MED-1230 — https://www.data.go.kr/data/15144293/fileData.do
-- MED-1231 — https://www.data.go.kr/data/15117753/fileData.do
-- MED-1232 — https://www.data.go.kr/data/15117426/fileData.do
-- MED-1233 — https://www.data.go.kr/data/3051778/fileData.do
-- MED-1234 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000270432&chrClsCd=010201
-- MED-1254 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000287566
-- MED-1264 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13430407/
-- MED-1265 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7160350/
-- MED-1266 — https://pmc.ncbi.nlm.nih.gov/articles/PMC10079515/
-- MED-1267 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12620694/
-- MED-1268 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6435847/
-- MED-1269 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11261187/
-- MED-1270 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6901690/
-- MED-1271 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6310769/
-- MED-1272 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11739646/
-- MED-1273 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6960041/
-- MED-1274 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7820646/
-- MED-1275 — https://pmc.ncbi.nlm.nih.gov/articles/PMC8246015/
-- MED-1276 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11458495/
-- MED-1277 — https://pmc.ncbi.nlm.nih.gov/articles/PMC5895837/
-- MED-1278 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12230392/
-- MED-1279 — https://pmc.ncbi.nlm.nih.gov/articles/PMC8918705/
-- MED-1280 — https://pmc.ncbi.nlm.nih.gov/articles/PMC9879460/
-- MED-1281 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7987480/
-- MED-1282 — https://pmc.ncbi.nlm.nih.gov/articles/PMC10792381/
-- MED-1283 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12425673/
-- MED-1350 — https://pmc.ncbi.nlm.nih.gov/articles/PMC8811204/
-- MED-1351 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11513862/
-- MED-1352 — https://pmc.ncbi.nlm.nih.gov/articles/PMC8650817/
-- MED-1353 — https://pmc.ncbi.nlm.nih.gov/articles/PMC10982054/
-- MED-1354 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7354982/
-- MED-1355 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7541973/
-- MED-1356 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7840311/
-- MED-1357 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7542002/
-- MED-1364 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000206468
-- MED-1369 — https://www.who.int/news-room/fact-sheets/detail/asbestos
-- MED-1371 — https://www.who.int/news-room/fact-sheets/detail/ultraviolet-radiation
-- MED-1380 — https://www.who.int/news-room/fact-sheets/detail/universal-health-coverage-(uhc)
-- MED-1381 — https://www.who.int/news-room/fact-sheets/detail/hepatitis-d
-- MED-1394 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000274952
-- MED-1399 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6609748/
-- MED-1403 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=280315
-- MED-1404 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000143049
-- MED-1420 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000285724
-- MED-1440 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000271088
-- MED-1445 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000283320&part=byul6-pharmacy
-- MED-1447 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000243466
-- MED-1448 — https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1492381&part=remote-care
-- MED-1449 — https://www.mohw.go.kr/board.es?mid=a10501010100&bid=0003&act=view&list_no=1484804&part=herbal-pilot
-- MED-1604 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000230772
-- MED-1605 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000277296
-- MED-1606 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000260878
-- MED-1607 — https://mods.go.kr/board.es?act=view&bid=246&list_no=437418&mid=a10301010000&part=kcd9-overview
-- MED-1608 — https://mods.go.kr/board.es?act=view&bid=246&list_no=437418&mid=a10301010000&part=kcd9-neoplasm-morphology
-- MED-1611 — https://www.law.go.kr/precInfoP.do?precSeq=199737&part=prec199737
-- MED-1612 — https://www.law.go.kr/precInfoP.do?precSeq=204878&part=prec204878
-- MED-1613 — https://www.law.go.kr/precInfoP.do?precSeq=167253&part=prec167253
-- MED-1614 — https://www.law.go.kr/precInfoP.do?precSeq=213145&part=prec213145
-- MED-1615 — https://www.law.go.kr/precInfoP.do?precSeq=204888&part=prec204888
-- MED-1616 — https://www.law.go.kr/precInfoP.do?precSeq=157232&part=prec157232
-- MED-1617 — https://www.law.go.kr/precInfoP.do?precSeq=605061&part=prec605061
-- MED-1618 — https://www.law.go.kr/precInfoP.do?precSeq=605759&part=prec605759
-- MED-1619 — https://www.law.go.kr/precInfoP.do?precSeq=613099&part=prec613099
-- MED-1620 — https://www.law.go.kr/precInfoP.do?precSeq=147411&part=prec147411
-- MED-1621 — https://www.law.go.kr/precInfoP.do?precSeq=145257&part=prec145257
-- MED-1622 — https://www.law.go.kr/precInfoP.do?precSeq=238453&part=prec238453
-- MED-1623 — https://www.law.go.kr/precInfoP.do?precSeq=241059&part=prec241059
-- MED-1624 — https://www.law.go.kr/precInfoP.do?precSeq=241861&part=prec241861
-- MED-1625 — https://www.law.go.kr/precInfoP.do?precSeq=624503&part=prec624503
-- MED-1626 — https://www.law.go.kr/precInfoP.do?precSeq=135786&part=prec135786
-- MED-1627 — https://www.law.go.kr/precInfoP.do?precSeq=600295&part=prec600295
-- MED-1628 — https://www.law.go.kr/precInfoP.do?precSeq=241519&part=prec241519
-- MED-1629 — https://www.law.go.kr/precInfoP.do?precSeq=240965&part=prec240965
-- MED-1630 — https://www.law.go.kr/precInfoP.do?precSeq=233009&part=prec233009
-- MED-1631 — https://www.law.go.kr/precInfoP.do?precSeq=177908&part=prec177908
-- MED-1632 — https://www.law.go.kr/precInfoP.do?precSeq=613211&part=prec613211
-- MED-1633 — https://www.law.go.kr/precInfoP.do?precSeq=210421&part=prec210421
-- MED-1634 — https://www.law.go.kr/precInfoP.do?precSeq=618695&part=prec618695
-- MED-1635 — https://www.law.go.kr/precInfoP.do?precSeq=604041&part=prec604041
-- MED-1689 — https://www.data.go.kr/data/15067467/fileData.do
-- MED-1704 — https://www.law.go.kr/precInfoP.do?precSeq=226781&part=prec226781
-- MED-1705 — https://www.law.go.kr/precInfoP.do?precSeq=239649&part=prec239649
-- MED-1706 — https://www.law.go.kr/precInfoP.do?precSeq=240827&part=prec240827
-- MED-1707 — https://www.law.go.kr/precInfoP.do?precSeq=241671&part=prec241671
-- MED-1708 — https://www.law.go.kr/precInfoP.do?precSeq=183594&part=prec183594
-- MED-1709 — https://www.law.go.kr/precInfoP.do?precSeq=240283&part=prec240283
-- MED-1710 — https://www.law.go.kr/precInfoP.do?precSeq=175136&part=prec175136
-- MED-1711 — https://www.law.go.kr/precInfoP.do?precSeq=81989&part=prec81989
-- MED-1712 — https://www.law.go.kr/precInfoP.do?precSeq=84103&part=prec84103
-- MED-1713 — https://www.law.go.kr/precInfoP.do?precSeq=68589&part=prec68589
-- MED-1714 — https://www.law.go.kr/precInfoP.do?precSeq=240575&part=prec240575
-- MED-1715 — https://www.law.go.kr/precInfoP.do?precSeq=84256&part=prec84256
-- MED-1716 — https://www.law.go.kr/precInfoP.do?precSeq=195511&part=prec195511
-- MED-1717 — https://www.law.go.kr/precInfoP.do?precSeq=206290&part=prec206290
-- MED-1718 — https://www.law.go.kr/precInfoP.do?precSeq=231575&part=prec231575
-- MED-1719 — https://www.law.go.kr/precInfoP.do?precSeq=613007&part=prec613007
-- MED-1766 — https://www.law.go.kr/precInfoP.do?precSeq=69548&part=prec69548
-- MED-1767 — https://www.law.go.kr/precInfoP.do?precSeq=145377&part=prec145377
-- MED-1768 — https://www.law.go.kr/precInfoP.do?precSeq=614529&part=prec614529
-- MED-1779 — https://www.law.go.kr/precInfoP.do?precSeq=212363&part=prec212363
-- MED-1792 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000286736
-- MED-1856 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=285699
-- MED-2045 — https://www.law.go.kr/precInfoP.do?precSeq=179723&part=prec179723
-- MED-2046 — https://www.law.go.kr/precInfoP.do?precSeq=172633&part=prec172633
-- MED-2047 — https://www.law.go.kr/precInfoP.do?precSeq=165161&part=prec165161
-- MED-2048 — https://www.law.go.kr/precInfoP.do?precSeq=144228&part=prec144228
-- MED-2049 — https://www.law.go.kr/precInfoP.do?precSeq=624501&part=prec624501
-- MED-2065 — https://www.law.go.kr/precInfoP.do?precSeq=234637&part=prec234637
-- MED-2066 — https://www.law.go.kr/precInfoP.do?precSeq=82945&part=prec82945
-- MED-2067 — https://www.law.go.kr/precInfoP.do?precSeq=241153&part=prec241153
-- MED-2076 — https://www.law.go.kr/precInfoP.do?precSeq=150034&part=prec150034
-- MED-2077 — https://www.law.go.kr/precInfoP.do?precSeq=606103&part=prec606103
-- MED-2079 — https://www.law.go.kr/precInfoP.do?precSeq=85474&part=prec85474
-- MED-2090 — https://www.law.go.kr/precInfoP.do?precSeq=209911&part=prec209911
-- MED-2091 — https://www.law.go.kr/precInfoP.do?precSeq=235329&part=prec235329
-- MED-2093 — https://www.law.go.kr/precInfoP.do?precSeq=606493&part=prec606493
-- MED-2094 — https://www.law.go.kr/precInfoP.do?precSeq=204231&part=prec204231
-- MED-2097 — https://www.law.go.kr/precInfoP.do?precSeq=210793&part=prec210793
-- MED-2098 — https://www.law.go.kr/precInfoP.do?precSeq=192963&part=prec192963
-- MED-2099 — https://www.law.go.kr/precInfoP.do?precSeq=235567&part=prec235567
-- MED-2100 — https://www.law.go.kr/precInfoP.do?precSeq=228553&part=prec228553
-- MED-2101 — https://www.law.go.kr/precInfoP.do?precSeq=199851&part=prec199851
-- MED-2110 — https://www.law.go.kr/precInfoP.do?precSeq=233945&part=prec233945
-- MED-2111 — https://www.law.go.kr/precInfoP.do?precSeq=600501&part=prec600501
-- MED-2119 — https://www.law.go.kr/precInfoP.do?precSeq=237881&part=prec237881
-- MED-2120 — https://www.law.go.kr/precInfoP.do?precSeq=234873&part=prec234873
-- MED-2149 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=285273&part=jo69-75
-- MED-2151 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=289701&part=byul4-property
-- MED-2153 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290599&part=byul1-2
-- MED-2168 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000262584
-- MED-2169 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000283464
-- MED-2173 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000271124
-- MED-2176 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=270789&part=jo2-10
-- MED-2178 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000269954
-- MED-2179 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000269956
-- MED-2180 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000280438
-- MED-2183 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=283459&part=jo52-56
-- MED-2184 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000271404
-- MED-2185 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000271480
-- MED-2187 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000271500
-- MED-2190 — https://www.law.go.kr/precInfoP.do?precSeq=222621&part=prec222621
-- MED-2191 — https://www.law.go.kr/precInfoP.do?precSeq=607205&part=prec607205
-- MED-2192 — https://www.law.go.kr/precInfoP.do?precSeq=616499&part=prec616499
-- MED-2203 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000272272
-- MED-2222 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000286910
-- MED-2225 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000284060
-- MED-2232 — https://www.law.go.kr/precInfoP.do?precSeq=238639&part=prec238639
-- MED-2233 — https://www.law.go.kr/precInfoP.do?precSeq=600421&part=prec600421
-- MED-2234 — https://www.law.go.kr/precInfoP.do?precSeq=234339&part=prec234339
-- MED-2239 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000093192
-- MED-2254 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000201381
-- MED-2259 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000286276
-- MED-2263 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000276312
-- MED-2274 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000277954
-- MED-2284 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000251944
-- MED-2286 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=257869&part=jo12
-- MED-2293 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=289701&part=byeol2-child
-- MED-2298 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=289701&part=art76
-- MED-2300 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000258096
-- MED-2313 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000197953
-- MED-2318 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000279112&part=chap9-adjust
+- MED-0120 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=7&idx=0
+- MED-0121 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=8&idx=0
+- MED-0122 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=2&idx=0
+- MED-0123 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=6&idx=0
+- MED-0141 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=26&idx=0
+- MED-0160 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=12&idx=0
+- MED-0161 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=4&idx=0
+- MED-0162 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=11&idx=0
+- MED-0163 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=15&idx=0
+- MED-0164 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=14&idx=0
+- MED-0165 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=10&idx=0
+- MED-0252 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2205&mode=view
+- MED-0254 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2297&mode=view
+- MED-0476 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2395&mode=view
+- MED-0482 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2019&mode=view
+- MED-0579 — https://www.who.int/news-room/fact-sheets/detail/cancer
+- MED-0591 — https://www.who.int/news-room/fact-sheets/detail/epilepsy
+- MED-0628 — https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries
+- MED-0630 — https://www.who.int/news-room/fact-sheets/detail/sepsis
+- MED-0638 — https://www.who.int/news-room/fact-sheets/detail/suicide
+- MED-0745 — https://www.nice.org.uk/guidance/ng14
+- MED-1400 — https://www.ijthyroid.org/journal/view.html?doi=10.11106/ijt.2024.17.1.1
+- MED-1465 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=13&idx=0
+- MED-1466 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=16&idx=0
+- MED-2327 — https://fine.fss.or.kr/fine/main/contents.do?menuNo=900209&part=inherit-guide
 
-## 접속 3회 이상 연속 실패 (286건)
+## 접속 3회 이상 연속 실패 (287건)
 
+- MED-0010 — 24회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/renewal_popup/poster/20260608_poster_longdesc_1.html
+- MED-0014 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbsDummy.do?brdBltNo=45666&brdScnBltNo=4&pgmid=HIRAA030023080000
 - MED-0016 — 3회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.hira.or.kr/bbsDummy.do?brdBltNo=45655&brdScnBltNo=4&pgmid=HIRAA030023010000
+- MED-0017 — 24회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/lm/lmxsrv/law/lawFullContent.do?SEQ=477&SEQ_HISTORY=
+- MED-0029 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbsDummy.do?brdBltNo=45661&brdScnBltNo=4&pgmid=HIRAA030023010000
+- MED-0030 — 24회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/minwon/wbhapa01000m01.do?mode=view&articleNo=10946900
+- MED-0071 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3354
+- MED-0073 — 13회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3358
+- MED-0076 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5130
 - MED-0078 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-14, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5134
 - MED-0081 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3754
 - MED-0082 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-14, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3760
 - MED-0083 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3761
 - MED-0084 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-11, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3762
+- MED-0085 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3765
 - MED-0086 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3766
 - MED-0088 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-11, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3785
 - MED-0089 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3786
@@ -215,13 +57,26 @@
 - MED-0094 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3808
 - MED-0095 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-15, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5248
 - MED-0096 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4768
+- MED-0097 — 12회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3328
+- MED-0098 — 8회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4960
+- MED-0099 — 10회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3352
+- MED-0100 — 10회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5128
 - MED-0101 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3784
 - MED-0102 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-14, 7일마다 재시도) — https://www.cancer.go.kr/lay1/S1T261C262/contents.do
+- MED-0108 — 10회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4666
 - MED-0109 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3802
+- MED-0110 — 13회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5242
+- MED-0111 — 12회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4762
+- MED-0112 — 12회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3322
 - MED-0113 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4954
+- MED-0114 — 14회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3346
 - MED-0115 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5122
+- MED-0117 — 11회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/S1T648C650/contents.do
+- MED-0142 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://m.circulation.or.kr/bbs/download.php?code=guide&number=2685
+- MED-0143 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://diabetes.or.kr/bbs/download.php?code=guide&number=1522
 - MED-0153 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=19618
 - MED-0154 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=17106
+- MED-0157 — 24회 — URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.seoulhp.com/seoul/cmmn/file/fileDown.do?atchFileId=79e740a49bff47a1aa20365c7d80153f&fileSn=4&menuNo=100136
 - MED-0166 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=1
 - MED-0167 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=2
 - MED-0168 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=3
@@ -229,11 +84,55 @@
 - MED-0170 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=7
 - MED-0171 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=8-9
 - MED-0172 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18579
+- MED-0173 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=14791
 - MED-0174 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=10288
 - MED-0175 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-15, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=10597
 - MED-0176 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-15, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18575
+- MED-0177 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=14697
+- MED-0183 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=2442
+- MED-0184 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=2961
+- MED-0185 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://ksn.or.kr/bbs/skin/publication/download.php?code=guideline_k&number=2303
+- MED-0211 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=2962
+- MED-0212 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=2636
 - MED-0232 — 3회 — TimeoutError: 총 45초 초과 (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.guideline.or.kr/func/download_chronic.php?number=701
+- MED-1028 — 19회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12 (마지막 시도 2026-11-16, 7일마다 재시도) — https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=1
+- MED-1029 — 19회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12 (마지막 시도 2026-11-16, 7일마다 재시도) — https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=2
+- MED-1030 — 19회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12 (마지막 시도 2026-11-16, 7일마다 재시도) — https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=3
+- MED-1031 — 19회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12 (마지막 시도 2026-11-16, 7일마다 재시도) — https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=4
+- MED-1052 — 19회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/minwon/wbhapa01000m01.do?mode=view&articleNo=10946880
+- MED-1053 — 19회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=view&articleNo=10849366
+- MED-1054 — 19회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/minwon/wbhapa01000m01.do?mode=view&articleNo=10946938
+- MED-1058 — 19회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 37-40: ordinal not in range(12 (마지막 시도 2026-11-16, 7일마다 재시도) — https://common.health.kr/shared/docs/healthkr/boh_result/평가결과_여보이주((유)한국비엠에스제약).pdf
+- MED-1063 — 19회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=download&articleNo=10849366&attachNo=369449
+- MED-1068 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=6&apndBrdBltNo=45661&apndBrdTyNo=6&apndBltNo=49
+- MED-1069 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487
+- MED-1070 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=gastric-thyroid
+- MED-1071 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=colorectal
 - MED-1072 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=lung
+- MED-1073 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=liver-biliary-prostate
+- MED-1074 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=breast
+- MED-1214 — 18회 — HTTPError: HTTP Error 400: Bad Request (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=2239620&board_no=69
+- MED-1215 — 18회 — HTTPError: HTTP Error 400: Bad Request (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=995905&board_no=69
+- MED-1216 — 18회 — HTTPError: HTTP Error 400: Bad Request (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1117539&board_no=69
+- MED-1217 — 18회 — HTTPError: HTTP Error 400: Bad Request (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1191878&board_no=69
+- MED-1218 — 18회 — HTTPError: HTTP Error 400: Bad Request (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=861793&board_no=69
+- MED-1219 — 18회 — HTTPError: HTTP Error 400: Bad Request (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=848445&board_no=69
+- MED-1220 — 18회 — HTTPError: HTTP Error 400: Bad Request (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1074128&board_no=69
+- MED-1221 — 18회 — HTTPError: HTTP Error 400: Bad Request (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1008018&board_no=69
+- MED-1222 — 18회 — HTTPError: HTTP Error 400: Bad Request (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=2245893&board_no=69
+- MED-1223 — 18회 — HTTPError: HTTP Error 400: Bad Request (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1074159&board_no=69
+- MED-1224 — 18회 — HTTPError: HTTP Error 400: Bad Request (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.comwel.or.kr/comwel/info/data/stat/stat.jsp?mode=view&article_no=2239962&board_no=219
+- MED-1226 — 18회 — HTTPError: HTTP Error 400: Bad Request (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=794538&board_no=69
+- MED-1245 — 18회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA030014050000&brdScnBltNo=4&brdBltNo=1710
+- MED-1246 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260801&sno=1&mtgMtrRegSno=0001
+- MED-1247 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20240301&sno=1&mtgMtrRegSno=0004&part=pcsk9
+- MED-1248 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260301&sno=1&mtgMtrRegSno=0001&part=osteoporosis
+- MED-1249 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20240701&sno=4&mtgMtrRegSno=0005&part=cgrp
+- MED-1250 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20240201&sno=4&mtgMtrRegSno=0002&part=finerenone
+- MED-1251 — 7회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20230701&sno=5&mtgMtrRegSno=0004&part=sacubitril
+- MED-1252 — 6회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260601&sno=1&mtgMtrRegSno=0013&part=diabetes
+- MED-1253 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260801&sno=1&mtgMtrRegSno=0007&part=sglt2
+- MED-1255 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA030023010000&brdScnBltNo=4&brdBltNo=45654
 - MED-1256 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=gastric
 - MED-1257 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=colorectal
 - MED-1258 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=lung
@@ -242,250 +141,185 @@
 - MED-1261 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=thyroid
 - MED-1262 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-11, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=prostate
 - MED-1263 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-11, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20250201&sno=6&mtgMtrRegSno=0005&part=xgeva
+- MED-1291 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=download&articleNo=10849366&attachNo=369449&part=rare-neuro
+- MED-1292 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=download&articleNo=10849366&attachNo=369449&part=rare-immune
+- MED-1317 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng28
+- MED-1318 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng122
+- MED-1319 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng246
+- MED-1320 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng49
+- MED-1321 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng50
+- MED-1322 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng241
+- MED-1328 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng256
+- MED-1329 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng253
+- MED-1330 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng259
+- MED-1331 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng258
+- MED-1332 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng202
+- MED-1333 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng217
+- MED-1334 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng209
+- MED-1335 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng234
+- MED-1336 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng38
+- MED-1337 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng157
+- MED-1338 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng240
+- MED-1339 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng257
+- MED-1340 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng210
+- MED-1341 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng252
+- MED-1342 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20250501&sno=2&mtgMtrRegSno=0003&part=dementia
+- MED-1343 — 9회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20220801&sno=4&mtgMtrRegSno=0008&part=noac
+- MED-1344 — 8회 — HTTPError: HTTP Error 410: Gone (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20241201&sno=3&mtgMtrRegSno=0011&part=antivegf
+- MED-1345 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260901&sno=2&mtgMtrRegSno=0010&part=biologics
+- MED-1346 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260701&sno=1&mtgMtrRegSno=0004&part=asthma
+- MED-1347 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20251101&sno=1&mtgMtrRegSno=0001&part=hbv
+- MED-1348 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20200501&sno=3&mtgMtrRegSno=0007&part=hyaluronate
+- MED-1349 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20210101&sno=15&mtgMtrRegSno=0001&part=zoledronic
+- MED-1358 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://ksn.or.kr/bbs/skin/publication/download.php?code=g_guideline&number=2368
+- MED-1359 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://ksn.or.kr/bbs/skin/publication/download.php?code=g_guideline&number=2289
+- MED-1365 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/announce/wbhaec11503m01.do
+- MED-1382 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng254
+- MED-1383 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng255
+- MED-1384 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng37
+- MED-1385 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng16
+- MED-1386 — 4회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng237
+- MED-1387 — 4회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng47
+- MED-1388 — 4회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng211
+- MED-1389 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20240730&sno=4&mtgMtrRegSno=0006&part=mri
+- MED-1390 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20230701&sno=1&mtgMtrRegSno=0001&part=ultrasound
 - MED-1391 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-11, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260701&sno=4&mtgMtrRegSno=0001&part=manualtherapy
+- MED-1392 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20151029&sno=2&mtgMtrRegSno=0001&part=eswl
+- MED-1393 — 9회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20110124&sno=2&mtgMtrRegSno=0008&part=varicose
 - MED-1395 — 3회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-10, 7일마다 재시도) — https://ksn.or.kr/bbs/skin/publication/download.php?code=g_guideline&number=2200
+- MED-1396 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://ksn.or.kr/bbs/skin/publication/download.php?code=g_guideline&number=2245
+- MED-1397 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://ksn.or.kr/bbs/skin/publication/download.php?code=g_guideline&number=2293
+- MED-1401 — 18회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 25-30: ordinal not in range(12 (마지막 시도 2026-11-16, 7일마다 재시도) — https://cdn.medsoft.co.kr/309/data/recom/11/11차진료권고안.pdf
+- MED-1417 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/ebooksc/2026/02/BZ202602273023260.pdf?part=nonpay-procedures
+- MED-1418 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/ebooksc/2026/02/BZ202602273023260.pdf?part=cataract-drg
+- MED-1419 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/ebooksc/2026/02/BZ202602273023260.pdf?part=highcost-nonpay
+- MED-1433 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/ebooksc/2026/08/BZ202608113877543.pdf
+- MED-1434 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/ebooksc/2026/02/BZ202602273023260.pdf?part=ltc-hospital
+- MED-1435 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20210114&sno=3&mtgMtrRegSno=0001&part=chuna
+- MED-1436 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20210701&sno=9&mtgMtrRegSno=0001&part=fdgpet
+- MED-1437 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20231201&sno=7&mtgMtrRegSno=0001&part=ngs
+- MED-1443 — 9회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20210216&sno=1&mtgMtrRegSno=0005&part=ltc-select
+- MED-1446 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/ebooksc/2026/02/BZ202602273023260.pdf?part=ward-fee
+- MED-1450 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20180628&sno=1&mtgMtrRegSno=0001&part=ward-history
+- MED-1461 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec07200m01.do?mode=view&articleNo=11012134
+- MED-1538 — 18회 — HTTPError: HTTP Error 400: Bad Request (마지막 시도 2026-11-16, 7일마다 재시도) — https://incos.kidi.or.kr:5443/insLife/selStattbleDetail.do?part=stattbl10150
+- MED-1539 — 18회 — HTTPError: HTTP Error 400: Bad Request (마지막 시도 2026-11-16, 7일마다 재시도) — https://incos.kidi.or.kr:5443/insLife/selStattbleDetail.do?part=stattbl10160
+- MED-1540 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11008085
+- MED-1541 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=10848703
+- MED-1542 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082
+- MED-1543 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426
+- MED-1544 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=chronic13
+- MED-1545 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=severe-cancer-reg
+- MED-1546 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=pancreas
+- MED-1547 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=lung
+- MED-1548 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=liver
+- MED-1549 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=stomach
+- MED-1550 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=colorectal
+- MED-1551 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=breast
+- MED-1552 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=prostate
+- MED-1553 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=hematologic
+- MED-1554 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=cerebrovascular
+- MED-1555 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=heart
+- MED-1556 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=dementia
+- MED-1557 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=cancer-all
+- MED-1558 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=stomach
+- MED-1559 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=colorectal
+- MED-1560 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=liver
+- MED-1561 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=pancreas
+- MED-1562 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=lung
+- MED-1563 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=breast
+- MED-1564 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=thyroid
+- MED-1565 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=prostate
+- MED-1566 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=infarction
+- MED-1567 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=ami
+- MED-1568 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=dementia
+- MED-1569 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=diabetes
+- MED-1570 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=hypertension
+- MED-1571 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=cataract
+- MED-1572 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=kneeOA
+- MED-1573 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=disc
+- MED-1574 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C16
 - MED-1575 — 3회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-10, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C18-C19-C20
+- MED-1576 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C34
+- MED-1577 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C50
+- MED-1578 — 7회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C73
+- MED-1579 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C22
 - MED-1580 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-11, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C25
 - MED-1581 — 3회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-10, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C61
 - MED-1582 — 3회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-10, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=I63
+- MED-1583 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=I21
+- MED-1584 — 5회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=F00-F01-F03-G30
+- MED-1598 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=ward-ABZ01-02
+- MED-1599 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=msk-MX122-SZ084-MY142-143
+- MED-1600 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=mri-HE1010-1090-1110-1150-1200-1260
+- MED-1601 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=us-EB414-421-423-441-442-455-EZ987
+- MED-1602 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=robot-QZ966
+- MED-1603 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=iol-BI0208EB-0209EB-0207LN-0208LN
+- MED-1653 — 17회 — HTTPError: HTTP Error 400: Bad Request (마지막 시도 2026-11-16, 7일마다 재시도) — https://incos.kidi.or.kr:5443/insLife/selStattbleDetail.do?part=stattbl10170
+- MED-1654 — 17회 — HTTPError: HTTP Error 400: Bad Request (마지막 시도 2026-11-16, 7일마다 재시도) — https://incos.kidi.or.kr:5443/insLife/selStattbleDetail.do?part=stattbl10080
+- MED-1655 — 17회 — HTTPError: HTTP Error 400: Bad Request (마지막 시도 2026-11-16, 7일마다 재시도) — https://incos.kidi.or.kr:5443/insLife/selStattbleDetail.do?part=stattbl10140
+- MED-1661 — 17회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=hemorrhage
+- MED-1662 — 17회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=angina
+- MED-1663 — 17회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=heartfailure
+- MED-1664 — 17회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=parkinson
+- MED-1665 — 17회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=depression
+- MED-1666 — 17회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=osteoporosis
+- MED-1667 — 17회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=spinalstenosis
+- MED-1668 — 17회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=shoulder
+- MED-1669 — 17회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=bladder
+- MED-1670 — 17회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=kidney
+- MED-1671 — 17회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=cervix
+- MED-1672 — 17회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=ovary
+- MED-1673 — 17회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=hematologic
+- MED-1674 — 17회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=ckd
+- MED-1675 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=E11-E14
+- MED-1676 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=I10
+- MED-1677 — 5회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=H25-H26
+- MED-1678 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=M17
+- MED-1679 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=M51-M50
+- MED-1680 — 5회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C56
+- MED-1681 — 17회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=top50-list
+- MED-1729 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11421
+- MED-1730 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=10567
+- MED-1732 — 17회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013234
+- MED-1734 — 17회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=severe-copay
+- MED-1735 — 17회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=age-sex
+- MED-1736 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=I61-I60-I62
+- MED-1737 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=I20
+- MED-1738 — 5회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=I50
+- MED-1739 — 5회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=G20
+- MED-1740 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=F32-F33
+- MED-1741 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=M81
+- MED-1742 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C67
+- MED-1743 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C64
+- MED-1744 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C53
+- MED-1745 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=N18
+- MED-1786 — 17회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=age-cost
+- MED-1831 — 6회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olapDiagBhvInfoTab1.do?part=SZ084-R3505
+- MED-1991 — 17회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=varicose-I83
+- MED-1992 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=varicose-OY201-204-OZ303-305-308-EB489-EZ867
+- MED-1993 — 17회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=zoster-B02
+- MED-1994 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=zoster-vaccine-3Z52003
+- MED-1995 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20130901&sno=1&mtgMtrRegSno=0433&part=zoster-antiviral
+- MED-1996 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20190901&sno=6&mtgMtrRegSno=0013&part=phn-pregabalin-gabapentin
+- MED-1999 — 17회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=skin-cancer-registration
 - MED-2000 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-11, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=melanoma
+- MED-2001 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20261001&sno=2&mtgMtrRegSno=0001&part=ruxolitinib-gvhd
+- MED-2002 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20261001&sno=2&mtgMtrRegSno=0002&part=cinnamon-gastritis
+- MED-2003 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=dental-crown-UW607-613-UZ001
+- MED-2004 — 7회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=dental-resin-inlay-U0239-0241-UZ004-005
+- MED-2005 — 5회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=dental-implant-scaling-UB001-UW3021
+- MED-2006 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20250201&sno=5&mtgMtrRegSno=0003&part=implant-denture-65
 - MED-2007 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20171227&sno=1&mtgMtrRegSno=0001&part=scaling
+- MED-2008 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=10925
+- MED-2014 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=kmed-chuna-acupharm-4071-4073-4901-4902
+- MED-2016 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11129
+- MED-2017 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11711
+- MED-2216 — 15회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11014123
+- MED-2217 — 15회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11005254
+- MED-2255 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/dummy.do?pgmid=HIRAA020020000005
 - MED-2301 — 4회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01000m01.do?mode=view&articleNo=11008009
-- MED-0010 — 24회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/renewal_popup/poster/20260608_poster_longdesc_1.html
-- MED-0014 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbsDummy.do?brdBltNo=45666&brdScnBltNo=4&pgmid=HIRAA030023080000
-- MED-0017 — 24회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/lm/lmxsrv/law/lawFullContent.do?SEQ=477&SEQ_HISTORY=
-- MED-0029 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbsDummy.do?brdBltNo=45661&brdScnBltNo=4&pgmid=HIRAA030023010000
-- MED-0030 — 24회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/minwon/wbhapa01000m01.do?mode=view&articleNo=10946900
-- MED-0071 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3354
-- MED-0073 — 13회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3358
-- MED-0076 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5130
-- MED-0085 — 4회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3765
-- MED-0097 — 12회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3328
-- MED-0098 — 8회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4960
-- MED-0099 — 10회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3352
-- MED-0100 — 10회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5128
-- MED-0108 — 10회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4666
-- MED-0110 — 13회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5242
-- MED-0111 — 12회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4762
-- MED-0112 — 12회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3322
-- MED-0114 — 14회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3346
-- MED-0117 — 11회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/S1T648C650/contents.do
-- MED-0142 — 4회 — TimeoutError: 총 20초 초과 — https://m.circulation.or.kr/bbs/download.php?code=guide&number=2685
-- MED-0143 — 4회 — TimeoutError: 총 20초 초과 — https://diabetes.or.kr/bbs/download.php?code=guide&number=1522
-- MED-0157 — 24회 — URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl — https://www.seoulhp.com/seoul/cmmn/file/fileDown.do?atchFileId=79e740a49bff47a1aa20365c7d80153f&fileSn=4&menuNo=100136
-- MED-0173 — 4회 — TimeoutError: 총 20초 초과 — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=14791
-- MED-0177 — 4회 — TimeoutError: 총 20초 초과 — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=14697
-- MED-0183 — 4회 — TimeoutError: 총 20초 초과 — https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=2442
-- MED-0184 — 4회 — TimeoutError: 총 20초 초과 — https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=2961
-- MED-0185 — 4회 — TimeoutError: 총 20초 초과 — https://ksn.or.kr/bbs/skin/publication/download.php?code=guideline_k&number=2303
-- MED-0211 — 4회 — TimeoutError: 총 20초 초과 — https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=2962
-- MED-0212 — 4회 — TimeoutError: 총 20초 초과 — https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=2636
-- MED-1028 — 19회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12 — https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=1
-- MED-1029 — 19회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12 — https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=2
-- MED-1030 — 19회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12 — https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=3
-- MED-1031 — 19회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12 — https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=4
-- MED-1052 — 19회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/minwon/wbhapa01000m01.do?mode=view&articleNo=10946880
-- MED-1053 — 19회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=view&articleNo=10849366
-- MED-1054 — 19회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/minwon/wbhapa01000m01.do?mode=view&articleNo=10946938
-- MED-1058 — 19회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 37-40: ordinal not in range(12 — https://common.health.kr/shared/docs/healthkr/boh_result/평가결과_여보이주((유)한국비엠에스제약).pdf
-- MED-1063 — 19회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=download&articleNo=10849366&attachNo=369449
-- MED-1068 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=6&apndBrdBltNo=45661&apndBrdTyNo=6&apndBltNo=49
-- MED-1069 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487
-- MED-1070 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=gastric-thyroid
-- MED-1071 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=colorectal
-- MED-1073 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=liver-biliary-prostate
-- MED-1074 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=breast
-- MED-1214 — 18회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=2239620&board_no=69
-- MED-1215 — 18회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=995905&board_no=69
-- MED-1216 — 18회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1117539&board_no=69
-- MED-1217 — 18회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1191878&board_no=69
-- MED-1218 — 18회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=861793&board_no=69
-- MED-1219 — 18회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=848445&board_no=69
-- MED-1220 — 18회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1074128&board_no=69
-- MED-1221 — 18회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1008018&board_no=69
-- MED-1222 — 18회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=2245893&board_no=69
-- MED-1223 — 18회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=1074159&board_no=69
-- MED-1224 — 18회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/data/stat/stat.jsp?mode=view&article_no=2239962&board_no=219
-- MED-1226 — 18회 — HTTPError: HTTP Error 400: Bad Request — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=794538&board_no=69
-- MED-1245 — 18회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA030014050000&brdScnBltNo=4&brdBltNo=1710
-- MED-1246 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260801&sno=1&mtgMtrRegSno=0001
-- MED-1247 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20240301&sno=1&mtgMtrRegSno=0004&part=pcsk9
-- MED-1248 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260301&sno=1&mtgMtrRegSno=0001&part=osteoporosis
-- MED-1249 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20240701&sno=4&mtgMtrRegSno=0005&part=cgrp
-- MED-1250 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20240201&sno=4&mtgMtrRegSno=0002&part=finerenone
-- MED-1251 — 7회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20230701&sno=5&mtgMtrRegSno=0004&part=sacubitril
-- MED-1252 — 6회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260601&sno=1&mtgMtrRegSno=0013&part=diabetes
-- MED-1253 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260801&sno=1&mtgMtrRegSno=0007&part=sglt2
-- MED-1255 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA030023010000&brdScnBltNo=4&brdBltNo=45654
-- MED-1291 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=download&articleNo=10849366&attachNo=369449&part=rare-neuro
-- MED-1292 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=download&articleNo=10849366&attachNo=369449&part=rare-immune
-- MED-1317 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng28
-- MED-1318 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng122
-- MED-1319 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng246
-- MED-1320 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng49
-- MED-1321 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng50
-- MED-1322 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng241
-- MED-1328 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng256
-- MED-1329 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng253
-- MED-1330 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng259
-- MED-1331 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng258
-- MED-1332 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng202
-- MED-1333 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng217
-- MED-1334 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng209
-- MED-1335 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng234
-- MED-1336 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng38
-- MED-1337 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng157
-- MED-1338 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng240
-- MED-1339 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng257
-- MED-1340 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng210
-- MED-1341 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng252
-- MED-1342 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20250501&sno=2&mtgMtrRegSno=0003&part=dementia
-- MED-1343 — 9회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20220801&sno=4&mtgMtrRegSno=0008&part=noac
-- MED-1344 — 8회 — HTTPError: HTTP Error 410: Gone — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20241201&sno=3&mtgMtrRegSno=0011&part=antivegf
-- MED-1345 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260901&sno=2&mtgMtrRegSno=0010&part=biologics
-- MED-1346 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260701&sno=1&mtgMtrRegSno=0004&part=asthma
-- MED-1347 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20251101&sno=1&mtgMtrRegSno=0001&part=hbv
-- MED-1348 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20200501&sno=3&mtgMtrRegSno=0007&part=hyaluronate
-- MED-1349 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20210101&sno=15&mtgMtrRegSno=0001&part=zoledronic
-- MED-1358 — 4회 — TimeoutError: 총 20초 초과 — https://ksn.or.kr/bbs/skin/publication/download.php?code=g_guideline&number=2368
-- MED-1359 — 4회 — TimeoutError: 총 20초 초과 — https://ksn.or.kr/bbs/skin/publication/download.php?code=g_guideline&number=2289
-- MED-1365 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/announce/wbhaec11503m01.do
-- MED-1382 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng254
-- MED-1383 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng255
-- MED-1384 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng37
-- MED-1385 — 3회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng16
-- MED-1386 — 4회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng237
-- MED-1387 — 4회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng47
-- MED-1388 — 4회 — HTTPError: HTTP Error 403: Forbidden — https://www.nice.org.uk/guidance/ng211
-- MED-1389 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20240730&sno=4&mtgMtrRegSno=0006&part=mri
-- MED-1390 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20230701&sno=1&mtgMtrRegSno=0001&part=ultrasound
-- MED-1392 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20151029&sno=2&mtgMtrRegSno=0001&part=eswl
-- MED-1393 — 9회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20110124&sno=2&mtgMtrRegSno=0008&part=varicose
-- MED-1396 — 4회 — TimeoutError: 총 20초 초과 — https://ksn.or.kr/bbs/skin/publication/download.php?code=g_guideline&number=2245
-- MED-1397 — 4회 — TimeoutError: 총 20초 초과 — https://ksn.or.kr/bbs/skin/publication/download.php?code=g_guideline&number=2293
-- MED-1401 — 18회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 25-30: ordinal not in range(12 — https://cdn.medsoft.co.kr/309/data/recom/11/11차진료권고안.pdf
-- MED-1417 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/ebooksc/2026/02/BZ202602273023260.pdf?part=nonpay-procedures
-- MED-1418 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/ebooksc/2026/02/BZ202602273023260.pdf?part=cataract-drg
-- MED-1419 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/ebooksc/2026/02/BZ202602273023260.pdf?part=highcost-nonpay
-- MED-1433 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/ebooksc/2026/08/BZ202608113877543.pdf
-- MED-1434 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/ebooksc/2026/02/BZ202602273023260.pdf?part=ltc-hospital
-- MED-1435 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20210114&sno=3&mtgMtrRegSno=0001&part=chuna
-- MED-1436 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20210701&sno=9&mtgMtrRegSno=0001&part=fdgpet
-- MED-1437 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20231201&sno=7&mtgMtrRegSno=0001&part=ngs
-- MED-1443 — 9회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20210216&sno=1&mtgMtrRegSno=0005&part=ltc-select
-- MED-1446 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/ebooksc/2026/02/BZ202602273023260.pdf?part=ward-fee
-- MED-1450 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20180628&sno=1&mtgMtrRegSno=0001&part=ward-history
-- MED-1461 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec07200m01.do?mode=view&articleNo=11012134
-- MED-1538 — 18회 — HTTPError: HTTP Error 400: Bad Request — https://incos.kidi.or.kr:5443/insLife/selStattbleDetail.do?part=stattbl10150
-- MED-1539 — 18회 — HTTPError: HTTP Error 400: Bad Request — https://incos.kidi.or.kr:5443/insLife/selStattbleDetail.do?part=stattbl10160
-- MED-1540 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11008085
-- MED-1541 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=10848703
-- MED-1542 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082
-- MED-1543 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426
-- MED-1544 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=chronic13
-- MED-1545 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=severe-cancer-reg
-- MED-1546 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=pancreas
-- MED-1547 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=lung
-- MED-1548 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=liver
-- MED-1549 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=stomach
-- MED-1550 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=colorectal
-- MED-1551 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=breast
-- MED-1552 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=prostate
-- MED-1553 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=hematologic
-- MED-1554 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=cerebrovascular
-- MED-1555 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=heart
-- MED-1556 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=dementia
-- MED-1557 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=cancer-all
-- MED-1558 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=stomach
-- MED-1559 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=colorectal
-- MED-1560 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=liver
-- MED-1561 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=pancreas
-- MED-1562 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=lung
-- MED-1563 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=breast
-- MED-1564 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=thyroid
-- MED-1565 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=prostate
-- MED-1566 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=infarction
-- MED-1567 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=ami
-- MED-1568 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=dementia
-- MED-1569 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=diabetes
-- MED-1570 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=hypertension
-- MED-1571 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=cataract
-- MED-1572 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=kneeOA
-- MED-1573 — 18회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=disc
-- MED-1574 — 8회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C16
-- MED-1576 — 8회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C34
-- MED-1577 — 8회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C50
-- MED-1578 — 7회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C73
-- MED-1579 — 8회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C22
-- MED-1583 — 8회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=I21
-- MED-1584 — 5회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=F00-F01-F03-G30
-- MED-1598 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=ward-ABZ01-02
-- MED-1599 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=msk-MX122-SZ084-MY142-143
-- MED-1600 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=mri-HE1010-1090-1110-1150-1200-1260
-- MED-1601 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=us-EB414-421-423-441-442-455-EZ987
-- MED-1602 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=robot-QZ966
-- MED-1603 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=iol-BI0208EB-0209EB-0207LN-0208LN
-- MED-1653 — 17회 — HTTPError: HTTP Error 400: Bad Request — https://incos.kidi.or.kr:5443/insLife/selStattbleDetail.do?part=stattbl10170
-- MED-1654 — 17회 — HTTPError: HTTP Error 400: Bad Request — https://incos.kidi.or.kr:5443/insLife/selStattbleDetail.do?part=stattbl10080
-- MED-1655 — 17회 — HTTPError: HTTP Error 400: Bad Request — https://incos.kidi.or.kr:5443/insLife/selStattbleDetail.do?part=stattbl10140
-- MED-1661 — 17회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=hemorrhage
-- MED-1662 — 17회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=angina
-- MED-1663 — 17회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=heartfailure
-- MED-1664 — 17회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=parkinson
-- MED-1665 — 17회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=depression
-- MED-1666 — 17회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=osteoporosis
-- MED-1667 — 17회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=spinalstenosis
-- MED-1668 — 17회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=shoulder
-- MED-1669 — 17회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=bladder
-- MED-1670 — 17회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=kidney
-- MED-1671 — 17회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=cervix
-- MED-1672 — 17회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=ovary
-- MED-1673 — 17회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=hematologic
-- MED-1674 — 17회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=ckd
-- MED-1675 — 8회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=E11-E14
-- MED-1676 — 8회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=I10
-- MED-1677 — 5회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=H25-H26
-- MED-1678 — 8회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=M17
-- MED-1679 — 8회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=M51-M50
-- MED-1680 — 5회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C56
-- MED-1681 — 17회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=top50-list
-- MED-1729 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11421
-- MED-1730 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=10567
-- MED-1732 — 17회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11013234
-- MED-1734 — 17회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=severe-copay
-- MED-1735 — 17회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec08200m01.do?mode=view&articleNo=11008082&attachNo=364737&part=age-sex
-- MED-1736 — 8회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=I61-I60-I62
-- MED-1737 — 8회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=I20
-- MED-1738 — 5회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=I50
-- MED-1739 — 5회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=G20
-- MED-1740 — 8회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=F32-F33
-- MED-1741 — 8회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=M81
-- MED-1742 — 8회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C67
-- MED-1743 — 8회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C64
-- MED-1744 — 8회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C53
-- MED-1745 — 8회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=N18
-- MED-1786 — 17회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=age-cost
-- MED-1831 — 6회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olapDiagBhvInfoTab1.do?part=SZ084-R3505
-- MED-1991 — 17회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=varicose-I83
-- MED-1992 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=varicose-OY201-204-OZ303-305-308-EB489-EZ867
-- MED-1993 — 17회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=zoster-B02
-- MED-1994 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=zoster-vaccine-3Z52003
-- MED-1995 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20130901&sno=1&mtgMtrRegSno=0433&part=zoster-antiviral
-- MED-1996 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20190901&sno=6&mtgMtrRegSno=0013&part=phn-pregabalin-gabapentin
-- MED-1999 — 17회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=skin-cancer-registration
-- MED-2001 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20261001&sno=2&mtgMtrRegSno=0001&part=ruxolitinib-gvhd
-- MED-2002 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20261001&sno=2&mtgMtrRegSno=0002&part=cinnamon-gastritis
-- MED-2003 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=dental-crown-UW607-613-UZ001
-- MED-2004 — 7회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=dental-resin-inlay-U0239-0241-UZ004-005
-- MED-2005 — 5회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=dental-implant-scaling-UB001-UW3021
-- MED-2006 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20250201&sno=5&mtgMtrRegSno=0003&part=implant-denture-65
-- MED-2008 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=10925
-- MED-2014 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=kmed-chuna-acupharm-4071-4073-4901-4902
-- MED-2016 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11129
-- MED-2017 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11711
-- MED-2216 — 15회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11014123
-- MED-2217 — 15회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11005254
-- MED-2255 — 8회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/dummy.do?pgmid=HIRAA020020000005
+- MED-0079 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5135
 
 ## 재확인 기한 도래·30일 이내 (41건)
 
@@ -531,11 +365,9 @@
 - 2026-12-16 MED-0556 [superseded] 2018 대한고혈압학회 고혈압 진료지침 Part III 특수 상황 고혈압 — 백의·가면고혈압, 대사증후군, 당뇨병, 고령, 심장·혈관·콩팥·뇌혈관 질환, 임신 등 상황별 권고(구판)
 - 2026-12-16 MED-0562 [superseded] 소아청소년 비만 진단·치료 임상진료지침 2019(대한소아소화기영양학회) — 진단 기준, 치료 원칙, 식이·운동·생활·정신건강, 약물, 비만수술 권고 요약
 
-## PubMed 신규 가이드라인·RCT·메타분석 (2026-11-15 이후)
+## PubMed 신규 가이드라인·RCT·메타분석 (2026-11-16 이후)
 
-**유방암**
-- Survival benefit of adding carboplatin to standard anthracycline-taxane chemotherapy in triple-negative breast cancer: an updated systematic review and meta-analysis. (2026 Nov 14) https://pubmed.ncbi.nlm.nih.gov/43033282/
-- Changes in functional capacity, flexibility and depressive symptoms in women with breast cancer submitted to adjuvant radiotherapy: randomized controlled clinical trial with mat pilates. (2026 Nov 14) https://pubmed.ncbi.nlm.nih.gov/43033270/
+- 없음
 
 ## 아직 감시하지 않는 것
 
