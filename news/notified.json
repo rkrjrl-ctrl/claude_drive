@@ -1,34 +1,6 @@
 {
-"updated": "2026-11-17T06:06+09:00",
+"updated": "2026-11-17T07:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGQWotSEgyZ3VWY0N2c3J4N09EaXVZZW92TFRWNUM0Z0NmVEtSLXVEbGxoOTZ5YmhYR0JYM0pja3FqcXhLTkstOS1KMy01aFFXRTRUd0NoVGJ6ZDh3cnNFWWk2eGR2clJHREQtN9IBcEFVX3lxTE40WGdjS1dpMXJrWk5MbG9JQmwtVWdwMV9CUXF2R2lJSXJqRk5pQ0pkS0dIVlRxblYtSV8yd1JIWUptZWsxcWxrVkFtV2xIYlVxUnpoYVJRQUFlT2ROX2pQWm1JaENBU1pXbjlIZDBzc0Y?oc=5",
-"t": "2026-11-09T07:06+09:00",
-"tok": [
-"0원",
-"2곳",
-"3곳",
-"배당가능이익",
-"보험사"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9td3ZjS1hQY0ZZbHhlLUoxX1NCcXcyek5oY2FVa1BoUGptaXkweDhWUktIX3dKTTIwVmVsRmlJUHNwSUNVTjBHU2dNaTF6R0YxRWJranl3VHh5a3ZCODBsa3dHREJHZTFNNUxONA?oc=5",
-"t": "2026-11-09T07:06+09:00",
-"tok": [
-"3년",
-"57",
-"격차",
-"디폴트옵션",
-"뚜렷",
-"상품별",
-"수익률",
-"퇴직연금",
-"평균"
-]
-},
 {
 "kind": "단독",
 "link": "https://www.insjournal.co.kr/news/articleView.html?idxno=33820",
@@ -9442,6 +9414,82 @@
 ],
 "m": 1,
 "g": "https://www.fnnews.com/news/202611170600166518"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrdWFuVUMzUUI2ZUxlZVdBQ2tTeDY0TmFqM2VFbzVFbk5kcVFMdHluQm1Db2J0STBNWjJ4c3d2R2RwU1VnRVk2Z0tRc2Q3Qm5acC0xcA?oc=5",
+"t": "2026-11-17T07:06+09:00",
+"tok": [
+"21",
+"WTI",
+"국제유가",
+"급락"
+],
+"g": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrdWFuVUMzUUI2ZUxlZVdBQ2tTeDY0TmFqM2VFbzVFbk5kcVFMdHluQm1Db2J0STBNWjJ4c3d2R2RwU1VnRVk2Z0tRc2Q3Qm5acC0xcA?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026111705494641049",
+"t": "2026-11-17T07:06+09:00",
+"tok": [
+"급락",
+"뉴욕증시",
+"마감",
+"사임",
+"일제히",
+"젠슨",
+"후폭풍"
+],
+"m": 1,
+"g": "https://view.asiae.co.kr/article/2026111705494641049"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBpSFViZ0dzbl9hVDhGSDhBdXVOcmRMYkFBbThsQTIyUm96YnhHWnRGZ2VLZFlZVElneHBWdG9tNnV4ekZxTDhXa1VWSS1uZmhI?oc=5",
+"t": "2026-11-17T07:06+09:00",
+"tok": [
+"급락",
+"나스닥",
+"엔비디아"
+],
+"m": 1,
+"g": "https://view.asiae.co.kr/article/2026111705494641049"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOdEU0Q0U3R1JPVU5KSU5Od3d5SExiTkRselN6aVR5MnRsT2h0eHpGRHlEcnkzTnJHalpHbHgtZFlnZHZZbjNaeFBVSE5JMm5ORmpsenZpeUpsU1pNRS14YXdobmlRcG9MdHJCLWZMQ1Y4ZGQ3eXRlcTZpYm1QUkR5ZnVxd250ZldyT1U4dW9HNjR3WERuQVowbDNUUXItLWhPVGJXcGdvS1FGdy15SFNKTXB3OFRUWTdqVldLXzdXTlBpVHY0MlFJaGVkdnFBWkV1MzRCT3MxR1lvZzNycnNYUHltUElTR0U3RVp3Qi1ieVlxQ1doY2o2QTI2LTRUQ3BBR1VyRHNKME9Ecmph?oc=5",
+"t": "2026-11-17T07:06+09:00",
+"tok": [
+"12",
+"계속",
+"뉴욕증시",
+"리스크",
+"마감",
+"사퇴",
+"엔비디아",
+"일제히",
+"젠슨",
+"하락"
+],
+"m": 1,
+"g": "https://view.asiae.co.kr/article/2026111705494641049"
+},
+{
+"kind": "속보",
+"link": "https://biz.chosun.com/science-chosun/bio/2026/11/17/ZTCAEWWBWVGF7KGM2ATNWGT2QY/",
+"t": "2026-11-17T07:06+09:00",
+"tok": [
+"1차",
+"3상",
+"단독투여군서",
+"달성",
+"먹는",
+"목표",
+"아리바이오",
+"임상",
+"치매약"
+],
+"g": "https://biz.chosun.com/science-chosun/bio/2026/11/17/ZTCAEWWBWVGF7KGM2ATNWGT2QY/"
 }
 ]
 }
