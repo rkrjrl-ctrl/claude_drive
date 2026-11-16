@@ -1,22 +1,6 @@
 {
-"updated": "2026-11-17T00:06+09:00",
+"updated": "2026-11-17T01:06+09:00",
 "items": [
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE51MWoyNWczbHdQWXkyam9zbXN3Z0Zpc2pEaDVnLXR1Z0hvMEF2R0dJTEhmSUxMVERXQks3Q0ZuNWowYVJJVHdtX1N1T2RnaG1GUmdtWk4waWJzTjV4ZElod3BsbUQ1bmxi?oc=5",
-"t": "2026-11-09T01:05+09:00",
-"tok": [
-"9일",
-"면제",
-"부정수급",
-"시작",
-"실업급여",
-"육아휴직급여",
-"자진신고",
-"집중신고",
-"추가징수"
-]
-},
 {
 "kind": "단독",
 "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGQWotSEgyZ3VWY0N2c3J4N09EaXVZZW92TFRWNUM0Z0NmVEtSLXVEbGxoOTZ5YmhYR0JYM0pja3FqcXhLTkstOS1KMy01aFFXRTRUd0NoVGJ6ZDh3cnNFWWk2eGR2clJHREQtN9IBcEFVX3lxTE40WGdjS1dpMXJrWk5MbG9JQmwtVWdwMV9CUXF2R2lJSXJqRk5pQ0pkS0dIVlRxblYtSV8yd1JIWUptZWsxcWxrVkFtV2xIYlVxUnpoYVJRQUFlT2ROX2pQWm1JaENBU1pXbjlIZDBzc0Y?oc=5",
@@ -9321,6 +9305,56 @@
 ],
 "m": 1,
 "g": "https://www.newsis.com/view/NISX20261116_0003870596"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKY3g1VEFOcXlXUnNJR1JiX2RNODNNOWFiVDc3Um1qem1LQU1TUnp1bGQwNmZBd01tcnJ4TGtzQjYxMVRiNnhhXy1TMVVsSEpZdzBmSldDcENyLW02QTJLcncyeGw1Y29G?oc=5",
+"t": "2026-11-17T01:06+09:00",
+"tok": [
+"162달러선",
+"6만선",
+"닛케이",
+"반도체주",
+"붕괴까지",
+"엔비디아",
+"일본",
+"충격",
+"확산"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKY3g1VEFOcXlXUnNJR1JiX2RNODNNOWFiVDc3Um1qem1LQU1TUnp1bGQwNmZBd01tcnJ4TGtzQjYxMVRiNnhhXy1TMVVsSEpZdzBmSldDcENyLW02QTJLcncyeGw1Y29G?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE12dXk3WGx5eWJ4RWdlMWZYdnYtdXVmbXYwZnZhekJxTzlud3V5bTlPMV9DeUtRYWphc0VpcWN2TFVHZzNxaGxtc3NsRkhwZlNaVkhkWTZUYld0dHVCQy1Qd2xrRnJPclN1?oc=5",
+"t": "2026-11-17T01:06+09:00",
+"tok": [
+"1달러",
+"XRP",
+"겹쳤다",
+"급락",
+"붕괴",
+"비트코인",
+"약세까지",
+"에버노스",
+"홀딩스"
+],
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE12dXk3WGx5eWJ4RWdlMWZYdnYtdXVmbXYwZnZhekJxTzlud3V5bTlPMV9DeUtRYWphc0VpcWN2TFVHZzNxaGxtc3NsRkhwZlNaVkhkWTZUYld0dHVCQy1Qd2xrRnJPclN1?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5xLUxDQUVpWVl2TG16RlZRTXMyVzFiVDg0TGpYWGR0ZWtaVllaLUdZQWZVTEFKZzRIRmJDZUZOQWVOQ3lwNDJjLUVyZk9FOGVaUTZkWkJ1NERfRGpVejk3RUY2U2JGZnhEdjdHaGtn?oc=5",
+"t": "2026-11-17T01:06+09:00",
+"tok": [
+"CEO",
+"반대하지",
+"복직",
+"않아",
+"엔비디아",
+"젠슨",
+"트럼프"
+],
+"g": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5xLUxDQUVpWVl2TG16RlZRTXMyVzFiVDg0TGpYWGR0ZWtaVllaLUdZQWZVTEFKZzRIRmJDZUZOQWVOQ3lwNDJjLUVyZk9FOGVaUTZkWkJ1NERfRGpVejk3RUY2U2JGZnhEdjdHaGtn?oc=5"
 }
 ]
 }
