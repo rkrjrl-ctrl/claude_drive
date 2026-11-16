@@ -191,14 +191,18 @@ def watch_cases(state, alerts, errs, first_run):
     for kw, mode in CASE_QUERIES:   # 최근 2년은 매번
         fetch_cases(cases, kw, mode, recent, TODAY.strftime("%Y%m%d"), seen_new, errs, 5)
         time.sleep(0.3)
-    # 그 앞은 검색어마다 한 해씩 거꾸로(2000년까지). 시간 예산의 절반을 넘기면 다음 실행으로
+    # 그 앞은 검색어마다 한 해씩 거꾸로(2000년까지). 11/16: 한 검색어가 예산을 다 쓰지 않게 검색어를 돌아가며 한 해씩
     back = state.setdefault("case_back", {})
     y_last = int(recent[:4])   # 최근 2년 창 앞의 그해 1월~창 시작일까지가 첫 칸
-    for kw, mode in CASE_QUERIES:
-        y = back.get(kw, y_last)
-        while y >= int(CASE_FROM[:4]) and time.time() - T0 < BUDGET * 0.5:
+    y0 = int(CASE_FROM[:4])
+    moved = True
+    while moved and time.time() - T0 < BUDGET * 0.5:
+        moved = False
+        for kw, mode in sorted(CASE_QUERIES, key=lambda q: -back.get(q[0], y_last)):   # 가장 덜 내려간 검색어부터
+            y = back.get(kw, y_last)
+            if y < y0 or time.time() - T0 >= BUDGET * 0.5: continue
             if not fetch_cases(cases, kw, mode, f"{y}0101", min(f"{y}1231", recent), seen_new, errs, 20): break
-            y -= 1; back[kw] = y
+            back[kw] = y - 1; moved = True
     for p in [p for p in seen_new if p in skip]: cases.pop(p, None)
     seen_new = [p for p in seen_new if p in cases]
     todo = [p for p, r in sorted(cases.items(), key=lambda kv: kv[1]["선고일자"], reverse=True) if not r["판시사항"]][:DETAIL_CAP]
