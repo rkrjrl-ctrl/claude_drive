@@ -1,37 +1,31 @@
 # 자동 감시 결과 (자동 생성 — 직접 수정 금지)
 
-- 실행일: 2026-11-16  /  감시 url 2334개  /  자료 2334건  /  이번에 확인 2048개(연속 실패로 쉼 286개, 시간 초과로 넘김 0개)
+- 실행일: 2026-11-16  /  감시 url 2334개  /  자료 2334건  /  이번에 확인 2047개(연속 실패로 쉼 287개, 시간 초과로 넘김 0개)
 - 이 파일은 **감지만** 한다. 원문 내용 확인·자료 갱신은 Claude Code가 한다.
 
-## 원문 변경 확정 (25건)
+## 원문 변경 확정 (19건)
 
-- MED-0120 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=7&idx=0
-- MED-0121 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=8&idx=0
-- MED-0122 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=2&idx=0
-- MED-0123 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=6&idx=0
-- MED-0141 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=26&idx=0
-- MED-0160 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=12&idx=0
-- MED-0161 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=4&idx=0
-- MED-0162 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=11&idx=0
-- MED-0163 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=15&idx=0
-- MED-0164 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=14&idx=0
-- MED-0165 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=10&idx=0
-- MED-0252 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2205&mode=view
-- MED-0254 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2297&mode=view
-- MED-0476 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2395&mode=view
-- MED-0482 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2019&mode=view
-- MED-0579 — https://www.who.int/news-room/fact-sheets/detail/cancer
-- MED-0591 — https://www.who.int/news-room/fact-sheets/detail/epilepsy
-- MED-0628 — https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries
-- MED-0630 — https://www.who.int/news-room/fact-sheets/detail/sepsis
-- MED-0638 — https://www.who.int/news-room/fact-sheets/detail/suicide
-- MED-0745 — https://www.nice.org.uk/guidance/ng14
-- MED-1400 — https://www.ijthyroid.org/journal/view.html?doi=10.11106/ijt.2024.17.1.1
-- MED-1465 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=13&idx=0
-- MED-1466 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=16&idx=0
-- MED-2327 — https://fine.fss.or.kr/fine/main/contents.do?menuNo=900209&part=inherit-guide
+- MED-0288 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13009686/
+- MED-0289 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13009690/
+- MED-0290 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12971177/
+- MED-1126 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13655467/
+- MED-1225 — https://www.data.go.kr/data/15101151/fileData.do
+- MED-1227 — https://www.data.go.kr/data/15159616/fileData.do
+- MED-1228 — https://www.data.go.kr/data/15104692/fileData.do
+- MED-1231 — https://www.data.go.kr/data/15117753/fileData.do
+- MED-1350 — https://pmc.ncbi.nlm.nih.gov/articles/PMC8811204/
+- MED-1351 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11513862/
+- MED-1352 — https://pmc.ncbi.nlm.nih.gov/articles/PMC8650817/
+- MED-1353 — https://pmc.ncbi.nlm.nih.gov/articles/PMC10982054/
+- MED-1354 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7354982/
+- MED-1355 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7541973/
+- MED-1356 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7840311/
+- MED-1357 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7542002/
+- MED-1368 — https://www.who.int/news-room/fact-sheets/detail/cancer-in-children
+- MED-1399 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6609748/
+- MED-1689 — https://www.data.go.kr/data/15067467/fileData.do
 
-## 접속 3회 이상 연속 실패 (287건)
+## 접속 3회 이상 연속 실패 (288건)
 
 - MED-0010 — 24회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/renewal_popup/poster/20260608_poster_longdesc_1.html
 - MED-0014 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbsDummy.do?brdBltNo=45666&brdScnBltNo=4&pgmid=HIRAA030023080000
@@ -43,6 +37,7 @@
 - MED-0073 — 13회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3358
 - MED-0076 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5130
 - MED-0078 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-14, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5134
+- MED-0079 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5135
 - MED-0081 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3754
 - MED-0082 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-14, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3760
 - MED-0083 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3761
@@ -319,7 +314,7 @@
 - MED-2217 — 15회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11005254
 - MED-2255 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/dummy.do?pgmid=HIRAA020020000005
 - MED-2301 — 4회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01000m01.do?mode=view&articleNo=11008009
-- MED-0079 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5135
+- MED-0181 — 3회 — TimeoutError: 총 20초 초과 — https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=3067
 
 ## 재확인 기한 도래·30일 이내 (41건)
 
@@ -367,7 +362,10 @@
 
 ## PubMed 신규 가이드라인·RCT·메타분석 (2026-11-16 이후)
 
-- 없음
+**위암**
+- Background Gastric Mucosal Pathology in Diffuse-Type Gastric Cancer: A Systematic Review and Meta-Analysis. (2026 Nov 16) https://pubmed.ncbi.nlm.nih.gov/43037891/
+**전립선암**
+- Prognostic value of ctDNA in patients with prostate cancer: a meta-analysis and trial sequential analysis. (2026 Aug 18) https://pubmed.ncbi.nlm.nih.gov/43035452/
 
 ## 아직 감시하지 않는 것
 
