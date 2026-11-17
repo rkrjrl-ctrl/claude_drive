@@ -1,200 +1,6 @@
 {
-"updated": "2026-11-17T08:06+09:00",
+"updated": "2026-11-17T10:06+09:00",
 "items": [
-{
-"kind": "gov",
-"link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788355",
-"t": "2026-11-09T08:47+09:00",
-"tok": [
-"뷰티",
-"수출",
-"식약처",
-"중남미",
-"진출지원단",
-"파견",
-"합동",
-"확대"
-]
-},
-{
-"kind": "gov",
-"link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788404",
-"t": "2026-11-09T10:06+09:00",
-"tok": [
-"3년",
-"대한민국",
-"수상",
-"어워드",
-"연속",
-"일자리",
-"한국장애인고용공단"
-]
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9XMWlQanFXQ3A4SkMyR0trdzA3QlhtRHpQS1NyVUJVSmZXeS1hcXZQTG9ITXhsQW16WHlCbTczNElKOGd0eUFITmZvMUxTWGJhcFdoRDM1UVVwNGdjc3oydVlHX05NSmcxRmRuSy03ZWhOYkRIc1phMFRia9IBgAFBVV95cUxPWG1WNkJKYnBmeVFJX3lfZ3NEVG5tSUZlcGZjNWpnSVZURDlnYzFqQWU1M2NWalltNEEtQjNac2dEU01aWGY3Y09HWjRSRVFGdEdEVmlabF9RdXVpV0FPbUU5aDRzWFJvMS1oOTVNaEtZQ2FQQS1GZl82eEtHM1R1aQ?oc=5",
-"t": "2026-11-09T10:06+09:00",
-"tok": [
-"반도체",
-"반등",
-"삼전닉스",
-"저가매수에",
-"프리장"
-],
-"g": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9XMWlQanFXQ3A4SkMyR0trdzA3QlhtRHpQS1NyVUJVSmZXeS1hcXZQTG9ITXhsQW16WHlCbTczNElKOGd0eUFITmZvMUxTWGJhcFdoRDM1UVVwNGdjc3oydVlHX05NSmcxRmRuSy03ZWhOYkRIc1phMFRia9IBgAFBVV95cUxPWG1WNkJKYnBmeVFJX3lfZ3NEVG5tSUZlcGZjNWpnSVZURDlnYzFqQWU1M2NWalltNEEtQjNac2dEU01aWGY3Y09HWjRSRVFGdEdEVmlabF9RdXVpV0FPbUU5aDRzWFJvMS1oOTVNaEtZQ2FQQS1GZl82eEtHM1R1aQ?oc=5"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261109_0003859741",
-"t": "2026-11-09T10:06+09:00",
-"tok": [
-"20",
-"25",
-"49포인트",
-"50",
-"5034",
-"내린",
-"출발",
-"코스피"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261109_0003859741"
-},
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261109028600008",
-"t": "2026-11-09T10:06+09:00",
-"tok": [
-"등락",
-"보합권서",
-"출발후",
-"코스피",
-"하락"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261109_0003859741"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261109_0003859743",
-"t": "2026-11-09T10:06+09:00",
-"tok": [
-"45포인트",
-"638",
-"82",
-"85",
-"내린",
-"출발",
-"코스닥"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261109_0003859741"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBBNHpJM0xfSDdSdjJwQnEwVTZ1MlRxNFN2cnVSM2w1WmlJM0pGeW9lUWl5VVZyN2NrcDNJUzVHYnBTaXh4ZkRIS1ZsSFR0OWlNOGViTQ?oc=5",
-"t": "2026-11-09T10:06+09:00",
-"tok": [
-"45p",
-"638",
-"82",
-"85",
-"개장",
-"내린",
-"코스닥"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261109_0003859741"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261109_0003859747",
-"t": "2026-11-09T10:06+09:00",
-"tok": [
-"SK하이닉스",
-"삼성전자",
-"출발",
-"하락"
-],
-"g": "https://www.newsis.com/view/NISX20261109_0003859747"
-},
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611090855226187",
-"t": "2026-11-09T10:06+09:00",
-"tok": [
-"20",
-"25",
-"49p",
-"50",
-"5034",
-"638",
-"82",
-"내린",
-"출발",
-"코스닥은",
-"코스피"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261109_0003859741"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUaUYtY0stLUNKWkx3cklEMi1RejZQT2g2Uk10UFYzUzRleHpiekZXZW9hU01MWUgza3Ata2RIaExmQjdyQ2RCSTR2alNvNnl1NkI5OXJ0WW9rMDlhX3N5UdIBeEFVX3lxTFBuMnJkSjI0YzFFa3FVZWgyX0ZVWlp2eUpsalJHdk1oUEZoazlVZl9TcVRZMUhpOWo1cHdGOXF1aDFnTXpkMkNWcFpmTEs5RHpZMVJ6dGFnU2tsTTRzRFlDNHY0WEo4VFJIaXEtN1ppenpxTFFJeHNERg?oc=5",
-"t": "2026-11-09T10:06+09:00",
-"tok": [
-"SK하이닉스",
-"삼성전자",
-"출발",
-"하락"
-],
-"g": "https://www.newsis.com/view/NISX20261109_0003859747"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1VMnpidEUtb1VoUi13NjNWZDNhSEc3MUM1QVNNZWhqTGszNFNmbmdEWVNuOWpXOTI0WnNpWmd1V1V2SXJvMy1wYjVFWGFWUG04M2tmRlFqMFh2MlFkMFVPLVoxQkNteE0?oc=5",
-"t": "2026-11-09T10:06+09:00",
-"tok": [
-"034",
-"20",
-"50",
-"개장",
-"내린",
-"코스피"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261109_0003859741"
-},
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5DUjMzVlhRaFR1YmJpalN5RFlwWi12NFUyZDNpREItWV9adFVmb2tReld3LTgxWHpCMWo1Z2h3cHdaa040QWM4VjJ3YkJPaTN0QXc?oc=5",
-"t": "2026-11-09T10:06+09:00",
-"tok": [
-"건강검진비에",
-"계열사에",
-"국세청",
-"뗀다고",
-"삼성",
-"세금",
-"월급",
-"이것도",
-"회사"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBHSzZQWE5aSHNNOVFHcExVYmdoRDBQUHYzMFVKVWhsMXRmNTRPRmVRVWVWZHZJaE1RRTM3T2pncnRXYTFqUG1sVEQ4ZGhoSE1KQklmRE9EVEpweFpvWFRjSTB1VVFBd3J3dWlHT0hVREgyUlVJ?oc=5",
-"t": "2026-11-09T10:06+09:00",
-"tok": [
-"날도",
-"롯데손보",
-"보험료",
-"주차일수",
-"출시",
-"할인",
-"할인특약"
-]
-},
 {
 "kind": "gov",
 "link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788424",
@@ -9491,6 +9297,234 @@
 ],
 "m": 1,
 "g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52WU5WYlVOTGVoQnk1c1R0VFgwV29XNzZ5QkhFOENpMFp1aEJ2MkhJdk5MNkZEQ3RjTlpRaG11WGQyYm1OX1BiSTduLXIxNjZXbUFNNGVrbDBZbUZUMVJfRHNXYl96cmpB?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hNndxMmVxcXlIbkMtRWZTVHNZSkF0NzNfT2R0UXNtX1VKVTRrZ1RYZllLMGNoX25jM2dCOHhBZWhJX3c4TW13VWpYZjJ4YU13LUx1WW9pcmHSAVhBVV95cUxPYTZ3cTJlcXF5SG5DLUVmU1RzWUpBdDczX09kdFFzbV9VSlU0a2dUWGZZSzBjaF9uYzNnQjh4QWVoSV93OE1td1VqWGYyeGFNdy1MdVlvaXJh?oc=5",
+"t": "2026-11-17T10:06+09:00",
+"tok": [
+"700포인트",
+"뉴욕증시",
+"다우지수",
+"반도체",
+"빠져",
+"충격에",
+"하락"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hNndxMmVxcXlIbkMtRWZTVHNZSkF0NzNfT2R0UXNtX1VKVTRrZ1RYZllLMGNoX25jM2dCOHhBZWhJX3c4TW13VWpYZjJ4YU13LUx1WW9pcmHSAVhBVV95cUxPYTZ3cTJlcXF5SG5DLUVmU1RzWUpBdDczX09kdFFzbV9VSlU0a2dUWGZZSzBjaF9uYzNnQjh4QWVoSV93OE1td1VqWGYyeGFNdy1MdVlvaXJh?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB2WFVSZDJmTmxrWWQ1M1M5SDdmYXBUNjlWU1ZGV2tnTW1WcHRwN3ZIU3p2VE1mVjRCbFlNb0FkNjVMS3lMT2t0amFKZXlmbTBPZHpGN3pVMGUxdmxKVDduN3haNDhra1I1?oc=5",
+"t": "2026-11-17T10:06+09:00",
+"tok": [
+"3만5000달러",
+"6만5000달러에서",
+"경고",
+"급락",
+"비트코인"
+],
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB2WFVSZDJmTmxrWWQ1M1M5SDdmYXBUNjlWU1ZGV2tnTW1WcHRwN3ZIU3p2VE1mVjRCbFlNb0FkNjVMS3lMT2t0amFKZXlmbTBPZHpGN3pVMGUxdmxKVDduN3haNDhra1I1?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBwVHpQdTNVTzdnN1dMamN2Tkl4RDdDLVI3ZjFnV2lPNWp6RG4xZWpNWG14VGhlcW9zcWZyeXFHUEZiMFRCQU15ZFU5OFZqMUFLdVRtbTN2LXl3cFZReGxqYi1jMGpPRjhp?oc=5",
+"t": "2026-11-17T10:06+09:00",
+"tok": [
+"142",
+"더블",
+"상장",
+"옵토닉스",
+"주가",
+"주목",
+"첫날",
+"코스닥",
+"향방"
+],
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBwVHpQdTNVTzdnN1dMamN2Tkl4RDdDLVI3ZjFnV2lPNWp6RG4xZWpNWG14VGhlcW9zcWZyeXFHUEZiMFRCQU15ZFU5OFZqMUFLdVRtbTN2LXl3cFZReGxqYi1jMGpPRjhp?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261117_0003870862",
+"t": "2026-11-17T10:06+09:00",
+"tok": [
+"33",
+"656",
+"82",
+"83포인트",
+"개장",
+"내린",
+"코스닥"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hNndxMmVxcXlIbkMtRWZTVHNZSkF0NzNfT2R0UXNtX1VKVTRrZ1RYZllLMGNoX25jM2dCOHhBZWhJX3c4TW13VWpYZjJ4YU13LUx1WW9pcmHSAVhBVV95cUxPYTZ3cTJlcXF5SG5DLUVmU1RzWUpBdDczX09kdFFzbV9VSlU0a2dUWGZZSzBjaF9uYzNnQjh4QWVoSV93OE1td1VqWGYyeGFNdy1MdVlvaXJh?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261117_0003870859",
+"t": "2026-11-17T10:06+09:00",
+"tok": [
+"09",
+"41포인트",
+"5008",
+"81",
+"92",
+"개장",
+"내린",
+"코스피"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hNndxMmVxcXlIbkMtRWZTVHNZSkF0NzNfT2R0UXNtX1VKVTRrZ1RYZllLMGNoX25jM2dCOHhBZWhJX3c4TW13VWpYZjJ4YU13LUx1WW9pcmHSAVhBVV95cUxPYTZ3cTJlcXF5SG5DLUVmU1RzWUpBdDczX09kdFFzbV9VSlU0a2dUWGZZSzBjaF9uYzNnQjh4QWVoSV93OE1td1VqWGYyeGFNdy1MdVlvaXJh?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.fnnews.com/news/202611170850466049",
+"t": "2026-11-17T10:06+09:00",
+"tok": [
+"09",
+"5000선",
+"5008",
+"개장",
+"위태",
+"코스피"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hNndxMmVxcXlIbkMtRWZTVHNZSkF0NzNfT2R0UXNtX1VKVTRrZ1RYZllLMGNoX25jM2dCOHhBZWhJX3c4TW13VWpYZjJ4YU13LUx1WW9pcmHSAVhBVV95cUxPYTZ3cTJlcXF5SG5DLUVmU1RzWUpBdDczX09kdFFzbV9VSlU0a2dUWGZZSzBjaF9uYzNnQjh4QWVoSV93OE1td1VqWGYyeGFNdy1MdVlvaXJh?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261117034300008",
+"t": "2026-11-17T10:06+09:00",
+"tok": [
+"5천피",
+"아래로",
+"장중",
+"출발",
+"코스피",
+"하락",
+"한때"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hNndxMmVxcXlIbkMtRWZTVHNZSkF0NzNfT2R0UXNtX1VKVTRrZ1RYZllLMGNoX25jM2dCOHhBZWhJX3c4TW13VWpYZjJ4YU13LUx1WW9pcmHSAVhBVV95cUxPYTZ3cTJlcXF5SG5DLUVmU1RzWUpBdDczX09kdFFzbV9VSlU0a2dUWGZZSzBjaF9uYzNnQjh4QWVoSV93OE1td1VqWGYyeGFNdy1MdVlvaXJh?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNzJQejdWOEo4enNMUWhMZmpzOUlyNDBTTmp3TzlBazd2NTRQaUoyMVZvSUhzY0QycXlFd1RyZUJYdE9rdERDR3lqR01IWm9xS2tZRjh3Smsxdkx0MTR2dzUtcGZWM3FLWUZqUEh5eGlZRzlBVW9veDZ4RldzZjQxNw?oc=5",
+"t": "2026-11-17T10:06+09:00",
+"tok": [
+"33",
+"5008선",
+"내린",
+"출발",
+"코스닥도",
+"코스피"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hNndxMmVxcXlIbkMtRWZTVHNZSkF0NzNfT2R0UXNtX1VKVTRrZ1RYZllLMGNoX25jM2dCOHhBZWhJX3c4TW13VWpYZjJ4YU13LUx1WW9pcmHSAVhBVV95cUxPYTZ3cTJlcXF5SG5DLUVmU1RzWUpBdDczX09kdFFzbV9VSlU0a2dUWGZZSzBjaF9uYzNnQjh4QWVoSV93OE1td1VqWGYyeGFNdy1MdVlvaXJh?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54WkE0V1M1MWhCSlUwZ2gyN0NWTkg0ZGFPT21ycm9rRlMxX0YzTXpqenpvdEtaVndVNTI3SWVjWVYzQWpUd2tHMVQ3Wlg1WVZsWDJ2aA?oc=5",
+"t": "2026-11-17T10:06+09:00",
+"tok": [
+"33",
+"656",
+"82",
+"83p",
+"개장",
+"내린",
+"코스닥"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hNndxMmVxcXlIbkMtRWZTVHNZSkF0NzNfT2R0UXNtX1VKVTRrZ1RYZllLMGNoX25jM2dCOHhBZWhJX3c4TW13VWpYZjJ4YU13LUx1WW9pcmHSAVhBVV95cUxPYTZ3cTJlcXF5SG5DLUVmU1RzWUpBdDczX09kdFFzbV9VSlU0a2dUWGZZSzBjaF9uYzNnQjh4QWVoSV93OE1td1VqWGYyeGFNdy1MdVlvaXJh?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.mt.co.kr/stock/2026/11/17/2026111709012431751",
+"t": "2026-11-17T10:06+09:00",
+"tok": [
+"08",
+"4994",
+"5000선서",
+"공방",
+"기록",
+"초반",
+"코스피"
+],
+"g": "https://www.mt.co.kr/stock/2026/11/17/2026111709012431751"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026111709045283996",
+"t": "2026-11-17T10:06+09:00",
+"tok": [
+"5000선",
+"아래로",
+"코스피",
+"하락하며"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hNndxMmVxcXlIbkMtRWZTVHNZSkF0NzNfT2R0UXNtX1VKVTRrZ1RYZllLMGNoX25jM2dCOHhBZWhJX3c4TW13VWpYZjJ4YU13LUx1WW9pcmHSAVhBVV95cUxPYTZ3cTJlcXF5SG5DLUVmU1RzWUpBdDczX09kdFFzbV9VSlU0a2dUWGZZSzBjaF9uYzNnQjh4QWVoSV93OE1td1VqWGYyeGFNdy1MdVlvaXJh?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261117_0003870875",
+"t": "2026-11-17T10:06+09:00",
+"tok": [
+"5000선",
+"밑으로",
+"약세",
+"초반",
+"코스피"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hNndxMmVxcXlIbkMtRWZTVHNZSkF0NzNfT2R0UXNtX1VKVTRrZ1RYZllLMGNoX25jM2dCOHhBZWhJX3c4TW13VWpYZjJ4YU13LUx1WW9pcmHSAVhBVV95cUxPYTZ3cTJlcXF5SG5DLUVmU1RzWUpBdDczX09kdFFzbV9VSlU0a2dUWGZZSzBjaF9uYzNnQjh4QWVoSV93OE1td1VqWGYyeGFNdy1MdVlvaXJh?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.hankyung.com/article/2026111709757",
+"t": "2026-11-17T10:06+09:00",
+"tok": [
+"5000선",
+"장초반",
+"코스피",
+"하락",
+"하회"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hNndxMmVxcXlIbkMtRWZTVHNZSkF0NzNfT2R0UXNtX1VKVTRrZ1RYZllLMGNoX25jM2dCOHhBZWhJX3c4TW13VWpYZjJ4YU13LUx1WW9pcmHSAVhBVV95cUxPYTZ3cTJlcXF5SG5DLUVmU1RzWUpBdDczX09kdFFzbV9VSlU0a2dUWGZZSzBjaF9uYzNnQjh4QWVoSV93OE1td1VqWGYyeGFNdy1MdVlvaXJh?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.khan.co.kr/article/202611170914001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+"t": "2026-11-17T10:06+09:00",
+"tok": [
+"5000선",
+"급락에",
+"위태",
+"코스피"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hNndxMmVxcXlIbkMtRWZTVHNZSkF0NzNfT2R0UXNtX1VKVTRrZ1RYZllLMGNoX25jM2dCOHhBZWhJX3c4TW13VWpYZjJ4YU13LUx1WW9pcmHSAVhBVV95cUxPYTZ3cTJlcXF5SG5DLUVmU1RzWUpBdDczX09kdFFzbV9VSlU0a2dUWGZZSzBjaF9uYzNnQjh4QWVoSV93OE1td1VqWGYyeGFNdy1MdVlvaXJh?oc=5"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1WTS1IcTRNZWZEYlFvanNzZUtmenJlMkpxZVBYZnVXQWFDYmZsUEpfYmNlRzMta0pXYXBuakw5RU5aUTBuQlBvRjBVNXh4NFV2VndjUkh2S3JrSnE0eW1mLTJEbHNKbnhD?oc=5",
+"t": "2026-11-17T10:06+09:00",
+"tok": [
+"700억대",
+"GA",
+"금감원",
+"금융당국",
+"대형",
+"등록취소",
+"리베이트에",
+"불법",
+"운명은",
+"중징계",
+"한국보험금융의"
+]
 }
 ]
 }
