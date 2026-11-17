@@ -1,96 +1,6 @@
 {
-"updated": "2026-11-17T16:06+09:00",
+"updated": "2026-11-17T17:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VNnRWb2YzblBJQ0hsX2RSV215M0l2ci1WUlRMdmE4QnZ3anlBcm1MMGxRdWdkbDlhSkdnUnlMNUZwQ0VKc2ZBVFVaa290VTJFU2NqUUxZNnh2Q0lVRm9ZUGtR?oc=5",
-"t": "2026-11-09T17:06+09:00",
-"tok": [
-"5억원",
-"SKT",
-"가지급금",
-"관심커지는",
-"보험",
-"수령",
-"해킹"
-]
-},
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBaeDhNYVNVdDd0QnUySFVBa3FYZHd1ZG84eHBoV2dSZ1k5bm5JZTllSDViVExDSF9lNDV6dGFvR04yYUxRR0h3T3M2ZmIwX2pfbVE?oc=5",
-"t": "2026-11-09T17:06+09:00",
-"tok": [
-"3년",
-"60",
-"보호감호자",
-"일해도",
-"재판소원",
-"청구",
-"최저임금"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9JM2lMSTV1VUhnU2hEQkFhMG9XYjNSZkVuZE1TSEVNT29qQnk2aDd1dUMwUk1CMzU2U3hnYkt0TU1maTBwV2hib0drUkFUaXc4bnFnQkNuT0JrcVQ1dE83WnlScEJEZnd6LW15ZzR5X25wenA0SHNjbDd3?oc=5",
-"t": "2026-11-09T17:06+09:00",
-"tok": [
-"0원",
-"11월",
-"11종",
-"요금제",
-"우리WON모바일",
-"이벤트",
-"통신비"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5VNFIyZk9RZHhycTlRRlR0bS1YZjRvWVRKS3BpMlZCRDlFODdpcE9PRnNydUt4Wm1NaG03cXUtaDIzMVF3amtScm9nVlRCS2dWZUFoQVFYZ2VqRnhwaWduRzhnMGNncG1ZNkpEZlY4NGtTbXPSAXNBVV95cUxOVTRSMmZPUWR4cnE5UUZUdG0tWGY0b1lUSktwaTJWQkQ5RTg3aXBPT0ZzcnVLeFptTWhtN3F1LWgyMzFRd2prUnJvZ1ZUQktnVmVBaEFRWGdlakZ4cGlnbkc4ZzBjZ3BtWTZKRGZWODRrU21z?oc=5",
-"t": "2026-11-09T17:06+09:00",
-"tok": [
-"100만",
-"받으면",
-"보이스피싱",
-"생계비",
-"심리상담",
-"추가",
-"피해자에"
-]
-},
-{
-"kind": "주목",
-"link": "https://www.seoulfn.com/news/articleView.html?idxno=642316",
-"t": "2026-11-09T17:06+09:00",
-"tok": [
-"개인정보",
-"고객에",
-"대신증권",
-"마련",
-"면제",
-"보상안",
-"수수료",
-"유출",
-"지급",
-"지원금"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwZFdYcTBWWUZiU1NIcC1BRFgtXy1keDVXTmJReTdlblhLSGxiOW5fNTg0d0tuOHB5dFRlMnI2SGZUWlVhaVhxSEp3M1VKSERsZWdJNVRUNDluTmlQMnR2RzRQSE5seWlWMDhycUQxMHFkUQ?oc=5",
-"t": "2026-11-09T17:06+09:00",
-"tok": [
-"높은",
-"불리한",
-"산업용",
-"의원",
-"인천시의회",
-"인천에",
-"전기요금제",
-"전력자급률",
-"조민경",
-"지적"
-]
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ra2JqR3JYbTF6SjREWnZIUVpVX2xQbG9mZmF3M1ZTV0lIMzY2RXZaTlVkTjNjZkRyUmJ0RGhvcWNNY2UtUU50Yk5hTW4zTlM3bTlrUmE0ZXJzb09TOFNRVkF3SHdJQllk?oc=5",
@@ -9474,6 +9384,64 @@
 "보이스피싱",
 "직원",
 "피해"
+]
+},
+{
+"kind": "gov",
+"link": "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492573&act=view",
+"t": "2026-11-17T17:06+09:00",
+"tok": [
+"KB금융지주",
+"결정",
+"국민연금",
+"방향",
+"의결권",
+"주주총회에",
+"행사"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA0azJydkM3MzNtVndrazZaX2FLQ185QWJNcmhNOTlLN21pYThvRlUxS2VnSnppU1pMcS1INEdybFVPMWotbmpZT0JjUmxJT1laWGpDcGdEVnNLLWJiTTQyTlRCZFNyd3E1VlpXUEJKVjg1RHhK0gF0QVVfeXFMTnJSRi02eV90Nko5bnlzR2hQRFVJbHJ1aFNlRGt0QkQ5d25haVhfSGNzZW1vdHRGbHh1OEdBeEozT1pSbHVWZC1oejdXMHoyV2hoSVM3U1J5QjU4RXQ2XzFZSXItTlVkamxXNVk3WF9jWXBESk4?oc=5",
+"t": "2026-11-17T17:06+09:00",
+"tok": [
+"5천",
+"900선서",
+"9달여",
+"마감",
+"만에",
+"아래로",
+"코스피"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA0azJydkM3MzNtVndrazZaX2FLQ185QWJNcmhNOTlLN21pYThvRlUxS2VnSnppU1pMcS1INEdybFVPMWotbmpZT0JjUmxJT1laWGpDcGdEVnNLLWJiTTQyTlRCZFNyd3E1VlpXUEJKVjg1RHhK0gF0QVVfeXFMTnJSRi02eV90Nko5bnlzR2hQRFVJbHJ1aFNlRGt0QkQ5d25haVhfSGNzZW1vdHRGbHh1OEdBeEozT1pSbHVWZC1oejdXMHoyV2hoSVM3U1J5QjU4RXQ2XzFZSXItTlVkamxXNVk3WF9jWXBESk4?oc=5"
+},
+{
+"kind": "단독",
+"link": "https://www.mt.co.kr/stock/2026/11/17/2026111715293687456",
+"t": "2026-11-17T17:06+09:00",
+"tok": [
+"1200만주",
+"1조원대",
+"간접",
+"국민연금",
+"보유",
+"보유만",
+"앤트로픽"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91cUNzWTR5UVBSbVlVbVV1WXY4amwtNUx3QlJkVmZjVlRrTldMXzZXXzI1SG5qS0tXTW9fSldhY2preV9TYVpmTnNyTGZYelpyZjJLVHEzMXFjTGdFSlNySTB1dTRKUUhHR29MeW9sRFg?oc=5",
+"t": "2026-11-17T17:06+09:00",
+"tok": [
+"건보공단",
+"급여제공관리",
+"대폭",
+"서비스",
+"장기요양기관",
+"전산",
+"확대"
 ]
 }
 ]
