@@ -1,20 +1,6 @@
 {
-"updated": "2026-11-18T00:06+09:00",
+"updated": "2026-11-18T01:06+09:00",
 "items": [
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5IeTJld2tvcXlfZG5ZM1A3TVMtUWVDMnc2WnV4X0JpM1E4R1FidWhhMFhmOFEtUW5RQWJDM2JFcXZEaVgxQXliN3F2WGFCWk5IajdNcmVLN2lxNXM?oc=5",
-"t": "2026-11-10T01:06+09:00",
-"tok": [
-"고물가",
-"다음달부터",
-"시위에",
-"인상",
-"최저임금",
-"프랑스",
-"항의"
-]
-},
 {
 "kind": "단독",
 "link": "https://www.donga.com/news/Economy/article/all/20261110/134995612/2",
@@ -9315,6 +9301,58 @@
 "하락"
 ],
 "g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4wTTR4dnBaWTNzSHpaMHVteGY4QWdZaWZHVW1PQjVsZ2pPQlJfbFVqOEtEM09VbVJtanFPRFJoU2JYekE5SW9STUxsYWc5a28zNGlMNGlhQmlMcTYxX3R0blczdGI0dTdP?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nT2hsbFpvX2VoVXAxQVJnQzVSeUhTbERuN1lwN0pldE5qcmtIWnNfRWFyRWNpb2hYNWlMWVlaMmxVMzdxeU9XWGFHTzZLMVRZNm9RUy11QU4wTV9VdGU4TGpEWEVsS1Jq?oc=5",
+"t": "2026-11-18T01:06+09:00",
+"tok": [
+"45달러",
+"6만4922달러",
+"대장주",
+"보합",
+"부진",
+"비트코인",
+"에버노스",
+"여파",
+"주가",
+"촉각",
+"홀딩스"
+],
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nT2hsbFpvX2VoVXAxQVJnQzVSeUhTbERuN1lwN0pldE5qcmtIWnNfRWFyRWNpb2hYNWlMWVlaMmxVMzdxeU9XWGFHTzZLMVRZNm9RUy11QU4wTV9VdGU4TGpEWEVsS1Jq?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2VjZ6RjgzYVNSUTAtbTFxaWVHTXJhSXNiUVpGMTNncFpjcVE3enpNdWVrTENpMUFKWE1EUElPeHFrVUk5Rk54eURzMkY5QVJQLVkyRXRqUTBkemFscEYzb1ExdWFTb3FO?oc=5",
+"t": "2026-11-18T01:06+09:00",
+"tok": [
+"155달러선",
+"가능성",
+"발표",
+"변동",
+"실적",
+"앞두고",
+"약세",
+"엔비디아",
+"주가",
+"촉각"
+],
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2VjZ6RjgzYVNSUTAtbTFxaWVHTXJhSXNiUVpGMTNncFpjcVE3enpNdWVrTENpMUFKWE1EUElPeHFrVUk5Rk54eURzMkY5QVJQLVkyRXRqUTBkemFscEYzb1ExdWFTb3FO?oc=5"
+},
+{
+"kind": "단독",
+"link": "https://www.donga.com/news/Economy/article/all/20261117/135041938/2",
+"t": "2026-11-18T01:06+09:00",
+"tok": [
+"20대",
+"4년새",
+"6배로",
+"가입",
+"보험",
+"보험료",
+"비싼",
+"유병자"
+]
 }
 ]
 }
