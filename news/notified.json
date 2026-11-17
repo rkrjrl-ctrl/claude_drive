@@ -1,124 +1,6 @@
 {
-"updated": "2026-11-17T12:59+09:00",
+"updated": "2026-11-17T14:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBjNFN4anIxWGowUGRncjFNZXF1djBzdzVyLTF4LWRYOXZCckkwOW1RZk92MnNibjNSZXhDTWNZS25PcmdaZHlScHd5dGgxUmhkTGxaNnNEWQ?oc=5",
-"t": "2026-11-09T13:06+09:00",
-"tok": [
-"IR",
-"개정",
-"거래소",
-"매년",
-"상장계약",
-"상장사",
-"의무화",
-"추진",
-"코스닥"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261109_0003860338",
-"t": "2026-11-09T13:06+09:00",
-"tok": [
-"10",
-"10일",
-"13시",
-"1분부터",
-"2개월간",
-"관세",
-"미국산",
-"상품",
-"유지",
-"추가"
-],
-"g": "https://www.newsis.com/view/NISX20261109_0003860338"
-},
-{
-"kind": "단독",
-"link": "https://www.hankyung.com/article/202611094254i",
-"t": "2026-11-09T14:05+09:00",
-"tok": [
-"10배뛴",
-"1년만에",
-"1위",
-"광통신",
-"대표",
-"박성재",
-"성호전자",
-"세계",
-"장비기업",
-"주가",
-"탄생할",
-"한국서"
-]
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FUVBhaHhHQ205VEh3T1V2Z2VVT1dUbnc1LWpDN3hTTjR0dUFlMWlUeGQ5RkNET1ZsU1FBTC0tS3JrSlZ0U01jLU15VWNxUGdYYzM5R010dXFlQW5ibXhqS1htQ3h0TUwy?oc=5",
-"t": "2026-11-09T14:05+09:00",
-"tok": [
-"29세",
-"50개월째",
-"가입자",
-"감소",
-"고용보험",
-"꽁꽁",
-"역대",
-"이하",
-"청년",
-"최장",
-"취업문"
-],
-"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FUVBhaHhHQ205VEh3T1V2Z2VVT1dUbnc1LWpDN3hTTjR0dUFlMWlUeGQ5RkNET1ZsU1FBTC0tS3JrSlZ0U01jLU15VWNxUGdYYzM5R010dXFlQW5ibXhqS1htQ3h0TUwy?oc=5"
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1rR0FzcUhyT2RfcG5RVE9nczIteWpOMDdRMXlzaExNd3M3bU1jM3dEZkdqbXc5ZUdjQXlFTTNja2g2QVFZZEdZSjZzRlJmeXl1aFpQWFo3Q0s0STZJM2VGLThsckI5RkdKUHZGZDg4ZHVtX3VU?oc=5",
-"t": "2026-11-09T14:05+09:00",
-"tok": [
-"기업",
-"담당자",
-"아카데미",
-"인사",
-"재무",
-"초청",
-"퇴직연금",
-"한국투자증권"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE13emxyN0Z6YVhCMTJMN2dkSUFsS2hZWkNHRkpHa0ZYU3NsX201V1FWdklnVktPbldqVmUyTTd4UXp3SWdXeG9WY0Q3RlVfTnBIemdpQjU3U0dyS1VsMnVYRXRkeG04dGJHMG13?oc=5",
-"t": "2026-11-09T14:05+09:00",
-"tok": [
-"공인중개사",
-"나서",
-"독려",
-"양평군",
-"예방",
-"전세사기",
-"참여",
-"플랫폼"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA4dUNxTy1XQThzRXJULXNDaWJnQ3hYVmtheVhKWlJ4RWlCaUh4cTRkSXpjU2tULV9YTkMzSFVjZExycTR2Y01ha2JKQlNfbDVCaS1qc0Z6ZnpadkNWRUluSXRyX1dub0Z1RUtfYjN6Zw?oc=5",
-"t": "2026-11-09T14:05+09:00",
-"tok": [
-"AI로",
-"금융보안원",
-"금융사",
-"보이스피싱",
-"분석",
-"위험도",
-"중소형",
-"지원",
-"탐지"
-]
-},
 {
 "kind": "gov",
 "link": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249776&menuNo=200218&pageIndex=1",
@@ -9547,6 +9429,92 @@
 "전세사기",
 "전월세",
 "청년"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.khan.co.kr/article/202611171400001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+"t": "2026-11-17T14:06+09:00",
+"tok": [
+"IMF",
+"까지",
+"높여",
+"성장률",
+"한국"
+],
+"g": "https://www.khan.co.kr/article/202611171400001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news"
+},
+{
+"kind": "속보",
+"link": "https://www.hani.co.kr/arti/economy/economy_general/1287703.html",
+"t": "2026-11-17T14:06+09:00",
+"tok": [
+"IMF",
+"내년",
+"성장률",
+"전망",
+"한국"
+],
+"g": "https://www.khan.co.kr/article/202611171400001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBUVnhxRzl0alpXYjFqc3puSkJYeDktdmpGRVIwemJUWUFnMUdrYnZEN29jaTFhNTBKM3F5OTdxTmxhQnljNnoxRE1fOXdqemlnMzEwR0x1Y0JVUWZ5ampIYXZwVlJkeG4tbHYwYURQREk0dw?oc=5",
+"t": "2026-11-17T14:06+09:00",
+"tok": [
+"49",
+"day",
+"e마켓오프닝",
+"급락",
+"긴장",
+"나스닥",
+"반도체",
+"실적",
+"엔비디아"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45MEEwY2lKalpYMHFZNjNlRHdNVXNlaEd0SXQzdThhYUIwVkc2b2dLZmE0NU9la2UyQWwzdDJwU3FnRGdOU0RNS1ZsaXlZY1Q1Q1N5YWVHTjVxODZFcHl4Rw?oc=5",
+"t": "2026-11-17T14:06+09:00",
+"tok": [
+"1만2000건",
+"넘어",
+"서울",
+"전세사기",
+"피해"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBaUjd5b09sRU5HbExJV0I4YnhHcUMyLXhLUmtwT3NZenp2Z2xnSFBrT3RHbFR2NzdCNmlmZGE4bXR5ckRJbVVDSkktNA?oc=5",
+"t": "2026-11-17T14:06+09:00",
+"tok": [
+"13월의",
+"가이드",
+"꿀팁",
+"만드는",
+"연말정산",
+"월급",
+"재테크",
+"절세",
+"총정리"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5LWUVYbXhnN1F6bzlvVEY4eVBfd2FUU2g0aWdsbkYxczZxd2hOZW95NHBlaE8xd1phLU5oblZEWXhaSWRuMzFmYnNZMW5sQXc5TWdZ?oc=5",
+"t": "2026-11-17T14:06+09:00",
+"tok": [
+"500만원",
+"막아",
+"보이스피싱",
+"송금",
+"예방",
+"예산경찰서",
+"주민",
+"직전",
+"피해"
 ]
 }
 ]
