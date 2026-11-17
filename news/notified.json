@@ -1,157 +1,6 @@
 {
-"updated": "2026-11-17T14:06+09:00",
+"updated": "2026-11-17T15:06+09:00",
 "items": [
-{
-"kind": "gov",
-"link": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249776&menuNo=200218&pageIndex=1",
-"t": "2026-11-09T15:05+09:00",
-"tok": [
-"금융권이",
-"다시",
-"멈춘",
-"보이스피싱",
-"이어드립니다",
-"일상",
-"일상으로",
-"피해로"
-]
-},
-{
-"kind": "gov",
-"link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788455",
-"t": "2026-11-09T15:05+09:00",
-"tok": [
-"AI",
-"NPU",
-"국산",
-"글로벌",
-"시스템과",
-"시장",
-"엔비디아",
-"연계해",
-"연다",
-"인프라",
-"진출"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mRkxrSkRYZk5sMkZ1a0VjRzR1TzR3U1ByUkY1cUl4RThlSEJSYjctZkpJMVN3MENDVWxXVERUUmw4N1JDMVlPRVpUUW8xaW9LWDRQZTlOeDFiWExYM3pzZ25lN3psN1FqRXBjR1NRYw?oc=5",
-"t": "2026-11-09T15:05+09:00",
-"tok": [
-"교육",
-"기업",
-"대비",
-"사외적립",
-"실무자",
-"의무화",
-"퇴직연금",
-"한국투자증권"
-]
-},
-{
-"kind": "주목",
-"link": "https://www.hani.co.kr/arti/economy/finance/1286429.html",
-"t": "2026-11-09T15:05+09:00",
-"tok": [
-"200만원",
-"23일부터",
-"보이스피싱",
-"생계비",
-"시범사업",
-"최대",
-"피해자에"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1jd3JyYy1JSkhVN0tfTmV6SGZDcGxVaTZEUWZzR092OFc4WC11czh3SGdjYVlMYUtuUmpGeHJRNW1nS2dfRlh3QWoyUVk5ZjAzQWJha0M2VklvM3JBM1VDM3pqZ1RzZlJXd3g0UA?oc=5",
-"t": "2026-11-09T15:05+09:00",
-"tok": [
-"뉴스",
-"도입",
-"보증금",
-"잃어버린",
-"전세사기",
-"지원",
-"최소지원금",
-"피해자",
-"회복"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB3TWZwb1lIc1FWMGNpUnRaenVrZXVDQzkxaUhGOEV2MUx1RDEzNHFRbnkwQW1ITDBiaXA4cXZMNjRYZWxUSHBYTDVfal9fQ24yaWpHS3RsamZpTzZ2LU8yVw?oc=5",
-"t": "2026-11-09T15:05+09:00",
-"tok": [
-"1은",
-"3분의",
-"보장",
-"보증금",
-"전세사기피해자",
-"최소보장제"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1BV2lEcE5xTE0zUzlhUDB5Q3hHSDFXa1R5M2dPNG00N2lvQzZPUi1ZUjIxTXdPVmw3UzJsYlRjVElEZHo0TmNkZHFERzltbEpmM2gtS2FWV2txdw?oc=5",
-"t": "2026-11-09T15:05+09:00",
-"tok": [
-"같은",
-"대법",
-"따져야",
-"렌터카",
-"비용",
-"사고",
-"사용가치",
-"시장요금",
-"차량의"
-]
-},
-{
-"kind": "주목",
-"link": "https://www.sedaily.com/article/20111950",
-"t": "2026-11-09T15:05+09:00",
-"tok": [
-"1기",
-"2배",
-"35",
-"가격",
-"거래",
-"거래량",
-"분당",
-"산본",
-"신도시",
-"엇갈리는",
-"오른",
-"집값"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5MOGVGMmZMb1pwQjBlancyT3RCM09lcVdMRzdWMnlnc01Fc1dBYVdxUVVSVEVORmZQOWRNbWg1dzBJMnB3dVJYMWZETDNzb3dobFlxUTl1MndzcFJyeHRIbGVqaU9iTnd0MkhSdHYxS1ZpeHd3QmY0?oc=5",
-"t": "2026-11-09T15:05+09:00",
-"tok": [
-"10월",
-"12월",
-"고용",
-"금리",
-"데이터센터",
-"매크로",
-"변정규",
-"본부장",
-"부담",
-"비용",
-"빅테크",
-"서프라이즈에",
-"유력",
-"인사이트",
-"인상",
-"인프라",
-"직격탄",
-"현금흐름"
-]
-},
 {
 "kind": "단독",
 "link": "https://www.hankyung.com/article/202611095186i",
@@ -9515,6 +9364,115 @@
 "주민",
 "직전",
 "피해"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE04NnVEbXpuUkljRVhHZG8ybkNEcGFXQTZGckdCWWVkUGZlMzRUaGQxWW1UMXpFTjZoNl8xbVBDeElBcHVYR1hxWUg2T2RmLVgyWE9mMg?oc=5",
+"t": "2026-11-17T15:06+09:00",
+"tok": [
+"IMF",
+"반도체",
+"성장률",
+"전망",
+"한국",
+"한달새",
+"호조에"
+],
+"g": "https://www.khan.co.kr/article/202611171400001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4zcXh0NmY5MmZ4a2ZkZExSRHAtMTM3b0FTc0lpTFFMMkxmczBSX08yU1MwTjZvaTBZM0xjRFV4UW9ZUExrcHoxMTIwY1JmVzhrZDdj0gFYQVVfeXFMTW9yNF8tRUJZdmZhSnloajVadHVSMG1YX1Z1U0MwSTdLRTdSUlU3cVRlY1Rfai1fYjFqdU9xc0xzTFhiUHhlRkR1aTF1dW9zNlBEcVAxQkQ3YQ?oc=5",
+"t": "2026-11-17T15:06+09:00",
+"tok": [
+"IMF",
+"반도체",
+"성장률",
+"전망",
+"한달새",
+"호조에"
+],
+"g": "https://www.khan.co.kr/article/202611171400001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news"
+},
+{
+"kind": "속보",
+"link": "https://www.fnnews.com/news/202611171408261156",
+"t": "2026-11-17T15:06+09:00",
+"tok": [
+"1조",
+"5000선",
+"매도",
+"외인",
+"장중",
+"재붕괴",
+"코스피"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611171408261156"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91cWVCRFBCR0NvOTF4d2xPQkQzZlhzN2V2MHNiSEFXVlM3YnhlU3JpS1ZsQUczdlZJOXhZSEh3UGg5WnFfWTFIejFvb1E5emtPSWwyaDdaNG1YUdIBVEFVX3lxTE9TVERqTDVvNjVNUThRQWdQblNCNjUyM05BTzhHMUVvaXFHNkRfY091RHJkdnotY1ZwcDFXajhhTXVRYzJPYkpuUVc5TDVoUEttbllwVA?oc=5",
+"t": "2026-11-17T15:06+09:00",
+"tok": [
+"IMF",
+"상향",
+"성장률",
+"전망",
+"한국"
+],
+"g": "https://www.khan.co.kr/article/202611171400001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news"
+},
+{
+"kind": "단독",
+"link": "https://biz.chosun.com/it-science/ict/2026/11/17/4MWPKOEPTNG5NKCR7PKZLJ4D5Q/",
+"t": "2026-11-17T15:06+09:00",
+"tok": [
+"1d",
+"D램용",
+"HPA",
+"검증용",
+"공급사",
+"납품",
+"삼성전자",
+"선정",
+"연내",
+"예스티",
+"장비"
+]
+},
+{
+"kind": "단독",
+"link": "https://biz.chosun.com/policy/politics/2026/11/17/DCECHEJWKFHBTJGKZHIDWU6M4Y/",
+"t": "2026-11-17T15:06+09:00",
+"tok": [
+"18곳",
+"37곳",
+"600만원",
+"민주당",
+"보수화",
+"서울",
+"오르면",
+"지역구",
+"집값",
+"평당",
+"해당"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5MV3F5cTRJR1BCRVJWZi1RV3kxVk8yeXp4QVEtcGhaaXdtbkFMRzFSVlhoNmpOUzVtZzlsR21wVFJvSFc4b0VoQTZfbW9QRlJIczdGWWljZzFhTDZP?oc=5",
+"t": "2026-11-17T15:06+09:00",
+"tok": [
+"과잉청구",
+"늘었다",
+"보험금",
+"사고",
+"상황은",
+"줄었는데",
+"지급",
+"현장"
 ]
 }
 ]
