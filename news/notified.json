@@ -1,68 +1,6 @@
 {
-"updated": "2026-11-17T18:06+09:00",
+"updated": "2026-11-17T19:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://www.hankyung.com/article/2026110958471",
-"t": "2026-11-09T19:06+09:00",
-"tok": [
-"3조원에",
-"삼성화재",
-"인수",
-"특수보험사"
-]
-},
-{
-"kind": "단독",
-"link": "https://www.newsis.com/view/NISX20261109_0003861073",
-"t": "2026-11-09T19:06+09:00",
-"tok": [
-"3억2400만원",
-"격려금",
-"대법관",
-"대법원",
-"법사위",
-"삭감",
-"예결소위",
-"예산",
-"조희대"
-]
-},
-{
-"kind": "주목",
-"link": "https://www.fnnews.com/news/202611091825575256",
-"t": "2026-11-09T19:06+09:00",
-"tok": [
-"3분의",
-"보전",
-"보증금",
-"오늘부터",
-"전세사기",
-"접수",
-"현금"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE41cTVfdFBWNGNKS1c0emJiTnp1UzIwcjVPcmljczJkdWFVbVplR0s3ZjYtTXUzMDYwUXowdUw4SExvTkViZzdNZjlBWm5wSGFfZ0N5dl9WUnE1YXBTbHdWSkkxTjBjNjE4?oc=5",
-"t": "2026-11-09T19:06+09:00",
-"tok": [
-"개선",
-"기업",
-"부담",
-"생산도시",
-"완화",
-"위한",
-"의원",
-"인천시의회",
-"인천의",
-"전기요금",
-"전력",
-"조민경",
-"지역",
-"촉구"
-]
-},
 {
 "kind": "주목",
 "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9UMldueWxGNWdaU2h4OExnNVY4NTZTT21OQUxSUERhbl9qN1RyMkNwM0lDdEs1V01PSnk4T2FfbjNGeFRKVE1neUx5bU1xWXNJb1JwZWk2SGQxc1NYQldLMzd2SXJncnRzTlo0Zw?oc=5",
@@ -9447,6 +9385,36 @@
 "줄었는데",
 "증가",
 "지급보험금은"
+]
+},
+{
+"kind": "단독",
+"link": "https://www.hankyung.com/article/2026111726651",
+"t": "2026-11-17T19:06+09:00",
+"tok": [
+"1200억",
+"CGV",
+"CJ",
+"무산",
+"물어낼",
+"상장",
+"홍콩증시",
+"후폭풍"
+]
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oT1RwSnVfVk5KRGxEaUcxUEpibUZXdnlJNGpaUFdYekRRVW0xcDJFUXBBMXp3YmVFZHZYSlV6MDVMZHdxU3NmbWdORm4zLTlVd0ZEWkVHdjRSYUhJOXpJRg?oc=5",
+"t": "2026-11-17T19:06+09:00",
+"tok": [
+"10개",
+"국토위",
+"돌린",
+"미래기금으로",
+"사업",
+"원복",
+"제동",
+"청년월세"
 ]
 }
 ]
