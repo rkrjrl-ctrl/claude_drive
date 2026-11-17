@@ -1,35 +1,26 @@
 # 자동 감시 결과 (자동 생성 — 직접 수정 금지)
 
-- 실행일: 2026-11-16  /  감시 url 2334개  /  자료 2334건  /  이번에 확인 2047개(연속 실패로 쉼 287개, 시간 초과로 넘김 0개)
+- 실행일: 2026-11-17  /  감시 url 2334개  /  자료 2334건  /  이번에 확인 2075개(연속 실패로 쉼 259개, 시간 초과로 넘김 0개)
 - 이 파일은 **감지만** 한다. 원문 내용 확인·자료 갱신은 Claude Code가 한다.
 
-## 원문 변경 확정 (19건)
+## 원문 변경 확정 (11건)
 
-- MED-0288 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13009686/
-- MED-0289 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13009690/
-- MED-0290 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12971177/
-- MED-1126 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13655467/
-- MED-1225 — https://www.data.go.kr/data/15101151/fileData.do
-- MED-1227 — https://www.data.go.kr/data/15159616/fileData.do
-- MED-1228 — https://www.data.go.kr/data/15104692/fileData.do
-- MED-1231 — https://www.data.go.kr/data/15117753/fileData.do
-- MED-1350 — https://pmc.ncbi.nlm.nih.gov/articles/PMC8811204/
-- MED-1351 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11513862/
-- MED-1352 — https://pmc.ncbi.nlm.nih.gov/articles/PMC8650817/
-- MED-1353 — https://pmc.ncbi.nlm.nih.gov/articles/PMC10982054/
-- MED-1354 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7354982/
-- MED-1355 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7541973/
-- MED-1356 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7840311/
-- MED-1357 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7542002/
-- MED-1368 — https://www.who.int/news-room/fact-sheets/detail/cancer-in-children
-- MED-1399 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6609748/
-- MED-1689 — https://www.data.go.kr/data/15067467/fileData.do
+- MED-0007 — https://www.cancer.gov/types/kidney/hp/kidney-treatment-pdq
+- MED-0255 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2018&mode=view
+- MED-0495 — https://www.cancer.gov/types/lung/hp/non-small-cell-lung-treatment-pdq
+- MED-0496 — https://www.cancer.gov/types/lung/hp/small-cell-lung-treatment-pdq
+- MED-0558 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7834900/
+- MED-0584 — https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss
+- MED-0591 — https://www.who.int/news-room/fact-sheets/detail/epilepsy
+- MED-0600 — https://www.who.int/news-room/fact-sheets/detail/human-papilloma-virus-and-cancer
+- MED-0628 — https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries
+- MED-0638 — https://www.who.int/news-room/fact-sheets/detail/suicide
+- MED-0745 — https://www.nice.org.uk/guidance/ng14
 
-## 접속 3회 이상 연속 실패 (288건)
+## 접속 3회 이상 연속 실패 (284건)
 
 - MED-0010 — 24회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/renewal_popup/poster/20260608_poster_longdesc_1.html
 - MED-0014 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbsDummy.do?brdBltNo=45666&brdScnBltNo=4&pgmid=HIRAA030023080000
-- MED-0016 — 3회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.hira.or.kr/bbsDummy.do?brdBltNo=45655&brdScnBltNo=4&pgmid=HIRAA030023010000
 - MED-0017 — 24회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/lm/lmxsrv/law/lawFullContent.do?SEQ=477&SEQ_HISTORY=
 - MED-0029 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbsDummy.do?brdBltNo=45661&brdScnBltNo=4&pgmid=HIRAA030023010000
 - MED-0030 — 24회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/minwon/wbhapa01000m01.do?mode=view&articleNo=10946900
@@ -38,58 +29,44 @@
 - MED-0076 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5130
 - MED-0078 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-14, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5134
 - MED-0079 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5135
-- MED-0081 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3754
 - MED-0082 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-14, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3760
 - MED-0083 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3761
 - MED-0084 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-11, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3762
 - MED-0085 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3765
-- MED-0086 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3766
 - MED-0088 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-11, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3785
 - MED-0089 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3786
-- MED-0091 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3790
 - MED-0092 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-15, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3791
 - MED-0093 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-15, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4672
-- MED-0094 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3808
 - MED-0095 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-15, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5248
-- MED-0096 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4768
 - MED-0097 — 12회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3328
 - MED-0098 — 8회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4960
 - MED-0099 — 10회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3352
 - MED-0100 — 10회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5128
-- MED-0101 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3784
 - MED-0102 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-14, 7일마다 재시도) — https://www.cancer.go.kr/lay1/S1T261C262/contents.do
 - MED-0108 — 10회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4666
-- MED-0109 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3802
 - MED-0110 — 13회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5242
 - MED-0111 — 12회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4762
 - MED-0112 — 12회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3322
-- MED-0113 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4954
 - MED-0114 — 14회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3346
-- MED-0115 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5122
 - MED-0117 — 11회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/S1T648C650/contents.do
 - MED-0142 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://m.circulation.or.kr/bbs/download.php?code=guide&number=2685
 - MED-0143 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://diabetes.or.kr/bbs/download.php?code=guide&number=1522
-- MED-0153 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=19618
 - MED-0154 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=17106
 - MED-0157 — 24회 — URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.seoulhp.com/seoul/cmmn/file/fileDown.do?atchFileId=79e740a49bff47a1aa20365c7d80153f&fileSn=4&menuNo=100136
 - MED-0166 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=1
-- MED-0167 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=2
-- MED-0168 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=3
 - MED-0169 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=4-6
-- MED-0170 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=7
 - MED-0171 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=8-9
 - MED-0172 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18579
 - MED-0173 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=14791
-- MED-0174 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=10288
 - MED-0175 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-15, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=10597
 - MED-0176 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-15, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18575
 - MED-0177 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=14697
+- MED-0181 — 3회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=3067
 - MED-0183 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=2442
 - MED-0184 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=2961
 - MED-0185 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://ksn.or.kr/bbs/skin/publication/download.php?code=guideline_k&number=2303
 - MED-0211 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=2962
 - MED-0212 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=2636
-- MED-0232 — 3회 — TimeoutError: 총 45초 초과 (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.guideline.or.kr/func/download_chronic.php?number=701
 - MED-1028 — 19회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12 (마지막 시도 2026-11-16, 7일마다 재시도) — https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=1
 - MED-1029 — 19회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12 (마지막 시도 2026-11-16, 7일마다 재시도) — https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=2
 - MED-1030 — 19회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 16-18: ordinal not in range(12 (마지막 시도 2026-11-16, 7일마다 재시도) — https://ilsan.m.chamc.co.kr/asset/file/유방암_진료권고안(2023).pdf?chapter=3
@@ -103,7 +80,6 @@
 - MED-1069 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487
 - MED-1070 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=gastric-thyroid
 - MED-1071 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=colorectal
-- MED-1072 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=lung
 - MED-1073 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=liver-biliary-prostate
 - MED-1074 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=breast
 - MED-1214 — 18회 — HTTPError: HTTP Error 400: Bad Request (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.comwel.or.kr/comwel/info/laws/rule.jsp?mode=view&article_no=2239620&board_no=69
@@ -128,12 +104,6 @@
 - MED-1252 — 6회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260601&sno=1&mtgMtrRegSno=0013&part=diabetes
 - MED-1253 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260801&sno=1&mtgMtrRegSno=0007&part=sglt2
 - MED-1255 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA030023010000&brdScnBltNo=4&brdBltNo=45654
-- MED-1256 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=gastric
-- MED-1257 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=colorectal
-- MED-1258 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=lung
-- MED-1259 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=breast
-- MED-1260 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=liver
-- MED-1261 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=thyroid
 - MED-1262 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-11, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=prostate
 - MED-1263 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-11, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20250201&sno=6&mtgMtrRegSno=0005&part=xgeva
 - MED-1291 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=download&articleNo=10849366&attachNo=369449&part=rare-neuro
@@ -181,7 +151,6 @@
 - MED-1391 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-11, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260701&sno=4&mtgMtrRegSno=0001&part=manualtherapy
 - MED-1392 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20151029&sno=2&mtgMtrRegSno=0001&part=eswl
 - MED-1393 — 9회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20110124&sno=2&mtgMtrRegSno=0008&part=varicose
-- MED-1395 — 3회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-10, 7일마다 재시도) — https://ksn.or.kr/bbs/skin/publication/download.php?code=g_guideline&number=2200
 - MED-1396 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://ksn.or.kr/bbs/skin/publication/download.php?code=g_guideline&number=2245
 - MED-1397 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://ksn.or.kr/bbs/skin/publication/download.php?code=g_guideline&number=2293
 - MED-1401 — 18회 — UnicodeEncodeError: 'ascii' codec can't encode characters in position 25-30: ordinal not in range(12 (마지막 시도 2026-11-16, 7일마다 재시도) — https://cdn.medsoft.co.kr/309/data/recom/11/11차진료권고안.pdf
@@ -234,14 +203,11 @@
 - MED-1572 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=kneeOA
 - MED-1573 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=disc
 - MED-1574 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C16
-- MED-1575 — 3회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-10, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C18-C19-C20
 - MED-1576 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C34
 - MED-1577 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C50
 - MED-1578 — 7회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C73
 - MED-1579 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C22
 - MED-1580 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-11, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C25
-- MED-1581 — 3회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-10, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C61
-- MED-1582 — 3회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-10, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=I63
 - MED-1583 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=I21
 - MED-1584 — 5회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=F00-F01-F03-G30
 - MED-1598 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=ward-ABZ01-02
@@ -305,7 +271,6 @@
 - MED-2004 — 7회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=dental-resin-inlay-U0239-0241-UZ004-005
 - MED-2005 — 5회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=dental-implant-scaling-UB001-UW3021
 - MED-2006 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20250201&sno=5&mtgMtrRegSno=0003&part=implant-denture-65
-- MED-2007 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20171227&sno=1&mtgMtrRegSno=0001&part=scaling
 - MED-2008 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=10925
 - MED-2014 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=kmed-chuna-acupharm-4071-4073-4901-4902
 - MED-2016 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbsDummy.do?pgmid=HIRAA020041000100&brdScnBltNo=4&brdBltNo=11129
@@ -313,10 +278,33 @@
 - MED-2216 — 15회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11014123
 - MED-2217 — 15회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11005254
 - MED-2255 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/dummy.do?pgmid=HIRAA020020000005
-- MED-2301 — 4회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-10, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01000m01.do?mode=view&articleNo=11008009
-- MED-0181 — 3회 — TimeoutError: 총 20초 초과 — https://www.circulation.or.kr/bbs/skin/guideline/download.php?code=guide&number=3067
+- MED-0016 — 4회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbsDummy.do?brdBltNo=45655&brdScnBltNo=4&pgmid=HIRAA030023010000
+- MED-0086 — 5회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3766
+- MED-0091 — 5회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3790
+- MED-0094 — 5회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3808
+- MED-0101 — 4회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3784
+- MED-0109 — 4회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3802
+- MED-0113 — 5회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4954
+- MED-0115 — 5회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5122
+- MED-0153 — 5회 — TimeoutError: 총 20초 초과 — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=19618
+- MED-0167 — 5회 — TimeoutError: 총 20초 초과 — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=2
+- MED-0168 — 5회 — TimeoutError: 총 20초 초과 — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=3
+- MED-1072 — 5회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=lung
+- MED-1256 — 5회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=gastric
+- MED-1257 — 5회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=colorectal
+- MED-1258 — 5회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=lung
+- MED-1259 — 5회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=breast
+- MED-1260 — 5회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=liver
+- MED-1261 — 5회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=thyroid
+- MED-1444 — 3회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20240912&sno=1&mtgMtrRegSno=0009&part=er-qa
+- MED-1575 — 4회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C18-C19-C20
+- MED-1581 — 4회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C61
+- MED-1582 — 4회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=I63
+- MED-1830 — 3회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olapDiagBhvInfoTab1.do?part=O7020
+- MED-2007 — 5회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20171227&sno=1&mtgMtrRegSno=0001&part=scaling
+- MED-2301 — 5회 — RemoteDisconnected: Remote end closed connection without response — https://www.nhis.or.kr/nhis/together/wbhaea01000m01.do?mode=view&articleNo=11008009
 
-## 재확인 기한 도래·30일 이내 (41건)
+## 재확인 기한 도래·30일 이내 (49건)
 
 - 2026-12-01 MED-1254 [verified] 「요양급여의 적용기준 및 방법에 관한 세부사항(약제)」 현행 고시 확인 — 보건복지부고시 제2026-222호(2026-10-29 발령, 2026-11-01 시행, 일부개정): 스프라바토나잘스프레이·보노프라잔 2종·옥스루모주 신설, 고가의약품 급여관리 기준·에독사반(명칭)·크리스비타·아일리아·루센티스(망막정맥폐쇄 황반부종으로 확대)·보톡스·프레비미스 변경, 국가법령정보센터에는 개정문만 있고 통합 전문은 없음
 - 2026-12-01 MED-1256 [verified] 심평원 허가초과 항암요법 목록(기준일 2026-10-15) 위암 항목 — 신청기관에 한해 인정된 허가초과 요법 5개(펨브롤리주맙 3·4차 이상·EBV 양성 2차·MSI-H 1차 ECOG 2-3, 니볼루맙+이필리무맙 MSI-H 수술 전후, 수술 전후 FLOT 계열) 모두 약값 전액 본인부담(100/100), 불승인 요법 36개(PD-L1 양성 1차 펨브롤리주맙 단독·75세 이상 니볼루맙 단독·HIPEC 등)
@@ -359,13 +347,30 @@
 - 2026-12-16 MED-0555 [superseded] 2018 대한고혈압학회 고혈압 진료지침 Part II 진단·치료 — 혈압 측정, 평가·위험도 분류, 치료 시작 시점, 목표혈압, 생활요법, 약물치료 원칙(구판)
 - 2026-12-16 MED-0556 [superseded] 2018 대한고혈압학회 고혈압 진료지침 Part III 특수 상황 고혈압 — 백의·가면고혈압, 대사증후군, 당뇨병, 고령, 심장·혈관·콩팥·뇌혈관 질환, 임신 등 상황별 권고(구판)
 - 2026-12-16 MED-0562 [superseded] 소아청소년 비만 진단·치료 임상진료지침 2019(대한소아소화기영양학회) — 진단 기준, 치료 원칙, 식이·운동·생활·정신건강, 약물, 비만수술 권고 요약
+- 2026-12-17 MED-0257 [superseded] 제2차 한국 크론병 치료 가이드라인 개정판 — 관해 유도·유지·협착·누공·수술·수술 후 재발 예방 권고 58개 요약(2017, 구판)
+- 2026-12-17 MED-0258 [superseded] 제2차 한국 궤양성 대장염 치료 가이드라인 개정판 — 활동기 치료·관해 유지·수술 적응증 권고 46개 요약(2017, 구판)
+- 2026-12-17 MED-0473 [superseded] 제2형 당뇨병 환자의 비알코올성 지방간질환(NAFLD) 입장문(대한당뇨병학회 지방간연구회) — 진단·섬유화 평가·체중감량·약물·비만수술 핵심 정리
+- 2026-12-17 MED-1289 [verified] 호스피스 건강보험 수가(행위 급여 상대가치점수 고시 제4편) — 입원형 일당정액Ⅰ·Ⅱ·입원료 별표·별도산정(2025-09-01), 가정형 방문료·통합환자관리료(2026-03-01)
+- 2026-12-17 MED-1365 [verified] 장기요양 등급 판정 현황(건보공단 경영공시) — 2025년 인정자 1,235,045명(판정인원 대비 90.1%), 등급 분포(4등급 42.1% 최다), 2026년 2분기 1,275,370명
+- 2026-12-17 MED-1407 [verified] 건강보험 차상위 본인부담 경감(시행령 별표 2 제3호라목) — 희귀난치성·중증질환자는 입원 식대 20%만, 6개월 이상 치료 필요자·18세 미만은 병원급 14%·의원 외래 1,000원 등, 소득인정액 기준 중위소득 50% 이하·부양의무자 요건
+- 2026-12-17 MED-1454 [verified] 질병·상해보험 표준약관(손해보험 회사용) <부표 9> 장해분류표와 후유장해 지급 조문 — 13개 신체부위, 영구장해 원칙·한시장해(5년 이상이면 지급률의 20%), 180일 판정, 지급률 예(두 눈 실명 100%, 장기이식·평생 투석 75%, 뇌졸중 12개월 후 평가, 만성간질환 비대상)
+- 2026-12-17 MED-1594 [verified] 도수치료 관리급여 시행(보건복지부 보도자료, 2026-07-01) — 1회 43,850원 동일 가격·본인부담률 95%, 기존 1회 평균 약 11만 원, 주 2회·연 15회(관절 구축·강직은 최대 24회), 기준 초과분은 건강보험·환자 모두 청구 불가, 피로회복·체형교정 목적은 건강보험·실손 미적용, 3년 주기 평가 / Q&A: 가산 미적용·1일 1회·연간=1~12월
 
 ## PubMed 신규 가이드라인·RCT·메타분석 (2026-11-16 이후)
 
 **위암**
+- Impact of multimodal prehabilitation on surgical recovery after elective gastrectomy for gastric cancer: a systematic review and meta-analysis. (2026 Aug 21) https://pubmed.ncbi.nlm.nih.gov/43040392/
 - Background Gastric Mucosal Pathology in Diffuse-Type Gastric Cancer: A Systematic Review and Meta-Analysis. (2026 Nov 16) https://pubmed.ncbi.nlm.nih.gov/43037891/
+**폐암**
+- Quality of Life Outcomes From the Phase 3 Study of Atezolizumab + Bevacizumab and Chemotherapy (ATTLAS, KCSG-LU19-04) in EGFR/ALK-Mutated Non-Small-Cell Lung Cancer. (2026 Nov) https://pubmed.ncbi.nlm.nih.gov/43040603/
+**유방암**
+- Effects of aerobic exercise during chemotherapy on cancer-related fatigue and health-related quality of life in patients with breast cancer: a systematic review and meta-analysis. (2026 Sep 11) https://pubmed.ncbi.nlm.nih.gov/43040497/
+- Outcome-specific differences between randomized trials and real-world studies of CDK4/6 inhibitors in hormone receptor-positive, HER2-negative advanced breast cancer: a meta-epidemiological analysis. (2026 Oct 24) https://pubmed.ncbi.nlm.nih.gov/43040468/
 **전립선암**
+- Opioid-free anaesthesia versus opioid-based anaesthesia for laparoscopic radical prostatectomy: a prespecified analysis of a single-centre randomized controlled trial. (2026 Nov 17) https://pubmed.ncbi.nlm.nih.gov/43043486/
 - Prognostic value of ctDNA in patients with prostate cancer: a meta-analysis and trial sequential analysis. (2026 Aug 18) https://pubmed.ncbi.nlm.nih.gov/43035452/
+**갑상선암**
+- Efficacy of iodine-125 seed implantation for differentiated thyroid cancer: a time-stratified systematic review and meta-analysis of comparative and single-arm studies. (2026 Nov 16) https://pubmed.ncbi.nlm.nih.gov/43040188/
 
 ## 아직 감시하지 않는 것
 
