@@ -1,63 +1,6 @@
 {
-"updated": "2026-11-17T17:06+09:00",
+"updated": "2026-11-17T18:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ra2JqR3JYbTF6SjREWnZIUVpVX2xQbG9mZmF3M1ZTV0lIMzY2RXZaTlVkTjNjZkRyUmJ0RGhvcWNNY2UtUU50Yk5hTW4zTlM3bTlrUmE0ZXJzb09TOFNRVkF3SHdJQllk?oc=5",
-"t": "2026-11-09T18:06+09:00",
-"tok": [
-"국제유가",
-"사우디",
-"후티의"
-],
-"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ra2JqR3JYbTF6SjREWnZIUVpVX2xQbG9mZmF3M1ZTV0lIMzY2RXZaTlVkTjNjZkRyUmJ0RGhvcWNNY2UtUU50Yk5hTW4zTlM3bTlrUmE0ZXJzb09TOFNRVkF3SHdJQllk?oc=5"
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9sSG5pX0NzZkVnbWowTFY1MjBESWViWE5OOEhzSnFUekt5YlNWaFh2d0JJbm81UkRVejRiS3lDa1daSGZlUzRQZy0xZjg2TWtHRDFEcTRiUWVqTG5YcFR6aDJIaDhjZEtWY1Ew?oc=5",
-"t": "2026-11-09T18:06+09:00",
-"tok": [
-"15",
-"롯데손해보험",
-"많으면",
-"세워둔",
-"자동차보험료",
-"최대",
-"할인"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE12YjZUM3l3a1RMOTltazlZb2J5bktoUnIzaVBXWnpGMnFHYTZra2xCVW5Wc1RVa0tFcVMwM2xMRE9jTHRpRm5HTVI4eEVWcWhZMUlaOUgwWWVpRWtkd0dZR3V2bFlsaGsyYXZ5bXpTQQ?oc=5",
-"t": "2026-11-09T18:06+09:00",
-"tok": [
-"11종",
-"낮춘다",
-"부담",
-"알뜰폰",
-"요금제",
-"우리은행",
-"지원",
-"쿠폰으로",
-"통신비",
-"포인트"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9kN3c0Mm5LdmFQZ0FjdDZWbDNyUG1FZERPQkwxbFBGOU0wUGhZT19FVFJTX1V1cjVBSVJsMzhPUUtheG1XQk91eDc1NEJVVnZiOThSQm1TelZ1djdyZ1FlRnljY1V1ZEtveGRNaUlB0gFzQVVfeXFMTTJBSU1DT19UOTYwek5ZSHNkbXAtSDNsRFhWTHVOS3ZycUlCV3hoUEg4Y0p5c1pvbUxhZk1vSmxCNW11VUtvTDVvLXVoQ29wTEM5WjV6WEZlRE5aVlVvOU82OW1WZk9ia0NHemNiSDkxNkpZRQ?oc=5",
-"t": "2026-11-09T18:06+09:00",
-"tok": [
-"16배",
-"높은",
-"동일",
-"산업용",
-"서울보다",
-"인천",
-"전기요금은",
-"전력자급률"
-]
-},
 {
 "kind": "단독",
 "link": "https://www.hankyung.com/article/2026110958471",
@@ -9442,6 +9385,68 @@
 "장기요양기관",
 "전산",
 "확대"
+]
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5XS01KVVJVRGc5OVp3VkpkMTdSSzhuTmRSR3hScTBKUGdaXzZLRFNXc0tORk1fVG03UkpaX2F4d2M1Uy1CZWxCc0pwVzdWelZjT2pKQ2RncTBKSFJSemtuT014MVZjcXBQSmlnck40WmtTRzBQREtj?oc=5",
+"t": "2026-11-17T18:06+09:00",
+"tok": [
+"2027년",
+"AI",
+"AIN",
+"SK하이닉스",
+"겨냥",
+"공급",
+"스토리지",
+"엔비디아",
+"차세대",
+"추진"
+]
+},
+{
+"kind": "단독",
+"link": "https://www.fnnews.com/news/202611171523306497",
+"t": "2026-11-17T18:06+09:00",
+"tok": [
+"금융감독원",
+"금융위",
+"내주",
+"발표",
+"쇄신안",
+"승인",
+"요구",
+"자료",
+"추가",
+"행정"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.sedaily.com/article/20115605",
+"t": "2026-11-17T18:06+09:00",
+"tok": [
+"KB금융",
+"국민연금",
+"선임",
+"이재근",
+"찬성",
+"회장"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQQl9ESmdQTjdnZ0ZwQTFIaGRmUmNUNEVlZW1JY2lzbndxUEhZaThaSVhZNUMweWhPZkRmLU55Z1VBNUFyQ2RJVHlQcHUwTHdvbFhSUVlFZ1h3MGZfbTFkaXRkTXh4TVRtXzdzMmN6RzJBOFRyOXN6SUwtM0R3eUUzM3JxN0pCVmk5QW44R0o4NWk1M0hGWWRnNDVNMnZyMGJUR3ZuTElXZGp4N3V4cFJZcVlYV1ZFb3E1ajUtb0oxMDdQY3J3MXVBMjNYOWlNanB5d0U1dTkxdXpWQ2ZrZmRCOTc2NUFlWndybGtlN0hTUmppbGRuZG1YSmFCMXY5NGx4SnF3TDQ2MV9XODlTOUtTdU13S29fZWxwSmNlMWhEVnNMQQ?oc=5",
+"t": "2026-11-17T18:06+09:00",
+"tok": [
+"174만원",
+"건당",
+"사고",
+"육박",
+"자동차보험",
+"줄었는데",
+"증가",
+"지급보험금은"
 ]
 }
 ]
