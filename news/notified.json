@@ -1,64 +1,6 @@
 {
-"updated": "2026-11-18T23:06+09:00",
+"updated": "2026-11-19T00:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15YzhuZnNPTXpfQXZsWFBTa0VqcVVOYV9ERW9lVWcwM1plRmFTeWpLMi0xREVBZ2N3M2hDLVRvb0FaemlOdTFBdjBzNENhaGdIYTVGczhnWUxsNFd5?oc=5",
-"t": "2026-11-11T00:06+09:00",
-"tok": [
-"10월",
-"CPI",
-"미국",
-"상회",
-"예상",
-"전월비"
-],
-"g": "https://www.newsis.com/view/NISX20261110_0003862897"
-},
-{
-"kind": "속보",
-"link": "https://www.hankyung.com/article/2026111086537",
-"t": "2026-11-11T00:06+09:00",
-"tok": [
-"10월",
-"상회",
-"소비자물가",
-"전망치",
-"전월비"
-],
-"g": "https://www.newsis.com/view/NISX20261110_0003862897"
-},
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zNjdvSVNoc0VGZzRyNVVGRDF0bHhFMDUtcDNzT1FRWTJGWVhDNU93YVVUX1RkTlBBRHVLbDN6N214LU5rbVMybDFVUFlCbmhrZkhlTjd2OFNLNjdOQXBybXZvbWZhd0Z00gFsQVVfeXFMTmp4OE16OE15bDI5MWtVRjdMU0RqMWp1ajZZZ1FVbFZHMG1XOVlWUnJ2TDgtVWZtWlp3TURUaEtXTFNpZm5RdFZjZkpXR3ZVSk16UGdvazFTZExoM0ItRkNOczRtSkdDQldMV0d5?oc=5",
-"t": "2026-11-11T00:06+09:00",
-"tok": [
-"공개매수",
-"상장사",
-"상폐",
-"에스텍",
-"추진",
-"코스닥",
-"포스타전기"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261110_0003862913",
-"t": "2026-11-11T00:06+09:00",
-"tok": [
-"CPI에",
-"기술주",
-"뉴욕증시",
-"압박",
-"예상",
-"웃돈",
-"출발",
-"하락"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261110_0003862913"
-},
 {
 "kind": "속보",
 "link": "https://www.fnnews.com/news/202611110600548589",
@@ -9275,6 +9217,76 @@
 "자동차",
 "적발",
 "킥보드"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sZXNfZXZvdUdEYWUzdGtNX1FUNHBxUlJsSEpFWE9RVzV6Q3hmYTcyYTlxb0tJY1FSdjFpR3RVb1hPc0JZWndXUGN1N3ZGSFZ6WHB3MFdlNHdRMmV4bHVpY1NLY2dCRklqcThDaTVn?oc=5",
+"t": "2026-11-19T00:06+09:00",
+"tok": [
+"7배",
+"IPO",
+"경쟁률",
+"공모가",
+"공모주",
+"상단",
+"앤트로픽",
+"이상",
+"전망",
+"청약"
+],
+"g": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sZXNfZXZvdUdEYWUzdGtNX1FUNHBxUlJsSEpFWE9RVzV6Q3hmYTcyYTlxb0tJY1FSdjFpR3RVb1hPc0JZWndXUGN1N3ZGSFZ6WHB3MFdlNHdRMmV4bHVpY1NLY2dCRklqcThDaTVn?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261118_0003874093",
+"t": "2026-11-19T00:06+09:00",
+"tok": [
+"29",
+"78",
+"공모가",
+"나스닥",
+"뉴욕",
+"다우",
+"발표",
+"앤트로픽",
+"증시",
+"출발",
+"혼조세"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sZXNfZXZvdUdEYWUzdGtNX1FUNHBxUlJsSEpFWE9RVzV6Q3hmYTcyYTlxb0tJY1FSdjFpR3RVb1hPc0JZWndXUGN1N3ZGSFZ6WHB3MFdlNHdRMmV4bHVpY1NLY2dCRklqcThDaTVn?oc=5"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5WMkY4VnFnZmFnaUM0WU9ubTA5VF9ad1VNeEhuNFVYU2N4Y3VrOG5DbG40U0QzNEZHeHl1cFVjME01RWNYd3A2RFhDWlJraEhpMUxGUGMzT3LSAVhBVV95cUxOVjJGOFZxZ2ZhZ2lDNFlPbm0wOVRfWndVTXhIbjRVWFNjeGN1azhuQ2xuNFNEMzRGR3h5dXBVYzBNNUVjWHdwNkRYQ1pSa2hIaTFMRlBjM09y?oc=5",
+"t": "2026-11-19T00:06+09:00",
+"tok": [
+"DB형",
+"변수",
+"수급",
+"연말",
+"이동",
+"자금",
+"퇴직연금",
+"한투증권",
+"회사채"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9yZ3pnWFFvVGdFOE1JS0FxLVBFMm9xeWd3YkViQjh1LUdXTUROdjVWV2hkdFc3eFE5Wk1aWVprNHJGX3l6TFpMQ0h5M1lLdjNQR283Q3BLelBuR1dVMDNDLURXRm4tVUF4cWVnbg?oc=5",
+"t": "2026-11-19T00:06+09:00",
+"tok": [
+"10년",
+"간호조무사",
+"경력자도",
+"수준",
+"없어",
+"예외",
+"이하",
+"절반이",
+"최저임금"
 ]
 }
 ]
