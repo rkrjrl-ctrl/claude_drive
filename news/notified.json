@@ -1,147 +1,6 @@
 {
-"updated": "2026-11-19T07:05+09:00",
+"updated": "2026-11-19T08:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPWEV5cy1sZTIzTldVUkhDTkZfTF9LX00wRGlDcndwMi1rcWFvZWZJczdqMVRpc3JTTzhjYnJtOUdKanpWRWJPY3JLQnV4VTdGaTIxLS1DMnZVc1FYM1JnQTQ5cHBhcms?oc=5",
-"t": "2026-11-11T07:06+09:00",
-"tok": [
-"74",
-"CPI",
-"나스닥",
-"마감",
-"부상",
-"빅스텝",
-"상회에",
-"연준",
-"예상",
-"하락"
-],
-"m": 1,
-"g": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPWEV5cy1sZTIzTldVUkhDTkZfTF9LX00wRGlDcndwMi1rcWFvZWZJczdqMVRpc3JTTzhjYnJtOUdKanpWRWJPY3JLQnV4VTdGaTIxLS1DMnZVc1FYM1JnQTQ5cHBhcms?oc=5"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9hOUo5YUJMeUZ2MGpZWXE2NlRMS3REYV9lV2RNWkRocXRlTC1WemltekNWalJrVTRmTEhIeDJvOTBRQ3ZhSFc1YmllYjgxbmlxNXREdw?oc=5",
-"t": "2026-11-11T07:06+09:00",
-"tok": [
-"WTI",
-"국제유가",
-"하락"
-],
-"g": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9hOUo5YUJMeUZ2MGpZWXE2NlRMS3REYV9lV2RNWkRocXRlTC1WemltekNWalJrVTRmTEhIeDJvOTBRQ3ZhSFc1YmllYjgxbmlxNXREdw?oc=5"
-},
-{
-"kind": "단독",
-"link": "http://www.edaily.co.kr/news/newspath.asp?newsid=01987686645644736",
-"t": "2026-11-11T07:06+09:00",
-"tok": [
-"4조",
-"강남건물",
-"국민연금",
-"운용사교체",
-"의혹",
-"점수조작"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.hankyung.com/article/2026111187697",
-"t": "2026-11-11T07:06+09:00",
-"tok": [
-"35",
-"CPI",
-"가능성",
-"반도체",
-"상회",
-"연준",
-"예상",
-"인상",
-"지수",
-"하락"
-],
-"g": "https://www.hankyung.com/article/2026111187697"
-},
-{
-"kind": "속보",
-"link": "http://www.edaily.co.kr/news/newspath.asp?newsid=02030326645644736",
-"t": "2026-11-11T07:06+09:00",
-"tok": [
-"경계",
-"나스닥",
-"물가에",
-"빅스텝",
-"하락",
-"하루만에"
-],
-"m": 1,
-"g": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPWEV5cy1sZTIzTldVUkhDTkZfTF9LX00wRGlDcndwMi1rcWFvZWZJczdqMVRpc3JTTzhjYnJtOUdKanpWRWJPY3JLQnV4VTdGaTIxLS1DMnZVc1FYM1JnQTQ5cHBhcms?oc=5"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1ycDJwNnlKTjgtTjRQQTBFM09iMkNUTkJ6cFR6dWs2bWpxRmZkTE1iblUtaVNLYXBGMU5fZC1jMkpPeXBVcU0wMm5RMUlNXzl6?oc=5",
-"t": "2026-11-11T07:06+09:00",
-"tok": [
-"10",
-"74",
-"급락",
-"나스닥",
-"엔비디아",
-"이틀간"
-],
-"m": 1,
-"g": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPWEV5cy1sZTIzTldVUkhDTkZfTF9LX00wRGlDcndwMi1rcWFvZWZJczdqMVRpc3JTTzhjYnJtOUdKanpWRWJPY3JLQnV4VTdGaTIxLS1DMnZVc1FYM1JnQTQ5cHBhcms?oc=5"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKRXdjM3NNWFd6OUFCU3k5ZDRGRi1vZ1Y1TXlWdDJhby1IRGhkdXFVWGtWOVlyRjVfZkdMYVNuMjZGbWJaTkZ3MUR5WG52VG1PTnhyWGcwX1ZMVjd0X1NnY1A0bkNxc1NH?oc=5",
-"t": "2026-11-11T07:06+09:00",
-"tok": [
-"47",
-"AMD",
-"급락",
-"기술주",
-"미국증시",
-"브로드컴은",
-"상승",
-"엔비디아",
-"흔들"
-],
-"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKRXdjM3NNWFd6OUFCU3k5ZDRGRi1vZ1Y1TXlWdDJhby1IRGhkdXFVWGtWOVlyRjVfZkdMYVNuMjZGbWJaTkZ3MUR5WG52VG1PTnhyWGcwX1ZMVjd0X1NnY1A0bkNxc1NH?oc=5"
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT0VndVhEdTdTNklfaFYtZ1dQNTJfOC1KYnpuLVlhSW9LSDlPdEk1MUY1dEY1X3NxbDN4elN4SmVfUThIOG4yRmxERDczRk9DRTRsNXRSNXpKNTk2YnNuT0c2RDU1QWZZVGc2cGpOOEZGY1hSV1ctOEp2QmZXekdIUGpqY1JVQXpK?oc=5",
-"t": "2026-11-11T07:06+09:00",
-"tok": [
-"187P",
-"CPI",
-"공포",
-"급락",
-"나스닥",
-"뉴욕증시",
-"빅스텝",
-"쇼크에",
-"엔비디아",
-"연준"
-]
-},
-{
-"kind": "단독",
-"link": "https://www.insjournal.co.kr/news/articleView.html?idxno=33856",
-"t": "2026-11-11T08:06+09:00",
-"tok": [
-"간병인보험",
-"금감원",
-"보장금액",
-"보장한도",
-"손보나",
-"손해율",
-"정밀",
-"조사",
-"착수"
-]
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWUJJazVILURsMzdqeUZ2N0VXNEpfMGVCNVZ5TmxURk9TWWE4NWdyQ0pWRk5nVjFoSzdidmE4NzZxMkdhUXkzVzZXUHJrVWs5QkF5d0x6ZkVIQ1pxekhGT3ZMY1BCMDlWVENFNHhhdEtOdEpGRXBKNEk3aktuUmdyWEZFWkt5UTBaZ25xTW5R?oc=5",
@@ -9386,6 +9245,121 @@
 "주당"
 ],
 "g": "https://www.yna.co.kr/view/AKR20261119008400072"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBvSUdsbjVrRGtnVXBVWlZnQWRLVEZNQkZGdzBEQmkyOFZqLVUtSkZMaFYyUU83cXNXblh4SEVJZGdiYWZNYkJnb2dqMVB1UldiWTR4ZE54V1U?oc=5",
+"t": "2026-11-19T08:06+09:00",
+"tok": [
+"6만2000달러대",
+"비트코인",
+"하락"
+],
+"g": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBvSUdsbjVrRGtnVXBVWlZnQWRLVEZNQkZGdzBEQmkyOFZqLVUtSkZMaFYyUU83cXNXblh4SEVJZGdiYWZNYkJnb2dqMVB1UldiWTR4ZE54V1U?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.fnnews.com/news/202611190602253740",
+"t": "2026-11-19T08:06+09:00",
+"tok": [
+"나스닥지수만",
+"뉴욕증시",
+"반등",
+"엔비디아",
+"하락"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611190602253740"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1jRlpHcDJNaEdZYTMzWHVOU2JrcDIyTVlEMmNqN2VNZGtEdVBHSUU2RUwzMlV4V20wUmtJWGpFOEpXRjJxTnZMMkROMmV1bC1maG8zd3pRZHZSOFNrZXRzZ1Y5YWY1eUJtRHVjQQ?oc=5",
+"t": "2026-11-19T08:06+09:00",
+"tok": [
+"WTI",
+"국제유가",
+"급락"
+],
+"g": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1jRlpHcDJNaEdZYTMzWHVOU2JrcDIyTVlEMmNqN2VNZGtEdVBHSUU2RUwzMlV4V20wUmtJWGpFOEpXRjJxTnZMMkROMmV1bC1maG8zd3pRZHZSOFNrZXRzZ1Y5YWY1eUJtRHVjQQ?oc=5"
+},
+{
+"kind": "속보",
+"link": "http://www.edaily.co.kr/news/newspath.asp?newsid=01384166645647360",
+"t": "2026-11-19T08:06+09:00",
+"tok": [
+"다우",
+"엔비디아",
+"증시",
+"호실적에도",
+"혼조"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611190602253740"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026111905060636400",
+"t": "2026-11-19T08:06+09:00",
+"tok": [
+"5거래일",
+"P500",
+"뉴욕증시",
+"마감",
+"매도세에",
+"엔비디아",
+"연속",
+"하락",
+"혼조"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611190602253740"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tc1JJdTRQa3VGTDVYYlRhZkh6ZkNDVm4tcHJxaWYyWjF4dEhPZndCaXlzUC1fU0pUY2ZxOFBjR1UyMW9MdC1odUFQQThVTEpD?oc=5",
+"t": "2026-11-19T08:06+09:00",
+"tok": [
+"다우",
+"실적",
+"엔비디아",
+"좋았는데"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611190602253740"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Rd3ZYaXNDVlRFbjNKdVVUS1RuRnRnX3ItVWZNcGlvMWthQVoxUldLNTJGZnNvSW9HejJlYUxDU1Y0anlDWkxJcjk0UjJrdjN6aVpXNVdB?oc=5",
+"t": "2026-11-19T08:06+09:00",
+"tok": [
+"고개",
+"금리",
+"급락에",
+"뉴욕증시",
+"소용없네",
+"실적",
+"엔비디아",
+"연준",
+"인상론도",
+"좋아도",
+"투자360",
+"혼조"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB2MndvSnFDMjBXOFN1Mkpsakl0UWtwLWJiRVBMRjBIY1htejFhUGJwaEhGN3pBaWpsUm5rSEoxWGJCelJkQXQ3WUJMNXlWQ2F0RUpCcmtTdjFOLUZHZEwtSVF6YVlzWG93bFHSAW5BVV95cUxPcThmXzBRREg4LWN1QmZidzI1aTNfeGVFaHJTd2tRUFhiRkpvd3Bta2VEZ05PLXpOQUMxUXotTHpwLWNYSUhFemswT1d3MFFXTVYySnRTMmU5SXdwMWJGSzVZNjBLakhOcHlRRmFRUQ?oc=5",
+"t": "2026-11-19T08:06+09:00",
+"tok": [
+"11",
+"WTI",
+"국제유가",
+"급락",
+"나스닥",
+"뉴욕증시",
+"다우",
+"혼조세"
+]
 }
 ]
 }
