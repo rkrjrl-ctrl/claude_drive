@@ -1,48 +1,6 @@
 {
-"updated": "2026-11-18T18:06+09:00",
+"updated": "2026-11-18T19:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://www.hankyung.com/article/2026111084481",
-"t": "2026-11-10T18:59+09:00",
-"tok": [
-"공식",
-"금리",
-"대출도",
-"뒤집힌",
-"예금도",
-"이상하다"
-]
-},
-{
-"kind": "단독",
-"link": "https://www.hankyung.com/article/2026111083071",
-"t": "2026-11-10T18:59+09:00",
-"tok": [
-"1년짜리보다",
-"6개월",
-"기준금리",
-"높아져",
-"대출에",
-"선반영",
-"예금",
-"인상"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBXM2tMd3ppQW1vRHFTSWU3ZGtqalNFNy1qTnYyMmJwSkI1VnpSOHF3b0d5YVlKeHVOMUlnQzVLZ0hQX2NvN3JxV2xZMHNPU0NxcHhOaDZ6UndYZndpUkxwc3RDR0QteFFX?oc=5",
-"t": "2026-11-10T18:59+09:00",
-"tok": [
-"감사장",
-"밀양경찰서",
-"보이스피싱",
-"예방",
-"은행원에",
-"전달",
-"피해"
-]
-},
 {
 "kind": "단독",
 "link": "https://www.fnnews.com/news/202611101750417954",
@@ -9381,6 +9339,68 @@
 "항암신약",
 "확인",
 "효과"
+]
+},
+{
+"kind": "단독",
+"link": "https://www.sedaily.com/article/20116126",
+"t": "2026-11-18T19:06+09:00",
+"tok": [
+"AIDC",
+"메운다",
+"보험",
+"사각지대",
+"삼성화재",
+"연합에",
+"정부",
+"합류"
+]
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kMUVWaUgzMm9mLUZvZzNldUZ1cmlBY2hPWlNHQi05ZGNmT3pPRlB5bGk2SVNPNGFRenpVMlNYNUItQTBlN3A0cFcxSGRobkJhclc0T09zaVJlMktVSnRiYQ?oc=5",
+"t": "2026-11-18T19:06+09:00",
+"tok": [
+"14만톤",
+"반도체",
+"삼성",
+"수요",
+"용수",
+"차이",
+"하루",
+"하이닉스",
+"호남"
+]
+},
+{
+"kind": "단독",
+"link": "https://www.khan.co.kr/article/202611181856001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=society_news",
+"t": "2026-11-18T19:06+09:00",
+"tok": [
+"경찰",
+"발견",
+"수사",
+"시신",
+"신생아",
+"아파트",
+"하남시",
+"헌옷수거함에서"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.insnews.co.kr/news/articleView.html?idxno=93916",
+"t": "2026-11-18T19:06+09:00",
+"tok": [
+"강화",
+"박성훈",
+"발의",
+"실손보험",
+"의료보장",
+"의원",
+"전역",
+"제대군인",
+"지원법"
 ]
 }
 ]
