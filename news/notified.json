@@ -1,72 +1,6 @@
 {
-"updated": "2026-11-18T08:06+09:00",
+"updated": "2026-11-18T09:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261110_0003861438",
-"t": "2026-11-10T09:06+09:00",
-"tok": [
-"22",
-"56",
-"661",
-"73",
-"76포인트",
-"개장",
-"오른",
-"코스닥"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261110_0003861438"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261110_0003861437",
-"t": "2026-11-10T09:06+09:00",
-"tok": [
-"22",
-"228",
-"37포인트",
-"5247",
-"55",
-"개장",
-"오른",
-"코스피"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261110_0003861438"
-},
-{
-"kind": "속보",
-"link": "https://view.asiae.co.kr/article/2026111009032722551",
-"t": "2026-11-10T09:06+09:00",
-"tok": [
-"급등",
-"출발",
-"코스닥",
-"코스피"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261110_0003861438"
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE55UnN4cUhWb3RVMld6RHpXVWtpZlJteEZmOXhkcE1fazFvQ3NUcXJNaE56ZVhHY2lRMUVnNVZwRXdYMG9sLWNMT2t3?oc=5",
-"t": "2026-11-10T09:06+09:00",
-"tok": [
-"80",
-"ETF",
-"금리",
-"리플",
-"비트코인",
-"약세",
-"연준",
-"이더리움",
-"이탈에",
-"인상",
-"자금",
-"확률"
-]
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBVcVhiY1VUQUpRSWNralRKZzRqRklKYnpTSnpEbkpFRXpIT0JtSjBMdmY0aWF1TEc3NnpoaGtQTkJReHNXMl9KYWFwYU9ueDNhYU15SUN4ZkJTeGwzWDhtNQ?oc=5",
@@ -9722,6 +9656,228 @@
 "자산",
 "하락"
 ]
+},
+{
+"kind": "속보",
+"link": "https://www.hankyung.com/article/202611183308i",
+"t": "2026-11-18T09:06+09:00",
+"tok": [
+"복귀시킬",
+"없다",
+"엔비디아",
+"의사",
+"의장",
+"젠슨"
+],
+"g": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JR1I3VUEtVWVMU3d1Q3hwM1BMdFBZTUpQVXY1TEJPeGJoS0tUNDIyMDh2a3JHdy0yaVZqb1ItQzlvT0p1WXRxbWVYWXVKOF91dWFuV3NGTTN1MXdGUEN5RDVadkw1WHc?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.hankyung.com/article/2026111833267",
+"t": "2026-11-18T09:06+09:00",
+"tok": [
+"계획",
+"복귀시킬",
+"없다",
+"엔비디아",
+"의장",
+"이사회",
+"젠슨"
+],
+"g": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JR1I3VUEtVWVMU3d1Q3hwM1BMdFBZTUpQVXY1TEJPeGJoS0tUNDIyMDh2a3JHdy0yaVZqb1ItQzlvT0p1WXRxbWVYWXVKOF91dWFuV3NGTTN1MXdGUEN5RDVadkw1WHc?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xbk9ralU5V1BkT3hkT19PeVl0YWV6QVlwdkVvdTlFeVZaWElqQTZ6cFd1cEl4UzhKYzdRR0RrMkhqQUo3NHlpdVU2UXBGYWNQU281b3ZJU3IwZFMteURaZkFZSGg3eTQ?oc=5",
+"t": "2026-11-18T09:06+09:00",
+"tok": [
+"CEO",
+"계약",
+"공급",
+"기판",
+"반도체",
+"삼성전기와",
+"신규",
+"엔비디아",
+"임시"
+],
+"g": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xNUx2cDl3dlRIZ2pnSnRYTDNSVy1vbzgtSnZrMFRabzNyeUVxYzN4bzJ0cGI3WktCSDVnRG80TERxQWxiRGZTdVlpX3habWQ5aGpfQ25qdlNUUHJOaDQ4R3JiS0xBdnM?oc=5"
+},
+{
+"kind": "속보",
+"link": "http://www.edaily.co.kr/news/newspath.asp?newsid=01751526645647032",
+"t": "2026-11-18T09:06+09:00",
+"tok": [
+"CEO",
+"없다",
+"엔비디아",
+"의사",
+"이사회",
+"재선임",
+"젠슨"
+],
+"g": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JR1I3VUEtVWVMU3d1Q3hwM1BMdFBZTUpQVXY1TEJPeGJoS0tUNDIyMDh2a3JHdy0yaVZqb1ItQzlvT0p1WXRxbWVYWXVKOF91dWFuV3NGTTN1MXdGUEN5RDVadkw1WHc?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261118_0003872364",
+"t": "2026-11-18T09:06+09:00",
+"tok": [
+"복직시킬",
+"없어",
+"엔비디아",
+"의사",
+"의장",
+"이사회",
+"젠슨"
+],
+"g": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JR1I3VUEtVWVMU3d1Q3hwM1BMdFBZTUpQVXY1TEJPeGJoS0tUNDIyMDh2a3JHdy0yaVZqb1ItQzlvT0p1WXRxbWVYWXVKOF91dWFuV3NGTTN1MXdGUEN5RDVadkw1WHc?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSNGRNaWdGT2pDSjFIaU9XOXBJQXljbjhFaW9TUXRnNFh1YlkxNEVFdy05N0dBM1FDR3lwRG1HTFJ1TVVMVEp6R3BDZVRCNXRSa2ViUDZqWmpkay1CeFd5eWZxcE9oV01mMHNFTXRHUmJ5b1Bz0gF0QVVfeXFMUHZyZk1oQlNaQ3VfQ3YxRjlOLUhDTlhIV3ZMUElIMEp6Rl9mdE13dFhCM3oyMUJRRWc4RTlqa1k2MmlFR19scTA2VFZGX2c2TUEzRzVWY3NHMEhTdEVkLXUyWGoyblZTVjV3MXB0NG1JYmRUUW0?oc=5",
+"t": "2026-11-18T09:06+09:00",
+"tok": [
+"없어",
+"엔비디아",
+"의사",
+"의장",
+"이사회",
+"재선임",
+"젠슨"
+],
+"g": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JR1I3VUEtVWVMU3d1Q3hwM1BMdFBZTUpQVXY1TEJPeGJoS0tUNDIyMDh2a3JHdy0yaVZqb1ItQzlvT0p1WXRxbWVYWXVKOF91dWFuV3NGTTN1MXdGUEN5RDVadkw1WHc?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9FamFoR0U4QzBVSUxmYWRuWk5sTV90c0p1NDVhQUZtRzVwekVtdXZ6emVMS2ppU0NZN1dBZ2FOdXRrbjgxcTd0ekdSQ3o2bm5Ba1pfMWhrU0FPMkJFcjYzMEFYMkhyQ3ZzY3BPVFlURVRINnk5YXYw?oc=5",
+"t": "2026-11-18T09:06+09:00",
+"tok": [
+"복귀",
+"불륜",
+"없다",
+"엔비디아",
+"의사에",
+"이사회",
+"재선임",
+"젠슨"
+],
+"g": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JR1I3VUEtVWVMU3d1Q3hwM1BMdFBZTUpQVXY1TEJPeGJoS0tUNDIyMDh2a3JHdy0yaVZqb1ItQzlvT0p1WXRxbWVYWXVKOF91dWFuV3NGTTN1MXdGUEN5RDVadkw1WHc?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RRllwRlViT2RkR2t2M3JENUlkbFZiU1FYTkxYSUlJNzlGNFNTR0gzYlpMR3oyOUQtSDcyZVNEbUl5ZHltaWcwUHBpYl9oM0M2LXZRejltRnlwSjA?oc=5",
+"t": "2026-11-18T09:06+09:00",
+"tok": [
+"계획",
+"복귀",
+"없다",
+"엔비디아",
+"의장",
+"이사회",
+"젠슨",
+"찾는",
+"후임자"
+],
+"g": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JR1I3VUEtVWVMU3d1Q3hwM1BMdFBZTUpQVXY1TEJPeGJoS0tUNDIyMDh2a3JHdy0yaVZqb1ItQzlvT0p1WXRxbWVYWXVKOF91dWFuV3NGTTN1MXdGUEN5RDVadkw1WHc?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1xOHVBbGVoM1hiVmZfaGQ4Mjd0MHZSeGZreTJIVDljUVJTUVVqRXNHZ2s0eThrTzNXVnRSdjVreWxnVGRBQkxhaENNQlNCRl9fbURlU2FBWlM4QjMxVUN4SmFJZ2xJQkVsUGdlVzNseC1sakx5UE5OUkgxVdIBgAFBVV95cUxPT0k5SlR0VVJfS0tJVzBpN2p1Z3RCcklZRGlkZHdTOGpBcFpPR2VyUko2a0NVSVlQMXFkUmJvTGZiTExxTmtlUXRNdjFvUE1oYXd6VWYtb3FyY1lBT3FpWldrdldNVU9SZXJVN294OG12a01GZWNhUzBMcEM1bE1hZw?oc=5",
+"t": "2026-11-18T09:06+09:00",
+"tok": [
+"급등세",
+"뉴욕증시",
+"반등",
+"삼전닉스",
+"서프라이즈",
+"시간외",
+"어닝",
+"엔비디아",
+"프리장"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1xOHVBbGVoM1hiVmZfaGQ4Mjd0MHZSeGZreTJIVDljUVJTUVVqRXNHZ2s0eThrTzNXVnRSdjVreWxnVGRBQkxhaENNQlNCRl9fbURlU2FBWlM4QjMxVUN4SmFJZ2xJQkVsUGdlVzNseC1sakx5UE5OUkgxVdIBgAFBVV95cUxPT0k5SlR0VVJfS0tJVzBpN2p1Z3RCcklZRGlkZHdTOGpBcFpPR2VyUko2a0NVSVlQMXFkUmJvTGZiTExxTmtlUXRNdjFvUE1oYXd6VWYtb3FyY1lBT3FpWldrdldNVU9SZXJVN294OG12a01GZWNhUzBMcEM1bE1hZw?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261118_0003872462",
+"t": "2026-11-18T09:06+09:00",
+"tok": [
+"5000선",
+"5098",
+"62",
+"82",
+"오른",
+"출발",
+"코스피",
+"회복"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1xOHVBbGVoM1hiVmZfaGQ4Mjd0MHZSeGZreTJIVDljUVJTUVVqRXNHZ2s0eThrTzNXVnRSdjVreWxnVGRBQkxhaENNQlNCRl9fbURlU2FBWlM4QjMxVUN4SmFJZ2xJQkVsUGdlVzNseC1sakx5UE5OUkgxVdIBgAFBVV95cUxPT0k5SlR0VVJfS0tJVzBpN2p1Z3RCcklZRGlkZHdTOGpBcFpPR2VyUko2a0NVSVlQMXFkUmJvTGZiTExxTmtlUXRNdjFvUE1oYXd6VWYtb3FyY1lBT3FpWldrdldNVU9SZXJVN294OG12a01GZWNhUzBMcEM1bE1hZw?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.fnnews.com/news/202611180900582510",
+"t": "2026-11-18T09:06+09:00",
+"tok": [
+"5000선",
+"상승",
+"출발",
+"코스피",
+"회복"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1xOHVBbGVoM1hiVmZfaGQ4Mjd0MHZSeGZreTJIVDljUVJTUVVqRXNHZ2s0eThrTzNXVnRSdjVreWxnVGRBQkxhaENNQlNCRl9fbURlU2FBWlM4QjMxVUN4SmFJZ2xJQkVsUGdlVzNseC1sakx5UE5OUkgxVdIBgAFBVV95cUxPT0k5SlR0VVJfS0tJVzBpN2p1Z3RCcklZRGlkZHdTOGpBcFpPR2VyUko2a0NVSVlQMXFkUmJvTGZiTExxTmtlUXRNdjFvUE1oYXd6VWYtb3FyY1lBT3FpWldrdldNVU9SZXJVN294OG12a01GZWNhUzBMcEM1bE1hZw?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.edaily.co.kr/News/Read?newsId=02154966645647032",
+"t": "2026-11-18T09:06+09:00",
+"tok": [
+"5000선",
+"5098",
+"62",
+"82",
+"오른",
+"출발",
+"코스피",
+"하루만에",
+"회복"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1xOHVBbGVoM1hiVmZfaGQ4Mjd0MHZSeGZreTJIVDljUVJTUVVqRXNHZ2s0eThrTzNXVnRSdjVreWxnVGRBQkxhaENNQlNCRl9fbURlU2FBWlM4QjMxVUN4SmFJZ2xJQkVsUGdlVzNseC1sakx5UE5OUkgxVdIBgAFBVV95cUxPT0k5SlR0VVJfS0tJVzBpN2p1Z3RCcklZRGlkZHdTOGpBcFpPR2VyUko2a0NVSVlQMXFkUmJvTGZiTExxTmtlUXRNdjFvUE1oYXd6VWYtb3FyY1lBT3FpWldrdldNVU9SZXJVN294OG12a01GZWNhUzBMcEM1bE1hZw?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://biz.chosun.com/stock/stock_general/2026/11/18/HEZTMZJYGRSTSNRZGU4DIMJXGQ/",
+"t": "2026-11-18T09:06+09:00",
+"tok": [
+"5000선",
+"엔비디아",
+"코스피",
+"호실적에",
+"회복"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1xOHVBbGVoM1hiVmZfaGQ4Mjd0MHZSeGZreTJIVDljUVJTUVVqRXNHZ2s0eThrTzNXVnRSdjVreWxnVGRBQkxhaENNQlNCRl9fbURlU2FBWlM4QjMxVUN4SmFJZ2xJQkVsUGdlVzNseC1sakx5UE5OUkgxVdIBgAFBVV95cUxPT0k5SlR0VVJfS0tJVzBpN2p1Z3RCcklZRGlkZHdTOGpBcFpPR2VyUko2a0NVSVlQMXFkUmJvTGZiTExxTmtlUXRNdjFvUE1oYXd6VWYtb3FyY1lBT3FpWldrdldNVU9SZXJVN294OG12a01GZWNhUzBMcEM1bE1hZw?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261118_0003872465",
+"t": "2026-11-18T09:06+09:00",
+"tok": [
+"14",
+"29",
+"664",
+"87포인트",
+"93",
+"개장",
+"오른",
+"코스닥"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1xOHVBbGVoM1hiVmZfaGQ4Mjd0MHZSeGZreTJIVDljUVJTUVVqRXNHZ2s0eThrTzNXVnRSdjVreWxnVGRBQkxhaENNQlNCRl9fbURlU2FBWlM4QjMxVUN4SmFJZ2xJQkVsUGdlVzNseC1sakx5UE5OUkgxVdIBgAFBVV95cUxPT0k5SlR0VVJfS0tJVzBpN2p1Z3RCcklZRGlkZHdTOGpBcFpPR2VyUko2a0NVSVlQMXFkUmJvTGZiTExxTmtlUXRNdjFvUE1oYXd6VWYtb3FyY1lBT3FpWldrdldNVU9SZXJVN294OG12a01GZWNhUzBMcEM1bE1hZw?oc=5"
 }
 ]
 }
