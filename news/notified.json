@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T12:06+09:00",
+"updated": "2026-11-18T13:06+09:00",
 "items": [
 {
 "kind": "gov",
@@ -9419,6 +9419,51 @@
 "신청",
 "유방암",
 "진단제"
+]
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94ZzR6d2FZbXptQTR4R2EzS1Iyai0tUmRnUzlTVGdFSDFHS1RqM2hDaHV4TDN3MFZFeTRDNi1ESm9sR1lETWZpTFhjWngxcmxHRXNaNnp3?oc=5",
+"t": "2026-11-18T13:06+09:00",
+"tok": [
+"12억",
+"706세대에",
+"못받았다",
+"안내없어",
+"주거지원금",
+"추가신청",
+"탈북민"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.insnews.co.kr/news/articleView.html?idxno=93904",
+"t": "2026-11-18T13:06+09:00",
+"tok": [
+"고의사고",
+"보험금",
+"보험사기",
+"자동차",
+"주의보",
+"편취",
+"허위입원으로"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1WUlloX0lKZ3ZfZ3J5QkZ0X2R6NGJoZ0pqOURuV3kzdUtWeVpYQmtnMkhuZ1BBaGtlZnkwVUx6RWR6QQ?oc=5",
+"t": "2026-11-18T13:06+09:00",
+"tok": [
+"70대",
+"8천만원",
+"경주우체국",
+"고객",
+"기지",
+"막아",
+"발휘해",
+"보이스피싱",
+"직원",
+"피해"
 ]
 }
 ]
