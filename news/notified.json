@@ -1,44 +1,6 @@
 {
-"updated": "2026-11-18T14:06+09:00",
+"updated": "2026-11-18T15:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbWpFcnU3TFduNjU3dkdLM0hGNHRGVWs3WVJsVjFCOXBQSjBlSGxHemlNMWUzakI1azFKNHRKbEZmMGdlSjF3TmNiQjVRVEx0ajVneGVBRDBhRzdtUVVFTHhpS2hhbC00VHZsakNlYVJYa1EwQ1VXU1NGNWJQeTIwNVkzQW1Ka3hM?oc=5",
-"t": "2026-11-10T15:06+09:00",
-"tok": [
-"5대",
-"RFA",
-"관세",
-"무역",
-"반도체",
-"시진핑",
-"앞두고",
-"요구안",
-"자유아시아방송",
-"준비",
-"중국",
-"투자",
-"트럼프",
-"포함",
-"회담"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9RbzFkYXdLcFgySWxRZVA3ZDNGa1N4ZDZ4MzEzSUpWamVuQnZDSTYyeHc1NUtrY01VSm9PbWZ0MlFxWXdQQ2xzZHUxOTN0NGJka2xXaFFSZXBPdVhLaGEyS25KOGdER0xRVzNFWEln?oc=5",
-"t": "2026-11-10T15:06+09:00",
-"tok": [
-"50",
-"관리운영비",
-"국가",
-"국민연금",
-"남인순",
-"발의",
-"법안",
-"부담",
-"의원"
-]
-},
 {
 "kind": "gov",
 "link": "https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11066447&menuNo=200690",
@@ -9386,6 +9348,23 @@
 "직원",
 "피해"
 ]
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261118_0003873231",
+"t": "2026-11-18T15:06+09:00",
+"tok": [
+"관세",
+"막아",
+"발전",
+"성장",
+"수출제한",
+"있지만",
+"저해할",
+"제재",
+"푸틴"
+],
+"g": "https://www.newsis.com/view/NISX20261118_0003873231"
 }
 ]
 }
