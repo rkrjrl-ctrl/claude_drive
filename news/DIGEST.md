@@ -1,30 +1,30 @@
 # 경제·보험·생활 뉴스 요약 (자동 생성 — 직접 수정 금지)
 
-- 갱신: 2026-11-19 22:05 KST  /  최근 7일 34597건 (보험·의료 3257 · 투자·경제 15175 · 생활·사회 15270)  /  이번 신규 394건
+- 갱신: 2026-11-19 23:05 KST  /  최근 7일 34602건 (보험·의료 3266 · 투자·경제 15144 · 생활·사회 15296)  /  이번 신규 382건
 - 소스 79곳 + 구글뉴스 키워드 110개(보험·의료 45 · 투자·경제 45 · 생활 20)  /  네이버 미사용
 - 제목·링크만 저장한다. **소재 후보**이며 근거 자료가 아니다. 영상에 쓰기 전 1차 출처로 확인한다.
 - 같은 소식은 표현이 달라도 한 줄로 묶고, **다룬 매체 수 순**으로 보인다. 대표 기사는 주요 매체의 직접 주소를 먼저 고른다. 홍보성 기사·행사 보도자료는 뺀다.
-- 수집 실패 소스: 구글뉴스 비즈니스
+- 수집 실패 소스: 없음
 
 ## 오늘의 큰 뉴스 (최근 24시간, 분야 상관없이 여러 매체가 다룬 순)
 
-- [투자·경제] 11-19 아시아경제 증권 — [삼성운용, KODEX 미국S&P500 ETF 연초 이후 개인순매수 3조 돌파](https://view.asiae.co.kr/article/2026111908385107868) — **55개 매체**·63건
+- [투자·경제] 11-19 아시아경제 증권 — [삼성운용, KODEX 미국S&P500 ETF 연초 이후 개인순매수 3조 돌파](https://view.asiae.co.kr/article/2026111908385107868) — **55개 매체**·64건
 - [투자·경제] 11-19 한국경제 경제 — [반도체의 나라…수출 1조달러 돌파](https://www.hankyung.com/article/2026111982821) — **45개 매체**·77건
 - [보험·의료] 11-19 한겨레 경제 — [금감원 “저축성보험 만기 3년 후에도 연금 전환할 수 있어요”](https://www.hani.co.kr/arti/economy/finance/1288105.html) — **45개 매체**·47건
-- [보험·의료] 11-19 보험저널 — [청구 안 한 실손보험금 최대 1조원…내년부터 ‘실손24’가 찾아준다](https://www.insjournal.co.kr/news/articleView.html?idxno=33985) — **31개 매체**·32건
+- [투자·경제] 11-19 조선 경제 — [연준 의사록 보니… “금리 더 올려야” 거의 한목소리, 12월 ‘빅스텝’도 거론](https://www.chosun.com/economy/int_economy/2026/11/19/ATDONM6O55ABXC3YG44T2JYU4Y/) — **33개 매체**·48건
+- [투자·경제] 11-19 한국경제 금융 — [엔비디아 '깜짝 실적'도 소용 없었다…S&P500, 5일 연속 하락 [뉴욕증시 브리핑]](https://www.hankyung.com/article/2026111961206) — **32개 매체**·36건
 - [투자·경제] 11-19 JTBC 경제 — [서울 아파트값 93주째 올랐지만 한강벨트 속속 하락 전환](https://news.jtbc.co.kr/article/NB12328934) — **30개 매체**·32건
-- [투자·경제] 11-19 메디파나 — [제약·바이오 주가 회복 시차…코스피 반등·코스닥 약세](https://www.medipana.com/news/articleView.html?idxno=422224) — **30개 매체**
-- [투자·경제] 11-19 한국경제 금융 — [엔비디아 '깜짝 실적'도 소용 없었다…S&P500, 5일 연속 하락 [뉴욕증시 브리핑]](https://www.hankyung.com/article/2026111961206) — **27개 매체**·29건
+- [보험·의료] 11-19 보험저널 — [청구 안 한 실손보험금 최대 1조원…내년부터 ‘실손24’가 찾아준다](https://www.insjournal.co.kr/news/articleView.html?idxno=33985) — **28개 매체**·30건
 - [보험·의료] 11-19 뉴시스 금융 — [농협은행 "퇴직연금 DB·IRP 수익률, 적립금 상위사 1위"](https://www.newsis.com/view/NISX20261119_0003875230) — **25개 매체**
 - [보험·의료] 11-19 한국보험신문 — [DB손해보험, ‘2026 국가고객만족도 조사’ 자동차보험 부문 1위 선정](https://www.insweek.co.kr/news/articleView.html?idxno=73047) — **22개 매체**
-- [생활·사회] 11-19 경향 경제 — [엔비디아 임시 CEO “앞으로 나아가자” 임금 인상 시사…직원들 56% “젠슨 황 복귀 원해”](https://www.khan.co.kr/article/202611191250001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news) — **20개 매체**·21건
-- [생활·사회] 11-19 뉴시스 금융 — [NH투자증권, 연말정산 대비 연금저축계좌 순입금 이벤트](https://www.newsis.com/view/NISX20261119_0003875425) — **18개 매체**
+- [생활·사회] 11-19 뉴시스 금융 — [NH투자증권, 연말정산 대비 연금저축계좌 순입금 이벤트](https://www.newsis.com/view/NISX20261119_0003875425) — **19개 매체**
 - [보험·의료] 11-19 보험신보 — [롯데손해보험, 무상감자로 재무구조 재편… 기본자본비율 개선 추진](https://www.insnews.co.kr/news/articleView.html?idxno=93960) — **17개 매체**·20건
+- [생활·사회] 11-19 한겨레 사회 — [‘리트 만점’ 이진우 심정지 상태로 발견…서울 천호역 인근](https://www.hani.co.kr/arti/society/society_general/1288114.html) — **15개 매체**·34건
 
 ## [보험·의료] 최근 7일 — 주제별 상위 사건 (다룬 매체 수 순)
 
-**실손·비급여** (사건 50개)
-- 11-19 파이낸셜뉴스 전체 — ["미청구 실손보험금 1조원, 더 쉽게 찾아가세요" …정부, 내년 3월까지 서비스 도입](https://www.fnnews.com/news/202611191337239520) — **25개 매체**·26건
+**실손·비급여** (사건 51개)
+- 11-19 파이낸셜뉴스 전체 — ["미청구 실손보험금 1조원, 더 쉽게 찾아가세요" …정부, 내년 3월까지 서비스 도입](https://www.fnnews.com/news/202611191337239520) — **24개 매체**·26건
 - 11-16 한겨레 경제 — [실손 1·2세대, ‘5세대 갈아타기’ 10%대 그쳐…“기존 혜택 더 중요”](https://www.hani.co.kr/arti/economy/finance/1287524.html) — **21개 매체**·23건
 - 11-19 아시아경제 — [23일부터 5세대 실손 할인제도 시행…"1세대, 전환 시 보험료 최대 87.8% 절감"](https://view.asiae.co.kr/article/2026111909485083537) — **12개 매체**
 - 11-13 의협신문 — [물리치료사들 거리로 "'도수치료 관리급여·비급여 관리법안 철회하라"](http://www.doctorsnews.co.kr/news/articleView.html?idxno=167289) — **6개 매체**·7건
@@ -35,25 +35,25 @@
 - 11-13 파이낸셜포스트 — [한화생명, 700종신 판매 중단에 영업전략 재편…투자손익 변동성도 줄인다](https://news.google.com/rss/articles/CBMidEFVX3lxTE1vYnlvRXVIZVVaYWprVk82RlN0TzdaZndSZU5VRWpEOFAwT05kaWxTbmt6LTBmWnpianNyUWlYb0tHTmxBaWFRc3BvdVQwSEk5eGhhNXZTVTFOd3lUakNodU05VGhtR0xGZGZfZlFlQldwMFhv?oc=5) — **9개 매체**·11건
 - 11-17 동아 사회 — [치매 부모와 살던 40대 아들 숨져…모친은 파주 모텔서 발견](https://www.donga.com/news/Society/article/all/20261117/135041618/2) — **8개 매체**·9건
 
-**건강보험·의료제도** (사건 305개)
+**건강보험·의료제도** (사건 304개)
 - 11-16 메디파나 — [치료저항성 우울증 '스프라바토' 급여…새 치료 선택지 확보](https://www.medipana.com/news/articleView.html?idxno=421937) — **16개 매체**·17건
 - 11-18 메디파나 — ['린파자' 병용요법 급여, HRD 양성 난소암 치료 기회 넓혀](https://www.medipana.com/news/articleView.html?idxno=422146) — **15개 매체**·16건
 - 11-16 의협신문 — [건보공단 특사경법 일단 멈춤…국회도 권한 남용 우려](http://www.doctorsnews.co.kr/news/articleView.html?idxno=167317) — **12개 매체**·15건
-- 11-17 메디파나 — ["대한민국은 의사공화국 아니다"…건보노조, 특사경 도입 촉구](https://www.medipana.com/news/articleView.html?idxno=422042) — **12개 매체**
+- 11-18 메디파나 — [건보공단 특사경 반대 7일째…의협 "자율규제가 우선"](https://www.medipana.com/news/articleView.html?idxno=422129) — **11개 매체**·14건
 
-**국민연금·퇴직연금** (사건 166개)
+**국민연금·퇴직연금** (사건 171개)
 - 11-19 한겨레 경제 — [금감원 “저축성보험 만기 3년 후에도 연금 전환할 수 있어요”](https://www.hani.co.kr/arti/economy/finance/1288105.html) — **44개 매체**·46건
-- 11-14 뉴시스 금융 — [교보생명, 퇴직연금 DC·IRP 장단기 수익률 모두 '1위'](https://www.newsis.com/view/NISX20261113_0003867720) — **37개 매체**·40건
+- 11-19 뉴시스 금융 — [농협은행 "퇴직연금 DB·IRP 수익률, 적립금 상위사 1위"](https://www.newsis.com/view/NISX20261119_0003875230) — **31개 매체**·33건
 - 11-13 뉴시스 금융 — [농협금융, 기금형 퇴직연금 대비해 그룹 TF 가동](https://www.newsis.com/view/NISX20261113_0003867631) — **18개 매체**
-- 11-13 연합뉴스 최신 — [국민연금 "국세청 소득자료 연계…실시간 조회 시스템 운영"](https://www.yna.co.kr/view/AKR20261113064100530) — **14개 매체**
+- 11-15 보험매일 — [퇴직연금 11.8조 감소…DC형 수익률 급락](http://www.fins.co.kr/news/articleView.html?idxno=110559) — **16개 매체**·18건
 
-**보험금 분쟁·판결** (사건 208개)
+**보험금 분쟁·판결** (사건 210개)
 - 11-17 인포맥스 — [금감원, 한국보험금융에 '등록취소' 사전 통지…리베이트 혐의](https://news.einfomax.co.kr/news/articleView.html?idxno=4445091) — **27개 매체**
 - 11-16 조선비즈 — [법원행정처장 “대법원, 한덕수 판결문 어느 정도 완성…법리 따라 판단”](https://biz.chosun.com/topics/law_firm/2026/11/16/KQCCWBMYQBHD7CHQAJEYW7EZ44/) — **17개 매체**·27건
 - 11-18 연합뉴스 경제 — [전동킥보드로 80번 고의 사고…금감원 "車 보험사기 주의"](https://www.yna.co.kr/view/AKR20261118095100002) — **15개 매체**
-- 11-19 머니투데이 — [與, 조희대 대법원장 탄핵 추진…김민석 "한덕수 판결, 역사적 반역"](https://www.mt.co.kr/politics/2026/11/19/2026111920045952169) — **13개 매체**·24건
+- 11-19 인포맥스 — [與, 조희대 대법원장 탄핵 추진…"반역사적 판결"](https://news.einfomax.co.kr/news/articleView.html?idxno=4445619) — **13개 매체**·28건
 
-**보험업계·상품 출시** (사건 374개)
+**보험업계·상품 출시** (사건 375개)
 - 11-13 보험매일 — [KB손해보험, 60번째 희망의 집 완공…아동 주거 지원](http://www.fins.co.kr/news/articleView.html?idxno=110553) — **28개 매체**
 - 11-19 한국보험신문 — [DB손해보험, ‘2026 국가고객만족도 조사’ 자동차보험 부문 1위 선정](https://www.insweek.co.kr/news/articleView.html?idxno=73047) — **23개 매체**
 - 11-17 보험저널 — [카카오·티맵, 대리기사 보험료 부담 줄인다…중복가입 개선 추진](https://www.insjournal.co.kr/news/articleView.html?idxno=33943) — **19개 매체**
@@ -75,64 +75,64 @@
 
 ## [투자·경제] 최근 7일 — 주제별 상위 사건 (다룬 매체 수 순)
 
-**가상자산** (사건 789개)
+**가상자산** (사건 797개)
 - 11-18 조선 경제 — [갤럭시아머니트리, 韓·日 스테이블코인 무역송금 실증](https://www.chosun.com/economy/stock-finance/2026/11/18/MNQTAMZXGI3TEOJXG44TMYRUMU/) — **22개 매체**·23건
 - 11-17 이데일리 — [“AI 스테이블코인 안심 결제”…젝토, AI 기업 t54와 협력](https://www.edaily.co.kr/News/Read?newsId=03276726645646704) — **19개 매체**·26건
-- 11-16 파이낸셜뉴스 전체 — [소버린AI, 달러로 결제 할 판… '원화 결제망' 없이는 반쪽 [원화 스테이블코인 '골든타임' ]](https://www.fnnews.com/news/202611161829100604) — **17개 매체**·21건
-- 11-17 이데일리 증권 — [[美특징주]가상자산株, 비트코인 한 달 새 26% 급락에 동반 약세](http://www.edaily.co.kr/news/newspath.asp?newsid=01584246645646704) — **15개 매체**·19건
+- 11-16 파이낸셜뉴스 전체 — [소버린AI, 달러로 결제 할 판… '원화 결제망' 없이는 반쪽 [원화 스테이블코인 '골든타임' ]](https://www.fnnews.com/news/202611161829100604) — **15개 매체**·19건
+- 11-17 이데일리 증권 — [[美특징주]가상자산株, 비트코인 한 달 새 26% 급락에 동반 약세](http://www.edaily.co.kr/news/newspath.asp?newsid=01584246645646704) — **15개 매체**·17건
 
-**미국·해외 증시** (사건 909개)
-- 11-14 파이낸셜뉴스 국제 — [시총 1조7000억 달러 증발…17일 실적발표 첫 시험대 [위기의 엔비디아]](https://www.fnnews.com/news/202611141457314900) — **88개 매체**·125건
-- 11-13 이데일리 증권 — [엔비디아 CEO 사임에 뉴욕증시 동반 하락…AI주 희비[뉴스새벽배송]](http://www.edaily.co.kr/news/newspath.asp?newsid=02256646645645392) — **85개 매체**·168건
-- 11-19 아시아경제 증권 — [삼성운용, KODEX 미국S&P500 ETF 연초 이후 개인순매수 3조 돌파](https://view.asiae.co.kr/article/2026111908385107868) — **56개 매체**·64건
-- 11-16 한겨레 경제 — [반도체 ‘호황 지도’…엔비디아 쏠림 줄고 중국 비중 커졌다](https://www.hani.co.kr/arti/economy/marketing/1287609.html) — **55개 매체**·69건
+**미국·해외 증시** (사건 904개)
+- 11-13 이데일리 증권 — [엔비디아 CEO 사임에 뉴욕증시 동반 하락…AI주 희비[뉴스새벽배송]](http://www.edaily.co.kr/news/newspath.asp?newsid=02256646645645392) — **85개 매체**·165건
+- 11-18 한겨레 경제 — [젠슨 황 없는 엔비디아 실적, 시장 전망 웃돌아…삼성·하닉 주가 반등](https://www.hani.co.kr/arti/economy/marketing/1287957.html) — **78개 매체**·101건
+- 11-19 아시아경제 증권 — [삼성운용, KODEX 미국S&P500 ETF 연초 이후 개인순매수 3조 돌파](https://view.asiae.co.kr/article/2026111908385107868) — **56개 매체**·65건
+- 11-16 뉴시스 금융 — [KB국민은행, 원금 보장에 최고 연 4.09%…'S&P500' 연동 외화예금 출시](https://www.newsis.com/view/NISX20261116_0003870041) — **52개 매체**
 
-**국내 증시** (사건 658개)
-- 11-19 머니투데이 — [수출 1조달러 달성에도 웃는 건 반도체뿐…증시 온기 확산이 과제](https://www.mt.co.kr/stock/2026/11/19/2026111613355637953) — **56개 매체**·123건
-- 11-16 연합뉴스 마켓 — [코스피 3.59% 급락, 5,100선으로 후퇴…코스닥도 4.8%↓(종합)](https://www.yna.co.kr/view/AKR20261116134900008) — **41개 매체**·53건
-- 11-16 조선 경제 — [‘젠슨 황 쇼크’ 언제 끝나나...코스피·코스닥 나란히 3% 넘게 급락](https://www.chosun.com/economy/money/2026/11/16/GBBXWRTYPJGZ5IDB2BGPXFNDWI/) — **38개 매체**·46건
-- 11-16 조선비즈 — [SK하이닉스 목표 주가 38% 낮춘 모건스탠리, 이틀 뒤 보고서엔 “코스피 이르면 3년 내 1만선”](https://biz.chosun.com/stock/stock_general/2026/11/16/GRTGCNRSGQ4DSNLGGYZGCMZXME/) — **31개 매체**·35건
+**국내 증시** (사건 652개)
+- 11-19 머니투데이 — [수출 1조달러 달성에도 웃는 건 반도체뿐…증시 온기 확산이 과제](https://www.mt.co.kr/stock/2026/11/19/2026111613355637953) — **56개 매체**·128건
+- 11-16 연합뉴스 마켓 — [코스피 3.59% 급락, 5,100선으로 후퇴…코스닥도 4.8%↓(종합)](https://www.yna.co.kr/view/AKR20261116134900008) — **40개 매체**·52건
+- 11-16 머니투데이 — [코스피 하락·달러 강세에도…원/달러 환율 하락하는 이유](https://www.mt.co.kr/economy/2026/11/16/2026111616221711960) — **39개 매체**·63건
+- 11-16 조선비즈 — [SK하이닉스 목표 주가 38% 낮춘 모건스탠리, 이틀 뒤 보고서엔 “코스피 이르면 3년 내 1만선”](https://biz.chosun.com/stock/stock_general/2026/11/16/GRTGCNRSGQ4DSNLGGYZGCMZXME/) — **30개 매체**·34건
 
-**금리·중앙은행** (사건 285개)
-- 11-19 파이낸셜뉴스 국제 — [美연준, 추가 금리인상 예고… 일부는 ‘빅스텝’ 시사](https://www.fnnews.com/news/202611191822280937) — **26개 매체**·38건
+**금리·중앙은행** (사건 280개)
+- 11-19 파이낸셜뉴스 국제 — [美연준, 추가 금리인상 예고… 일부는 ‘빅스텝’ 시사](https://www.fnnews.com/news/202611191822280937) — **30개 매체**·38건
 - 11-17 동아 경제 — [10월 신규 코픽스 3.62% 2년 8개월만에 최고, 주담대 금리 더 오를 듯](https://www.donga.com/news/Economy/article/all/20261116/135034754/2) — **26개 매체**·34건
 - 11-13 뉴시스 국제 — [美연준, 2027년 FOMC 일정 공개…기준금리 결정 8번→7번](https://www.newsis.com/view/NISX20261113_0003866679) — **25개 매체**·26건
-- 11-18 한국경제 경제 — [금값 1년 만에 최저…美 국채금리·달러 강세 직격](https://www.hankyung.com/article/202611183493i) — **20개 매체**·24건
+- 11-18 한국경제 경제 — [금값 1년 만에 최저…美 국채금리·달러 강세 직격](https://www.hankyung.com/article/202611183493i) — **20개 매체**·23건
 
-**환율·달러** (사건 570개)
-- 11-13 뉴시스 금융 — [원·달러 환율·국제 유가 하락에…10월 수입물가 1.8%↓](https://www.newsis.com/view/NISX20261112_0003866081) — **34개 매체**
+**환율·달러** (사건 574개)
+- 11-13 뉴시스 금융 — [원·달러 환율·국제 유가 하락에…10월 수입물가 1.8%↓](https://www.newsis.com/view/NISX20261112_0003866081) — **35개 매체**·36건
 - 11-16 뉴시스 국제 — [[올댓차이나] 한국수출입은행, 위안화 채권 30억위안 발행…사상 최대 딤섬본드](https://www.newsis.com/view/NISX20261116_0003870569) — **28개 매체**·37건
-- 11-18 파이낸셜뉴스 국제 — [국제유가, 중동 긴장 고조에 소폭 상승…브렌트유 93달러대 ,0.76% 상승](https://www.fnnews.com/news/202611180632512282) — **20개 매체**·26건
+- 11-18 파이낸셜뉴스 국제 — [국제유가, 중동 긴장 고조에 소폭 상승…브렌트유 93달러대 ,0.76% 상승](https://www.fnnews.com/news/202611180632512282) — **21개 매체**·27건
 - 11-19 파이낸셜뉴스 전체 — [수출 43%가 반도체인데 AI 꺾이면?… 내년이 진짜 시험대 [수출 1조달러 시대]](https://www.fnnews.com/news/202611191827496573) — **18개 매체**·34건
 
-**원자재·금·유가** (사건 110개)
-- 11-19 인포맥스 — [[뉴욕유가] 美 원유 재고 예상 상회에 WTI 3.2% 급락…3개월來 최저](https://news.einfomax.co.kr/news/articleView.html?idxno=4445440) — **22개 매체**·31건
+**원자재·금·유가** (사건 109개)
+- 11-19 인포맥스 — [[뉴욕유가] 美 원유 재고 예상 상회에 WTI 3.2% 급락…3개월來 최저](https://news.einfomax.co.kr/news/articleView.html?idxno=4445440) — **16개 매체**·25건
 - 11-16 JTBC 사회 — ['털 빠진 너구리' 출몰…"사람도 전염된다" 무슨 일?](https://news.jtbc.co.kr/article/NB12328239) — **10개 매체**
 - 11-13 경향 경제 — [국제유가 내렸지만…정부, 석유 최고가격 또 동결](https://www.khan.co.kr/article/202611131801001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news) — **9개 매체**
-- 11-17 파이낸셜뉴스 국제 — [[국제유가] 3% 넘게 급락…IEA "세계 석유시장, 초과공급"](https://www.fnnews.com/news/202611170635063505) — **7개 매체**
+- 11-17 파이낸셜뉴스 전체 — [농심 '볶음너구리' 정규 판매 전환.. 내년부터 연중 판매](https://www.fnnews.com/news/202611171414090841) — **5개 매체**
 
-**채권·ETF·배당** (사건 273개)
+**채권·ETF·배당** (사건 274개)
 - 11-17 뉴시스 금융 — [미래에셋운용, TIGER 액티브 커버드콜 ETF 순자산 4조 돌파](https://www.newsis.com/view/NISX20261117_0003871257) — **35개 매체**
 - 11-16 뉴시스 금융 — [한투운용 '미국채혼합 ETF 2종', 올해 유입액 1조원 돌파](https://www.newsis.com/view/NISX20261116_0003869058) — **18개 매체**·22건
-- 11-17 인포맥스 — [[앤트로픽 IPO-②] 계속되는 자금 순환 논란](https://news.einfomax.co.kr/news/articleView.html?idxno=4445084) — **15개 매체**·25건
+- 11-17 인포맥스 — [[앤트로픽 IPO-②] 계속되는 자금 순환 논란](https://news.einfomax.co.kr/news/articleView.html?idxno=4445084) — **16개 매체**·26건
 - 11-19 파이낸셜뉴스 전체 — ['리트 만점자' 부정행위 의혹, 광수단 배당…수능시험지 증거보전](https://www.fnnews.com/news/202611191114304847) — **13개 매체**·24건
 
-**부동산·가계부채** (사건 290개)
-- 11-16 이데일리 — [서울 아파트값 3개월째 둔화…경기 남부는 한 달 새 2% 급등](https://www.edaily.co.kr/News/Read?newsId=02351766645646376) — **43개 매체**·54건
-- 11-19 경향 경제 — [9월 서울 아파트 매매·전세가 모두 올랐다···강북·소형 주도](https://www.khan.co.kr/article/202611191012001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news) — **27개 매체**·30건
+**부동산·가계부채** (사건 289개)
+- 11-16 이데일리 — [서울 아파트값 3개월째 둔화…경기 남부는 한 달 새 2% 급등](https://www.edaily.co.kr/News/Read?newsId=02351766645646376) — **42개 매체**·51건
+- 11-19 경향 경제 — [9월 서울 아파트 매매·전세가 모두 올랐다···강북·소형 주도](https://www.khan.co.kr/article/202611191012001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news) — **27개 매체**·29건
 - 11-19 파이낸셜뉴스 전체 — [하남 아파트 헌옷수거함에 탯줄 달린 아기 시신…30대 친모 검거](https://www.fnnews.com/news/202611190858411579) — **12개 매체**·16건
 - 11-18 연합뉴스 최신 — [방화 대피 돕다가 숨진 아파트 경비원 의사자 신청](https://www.yna.co.kr/view/AKR20261118146900054) — **11개 매체**·19건
 
-**거시지표·무역** (사건 301개)
-- 11-17 이데일리 — [IMF, 韓 성장률 3.9%로 상향…물가 불안에 통화·재정 긴축 주문(종합)](https://www.edaily.co.kr/News/Read?newsId=04323046645646704) — **68개 매체**·88건
-- 11-18 한국경제 금융 — [한국 경제, 내년이 더 좋다…KDI, 성장률 전망 2.2%→3.9%](https://www.hankyung.com/article/202611184532i) — **34개 매체**·44건
-- 11-16 동아 경제 — [반도체 계속되는 질주… 10월 ICT 수출 ‘역대 최대’](https://www.donga.com/news/Economy/article/all/20261115/135027647/2) — **25개 매체**
-- 11-13 인포맥스 — [유로존 3분기 GDP 성장률 잠정치 0.4%…속보치 부합](https://news.einfomax.co.kr/news/articleView.html?idxno=4444734) — **19개 매체**·22건
+**거시지표·무역** (사건 311개)
+- 11-17 조선비즈 — [EU 올해 성장률 1.4%로 상향…전쟁에 물가 전망은 악화](https://biz.chosun.com/international/international_economy/2026/11/17/SPKVWE3PMNGY7BLS654BV3VFGI/) — **44개 매체**·52건
+- 11-18 경향 경제 — [“반도체, 내년 더 좋아”…경제성장률 대폭 상향](https://www.khan.co.kr/article/202611182106015/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news) — **33개 매체**·39건
+- 11-17 연합뉴스 경제 — [IMF, 韓 올해 성장률 3.9% 전망…반도체 호조에 한달새 0.6%p↑](https://www.yna.co.kr/view/AKR20261117087000002) — **22개 매체**·26건
+- 11-16 동아 경제 — [반도체 계속되는 질주… 10월 ICT 수출 ‘역대 최대’](https://www.donga.com/news/Economy/article/all/20261115/135027647/2) — **22개 매체**
 
-**기타** (사건 473개)
+**기타** (사건 489개)
 - 11-18 동아 경제 — [현대백화점, 외국인 VIP 고객에 공항 픽업 서비스](https://www.donga.com/news/Economy/article/all/20261117/135041889/2) — **17개 매체**·20건
-- 11-19 한겨레 사회 — [김건희 ‘도이치모터스 주가 조작’ 등 징역 4년 확정…명태균 여론조사는 무죄](https://www.hani.co.kr/arti/society/society_general/1288230.html) — **6개 매체**·9건
-- 11-19 머니투데이 — [이포넷, 외국인 채용 박람회서 AI 한국어 학습 앱 ‘로로토픽’ 시연](https://www.mt.co.kr/industry/2026/11/19/2026111915290725879) — **5개 매체**·9건
+- 11-19 한겨레 사회 — [‘주가조작·금품수수’ 김건희 징역 4년…명태균 여론조사는 무죄](https://www.hani.co.kr/arti/society/society_general/1288230.html) — **6개 매체**·10건
+- 11-18 서울경제 경제 — [외국인 기능공, 해외서 키워 韓서 채용](https://www.sedaily.com/article/20116105) — **6개 매체**·9건
 - 11-18 연합뉴스 경제 — [외국인 근로자 임금 1천만원 체불…출석 7차례 거부한 업주 체포](https://www.yna.co.kr/view/AKR20261118074800053) — **5개 매체**·7건
 
 
@@ -147,19 +147,19 @@
 
 ## [생활·사회] 최근 7일 — 주제별 상위 사건 (다룬 매체 수 순)
 
-**요금·물가** (사건 201개)
+**요금·물가** (사건 203개)
 - 11-13 동아 경제 — [정부, ‘월급방위대 TF’ 가동…내년 월세 공제·교통비 환급 확대](https://www.donga.com/news/Economy/article/all/20261113/135020263/1) — **23개 매체**
 - 11-16 파이낸셜뉴스 금융 — ["내 통신비 비싼가?"···토스, 민간 첫 통신 마이데이터 사업자 지정](https://www.fnnews.com/news/202611160831133119) — **21개 매체**
 - 11-13 연합뉴스 경제 — [서울 아파트 거래신청 두달째 증가…강남3구 가격 하락폭 커져](https://www.yna.co.kr/view/AKR20261112176200004) — **17개 매체**·18건
 - 11-16 아시아경제 — [[사설]석유 최고가격제-전기·가스요금 동결, 출구 전략은 어디에](https://view.asiae.co.kr/article/2026111609515718891) — **17개 매체**
 
-**세금·지원금** (사건 156개)
+**세금·지원금** (사건 154개)
+- 11-19 뉴시스 금융 — [NH투자증권, 연말정산 대비 연금저축계좌 순입금 이벤트](https://www.newsis.com/view/NISX20261119_0003875425) — **17개 매체**
 - 11-13 보험저널 — [“65세 미만도, 96개 품목까지 보장”… 한화생명, ‘보조기기 지원금 특약’ 배타적사용권 획득](https://www.insjournal.co.kr/news/articleView.html?idxno=33906) — **16개 매체**
-- 11-19 뉴시스 금융 — [NH투자증권, 연말정산 대비 연금저축계좌 순입금 이벤트](https://www.newsis.com/view/NISX20261119_0003875425) — **15개 매체**
 - 11-19 머니투데이 — [삼쩜삼, 환급 중심으로 앱 전면 개편…월세 계약서 AI 점검도](https://www.mt.co.kr/future/2026/11/19/2026111913554959937) — **11개 매체**·12건
 - 11-13 SBS Biz — [토스인슈, 신입 설계사 육성 확대…정착지원금 500만원 지급](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tY3RUaS1lck5sWUdiWXNIMVFTaHZkaVFlb0N2UC1PYVJmcXpKSEpCc1ZadlNibnJMUkc4VTNsMExFbm1uZkswSDE3a0dKZFVmUEJB0gFYQVVfeXFMUHhUTzZJYVU0WmZxS011OEVTcUVKUDNXY1h6a3dWVnItbDJnZVEweHRxbmJSTkNsUlhYM3BEY3Q3Z0JrWWtaQ0p4c1UwWHJxTFU1UTNsV19SaA?oc=5) — **7개 매체**
 
-**일자리·임금** (사건 141개)
+**일자리·임금** (사건 142개)
 - 11-18 청년의사 — [간호조무사 월평균 임금 258만원…경력 보상도 ‘찔끔’](http://www.docdocdoc.co.kr/news/articleView.html?idxno=3044639) — **11개 매체**
 - 11-17 연합뉴스 최신 — ['25일 서울 지하철 총파업' 예고한 노조 "인력감축 철회·임금 인상"](https://www.yna.co.kr/view/AKR20261117078100004) — **7개 매체**·9건
 - 11-18 동아 사회 — [특검, ‘퇴직금 미지급’ 쿠팡CFS 전·현직 대표 실형 구형…내달 21일 선고](https://www.donga.com/news/Society/article/all/20261118/135045680/1) — **7개 매체**·9건
@@ -208,6 +208,7 @@
 
 ## 해외 원문 헤드라인 (영문, 참고용)
 
+- 11-19 CNBC — [Walmart hikes outlook as CEO tells CNBC retailer aims to keep prices low despite soaring fuel costs](https://www.cnbc.com/2026/11/19/walmart-wmt-q3-2026-earnings.html)
 - 11-19 MarketWatch — [If the AI trade unwinds, other pillars holding up the U.S. economy are ‘irrelevant,’ says Barclays](https://www.marketwatch.com/story/if-the-ai-trade-unwinds-other-pillars-holding-up-the-u-s-economy-are-irrelevant-says-barclays-b6f1bdca?mod=mw_rss_topstories)
 - 11-19 CNBC — [Walmart hikes outlook as top execs tell CNBC the retailer is gaining market share ahead of holidays](https://www.cnbc.com/2026/11/19/walmart-wmt-q3-2026-earnings.html)
 - 11-19 MarketWatch — [Can Anthropic’s IPO do for the stock market what Nvidia’s earnings couldn’t?](https://www.marketwatch.com/story/can-anthropics-ipo-do-for-the-stock-market-what-nvidias-earnings-couldnt-be67a434?mod=mw_rss_topstories)
@@ -219,8 +220,7 @@
 - 11-19 MarketWatch — [This closely-watched investing guru just sold all of his stocks](https://www.marketwatch.com/story/this-closely-watched-guru-just-sold-everything-474b4389?mod=mw_rss_topstories)
 - 11-19 MarketWatch — [My wife pays thousands of dollars for her family to visit from Argentina. How can I convince her to stop?](https://www.marketwatch.com/story/my-wife-pays-thousands-of-dollars-for-her-family-to-visit-from-argentina-how-can-i-convince-her-to-stop-9381351c?mod=mw_rss_topstories)
 - 11-19 MarketWatch — [The real beneficiary of the AI tech revolution fueled by Anthropic may surprise you](https://www.marketwatch.com/story/the-real-beneficiary-of-the-ai-tech-revolution-fueled-by-anthropic-may-surprise-you-6fa098b2?mod=mw_rss_topstories)
-- 11-19 MarketWatch — [Former Fox News anchor Maria Bartiromo sells $7 million N.Y.C. townhouse](https://www.marketwatch.com/story/former-fox-news-anchor-maria-bartiromo-sells-7-million-n-y-c-townhouse-ef993dbb?mod=mw_rss_topstories)
 
 ## 언론사별 건수 상위 15
 
-연합뉴스 최신 5681, 뉴시스 사회 1697, 토큰포스트 1205, 동아 사회 959, 머니투데이 920, 뉴시스 정치 656, SBS 사회 628, 경향 사회 493, 코인리더스 490, 아시아경제 485, 인포맥스 467, 조선비즈 460, 파이낸셜뉴스 전체 439, 조선일보 371, 한겨레 사회 357
+연합뉴스 최신 5691, 뉴시스 사회 1695, 토큰포스트 1211, 동아 사회 958, 머니투데이 918, 뉴시스 정치 655, SBS 사회 628, 경향 사회 505, 아시아경제 485, 코인리더스 483, 인포맥스 467, 조선비즈 456, 파이낸셜뉴스 전체 439, 조선일보 374, 한겨레 사회 359
