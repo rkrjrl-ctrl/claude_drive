@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-19T12:06+09:00",
+"updated": "2026-11-19T13:06+09:00",
 "items": [
 {
 "kind": "단독",
@@ -9207,6 +9207,39 @@
 "조기",
 "주식",
 "직원"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261119_0003874921",
+"t": "2026-11-19T13:06+09:00",
+"tok": [
+"경찰",
+"수색",
+"실종신고",
+"이진우",
+"일대서",
+"천호역",
+"포착"
+],
+"g": "https://www.fnnews.com/news/202611191022399251"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5OVEloTEFlQjZ3bWd4eUU1X2pGVXZmOXowZkpodGh0WGNZd3ByVldtREZtS2NnN0dOUHREUnV2X2lWYkZZQW83OFF1RFlVSDBtNDlzSXQ2R05USXd4bWc3YzdIR2ZHaXhTQURZ0gFrQVVfeXFMTk5USWhMQWVCNndtZ3h5RTVfakZVdmY5ejBmSmh0aHRYY1l3cHJWV21ERm1LY2c3R05QdERSdXZfaVZiRllBbzc4UXVEWVVIMG00OXNJdDZHTlRJd3htZzdjN0hHZkdpeFNBRFk?oc=5",
+"t": "2026-11-19T13:06+09:00",
+"tok": [
+"12월",
+"1일",
+"2026년",
+"3년",
+"금융감독원",
+"만기",
+"시행",
+"신청기간",
+"연금전환",
+"저축성보험",
+"최대"
 ]
 }
 ]
