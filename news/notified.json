@@ -1,26 +1,6 @@
 {
-"updated": "2026-11-20T04:06+09:00",
+"updated": "2026-11-20T05:06+09:00",
 "items": [
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPV0tLaTJsVmhRNnl1VC1YcDVhcGJobWZwMUlwb3d4VHdRVnVSZnRzOVlfdzdlUXhSSjV4R2ZPV0JUWG5WQ093N1JhbFBqUk04ZERHRGZRVFpJNmVQUUtTY1dSbGRaa2hrRmNEUzB2dTktZTRPZ1RMU3I0MXNWQXI2U1VjSmc1WlFFRGhHUGJTU3lhbllXQW1hTlhsT0EtWlVTaUVjLV94SDFuSmZRMFcwclpnVTFiYW5UQnBDR1FXcWJXdw?oc=5",
-"t": "2026-11-12T05:06+09:00",
-"tok": [
-"12월",
-"CPI",
-"강세",
-"굳어져",
-"금값",
-"금리인상",
-"급락",
-"달러",
-"미국",
-"상회에",
-"연준",
-"예상",
-"전망"
-]
-},
 {
 "kind": "gov",
 "link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788827",
@@ -10387,6 +10367,26 @@
 "앤트로픽"
 ],
 "g": "https://www.yna.co.kr/view/AKR20261120002700091"
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA2bmFWTkN4RDJtcUZDMS0tbDFsZ1BlOE16S2g3eWJXeTVpZlhCUDRUWHVuaU5wX2pCektfbWNEcWRsVWk1Z0NPX3AtM1pzWVJrTEFReVlIOVdZYmM?oc=5",
+"t": "2026-11-20T05:06+09:00",
+"tok": [
+"142조원",
+"Club",
+"Global",
+"IPO에도",
+"Money",
+"기관",
+"빈손",
+"앤트로픽",
+"역대",
+"이상은",
+"절반",
+"주문",
+"최대"
+]
 }
 ]
 }
