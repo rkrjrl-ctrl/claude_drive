@@ -1,21 +1,6 @@
 {
-"updated": "2026-11-19T21:06+09:00",
+"updated": "2026-11-19T22:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKMWhoSWRkM0tGYmFXV01rTlVuMFhuSHE2T01zR3Q0enpCNXViRkhLbC03NlhuSFJuRUpuWkxyRzZBTmdQcVhOYWs5THM1WE11ZFhER01FLWMyMW8?oc=5",
-"t": "2026-11-11T22:06+09:00",
-"tok": [
-"18",
-"기각되자",
-"보상금",
-"비서관",
-"소송까지",
-"신청",
-"이용철",
-"청와대"
-]
-},
 {
 "kind": "속보",
 "link": "https://www.newsis.com/view/NISX20261111_0003864581",
@@ -10215,6 +10200,50 @@
 "한다고"
 ],
 "g": "https://www.newsis.com/view/NISX20261119_0003875826"
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261119179500109",
+"t": "2026-11-19T22:06+09:00",
+"tok": [
+"80년간",
+"글로벌",
+"덕분에",
+"분쟁",
+"얄타",
+"없어",
+"푸틴",
+"합의"
+],
+"g": "https://www.yna.co.kr/view/AKR20261119179500109"
+},
+{
+"kind": "속보",
+"link": "https://www.hankyung.com/article/2026111986017",
+"t": "2026-11-19T22:06+09:00",
+"tok": [
+"80년간",
+"글로벌",
+"덕에",
+"분쟁",
+"얄타",
+"없어",
+"푸틴",
+"합의"
+],
+"g": "https://www.yna.co.kr/view/AKR20261119179500109"
+},
+{
+"kind": "주목",
+"link": "https://www.khan.co.kr/article/202611192049035/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+"t": "2026-11-19T22:06+09:00",
+"tok": [
+"동작도",
+"용산",
+"집값",
+"하락",
+"한강벨트"
+]
 }
 ]
 }
