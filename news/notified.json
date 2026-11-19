@@ -1,114 +1,6 @@
 {
-"updated": "2026-11-19T09:06+09:00",
+"updated": "2026-11-19T10:06+09:00",
 "items": [
-{
-"kind": "gov",
-"link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788688",
-"t": "2026-11-11T10:06+09:00",
-"tok": [
-"거점으로",
-"공공나노팹",
-"과기정통부",
-"노하우",
-"더해",
-"도약",
-"민간",
-"반도체",
-"연구지원",
-"장비"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.hankyung.com/article/2026111191897",
-"t": "2026-11-11T10:06+09:00",
-"tok": [
-"10일",
-"111",
-"11월",
-"335억달러",
-"97",
-"수출",
-"일평균",
-"증가"
-],
-"g": "https://www.hankyung.com/article/2026111191897"
-},
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261111036500008",
-"t": "2026-11-11T10:06+09:00",
-"tok": [
-"등락",
-"보합권서",
-"상승",
-"코스닥",
-"코스피"
-],
-"m": 1,
-"g": "https://www.yna.co.kr/view/AKR20261111036500008"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5TOEJST1ZoR2dWRDdHNERRSXZrQmg0bEs2ZkJYcFRhVjh6UWRTNjVEZklQOVZhZGJmc1ctZDdDQ1ptT2hIa2ZNYTQwcTJMTXdpVHJ6eG92Q2NWS2pCeUYyLUpkX2xIcklD?oc=5",
-"t": "2026-11-11T10:06+09:00",
-"tok": [
-"1억원선",
-"붕괴",
-"비트코인",
-"원화마켓서"
-],
-"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5TOEJST1ZoR2dWRDdHNERRSXZrQmg0bEs2ZkJYcFRhVjh6UWRTNjVEZklQOVZhZGJmc1ctZDdDQ1ptT2hIa2ZNYTQwcTJMTXdpVHJ6eG92Q2NWS2pCeUYyLUpkX2xIcklD?oc=5"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CN0NoWERvSy16M2RUQXJSV3hEdVpGSHlJTE1QZk53WXktWEZfYWRYaEM0UWpEeWVPWFRYdlNNLUVnQUJPUkdyVnRIa0p0WDhEZXlmZnJnRUNyc2llMjFZWHQ0RTBxTVk?oc=5",
-"t": "2026-11-11T10:06+09:00",
-"tok": [
-"10조원",
-"공급",
-"관계",
-"규모",
-"반도체",
-"앨리스",
-"엔비디아",
-"우회",
-"의혹",
-"이용",
-"젠슨",
-"중국"
-],
-"g": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWUJJazVILURsMzdqeUZ2N0VXNEpfMGVCNVZ5TmxURk9TWWE4NWdyQ0pWRk5nVjFoSzdidmE4NzZxMkdhUXkzVzZXUHJrVWs5QkF5d0x6ZkVIQ1pxekhGT3ZMY1BCMDlWVENFNHhhdEtOdEpGRXBKNEk3aktuUmdyWEZFWkt5UTBaZ25xTW5R?oc=5"
-},
-{
-"kind": "주목",
-"link": "https://view.asiae.co.kr/article/2026111109151620691",
-"t": "2026-11-11T10:06+09:00",
-"tok": [
-"KDB생명",
-"늘리고",
-"더한",
-"사망보장",
-"연금전환",
-"종신보험",
-"출시"
-]
-},
-{
-"kind": "주목",
-"link": "https://view.asiae.co.kr/article/2026111109562569100",
-"t": "2026-11-11T10:06+09:00",
-"tok": [
-"개인투자용",
-"계좌",
-"국채",
-"접수",
-"청약",
-"퇴직연금",
-"한투증권",
-"활용"
-]
-},
 {
 "kind": "gov",
 "link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788707",
@@ -9200,6 +9092,184 @@
 "증언",
 "판결문",
 "확인"
+]
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBRQXhhdVl2V0s0SDRteVZjWlBfSlNCbVNadXl5a21naVZIamNLdUp4a0ZPbUtKU0l4TUZ1ZHM1MkNNazktaW9mbmJLWTJYZnZXZUdjQjdCd3ZkbWhhWHc?oc=5",
+"t": "2026-11-19T10:06+09:00",
+"tok": [
+"SK하이닉스",
+"급락",
+"대형",
+"로펌",
+"보상",
+"손실",
+"조사",
+"주가",
+"집단소송",
+"착수",
+"추진",
+"투자자"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.khan.co.kr/article/202611190955001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=society_news",
+"t": "2026-11-19T10:06+09:00",
+"tok": [
+"경찰에",
+"리트",
+"만점자",
+"실종신고",
+"없는",
+"이진우씨",
+"접수",
+"집에",
+"확인"
+],
+"g": "https://www.khan.co.kr/article/202611190955001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=society_news"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261119_0003874537",
+"t": "2026-11-19T10:06+09:00",
+"tok": [
+"31에",
+"50포인트",
+"668",
+"83",
+"개장",
+"오른",
+"코스닥"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261119_0003874537"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261119_0003874538",
+"t": "2026-11-19T10:06+09:00",
+"tok": [
+"10",
+"17",
+"SK하이닉스",
+"삼성전자",
+"출발"
+],
+"g": "https://www.newsis.com/view/NISX20261119_0003874538"
+},
+{
+"kind": "속보",
+"link": "https://biz.chosun.com/stock/stock_general/2026/11/19/GA2TQMZYHA2TSZDGMZSTSZLCMM/",
+"t": "2026-11-19T10:06+09:00",
+"tok": [
+"04",
+"45",
+"5090",
+"오른",
+"출발",
+"코스피"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261119_0003874537"
+},
+{
+"kind": "속보",
+"link": "https://www.fnnews.com/news/202611191001161201",
+"t": "2026-11-19T10:06+09:00",
+"tok": [
+"04",
+"31",
+"45",
+"5090",
+"668",
+"83",
+"개장",
+"상승한",
+"오른",
+"코스닥은",
+"코스피"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261119_0003874537"
+},
+{
+"kind": "속보",
+"link": "https://www.edaily.co.kr/News/Read?newsId=02302566645647360",
+"t": "2026-11-19T10:06+09:00",
+"tok": [
+"45",
+"5090선",
+"83",
+"상승",
+"오른",
+"코스닥",
+"코스피"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261119_0003874537"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9fVXQwQTBEeVY5cnp1azZTUGtNRUxsX243OU5NaXBxcnItaVBLM2ZMbkMzUkdRekE4NWk1cmRRYWxvVk5OU1lTaEgyZWdadHhldmRMQjVhM2c3Qm80N1JfUVYtREszMGQ1Y1Vr0gFvQVVfeXFMTlpObFpxenBjdE92Z2tBdFR2Wml2OWJYMFNaME5MeEpoTjZzeHJNRFlWMTl4dEllQW9yZ05IVUZxc3QzOFktaUJ3MUFtcVlNb3QzaDQ1b1VrRVNXa0ViVDlRZE1kNEx0NVZWTXF4QktJ?oc=5",
+"t": "2026-11-19T10:06+09:00",
+"tok": [
+"1위",
+"DB손해보험",
+"국가고객만족도",
+"자동차보험부문"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE13WjhSMTg5dTBReVdPNlJHTlVxbDVRbGJuMl9GbjRoZE9jLURVNmNWRmY5bzdNdVdLakU1Qi00dU04V1RLZG9JU0tEQkpDTnZUcldvYWoyTnlLbXJYOHEtMlJxQkx5eVBYWXVkeVEzNmtQUQ?oc=5",
+"t": "2026-11-19T10:06+09:00",
+"tok": [
+"1위",
+"2003년",
+"23년",
+"DB손보",
+"NCSI",
+"부문",
+"이후",
+"자동차보험"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxQT2hTMWlmcml3MDRvd1ZhaF9BZXJIM3hpaUNYd0NQQ05na2NtMXVTTk8tMDlpTXl0ZEM3ZUZmYWNlWW9aYVVGX1VNcERPMTdVeGx4UDBFS0JJQjBMczZ6ZVFfVHk1MXZ1cF9iX2J0bk82Mk9UdnViM1plNmtWREZlcHZpU05UN0Z0bW9rUGJuOHJXaXZpR1lweGtvRVFGMmo1bzBRQzJnTDFkNndPd2R3bjNYZ0NiOXVvVC03VmFHeVpiZkNKOU1UVVBqcmtQVjNtMlBZckZ6Q05yN0hfcG00MTZfNXZCYmk3XzJ0OG9vaDh5MlJjUV9PMEphZ3NDZ19DaWpCMmYyY3dhVDAzLTBkX2REWEF0N1ZuZDBmdGo5N29NUTdkcUNEaS1lU2tsTWs4Zy1zRHBqNVlnd3RhYm8yV3F5NU8tekMxUVBMVA?oc=5",
+"t": "2026-11-19T10:06+09:00",
+"tok": [
+"10월",
+"AI",
+"FOMC",
+"거의",
+"경고",
+"금리인상",
+"리스크도",
+"모든",
+"부채",
+"연준",
+"예상",
+"위원",
+"추가",
+"회의록"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5HOGRkUUt6dnlwVkJjTHd1R2F6b3VGOTNPNlI0STQ2WDloWGpSRFVJUS1mTWExRGZFb3pCWEZ4YkdNVWhXMWNsSFN0T1pRVlBJd2ZaTXh1SUg4bWpQLXVfZU1EY1ZkQUdqVGh0Sy1qM3MxejZwcVJUQlUtamQ?oc=5",
+"t": "2026-11-19T10:06+09:00",
+"tok": [
+"강화",
+"개편",
+"삼쩜삼",
+"서비스",
+"신규",
+"월세지원센터",
+"중심으로",
+"환급"
 ]
 }
 ]
