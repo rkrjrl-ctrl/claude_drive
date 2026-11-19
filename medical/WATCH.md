@@ -1,215 +1,186 @@
 # 자동 감시 결과 (자동 생성 — 직접 수정 금지)
 
-- 실행일: 2026-11-18  /  감시 url 2334개  /  자료 2334건  /  이번에 확인 2057개(연속 실패로 쉼 277개, 시간 초과로 넘김 0개)
+- 실행일: 2026-11-19  /  감시 url 2334개  /  자료 2334건  /  이번에 확인 2052개(연속 실패로 쉼 282개, 시간 초과로 넘김 0개)
 - 이 파일은 **감지만** 한다. 원문 내용 확인·자료 갱신은 Claude Code가 한다.
 
-## 원문 변경 확정 (205건)
+## 원문 변경 확정 (176건)
 
-- MED-0081 — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3754
-- MED-0096 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4768
-- MED-0103 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=271009&efYd=20250719&ancYnChk=0
-- MED-0105 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=249317&efYd=20230929&ancYnChk=0
-- MED-0107 — https://www.law.go.kr/LSW/lsInfoP.do?lsId=012492
-- MED-0254 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2297&mode=view
-- MED-0288 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13009686/
-- MED-0289 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13009690/
-- MED-0570 — https://www.who.int/news-room/fact-sheets/detail/anaemia
-- MED-0571 — https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance
-- MED-0572 — https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders
-- MED-0575 — https://www.who.int/news-room/fact-sheets/detail/bipolar-disorder
-- MED-0576 — https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment
-- MED-0579 — https://www.who.int/news-room/fact-sheets/detail/cancer
-- MED-0580 — https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)
-- MED-0581 — https://www.who.int/news-room/fact-sheets/detail/cervical-cancer
-- MED-0582 — https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)
-- MED-0583 — https://www.who.int/news-room/fact-sheets/detail/colorectal-cancer
-- MED-0585 — https://www.who.int/news-room/fact-sheets/detail/dementia
-- MED-0586 — https://www.who.int/news-room/fact-sheets/detail/depression
-- MED-0587 — https://www.who.int/news-room/fact-sheets/detail/diabetes
-- MED-0588 — https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease
-- MED-0589 — https://www.who.int/news-room/fact-sheets/detail/dyslipidaemia
-- MED-0590 — https://www.who.int/news-room/fact-sheets/detail/endometriosis
-- MED-0592 — https://www.who.int/news-room/fact-sheets/detail/falls
-- MED-0593 — https://www.who.int/news-room/fact-sheets/detail/fragility-fractures
-- MED-0595 — https://www.who.int/news-room/fact-sheets/detail/healthy-diet
-- MED-0596 — https://www.who.int/news-room/fact-sheets/detail/heart-attack
-- MED-0597 — https://www.who.int/news-room/fact-sheets/detail/hepatitis-b
-- MED-0598 — https://www.who.int/news-room/fact-sheets/detail/hepatitis-c
-- MED-0599 — https://www.who.int/news-room/fact-sheets/detail/hiv-aids
-- MED-0601 — https://www.who.int/news-room/fact-sheets/detail/hypertension
-- MED-0603 — https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)
-- MED-0605 — https://www.who.int/news-room/fact-sheets/detail/low-back-pain
-- MED-0606 — https://www.who.int/news-room/fact-sheets/detail/lung-cancer
-- MED-0607 — https://www.who.int/news-room/fact-sheets/detail/measles
-- MED-0609 — https://www.who.int/news-room/fact-sheets/detail/mental-disorders
-- MED-0610 — https://www.who.int/news-room/fact-sheets/detail/mpox
-- MED-0612 — https://www.who.int/news-room/fact-sheets/detail/musculoskeletal-conditions
-- MED-0613 — https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight
-- MED-0614 — https://www.who.int/news-room/fact-sheets/detail/opioid-overdose
-- MED-0615 — https://www.who.int/news-room/fact-sheets/detail/oral-health
-- MED-0616 — https://www.who.int/news-room/fact-sheets/detail/osteoarthritis
-- MED-0617 — https://www.who.int/news-room/fact-sheets/detail/palliative-care
-- MED-0618 — https://www.who.int/news-room/fact-sheets/detail/parkinson-disease
-- MED-0619 — https://www.who.int/news-room/fact-sheets/detail/patient-safety
-- MED-0624 — https://www.who.int/news-room/fact-sheets/detail/post-traumatic-stress-disorder
-- MED-0627 — https://www.who.int/news-room/fact-sheets/detail/rheumatoid-arthritis
-- MED-0629 — https://www.who.int/news-room/fact-sheets/detail/schizophrenia
-- MED-0630 — https://www.who.int/news-room/fact-sheets/detail/sepsis
-- MED-0631 — https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-(stis)
-- MED-0633 — https://www.who.int/news-room/fact-sheets/detail/sickle-cell-disease
-- MED-0634 — https://www.who.int/news-room/fact-sheets/detail/sodium-reduction
-- MED-0635 — https://www.who.int/news-room/fact-sheets/detail/spinal-cord-injury
-- MED-0636 — https://www.who.int/news-room/fact-sheets/detail/stroke
-- MED-0641 — https://www.who.int/news-room/fact-sheets/detail/trans-fat
-- MED-0787 — https://www.nice.org.uk/guidance/ng192
-- MED-0807 — https://medlineplus.gov/adrenalglanddisorders.html
-- MED-0811 — https://medlineplus.gov/analcancer.html
-- MED-0818 — https://medlineplus.gov/arrhythmia.html
-- MED-0822 — https://medlineplus.gov/asthmainchildren.html
-- MED-0825 — https://medlineplus.gov/attentiondeficithyperactivitydisorder.html
-- MED-0827 — https://medlineplus.gov/birdflu.html
-- MED-0828 — https://medlineplus.gov/bloodclots.html
-- MED-0831 — https://medlineplus.gov/bloodthinners.html
-- MED-0832 — https://medlineplus.gov/bodyweight.html
-- MED-0843 — https://medlineplus.gov/cerebralpalsy.html
-- MED-0846 — https://medlineplus.gov/chestinjuriesanddisorders.html
-- MED-0851 — https://medlineplus.gov/chronicbronchitis.html
-- MED-0854 — https://medlineplus.gov/chronicpain.html
-- MED-0855 — https://medlineplus.gov/colonoscopy.html
-- MED-0857 — https://medlineplus.gov/concussion.html
-- MED-0858 — https://medlineplus.gov/congenitalheartdefects.html
-- MED-0860 — https://medlineplus.gov/coronaryarterybypasssurgery.html
-- MED-0861 — https://medlineplus.gov/coronaryarterydisease.html
-- MED-0865 — https://medlineplus.gov/dehydration.html
-- MED-0868 — https://medlineplus.gov/depression.html
-- MED-0869 — https://medlineplus.gov/developmentaldisabilities.html
-- MED-0871 — https://medlineplus.gov/diabetesandpregnancy.html
-- MED-0872 — https://medlineplus.gov/diabetescomplications.html
-- MED-0874 — https://medlineplus.gov/diabetestype1.html
-- MED-0883 — https://medlineplus.gov/diverticulosisanddiverticulitis.html
-- MED-0888 — https://medlineplus.gov/endocarditis.html
-- MED-0891 — https://medlineplus.gov/fibromyalgia.html
-- MED-0893 — https://medlineplus.gov/fractures.html
-- MED-0903 — https://medlineplus.gov/heartdiseaseinwomen.html
-- MED-0904 — https://medlineplus.gov/heartdiseases.html
-- MED-0907 — https://medlineplus.gov/heartsurgery.html
-- MED-0908 — https://medlineplus.gov/heartvalvediseases.html
-- MED-0910 — https://medlineplus.gov/hemorrhagicstroke.html
-- MED-0913 — https://medlineplus.gov/hepatitisa.html
-- MED-0914 — https://medlineplus.gov/hepatitisb.html
-- MED-0923 — https://medlineplus.gov/howtopreventdiabetes.html
-- MED-0928 — https://medlineplus.gov/hypoglycemia.html
-- MED-0929 — https://medlineplus.gov/hypothyroidism.html
-- MED-0934 — https://medlineplus.gov/juvenilearthritis.html
-- MED-0938 — https://medlineplus.gov/ldlthebadcholesterol.html
-- MED-0939 — https://medlineplus.gov/learningdisabilities.html
-- MED-0942 — https://medlineplus.gov/leukodystrophies.html
-- MED-0944 — https://medlineplus.gov/lungcancer.html
-- MED-0946 — https://medlineplus.gov/menstruation.html
-- MED-0948 — https://medlineplus.gov/mentalhealth.html
-- MED-0957 — https://medlineplus.gov/myastheniagravis.html
-- MED-0959 — https://medlineplus.gov/neuroblastoma.html
-- MED-0966 — https://medlineplus.gov/osteoporosis.html
-- MED-0975 — https://medlineplus.gov/pneumonia.html
-- MED-0983 — https://medlineplus.gov/progressivesupranuclearpalsy.html
-- MED-0984 — https://medlineplus.gov/prostatecancer.html
-- MED-0985 — https://medlineplus.gov/prostatecancerscreening.html
-- MED-0986 — https://medlineplus.gov/pulmonaryembolism.html
-- MED-0994 — https://medlineplus.gov/respiratorysyncytialvirusinfections.html
-- MED-0997 — https://medlineplus.gov/rotatorcuffinjuries.html
-- MED-0998 — https://medlineplus.gov/sarcoidosis.html
-- MED-1001 — https://medlineplus.gov/sicklecelldisease.html
-- MED-1004 — https://medlineplus.gov/smoking.html
-- MED-1006 — https://medlineplus.gov/steatoticliverdisease.html
-- MED-1007 — https://medlineplus.gov/stress.html
-- MED-1008 — https://medlineplus.gov/stroke.html
-- MED-1017 — https://medlineplus.gov/tremor.html
-- MED-1213 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=253647
-- MED-1361 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=286011
-- MED-1366 — https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases
-- MED-1367 — https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death
-- MED-1368 — https://www.who.int/news-room/fact-sheets/detail/cancer-in-children
-- MED-1369 — https://www.who.int/news-room/fact-sheets/detail/asbestos
-- MED-1370 — https://www.who.int/news-room/fact-sheets/detail/radon-and-health
-- MED-1371 — https://www.who.int/news-room/fact-sheets/detail/ultraviolet-radiation
-- MED-1372 — https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health
-- MED-1373 — https://www.who.int/news-room/fact-sheets/detail/household-air-pollution-and-health
-- MED-1376 — https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
-- MED-1377 — https://www.who.int/news-room/fact-sheets/detail/meningitis
-- MED-1378 — https://www.who.int/news-room/fact-sheets/detail/rehabilitation
-- MED-1380 — https://www.who.int/news-room/fact-sheets/detail/universal-health-coverage-(uhc)
-- MED-1381 — https://www.who.int/news-room/fact-sheets/detail/hepatitis-d
-- MED-1403 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=280315
-- MED-1407 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290599
-- MED-1432 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=285273
-- MED-1438 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290599&part=byul6-emergency
-- MED-1462 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290667
-- MED-1851 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=279731
-- MED-1852 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=286213
-- MED-1853 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=286217&part=amend21690
-- MED-1854 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=280447
-- MED-1855 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=289409
-- MED-1856 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=285699
-- MED-1857 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=286719
-- MED-2149 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=285273&part=jo69-75
-- MED-2150 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=289701&part=jo44-rate2026
-- MED-2151 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=289701&part=byul4-property
-- MED-2152 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290599&part=jo2-byul1
-- MED-2153 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290599&part=byul1-2
-- MED-2154 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=285273&part=jo110-voluntary
-- MED-2155 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=286011&part=jo4-rate2026
-- MED-2172 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288079&part=byul1-2
-- MED-2176 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=270789&part=jo2-10
-- MED-2177 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=242023&part=jo3-7
-- MED-2181 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=283459&part=jo36-112
-- MED-2182 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=283459&part=jo40-42
-- MED-2183 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=283459&part=jo52-56
-- MED-2186 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=283459&part=jo66-69
-- MED-2188 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=283459&part=jo37
-- MED-2189 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=283459&part=jo80-87
-- MED-2202 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=276683
-- MED-2212 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=285325&part=jo24-71
-- MED-2223 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=265473&part=jo27-44
-- MED-2224 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=265473&part=jo46
-- MED-2226 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=265473&part=jo47-50
-- MED-2235 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=285341&part=jo86
-- MED-2236 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=282415&part=byeol
-- MED-2237 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=282415&part=jo6-17
-- MED-2238 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=280763&part=jo2-19
-- MED-2240 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=285341&part=jo68-8
-- MED-2250 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=285341&part=relation
-- MED-2251 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=280429&part=jo19-22
-- MED-2252 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=289431&part=jo12-23
-- MED-2253 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288097&part=jo9-10
-- MED-2257 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290793&part=jo16-32
-- MED-2258 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290407&part=jo22-24
-- MED-2260 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290659&part=jo30
-- MED-2261 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290599&part=jo26
-- MED-2262 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290599&part=byeol7
-- MED-2264 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288079&part=jo25-byeol2
-- MED-2266 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=265917&part=jo7-8
-- MED-2268 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=285513&part=byeol1-7
-- MED-2273 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=289701&part=jo23
-- MED-2275 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288079&part=jo8-2
-- MED-2276 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=286727&part=jo10-11
-- MED-2277 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=289701&part=byeol2-3ka
-- MED-2283 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=266647&part=jo2-12
-- MED-2286 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=257869&part=jo12
-- MED-2289 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=285345&part=jo11-80
-- MED-2292 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290599&part=byeol3-4
-- MED-2293 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=289701&part=byeol2-child
-- MED-2294 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290657&part=jo32
-- MED-2297 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=285273&part=art109
-- MED-2298 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=289701&part=art76
-- MED-2299 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290599&part=art61-2
-- MED-2311 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290667&part=art17-21
-- MED-2312 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=286963&part=art13-3
-- MED-2316 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=265389&part=art185-189
-- MED-2317 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290427&part=art96-3
-- MED-2321 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=277247&part=art46
-- MED-2322 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=277247&part=art47
-- MED-2326 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290243&part=art39-45
-- MED-2332 — https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=265389&part=art97
+- MED-0283 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12146613/
+- MED-0284 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12766015/
+- MED-0558 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7834900/
+- MED-0568 — https://www.who.int/news-room/fact-sheets/detail/ageing-and-health
+- MED-0569 — https://www.who.int/news-room/fact-sheets/detail/alcohol
+- MED-0573 — https://www.who.int/news-room/fact-sheets/detail/asthma
+- MED-0574 — https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders
+- MED-0577 — https://www.who.int/news-room/fact-sheets/detail/breast-cancer
+- MED-0578 — https://www.who.int/news-room/fact-sheets/detail/burns
+- MED-0584 — https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss
+- MED-0591 — https://www.who.int/news-room/fact-sheets/detail/epilepsy
+- MED-0594 — https://www.who.int/news-room/fact-sheets/detail/headache-disorders
+- MED-0600 — https://www.who.int/news-room/fact-sheets/detail/human-papilloma-virus-and-cancer
+- MED-0602 — https://www.who.int/news-room/fact-sheets/detail/infertility
+- MED-0604 — https://www.who.int/news-room/fact-sheets/detail/kidney-disease
+- MED-0608 — https://www.who.int/news-room/fact-sheets/detail/menopause
+- MED-0611 — https://www.who.int/news-room/fact-sheets/detail/multiple-sclerosis
+- MED-0620 — https://www.who.int/news-room/fact-sheets/detail/physical-activity
+- MED-0621 — https://www.who.int/news-room/fact-sheets/detail/pneumonia
+- MED-0622 — https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome
+- MED-0623 — https://www.who.int/news-room/fact-sheets/detail/post-covid-19-condition-(long-covid)
+- MED-0625 — https://www.who.int/news-room/fact-sheets/detail/pre-eclampsia
+- MED-0626 — https://www.who.int/news-room/fact-sheets/detail/rheumatic-heart-disease
+- MED-0628 — https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries
+- MED-0632 — https://www.who.int/news-room/fact-sheets/detail/shingles-(herpes-zoster)
+- MED-0637 — https://www.who.int/news-room/fact-sheets/detail/sugars-and-dental-caries
+- MED-0638 — https://www.who.int/news-room/fact-sheets/detail/suicide
+- MED-0639 — https://www.who.int/news-room/fact-sheets/detail/syphilis
+- MED-0640 — https://www.who.int/news-room/fact-sheets/detail/tobacco
+- MED-0642 — https://www.who.int/news-room/fact-sheets/detail/tuberculosis
+- MED-0692 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/abdominal-aortic-aneurysm-screening
+- MED-0693 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/anxiety-adults-screening
+- MED-0694 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/asymptomatic-bacteriuria-in-adults-screening
+- MED-0695 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/brca-related-cancer-risk-assessment-genetic-counseling-and-genetic-testing
+- MED-0696 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-medications-for-risk-reduction
+- MED-0697 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-screening
+- MED-0698 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breastfeeding-primary-care-interventions
+- MED-0699 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cervical-cancer-screening
+- MED-0700 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/child-maltreatment-primary-care-interventions
+- MED-0701 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/chlamydia-and-gonorrhea-screening
+- MED-0702 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/colorectal-cancer-screening
+- MED-0703 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/drug-use-illicit-screening
+- MED-0704 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/falls-prevention-community-dwelling-older-adults-interventions
+- MED-0705 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/folic-acid-for-the-prevention-of-neural-tube-defects-preventive-medication
+- MED-0706 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/food-insecurity-screening
+- MED-0707 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/gestational-diabetes-screening
+- MED-0708 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/healthy-diet-and-physical-activity-counseling-adults-with-high-risk-of-cvd
+- MED-0709 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/healthy-weight-and-weight-gain-during-pregnancy-behavioral-counseling-interventions
+- MED-0710 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hepatitis-b-virus-infection-in-pregnant-women-screening
+- MED-0711 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hepatitis-b-virus-infection-screening
+- MED-0712 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hepatitis-c-screening
+- MED-0713 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/human-immunodeficiency-virus-hiv-infection-screening
+- MED-0714 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hypertension-in-adults-screening
+- MED-0715 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hypertensive-disorders-pregnancy-screening
+- MED-0716 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/intimate-partner-violence-and-abuse-of-elderly-and-vulnerable-adults-screening
+- MED-0717 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/iron-deficiency-anemia-in-pregnant-women-screening-and-supplementation
+- MED-0718 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/latent-tuberculosis-infection-screening
+- MED-0719 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lipid-disorders-in-children-screening
+- MED-0720 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/low-dose-aspirin-use-for-the-prevention-of-morbidity-and-mortality-from-preeclampsia-preventive-medication
+- MED-0721 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening
+- MED-0722 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions
+- MED-0723 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-children-and-adolescents-screening
+- MED-0724 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/ocular-prophylaxis-for-gonococcal-ophthalmia-neonatorum-preventive-medication
+- MED-0725 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/oral-health-adults-screening-preventive-interventions
+- MED-0726 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/oral-health-children-adolescents-screening-preventive-interventions
+- MED-0727 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/perinatal-depression-preventive-interventions
+- MED-0728 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/prevention-of-dental-caries-in-children-younger-than-age-5-years-screening-and-interventions1
+- MED-0729 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/prevention-of-human-immunodeficiency-virus-hiv-infection-pre-exposure-prophylaxis
+- MED-0730 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/rh-d-incompatibility-screening
+- MED-0731 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-anxiety-children-adolescents
+- MED-0732 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-depression-suicide-risk-adults
+- MED-0733 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-depression-suicide-risk-children-adolescents
+- MED-0734 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-for-prediabetes-and-type-2-diabetes
+- MED-0735 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/sexually-transmitted-infections-behavioral-counseling
+- MED-0736 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/skin-cancer-counseling
+- MED-0737 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/speech-and-language-delay-and-disorders-in-children-age-5-and-younger-screening
+- MED-0738 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/statin-use-in-adults-preventive-medication
+- MED-0739 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/syphilis-infection-nonpregnant-adults-adolescents-screening
+- MED-0740 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/unhealthy-alcohol-use-in-adolescents-and-adults-screening-and-behavioral-counseling-interventions
+- MED-0741 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/vision-in-children-ages-6-months-to-5-years-screening
+- MED-0806 — https://medlineplus.gov/acutemyeloidleukemia.html
+- MED-0808 — https://medlineplus.gov/alpha1antitrypsindeficiency.html
+- MED-0815 — https://medlineplus.gov/anxiety.html
+- MED-0820 — https://medlineplus.gov/arthritis.html
+- MED-0821 — https://medlineplus.gov/asthma.html
+- MED-0829 — https://medlineplus.gov/bloodglucose.html
+- MED-0830 — https://medlineplus.gov/bloodpressuremedicines.html
+- MED-0834 — https://medlineplus.gov/breastcancer.html
+- MED-0837 — https://medlineplus.gov/cancer.html
+- MED-0839 — https://medlineplus.gov/cancerimmunotherapy.html
+- MED-0841 — https://medlineplus.gov/carpaltunnelsyndrome.html
+- MED-0842 — https://medlineplus.gov/celiacdisease.html
+- MED-0852 — https://medlineplus.gov/chroniclymphocyticleukemia.html
+- MED-0867 — https://medlineplus.gov/dementia.html
+- MED-0873 — https://medlineplus.gov/diabetesmedicines.html
+- MED-0875 — https://medlineplus.gov/diabetestype2.html
+- MED-0898 — https://medlineplus.gov/guidetogoodposture.html
+- MED-0899 — https://medlineplus.gov/hdlthegoodcholesterol.html
+- MED-0902 — https://medlineplus.gov/heartattack.html
+- MED-0905 — https://medlineplus.gov/heartfailure.html
+- MED-0916 — https://medlineplus.gov/highbloodpressure.html
+- MED-0941 — https://medlineplus.gov/leukemia.html
+- MED-0947 — https://medlineplus.gov/mentaldisorders.html
+- MED-0949 — https://medlineplus.gov/metabolicsyndrome.html
+- MED-0958 — https://medlineplus.gov/nauseaandvomiting.html
+- MED-0961 — https://medlineplus.gov/obesity.html
+- MED-0963 — https://medlineplus.gov/olderadultmentalhealth.html
+- MED-0974 — https://medlineplus.gov/pneumocystisinfections.html
+- MED-0978 — https://medlineplus.gov/posttraumaticstressdisorder.html
+- MED-0993 — https://medlineplus.gov/respiratoryfailure.html
+- MED-1002 — https://medlineplus.gov/sjogrenssyndrome.html
+- MED-1005 — https://medlineplus.gov/spinalmuscularatrophy.html
+- MED-1009 — https://medlineplus.gov/strokerehabilitation.html
+- MED-1018 — https://medlineplus.gov/triglycerides.html
+- MED-1126 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13655467/
+- MED-1232 — https://www.data.go.kr/data/15117426/fileData.do
+- MED-1264 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13430407/
+- MED-1265 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7160350/
+- MED-1266 — https://pmc.ncbi.nlm.nih.gov/articles/PMC10079515/
+- MED-1267 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12620694/
+- MED-1268 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6435847/
+- MED-1269 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11261187/
+- MED-1270 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6901690/
+- MED-1271 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6310769/
+- MED-1272 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11739646/
+- MED-1273 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6960041/
+- MED-1274 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7820646/
+- MED-1275 — https://pmc.ncbi.nlm.nih.gov/articles/PMC8246015/
+- MED-1276 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11458495/
+- MED-1277 — https://pmc.ncbi.nlm.nih.gov/articles/PMC5895837/
+- MED-1278 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12230392/
+- MED-1293 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/osteoporosis-screening
+- MED-1294 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/tobacco-use-in-adults-and-pregnant-women-counseling-and-interventions
+- MED-1295 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/prostate-cancer-screening
+- MED-1296 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/aspirin-to-prevent-cardiovascular-disease-preventive-medication
+- MED-1297 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/atrial-fibrillation-screening
+- MED-1298 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cognitive-impairment-in-older-adults-screening
+- MED-1299 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/skin-cancer-screening
+- MED-1300 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/ovarian-cancer-screening
+- MED-1301 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/pancreatic-cancer-screening
+- MED-1302 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/thyroid-cancer-screening
+- MED-1303 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/testicular-cancer-screening
+- MED-1304 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/bladder-cancer-in-adults-screening
+- MED-1305 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/oral-cancer-screening
+- MED-1306 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/carotid-artery-stenosis-screening
+- MED-1307 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/chronic-obstructive-pulmonary-disease-screening
+- MED-1308 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hearing-loss-in-older-adults-screening
+- MED-1309 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/impaired-visual-acuity-screening-older-adults
+- MED-1310 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obstructive-sleep-apnea-in-adults-screening
+- MED-1311 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/vitamin-d-deficiency-screening
+- MED-1312 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/vitamin-supplementation-to-prevent-cvd-and-cancer-preventive-medication
+- MED-1313 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/menopausal-hormone-therapy-preventive-medication
+- MED-1314 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cardiovascular-disease-risk-screening-with-electrocardiography
+- MED-1315 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/vitamin-d-calcium-or-combined-supplementation-for-the-primary-prevention-of-fractures-in-adults-preventive-medication
+- MED-1316 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cardiovascular-disease-screening-using-nontraditional-risk-assessment
+- MED-1323 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/syphilis-infection-in-pregnancy-screening
+- MED-1324 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/tobacco-and-nicotine-use-prevention-in-children-and-adolescents-primary-care-interventions
+- MED-1325 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/primary-open-angle-glaucoma-screening
+- MED-1326 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/peripheral-artery-disease-in-adults-screening-with-the-ankle-brachial-index
+- MED-1327 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/blood-pressure-in-children-and-adolescents-hypertension-screening
+- MED-1374 — https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response
+- MED-1375 — https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults
+- MED-1379 — https://www.who.int/news-room/fact-sheets/detail/disability-and-health
+- MED-1409 — https://www.nhs.uk/tests-and-treatments/breast-screening-mammogram/
+- MED-1411 — https://www.nhs.uk/tests-and-treatments/abdominal-aortic-aneurysm-screening/
+- MED-1421 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7324844/
+- MED-1422 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7383009/
+- MED-1423 — https://pmc.ncbi.nlm.nih.gov/articles/PMC9606436/
+- MED-2243 — https://www.mfds.go.kr/brd/m_99/view.do?seq=49623&part=seq49623
+- MED-2244 — https://www.mfds.go.kr/brd/m_99/view.do?seq=50077&part=seq50077
+- MED-2245 — https://www.mfds.go.kr/brd/m_99/view.do?seq=48525&part=seq48525
+- MED-2246 — https://www.mfds.go.kr/brd/m_99/view.do?seq=47887&part=seq47887
+- MED-2247 — https://www.mfds.go.kr/brd/m_99/view.do?seq=47939&part=seq47939
+- MED-2248 — https://www.mfds.go.kr/brd/m_99/view.do?seq=48774&part=seq48774
+- MED-2249 — https://www.mfds.go.kr/brd/m_99/view.do?seq=46516&part=seq46516
+- MED-2288 — https://www.geumcheon.go.kr/health/contents.do?key=4523
 
 ## 접속 3회 이상 연속 실패 (282건)
 
@@ -314,6 +285,8 @@
 - MED-1259 — 5회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-17, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=breast
 - MED-1260 — 5회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-17, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=liver
 - MED-1261 — 5회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-17, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=thyroid
+- MED-1262 — 5회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-18, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=prostate
+- MED-1263 — 5회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-18, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20250201&sno=6&mtgMtrRegSno=0005&part=xgeva
 - MED-1291 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=download&articleNo=10849366&attachNo=369449&part=rare-neuro
 - MED-1292 — 18회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/minwon/wbhaba03900m01.do?mode=download&articleNo=10849366&attachNo=369449&part=rare-immune
 - MED-1317 — 3회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng28
@@ -356,6 +329,7 @@
 - MED-1388 — 4회 — HTTPError: HTTP Error 403: Forbidden (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nice.org.uk/guidance/ng211
 - MED-1389 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20240730&sno=4&mtgMtrRegSno=0006&part=mri
 - MED-1390 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20230701&sno=1&mtgMtrRegSno=0001&part=ultrasound
+- MED-1391 — 5회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-18, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260701&sno=4&mtgMtrRegSno=0001&part=manualtherapy
 - MED-1392 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20151029&sno=2&mtgMtrRegSno=0001&part=eswl
 - MED-1393 — 9회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20110124&sno=2&mtgMtrRegSno=0008&part=varicose
 - MED-1396 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://ksn.or.kr/bbs/skin/publication/download.php?code=g_guideline&number=2245
@@ -416,6 +390,7 @@
 - MED-1577 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C50
 - MED-1578 — 7회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C73
 - MED-1579 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C22
+- MED-1580 — 5회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-18, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C25
 - MED-1581 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-17, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C61
 - MED-1582 — 4회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-17, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=I63
 - MED-1583 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=I21
@@ -475,6 +450,7 @@
 - MED-1995 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20130901&sno=1&mtgMtrRegSno=0433&part=zoster-antiviral
 - MED-1996 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20190901&sno=6&mtgMtrRegSno=0013&part=phn-pregabalin-gabapentin
 - MED-1999 — 17회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaec06300m01.do?mode=view&articleNo=11007426&part=skin-cancer-registration
+- MED-2000 — 5회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-18, 7일마다 재시도) — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=melanoma
 - MED-2001 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20261001&sno=2&mtgMtrRegSno=0001&part=ruxolitinib-gvhd
 - MED-2002 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20261001&sno=2&mtgMtrRegSno=0002&part=cinnamon-gastritis
 - MED-2003 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/npay/index.do?pgmid=HIRAA030009000000&part=dental-crown-UW607-613-UZ001
@@ -490,11 +466,6 @@
 - MED-2217 — 15회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11005254
 - MED-2255 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/dummy.do?pgmid=HIRAA020020000005
 - MED-2301 — 5회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-17, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01000m01.do?mode=view&articleNo=11008009
-- MED-1262 — 5회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=8&apndBrdTyNo=5&apndBltNo=487&part=prostate
-- MED-1263 — 5회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20250201&sno=6&mtgMtrRegSno=0005&part=xgeva
-- MED-1391 — 5회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?mtgHmeDd=20260701&sno=4&mtgMtrRegSno=0001&part=manualtherapy
-- MED-1580 — 5회 — TimeoutError: The read operation timed out — https://opendata.hira.or.kr/op/opc/olap3thDsInfoTab1.do?part=C25
-- MED-2000 — 5회 — TimeoutError: The read operation timed out — https://www.hira.or.kr/bbs/bbsCDownLoad.do?apndNo=1&apndBrdBltNo=7&apndBrdTyNo=5&apndBltNo=487&part=melanoma
 
 ## 재확인 기한 도래·30일 이내 (52건)
 
@@ -551,24 +522,27 @@
 - 2026-12-18 MED-1688 [verified] 초기(1·2세대) 실손 가입자 '선택형 할인 특약'·'계약전환 할인(재매입)' 2026년 11월 시행 예정(금융위원회 보도자료, 2026-05-06, 5세대 실손 출시) — 선택형 할인: 기존 계약 유지하며 ①비급여 물리치료(도수치료 등)·체외충격파·비급여 주사제 ②비급여 MRI·MRA 보장 제외 ③자기부담률 20% 선택 시 전체 기준 약 30~40% 할인 / 계약전환 할인: 5세대 전환 시 일정 기간 할인(예: 3년간 50%), 6개월 시행 후 연장 검토, 6개월 내 철회 허용(3개월 내 무조건)
 - 2026-12-18 MED-1689 [verified] 건강보험심사평가원 상병마스터(공공데이터포털 15067467, '상병마스터_20250930', 등록 2025-11-04, 47,798행) — 청구용 상병기호·한글명·영문명·완전코드구분·주상병사용구분·법정감염병구분·성별·상하한 연령·양한방구분 / 직접 확인 결과 9차 신설 코드(D37.60·I20.81·I50.10·J82.10·F32.21·K29.60·B34.20·U86.0) 없음, 8차 코드(I50.04·U22.2·U18.0) 있음 → 9차 반영 전 파일, 다음 등록 예정 2026-11-30
 
-## PubMed 신규 가이드라인·RCT·메타분석 (2026-11-17 이후)
+## PubMed 신규 가이드라인·RCT·메타분석 (2026-11-18 이후)
 
 **신장암**
+- French AFU Cancer Committee Guidelines - Update 2026-2028: Kidney cancer. (2026 Nov) https://pubmed.ncbi.nlm.nih.gov/43051705/
 - PD-1/PD-L1 inhibitor-based regimens in sarcomatoid renal cell carcinoma: a meta-analysis of randomized controlled trials and single-arm studies. (2026) https://pubmed.ncbi.nlm.nih.gov/43047712/
 **위암**
-- Impact of multimodal prehabilitation on surgical recovery after elective gastrectomy for gastric cancer: a systematic review and meta-analysis. (2026 Aug 21) https://pubmed.ncbi.nlm.nih.gov/43040392/
+- Ultra-short-term in-hospital multimodal prehabilitation in older patients undergoing laparoscopic gastrectomy for gastric cancer: a randomized controlled trial. (2026 Nov 19) https://pubmed.ncbi.nlm.nih.gov/43056003/
 **대장암**
 - Quality of postoperative recovery in patients undergoing laparoscopic colorectal cancer resection as affected by transversus abdominis plane block combined with moderate neuromuscular blockade: a randomized controlled trial. (2026 Aug 3) https://pubmed.ncbi.nlm.nih.gov/43045976/
 **폐암**
 - LncPVT1 as a Potential Biomarker for Lung Cancer: A Meta-Analysis. (2026 Nov 13) https://pubmed.ncbi.nlm.nih.gov/43048830/
-- Quality of Life Outcomes From the Phase 3 Study of Atezolizumab + Bevacizumab and Chemotherapy (ATTLAS, KCSG-LU19-04) in EGFR/ALK-Mutated Non-Small-Cell Lung Cancer. (2026 Nov) https://pubmed.ncbi.nlm.nih.gov/43040603/
 **유방암**
-- Effects of aerobic exercise during chemotherapy on cancer-related fatigue and health-related quality of life in patients with breast cancer: a systematic review and meta-analysis. (2026 Sep 11) https://pubmed.ncbi.nlm.nih.gov/43040497/
-- Outcome-specific differences between randomized trials and real-world studies of CDK4/6 inhibitors in hormone receptor-positive, HER2-negative advanced breast cancer: a meta-epidemiological analysis. (2026 Oct 24) https://pubmed.ncbi.nlm.nih.gov/43040468/
+- Added effects of manual lymphatic drainage and intermittent pneumatic compression on compression-based care for established upper-limb breast-cancer-related lymphedema: a systematic review and component network meta-analysis. (2026 Nov 19) https://pubmed.ncbi.nlm.nih.gov/43055979/
+- Longitudinal ctDNA profiling reveals genomic risk and molecular response to bireociclib in advanced breast cancer. (2026 Oct 21) https://pubmed.ncbi.nlm.nih.gov/43052301/
+**간암**
+- ACR Appropriateness Criteria® Chronic Liver Disease: 2026 Update. (2026 Nov 19) https://pubmed.ncbi.nlm.nih.gov/43055695/
 **전립선암**
-- Opioid-free anaesthesia versus opioid-based anaesthesia for laparoscopic radical prostatectomy: a prespecified analysis of a single-centre randomized controlled trial. (2026 Nov 17) https://pubmed.ncbi.nlm.nih.gov/43043486/
-**갑상선암**
-- Efficacy of iodine-125 seed implantation for differentiated thyroid cancer: a time-stratified systematic review and meta-analysis of comparative and single-arm studies. (2026 Nov 16) https://pubmed.ncbi.nlm.nih.gov/43040188/
+- Clinicopathological factors associated with biochemical recurrence after robot-assisted radical prostatectomy: A systematic review and meta-analysis. (2026) https://pubmed.ncbi.nlm.nih.gov/43056348/
+- Secondary Analysis of a Randomized Controlled Trial of Adjuvant Chemotherapy by PSA Response Following Radiotherapy. (2026 Nov) https://pubmed.ncbi.nlm.nih.gov/43053607/
+- French AFU Cancer Committee Guidelines - Update 2026-2028: Prostate cancer - Diagnosis and management of localized disease. (2026 Nov) https://pubmed.ncbi.nlm.nih.gov/43051708/
+- French AFU Cancer Committee Guidelines - Update 2026-2028: Prostate Cancer - Treatment of relapse and metastatic disease. (2026 Nov) https://pubmed.ncbi.nlm.nih.gov/43051704/
 **췌장암**
 - Factors associated with mood and anxiety disorders in patients with cancer: A systematic review and meta-analysis. (2026 Dec 1) https://pubmed.ncbi.nlm.nih.gov/43046927/
 
