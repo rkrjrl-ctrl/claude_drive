@@ -1,40 +1,6 @@
 {
-"updated": "2026-11-19T23:06+09:00",
+"updated": "2026-11-20T00:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261111_0003864581",
-"t": "2026-11-12T00:06+09:00",
-"tok": [
-"3대지수",
-"뉴욕증시",
-"상승",
-"춭발",
-"코어위브",
-"호실적에"
-],
-"g": "https://www.newsis.com/view/NISX20261111_0003864581"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5hc056Wl8yQzhlOXY3Vm1tNVJORU9VRWRXVkdxelIwTnBUVHZ4LU1DREZuTzhrdTFFbkstVXhXS3oxRW95dWFMaklFb2YxZVpsYmtfUW5kMWJ2ZVh6eU44Z3F4RE5aYWEw?oc=5",
-"t": "2026-11-12T00:06+09:00",
-"tok": [
-"50",
-"P500",
-"강세",
-"기술주",
-"나스닥",
-"뉴욕증시",
-"다우는",
-"반등",
-"상승",
-"주목",
-"하락"
-],
-"m": 1,
-"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5hc056Wl8yQzhlOXY3Vm1tNVJORU9VRWRXVkdxelIwTnBUVHZ4LU1DREZuTzhrdTFFbkstVXhXS3oxRW95dWFMaklFb2YxZVpsYmtfUW5kMWJ2ZVh6eU44Z3F4RE5aYWEw?oc=5"
-},
 {
 "kind": "주목",
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5DNHpnZV84c3lfWXFldlBwZnBud0hRNXZISms4T0FmZ0dZRDIxV3VfRkdjUTh6d2k4UUxvbWRFcTFtdllRLWNwM0c4Z0RuejdCVERDcUhZRWtPaXc5RW1sbEtadEVQcFB1Z3VMdU1ZOUFqdw?oc=5",
@@ -10273,6 +10239,71 @@
 "전환",
 "최대",
 "특약"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261119_0003875913",
+"t": "2026-11-20T00:06+09:00",
+"tok": [
+"55",
+"기대에",
+"나스닥",
+"뉴욕증시",
+"상승",
+"상장",
+"앤트로픽",
+"출발"
+],
+"g": "https://www.newsis.com/view/NISX20261119_0003875913"
+},
+{
+"kind": "속보",
+"link": "https://www.chosun.com/economy/int_economy/2026/11/19/727FDBQ3VRCT7DRNM5EJFH4MWM/",
+"t": "2026-11-20T00:06+09:00",
+"tok": [
+"6년도",
+"IPO",
+"개장종",
+"나스닥",
+"남매가",
+"아모데이",
+"앤스로픽",
+"역대",
+"울렸다",
+"창업",
+"최대"
+],
+"m": 1,
+"g": "https://www.chosun.com/economy/int_economy/2026/11/19/727FDBQ3VRCT7DRNM5EJFH4MWM/"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5fTzhJTzQwN1hlM1F6MUtIQkkwYzdQR0hBT3VWRFl5X2NvWWlWWVVPTlRESE1IQmwtUzAtNmJza0tqemk2TWxTWjcxMHUzSVpqY09QNVFhVk9GRDVSZG50MmRBQ0Z3N0hC?oc=5",
+"t": "2026-11-20T00:06+09:00",
+"tok": [
+"급등",
+"마이크론",
+"삼전닉스에",
+"엔비디아",
+"영향",
+"주목"
+],
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5fTzhJTzQwN1hlM1F6MUtIQkkwYzdQR0hBT3VWRFl5X2NvWWlWWVVPTlRESE1IQmwtUzAtNmJza0tqemk2TWxTWjcxMHUzSVpqY09QNVFhVk9GRDVSZG50MmRBQ0Z3N0hC?oc=5"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1EVm5uLWVXaGpER002THF2ZXo1b2lUbnU1aUcweEdwdjJ2d3dROUZveFpBOXgwazU2MmsybnQzLXprbGlOSEpIQ1luZ2pMRDBVbDVzRmd4cU0tMlQ2OW9McXM4LW1teGRpRmdrdA?oc=5",
+"t": "2026-11-20T00:06+09:00",
+"tok": [
+"AI",
+"계약서",
+"바뀌었다",
+"삼쩜삼",
+"숨은",
+"월세",
+"점검까지",
+"환급금부터"
 ]
 }
 ]
