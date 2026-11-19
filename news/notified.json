@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T01:06+09:00",
+"updated": "2026-11-20T02:06+09:00",
 "items": [
 {
 "kind": "주목",
@@ -10325,6 +10325,65 @@
 "전망"
 ],
 "g": "https://www.chosun.com/economy/int_economy/2026/11/20/6VDIA4ORKFEBPGCKYVJBCRWUQY/"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026112001514064709",
+"t": "2026-11-20T02:06+09:00",
+"tok": [
+"111",
+"50달러로",
+"개장",
+"시초가",
+"앤스로픽"
+],
+"g": "https://www.chosun.com/economy/int_economy/2026/11/20/6VDIA4ORKFEBPGCKYVJBCRWUQY/"
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261120002700091",
+"t": "2026-11-20T02:06+09:00",
+"tok": [
+"111",
+"5달러에",
+"거래",
+"시작",
+"앤트로픽",
+"주가"
+],
+"g": "https://www.yna.co.kr/view/AKR20261120002700091"
+},
+{
+"kind": "속보",
+"link": "https://www.chosun.com/economy/int_economy/2026/11/20/7RYKN7SGTJHJHKRYQQIGXVBLLU/",
+"t": "2026-11-20T02:06+09:00",
+"tok": [
+"111",
+"34",
+"50달러",
+"거래",
+"공모가보다",
+"나스닥",
+"높아",
+"앤스로픽"
+],
+"m": 1,
+"g": "https://www.yna.co.kr/view/AKR20261120002700091"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261120_0003875939",
+"t": "2026-11-20T02:06+09:00",
+"tok": [
+"111",
+"50달러",
+"개시",
+"거래",
+"나스닥",
+"앤트로픽",
+"체결가"
+],
+"g": "https://www.yna.co.kr/view/AKR20261120002700091"
 }
 ]
 }
