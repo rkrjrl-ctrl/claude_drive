@@ -1,37 +1,6 @@
 {
-"updated": "2026-11-19T14:06+09:00",
+"updated": "2026-11-19T15:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://www.fnnews.com/news/202611101514337060",
-"t": "2026-11-11T15:05+09:00",
-"tok": [
-"LP용",
-"고율",
-"금감원",
-"대차주식",
-"분리",
-"손본다",
-"일반용",
-"재대여",
-"추진"
-]
-},
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBTaGV6eHNNalBocE5WcTA2MHREalFld0tfQ0hHWWg3ZXUwcTJ5UVhzRHBWMFNIaVBWTXFhT3F0T24xYVBjNUhZU09zWUNwQlBUQk9LTVZUYl84UQ?oc=5",
-"t": "2026-11-11T15:05+09:00",
-"tok": [
-"급증",
-"남발",
-"실손",
-"주사",
-"줄여준다며",
-"청구",
-"통증",
-"히알루로니다제"
-]
-},
 {
 "kind": "속보",
 "link": "https://www.newsis.com/view/NISX20261111_0003864072",
@@ -9370,6 +9339,394 @@
 "전문가",
 "체계",
 "휴먼컨설팅그룹"
+]
+},
+{
+"kind": "gov",
+"link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789929",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"1조",
+"국민이",
+"기업이",
+"달러",
+"대한민국",
+"돌파",
+"뛰고",
+"성과",
+"수출",
+"이룬",
+"함께"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.mt.co.kr/economy/2026/11/19/2026111913565429610",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"1만배",
+"1조불",
+"4번째",
+"62년",
+"달성",
+"대한민국",
+"만에",
+"성장",
+"세계",
+"수출"
+],
+"g": "https://www.mt.co.kr/economy/2026/11/19/2026111913565429610"
+},
+{
+"kind": "속보",
+"link": "https://www.khan.co.kr/article/202611191429001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"1조달러",
+"네번째",
+"달성",
+"세계",
+"수출",
+"이어",
+"한국"
+],
+"g": "https://www.mt.co.kr/economy/2026/11/19/2026111913565429610"
+},
+{
+"kind": "속보",
+"link": "https://www.fnnews.com/news/202611191333048587",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"1조달러",
+"돌파",
+"번째",
+"사상",
+"세계",
+"수출"
+],
+"g": "https://www.mt.co.kr/economy/2026/11/19/2026111913565429610"
+},
+{
+"kind": "속보",
+"link": "https://www.yonhapnewstv.co.kr/news/AKR20261119143015V2H",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"1조",
+"4번째",
+"기록",
+"달러",
+"달성",
+"세계",
+"수출",
+"연간"
+],
+"g": "https://www.mt.co.kr/economy/2026/11/19/2026111913565429610"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261119_0003875005",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"1조",
+"관세장벽",
+"돌파",
+"뚫고",
+"번째",
+"수출",
+"이어",
+"한국"
+],
+"g": "https://www.mt.co.kr/economy/2026/11/19/2026111913565429610"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026111914074350205",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"1조달러",
+"4번째",
+"달성",
+"돌파",
+"세계",
+"수출"
+],
+"g": "https://www.mt.co.kr/economy/2026/11/19/2026111913565429610"
+},
+{
+"kind": "속보",
+"link": "https://www.hankyung.com/article/2026111974217",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"1조",
+"4번째",
+"달러",
+"달성",
+"세계",
+"수출",
+"한국"
+],
+"g": "https://www.mt.co.kr/economy/2026/11/19/2026111913565429610"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026111914102007328",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"1조달러",
+"가발",
+"넘어선",
+"반도체",
+"수출",
+"오징어"
+],
+"g": "https://view.asiae.co.kr/article/2026111914102007328"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026111914094194998",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"1948년",
+"3만6000배",
+"가장",
+"가팔라",
+"늘어",
+"수출",
+"이후",
+"전세계서"
+],
+"g": "https://view.asiae.co.kr/article/2026111914094194998"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026111914084371582",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"1조달러",
+"78년만에",
+"달성",
+"수출",
+"이룬",
+"쾌거"
+],
+"g": "https://www.mt.co.kr/economy/2026/11/19/2026111913565429610"
+},
+{
+"kind": "속보",
+"link": "https://www.chosun.com/economy/economy_general/2026/11/19/EAKIS76TVBF5VMQAULMTDUIQUU/",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"1조달러",
+"4번째",
+"달성",
+"수출",
+"전세계",
+"한국"
+],
+"g": "https://www.mt.co.kr/economy/2026/11/19/2026111913565429610"
+},
+{
+"kind": "속보",
+"link": "https://www.sedaily.com/article/20116443",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"14시",
+"1조",
+"38초부",
+"4번째",
+"9분",
+"달러",
+"달성",
+"대한민국",
+"돌파",
+"세계",
+"수출"
+],
+"g": "https://www.mt.co.kr/economy/2026/11/19/2026111913565429610"
+},
+{
+"kind": "속보",
+"link": "https://www.donga.com/news/Economy/article/all/20261119/135054264/1",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"1조달러",
+"4번째",
+"꿈의",
+"달성",
+"세계",
+"수출",
+"한국"
+],
+"g": "https://www.mt.co.kr/economy/2026/11/19/2026111913565429610"
+},
+{
+"kind": "속보",
+"link": "https://www.yonhapnewstv.co.kr/news/MYH20261119143928Lxl",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"1조",
+"4번째",
+"달러",
+"돌파",
+"세계",
+"수출",
+"연간"
+],
+"g": "https://www.mt.co.kr/economy/2026/11/19/2026111913565429610"
+},
+{
+"kind": "속보",
+"link": "https://www.donga.com/news/Economy/article/all/20261119/135054447/1",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"1조달러",
+"4번째",
+"고지",
+"기록",
+"독일",
+"미국",
+"밟았다",
+"수출",
+"이은",
+"중국",
+"한국"
+],
+"g": "https://www.mt.co.kr/economy/2026/11/19/2026111913565429610"
+},
+{
+"kind": "속보",
+"link": "https://www.hani.co.kr/arti/economy/economy_general/1288128.html",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"1조",
+"달러",
+"독일",
+"돌파",
+"미국",
+"번째",
+"수출액",
+"이어",
+"중국",
+"한국"
+],
+"g": "https://www.mt.co.kr/economy/2026/11/19/2026111913565429610"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5EMGtER1VVdlMzblNjTFhrZ3hJV1otdmVtaUZaNl9iTjlJWDQ1UWRuY2NHZVFVN1pjQnYycGl0MDVIV2JpNUJHNkFwVE50ZGpadmRuLVFCT2JVR1JT?oc=5",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"1조원",
+"3년간",
+"5세대",
+"미청구",
+"반값",
+"보험료",
+"실손보험금",
+"전환하면",
+"찾는다",
+"최대"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNcFNocm16ZHRMMHRuTGQtcWZYQjFUNDJRNTR3YzJsWkpkVXFtV2xWUk5RZ3dsN2s0SEZTVWd4ZE5DV2VBX3l6dnVCcE4xSXBxYUtiVENKV1pqMUJ4Xzc0UDNvb2lZTWtpaEhvNUtNYUYzSDZseVdlQ1BPNk1LbmFnYXprSHhRanJHX1FsZzNKelJDN0dOZ21jM2pNaW1hT0NIUWI1UWVzWktxRGFyTnBTVnowTnFRQ0FDYng2LTlYN3g0dDIxNEIxYzlMTE9mcGRsb1pzY3lmdkFxQko3akdrQUZTNUh4R2c5bUR0eFVHNEtvM29GRjR0dTg3QUF6ODZRUHZSZDFzU3o1UTVKNTB4c0dYTDBlcHp0MGZjNXhpbGhZNWhoZXNyS3lNVW0wQQ?oc=5",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"5세대",
+"보험료",
+"실손",
+"실손보험금",
+"어떻게",
+"언제부터",
+"찾기",
+"할인"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.hani.co.kr/arti/economy/finance/1288120.html",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"1조원",
+"손쉽게",
+"실손24",
+"실손보험금",
+"잠든",
+"찾아가세요"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAweDgtUEdfaXdyX0pHcl9yZnotZXMwaWNKaGE3eTVvUGJRR2NkS3MwT1RybmYzYlEwMzcxTWozenpaWWR5QXhuZVVOMlpiOU1PSklta3J4VzJIUFlmeEZBMzBYczRoR3hl?oc=5",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"5세대",
+"금융위",
+"도입",
+"미청구",
+"보험금",
+"서비스도",
+"실손보험",
+"전환",
+"찾기",
+"할인"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.nocutnews.co.kr/news/6609430",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"1조원",
+"실손보험금",
+"앱으로",
+"찾아간",
+"찾아준다",
+"최대"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NenVLTWpPNzk1SEc0MmowcjJmMENpNl9abmFZRnF0TTFJd0RXczhMSW53NWQ1dTJmeklmS1VzR3RLbk1lRENEM1JtZkxfc2hEVGtrVUEwdG1feWpGWnNaaUNoUUZIb0xEeE5XaNIBcEFVX3lxTE1rM21QWVN5aUk1d18zVjAyTFBKN0VGa2Zib1o3YlE0Y2I5XzBhRTN4Q2xTLTVwZ1ZpTE95cnpIeDlDZkZWczl3THVncGFidW9uY2RZZW1WczIyQU13UWNGY2pjSnF4UFRqc1R5TS1lbnY?oc=5",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"3년치",
+"놓친",
+"실손24가",
+"실손보험금",
+"찾아준다"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1oNUFSWElVUm5ZU0ZIeDdqRERST3dGbnVCTjdlUTlzYW5RS2Z3ZHpod2JvYnRaRk5CU0pIOEdCLWxjbk00UmI3Q3FFN3VKN1JaYmdLS3RWM3lEZ0x3S2QzaVcxTTBCZDdHZVgwVXRrRWg?oc=5",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"23년",
+"AI",
+"DB손해보험",
+"고객만족도",
+"만에",
+"보상",
+"자동차보험",
+"정상",
+"탈환",
+"통했다",
+"혁신"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1mcnBieHRBbWJBc3ZOdXJVaUt3MUMxLUpXTzEyblpLeUFXQkFUb1VIaTlXb0ZpUHU1RGs5ZE1wbHMwY2QwblBuV2liYy1nWHlfclNDOWc1eWI2dnMzcGctNFUyVjN6ckl5NTVmSllHbHkwQdIBdkFVX3lxTE42YmpDU3M3M3BnUVRCR2l6bFlTYVFHOWprb0Z4TEhwU3dHcU1DRmpOdHNTdE1kRTJ2SWlUNEpJbVJNLURxSVcxblpPbWNLeFRsQlVVMzBiX0JSc2ZPSzVjTGVJYWtNbHo3NUUyd3dCU1pIYm5rSmc?oc=5",
+"t": "2026-11-19T15:06+09:00",
+"tok": [
+"70",
+"강릉시",
+"돌파",
+"민생안정",
+"신청률",
+"지원금"
 ]
 }
 ]
