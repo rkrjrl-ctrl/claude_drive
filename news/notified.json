@@ -1,20 +1,6 @@
 {
-"updated": "2026-11-20T02:06+09:00",
+"updated": "2026-11-20T03:06+09:00",
 "items": [
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5DNHpnZV84c3lfWXFldlBwZnBud0hRNXZISms4T0FmZ0dZRDIxV3VfRkdjUTh6d2k4UUxvbWRFcTFtdllRLWNwM0c4Z0RuejdCVERDcUhZRWtPaXc5RW1sbEtadEVQcFB1Z3VMdU1ZOUFqdw?oc=5",
-"t": "2026-11-12T03:06+09:00",
-"tok": [
-"경남",
-"논란",
-"받으면",
-"소득기준",
-"청년연금",
-"최저임금",
-"탈락"
-]
-},
 {
 "kind": "주목",
 "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPV0tLaTJsVmhRNnl1VC1YcDVhcGJobWZwMUlwb3d4VHdRVnVSZnRzOVlfdzdlUXhSSjV4R2ZPV0JUWG5WQ093N1JhbFBqUk04ZERHRGZRVFpJNmVQUUtTY1dSbGRaa2hrRmNEUzB2dTktZTRPZ1RMU3I0MXNWQXI2U1VjSmc1WlFFRGhHUGJTU3lhbllXQW1hTlhsT0EtWlVTaUVjLV94SDFuSmZRMFcwclpnVTFiYW5UQnBDR1FXcWJXdw?oc=5",
@@ -10382,6 +10368,23 @@
 "나스닥",
 "앤트로픽",
 "체결가"
+],
+"g": "https://www.yna.co.kr/view/AKR20261120002700091"
+},
+{
+"kind": "속보",
+"link": "https://www.hankyung.com/article/202611208709i",
+"t": "2026-11-20T03:06+09:00",
+"tok": [
+"111",
+"34",
+"5달러에",
+"거래",
+"공모가",
+"급등",
+"대비",
+"시작",
+"앤트로픽"
 ],
 "g": "https://www.yna.co.kr/view/AKR20261120002700091"
 }
