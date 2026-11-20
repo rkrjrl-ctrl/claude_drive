@@ -1,47 +1,6 @@
 {
-"updated": "2026-11-20T18:06+09:00",
+"updated": "2026-11-20T19:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://www.hankyung.com/article/2026111235531",
-"t": "2026-11-12T19:06+09:00",
-"tok": [
-"51",
-"교보생명",
-"악사손보",
-"인수",
-"지분",
-"추진"
-]
-},
-{
-"kind": "단독",
-"link": "https://www.hankyung.com/article/2026111236641",
-"t": "2026-11-12T19:06+09:00",
-"tok": [
-"2회",
-"IR",
-"우량기업",
-"의무화",
-"코스닥"
-]
-},
-{
-"kind": "단독",
-"link": "https://www.hankyung.com/article/2026111236381",
-"t": "2026-11-12T19:06+09:00",
-"tok": [
-"IR",
-"나스닥은",
-"뒷전",
-"받고",
-"분기마다",
-"상장사는",
-"설명",
-"코스닥",
-"투자만"
-]
-},
 {
 "kind": "단독",
 "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE51bVJRX0VlRWdiaUY2ZUU0cUN2d1AtQTVrVzRCdUJvQklBT2JFZzNla3FnLS1lQ3JnMWhVWS1uTmJTb0t3amlCRjZ2SkRVZldEOURLeA?oc=5",
@@ -10157,6 +10116,22 @@
 "서울중수청",
 "수사",
 "조직원"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83U21kdlM0VThONmhEU1hJNnUwcmdBNl9hdXBkT1dSZVcxSUxRVlF1T2hHUlc1THV3WmpGcHFpa2wtTVhINGN1ck9IOHpGX1QwcVJWQkdCWmZ6dw?oc=5",
+"t": "2026-11-20T19:06+09:00",
+"tok": [
+"15억원",
+"기저귀로",
+"보험금",
+"송치",
+"위장",
+"인지장애",
+"일당",
+"챙긴",
+"휠체어"
 ]
 }
 ]
