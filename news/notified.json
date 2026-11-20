@@ -1,72 +1,6 @@
 {
-"updated": "2026-11-21T06:06+09:00",
+"updated": "2026-11-21T07:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZNmZQWHV5a2tBc1Z4QXEtYW5aX09PQmpkOWl4VXh4Tktfcjh2cFV4Vnc5WHNaU2tTNTBmMXlWZUFvZmlpcXpFSzBCWnY3NkhrYTEwaHp0Q0Y5dlZSQW5sR3d5MEJZSEE?oc=5",
-"t": "2026-11-13T07:06+09:00",
-"tok": [
-"나스닥",
-"뉴욕증시",
-"마감",
-"사임",
-"상승에",
-"유가",
-"젠슨황",
-"하락"
-],
-"m": 1,
-"g": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZNmZQWHV5a2tBc1Z4QXEtYW5aX09PQmpkOWl4VXh4Tktfcjh2cFV4Vnc5WHNaU2tTNTBmMXlWZUFvZmlpcXpFSzBCWnY3NkhrYTEwaHp0Q0Y5dlZSQW5sR3d5MEJZSEE?oc=5"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBubnJnTE5yUHpvYjY3bG1ONWNRZ0lJWXFYS2lmY2lKMjdRVGtxUUxVbHNxRnljbjlMbnM3WlNlbHFfd2dWVDhSaGpBc0ZrU2c1ZjJHNVRPUEs?oc=5",
-"t": "2026-11-13T07:06+09:00",
-"tok": [
-"43",
-"뉴욕증시",
-"쇼크",
-"엔비디아",
-"일제",
-"젠슨황",
-"하락"
-],
-"g": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBubnJnTE5yUHpvYjY3bG1ONWNRZ0lJWXFYS2lmY2lKMjdRVGtxUUxVbHNxRnljbjlMbnM3WlNlbHFfd2dWVDhSaGpBc0ZrU2c1ZjJHNVRPUEs?oc=5"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261113_0003866376",
-"t": "2026-11-13T07:06+09:00",
-"tok": [
-"나스닥",
-"뉴욕증시",
-"마감",
-"사임",
-"유가상승에",
-"젠슨황",
-"하락"
-],
-"m": 1,
-"g": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZNmZQWHV5a2tBc1Z4QXEtYW5aX09PQmpkOWl4VXh4Tktfcjh2cFV4Vnc5WHNaU2tTNTBmMXlWZUFvZmlpcXpFSzBCWnY3NkhrYTEwaHp0Q0Y5dlZSQW5sR3d5MEJZSEE?oc=5"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wUnVLLVpYWUprRVYxNGlrdEt5eXhQUHF6bUxpQU1nbGY4Y2V0NTdxZkdGX2hzSldIWHNSUmEzVzItMnU1MXpsamFJdjEyQU5RU0pR0gFYQVVfeXFMT1FCc3hSOHlpVFoxSkhreHhBbFMxSU1PaUZNMlpGS1h2MS1TenVtTUxXMXZqeW1tMmU3a2lrVzRSVzN0N2lCd3ZoeDVEclpiNzZiUzk2N3Q0TA?oc=5",
-"t": "2026-11-13T07:06+09:00",
-"tok": [
-"35",
-"36",
-"39",
-"P500",
-"나스닥",
-"다우",
-"마감",
-"증시",
-"하락"
-],
-"m": 1,
-"g": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZNmZQWHV5a2tBc1Z4QXEtYW5aX09PQmpkOWl4VXh4Tktfcjh2cFV4Vnc5WHNaU2tTNTBmMXlWZUFvZmlpcXpFSzBCWnY3NkhrYTEwaHp0Q0Y5dlZSQW5sR3d5MEJZSEE?oc=5"
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9YUmpwOUx1U0hUTHdDZjZoZWtBRjg1MHpmb0Z6a0JVZkxtLVZNU3JicmFsVXR4YVFiNDhmRU9xQm40aHJZVlA3LTdzdFJWUWtwZUZoejJTdm5RdU5ZWkUtelNFcjdEVWh4?oc=5",
@@ -9651,6 +9585,33 @@
 "인상",
 "한은"
 ]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5RdVdEVG5YSUhDaEJraVVubTlwQm1leVliQlFhTm9pb2VzYnBNX25qY0RRcGE5V2tuSGo1YUJrSU9iWHlkaDFqMmt5OXZlNkJsai1sR2dfbkx0VE1VU1NtLXFBY2NONkE?oc=5",
+"t": "2026-11-21T07:06+09:00",
+"tok": [
+"42",
+"50",
+"나스닥",
+"뉴욕증시",
+"다우",
+"상승에도",
+"하락",
+"혼조세"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5RdVdEVG5YSUhDaEJraVVubTlwQm1leVliQlFhTm9pb2VzYnBNX25qY0RRcGE5V2tuSGo1YUJrSU9iWHlkaDFqMmt5OXZlNkJsai1sR2dfbkx0VE1VU1NtLXFBY2NONkE?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oaGtGUy1zaVFITndpZlMwSjhIMFdNaHpheEFoVE5kc21nakNvTXEtTF9FSWREcWJWTVpkTUxhdTlRck1Ec09MMU96MVRCM244ZFRJMg?oc=5",
+"t": "2026-11-21T07:06+09:00",
+"tok": [
+"국제유가",
+"상승"
+],
+"g": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oaGtGUy1zaVFITndpZlMwSjhIMFdNaHpheEFoVE5kc21nakNvTXEtTF9FSWREcWJWTVpkTUxhdTlRck1Ec09MMU96MVRCM244ZFRJMg?oc=5"
 }
 ]
 }
