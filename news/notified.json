@@ -1,21 +1,6 @@
 {
-"updated": "2026-11-21T01:06+09:00",
+"updated": "2026-11-21T02:06+09:00",
 "items": [
-{
-"kind": "주목",
-"link": "https://www.yna.co.kr/view/AKR20261113003400072",
-"t": "2026-11-13T02:06+09:00",
-"tok": [
-"20만건",
-"고용시장",
-"신규",
-"실업수당",
-"안정세",
-"주간",
-"지속",
-"청구"
-]
-},
 {
 "kind": "주목",
 "link": "https://www.donga.com/news/Inter/article/all/20261112/135017578/2",
@@ -9626,6 +9611,21 @@
 ],
 "m": 1,
 "g": "https://www.newsis.com/view/NISX20261120_0003877488"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE85NFJ6SXNibUdybDNtcExRdkwyeUE4S3B4WnA2ZFBCcl9kT3VnNHlNa0JNdjRBeDhsMjEtWWgzaGZWQW5rbEVlSnpHTXg?oc=5",
+"t": "2026-11-21T02:06+09:00",
+"tok": [
+"검거",
+"받아",
+"보험금",
+"일당",
+"장기요양등급",
+"타낸",
+"판정",
+"허위"
+]
 }
 ]
 }
