@@ -1,61 +1,6 @@
 {
-"updated": "2026-11-21T05:06+09:00",
+"updated": "2026-11-21T06:06+09:00",
 "items": [
-{
-"kind": "gov",
-"link": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?nttId=11066540&menuNo=200691",
-"t": "2026-11-13T06:06+09:00",
-"tok": [
-"10월",
-"2026년",
-"무역지수",
-"수출입물가지수",
-"잠정"
-]
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4zRkpzZTRTbUJyd3R1bmg3WF9FREtoTkZLSlZ0MjVMc2FlUmRsR0dnYi1yLUhsYWJyVGNDWTA0RGdLdzRCY0QxbnhMMDNqazhSVlZlOWxZMUNMNnBpSEdjNmpfVHFnTElnQ3NUMUwtUQ?oc=5",
-"t": "2026-11-13T06:06+09:00",
-"tok": [
-"다른",
-"번째",
-"불륜",
-"사임한",
-"엔비디아",
-"의혹까지",
-"젠슨",
-"직원"
-],
-"g": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4zRkpzZTRTbUJyd3R1bmg3WF9FREtoTkZLSlZ0MjVMc2FlUmRsR0dnYi1yLUhsYWJyVGNDWTA0RGdLdzRCY0QxbnhMMDNqazhSVlZlOWxZMUNMNnBpSEdjNmpfVHFnTElnQ3NUMUwtUQ?oc=5"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1WZ3FQZzQxaHVheVloeXFhMXdIZXFkZnl2TEJOanF4V0NrV0NaZWpvRHlWNDA4Nm1vbHRKNzhBMlFWaFg0SEpYbFAyWEJaNlNGUURBR3l0QmdWc1Znc2JxUFY0dkNvTXNnQ05ITndn?oc=5",
-"t": "2026-11-13T06:06+09:00",
-"tok": [
-"국제유가",
-"급등",
-"브렌트유"
-],
-"g": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1WZ3FQZzQxaHVheVloeXFhMXdIZXFkZnl2TEJOanF4V0NrV0NaZWpvRHlWNDA4Nm1vbHRKNzhBMlFWaFg0SEpYbFAyWEJaNlNGUURBR3l0QmdWc1Znc2JxUFY0dkNvTXNnQ05ITndn?oc=5"
-},
-{
-"kind": "속보",
-"link": "http://www.edaily.co.kr/news/newspath.asp?newsid=01371046645645392",
-"t": "2026-11-13T06:06+09:00",
-"tok": [
-"강세",
-"급락에",
-"나스닥",
-"뛰고",
-"에너지주",
-"엔비디아",
-"유가"
-],
-"m": 1,
-"g": "http://www.edaily.co.kr/news/newspath.asp?newsid=01371046645645392"
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZNmZQWHV5a2tBc1Z4QXEtYW5aX09PQmpkOWl4VXh4Tktfcjh2cFV4Vnc5WHNaU2tTNTBmMXlWZUFvZmlpcXpFSzBCWnY3NkhrYTEwaHp0Q0Y5dlZSQW5sR3d5MEJZSEE?oc=5",
@@ -9626,6 +9571,85 @@
 "유출",
 "컬리",
 "피해전액"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYX01xZTJOS3IwTGkwVVNYSnlKQjgwSk9MQUV5R21PY2NDc1VSSjlFa09HZTRtYm5LNkJtVm9sMGJJODVZSVlmeWdaVmRrNzJIV3pXLUJ4N1BFd0c2OV9xZWxGZ2FkbjJz?oc=5",
+"t": "2026-11-21T06:06+09:00",
+"tok": [
+"04",
+"89",
+"앤트로픽",
+"엇갈린",
+"엔비디아",
+"초반",
+"하락",
+"흐름"
+],
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYX01xZTJOS3IwTGkwVVNYSnlKQjgwSk9MQUV5R21PY2NDc1VSSjlFa09HZTRtYm5LNkJtVm9sMGJJODVZSVlmeWdaVmRrNzJIV3pXLUJ4N1BFd0c2OV9xZWxGZ2FkbjJz?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.fnnews.com/news/202611210601529278",
+"t": "2026-11-21T06:06+09:00",
+"tok": [
+"급락에",
+"나스닥",
+"뉴욕증시",
+"붕괴",
+"앤스로픽",
+"폭락"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611210601529278"
+},
+{
+"kind": "속보",
+"link": "http://www.edaily.co.kr/news/newspath.asp?newsid=01275926645648016",
+"t": "2026-11-21T06:06+09:00",
+"tok": [
+"AI주",
+"급락",
+"나스닥",
+"반납",
+"상승분",
+"투매에"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611210601529278"
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261121009200072",
+"t": "2026-11-21T06:06+09:00",
+"tok": [
+"P500도",
+"기술주",
+"나스닥",
+"다우",
+"매도에",
+"조정",
+"진입",
+"폭락"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611210601529278"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1OV2I0ZDRPUjZzT0hXeFJTNXUwaktJUTRfdjJsb2pia3MwMUlYaDdPVWZ5RTJQOTAyVzdYa3ZHNm1yQXlzRkY4cHNkRnlGMlYxcEtudi0xNDZtMXM5Rnd0ay1JWDVqMlF0U3NLQdIBcEFVX3lxTFBLTVlkeXJ1UEhXMzB6NUhTRXMtYW5BeVluZWJRNGowT0RwZGN5eFZGMFQzY182ZkpVX3kxMUIyWEpMTmM3QzB4V3g4UklsOU9fX21QTWRKV0pFU1RQQ05Ha1RnSEF6aDlEamlOZkx2SHE?oc=5",
+"t": "2026-11-21T06:06+09:00",
+"tok": [
+"금통위",
+"기준금리",
+"마지막",
+"무게",
+"물가",
+"성장",
+"압박에",
+"인상",
+"한은"
 ]
 }
 ]
