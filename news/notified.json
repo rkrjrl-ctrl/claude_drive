@@ -1,56 +1,6 @@
 {
-"updated": "2026-11-20T10:06+09:00",
+"updated": "2026-11-20T11:06+09:00",
 "items": [
-{
-"kind": "주목",
-"link": "https://www.seoulfn.com/news/articleView.html?idxno=642611",
-"t": "2026-11-12T11:06+09:00",
-"tok": [
-"1위",
-"3분기",
-"DC",
-"IRP",
-"교보생명",
-"보험브리핑",
-"수익률",
-"퇴직연금"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9EbzU4ZmlkMkxIUUYxaDBmMjZRQUhqcmo2TUNFTV9xZ0xZMzRSUERhZUk4dC03amdOQzBqOVZfX2VmS0ItR0lTaXNUazNqSFUyZXdOcE1BR1lVQXpkNkxaWlY5VzRtUjRmd0c1V0pQVDktakw4ZkdzaG5EU0M?oc=5",
-"t": "2026-11-12T11:06+09:00",
-"tok": [
-"12월",
-"1년",
-"7개월만에",
-"가능성",
-"기록",
-"기준금리",
-"달러가치",
-"연준",
-"영향",
-"인상",
-"최고치"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBmOVVoTGRQUEIxN1E5eWtSbHZEcTRBUHVXRTV1T2FhU3ZnbTZTVFN4RmFCVHJEMUdHeVRfbjVhVkVyWHdRUFhQWHBzV1JMT08xb1o0TkZ3VHJTTk04cTBCRy1qd0RodThna0lJNA?oc=5",
-"t": "2026-11-12T11:06+09:00",
-"tok": [
-"10건",
-"4건",
-"4만2039건",
-"결정",
-"누적",
-"못받아",
-"신청",
-"인정",
-"전세사기",
-"피해"
-]
-},
 {
 "kind": "gov",
 "link": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249820&menuNo=200218&pageIndex=1",
@@ -10065,6 +10015,127 @@
 "잠자는",
 "찾는다",
 "환급"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9xWWxvWEtENUgxbUVtejBOVnpMLTR0SGhNNGx1YkpFWFVTTEtDZmFoRGRLLUs1OVdSQU5zNEFxMkcwS3FLLW01bFpUQU9LV05n?oc=5",
+"t": "2026-11-20T11:06+09:00",
+"tok": [
+"SK하이닉스도",
+"급락",
+"삼성전자",
+"장초반"
+],
+"g": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9xWWxvWEtENUgxbUVtejBOVnpMLTR0SGhNNGx1YkpFWFVTTEtDZmFoRGRLLUs1OVdSQU5zNEFxMkcwS3FLLW01bFpUQU9LV05n?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.edaily.co.kr/News/Read?newsId=02538726645647688",
+"t": "2026-11-20T11:06+09:00",
+"tok": [
+"2심도",
+"SM",
+"김범수",
+"무죄",
+"주가조작",
+"창업자",
+"카카오"
+],
+"g": "https://www.edaily.co.kr/News/Read?newsId=02538726645647688"
+},
+{
+"kind": "속보",
+"link": "https://biz.chosun.com/topics/law_firm/2026/11/20/5PSGGU6D7JG5BA3KXWNNZVXAIQ/",
+"t": "2026-11-20T11:06+09:00",
+"tok": [
+"SM",
+"김범수",
+"무죄",
+"주가조작",
+"카카오",
+"항소심도",
+"혐의"
+],
+"g": "https://www.edaily.co.kr/News/Read?newsId=02538726645647688"
+},
+{
+"kind": "속보",
+"link": "https://www.fnnews.com/news/202611201037185003",
+"t": "2026-11-20T11:06+09:00",
+"tok": [
+"2심도",
+"SM",
+"김범수",
+"무죄",
+"주가조작",
+"카카오",
+"혐의"
+],
+"g": "https://www.edaily.co.kr/News/Read?newsId=02538726645647688"
+},
+{
+"kind": "속보",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008855396&plink=RSSLINK&cooper=RSSREADER",
+"t": "2026-11-20T11:06+09:00",
+"tok": [
+"2심도",
+"SM엔터",
+"김범수",
+"무죄",
+"주가조작",
+"카카오",
+"혐의"
+],
+"g": "https://www.edaily.co.kr/News/Read?newsId=02538726645647688"
+},
+{
+"kind": "속보",
+"link": "https://www.donga.com/news/Society/article/all/20261120/135059286/2",
+"t": "2026-11-20T11:06+09:00",
+"tok": [
+"2심도",
+"SM",
+"김범수",
+"무죄",
+"선고",
+"주가조작",
+"카카오",
+"혐의"
+],
+"g": "https://www.edaily.co.kr/News/Read?newsId=02538726645647688"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9GR3hlR2tzVnNWYmFpaHZadTYzRlE2VE9sdHg0SUotYV83Q0I2bHFydkxFdE5vSC1KMHFRQ3JZT0VZWkNMV1YteW0tcmZGX3BJZjNWd09jQm5NT3hreG9QY1Jtb3Y?oc=5",
+"t": "2026-11-20T11:06+09:00",
+"tok": [
+"보장",
+"암보험",
+"용종",
+"출시",
+"푸본현대생명",
+"항암치료"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBQdE1qWTVSNU9nVGUwcmpFZXM0OHZyWGo1OG4zdE1tdzljNmpoZXh0UnJVYjQ5SXZqV0dmRFZlZFB3THltYTkwXzRvWnVlNV9TY2tF?oc=5",
+"t": "2026-11-20T11:06+09:00",
+"tok": [
+"12월",
+"2026",
+"31일",
+"70만",
+"난방비",
+"마감",
+"사항은",
+"신청",
+"앞두고",
+"에너지바우처",
+"지원",
+"최대",
+"확인할"
 ]
 }
 ]
