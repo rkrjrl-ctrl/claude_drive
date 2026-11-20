@@ -1,133 +1,6 @@
 {
-"updated": "2026-11-20T22:06+09:00",
+"updated": "2026-11-20T23:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1mMTZkSENGRVZ6eHZ6S3NfY0pCdTJ4aGFUZEpXOHZmLThoNVJtTEJmMVBzblB6VHhuWTlsYTdlWHRERlF0WUpzSFBQaEpZUjQ1?oc=5",
-"t": "2026-11-12T23:06+09:00",
-"tok": [
-"20만건",
-"상회",
-"신규",
-"실업수당",
-"예상치",
-"청구"
-],
-"g": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1mMTZkSENGRVZ6eHZ6S3NfY0pCdTJ4aGFUZEpXOHZmLThoNVJtTEJmMVBzblB6VHhuWTlsYTdlWHRERlF0WUpzSFBQaEpZUjQ1?oc=5"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261112_0003866322",
-"t": "2026-11-12T23:06+09:00",
-"tok": [
-"CEO",
-"CEO에",
-"CFO",
-"교체",
-"엔비디아",
-"임시",
-"젠슨",
-"콜레트",
-"크레스"
-],
-"g": "https://www.newsis.com/view/NISX20261112_0003866322"
-},
-{
-"kind": "속보",
-"link": "https://www.chosun.com/economy/tech_it/2026/11/12/OTQJUB3NJ5HOHATFBHNTOZWBKE/",
-"t": "2026-11-12T23:06+09:00",
-"tok": [
-"CEO",
-"CFO가",
-"사임",
-"엔비디아",
-"이사직",
-"임시",
-"젠슨",
-"크레스"
-],
-"g": "https://www.newsis.com/view/NISX20261112_0003866322"
-},
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261112185400071",
-"t": "2026-11-12T23:06+09:00",
-"tok": [
-"CEO에",
-"CFO",
-"엔비디아",
-"임명",
-"임시",
-"콜레트",
-"크레스"
-],
-"g": "https://www.newsis.com/view/NISX20261112_0003866322"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FaFNacnZSUUNFbTdEQ09nVm05em9NQUJKTTQ2YmVaMGxxYTJveWtyemZPU1gxSm1KZWM5Q3pQOE9XS3F6Sk9IbDRBYmFSSHc0bEpOeV9vSzZXQQ?oc=5",
-"t": "2026-11-12T23:06+09:00",
-"tok": [
-"CEO에",
-"CFO",
-"사퇴",
-"엔비디아",
-"임명",
-"임시",
-"젠슨",
-"콜레트",
-"크레스"
-],
-"g": "https://www.newsis.com/view/NISX20261112_0003866322"
-},
-{
-"kind": "주목",
-"link": "https://www.mt.co.kr/society/2026/11/12/2026111221474337949",
-"t": "2026-11-12T23:06+09:00",
-"tok": [
-"갚느라",
-"남편",
-"대출",
-"몰래",
-"수익자는",
-"아내",
-"없다더니",
-"종신보험"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4yTjROb2lLSUF5ZThIWHR4aWZ6TWp6OGwyQkpzZ0t5alFMTThWcGpCbVhMLTBvZFJGY013TzRtYVA4ZWlPa012ci1uc1hiU2JaY1NrSjBiVndBaFAzWW5sSXJRZW9JMy1hU2piTUlOVGtBdw?oc=5",
-"t": "2026-11-12T23:06+09:00",
-"tok": [
-"1000여명",
-"3억7300만원",
-"7개",
-"AI",
-"강호동",
-"결혼이민여성",
-"공유",
-"기업",
-"논의",
-"농업교육",
-"농촌",
-"농협",
-"보이스피싱",
-"실증성과",
-"애그테크",
-"육성",
-"이어가고",
-"인재",
-"일손돕기",
-"전액",
-"포르투갈과",
-"피해금",
-"협동조합",
-"협력",
-"회수",
-"회장"
-]
-},
 {
 "kind": "속보",
 "link": "https://www.fnnews.com/news/202611122249527466",
@@ -10116,6 +9989,32 @@
 "오른",
 "집값",
 "현실화율"
+]
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE84cHpabkpMME53YUdGcXo0T1JId2h3LUx5d2lGaVpabjFGWm9UMUg0cEpHWlBxcHFJeXNqdVEzRjJyZ2JZWV9VRVJINzNIVGRtMkIwNQ?oc=5",
+"t": "2026-11-20T23:06+09:00",
+"tok": [
+"KB국민카드",
+"신한",
+"애플페이",
+"약관안",
+"지난주",
+"철회"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1aRGppaUd4bFJCRHZfVlYxWC0yMzg5Nl9SQUtFTVp5S1FHYmhpQUZ1VkM0a1lqQmRVU3VoWnlPQmVDandQVFpZOEFXRU15RHhobjRXQ09RTTlHOXlYMk5rbQ?oc=5",
+"t": "2026-11-20T23:06+09:00",
+"tok": [
+"2조원",
+"급락",
+"기관",
+"순매도에",
+"외국인",
+"코스피"
 ]
 }
 ]
