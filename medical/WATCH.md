@@ -1,188 +1,144 @@
 # 자동 감시 결과 (자동 생성 — 직접 수정 금지)
 
-- 실행일: 2026-11-19  /  감시 url 2334개  /  자료 2334건  /  이번에 확인 2052개(연속 실패로 쉼 282개, 시간 초과로 넘김 0개)
+- 실행일: 2026-11-20  /  감시 url 2334개  /  자료 2334건  /  이번에 확인 2059개(연속 실패로 쉼 275개, 시간 초과로 넘김 0개)
 - 이 파일은 **감지만** 한다. 원문 내용 확인·자료 갱신은 Claude Code가 한다.
 
-## 원문 변경 확정 (176건)
+## 원문 변경 확정 (132건)
 
-- MED-0283 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12146613/
-- MED-0284 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12766015/
-- MED-0558 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7834900/
-- MED-0568 — https://www.who.int/news-room/fact-sheets/detail/ageing-and-health
-- MED-0569 — https://www.who.int/news-room/fact-sheets/detail/alcohol
-- MED-0573 — https://www.who.int/news-room/fact-sheets/detail/asthma
-- MED-0574 — https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders
-- MED-0577 — https://www.who.int/news-room/fact-sheets/detail/breast-cancer
-- MED-0578 — https://www.who.int/news-room/fact-sheets/detail/burns
-- MED-0584 — https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss
-- MED-0591 — https://www.who.int/news-room/fact-sheets/detail/epilepsy
-- MED-0594 — https://www.who.int/news-room/fact-sheets/detail/headache-disorders
-- MED-0600 — https://www.who.int/news-room/fact-sheets/detail/human-papilloma-virus-and-cancer
-- MED-0602 — https://www.who.int/news-room/fact-sheets/detail/infertility
-- MED-0604 — https://www.who.int/news-room/fact-sheets/detail/kidney-disease
-- MED-0608 — https://www.who.int/news-room/fact-sheets/detail/menopause
-- MED-0611 — https://www.who.int/news-room/fact-sheets/detail/multiple-sclerosis
-- MED-0620 — https://www.who.int/news-room/fact-sheets/detail/physical-activity
-- MED-0621 — https://www.who.int/news-room/fact-sheets/detail/pneumonia
-- MED-0622 — https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome
-- MED-0623 — https://www.who.int/news-room/fact-sheets/detail/post-covid-19-condition-(long-covid)
-- MED-0625 — https://www.who.int/news-room/fact-sheets/detail/pre-eclampsia
-- MED-0626 — https://www.who.int/news-room/fact-sheets/detail/rheumatic-heart-disease
-- MED-0628 — https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries
-- MED-0632 — https://www.who.int/news-room/fact-sheets/detail/shingles-(herpes-zoster)
-- MED-0637 — https://www.who.int/news-room/fact-sheets/detail/sugars-and-dental-caries
-- MED-0638 — https://www.who.int/news-room/fact-sheets/detail/suicide
-- MED-0639 — https://www.who.int/news-room/fact-sheets/detail/syphilis
-- MED-0640 — https://www.who.int/news-room/fact-sheets/detail/tobacco
-- MED-0642 — https://www.who.int/news-room/fact-sheets/detail/tuberculosis
-- MED-0692 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/abdominal-aortic-aneurysm-screening
-- MED-0693 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/anxiety-adults-screening
-- MED-0694 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/asymptomatic-bacteriuria-in-adults-screening
-- MED-0695 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/brca-related-cancer-risk-assessment-genetic-counseling-and-genetic-testing
-- MED-0696 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-medications-for-risk-reduction
-- MED-0697 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-screening
-- MED-0698 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breastfeeding-primary-care-interventions
-- MED-0699 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cervical-cancer-screening
-- MED-0700 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/child-maltreatment-primary-care-interventions
-- MED-0701 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/chlamydia-and-gonorrhea-screening
-- MED-0702 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/colorectal-cancer-screening
-- MED-0703 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/drug-use-illicit-screening
-- MED-0704 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/falls-prevention-community-dwelling-older-adults-interventions
-- MED-0705 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/folic-acid-for-the-prevention-of-neural-tube-defects-preventive-medication
-- MED-0706 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/food-insecurity-screening
-- MED-0707 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/gestational-diabetes-screening
-- MED-0708 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/healthy-diet-and-physical-activity-counseling-adults-with-high-risk-of-cvd
-- MED-0709 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/healthy-weight-and-weight-gain-during-pregnancy-behavioral-counseling-interventions
-- MED-0710 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hepatitis-b-virus-infection-in-pregnant-women-screening
-- MED-0711 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hepatitis-b-virus-infection-screening
-- MED-0712 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hepatitis-c-screening
-- MED-0713 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/human-immunodeficiency-virus-hiv-infection-screening
-- MED-0714 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hypertension-in-adults-screening
-- MED-0715 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hypertensive-disorders-pregnancy-screening
-- MED-0716 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/intimate-partner-violence-and-abuse-of-elderly-and-vulnerable-adults-screening
-- MED-0717 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/iron-deficiency-anemia-in-pregnant-women-screening-and-supplementation
-- MED-0718 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/latent-tuberculosis-infection-screening
-- MED-0719 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lipid-disorders-in-children-screening
-- MED-0720 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/low-dose-aspirin-use-for-the-prevention-of-morbidity-and-mortality-from-preeclampsia-preventive-medication
-- MED-0721 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening
-- MED-0722 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions
-- MED-0723 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-children-and-adolescents-screening
-- MED-0724 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/ocular-prophylaxis-for-gonococcal-ophthalmia-neonatorum-preventive-medication
-- MED-0725 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/oral-health-adults-screening-preventive-interventions
-- MED-0726 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/oral-health-children-adolescents-screening-preventive-interventions
-- MED-0727 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/perinatal-depression-preventive-interventions
-- MED-0728 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/prevention-of-dental-caries-in-children-younger-than-age-5-years-screening-and-interventions1
-- MED-0729 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/prevention-of-human-immunodeficiency-virus-hiv-infection-pre-exposure-prophylaxis
-- MED-0730 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/rh-d-incompatibility-screening
-- MED-0731 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-anxiety-children-adolescents
-- MED-0732 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-depression-suicide-risk-adults
-- MED-0733 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-depression-suicide-risk-children-adolescents
-- MED-0734 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/screening-for-prediabetes-and-type-2-diabetes
-- MED-0735 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/sexually-transmitted-infections-behavioral-counseling
-- MED-0736 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/skin-cancer-counseling
-- MED-0737 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/speech-and-language-delay-and-disorders-in-children-age-5-and-younger-screening
-- MED-0738 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/statin-use-in-adults-preventive-medication
-- MED-0739 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/syphilis-infection-nonpregnant-adults-adolescents-screening
-- MED-0740 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/unhealthy-alcohol-use-in-adolescents-and-adults-screening-and-behavioral-counseling-interventions
-- MED-0741 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/vision-in-children-ages-6-months-to-5-years-screening
-- MED-0806 — https://medlineplus.gov/acutemyeloidleukemia.html
-- MED-0808 — https://medlineplus.gov/alpha1antitrypsindeficiency.html
-- MED-0815 — https://medlineplus.gov/anxiety.html
-- MED-0820 — https://medlineplus.gov/arthritis.html
-- MED-0821 — https://medlineplus.gov/asthma.html
-- MED-0829 — https://medlineplus.gov/bloodglucose.html
-- MED-0830 — https://medlineplus.gov/bloodpressuremedicines.html
-- MED-0834 — https://medlineplus.gov/breastcancer.html
-- MED-0837 — https://medlineplus.gov/cancer.html
-- MED-0839 — https://medlineplus.gov/cancerimmunotherapy.html
-- MED-0841 — https://medlineplus.gov/carpaltunnelsyndrome.html
-- MED-0842 — https://medlineplus.gov/celiacdisease.html
-- MED-0852 — https://medlineplus.gov/chroniclymphocyticleukemia.html
-- MED-0867 — https://medlineplus.gov/dementia.html
-- MED-0873 — https://medlineplus.gov/diabetesmedicines.html
-- MED-0875 — https://medlineplus.gov/diabetestype2.html
-- MED-0898 — https://medlineplus.gov/guidetogoodposture.html
-- MED-0899 — https://medlineplus.gov/hdlthegoodcholesterol.html
-- MED-0902 — https://medlineplus.gov/heartattack.html
-- MED-0905 — https://medlineplus.gov/heartfailure.html
-- MED-0916 — https://medlineplus.gov/highbloodpressure.html
-- MED-0941 — https://medlineplus.gov/leukemia.html
-- MED-0947 — https://medlineplus.gov/mentaldisorders.html
-- MED-0949 — https://medlineplus.gov/metabolicsyndrome.html
-- MED-0958 — https://medlineplus.gov/nauseaandvomiting.html
-- MED-0961 — https://medlineplus.gov/obesity.html
-- MED-0963 — https://medlineplus.gov/olderadultmentalhealth.html
-- MED-0974 — https://medlineplus.gov/pneumocystisinfections.html
-- MED-0978 — https://medlineplus.gov/posttraumaticstressdisorder.html
-- MED-0993 — https://medlineplus.gov/respiratoryfailure.html
-- MED-1002 — https://medlineplus.gov/sjogrenssyndrome.html
-- MED-1005 — https://medlineplus.gov/spinalmuscularatrophy.html
-- MED-1009 — https://medlineplus.gov/strokerehabilitation.html
-- MED-1018 — https://medlineplus.gov/triglycerides.html
-- MED-1126 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13655467/
-- MED-1232 — https://www.data.go.kr/data/15117426/fileData.do
-- MED-1264 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13430407/
-- MED-1265 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7160350/
-- MED-1266 — https://pmc.ncbi.nlm.nih.gov/articles/PMC10079515/
-- MED-1267 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12620694/
-- MED-1268 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6435847/
-- MED-1269 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11261187/
-- MED-1270 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6901690/
-- MED-1271 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6310769/
-- MED-1272 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11739646/
-- MED-1273 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6960041/
-- MED-1274 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7820646/
-- MED-1275 — https://pmc.ncbi.nlm.nih.gov/articles/PMC8246015/
-- MED-1276 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11458495/
-- MED-1277 — https://pmc.ncbi.nlm.nih.gov/articles/PMC5895837/
-- MED-1278 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12230392/
-- MED-1293 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/osteoporosis-screening
-- MED-1294 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/tobacco-use-in-adults-and-pregnant-women-counseling-and-interventions
-- MED-1295 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/prostate-cancer-screening
-- MED-1296 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/aspirin-to-prevent-cardiovascular-disease-preventive-medication
-- MED-1297 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/atrial-fibrillation-screening
-- MED-1298 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cognitive-impairment-in-older-adults-screening
-- MED-1299 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/skin-cancer-screening
-- MED-1300 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/ovarian-cancer-screening
-- MED-1301 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/pancreatic-cancer-screening
-- MED-1302 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/thyroid-cancer-screening
-- MED-1303 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/testicular-cancer-screening
-- MED-1304 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/bladder-cancer-in-adults-screening
-- MED-1305 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/oral-cancer-screening
-- MED-1306 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/carotid-artery-stenosis-screening
-- MED-1307 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/chronic-obstructive-pulmonary-disease-screening
-- MED-1308 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/hearing-loss-in-older-adults-screening
-- MED-1309 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/impaired-visual-acuity-screening-older-adults
-- MED-1310 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obstructive-sleep-apnea-in-adults-screening
-- MED-1311 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/vitamin-d-deficiency-screening
-- MED-1312 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/vitamin-supplementation-to-prevent-cvd-and-cancer-preventive-medication
-- MED-1313 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/menopausal-hormone-therapy-preventive-medication
-- MED-1314 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cardiovascular-disease-risk-screening-with-electrocardiography
-- MED-1315 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/vitamin-d-calcium-or-combined-supplementation-for-the-primary-prevention-of-fractures-in-adults-preventive-medication
-- MED-1316 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/cardiovascular-disease-screening-using-nontraditional-risk-assessment
-- MED-1323 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/syphilis-infection-in-pregnancy-screening
-- MED-1324 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/tobacco-and-nicotine-use-prevention-in-children-and-adolescents-primary-care-interventions
-- MED-1325 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/primary-open-angle-glaucoma-screening
-- MED-1326 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/peripheral-artery-disease-in-adults-screening-with-the-ankle-brachial-index
-- MED-1327 — https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/blood-pressure-in-children-and-adolescents-hypertension-screening
-- MED-1374 — https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response
-- MED-1375 — https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults
-- MED-1379 — https://www.who.int/news-room/fact-sheets/detail/disability-and-health
-- MED-1409 — https://www.nhs.uk/tests-and-treatments/breast-screening-mammogram/
-- MED-1411 — https://www.nhs.uk/tests-and-treatments/abdominal-aortic-aneurysm-screening/
-- MED-1421 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7324844/
-- MED-1422 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7383009/
-- MED-1423 — https://pmc.ncbi.nlm.nih.gov/articles/PMC9606436/
-- MED-2243 — https://www.mfds.go.kr/brd/m_99/view.do?seq=49623&part=seq49623
-- MED-2244 — https://www.mfds.go.kr/brd/m_99/view.do?seq=50077&part=seq50077
-- MED-2245 — https://www.mfds.go.kr/brd/m_99/view.do?seq=48525&part=seq48525
-- MED-2246 — https://www.mfds.go.kr/brd/m_99/view.do?seq=47887&part=seq47887
-- MED-2247 — https://www.mfds.go.kr/brd/m_99/view.do?seq=47939&part=seq47939
-- MED-2248 — https://www.mfds.go.kr/brd/m_99/view.do?seq=48774&part=seq48774
-- MED-2249 — https://www.mfds.go.kr/brd/m_99/view.do?seq=46516&part=seq46516
-- MED-2288 — https://www.geumcheon.go.kr/health/contents.do?key=4523
+- MED-0001 — https://www.cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=4373
+- MED-0002 — https://www.cancer.go.kr/lay1/program/S1T211C708/cancer/view.do?cancer_seq=4373&menu_seq=4385
+- MED-0003 — https://www.cancer.go.kr/lay1/program/S1T211C708/cancer/view.do?cancer_seq=4373&menu_seq=4376
+- MED-0004 — https://cancer.go.kr/lay1/program/S1T211C708/cancer/view.do?cancer_seq=4373&menu_seq=4384
+- MED-0005 — https://www.cancer.go.kr/lay1/program/S1T211C708/cancer/view.do?cancer_seq=4373&menu_seq=4386
+- MED-0006 — https://www.cancer.go.kr/lay1/program/S1T211C708/cancer/view.do?cancer_seq=4373&menu_seq=4389
+- MED-0008 — https://www.cancer.go.kr/lay1/program/S1T211C708/cancer/view.do?cancer_seq=4373&menu_seq=4391
+- MED-0009 — https://www.cancer.go.kr/lay1/program/S1T211C708/cancer/view.do?cancer_seq=4373&menu_seq=4390
+- MED-0011 — https://cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=4373&menu_seq=4394
+- MED-0012 — https://www.cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=4373&menu_seq=4395
+- MED-0032 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661
+- MED-0033 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4670
+- MED-0034 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4673
+- MED-0035 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4674
+- MED-0036 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4677
+- MED-0037 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4678
+- MED-0038 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4679
+- MED-0039 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797
+- MED-0040 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3810
+- MED-0041 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3813
+- MED-0042 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3814
+- MED-0043 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3815
+- MED-0044 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3809
+- MED-0045 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237
+- MED-0046 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5249
+- MED-0047 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5250
+- MED-0048 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5253
+- MED-0049 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5254
+- MED-0050 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5255
+- MED-0051 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757
+- MED-0052 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4769
+- MED-0053 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4770
+- MED-0054 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4773
+- MED-0055 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4774
+- MED-0056 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4775
+- MED-0057 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317
+- MED-0058 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3329
+- MED-0059 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3330
+- MED-0060 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3333
+- MED-0061 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3334
+- MED-0062 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3335
+- MED-0063 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949
+- MED-0064 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4961
+- MED-0065 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4962
+- MED-0067 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4966
+- MED-0069 — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341
+- MED-0070 — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3353
+- MED-0081 — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3754
+- MED-0084 — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3762
+- MED-0104 — https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000283320
+- MED-0106 — https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulId=63412&efYd=0
+- MED-0285 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11794900/
+- MED-0286 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11790997/
+- MED-0287 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11790984/
+- MED-0288 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13009686/
+- MED-0289 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13009690/
+- MED-0631 — https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-(stis)
+- MED-0822 — https://medlineplus.gov/asthmainchildren.html
+- MED-0924 — https://medlineplus.gov/howtopreventheartdisease.html
+- MED-1016 — https://medlineplus.gov/traumaticbraininjury.html
+- MED-1023 — https://medlineplus.gov/vasculardiseases.html
+- MED-1077 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3320
+- MED-1078 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3321
+- MED-1079 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3336
+- MED-1080 — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3344
+- MED-1081 — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3345
+- MED-1082 — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3360
+- MED-1083 — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3752
+- MED-1084 — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3768
+- MED-1085 — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3776
+- MED-1086 — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3777
+- MED-1087 — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3792
+- MED-1088 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3800
+- MED-1089 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3801
+- MED-1090 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3816
+- MED-1091 — https://www.cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=4373&menu_seq=4377
+- MED-1092 — https://www.cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=4373&menu_seq=4392
+- MED-1094 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4665
+- MED-1095 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4680
+- MED-1096 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4760
+- MED-1099 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4952
+- MED-1100 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4953
+- MED-1101 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=7182
+- MED-1102 — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5120
+- MED-1103 — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5121
+- MED-1104 — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5136
+- MED-1105 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5240
+- MED-1106 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5241
+- MED-1107 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5256
+- MED-1211 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000275360&chrClsCd=010201
+- MED-1228 — https://www.data.go.kr/data/15104692/fileData.do
+- MED-1234 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000270432&chrClsCd=010201
+- MED-1254 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000287566
+- MED-1364 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000206468
+- MED-1372 — https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health
+- MED-1394 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000274952
+- MED-1404 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000143049
+- MED-1420 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000285724
+- MED-1440 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000271088
+- MED-1445 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000283320&part=byul6-pharmacy
+- MED-1447 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000243466
+- MED-1604 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000230772
+- MED-1605 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000277296
+- MED-1606 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000260878
+- MED-1792 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000286736
+- MED-1997 — https://www.cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=4517&menu_seq=4521
+- MED-1998 — https://www.cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=5285&menu_seq=5290
+- MED-2036 — https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000283320&part=byl4-2-dialysis
+- MED-2037 — https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000283320&part=byl4-2-epilepsy
+- MED-2038 — https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000283320&part=byl4-2-psychosis
+- MED-2040 — https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000279112
+- MED-2168 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000262584
+- MED-2169 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000283464
+- MED-2173 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000271124
+- MED-2178 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000269954
+- MED-2179 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000269956
+- MED-2180 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000280438
+- MED-2184 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000271404
+- MED-2185 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000271480
+- MED-2203 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000272272
+- MED-2222 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000286910
+- MED-2225 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000284060
+- MED-2239 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000093192
+- MED-2254 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000201381
+- MED-2259 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000286276
+- MED-2263 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000276312
+- MED-2274 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000277954
+- MED-2284 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000251944
+- MED-2300 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000258096
+- MED-2313 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000197953
+- MED-2318 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000279112&part=chap9-adjust
+- MED-2327 — https://fine.fss.or.kr/fine/main/contents.do?menuNo=900209&part=inherit-guide
 
-## 접속 3회 이상 연속 실패 (282건)
+## 접속 3회 이상 연속 실패 (276건)
 
 - MED-0010 — 24회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/renewal_popup/poster/20260608_poster_longdesc_1.html
 - MED-0014 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbsDummy.do?brdBltNo=45666&brdScnBltNo=4&pgmid=HIRAA030023080000
@@ -196,10 +152,8 @@
 - MED-0078 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-14, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5134
 - MED-0079 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5135
 - MED-0082 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-14, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3760
-- MED-0083 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3761
 - MED-0085 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3765
 - MED-0086 — 5회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-17, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3766
-- MED-0089 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3786
 - MED-0091 — 5회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-17, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3790
 - MED-0092 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-15, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3791
 - MED-0093 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-15, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4672
@@ -223,14 +177,9 @@
 - MED-0142 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://m.circulation.or.kr/bbs/download.php?code=guide&number=2685
 - MED-0143 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://diabetes.or.kr/bbs/download.php?code=guide&number=1522
 - MED-0153 — 5회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-17, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=19618
-- MED-0154 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=17106
 - MED-0157 — 24회 — URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unabl (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.seoulhp.com/seoul/cmmn/file/fileDown.do?atchFileId=79e740a49bff47a1aa20365c7d80153f&fileSn=4&menuNo=100136
-- MED-0166 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=1
 - MED-0167 — 5회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-17, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=2
 - MED-0168 — 5회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-17, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=3
-- MED-0169 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=4-6
-- MED-0171 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18847&chapter=8-9
-- MED-0172 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-13, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18579
 - MED-0173 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=14791
 - MED-0175 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-15, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=10597
 - MED-0176 — 4회 — TimeoutError: 총 20초 초과 (마지막 시도 2026-11-15, 7일마다 재시도) — https://www.lungkorea.org/bbs/skin/guide/download.php?code=guide&number=18575
@@ -466,6 +415,7 @@
 - MED-2217 — 15회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11005254
 - MED-2255 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/dummy.do?pgmid=HIRAA020020000005
 - MED-2301 — 5회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-17, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01000m01.do?mode=view&articleNo=11008009
+- MED-0083 — 4회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3761
 
 ## 재확인 기한 도래·30일 이내 (52건)
 
@@ -522,29 +472,27 @@
 - 2026-12-18 MED-1688 [verified] 초기(1·2세대) 실손 가입자 '선택형 할인 특약'·'계약전환 할인(재매입)' 2026년 11월 시행 예정(금융위원회 보도자료, 2026-05-06, 5세대 실손 출시) — 선택형 할인: 기존 계약 유지하며 ①비급여 물리치료(도수치료 등)·체외충격파·비급여 주사제 ②비급여 MRI·MRA 보장 제외 ③자기부담률 20% 선택 시 전체 기준 약 30~40% 할인 / 계약전환 할인: 5세대 전환 시 일정 기간 할인(예: 3년간 50%), 6개월 시행 후 연장 검토, 6개월 내 철회 허용(3개월 내 무조건)
 - 2026-12-18 MED-1689 [verified] 건강보험심사평가원 상병마스터(공공데이터포털 15067467, '상병마스터_20250930', 등록 2025-11-04, 47,798행) — 청구용 상병기호·한글명·영문명·완전코드구분·주상병사용구분·법정감염병구분·성별·상하한 연령·양한방구분 / 직접 확인 결과 9차 신설 코드(D37.60·I20.81·I50.10·J82.10·F32.21·K29.60·B34.20·U86.0) 없음, 8차 코드(I50.04·U22.2·U18.0) 있음 → 9차 반영 전 파일, 다음 등록 예정 2026-11-30
 
-## PubMed 신규 가이드라인·RCT·메타분석 (2026-11-18 이후)
+## PubMed 신규 가이드라인·RCT·메타분석 (2026-11-19 이후)
 
-**신장암**
-- French AFU Cancer Committee Guidelines - Update 2026-2028: Kidney cancer. (2026 Nov) https://pubmed.ncbi.nlm.nih.gov/43051705/
-- PD-1/PD-L1 inhibitor-based regimens in sarcomatoid renal cell carcinoma: a meta-analysis of randomized controlled trials and single-arm studies. (2026) https://pubmed.ncbi.nlm.nih.gov/43047712/
 **위암**
 - Ultra-short-term in-hospital multimodal prehabilitation in older patients undergoing laparoscopic gastrectomy for gastric cancer: a randomized controlled trial. (2026 Nov 19) https://pubmed.ncbi.nlm.nih.gov/43056003/
 **대장암**
-- Quality of postoperative recovery in patients undergoing laparoscopic colorectal cancer resection as affected by transversus abdominis plane block combined with moderate neuromuscular blockade: a randomized controlled trial. (2026 Aug 3) https://pubmed.ncbi.nlm.nih.gov/43045976/
+- Hierarchical benefit of multidimensional remission in ulcerative colitis: a systematic review and meta-analysis. (2026 Aug 26) https://pubmed.ncbi.nlm.nih.gov/43058529/
 **폐암**
-- LncPVT1 as a Potential Biomarker for Lung Cancer: A Meta-Analysis. (2026 Nov 13) https://pubmed.ncbi.nlm.nih.gov/43048830/
+- Integration of a severe immune-related adverse events predictive model with efficacy biomarkers enables precise stratification in NSCLC immunotherapy: insights from the phase 3 ORIENT-11 study. (2026 Aug 26) https://pubmed.ncbi.nlm.nih.gov/43062512/
+- Incidence and Risk Factors of Postoperative Delirium in Patients with Lung Cancer: A Systematic Review and Meta-Analysis. (2026 Nov 13) https://pubmed.ncbi.nlm.nih.gov/43062053/
 **유방암**
+- Secondary prevention of cancer therapy-induced thrombocytopenia with hetrombopag in breast cancer: a multicenter, randomized, exploratory phase II trial. (2026 Aug 26) https://pubmed.ncbi.nlm.nih.gov/43058687/
 - Added effects of manual lymphatic drainage and intermittent pneumatic compression on compression-based care for established upper-limb breast-cancer-related lymphedema: a systematic review and component network meta-analysis. (2026 Nov 19) https://pubmed.ncbi.nlm.nih.gov/43055979/
 - Longitudinal ctDNA profiling reveals genomic risk and molecular response to bireociclib in advanced breast cancer. (2026 Oct 21) https://pubmed.ncbi.nlm.nih.gov/43052301/
 **간암**
 - ACR Appropriateness Criteria® Chronic Liver Disease: 2026 Update. (2026 Nov 19) https://pubmed.ncbi.nlm.nih.gov/43055695/
 **전립선암**
+- Nonsteroidal anti-inflammatory drug use and site-specific risk of urological cancers: a systematic review and meta-analysis. (2026 Aug 25) https://pubmed.ncbi.nlm.nih.gov/43058591/
 - Clinicopathological factors associated with biochemical recurrence after robot-assisted radical prostatectomy: A systematic review and meta-analysis. (2026) https://pubmed.ncbi.nlm.nih.gov/43056348/
 - Secondary Analysis of a Randomized Controlled Trial of Adjuvant Chemotherapy by PSA Response Following Radiotherapy. (2026 Nov) https://pubmed.ncbi.nlm.nih.gov/43053607/
-- French AFU Cancer Committee Guidelines - Update 2026-2028: Prostate cancer - Diagnosis and management of localized disease. (2026 Nov) https://pubmed.ncbi.nlm.nih.gov/43051708/
-- French AFU Cancer Committee Guidelines - Update 2026-2028: Prostate Cancer - Treatment of relapse and metastatic disease. (2026 Nov) https://pubmed.ncbi.nlm.nih.gov/43051704/
-**췌장암**
-- Factors associated with mood and anxiety disorders in patients with cancer: A systematic review and meta-analysis. (2026 Dec 1) https://pubmed.ncbi.nlm.nih.gov/43046927/
+**갑상선암**
+- Prophylactic central neck dissection in clinically node-negative, low- to intermediate-risk papillary thyroid carcinoma: a meta-analysis and trial sequential analysis of randomized controlled trials. (2026 Oct 31) https://pubmed.ncbi.nlm.nih.gov/43062043/
 
 ## 아직 감시하지 않는 것
 
