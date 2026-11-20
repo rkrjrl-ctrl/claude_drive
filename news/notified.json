@@ -1,36 +1,6 @@
 {
-"updated": "2026-11-20T12:06+09:00",
+"updated": "2026-11-20T13:06+09:00",
 "items": [
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBkY21RRzc3MGk0cFJEWnE2RTNQcmlvUW84SnBmd3cxVkJHRG5yWXZfOV8tQkdSVm9wdlk4SFo5bG1ONDVUMWY2VXBDemxNVjNFMzVkUVF0OHV2b2NJRWZUSmFBUDdleWRM?oc=5",
-"t": "2026-11-12T13:06+09:00",
-"tok": [
-"4종",
-"개편",
-"공제상품",
-"달라졌나",
-"무엇이",
-"신약",
-"신협",
-"출시",
-"치매",
-"특약",
-"표적항암"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aMndUMWp2dWh0NGF2SU84Tm9BVFZfbkN2bDg3MDBCS2hVVk10NEJNVVlJVl9OVV9US3RDS2U3SEVyUkNvazhSTUtQN2l0VkZicWEwWmhxNm44WXUzWUFtd0JDVGI5VlhpYUo2Zw?oc=5",
-"t": "2026-11-12T13:06+09:00",
-"tok": [
-"480건",
-"결정",
-"국토부",
-"전세사기피해자등",
-"추가"
-]
-},
 {
 "kind": "gov",
 "link": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249822&menuNo=200218&pageIndex=1",
@@ -10121,6 +10091,42 @@
 "전월세",
 "참여",
 "하나자산신탁"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9rUTdJM2tKR3FGbzYxN3V6SFRLNTI1MnVjRkM0Y0xLYXoxaFJNOFV0bGFla3BSX2N1X3czbW5WQVhEQXZFZE83dU1JcUJtQ1N1X2drZ3gydjgzZlFqSGZYV1BNREdFdEhKN1BZZQ?oc=5",
+"t": "2026-11-20T13:06+09:00",
+"tok": [
+"5100",
+"급락",
+"넘더니",
+"만에",
+"매도",
+"발동",
+"비상벨",
+"사이드카",
+"어제",
+"코스피",
+"하루"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9rUTdJM2tKR3FGbzYxN3V6SFRLNTI1MnVjRkM0Y0xLYXoxaFJNOFV0bGFla3BSX2N1X3czbW5WQVhEQXZFZE83dU1JcUJtQ1N1X2drZ3gydjgzZlFqSGZYV1BNREdFdEhKN1BZZQ?oc=5"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5DbUlicFBOTEdadlh5aktOSmVQVTNSY1Y2Nkg1T3ZSaDBZM0NFU3ZtWV9US0x1S0hjYTZUWF9FaU1hNV9IblhSZDVRbHJVQUFoaUJRR1BWeWxzRDN0b3Rtbk00bE1OWTZ1Q2FKbDFaMNIBc0FVX3lxTE1CUHdlZnNsdEJ3Vkx5VHJ0VV9xdlRHWjE1aXRvWGhoSmtMLVBrbnJ6c1JGejVyaEttdUxpTlJfTldieW1vQnZ3dVE5QmJKZ09oNU9KX1lzVzFVM2trSDJodUFqcWRGM0xpMXl0MGtRMGF4RjA?oc=5",
+"t": "2026-11-20T13:06+09:00",
+"tok": [
+"IPO",
+"급락에",
+"매도",
+"발동",
+"사이드카",
+"살렸다",
+"세기의",
+"앤트로픽",
+"코스피"
 ]
 }
 ]
