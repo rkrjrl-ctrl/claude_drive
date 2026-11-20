@@ -1,51 +1,6 @@
 {
-"updated": "2026-11-20T14:06+09:00",
+"updated": "2026-11-20T15:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5VQ2NUeG5fVTZHYnNOLXoxbHpJWFNNdVAxc3RleWwxQWR3R2xyS21mM0g3ejhsdVZWSzEwQ3o3SFBEVVlfVFBFajIxZnhWMWlza2FuaF84UTB1S00?oc=5",
-"t": "2026-11-12T15:06+09:00",
-"tok": [
-"4조원",
-"국민연금",
-"불똥",
-"불륜",
-"스캔들",
-"엔비디아",
-"젠슨",
-"증발"
-],
-"g": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5VQ2NUeG5fVTZHYnNOLXoxbHpJWFNNdVAxc3RleWwxQWR3R2xyS21mM0g3ejhsdVZWSzEwQ3o3SFBEVVlfVFBFajIxZnhWMWlza2FuaF84UTB1S00?oc=5"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWFVGWlFhY25NWlFRTHYtRklTRHBPbDA1VjRoOW1leFVsNjMtVXZURDE0ZWtReXZJS3duTTlud0hYcnBTd1NfWEtDN1dyU0liSEgxVk1LSlZUQkZkU1pNMVI1dV94Y2JPZFRZcGRVY2F6cjY0VEVwQ0k2ZVB5UmxhZjgtUGl6Y2Npd0hn?oc=5",
-"t": "2026-11-12T15:06+09:00",
-"tok": [
-"고위",
-"기혼자",
-"번째",
-"불륜설",
-"엔비디아",
-"임원도",
-"젠슨"
-],
-"g": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWFVGWlFhY25NWlFRTHYtRklTRHBPbDA1VjRoOW1leFVsNjMtVXZURDE0ZWtReXZJS3duTTlud0hYcnBTd1NfWEtDN1dyU0liSEgxVk1LSlZUQkZkU1pNMVI1dV94Y2JPZFRZcGRVY2F6cjY0VEVwQ0k2ZVB5UmxhZjgtUGl6Y2Npd0hn?oc=5"
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pc3VvN0pGTDI5WE9KeHcyanJ2WWRVem1aYWFZMG5MeWFnZmNqLWJxWmctblJBUEF3S1g5SXlaYTBKS1hkZEEyTjNHN3NkcVlUS19hWmhFMWVJcnFla1FjaVhiaTk?oc=5",
-"t": "2026-11-12T15:06+09:00",
-"tok": [
-"1만1542호",
-"4만2039명",
-"LH",
-"매입",
-"전세사기",
-"피해자",
-"피해주택"
-]
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFByMTRMTUluZU1YWVlpMzdKS25jX2RMYUJjWHZQRGl4SlpYa0pXeF9nTFppcUdFeU4yN0NKdFJjWDJsSEI1eERmRzNBLWhCdXpBdEVQTjB5WElLQWQxN0F0VnZ3?oc=5",
@@ -10234,6 +10189,169 @@
 "영업점",
 "피해"
 ]
+},
+{
+"kind": "gov",
+"link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790088",
+"t": "2026-11-20T15:06+09:00",
+"tok": [
+"1조",
+"6단체",
+"경제",
+"넘어",
+"다짐",
+"달러",
+"도약",
+"산업부",
+"성장",
+"수출",
+"질적",
+"참고자료"
+]
+},
+{
+"kind": "gov",
+"link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790083",
+"t": "2026-11-20T15:06+09:00",
+"tok": [
+"1조",
+"달러",
+"보는",
+"수출",
+"숫자로",
+"풀어"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261120104700001",
+"t": "2026-11-20T15:06+09:00",
+"tok": [
+"당론",
+"대법원장",
+"조희대",
+"채택",
+"탄핵"
+],
+"g": "https://www.yna.co.kr/view/AKR20261120104700001"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261120_0003876811",
+"t": "2026-11-20T15:06+09:00",
+"tok": [
+"당론",
+"대법원장",
+"의총서",
+"조희대",
+"채택",
+"추진",
+"탄핵소추"
+],
+"g": "https://www.yna.co.kr/view/AKR20261120104700001"
+},
+{
+"kind": "속보",
+"link": "https://www.donga.com/news/Politics/article/all/20261120/135060516/1",
+"t": "2026-11-20T15:06+09:00",
+"tok": [
+"결정",
+"당론",
+"대법원장",
+"조희대",
+"탄핵소추"
+],
+"g": "https://www.yna.co.kr/view/AKR20261120104700001"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZVBBdExHdWNpOXVhNU1rMFZKeDNSRGlQSGNYNzBNNjE3ZG9ZbDR0TkVMa0xnY3REOWw1NUl6V2s2RGozN01mWU0tbGY1cXVELWx3eVBJRnFaaWV4eWV4V0w5SVI0ZGMzOFpCcUVMY3pkV3A1ZFY5Q0FCQkdUSVowaVhnVHJOZw?oc=5",
+"t": "2026-11-20T15:06+09:00",
+"tok": [
+"결정",
+"당론",
+"대법원장",
+"민주",
+"의총서",
+"조희대",
+"추진",
+"탄핵"
+],
+"g": "https://www.yna.co.kr/view/AKR20261120104700001"
+},
+{
+"kind": "속보",
+"link": "https://www.edaily.co.kr/News/Read?newsId=03175046645647688",
+"t": "2026-11-20T15:06+09:00",
+"tok": [
+"당론",
+"대법원장",
+"민주당",
+"조희대",
+"채택",
+"탄핵"
+],
+"g": "https://www.yna.co.kr/view/AKR20261120104700001"
+},
+{
+"kind": "속보",
+"link": "https://www.mt.co.kr/politics/2026/11/20/2026112014230777440",
+"t": "2026-11-20T15:06+09:00",
+"tok": [
+"당론",
+"대법원장",
+"민주당",
+"조희대",
+"채택",
+"추진",
+"탄핵"
+],
+"g": "https://www.yna.co.kr/view/AKR20261120104700001"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026112014290471659",
+"t": "2026-11-20T15:06+09:00",
+"tok": [
+"가급적",
+"넘기지",
+"당론",
+"대법원장",
+"빠른",
+"시기",
+"않을",
+"조희대",
+"채택",
+"탄핵"
+],
+"g": "https://www.yna.co.kr/view/AKR20261120104700001"
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBFWHVxN2JQOUlHX3VXNFUwU0VLVGZXYUJOUFBRUmhPZXBmYlJqOFBCbHh6WHl3SGNGVlFHTHpETUVVXzZvOWJELXNJMTMzeWlLdHBWY194d1RGRFRqUWpMbUdINDdtVEJOWHBtRGJUTXY4UQ?oc=5",
+"t": "2026-11-20T15:06+09:00",
+"tok": [
+"2건",
+"가상자산업자",
+"다윈KS",
+"불법",
+"송치",
+"애플비트"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.hani.co.kr/arti/politics/politics_general/1288335.html",
+"t": "2026-11-20T15:06+09:00",
+"tok": [
+"당론",
+"대법원장",
+"민주",
+"조희대",
+"채택",
+"탄핵소추"
+],
+"g": "https://www.yna.co.kr/view/AKR20261120104700001"
 }
 ]
 }
