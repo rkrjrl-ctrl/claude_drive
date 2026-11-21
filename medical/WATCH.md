@@ -1,144 +1,127 @@
 # 자동 감시 결과 (자동 생성 — 직접 수정 금지)
 
-- 실행일: 2026-11-20  /  감시 url 2334개  /  자료 2334건  /  이번에 확인 2059개(연속 실패로 쉼 275개, 시간 초과로 넘김 0개)
+- 실행일: 2026-11-21  /  감시 url 2334개  /  자료 2334건  /  이번에 확인 2061개(연속 실패로 쉼 273개, 시간 초과로 넘김 0개)
 - 이 파일은 **감지만** 한다. 원문 내용 확인·자료 갱신은 Claude Code가 한다.
 
-## 원문 변경 확정 (132건)
+## 원문 변경 확정 (115건)
 
-- MED-0001 — https://www.cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=4373
-- MED-0002 — https://www.cancer.go.kr/lay1/program/S1T211C708/cancer/view.do?cancer_seq=4373&menu_seq=4385
-- MED-0003 — https://www.cancer.go.kr/lay1/program/S1T211C708/cancer/view.do?cancer_seq=4373&menu_seq=4376
-- MED-0004 — https://cancer.go.kr/lay1/program/S1T211C708/cancer/view.do?cancer_seq=4373&menu_seq=4384
-- MED-0005 — https://www.cancer.go.kr/lay1/program/S1T211C708/cancer/view.do?cancer_seq=4373&menu_seq=4386
-- MED-0006 — https://www.cancer.go.kr/lay1/program/S1T211C708/cancer/view.do?cancer_seq=4373&menu_seq=4389
-- MED-0008 — https://www.cancer.go.kr/lay1/program/S1T211C708/cancer/view.do?cancer_seq=4373&menu_seq=4391
-- MED-0009 — https://www.cancer.go.kr/lay1/program/S1T211C708/cancer/view.do?cancer_seq=4373&menu_seq=4390
-- MED-0011 — https://cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=4373&menu_seq=4394
-- MED-0012 — https://www.cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=4373&menu_seq=4395
-- MED-0032 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661
-- MED-0033 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4670
-- MED-0034 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4673
-- MED-0035 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4674
-- MED-0036 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4677
-- MED-0037 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4678
-- MED-0038 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4679
-- MED-0039 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797
-- MED-0040 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3810
-- MED-0041 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3813
-- MED-0042 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3814
-- MED-0043 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3815
-- MED-0044 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3809
-- MED-0045 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237
-- MED-0046 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5249
-- MED-0047 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5250
-- MED-0048 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5253
-- MED-0049 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5254
-- MED-0050 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5255
-- MED-0051 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757
-- MED-0052 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4769
-- MED-0053 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4770
-- MED-0054 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4773
-- MED-0055 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4774
-- MED-0056 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4775
-- MED-0057 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317
-- MED-0058 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3329
-- MED-0059 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3330
-- MED-0060 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3333
-- MED-0061 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3334
-- MED-0062 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3335
-- MED-0063 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949
-- MED-0064 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4961
-- MED-0065 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4962
-- MED-0067 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4966
-- MED-0069 — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341
-- MED-0070 — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3353
-- MED-0081 — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3754
-- MED-0084 — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3762
-- MED-0104 — https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000283320
-- MED-0106 — https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulId=63412&efYd=0
-- MED-0285 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11794900/
-- MED-0286 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11790997/
-- MED-0287 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11790984/
-- MED-0288 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13009686/
-- MED-0289 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13009690/
-- MED-0631 — https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-(stis)
-- MED-0822 — https://medlineplus.gov/asthmainchildren.html
-- MED-0924 — https://medlineplus.gov/howtopreventheartdisease.html
-- MED-1016 — https://medlineplus.gov/traumaticbraininjury.html
-- MED-1023 — https://medlineplus.gov/vasculardiseases.html
-- MED-1077 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3320
-- MED-1078 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3321
-- MED-1079 — https://www.cancer.go.kr/lay1/program/S1T211C216/cancer/view.do?cancer_seq=3317&menu_seq=3336
-- MED-1080 — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3344
-- MED-1081 — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3345
-- MED-1082 — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3360
-- MED-1083 — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3752
-- MED-1084 — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3768
-- MED-1085 — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3776
-- MED-1086 — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3777
-- MED-1087 — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3792
-- MED-1088 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3800
-- MED-1089 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3801
-- MED-1090 — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3816
-- MED-1091 — https://www.cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=4373&menu_seq=4377
-- MED-1092 — https://www.cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=4373&menu_seq=4392
-- MED-1094 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4665
-- MED-1095 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4680
-- MED-1096 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4760
-- MED-1099 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4952
-- MED-1100 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4953
-- MED-1101 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=7182
-- MED-1102 — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5120
-- MED-1103 — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5121
-- MED-1104 — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5136
-- MED-1105 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5240
-- MED-1106 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5241
-- MED-1107 — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5256
-- MED-1211 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000275360&chrClsCd=010201
-- MED-1228 — https://www.data.go.kr/data/15104692/fileData.do
-- MED-1234 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000270432&chrClsCd=010201
-- MED-1254 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000287566
-- MED-1364 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000206468
-- MED-1372 — https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health
-- MED-1394 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000274952
-- MED-1404 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000143049
-- MED-1420 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000285724
-- MED-1440 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000271088
-- MED-1445 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000283320&part=byul6-pharmacy
-- MED-1447 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000243466
-- MED-1604 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000230772
-- MED-1605 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000277296
-- MED-1606 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000260878
-- MED-1792 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000286736
-- MED-1997 — https://www.cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=4517&menu_seq=4521
-- MED-1998 — https://www.cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=5285&menu_seq=5290
-- MED-2036 — https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000283320&part=byl4-2-dialysis
-- MED-2037 — https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000283320&part=byl4-2-epilepsy
-- MED-2038 — https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000283320&part=byl4-2-psychosis
-- MED-2040 — https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000279112
-- MED-2168 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000262584
-- MED-2169 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000283464
-- MED-2173 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000271124
-- MED-2178 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000269954
-- MED-2179 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000269956
-- MED-2180 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000280438
-- MED-2184 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000271404
-- MED-2185 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000271480
-- MED-2203 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000272272
-- MED-2222 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000286910
-- MED-2225 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000284060
-- MED-2239 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000093192
-- MED-2254 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000201381
-- MED-2259 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000286276
-- MED-2263 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000276312
-- MED-2274 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000277954
-- MED-2284 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000251944
-- MED-2300 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000258096
-- MED-2313 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000197953
-- MED-2318 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000279112&part=chap9-adjust
-- MED-2327 — https://fine.fss.or.kr/fine/main/contents.do?menuNo=900209&part=inherit-guide
+- MED-0066 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=4965
+- MED-0068 — https://www.cancer.go.kr/lay1/program/S1T211C218/cancer/view.do?cancer_seq=4949&menu_seq=7181
+- MED-0102 — https://www.cancer.go.kr/lay1/S1T261C262/contents.do
+- MED-0120 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=7&idx=0
+- MED-0121 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=8&idx=0
+- MED-0122 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=2&idx=0
+- MED-0123 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=6&idx=0
+- MED-0141 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=26&idx=0
+- MED-0160 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=12&idx=0
+- MED-0161 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=4&idx=0
+- MED-0162 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=11&idx=0
+- MED-0163 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=15&idx=0
+- MED-0164 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=14&idx=0
+- MED-0165 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=10&idx=0
+- MED-0255 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2018&mode=view
+- MED-0257 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2006&mode=view
+- MED-0258 — https://www.gastrokorea.org/bbs2/index.php?code=guide2&number=2005&mode=view
+- MED-0284 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12766015/
+- MED-0576 — https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment
+- MED-0587 — https://www.who.int/news-room/fact-sheets/detail/diabetes
+- MED-0651 — https://www.nice.org.uk/guidance/ng203
+- MED-0807 — https://medlineplus.gov/adrenalglanddisorders.html
+- MED-0812 — https://medlineplus.gov/angioplasty.html
+- MED-0815 — https://medlineplus.gov/anxiety.html
+- MED-0821 — https://medlineplus.gov/asthma.html
+- MED-0823 — https://medlineplus.gov/atherosclerosis.html
+- MED-0824 — https://medlineplus.gov/atrialfibrillation.html
+- MED-0827 — https://medlineplus.gov/birdflu.html
+- MED-0829 — https://medlineplus.gov/bloodglucose.html
+- MED-0831 — https://medlineplus.gov/bloodthinners.html
+- MED-0832 — https://medlineplus.gov/bodyweight.html
+- MED-0837 — https://medlineplus.gov/cancer.html
+- MED-0838 — https://medlineplus.gov/cancerchemotherapy.html
+- MED-0839 — https://medlineplus.gov/cancerimmunotherapy.html
+- MED-0840 — https://medlineplus.gov/cancerlivingwithcancer.html
+- MED-0842 — https://medlineplus.gov/celiacdisease.html
+- MED-0843 — https://medlineplus.gov/cerebralpalsy.html
+- MED-0844 — https://medlineplus.gov/cervicalcancer.html
+- MED-0855 — https://medlineplus.gov/colonoscopy.html
+- MED-0859 — https://medlineplus.gov/copd.html
+- MED-0867 — https://medlineplus.gov/dementia.html
+- MED-0870 — https://medlineplus.gov/diabetes.html
+- MED-0875 — https://medlineplus.gov/diabetestype2.html
+- MED-0881 — https://medlineplus.gov/diarrhea.html
+- MED-0889 — https://medlineplus.gov/eosinophilicesophagitis.html
+- MED-0892 — https://medlineplus.gov/flu.html
+- MED-0898 — https://medlineplus.gov/guidetogoodposture.html
+- MED-0899 — https://medlineplus.gov/hdlthegoodcholesterol.html
+- MED-0903 — https://medlineplus.gov/heartdiseaseinwomen.html
+- MED-0904 — https://medlineplus.gov/heartdiseases.html
+- MED-0905 — https://medlineplus.gov/heartfailure.html
+- MED-0906 — https://medlineplus.gov/hearthealthtests.html
+- MED-0915 — https://medlineplus.gov/hepatitisc.html
+- MED-0916 — https://medlineplus.gov/highbloodpressure.html
+- MED-0925 — https://medlineplus.gov/howtopreventhighbloodpressure.html
+- MED-0929 — https://medlineplus.gov/hypothyroidism.html
+- MED-0931 — https://medlineplus.gov/ischemicstroke.html
+- MED-0932 — https://medlineplus.gov/isletcelltransplantation.html
+- MED-0936 — https://medlineplus.gov/kawasakidisease.html
+- MED-0938 — https://medlineplus.gov/ldlthebadcholesterol.html
+- MED-0944 — https://medlineplus.gov/lungcancer.html
+- MED-0957 — https://medlineplus.gov/myastheniagravis.html
+- MED-0961 — https://medlineplus.gov/obesity.html
+- MED-0967 — https://medlineplus.gov/ovariancancer.html
+- MED-0977 — https://medlineplus.gov/polycysticovarysyndrome.html
+- MED-0998 — https://medlineplus.gov/sarcoidosis.html
+- MED-1015 — https://medlineplus.gov/thyroidcancer.html
+- MED-1093 — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4664
+- MED-1097 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4761
+- MED-1098 — https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4776
+- MED-1108 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11794292/
+- MED-1109 — https://pmc.ncbi.nlm.nih.gov/articles/PMC8419613/
+- MED-1110 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11739644/
+- MED-1111 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12230267/
+- MED-1112 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11511309/
+- MED-1113 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11621661/
+- MED-1114 — https://pmc.ncbi.nlm.nih.gov/articles/PMC9925153/
+- MED-1126 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13655467/
+- MED-1127 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11917397/
+- MED-1128 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13341177/
+- MED-1129 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13537874/
+- MED-1130 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11524690/
+- MED-1131 — https://pmc.ncbi.nlm.nih.gov/articles/PMC5620396/
+- MED-1232 — https://www.data.go.kr/data/15117426/fileData.do
+- MED-1264 — https://pmc.ncbi.nlm.nih.gov/articles/PMC13430407/
+- MED-1265 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7160350/
+- MED-1266 — https://pmc.ncbi.nlm.nih.gov/articles/PMC10079515/
+- MED-1267 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12620694/
+- MED-1268 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6435847/
+- MED-1269 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11261187/
+- MED-1270 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6901690/
+- MED-1271 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6310769/
+- MED-1272 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11739646/
+- MED-1273 — https://pmc.ncbi.nlm.nih.gov/articles/PMC6960041/
+- MED-1274 — https://pmc.ncbi.nlm.nih.gov/articles/PMC7820646/
+- MED-1275 — https://pmc.ncbi.nlm.nih.gov/articles/PMC8246015/
+- MED-1276 — https://pmc.ncbi.nlm.nih.gov/articles/PMC11458495/
+- MED-1277 — https://pmc.ncbi.nlm.nih.gov/articles/PMC5895837/
+- MED-1278 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12230392/
+- MED-1369 — https://www.who.int/news-room/fact-sheets/detail/asbestos
+- MED-1400 — https://www.ijthyroid.org/journal/view.html?doi=10.11106/ijt.2024.17.1.1
+- MED-1465 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=13&idx=0
+- MED-1466 — https://www.ko-amguide.com/include/lib/download_guide_line_file.php?id=16&idx=0
+- MED-1524 — https://kpub.knia.or.kr/etcDisc/inCompSale/longTermLossInsurance.do?part=nonlife-pay-summary
+- MED-1525 — https://kpub.knia.or.kr/etcDisc/inCompSale/longTermLossInsurance.do?part=nonlife-unpaid-reason
+- MED-1526 — https://kpub.knia.or.kr/etcDisc/medical/mdlcCnsut.do
+- MED-1527 — https://kpub.knia.or.kr/etcDisc/suit/insuranceClaimPay.do
+- MED-1651 — https://kpub.knia.or.kr/etcDisc/inCompSale/carInsurance.do?part=nonlife-car
+- MED-1660 — https://kpub.knia.or.kr/etcDisc/inCompSale/compDiscInsSale.do?part=nonlife-missell
+- MED-1727 — https://pub.insure.or.kr/loan/type/insLoan/list.do?part=life-insloan
+- MED-1780 — https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthIncreaseRate.do?part=standard
+- MED-1781 — https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthIncreaseRate.do?part=retire
+- MED-1782 — https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthIncreaseRate.do?part=preexisting
+- MED-2187 — https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000271500
+- MED-2334 — https://kpub.knia.or.kr/etcDisc/cardPayment/cardPaymentIdx.do
 
-## 접속 3회 이상 연속 실패 (276건)
+## 접속 3회 이상 연속 실패 (277건)
 
 - MED-0010 — 24회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/renewal_popup/poster/20260608_poster_longdesc_1.html
 - MED-0014 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/bbsDummy.do?brdBltNo=45666&brdScnBltNo=4&pgmid=HIRAA030023080000
@@ -149,9 +132,8 @@
 - MED-0071 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3354
 - MED-0073 — 13회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3358
 - MED-0076 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5130
-- MED-0078 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-14, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5134
 - MED-0079 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5135
-- MED-0082 — 3회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-14, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3760
+- MED-0083 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-20, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3761
 - MED-0085 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3765
 - MED-0086 — 5회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-17, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3766
 - MED-0091 — 5회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-17, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3790
@@ -164,7 +146,6 @@
 - MED-0099 — 10회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C212/cancer/view.do?cancer_seq=3341&menu_seq=3352
 - MED-0100 — 10회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5128
 - MED-0101 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-17, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3784
-- MED-0102 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-14, 7일마다 재시도) — https://www.cancer.go.kr/lay1/S1T261C262/contents.do
 - MED-0108 — 10회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4666
 - MED-0109 — 4회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-17, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C214/cancer/view.do?cancer_seq=3797&menu_seq=3802
 - MED-0110 — 13회 — URLError: <urlopen error timed out> (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.cancer.go.kr/lay1/program/S1T211C215/cancer/view.do?cancer_seq=5237&menu_seq=5242
@@ -415,7 +396,10 @@
 - MED-2217 — 15회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11005254
 - MED-2255 — 8회 — TimeoutError: The read operation timed out (마지막 시도 2026-11-16, 7일마다 재시도) — https://www.hira.or.kr/dummy.do?pgmid=HIRAA020020000005
 - MED-2301 — 5회 — RemoteDisconnected: Remote end closed connection without response (마지막 시도 2026-11-17, 7일마다 재시도) — https://www.nhis.or.kr/nhis/together/wbhaea01000m01.do?mode=view&articleNo=11008009
-- MED-0083 — 4회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3761
+- MED-0075 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5129
+- MED-0078 — 4회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C221/cancer/view.do?cancer_seq=5117&menu_seq=5134
+- MED-0082 — 4회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C219/cancer/view.do?cancer_seq=3749&menu_seq=3760
+- MED-0090 — 3회 — URLError: <urlopen error timed out> — https://www.cancer.go.kr/lay1/program/S1T211C220/cancer/view.do?cancer_seq=3773&menu_seq=3789
 
 ## 재확인 기한 도래·30일 이내 (52건)
 
@@ -472,25 +456,19 @@
 - 2026-12-18 MED-1688 [verified] 초기(1·2세대) 실손 가입자 '선택형 할인 특약'·'계약전환 할인(재매입)' 2026년 11월 시행 예정(금융위원회 보도자료, 2026-05-06, 5세대 실손 출시) — 선택형 할인: 기존 계약 유지하며 ①비급여 물리치료(도수치료 등)·체외충격파·비급여 주사제 ②비급여 MRI·MRA 보장 제외 ③자기부담률 20% 선택 시 전체 기준 약 30~40% 할인 / 계약전환 할인: 5세대 전환 시 일정 기간 할인(예: 3년간 50%), 6개월 시행 후 연장 검토, 6개월 내 철회 허용(3개월 내 무조건)
 - 2026-12-18 MED-1689 [verified] 건강보험심사평가원 상병마스터(공공데이터포털 15067467, '상병마스터_20250930', 등록 2025-11-04, 47,798행) — 청구용 상병기호·한글명·영문명·완전코드구분·주상병사용구분·법정감염병구분·성별·상하한 연령·양한방구분 / 직접 확인 결과 9차 신설 코드(D37.60·I20.81·I50.10·J82.10·F32.21·K29.60·B34.20·U86.0) 없음, 8차 코드(I50.04·U22.2·U18.0) 있음 → 9차 반영 전 파일, 다음 등록 예정 2026-11-30
 
-## PubMed 신규 가이드라인·RCT·메타분석 (2026-11-19 이후)
+## PubMed 신규 가이드라인·RCT·메타분석 (2026-11-20 이후)
 
-**위암**
-- Ultra-short-term in-hospital multimodal prehabilitation in older patients undergoing laparoscopic gastrectomy for gastric cancer: a randomized controlled trial. (2026 Nov 19) https://pubmed.ncbi.nlm.nih.gov/43056003/
 **대장암**
+- Alternative multiport robotic platforms versus da Vinci in colorectal cancer surgery: a systematic review and platform-stratified meta-analysis. (2026 Nov 21) https://pubmed.ncbi.nlm.nih.gov/43064876/
 - Hierarchical benefit of multidimensional remission in ulcerative colitis: a systematic review and meta-analysis. (2026 Aug 26) https://pubmed.ncbi.nlm.nih.gov/43058529/
 **폐암**
+- Impact of exercise dose on depression and mood in patients with lung cancer: a systematic review with pairwise, network, and dose-response meta-analyses. (2026 Nov 21) https://pubmed.ncbi.nlm.nih.gov/43064838/
 - Integration of a severe immune-related adverse events predictive model with efficacy biomarkers enables precise stratification in NSCLC immunotherapy: insights from the phase 3 ORIENT-11 study. (2026 Aug 26) https://pubmed.ncbi.nlm.nih.gov/43062512/
 - Incidence and Risk Factors of Postoperative Delirium in Patients with Lung Cancer: A Systematic Review and Meta-Analysis. (2026 Nov 13) https://pubmed.ncbi.nlm.nih.gov/43062053/
 **유방암**
 - Secondary prevention of cancer therapy-induced thrombocytopenia with hetrombopag in breast cancer: a multicenter, randomized, exploratory phase II trial. (2026 Aug 26) https://pubmed.ncbi.nlm.nih.gov/43058687/
-- Added effects of manual lymphatic drainage and intermittent pneumatic compression on compression-based care for established upper-limb breast-cancer-related lymphedema: a systematic review and component network meta-analysis. (2026 Nov 19) https://pubmed.ncbi.nlm.nih.gov/43055979/
-- Longitudinal ctDNA profiling reveals genomic risk and molecular response to bireociclib in advanced breast cancer. (2026 Oct 21) https://pubmed.ncbi.nlm.nih.gov/43052301/
-**간암**
-- ACR Appropriateness Criteria® Chronic Liver Disease: 2026 Update. (2026 Nov 19) https://pubmed.ncbi.nlm.nih.gov/43055695/
 **전립선암**
 - Nonsteroidal anti-inflammatory drug use and site-specific risk of urological cancers: a systematic review and meta-analysis. (2026 Aug 25) https://pubmed.ncbi.nlm.nih.gov/43058591/
-- Clinicopathological factors associated with biochemical recurrence after robot-assisted radical prostatectomy: A systematic review and meta-analysis. (2026) https://pubmed.ncbi.nlm.nih.gov/43056348/
-- Secondary Analysis of a Randomized Controlled Trial of Adjuvant Chemotherapy by PSA Response Following Radiotherapy. (2026 Nov) https://pubmed.ncbi.nlm.nih.gov/43053607/
 **갑상선암**
 - Prophylactic central neck dissection in clinically node-negative, low- to intermediate-risk papillary thyroid carcinoma: a meta-analysis and trial sequential analysis of randomized controlled trials. (2026 Oct 31) https://pubmed.ncbi.nlm.nih.gov/43062043/
 
