@@ -1,54 +1,6 @@
 {
-"updated": "2026-11-21T13:06+09:00",
+"updated": "2026-11-21T14:06+09:00",
 "items": [
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5Id0p6elZSV21iRGRHd1Z2enRSSk9xXzlUSHI0QnhCbkh1bnNRWGNvYVIzd1h3ODRKc2Yxa3dnM0l6Skd5QW1SdTBSMjF1aTd3dFRyaEFzUW92enNBN015aDBSS0IybnBTckNZ?oc=5",
-"t": "2026-11-13T14:06+09:00",
-"tok": [
-"끊긴",
-"난방비",
-"먼저",
-"에너지바우처",
-"재신청",
-"정부가",
-"지원",
-"찾는다"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE13VWpTZlRWTFVCcFhKOWxnRWlXNGtjUjhpYnBrNEZTM1ppcGlkMXNIUmo0MnFBWGlsQmhPanpnc1U4c1djU1E4dFFoZmhIelFOMDFibkNIcGdUUndNY0dQMk1JZ01DQQ?oc=5",
-"t": "2026-11-13T14:06+09:00",
-"tok": [
-"AI기반",
-"강화",
-"경기",
-"부동산",
-"안심",
-"예방",
-"전세사기",
-"추진",
-"협력",
-"활성화"
-]
-},
-{
-"kind": "주목",
-"link": "https://www.newsis.com/view/NISX20261113_0003867084",
-"t": "2026-11-13T14:06+09:00",
-"tok": [
-"3명",
-"5억",
-"경찰",
-"눈앞",
-"막아",
-"보이스피싱",
-"송금",
-"찾아간",
-"피해"
-]
-},
 {
 "kind": "속보",
 "link": "https://www.yna.co.kr/view/AKR20261113105900004",
@@ -9180,6 +9132,26 @@
 "증발",
 "회계"
 ]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00aEdZU0M1eG9iXzdIaDZDbFFIV3J5UHo3QXVTLW9uWmZpbjdrb0M2bHZ4Vy1VMW1LMmZVNFhleldYRHhaRUpIRktBODBOVzNrYl9lZmJuQkVGUHk2S3p3RUpmamkwR3o2?oc=5",
+"t": "2026-11-21T14:06+09:00",
+"tok": [
+"1200원선",
+"215만원",
+"8000만원선",
+"리플",
+"비트코인",
+"시세",
+"시장",
+"이더리움",
+"주말",
+"코인",
+"하회",
+"향방은"
+],
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00aEdZU0M1eG9iXzdIaDZDbFFIV3J5UHo3QXVTLW9uWmZpbjdrb0M2bHZ4Vy1VMW1LMmZVNFhleldYRHhaRUpIRktBODBOVzNrYl9lZmJuQkVGUHk2S3p3RUpmamkwR3o2?oc=5"
 }
 ]
 }
