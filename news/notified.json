@@ -1,20 +1,6 @@
 {
-"updated": "2026-11-21T20:06+09:00",
+"updated": "2026-11-21T21:06+09:00",
 "items": [
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBqUmhoWlBkSEpyUlVCNl9YSVBUSktIaTNNVUJLM3I1QWg1RDl6MDFlck9KVUczNU9RQzA3SEptZjZLRnpFR2Y4STBVSFpjc255MGZj0gFYQVVfeXFMTy1YUFZVSldxUy1XdkpFUWVscVRzSDdOOFdwY21TVENlV3FGV2FydkxfWV8ydWxpMHR6c2JsMW8xRG1LM0NZT1lVVXd2Wm9uTUluaUhCSDZnbg?oc=5",
-"t": "2026-11-13T21:06+09:00",
-"tok": [
-"2분기보다",
-"36억달러",
-"3분기",
-"국민연금",
-"늘어",
-"주식",
-"평가액"
-]
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rLUhFUmhZOXVuTkpnaW5xSGFLcmtxZ0RiREJwekNUVXpRVEoxTS1MZVEtZEVwakxyM0NFaWQxU2pfTmhpcjVXQk9Gb2t2a0tkR0NIZjNWeHY5WG9kcVY5UzlTWWRsOWRW?oc=5",
@@ -8986,6 +8972,23 @@
 "확정"
 ],
 "g": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE14WWcwN2dLbENyM0FaRndqelpWbkJjTTNKcVl1ckpNNGFCdE8tVVlvSVo2Tmo4ajFfQVlTVGc0UUduOUw5MUVDbGYwYUJPZw?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE55VTZhcGdDVVlrN2pocHl0UVV1Wk9DQk9faWIwWk5CTkFkcENHSmFtVFljNFlaM3VaMExtdFVrWjFMNFRkcFhJNy1sbWRHN0NTYTI3ZVpKUnM5SmFnZ0NSRUNMYXo?oc=5",
+"t": "2026-11-21T21:06+09:00",
+"tok": [
+"CEO",
+"사임",
+"엔비디아",
+"임명",
+"임시",
+"전격",
+"젠슨",
+"콜레트",
+"크레스"
+],
+"g": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE55VTZhcGdDVVlrN2pocHl0UVV1Wk9DQk9faWIwWk5CTkFkcENHSmFtVFljNFlaM3VaMExtdFVrWjFMNFRkcFhJNy1sbWRHN0NTYTI3ZVpKUnM5SmFnZ0NSRUNMYXo?oc=5"
 }
 ]
 }
