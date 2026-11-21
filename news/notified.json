@@ -1,52 +1,6 @@
 {
-"updated": "2026-11-21T14:06+09:00",
+"updated": "2026-11-21T15:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261113105900004",
-"t": "2026-11-13T15:06+09:00",
-"tok": [
-"1심",
-"2심",
-"HMG",
-"고려아연",
-"뒤집혀",
-"신주발행",
-"적법",
-"판결"
-],
-"g": "https://www.yna.co.kr/view/AKR20261113105900004"
-},
-{
-"kind": "속보",
-"link": "https://www.mt.co.kr/society/2026/11/13/2026111314163876331",
-"t": "2026-11-13T15:06+09:00",
-"tok": [
-"1심",
-"2심서",
-"HMG",
-"고려아연",
-"뒤집혔다",
-"신주발행은",
-"적법",
-"판결"
-],
-"g": "https://www.yna.co.kr/view/AKR20261113105900004"
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE96M29yUjY4WnZTb2N5aVhyeURkWjU2a2cxb25fR0lNTThYckJNdFA1OEZRTjd3R3JZdWRDaXROc3RCeDBnTE5sZklLTmxiMGxRb3J2ci1uNDRYZw?oc=5",
-"t": "2026-11-13T15:06+09:00",
-"tok": [
-"상담서비스",
-"안심계약",
-"예방",
-"운영",
-"위한",
-"전세사기",
-"전월세"
-]
-},
 {
 "kind": "단독",
 "link": "https://www.newsis.com/view/NISX20261113_0003866536",
@@ -9152,6 +9106,40 @@
 "향방은"
 ],
 "g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00aEdZU0M1eG9iXzdIaDZDbFFIV3J5UHo3QXVTLW9uWmZpbjdrb0M2bHZ4Vy1VMW1LMmZVNFhleldYRHhaRUpIRktBODBOVzNrYl9lZmJuQkVGUHk2S3p3RUpmamkwR3o2?oc=5"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1GWFVRMUJMcmdnTndxNWgxSjlkZG1YOHdCdFBzUU5LaTh2VmdkaERTX2pWS013UFZyM1g1R19Rc2h1NTYwTkJCOEp3?oc=5",
+"t": "2026-11-21T15:06+09:00",
+"tok": [
+"AI",
+"나스닥",
+"뉴스",
+"뉴욕증시",
+"셀링",
+"시애틀",
+"열풍",
+"패닉",
+"폭락",
+"핫이슈",
+"흔들리며"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1CSDRHS3RoTGJqZVd5bTA2MnRkWHZUZkVKc0JUNW56OW43Tll3c20xN3NuUTNMSk42bnpqWDdnb1hCVWUzNUhIRm4yVkdYVy1qVVJycElRNGo?oc=5",
+"t": "2026-11-21T15:06+09:00",
+"tok": [
+"14",
+"28",
+"AI",
+"급락",
+"나스닥",
+"식었나",
+"엔비디아",
+"열기",
+"투자"
+]
 }
 ]
 }
