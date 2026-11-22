@@ -1,36 +1,6 @@
 {
-"updated": "2026-11-23T06:54+09:00",
+"updated": "2026-11-23T08:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4wa2ZKM1ExX0xzU0JhRjhkWHdiczh0WkZ5ZGVZQkJGTldobnZNdWgzbTJ4UnBNOHEtOWxvX1g1amN3R2tHQ25fTkt5Q1BLMVhNV1dsZUg2aDVIcnItZzFWdWo3WXFYUkk?oc=5",
-"t": "2026-11-15T08:06+09:00",
-"tok": [
-"금융당국",
-"대형GA",
-"등록취소",
-"리베이트",
-"불법",
-"영업에",
-"예고",
-"폐업위기",
-"한국보험금융"
-]
-},
-{
-"kind": "주목",
-"link": "http://www.fins.co.kr/news/articleView.html?idxno=110560",
-"t": "2026-11-15T08:06+09:00",
-"tok": [
-"기금형",
-"대응",
-"보험업계도",
-"본격화",
-"속도",
-"준비",
-"퇴직연금"
-]
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MbllpMks1N0xIWGFrZWZGYzdlUjhnTHpFY0xLakQ1cUgzT0h3SHNOZWgwbU9pMTdrMzBBVFdOVVprX3Izb2dSdzhMVWhQc2tRQlJ0ZzFOSEd2U09mVHNmMmRES3hhQWR2?oc=5",
@@ -9104,6 +9074,77 @@
 "보험사기",
 "부딪히더니",
 "차에"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.mt.co.kr/sports/2026/11/23/2026112307134780509",
+"t": "2026-11-23T08:06+09:00",
+"tok": [
+"4억",
+"5000만",
+"6000억",
+"9년",
+"가뿐히",
+"계약",
+"넘어섰다",
+"달러",
+"메츠와",
+"스쿠발",
+"시대",
+"야마모토",
+"초대형",
+"최초",
+"투수"
+],
+"g": "https://www.mt.co.kr/sports/2026/11/23/2026112307134780509"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5WbXd5Q3VxUmJlWGdJQU9DeHh4UHFoNldQRU1jSk9BZU5sRHNiZjVOdWJMbFNwTXdPaDlRZDRHcU9OMndsbU93MFZRUldWTjFWR25TaUtURTBlWVB5b2U4ZmFmZ2NYcHo2?oc=5",
+"t": "2026-11-23T08:06+09:00",
+"tok": [
+"6만달러",
+"ETF",
+"공방전",
+"대규모",
+"비트코인",
+"순유출",
+"이탈",
+"자금"
+],
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5WbXd5Q3VxUmJlWGdJQU9DeHh4UHFoNldQRU1jSk9BZU5sRHNiZjVOdWJMbFNwTXdPaDlRZDRHcU9OMndsbU93MFZRUldWTjFWR25TaUtURTBlWVB5b2U4ZmFmZ2NYcHo2?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261123_0003878475",
+"t": "2026-11-23T08:06+09:00",
+"tok": [
+"SK하닉",
+"급락",
+"동반",
+"삼성전자",
+"출발",
+"프리마켓서"
+],
+"g": "https://www.newsis.com/view/NISX20261123_0003878475"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE12dkdRaHowUzhhYjVxS2ppQzhtTlAxYUJMSE41TGMxN2Rqam1rRGl1R0VIdm1tX05yejZGaGlub2VnLWg2R2lTQnVYelo3QnN0dUpBR0VoQXk4WmVzeG1mRXdFUzFaQQ?oc=5",
+"t": "2026-11-23T08:06+09:00",
+"tok": [
+"10",
+"공매도",
+"금지",
+"급락에",
+"나스닥",
+"반도체지수",
+"요구",
+"우려",
+"코스피",
+"하락",
+"확산"
 ]
 }
 ]
