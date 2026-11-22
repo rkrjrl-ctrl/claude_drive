@@ -1,25 +1,6 @@
 {
-"updated": "2026-11-22T14:06+09:00",
+"updated": "2026-11-22T15:06+09:00",
 "items": [
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1hRE80b0ZZSHlmSEtjSW0tMFZ2YzJQY0pGcF91WExOOHc5bDhNNjhUNUdEMTR6MDVsa1EzeUYxNlZld1FUd29YTHJSTzBzZ2wwRXZRS25zTXl4aUxzazIzVVY5ZkxkZWVYSnI0QUR3?oc=5",
-"t": "2026-11-14T15:06+09:00",
-"tok": [
-"2차",
-"강화",
-"관리",
-"대책",
-"시의원",
-"이후",
-"전세사기",
-"종료",
-"지원",
-"촉구",
-"최은영",
-"피해"
-]
-},
 {
 "kind": "주목",
 "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBsRTZsVE90UmJWRGFqODc4Y3V4WWg3cGpWU2xLUV9xVFZaUFk5cE93RWJkVGlWbkE0bDZnNXN3YWRjSlUzam9tQUlUdktjS3ZpWldxUkJ2TmM?oc=5",
@@ -8917,6 +8898,20 @@
 "황은"
 ],
 "g": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lT05KajFhbnVzcGR2ZWtfS3daelgwLUR6YkVnUEdLcllHZm14ajdWaGVoNmJMNll2SjlFN0ExcDhFX3pwaXhVMUhtVE9kRHZfXzdCbXBBTklpWTQ?oc=5"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DRDRaQzEtLTZUbW9TOUNVNDNRdEh5Uk54b3dQeGNTR3FBYjliUlpQSUNLdXNUWE5wN2ltMW9ucWRqcUp6aGFvU3ZzMjNpNnZQcDNjcF9zUko?oc=5",
+"t": "2026-11-22T15:06+09:00",
+"tok": [
+"대구",
+"상담소",
+"수성구",
+"예방",
+"운영",
+"전세사기",
+"찾아가는"
+]
 }
 ]
 }
