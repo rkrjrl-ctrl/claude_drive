@@ -1,52 +1,6 @@
 {
-"updated": "2026-11-22T17:06+09:00",
+"updated": "2026-11-22T18:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pUmhsWFFPLWZOdWFJOEp6Wm5lZWhxV19iUlcwRHFid1MtNVlQMXMtaEdJVDJCbGV3ZXNZaXNkcGVUS3RtWUFrYXNhTW9leGwyUUlkSXJVbDR5MUlSb0JCamhfbHprcV9IekdoOWdnaFNsMFVp?oc=5",
-"t": "2026-11-14T18:06+09:00",
-"tok": [
-"AI칩",
-"사고",
-"수출통제",
-"엔비디아",
-"완화",
-"작년",
-"주식",
-"트럼프"
-],
-"g": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pUmhsWFFPLWZOdWFJOEp6Wm5lZWhxV19iUlcwRHFid1MtNVlQMXMtaEdJVDJCbGV3ZXNZaXNkcGVUS3RtWUFrYXNhTW9leGwyUUlkSXJVbDR5MUlSb0JCamhfbHprcV9IekdoOWdnaFNsMFVp?oc=5"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5IaXFDZ1pKUktSSG9lYlFRUUoxUDJKckctVnR2UWg4bXF5UThONFdudkxPWU53UHNMY3puRk42NzZ6N21LZ0VhemhCYWpPeDlU?oc=5",
-"t": "2026-11-14T18:06+09:00",
-"tok": [
-"규제",
-"반도체",
-"엔비디아",
-"트럼프",
-"풀매수",
-"풀어주며"
-],
-"g": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5IaXFDZ1pKUktSSG9lYlFRUUoxUDJKckctVnR2UWg4bXF5UThONFdudkxPWU53UHNMY3puRk42NzZ6N21LZ0VhemhCYWpPeDlU?oc=5"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaWNwanFHb01KZVJ1TnkxaUdOemJRRkdsT3JibjVwalhNYmdKc3ZkUjQzSmJKdjc4NkJlTkp3NjlyNTgxTDVWWkpPek1DaTQ0RHZJbHJIYnc4MF9PeW93TU44cEFubkFFOEdEYzFIQXRkODJ4YzVVMl9QYXZLekJBRWtVd3VZVW05TWVJ?oc=5",
-"t": "2026-11-14T18:06+09:00",
-"tok": [
-"AI",
-"규제",
-"매입",
-"반도체",
-"엔비디아",
-"완화",
-"주식",
-"트럼프"
-],
-"g": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pUmhsWFFPLWZOdWFJOEp6Wm5lZWhxV19iUlcwRHFid1MtNVlQMXMtaEdJVDJCbGV3ZXNZaXNkcGVUS3RtWUFrYXNhTW9leGwyUUlkSXJVbDR5MUlSb0JCamhfbHprcV9IekdoOWdnaFNsMFVp?oc=5"
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBJc1dyY2VhTUZ6OGpNUXRsSWpBNW9zUEtiZHZOSndRMkNKLXBTNXFDMVpnbEplS0hFNXBfbjhqSTVsNHlYT3NaY2c2UUg3SHZtU1pZa3pQaTAxX1FFdGNlUF93?oc=5",
@@ -8944,6 +8898,23 @@
 "에어",
 "요금제",
 "특가"
+]
+},
+{
+"kind": "단독",
+"link": "https://www.sedaily.com/article/20117415",
+"t": "2026-11-22T18:06+09:00",
+"tok": [
+"금융",
+"남미",
+"노린다",
+"북미까지",
+"슈퍼앱",
+"쓰는",
+"유럽",
+"이어",
+"전세계인",
+"토스"
 ]
 }
 ]
