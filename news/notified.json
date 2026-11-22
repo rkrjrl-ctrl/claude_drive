@@ -1,28 +1,6 @@
 {
-"updated": "2026-11-22T10:06+09:00",
+"updated": "2026-11-22T11:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxZnlVQUt6RVRia1NEZEY3eDhnZl9URTRYLUhIVFowRVkwSzlVTUZzWkZIbE1FUk85b09ESEZmVzBwN2dpendWSW9hY0o3X3FORzNBWnk1RURXaUQ0bllfUGsxRFRBUGJ4MUE?oc=5",
-"t": "2026-11-14T11:06+09:00",
-"tok": [
-"17배로",
-"36명",
-"3년",
-"경찰",
-"공모",
-"나면",
-"만에",
-"배달라이더",
-"베트남",
-"보험사기",
-"사고",
-"숨기기",
-"유학비자",
-"음식",
-"입건"
-]
-},
 {
 "kind": "주목",
 "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAxUWQ2YWR6aHk1M19mM1VGOFh4WXo4NWllbUh1VFQ3eFZ1clpkbjhhckw3QThOLVRYRU0tNHlONVpMN2JLNWVNM3FVRXJNbF9MVEw4bTZzLW94ZEU?oc=5",
@@ -8757,6 +8735,92 @@
 "폭락한"
 ],
 "g": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16M1h5UUNWV3ppWFpBdTctVW00MVF3NVFQZVNhNzhPWjU0OHNrUFhGODVKekotcEdKcURnLWNiNkw2WldILW9uc3FSaE5JUzV6TkIwVk82d0xyVW1ENThucFZfR1BPS3NTLW05MkVNVEZhSkkw?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.mt.co.kr/politics/2026/11/22/2026112210352395034",
+"t": "2026-11-22T11:06+09:00",
+"tok": [
+"목표",
+"사유",
+"삼을",
+"연내",
+"조희대",
+"처리",
+"탄핵",
+"판결",
+"한덕수"
+],
+"g": "https://www.mt.co.kr/politics/2026/11/22/2026112210352395034"
+},
+{
+"kind": "속보",
+"link": "https://www.fnnews.com/news/202611221045225256",
+"t": "2026-11-22T11:06+09:00",
+"tok": [
+"12월",
+"국회서",
+"대법원장",
+"소추안",
+"의결",
+"조희대",
+"탄핵"
+],
+"g": "https://www.mt.co.kr/politics/2026/11/22/2026112210352395034"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVdHIzS1ZPVlNoamhvVGgzUVBkWVFhdTM5WldCdmRrcWZTa3hzdkJYbkczUzJOZjkwMG1weTM3cFo0WlAzVzRqNlVUamFHdnpsTVJudkIyYS04cjdoZ1dZUFhXOW1kcDlU?oc=5",
+"t": "2026-11-22T11:06+09:00",
+"tok": [
+"SK하이닉스",
+"급락",
+"뉴욕증시까지",
+"대형주",
+"삼성전자",
+"이어",
+"충격",
+"코스닥",
+"코스피",
+"털썩",
+"향방은"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBRUU1kMmIzQ1g0dFQxNDNicm1TRWtMYlJNMWxxWUc5ZjB5bTZzbVpPakRFSmFkQmpVZ0RBbW1kSXFyNE5xV2FyRHF5RUdwaXViMWVMeA?oc=5",
+"t": "2026-11-22T11:06+09:00",
+"tok": [
+"4900선",
+"금통위",
+"다음주",
+"무너진",
+"물가",
+"반도체",
+"변동성",
+"주간증시전망",
+"주의보",
+"충격에",
+"코스피",
+"한은"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1tVTJ4VXM0T21NdGxvMVVWa3dHUzE2WXVKcGprUnFrM3hkekY4bEs1aHdIWFE5RGtncU01VVVxb0dhT25LLXMwOURPTHZOek03WUc0MTd0d0UtQWRWYlpFMGJYa0Q?oc=5",
+"t": "2026-11-22T11:06+09:00",
+"tok": [
+"경기도",
+"구별한다",
+"서비스",
+"스티커",
+"예방",
+"이용",
+"전세사기",
+"제공",
+"중개사",
+"참여"
+]
 }
 ]
 }
