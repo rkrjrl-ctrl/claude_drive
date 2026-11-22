@@ -1,25 +1,6 @@
 {
-"updated": "2026-11-22T11:06+09:00",
+"updated": "2026-11-22T12:06+09:00",
 "items": [
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAxUWQ2YWR6aHk1M19mM1VGOFh4WXo4NWllbUh1VFQ3eFZ1clpkbjhhckw3QThOLVRYRU0tNHlONVpMN2JLNWVNM3FVRXJNbF9MVEw4bTZzLW94ZEU?oc=5",
-"t": "2026-11-14T12:06+09:00",
-"tok": [
-"11월",
-"2주",
-"4만",
-"경기",
-"넘어",
-"부동산",
-"상승세",
-"서울",
-"전세사기",
-"평균",
-"피해",
-"하락"
-]
-},
 {
 "kind": "주목",
 "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1hRE80b0ZZSHlmSEtjSW0tMFZ2YzJQY0pGcF91WExOOHc5bDhNNjhUNUdEMTR6MDVsa1EzeUYxNlZld1FUd29YTHJSTzBzZ2wwRXZRS25zTXl4aUxzazIzVVY5ZkxkZWVYSnI0QUR3?oc=5",
@@ -8821,6 +8802,53 @@
 "중개사",
 "참여"
 ]
+},
+{
+"kind": "gov",
+"link": "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492621&act=view",
+"t": "2026-11-22T12:06+09:00",
+"tok": [
+"대체인력",
+"발달장애인지원사업",
+"보장한다",
+"사고도",
+"종합공제",
+"확대"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE80eXpTSk1mR0hxTWZYMXBFODNMbHlfYlU3MlAtS21fRUhiYkM2MzRTOEg2RGhDeVVfcVRYUmZ0UzBxSXlVMF9SQXB2aXRaYmxqT3dMekx2UmJ4UGg2WnVVblgxUG1pQW8yMG5lM0w2WnFQdFJBblZydNIBeEFVX3lxTE01cVIyVTRVbXZoSDRfbE5MYV9oS1lzRWFwX3lFdzNrY3A2OWt2b2dTc3c4QXZod1l0cTFFVWNYbUEzY0FaanB1ZnZXeXFVVWM2VzJRUFNHMVdnWUZpaWgzbllWbnhMeklsdExhYW9vYXI3b1dBdC1jVA?oc=5",
+"t": "2026-11-22T12:06+09:00",
+"tok": [
+"12월",
+"미포함",
+"민주",
+"사유에",
+"조희대",
+"추진",
+"탄핵",
+"판결은",
+"한덕수"
+],
+"g": "https://www.mt.co.kr/politics/2026/11/22/2026112210352395034"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5aWlRrTHV5VDZ6VEpsNzZLR3VIUDBDeDhoVWtTZll6OThZVUctb1JxZldfQmpNNkItdmRsMWo5QllHZnFJOFlfVXFuSUo1RzdwT2N6enlqemJzblIwakp6cnhIZnROS0k?oc=5",
+"t": "2026-11-22T12:06+09:00",
+"tok": [
+"대비책",
+"마련해야",
+"먼데이",
+"블랙",
+"우려",
+"정부",
+"정점식",
+"증시",
+"폭락"
+],
+"g": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5aWlRrTHV5VDZ6VEpsNzZLR3VIUDBDeDhoVWtTZll6OThZVUctb1JxZldfQmpNNkItdmRsMWo5QllHZnFJOFlfVXFuSUo1RzdwT2N6enlqemJzblIwakp6cnhIZnROS0k?oc=5"
 }
 ]
 }
