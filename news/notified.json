@@ -1,22 +1,6 @@
 {
-"updated": "2026-11-22T18:06+09:00",
+"updated": "2026-11-22T19:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBJc1dyY2VhTUZ6OGpNUXRsSWpBNW9zUEtiZHZOSndRMkNKLXBTNXFDMVpnbEplS0hFNXBfbjhqSTVsNHlYT3NaY2c2UUg3SHZtU1pZa3pQaTAxX1FFdGNlUF93?oc=5",
-"t": "2026-11-14T19:06+09:00",
-"tok": [
-"간첩설",
-"논란",
-"에도",
-"엔비디아",
-"이해충돌",
-"주식",
-"트럼프",
-"풀매수"
-],
-"g": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBJc1dyY2VhTUZ6OGpNUXRsSWpBNW9zUEtiZHZOSndRMkNKLXBTNXFDMVpnbEplS0hFNXBfbjhqSTVsNHlYT3NaY2c2UUg3SHZtU1pZa3pQaTAxX1FFdGNlUF93?oc=5"
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE50REtGRDFYaTVPTjJmOVllazB2dWJZdEdCWmlQMmJoUFY3YXZranRqclMtbUU5ODJzLVpXZVdaT2RZWTZSaWl3QnhSUExQSTVkSGNsNFNIcmtXcHAyd1JTaUExRWVPZUVS?oc=5",
@@ -8915,6 +8899,124 @@
 "이어",
 "전세계인",
 "토스"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.khan.co.kr/article/202611221821001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+"t": "2026-11-22T19:06+09:00",
+"tok": [
+"3개월",
+"가동",
+"매입",
+"완화",
+"자사주",
+"정부",
+"준비",
+"증시안정펀드",
+"착수",
+"한도"
+],
+"g": "https://www.khan.co.kr/article/202611221821001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261122_0003878299",
+"t": "2026-11-22T19:06+09:00",
+"tok": [
+"3개월간",
+"거래소",
+"공매도",
+"금감원",
+"불법",
+"운영",
+"특별감시기간"
+],
+"g": "https://www.newsis.com/view/NISX20261122_0003878299"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4wanJnanFFbXYwQ3dkbFZzamtZNnFONUkwbEZXdmlCb3lvR240RUtMU1MxdGZBWWpRYWROc2tzVDF1QmxnZUpscTFCWnZZaVFHdTdpcTJBeEhMdw?oc=5",
+"t": "2026-11-22T19:06+09:00",
+"tok": [
+"3개월간",
+"감시",
+"공매도",
+"대응",
+"불법",
+"엄정",
+"위법행위",
+"정부",
+"특별"
+],
+"g": "https://www.newsis.com/view/NISX20261122_0003878299"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026112218244251509",
+"t": "2026-11-22T19:06+09:00",
+"tok": [
+"가동",
+"정부",
+"준비작업",
+"즉시",
+"증시",
+"증안펀드",
+"착수",
+"폭락에"
+],
+"g": "https://www.khan.co.kr/article/202611221821001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news"
+},
+{
+"kind": "속보",
+"link": "https://www.chosun.com/economy/economy_general/2026/11/22/MEZGMMBTGAZWMYTBGBSGIZTFG4/",
+"t": "2026-11-22T19:06+09:00",
+"tok": [
+"가동",
+"감시",
+"공매도",
+"급락",
+"불법",
+"우려에",
+"정부",
+"준비",
+"증시",
+"증안펀드",
+"특별"
+],
+"g": "https://www.khan.co.kr/article/202611221821001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9NWWVXOW1xdFVpQjNBSFlDX3lVd0owZEdjNm41M2VaNEp4N1JHZnJpSzlqNG05SXl2Q3F0M1ZmMUliWjQ2c0RsRXNnXzloT1dXN0VGTXpoSXV2OWg0TV9USUFn?oc=5",
+"t": "2026-11-22T19:06+09:00",
+"tok": [
+"3개월",
+"가동",
+"공매도",
+"매수",
+"완화",
+"자사주",
+"정부",
+"준비",
+"즉시",
+"증안펀드",
+"특별감시",
+"한도"
+],
+"g": "https://www.khan.co.kr/article/202611221821001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE83dnhRWTE4Q3hkdFJ6ODFaYnpEd3p4eng2RXdjMlBzNjB5aDd4eHdXR1B5ZVY2Smh2SGlyanR4MkZMRll0OTVMemg5TmZ2V0Rr?oc=5",
+"t": "2026-11-22T19:06+09:00",
+"tok": [
+"784억",
+"구성",
+"전남광주",
+"전세사기",
+"특별대책반",
+"피해"
 ]
 }
 ]
