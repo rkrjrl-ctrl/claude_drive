@@ -1,37 +1,6 @@
 {
-"updated": "2026-11-23T13:06+09:00",
+"updated": "2026-11-23T14:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kSjNKZzI0Mm9XTUhUTlJQbFdQSEx0bDZyd2N5Zk9IYXY0bzIzS2VIc3ZyRkVXN2huQTNTR2lEdDZCTTVkWVlXdk9hei1DR2o2YS1ERi1fQURSRVBoOWhrOUhJWkl2WGxZQzRUTg?oc=5",
-"t": "2026-11-15T14:06+09:00",
-"tok": [
-"ICT",
-"수출",
-"역대급",
-"질주",
-"한국"
-],
-"g": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kSjNKZzI0Mm9XTUhUTlJQbFdQSEx0bDZyd2N5Zk9IYXY0bzIzS2VIc3ZyRkVXN2huQTNTR2lEdDZCTTVkWVlXdk9hei1DR2o2YS1ERi1fQURSRVBoOWhrOUhJWkl2WGxZQzRUTg?oc=5"
-},
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGdVZVeTRqd3ppQ0NoUkVoWU1lbklYdHhZSWxMdndnN0wtWTVCb1ZHZ0JzSUdZWmFZOEtXN2FoZGFLRUs2X2RRcUdOOC1fU1hyb0JHOHA0LXUzclJ3Nk5OcE04SGlwRFRoSXIydFRMUlc?oc=5",
-"t": "2026-11-15T14:06+09:00",
-"tok": [
-"249건",
-"결정문에",
-"그후",
-"밝힌다",
-"보도",
-"불인정",
-"이유",
-"이제",
-"전세사기",
-"피해",
-"허위계약"
-]
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9MV2FpQWIwZkwzRkItQXJyVDRxZ1ZmQXU5U3QxNlFsRkNTQ1dkYVZiMDhlZWhxWWtFUmRJTllDQVE3LVp1SnFMT291QzJfbktSRW5Ua0NNQXhzX0F2UTlpUTd6VzIxQ2Jq?oc=5",
@@ -9737,6 +9706,140 @@
 "연속",
 "장중시황",
 "코스피"
+]
+},
+{
+"kind": "gov",
+"link": "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492628&act=view",
+"t": "2026-11-23T14:06+09:00",
+"tok": [
+"2030년까지",
+"35",
+"가구",
+"기준",
+"부양의무자",
+"생계급여",
+"선정기준",
+"인상",
+"중증장애인",
+"추진",
+"폐지"
+]
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WWUF6bTNwQ0JLS0V5bm5OVzVDZ0VLbk02MXE3enVZZFZGSXNkSnJvSTBMbGZlakJORDlFQUY0QlZ5NlZqRW1YMnFteVJOV1JYeGtBb3FB?oc=5",
+"t": "2026-11-23T14:06+09:00",
+"tok": [
+"10대",
+"강간",
+"과거",
+"도주",
+"보니",
+"성매수",
+"위협",
+"정영모",
+"판결문",
+"흉기"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBzWERxMkxYaVJMMG1wbWp1dUpQbUQ0c0JaS0pCbGVEM25zblRJWWV3TjJVaUt4aU5fRmVtVDRPSjlNNEV6SjQ2aUFjLVhJLWNKcHhXUmNPWlpsTGdPWlAtY1F5ZWxVS1Rq?oc=5",
+"t": "2026-11-23T14:06+09:00",
+"tok": [
+"6만1000달러선",
+"강세",
+"동반",
+"리플",
+"반등",
+"비트코인",
+"솔라나",
+"이더리움",
+"주목",
+"코인시장",
+"회복",
+"흐름"
+],
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBzWERxMkxYaVJMMG1wbWp1dUpQbUQ0c0JaS0pCbGVEM25zblRJWWV3TjJVaUt4aU5fRmVtVDRPSjlNNEV6SjQ2aUFjLVhJLWNKcHhXUmNPWlpsTGdPWlAtY1F5ZWxVS1Rq?oc=5"
+},
+{
+"kind": "단독",
+"link": "https://www.khan.co.kr/article/202611231336001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=society_news",
+"t": "2026-11-23T14:06+09:00",
+"tok": [
+"검토",
+"대법",
+"법관회의",
+"부장판사",
+"불참도",
+"비판한",
+"중립성",
+"지켜야",
+"판결",
+"한덕수"
+]
+},
+{
+"kind": "단독",
+"link": "https://www.mt.co.kr/estate/2026/11/23/2026112310325179358",
+"t": "2026-11-23T14:06+09:00",
+"tok": [
+"26만명",
+"SK와",
+"공장",
+"국토부",
+"반도체",
+"삼성",
+"양성책",
+"어디서",
+"지을",
+"짠다"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.fnnews.com/news/202611231108417721",
+"t": "2026-11-23T14:06+09:00",
+"tok": [
+"0원",
+"3만7000명",
+"국민연금",
+"날린",
+"됐다",
+"무슨",
+"부은",
+"수급권",
+"유족연금",
+"택해",
+"평생"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWDd4TFZmd2o2cHpYWFQ5MnVaTGZGT1FVblBCcmp3SEpIYlZvWXNlSV9LMm55LTVoRW1qQV9hMEx2RDVJa0ZUb1RWQ1g0NEFBcUJzaUVyNHZoOEk3cFg1cjRwWEZJNlJmVnZObTNvbmxodFRKWlJGQU9JeUlwUDhkbdIBgAFBVV95cUxPWDd4TFZmd2o2cHpYWFQ5MnVaTGZGT1FVblBCcmp3SEpIYlZvWXNlSV9LMm55LTVoRW1qQV9hMEx2RDVJa0ZUb1RWQ1g0NEFBcUJzaUVyNHZoOEk3cFg1cjRwWEZJNlJmVnZObTNvbmxodFRKWlJGQU9JeUlwUDhkbQ?oc=5",
+"t": "2026-11-23T14:06+09:00",
+"tok": [
+"급락",
+"매도",
+"발동",
+"사이드카",
+"유가증권시장",
+"코스피200선물"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.seoulfn.com/news/articleView.html?idxno=643633",
+"t": "2026-11-23T14:06+09:00",
+"tok": [
+"CJ올리브영",
+"결제",
+"바우처",
+"뷰티브리핑",
+"생리용품",
+"서비스",
+"시행"
 ]
 }
 ]
