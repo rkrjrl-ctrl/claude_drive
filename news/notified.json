@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-23T22:06+09:00",
+"updated": "2026-11-23T23:06+09:00",
 "items": [
 {
 "kind": "주목",
@@ -10112,6 +10112,53 @@
 "임금",
 "체불",
 "퇴직금"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261123_0003880063",
+"t": "2026-11-23T23:06+09:00",
+"tok": [
+"CEO",
+"결정",
+"만장일치",
+"복귀",
+"엔비디아",
+"이사회",
+"젠슨",
+"즉시"
+],
+"g": "https://www.newsis.com/view/NISX20261123_0003880063"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE14SU52V0xPbk1LSkViR0NoZ1EzeFNhVUpsT04zRGN5UE1wZkNQUThfMGZfZWR3VUtsTmRLUHlrc2R4aWF5bTB1SzJWUFRsVG9fRVJJVGo1aDhObVMxaGZkWkhPeVk?oc=5",
+"t": "2026-11-23T23:06+09:00",
+"tok": [
+"10월",
+"49",
+"58",
+"감소",
+"기준",
+"발생",
+"보이스피싱",
+"집계",
+"청와대",
+"피해액"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWRFU5SkgwRXI5UUR2d2pTUjlsMU9oZ05FbjlNQmkwWEpqLWE1RjFQS3gzS1MxYy16MGtpaUxjZDN0cEJ1STNLSHNXR3BBYnNfMjRLaW5MUlFxcV9FaUxCdERiRklvMWJwMWhCWTBSdTk?oc=5",
+"t": "2026-11-23T23:06+09:00",
+"tok": [
+"문구",
+"보이스피싱",
+"삽입",
+"생산제품에",
+"예방",
+"진천경찰서",
+"체리부로"
 ]
 }
 ]
