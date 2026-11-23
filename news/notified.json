@@ -1,33 +1,6 @@
 {
-"updated": "2026-11-24T07:06+09:00",
+"updated": "2026-11-24T08:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPVUN6Ml85RmtISTRob2EzSEgwZWwteEdwNVFOS0Y4MnNnbkNyakRxZHU1cmQ3YWFzeHZXLTdrU3JzSUFwRFNILXRZRVFFTzBfZEVMalh5TkdSQQ?oc=5",
-"t": "2026-11-16T08:06+09:00",
-"tok": [
-"과세관청",
-"분배금",
-"서학개미",
-"이의제기",
-"인정",
-"잇따르나",
-"커버드콜",
-"환급"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5FQ1M3c2gtMGpJRGJkSFlBeV8zbFpSRVVsTDJjcnoyclFmd1VqSnNCWE1YVXNUaEl5TkVvc0RnOUJ6ZHkzVW9RZFFscUExNzJCUFdiZVdsLVZVZE5OaHNiVFNBUloxNGFwZ3BXdm1RRdIBc0FVX3lxTE1QU2ZZUWZtSlRneGpGX3g2WFFsVmtYVVVnZEEtX21GWGFaOWdaRmNYZDRLck1zeE5hbE9PbmZ5WnZjTlQxRUx2X3VoTzVoNlZxbW5Wa0QyVGRBX3RPaU00ZWRDTHRZNXFEanRlOEJqT0lCaEk?oc=5",
-"t": "2026-11-16T08:06+09:00",
-"tok": [
-"4611건",
-"대전",
-"여백",
-"전세사기",
-"피해"
-]
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42T181eUFFZjh5MFdRY2Z5dW9vYkRwd3Jrd2tSNlQtVUxmMWwySG1KNjZMS3VIZlZVNEFzQnNQcGxELWMwYVQxX1lnU3hXWExyeWNfSVlWZm5vdjJ2bm4tUWVEaXdtNVBhZXNGRFN0QUUwM0VHR0pJS2JVVdIBgAFBVV95cUxPYWw0RXJaZGRWdkpPTzV5MnExbHdLSHF4VTBOdEFHM2g5WXpORjNyUkNyeXdrRzFxTjl3NVNmdlJINnFVQm5XMTd5QzB2aExxVlQ1WTFaTEZoeTkxQk40SGcwRmxyTUMteUtpTFZ5VWhUWVVxZS0tSEUxUDRRVkk1Xw?oc=5",
@@ -10653,6 +10626,21 @@
 "출발",
 "컴백"
 ]
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261124_0003880175",
+"t": "2026-11-24T08:06+09:00",
+"tok": [
+"10",
+"11",
+"SK하이닉스",
+"삼성전자",
+"증시",
+"폭등에",
+"프리마켓서"
+],
+"g": "https://www.newsis.com/view/NISX20261124_0003880175"
 }
 ]
 }
