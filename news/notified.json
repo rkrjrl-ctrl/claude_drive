@@ -1,54 +1,6 @@
 {
-"updated": "2026-11-23T14:06+09:00",
+"updated": "2026-11-23T15:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9MV2FpQWIwZkwzRkItQXJyVDRxZ1ZmQXU5U3QxNlFsRkNTQ1dkYVZiMDhlZWhxWWtFUmRJTllDQVE3LVp1SnFMT291QzJfbktSRW5Ua0NNQXhzX0F2UTlpUTd6VzIxQ2Jq?oc=5",
-"t": "2026-11-15T15:06+09:00",
-"tok": [
-"6만6000달러",
-"83",
-"968만원대",
-"BTC",
-"미만",
-"비트코인",
-"이더리움도",
-"주목",
-"폴리마켓",
-"확률"
-],
-"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9MV2FpQWIwZkwzRkItQXJyVDRxZ1ZmQXU5U3QxNlFsRkNTQ1dkYVZiMDhlZWhxWWtFUmRJTllDQVE3LVp1SnFMT291QzJfbktSRW5Ua0NNQXhzX0F2UTlpUTd6VzIxQ2Jq?oc=5"
-},
-{
-"kind": "단독",
-"link": "https://www.mt.co.kr/finance/2026/11/15/2026111310511250810",
-"t": "2026-11-15T15:06+09:00",
-"tok": [
-"금융위",
-"대체납입형",
-"받았나",
-"법해심",
-"수천억",
-"실손보험료",
-"연다"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ESmhqTk93U2ZnUEkwZU9lUWxVQTR3eHdyaEZaTkF2ZUpMcDZNZkhuS19DNHZxZWxSN1o3WTZyV1hseElCM2RmX0dkcEkyb0lkdVlraVpTZ1ZKUQ?oc=5",
-"t": "2026-11-15T15:06+09:00",
-"tok": [
-"14",
-"53",
-"DC형",
-"급락에",
-"수익률",
-"증권사",
-"증시",
-"퇴직연금",
-"휘청"
-]
-},
 {
 "kind": "주목",
 "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zMlBMY2V4N0o5dkluWDlVV2djUmkwTXJlenlpX3dadnI3aDNITjdmc1d6ZkhsOFEzSFlDZUZXYTh0QWhKVml0ckRUYlQxZjJaRDJUTTZ0NnozM1lsWmxMcHBpUlF4bHlOc2c?oc=5",
@@ -9840,6 +9792,34 @@
 "생리용품",
 "서비스",
 "시행"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBpQjQzVDJCajhmbV9hOVdFQVpleXg4OV9GU21CTmVxTVJFaWNGWW9tS0pHQ1lXOThwM0xqamF6Uk9UVjVkVXRvLWItYTBWYUIxenFTYThVOXV2OGg5eDQtT3g2NWI4S0pJNUdNTU0yYjNGZ9IBdkFVX3lxTE1FU2hMNTlJRUtUX3RXUkJRQXlGV0lzY1hVVFJBRklaNks2TksxdzJaSjR0ZXFSMUpOSzVsQkF0Y3hWaXdKM1FZR21tV3ZCZVhaQUJPRHhFTjNIWWoyNTg5cFR5N3RfbEdiVzZIaFZPenp2cDdhc1E?oc=5",
+"t": "2026-11-23T15:06+09:00",
+"tok": [
+"기초연금사업",
+"복지부장관",
+"영암군",
+"우수",
+"표창"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.chosun.com/economy/tech_it/2026/11/23/QGMK4EIGO5A4XI7MTQV2UVU4QY/",
+"t": "2026-11-23T15:06+09:00",
+"tok": [
+"45",
+"AI",
+"가격",
+"계약",
+"메모리값",
+"서버",
+"인상",
+"전가",
+"제조사"
 ]
 }
 ]
