@@ -1,21 +1,6 @@
 {
-"updated": "2026-11-23T15:06+09:00",
+"updated": "2026-11-23T16:06+09:00",
 "items": [
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zMlBMY2V4N0o5dkluWDlVV2djUmkwTXJlenlpX3dadnI3aDNITjdmc1d6ZkhsOFEzSFlDZUZXYTh0QWhKVml0ckRUYlQxZjJaRDJUTTZ0NnozM1lsWmxMcHBpUlF4bHlOc2c?oc=5",
-"t": "2026-11-15T16:06+09:00",
-"tok": [
-"건의안",
-"대체인력",
-"육아기",
-"지원",
-"채택",
-"촉구",
-"출산",
-"퇴직급여"
-]
-},
 {
 "kind": "단독",
 "link": "https://www.fnnews.com/news/202611150946525562",
@@ -9820,6 +9805,157 @@
 "인상",
 "전가",
 "제조사"
+]
+},
+{
+"kind": "gov",
+"link": "https://www.fsc.go.kr/no010101/88190",
+"t": "2026-11-23T16:06+09:00",
+"tok": [
+"1일",
+"3개월간",
+"게시글",
+"금일",
+"등록된",
+"상장기업의",
+"시행합니다",
+"자기주식",
+"취득한도",
+"확대를"
+]
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9QbFFlOGZRbURsdnVPckowaUxRUGgzQUluU3MyUlNaY2pIRkRpSl9Yak5qQVhIUmFpblF2aE9idVlPczJzOXVIeTZ1c25ndnBOVWZGc2pfYTR4SWhYWjJF?oc=5",
+"t": "2026-11-23T16:06+09:00",
+"tok": [
+"IFRS17",
+"건전성",
+"맞춰",
+"성과급",
+"손질",
+"수익",
+"연동한다",
+"현대해상"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261123_0003879571",
+"t": "2026-11-23T16:06+09:00",
+"tok": [
+"1345",
+"7원",
+"9원",
+"달러",
+"마감",
+"오른",
+"환율"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261123_0003879571"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261123_0003879546",
+"t": "2026-11-23T16:06+09:00",
+"tok": [
+"SK하닉",
+"마감",
+"삼성전자",
+"하락"
+],
+"g": "https://www.newsis.com/view/NISX20261123_0003879546"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261123_0003879540",
+"t": "2026-11-23T16:06+09:00",
+"tok": [
+"31",
+"4700선",
+"4708",
+"54",
+"내린",
+"마감",
+"코스피",
+"턱걸이"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261123_0003879571"
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261123128300008",
+"t": "2026-11-23T16:06+09:00",
+"tok": [
+"708",
+"급락했던",
+"대까지",
+"마감",
+"장중",
+"코스피",
+"하락"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261123_0003879571"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261123_0003879543",
+"t": "2026-11-23T16:06+09:00",
+"tok": [
+"10",
+"23포인트",
+"45",
+"58",
+"635",
+"내린",
+"마감",
+"코스닥"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261123_0003879571"
+},
+{
+"kind": "속보",
+"link": "https://biz.chosun.com/stock/stock_general/2026/11/23/4HQYGSEWARCFBGXEFNGDEC5J7E/",
+"t": "2026-11-23T16:06+09:00",
+"tok": [
+"31",
+"4700선",
+"겨우",
+"마감",
+"사수",
+"코스피",
+"하락"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261123_0003879571"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNNmY1ejhGT2I4VWk4M0xSdHZQbXZ3M0xZclNpbGtmX2Q4NnQxU2VhdWllQjdyWXBnUDJnYlMyNVRfVVlSa3R4OHhUY3hVU0I5akxqRzdnampSRV92NVpBNEdhT3JLMDlyNlE0?oc=5",
+"t": "2026-11-23T16:06+09:00",
+"tok": [
+"받은",
+"실손보험금",
+"앱에서",
+"찾는다"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VZ0VqSlJNQUZXN09zX1Q4TFNHN3BFZkRSRUZtR2g5Qko5RkZYYnc3QTVFVWtMdkVQMUdteUVhUVVRZXZLV0pZeHdJTnhDaWdKR1c5X0l1NnRMY0hJSlhabDFnTTR1WE0?oc=5",
+"t": "2026-11-23T16:06+09:00",
+"tok": [
+"7천만",
+"농협",
+"막아",
+"보이스피싱",
+"이천",
+"직원",
+"피해"
 ]
 }
 ]
