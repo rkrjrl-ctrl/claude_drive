@@ -1,54 +1,6 @@
 {
-"updated": "2026-11-23T09:10+09:00",
+"updated": "2026-11-23T10:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://www.mt.co.kr/tech/2026/11/15/2026111316485180813",
-"t": "2026-11-15T10:06+09:00",
-"tok": [
-"가상자산",
-"기업부설연구소",
-"도박",
-"매매",
-"인정",
-"중개업도",
-"취급받던"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRUnJ6SU5TTEhtdFBKVmFLVGdIRUVUWVZPeGJJYzJ1ei1zSkd3VERoVS02QUV5di1KOU5VV1BGQnNoWXJTaHE2TkZKYlNLS2M1ZUZSLTJVR05oUmlyeGNSZkQ2eVBTNUdr?oc=5",
-"t": "2026-11-15T10:06+09:00",
-"tok": [
-"105억",
-"공방",
-"나은",
-"득실거려",
-"심경",
-"악마들",
-"월세가",
-"이다인",
-"이승기",
-"전세사기"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE15LUtYZEM3RndGWUJNQ2RlMUVQMzBYc29qQnRHcGxxanNlZ3VaUUxXLV9EYnlpVzdDblAzVVhQQWdnWWJZaEdLSGh2ZXJSb3JXbHZUSg?oc=5",
-"t": "2026-11-15T10:06+09:00",
-"tok": [
-"가스요금",
-"공기업에",
-"기름값",
-"누른",
-"돌아온",
-"물가",
-"잡으려",
-"전기",
-"정부",
-"청구서"
-]
-},
 {
 "kind": "속보",
 "link": "https://www.yna.co.kr/view/AKR20261115018600004",
@@ -9242,6 +9194,257 @@
 ],
 "m": 1,
 "g": "https://www.newsis.com/view/NISX20261123_0003878598"
+},
+{
+"kind": "gov",
+"link": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249949&menuNo=200218&pageIndex=1",
+"t": "2026-11-23T10:06+09:00",
+"tok": [
+"단계별",
+"따른",
+"변동성",
+"시장안정조치",
+"시행",
+"주요국",
+"증시",
+"확대에"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB3OEFXQlh5TjM2Ul9XQ1o3N243cUZXd1B1c01JU0ZWOHpFaWwtSTNhRHFHZVhZLVhPX2pKbFE5UzYxcnV4a3ByajN2enl6S1Ftd0g5dDM4aTNnRUROckxud01LYmNZX2Rj?oc=5",
+"t": "2026-11-23T10:06+09:00",
+"tok": [
+"NXT서",
+"SK하이닉스",
+"고조",
+"급락",
+"긴장감",
+"블랙먼데이",
+"삼성전기",
+"삼성전자",
+"우려",
+"장전",
+"증시"
+],
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB3OEFXQlh5TjM2Ul9XQ1o3N243cUZXd1B1c01JU0ZWOHpFaWwtSTNhRHFHZVhZLVhPX2pKbFE5UzYxcnV4a3ByajN2enl6S1Ftd0g5dDM4aTNnRUROckxud01LYmNZX2Rj?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026112309012996596",
+"t": "2026-11-23T10:06+09:00",
+"tok": [
+"1조76억달러",
+"3221억달러",
+"누적",
+"무역흑자",
+"수출"
+],
+"g": "https://www.mt.co.kr/economy/2026/11/23/2026112308254016372"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026112309021615346",
+"t": "2026-11-23T10:06+09:00",
+"tok": [
+"101",
+"11월",
+"20일",
+"774억달러",
+"수출",
+"전년"
+],
+"g": "https://view.asiae.co.kr/article/2026112309021615346"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBIMUlzZDdSd1lhZWhUUzhPQTlkc004RE41LTNiNkhCNFZjaUZFR2lqTUMzSlQyai1xX0NJNWFhY2VTbWt5MElkaTY4SWkwdmViT2RKeU53dk5FSnpUdmtPbFhDdDhQMW5M?oc=5",
+"t": "2026-11-23T10:06+09:00",
+"tok": [
+"눈길",
+"동반",
+"상한가",
+"약세",
+"장초반",
+"주가",
+"주초장",
+"직행",
+"코스닥",
+"코스피",
+"큐로셀"
+],
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBIMUlzZDdSd1lhZWhUUzhPQTlkc004RE41LTNiNkhCNFZjaUZFR2lqTUMzSlQyai1xX0NJNWFhY2VTbWt5MElkaTY4SWkwdmViT2RKeU53dk5FSnpUdmtPbFhDdDhQMW5M?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.donga.com/news/Economy/article/all/20261123/135071247/1",
+"t": "2026-11-23T10:06+09:00",
+"tok": [
+"107만닉스",
+"17만전자",
+"4700선",
+"급락",
+"무너져",
+"장중",
+"코스피"
+],
+"m": 1,
+"g": "https://www.donga.com/news/Economy/article/all/20261123/135071247/1"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xSEhaR1oxYklrSmpNbmw2bFhvbzVvdDByUnJLeVRERloxN09OTmNXcE5GRGZPdU1WdWI2cEFuYlNlNGxNN2xWZjdzS2daRUNKTXk0VllKVWltWm41VkhVZm1sV045UDdP?oc=5",
+"t": "2026-11-23T10:06+09:00",
+"tok": [
+"21",
+"VI",
+"급등",
+"발동",
+"약세",
+"양대지수",
+"역주행",
+"장초반",
+"주가",
+"차례",
+"휴림로봇"
+],
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xSEhaR1oxYklrSmpNbmw2bFhvbzVvdDByUnJLeVRERloxN09OTmNXcE5GRGZPdU1WdWI2cEFuYlNlNGxNN2xWZjdzS2daRUNKTXk0VllKVWltWm41VkhVZm1sV045UDdP?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DRFgwNGdpY2dwMW1wNVRFdndQa05wdEpMT3J0VDVTcmQyU1FEbnFZVEVLQ19hNmRNQkdCbHNUNi1vR2RKSHJSMWZnTGpVVGExNjlLN0ZhMXRaY2ZsWmw2X00zN21kLTlf?oc=5",
+"t": "2026-11-23T10:06+09:00",
+"tok": [
+"4700도",
+"낙폭",
+"만회",
+"위험했다",
+"일부",
+"초반엔",
+"코스피"
+],
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DRFgwNGdpY2dwMW1wNVRFdndQa05wdEpMT3J0VDVTcmQyU1FEbnFZVEVLQ19hNmRNQkdCbHNUNi1vR2RKSHJSMWZnTGpVVGExNjlLN0ZhMXRaY2ZsWmw2X00zN21kLTlf?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.mt.co.kr/stock/2026/11/23/2026112309432050472",
+"t": "2026-11-23T10:06+09:00",
+"tok": [
+"4700선",
+"밑돌아",
+"장중",
+"코스피"
+],
+"m": 1,
+"g": "https://www.donga.com/news/Economy/article/all/20261123/135071247/1"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1leVZ0bnM2bWxZU1hUWG9YVC01ckhhM1hqY1o4N2JDQjduaHJIZ0Y4RzctVEtQQW9qc1lEbW5QWW14UXNXT3FPd1ZRdnE0RjZKRFBWWEJOOVR4OEk3emVUSGJ6Zi1mOHM?oc=5",
+"t": "2026-11-23T10:06+09:00",
+"tok": [
+"110만원선",
+"나란히",
+"닉스",
+"밑으로",
+"삼전",
+"약세",
+"장중",
+"장초반",
+"하이닉스"
+],
+"g": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1leVZ0bnM2bWxZU1hUWG9YVC01ckhhM1hqY1o4N2JDQjduaHJIZ0Y4RzctVEtQQW9qc1lEbW5QWW14UXNXT3FPd1ZRdnE0RjZKRFBWWEJOOVR4OEk3emVUSGJ6Zi1mOHM?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026112309514538350",
+"t": "2026-11-23T10:06+09:00",
+"tok": [
+"4700대",
+"무너져",
+"코스피",
+"하락"
+],
+"m": 1,
+"g": "https://www.donga.com/news/Economy/article/all/20261123/135071247/1"
+},
+{
+"kind": "속보",
+"link": "https://www.nocutnews.co.kr/news/6610745",
+"t": "2026-11-23T10:06+09:00",
+"tok": [
+"4700대로",
+"내려앉아",
+"코스닥",
+"코스피"
+],
+"m": 1,
+"g": "https://www.donga.com/news/Economy/article/all/20261123/135071247/1"
+},
+{
+"kind": "속보",
+"link": "https://www.mt.co.kr/politics/2026/11/23/2026112310044137293",
+"t": "2026-11-23T10:06+09:00",
+"tok": [
+"10월",
+"49",
+"감소",
+"건수",
+"기준",
+"동기비",
+"발생",
+"보이스피싱",
+"전년"
+],
+"g": "https://www.mt.co.kr/politics/2026/11/23/2026112310044137293"
+},
+{
+"kind": "주목",
+"link": "https://www.yna.co.kr/view/AKR20261123045100002",
+"t": "2026-11-23T10:06+09:00",
+"tok": [
+"4대암",
+"가능한",
+"가입",
+"동양생명",
+"암보험",
+"이력자도",
+"출시",
+"치료"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE53VEhFWUpveDJzbDhDWFZzMFJva1c2Zmk1OV96bzFucDBJajg4WGR3cVdpTEZWb09vdDYxM2Y1TTctaFdiQzNXUUN0RkJzTVY4aVhlMGozMTI4a2lqY3VrM1RGYzg?oc=5",
+"t": "2026-11-23T10:06+09:00",
+"tok": [
+"ETF",
+"계좌",
+"급락에도",
+"반도체",
+"순매수",
+"이어져",
+"주가",
+"퇴직연금"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aUXhlSDNnZTk2MXFmR2pwWHNDaG9Ybk91Y2E4bnhkM2R3MWdNemFZNFptTndEbDdMX2NoNlI1eHBneG95eHN5THo2SjU3UlY2RGs1cGVIN1dCUkR1SC1xWE5oUWFRWDA?oc=5",
+"t": "2026-11-23T10:06+09:00",
+"tok": [
+"15",
+"2027년",
+"28개주",
+"42",
+"발리",
+"발표",
+"인니",
+"인상",
+"자카르타",
+"최고",
+"최저임금"
+]
 }
 ]
 }
