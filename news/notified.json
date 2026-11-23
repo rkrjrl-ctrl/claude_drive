@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-23T10:06+09:00",
+"updated": "2026-11-23T10:16+09:00",
 "items": [
 {
 "kind": "속보",
@@ -9444,6 +9444,109 @@
 "자카르타",
 "최고",
 "최저임금"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.hankyung.com/article/2026112332227",
+"t": "2026-11-23T10:16+09:00",
+"tok": [
+"101",
+"11월",
+"20일",
+"774억달러",
+"95",
+"수출",
+"일평균",
+"증가"
+],
+"g": "https://www.fnnews.com/news/202611230837302434"
+},
+{
+"kind": "속보",
+"link": "https://www.mt.co.kr/politics/2026/11/23/2026112310075337414",
+"t": "2026-11-23T10:16+09:00",
+"tok": [
+"간담회서",
+"경제부총리",
+"미국",
+"불안정",
+"설명할",
+"연동",
+"증시",
+"증시와",
+"증안펀드",
+"측면"
+],
+"g": "https://www.mt.co.kr/politics/2026/11/23/2026112310075337414"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhbkNpb0Z6VmhNaDh2ZWNnMUJ6eFZHd3Y5eExJVzZZYUV5WllENTByQnNqVVZ6TXgtZ3ZNNlR1STV0RlM1UWxjZElZZTFyRFB0MWd2Y2hZRVdYR3NrRndTX2lKdTI2ZWly?oc=5",
+"t": "2026-11-23T10:16+09:00",
+"tok": [
+"11",
+"VI",
+"급등",
+"눈길",
+"동반",
+"발동",
+"주가",
+"코스닥",
+"코스피",
+"코오롱티슈진",
+"하락"
+],
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBIMUlzZDdSd1lhZWhUUzhPQTlkc004RE41LTNiNkhCNFZjaUZFR2lqTUMzSlQyai1xX0NJNWFhY2VTbWt5MElkaTY4SWkwdmViT2RKeU53dk5FSnpUdmtPbFhDdDhQMW5M?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261123054700008",
+"t": "2026-11-23T10:16+09:00",
+"tok": [
+"깨져",
+"대로",
+"연저점",
+"장중",
+"커진",
+"코스닥",
+"하락폭"
+],
+"m": 1,
+"g": "https://www.yna.co.kr/view/AKR20261123054700008"
+},
+{
+"kind": "속보",
+"link": "https://www.mt.co.kr/politics/2026/11/23/2026112310091249017",
+"t": "2026-11-23T10:16+09:00",
+"tok": [
+"국회에서",
+"논의할",
+"대법원장",
+"문제",
+"사안",
+"어려워",
+"언급은",
+"이상의",
+"조희대",
+"탄핵"
+],
+"g": "https://www.mt.co.kr/politics/2026/11/23/2026112310091249017"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ieFlGOGNBOV9SdktKRzJpaUxrMXZsR0kxY2NEQkx4YUExcVowSTJ4XzB6cWdLT0lqczV6Z2E1U1YxanZlRUxRc0hMSlpJbTlYY2d6aU1Id05sRkVxMVJjX2dnUkNua1U?oc=5",
+"t": "2026-11-23T10:16+09:00",
+"tok": [
+"5만원",
+"끝내겠다",
+"리트",
+"만점자",
+"보험사기",
+"의혹",
+"이진우",
+"제기",
+"주면"
 ]
 }
 ]
