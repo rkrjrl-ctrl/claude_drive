@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T09:06+09:00",
+"updated": "2026-11-24T10:00+09:00",
 "items": [
 {
 "kind": "gov",
@@ -10647,6 +10647,360 @@
 ],
 "m": 1,
 "g": "https://www.newsis.com/view/NISX20261124_0003880330"
+},
+{
+"kind": "gov",
+"link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790466",
+"t": "2026-11-24T10:00+09:00",
+"tok": [
+"국립자연휴양림",
+"맞아",
+"봉사자에",
+"이용료",
+"자원봉사",
+"주간",
+"할인"
+]
+},
+{
+"kind": "gov",
+"link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790460",
+"t": "2026-11-24T10:00+09:00",
+"tok": [
+"1조",
+"달러",
+"수출",
+"시대",
+"열었다",
+"중견기업과",
+"중소",
+"함께"
+]
+},
+{
+"kind": "단독",
+"link": "https://view.asiae.co.kr/article/2026112408492883586",
+"t": "2026-11-24T10:00+09:00",
+"tok": [
+"베트남에",
+"수출된다",
+"자주포",
+"추가"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.fnnews.com/news/202611240859231947",
+"t": "2026-11-24T10:00+09:00",
+"tok": [
+"131명",
+"단행",
+"부사장급",
+"삼성전자",
+"승진",
+"이하",
+"임원인사"
+],
+"g": "https://www.fnnews.com/news/202611240859231947"
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261124036700008",
+"t": "2026-11-24T10:00+09:00",
+"tok": [
+"11",
+"SK하이닉스",
+"급등",
+"삼성전자",
+"출발"
+],
+"g": "https://www.newsis.com/view/NISX20261124_0003880175"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026112409035744178",
+"t": "2026-11-24T10:00+09:00",
+"tok": [
+"5000포인트",
+"급등해",
+"코스피",
+"탈환"
+],
+"m": 1,
+"g": "https://view.asiae.co.kr/article/2026112409035744178"
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261124037100008",
+"t": "2026-11-24T10:00+09:00",
+"tok": [
+"5천피",
+"급등에",
+"장중",
+"코스피",
+"회복"
+],
+"m": 1,
+"g": "https://view.asiae.co.kr/article/2026112409035744178"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261124_0003880353",
+"t": "2026-11-24T10:00+09:00",
+"tok": [
+"SK하이닉스",
+"삼성전자",
+"증시",
+"초반",
+"폭등에"
+],
+"g": "https://www.newsis.com/view/NISX20261124_0003880175"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YX1dIcmFSeUlJQ1N5T0FzMk9BMl9teUtaQ0FXenp2Zlk4WlFBYW40Q3kxbEZvcktid1lEMllkYkNQektYcFl2SFdjYzdnTk11SUZlYU41cWc?oc=5",
+"t": "2026-11-24T10:00+09:00",
+"tok": [
+"11",
+"5천피",
+"SK하이닉스",
+"급등",
+"삼성전자",
+"장중",
+"출발",
+"코스피도",
+"회복"
+],
+"m": 1,
+"g": "https://view.asiae.co.kr/article/2026112409035744178"
+},
+{
+"kind": "속보",
+"link": "https://www.khan.co.kr/article/202611240908001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+"t": "2026-11-24T10:00+09:00",
+"tok": [
+"5000선",
+"급등",
+"도달",
+"복귀",
+"장중",
+"젠슨",
+"출발",
+"코스피",
+"효과"
+],
+"m": 1,
+"g": "https://view.asiae.co.kr/article/2026112409035744178"
+},
+{
+"kind": "단독",
+"link": "https://www.chosun.com/economy/realty/realestate_news/2026/11/24/MEZTGYRTMIZWMNRVMQZDQYLEME/",
+"t": "2026-11-24T10:00+09:00",
+"tok": [
+"67억",
+"걸어서",
+"국평",
+"금지",
+"배달",
+"배달하라",
+"아파트",
+"아파트서",
+"오토바이",
+"음식",
+"청담동",
+"출입"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.mt.co.kr/stock/2026/11/24/2026112409235721751",
+"t": "2026-11-24T10:00+09:00",
+"tok": [
+"22번째",
+"매수",
+"발동",
+"사이드카",
+"코스닥"
+],
+"g": "https://www.mt.co.kr/stock/2026/11/24/2026112409235721751"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUc0RYTDMzRFFZQzB6TzFHYzhVWTE3MTFhQ3NUWkpKUC1ybktIRTMxSUI5Q1ZCOER4NkZ4R2MxREE3SmtwemVmN3RxVEVUazlidTl0Z3h5UXgwdmtXUll0NmJ2VTRrS1BHSl94VEpBM2tTME0tNlHSAXtBVV95cUxON3pKN3FMeUpaSXpKME1kdkkxc25lN2wySTN2R3RuN0xiUnh3QlBxMkhHM3IxUWZJbE55SGZkMVlQcmVVX20zU052cW93ME9IMjBzLWM3TUNtWWV5VHVoakFXWUtfakRiQllTdWxvd0lVQ05SNlpQWjl5TnM?oc=5",
+"t": "2026-11-24T10:00+09:00",
+"tok": [
+"22번째",
+"매수",
+"발동",
+"사이드카",
+"코스닥"
+],
+"g": "https://www.mt.co.kr/stock/2026/11/24/2026112409235721751"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE53djhUc1ZOZXJqNnNjck1qa25RVXczODBPSHlSX0NDSkcxVHZDblByM1pxQW9PNFEwbElxem53QUlZdFc3LU5HbUZWZGtrUHlqM1VuNERPYUZCV0E?oc=5",
+"t": "2026-11-24T10:00+09:00",
+"tok": [
+"급등",
+"매수",
+"발동",
+"사이드카",
+"지수",
+"코스닥"
+],
+"m": 1,
+"g": "https://view.asiae.co.kr/article/2026112409035744178"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1LU1h5eUk1ZFY2WXRBTFNpRlFoQjJCVFQybG9FQm8tNDI0ZmZKRnUwM0Q3Y1BMcWFLTmkzbzJ1Qm9GQXdES1hxbkpBeWFndkZET3hmSmdKZno4ME1vSUFVVVhQTFlGOVh0ZEE?oc=5",
+"t": "2026-11-24T10:00+09:00",
+"tok": [
+"91",
+"급등",
+"매수",
+"발동",
+"사이드카",
+"코스닥"
+],
+"m": 1,
+"g": "https://view.asiae.co.kr/article/2026112409035744178"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9qRkFrcUtKcExPRTV4MlVYZTI2cXE4R0JaR0d6SnExVV80UmxPLWowUWlaNlNuelZ6Z1JpdElMSUp6Z3BvNjVmU3BJSEwwaHNjaGhNaTE3R1lMdTJJZnlRQnAtNkFFZEoxRjhnY0FR?oc=5",
+"t": "2026-11-24T10:00+09:00",
+"tok": [
+"급등",
+"매수",
+"발동",
+"사이드카",
+"코스닥"
+],
+"m": 1,
+"g": "https://view.asiae.co.kr/article/2026112409035744178"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA5VkZ1YzJlOV9jWGFhektvZkdlWXA2VTZQUTVLVlIyZXNWb3hhUEhfemFUUkF1OVgwQVhkSW5SWHJEMTUwcGdlanJKRjZiLVF6Nm9lZThyaXowUnh2MTdv0gFTQVVfeXFMTWRnVVlXU2ZDZVBoakd3UV9PRWdESTBZZTNrMlk1QkJYZXRCSUxwQ2hqd1VJcWhJR05iX2tRZnVuX3FvbTBkNEJpSS12d3ZndGwzMU0?oc=5",
+"t": "2026-11-24T10:00+09:00",
+"tok": [
+"급등",
+"매수",
+"사이드카",
+"이어",
+"코스닥도",
+"코스피"
+],
+"m": 1,
+"g": "https://view.asiae.co.kr/article/2026112409035744178"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9OWjlyVVNKTmp4bDdGTzZFUUFwcXFmemc1Zl9lZldjZ1RuV3Qxc181T19SdmJBMTFYc1VtUkVnVlAyMTRLcEhLOG84d0Z1VEhISEZfSHpmdnFKdw?oc=5",
+"t": "2026-11-24T10:00+09:00",
+"tok": [
+"급등에",
+"매수",
+"발동",
+"사이드카",
+"이어",
+"코스닥",
+"코스피에"
+],
+"m": 1,
+"g": "https://view.asiae.co.kr/article/2026112409035744178"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE82ME5vampYdzlfYTY2UDlaWDJwamEtaTFsREtHMGQ1dHdQd0lGblhRZldUd0hNMmhpMDFHMVo2bHUzWEtYOGFvYXFfUQ?oc=5",
+"t": "2026-11-24T10:00+09:00",
+"tok": [
+"급등",
+"매수",
+"발동",
+"사이드카",
+"코스닥"
+],
+"m": 1,
+"g": "https://view.asiae.co.kr/article/2026112409035744178"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ndEFGLWpCS3NicEZxWDNvMnYtY2xvTHgxZ1A1RTI5ZzFqNnRkQ09BVFVtc1VhQ1VfMVJ3T2FWejlYNmZ0SmU3V2pRS3Nuc1BFcXFHMjcxYlEtWmUzaHJYNDRmZTMwZXdmakpxSW1rYw?oc=5",
+"t": "2026-11-24T10:00+09:00",
+"tok": [
+"IRP",
+"그대로",
+"라이프핏",
+"보유",
+"분할연금",
+"상품",
+"수령",
+"연금",
+"출시",
+"한화생명"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.newsis.com/view/NISX20261124_0003880351",
+"t": "2026-11-24T10:00+09:00",
+"tok": [
+"89",
+"정기예금",
+"최고",
+"출시",
+"케이뱅크",
+"퇴직연금",
+"확정급여형"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.newsis.com/view/NISX20261124_0003880478",
+"t": "2026-11-24T10:00+09:00",
+"tok": [
+"KB국민은행",
+"기업형",
+"부담",
+"수수료",
+"영세",
+"완화",
+"인하",
+"중소기업",
+"퇴직연금"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.insweek.co.kr/news/articleView.html?idxno=73104",
+"t": "2026-11-24T10:00+09:00",
+"tok": [
+"IRP상품",
+"매도없이",
+"분할연금",
+"연금받는",
+"출시",
+"한화생명"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9XS1NVVnZjaWZldHY1elEzTUJ3MFhmVG5fUnMzQW9XUThERjJWUEtPWmlJNlVyTWp5OVdHQlhtaDRUeGRsb3Q0SmE0Y1NxUmc2c3VNNEd2TS1pRUllVktuOFFB?oc=5",
+"t": "2026-11-24T10:00+09:00",
+"tok": [
+"급등",
+"매수",
+"발동",
+"복귀",
+"사이드카",
+"양시장",
+"젠슨황",
+"코스닥",
+"코스피"
+]
 }
 ]
 }
