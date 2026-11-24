@@ -1,34 +1,6 @@
 {
-"updated": "2026-11-24T20:05+09:00",
+"updated": "2026-11-24T21:06+09:00",
 "items": [
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1wenJIb2RCLWdyUUNCMUx1Nk1lN3JOOXlDbGM5eXZrRGhVUTAwMXRrY1poa0Z0RzhBMFlyN3owbmtNa1d3RWJOUzFhTDRzRVh3RkV4TWxTTlFJQjRYdEZXYVdIeDVRY0M4VHdkVUZB?oc=5",
-"t": "2026-11-16T21:06+09:00",
-"tok": [
-"GA",
-"금감원",
-"등록취소",
-"사전",
-"통지",
-"한국보험금융에"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1kbG9hS1NELXY3NzZDLWNTMExRbG9VNlJCUjMxQUM2dHdsa3lIYk9Bckw1S1FvUlV6RV9Wc1hFcUtIdkhSRzhDTlR4Zw?oc=5",
-"t": "2026-11-16T21:06+09:00",
-"tok": [
-"732억",
-"금감원",
-"금융",
-"등록취소",
-"리베이트",
-"통지",
-"한국보험금융",
-"혐의"
-]
-},
 {
 "kind": "단독",
 "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15TDZYOHN0Nkp4Qk8tVEFkOHUzQWJrbWZVSDlXa04tamkzZFpXUUJEN0xsZ1RaMFczYS1iWVgzM3BRWVdLQnV2OGtrRE5zTlJnbzB2RzFUT2g3OGdv?oc=5",
@@ -10842,6 +10814,24 @@
 "자격",
 "전력자",
 "진입"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.khan.co.kr/article/202611242038035/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
+"t": "2026-11-24T21:06+09:00",
+"tok": [
+"8개월",
+"기대도",
+"꺾여",
+"만에",
+"상승",
+"소비심리",
+"연속",
+"위축",
+"주가",
+"집값",
+"하락에"
 ]
 }
 ]
