@@ -1,41 +1,6 @@
 {
-"updated": "2026-11-25T07:06+09:00",
+"updated": "2026-11-25T08:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://www.mt.co.kr/thebio/2026/11/17/2026111707070919065",
-"t": "2026-11-17T08:06+09:00",
-"tok": [
-"1차지표",
-"단독투여군",
-"먹는",
-"아리바이오",
-"임상3상서",
-"충족",
-"치매약"
-],
-"g": "https://biz.chosun.com/science-chosun/bio/2026/11/17/ZTCAEWWBWVGF7KGM2ATNWGT2QY/"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52WU5WYlVOTGVoQnk1c1R0VFgwV29XNzZ5QkhFOENpMFp1aEJ2MkhJdk5MNkZEQ3RjTlpRaG11WGQyYm1OX1BiSTduLXIxNjZXbUFNNGVrbDBZbUZUMVJfRHNXYl96cmpB?oc=5",
-"t": "2026-11-17T08:06+09:00",
-"tok": [
-"3대",
-"5만2000선",
-"626포인트",
-"급락",
-"나스닥",
-"뉴욕증시",
-"다우",
-"붕괴",
-"일제히",
-"지수",
-"폭락"
-],
-"m": 1,
-"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52WU5WYlVOTGVoQnk1c1R0VFgwV29XNzZ5QkhFOENpMFp1aEJ2MkhJdk5MNkZEQ3RjTlpRaG11WGQyYm1OX1BiSTduLXIxNjZXbUFNNGVrbDBZbUZUMVJfRHNXYl96cmpB?oc=5"
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hNndxMmVxcXlIbkMtRWZTVHNZSkF0NzNfT2R0UXNtX1VKVTRrZ1RYZllLMGNoX25jM2dCOHhBZWhJX3c4TW13VWpYZjJ4YU13LUx1WW9pcmHSAVhBVV95cUxPYTZ3cTJlcXF5SG5DLUVmU1RzWUpBdDczX09kdFFzbV9VSlU0a2dUWGZZSzBjaF9uYzNnQjh4QWVoSV93OE1td1VqWGYyeGFNdy1MdVlvaXJh?oc=5",
@@ -10866,6 +10831,32 @@
 "연결에",
 "차세대",
 "투자"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261125_0003881942",
+"t": "2026-11-25T08:06+09:00",
+"tok": [
+"SK하닉",
+"급락에",
+"반도체주",
+"삼전",
+"프리마켓"
+],
+"g": "https://www.newsis.com/view/NISX20261125_0003881942"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE50SzJKSDRUcnlGZm9KN2RPRWVmV0pDNFUyNlR4UWhKV1RVYWczQnVwV3d1T3hhWHRQVEszdnUxNDhvM2FFZjAzM1pWT1FJWkVOV1hMOGZXWXEtdldKdHJIZXlTdmhLTVBSTnJGTE1R?oc=5",
+"t": "2026-11-25T08:06+09:00",
+"tok": [
+"5만",
+"급락",
+"넘었는데",
+"뉴욕증시",
+"다우",
+"반도체는"
 ]
 }
 ]
