@@ -1,124 +1,6 @@
 {
-"updated": "2026-11-24T18:06+09:00",
+"updated": "2026-11-24T19:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41U2FMUFk4bkg5OXZBSWRxeE1YSkpuUVlST1pZZVk2MUtPOTJuMTY1cUEzOUI2OGJwUFNjY3pvZmxmLW1ZaVVIX2hyM1BQTlBFMkpmUTM3TGRBdw?oc=5",
-"t": "2026-11-16T18:16+09:00",
-"tok": [
-"ETF",
-"결정",
-"과세",
-"분배금",
-"잘못됐다",
-"커버드콜",
-"환급"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBnek8wN3BGNXotdWpRcXV5WnJjeEdNRzZhdVhxb3V2N2M2TXA4X3g5Z09yQm11Zmh6dV80LUJBX3ZvZFgxR1BLSzh2Q3dpUEh1SV9INThhX2M?oc=5",
-"t": "2026-11-16T18:16+09:00",
-"tok": [
-"1조",
-"3800억",
-"5100선",
-"59",
-"급락해",
-"순매도",
-"외국인",
-"코스피",
-"턱걸이"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zQ2E5dHItcjMzVlE4Y0pNTzVxSklkM296eXZRVW80MDRSX29FaE5DR0xXSDlhZ1B5UWxzWVJjdlFjNWFHc2JLWko5MHdGOTlZajlwemxNRzhfYkRUbzVYcFRIRDNnMmZKY0Ffb0lR?oc=5",
-"t": "2026-11-16T18:16+09:00",
-"tok": [
-"59",
-"SK하이닉스도",
-"급락",
-"마감",
-"삼성전자",
-"약세",
-"코스피",
-"포토뉴스"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1TN0xrdWlsUG9Fa0NJdW01b2NscUtLZVJ1MV9lNllwakdYV0Z3NEZKLVhtRkMyY2xKMThaSE5YN3Q5WGNhZjVIaFk0SC1HQ3QxRDVxM1dqWFFJOU5hVHVfVmRyYWR1eVd0ZjVESlZ5UQ?oc=5",
-"t": "2026-11-16T18:16+09:00",
-"tok": [
-"190포인트",
-"5100선",
-"86",
-"급락",
-"코스닥도",
-"코스피",
-"턱걸이",
-"폭락해"
-]
-},
-{
-"kind": "단독",
-"link": "https://www.sedaily.com/article/20115055",
-"t": "2026-11-16T19:06+09:00",
-"tok": [
-"2조",
-"소방재정",
-"지방미래지원금서",
-"충당"
-]
-},
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5pb29LYV9sR2NrVEZPQnZZWFlBSkxhWmhxMzZ5V3YxZDA2RGlWMHY4bjhXUFhLTUxyT2JWeV92YV9jNGRsM2hpeDVDQnpud2xCWlE?oc=5",
-"t": "2026-11-16T19:06+09:00",
-"tok": [
-"0원",
-"3년",
-"고용주",
-"외노자",
-"울상",
-"이자",
-"일해도",
-"짠물",
-"출국보험에"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1OOTJKRUFhenFKUHZqN01hU0hVTWhrRVNfVzFSTmZyYjNvcEkwNl94Y3JkNjhkMFJ6WlFOanF2Ylh1Sm9EM1FwUlotbE56c0t3YkhzX0tpOXRJYVI3dWxoaw?oc=5",
-"t": "2026-11-16T19:06+09:00",
-"tok": [
-"DB손보",
-"가능한",
-"가입",
-"미니암보험",
-"보장",
-"선봬",
-"중복",
-"치료비",
-"확대"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBhMFhzYW9Jd0l2NldKNms4OWRxNGNoNHFfdER2R1NGdmFld2ZVTTZnc19tVzcwdW9nLXh2bVgtNUFZd3NvdmltUC1hQUUwbHRYbnpmOTQ0dEZZZDZQN1V1QnVLcDctNUhYMFVyNHdIZ9IBb0FVX3lxTFBhMFhzYW9Jd0l2NldKNms4OWRxNGNoNHFfdER2R1NGdmFld2ZVTTZnc19tVzcwdW9nLXh2bVgtNUFZd3NvdmltUC1hQUUwbHRYbnpmOTQ0dEZZZDZQN1V1QnVLcDctNUhYMFVyNHdIZw?oc=5",
-"t": "2026-11-16T19:06+09:00",
-"tok": [
-"DB손보",
-"강화한",
-"미니",
-"보장",
-"암보험",
-"인터넷가입전용",
-"출시",
-"치료비"
-]
-},
 {
 "kind": "주목",
 "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1wenJIb2RCLWdyUUNCMUx1Nk1lN3JOOXlDbGM5eXZrRGhVUTAwMXRrY1poa0Z0RzhBMFlyN3owbmtNa1d3RWJOUzFhTDRzRVh3RkV4TWxTTlFJQjRYdEZXYVdIeDVRY0M4VHdkVUZB?oc=5",
@@ -10894,6 +10776,21 @@
 "전력자",
 "제재는",
 "진입"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XVmJlQUZvS2d6ekJ5YU9QTEw1emgwcTNDUEpIQk1PdXVvb1VjdnUtYm52Tk9pb1RhTHNRN3dEbXR5Vm14Tm5wV3pQWXMyQXV5bEE3eEVpSGFyTTBlTUE?oc=5",
+"t": "2026-11-24T19:06+09:00",
+"tok": [
+"1만659명",
+"기초연금사업",
+"노후소득",
+"선정",
+"연천군",
+"우수",
+"지원",
+"지자체"
 ]
 }
 ]
