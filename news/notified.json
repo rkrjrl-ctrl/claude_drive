@@ -1,24 +1,6 @@
 {
-"updated": "2026-11-25T05:06+09:00",
+"updated": "2026-11-25T06:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611170600166518",
-"t": "2026-11-17T06:06+09:00",
-"tok": [
-"17",
-"ETF",
-"급락",
-"뉴욕증시",
-"반도체",
-"속슬",
-"약세에",
-"엔비디아",
-"폭락"
-],
-"m": 1,
-"g": "https://www.fnnews.com/news/202611170600166518"
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrdWFuVUMzUUI2ZUxlZVdBQ2tTeDY0TmFqM2VFbzVFbk5kcVFMdHluQm1Db2J0STBNWjJ4c3d2R2RwU1VnRVk2Z0tRc2Q3Qm5acC0xcA?oc=5",
@@ -10744,6 +10726,32 @@
 "인력난",
 "전역",
 "활용"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9QVl9PRlIwLUpOSTliREtmVFFONjVEZVhkbmVSa1d0dnRDNVg3S2RJeGY1bFBQUnZnamF4RURtQ0d2bzlldDNBRDVYOC1oOG9OYkYzVllfQzVtVm45TG9BUWR3Vk9QbGJOMDVmRENn?oc=5",
+"t": "2026-11-25T06:06+09:00",
+"tok": [
+"WTI",
+"국제유가",
+"긴장에",
+"상승",
+"호르무즈"
+],
+"g": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9QVl9PRlIwLUpOSTliREtmVFFONjVEZVhkbmVSa1d0dnRDNVg3S2RJeGY1bFBQUnZnamF4RURtQ0d2bzlldDNBRDVYOC1oOG9OYkYzVllfQzVtVm45TG9BUWR3Vk9QbGJOMDVmRENn?oc=5"
+},
+{
+"kind": "주목",
+"link": "https://www.newsis.com/view/NISX20261124_0003881661",
+"t": "2026-11-25T06:06+09:00",
+"tok": [
+"12",
+"공휴일은",
+"국민주권의",
+"기념일",
+"아니다",
+"지정"
 ]
 }
 ]
