@@ -1,70 +1,6 @@
 {
-"updated": "2026-11-24T21:06+09:00",
+"updated": "2026-11-24T22:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15TDZYOHN0Nkp4Qk8tVEFkOHUzQWJrbWZVSDlXa04tamkzZFpXUUJEN0xsZ1RaMFczYS1iWVgzM3BRWVdLQnV2OGtrRE5zTlJnbzB2RzFUT2g3OGdv?oc=5",
-"t": "2026-11-16T22:06+09:00",
-"tok": [
-"18",
-"210만원은",
-"보상금",
-"비서관",
-"생계",
-"이용철",
-"지원금",
-"청구한"
-]
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9QSmFMQ0NrOTRNb0JkMWxDbVhheEJ5VXMyWXRDckxfNDVJRG82QWtwd29EUnl4Rl82N1ZwMk8zUWhUZk9SN09oaS1zUU5mbUZmRnVWUk1rNDZqWTdTYjF2eWEzaWZiZnlP?oc=5",
-"t": "2026-11-16T22:06+09:00",
-"tok": [
-"83",
-"급락",
-"복귀",
-"서명",
-"엔비디아",
-"젠슨",
-"프리마켓"
-],
-"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9QSmFMQ0NrOTRNb0JkMWxDbVhheEJ5VXMyWXRDckxfNDVJRG82QWtwd29EUnl4Rl82N1ZwMk8zUWhUZk9SN09oaS1zUU5mbUZmRnVWUk1rNDZqWTdTYjF2eWEzaWZiZnlP?oc=5"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wNHJrVzRrNFA3UEJkR2liLUlscFFwTlZZWkZJN05EZHc5eFNYbk1UN3gydldCR0lZdXJpUmFhYUdwdHBhSmpEd25fQ1NEeVBRVUpmZFVJbUlEX0NNVkZnREFDY3ZrY3RW?oc=5",
-"t": "2026-11-16T22:06+09:00",
-"tok": [
-"10만원선",
-"9만6800원까지",
-"SOL",
-"가격은",
-"금융",
-"무너졌다",
-"솔라나",
-"스테이블코인",
-"역주행",
-"하락",
-"혁신론"
-],
-"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wNHJrVzRrNFA3UEJkR2liLUlscFFwTlZZWkZJN05EZHc5eFNYbk1UN3gydldCR0lZdXJpUmFhYUdwdHBhSmpEd25fQ1NEeVBRVUpmZFVJbUlEX0NNVkZnREFDY3ZrY3RW?oc=5"
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pNXBZZS1EOG40VzBlVmRtR2dBWFR2WGpnYjNvVnlXSDA5UE5KNEtmUjJlT20wWW5KZmNyNGNlTXAtd0dsTDlIZlVZZFhoNGRSY1czQWlvemRRZXZZU3V4eVltaWxnYWE0a3VISQ?oc=5",
-"t": "2026-11-16T22:06+09:00",
-"tok": [
-"3분의",
-"국토부",
-"보증금",
-"시행",
-"전세사기",
-"지원",
-"최소보장제",
-"회복"
-]
-},
 {
 "kind": "주목",
 "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9mMmM2TWQwcXV4c1A2dkQ4cTFSRS1OUXpOZElpVTVUbnY1RnFGd3d4TXBHTXJLWnViNnpaNGFDX1pteVY0U0k4VE5FT2J0RGVyTUhtUm9ITEtYX080ZW5yMGw0SHk2LXZvbXplMy13?oc=5",
@@ -10832,6 +10768,21 @@
 "주가",
 "집값",
 "하락에"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008861646&plink=RSSLINK&cooper=RSSREADER",
+"t": "2026-11-24T22:06+09:00",
+"tok": [
+"17만",
+"1이",
+"4분의",
+"가구",
+"동거",
+"비혼",
+"월세살이",
+"전체"
 ]
 }
 ]
