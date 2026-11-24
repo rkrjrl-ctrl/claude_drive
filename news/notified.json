@@ -1,64 +1,6 @@
 {
-"updated": "2026-11-24T23:06+09:00",
+"updated": "2026-11-25T00:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1GQU92MzBBSVRFOVdFNzZLVFYtT3RJXzVHSmZhcjB4ZTBHQlloQkRfVkVraTFwWGNPMVNjcmE0UU5WVHMxSnJJbDcwbktuaERwbWlrTmxSUGlJX2VNM0oyM2JObi1YWXJYd0o1bHVB?oc=5",
-"t": "2026-11-17T00:06+09:00",
-"tok": [
-"IPO",
-"기술주",
-"뉴욕증시",
-"매도세",
-"발표",
-"실적",
-"앞두고",
-"앤스로픽",
-"엔비디아",
-"일제",
-"하락"
-],
-"g": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1GQU92MzBBSVRFOVdFNzZLVFYtT3RJXzVHSmZhcjB4ZTBHQlloQkRfVkVraTFwWGNPMVNjcmE0UU5WVHMxSnJJbDcwbktuaERwbWlrTmxSUGlJX2VNM0oyM2JObi1YWXJYd0o1bHVB?oc=5"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261116_0003870596",
-"t": "2026-11-17T00:06+09:00",
-"tok": [
-"13",
-"기술주",
-"나스닥",
-"뉴욕증시",
-"약세에",
-"엔비디아",
-"출발",
-"하락"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261116_0003870596"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtOXpqb3VROGpRUmx6NUZEWTNBUzgzVWFYU0dvZWRiOXpFbk85Z2VuNkFoSjZ6eFNCX0lYTTZoVnN4SGZxMV9lVHIzNnlUVndZTEhrcVVjYzZzdnl2cE0wNWlWNkUxVTBf?oc=5",
-"t": "2026-11-17T00:06+09:00",
-"tok": [
-"42",
-"P500",
-"급락",
-"기술주",
-"나스닥",
-"다우",
-"동반",
-"미국증시",
-"실적",
-"압박",
-"앞두고",
-"엔비디아",
-"하락"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261116_0003870596"
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKY3g1VEFOcXlXUnNJR1JiX2RNODNNOWFiVDc3Um1qem1LQU1TUnp1bGQwNmZBd01tcnJ4TGtzQjYxMVRiNnhhXy1TMVVsSEpZdzBmSldDcENyLW02QTJLcncyeGw1Y29G?oc=5",
@@ -10830,6 +10772,44 @@
 "요금제",
 "출시",
 "휴대폰"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261124_0003881837",
+"t": "2026-11-25T00:06+09:00",
+"tok": [
+"3대",
+"80",
+"나스닥",
+"뉴욕증시",
+"복귀",
+"약발",
+"젠슨황",
+"지수",
+"초반",
+"출발",
+"하락세",
+"하루"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261124_0003881837"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBvN3psNlFqUnJLSmZqQTBKUEo5dU1YOVBCS04ydVhoUG1iWXNNMFpnUF9wTHdKY2kwMER4Qm5La3FWRGR4NHhjd3dXX1gyVHhSMUZNTzdfWFhQczdmelpYSXQweC1CNkFsUy1yWnU4OUpZZWc?oc=5",
+"t": "2026-11-25T00:06+09:00",
+"tok": [
+"11만",
+"28만",
+"5년",
+"가구",
+"늘었다",
+"만에",
+"서울",
+"월세",
+"전세",
+"줄고"
 ]
 }
 ]
