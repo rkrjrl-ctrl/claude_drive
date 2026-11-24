@@ -1,21 +1,6 @@
 {
-"updated": "2026-11-24T22:06+09:00",
+"updated": "2026-11-24T23:06+09:00",
 "items": [
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9mMmM2TWQwcXV4c1A2dkQ4cTFSRS1OUXpOZElpVTVUbnY1RnFGd3d4TXBHTXJLWnViNnpaNGFDX1pteVY0U0k4VE5FT2J0RGVyTUhtUm9ITEtYX080ZW5yMGw0SHk2LXZvbXplMy13?oc=5",
-"t": "2026-11-16T23:06+09:00",
-"tok": [
-"5세대",
-"가입자",
-"기준은",
-"선택",
-"시행",
-"실손",
-"전환",
-"할인"
-]
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1GQU92MzBBSVRFOVdFNzZLVFYtT3RJXzVHSmZhcjB4ZTBHQlloQkRfVkVraTFwWGNPMVNjcmE0UU5WVHMxSnJJbDcwbktuaERwbWlrTmxSUGlJX2VNM0oyM2JObi1YWXJYd0o1bHVB?oc=5",
@@ -10783,6 +10768,68 @@
 "비혼",
 "월세살이",
 "전체"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261124182800071",
+"t": "2026-11-24T23:06+09:00",
+"tok": [
+"USTR",
+"과잉생산",
+"관세",
+"발표",
+"이르면",
+"이번주",
+"조사결과"
+],
+"g": "https://www.yna.co.kr/view/AKR20261124182800071"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1yc05lMG1Uc0Z3akQ5ZVk0RjRvX3EzRkl4S21FQWliSllsTFRINnVrNk1Vd3d5ZFFHb25fcjRXNTRGdU1pXzhIYXVGM2V2QTdfM3Jva1g1aTY?oc=5",
+"t": "2026-11-24T23:06+09:00",
+"tok": [
+"과잉생산",
+"관세",
+"무역대표부",
+"발표",
+"이르면",
+"이번주",
+"조사결과"
+],
+"g": "https://www.yna.co.kr/view/AKR20261124182800071"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261124_0003881821",
+"t": "2026-11-24T23:06+09:00",
+"tok": [
+"14개국",
+"EU",
+"USTR",
+"과잉생산",
+"관세",
+"발표",
+"빠르면",
+"이번주",
+"조사"
+],
+"g": "https://www.yna.co.kr/view/AKR20261124182800071"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HQl9mc0xhTXg1RzVRX3Rzc2NhajBBZVFUUkxkaXhpdy1aTFhOMjVTYlp6dUpvZEdYZi13c2Q4U3d1cmpXdEpBbHVvLVlsZVBOMndhb0VmTDA3SHVxbjdObTF1Njg?oc=5",
+"t": "2026-11-24T23:06+09:00",
+"tok": [
+"AI",
+"KT",
+"구글",
+"묶은",
+"보험",
+"요금제",
+"출시",
+"휴대폰"
 ]
 }
 ]
