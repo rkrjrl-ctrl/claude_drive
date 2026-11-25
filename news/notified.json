@@ -1,68 +1,6 @@
 {
-"updated": "2026-11-25T17:06+09:00",
+"updated": "2026-11-25T18:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5XS01KVVJVRGc5OVp3VkpkMTdSSzhuTmRSR3hScTBKUGdaXzZLRFNXc0tORk1fVG03UkpaX2F4d2M1Uy1CZWxCc0pwVzdWelZjT2pKQ2RncTBKSFJSemtuT014MVZjcXBQSmlnck40WmtTRzBQREtj?oc=5",
-"t": "2026-11-17T18:06+09:00",
-"tok": [
-"2027년",
-"AI",
-"AIN",
-"SK하이닉스",
-"겨냥",
-"공급",
-"스토리지",
-"엔비디아",
-"차세대",
-"추진"
-]
-},
-{
-"kind": "단독",
-"link": "https://www.fnnews.com/news/202611171523306497",
-"t": "2026-11-17T18:06+09:00",
-"tok": [
-"금융감독원",
-"금융위",
-"내주",
-"발표",
-"쇄신안",
-"승인",
-"요구",
-"자료",
-"추가",
-"행정"
-]
-},
-{
-"kind": "주목",
-"link": "https://www.sedaily.com/article/20115605",
-"t": "2026-11-17T18:06+09:00",
-"tok": [
-"KB금융",
-"국민연금",
-"선임",
-"이재근",
-"찬성",
-"회장"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQQl9ESmdQTjdnZ0ZwQTFIaGRmUmNUNEVlZW1JY2lzbndxUEhZaThaSVhZNUMweWhPZkRmLU55Z1VBNUFyQ2RJVHlQcHUwTHdvbFhSUVlFZ1h3MGZfbTFkaXRkTXh4TVRtXzdzMmN6RzJBOFRyOXN6SUwtM0R3eUUzM3JxN0pCVmk5QW44R0o4NWk1M0hGWWRnNDVNMnZyMGJUR3ZuTElXZGp4N3V4cFJZcVlYV1ZFb3E1ajUtb0oxMDdQY3J3MXVBMjNYOWlNanB5d0U1dTkxdXpWQ2ZrZmRCOTc2NUFlWndybGtlN0hTUmppbGRuZG1YSmFCMXY5NGx4SnF3TDQ2MV9XODlTOUtTdU13S29fZWxwSmNlMWhEVnNMQQ?oc=5",
-"t": "2026-11-17T18:06+09:00",
-"tok": [
-"174만원",
-"건당",
-"사고",
-"육박",
-"자동차보험",
-"줄었는데",
-"증가",
-"지급보험금은"
-]
-},
 {
 "kind": "단독",
 "link": "https://www.hankyung.com/article/2026111726651",
@@ -11288,6 +11226,126 @@
 "의류",
 "인상",
 "최저임금"
+]
+},
+{
+"kind": "단독",
+"link": "https://news.jtbc.co.kr/article/NB12329796",
+"t": "2026-11-25T18:06+09:00",
+"tok": [
+"결론",
+"놓고",
+"무죄판결문",
+"부실",
+"상고이유서",
+"역추론",
+"오세훈",
+"특검",
+"확인"
+]
+},
+{
+"kind": "단독",
+"link": "https://www.khan.co.kr/article/202611251720001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=society_news",
+"t": "2026-11-25T18:06+09:00",
+"tok": [
+"10곳",
+"4곳이",
+"공동주택",
+"기준",
+"놓은",
+"미화원들",
+"아파트",
+"위반",
+"쥐덫",
+"지하실서",
+"취하는",
+"휴식"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE55dDdhOGEwS1N5TFdudkI0dUloeHlRRlVTbTQydWtqWW5vZGNoaXFfbUM2dWhXQVcydko5dXZxRFNwNGlUbXFicjVZalBvTE95M3hic0UyeGdMRFc4NUVmelBR?oc=5",
+"t": "2026-11-25T18:06+09:00",
+"tok": [
+"10",
+"20",
+"30",
+"35만",
+"38만원",
+"감액",
+"기초연금",
+"소득하위",
+"수순",
+"인상",
+"저소득부부",
+"하후상박"
+],
+"g": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE55dDdhOGEwS1N5TFdudkI0dUloeHlRRlVTbTQydWtqWW5vZGNoaXFfbUM2dWhXQVcydko5dXZxRFNwNGlUbXFicjVZalBvTE95M3hic0UyeGdMRFc4NUVmelBR?oc=5"
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA0UUlmd1I3d25tTWVvVERpWnA3WVBOZTMwOFlrc0VJT0VtNzRVZmgwY01QN3BObmFtdFlqaTJrYzdDaE80QUVWNENIMGV1OEJTSldIWVFCeXZtYm05ZkJQcEtPeldzV25vd1Vic21WY281UQ?oc=5",
+"t": "2026-11-25T18:06+09:00",
+"tok": [
+"3년간",
+"국내서",
+"기존",
+"달러",
+"보유분",
+"스테이블코인",
+"처분",
+"최대",
+"퇴출돼도",
+"허용"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5XUlJmU0VHLXV2NHdFbF9RbDFGM0VCa1NpSEpqN1JvUUJCRXZtTTdRSGwtY19ZNFRGb2JpV2pzQ1Q2bnEtRkthdjZRR3V1T0paN3FPal9CdUhXSDQ?oc=5",
+"t": "2026-11-25T18:06+09:00",
+"tok": [
+"ESG",
+"규정서",
+"먹구름",
+"사업",
+"삭제",
+"장기",
+"추진",
+"친환경",
+"퇴직연금",
+"퇴직연금까지",
+"투자",
+"투자금",
+"트럼프",
+"필요한"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9WSDlTNG8yb1hHMXZraTlvOFAyaVZzb0FaMUlTZzhPNGZBR1lDLXB2d3J6TjhrZll1RHRuWmo4VXlCVmJKLURyQXdtM1hvLVM0Wi1WVEU0NThuMTVybjZUbFhaSzNMNVlMbXBIZzFfOA?oc=5",
+"t": "2026-11-25T18:06+09:00",
+"tok": [
+"27일부터",
+"광주상의",
+"실무강좌",
+"연말정산",
+"차례"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBQMzVYSjZzblMxblpJb2sySThJN2ZLckNLZVN6ckNJU2twWkRkbVFmb1puZ1ZuQ2kxYms0V0hyNGtCSHpTdS1lSUdSQUsxQWMxX2I5MVV2QzFRRmx4R2piemxBOFlzUWp5MmN4ZDFjRHB3N3B3OHRrMUF30gF_QVVfeXFMTmw1OGV2OF90LUhtbV9qYUVjY3QzRWhQWFhHYUlKYnBmbGZEbnU3TGZycUFmcVl1UGVmOXhmYnM3UElyWGZnQ0twOTIwS1dRZVcwTnplNncwVmZmZ1Rza3V2aWEzYnpQNTdpYnp6alJOZVZLbUNUWWhaYjlsUlRtNA?oc=5",
+"t": "2026-11-25T18:06+09:00",
+"tok": [
+"GH가",
+"계약",
+"당했다",
+"전세사기",
+"전수조사",
+"주택",
+"지시",
+"추미애"
 ]
 }
 ]
