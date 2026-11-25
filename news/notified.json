@@ -1,49 +1,6 @@
 {
-"updated": "2026-11-25T12:06+09:00",
+"updated": "2026-11-25T13:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxYk9ibFNzLW5ZN29kS296TTcwd0FlZnRFMGs3YnBIWVlRbUpwTGJ1QzA4UGVoTEJpWm5kUU5VYzdjQVoweUxMWkNKYWsySWVrNlptYjFlZDFGQzBVYy1NaFI0amxMZktp?oc=5",
-"t": "2026-11-17T12:59+09:00",
-"tok": [
-"국제유가",
-"급등",
-"브렌트유"
-],
-"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxYk9ibFNzLW5ZN29kS296TTcwd0FlZnRFMGs3YnBIWVlRbUpwTGJ1QzA4UGVoTEJpWm5kUU5VYzdjQVoweUxMWkNKYWsySWVrNlptYjFlZDFGQzBVYy1NaFI0amxMZktp?oc=5"
-},
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pLTNRZUsyNS12azNSTkxrOE4xMmRXU25hUmVtbHM3SlNrNWV0bUMwMlJ1UmNVTmFaV0ltLXk5VTdPT1hqUDU0VW8waWQ1RjVjdHJ5ejdSTUxRM21RUFlYQkxtX2tnZ0FyaTBvVU1IcVhJd9IBVEFVX3lxTE40WWVfSzhhZFlCY3huNmFDZVY5YmJ3RFRRTXpIbzEtVW1veElGRWRkVDgxYzVqbkJzRHIwVm5IVFpNb3FYR2xEY0J6U3lIVHhoTm5Jdw?oc=5",
-"t": "2026-11-17T12:59+09:00",
-"tok": [
-"국민연금",
-"기금형",
-"막아야",
-"발의",
-"법안",
-"야당서",
-"참여",
-"퇴직연금에"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1WSXh0SDM5dUVaYnZBSWZmRjN5ZXpSckJMM0tOWWFtY3E5bXdZUlltVFFmOURHWTdobEJaSklVbldCZGNhb2lweFYyc3lmVGZTSFMtbTlDc2RRSGp6dVp1c2RsWQ?oc=5",
-"t": "2026-11-17T12:59+09:00",
-"tok": [
-"걱정",
-"계약",
-"덜어준다",
-"서울시",
-"연말연초",
-"예방상담",
-"이사철",
-"전세사기",
-"전월세",
-"청년"
-]
-},
 {
 "kind": "속보",
 "link": "https://www.khan.co.kr/article/202611171400001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
@@ -11143,6 +11100,39 @@
 "정년",
 "중소기업",
 "퇴직"
+]
+},
+{
+"kind": "gov",
+"link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790705",
+"t": "2026-11-25T13:06+09:00",
+"tok": [
+"가로등까지",
+"공사장",
+"생활",
+"소음부터",
+"쉽게",
+"이야기로",
+"푼다",
+"환경분쟁"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1CaUJtcVJkc3kwakV2V0xsQnJ0WWFqX0Z4VmF1NENaQVZ0d1h3TklYZGJiZ1ZNRkQtbzNGcVpHaU12b0NfbFZBU1VlMEt2SVNYb0kwZURQZmQyckdORTdLLVZTQnhKQQ?oc=5",
+"t": "2026-11-25T13:06+09:00",
+"tok": [
+"83만",
+"가게",
+"고물가",
+"든든한",
+"살리는",
+"시대",
+"영등포구",
+"지원",
+"지원군",
+"착한가격업소에",
+"최대"
 ]
 }
 ]
