@@ -1,64 +1,6 @@
 {
-"updated": "2026-11-25T16:06+09:00",
+"updated": "2026-11-25T17:06+09:00",
 "items": [
-{
-"kind": "gov",
-"link": "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492573&act=view",
-"t": "2026-11-17T17:06+09:00",
-"tok": [
-"KB금융지주",
-"결정",
-"국민연금",
-"방향",
-"의결권",
-"주주총회에",
-"행사"
-]
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA0azJydkM3MzNtVndrazZaX2FLQ185QWJNcmhNOTlLN21pYThvRlUxS2VnSnppU1pMcS1INEdybFVPMWotbmpZT0JjUmxJT1laWGpDcGdEVnNLLWJiTTQyTlRCZFNyd3E1VlpXUEJKVjg1RHhK0gF0QVVfeXFMTnJSRi02eV90Nko5bnlzR2hQRFVJbHJ1aFNlRGt0QkQ5d25haVhfSGNzZW1vdHRGbHh1OEdBeEozT1pSbHVWZC1oejdXMHoyV2hoSVM3U1J5QjU4RXQ2XzFZSXItTlVkamxXNVk3WF9jWXBESk4?oc=5",
-"t": "2026-11-17T17:06+09:00",
-"tok": [
-"5천",
-"900선서",
-"9달여",
-"마감",
-"만에",
-"아래로",
-"코스피"
-],
-"m": 1,
-"g": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA0azJydkM3MzNtVndrazZaX2FLQ185QWJNcmhNOTlLN21pYThvRlUxS2VnSnppU1pMcS1INEdybFVPMWotbmpZT0JjUmxJT1laWGpDcGdEVnNLLWJiTTQyTlRCZFNyd3E1VlpXUEJKVjg1RHhK0gF0QVVfeXFMTnJSRi02eV90Nko5bnlzR2hQRFVJbHJ1aFNlRGt0QkQ5d25haVhfSGNzZW1vdHRGbHh1OEdBeEozT1pSbHVWZC1oejdXMHoyV2hoSVM3U1J5QjU4RXQ2XzFZSXItTlVkamxXNVk3WF9jWXBESk4?oc=5"
-},
-{
-"kind": "단독",
-"link": "https://www.mt.co.kr/stock/2026/11/17/2026111715293687456",
-"t": "2026-11-17T17:06+09:00",
-"tok": [
-"1200만주",
-"1조원대",
-"간접",
-"국민연금",
-"보유",
-"보유만",
-"앤트로픽"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91cUNzWTR5UVBSbVlVbVV1WXY4amwtNUx3QlJkVmZjVlRrTldMXzZXXzI1SG5qS0tXTW9fSldhY2preV9TYVpmTnNyTGZYelpyZjJLVHEzMXFjTGdFSlNySTB1dTRKUUhHR29MeW9sRFg?oc=5",
-"t": "2026-11-17T17:06+09:00",
-"tok": [
-"건보공단",
-"급여제공관리",
-"대폭",
-"서비스",
-"장기요양기관",
-"전산",
-"확대"
-]
-},
 {
 "kind": "단독",
 "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5XS01KVVJVRGc5OVp3VkpkMTdSSzhuTmRSR3hScTBKUGdaXzZLRFNXc0tORk1fVG03UkpaX2F4d2M1Uy1CZWxCc0pwVzdWelZjT2pKQ2RncTBKSFJSemtuT014MVZjcXBQSmlnck40WmtTRzBQREtj?oc=5",
@@ -11233,6 +11175,119 @@
 "타사",
 "혜택",
 "확보"
+]
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VMHdLNHpwX3hNZkJMT1J4T01FSWhvclJZM2tYekEtT1NFaEJjY3k5Wm9mdTRTZHJwdkl3VTNYeGdVLVlTYnR6ZWxWNDQzb0U?oc=5",
+"t": "2026-11-25T17:06+09:00",
+"tok": [
+"NH농협",
+"네이버",
+"맞손",
+"삼성카드",
+"스테이블코인",
+"신한",
+"우리",
+"원화"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE85TUNlQk1ieWlpUlpZV3VuMi1VV0xRNWcwTF90UXhUSE5jTEVGaHhtTmFnSEMwMWZVMk9QZktmd0tTc0tMR25aeDJJT0tNcExhQk5WLU5LV3Zlak9QR2d4Yzd6cmhzVl8xZVI2Zg?oc=5",
+"t": "2026-11-25T17:06+09:00",
+"tok": [
+"17만원",
+"깨졌다",
+"삼성전자"
+],
+"g": "https://news.google.com/rss/articles/CBMibEFVX3lxTE85TUNlQk1ieWlpUlpZV3VuMi1VV0xRNWcwTF90UXhUSE5jTEVGaHhtTmFnSEMwMWZVMk9QZktmd0tTc0tMR25aeDJJT0tNcExhQk5WLU5LV3Zlak9QR2d4Yzd6cmhzVl8xZVI2Zg?oc=5"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBxOFowWUVuZldKSW9HMzBYNTQ5X0gxWGRSbXlHTFozN3JHLXVUcmJqdkRhWTVQeXUxQS1weGVhdC1TZ1R0VC1NWGlQSGhETVZkSzFtaHhjTXZJQQ?oc=5",
+"t": "2026-11-25T17:06+09:00",
+"tok": [
+"68세로",
+"국민연금",
+"복지장관",
+"사실무근",
+"소문에",
+"수급개시연령",
+"연장"
+]
+},
+{
+"kind": "주목",
+"link": "http://www.docdocdoc.co.kr/news/articleView.html?idxno=3044876",
+"t": "2026-11-25T17:06+09:00",
+"tok": [
+"HK이노엔",
+"진행",
+"크크펜션",
+"키움증권과",
+"퇴직연금",
+"팝업"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aWFowaDhhZWVBZE4xdG1saE1zajV2R1dqa0g0RDJKajF1bENVQ3lnUVlrVmFscWdmU0pkM2xYTndhd2xZQjdXWEJJMHhUZFFZR1hNQzNTSUpUV2tsemQ4Wk1pYUxZQUkxYVc1VA?oc=5",
+"t": "2026-11-25T17:06+09:00",
+"tok": [
+"50",
+"가능할까",
+"국민연금공단은",
+"상향",
+"신중론",
+"유족연금",
+"중복지급률"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBaNmtkRDI4TGlUeVRkMEhta2lWYmdRWHBFODhINHF2UWVFckJlem15Vy1wT1N3V3pfeWFVR2NKQV9pVjBWcENQdG1EMDhncmZHUEQ0dG8wQ00tWE1DTHBDTl9ycEN6LTBDZlczQdIBcEFVX3lxTE92VDhNdUFJNmFNS3EydkE5ZUhvYm1TdURZNHNoS0poTjNGaGlSaE1PemJyakJub3hnRlBiZXZNb19GTWZjMlhIU3Q1XzczYTk5aWw1bG5qbzNwR1VZRE02TFVWXzhuV2V3M1l3MG4yZVI?oc=5",
+"t": "2026-11-25T17:06+09:00",
+"tok": [
+"GH",
+"경기도",
+"긴급",
+"전세사기",
+"전세임대",
+"조사",
+"지시",
+"피해"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1XTS1xNG10LUJwNVJ4R0dGWmRkNFVXYmZDTHJaWDZaUUh2VUo1ZjgtV1JDeWo3YVdoTGpXdDFwWnZoZWRWaHk2cElydFNxNDZw?oc=5",
+"t": "2026-11-25T17:06+09:00",
+"tok": [
+"6억4800만",
+"과태료",
+"막아라",
+"부과",
+"영등포구",
+"위반",
+"임대주택법",
+"전세사기"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.yna.co.kr/view/AKR20261125143800104",
+"t": "2026-11-25T17:06+09:00",
+"tok": [
+"18만원으로",
+"36",
+"3년",
+"노동자",
+"만에",
+"방글라",
+"의류",
+"인상",
+"최저임금"
 ]
 }
 ]
