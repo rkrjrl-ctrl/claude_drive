@@ -1,23 +1,6 @@
 {
-"updated": "2026-11-25T23:06+09:00",
+"updated": "2026-11-26T00:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4wTTR4dnBaWTNzSHpaMHVteGY4QWdZaWZHVW1PQjVsZ2pPQlJfbFVqOEtEM09VbVJtanFPRFJoU2JYekE5SW9STUxsYWc5a28zNGlMNGlhQmlMcTYxX3R0blczdGI0dTdP?oc=5",
-"t": "2026-11-18T00:06+09:00",
-"tok": [
-"AMD",
-"동반",
-"마이크론",
-"미국",
-"상승",
-"스페이스X",
-"엔비디아",
-"증시",
-"하락"
-],
-"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4wTTR4dnBaWTNzSHpaMHVteGY4QWdZaWZHVW1PQjVsZ2pPQlJfbFVqOEtEM09VbVJtanFPRFJoU2JYekE5SW9STUxsYWc5a28zNGlMNGlhQmlMcTYxX3R0blczdGI0dTdP?oc=5"
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nT2hsbFpvX2VoVXAxQVJnQzVSeUhTbERuN1lwN0pldE5qcmtIWnNfRWFyRWNpb2hYNWlMWVlaMmxVMzdxeU9XWGFHTzZLMVRZNm9RUy11QU4wTV9VdGU4TGpEWEVsS1Jq?oc=5",
@@ -11796,6 +11779,107 @@
 "최우선",
 "피해자"
 ]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5od2xiQmxRLW16ZFV1aWxqTWJPcm96eWFNYkszak1RZ1FSbllpbkF2aC1FRHgyWDlqSjR4ZFo5N2NucUpSQlkwaDNtclR6U3Y3S3VqbGdoQkg5d9IBX0FVX3lxTE5OMzMyQmd2OW41LXB4VjNXLW4xVDNDNjFSMUpiT0JzeDV4TzBVYmhlazBtZkdVSF9KanAwbzBBSGtsRnUxclJ3OXJUNzFidkt6Unh0QURBbEdKSm5mU1Iw?oc=5",
+"t": "2026-11-26T00:06+09:00",
+"tok": [
+"14개",
+"15",
+"EU",
+"USTR",
+"경제주체에",
+"과잉생산",
+"관세",
+"등은",
+"상한",
+"유지",
+"일본",
+"한국"
+],
+"g": "https://www.yna.co.kr/view/AKR20261125183900071"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBLM3pTbXlNaFRmQkJwTVRtNWg2VmRFT050WlhtNTU0aDl6UGliNWJoNTg4VWotUS1IRktYbFVQa2w2WldnNER6bjl3Wi1fU0UteVQ5SXFYcTg?oc=5",
+"t": "2026-11-26T00:06+09:00",
+"tok": [
+"10월",
+"PCE",
+"대비",
+"물가",
+"부합",
+"예상치",
+"전년"
+],
+"g": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1xaEFOdnlESk5OZ3pISDFUSWdrcGFKcE5rS1JnMzJVYWx0TjdPV0FiQkxUdmd0dmg5V1VtdUpaVHVRR0dXTFlEVFVDeXRZYnZU?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.hankyung.com/article/2026112506637",
+"t": "2026-11-26T00:06+09:00",
+"tok": [
+"3분기",
+"GDP",
+"상향",
+"성장률",
+"속보치",
+"잠정치"
+],
+"g": "https://www.hankyung.com/article/2026112506637"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoc2lzd3Q0VHlSSFR5TDFuazNGaXVmak8wSFVsWE00MDhzMDVGU3lGcmxwU0thX3NtVmhrampzSVVmTWdncjZ2eHFJaXJrUE1MUjVFQWhOdHR5ZS1IZ1RoSzhMbTJOUWxp?oc=5",
+"t": "2026-11-26T00:06+09:00",
+"tok": [
+"10월",
+"58000달러선",
+"PCE",
+"XRP",
+"근접",
+"리플",
+"발표",
+"비트코인",
+"약세",
+"이후",
+"촉각",
+"흐름"
+],
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoc2lzd3Q0VHlSSFR5TDFuazNGaXVmak8wSFVsWE00MDhzMDVGU3lGcmxwU0thX3NtVmhrampzSVVmTWdncjZ2eHFJaXJrUE1MUjVFQWhOdHR5ZS1IZ1RoSzhMbTJOUWxp?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.donga.com/news/Inter/article/all/20261125/135092210/1",
+"t": "2026-11-26T00:06+09:00",
+"tok": [
+"14개국에",
+"15",
+"USTR",
+"과잉생산",
+"관세",
+"상한",
+"유지"
+],
+"g": "https://www.yna.co.kr/view/AKR20261125183900071"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261125_0003883579",
+"t": "2026-11-26T00:06+09:00",
+"tok": [
+"AI주",
+"관세",
+"나스닥",
+"뉴욕증시",
+"매도",
+"우려에",
+"출발",
+"하락"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261125_0003883579"
 }
 ]
 }
