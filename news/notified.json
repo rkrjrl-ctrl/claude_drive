@@ -1,23 +1,6 @@
 {
-"updated": "2026-11-26T05:06+09:00",
+"updated": "2026-11-26T06:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611180601258176",
-"t": "2026-11-18T06:06+09:00",
-"tok": [
-"3대",
-"뉴욕증시",
-"반도체",
-"반등",
-"속슬",
-"지속",
-"지수",
-"하락"
-],
-"m": 1,
-"g": "https://www.fnnews.com/news/202611180601258176"
-},
 {
 "kind": "속보",
 "link": "https://www.newsis.com/view/NISX20261118_0003872327",
@@ -11801,6 +11784,86 @@
 "전북",
 "줄어",
 "피해금액"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5heDVHMzJycUNvNjNVWWVMMGVuWENRTm02SmhUeGJXRWczVUMxcHVtZzJXWjVSUlBvc3JJVGJGWmRaanU2YjlGOGE5cmIxUi01b2N0YjdKUm94ZlB3Z0w1bWxFZDl6VENZblh4NWI4MVNBWG4t?oc=5",
+"t": "2026-11-26T06:06+09:00",
+"tok": [
+"WTI",
+"공격에",
+"국제유가",
+"사우디",
+"상승",
+"후티"
+],
+"g": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5heDVHMzJycUNvNjNVWWVMMGVuWENRTm02SmhUeGJXRWczVUMxcHVtZzJXWjVSUlBvc3JJVGJGWmRaanU2YjlGOGE5cmIxUi01b2N0YjdKUm94ZlB3Z0w1bWxFZDl6VENZblh4NWI4MVNBWG4t?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.fnnews.com/news/202611260600413556",
+"t": "2026-11-26T06:06+09:00",
+"tok": [
+"뉴욕증시",
+"다우지수는",
+"마감",
+"상승",
+"소폭",
+"완화에",
+"패닉",
+"하락"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611260600413556"
+},
+{
+"kind": "속보",
+"link": "http://www.edaily.co.kr/news/newspath.asp?newsid=01298886645649656",
+"t": "2026-11-26T06:06+09:00",
+"tok": [
+"급락",
+"낙폭",
+"다우는",
+"대부분",
+"딛고",
+"마감",
+"만회",
+"상승",
+"장중",
+"증시"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611260600413556"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBVVUF3cEY2Sm50Um0zdHdRQTdTSGhWX19fR1c5TDVseDFyZFQwZEQ4Q1hsUW04R2VFenVlUmc5R1EzNnJWaDNtQTlBdTVRRUVLTkdIZ1pWV2t1VldZ?oc=5",
+"t": "2026-11-26T06:06+09:00",
+"tok": [
+"60초",
+"68세부터",
+"국민연금",
+"받는다",
+"사실",
+"아냐",
+"연금공단",
+"연금정책"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.yna.co.kr/view/AKR20261126001100072",
+"t": "2026-11-26T06:06+09:00",
+"tok": [
+"AI",
+"급락세",
+"기술주",
+"나스닥",
+"뉴욕증시",
+"우려에",
+"투매",
+"투자"
 ]
 }
 ]
