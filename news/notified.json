@@ -1,211 +1,6 @@
 {
-"updated": "2026-11-25T15:06+09:00",
+"updated": "2026-11-25T16:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611171524165466",
-"t": "2026-11-17T16:06+09:00",
-"tok": [
-"48",
-"4968",
-"5000선",
-"9개월",
-"마감",
-"붕괴",
-"코스피"
-],
-"m": 1,
-"g": "https://www.fnnews.com/news/202611171524165466"
-},
-{
-"kind": "속보",
-"link": "https://www.chosun.com/economy/stock-finance/2026/11/17/MIYDCMJSMVSGCMZRHFRWGODDME/",
-"t": "2026-11-17T16:06+09:00",
-"tok": [
-"2월",
-"5000선",
-"붕괴",
-"이후",
-"종가",
-"지난",
-"처음",
-"코스피"
-],
-"m": 1,
-"g": "https://www.fnnews.com/news/202611171524165466"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261117_0003871749",
-"t": "2026-11-17T16:06+09:00",
-"tok": [
-"1338",
-"2원",
-"5원",
-"달러",
-"마감",
-"오른",
-"환율"
-],
-"m": 1,
-"g": "https://www.fnnews.com/news/202611171524165466"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261117_0003871697",
-"t": "2026-11-17T16:06+09:00",
-"tok": [
-"5000선",
-"9개월",
-"기준",
-"만에",
-"무너져",
-"종가",
-"코스피"
-],
-"g": "https://www.newsis.com/view/NISX20261117_0003871697"
-},
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261117128000008",
-"t": "2026-11-17T16:06+09:00",
-"tok": [
-"5천피",
-"9개월여",
-"만에",
-"붕괴",
-"수준",
-"최저",
-"코스피"
-],
-"g": "https://www.yna.co.kr/view/AKR20261117128000008"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261117_0003871759",
-"t": "2026-11-17T16:06+09:00",
-"tok": [
-"06",
-"15",
-"34",
-"59포인트",
-"650",
-"내린",
-"마감",
-"코스닥"
-],
-"m": 1,
-"g": "https://www.fnnews.com/news/202611171524165466"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261117_0003871758",
-"t": "2026-11-17T16:06+09:00",
-"tok": [
-"02포인트",
-"132",
-"48",
-"4968",
-"59",
-"내린",
-"마감",
-"코스피"
-],
-"m": 1,
-"g": "https://www.fnnews.com/news/202611171524165466"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5jdUc5dTBXbmlsMWFJSWhiRjQ0SnpqS25WajlGUnUxY1poTExWSm5FU0dlWHV3d3I2RHNSTWlnUU5DOUJ2SDl5NU1CWXZnZ3NteEhucw?oc=5",
-"t": "2026-11-17T16:06+09:00",
-"tok": [
-"06",
-"15",
-"34",
-"59p",
-"650",
-"내린",
-"장마감",
-"코스닥"
-],
-"m": 1,
-"g": "https://www.fnnews.com/news/202611171524165466"
-},
-{
-"kind": "속보",
-"link": "https://www.donga.com/news/Economy/article/all/20261117/135040106/1",
-"t": "2026-11-17T16:06+09:00",
-"tok": [
-"5000선",
-"9개월여",
-"만에",
-"붕괴",
-"수준",
-"종가",
-"최저",
-"코스피"
-],
-"m": 1,
-"g": "https://www.fnnews.com/news/202611171524165466"
-},
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261117130600008",
-"t": "2026-11-17T16:06+09:00",
-"tok": [
-"110만원",
-"7개월여만",
-"SK하이닉스",
-"밑으로",
-"최저"
-],
-"g": "https://www.yna.co.kr/view/AKR20261117130600008"
-},
-{
-"kind": "속보",
-"link": "https://www.donga.com/news/Economy/article/all/20261117/135040116/1",
-"t": "2026-11-17T16:06+09:00",
-"tok": [
-"2월",
-"2일",
-"5000선",
-"깨진채",
-"마감",
-"이후",
-"처음",
-"코스피"
-],
-"m": 1,
-"g": "https://www.fnnews.com/news/202611171524165466"
-},
-{
-"kind": "속보",
-"link": "https://www.nocutnews.co.kr/news/6608221",
-"t": "2026-11-17T16:06+09:00",
-"tok": [
-"48",
-"4968",
-"5천선",
-"다시",
-"마감",
-"붕괴",
-"코스피"
-],
-"m": 1,
-"g": "https://www.fnnews.com/news/202611171524165466"
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8zMUF5SHc3Tml2djl4ZkE0ODh2YkN4b3ZUelhlRHpxZWdxWE9GNDRFT3lrX1NkLWdZeWkzd0dwYm5RSFFwZzFQX29wdGhUbUE3VkE?oc=5",
-"t": "2026-11-17T16:06+09:00",
-"tok": [
-"감사장",
-"막은",
-"보이스피싱",
-"직원",
-"피해"
-]
-},
 {
 "kind": "gov",
 "link": "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492573&act=view",
@@ -11135,6 +10930,309 @@
 "방법은",
 "청소년도",
 "환급받는"
+]
+},
+{
+"kind": "단독",
+"link": "https://www.hankyung.com/article/202611259509i",
+"t": "2026-11-25T16:06+09:00",
+"tok": [
+"급락한",
+"정부",
+"증안펀드",
+"추진",
+"코스피",
+"확대"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nT2h0ODF4dFNtME9idWl5NEJ4VWlMTUZYc1dZTWJHeXVJYy1HZmNyQjRLMTdxbXZrUXFDQm0wR21OOEQ5OTlqU1VxejJSLWh1cGV0TmRyLUdYd9IBWEFVX3lxTE9EVTJLWDFjazhKcHd1NWtjcDZlUEgtUE02a2wtTHNzOWE2d25FSWNCOVVYV3pTdk9lMy1RYmxvdlZnWk5aU3VYYkxiLWl4NktRNlB3RXJ0czQ?oc=5",
+"t": "2026-11-25T16:06+09:00",
+"tok": [
+"10",
+"1000조",
+"급락",
+"깨져",
+"삼성전자",
+"시총"
+],
+"g": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nT2h0ODF4dFNtME9idWl5NEJ4VWlMTUZYc1dZTWJHeXVJYy1HZmNyQjRLMTdxbXZrUXFDQm0wR21OOEQ5OTlqU1VxejJSLWh1cGV0TmRyLUdYd9IBWEFVX3lxTE9EVTJLWDFjazhKcHd1NWtjcDZlUEgtUE02a2wtTHNzOWE2d25FSWNCOVVYV3pTdk9lMy1RYmxvdlZnWk5aU3VYYkxiLWl4NktRNlB3RXJ0czQ?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.fnnews.com/news/202611251530498321",
+"t": "2026-11-25T16:06+09:00",
+"tok": [
+"11",
+"16",
+"4700선",
+"SK하닉",
+"붕괴",
+"코스피",
+"폭락",
+"하락"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611251530498321"
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261125132300008",
+"t": "2026-11-25T16:06+09:00",
+"tok": [
+"697",
+"급등분",
+"급락",
+"모두",
+"반납",
+"전날",
+"코스피"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611251530498321"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261125_0003882931",
+"t": "2026-11-25T16:06+09:00",
+"tok": [
+"15",
+"24포인트",
+"29",
+"64",
+"650",
+"내린",
+"마감",
+"코스닥"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611251530498321"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261125_0003882923",
+"t": "2026-11-25T16:06+09:00",
+"tok": [
+"16",
+"308",
+"4697",
+"51",
+"52포인트",
+"내린",
+"마감",
+"코스피"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611251530498321"
+},
+{
+"kind": "속보",
+"link": "https://www.edaily.co.kr/News/Read?newsId=03263606645649328",
+"t": "2026-11-25T16:06+09:00",
+"tok": [
+"100만닉스",
+"4700선",
+"급락",
+"반납",
+"코스피",
+"하루짜리",
+"하회",
+"효과"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611251530498321"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVk9KT083SXlleWhfVy1XbzNqTjF2cnFQNldVREUwVk5xdlhvV0lDUkFob3RQR1BOcEExVUpzTVpaLUNfOWtwZkIteVVKdkxNakQ1X0VkZXZUU0JzS2d4Q3M4NlJrajgtSkNZVU15dEtUVGNyY245ZWowdm9WOWNrNg?oc=5",
+"t": "2026-11-25T16:06+09:00",
+"tok": [
+"16",
+"29",
+"4697",
+"내린",
+"마감",
+"코스닥",
+"코스피",
+"하락"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611251530498321"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1KT0ZCTnFwQlZEZC1zWElZdnpDZzdWaExnUXZNSjREWlRZSzh5cWx2RnN1b21GWGxjaTZ4QVBWS21rUjc4aEJEeUxGYk9EZms0MVI4RA?oc=5",
+"t": "2026-11-25T16:06+09:00",
+"tok": [
+"15",
+"24p",
+"29",
+"64",
+"650",
+"내린",
+"장마감",
+"코스닥"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611251530498321"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261125_0003883035",
+"t": "2026-11-25T16:06+09:00",
+"tok": [
+"1343",
+"2원",
+"8원",
+"달러",
+"마감",
+"오른",
+"환율"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611251530498321"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeUN0b0FveUVFZkk3REE5aGE3c3plYy13bFJMSS12Y0hLVUZ5UTRXZi1JcXRDWk9ZbEVvTElkcmtIQXFPR3N4SzdiTG92NlltbThWRUplN2hKM3c4YnNPY1RrYV9jVnhCTkw3YTE4MTcyZElSaXkzbWwwb1JKY3hIWGRmVmtYRXU40gGcAUFVX3lxTFA4ejhnX25XdlZXaFVWUU5QTXo5cnRtbmgzX0Mxam54TUJGZGZObTZSTTZIekxJQlFWLUxCa1d2NmNwN19MSlI2elNTS3BaQXhEYnFzZ1NWdmpfaUgzMEp6UzlEcnJqVVZhanhmZlpNWDZyUVBfM1lyV3Q3dm9uSTB6ODBtYjVJdlhrQnRKMENqdkJTZDdNeFJGekVURA?oc=5",
+"t": "2026-11-25T16:06+09:00",
+"tok": [
+"11",
+"16",
+"4700선",
+"SK하이닉스",
+"급락하며",
+"삼성전자",
+"아래로",
+"코스피",
+"폭락"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611251530498321"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPV1FVXzBoa1k2SUlVYUdFcTJGNXdjTF9YT0RIOE85cG9UUGV1c1FXVHhqdDNvNmZVLWtZMUdkTFA5aW90aXplRHNyUjlBRmctdWJkczZMZDk4WTQzNmtHVDlJZHdFWmJ0eDVjd2M2d3NMbXR4NFVaXzhyNldvRFZ0Sm9lUXFIZ9IBmgFBVV95cUxQZU1tbmY0TWozVy1CN2o2TzJZSndfNHdad2d4dDllTmoxaEJRaW1lQkVmanE0ckpZdXF4WDlaeF82M1pJMnBWY0k5bVZVeWpFaFZOZG5RckJDTWRfdHRPRC1aa2QzM25vdTNPOGtCLW9Sc3NfbUJoVUxmSXNrZ25icFo3a09nMmF2c0lHUGpucUd5ZU1VTWxZV2Fn?oc=5",
+"t": "2026-11-25T16:06+09:00",
+"tok": [
+"1343",
+"2원",
+"8원",
+"달러",
+"오른",
+"환율"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611251530498321"
+},
+{
+"kind": "속보",
+"link": "https://biz.chosun.com/stock/stock_general/2026/11/25/ME4GGMZUGUZGENTBMFSTOYRSMU/",
+"t": "2026-11-25T16:06+09:00",
+"tok": [
+"16",
+"4700선",
+"급락하며",
+"반납",
+"복귀",
+"상승분",
+"아래로",
+"젠슨",
+"코스피",
+"하루만에"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611251530498321"
+},
+{
+"kind": "단독",
+"link": "https://biz.chosun.com/topics/law_firm/2026/11/25/7TC7E5LRXNFKJMKB2RX2TCLLSY/",
+"t": "2026-11-25T16:06+09:00",
+"tok": [
+"212건",
+"9건뿐",
+"관세청",
+"기준",
+"마약",
+"사건",
+"세관",
+"수사",
+"요구",
+"이첩은",
+"중수청에"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.nocutnews.co.kr/news/6612520",
+"t": "2026-11-25T16:06+09:00",
+"tok": [
+"16",
+"4697",
+"51",
+"급락한",
+"마감",
+"모두",
+"반납",
+"상승분",
+"전날",
+"코스피"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611251530498321"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ZR0hCRVM3MUFrd2xJQjJic2hZd2c0LWVLYjJobUttT1AzLXhNRTFJT1FzaEJ4VEhnd1o5UWJieF83a0w3ZUZ4MHkyclVUb0k1dElvT0toalowN0gxcXR0UGZDUHYtZw?oc=5",
+"t": "2026-11-25T16:06+09:00",
+"tok": [
+"2월",
+"4700선",
+"SK하이닉스",
+"붕괴",
+"삼성전자",
+"수준으로",
+"코스피",
+"폭락에",
+"후퇴"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ZS0dQc2Fybk1yLV82YnY0WmtubElQTlhWNE1FSy15Q09PUnMxZ2NHZzdCZVo2QWZtOEEzNDdFeWtxLXFrVmRaZkpOQ1dxNVZZOXFfQ21SenM1c1laeDZGVEVtSkRhLU9Od1VUSzVn?oc=5",
+"t": "2026-11-25T16:06+09:00",
+"tok": [
+"국채선물",
+"금리인상",
+"금통위",
+"막바지",
+"매수세",
+"베팅",
+"앞두고",
+"외국인",
+"집중"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWUFdwanF4M0NmWkFmSy1hY0dsczIyWFRQTkNHM0dfV2RYVXg3RnUyaGpBYjdiRm8xYzFrdkpkajJQNm9NZzdwSjRoYmNzbTlYdDhXMmc5VjYwV2htZk5jd0JkdEdVVGJNOWVBRkdzZjHSAXRBVV95cUxQQkF0NWE5WVkySGN5WkpKR0NLVVBoWkw0amVZa2ExMUQxUVZRSGR3NGt6UVhLYnlqSW9HUkFzTkJlQXlWWEo1dzUzaTExVGI5eVBXQmgxOThETUFwd01fNVlHQ2ZQMnlteVVDSThYY25jaHctZQ?oc=5",
+"t": "2026-11-25T16:06+09:00",
+"tok": [
+"60만원",
+"고객",
+"나서",
+"뉴스워커",
+"삼성증권",
+"앞두고",
+"연금",
+"연금저축",
+"연말정산",
+"이전",
+"최대",
+"타사",
+"혜택",
+"확보"
 ]
 }
 ]
