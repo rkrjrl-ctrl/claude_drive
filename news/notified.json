@@ -1,115 +1,6 @@
 {
-"updated": "2026-11-25T14:06+09:00",
+"updated": "2026-11-25T15:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE04NnVEbXpuUkljRVhHZG8ybkNEcGFXQTZGckdCWWVkUGZlMzRUaGQxWW1UMXpFTjZoNl8xbVBDeElBcHVYR1hxWUg2T2RmLVgyWE9mMg?oc=5",
-"t": "2026-11-17T15:06+09:00",
-"tok": [
-"IMF",
-"반도체",
-"성장률",
-"전망",
-"한국",
-"한달새",
-"호조에"
-],
-"g": "https://www.khan.co.kr/article/202611171400001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4zcXh0NmY5MmZ4a2ZkZExSRHAtMTM3b0FTc0lpTFFMMkxmczBSX08yU1MwTjZvaTBZM0xjRFV4UW9ZUExrcHoxMTIwY1JmVzhrZDdj0gFYQVVfeXFMTW9yNF8tRUJZdmZhSnloajVadHVSMG1YX1Z1U0MwSTdLRTdSUlU3cVRlY1Rfai1fYjFqdU9xc0xzTFhiUHhlRkR1aTF1dW9zNlBEcVAxQkQ3YQ?oc=5",
-"t": "2026-11-17T15:06+09:00",
-"tok": [
-"IMF",
-"반도체",
-"성장률",
-"전망",
-"한달새",
-"호조에"
-],
-"g": "https://www.khan.co.kr/article/202611171400001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news"
-},
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611171408261156",
-"t": "2026-11-17T15:06+09:00",
-"tok": [
-"1조",
-"5000선",
-"매도",
-"외인",
-"장중",
-"재붕괴",
-"코스피"
-],
-"m": 1,
-"g": "https://www.fnnews.com/news/202611171408261156"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91cWVCRFBCR0NvOTF4d2xPQkQzZlhzN2V2MHNiSEFXVlM3YnhlU3JpS1ZsQUczdlZJOXhZSEh3UGg5WnFfWTFIejFvb1E5emtPSWwyaDdaNG1YUdIBVEFVX3lxTE9TVERqTDVvNjVNUThRQWdQblNCNjUyM05BTzhHMUVvaXFHNkRfY091RHJkdnotY1ZwcDFXajhhTXVRYzJPYkpuUVc5TDVoUEttbllwVA?oc=5",
-"t": "2026-11-17T15:06+09:00",
-"tok": [
-"IMF",
-"상향",
-"성장률",
-"전망",
-"한국"
-],
-"g": "https://www.khan.co.kr/article/202611171400001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news"
-},
-{
-"kind": "단독",
-"link": "https://biz.chosun.com/it-science/ict/2026/11/17/4MWPKOEPTNG5NKCR7PKZLJ4D5Q/",
-"t": "2026-11-17T15:06+09:00",
-"tok": [
-"1d",
-"D램용",
-"HPA",
-"검증용",
-"공급사",
-"납품",
-"삼성전자",
-"선정",
-"연내",
-"예스티",
-"장비"
-]
-},
-{
-"kind": "단독",
-"link": "https://biz.chosun.com/policy/politics/2026/11/17/DCECHEJWKFHBTJGKZHIDWU6M4Y/",
-"t": "2026-11-17T15:06+09:00",
-"tok": [
-"18곳",
-"37곳",
-"600만원",
-"민주당",
-"보수화",
-"서울",
-"오르면",
-"지역구",
-"집값",
-"평당",
-"해당"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5MV3F5cTRJR1BCRVJWZi1RV3kxVk8yeXp4QVEtcGhaaXdtbkFMRzFSVlhoNmpOUzVtZzlsR21wVFJvSFc4b0VoQTZfbW9QRlJIczdGWWljZzFhTDZP?oc=5",
-"t": "2026-11-17T15:06+09:00",
-"tok": [
-"과잉청구",
-"늘었다",
-"보험금",
-"사고",
-"상황은",
-"줄었는데",
-"지급",
-"현장"
-]
-},
 {
 "kind": "속보",
 "link": "https://www.fnnews.com/news/202611171524165466",
@@ -11144,6 +11035,106 @@
 "전세사기피해",
 "지시",
 "추미애"
+]
+},
+{
+"kind": "gov",
+"link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790786",
+"t": "2026-11-25T15:06+09:00",
+"tok": [
+"교육",
+"기술",
+"돕는",
+"성장",
+"중심",
+"지원",
+"청년농업인",
+"현장",
+"확대"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE80RHBlS0JfMlo2b1Z4ZWgtVkJLc1BUQzZVdkZDdTJmM0N2NFVuU1BGTXJfZ05lYlIzU0pIeHVCQkRZemxMRThZNEdpSFBRQzZLUG5PQmlFRzB0WHVTZ1dua3p3?oc=5",
+"t": "2026-11-25T15:06+09:00",
+"tok": [
+"10",
+"SK하이닉스",
+"동반",
+"마이너스",
+"멸망의",
+"삼성전자",
+"장중",
+"코스피",
+"터치"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE80RHBlS0JfMlo2b1Z4ZWgtVkJLc1BUQzZVdkZDdTJmM0N2NFVuU1BGTXJfZ05lYlIzU0pIeHVCQkRZemxMRThZNEdpSFBRQzZLUG5PQmlFRzB0WHVTZ1dua3p3?oc=5"
+},
+{
+"kind": "주목",
+"link": "https://www.mt.co.kr/policy/2026/11/25/2026112514041713469",
+"t": "2026-11-25T15:06+09:00",
+"tok": [
+"68세부터",
+"SNS",
+"국민연금",
+"나섰다",
+"받는다",
+"소문에",
+"장관",
+"정은경",
+"직접"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9CWWFxQ29jQ2hGZFh4OUh3VUtlV3RscWxCZEFDSEJacGhPUGtlSGttWWYwTDBZb3NZNFJEbWNEXzFHWXp5YkU5ZGVHUDJQUHU2STBDcG8yQ1A4eEpaLU9DTHpmU0hzY1gyN1BWU0t6OA?oc=5",
+"t": "2026-11-25T15:06+09:00",
+"tok": [
+"1월부터",
+"계좌",
+"내년",
+"러시아",
+"막혀도",
+"옮긴다",
+"퇴직연금",
+"펀드",
+"허용",
+"환매"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1RSU8xWXF2eTFNX2M2aUp1OGVTWnFxT1VuVURPLVhFekNvMUxOV01DNFVSc0ZLM3RaOTZBSHFjZFgyMHM1cDhHcXdSMUg4NmQza1lF?oc=5",
+"t": "2026-11-25T15:06+09:00",
+"tok": [
+"5000선",
+"급락",
+"만에",
+"반납한",
+"반도체",
+"엔비디아",
+"이유는",
+"충격",
+"코스피",
+"하루"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12bDRIcGRCOWJIckg5R043NURiUm1CTE52UWViakU5Uzc4TmpDMUk1cHlVaDRmdE0tN0twVUxydUF1X2tmeVFreWJOMGlNaVcxQ0tF?oc=5",
+"t": "2026-11-25T15:06+09:00",
+"tok": [
+"12월부터",
+"20",
+"가능",
+"가입",
+"교통비",
+"모두의카드",
+"방법은",
+"청소년도",
+"환급받는"
 ]
 }
 ]
