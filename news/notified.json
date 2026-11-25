@@ -1,303 +1,6 @@
 {
-"updated": "2026-11-26T06:06+09:00",
+"updated": "2026-11-26T07:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261118_0003872327",
-"t": "2026-11-18T07:06+09:00",
-"tok": [
-"74",
-"경계감에",
-"나스닥",
-"뉴욕증시",
-"마감",
-"실적",
-"엔비디아",
-"하락"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261118_0003872327"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fekxjeHdwblVKdk0xcklyeWY4SENnbWpXWk05OHlPVldxVUkwTWlPNjMtS0x1UnBsaExaWXUwaVI3U0dEU1FsQjBfcmV2a1V5bkdQWGltbXl1bFNOSEdWNGx4SHVGQVZ3YzhKNg?oc=5",
-"t": "2026-11-18T07:06+09:00",
-"tok": [
-"34",
-"WTI",
-"국제유가",
-"상승"
-],
-"g": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fekxjeHdwblVKdk0xcklyeWY4SENnbWpXWk05OHlPVldxVUkwTWlPNjMtS0x1UnBsaExaWXUwaVI3U0dEU1FsQjBfcmV2a1V5bkdQWGltbXl1bFNOSEdWNGx4SHVGQVZ3YzhKNg?oc=5"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QVlk2QUF5czVOcTU0SURCSjJka1VIWnVMMjBGTE10VS1vMjhaN0tlc2cySHpHenhDLVdfeUlzTzRCRzQtT0VHOHNlN3lrWHlZSUpQMmdTNWJpZFVKQTZhOFlIcWQyem_SAVhBVV95cUxPOG5CZy1QSGtqYTQxWnhzOUZ1ckRsSzhIWDFTN2JmZUpiLWI0bTdHYnBKV0dJSEVXdEFJeTF6TzBrOGhramNBOUxKMWY2WHNDcnVOMVJtbFZ1?oc=5",
-"t": "2026-11-18T07:06+09:00",
-"tok": [
-"4월",
-"나스닥",
-"실적",
-"앞두고",
-"엔비디아",
-"이후",
-"증시",
-"최저",
-"하락"
-],
-"g": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QVlk2QUF5czVOcTU0SURCSjJka1VIWnVMMjBGTE10VS1vMjhaN0tlc2cySHpHenhDLVdfeUlzTzRCRzQtT0VHOHNlN3lrWHlZSUpQMmdTNWJpZFVKQTZhOFlIcWQyem_SAVhBVV95cUxPOG5CZy1QSGtqYTQxWnhzOUZ1ckRsSzhIWDFTN2JmZUpiLWI0bTdHYnBKV0dJSEVXdEFJeTF6TzBrOGhramNBOUxKMWY2WHNDcnVOMVJtbFZ1?oc=5"
-},
-{
-"kind": "속보",
-"link": "http://www.edaily.co.kr/news/newspath.asp?newsid=01387446645647032",
-"t": "2026-11-18T07:06+09:00",
-"tok": [
-"다우",
-"매도",
-"실적",
-"앞두고",
-"엔비디아",
-"증시",
-"확산"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261118_0003872327"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1tQ1V4a3dBX0tDZHZXODJoLU5lZTV0bmhmcVAzaFp2a1hXWXpEUnY1Y3dkX3dyVkptcFRFVk93ZlFGZkRpMmF5LVc0Y1Y2UkliTkxGYVkwRno?oc=5",
-"t": "2026-11-18T07:06+09:00",
-"tok": [
-"뉴욕증시",
-"마감",
-"약보합세",
-"엔비디아",
-"일제히",
-"하락"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261118_0003872327"
-},
-{
-"kind": "속보",
-"link": "https://view.asiae.co.kr/article/2026111806133130755",
-"t": "2026-11-18T07:06+09:00",
-"tok": [
-"03",
-"P500",
-"뉴욕증시",
-"마감",
-"일제히",
-"하락"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261118_0003872327"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261118_0003872331",
-"t": "2026-11-18T07:06+09:00",
-"tok": [
-"공시",
-"엔비디아",
-"오도",
-"위반",
-"의혹",
-"조사",
-"증권거래소",
-"투자자"
-],
-"g": "https://www.newsis.com/view/NISX20261118_0003872331"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOT0czY1lWdEItSzBUYVozZ0xtYTljNUlIbFZneXN0dDNtcWJRVkRVQTJ4c1pKVDl6VHd3MTJCUXA0T1cyMWdzLWM0MzhzODJnRFFwS0h4cUxxQWlsQWQ0UVJwNXJCZWdkN3pXcDhOQ1hZNlR6NnRPeVNmWUY5MTNtUEY3eDc5Vnp2eUt2dEVkTkNDNkxxazg1cFJRN0JvZWwweHRYU050dG1wUFJtNGpxeUF5NEdMenZlWndJX2FnSDM4MFZBczc2Z1Z4RUJweVZQcnpjS2I1QURrOTd4cG9pVTA4Z21Pemdta0traVVWdkdPNXYzblFxZ3NsMUthX1lKSFVYQkJYMmc0ZjRUV2d1TGdLUU96WUE?oc=5",
-"t": "2026-11-18T07:06+09:00",
-"tok": [
-"4월",
-"경계감에",
-"나스닥",
-"뉴욕증시",
-"마감",
-"실적",
-"엔비디아",
-"이후",
-"최저치",
-"하락",
-"한때"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261118_0003872327"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5EcmRLYVhKbW5LTDRiWE9CVHR1NWlQNDhoeVktNWhRb0NQV255THB0NlBOY2ZTcmNFSlpfdEdRNlNuZlFweFZPdnNHclpTdGJQRlRZZmJZZzdDbzll?oc=5",
-"t": "2026-11-18T07:06+09:00",
-"tok": [
-"매출",
-"분기",
-"상회",
-"시장",
-"엔비디아",
-"예상",
-"전망"
-],
-"g": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5EcmRLYVhKbW5LTDRiWE9CVHR1NWlQNDhoeVktNWhRb0NQV255THB0NlBOY2ZTcmNFSlpfdEdRNlNuZlFweFZPdnNHclpTdGJQRlRZZmJZZzdDbzll?oc=5"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxd2pKWDU4TWxWZzE3MkRNcDVLMFRzSDhBcXVnUzRWM2JpOThUQ184VlV6TzNiZVpTOWl6b0hBRkYwQnJreHRuUVY3NnozU2pvd29sNlRkY3RjdTVIS3BqR1NZd3dCTFk?oc=5",
-"t": "2026-11-18T07:06+09:00",
-"tok": [
-"4분기",
-"급등",
-"매출",
-"상회",
-"시간외",
-"엔비디아",
-"예상",
-"전망",
-"주가",
-"최대"
-],
-"g": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5EcmRLYVhKbW5LTDRiWE9CVHR1NWlQNDhoeVktNWhRb0NQV255THB0NlBOY2ZTcmNFSlpfdEdRNlNuZlFweFZPdnNHclpTdGJQRlRZZmJZZzdDbzll?oc=5"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261118_0003872333",
-"t": "2026-11-18T07:06+09:00",
-"tok": [
-"매출",
-"상회",
-"순익",
-"실적",
-"없는",
-"엔비디아",
-"예상치",
-"젠슨"
-],
-"g": "https://www.newsis.com/view/NISX20261118_0003872333"
-},
-{
-"kind": "속보",
-"link": "http://www.edaily.co.kr/news/newspath.asp?newsid=01518646645647032",
-"t": "2026-11-18T07:06+09:00",
-"tok": [
-"1158억달러",
-"3Q",
-"4Q",
-"매출",
-"상회",
-"실적",
-"엔비디아",
-"예상",
-"전망"
-],
-"g": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5EcmRLYVhKbW5LTDRiWE9CVHR1NWlQNDhoeVktNWhRb0NQV255THB0NlBOY2ZTcmNFSlpfdEdRNlNuZlFweFZPdnNHclpTdGJQRlRZZmJZZzdDbzll?oc=5"
-},
-{
-"kind": "속보",
-"link": "https://www.hankyung.com/article/2026111832457",
-"t": "2026-11-18T07:06+09:00",
-"tok": [
-"4분기",
-"급등",
-"매출",
-"상회",
-"시간외",
-"엔비디아",
-"예상",
-"전망"
-],
-"g": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5EcmRLYVhKbW5LTDRiWE9CVHR1NWlQNDhoeVktNWhRb0NQV255THB0NlBOY2ZTcmNFSlpfdEdRNlNuZlFweFZPdnNHclpTdGJQRlRZZmJZZzdDbzll?oc=5"
-},
-{
-"kind": "속보",
-"link": "https://www.hankyung.com/article/202611183246i",
-"t": "2026-11-18T07:06+09:00",
-"tok": [
-"거래서",
-"기대",
-"반등",
-"시간외",
-"실적에",
-"엔비디아",
-"이상",
-"주가"
-],
-"g": "https://www.hankyung.com/article/202611183246i"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1QdERJelVSbW8yRFVVRmVqMUtNbkVYLWZSZG51YU5pTXc2YkUwel9Va0hHX01hTWR3RFBUbXBldnF5cUVmeXp4ek90T2tIRTZM?oc=5",
-"t": "2026-11-18T07:06+09:00",
-"tok": [
-"뉴욕증시",
-"다우",
-"마감",
-"일제",
-"하락"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261118_0003872327"
-},
-{
-"kind": "속보",
-"link": "https://www.hankyung.com/article/202611183225i",
-"t": "2026-11-18T07:06+09:00",
-"tok": [
-"3분기",
-"상승",
-"상회",
-"시간외에서",
-"엔비디아",
-"컨센"
-],
-"g": "https://www.hankyung.com/article/202611183225i"
-},
-{
-"kind": "속보",
-"link": "https://www.hankyung.com/article/202611183252i",
-"t": "2026-11-18T07:06+09:00",
-"tok": [
-"AI",
-"거래서",
-"땡큐",
-"반도체주",
-"상승폭",
-"시간외",
-"엔비디아",
-"키워"
-],
-"g": "https://www.hankyung.com/article/202611183246i"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9uV253ZmxqZHM1R0NMeW5KVGRPR0ZtSVQzQ3F5MmlKODEweFRNcF9NTFdHdnZSMzFuUGE0VFc4NGRFd1lzdmlVU0lzLVBSaUxX?oc=5",
-"t": "2026-11-18T07:06+09:00",
-"tok": [
-"3Q",
-"급등",
-"시간외서",
-"어닝서프",
-"엔비디아"
-],
-"g": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9uV253ZmxqZHM1R0NMeW5KVGRPR0ZtSVQzQ3F5MmlKODEweFRNcF9NTFdHdnZSMzFuUGE0VFc4NGRFd1lzdmlVU0lzLVBSaUxX?oc=5"
-},
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBRS3NQODJqcVNHblNSbkZtbW90TUZNZDJ2bFNVcDl5SFZjSjlxa0JXY3E2M2hBX0VJUUlvX0liOUxDOG5qNVV0cURnd3V5dzhaNU1tS0VURHk?oc=5",
-"t": "2026-11-18T07:06+09:00",
-"tok": [
-"AI",
-"로봇기업",
-"삼성전자",
-"엔비디아",
-"제네시스AI",
-"투자",
-"프랑스"
-]
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE03SzdoRnYtUkpMTDhXSFBDeWxFaWdfLW52TnZNRzRSTHpXODRCRkhqUlBfUXd1alJYbzBLLXNFMFBaUVlKM1ljQ0JpWlZYZ2x2cXQxRFFoTEgwNmxKUG1kTGk4SXRYVWc?oc=5",
@@ -11865,6 +11568,105 @@
 "투매",
 "투자"
 ]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhOVVaaVAtNTFfVGJxc0tNMkZtWXNwR0xldEsyVW1pMFowSTNpX3dVWFI5WVdIVTFVRXR2ZVRpc0I5UU5sVW5WVjNXenpsNV95NTFlc2ZXRk94RGh5YWlnNFg1TTl0THNL?oc=5",
+"t": "2026-11-26T07:06+09:00",
+"tok": [
+"10",
+"공모가",
+"급락",
+"마이크론",
+"앤트로픽",
+"엔비디아",
+"주가",
+"추락",
+"하회"
+],
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhOVVaaVAtNTFfVGJxc0tNMkZtWXNwR0xldEsyVW1pMFowSTNpX3dVWFI5WVdIVTFVRXR2ZVRpc0I5UU5sVW5WVjNXenpsNV95NTFlc2ZXRk94RGh5YWlnNFg1TTl0THNL?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261126_0003883605",
+"t": "2026-11-26T07:06+09:00",
+"tok": [
+"69",
+"AI",
+"나스닥",
+"뉴욕증시",
+"마감",
+"우려",
+"투자",
+"혼조"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261126_0003883605"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ZYkxLcFJxSW43TVJUbjk4a1lfbW9hbG96TEVEMklBVHEwWUpwUEZtaWw3a2R2YWphWTczSmFJMWNyRVh1QjlNaFh4cXo5TlA3T3A1bFIxTno?oc=5",
+"t": "2026-11-26T07:06+09:00",
+"tok": [
+"AI주",
+"낙폭",
+"뉴욕증시",
+"다우",
+"마감",
+"반등",
+"축소",
+"투매에도"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261126_0003883605"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9qQmFRRllja09PSnd6ZWNKN3Zrd0E1aUk4OUdERkMxT3lieWw1RGF3VWduVUVNS294ZWdVT0Q5d24xdldiMkUtbHJUX0QwZjg4X0RBSw?oc=5",
+"t": "2026-11-26T07:06+09:00",
+"tok": [
+"AI",
+"관세",
+"나스닥",
+"뉴욕증시",
+"마감",
+"매도세",
+"우려",
+"혼조"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261126_0003883605"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026112605595166098",
+"t": "2026-11-26T07:06+09:00",
+"tok": [
+"33",
+"뉴욕증시",
+"다우",
+"마감",
+"반등해",
+"혼조"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261126_0003883605"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5UOXNfdFc5eHd5RkxPOThWOHAyVE9pWWRJbVJwSjZnQzVNTUJabS1CbU4zN21GRFNHVHBVdzQ3TGtQUUpwVzNtRUNCemlIVG8wSFpJ0gFYQVVfeXFMUDJqR0V0T25FdDJKR24zdjVldXhlNzVjV2d1WUZXNVMzUjFxaDNfb3F6N1FwZVFOd1NZeUpMQ2tLZUtjQ0RVaUNWNnI1NmRmQjFEay0xcGx6Sw?oc=5",
+"t": "2026-11-26T07:06+09:00",
+"tok": [
+"급락에",
+"나스닥",
+"낙폭",
+"막판",
+"엔비디아",
+"장중",
+"축소"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261126_0003883605"
 }
 ]
 }
