@@ -1,35 +1,6 @@
 {
-"updated": "2026-11-26T04:06+09:00",
+"updated": "2026-11-26T05:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://www.chosun.com/economy/industry-company/2026/11/18/GYDUKXVEDNBWVA62M3ZXP67PZQ/",
-"t": "2026-11-18T05:06+09:00",
-"tok": [
-"결정",
-"공장",
-"반도체",
-"으로",
-"호남"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850737&plink=RSSLINK&cooper=RSSREADER",
-"t": "2026-11-18T05:06+09:00",
-"tok": [
-"15만",
-"공공부문",
-"동참해",
-"시위",
-"요구",
-"인상",
-"임금",
-"파업",
-"프랑스",
-"학생"
-]
-},
 {
 "kind": "속보",
 "link": "https://www.fnnews.com/news/202611180601258176",
@@ -11800,6 +11771,36 @@
 "지원금으로",
 "지하",
 "징역"
+]
+},
+{
+"kind": "단독",
+"link": "https://www.donga.com/news/Economy/article/all/20261126/135091976/2",
+"t": "2026-11-26T05:06+09:00",
+"tok": [
+"20",
+"AI",
+"고복지",
+"고연봉",
+"늘듯",
+"덮쳐",
+"쇼크",
+"은행권도",
+"일자리",
+"희망퇴직"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9sSjdYd3VKNV9LTHNYZkpUOW01Q0ZlRUx0TW1XSWNKN2g1MlpHUDZoalBnek5PUmJPY1Bzd3pNQzBzUHRoRmkweWxsNGpxNkQ0Y2k2ekhJSV81T25iUFBuSVlZTm80anVuSzR0ZHpJTFVic0N4cXfSAWZBVV95cUxOVU8xUDZmcFFiWEI2SmJKTVNCOTE5WF9WeWV0TmxLQUhpazRmSmJzVlVoTGwtcElieWJ3cnc4NmJ0MnpTaDc2RjBYWFA1LWFrLXZESnBIclhldzlHMlpzWEJIWUtpNmc?oc=5",
+"t": "2026-11-26T05:06+09:00",
+"tok": [
+"10월",
+"78",
+"보이스피싱",
+"전북",
+"줄어",
+"피해금액"
 ]
 }
 ]
