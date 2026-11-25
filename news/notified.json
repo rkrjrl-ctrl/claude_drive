@@ -1,18 +1,6 @@
 {
-"updated": "2026-11-25T20:06+09:00",
+"updated": "2026-11-25T21:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1qbmFzeUw0X1VNVlJGOE1ITjhGaXNGZ05SS2ptMmE4OFBZTkxGQ0xYWXNuZ2tLRVhkTkxEcFZNYTdGSkJTRDVLckVuUmpabFRjM1E3X2xn?oc=5",
-"t": "2026-11-17T21:06+09:00",
-"tok": [
-"D램",
-"삼성전자",
-"애플",
-"장기공급계약",
-"초읽기"
-]
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wdDUwRzktc3Q3akF4OEkyTUprWnVvOE5JWm9GUFdjS3JTUzN4dHZWRnZZT1JVaTlfUGRNYWFJeEtsUUJZbVZ6M1MzSXdDYmxmMlByUWVZZUpQbWZRUEhLUG4zWlQwNXNL?oc=5",
@@ -11481,6 +11469,20 @@
 "코리아",
 "토스",
 "핀테크"
+]
+},
+{
+"kind": "단독",
+"link": "https://news.jtbc.co.kr/article/NB12329780",
+"t": "2026-11-25T21:06+09:00",
+"tok": [
+"받은",
+"법률행위",
+"재산",
+"지만",
+"치매노인",
+"하이파이브",
+"했다"
 ]
 }
 ]
