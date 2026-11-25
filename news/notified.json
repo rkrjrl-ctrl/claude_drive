@@ -1,36 +1,6 @@
 {
-"updated": "2026-11-25T18:06+09:00",
+"updated": "2026-11-25T19:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://www.hankyung.com/article/2026111726651",
-"t": "2026-11-17T19:06+09:00",
-"tok": [
-"1200억",
-"CGV",
-"CJ",
-"무산",
-"물어낼",
-"상장",
-"홍콩증시",
-"후폭풍"
-]
-},
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oT1RwSnVfVk5KRGxEaUcxUEpibUZXdnlJNGpaUFdYekRRVW0xcDJFUXBBMXp3YmVFZHZYSlV6MDVMZHdxU3NmbWdORm4zLTlVd0ZEWkVHdjRSYUhJOXpJRg?oc=5",
-"t": "2026-11-17T19:06+09:00",
-"tok": [
-"10개",
-"국토위",
-"돌린",
-"미래기금으로",
-"사업",
-"원복",
-"제동",
-"청년월세"
-]
-},
 {
 "kind": "단독",
 "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1qbmFzeUw0X1VNVlJGOE1ITjhGaXNGZ05SS2ptMmE4OFBZTkxGQ0xYWXNuZ2tLRVhkTkxEcFZNYTdGSkJTRDVLckVuUmpabFRjM1E3X2xn?oc=5",
@@ -11346,6 +11316,94 @@
 "주택",
 "지시",
 "추미애"
+]
+},
+{
+"kind": "단독",
+"link": "https://www.hankyung.com/article/2026112503211",
+"t": "2026-11-25T19:06+09:00",
+"tok": [
+"가상자산",
+"거래소",
+"금융사",
+"노린다",
+"영토확장",
+"인수할",
+"절반",
+"지분"
+]
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5uVVN5Nl93U0NXckFOOWdUWjdkeGxwRlp0bW53aWZ1NmozLUZwRGFtbDRNUi0yaTl2eTlSdC01Sl9Bak9yZ3plSmVqUGxXcE1YazZDNGRfRFAxQQ?oc=5",
+"t": "2026-11-25T19:06+09:00",
+"tok": [
+"9배",
+"골프",
+"늘었다",
+"사람",
+"줄었는데",
+"치는",
+"홀인원보험은"
+]
+},
+{
+"kind": "단독",
+"link": "https://news.jtbc.co.kr/article/NB12329830",
+"t": "2026-11-25T19:06+09:00",
+"tok": [
+"2심",
+"곳곳",
+"맞나",
+"면밀히",
+"살핀",
+"오기",
+"오타",
+"판결문"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4446538",
+"t": "2026-11-25T19:06+09:00",
+"tok": [
+"3년",
+"국고",
+"금통위",
+"급락",
+"대기",
+"마감",
+"매수",
+"진입",
+"채권",
+"코스피"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOd2lfXzBVd0F3TTFlY1BXQi1WVlRzVGJtdnBNMzRwMV9kMUpMeE5qeW02d1NfbUVWQ3RWYlJTN3lUUGVoT3pRUUFzeG9ZU0UtXzYzWjZtV2dYTC0tYzRiaERtYk40ME1EdVVUcmdLMGI2dnNUUW5uQ3otVHJLcWhjUXhGNmhlMUNxdm1R?oc=5",
+"t": "2026-11-25T19:06+09:00",
+"tok": [
+"56명",
+"6억",
+"부울경서",
+"부정수급",
+"실업급여",
+"적발"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.hankyung.com/article/2026112502951",
+"t": "2026-11-25T19:06+09:00",
+"tok": [
+"83",
+"대신",
+"연장",
+"재고용",
+"정년",
+"택했다",
+"퇴직"
 ]
 }
 ]
