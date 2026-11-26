@@ -1,76 +1,6 @@
 {
-"updated": "2026-11-26T23:06+09:00",
+"updated": "2026-11-27T00:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sZXNfZXZvdUdEYWUzdGtNX1FUNHBxUlJsSEpFWE9RVzV6Q3hmYTcyYTlxb0tJY1FSdjFpR3RVb1hPc0JZWndXUGN1N3ZGSFZ6WHB3MFdlNHdRMmV4bHVpY1NLY2dCRklqcThDaTVn?oc=5",
-"t": "2026-11-19T00:06+09:00",
-"tok": [
-"7배",
-"IPO",
-"경쟁률",
-"공모가",
-"공모주",
-"상단",
-"앤트로픽",
-"이상",
-"전망",
-"청약"
-],
-"g": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sZXNfZXZvdUdEYWUzdGtNX1FUNHBxUlJsSEpFWE9RVzV6Q3hmYTcyYTlxb0tJY1FSdjFpR3RVb1hPc0JZWndXUGN1N3ZGSFZ6WHB3MFdlNHdRMmV4bHVpY1NLY2dCRklqcThDaTVn?oc=5"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261118_0003874093",
-"t": "2026-11-19T00:06+09:00",
-"tok": [
-"29",
-"78",
-"공모가",
-"나스닥",
-"뉴욕",
-"다우",
-"발표",
-"앤트로픽",
-"증시",
-"출발",
-"혼조세"
-],
-"m": 1,
-"g": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sZXNfZXZvdUdEYWUzdGtNX1FUNHBxUlJsSEpFWE9RVzV6Q3hmYTcyYTlxb0tJY1FSdjFpR3RVb1hPc0JZWndXUGN1N3ZGSFZ6WHB3MFdlNHdRMmV4bHVpY1NLY2dCRklqcThDaTVn?oc=5"
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5WMkY4VnFnZmFnaUM0WU9ubTA5VF9ad1VNeEhuNFVYU2N4Y3VrOG5DbG40U0QzNEZHeHl1cFVjME01RWNYd3A2RFhDWlJraEhpMUxGUGMzT3LSAVhBVV95cUxOVjJGOFZxZ2ZhZ2lDNFlPbm0wOVRfWndVTXhIbjRVWFNjeGN1azhuQ2xuNFNEMzRGR3h5dXBVYzBNNUVjWHdwNkRYQ1pSa2hIaTFMRlBjM09y?oc=5",
-"t": "2026-11-19T00:06+09:00",
-"tok": [
-"DB형",
-"변수",
-"수급",
-"연말",
-"이동",
-"자금",
-"퇴직연금",
-"한투증권",
-"회사채"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9yZ3pnWFFvVGdFOE1JS0FxLVBFMm9xeWd3YkViQjh1LUdXTUROdjVWV2hkdFc3eFE5Wk1aWVprNHJGX3l6TFpMQ0h5M1lLdjNQR283Q3BLelBuR1dVMDNDLURXRm4tVUF4cWVnbg?oc=5",
-"t": "2026-11-19T00:06+09:00",
-"tok": [
-"10년",
-"간호조무사",
-"경력자도",
-"수준",
-"없어",
-"예외",
-"이하",
-"절반이",
-"최저임금"
-]
-},
 {
 "kind": "주목",
 "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBkTTF5dVJqNjNFZnAyR3FWN0Z0ZmlTNXZ2VkxrRjRBY0loWnlYWE81WDVlSHc5WVNqRmR5MXl1ME40SGxxWW80TndmZ0VIbTFuVkNVTlB5U0ZFbS1TWG1EQWM0UGNMUTBG?oc=5",
@@ -13681,6 +13611,21 @@
 ],
 "m": 1,
 "g": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA3WjZkZXNFR0hhY2hiNktYMHhIMFBtZEhkMllfU0Z5UzlYeUJEU2lDYjRjT3BaM0FNWnRadFk0TUU5d1p2UGp0bXRFenZyYWdZbGJtMUxuazdNal9icEtiT3B4UldwbkMtUURwY21xUQ?oc=5"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5GbzY5YW5IblFMSTQ4X1VHX0RFQ0l6ZVNaTmdVUllnSmIwbENzdUw3Z1BQVklnVGpEZy1nUlozc1NrZFBSMjE0dTJsQkx6enNyNWVKZE9wNW9XdmN6ZUoxdlk2Ukc0WVBLeV96Zg?oc=5",
+"t": "2026-11-27T00:06+09:00",
+"tok": [
+"11월부터",
+"288만",
+"건강보험료",
+"건보료",
+"대체",
+"세대",
+"왜이래요",
+"인상"
+]
 }
 ]
 }
