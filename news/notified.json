@@ -1,22 +1,6 @@
 {
-"updated": "2026-11-26T20:06+09:00",
+"updated": "2026-11-26T21:06+09:00",
 "items": [
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE15NnNETDE0eURxUl9hTXNQQmdYTk9OTmpJQVJxTlcxU21OZzFVYThpM2lzOFJrTEx6b1RPTDBKV0NJRlBqaUcwek5ORQ?oc=5",
-"t": "2026-11-18T21:06+09:00",
-"tok": [
-"고의사고",
-"금감원",
-"보험사기",
-"사회",
-"수사",
-"의뢰",
-"자동차",
-"적발",
-"킥보드"
-]
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sZXNfZXZvdUdEYWUzdGtNX1FUNHBxUlJsSEpFWE9RVzV6Q3hmYTcyYTlxb0tJY1FSdjFpR3RVb1hPc0JZWndXUGN1N3ZGSFZ6WHB3MFdlNHdRMmV4bHVpY1NLY2dCRklqcThDaTVn?oc=5",
@@ -13662,6 +13646,24 @@
 "지원",
 "창녕군"
 ]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1rOFdCN0Nub2FfWGRuRmJlWF81T00xUmpwWURNS3ViV3VtbzduZDZ2STVHdTFkQXlsdEhEeG9Qd1ZBT3FFcW1VUWFvdUg3OHRrQVFSRzFiN2xsUzNCb0hVWDJB?oc=5",
+"t": "2026-11-26T21:06+09:00",
+"tok": [
+"19만",
+"1년",
+"1인당",
+"200만",
+"73만",
+"급증",
+"대상",
+"종부세",
+"주택",
+"평균"
+],
+"g": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1rOFdCN0Nub2FfWGRuRmJlWF81T00xUmpwWURNS3ViV3VtbzduZDZ2STVHdTFkQXlsdEhEeG9Qd1ZBT3FFcW1VUWFvdUg3OHRrQVFSRzFiN2xsUzNCb0hVWDJB?oc=5"
 }
 ]
 }
