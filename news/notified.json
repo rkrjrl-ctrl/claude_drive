@@ -1,154 +1,6 @@
 {
-"updated": "2026-11-26T15:06+09:00",
+"updated": "2026-11-26T16:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://www.hankyung.com/article/202611184176i",
-"t": "2026-11-18T16:06+09:00",
-"tok": [
-"도입",
-"분기배당",
-"빗장",
-"상장사",
-"수시배당제",
-"여야",
-"푼다",
-"합의"
-]
-},
-{
-"kind": "단독",
-"link": "https://www.hankyung.com/article/202611184826i",
-"t": "2026-11-18T16:06+09:00",
-"tok": [
-"150억",
-"낮췄다",
-"없이",
-"원가",
-"원료",
-"정부",
-"지원금",
-"천보",
-"확보"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261118134700008",
-"t": "2026-11-18T16:06+09:00",
-"tok": [
-"067",
-"5천피",
-"마감",
-"오른",
-"코스피",
-"탈환",
-"하루만에"
-],
-"m": 1,
-"g": "https://www.yna.co.kr/view/AKR20261118134700008"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261118_0003873486",
-"t": "2026-11-18T16:06+09:00",
-"tok": [
-"12",
-"662",
-"75포인트",
-"81",
-"96",
-"마감",
-"오른",
-"코스닥"
-],
-"m": 1,
-"g": "https://www.yna.co.kr/view/AKR20261118134700008"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5JZmdiUmpQbzVveG8tSFpGR1ZQZEtvWGYwWlhCZ0FsZmwtTklwUVdMaHV6eGRVcnhYQURaeDhBT2hhVURvR3hDVEtNUEtyUmJfbVBodA?oc=5",
-"t": "2026-11-18T16:06+09:00",
-"tok": [
-"12",
-"662",
-"75p",
-"81",
-"96",
-"마감",
-"오른",
-"코스닥"
-],
-"m": 1,
-"g": "https://www.yna.co.kr/view/AKR20261118134700008"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261118_0003873523",
-"t": "2026-11-18T16:06+09:00",
-"tok": [
-"0원",
-"1333",
-"2원",
-"내린",
-"달러",
-"마감",
-"환율"
-],
-"m": 1,
-"g": "https://www.yna.co.kr/view/AKR20261118134700008"
-},
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261118142300004",
-"t": "2026-11-18T16:06+09:00",
-"tok": [
-"LEET",
-"광역수사단",
-"만점자",
-"배당",
-"서울청",
-"수사",
-"엄정",
-"의혹"
-],
-"g": "https://www.yna.co.kr/view/AKR20261118142300004"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261118_0003873605",
-"t": "2026-11-18T16:06+09:00",
-"tok": [
-"2건",
-"AI",
-"고발",
-"광수단",
-"리트",
-"만점자",
-"배당",
-"서울청",
-"의혹",
-"컨닝"
-],
-"g": "https://www.yna.co.kr/view/AKR20261118142300004"
-},
-{
-"kind": "속보",
-"link": "https://biz.chosun.com/topics/topics_social/2026/11/18/LNP4Z2H5YVHPLBU4WQLRGL346U/",
-"t": "2026-11-18T16:06+09:00",
-"tok": [
-"고발",
-"광역수사단",
-"리트",
-"만점자",
-"배당",
-"사건",
-"서울경찰청",
-"수사",
-"엄정"
-],
-"g": "https://www.yna.co.kr/view/AKR20261118142300004"
-},
 {
 "kind": "단독",
 "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNkZONG1GSEdTemZVaDJKY0pFd1VRSWVmU1k3Z3piekFqdFg3M1J5MGlBQ3VIS1l6M3YwNW9OYWhGRlZDRUc5SWJJWXNaOTlCN3FFNVQ3a19FMWFDVHVmM0dUZWcwOU1hbDRWV0pFT3N0T2h4R0d3bUNxamItbHhIeWF0SEpYbHc?oc=5",
@@ -13517,6 +13369,258 @@
 "제주서",
 "한전",
 "할인"
+]
+},
+{
+"kind": "gov",
+"link": "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492680&act=view",
+"t": "2026-11-26T16:06+09:00",
+"tok": [
+"2027년",
+"공개항목",
+"관리방안",
+"논의",
+"보고",
+"비급여",
+"확대"
+]
+},
+{
+"kind": "gov",
+"link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156791038",
+"t": "2026-11-26T16:06+09:00",
+"tok": [
+"22명",
+"26년",
+"88건",
+"결과",
+"기획조사",
+"수사의뢰",
+"실시",
+"의심",
+"적발",
+"전세사기"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261126135500004",
+"t": "2026-11-26T16:06+09:00",
+"tok": [
+"7천700억",
+"국제투자분쟁",
+"다야니",
+"배상안한다",
+"이란",
+"정부",
+"최종승소"
+],
+"g": "https://www.yna.co.kr/view/AKR20261126135500004"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aUjZMNDN3SXpsSHc5QktVQm41V2ROWGxJWWl6RE45SkZZWVI1YmMzeTA0X0lJa3BmN2l0Z1dfbHFNbngxMnVlWFJsLVlSWTBMX3ppWVVhV2F1TllnckJzLXJ1TFZWcHMyTkZtbQ?oc=5",
+"t": "2026-11-26T16:06+09:00",
+"tok": [
+"1년",
+"건보료",
+"올랐다",
+"인상"
+],
+"g": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aUjZMNDN3SXpsSHc5QktVQm41V2ROWGxJWWl6RE45SkZZWVI1YmMzeTA0X0lJa3BmN2l0Z1dfbHFNbngxMnVlWFJsLVlSWTBMX3ppWVVhV2F1TllnckJzLXJ1TFZWcHMyTkZtbQ?oc=5"
+},
+{
+"kind": "단독",
+"link": "https://www.fnnews.com/news/202611261423322086",
+"t": "2026-11-26T16:06+09:00",
+"tok": [
+"가전",
+"공세에",
+"대거",
+"물갈이",
+"삼성전자",
+"안방",
+"임원",
+"한국총괄",
+"흔들리는"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5CcU1nQUNnY3Vxd3BxblNyZS1UY0xkb1VLSDVWQ25ibC16NTZjTDlZeFE5cjhmejRCM2d4eEJHUkllWk1IQUJ5MTg5YlI5b0FOVml5b3gwMV9mTU0?oc=5",
+"t": "2026-11-26T16:06+09:00",
+"tok": [
+"18세",
+"5만",
+"국가가",
+"낸다",
+"넘어",
+"사전",
+"생애",
+"신청자",
+"연금보험료",
+"청년"
+],
+"g": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5CcU1nQUNnY3Vxd3BxblNyZS1UY0xkb1VLSDVWQ25ibC16NTZjTDlZeFE5cjhmejRCM2d4eEJHUkllWk1IQUJ5MTg5YlI5b0FOVml5b3gwMV9mTU0?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261126_0003884861",
+"t": "2026-11-26T16:06+09:00",
+"tok": [
+"07포인트",
+"655",
+"71마감",
+"78",
+"오른",
+"코스닥"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261126_0003884861"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261126_0003884859",
+"t": "2026-11-26T16:06+09:00",
+"tok": [
+"21에",
+"29",
+"4711",
+"강보합",
+"거래",
+"마감",
+"마쳐",
+"오른",
+"코스피"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261126_0003884861"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMU5icVV1TndHd0ozMXpPMGNkVjZma0N3SDlKdGFMMkkweDNid2FfZTFRcExxRG5wcmI4aGdQbmdoN0tITm9xN2VJMUhpTVRRNWF1bGNJa1VyTG5hRkxQT2RKWU5IZjdvUm42bG9tUUExTVVxX0QtbS1QY0pGZzJ3Zw?oc=5",
+"t": "2026-11-26T16:06+09:00",
+"tok": [
+"21",
+"29",
+"4711",
+"78",
+"마감",
+"오른",
+"코스닥은",
+"코스피"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261126_0003884861"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ISGxFX3FfQ2swdEZEb3I5Xzl5dTVPVFcwRGVObm11ai1JcFZPbkNDZGVpZTBObUpqSTYwMnE4ZFdyZ2tXRlBJdnEzcjVJZGpjSmdNcA?oc=5",
+"t": "2026-11-26T16:06+09:00",
+"tok": [
+"07p",
+"655",
+"71",
+"78",
+"마감",
+"오른",
+"코스닥"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261126_0003884861"
+},
+{
+"kind": "속보",
+"link": "https://biz.chosun.com/stock/stock_general/2026/11/26/GA2DSYJZGVSGINRSGBRWKN3CGM/",
+"t": "2026-11-26T16:06+09:00",
+"tok": [
+"29",
+"마감",
+"매물에",
+"반납",
+"상승",
+"상승분",
+"실현",
+"차익",
+"코스피"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261126_0003884861"
+},
+{
+"kind": "속보",
+"link": "https://biz.chosun.com/policy/policy_sub/2026/11/26/PENYN6DR6JHAXLDU76YGOUP4MU/",
+"t": "2026-11-26T16:06+09:00",
+"tok": [
+"1342",
+"5원",
+"7원",
+"내린",
+"달러",
+"환율"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261126_0003884861"
+},
+{
+"kind": "주목",
+"link": "https://www.edaily.co.kr/News/Read?newsId=03686726645649656",
+"t": "2026-11-26T16:06+09:00",
+"tok": [
+"55채",
+"88건",
+"높은",
+"매입",
+"의심",
+"적발",
+"전세금에",
+"전세사기",
+"주택",
+"집값보다"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5GeEtNQVBPaGx2VTJnWHV3d1VDM2E3cTRobDRfWThjYjBJa1FKRktkU1YzOXVxTmEwTm1ZajI2VFByWlNQTjMwbmtzQVVYUEdERXZ5a0IyaWVWQ1lBbnlYdjlTaHk?oc=5",
+"t": "2026-11-26T16:06+09:00",
+"tok": [
+"50",
+"전기예보",
+"전기요금",
+"제주",
+"탐라는",
+"한전",
+"할인"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1PNFljbHdESGx0NjE5VkpFc00yeXBKczhGcTc5SW4tTDhWN3dQTVhzNUo2YlI4em5ScjJCTDhZQkg0NTVFa0I1RzV2dWR1T04zMFNlM09Hbll4UGt4d3NfUUt6RQ?oc=5",
+"t": "2026-11-26T16:06+09:00",
+"tok": [
+"GH",
+"공기업",
+"돌려달라",
+"믿었다",
+"보증금",
+"신혼부부",
+"전세사기",
+"피해"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sOVJVTzdDRG1MUUNCY1dkVl85Y1B1bnY4eUNFN1dYOVc2R2dsVzR5MklfZmtwQ2tZOGVWWWQ1a1g0dVI0ckdCRkp0M2lhVmNwdFlqNkFrQm1Od9IBVEFVX3lxTFBGRTRkOEc2cGlwb01hS0tNZDN6YVluTTdZSlNMdzc1anZxN3Y3MkZucWgxbFZBLTlGdThISVlvaDlXMndycWQwVFQ5Q2Q2TW14X2VieQ?oc=5",
+"t": "2026-11-26T16:06+09:00",
+"tok": [
+"1457건",
+"부동산",
+"위법",
+"의심거래",
+"적발",
+"전세사기",
+"정부",
+"특별단속"
 ]
 }
 ]
