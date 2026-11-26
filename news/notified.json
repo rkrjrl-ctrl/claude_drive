@@ -1,51 +1,6 @@
 {
-"updated": "2026-11-26T12:06+09:00",
+"updated": "2026-11-26T13:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94ZzR6d2FZbXptQTR4R2EzS1Iyai0tUmRnUzlTVGdFSDFHS1RqM2hDaHV4TDN3MFZFeTRDNi1ESm9sR1lETWZpTFhjWngxcmxHRXNaNnp3?oc=5",
-"t": "2026-11-18T13:06+09:00",
-"tok": [
-"12억",
-"706세대에",
-"못받았다",
-"안내없어",
-"주거지원금",
-"추가신청",
-"탈북민"
-]
-},
-{
-"kind": "주목",
-"link": "https://www.insnews.co.kr/news/articleView.html?idxno=93904",
-"t": "2026-11-18T13:06+09:00",
-"tok": [
-"고의사고",
-"보험금",
-"보험사기",
-"자동차",
-"주의보",
-"편취",
-"허위입원으로"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1WUlloX0lKZ3ZfZ3J5QkZ0X2R6NGJoZ0pqOURuV3kzdUtWeVpYQmtnMkhuZ1BBaGtlZnkwVUx6RWR6QQ?oc=5",
-"t": "2026-11-18T13:06+09:00",
-"tok": [
-"70대",
-"8천만원",
-"경주우체국",
-"고객",
-"기지",
-"막아",
-"발휘해",
-"보이스피싱",
-"직원",
-"피해"
-]
-},
 {
 "kind": "속보",
 "link": "https://www.newsis.com/view/NISX20261118_0003873231",
@@ -13264,6 +13219,113 @@
 "이슈체크",
 "인상에",
 "집값"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.hankyung.com/article/2026112620127",
+"t": "2026-11-26T13:06+09:00",
+"tok": [
+"2000조",
+"3배밖에",
+"반도체",
+"불가",
+"설명",
+"수익",
+"시총",
+"안돼",
+"총재",
+"한은"
+],
+"g": "https://www.newsis.com/view/NISX20261126_0003884416"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026112612041131659",
+"t": "2026-11-26T13:06+09:00",
+"tok": [
+"3000조원",
+"700조원",
+"GDP",
+"넘을",
+"명목",
+"반도체",
+"신현송",
+"영업익",
+"훌쩍"
+],
+"g": "https://www.newsis.com/view/NISX20261126_0003884293"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026112612054935516",
+"t": "2026-11-26T13:06+09:00",
+"tok": [
+"3배밖에",
+"반도체",
+"설명하기",
+"시총",
+"신현송",
+"안되는",
+"영업익",
+"힘든"
+],
+"g": "https://www.newsis.com/view/NISX20261126_0003884293"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261126_0003884433",
+"t": "2026-11-26T13:06+09:00",
+"tok": [
+"가중치",
+"강세",
+"경기",
+"내년",
+"반도체",
+"성장",
+"아주",
+"연쇄",
+"전망도",
+"총재",
+"최근",
+"한은"
+],
+"g": "https://www.newsis.com/view/NISX20261126_0003884416"
+},
+{
+"kind": "속보",
+"link": "https://www.fnnews.com/news/202611261209021055",
+"t": "2026-11-26T13:06+09:00",
+"tok": [
+"긴축",
+"목표치",
+"물가",
+"시사",
+"신현송",
+"않은",
+"올리지",
+"전제로",
+"총재",
+"추가",
+"크게",
+"통화정책"
+],
+"g": "https://www.mt.co.kr/economy/2026/11/26/2026112610245558901"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBDSDV3X0ZtVzdYdnJLR0VBdFd1V2ktRGdFcS1QYjRFWnBlbUtzcGhEN1AxR2NXbGpzdjZPUURWMk5IN2g3enZuc2tpaXJ1WjBvdDFsOTg1V0NBbkVONE5HSkR4R3dibVlRLUhxSWd3RVcySW5p?oc=5",
+"t": "2026-11-26T13:06+09:00",
+"tok": [
+"AI가",
+"도입",
+"독감",
+"바로보상",
+"보험금",
+"지급까지",
+"척척",
+"청구부터",
+"카카오페이손보"
 ]
 }
 ]
