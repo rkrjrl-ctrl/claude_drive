@@ -1,118 +1,6 @@
 {
-"updated": "2026-11-26T16:06+09:00",
+"updated": "2026-11-26T17:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNkZONG1GSEdTemZVaDJKY0pFd1VRSWVmU1k3Z3piekFqdFg3M1J5MGlBQ3VIS1l6M3YwNW9OYWhGRlZDRUc5SWJJWXNaOTlCN3FFNVQ3a19FMWFDVHVmM0dUZWcwOU1hbDRWV0pFT3N0T2h4R0d3bUNxamItbHhIeWF0SEpYbHc?oc=5",
-"t": "2026-11-18T17:06+09:00",
-"tok": [
-"가능",
-"국힘",
-"무죄",
-"비상계엄",
-"없어도",
-"이래서",
-"추경호에",
-"판결",
-"해제"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.donga.com/news/Society/article/all/20261118/135047780/1",
-"t": "2026-11-18T17:06+09:00",
-"tok": [
-"광역수사단",
-"리트",
-"만점자",
-"배당",
-"서울청",
-"수사",
-"엄정",
-"의혹"
-],
-"g": "https://www.yna.co.kr/view/AKR20261118142300004"
-},
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1kaFYtM2sybXIzYTd3MVpvc3YybHVOeGdCeGZ6SWFBMk4yZkdnTVdpSFJKdnVHc19zbmxoZm5ZQlFiTDAySlZ3NGdBMm1nWFJsLTRCV05Zbm9Jb09qbXVmNUhn?oc=5",
-"t": "2026-11-18T17:06+09:00",
-"tok": [
-"맨해튼",
-"빌딩",
-"언제",
-"요구",
-"정보공개",
-"제이알글로벌리츠",
-"주주연대",
-"팔리냐"
-]
-},
-{
-"kind": "단독",
-"link": "https://www.fnnews.com/news/202611181459379892",
-"t": "2026-11-18T17:06+09:00",
-"tok": [
-"경찰청장",
-"계약",
-"김종철",
-"농지",
-"농지법",
-"뒤늦게",
-"상속",
-"위반",
-"의혹",
-"임대차",
-"체결",
-"후보자"
-]
-},
-{
-"kind": "단독",
-"link": "https://biz.chosun.com/stock/market_trend/2026/11/18/IMTT5XOHBFAEFBFI57RM6SIGJY/",
-"t": "2026-11-18T17:06+09:00",
-"tok": [
-"10여곳",
-"PEF",
-"금감원",
-"동아리",
-"불똥",
-"서울대",
-"운용사",
-"카르텔에",
-"현장점검"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9FeHhhZHZVdXFjM2dsZXV3RE1CVWVTdDNIYXIwTkdLYXNvR3hBUnNBaW56QWlkVTFBZ3FvWVBDTnl0c0hhenU1VlM5cVp2QkdfUTAxd0xWTjM?oc=5",
-"t": "2026-11-18T17:06+09:00",
-"tok": [
-"80차례",
-"금감원",
-"보험사기",
-"사고",
-"수사의뢰",
-"전동킥보드로"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4yTEFfZWNQaUFISXlSRVdfN0c0TzBueGctMHhQSGpjamtpTFFZcHdMdk03RTRDRUJrbmpaTTNUeXlpck01a1c0amI5NHY4ajA4MkV3eHNhT1MwcElUbXBtVmtOb2ptYTI0T3VrNTNsN1o?oc=5",
-"t": "2026-11-18T17:06+09:00",
-"tok": [
-"20대",
-"강진영",
-"막아",
-"보이스피싱",
-"순경",
-"여성",
-"중인가요",
-"통화",
-"피해",
-"혹시"
-]
-},
 {
 "kind": "단독",
 "link": "https://www.sedaily.com/article/20116106",
@@ -13621,6 +13509,84 @@
 "전세사기",
 "정부",
 "특별단속"
+]
+},
+{
+"kind": "단독",
+"link": "https://www.newsis.com/view/NISX20261126_0003884583",
+"t": "2026-11-26T17:06+09:00",
+"tok": [
+"65세",
+"감면",
+"양도세",
+"이상만",
+"이주",
+"주려던",
+"중장년층까지",
+"지방",
+"청년",
+"추진",
+"확대"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.fnnews.com/news/202611261319313025",
+"t": "2026-11-26T17:06+09:00",
+"tok": [
+"22명",
+"55채",
+"동원",
+"바지",
+"보증금으로",
+"사들이고",
+"수사의뢰",
+"의심",
+"임대인",
+"전세사기"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81U0ZCd0dmbE9JQ21vRU1GTlY5bndESzluTEc2b0RyQmJtVHZhYkdnbkNjdjJvZF9mb3dwZFJ0cHhERzlFLVNNSTh1Wk1SYXdUR295MVk0MzhBZ9IBX0FVX3lxTFBobExJYklyMGJCY0FxQ0MxNVI2NEZpLTN4UVF1SW8xLVRRQnpsVmEtUzlGRnA0SC1UX3JCemJ6a0ZBME5zOEVEY3VhM1VZRTEwZW9sVVNYMTFBVmlGV0V3?oc=5",
+"t": "2026-11-26T17:06+09:00",
+"tok": [
+"GH",
+"경기도",
+"관리",
+"대책",
+"마련",
+"방지",
+"사업서",
+"산하기관",
+"임대",
+"재발",
+"전세사기"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSWMtSVl2cDJDSWlBR3NKQVdDdm93VEhQN3Q4dm11Y1NMZlFEb2x3LVBCVTA1Z0ZDal9Hang1MGljUlZMWVFZdmxNT1JwcklJN2VKY1poRWw3YzV5aGU4cnlUTzVqLV9HajllLXp5ZUtLVlN3SHdCX2N1WE9jS2pmSDMyQmk0VW8?oc=5",
+"t": "2026-11-26T17:06+09:00",
+"tok": [
+"무주경찰",
+"보이스피싱",
+"예방",
+"전북은행",
+"피해"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.sedaily.com/article/20119361",
+"t": "2026-11-26T17:06+09:00",
+"tok": [
+"22명",
+"88건",
+"수사의뢰",
+"의심거래",
+"적발",
+"전세사기"
 ]
 }
 ]
