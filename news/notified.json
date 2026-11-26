@@ -1,55 +1,6 @@
 {
-"updated": "2026-11-26T10:06+09:00",
+"updated": "2026-11-26T11:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://www.mt.co.kr/stock/2026/11/18/2026111810424711532",
-"t": "2026-11-18T11:06+09:00",
-"tok": [
-"4000대로",
-"5000선",
-"다시",
-"만에",
-"코스피",
-"하루",
-"하회"
-],
-"m": 1,
-"g": "https://www.mt.co.kr/stock/2026/11/18/2026111810424711532"
-},
-{
-"kind": "주목",
-"link": "https://view.asiae.co.kr/article/2026111810242846257",
-"t": "2026-11-18T11:06+09:00",
-"tok": [
-"650",
-"SJ",
-"과제",
-"국가신약개발사업",
-"선정",
-"신라젠",
-"항암바이러스"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE82TUcydnRHUGZodGdUOHZGTkU2cml2US0wblN2Mzc5REcyTEhTU3NZUE11dVVNSFM2bk9rYVpZMS1Md1Z1WWxqaW1IMk5CSnpfaVJLVEVrcnp5MUUwU1lKRjZSNDNMQXJQdERINlhRRjBMT3p2QWxOMTg0Xzk?oc=5",
-"t": "2026-11-18T11:06+09:00",
-"tok": [
-"금융사기",
-"대응",
-"돋보기",
-"보호",
-"어르신",
-"연계해",
-"예방교육",
-"웰컴저축은행",
-"저축은행",
-"지속",
-"취약계층",
-"피해보상"
-]
-},
 {
 "kind": "gov",
 "link": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249905&menuNo=200218&pageIndex=1",
@@ -12489,6 +12440,258 @@
 "최저임금",
 "폭풍",
 "확정"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.hankyung.com/article/202611261251i",
+"t": "2026-11-26T11:06+09:00",
+"tok": [
+"25",
+"기준금리",
+"물가",
+"반도체",
+"부담에",
+"인상",
+"한은",
+"호황"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9PR3NYY3pocEltSjZtY1pGS01JQ0M5Z25Cbnh5aGxMY3c0ajl0ZDlHcjRTRUxDYlplYzVsNFZ4QWllc2hIYzN4NUtkS0NlZlcwbVRjZlZTR3Fsa0tWbjMtWGltTkNKQzZKc2V3UWRIbm5nTTFv0gF0QVVfeXFMT1BSbHpoQ2hIa214MlBta2hoVHNGYnFpamlIX3Jua04wd2thYzdSWUVITFVXNUR5cEhNVl9lSFhQdWZ0NUNDYXVnWVN0b1FsZDZ6aXJuaXhBbzU4WUYyd25UNmdOekYxTXd6Ul84Y3dkUWwwX0Y?oc=5",
+"t": "2026-11-26T11:06+09:00",
+"tok": [
+"25",
+"기준금리",
+"인상",
+"한은"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9PR3NYY3pocEltSjZtY1pGS01JQ0M5Z25Cbnh5aGxMY3c0ajl0ZDlHcjRTRUxDYlplYzVsNFZ4QWllc2hIYzN4NUtkS0NlZlcwbVRjZlZTR3Fsa0tWbjMtWGltTkNKQzZKc2V3UWRIbm5nTTFv0gF0QVVfeXFMT1BSbHpoQ2hIa214MlBta2hoVHNGYnFpamlIX3Jua04wd2thYzdSWUVITFVXNUR5cEhNVl9lSFhQdWZ0NUNDYXVnWVN0b1FsZDZ6aXJuaXhBbzU4WUYyd25UNmdOekYxTXd6Ul84Y3dkUWwwX0Y?oc=5",
+"t": "2026-11-26T11:06+09:00",
+"tok": [
+"25",
+"기준금리",
+"인상",
+"한은"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Zcm1yT0Y0Q0VDTTIycFRHRWNVa2tXaks2WGtmMGlwMDFISV9zSEJHdnl2RlZLbk9LbnVNOW5jdTFtR2V4V3BoQVFlZDk3VGFsZ0ZBTjE1VnRSeDFTenloOWNDQUJLcDRHWTNaRHhEbw?oc=5",
+"t": "2026-11-26T11:06+09:00",
+"tok": [
+"25",
+"기준금리",
+"만에",
+"인상",
+"한은"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nVWM5bm9JNVdGaktFbldHWTJ0Qmdya1dKOG92cWdDMXZfYmJrSTZ5N1V4RW5NYkZlMndKUlJYNDloUFBTVi02c0w2eTBXVUZCdm13dmlOZXVrQQ?oc=5",
+"t": "2026-11-26T11:06+09:00",
+"tok": [
+"25",
+"기준금리",
+"세번째",
+"연3",
+"인상",
+"한은"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tSnA1V2hkWDBIMklBTlg0U1hHOU1LN1VOczdxZGQwYzh4SW9FeUIzRm1KZE5va2Q1d2JMLVpVb3JwU0wwa3hjaDZfVDBpWVlWZnV4Y3psNHR2ZC1fcXhzWXdWUDUzX1p6MHV1Sjh6bUxUcFRGMXfSAWZBVV95cUxNT2hBRXNuT0FjS0FYMDA5TXJlcWF1bXBIa1Z6OVQxZlQtZzlrMlMzY05qcF9BZzlXVXYyc1p0QVBva2pxMTV5N2UwU180QW0tanlhZ0x6aEtTSDNwa0h5Wmxaa1pXeWc?oc=5",
+"t": "2026-11-26T11:06+09:00",
+"tok": [
+"25",
+"기준금리",
+"내년",
+"상향",
+"성장률",
+"인상",
+"한은"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE83cXFicDhCUWZ0TEgzZkJIYzhSWE9NUGFzRU4yMHRtcXluZ2pYSVd1MGxGNGRQZjFvdTlleTBILUQ2MUcxRWpuZjRiUEk0LXdQZ3VGdU5OdG1pYkYwSkVnakNTNDZmb0xQcUkyblgyZ9IBc0FVX3lxTFBERDZxdXJUeVdTc2U2UVdNZmN0bURhTUN6RmhiTnI0YU1TRVRSYWxMSURvLTJ0RTd3RzlxN002MzRmZGE1dVpVdFJZUkJZYlktYS1wVDJOTy1OS3JhSGZwYklwUld0U0dqd05sdFVYS2lEQjQ?oc=5",
+"t": "2026-11-26T11:06+09:00",
+"tok": [
+"25",
+"기준금리",
+"번째",
+"올해만",
+"인상",
+"한은"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE81UnBKcWhicm54Qk5wVEZscDZ6T21XYjhPYk5PU1NzQ2EybjZEZ2E2UlpzQVk5M0pmM1A2enVMR1JlVTlmc3JXLXE4b2xqcFF5blVQS1E4NC1hNjA?oc=5",
+"t": "2026-11-26T11:06+09:00",
+"tok": [
+"25",
+"가파른",
+"고공행진",
+"고려해",
+"기준금리",
+"깜짝",
+"내년",
+"따른",
+"물가",
+"반도체",
+"상향",
+"성장률",
+"성장세와",
+"인상",
+"전망",
+"한은",
+"호황에"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBpdlRJeGRFaXk0Q2lETGFwTDA5bXVkZUZVLVNOV0IxRmR2dEp0TFI3SDB6RGNncXZKWEN3bHFTZ3JEQ0pKZlRiTzUtN0tUVjNfOHJIVUlacm5CSjdNaWtWLWhkemxqVEk?oc=5",
+"t": "2026-11-26T11:06+09:00",
+"tok": [
+"25",
+"기준금리",
+"물가상승에",
+"반도체",
+"인상",
+"한은",
+"호황"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSVTg2ZDMyLWl2LXZCbjludWY0SFBOamM2UnR1Z3NWZDZqNUJJcTB6N0w5X3ZNaG5acUJHeE8xdld0Tk5YdzJPdDYwSmhrbW1TdFZaZnFDRVhUU1BFNlhKdERfcENaZzA?oc=5",
+"t": "2026-11-26T11:06+09:00",
+"tok": [
+"내년",
+"성장률",
+"전망",
+"한은"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261126070600002",
+"t": "2026-11-26T11:06+09:00",
+"tok": [
+"금통위원",
+"기준금리",
+"동결",
+"소수의견",
+"이수형",
+"황건일"
+],
+"g": "https://www.yna.co.kr/view/AKR20261126070600002"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261126_0003884156",
+"t": "2026-11-26T11:06+09:00",
+"tok": [
+"2명",
+"금리",
+"동결",
+"소수",
+"의견",
+"이수형",
+"한은",
+"황건일"
+],
+"g": "https://www.yna.co.kr/view/AKR20261126070600002"
+},
+{
+"kind": "단독",
+"link": "http://www.docdocdoc.co.kr/news/articleView.html?idxno=3044912",
+"t": "2026-11-26T11:06+09:00",
+"tok": [
+"1로",
+"3분의",
+"소아응급실",
+"압수수색",
+"여파",
+"의대생",
+"지망",
+"필수과"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.edaily.co.kr/News/Read?newsId=02381286645649656",
+"t": "2026-11-26T11:06+09:00",
+"tok": [
+"2명",
+"결정",
+"금통위",
+"기준금리",
+"동결",
+"소수의견",
+"인상"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026112609563780471",
+"t": "2026-11-26T11:06+09:00",
+"tok": [
+"계엄",
+"국무회의",
+"대법원",
+"무죄",
+"위증",
+"윤석열",
+"확정"
+],
+"g": "https://view.asiae.co.kr/article/2026112609563780471"
+},
+{
+"kind": "속보",
+"link": "https://www.hani.co.kr/arti/economy/economy_general/1289182.html",
+"t": "2026-11-26T11:06+09:00",
+"tok": [
+"00",
+"25",
+"기준금리",
+"인상",
+"한은"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBBZXNvT2VkR3hKTFItNnlXekpWSWJHOGxUb1VXb3VzQTFGTVBra2NRSWg2dWJLYmJvUE9wN2hzTW10ZXUyWnVnU1dKZ2pObFBzeHIxd0JNUk84aTJSTjByN3dBQ29rN3Y3WVVvWFh1TjkxM2RL?oc=5",
+"t": "2026-11-26T11:06+09:00",
+"tok": [
+"KB국민은행",
+"공모전",
+"나선다",
+"수기",
+"예방",
+"전세사기",
+"진행",
+"청년",
+"피해"
 ]
 }
 ]
