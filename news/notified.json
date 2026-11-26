@@ -1,68 +1,6 @@
 {
-"updated": "2026-11-26T11:06+09:00",
+"updated": "2026-11-26T12:06+09:00",
 "items": [
-{
-"kind": "gov",
-"link": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249905&menuNo=200218&pageIndex=1",
-"t": "2026-11-18T12:06+09:00",
-"tok": [
-"내고",
-"보험사기",
-"사고",
-"예방하세요",
-"유발까지",
-"음주운전",
-"이렇게",
-"자동차",
-"전동킥보드로",
-"차량",
-"표적"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261118_0003872999",
-"t": "2026-11-18T12:06+09:00",
-"tok": [
-"4950선",
-"엔비디아",
-"전환",
-"코스피",
-"털썩",
-"하락",
-"호실적에도"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261118_0003872999"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261118_0003873051",
-"t": "2026-11-18T12:06+09:00",
-"tok": [
-"개혁으로",
-"관세인하",
-"글로벌",
-"기업",
-"시진핑",
-"촉진",
-"투자"
-],
-"g": "https://www.newsis.com/view/NISX20261118_0003873051"
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TFRfa2k2REhES1RDYm5Ba3pIRUQtWS1WQmRoY3dUVFNzUVZ6R2tRMXJCbzJWS3VtZWx1a2ZscjFwUi1zVnA5aUZaZV9ldFB5dDNJMmxiUi1vdnl6bGswNEh4YVdHeE5kbDBURFpFZ2rSAXRBVV95cUxPeGphZHFyWlBMMzIyMVdFanhQT3ZoeG83Sjh4RkY0dTk3Z0VYWXRHckNoc0x3bWl0MkJ0WmxlblJPdnFTLTc2QXg4TkYycUlWZUh1UmFpRWFVY2hyNXg2VWxuTEhBd1RGM3RnUVF4T0ZUQTRBOQ?oc=5",
-"t": "2026-11-18T12:06+09:00",
-"tok": [
-"건강보험",
-"급여",
-"듀켐바이오",
-"신청",
-"유방암",
-"진단제"
-]
-},
 {
 "kind": "단독",
 "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94ZzR6d2FZbXptQTR4R2EzS1Iyai0tUmRnUzlTVGdFSDFHS1RqM2hDaHV4TDN3MFZFeTRDNi1ESm9sR1lETWZpTFhjWngxcmxHRXNaNnp3?oc=5",
@@ -12692,6 +12630,640 @@
 "진행",
 "청년",
 "피해"
+]
+},
+{
+"kind": "gov",
+"link": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=250030&menuNo=200218&pageIndex=1",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"경쟁을",
+"과도한",
+"낮추겠습니다",
+"보험",
+"보험료",
+"부담을",
+"소비자의",
+"억제하여",
+"판매수수료의"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE50RDVjX1JKalVjRVQ1aDJZaWZtb0U1aFp2ZGN5eEEwVXd6eHRucmtSX3hrc09sSjh5dW1jVmZaamxBMml1OEI1WnRqelJvdkRHc0ZjOFBiNkR3bXpQaHZBcUZfUE5kTHRkN3pTQ1Bkcl9jSWpL?oc=5",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"25",
+"기준금리",
+"인상",
+"한은"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026112611173784627",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"25",
+"2인",
+"기준금리",
+"동결",
+"소수",
+"신현송",
+"인상"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "속보",
+"link": "https://www.mt.co.kr/economy/2026/11/26/2026112610245558901",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"강한",
+"고려",
+"고유가",
+"긴축",
+"성장세",
+"신현송",
+"주요국",
+"지속",
+"흐름"
+],
+"g": "https://www.mt.co.kr/economy/2026/11/26/2026112610245558901"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026112611215122582",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"긴축",
+"대응",
+"때까지",
+"목표수준",
+"물가",
+"수렴한다는",
+"신현송",
+"확신들"
+],
+"g": "https://www.mt.co.kr/economy/2026/11/26/2026112610245558901"
+},
+{
+"kind": "속보",
+"link": "https://www.mt.co.kr/economy/2026/11/26/2026112610264997100",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"나눠",
+"반도체",
+"불확실성",
+"소수의견은",
+"신현송",
+"의견",
+"전술",
+"차이"
+],
+"g": "https://www.mt.co.kr/economy/2026/11/26/2026112610264997100"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026112611254354202",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"강한",
+"고유가",
+"대응",
+"물가안정",
+"성장세에",
+"신현송",
+"장기화",
+"중점",
+"필요"
+],
+"g": "https://www.mt.co.kr/economy/2026/11/26/2026112610245558901"
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261126089400002",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"2028년",
+"대응",
+"목표",
+"물가상승률",
+"선제",
+"수렴",
+"수준에",
+"총재",
+"한은"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "속보",
+"link": "https://www.fnnews.com/news/202611261117592520",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"대응",
+"때까지",
+"물가",
+"선제",
+"수렴될",
+"신현송",
+"안정적으로",
+"총재",
+"한은"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "속보",
+"link": "https://www.sedaily.com/article/20119256",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"긴축",
+"들때까지",
+"목표수준",
+"물가",
+"수렴한단",
+"신현송",
+"확신"
+],
+"g": "https://www.mt.co.kr/economy/2026/11/26/2026112610245558901"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261126_0003884278",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"금리",
+"대응",
+"물가상승세",
+"선제적",
+"신현송",
+"인상",
+"적용",
+"총재"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261126_0003884293",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"GDP",
+"IT",
+"내년",
+"무게",
+"비중",
+"성장률에",
+"신현송",
+"커지면서"
+],
+"g": "https://www.newsis.com/view/NISX20261126_0003884293"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261126_0003884358",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"2600조",
+"3000조",
+"GDP",
+"넘을",
+"명목",
+"작년",
+"총재",
+"한은",
+"훌쩍"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261126_0003884364",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"5분의",
+"700조",
+"국민소득",
+"규모",
+"반도체",
+"신현송",
+"영업이익",
+"이상이"
+],
+"g": "https://www.newsis.com/view/NISX20261126_0003884364"
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261126092000002",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"3천조원",
+"700조원",
+"명목GDP",
+"반도체",
+"상회",
+"영업익",
+"총재",
+"한은"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026112611350312783",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"700조",
+"국민소득",
+"반도체",
+"신현송",
+"영업이익이",
+"예상",
+"전체의"
+],
+"g": "https://www.newsis.com/view/NISX20261126_0003884364"
+},
+{
+"kind": "속보",
+"link": "https://www.hankyung.com/article/2026112619557",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"3000조원",
+"700조원",
+"명목GDP",
+"반도체",
+"상회",
+"영업익",
+"총재",
+"한은"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026112611362224421",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"걸리더라도",
+"국민경제로",
+"반도체",
+"블랙홀로",
+"사라지는",
+"시간",
+"신현송",
+"아냐",
+"영업이익",
+"환원"
+],
+"g": "https://www.newsis.com/view/NISX20261126_0003884364"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261126_0003884383",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"공급비용",
+"나와",
+"뒷받침",
+"물가에",
+"상승",
+"수요도",
+"양상",
+"전이",
+"총재",
+"크게",
+"한은"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "속보",
+"link": "https://www.sedaily.com/article/20119272",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"3000조",
+"700조",
+"명목GDP",
+"반도체",
+"상회",
+"신현송",
+"영업익"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026112611420739899",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"공급측",
+"뒷받침",
+"물가",
+"비용충격",
+"상승",
+"수요압력도",
+"신현송",
+"영향"
+],
+"g": "https://view.asiae.co.kr/article/2026112611420739899"
+},
+{
+"kind": "속보",
+"link": "https://www.mt.co.kr/economy/2026/11/26/2026112610282687243",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"3000조원",
+"GDP",
+"넘을",
+"명목",
+"신현송",
+"훌쩍"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "속보",
+"link": "https://www.mt.co.kr/economy/2026/11/26/2026112610294431256",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"5분의",
+"700조",
+"국민소득",
+"반도체",
+"신현송",
+"영업이익",
+"추정"
+],
+"g": "https://www.newsis.com/view/NISX20261126_0003884364"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026112611444549890",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"2028년",
+"대응",
+"목표",
+"물가상승률",
+"선제",
+"수렴",
+"수준에",
+"신현송"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026112611461857059",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"기준",
+"삼기",
+"수치",
+"신현송",
+"이론적",
+"잠재성장률이라는",
+"통화정책",
+"힘들어"
+],
+"g": "https://view.asiae.co.kr/article/2026112611461857059"
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026112611474864123",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"같아",
+"방향",
+"수정",
+"신현송",
+"오를",
+"외부",
+"잠재성장률",
+"전망들과",
+"전망치",
+"종전보다"
+],
+"g": "https://view.asiae.co.kr/article/2026112611474864123"
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261126097400002",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"내달",
+"높이는",
+"발표",
+"방향",
+"잠재성장률",
+"총재",
+"추정치",
+"한은"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1vZ01adjE1bW1oVHFqdDJ1R0lMOFFWMUc2YkY2SEhvcmZGZ2xQbnJpdHloeTZrZ0liVXdtWXRfZlNUSXBpUXVzRTVuOXk4a2d5TWYwbHZ5dTZsSThLTktGSEVlcFYzcmlBZEszQzhHSlotdw?oc=5",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"ETF",
+"디지털자산법",
+"마중물",
+"비트코인",
+"신탁업",
+"연다",
+"특례"
+]
+},
+{
+"kind": "속보",
+"link": "https://view.asiae.co.kr/article/2026112611514578977",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"근거",
+"내년",
+"불확실성",
+"성장률",
+"신현송",
+"실질",
+"없다",
+"충분한"
+],
+"g": "https://www.mt.co.kr/economy/2026/11/26/2026112610264997100"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261126_0003884416",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"2000조",
+"3년이면",
+"700조",
+"대비",
+"반도체",
+"수익",
+"시총",
+"신현송",
+"커져"
+],
+"g": "https://www.newsis.com/view/NISX20261126_0003884416"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261126_0003884408",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"글로벌",
+"긴축",
+"내리는",
+"상쇄",
+"상황",
+"신현송",
+"없을",
+"채권금리",
+"효과는"
+],
+"g": "https://www.mt.co.kr/economy/2026/11/26/2026112610245558901"
+},
+{
+"kind": "속보",
+"link": "https://www.mt.co.kr/economy/2026/11/26/2026112610475411532",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"3배",
+"금년",
+"낮은",
+"대비",
+"반도체",
+"수익",
+"시총",
+"신현송",
+"실적",
+"주가"
+],
+"g": "https://www.newsis.com/view/NISX20261126_0003884416"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5zblZDaExIR2hBQUxZU0ZVWms3bS1pZF90cmlMeVFtSWJOYklZanY5MHpnN0txeWJvX2M3bTdyQVRfWW96RWY3UzVkQWVtX1VKLTkyZ1ZndW9QUUNrVzc1ZmN5V1ZOSS0yenFqTjdESjlobzFZRTh6UtIBfkFVX3lxTE0zR0FNOEk3ZkFLcGFjWXY2NVBtNmpPVFoxd2xNcmdZa2ZQTkJYSXhfc01OYzd0bkZqUktMTGRNSlpDRHp0cVFYaGhLTk1WeHExV2NxNFlzTXg0Sm1LRlNFZGtKa1VoNlNnZzlublVsOE4tdDd3c2N2dHhZNDZodw?oc=5",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"3배",
+"금년",
+"낮은",
+"대비",
+"반도체",
+"수익",
+"시총",
+"신현송",
+"실적",
+"주가"
+],
+"g": "https://www.newsis.com/view/NISX20261126_0003884416"
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261126099500002",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"2천조",
+"3배밖에",
+"반도체",
+"불가",
+"설명",
+"수익",
+"시총",
+"안돼",
+"총재",
+"한은"
+],
+"g": "https://www.yonhapnewstv.co.kr/news/AKR20261126095042GzO"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261126_0003884420",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"가격을",
+"반도체",
+"봐야",
+"신현송",
+"심리에",
+"좌우",
+"주가보다",
+"주식시장"
+],
+"g": "https://www.newsis.com/view/NISX20261126_0003884420"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261126_0003884425",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"강세로",
+"경제적으로",
+"빠른",
+"소비",
+"신현송",
+"실질구매력",
+"저소득층",
+"증가",
+"환율",
+"효과"
+],
+"g": "https://www.newsis.com/view/NISX20261126_0003884425"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBncDN0V2lILXV1UnVZX01iTHNtTGtGV3RjU29yVjc1dWhSWXRsc090eFA1Z3JXb3ZaSXBFaDhudDFQR3d3QlJhTWM3R3QzUG84R090Vm1ZQWpsdU5oOEdTUDJVRnJYcDlKblJGNzV3?oc=5",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"68세",
+"국민연금",
+"기정사실",
+"수령설",
+"처럼",
+"퍼졌나"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5jU2N4REllNkI5c3BLcWdSbDRweTJELTlkRmR6V0dvcHRpdUJTRTZGR2Z1dnc1NE9Xc1BUMEJHOXFDeER3Mnkxb01vRTVVR0xIbjU2Y3djdGpnN25RS0tRY1poRUI5TldQenVaZEtQQ1NFeEg2LVRFQ1VWUnA?oc=5",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"25",
+"금통위",
+"기준금리",
+"마지막",
+"물가",
+"반도체",
+"반영",
+"성장",
+"압력",
+"인상",
+"중심",
+"한은"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5rT0oyajBDUFZPQ2tLa3NiQXo1bTZGenVEc0dYZXF1VXk3eWw2YUtGcUJsTXBySjlXSnk5bGNCempsSGZCSFdnV0xHeHBYMGdWRVJGMnpYQ2pTTmRKSVlCQQ?oc=5",
+"t": "2026-11-26T12:06+09:00",
+"tok": [
+"거래",
+"금리",
+"꺾일까",
+"반토막",
+"상승세",
+"서울",
+"아파트",
+"이슈체크",
+"인상에",
+"집값"
 ]
 }
 ]
