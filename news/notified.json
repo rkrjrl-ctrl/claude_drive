@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-26T13:06+09:00",
+"updated": "2026-11-26T14:06+09:00",
 "items": [
 {
 "kind": "속보",
@@ -13326,6 +13326,93 @@
 "척척",
 "청구부터",
 "카카오페이손보"
+]
+},
+{
+"kind": "gov",
+"link": "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492673&act=view",
+"t": "2026-11-26T14:06+09:00",
+"tok": [
+"84",
+"거친",
+"말기까지",
+"숙의",
+"시민패널",
+"시점",
+"연명의료",
+"유보",
+"의료혁신",
+"중단",
+"필요",
+"확대"
+]
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBmRmc3X0l5aVFhZ2t2WUttV0ZPWFNTZXAxSzNLRWZvMGhFM0VJeDJsLWtYNzZTTXhCbEpYM2hiM3ktS3NDUEJZMkR1OW10dHQxd0VJWWxDZGdMWXYzZmdXVW5HOEJ0VjJnb2x2MEl5S2tXWUx2LVlv?oc=5",
+"t": "2026-11-26T14:06+09:00",
+"tok": [
+"AI",
+"CCL",
+"TPU까지",
+"격화",
+"공급",
+"구글",
+"두산",
+"빅테크",
+"사실상",
+"엔비디아",
+"유력",
+"이어",
+"확보전"
+]
+},
+{
+"kind": "단독",
+"link": "https://www.hankyung.com/article/202611261686i",
+"t": "2026-11-26T14:06+09:00",
+"tok": [
+"골프기기로",
+"노리는",
+"반도체",
+"보이스캐디",
+"재기",
+"접고",
+"창업자",
+"홈골프"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.hitnews.co.kr/news/articleView.html?idxno=81120",
+"t": "2026-11-26T14:06+09:00",
+"tok": [
+"1심",
+"5년만에",
+"700억",
+"990억",
+"SD바이오센서에",
+"검체통",
+"래피젠",
+"배상",
+"분쟁",
+"승리",
+"판결"
+],
+"g": "https://www.hitnews.co.kr/news/articleView.html?idxno=81120"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9HWmcySlZsQldORm1CQkFDLVBhSHdkYXFLaGk2N0hmeGh6SHVWUzVfdU9zZWI5WTFGSjFwYXBJMnpqZ1BGWV9YUmZxaGJjemZGc3ZidnRKM2ExUGFVNWFNNzNkMVR2Y011XzhQZXlR?oc=5",
+"t": "2026-11-26T14:06+09:00",
+"tok": [
+"개정안",
+"건강보험",
+"대표발의",
+"박용갑",
+"본인부담상한제",
+"자동지급",
+"추진"
 ]
 }
 ]
