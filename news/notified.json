@@ -1,68 +1,6 @@
 {
-"updated": "2026-11-26T18:06+09:00",
+"updated": "2026-11-26T19:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://www.sedaily.com/article/20116126",
-"t": "2026-11-18T19:06+09:00",
-"tok": [
-"AIDC",
-"메운다",
-"보험",
-"사각지대",
-"삼성화재",
-"연합에",
-"정부",
-"합류"
-]
-},
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kMUVWaUgzMm9mLUZvZzNldUZ1cmlBY2hPWlNHQi05ZGNmT3pPRlB5bGk2SVNPNGFRenpVMlNYNUItQTBlN3A0cFcxSGRobkJhclc0T09zaVJlMktVSnRiYQ?oc=5",
-"t": "2026-11-18T19:06+09:00",
-"tok": [
-"14만톤",
-"반도체",
-"삼성",
-"수요",
-"용수",
-"차이",
-"하루",
-"하이닉스",
-"호남"
-]
-},
-{
-"kind": "단독",
-"link": "https://www.khan.co.kr/article/202611181856001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=society_news",
-"t": "2026-11-18T19:06+09:00",
-"tok": [
-"경찰",
-"발견",
-"수사",
-"시신",
-"신생아",
-"아파트",
-"하남시",
-"헌옷수거함에서"
-]
-},
-{
-"kind": "주목",
-"link": "https://www.insnews.co.kr/news/articleView.html?idxno=93916",
-"t": "2026-11-18T19:06+09:00",
-"tok": [
-"강화",
-"박성훈",
-"발의",
-"실손보험",
-"의료보장",
-"의원",
-"전역",
-"제대군인",
-"지원법"
-]
-},
 {
 "kind": "주목",
 "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5SdFhGc3E4OU4taldzSXFWMkdCbEc0WExkN0Y0X0RRZTVGbDhDYXZKbGtHNHliSldiUGtwXzhfdTlBUjlkZ29BYVhET0FqQ0VvOHdINi1wYmw3aXFsT0ZjSXk5R1poNjY1RFE?oc=5",
@@ -13660,6 +13598,57 @@
 "전세사기",
 "지원",
 "피해"
+]
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1nYXNJUTQ2YUVNN3U3QmpoRkczcTE5aW1kNXFNQjVWSnNaeFJxTGJTazZydEFPU29uOEcwRGlnb1g0S2lENWdMMy1Wb0gteF9xb2ZfNU1BcjQwZw?oc=5",
+"t": "2026-11-26T19:06+09:00",
+"tok": [
+"100만명에",
+"3000억",
+"걷은",
+"보험료",
+"오나",
+"환급사태"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9tTmlvdzVaZDRGMHBSLXhHaGRneDNjR09jc19UV0RzbUJjeHFkakd4SnNsbC04WXdxWldRdnpMNEZfRzc1QUFrVVZNbEN1NE1wdlE?oc=5",
+"t": "2026-11-26T19:06+09:00",
+"tok": [
+"강보합",
+"기관",
+"기준금리",
+"마감",
+"상승",
+"소폭",
+"순매수에",
+"인상",
+"코스닥도",
+"코스피"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GdzJoWWM2aVplek5hektfSXFEczZyZHhvSElNQkMzb2RBR2NKNTBLNFBCbURnT3V6T0VTQWxBaFZUVFBPT1E1UVNPLXIzVjR5LU1aS2VxRmhhelVpLUtUZ1R6VG1nODNxUTJ6aEtsdDVYSXM?oc=5",
+"t": "2026-11-26T19:06+09:00",
+"tok": [
+"2022년",
+"ETF",
+"금리",
+"낙폭",
+"비트코인",
+"연준",
+"월간",
+"유출",
+"이후",
+"인상",
+"자금",
+"전망에",
+"최악의",
+"향해"
 ]
 }
 ]
