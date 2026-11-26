@@ -1,67 +1,6 @@
 {
-"updated": "2026-11-27T06:06+09:00",
+"updated": "2026-11-27T07:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://www.hankyung.com/article/2026111960127",
-"t": "2026-11-19T07:05+09:00",
-"tok": [
-"80",
-"85달러",
-"검토",
-"공모가",
-"블룸버그",
-"앤트로픽",
-"예상",
-"웃돌아",
-"훨씬"
-],
-"g": "https://www.yna.co.kr/view/AKR20261119008400072"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261119_0003874126",
-"t": "2026-11-19T07:05+09:00",
-"tok": [
-"42",
-"공모가",
-"나스닥",
-"뉴욕증시",
-"마감",
-"앞두고",
-"앤트로픽",
-"혼조"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261119_0003874126"
-},
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611190610085714",
-"t": "2026-11-19T07:05+09:00",
-"tok": [
-"83달러",
-"공모가",
-"앤트로픽",
-"주당"
-],
-"g": "https://www.yna.co.kr/view/AKR20261119008400072"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261119_0003874141",
-"t": "2026-11-19T07:05+09:00",
-"tok": [
-"83달러",
-"CNBC",
-"공모가",
-"높아",
-"앤트로픽",
-"예상보다",
-"주당"
-],
-"g": "https://www.yna.co.kr/view/AKR20261119008400072"
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBvSUdsbjVrRGtnVXBVWlZnQWRLVEZNQkZGdzBEQmkyOFZqLVUtSkZMaFYyUU83cXNXblh4SEVJZGdiYWZNYkJnb2dqMVB1UldiWTR4ZE54V1U?oc=5",
@@ -13620,6 +13559,22 @@
 "시장",
 "오나",
 "작용제"
+]
+},
+{
+"kind": "주목",
+"link": "https://www.yna.co.kr/view/AKR20261126160600530",
+"t": "2026-11-27T07:06+09:00",
+"tok": [
+"13만명",
+"국민연금",
+"떼인",
+"보험료",
+"사업주",
+"수급권",
+"월급서",
+"위협",
+"체납에"
 ]
 }
 ]
