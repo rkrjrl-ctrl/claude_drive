@@ -1,23 +1,6 @@
 {
-"updated": "2026-11-26T14:06+09:00",
+"updated": "2026-11-26T15:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261118_0003873231",
-"t": "2026-11-18T15:06+09:00",
-"tok": [
-"관세",
-"막아",
-"발전",
-"성장",
-"수출제한",
-"있지만",
-"저해할",
-"제재",
-"푸틴"
-],
-"g": "https://www.newsis.com/view/NISX20261118_0003873231"
-},
 {
 "kind": "단독",
 "link": "https://www.hankyung.com/article/202611184176i",
@@ -13413,6 +13396,127 @@
 "본인부담상한제",
 "자동지급",
 "추진"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Tbi1ZajVVeGNzMVRLamhDSnFxWUdsZ0lpRE1tODVuN3N4czRnT0pON3ZqbExudnJ1eTFPVHlwUWN5UTJMb0pRQnR5R2RDOExtVEJXZjB3TExkNl8yNktacGdB?oc=5",
+"t": "2026-11-26T15:06+09:00",
+"tok": [
+"4년만에",
+"대통령이",
+"송파",
+"역대급",
+"옳았나",
+"집값",
+"추락했다"
+],
+"g": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Tbi1ZajVVeGNzMVRLamhDSnFxWUdsZ0lpRE1tODVuN3N4czRnT0pON3ZqbExudnJ1eTFPVHlwUWN5UTJMb0pRQnR5R2RDOExtVEJXZjB3TExkNl8yNktacGdB?oc=5"
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9EMVF1X3JUZktnQzVEclk3ZlRUWUZ5Uy0tSHFVc0RDeElNRU9yXzZua1k3b1NtUVg1Q3JPX1lBekt1cWtyZkRNajQwVC0xdlU4eTJCZVRVTHZSUnpROXR1NFFiaWNCUllpY3c?oc=5",
+"t": "2026-11-26T15:06+09:00",
+"tok": [
+"15년",
+"ETF",
+"만에",
+"신상품",
+"유리자산운용",
+"접으려던"
+]
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWmtvcnpOMlc5RXpDUEZvcWJGZjd4d2ZNdmpCMnNJY1dQUnZodGcxU09WTnp4M2pwdGdoTTNxUm5xdVc3OWZYVFUyUjY3bExEU2FDdnlCeHA4ZC1vNk1MSExhNy1aT2Q3QWJ3YkhsNkhyTUVLblNRSDR6OFFnb0x3d3haamFvSC1PZ084VGdfeHM?oc=5",
+"t": "2026-11-26T15:06+09:00",
+"tok": [
+"개편",
+"공제",
+"라도",
+"보유",
+"우려",
+"유지해야",
+"의원들도",
+"장특공제",
+"종부세"
+]
+},
+{
+"kind": "속보",
+"link": "https://www.yna.co.kr/view/AKR20261126131100004",
+"t": "2026-11-26T15:06+09:00",
+"tok": [
+"금지한",
+"외국인",
+"정치활동",
+"출입국관리법",
+"헌법불합치",
+"헌재"
+],
+"g": "https://www.yna.co.kr/view/AKR20261126131100004"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261126_0003884732",
+"t": "2026-11-26T15:06+09:00",
+"tok": [
+"국내",
+"금지법",
+"외국인",
+"정치활동",
+"체류",
+"헌법불합치",
+"헌재"
+],
+"g": "https://www.yna.co.kr/view/AKR20261126131100004"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jQTU2QWRSWlJEamNBeGY1ODc2SEduZVUzT1lrT25wQmVsY0ZEajBqdnoxZ1A3OHAzYUtnTkE0RWFtUU0yVkVDNlFHR3RtR2ZCeUYyUHdmUTN3UXNn?oc=5",
+"t": "2026-11-26T15:06+09:00",
+"tok": [
+"5만명",
+"국민연금",
+"돌파",
+"사전",
+"생애",
+"신청",
+"연금보험료",
+"지원",
+"청년"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02UWhVTlRlNzk2Q0F4eF90Unoyb0thVEdPbXJQZGlmNWhYOUQ3QlRkdmYtOEJjbGpSS21KdG5TMy1KUXQ2ZzBLYmcwUVg5cENSbzFiRnQ3YlNlTlVHV2JrendWVDRqbDB2dXRqZg?oc=5",
+"t": "2026-11-26T15:06+09:00",
+"tok": [
+"10세대",
+"11월",
+"3세대는",
+"9만5860원",
+"건보료",
+"보험료",
+"인상",
+"지역가입자",
+"평균"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05aVJoaWgzVXRiZHlkSFpUMFZkLTdCZUI2ZVJUXzFpbG03ZlEzU0NTc2FXMnJDUTlDZEswTUVoajRLdmdybzBMaVh0SGFWRGpJQllzaE5UMWxCQzZNU1UwTmptdmNiemVrRHllWtIBb0FVX3lxTE5oa3BBRWZseUl3RVM0OWZYZldOSlN0LUoxWkloUk0tVHc0bkZtX1doamhLb2Y1VWNidjVMVjd2cC01T2sxVWdRV0lJcmdwQ29QY3l5ajdtcHk1Wmw0NzV3UXRRVEU2VnJZVlNXaE5rYw?oc=5",
+"t": "2026-11-26T15:06+09:00",
+"tok": [
+"50",
+"남는",
+"시간",
+"요금",
+"재생에너지",
+"전력량",
+"제주서",
+"한전",
+"할인"
 ]
 }
 ]
