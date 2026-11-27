@@ -1,155 +1,6 @@
 {
-"updated": "2026-11-27T11:06+09:00",
+"updated": "2026-11-27T12:06+09:00",
 "items": [
-{
-"kind": "gov",
-"link": "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&list_no=1492590&act=view",
-"t": "2026-11-19T12:06+09:00",
-"tok": [
-"개선",
-"새로운",
-"신청주의",
-"이름",
-"정책의",
-"지어주세요",
-"직접"
-]
-},
-{
-"kind": "gov",
-"link": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249916&menuNo=200218&pageIndex=1",
-"t": "2026-11-19T12:06+09:00",
-"tok": [
-"3년까지",
-"만기",
-"연금으로",
-"있습니다",
-"저축성보험",
-"전환할",
-"최대",
-"후에도"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261119_0003874771",
-"t": "2026-11-19T12:06+09:00",
-"tok": [
-"2000만달러",
-"APEC",
-"시진핑",
-"지원",
-"협력"
-],
-"g": "https://www.newsis.com/view/NISX20261119_0003874771"
-},
-{
-"kind": "단독",
-"link": "https://www.hankyung.com/article/202611196519i",
-"t": "2026-11-19T12:06+09:00",
-"tok": [
-"114억달러",
-"9월에",
-"국채",
-"샀다",
-"중장기물",
-"폭락하던"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261119_0003874874",
-"t": "2026-11-19T12:06+09:00",
-"tok": [
-"경찰",
-"마지막",
-"수색",
-"실종신고",
-"아산병원",
-"이진우",
-"인근서",
-"포착"
-],
-"g": "https://www.fnnews.com/news/202611191022399251"
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1SbzNTQ2k1YkphX3o1bFpKQ1RpTlJkYkk3eURucEVJc2RreEJzSXhyc0hnYkJZQW9fRk5DTmQyWlhvWjVjVHY3VzNlWG83OHFZSVE?oc=5",
-"t": "2026-11-19T12:06+09:00",
-"tok": [
-"1위",
-"6분기",
-"DB",
-"IRP",
-"NH농협은행",
-"선두",
-"수익률",
-"연속",
-"퇴직연금"
-]
-},
-{
-"kind": "주목",
-"link": "https://www.hani.co.kr/arti/economy/finance/1288105.html",
-"t": "2026-11-19T12:06+09:00",
-"tok": [
-"3년",
-"금감원",
-"만기",
-"연금",
-"있어요",
-"저축성보험",
-"전환할",
-"후에도"
-]
-},
-{
-"kind": "주목",
-"link": "https://www.mt.co.kr/finance/2026/11/19/2026111910113111489",
-"t": "2026-11-19T12:06+09:00",
-"tok": [
-"12월부터",
-"3년",
-"가능",
-"놓쳐도",
-"만기일",
-"연금",
-"저축성보험",
-"전환"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNQVNtX1I3blp4VlMwZkxwMU9IT25keUtwQWZLQlVyaDh4TGE0R0R0bVp0eWJOa1ZXY3lMTzNySjJHaW9LQmtXeXNkMldrTU5jd2h2TERTTXhVWmVHYk51S0dxbVBTQUN4MFJxRUd0c3gzVktpOVV4ZzBBQldCLTVmWXdqYjE3OVhrd2l4eTVlSDItMGMyWDVnQWowZUJ5Qnc0SFpqU2Y3TUJyNk1VLVpfTFpLQW1HS2dDckRtM3dYU2dOUXlaNm44Z3lfYjJ2ZmVESmZhVmZoUVJ1MnlzS241VTBYX0lMSmJlSERlVEpXX0cyMGxHME5aMEdncHljdXRXZ1lxZ2RvSjQweExZMnl6YUlRZHJtdjNC?oc=5",
-"t": "2026-11-19T12:06+09:00",
-"tok": [
-"12월부터",
-"3년까지",
-"가능",
-"만기후",
-"시행",
-"연금전환",
-"저축성보험"
-]
-},
-{
-"kind": "주목",
-"link": "https://www.newsis.com/view/NISX20261119_0003874595",
-"t": "2026-11-19T12:06+09:00",
-"tok": [
-"CEO",
-"달래기",
-"보상",
-"시행",
-"엔비디아",
-"인상",
-"임금",
-"임시",
-"조기",
-"주식",
-"직원"
-]
-},
 {
 "kind": "속보",
 "link": "https://www.newsis.com/view/NISX20261119_0003874921",
@@ -13606,6 +13457,53 @@
 "수준",
 "인상",
 "전주시"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1xQlVPQ1Bkb1Z0OU5WSTFvdTk3dHVmX1V2eXVXOUpUMHNtUjE2bjFPeHJBYk5JYnVVekVDMnhIMEN3ancySlk1eWJQUTJiVHlzQjFsYTZWaTNHMklyZFI2NV9iSklmNnRWamhj?oc=5",
+"t": "2026-11-27T12:06+09:00",
+"tok": [
+"4800선",
+"급등해",
+"매수",
+"사이드카",
+"코스닥",
+"코스피는",
+"회복"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5NSmY2X2lNZWktVEMxMEFWY1hPWXMtQkloY19QRHVVLVgwaG9Mc0lWUllfTG9mb3IxMUJjZW9mSXZVRG9WVFhpWDRiaDZQTWJ1V0ItN2JmRmpUX1FwSDQ1cFBxZ0lFY3lvUUQ2emRlTQ?oc=5",
+"t": "2026-11-27T12:06+09:00",
+"tok": [
+"급등",
+"등락",
+"반도체주",
+"보합권",
+"약세에",
+"코스닥은",
+"코스피"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBhLTNLa21xLVFTdWV5ZzM0Ql8xNl9lQnc3MUZ2Q2FkSHBqWWJRZWVWSmhaUHFPYzl0bnRIa0VPTlJXck9jeF9wYlJVMWo0RDlhV3pUM01ERDBjb0l4SjJGTmhOZ1R2S1U?oc=5",
+"t": "2026-11-27T12:06+09:00",
+"tok": [
+"10명",
+"6명",
+"교육",
+"받았다",
+"보이스피싱",
+"예방",
+"의심",
+"인천시민",
+"전화",
+"커져",
+"피해",
+"필요성"
 ]
 }
 ]
