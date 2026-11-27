@@ -1,203 +1,6 @@
 {
-"updated": "2026-11-27T08:06+09:00",
+"updated": "2026-11-27T10:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://news.jtbc.co.kr/article/NB12328788",
-"t": "2026-11-19T09:06+09:00",
-"tok": [
-"공갈",
-"구치소",
-"리트만점",
-"생년월일",
-"수감",
-"이름",
-"이진우와",
-"일치",
-"재소자",
-"증언",
-"판결문",
-"확인"
-]
-},
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBRQXhhdVl2V0s0SDRteVZjWlBfSlNCbVNadXl5a21naVZIamNLdUp4a0ZPbUtKU0l4TUZ1ZHM1MkNNazktaW9mbmJLWTJYZnZXZUdjQjdCd3ZkbWhhWHc?oc=5",
-"t": "2026-11-19T10:06+09:00",
-"tok": [
-"SK하이닉스",
-"급락",
-"대형",
-"로펌",
-"보상",
-"손실",
-"조사",
-"주가",
-"집단소송",
-"착수",
-"추진",
-"투자자"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.khan.co.kr/article/202611190955001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=society_news",
-"t": "2026-11-19T10:06+09:00",
-"tok": [
-"경찰에",
-"리트",
-"만점자",
-"실종신고",
-"없는",
-"이진우씨",
-"접수",
-"집에",
-"확인"
-],
-"g": "https://www.khan.co.kr/article/202611190955001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=society_news"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261119_0003874537",
-"t": "2026-11-19T10:06+09:00",
-"tok": [
-"31에",
-"50포인트",
-"668",
-"83",
-"개장",
-"오른",
-"코스닥"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261119_0003874537"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261119_0003874538",
-"t": "2026-11-19T10:06+09:00",
-"tok": [
-"10",
-"17",
-"SK하이닉스",
-"삼성전자",
-"출발"
-],
-"g": "https://www.newsis.com/view/NISX20261119_0003874538"
-},
-{
-"kind": "속보",
-"link": "https://biz.chosun.com/stock/stock_general/2026/11/19/GA2TQMZYHA2TSZDGMZSTSZLCMM/",
-"t": "2026-11-19T10:06+09:00",
-"tok": [
-"04",
-"45",
-"5090",
-"오른",
-"출발",
-"코스피"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261119_0003874537"
-},
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611191001161201",
-"t": "2026-11-19T10:06+09:00",
-"tok": [
-"04",
-"31",
-"45",
-"5090",
-"668",
-"83",
-"개장",
-"상승한",
-"오른",
-"코스닥은",
-"코스피"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261119_0003874537"
-},
-{
-"kind": "속보",
-"link": "https://www.edaily.co.kr/News/Read?newsId=02302566645647360",
-"t": "2026-11-19T10:06+09:00",
-"tok": [
-"45",
-"5090선",
-"83",
-"상승",
-"오른",
-"코스닥",
-"코스피"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261119_0003874537"
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9fVXQwQTBEeVY5cnp1azZTUGtNRUxsX243OU5NaXBxcnItaVBLM2ZMbkMzUkdRekE4NWk1cmRRYWxvVk5OU1lTaEgyZWdadHhldmRMQjVhM2c3Qm80N1JfUVYtREszMGQ1Y1Vr0gFvQVVfeXFMTlpObFpxenBjdE92Z2tBdFR2Wml2OWJYMFNaME5MeEpoTjZzeHJNRFlWMTl4dEllQW9yZ05IVUZxc3QzOFktaUJ3MUFtcVlNb3QzaDQ1b1VrRVNXa0ViVDlRZE1kNEx0NVZWTXF4QktJ?oc=5",
-"t": "2026-11-19T10:06+09:00",
-"tok": [
-"1위",
-"DB손해보험",
-"국가고객만족도",
-"자동차보험부문"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE13WjhSMTg5dTBReVdPNlJHTlVxbDVRbGJuMl9GbjRoZE9jLURVNmNWRmY5bzdNdVdLakU1Qi00dU04V1RLZG9JU0tEQkpDTnZUcldvYWoyTnlLbXJYOHEtMlJxQkx5eVBYWXVkeVEzNmtQUQ?oc=5",
-"t": "2026-11-19T10:06+09:00",
-"tok": [
-"1위",
-"2003년",
-"23년",
-"DB손보",
-"NCSI",
-"부문",
-"이후",
-"자동차보험"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxQT2hTMWlmcml3MDRvd1ZhaF9BZXJIM3hpaUNYd0NQQ05na2NtMXVTTk8tMDlpTXl0ZEM3ZUZmYWNlWW9aYVVGX1VNcERPMTdVeGx4UDBFS0JJQjBMczZ6ZVFfVHk1MXZ1cF9iX2J0bk82Mk9UdnViM1plNmtWREZlcHZpU05UN0Z0bW9rUGJuOHJXaXZpR1lweGtvRVFGMmo1bzBRQzJnTDFkNndPd2R3bjNYZ0NiOXVvVC03VmFHeVpiZkNKOU1UVVBqcmtQVjNtMlBZckZ6Q05yN0hfcG00MTZfNXZCYmk3XzJ0OG9vaDh5MlJjUV9PMEphZ3NDZ19DaWpCMmYyY3dhVDAzLTBkX2REWEF0N1ZuZDBmdGo5N29NUTdkcUNEaS1lU2tsTWs4Zy1zRHBqNVlnd3RhYm8yV3F5NU8tekMxUVBMVA?oc=5",
-"t": "2026-11-19T10:06+09:00",
-"tok": [
-"10월",
-"AI",
-"FOMC",
-"거의",
-"경고",
-"금리인상",
-"리스크도",
-"모든",
-"부채",
-"연준",
-"예상",
-"위원",
-"추가",
-"회의록"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5HOGRkUUt6dnlwVkJjTHd1R2F6b3VGOTNPNlI0STQ2WDloWGpSRFVJUS1mTWExRGZFb3pCWEZ4YkdNVWhXMWNsSFN0T1pRVlBJd2ZaTXh1SUg4bWpQLXVfZU1EY1ZkQUdqVGh0Sy1qM3MxejZwcVJUQlUtamQ?oc=5",
-"t": "2026-11-19T10:06+09:00",
-"tok": [
-"강화",
-"개편",
-"삼쩜삼",
-"서비스",
-"신규",
-"월세지원센터",
-"중심으로",
-"환급"
-]
-},
 {
 "kind": "속보",
 "link": "https://www.fnnews.com/news/202611191022399251",
@@ -13460,6 +13263,149 @@
 "월급서",
 "위협",
 "체납에"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4wemhKUzl5Ry1jVXlSZlZ6OGJmMUR6UDA3UEtGT1YtSElJa0U3S0taT294NWc4b2tXa3I0MGU0R3VGTGJFeENNcktRQzZkdHR4VFVvZEtGcGtaSkp1RWhPVEhZMXgzUUk1OFREUkNxUzJNY2p3UnYtVkxkd9IBgAFBVV95cUxQOC1CVm1fUVZVbzV1UnBFblJsRG9PYUoyNi1iWHIycFVnSGZPaUlNQ3BuWTJnOU5RcGVhVTlBa0U4Y1R4OWlhTTl2UFVkdlQ4WFJja21pOTNLNl9ZYmZucG1Pa0R3NlZCdDZBczRlUUF6OERocG1LQ1lmbUVDTVpLdQ?oc=5",
+"t": "2026-11-27T10:06+09:00",
+"tok": [
+"반도체",
+"삼전",
+"엇갈려",
+"오르고",
+"투톱",
+"프리마켓서",
+"하락",
+"하이닉스"
+],
+"g": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4wemhKUzl5Ry1jVXlSZlZ6OGJmMUR6UDA3UEtGT1YtSElJa0U3S0taT294NWc4b2tXa3I0MGU0R3VGTGJFeENNcktRQzZkdHR4VFVvZEtGcGtaSkp1RWhPVEhZMXgzUUk1OFREUkNxUzJNY2p3UnYtVkxkd9IBgAFBVV95cUxQOC1CVm1fUVZVbzV1UnBFblJsRG9PYUoyNi1iWHIycFVnSGZPaUlNQ3BuWTJnOU5RcGVhVTlBa0U4Y1R4OWlhTTl2UFVkdlQ4WFJja21pOTNLNl9ZYmZucG1Pa0R3NlZCdDZBczRlUUF6OERocG1LQ1lmbUVDTVpLdQ?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261127_0003885596",
+"t": "2026-11-27T10:06+09:00",
+"tok": [
+"17",
+"37",
+"4728",
+"59포인트",
+"80",
+"오른",
+"출발",
+"코스피"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261127_0003885596"
+},
+{
+"kind": "속보",
+"link": "https://www.fnnews.com/news/202611270854352388",
+"t": "2026-11-27T10:06+09:00",
+"tok": [
+"37",
+"4728",
+"52",
+"664",
+"80",
+"개장",
+"오른",
+"코스닥",
+"코스피"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261127_0003885596"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBlY09vMkxfN3B5UDBqM3JKaGdVcDRLRnEwUnRPZWh4TS1YdU53X3dDZW5CVksyRDc1NXpFOV94c0pzaDN0SzNyNEF1ZE1RS2QwbW1acA?oc=5",
+"t": "2026-11-27T10:06+09:00",
+"tok": [
+"34",
+"52",
+"664",
+"81p",
+"개장",
+"오른",
+"코스닥"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261127_0003885596"
+},
+{
+"kind": "속보",
+"link": "http://www.edaily.co.kr/news/newspath.asp?newsid=01469446645649984",
+"t": "2026-11-27T10:06+09:00",
+"tok": [
+"30조",
+"4740선",
+"강보합",
+"배당금",
+"삼성전자",
+"유입",
+"촉각",
+"코스피"
+],
+"g": "http://www.edaily.co.kr/news/newspath.asp?newsid=01469446645649984"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261127_0003885597",
+"t": "2026-11-27T10:06+09:00",
+"tok": [
+"34",
+"52",
+"664",
+"81포인트",
+"오른",
+"출발",
+"코스닥"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261127_0003885596"
+},
+{
+"kind": "속보",
+"link": "https://www.newsis.com/view/NISX20261127_0003885681",
+"t": "2026-11-27T10:06+09:00",
+"tok": [
+"4700선",
+"이탈",
+"전환",
+"초반",
+"코스피",
+"하락"
+],
+"m": 1,
+"g": "https://www.newsis.com/view/NISX20261127_0003885596"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXalhYaVBaQkoxQnVneGdxTG1JR1dUb0QwdklDRW1GOE91RVExOFVZd1IzVU82dzhjZmJYVnBBYTlTRGZIY3VyRW9Wa2U4NDVIY3hrOFl3MzkxSnBGMFB2Uzlxa09qMzVMTHc?oc=5",
+"t": "2026-11-27T10:06+09:00",
+"tok": [
+"340원선",
+"금리",
+"금통위",
+"달러",
+"인상에",
+"하회",
+"환율"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYWV1WllfbDhPSEFQS1VaT3RRTnpFVDE2d3RCVE5NbzZpZ2JHU1RIb2Q5Y0RFTlNyY294aE5jLWFGTFBlbnFnWjNUUEoyc19LQ0w3eXhrR2E0WnBQTzhDdWs5eEt2OHdoYkxtUVZ4MW5ZeWl0NXZoLTJhMVNSbWRNaS1uc3E0dnV4UVA0aWFR?oc=5",
+"t": "2026-11-27T10:06+09:00",
+"tok": [
+"10년",
+"110억",
+"2심도",
+"고위공직자",
+"부산시",
+"원대",
+"전세사기",
+"징역"
 ]
 }
 ]
