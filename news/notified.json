@@ -1,26 +1,6 @@
 {
-"updated": "2026-11-28T05:02+09:00",
+"updated": "2026-11-28T06:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA2bmFWTkN4RDJtcUZDMS0tbDFsZ1BlOE16S2g3eWJXeTVpZlhCUDRUWHVuaU5wX2pCektfbWNEcWRsVWk1Z0NPX3AtM1pzWVJrTEFReVlIOVdZYmM?oc=5",
-"t": "2026-11-20T05:06+09:00",
-"tok": [
-"142조원",
-"Club",
-"Global",
-"IPO에도",
-"Money",
-"기관",
-"빈손",
-"앤트로픽",
-"역대",
-"이상은",
-"절반",
-"주문",
-"최대"
-]
-},
 {
 "kind": "속보",
 "link": "https://www.newsis.com/view/NISX20261120_0003875956",
@@ -12709,6 +12689,38 @@
 ],
 "m": 1,
 "g": "https://www.newsis.com/view/NISX20261128_0003886951"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1aX0FQUG4xOGFobGlnNEdOc2R2THNXLXQxS1BVMlNOckh4eXBHUm5DMlJOcnlzZ2loNE1CLTR2bGF3cERGM0QyWElrdjNrUQ?oc=5",
+"t": "2026-11-28T06:06+09:00",
+"tok": [
+"기업서",
+"불륜",
+"블랙웰",
+"상대",
+"얽힌",
+"엔비디아",
+"젠슨",
+"포착"
+],
+"g": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1aX0FQUG4xOGFobGlnNEdOc2R2THNXLXQxS1BVMlNOckh4eXBHUm5DMlJOcnlzZ2loNE1CLTR2bGF3cERGM0QyWElrdjNrUQ?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8ySHBOVDQ2ekZXTVhEUGJJVGkwZUdYNHBPLVdUQWQ2TUFfa2pxbkxBN0ptc1Q3MGV3a1ljVHZGWTQzVnNWaEp3U1JRNFNDcDFpQkFnTUZCbVM1SEh3UGViYkozSTFWc1BVT0ZUSw?oc=5",
+"t": "2026-11-28T06:06+09:00",
+"tok": [
+"AI",
+"나스닥",
+"뉴욕증시",
+"마감",
+"반도체주",
+"반등에",
+"상승"
+],
+"m": 1,
+"g": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8ySHBOVDQ2ekZXTVhEUGJJVGkwZUdYNHBPLVdUQWQ2TUFfa2pxbkxBN0ptc1Q3MGV3a1ljVHZGWTQzVnNWaEp3U1JRNFNDcDFpQkFnTUZCbVM1SEh3UGViYkozSTFWc1BVT0ZUSw?oc=5"
 }
 ]
 }
