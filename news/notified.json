@@ -1,23 +1,6 @@
 {
-"updated": "2026-11-28T02:06+09:00",
+"updated": "2026-11-28T03:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://www.hankyung.com/article/202611208709i",
-"t": "2026-11-20T03:06+09:00",
-"tok": [
-"111",
-"34",
-"5달러에",
-"거래",
-"공모가",
-"급등",
-"대비",
-"시작",
-"앤트로픽"
-],
-"g": "https://www.yna.co.kr/view/AKR20261120002700091"
-},
 {
 "kind": "단독",
 "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA2bmFWTkN4RDJtcUZDMS0tbDFsZ1BlOE16S2g3eWJXeTVpZlhCUDRUWHVuaU5wX2pCektfbWNEcWRsVWk1Z0NPX3AtM1pzWVJrTEFReVlIOVdZYmM?oc=5",
@@ -12659,6 +12642,41 @@
 "적립금",
 "줄어"
 ]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE15VXJkMXlRUnk3Z3lGMFMxS1VMSUhqemFsbW80VDJPRUJ6S1ZLLURGeXNTRmZNQTMyUVJHSWtWTy1VVmE3WWRsTUR6MHE3MDNETGNzYTlHM1FKVFhoNlEtNUNtMjhINHNL?oc=5",
+"t": "2026-11-28T03:06+09:00",
+"tok": [
+"기술주",
+"뉴욕",
+"미국",
+"상승",
+"앤트로픽",
+"엔비디아",
+"증시",
+"테슬라",
+"하락",
+"혼조"
+],
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE15VXJkMXlRUnk3Z3lGMFMxS1VMSUhqemFsbW80VDJPRUJ6S1ZLLURGeXNTRmZNQTMyUVJHSWtWTy1VVmE3WWRsTUR6MHE3MDNETGNzYTlHM1FKVFhoNlEtNUNtMjhINHNL?oc=5"
+},
+{
+"kind": "속보",
+"link": "https://www.fnnews.com/news/202611280301017022",
+"t": "2026-11-28T03:06+09:00",
+"tok": [
+"11",
+"AI",
+"강세에",
+"뉴욕증시",
+"상승",
+"앤스로픽",
+"일제히",
+"폭등"
+],
+"m": 1,
+"g": "https://www.fnnews.com/news/202611280301017022"
 }
 ]
 }
