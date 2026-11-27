@@ -1,50 +1,6 @@
 {
-"updated": "2026-11-27T21:06+09:00",
+"updated": "2026-11-27T22:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261119179500109",
-"t": "2026-11-19T22:06+09:00",
-"tok": [
-"80년간",
-"글로벌",
-"덕분에",
-"분쟁",
-"얄타",
-"없어",
-"푸틴",
-"합의"
-],
-"g": "https://www.yna.co.kr/view/AKR20261119179500109"
-},
-{
-"kind": "속보",
-"link": "https://www.hankyung.com/article/2026111986017",
-"t": "2026-11-19T22:06+09:00",
-"tok": [
-"80년간",
-"글로벌",
-"덕에",
-"분쟁",
-"얄타",
-"없어",
-"푸틴",
-"합의"
-],
-"g": "https://www.yna.co.kr/view/AKR20261119179500109"
-},
-{
-"kind": "주목",
-"link": "https://www.khan.co.kr/article/202611192049035/?utm_source=khan_rss&utm_medium=rss&utm_campaign=economy_news",
-"t": "2026-11-19T22:06+09:00",
-"tok": [
-"동작도",
-"용산",
-"집값",
-"하락",
-"한강벨트"
-]
-},
 {
 "kind": "단독",
 "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBzTkFzTFF4RzJ0RThfRTZ6ZTJfZ2V5ZVEzWElaWGllMkwtYVhNUkNsNFRXcnBTMU9GSWFjZFhybm13a0ZzNF90OU1uT3lXNWlTdkd2WlpuTUhPcTZ6VV9RZGZHbW82Z3BBUEFJdNIBcEFVX3lxTE9CTlZwRmpieFBfS0RRSjhIeFIzbmlVUWFMRzRhQXdYdGN5QmVJeU40OGtVamdFU0k4dm9QbVFjY0lhXzBUcl93SEtRcG1fVV9hN21TWjZlTW5uY1N3TXc5Y0c5RERpN2Z0eE52Nk5mQjk?oc=5",
@@ -12776,6 +12732,40 @@
 "석달",
 "일이",
 "적립금"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONDRvQmgtVkt5X1pWb1UxSm1LY0dhbTNBLWlnTlgzTkpIaDIwZl9RX3VBN2loWjkzTzFCT1o4SkRZNTdYdnlHRGFlZ3VodmxVS3R1RlJCQzNBbVlyWXZPc0w3azZaTjFuNnJ4bG1ST0JZN0dna3hKdGI1UXFrenI5QXBadHB2WDg?oc=5",
+"t": "2026-11-27T22:06+09:00",
+"tok": [
+"SM",
+"공소청",
+"김범수",
+"무죄",
+"상고",
+"조작",
+"주가",
+"포기",
+"혐의",
+"확정"
+],
+"g": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONDRvQmgtVkt5X1pWb1UxSm1LY0dhbTNBLWlnTlgzTkpIaDIwZl9RX3VBN2loWjkzTzFCT1o4SkRZNTdYdnlHRGFlZ3VodmxVS3R1RlJCQzNBbVlyWXZPc0w3azZaTjFuNnJ4bG1ST0JZN0dna3hKdGI1UXFrenI5QXBadHB2WDg?oc=5"
+},
+{
+"kind": "단독",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jYjZPYWdXX3NMbUV1aVFSakp6RkZwQ2I0RFhCTXUyRjV5SWp1aU4wa3o1dVVoSEZLWVpjQTVVNWc5blNIcG5fNVdCUjhZalZRd3Q0aXB0QzNES1E?oc=5",
+"t": "2026-11-27T22:06+09:00",
+"tok": [
+"Club",
+"Global",
+"Money",
+"데이터센터서",
+"밀수",
+"발견",
+"불가능하다",
+"블랙웰",
+"엔비디아"
 ]
 }
 ]
