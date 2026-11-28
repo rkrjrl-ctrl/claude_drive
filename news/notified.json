@@ -1,349 +1,6 @@
 {
-"updated": "2026-11-28T08:06+09:00",
+"updated": "2026-11-28T10:06+09:00",
 "items": [
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261120_0003876170",
-"t": "2026-11-20T10:06+09:00",
-"tok": [
-"08",
-"209",
-"38포인트",
-"4928",
-"51",
-"개장",
-"내린",
-"코스피"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261120_0003876170"
-},
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261120029900003",
-"t": "2026-11-20T10:06+09:00",
-"tok": [
-"노태문",
-"사장단",
-"삼성전자",
-"유지",
-"인사",
-"전영현",
-"체제",
-"투톱"
-],
-"g": "https://www.yna.co.kr/view/AKR20261120029900003"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261120_0003876171",
-"t": "2026-11-20T10:06+09:00",
-"tok": [
-"23",
-"48",
-"660",
-"83포인트",
-"98",
-"개장",
-"내린",
-"코스닥"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261120_0003876170"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTk1adGd0MXFtZzBMWktxU0R2TmwxN0JvMHVJa0NsaUUwcmVpbF85T0hNQktpVzd4U3lQRjAwVFFkbnZTWXIzcFNQUERCTHlfWnZEdU5CeE9pbEJCclVPRlh4VUJXV2tEMmpELVdhdWgzbHZYOHBObVVyQ1E1VTZKaw?oc=5",
-"t": "2026-11-20T10:06+09:00",
-"tok": [
-"08",
-"4928",
-"51",
-"내린",
-"코스닥은",
-"코스피"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261120_0003876170"
-},
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261120035400008",
-"t": "2026-11-20T10:06+09:00",
-"tok": [
-"5천피",
-"급락",
-"다시",
-"아래로",
-"출발",
-"코스피"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261120_0003876170"
-},
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611200855304073",
-"t": "2026-11-20T10:06+09:00",
-"tok": [
-"08",
-"209",
-"38p",
-"48",
-"4928",
-"51",
-"내린",
-"출발",
-"코스닥",
-"코스피"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261120_0003876170"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83NTZQX0xiYURJcFVkNHVsYnloemdlUTFJN3JpU21wYUNZVllaa3RJN0M5MDNTenU3ZW1MdjFlUGNCdGlpczZJOEdsdlVhbVdLNFNDVQ?oc=5",
-"t": "2026-11-20T10:06+09:00",
-"tok": [
-"23",
-"48",
-"660",
-"83p",
-"98",
-"개장",
-"내린",
-"코스닥"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261120_0003876170"
-},
-{
-"kind": "속보",
-"link": "https://www.mt.co.kr/society/2026/11/20/2026112009012681229",
-"t": "2026-11-20T10:06+09:00",
-"tok": [
-"MX사업부장",
-"노태문",
-"메모리사업부장",
-"삼성전자",
-"유지",
-"전영현",
-"체제",
-"최원준",
-"황상준"
-],
-"g": "https://www.yna.co.kr/view/AKR20261120029900003"
-},
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261120030200003",
-"t": "2026-11-20T10:06+09:00",
-"tok": [
-"메모리",
-"모바일경험",
-"반도체",
-"사업부장",
-"삼성전자",
-"최원준",
-"황상준"
-],
-"g": "https://www.yna.co.kr/view/AKR20261120029900003"
-},
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611200901384706",
-"t": "2026-11-20T10:06+09:00",
-"tok": [
-"DS",
-"DS부문장",
-"메모리사업부장",
-"사장",
-"삼성전자",
-"승진",
-"유임",
-"전영현",
-"황상준"
-],
-"g": "https://www.yna.co.kr/view/AKR20261120029900003"
-},
-{
-"kind": "속보",
-"link": "https://view.asiae.co.kr/article/2026112009061861275",
-"t": "2026-11-20T10:06+09:00",
-"tok": [
-"노태문",
-"사장단",
-"삼성전자",
-"이어간다",
-"인사",
-"전영현",
-"체제",
-"투톱"
-],
-"g": "https://www.yna.co.kr/view/AKR20261120029900003"
-},
-{
-"kind": "속보",
-"link": "https://www.yonhapnewstv.co.kr/news/AKR20261120090743dbU",
-"t": "2026-11-20T10:06+09:00",
-"tok": [
-"메모리",
-"모바일경험",
-"반도체",
-"분리",
-"사업부장",
-"사업부장에",
-"삼성전자",
-"최원준",
-"황상준"
-],
-"g": "https://www.yna.co.kr/view/AKR20261120029900003"
-},
-{
-"kind": "속보",
-"link": "https://www.mt.co.kr/society/2026/11/20/2026112009055181988",
-"t": "2026-11-20T10:06+09:00",
-"tok": [
-"3명",
-"DS부문만",
-"사장",
-"삼성전자",
-"승진",
-"이종명",
-"조상연",
-"황상준"
-],
-"g": "https://www.yna.co.kr/view/AKR20261120029900003"
-},
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611200906010328",
-"t": "2026-11-20T10:06+09:00",
-"tok": [
-"반도체",
-"부문",
-"사장",
-"삼성전자",
-"승진",
-"시스템LSI사업부장에",
-"조상연"
-],
-"g": "https://www.yna.co.kr/view/AKR20261120029900003"
-},
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611200909266366",
-"t": "2026-11-20T10:06+09:00",
-"tok": [
-"CTO",
-"DS부문",
-"사장",
-"사장에",
-"삼성전자",
-"승진",
-"이종명"
-],
-"g": "https://www.yna.co.kr/view/AKR20261120029900003"
-},
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611200912056252",
-"t": "2026-11-20T10:06+09:00",
-"tok": [
-"DX부문",
-"MX사업부장에",
-"사장",
-"삼성전자",
-"최원준"
-],
-"g": "https://www.fnnews.com/news/202611200912056252"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261120_0003876313",
-"t": "2026-11-20T10:06+09:00",
-"tok": [
-"4900선도",
-"가까이",
-"낙폭",
-"내줘",
-"장중",
-"코스피",
-"확대"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261120_0003876170"
-},
-{
-"kind": "속보",
-"link": "https://view.asiae.co.kr/article/2026112009532294049",
-"t": "2026-11-20T10:06+09:00",
-"tok": [
-"4900선",
-"아래로",
-"코스피"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261120_0003876170"
-},
-{
-"kind": "속보",
-"link": "https://www.fnnews.com/news/202611200951301522",
-"t": "2026-11-20T10:06+09:00",
-"tok": [
-"4900선",
-"가까이",
-"이탈",
-"장중",
-"코스피",
-"하락"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261120_0003876170"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261120_0003876355",
-"t": "2026-11-20T10:06+09:00",
-"tok": [
-"18개월",
-"1년물",
-"5년물",
-"LPR",
-"기준금리",
-"동결",
-"연속"
-],
-"g": "https://www.newsis.com/view/NISX20261120_0003876355"
-},
-{
-"kind": "속보",
-"link": "https://www.nocutnews.co.kr/news/6609923",
-"t": "2026-11-20T10:06+09:00",
-"tok": [
-"5천선",
-"급락",
-"무너진채",
-"출발",
-"코스피"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261120_0003876170"
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBIN0VfaFBiRkZQcDZpMDJxUFVWd29GZ2FrXzk1SGlCalVtZnF4RnNfd3VsSjNXN2ZJcHpGcTBFN3Q4RnZ4Q2FxWWFwM3BnczEtMWJN?oc=5",
-"t": "2026-11-20T10:06+09:00",
-"tok": [
-"1분기",
-"1조원",
-"내년",
-"실손보험금",
-"잠자는",
-"찾는다",
-"환급"
-]
-},
 {
 "kind": "속보",
 "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9xWWxvWEtENUgxbUVtejBOVnpMLTR0SGhNNGx1YkpFWFVTTEtDZmFoRGRLLUs1OVdSQU5zNEFxMkcwS3FLLW01bFpUQU9LV05n?oc=5",
@@ -12566,6 +12223,53 @@
 "지원",
 "지원금은",
 "확대"
+]
+},
+{
+"kind": "단독",
+"link": "https://www.mt.co.kr/thebio/2026/11/28/2026112713521035623",
+"t": "2026-11-28T10:06+09:00",
+"tok": [
+"공급망",
+"안정적",
+"약가인상",
+"에토미데이트",
+"응급실",
+"의료계",
+"필수약",
+"필요",
+"협상"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA0QXh0NllhQ0dCQnFiZ0hhOEZmbTdKa1RsZEtfbm85UzV6MDZpUzBSNy16Q2ZCRGRJcUdFNmlSN1FuOWxvaVg4MnhTcw?oc=5",
+"t": "2026-11-28T10:06+09:00",
+"tok": [
+"DB생명",
+"금융",
+"동양생명",
+"암보험",
+"위암",
+"이력자",
+"출시",
+"치료비",
+"확대"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE43M2o3ZEUwQTVfMVFCcml4cHlsT042SGZCc2lycWZjZU5uZUlwMGRBWHhHUWlNeFRDNFpCMG93YkZsdXN5ZkFzLWVFa016Q3pZdFFFa0owRTh4WGk2RkJkcG5DNTJtcnFvT2k40gFvQVVfeXFMT3U3MlR6SVMtUWlNallQcENvMEt4TXFVd2Fta1ZfcDZhNzRzUDR1VGV5NTFqRk45UGpEdFdVU2ItWFdOb3hhVXhuQmVDcXZJSUdYY2RHWnhvaGNFOUNwNnYzMnJacEg4RFVGeUNNdnk0?oc=5",
+"t": "2026-11-28T10:06+09:00",
+"tok": [
+"AI",
+"계속된다",
+"급등",
+"끌어올린",
+"나스닥",
+"뉴욕증시",
+"반도체가",
+"변동성은"
 ]
 }
 ]
