@@ -1,169 +1,6 @@
 {
-"updated": "2026-11-28T14:06+09:00",
+"updated": "2026-11-28T15:06+09:00",
 "items": [
-{
-"kind": "gov",
-"link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790088",
-"t": "2026-11-20T15:06+09:00",
-"tok": [
-"1조",
-"6단체",
-"경제",
-"넘어",
-"다짐",
-"달러",
-"도약",
-"산업부",
-"성장",
-"수출",
-"질적",
-"참고자료"
-]
-},
-{
-"kind": "gov",
-"link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790083",
-"t": "2026-11-20T15:06+09:00",
-"tok": [
-"1조",
-"달러",
-"보는",
-"수출",
-"숫자로",
-"풀어"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261120104700001",
-"t": "2026-11-20T15:06+09:00",
-"tok": [
-"당론",
-"대법원장",
-"조희대",
-"채택",
-"탄핵"
-],
-"g": "https://www.yna.co.kr/view/AKR20261120104700001"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261120_0003876811",
-"t": "2026-11-20T15:06+09:00",
-"tok": [
-"당론",
-"대법원장",
-"의총서",
-"조희대",
-"채택",
-"추진",
-"탄핵소추"
-],
-"g": "https://www.yna.co.kr/view/AKR20261120104700001"
-},
-{
-"kind": "속보",
-"link": "https://www.donga.com/news/Politics/article/all/20261120/135060516/1",
-"t": "2026-11-20T15:06+09:00",
-"tok": [
-"결정",
-"당론",
-"대법원장",
-"조희대",
-"탄핵소추"
-],
-"g": "https://www.yna.co.kr/view/AKR20261120104700001"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZVBBdExHdWNpOXVhNU1rMFZKeDNSRGlQSGNYNzBNNjE3ZG9ZbDR0TkVMa0xnY3REOWw1NUl6V2s2RGozN01mWU0tbGY1cXVELWx3eVBJRnFaaWV4eWV4V0w5SVI0ZGMzOFpCcUVMY3pkV3A1ZFY5Q0FCQkdUSVowaVhnVHJOZw?oc=5",
-"t": "2026-11-20T15:06+09:00",
-"tok": [
-"결정",
-"당론",
-"대법원장",
-"민주",
-"의총서",
-"조희대",
-"추진",
-"탄핵"
-],
-"g": "https://www.yna.co.kr/view/AKR20261120104700001"
-},
-{
-"kind": "속보",
-"link": "https://www.edaily.co.kr/News/Read?newsId=03175046645647688",
-"t": "2026-11-20T15:06+09:00",
-"tok": [
-"당론",
-"대법원장",
-"민주당",
-"조희대",
-"채택",
-"탄핵"
-],
-"g": "https://www.yna.co.kr/view/AKR20261120104700001"
-},
-{
-"kind": "속보",
-"link": "https://www.mt.co.kr/politics/2026/11/20/2026112014230777440",
-"t": "2026-11-20T15:06+09:00",
-"tok": [
-"당론",
-"대법원장",
-"민주당",
-"조희대",
-"채택",
-"추진",
-"탄핵"
-],
-"g": "https://www.yna.co.kr/view/AKR20261120104700001"
-},
-{
-"kind": "속보",
-"link": "https://view.asiae.co.kr/article/2026112014290471659",
-"t": "2026-11-20T15:06+09:00",
-"tok": [
-"가급적",
-"넘기지",
-"당론",
-"대법원장",
-"빠른",
-"시기",
-"않을",
-"조희대",
-"채택",
-"탄핵"
-],
-"g": "https://www.yna.co.kr/view/AKR20261120104700001"
-},
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBFWHVxN2JQOUlHX3VXNFUwU0VLVGZXYUJOUFBRUmhPZXBmYlJqOFBCbHh6WHl3SGNGVlFHTHpETUVVXzZvOWJELXNJMTMzeWlLdHBWY194d1RGRFRqUWpMbUdINDdtVEJOWHBtRGJUTXY4UQ?oc=5",
-"t": "2026-11-20T15:06+09:00",
-"tok": [
-"2건",
-"가상자산업자",
-"다윈KS",
-"불법",
-"송치",
-"애플비트"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.hani.co.kr/arti/politics/politics_general/1288335.html",
-"t": "2026-11-20T15:06+09:00",
-"tok": [
-"당론",
-"대법원장",
-"민주",
-"조희대",
-"채택",
-"탄핵소추"
-],
-"g": "https://www.yna.co.kr/view/AKR20261120104700001"
-},
 {
 "kind": "단독",
 "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB5ekRIaWtERkE2dmtaQjYxT1NWajBwRmlsQ2tNbldNcERBNG93cUtVRmV2azZaSzlrMnNjSGZmTHdsbGdOV29CMUdTd2VLcHBxNmUzZ0dCOUlQZWZPYWxNVUg0Smd6NkZfeXpEQ1Rn?oc=5",
@@ -11873,6 +11710,24 @@
 "월급",
 "절세",
 "특강"
+]
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5yYVdnWEtXeUpyMFlyM0JRM0I1QUVMQ1RVcmhfWk1MdHNuc1loNlJUcWhJTnloU2hrSHhlclpqQkxsM2JEMHI2VkdxWjY3MEg1dWZEUUFjX0lvdjJiMlhnNHBNYUpJbkpCaldxckNXR1VLMXJSQUp0V2JHTm8?oc=5",
+"t": "2026-11-28T15:06+09:00",
+"tok": [
+"100만원",
+"2027년",
+"50",
+"국민연금",
+"뉴스",
+"대상자",
+"미만",
+"보험료",
+"소득",
+"지원",
+"확인하세요"
 ]
 }
 ]
