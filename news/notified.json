@@ -1,209 +1,6 @@
 {
-"updated": "2026-11-28T15:06+09:00",
+"updated": "2026-11-28T16:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB5ekRIaWtERkE2dmtaQjYxT1NWajBwRmlsQ2tNbldNcERBNG93cUtVRmV2azZaSzlrMnNjSGZmTHdsbGdOV29CMUdTd2VLcHBxNmUzZ0dCOUlQZWZPYWxNVUg0Smd6NkZfeXpEQ1Rn?oc=5",
-"t": "2026-11-20T16:06+09:00",
-"tok": [
-"1589건의",
-"36억",
-"과태료",
-"보험",
-"제재",
-"지에이코리아",
-"허위계약"
-]
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261120_0003877004",
-"t": "2026-11-20T16:06+09:00",
-"tok": [
-"10개월",
-"검은",
-"금요일",
-"급락",
-"마감",
-"만에",
-"최저치",
-"코스피"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261120_0003877004"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261120_0003877012",
-"t": "2026-11-20T16:06+09:00",
-"tok": [
-"13포인트",
-"39",
-"645",
-"68",
-"71",
-"내린",
-"마감",
-"코스닥"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261120_0003877004"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261120_0003877009",
-"t": "2026-11-20T16:06+09:00",
-"tok": [
-"21",
-"267",
-"4869",
-"93포인트",
-"96",
-"내린",
-"마감",
-"코스피"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261120_0003877004"
-},
-{
-"kind": "속보",
-"link": "https://www.edaily.co.kr/News/Read?newsId=03407926645647688",
-"t": "2026-11-20T16:06+09:00",
-"tok": [
-"4900선",
-"검은",
-"금요일",
-"급락",
-"반도체",
-"붕괴",
-"코스피",
-"투매에"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261120_0003877004"
-},
-{
-"kind": "속보",
-"link": "https://www.yna.co.kr/view/AKR20261120126900008",
-"t": "2026-11-20T16:06+09:00",
-"tok": [
-"검은",
-"금요일",
-"급락",
-"마감",
-"코스닥",
-"코스피"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261120_0003877004"
-},
-{
-"kind": "속보",
-"link": "https://www.newsis.com/view/NISX20261120_0003877016",
-"t": "2026-11-20T16:06+09:00",
-"tok": [
-"1336",
-"2원",
-"달러",
-"마감",
-"오른",
-"환율"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261120_0003877004"
-},
-{
-"kind": "속보",
-"link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNzkzRm0ySldVX3JCbEZiY0s0Yndzcl8zY1ZudFlJUnJLQWlJcHhwTmF6Tnk0ZURpV0VNenpyRlk3NHZXV2dsdEFEcV9tb3p0dTJSNG9JX29QYnFDRnBZOXVhLUZvUUc4MkxlY2xuMWR0T2UzN3NJaDZuVmVQaktOdWN2Tl9zQdIBmgFBVV95cUxNblU3V3R5QzhqcW1JRjA0QTJRLVdHbWJiR2hWVzhRNHlmbVd4Q0dvRGI3X2tGQzhDTlJ3Vk5ocXEzaVFmNEQ2UmVqOW9WdmV4V0x2UzJraWxraVB2VmRSdzNmTFNOcm1fQmo4UmZtUEtSU1JTeGhuMThGRERBeTVpWVdfQWxMOXhvY3JTTVRsMHl0NG5vOGp1b0lR?oc=5",
-"t": "2026-11-20T16:06+09:00",
-"tok": [
-"1336",
-"2원",
-"달러",
-"오른",
-"환율"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261120_0003877004"
-},
-{
-"kind": "속보",
-"link": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008855998&plink=RSSLINK&cooper=RSSREADER",
-"t": "2026-11-20T16:06+09:00",
-"tok": [
-"5천피",
-"검은",
-"금요일",
-"급락",
-"만에",
-"밑으로",
-"사흘"
-],
-"g": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008855998&plink=RSSLINK&cooper=RSSREADER"
-},
-{
-"kind": "속보",
-"link": "https://www.nocutnews.co.kr/news/6610274",
-"t": "2026-11-20T16:06+09:00",
-"tok": [
-"검은",
-"금요일",
-"급락",
-"마감",
-"코스닥",
-"코스피"
-],
-"m": 1,
-"g": "https://www.newsis.com/view/NISX20261120_0003877004"
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BRUxXamZKd3UtRHBqOENJa3lsd0c4RWhnTHhfcnZNQmF3Tmw1R3BTY2VSSDhQSDM4UjNZakUtU2c2aTMxcHdQckJlMVJSQjVaLXE3Qm9BQkxlc1p0WDkyYXdtVTlyNGdGSnc?oc=5",
-"t": "2026-11-20T16:06+09:00",
-"tok": [
-"2세대",
-"3년치",
-"미청구",
-"보험금",
-"보험료",
-"시행",
-"실손24",
-"찾는다",
-"할인도"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1HVGFzNTh6VDRJa0RabVZKcXhNaF9JdWpzc1IyNEZoSnlMWHY5UGQ3WUQxTmdzaWFBcG85Q3pzWFhGX3dVbWJqQ2lHczlMdkdOS3pRUHE1c3V5OUluOE1Ka3BGSm1vc1c1Yk5ob2NUTlpxVzDSAXdBVV95cUxNWFVSZDE0d3JJbXhaS2NnQnhzanhKNmdVVlFKYzR1cVZjSDV4RkJPbGUtTnVjVDgzQ2hpc295YlprQWd1bnNLX1EzNVBDaUlFNEVGRzdnM2xKVFp3MDlXb3BFSVBkUWZ0WEJtNXIwa0t1blVQblQ1cw?oc=5",
-"t": "2026-11-20T16:06+09:00",
-"tok": [
-"23일부터",
-"내년",
-"놓친",
-"실손",
-"실손보험금",
-"앱서",
-"찾는다",
-"초기",
-"할인은"
-]
-},
-{
-"kind": "주목",
-"link": "https://www.yna.co.kr/view/AKR20261120131700057",
-"t": "2026-11-20T16:06+09:00",
-"tok": [
-"감사장",
-"경찰",
-"막은",
-"보이스피싱",
-"새마을금고",
-"울산소식",
-"직원에",
-"피해"
-]
-},
 {
 "kind": "주목",
 "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB5aHgwbjAyeGttbE4yaEhxOHltaVM4ZVM0ZC0wQzhwQk9RODQ5Q3cxTmZ0Nl9EbUFSVGZrZEtWaUJoRlA4QzZkeXBwbXhYODBYN1F4SGc2TUx2Rjhh?oc=5",
@@ -11728,6 +11525,37 @@
 "소득",
 "지원",
 "확인하세요"
+]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4xMUFvejUtMkxVcnFnSHhRQnM3UTROLW5USkpMRHpQZ1d6OVBnMWd1b3FBNlFsMk9oTWNzWU1STE45ekVaRmg0N0lTcHo5NlFUNTZrb3VjMS1tdllETUV4eTRiOUpzOFk4?oc=5",
+"t": "2026-11-28T16:06+09:00",
+"tok": [
+"강릉",
+"대통령",
+"만나",
+"물가",
+"상인",
+"연말",
+"점검",
+"주문진건어물시장서"
+],
+"g": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4xMUFvejUtMkxVcnFnSHhRQnM3UTROLW5USkpMRHpQZ1d6OVBnMWd1b3FBNlFsMk9oTWNzWU1STE45ekVaRmg0N0lTcHo5NlFUNTZrb3VjMS1tdllETUV4eTRiOUpzOFk4?oc=5"
+},
+{
+"kind": "주목",
+"link": "https://www.edaily.co.kr/News/Read?newsId=01672806645650312",
+"t": "2026-11-28T16:06+09:00",
+"tok": [
+"국민연금",
+"낮아진다",
+"누가",
+"문턱",
+"받을까",
+"보험료",
+"얼마나",
+"지원"
 ]
 }
 ]
