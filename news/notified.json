@@ -1,22 +1,6 @@
 {
-"updated": "2026-11-28T16:06+09:00",
+"updated": "2026-11-28T17:06+09:00",
 "items": [
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB5aHgwbjAyeGttbE4yaEhxOHltaVM4ZVM0ZC0wQzhwQk9RODQ5Q3cxTmZ0Nl9EbUFSVGZrZEtWaUJoRlA4QzZkeXBwbXhYODBYN1F4SGc2TUx2Rjhh?oc=5",
-"t": "2026-11-20T17:06+09:00",
-"tok": [
-"1조",
-"23일부터",
-"3년간",
-"5세대",
-"실손보험금",
-"잠든",
-"전환",
-"찾아준다",
-"할인"
-]
-},
 {
 "kind": "단독",
 "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8xY0tfS1dfb3FRM3B6RzBpXy16YWJhLXdwdVhXT2hMRjBjdmVtR2U4OEtCYlBXZWt0SHRpRE80QUJzamgtRU9FczZxNFZRNUVzVjhKcm0xd2xnazQwUlVfM1hicVFLdw?oc=5",
@@ -11557,6 +11541,20 @@
 "얼마나",
 "지원"
 ]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1JbV8wMUJmRHlZTS00aFhsdnZ4NVNTWFYxVEVscERHQVdEWm9IU24xdFBZc0g3Qk4xRDVvRUx2NUo5OHk3OTl5QVJsblJvQXVCdEZwN2NGQjlpQWZRcXhMR3BR?oc=5",
+"t": "2026-11-28T17:06+09:00",
+"tok": [
+"4만원대로",
+"나왔다",
+"떨어진다",
+"삼성전자",
+"섬뜩한",
+"전망"
+],
+"g": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1JbV8wMUJmRHlZTS00aFhsdnZ4NVNTWFYxVEVscERHQVdEWm9IU24xdFBZc0g3Qk4xRDVvRUx2NUo5OHk3OTl5QVJsblJvQXVCdEZwN2NGQjlpQWZRcXhMR3BR?oc=5"
 }
 ]
 }
