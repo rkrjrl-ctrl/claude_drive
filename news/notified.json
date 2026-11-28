@@ -1,97 +1,6 @@
 {
-"updated": "2026-11-28T17:06+09:00",
+"updated": "2026-11-28T18:06+09:00",
 "items": [
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8xY0tfS1dfb3FRM3B6RzBpXy16YWJhLXdwdVhXT2hMRjBjdmVtR2U4OEtCYlBXZWt0SHRpRE80QUJzamgtRU9FczZxNFZRNUVzVjhKcm0xd2xnazQwUlVfM1hicVFLdw?oc=5",
-"t": "2026-11-20T18:06+09:00",
-"tok": [
-"경기도당",
-"김승원",
-"배당",
-"사건",
-"서울청",
-"회계부정"
-]
-},
-{
-"kind": "단독",
-"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9yWTVuMW1GUTlRWk1JcmJ3QnZZX2F0dVdsSFFlS0g2VTg3eFdWdnptUFNPb1o1NFBhTS1BbWlsLVB6OGtTd1k4RGRFVlpQTm1DT1A1Rm8zRENEMUNZZm1NTUc1ZG9KUmhpSnM4RjdB?oc=5",
-"t": "2026-11-20T18:06+09:00",
-"tok": [
-"1억",
-"86건",
-"과태료",
-"보험계약",
-"삼성화재",
-"위반",
-"제재",
-"해피콜"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAtdVBIRjhQTi1LWkU4Rkp4ZHp0SktjSGI2VTQ4MlhWeF9hQ1hhUGoya1NLT3AzZWhXNnVSY2lGOXdYdG5DWHJqdnBUWDUzTkl3RVIxUndhV291amNKT0cybXpidV9TaDlvY0dXYzB3?oc=5",
-"t": "2026-11-20T18:06+09:00",
-"tok": [
-"1조원",
-"내년부터",
-"보험금",
-"숨은",
-"실손보험금",
-"않은",
-"조회한다",
-"청구하지",
-"최대"
-]
-},
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5OWXYwZDE1RWJYdUVJbjBzMHVJM0VJNFZYVnVYRkR1SXB4VEQ1Nkg0YU1HcV92TVFDcGNKUkp6RWJaYVRlLUhaYVFZQTNQUlNIcXBJOWlvRDZEcXpjckpuZ05GYXV4UTZQbEo0U25lRkg4aVFO?oc=5",
-"t": "2026-11-20T18:06+09:00",
-"tok": [
-"600만",
-"경찰의",
-"그건",
-"기지로",
-"막아",
-"보이스피싱",
-"스피커였다",
-"피해"
-]
-},
-{
-"kind": "주목",
-"link": "https://www.fnnews.com/news/202611201627278520",
-"t": "2026-11-20T18:06+09:00",
-"tok": [
-"1호",
-"7억원",
-"구속",
-"노쇼사기로",
-"법정행",
-"보이스피싱",
-"중수청",
-"피의자",
-"피해"
-]
-},
-{
-"kind": "주목",
-"link": "https://www.mt.co.kr/society/2026/11/20/2026112016134096061",
-"t": "2026-11-20T18:06+09:00",
-"tok": [
-"1호",
-"기소",
-"노쇼",
-"말레이시아",
-"보이스피싱",
-"사기",
-"서울중수청",
-"수사",
-"조직원"
-]
-},
 {
 "kind": "주목",
 "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83U21kdlM0VThONmhEU1hJNnUwcmdBNl9hdXBkT1dSZVcxSUxRVlF1T2hHUlc1THV3WmpGcHFpa2wtTVhINGN1ck9IOHpGX1QwcVJWQkdCWmZ6dw?oc=5",
@@ -11555,6 +11464,24 @@
 "전망"
 ],
 "g": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1JbV8wMUJmRHlZTS00aFhsdnZ4NVNTWFYxVEVscERHQVdEWm9IU24xdFBZc0g3Qk4xRDVvRUx2NUo5OHk3OTl5QVJsblJvQXVCdEZwN2NGQjlpQWZRcXhMR3BR?oc=5"
+},
+{
+"kind": "주목",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1nNnhsblZvdkRQNTBNd3c3YnU2UndYTTd6MlExTnduQVJtWXVOQmYyZHZyaFY1YXprbzE1c2t1UnI1blgwSWhWdkwyX2ZQZjlIb3NN?oc=5",
+"t": "2026-11-28T18:06+09:00",
+"tok": [
+"2년",
+"5배로",
+"98만5천명",
+"국민연금",
+"껑충",
+"내년엔",
+"대상",
+"보험료",
+"저소득",
+"지역가입자",
+"지원"
+]
 }
 ]
 }
