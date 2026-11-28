@@ -1,22 +1,6 @@
 {
-"updated": "2026-11-28T18:06+09:00",
+"updated": "2026-11-28T19:06+09:00",
 "items": [
-{
-"kind": "주목",
-"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83U21kdlM0VThONmhEU1hJNnUwcmdBNl9hdXBkT1dSZVcxSUxRVlF1T2hHUlc1THV3WmpGcHFpa2wtTVhINGN1ck9IOHpGX1QwcVJWQkdCWmZ6dw?oc=5",
-"t": "2026-11-20T19:06+09:00",
-"tok": [
-"15억원",
-"기저귀로",
-"보험금",
-"송치",
-"위장",
-"인지장애",
-"일당",
-"챙긴",
-"휠체어"
-]
-},
 {
 "kind": "주목",
 "link": "https://www.hankyung.com/article/2026112008757",
@@ -11482,6 +11466,21 @@
 "지역가입자",
 "지원"
 ]
+},
+{
+"kind": "속보",
+"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE16NldRZ2xwaWNYMVljTTA1OWM0SHN0eG4yZ2JpMGdiS1VCSDg2dkU2R3NTT2MxMmFCS2U2RXEydkRhSlV5Y0xmVGVsMkxJWGc?oc=5",
+"t": "2026-11-28T19:06+09:00",
+"tok": [
+"많이",
+"삼전",
+"신입사원",
+"채용",
+"총리",
+"하이닉스에",
+"해달라"
+],
+"g": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE16NldRZ2xwaWNYMVljTTA1OWM0SHN0eG4yZ2JpMGdiS1VCSDg2dkU2R3NTT2MxMmFCS2U2RXEydkRhSlV5Y0xmVGVsMkxJWGc?oc=5"
 }
 ]
 }
